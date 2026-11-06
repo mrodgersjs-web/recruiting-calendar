@@ -38,3 +38,5 @@ STOP when: every surface's wow >= 0.85 on 3 consecutive runs with controls passi
 NEVER: post publicly, email anyone except Mike's own address, spend money, generate a likeness of a real person, or edit the judge.
 
 BUDGET: keep each run under ~25 minutes; if the Roast Room or fix step would overrun, record it as next-run work. If any previous run is still in progress (lock file v3/HEARTBEAT/.lock younger than 40 minutes; an older lock is stale from a crashed run, so delete it and proceed), exit immediately; create the lock at start and remove it at the end.
+
+LANDED-CHECK (added 2026-11-06 02:05): before re-handing any fix as "not landed", open the shot and check whether the requested change is visibly present. If it is present but the score is still low, write "LANDED, score still low: <what the shot shows>" and send it to the next Roast Room as the weakest surface. Do not re-hand it. A score below target is not evidence that a fix is missing.

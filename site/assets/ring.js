@@ -155,7 +155,7 @@ bind(){
   if(b=t.closest('[data-go]')){const k=this.rank(+b.dataset.go);const kk=this.mob?k:k;if(k!==0&&Math.abs(k)<6)this.moveTo(Math.round(this.target)+(this.mob&&k>6?k-12:kk));}
  });
  const pn=this.querySelector('.sr__panel');pn.addEventListener('pointerenter',e=>{if(e.pointerType==='mouse')this.panelHover=true});pn.addEventListener('pointerleave',()=>{this.panelHover=false;this.restartBar()});
- if(matchMedia('(hover:hover) and (pointer:fine)').matches){this.classList.add('has-cursor');const c=this.cursor;let x=0,y=0,tx=0,ty=0,on=false,cr=0;
+ if(matchMedia('(hover:hover) and (pointer:fine) and (min-width:750px)').matches){this.classList.add('has-cursor');const c=this.cursor;let x=0,y=0,tx=0,ty=0,on=false,cr=0;
   const loop=()=>{cr=0;const L=RM?1:.18;x+=(tx-x)*L;y+=(ty-y)*L;c.style.transform=`translate3d(${x}px,${y}px,0)`;if(Math.hypot(tx-x,ty-y)>.2)cr=requestAnimationFrame(loop)};
   st.addEventListener('pointermove',e=>{if(e.pointerType!=='mouse')return;const r=st.getBoundingClientRect();tx=e.clientX-r.left;ty=e.clientY-r.top;if(!on){on=true;x=tx;y=ty;c.classList.add('is-on')}
    const view=!this.dragging&&e.target.closest('[data-view]'),link=!this.dragging&&e.target.closest('[data-go]');c.classList.toggle('is-view',!!view);c.classList.toggle('is-link',!!link);if(!cr)cr=requestAnimationFrame(loop)});
