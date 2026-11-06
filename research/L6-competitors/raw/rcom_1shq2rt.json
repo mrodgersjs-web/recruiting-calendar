@@ -1,0 +1,30 @@
+{
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "{\n  \"error\": {\n    \"code\": \"bad_request\",\n    \"message\": \"Unknown field `postId`. This tool takes: `url`, `cursor`, `trim`.\",\n    \"requestId\": \"req_2491ce65-8eaf-4181-aca7-09ffab41ddac\"\n  }\n}"
+   },
+   {
+    "type": "text",
+    "text": "{\"conversation_id\":\"01a1af42-81f2-7aae-96f6-72c4c5a80a7a\"}"
+   }
+  ],
+  "structuredContent": {
+   "error": {
+    "code": "bad_request",
+    "message": "Unknown field `postId`. This tool takes: `url`, `cursor`, `trim`.",
+    "requestId": "req_2491ce65-8eaf-4181-aca7-09ffab41ddac"
+   },
+   "card": {
+    "kind": "status",
+    "status": "error",
+    "title": "Lookup failed",
+    "subtitle": "Unknown field `postId`. This tool takes: `url`, `cursor`, `trim`."
+   }
+  },
+  "isError": true
+ },
+ "jsonrpc": "2.0",
+ "id": 1
+}

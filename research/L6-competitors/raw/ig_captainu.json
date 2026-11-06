@@ -1,0 +1,79 @@
+{
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "{\n  \"data\": {\n    \"lookupStatus\": \"found\",\n    \"profile\": {\n      \"id\": \"3666991774\",\n      \"handle\": \"captainu\",\n      \"displayName\": \"captain underpants\",\n      \"avatarUrl\": \"https://scontent-atl3-1.cdninstagram.com/v/t51.89012-19/573323465_1219825463302212_7278921664109726296_n.png?stp=dst-webp&_nc_cat=1&ig_cache_key=YW5vbnltb3VzX3Byb2ZpbGVfcGlj.3-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xNTAuQzMifQ%3D%3D&_nc_ohc=g1H1oo4EYDEQ7kNvwG9Bdec&_nc_oc=Ado3q4UCiV8Noc5_6bnH_I66gOrz_rahp771byPhjkANHiCmYYa0D25oj5-hK1CeAsA&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=6AkKb3KzWOxO7r4qxZ6glA&_nc_ss=723ba&oh=00_AQQBBePGjvdg20aTPO68kASOyqy3E7t_ycQyWIQnkwjbDw&oe=6AF32119\",\n      \"verified\": false,\n      \"privateAccount\": false,\n      \"bio\": null,\n      \"profileUrl\": \"https://www.instagram.com/captainu/\",\n      \"avatarUrlHd\": \"https://instagram.faep39-1.fna.fbcdn.net/v/t51.2885-19/573323465_1219825463302212_7278921664109726296_n.png?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xNTAuYzIifQ&_nc_ht=instagram.faep39-1.fna.fbcdn.net&_nc_cat=1&_nc_oc=Q6cZ2gF9ZQ9glGLesYTT0SJiKVqoHeQICI9FYq68nZoFLpuUg6gByDz8LPHR3b24l7CsZkK5DeUImADdnfpwkZEH9f0_&_nc_ohc=kwiilGbw6cUQ7kNvwG8D59Y&edm=AAAAAAABAAAA&ccb=7-5&ig_cache_key=YW5vbnltb3VzX3Byb2ZpbGVfcGlj.3-ccb7-5&oh=00_AQQ-ktC0YI3_RgiuHgJKmXLArqPvRwO-tlWgL8SoQ6qg8Q&oe=6AF343EA&_nc_sid=328259\",\n      \"externalUrl\": null,\n      \"bioLinks\": [],\n      \"category\": null,\n      \"accountType\": \"personal\",\n      \"metrics\": {\n        \"followers\": 5,\n        \"following\": 0,\n        \"posts\": 0\n      },\n      \"hasHighlights\": false,\n      \"hasActiveStory\": false,\n      \"contact\": null\n    },\n    \"recentMedia\": [],\n    \"about\": null\n  },\n  \"meta\": {\n    \"requestId\": \"req_b73f36b3-602f-435d-84e1-c75712b701c6\",\n    \"creditsCharged\": 2,\n    \"version\": \"v2\"\n  }\n}"
+   },
+   {
+    "type": "text",
+    "text": "{\"conversation_id\":\"01a1af41-6ea7-70f5-b09d-d4896f606ea6\"}"
+   }
+  ],
+  "structuredContent": {
+   "data": {
+    "lookupStatus": "found",
+    "profile": {
+     "id": "3666991774",
+     "handle": "captainu",
+     "displayName": "captain underpants",
+     "avatarUrl": "https://scontent-atl3-1.cdninstagram.com/v/t51.89012-19/573323465_1219825463302212_7278921664109726296_n.png?stp=dst-webp&_nc_cat=1&ig_cache_key=YW5vbnltb3VzX3Byb2ZpbGVfcGlj.3-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xNTAuQzMifQ%3D%3D&_nc_ohc=g1H1oo4EYDEQ7kNvwG9Bdec&_nc_oc=Ado3q4UCiV8Noc5_6bnH_I66gOrz_rahp771byPhjkANHiCmYYa0D25oj5-hK1CeAsA&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=6AkKb3KzWOxO7r4qxZ6glA&_nc_ss=723ba&oh=00_AQQBBePGjvdg20aTPO68kASOyqy3E7t_ycQyWIQnkwjbDw&oe=6AF32119",
+     "verified": false,
+     "privateAccount": false,
+     "bio": null,
+     "profileUrl": "https://www.instagram.com/captainu/",
+     "avatarUrlHd": "https://instagram.faep39-1.fna.fbcdn.net/v/t51.2885-19/573323465_1219825463302212_7278921664109726296_n.png?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xNTAuYzIifQ&_nc_ht=instagram.faep39-1.fna.fbcdn.net&_nc_cat=1&_nc_oc=Q6cZ2gF9ZQ9glGLesYTT0SJiKVqoHeQICI9FYq68nZoFLpuUg6gByDz8LPHR3b24l7CsZkK5DeUImADdnfpwkZEH9f0_&_nc_ohc=kwiilGbw6cUQ7kNvwG8D59Y&edm=AAAAAAABAAAA&ccb=7-5&ig_cache_key=YW5vbnltb3VzX3Byb2ZpbGVfcGlj.3-ccb7-5&oh=00_AQQ-ktC0YI3_RgiuHgJKmXLArqPvRwO-tlWgL8SoQ6qg8Q&oe=6AF343EA&_nc_sid=328259",
+     "externalUrl": null,
+     "bioLinks": [],
+     "category": null,
+     "accountType": "personal",
+     "metrics": {
+      "followers": 5,
+      "following": 0,
+      "posts": 0
+     },
+     "hasHighlights": false,
+     "hasActiveStory": false,
+     "contact": null
+    },
+    "recentMedia": [],
+    "about": null
+   },
+   "meta": {
+    "requestId": "req_b73f36b3-602f-435d-84e1-c75712b701c6",
+    "creditsCharged": 2,
+    "version": "v2"
+   },
+   "card": {
+    "kind": "profile",
+    "title": "captain underpants",
+    "subtitle": "@captainu",
+    "platform": "Instagram",
+    "handle": "@captainu",
+    "verified": false,
+    "metrics": [
+     {
+      "label": "Followers",
+      "value": "5"
+     },
+     {
+      "label": "Posts",
+      "value": "0"
+     },
+     {
+      "label": "Following",
+      "value": "0"
+     }
+    ],
+    "href": "https://www.instagram.com/captainu/",
+    "sourceLabel": "Open profile",
+    "avatar": {
+     "kind": "fallback",
+     "initial": "C"
+    }
+   }
+  }
+ },
+ "jsonrpc": "2.0",
+ "id": 1
+}

@@ -1,0 +1,35 @@
+{
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "{\n  \"data\": {\n    \"lookupStatus\": \"not_found\",\n    \"profile\": null,\n    \"recentMedia\": null,\n    \"about\": null\n  },\n  \"meta\": {\n    \"requestId\": \"req_d3fdc159-1ac5-4590-b83a-0ad46bd801f2\",\n    \"creditsCharged\": 1,\n    \"version\": \"v2\"\n  }\n}"
+   },
+   {
+    "type": "text",
+    "text": "{\"conversation_id\":\"01a1af41-7877-706f-8a7c-940df9a5d80f\"}"
+   }
+  ],
+  "structuredContent": {
+   "data": {
+    "lookupStatus": "not_found",
+    "profile": null,
+    "recentMedia": null,
+    "about": null
+   },
+   "meta": {
+    "requestId": "req_d3fdc159-1ac5-4590-b83a-0ad46bd801f2",
+    "creditsCharged": 1,
+    "version": "v2"
+   },
+   "card": {
+    "kind": "status",
+    "status": "not_found",
+    "title": "Not found",
+    "subtitle": "No public match for that lookup."
+   }
+  }
+ },
+ "jsonrpc": "2.0",
+ "id": 1
+}

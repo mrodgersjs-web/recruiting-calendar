@@ -1,0 +1,34 @@
+{
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "{\n  \"data\": {\n    \"query\": \"recruiting service for my son\",\n    \"posts\": [],\n    \"totalResults\": 0\n  },\n  \"meta\": {\n    \"requestId\": \"req_15cd4acb-1a52-4343-9e7d-ce5f3da55669\",\n    \"creditsCharged\": 1,\n    \"version\": \"v1\"\n  }\n}"
+   },
+   {
+    "type": "text",
+    "text": "{\"conversation_id\":\"01a1af41-d70a-7647-ba94-b5ee55391225\"}"
+   }
+  ],
+  "structuredContent": {
+   "data": {
+    "query": "recruiting service for my son",
+    "posts": [],
+    "totalResults": 0
+   },
+   "meta": {
+    "requestId": "req_15cd4acb-1a52-4343-9e7d-ce5f3da55669",
+    "creditsCharged": 1,
+    "version": "v1"
+   },
+   "card": {
+    "kind": "status",
+    "status": "empty",
+    "title": "No public results",
+    "subtitle": "That search did not return any public posts."
+   }
+  }
+ },
+ "jsonrpc": "2.0",
+ "id": 1
+}

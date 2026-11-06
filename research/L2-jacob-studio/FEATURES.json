@@ -1,0 +1,272 @@
+{
+ "lane": "L2-jacob-studio",
+ "generated": "2026-11-05",
+ "features": [
+  {
+   "id": "coach-follow-tracker",
+   "capability": "Coach follow/engagement signal tracking on X",
+   "source_path": "automation/daily/census.py, coach_reporting.py, tracker/kpi.jsonl",
+   "bucket": "PRODUCTIZE",
+   "parent_feature": "Coach-follow signal tracker",
+   "tier": "Pathway",
+   "build_effort": "M"
+  },
+  {
+   "id": "coach-identity-resolver",
+   "capability": "Resolve coach names to X handles/staff pages",
+   "source_path": "automation/daily/coach_identity_resolver.py, automation/recruiting/program_handle_resolver.py",
+   "bucket": "INTERNAL",
+   "parent_feature": "(powers coach directory + follow tracker)",
+   "tier": "-",
+   "build_effort": "M"
+  },
+  {
+   "id": "coach-census-refresh",
+   "capability": "D1 coach census scrape + classify (role, activity, follow mix)",
+   "source_path": "research/coach-x-osint-2026-10-23/scrape_coaches.py, analyze.py, jev_classify.py; research/coach-census/",
+   "bucket": "INTERNAL",
+   "parent_feature": "(powers coach-activity benchmarks)",
+   "tier": "-",
+   "build_effort": "L"
+  },
+  {
+   "id": "coach-activity-benchmarks",
+   "capability": "Aggregate coach X behavior by role (posting rate, RT share, recruit share of follows)",
+   "source_path": "research/coach-x-osint-2026-10-23/analysis/summary.json (aggregate fields only)",
+   "bucket": "PRODUCTIZE",
+   "parent_feature": "Which coaches actually use X (role benchmarks)",
+   "tier": "Sideline",
+   "build_effort": "S"
+  },
+  {
+   "id": "coach-directory",
+   "capability": "Coach + recruiter directory (fca-crm: 6,213 coach_directory rows, 797 rec_directory rows)",
+   "source_path": "~/Developer/fca-crm/data/fca_crm.sqlite",
+   "bucket": "PRODUCTIZE",
+   "parent_feature": "Program & coach contact directory",
+   "tier": "Pathway",
+   "build_effort": "M"
+  },
+  {
+   "id": "program-list",
+   "capability": "National program list + peers",
+   "source_path": "coaches/programs-national.csv",
+   "bucket": "INTERNAL",
+   "parent_feature": "(seeds directory/target lists)",
+   "tier": "-",
+   "build_effort": "S"
+  },
+  {
+   "id": "target-school-list",
+   "capability": "Program targeting / fit list",
+   "source_path": "strategy/08-coach-recruiting-funnel.md",
+   "bucket": "PRODUCTIZE",
+   "parent_feature": "Target school list builder",
+   "tier": "Pathway",
+   "build_effort": "M"
+  },
+  {
+   "id": "outreach-tracker",
+   "capability": "Coach outreach log schema + jsonl tracker",
+   "source_path": "tracker/COACH-OUTREACH-SCHEMA.md",
+   "bucket": "PRODUCTIZE",
+   "parent_feature": "Hosted recruiting tracker (contacts, replies, next step)",
+   "tier": "Sideline",
+   "build_effort": "M"
+  },
+  {
+   "id": "kpi-scorecard",
+   "capability": "Recruiting KPI tree + scorecard",
+   "source_path": "automation/recruiting/kpi_scorecard.py, strategy/04-kpi-tree.md, tracker/kpi-targets.json",
+   "bucket": "PRODUCTIZE",
+   "parent_feature": "Recruiting progress scorecard",
+   "tier": "Pathway",
+   "build_effort": "S"
+  },
+  {
+   "id": "x-profile-audit",
+   "capability": "Recruiting X account audit (bio, pinned, cadence)",
+   "source_path": "research/04-baseline-audit.md, 05-live-account-audit.md, automation/cdp/x_account.py",
+   "bucket": "PRODUCTIZE",
+   "parent_feature": "Recruiting X profile audit",
+   "tier": "Recruiting Audit",
+   "build_effort": "S"
+  },
+  {
+   "id": "recruiting-profile-audit",
+   "capability": "Score a recruiting profile (Hudl/X) against D1 coach review rubric",
+   "source_path": "automation/film/d1_profile_jev.py, d1_review.py, d1_coach_100.py",
+   "bucket": "PRODUCTIZE",
+   "parent_feature": "Coach-eye profile review",
+   "tier": "Recruiting Audit",
+   "build_effort": "M"
+  },
+  {
+   "id": "film-reel-brief",
+   "capability": "Highlight reel planning, cut gates, clip selection checklists",
+   "source_path": "automation/film/CUT-GATES.md, HARNESSES.md, film.pre-landing-*/HIGHLIGHT-PLAN.md",
+   "bucket": "PRODUCTIZE",
+   "parent_feature": "Film reel brief + cut checklist",
+   "tier": "Pathway",
+   "build_effort": "S"
+  },
+  {
+   "id": "film-assembly",
+   "capability": "Automated clip assembly pipeline",
+   "source_path": "automation/film/assemble.py, flows/",
+   "bucket": "INTERNAL",
+   "parent_feature": "(optional future: reel assembler)",
+   "tier": "-",
+   "build_effort": "L"
+  },
+  {
+   "id": "film-coach-screening",
+   "capability": "How coaches screen film (research)",
+   "source_path": "research/2026-10-01-film-coach-screening.md",
+   "bucket": "PRODUCTIZE",
+   "parent_feature": "Film guide: what coaches watch first",
+   "tier": "Free",
+   "build_effort": "S"
+  },
+  {
+   "id": "compliance-rules",
+   "capability": "NCAA contact/NIL rules research + correction",
+   "source_path": "research/01-compliance-nil-rules.md, 01a-coach-contact-CORRECTION-2026-09-18.md",
+   "bucket": "PRODUCTIZE",
+   "parent_feature": "Sourced contact-period rules (by bylaw)",
+   "tier": "Free",
+   "build_effort": "S"
+  },
+  {
+   "id": "nil-rules-pipeline",
+   "capability": "NIL deal/inbound/prospect CLIs + readiness",
+   "source_path": "automation/cli/nil_*.py, strategy/09-10, cron/06-weekly-nil-readiness.md",
+   "bucket": "PRODUCTIZE",
+   "parent_feature": "NIL readiness checklist (state rules)",
+   "tier": "Pathway",
+   "build_effort": "M"
+  },
+  {
+   "id": "x-growth-playbook",
+   "capability": "X growth research + case studies, post playbook",
+   "source_path": "research/02-x-growth-and-case-studies.md, FIVE-STAR-X-PLAYBOOK-20261023.md, strategy/07,17",
+   "bucket": "PRODUCTIZE",
+   "parent_feature": "Recruiting X playbook for parents",
+   "tier": "Sideline",
+   "build_effort": "S"
+  },
+  {
+   "id": "content-calendar",
+   "capability": "Daily signal->draft->gate cron, editorial calendar, posting times",
+   "source_path": "automation/cron/01-05, automation/daily/drafts.py, posting-times.json, content/",
+   "bucket": "PRODUCTIZE",
+   "parent_feature": "Weekly recruiting content calendar (drafts only)",
+   "tier": "Pathway",
+   "build_effort": "M"
+  },
+  {
+   "id": "approval-gate",
+   "capability": "Guardian Gate-D: nothing posts without parent approval",
+   "source_path": "GATES.md, strategy/03-risk-autonomy-gates.md",
+   "bucket": "PRODUCTIZE",
+   "parent_feature": "Parent-approval gate (no auto-posting)",
+   "tier": "Sideline",
+   "build_effort": "S"
+  },
+  {
+   "id": "camp-roi",
+   "capability": "Camp/visit signal analysis (coach RT content classes incl. camp/visit)",
+   "source_path": "analysis retweet_content aggregates; strategy/08",
+   "bucket": "PRODUCTIZE",
+   "parent_feature": "Camp ROI checker",
+   "tier": "Sideline",
+   "build_effort": "M"
+  },
+  {
+   "id": "maxpreps-stats-pull",
+   "capability": "Stats/scores pulls (MaxPreps)",
+   "source_path": "automation/cdp/maxpreps.py",
+   "bucket": "INTERNAL",
+   "parent_feature": "(stats import for tracker)",
+   "tier": "-",
+   "build_effort": "M"
+  },
+  {
+   "id": "eden-publisher",
+   "capability": "Eden draft/schedule bridge",
+   "source_path": "automation/eden/",
+   "bucket": "INTERNAL",
+   "parent_feature": "(drafts export; never auto-post)",
+   "tier": "-",
+   "build_effort": "S"
+  },
+  {
+   "id": "agents-roster",
+   "capability": "Agent roster: film scout, hudl scout, reply scout, QC verifier",
+   "source_path": "automation/agents/",
+   "bucket": "INTERNAL",
+   "parent_feature": "(ops agents)",
+   "tier": "-",
+   "build_effort": "-"
+  },
+  {
+   "id": "dashboard",
+   "capability": "Next.js KPI dashboard",
+   "source_path": "dashboard/",
+   "bucket": "INTERNAL",
+   "parent_feature": "(pattern for member dashboard)",
+   "tier": "-",
+   "build_effort": "M"
+  },
+  {
+   "id": "harness-governance",
+   "capability": "Master harness, proof obligations, fixer, durable worker",
+   "source_path": "00-master-harness.md, architecture/, automation/fixer, automation/durable",
+   "bucket": "INTERNAL",
+   "parent_feature": "(ops governance)",
+   "tier": "-",
+   "build_effort": "-"
+  },
+  {
+   "id": "athlete-identity",
+   "capability": "Identity brains, film folders, follower lists, coach follower crossmatch, guardian inputs, clips, Hudl inventory, campaigns, goals",
+   "source_path": "brains/, film/, research/coach-x-osint-2026-10-23/analysis/*follower*, tracker/*hudl*, tracker/wn-*, tracker/guardian-inputs.json, campaigns/, goals/, content/, follow-queue/",
+   "bucket": "KEEP_PRIVATE",
+   "parent_feature": "-",
+   "tier": "-",
+   "build_effort": "-"
+  },
+  {
+   "id": "other-private-repos",
+   "capability": "3 other athlete-specific repos (private repos, athlete-specific)",
+   "source_path": "github mrodgersjs-web/*",
+   "bucket": "KEEP_PRIVATE",
+   "parent_feature": "-",
+   "tier": "-",
+   "build_effort": "-"
+  }
+ ],
+ "safe_aggregate_findings": {
+  "coach_accounts_analyzed": 610,
+  "by_role_n": {
+   "PROGRAM": 201,
+   "HC": 124,
+   "OL": 92,
+   "RC": 76,
+   "DC": 60,
+   "OC": 56
+  },
+  "active_last_30d_pct": {
+   "PROGRAM": 98,
+   "HC": 69,
+   "OL": 65,
+   "RC": 83,
+   "DC": 63,
+   "OC": 50
+  },
+  "median_recent_rt_share_position_coaches": "0.78-0.97 (HC..RC)",
+  "recruit_share_of_recent_follows": "0.21 (HC) to 0.38 (OL)",
+  "source": "studio research/coach-x-osint-2026-10-23/analysis/summary.json, generated 2026-10-24; aggregate only, no individual data"
+ },
+ "rule": "No athlete-identifying data copied; KEEP_PRIVATE rows are names of categories only."
+}

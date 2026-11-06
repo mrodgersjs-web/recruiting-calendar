@@ -1,0 +1,30 @@
+{
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "{\n  \"error\": {\n    \"code\": \"bad_request\",\n    \"message\": \"Invalid lookup request.\",\n    \"requestId\": \"req_88c510c8-dbee-49d9-bf99-4d1aaeb7103e\"\n  }\n}"
+   },
+   {
+    "type": "text",
+    "text": "{\"conversation_id\":\"01a1af42-86a7-7b0c-827a-70bdec64dc99\"}"
+   }
+  ],
+  "structuredContent": {
+   "error": {
+    "code": "bad_request",
+    "message": "Invalid lookup request.",
+    "requestId": "req_88c510c8-dbee-49d9-bf99-4d1aaeb7103e"
+   },
+   "card": {
+    "kind": "status",
+    "status": "error",
+    "title": "Lookup failed",
+    "subtitle": "Invalid lookup request."
+   }
+  },
+  "isError": true
+ },
+ "jsonrpc": "2.0",
+ "id": 1
+}

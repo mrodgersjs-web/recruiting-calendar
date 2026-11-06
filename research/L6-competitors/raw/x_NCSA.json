@@ -1,0 +1,128 @@
+{
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "{\n  \"data\": {\n    \"lookupStatus\": \"found\",\n    \"profile\": {\n      \"platform\": \"twitter\",\n      \"handle\": \"ncsa\",\n      \"displayName\": \"NCSA College Recruiting\",\n      \"bio\": \"The leader in college athletic recruiting. Part of @IMGAcademy. Expert guidance connecting student-athletes to 50,000+ college coaches. Create your free profile\",\n      \"avatarUrl\": \"https://pbs.twimg.com/profile_images/1689636088237666304/JAHoyAJE_400x400.jpg\",\n      \"bannerUrl\": \"https://pbs.twimg.com/profile_banners/18138092/1756215394/1500x500\",\n      \"verified\": false,\n      \"blueVerified\": true,\n      \"profileUrl\": \"https://x.com/ncsa\",\n      \"privateAccount\": false,\n      \"platformUserId\": \"18138092\",\n      \"accountCreatedAt\": \"2008-12-15T15:16:30.000Z\",\n      \"accountCreatedAtUnix\": 1229354190,\n      \"location\": \"Bradenton, FL\",\n      \"website\": \"https://bit.ly/3TByQUX\",\n      \"verificationInfo\": {\n        \"isIdentityVerified\": false,\n        \"verifiedSinceMsec\": \"1497863518599\"\n      },\n      \"highlights\": {\n        \"canHighlightTweets\": true,\n        \"highlightedTweetCount\": 3\n      },\n      \"businessAccount\": {\n        \"affiliatesCount\": 0\n      },\n      \"creatorSubscriptionsCount\": 0,\n      \"isBlueVerified\": true,\n      \"verifiedType\": \"This account is verified. Learn more\",\n      \"pinnedTweetIds\": [],\n      \"favoritesCount\": 47513,\n      \"createdAt\": \"2008-12-15T15:16:30.000Z\",\n      \"professional\": null,\n      \"withheldInCountries\": [],\n      \"profileImageShape\": \"Circle\",\n      \"verifiedSince\": \"2017-06-19T09:11:58.599Z\",\n      \"possiblySensitive\": false,\n      \"profileInterstitialType\": null,\n      \"hasHiddenSubscriptions\": false,\n      \"hasGraduatedAccess\": true,\n      \"isProfileTranslatable\": false,\n      \"hasCustomTimelines\": true,\n      \"isTranslator\": false,\n      \"defaultProfile\": false,\n      \"defaultProfileImage\": false\n    },\n    \"metrics\": {\n      \"availableFields\": [\n        \"followers\",\n        \"following\",\n        \"tweets\",\n        \"favourites\",\n        \"listedCount\",\n        \"mediaCount\"\n      ],\n      \"followers\": 245036,\n      \"following\": 102788,\n      \"tweets\": 93425,\n      \"favourites\": 47513,\n      \"listedCount\": 405,\n      \"mediaCount\": 19344\n    }\n  },\n  \"meta\": {\n    \"requestId\": \"req_07f72cc5-e5a1-426c-94f7-1a24c38721e3\",\n    \"creditsCharged\": 1,\n    \"version\": \"v1\"\n  }\n}"
+   },
+   {
+    "type": "text",
+    "text": "{\"conversation_id\":\"01a1af41-dfe6-7728-901b-7ebbbb457098\"}"
+   }
+  ],
+  "structuredContent": {
+   "data": {
+    "lookupStatus": "found",
+    "profile": {
+     "platform": "twitter",
+     "handle": "ncsa",
+     "displayName": "NCSA College Recruiting",
+     "bio": "The leader in college athletic recruiting. Part of @IMGAcademy. Expert guidance connecting student-athletes to 50,000+ college coaches. Create your free profile",
+     "avatarUrl": "https://pbs.twimg.com/profile_images/1689636088237666304/JAHoyAJE_400x400.jpg",
+     "bannerUrl": "https://pbs.twimg.com/profile_banners/18138092/1756215394/1500x500",
+     "verified": false,
+     "blueVerified": true,
+     "profileUrl": "https://x.com/ncsa",
+     "privateAccount": false,
+     "platformUserId": "18138092",
+     "accountCreatedAt": "2008-12-15T15:16:30.000Z",
+     "accountCreatedAtUnix": 1229354190,
+     "location": "Bradenton, FL",
+     "website": "https://bit.ly/3TByQUX",
+     "verificationInfo": {
+      "isIdentityVerified": false,
+      "verifiedSinceMsec": "1497863518599"
+     },
+     "highlights": {
+      "canHighlightTweets": true,
+      "highlightedTweetCount": 3
+     },
+     "businessAccount": {
+      "affiliatesCount": 0
+     },
+     "creatorSubscriptionsCount": 0,
+     "isBlueVerified": true,
+     "verifiedType": "This account is verified. Learn more",
+     "pinnedTweetIds": [],
+     "favoritesCount": 47513,
+     "createdAt": "2008-12-15T15:16:30.000Z",
+     "professional": null,
+     "withheldInCountries": [],
+     "profileImageShape": "Circle",
+     "verifiedSince": "2017-06-19T09:11:58.599Z",
+     "possiblySensitive": false,
+     "profileInterstitialType": null,
+     "hasHiddenSubscriptions": false,
+     "hasGraduatedAccess": true,
+     "isProfileTranslatable": false,
+     "hasCustomTimelines": true,
+     "isTranslator": false,
+     "defaultProfile": false,
+     "defaultProfileImage": false
+    },
+    "metrics": {
+     "availableFields": [
+      "followers",
+      "following",
+      "tweets",
+      "favourites",
+      "listedCount",
+      "mediaCount"
+     ],
+     "followers": 245036,
+     "following": 102788,
+     "tweets": 93425,
+     "favourites": 47513,
+     "listedCount": 405,
+     "mediaCount": 19344
+    }
+   },
+   "meta": {
+    "requestId": "req_07f72cc5-e5a1-426c-94f7-1a24c38721e3",
+    "creditsCharged": 1,
+    "version": "v1"
+   },
+   "card": {
+    "kind": "profile",
+    "title": "NCSA College Recruiting",
+    "subtitle": "@ncsa",
+    "platform": "X",
+    "handle": "@ncsa",
+    "headline": "The leader in college athletic recruiting. Part of @IMGAcademy. Expert guidance connecting student-athletes to 50,000+ college coaches. Create your free profile",
+    "location": "Bradenton, FL",
+    "verified": false,
+    "metrics": [
+     {
+      "label": "Followers",
+      "value": "245k"
+     },
+     {
+      "label": "Following",
+      "value": "103k"
+     },
+     {
+      "label": "Posts",
+      "value": "93k"
+     },
+     {
+      "label": "Listed",
+      "value": "405"
+     }
+    ],
+    "details": [
+     "bit.ly",
+     "Joined Dec 2008",
+     "0 affiliates"
+    ],
+    "href": "https://x.com/ncsa",
+    "sourceLabel": "Open profile",
+    "avatar": {
+     "kind": "fallback",
+     "initial": "N"
+    }
+   }
+  }
+ },
+ "jsonrpc": "2.0",
+ "id": 1
+}

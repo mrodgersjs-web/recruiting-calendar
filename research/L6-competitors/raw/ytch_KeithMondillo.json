@@ -1,0 +1,78 @@
+{
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "{\n  \"data\": {\n    \"lookupStatus\": \"found\",\n    \"channel\": {\n      \"platform\": \"youtube\",\n      \"handle\": \"keithmondillo\",\n      \"displayName\": \"Keith Mondillo | College Recruiting Coach\",\n      \"bio\": \"FREE DIGITAL ATHLETIC RECRUITING PRODUCTS  \ud83d\udc47\\nHelping student-athletes and parents navigate the college athletic recruiting process with real NCAA coach insights. Learn how to get recruited for college sports, email college coaches, build a realistic school list, and understand Division II and III recruiting, scholarships, NIL rules, and the transfer portal.\\n\\nYour step-by-step road map to college athletic recruiting \u2014 from Coach Keith Mondillo, an NCAA Head Coach and Director of Athletics with 30+ years of experience and 500+ wins. Each week, Keith breaks down what college coaches actually look for, how to communicate the right way, and how families can take control of recruiting without wasting time or money.\\n\\nSubscribe for weekly videos on college recruiting tips, compliance truths, and real advice from a coach who\u2019s been on the other side of the desk.\",\n      \"avatarUrl\": \"https://yt3.googleusercontent.com/ahWeKhr7J4Xl5djfVOQYJ3s3rU4CqBxNLxVLdq_pvf-jgSmtaDEqMWAWwx04oy0kkjFVB9am=s68-c-k-c0x00ffffff-no-rj\",\n      \"bannerUrl\": \"https://yt3.googleusercontent.com/cft96gv4Nj0aCGtrSkACT3pksSDAaJOKueAVN5TgHdjW_h3I771j_A3InYJIl1p1YUjzL_FT=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj\",\n      \"verified\": false,\n      \"profileUrl\": \"http://www.youtube.com/@keithmondillo\",\n      \"platformUserId\": \"UCkaKxTD24J-m5kHifakoVJw\",\n      \"country\": \"United States\",\n      \"joinedDateText\": \"Joined Aug 12, 2013\",\n      \"externalLinks\": [\n        \"https://instagram.com/keithmondillo\",\n        \"https://keithmondillo.com\",\n        \"https://keithmondillo.com/keith-mondillo-start-here\"\n      ]\n    },\n    \"metrics\": {\n      \"subscribers\": 2940,\n      \"videos\": 1012,\n      \"views\": 501395\n    }\n  },\n  \"meta\": {\n    \"requestId\": \"req_a13adf5b-ba45-42cd-83ea-0d1dd9debe64\",\n    \"creditsCharged\": 1,\n    \"version\": \"v1\"\n  }\n}"
+   },
+   {
+    "type": "text",
+    "text": "{\"conversation_id\":\"01a1af42-8168-7d1a-be29-64440addd8b6\"}"
+   }
+  ],
+  "structuredContent": {
+   "data": {
+    "lookupStatus": "found",
+    "channel": {
+     "platform": "youtube",
+     "handle": "keithmondillo",
+     "displayName": "Keith Mondillo | College Recruiting Coach",
+     "bio": "FREE DIGITAL ATHLETIC RECRUITING PRODUCTS  \ud83d\udc47\nHelping student-athletes and parents navigate the college athletic recruiting process with real NCAA coach insights. Learn how to get recruited for college sports, email college coaches, build a realistic school list, and understand Division II and III recruiting, scholarships, NIL rules, and the transfer portal.\n\nYour step-by-step road map to college athletic recruiting \u2014 from Coach Keith Mondillo, an NCAA Head Coach and Director of Athletics with 30+ years of experience and 500+ wins. Each week, Keith breaks down what college coaches actually look for, how to communicate the right way, and how families can take control of recruiting without wasting time or money.\n\nSubscribe for weekly videos on college recruiting tips, compliance truths, and real advice from a coach who\u2019s been on the other side of the desk.",
+     "avatarUrl": "https://yt3.googleusercontent.com/ahWeKhr7J4Xl5djfVOQYJ3s3rU4CqBxNLxVLdq_pvf-jgSmtaDEqMWAWwx04oy0kkjFVB9am=s68-c-k-c0x00ffffff-no-rj",
+     "bannerUrl": "https://yt3.googleusercontent.com/cft96gv4Nj0aCGtrSkACT3pksSDAaJOKueAVN5TgHdjW_h3I771j_A3InYJIl1p1YUjzL_FT=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+     "verified": false,
+     "profileUrl": "http://www.youtube.com/@keithmondillo",
+     "platformUserId": "UCkaKxTD24J-m5kHifakoVJw",
+     "country": "United States",
+     "joinedDateText": "Joined Aug 12, 2013",
+     "externalLinks": [
+      "https://instagram.com/keithmondillo",
+      "https://keithmondillo.com",
+      "https://keithmondillo.com/keith-mondillo-start-here"
+     ]
+    },
+    "metrics": {
+     "subscribers": 2940,
+     "videos": 1012,
+     "views": 501395
+    }
+   },
+   "meta": {
+    "requestId": "req_a13adf5b-ba45-42cd-83ea-0d1dd9debe64",
+    "creditsCharged": 1,
+    "version": "v1"
+   },
+   "card": {
+    "kind": "profile",
+    "title": "Keith Mondillo | College Recruiting Coach",
+    "subtitle": "@keithmondillo \u00b7 United States \u00b7 Joined Aug 12, 2013",
+    "platform": "YouTube",
+    "handle": "@keithmondillo",
+    "headline": "FREE DIGITAL ATHLETIC RECRUITING PRODUCTS \ud83d\udc47 Helping student-athletes and parents navigate the college athletic recruiting process with real NCAA coach insights. Learn how to get recruited for college sports, email\u2026",
+    "verified": false,
+    "metrics": [
+     {
+      "label": "Subscribers",
+      "value": "2.9k"
+     },
+     {
+      "label": "Videos",
+      "value": "1.0k"
+     },
+     {
+      "label": "Views",
+      "value": "501k"
+     }
+    ],
+    "href": "http://www.youtube.com/@keithmondillo",
+    "sourceLabel": "Open channel",
+    "avatar": {
+     "kind": "fallback",
+     "initial": "K"
+    }
+   }
+  }
+ },
+ "jsonrpc": "2.0",
+ "id": 1
+}

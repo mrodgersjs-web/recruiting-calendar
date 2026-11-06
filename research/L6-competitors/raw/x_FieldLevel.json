@@ -1,0 +1,131 @@
+{
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "{\n  \"data\": {\n    \"lookupStatus\": \"found\",\n    \"profile\": {\n      \"platform\": \"twitter\",\n      \"handle\": \"FieldLevel\",\n      \"displayName\": \"FieldLevel\",\n      \"bio\": \"Join millions of coaches, athletes, and teams on the world\u2019s largest recruiting platform.\",\n      \"avatarUrl\": \"https://pbs.twimg.com/profile_images/2072517230915678208/zutB31et_400x400.jpg\",\n      \"bannerUrl\": \"https://pbs.twimg.com/profile_banners/27114299/1773979947/1500x500\",\n      \"verified\": false,\n      \"blueVerified\": true,\n      \"profileUrl\": \"https://x.com/FieldLevel\",\n      \"privateAccount\": false,\n      \"platformUserId\": \"27114299\",\n      \"accountCreatedAt\": \"2009-03-27T22:27:26.000Z\",\n      \"accountCreatedAtUnix\": 1238192846,\n      \"location\": null,\n      \"website\": \"https://www.fieldlevel.com/\",\n      \"verificationInfo\": {\n        \"isIdentityVerified\": false,\n        \"verifiedSinceMsec\": \"1626615553160\"\n      },\n      \"highlights\": {\n        \"canHighlightTweets\": true,\n        \"highlightedTweetCount\": 0\n      },\n      \"businessAccount\": {\n        \"affiliatesCount\": 0\n      },\n      \"creatorSubscriptionsCount\": 0,\n      \"isBlueVerified\": true,\n      \"verifiedType\": \"This account is verified. Learn more\",\n      \"pinnedTweetIds\": [],\n      \"favoritesCount\": 18033,\n      \"createdAt\": \"2009-03-27T22:27:26.000Z\",\n      \"professional\": {\n        \"type\": \"Business\",\n        \"category\": [],\n        \"restId\": \"2044553351497449757\"\n      },\n      \"withheldInCountries\": [],\n      \"profileImageShape\": \"Circle\",\n      \"verifiedSince\": \"2021-07-18T13:39:13.160Z\",\n      \"possiblySensitive\": false,\n      \"profileInterstitialType\": null,\n      \"hasHiddenSubscriptions\": false,\n      \"hasGraduatedAccess\": true,\n      \"isProfileTranslatable\": false,\n      \"hasCustomTimelines\": false,\n      \"isTranslator\": false,\n      \"defaultProfile\": false,\n      \"defaultProfileImage\": false\n    },\n    \"metrics\": {\n      \"availableFields\": [\n        \"followers\",\n        \"following\",\n        \"tweets\",\n        \"favourites\",\n        \"listedCount\",\n        \"mediaCount\"\n      ],\n      \"followers\": 27858,\n      \"following\": 23256,\n      \"tweets\": 14195,\n      \"favourites\": 18033,\n      \"listedCount\": 83,\n      \"mediaCount\": 2050\n    }\n  },\n  \"meta\": {\n    \"requestId\": \"req_01e5ec46-dcc2-42cf-a721-310cd7b4a475\",\n    \"creditsCharged\": 1,\n    \"version\": \"v1\"\n  }\n}"
+   },
+   {
+    "type": "text",
+    "text": "{\"conversation_id\":\"01a1af41-e031-7dcc-b7e9-aa0ea456bb00\"}"
+   }
+  ],
+  "structuredContent": {
+   "data": {
+    "lookupStatus": "found",
+    "profile": {
+     "platform": "twitter",
+     "handle": "FieldLevel",
+     "displayName": "FieldLevel",
+     "bio": "Join millions of coaches, athletes, and teams on the world\u2019s largest recruiting platform.",
+     "avatarUrl": "https://pbs.twimg.com/profile_images/2072517230915678208/zutB31et_400x400.jpg",
+     "bannerUrl": "https://pbs.twimg.com/profile_banners/27114299/1773979947/1500x500",
+     "verified": false,
+     "blueVerified": true,
+     "profileUrl": "https://x.com/FieldLevel",
+     "privateAccount": false,
+     "platformUserId": "27114299",
+     "accountCreatedAt": "2009-03-27T22:27:26.000Z",
+     "accountCreatedAtUnix": 1238192846,
+     "location": null,
+     "website": "https://www.fieldlevel.com/",
+     "verificationInfo": {
+      "isIdentityVerified": false,
+      "verifiedSinceMsec": "1626615553160"
+     },
+     "highlights": {
+      "canHighlightTweets": true,
+      "highlightedTweetCount": 0
+     },
+     "businessAccount": {
+      "affiliatesCount": 0
+     },
+     "creatorSubscriptionsCount": 0,
+     "isBlueVerified": true,
+     "verifiedType": "This account is verified. Learn more",
+     "pinnedTweetIds": [],
+     "favoritesCount": 18033,
+     "createdAt": "2009-03-27T22:27:26.000Z",
+     "professional": {
+      "type": "Business",
+      "category": [],
+      "restId": "2044553351497449757"
+     },
+     "withheldInCountries": [],
+     "profileImageShape": "Circle",
+     "verifiedSince": "2021-07-18T13:39:13.160Z",
+     "possiblySensitive": false,
+     "profileInterstitialType": null,
+     "hasHiddenSubscriptions": false,
+     "hasGraduatedAccess": true,
+     "isProfileTranslatable": false,
+     "hasCustomTimelines": false,
+     "isTranslator": false,
+     "defaultProfile": false,
+     "defaultProfileImage": false
+    },
+    "metrics": {
+     "availableFields": [
+      "followers",
+      "following",
+      "tweets",
+      "favourites",
+      "listedCount",
+      "mediaCount"
+     ],
+     "followers": 27858,
+     "following": 23256,
+     "tweets": 14195,
+     "favourites": 18033,
+     "listedCount": 83,
+     "mediaCount": 2050
+    }
+   },
+   "meta": {
+    "requestId": "req_01e5ec46-dcc2-42cf-a721-310cd7b4a475",
+    "creditsCharged": 1,
+    "version": "v1"
+   },
+   "card": {
+    "kind": "profile",
+    "title": "FieldLevel",
+    "subtitle": "@FieldLevel",
+    "platform": "X",
+    "handle": "@FieldLevel",
+    "headline": "Join millions of coaches, athletes, and teams on the world\u2019s largest recruiting platform.",
+    "verified": false,
+    "metrics": [
+     {
+      "label": "Followers",
+      "value": "28k"
+     },
+     {
+      "label": "Following",
+      "value": "23k"
+     },
+     {
+      "label": "Posts",
+      "value": "14k"
+     },
+     {
+      "label": "Listed",
+      "value": "83"
+     }
+    ],
+    "details": [
+     "fieldlevel.com",
+     "Joined Mar 2009",
+     "0 affiliates"
+    ],
+    "href": "https://x.com/FieldLevel",
+    "sourceLabel": "Open profile",
+    "avatar": {
+     "kind": "fallback",
+     "initial": "F"
+    }
+   }
+  }
+ },
+ "jsonrpc": "2.0",
+ "id": 1
+}

@@ -1,0 +1,37 @@
+{
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "{\n  \"data\": {\n    \"lookupStatus\": \"found\",\n    \"ads\": [],\n    \"page\": {\n      \"nextCursor\": null,\n      \"hasMore\": false\n    }\n  },\n  \"meta\": {\n    \"requestId\": \"req_75015a1f-729b-42d7-b879-9a0a56e1829d\",\n    \"creditsCharged\": 1,\n    \"version\": \"v1\"\n  }\n}"
+   },
+   {
+    "type": "text",
+    "text": "{\"conversation_id\":\"01a1af41-af64-7a0a-bef6-88d06fe91c9e\"}"
+   }
+  ],
+  "structuredContent": {
+   "data": {
+    "lookupStatus": "found",
+    "ads": [],
+    "page": {
+     "nextCursor": null,
+     "hasMore": false
+    }
+   },
+   "meta": {
+    "requestId": "req_75015a1f-729b-42d7-b879-9a0a56e1829d",
+    "creditsCharged": 1,
+    "version": "v1"
+   },
+   "card": {
+    "kind": "status",
+    "status": "empty",
+    "title": "No public results",
+    "subtitle": "That search did not return any public posts."
+   }
+  }
+ },
+ "jsonrpc": "2.0",
+ "id": 1
+}

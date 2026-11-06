@@ -1,0 +1,79 @@
+{
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "{\n  \"data\": {\n    \"lookupStatus\": \"found\",\n    \"profile\": {\n      \"id\": \"21577670\",\n      \"handle\": \"ncsasports\",\n      \"displayName\": \"Alyssa Grove\",\n      \"avatarUrl\": \"https://scontent-sjc3-1.cdninstagram.com/v/t51.89012-19/573323465_1219825463302212_7278921664109726296_n.png?stp=dst-webp&_nc_cat=1&ig_cache_key=YW5vbnltb3VzX3Byb2ZpbGVfcGlj.3-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xNTAuQzMifQ%3D%3D&_nc_ohc=g1H1oo4EYDEQ7kNvwEBaNfR&_nc_oc=Adr9voe01-kdtRbxZFSSlTxchEVy9oqGYFD2-FIdR-dtMq8p68XKgRxXeX4zv28YlwU&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_gid=7jAiopskGV3qGadW7LvRag&_nc_ss=723ba&oh=00_AQTZ3o0TAo6u0sxymtGDwJgpTDwypsOF35A8-soR-9HXSw&oe=6AF32119\",\n      \"verified\": false,\n      \"privateAccount\": false,\n      \"bio\": null,\n      \"profileUrl\": \"https://www.instagram.com/ncsasports/\",\n      \"avatarUrlHd\": \"https://instagram.fkno3-1.fna.fbcdn.net/v/t51.2885-19/573323465_1219825463302212_7278921664109726296_n.png?stp=dst-jpg_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xNTAuYzIifQ&_nc_ht=instagram.fkno3-1.fna.fbcdn.net&_nc_cat=1&_nc_oc=Q6cZ2gFv1NoRg0sjTt8z-BTMkjfWNWDlzXbmbPt7g2gHvnV6yvxy_k_KQzoezBWq4IJd9DM&_nc_ohc=kwiilGbw6cUQ7kNvwG0Uyc9&_nc_gid=NOCBuwSJPaxS6xiUvWww0A&edm=AL4D0a4BAAAA&ccb=7-5&ig_cache_key=YW5vbnltb3VzX3Byb2ZpbGVfcGlj.3-ccb7-5&oh=00_AQQ3G7fJ1MCJTtH2CPjWLaYXmj11-y6dUmDsFwbq_dP26w&oe=6AF343EA&_nc_sid=9e8221\",\n      \"externalUrl\": null,\n      \"bioLinks\": [],\n      \"category\": null,\n      \"accountType\": \"personal\",\n      \"metrics\": {\n        \"followers\": 7,\n        \"following\": 0,\n        \"posts\": 0\n      },\n      \"hasHighlights\": false,\n      \"hasActiveStory\": false,\n      \"contact\": null\n    },\n    \"recentMedia\": [],\n    \"about\": null\n  },\n  \"meta\": {\n    \"requestId\": \"req_67f5e3c4-ae33-4c19-bd6d-e2237c4ab096\",\n    \"creditsCharged\": 2,\n    \"version\": \"v2\"\n  }\n}"
+   },
+   {
+    "type": "text",
+    "text": "{\"conversation_id\":\"01a1af41-6ea0-7d21-8f7a-0093eafc5d55\"}"
+   }
+  ],
+  "structuredContent": {
+   "data": {
+    "lookupStatus": "found",
+    "profile": {
+     "id": "21577670",
+     "handle": "ncsasports",
+     "displayName": "Alyssa Grove",
+     "avatarUrl": "https://scontent-sjc3-1.cdninstagram.com/v/t51.89012-19/573323465_1219825463302212_7278921664109726296_n.png?stp=dst-webp&_nc_cat=1&ig_cache_key=YW5vbnltb3VzX3Byb2ZpbGVfcGlj.3-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xNTAuQzMifQ%3D%3D&_nc_ohc=g1H1oo4EYDEQ7kNvwEBaNfR&_nc_oc=Adr9voe01-kdtRbxZFSSlTxchEVy9oqGYFD2-FIdR-dtMq8p68XKgRxXeX4zv28YlwU&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_gid=7jAiopskGV3qGadW7LvRag&_nc_ss=723ba&oh=00_AQTZ3o0TAo6u0sxymtGDwJgpTDwypsOF35A8-soR-9HXSw&oe=6AF32119",
+     "verified": false,
+     "privateAccount": false,
+     "bio": null,
+     "profileUrl": "https://www.instagram.com/ncsasports/",
+     "avatarUrlHd": "https://instagram.fkno3-1.fna.fbcdn.net/v/t51.2885-19/573323465_1219825463302212_7278921664109726296_n.png?stp=dst-jpg_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xNTAuYzIifQ&_nc_ht=instagram.fkno3-1.fna.fbcdn.net&_nc_cat=1&_nc_oc=Q6cZ2gFv1NoRg0sjTt8z-BTMkjfWNWDlzXbmbPt7g2gHvnV6yvxy_k_KQzoezBWq4IJd9DM&_nc_ohc=kwiilGbw6cUQ7kNvwG0Uyc9&_nc_gid=NOCBuwSJPaxS6xiUvWww0A&edm=AL4D0a4BAAAA&ccb=7-5&ig_cache_key=YW5vbnltb3VzX3Byb2ZpbGVfcGlj.3-ccb7-5&oh=00_AQQ3G7fJ1MCJTtH2CPjWLaYXmj11-y6dUmDsFwbq_dP26w&oe=6AF343EA&_nc_sid=9e8221",
+     "externalUrl": null,
+     "bioLinks": [],
+     "category": null,
+     "accountType": "personal",
+     "metrics": {
+      "followers": 7,
+      "following": 0,
+      "posts": 0
+     },
+     "hasHighlights": false,
+     "hasActiveStory": false,
+     "contact": null
+    },
+    "recentMedia": [],
+    "about": null
+   },
+   "meta": {
+    "requestId": "req_67f5e3c4-ae33-4c19-bd6d-e2237c4ab096",
+    "creditsCharged": 2,
+    "version": "v2"
+   },
+   "card": {
+    "kind": "profile",
+    "title": "Alyssa Grove",
+    "subtitle": "@ncsasports",
+    "platform": "Instagram",
+    "handle": "@ncsasports",
+    "verified": false,
+    "metrics": [
+     {
+      "label": "Followers",
+      "value": "7"
+     },
+     {
+      "label": "Posts",
+      "value": "0"
+     },
+     {
+      "label": "Following",
+      "value": "0"
+     }
+    ],
+    "href": "https://www.instagram.com/ncsasports/",
+    "sourceLabel": "Open profile",
+    "avatar": {
+     "kind": "fallback",
+     "initial": "A"
+    }
+   }
+  }
+ },
+ "jsonrpc": "2.0",
+ "id": 1
+}

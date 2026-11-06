@@ -1,0 +1,34 @@
+{
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "{\n  \"data\": {\n    \"query\": \"PBR showcase\",\n    \"posts\": [],\n    \"totalResults\": 0\n  },\n  \"meta\": {\n    \"requestId\": \"req_914770da-a7d3-4dff-a658-1ac7471dd3bf\",\n    \"creditsCharged\": 1,\n    \"version\": \"v1\"\n  }\n}"
+   },
+   {
+    "type": "text",
+    "text": "{\"conversation_id\":\"01a1af41-d85a-7977-8748-9254d52f77c4\"}"
+   }
+  ],
+  "structuredContent": {
+   "data": {
+    "query": "PBR showcase",
+    "posts": [],
+    "totalResults": 0
+   },
+   "meta": {
+    "requestId": "req_914770da-a7d3-4dff-a658-1ac7471dd3bf",
+    "creditsCharged": 1,
+    "version": "v1"
+   },
+   "card": {
+    "kind": "status",
+    "status": "empty",
+    "title": "No public results",
+    "subtitle": "That search did not return any public posts."
+   }
+  }
+ },
+ "jsonrpc": "2.0",
+ "id": 1
+}

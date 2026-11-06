@@ -1,0 +1,86 @@
+{
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "{\n  \"data\": {\n    \"lookupStatus\": \"found\",\n    \"channel\": {\n      \"platform\": \"youtube\",\n      \"handle\": \"ncsa\",\n      \"displayName\": \"NCSA College Recruiting\",\n      \"bio\": \"\ud83c\udfc6 Leaders in college recruiting helping athletes get recruited for college sports. NCSA College Recruiting is the world\u2019s largest and most trusted college athletic recruiting network. For over 25 years, we\u2019ve helped student-athletes across 31 sports connect with 40,000+ college coaches to find their best fit athletically, academically, socially, and financially.\\n\\nOn this channel, you\u2019ll find recruiting tips, how-to videos, athlete success stories, coach communication strategies, and Q&As all designed to help student-athletes get recruited and play sports in college.\\n\\n\ud83d\udccd Start Your Recruiting Journey Here \u2192 https://www.ncsasports.org\\n\\nCreate a free recruiting profile to connect with college coaches and get personalized guidance on your path to college sports, expert advice, and your personalized college match. \\n\\n#collegerecruiting  #studentathletes  #getrecruited  #athleticscholarships  #ncsa #ncsacommit\\n\\n\ud83d\udd17 Follow NCSA on Social Media and Explore Our Site for More Valuable Information:\",\n      \"avatarUrl\": \"https://yt3.googleusercontent.com/JL__1dgezmhhTVB_5bgvjCUyX8NAQx_uwbE7CtDL7lZuQRZt8j1EwjDFumg2frtPmoAK4kE2Cw=s68-c-k-c0x00ffffff-no-rj\",\n      \"bannerUrl\": \"https://yt3.googleusercontent.com/Fh-zio8MczNt4zPDlm9HxMmErjhfjOHRN0IGAEGYFIc27F4FSN-UWEr8CFh6tGpkfygJhfZ0=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj\",\n      \"verified\": false,\n      \"profileUrl\": \"http://www.youtube.com/@ncsa\",\n      \"platformUserId\": \"UCh6EZ2x-RG2nGQpDv0frLLA\",\n      \"country\": \"United States\",\n      \"joinedDateText\": \"Joined Oct 29, 2007\",\n      \"externalLinks\": [\n        \"https://facebook.com/NCSAsports\",\n        \"https://instagram.com/ncsa_sports\",\n        \"https://ncsasports.org\",\n        \"https://ncsasports.org/events\",\n        \"https://ncsasports.org/join/start?utm_source=youtube&utm_medium=video&utm_campaign=cta\",\n        \"https://ncsasports.org/recruiting\",\n        \"https://ncsasports.org/recruiting/workshops\",\n        \"https://ncsasports.org/who-is-ncsa/what-does-ncsa-do/what-does-ncsa-cost-how-much\",\n        \"https://snapchat.com/@ncsa_sports\",\n        \"https://tiktok.com/@ncsa_sports\",\n        \"https://x.com/ncsa_sports\"\n      ]\n    },\n    \"metrics\": {\n      \"subscribers\": 27000,\n      \"videos\": 908,\n      \"views\": 11109902\n    }\n  },\n  \"meta\": {\n    \"requestId\": \"req_09493efc-477b-4998-b853-3e37e313f47a\",\n    \"creditsCharged\": 1,\n    \"version\": \"v1\"\n  }\n}"
+   },
+   {
+    "type": "text",
+    "text": "{\"conversation_id\":\"01a1af42-7be9-753f-a403-df2c338f108e\"}"
+   }
+  ],
+  "structuredContent": {
+   "data": {
+    "lookupStatus": "found",
+    "channel": {
+     "platform": "youtube",
+     "handle": "ncsa",
+     "displayName": "NCSA College Recruiting",
+     "bio": "\ud83c\udfc6 Leaders in college recruiting helping athletes get recruited for college sports. NCSA College Recruiting is the world\u2019s largest and most trusted college athletic recruiting network. For over 25 years, we\u2019ve helped student-athletes across 31 sports connect with 40,000+ college coaches to find their best fit athletically, academically, socially, and financially.\n\nOn this channel, you\u2019ll find recruiting tips, how-to videos, athlete success stories, coach communication strategies, and Q&As all designed to help student-athletes get recruited and play sports in college.\n\n\ud83d\udccd Start Your Recruiting Journey Here \u2192 https://www.ncsasports.org\n\nCreate a free recruiting profile to connect with college coaches and get personalized guidance on your path to college sports, expert advice, and your personalized college match. \n\n#collegerecruiting  #studentathletes  #getrecruited  #athleticscholarships  #ncsa #ncsacommit\n\n\ud83d\udd17 Follow NCSA on Social Media and Explore Our Site for More Valuable Information:",
+     "avatarUrl": "https://yt3.googleusercontent.com/JL__1dgezmhhTVB_5bgvjCUyX8NAQx_uwbE7CtDL7lZuQRZt8j1EwjDFumg2frtPmoAK4kE2Cw=s68-c-k-c0x00ffffff-no-rj",
+     "bannerUrl": "https://yt3.googleusercontent.com/Fh-zio8MczNt4zPDlm9HxMmErjhfjOHRN0IGAEGYFIc27F4FSN-UWEr8CFh6tGpkfygJhfZ0=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+     "verified": false,
+     "profileUrl": "http://www.youtube.com/@ncsa",
+     "platformUserId": "UCh6EZ2x-RG2nGQpDv0frLLA",
+     "country": "United States",
+     "joinedDateText": "Joined Oct 29, 2007",
+     "externalLinks": [
+      "https://facebook.com/NCSAsports",
+      "https://instagram.com/ncsa_sports",
+      "https://ncsasports.org",
+      "https://ncsasports.org/events",
+      "https://ncsasports.org/join/start?utm_source=youtube&utm_medium=video&utm_campaign=cta",
+      "https://ncsasports.org/recruiting",
+      "https://ncsasports.org/recruiting/workshops",
+      "https://ncsasports.org/who-is-ncsa/what-does-ncsa-do/what-does-ncsa-cost-how-much",
+      "https://snapchat.com/@ncsa_sports",
+      "https://tiktok.com/@ncsa_sports",
+      "https://x.com/ncsa_sports"
+     ]
+    },
+    "metrics": {
+     "subscribers": 27000,
+     "videos": 908,
+     "views": 11109902
+    }
+   },
+   "meta": {
+    "requestId": "req_09493efc-477b-4998-b853-3e37e313f47a",
+    "creditsCharged": 1,
+    "version": "v1"
+   },
+   "card": {
+    "kind": "profile",
+    "title": "NCSA College Recruiting",
+    "subtitle": "@ncsa \u00b7 United States \u00b7 Joined Oct 29, 2007",
+    "platform": "YouTube",
+    "handle": "@ncsa",
+    "headline": "\ud83c\udfc6 Leaders in college recruiting helping athletes get recruited for college sports. NCSA College Recruiting is the world\u2019s largest and most trusted college athletic recruiting network. For over 25 years, we\u2019ve helped\u2026",
+    "verified": false,
+    "metrics": [
+     {
+      "label": "Subscribers",
+      "value": "27k"
+     },
+     {
+      "label": "Videos",
+      "value": "908"
+     },
+     {
+      "label": "Views",
+      "value": "11M"
+     }
+    ],
+    "href": "http://www.youtube.com/@ncsa",
+    "sourceLabel": "Open channel",
+    "avatar": {
+     "kind": "fallback",
+     "initial": "N"
+    }
+   }
+  }
+ },
+ "jsonrpc": "2.0",
+ "id": 1
+}

@@ -1,0 +1,134 @@
+{
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "{\n  \"data\": {\n    \"lookupStatus\": \"found\",\n    \"profile\": {\n      \"platform\": \"twitter\",\n      \"handle\": \"prepbaseball\",\n      \"displayName\": \"Prep Baseball\",\n      \"bio\": \"Covering all the bases of amateur baseball since '05\",\n      \"avatarUrl\": \"https://pbs.twimg.com/profile_images/2004422834932617216/SGsH39p9_400x400.jpg\",\n      \"bannerUrl\": \"https://pbs.twimg.com/profile_banners/25138725/1762359257/1500x500\",\n      \"verified\": false,\n      \"blueVerified\": false,\n      \"profileUrl\": \"https://x.com/prepbaseball\",\n      \"privateAccount\": false,\n      \"platformUserId\": \"25138725\",\n      \"accountCreatedAt\": \"2009-03-18T19:49:13.000Z\",\n      \"accountCreatedAtUnix\": 1237405753,\n      \"location\": null,\n      \"website\": \"https://linktr.ee/prepbaseball\",\n      \"pinnedTweetId\": \"2117687053303337450\",\n      \"verificationInfo\": {\n        \"isIdentityVerified\": false,\n        \"verifiedSinceMsec\": \"1624285790902\"\n      },\n      \"highlights\": {\n        \"canHighlightTweets\": true,\n        \"highlightedTweetCount\": 273\n      },\n      \"businessAccount\": {\n        \"affiliatesCount\": 51\n      },\n      \"creatorSubscriptionsCount\": 0,\n      \"isBlueVerified\": false,\n      \"verifiedType\": \"This account is verified because it's an official organization on X. Learn more\",\n      \"pinnedTweetIds\": [\n        \"2117687053303337450\"\n      ],\n      \"favoritesCount\": 94117,\n      \"createdAt\": \"2009-03-18T19:49:13.000Z\",\n      \"professional\": {\n        \"type\": \"Business\",\n        \"category\": [],\n        \"restId\": \"1466135685639905282\"\n      },\n      \"withheldInCountries\": [],\n      \"profileImageShape\": \"Square\",\n      \"verifiedSince\": \"2021-06-21T14:29:50.902Z\",\n      \"possiblySensitive\": false,\n      \"profileInterstitialType\": null,\n      \"hasHiddenSubscriptions\": false,\n      \"hasGraduatedAccess\": true,\n      \"isProfileTranslatable\": false,\n      \"hasCustomTimelines\": true,\n      \"isTranslator\": false,\n      \"defaultProfile\": false,\n      \"defaultProfileImage\": false\n    },\n    \"metrics\": {\n      \"availableFields\": [\n        \"followers\",\n        \"following\",\n        \"tweets\",\n        \"favourites\",\n        \"listedCount\",\n        \"mediaCount\"\n      ],\n      \"followers\": 207583,\n      \"following\": 1375,\n      \"tweets\": 81045,\n      \"favourites\": 94117,\n      \"listedCount\": 294,\n      \"mediaCount\": 15882\n    }\n  },\n  \"meta\": {\n    \"requestId\": \"req_b7588589-ee47-438c-98a0-b85739c3df23\",\n    \"creditsCharged\": 1,\n    \"version\": \"v1\"\n  }\n}"
+   },
+   {
+    "type": "text",
+    "text": "{\"conversation_id\":\"01a1af41-e395-7608-81d5-457a8c0c7c98\"}"
+   }
+  ],
+  "structuredContent": {
+   "data": {
+    "lookupStatus": "found",
+    "profile": {
+     "platform": "twitter",
+     "handle": "prepbaseball",
+     "displayName": "Prep Baseball",
+     "bio": "Covering all the bases of amateur baseball since '05",
+     "avatarUrl": "https://pbs.twimg.com/profile_images/2004422834932617216/SGsH39p9_400x400.jpg",
+     "bannerUrl": "https://pbs.twimg.com/profile_banners/25138725/1762359257/1500x500",
+     "verified": false,
+     "blueVerified": false,
+     "profileUrl": "https://x.com/prepbaseball",
+     "privateAccount": false,
+     "platformUserId": "25138725",
+     "accountCreatedAt": "2009-03-18T19:49:13.000Z",
+     "accountCreatedAtUnix": 1237405753,
+     "location": null,
+     "website": "https://linktr.ee/prepbaseball",
+     "pinnedTweetId": "2117687053303337450",
+     "verificationInfo": {
+      "isIdentityVerified": false,
+      "verifiedSinceMsec": "1624285790902"
+     },
+     "highlights": {
+      "canHighlightTweets": true,
+      "highlightedTweetCount": 273
+     },
+     "businessAccount": {
+      "affiliatesCount": 51
+     },
+     "creatorSubscriptionsCount": 0,
+     "isBlueVerified": false,
+     "verifiedType": "This account is verified because it's an official organization on X. Learn more",
+     "pinnedTweetIds": [
+      "2117687053303337450"
+     ],
+     "favoritesCount": 94117,
+     "createdAt": "2009-03-18T19:49:13.000Z",
+     "professional": {
+      "type": "Business",
+      "category": [],
+      "restId": "1466135685639905282"
+     },
+     "withheldInCountries": [],
+     "profileImageShape": "Square",
+     "verifiedSince": "2021-06-21T14:29:50.902Z",
+     "possiblySensitive": false,
+     "profileInterstitialType": null,
+     "hasHiddenSubscriptions": false,
+     "hasGraduatedAccess": true,
+     "isProfileTranslatable": false,
+     "hasCustomTimelines": true,
+     "isTranslator": false,
+     "defaultProfile": false,
+     "defaultProfileImage": false
+    },
+    "metrics": {
+     "availableFields": [
+      "followers",
+      "following",
+      "tweets",
+      "favourites",
+      "listedCount",
+      "mediaCount"
+     ],
+     "followers": 207583,
+     "following": 1375,
+     "tweets": 81045,
+     "favourites": 94117,
+     "listedCount": 294,
+     "mediaCount": 15882
+    }
+   },
+   "meta": {
+    "requestId": "req_b7588589-ee47-438c-98a0-b85739c3df23",
+    "creditsCharged": 1,
+    "version": "v1"
+   },
+   "card": {
+    "kind": "profile",
+    "title": "Prep Baseball",
+    "subtitle": "@prepbaseball",
+    "platform": "X",
+    "handle": "@prepbaseball",
+    "headline": "Covering all the bases of amateur baseball since '05",
+    "verified": false,
+    "metrics": [
+     {
+      "label": "Followers",
+      "value": "208k"
+     },
+     {
+      "label": "Following",
+      "value": "1.4k"
+     },
+     {
+      "label": "Posts",
+      "value": "81k"
+     },
+     {
+      "label": "Listed",
+      "value": "294"
+     }
+    ],
+    "details": [
+     "linktr.ee",
+     "Joined Mar 2009",
+     "51 affiliates"
+    ],
+    "href": "https://x.com/prepbaseball",
+    "sourceLabel": "Open profile",
+    "avatar": {
+     "kind": "fallback",
+     "initial": "P"
+    }
+   }
+  }
+ },
+ "jsonrpc": "2.0",
+ "id": 1
+}

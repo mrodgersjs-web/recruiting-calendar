@@ -1,0 +1,825 @@
+{
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "{\n  \"data\": {\n    \"lookupStatus\": \"found\",\n    \"media\": [\n      {\n        \"id\": \"4012502509280561268\",\n        \"shortcode\": \"DevRcXmCAh0\",\n        \"url\": \"https://www.instagram.com/reel/DevRcXmCAh0/\",\n        \"kind\": \"reel\",\n        \"mediaType\": \"video\",\n        \"caption\": \"The college search just got smarter. Our revamped College Match tool shows you which schools you match best with, with a percentage score for each one. Build your profile and see your matches. Link in bio.\",\n        \"altText\": null,\n        \"createdAt\": \"2026-10-21T01:54:06.000Z\",\n        \"owner\": {\n          \"id\": \"32764379570\",\n          \"handle\": \"prepredzone\",\n          \"displayName\": \"Prep Redzone\",\n          \"avatarUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/240462627_239891718013395_6596921985347404748_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4zNjAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gHBTPLRp5Pk9LzR0rZGuTEDJXDML_RMQiHxq5bT7vbG35BK0kXKnr5y_7fxKMOwzQ0&_nc_ohc=OvBpLt_HLYUQ7kNvwHdwKn9&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GCMrVQ7TAaMkLtoAAMzDmPuX_YxbbkULAAAB1501500j-ccb7-5&oh=00_AQSrv8x1I62II88kXqXXOcuoV-CWFGe2OCqURMzlOstMxQ&oe=6AF33F55&_nc_sid=c024bc\",\n          \"verified\": true,\n          \"privateAccount\": false\n        },\n        \"metrics\": {\n          \"likeCount\": 17,\n          \"commentCount\": 0,\n          \"playCount\": 2854,\n          \"shareCount\": 2,\n          \"saveCount\": 0,\n          \"likesHidden\": false\n        },\n        \"imageUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/850404327_18117333992091571_2676084625778068873_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=105&ig_cache_key=NDAxMjUwMjUwOTI4MDU2MTI2ODE4MTE3MzMzOTg5MDkxNTcx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=7XBYBGq7olMQ7kNvwEU6SjP&_nc_oc=AdqQm_-D0sEC3vV-kxklVtf3FrAIDgfyZH5-A3xK49_0H9gJz2TqYgTO-mPrLYSumtM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQQzukOi9RphYj-Xeox7uGkAkPshHsh9HtA1TTyEuQ1R7w&oe=6AF32506\",\n        \"thumbnailUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/850404327_18117333992091571_2676084625778068873_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=105&ig_cache_key=NDAxMjUwMjUwOTI4MDU2MTI2ODE4MTE3MzMzOTg5MDkxNTcx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=7XBYBGq7olMQ7kNvwEU6SjP&_nc_oc=AdqQm_-D0sEC3vV-kxklVtf3FrAIDgfyZH5-A3xK49_0H9gJz2TqYgTO-mPrLYSumtM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQQzukOi9RphYj-Xeox7uGkAkPshHsh9HtA1TTyEuQ1R7w&oe=6AF32506\",\n        \"videoUrl\": \"https://scontent-yyz1-1.cdninstagram.com/o1/v/t2/f2/m86/AQMo26WcsWdenljyCJTUfLW_gNKCSaPOQoPz9e5IC-bOwN2z5GMuhMKPA0nyC7_4kx0xg-AH6uQcorOilRWkdO0XU1WKiCyt-xwK1Wg.mp4?_nc_cat=101&_nc_sid=5e9851&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_ohc=EE0sb1BNx_QQ7kNvwGr-JR-&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTgxMTczMzM4NDIwOTE1NzEsImFzc2V0X2FnZV9kYXlzIjoxNiwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjYyLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=b69c15e05e7d778f&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9GMTM5NjA1NTIxRkQ0MkU5OUQ4RUEyRkI0QzM4QUMyQ192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0FEQThEMjFGRjQxNDQ1NTU4NUQ5NjJDNDUxRjRBNUY4X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbm-Pr-z-euQBUCKAJDMywXQE9AAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQRtTKmEwb_0_Varex1-ZoVKY3Vg9KbKkopB4Pua2Gy9Vg&oe=6AEF4382\",\n        \"durationSec\": 62.506,\n        \"dimensions\": {\n          \"width\": 1080,\n          \"height\": 1920\n        },\n        \"carousel\": null,\n        \"audio\": {\n          \"id\": \"28803544002598748\",\n          \"title\": \"Original audio\",\n          \"artist\": \"Prep Redzone\",\n          \"isOriginal\": true,\n          \"artistHandle\": \"prepredzone\"\n        },\n        \"coauthors\": [],\n        \"taggedUsers\": [],\n        \"location\": null,\n        \"isPaidPartnership\": false,\n        \"sponsors\": [],\n        \"commentsDisabled\": null,\n        \"isPinned\": true,\n        \"story\": null\n      },\n      {\n        \"id\": \"4002747590004453838\",\n        \"shortcode\": \"DeMnbnDxDHO\",\n        \"url\": \"https://www.instagram.com/reel/DeMnbnDxDHO/\",\n        \"kind\": \"reel\",\n        \"mediaType\": \"video\",\n        \"caption\": \"The wait is over. \\n\\nThe 2027 Prep Redzone 7-on-7 schedule is HERE, and registration is officially OPEN. \ud83c\udfc8\\n\\n27 events. 19 states. 2,000+ teams. \\nOne road to the National Championship in Indy.\\n\\nWatch the video, find your stops, and lock in your spot before the season kicks off January 30.\\n\\n\ud83c\udf89 TO CELEBRATE, WE\u2019RE GIVING AWAY 3 FREE TEAM ENTRIES!\\n\\n\ud83c\udfc6 3 clubs will each win 1 FREE team entry to any 2027 Prep Redzone 7-on-7 event\\n\\nHOW TO ENTER:\\n 1\ufe0f\u20e3 Follow @prepredzone\\n 2\ufe0f\u20e3 Repost video\\n 3\ufe0f\u20e3 Comment your club name below \ud83d\udc47\\n\\n\ud83d\udd17 Full schedule + registration at the link in bio\",\n        \"altText\": null,\n        \"createdAt\": \"2026-10-07T15:00:54.000Z\",\n        \"owner\": {\n          \"id\": \"32764379570\",\n          \"handle\": \"prepredzone\",\n          \"displayName\": \"Prep Redzone\",\n          \"avatarUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/240462627_239891718013395_6596921985347404748_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4zNjAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gHBTPLRp5Pk9LzR0rZGuTEDJXDML_RMQiHxq5bT7vbG35BK0kXKnr5y_7fxKMOwzQ0&_nc_ohc=OvBpLt_HLYUQ7kNvwHdwKn9&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GCMrVQ7TAaMkLtoAAMzDmPuX_YxbbkULAAAB1501500j-ccb7-5&oh=00_AQSrv8x1I62II88kXqXXOcuoV-CWFGe2OCqURMzlOstMxQ&oe=6AF33F55&_nc_sid=c024bc\",\n          \"verified\": true,\n          \"privateAccount\": false\n        },\n        \"metrics\": {\n          \"likeCount\": 196,\n          \"commentCount\": 27,\n          \"playCount\": 17534,\n          \"shareCount\": 138,\n          \"saveCount\": 2,\n          \"likesHidden\": false\n        },\n        \"imageUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/841099789_18115927046091571_3010594617096512568_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=107&ig_cache_key=NDAwMjc0NzU5MDAwNDQ1MzgzODE4MTE1OTI3MDQzMDkxNTcx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEzMjAuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=wwQjgYVkfswQ7kNvwEz4R2J&_nc_oc=Adp7UrkSgIoZSXPWZCOvZPZGEff2y_KyFA47oq-Di8wHzPTpAjf-Z_x44oriGuFDDr8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQTTPKXcUn5K5kLIqavuuctdPH_tKy3UxbMvekmGFKr36Q&oe=6AF3238D\",\n        \"thumbnailUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/841099789_18115927046091571_3010594617096512568_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=107&ig_cache_key=NDAwMjc0NzU5MDAwNDQ1MzgzODE4MTE1OTI3MDQzMDkxNTcx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEzMjAuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=wwQjgYVkfswQ7kNvwEz4R2J&_nc_oc=Adp7UrkSgIoZSXPWZCOvZPZGEff2y_KyFA47oq-Di8wHzPTpAjf-Z_x44oriGuFDDr8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQTTPKXcUn5K5kLIqavuuctdPH_tKy3UxbMvekmGFKr36Q&oe=6AF3238D\",\n        \"videoUrl\": \"https://scontent-yyz1-1.cdninstagram.com/o1/v/t2/f2/m86/AQODWck1putuz0S6a_dvr6Eq_kufW0UU50qCPn3MwUmYVPMCDIGURmHGHOi8VMnah0yRe8PTd3pfhXPTzgJ4ggxHAohlyR2E1YwQjGY.mp4?_nc_cat=108&_nc_sid=5e9851&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_ohc=i0M4x8Bixa0Q7kNvwF_pcf-&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6Mzg4OTgwODk0NjMxNzIxMDYsImFzc2V0X2FnZV9kYXlzIjoyOSwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjY0LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=716d52d683a32104&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8yQUMxOUFFMEM3NEM0NkI0QkI5NDQzNzU2OTBCM0JDQV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzMxMDREMTUxRkM0RTQxNDFBQUNGQTRBRTZCNURGMTE3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaUsKbO5uaYigEVAigCQzMsF0BQF2yLQ5WBGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHX-B2XmnQEA&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQTtiCMx1rv_931iQrH1hgdHAx9AA3paoixEDOC1h3YTAg&oe=6AEF4805\",\n        \"durationSec\": 64.366,\n        \"dimensions\": {\n          \"width\": 1080,\n          \"height\": 1920\n        },\n        \"carousel\": null,\n        \"audio\": {\n          \"id\": \"28539896622347330\",\n          \"title\": \"Original audio\",\n          \"artist\": \"Prep Redzone\",\n          \"isOriginal\": true,\n          \"artistHandle\": \"prepredzone\"\n        },\n        \"coauthors\": [\n          {\n            \"id\": \"49472358623\",\n            \"handle\": \"prepredzonenext\",\n            \"displayName\": \"Prep Redzone NEXT\",\n            \"avatarUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/463737765_926123479414895_7081349122286300623_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MDAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gHwzJRrP-UVdnkXUezM313K6P-ReQtEXfF4dhgZ3wY5yAxNZYFUOBgr9CuFyInYijs&_nc_ohc=d_c_nUcNTX0Q7kNvwFzEz6O&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GKUTpBtvOALtTUoDAM8tZhSCAUZibkULAAAB1501500j-ccb7-5&oh=00_AQQGzAPRyd8hrtkK8o78zFCs2-jHE2WLalLOvYnJu7lrYQ&oe=6AF34800&_nc_sid=c024bc\",\n            \"verified\": true,\n            \"privateAccount\": false\n          },\n          {\n            \"id\": \"1632771325\",\n            \"handle\": \"sports_thread\",\n            \"displayName\": \"SPORTS THREAD\",\n            \"avatarUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/214372943_817411135818644_6891676993582356791_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44NTkuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gF8Roiwcmh0KL1uaRmEhIBaPnNPBciT8RzpM06DG5mU99NJ1M5Cd72f1jaT6x_fIdo&_nc_ohc=anhQKA1kpdIQ7kNvwFwI4dl&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GE8SxwyUy2JcbucCADdZNUW2J6RfbkULAAAB1501500j-ccb7-5&oh=00_AQSvRZsv1TIoCui2RZPXQ61vsSf08hmR_68sUdlqnb193g&oe=6AF32348&_nc_sid=c024bc\",\n            \"verified\": false,\n            \"privateAccount\": false\n          }\n        ],\n        \"taggedUsers\": null,\n        \"location\": null,\n        \"isPaidPartnership\": false,\n        \"sponsors\": [],\n        \"commentsDisabled\": null,\n        \"isPinned\": true,\n        \"story\": null\n      },\n      {\n        \"id\": \"3851525173912933316\",\n        \"shortcode\": \"DVzXb1KjhPE\",\n        \"url\": \"https://www.instagram.com/reel/DVzXb1KjhPE/\",\n        \"kind\": \"reel\",\n        \"mediaType\": \"video\",\n        \"caption\": \"We\u2019re back! Join The Best! \\n\\nThe Prep Redzone Exposure Tour is live! Limited spots available - don\u2019t wait to register. \\n\\nUniversal Speed Rating will be doing third-party verified testing at all showcases. \\n\\nLock in your spot today!\",\n        \"altText\": null,\n        \"createdAt\": \"2026-03-12T23:21:39.000Z\",\n        \"owner\": {\n          \"id\": \"32764379570\",\n          \"handle\": \"prepredzone\",\n          \"displayName\": \"Prep Redzone\",\n          \"avatarUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/240462627_239891718013395_6596921985347404748_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4zNjAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gHBTPLRp5Pk9LzR0rZGuTEDJXDML_RMQiHxq5bT7vbG35BK0kXKnr5y_7fxKMOwzQ0&_nc_ohc=OvBpLt_HLYUQ7kNvwHdwKn9&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GCMrVQ7TAaMkLtoAAMzDmPuX_YxbbkULAAAB1501500j-ccb7-5&oh=00_AQSrv8x1I62II88kXqXXOcuoV-CWFGe2OCqURMzlOstMxQ&oe=6AF33F55&_nc_sid=c024bc\",\n          \"verified\": true,\n          \"privateAccount\": false\n        },\n        \"metrics\": {\n          \"likeCount\": 154,\n          \"commentCount\": 9,\n          \"playCount\": 19943,\n          \"shareCount\": 21,\n          \"saveCount\": 5,\n          \"likesHidden\": false\n        },\n        \"imageUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/651040568_18094238567091571_5210814515636425670_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=103&ig_cache_key=Mzg1MTUyNTE3MzkxMjkzMzMxNjE4MDk0MjM4NTY0MDkxNTcx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=hIuJBBW5ErgQ7kNvwET89B3&_nc_oc=Adphny6ItvpvK1w9h9GS3JtA2KT37MgLGWkmefzdoJg28QPa1ZoLf1WUD8sBDN0gdVE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQTo6IvkfksZMUSi9KREf1kZyKSVElW5kzKVMsvpjCvCLw&oe=6AF33F65\",\n        \"thumbnailUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/651040568_18094238567091571_5210814515636425670_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=103&ig_cache_key=Mzg1MTUyNTE3MzkxMjkzMzMxNjE4MDk0MjM4NTY0MDkxNTcx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=hIuJBBW5ErgQ7kNvwET89B3&_nc_oc=Adphny6ItvpvK1w9h9GS3JtA2KT37MgLGWkmefzdoJg28QPa1ZoLf1WUD8sBDN0gdVE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQTo6IvkfksZMUSi9KREf1kZyKSVElW5kzKVMsvpjCvCLw&oe=6AF33F65\",\n        \"videoUrl\": \"https://scontent-yyz1-1.cdninstagram.com/o1/v/t16/f2/m69/AQO7Di1qL-qlPcXkLE8HCsL46SdTK212UtNp44yCujZ4OYr0ZPugxBiVxtgLQGXf78-WQcsDGNCGYAwz08imFcj0.mp4?strext=1&_nc_cat=101&_nc_sid=5e9851&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_ohc=4xKR9fhMm_sQ7kNvwEwnmff&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NDg0NDUzMTgxMDM5OTgsImFzc2V0X2FnZV9kYXlzIjoyMzgsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjozNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=23712bbe76ae815b&_nc_vs=HBksFQIYOnBhc3N0aHJvdWdoX2V2ZXJzdG9yZS9HTWhla1NhUXdGeUxtb3NEQUItdnE2ak4wSzVtYnNwVEFRQUYVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0FENEZBOUIyNTA2MUVGMkJGRjJCRDI0RjcyQzY2OTkwX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb8jqa3goHiPxUCKAJDMywXQEFFP3ztkWgYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQQwNUiUnths5aHQHveJRWYURbFQOxtGY4G0orkMFYFZLQ&oe=6AF3427F\",\n        \"durationSec\": 34.541,\n        \"dimensions\": {\n          \"width\": 1080,\n          \"height\": 1080\n        },\n        \"carousel\": null,\n        \"audio\": {\n          \"id\": \"25768189582864340\",\n          \"title\": \"Original audio\",\n          \"artist\": \"Prep Redzone\",\n          \"isOriginal\": true,\n          \"artistHandle\": \"prepredzone\"\n        },\n        \"coauthors\": [\n          {\n            \"id\": \"47928151389\",\n            \"handle\": \"universalspeedrating\",\n            \"displayName\": \"Universal Speed Rating\",\n            \"avatarUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/199448069_4052425184874463_869897523197379909_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40NDAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gGcyVg8iqTkU_oWH7tMYpfxSDTVzrhdZHzT4rGm6FNY1Zb04V260PAFBpFpYK8s4qE&_nc_ohc=PAoarbMgd1IQ7kNvwGz53Ob&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GAVW4wvfj5-DqGUOAEUFLD0wfxIMbkULAAAB1501500j-ccb7-5&oh=00_AQSeetRFH4iONRwhVx7jQnOijUgzcbQido0QuKvnHTpjUw&oe=6AF318E7&_nc_sid=c024bc\",\n            \"verified\": false,\n            \"privateAccount\": false\n          }\n        ],\n        \"taggedUsers\": null,\n        \"location\": null,\n        \"isPaidPartnership\": false,\n        \"sponsors\": [],\n        \"commentsDisabled\": null,\n        \"isPinned\": true,\n        \"story\": null\n      },\n      {\n        \"id\": \"4023176577048546537\",\n        \"shortcode\": \"DfVMcf3pozp\",\n        \"url\": \"https://www.instagram.com/reel/DfVMcf3pozp/\",\n        \"kind\": \"reel\",\n        \"mediaType\": \"video\",\n        \"caption\": \"You ready? Clique up\ud83d\ude2e\u200d\ud83d\udca8\\n\\n@ a middle school baller you want at camp wit you\",\n        \"altText\": null,\n        \"createdAt\": \"2026-11-04T19:33:16.000Z\",\n        \"owner\": {\n          \"id\": \"72753728506\",\n          \"handle\": \"alpopsscouting\",\n          \"displayName\": \"AL Pops\",\n          \"avatarUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-19/745177496_17913128886424507_7071919484605766505_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby42OTMuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gH-TCOVhFA_CBA8q0QYs6vISB2duQehXFkLchkbrX-bOx16oJ8-PqHVUmuph49zZ64&_nc_ohc=9DlModQOQuUQ7kNvwEepYqK&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GJiBaiy7UxdU5aM-AGkbF3hNgSRibmNDAQAB1501500j-ccb7-5&oh=00_AQQOjrlc3iXgdPL7ntKq089Sxr8ukuFyEZBtvDSoRSCK5g&oe=6AF33579&_nc_sid=c024bc\",\n          \"verified\": false,\n          \"privateAccount\": false\n        },\n        \"metrics\": {\n          \"likeCount\": 108,\n          \"commentCount\": 21,\n          \"playCount\": 7294,\n          \"shareCount\": 7,\n          \"saveCount\": 6,\n          \"likesHidden\": false\n        },\n        \"imageUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/888351284_17929707015424507_8714758813227774891_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=106&ig_cache_key=NDAyMzE3NjU3NzA0ODU0NjUzNzE3OTI5NzA3MDA5NDI0NTA3.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=YKjhJe1xeBIQ7kNvwHlXX6l&_nc_oc=AdrLFJh2keZJNuzlGtDWdo5ISY8ITDiUryV7DO9RgR0qOCLwqqWxk6rkspXH5a8PkIk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQQxeC_YOUh_C3ts1XJ8Okyou--ibAc6WIpD_y-i4exG2A&oe=6AF33096\",\n        \"thumbnailUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/888351284_17929707015424507_8714758813227774891_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=106&ig_cache_key=NDAyMzE3NjU3NzA0ODU0NjUzNzE3OTI5NzA3MDA5NDI0NTA3.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=YKjhJe1xeBIQ7kNvwHlXX6l&_nc_oc=AdrLFJh2keZJNuzlGtDWdo5ISY8ITDiUryV7DO9RgR0qOCLwqqWxk6rkspXH5a8PkIk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQQxeC_YOUh_C3ts1XJ8Okyou--ibAc6WIpD_y-i4exG2A&oe=6AF33096\",\n        \"videoUrl\": \"https://scontent-yyz1-1.cdninstagram.com/o1/v/t2/f2/m86/AQNNTMJkMz15KPBbZZHFioJRby4jzQ4VmvG9zN5bf8oizpz66z88SZCGYEweoQiyTC0BCOVwrSyxXq60cg3APKl8CcVlTaZTgGiTy9M.mp4?_nc_cat=107&_nc_sid=5e9851&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_ohc=zIJVSTzwi2QQ7kNvwE1Pnmd&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTg2MDE3Mjk4MTY2MjM4OSwiYXNzZXRfYWdlX2RheXMiOjEsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo3MCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=7bd1e5a199ec77ac&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC84MjcwNDIyMDcwMzI0NDBFQTg4MTE2NjMyNkQ4NTg4RV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0U3OTgwQUZFNUFERTQ1Nzg4Q0Q5NTNDNjUyN0NENDY2X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbqytfcqPTNBhUCKAJDMywXQFGHGp--dskYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQSf9a3qft0VuTkU8tLE6J5_yDT9dtDQ1PwmkFUrDKSRLQ&oe=6AEF337C\",\n        \"durationSec\": 70.111,\n        \"dimensions\": {\n          \"width\": 1080,\n          \"height\": 1920\n        },\n        \"carousel\": null,\n        \"audio\": {\n          \"id\": \"29364594833134630\",\n          \"title\": \"Original audio\",\n          \"artist\": \"AL Pops\",\n          \"isOriginal\": true,\n          \"artistHandle\": \"alpopsscouting\"\n        },\n        \"coauthors\": [\n          {\n            \"id\": \"32764379570\",\n            \"handle\": \"prepredzone\",\n            \"displayName\": \"Prep Redzone\",\n            \"avatarUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/240462627_239891718013395_6596921985347404748_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4zNjAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gHBTPLRp5Pk9LzR0rZGuTEDJXDML_RMQiHxq5bT7vbG35BK0kXKnr5y_7fxKMOwzQ0&_nc_ohc=OvBpLt_HLYUQ7kNvwHdwKn9&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GCMrVQ7TAaMkLtoAAMzDmPuX_YxbbkULAAAB1501500j-ccb7-5&oh=00_AQSrv8x1I62II88kXqXXOcuoV-CWFGe2OCqURMzlOstMxQ&oe=6AF33F55&_nc_sid=c024bc\",\n            \"verified\": true,\n            \"privateAccount\": false\n          },\n          {\n            \"id\": \"49472358623\",\n            \"handle\": \"prepredzonenext\",\n            \"displayName\": \"Prep Redzone NEXT\",\n            \"avatarUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/463737765_926123479414895_7081349122286300623_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MDAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gHwzJRrP-UVdnkXUezM313K6P-ReQtEXfF4dhgZ3wY5yAxNZYFUOBgr9CuFyInYijs&_nc_ohc=d_c_nUcNTX0Q7kNvwFzEz6O&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GKUTpBtvOALtTUoDAM8tZhSCAUZibkULAAAB1501500j-ccb7-5&oh=00_AQQGzAPRyd8hrtkK8o78zFCs2-jHE2WLalLOvYnJu7lrYQ&oe=6AF34800&_nc_sid=c024bc\",\n            \"verified\": true,\n            \"privateAccount\": false\n          }\n        ],\n        \"taggedUsers\": null,\n        \"location\": null,\n        \"isPaidPartnership\": false,\n        \"sponsors\": [],\n        \"commentsDisabled\": null,\n        \"isPinned\": false,\n        \"story\": null\n      },\n      {\n        \"id\": \"4019780356640844799\",\n        \"shortcode\": \"DfJIO_Iq6v_\",\n        \"url\": \"https://www.instagram.com/reel/DfJIO_Iq6v_/\",\n        \"kind\": \"reel\",\n        \"mediaType\": \"video\",\n        \"caption\": \"WOAH \ud83d\ude33\\n\\nCranston East's John Dacruz with the ONE-HANDED INT\ud83d\udea8\\n\\nOne of the best plays you'll see in Rhode Island High School Football all year...\\n\\nVery much #SCTop10 worthy @nbc10wjar @sportscenter @sportscenternext \\n\\n#football #highschoolfootball #rhodeisland #ri\",\n        \"altText\": null,\n        \"createdAt\": \"2026-10-31T02:53:33.000Z\",\n        \"owner\": {\n          \"id\": \"1072720047\",\n          \"handle\": \"zachletson\",\n          \"displayName\": \"Zach Letson\",\n          \"avatarUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-19/789540087_18622585528016048_4128244505643140516_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby43MjUuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gGa97tEPXLmgRwJ496WiQvljE2tkpBOgx4ts3c9AjrenKEQi710YYu5BoL90x1Oawo&_nc_ohc=6PFI-zPyf3gQ7kNvwElX2uS&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GPdsDy_wXDKTJClCAKRF0WiBeEo5bmNDAQAB1501500j-ccb7-5&oh=00_AQSUIKfbpYsWkW9fiavuctsohS92dkOxRj8kNcuFR1Pv2Q&oe=6AF34C48&_nc_sid=c024bc\",\n          \"verified\": false,\n          \"privateAccount\": false\n        },\n        \"metrics\": {\n          \"likeCount\": 467,\n          \"commentCount\": 7,\n          \"playCount\": 27999,\n          \"shareCount\": 125,\n          \"saveCount\": 8,\n          \"likesHidden\": false\n        },\n        \"imageUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/881396688_18643582777016048_402969286215343882_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=110&ig_cache_key=NDAxOTc4MDM1NjY0MDg0NDc5OTE4NjQzNTgyNzcxMDE2MDQ4.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjYwOC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=B4CEWWswkbwQ7kNvwHD1SsU&_nc_oc=AdqUcyGfszdtxlFhQiY1JGvP7IJRhE_1nxlaGyp9boyc_BOEq7KAJuFe-d_sZwyr248&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQTJaNm9fGVzEJ3gcMZmvVm8qD4rZ6_BSKB3K9sngG90kw&oe=6AF34F39\",\n        \"thumbnailUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/881396688_18643582777016048_402969286215343882_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=110&ig_cache_key=NDAxOTc4MDM1NjY0MDg0NDc5OTE4NjQzNTgyNzcxMDE2MDQ4.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjYwOC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=B4CEWWswkbwQ7kNvwHD1SsU&_nc_oc=AdqUcyGfszdtxlFhQiY1JGvP7IJRhE_1nxlaGyp9boyc_BOEq7KAJuFe-d_sZwyr248&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQTJaNm9fGVzEJ3gcMZmvVm8qD4rZ6_BSKB3K9sngG90kw&oe=6AF34F39\",\n        \"videoUrl\": \"https://scontent-yyz1-1.cdninstagram.com/o1/v/t2/f2/m86/AQPNGkGAgSJ8qaSp-CVD7BdqOKNvgWFFCisGlUg1RSfyD4m3O3Dya1Fr9-XT6g0yDmihFpFgI-KOFnZoR3XGgHtFI6HbSZpGD_-BEkk.mp4?_nc_cat=102&_nc_sid=5e9851&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_ohc=FqW0qYJPNrQQ7kNvwFIwGSM&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNjA0LmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjAyNDAxMzEzMTY0NTEyOCwiYXNzZXRfYWdlX2RheXMiOjYsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoyMCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=942cc5a16f7d09fd&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC81MDk1ODFFQTExQjc0OEI3QjI4MTkxOEQ1RkVCMEI3NV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzIwMUM2NDIzRjU5RjQ4MzI5RUQxNTM2QUEwNjZBRjU1X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaQg9z7iLWYBxUCKAJDMywXQDQFHrhR64UYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQR6twLDjfOiKSTDuKTWtsP01oIN5CAnvUr9o44QAnI5aw&oe=6AEF3BD7\",\n        \"durationSec\": 20.02,\n        \"dimensions\": {\n          \"width\": 604,\n          \"height\": 1076\n        },\n        \"carousel\": null,\n        \"audio\": {\n          \"id\": \"29450408054552199\",\n          \"title\": \"Original audio\",\n          \"artist\": \"Zach Letson\",\n          \"isOriginal\": true,\n          \"artistHandle\": \"zachletson\"\n        },\n        \"coauthors\": [\n          {\n            \"id\": \"32764379570\",\n            \"handle\": \"prepredzone\",\n            \"displayName\": \"Prep Redzone\",\n            \"avatarUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/240462627_239891718013395_6596921985347404748_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4zNjAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gHBTPLRp5Pk9LzR0rZGuTEDJXDML_RMQiHxq5bT7vbG35BK0kXKnr5y_7fxKMOwzQ0&_nc_ohc=OvBpLt_HLYUQ7kNvwHdwKn9&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GCMrVQ7TAaMkLtoAAMzDmPuX_YxbbkULAAAB1501500j-ccb7-5&oh=00_AQSrv8x1I62II88kXqXXOcuoV-CWFGe2OCqURMzlOstMxQ&oe=6AF33F55&_nc_sid=c024bc\",\n            \"verified\": true,\n            \"privateAccount\": false\n          },\n          {\n            \"id\": \"4633980089\",\n            \"handle\": \"nbc10wjar\",\n            \"displayName\": \"NBC 10 WJAR Providence New Bedford\",\n            \"avatarUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/455159137_383447491443984_6832396802122072602_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MDAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gF5nybqQk75d8RCZZKvjtBglKLAKDevUmR21kOVU20iCIimuCG1ZFLhjzZ9XgY_bGE&_nc_ohc=QA8nKGVWtXMQ7kNvwEl1_hR&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GGEtIRsQfYRTvlwBABpCACOxjNFebkULAAAB1501500j-ccb7-5&oh=00_AQQ1yXQhkxwlCrxLM7kLBN2KbF2QfNm8koo1pBFdmUO0Dw&oe=6AF31F41&_nc_sid=c024bc\",\n            \"verified\": true,\n            \"privateAccount\": false\n          },\n          {\n            \"id\": \"7232304100\",\n            \"handle\": \"breakthroughelitefb\",\n            \"displayName\": \"Breakthrough Elite Football\",\n            \"avatarUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/398173675_654267100210428_4670390555575734311_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gG8Y7Bjhezg_aLCZXkPA6pIFeDVfJZv3fEobpV9J5JKlmuJDrZHtKQUe65aHhIEaGM&_nc_ohc=TLwGB5agHYsQ7kNvwGVZ8RX&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GOuluxf8pBhuDVMCACdQbit3j9BAbkULAAAB1501500j-ccb7-5&oh=00_AQTCJPEmP3nOZjE8nO20FPv3Rq_Ak9yD3rucwFlyCT05Wg&oe=6AF34F28&_nc_sid=c024bc\",\n            \"verified\": false,\n            \"privateAccount\": false\n          }\n        ],\n        \"taggedUsers\": null,\n        \"location\": null,\n        \"isPaidPartnership\": false,\n        \"sponsors\": [],\n        \"commentsDisabled\": null,\n        \"isPinned\": false,\n        \"story\": null\n      },\n      {\n        \"id\": \"4019427142415971374\",\n        \"shortcode\": \"DfH37CwRHQu\",\n        \"url\": \"https://www.instagram.com/reel/DfH37CwRHQu/\",\n        \"kind\": \"reel\",\n        \"mediaType\": \"video\",\n        \"caption\": \"I know. You know. They know. We ALL know.\",\n        \"altText\": null,\n        \"createdAt\": \"2026-10-30T15:13:39.000Z\",\n        \"owner\": {\n          \"id\": \"49472358623\",\n          \"handle\": \"prepredzonenext\",\n          \"displayName\": \"Prep Redzone NEXT\",\n          \"avatarUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/463737765_926123479414895_7081349122286300623_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MDAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gHwzJRrP-UVdnkXUezM313K6P-ReQtEXfF4dhgZ3wY5yAxNZYFUOBgr9CuFyInYijs&_nc_ohc=d_c_nUcNTX0Q7kNvwFzEz6O&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GKUTpBtvOALtTUoDAM8tZhSCAUZibkULAAAB1501500j-ccb7-5&oh=00_AQQGzAPRyd8hrtkK8o78zFCs2-jHE2WLalLOvYnJu7lrYQ&oe=6AF34800&_nc_sid=c024bc\",\n          \"verified\": true,\n          \"privateAccount\": false\n        },\n        \"metrics\": {\n          \"likeCount\": 41,\n          \"commentCount\": 2,\n          \"playCount\": 3675,\n          \"shareCount\": 4,\n          \"saveCount\": 0,\n          \"likesHidden\": false\n        },\n        \"imageUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/871645409_18101493125654624_8855794562484646609_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=106&ig_cache_key=NDAxOTQyNzE0MjQxNTk3MTM3NDE4MTAxNDkzMTIyNjU0NjI0.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNzAuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=rfdc2sCbogkQ7kNvwGcKtj4&_nc_oc=Adp3u6aJQmTxWRuVBxcm3vIGwTGvCJG39RQdJwvGjufv663i4YPqq5ovv2ey38uVEac&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQSYr6I7ak_VjT_9pISEc0FVtV2ALV2A9UkKS_pradadGw&oe=6AF33F16\",\n        \"thumbnailUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/871645409_18101493125654624_8855794562484646609_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=106&ig_cache_key=NDAxOTQyNzE0MjQxNTk3MTM3NDE4MTAxNDkzMTIyNjU0NjI0.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNzAuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=rfdc2sCbogkQ7kNvwGcKtj4&_nc_oc=Adp3u6aJQmTxWRuVBxcm3vIGwTGvCJG39RQdJwvGjufv663i4YPqq5ovv2ey38uVEac&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQSYr6I7ak_VjT_9pISEc0FVtV2ALV2A9UkKS_pradadGw&oe=6AF33F16\",\n        \"videoUrl\": \"https://scontent-yyz1-1.cdninstagram.com/o1/v/t2/f2/m86/AQMio83skGjthyw2igjqXLS5f4-J3tt3EbqVYY9ND0kGlbx2K0NKkd5nQLQiMkDWRQCpEsFDk5LdpHnLOU24bg8aGZgj5let1eR7m18.mp4?_nc_cat=110&_nc_sid=5e9851&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_ohc=yPGJ1EeLm7IQ7kNvwGxzzdU&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjIzNDQwNjQyNDE3OTY1NywiYXNzZXRfYWdlX2RheXMiOjYsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxMjEsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=8d09b9e91b13414e&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9CNUVDOURGQzRGQ0Y0QzM0OEVGRUJBNDk2NjMwNTA4RV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0ExODZBRDZERDUzRDQ1MERBQzRGRDIzRTEwMTdGMDZBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaSz5OTyYv4BxUCKAJDMywXQF5GZmZmZmYYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQRF46nMb3TPsibJwk3XzWS_G8rYqYTAk9Dj9m6co29o3w&oe=6AEF2C07\",\n        \"durationSec\": 121.1,\n        \"dimensions\": {\n          \"width\": 1080,\n          \"height\": 1920\n        },\n        \"carousel\": null,\n        \"audio\": {\n          \"id\": \"29492589260338165\",\n          \"title\": \"Original audio\",\n          \"artist\": \"Prep Redzone NEXT\",\n          \"isOriginal\": true,\n          \"artistHandle\": \"prepredzonenext\"\n        },\n        \"coauthors\": [\n          {\n            \"id\": \"32764379570\",\n            \"handle\": \"prepredzone\",\n            \"displayName\": \"Prep Redzone\",\n            \"avatarUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/240462627_239891718013395_6596921985347404748_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4zNjAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gHBTPLRp5Pk9LzR0rZGuTEDJXDML_RMQiHxq5bT7vbG35BK0kXKnr5y_7fxKMOwzQ0&_nc_ohc=OvBpLt_HLYUQ7kNvwHdwKn9&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GCMrVQ7TAaMkLtoAAMzDmPuX_YxbbkULAAAB1501500j-ccb7-5&oh=00_AQSrv8x1I62II88kXqXXOcuoV-CWFGe2OCqURMzlOstMxQ&oe=6AF33F55&_nc_sid=c024bc\",\n            \"verified\": true,\n            \"privateAccount\": false\n          },\n          {\n            \"id\": \"72753728506\",\n            \"handle\": \"alpopsscouting\",\n            \"displayName\": \"AL Pops\",\n            \"avatarUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-19/745177496_17913128886424507_7071919484605766505_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby42OTMuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gH-TCOVhFA_CBA8q0QYs6vISB2duQehXFkLchkbrX-bOx16oJ8-PqHVUmuph49zZ64&_nc_ohc=9DlModQOQuUQ7kNvwEepYqK&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GJiBaiy7UxdU5aM-AGkbF3hNgSRibmNDAQAB1501500j-ccb7-5&oh=00_AQQOjrlc3iXgdPL7ntKq089Sxr8ukuFyEZBtvDSoRSCK5g&oe=6AF33579&_nc_sid=c024bc\",\n            \"verified\": false,\n            \"privateAccount\": false\n          }\n        ],\n        \"taggedUsers\": null,\n        \"location\": null,\n        \"isPaidPartnership\": false,\n        \"sponsors\": [],\n        \"commentsDisabled\": null,\n        \"isPinned\": false,\n        \"story\": null\n      },\n      {\n        \"id\": \"4019361175716861926\",\n        \"shortcode\": \"DfHo7GemZfm\",\n        \"url\": \"https://www.instagram.com/reel/DfHo7GemZfm/\",\n        \"kind\": \"reel\",\n        \"mediaType\": \"video\",\n        \"caption\": \"THE ROAD TO INDY STARTS IN YOUR STATE.\\n\\nSeven on 7 commits are pouring in from across the country, plus Canada. With 27 events in 19 states, more than 2,000 teams and 10,000 players are chasing one goal: the National Championship in Indy.\\n\\nIs your state on the map yet?\\n\\nTag your team and state in the comments below. \\n\\nRegister today at prepredzone.com/events (link in bio).\\n\\n#PrepRedzone #SevenOn7 #7on7 #RoadToIndy #7on7Football #HighSchoolFootball #FootballRecruiting\",\n        \"altText\": null,\n        \"createdAt\": \"2026-10-30T13:00:00.000Z\",\n        \"owner\": {\n          \"id\": \"32764379570\",\n          \"handle\": \"prepredzone\",\n          \"displayName\": \"Prep Redzone\",\n          \"avatarUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/240462627_239891718013395_6596921985347404748_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4zNjAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gHBTPLRp5Pk9LzR0rZGuTEDJXDML_RMQiHxq5bT7vbG35BK0kXKnr5y_7fxKMOwzQ0&_nc_ohc=OvBpLt_HLYUQ7kNvwHdwKn9&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GCMrVQ7TAaMkLtoAAMzDmPuX_YxbbkULAAAB1501500j-ccb7-5&oh=00_AQSrv8x1I62II88kXqXXOcuoV-CWFGe2OCqURMzlOstMxQ&oe=6AF33F55&_nc_sid=c024bc\",\n          \"verified\": true,\n          \"privateAccount\": false\n        },\n        \"metrics\": {\n          \"likeCount\": 30,\n          \"commentCount\": 1,\n          \"playCount\": 6760,\n          \"shareCount\": 3,\n          \"saveCount\": 1,\n          \"likesHidden\": false\n        },\n        \"imageUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/876658203_18118436258091571_3988514685658341424_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=110&ig_cache_key=NDAxOTM2MTE3NTcxNjg2MTkyNjE4MTE4NDM2MjU1MDkxNTcx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl91cGxvYWRlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=cafyJrRc288Q7kNvwG2kHvj&_nc_oc=Ado1OSLLJB1Lt5MUpumsPpwkRdUZVw-Xxekfm1jeeYryIhIuHMFuZ0Aw-JuDzBkmVQ0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQRtNSN4sZz2V3t-KwioIsz8UCGcJ8SPyNPAQ9RJTaitig&oe=6AF3261F\",\n        \"thumbnailUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/876658203_18118436258091571_3988514685658341424_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=110&ig_cache_key=NDAxOTM2MTE3NTcxNjg2MTkyNjE4MTE4NDM2MjU1MDkxNTcx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl91cGxvYWRlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=cafyJrRc288Q7kNvwG2kHvj&_nc_oc=Ado1OSLLJB1Lt5MUpumsPpwkRdUZVw-Xxekfm1jeeYryIhIuHMFuZ0Aw-JuDzBkmVQ0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQRtNSN4sZz2V3t-KwioIsz8UCGcJ8SPyNPAQ9RJTaitig&oe=6AF3261F\",\n        \"videoUrl\": \"https://scontent-yyz1-1.cdninstagram.com/o1/v/t2/f2/m86/AQO3m-BFvlKPPsUosNPHLSaFV8NS_pKfBk7uHlxXmeVkz0xDpjJCmRMRD8hw3YD4LdqKbGQI8LRH9M8iHf1KM85lSJ3T6iU6lI67Sxg.mp4?_nc_cat=106&_nc_sid=5e9851&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_ohc=3qDG0roF93IQ7kNvwFWIxx_&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTExNTk0ODk1ODA4Njc2NCwiYXNzZXRfYWdlX2RheXMiOjcsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjozNiwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=5936d99993e0cee6&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9CN0IzNjQ3NTQ1NDE0RTNBODRDMTUzODg5N0FFNDY5NF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzdFREU3RDA0MzI5RDRCRjlBMDJEMjE5MDcxMzE1QzQ2X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbY2d_T47z7AxUCKAJDMywXQEIAAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQQOVPd-PNtzfnGZqS5VUraD2_ZajVC28TL5kQJIwUGdDA&oe=6AEF308B\",\n        \"durationSec\": 36.012,\n        \"dimensions\": {\n          \"width\": 1080,\n          \"height\": 1920\n        },\n        \"carousel\": null,\n        \"audio\": {\n          \"id\": \"612398182565841\",\n          \"title\": \"Go Crazy (Remix / Instrumental) [feat. JA\u0178-Z]\",\n          \"artist\": \"Young Jeezy\",\n          \"isOriginal\": false,\n          \"artistHandle\": \"jeezy\"\n        },\n        \"coauthors\": [],\n        \"taggedUsers\": null,\n        \"location\": null,\n        \"isPaidPartnership\": false,\n        \"sponsors\": [],\n        \"commentsDisabled\": null,\n        \"isPinned\": false,\n        \"story\": null\n      },\n      {\n        \"id\": \"4018604082144319709\",\n        \"shortcode\": \"DfE8x8JJZjd\",\n        \"url\": \"https://www.instagram.com/reel/DfE8x8JJZjd/\",\n        \"kind\": \"reel\",\n        \"mediaType\": \"video\",\n        \"caption\": \"Did you miss me? \ud83d\ude4b\u200d\u2642\ufe0f\",\n        \"altText\": null,\n        \"createdAt\": \"2026-10-29T11:59:19.000Z\",\n        \"owner\": {\n          \"id\": \"72753728506\",\n          \"handle\": \"alpopsscouting\",\n          \"displayName\": \"AL Pops\",\n          \"avatarUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-19/745177496_17913128886424507_7071919484605766505_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby42OTMuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gH-TCOVhFA_CBA8q0QYs6vISB2duQehXFkLchkbrX-bOx16oJ8-PqHVUmuph49zZ64&_nc_ohc=9DlModQOQuUQ7kNvwEepYqK&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GJiBaiy7UxdU5aM-AGkbF3hNgSRibmNDAQAB1501500j-ccb7-5&oh=00_AQQOjrlc3iXgdPL7ntKq089Sxr8ukuFyEZBtvDSoRSCK5g&oe=6AF33579&_nc_sid=c024bc\",\n          \"verified\": false,\n          \"privateAccount\": false\n        },\n        \"metrics\": {\n          \"likeCount\": 129,\n          \"commentCount\": 16,\n          \"playCount\": 11662,\n          \"shareCount\": 7,\n          \"saveCount\": 4,\n          \"likesHidden\": false\n        },\n        \"imageUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/876310518_17928715461424507_3457227505239283010_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&ig_cache_key=NDAxODYwNDA4MjE0NDMxOTcwOTE3OTI4NzE1NDU4NDI0NTA3.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=6vUm6Is6-ykQ7kNvwHoXgoQ&_nc_oc=Adq0QtBVBPOtFuu9Q0_nlcbJw6BoozRBEy6dGzieou6TYoKlN1SlfcDtUZVY8zq1-rs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQTasAhTnaZbHCZqz_-HhcznTvQ1Hs3e5BIylMUBUSqLBQ&oe=6AF32FB8\",\n        \"thumbnailUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/876310518_17928715461424507_3457227505239283010_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&ig_cache_key=NDAxODYwNDA4MjE0NDMxOTcwOTE3OTI4NzE1NDU4NDI0NTA3.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=6vUm6Is6-ykQ7kNvwHoXgoQ&_nc_oc=Adq0QtBVBPOtFuu9Q0_nlcbJw6BoozRBEy6dGzieou6TYoKlN1SlfcDtUZVY8zq1-rs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQTasAhTnaZbHCZqz_-HhcznTvQ1Hs3e5BIylMUBUSqLBQ&oe=6AF32FB8\",\n        \"videoUrl\": \"https://scontent-yyz1-1.cdninstagram.com/o1/v/t2/f2/m86/AQOBMKj3JjMNalBqx9j5rkCkSN7K30c_G2LoW-I3BU3pBws-pOgutZimkXbRI05xVGBTAbpq48-GuCZ7V4f6YNWSh1AVKjBdrT9wdsw.mp4?_nc_cat=106&_nc_sid=5e9851&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_ohc=OUtV2K_KZsUQ7kNvwECSPnP&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTg2NDUxOTYxMTU3MzY1OCwiYXNzZXRfYWdlX2RheXMiOjcsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoyOSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=927e03e0ff227388&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC81REI0MjdERTMxRjA0NTBGQkZDMzcyMjQxOTM0NEVCNF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzVBNEI4ODdGMDA1NjQ0MTk5QjhGOUZENTdBNTAwQUI0X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACa0lv_RqfHPBhUCKAJDMywXQD0gAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQSC09HOqQJDJdh0kwquloMallnPc_TdQrijzzfeFS2Puw&oe=6AEF2413\",\n        \"durationSec\": 29.125,\n        \"dimensions\": {\n          \"width\": 1080,\n          \"height\": 1920\n        },\n        \"carousel\": null,\n        \"audio\": {\n          \"id\": \"29358527770503207\",\n          \"title\": \"Original audio\",\n          \"artist\": \"AL Pops\",\n          \"isOriginal\": true,\n          \"artistHandle\": \"alpopsscouting\"\n        },\n        \"coauthors\": [\n          {\n            \"id\": \"32764379570\",\n            \"handle\": \"prepredzone\",\n            \"displayName\": \"Prep Redzone\",\n            \"avatarUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/240462627_239891718013395_6596921985347404748_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4zNjAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gHBTPLRp5Pk9LzR0rZGuTEDJXDML_RMQiHxq5bT7vbG35BK0kXKnr5y_7fxKMOwzQ0&_nc_ohc=OvBpLt_HLYUQ7kNvwHdwKn9&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GCMrVQ7TAaMkLtoAAMzDmPuX_YxbbkULAAAB1501500j-ccb7-5&oh=00_AQSrv8x1I62II88kXqXXOcuoV-CWFGe2OCqURMzlOstMxQ&oe=6AF33F55&_nc_sid=c024bc\",\n            \"verified\": true,\n            \"privateAccount\": false\n          },\n          {\n            \"id\": \"49472358623\",\n            \"handle\": \"prepredzonenext\",\n            \"displayName\": \"Prep Redzone NEXT\",\n            \"avatarUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/463737765_926123479414895_7081349122286300623_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MDAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gHwzJRrP-UVdnkXUezM313K6P-ReQtEXfF4dhgZ3wY5yAxNZYFUOBgr9CuFyInYijs&_nc_ohc=d_c_nUcNTX0Q7kNvwFzEz6O&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GKUTpBtvOALtTUoDAM8tZhSCAUZibkULAAAB1501500j-ccb7-5&oh=00_AQQGzAPRyd8hrtkK8o78zFCs2-jHE2WLalLOvYnJu7lrYQ&oe=6AF34800&_nc_sid=c024bc\",\n            \"verified\": true,\n            \"privateAccount\": false\n          }\n        ],\n        \"taggedUsers\": null,\n        \"location\": null,\n        \"isPaidPartnership\": false,\n        \"sponsors\": [],\n        \"commentsDisabled\": null,\n        \"isPinned\": false,\n        \"story\": null\n      },\n      {\n        \"id\": \"4018179822193785783\",\n        \"shortcode\": \"DfDcUJRgLu3\",\n        \"url\": \"https://www.instagram.com/reel/DfDcUJRgLu3/\",\n        \"kind\": \"reel\",\n        \"mediaType\": \"video\",\n        \"caption\": \"WE HAVE OUR WINNERS!\\n\\nCongrats to Made 7v7, Hyte Performance, and Mississippi Dawgs. Each club wins a FREE team entry to any 2027 Prep Redzone 7-on-7 event.\\n\\nThank you to everyone who entered. The season kicks off January 30, with 27 events across 19 states on one road to the National Championship in Indy.\\n\\nLock in your spot today at prepredzone.com/events\\n\\n#PrepRedzone #7on7 #RoadToIndy\",\n        \"altText\": null,\n        \"createdAt\": \"2026-10-28T21:53:50.000Z\",\n        \"owner\": {\n          \"id\": \"32764379570\",\n          \"handle\": \"prepredzone\",\n          \"displayName\": \"Prep Redzone\",\n          \"avatarUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/240462627_239891718013395_6596921985347404748_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4zNjAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gHBTPLRp5Pk9LzR0rZGuTEDJXDML_RMQiHxq5bT7vbG35BK0kXKnr5y_7fxKMOwzQ0&_nc_ohc=OvBpLt_HLYUQ7kNvwHdwKn9&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GCMrVQ7TAaMkLtoAAMzDmPuX_YxbbkULAAAB1501500j-ccb7-5&oh=00_AQSrv8x1I62II88kXqXXOcuoV-CWFGe2OCqURMzlOstMxQ&oe=6AF33F55&_nc_sid=c024bc\",\n          \"verified\": true,\n          \"privateAccount\": false\n        },\n        \"metrics\": {\n          \"likeCount\": 55,\n          \"commentCount\": 3,\n          \"playCount\": 7646,\n          \"shareCount\": 2,\n          \"saveCount\": 0,\n          \"likesHidden\": false\n        },\n        \"imageUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.71878-15/870988453_1444211264468133_7831406997621263258_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=109&ig_cache_key=NDAxODE3OTgyMjE5Mzc4NTc4MzMzMDYxNDUyOTk3NzYyNDk%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=5QV_OL9gu58Q7kNvwEIQOIH&_nc_oc=AdqKI0AkM1ufJSPFU3K9__W7GzNLptOx0aKqQ4X3A4c_eU8AeVeAw-eMNno__w6dJhI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQQ8Y4xYJ1npZI7t29oABo7vb9tuIBTEy_gfJTcvNc7mxQ&oe=6AF34F82\",\n        \"thumbnailUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.71878-15/870988453_1444211264468133_7831406997621263258_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=109&ig_cache_key=NDAxODE3OTgyMjE5Mzc4NTc4MzMzMDYxNDUyOTk3NzYyNDk%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=5QV_OL9gu58Q7kNvwEIQOIH&_nc_oc=AdqKI0AkM1ufJSPFU3K9__W7GzNLptOx0aKqQ4X3A4c_eU8AeVeAw-eMNno__w6dJhI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQQ8Y4xYJ1npZI7t29oABo7vb9tuIBTEy_gfJTcvNc7mxQ&oe=6AF34F82\",\n        \"videoUrl\": \"https://scontent-yyz1-1.cdninstagram.com/o1/v/t2/f2/m86/AQOoYLugj9OUOM8r6IaIgDiL8X2kgq68d7WVkBJ739aZk1vk-5LoZKwR8I4eiwXou6f5yjW-Ve3yGeHzY3iU4KYrA-y2C3YvHzAAfrU.mp4?_nc_cat=109&_nc_sid=5e9851&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_ohc=OI3eOu8WcpMQ7kNvwHF4NDl&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MzMwNjE0NDU0MzEwOTY1OCwiYXNzZXRfYWdlX2RheXMiOjgsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=3ed22a3b1ec38018&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC85QkY1MjUzQzM4QjA0MDFEOTFCMzdCNDgyMzA0OTExNF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzNDRTE2RTIwQUE1RTRFNTI4QUQwQUQ4MUM3MkREODVBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACa0yIux-LrfCxUCKAJDMywXQC5mZmZmZmYYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQSZwyEE29D2hjbBVFW-3yx7O3bkcAW3tRsaCXHImLoAZw&oe=6AEF37C6\",\n        \"durationSec\": 15.207,\n        \"dimensions\": {\n          \"width\": 1024,\n          \"height\": 1280\n        },\n        \"carousel\": null,\n        \"audio\": {\n          \"id\": \"940069665734567\",\n          \"title\": \"Game Time (Originally Performed By Future, Tyla) [Karaoke Instrumental Version]\",\n          \"artist\": \"Hit The Button Karaoke\",\n          \"isOriginal\": false,\n          \"artistHandle\": \"hitthebuttonkaraoke\"\n        },\n        \"coauthors\": [\n          {\n            \"id\": \"65721523624\",\n            \"handle\": \"7v7_hyteperformance\",\n            \"displayName\": \"Hyte Performance 7v7\",\n            \"avatarUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/436402556_619983740331545_7948005750693817636_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gF1S4IaIqn1mrHtJFplvHxZsMOiKg9lyyVtfSbo6lrEzQi-UegTChRc6yfrKUzouys&_nc_ohc=eua5RYmzLZsQ7kNvwHXajRl&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GHz5AhoZ5ps23zMCACTt3bIe-UxubkULAAAB1501500j-ccb7-5&oh=00_AQTxWAyTe7w2bEL416xeKmMKIG14uLmUGCRyf2sdvIjW-A&oe=6AF34525&_nc_sid=c024bc\",\n            \"verified\": false,\n            \"privateAccount\": false\n          },\n          {\n            \"id\": \"62290681247\",\n            \"handle\": \"madeathletes7v7\",\n            \"displayName\": \"MADE Athletes 7v7\",\n            \"avatarUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-19/561934864_17938876257073248_1766656346162476199_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gGzpH9CvW7eAGg2hjV_t-7oKHRhR6aKHY00kKtwVlfhRt4UhD4nIwRWfauHisDSxWQ&_nc_ohc=griBMrfah1cQ7kNvwEDWPc3&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GBByfiFg_PgaULs-AKc0NDGWbIQYbmNDAQAB1501500j-ccb7-5&oh=00_AQT_kE8Zsg2QVn083wpDEQpgL4O3SENICcuxeqqQ9QsTsg&oe=6AF346F2&_nc_sid=c024bc\",\n            \"verified\": false,\n            \"privateAccount\": false\n          }\n        ],\n        \"taggedUsers\": null,\n        \"location\": null,\n        \"isPaidPartnership\": false,\n        \"sponsors\": [],\n        \"commentsDisabled\": null,\n        \"isPinned\": false,\n        \"story\": null\n      },\n      {\n        \"id\": \"4015347177421254825\",\n        \"shortcode\": \"De5YPvQD7Cp\",\n        \"url\": \"https://www.instagram.com/reel/De5YPvQD7Cp/\",\n        \"kind\": \"reel\",\n        \"mediaType\": \"video\",\n        \"caption\": \"You put in the work. Now show it off. \ud83d\udcaa\\n\\nPrep Redzone subscribers can share every evaluation our scouts have written about them, and anyone can read it. Put it in front of the coaches who need to see it.\\n\\nLink in bio\",\n        \"altText\": null,\n        \"createdAt\": \"2026-10-25T00:05:36.000Z\",\n        \"owner\": {\n          \"id\": \"32764379570\",\n          \"handle\": \"prepredzone\",\n          \"displayName\": \"Prep Redzone\",\n          \"avatarUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/240462627_239891718013395_6596921985347404748_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4zNjAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gHBTPLRp5Pk9LzR0rZGuTEDJXDML_RMQiHxq5bT7vbG35BK0kXKnr5y_7fxKMOwzQ0&_nc_ohc=OvBpLt_HLYUQ7kNvwHdwKn9&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GCMrVQ7TAaMkLtoAAMzDmPuX_YxbbkULAAAB1501500j-ccb7-5&oh=00_AQSrv8x1I62II88kXqXXOcuoV-CWFGe2OCqURMzlOstMxQ&oe=6AF33F55&_nc_sid=c024bc\",\n          \"verified\": true,\n          \"privateAccount\": false\n        },\n        \"metrics\": {\n          \"likeCount\": 10,\n          \"commentCount\": 0,\n          \"playCount\": 3715,\n          \"shareCount\": 0,\n          \"saveCount\": 0,\n          \"likesHidden\": false\n        },\n        \"imageUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/865226416_18117751247091571_733654656446841639_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=109&ig_cache_key=NDAxNTM0NzE3NzQyMTI1NDgyNTE4MTE3NzUxMjQ0MDkxNTcx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=8eRUdCfQsmsQ7kNvwFjDsFM&_nc_oc=AdrQOR0U3cuoQUCINdfIpxvcsEkNala5V9Y1o8GZV5OcJJSUO4zo8piwk0LXqyW2A8M&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQQ1XbuVRjs1rlUvmY0eKDlobVjaJVACrrrRHr6vHDh6RQ&oe=6AF31D18\",\n        \"thumbnailUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/865226416_18117751247091571_733654656446841639_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=109&ig_cache_key=NDAxNTM0NzE3NzQyMTI1NDgyNTE4MTE3NzUxMjQ0MDkxNTcx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=8eRUdCfQsmsQ7kNvwFjDsFM&_nc_oc=AdrQOR0U3cuoQUCINdfIpxvcsEkNala5V9Y1o8GZV5OcJJSUO4zo8piwk0LXqyW2A8M&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQQ1XbuVRjs1rlUvmY0eKDlobVjaJVACrrrRHr6vHDh6RQ&oe=6AF31D18\",\n        \"videoUrl\": \"https://scontent-yyz1-1.cdninstagram.com/o1/v/t2/f2/m86/AQPE1YHOh9nr20my2CNo-Dn6_95FStLK6ZPdk1uBMkZLUvLR0AeokvlbIpDmMy9qeMMqyDreKrOW4DJFNT0dzwOilSmH7pfhncHz5Ic.mp4?_nc_cat=109&_nc_sid=5e9851&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_ohc=jYdOhwVibX0Q7kNvwH8N1r9&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTgxMTc3NTExMTgwOTE1NzEsImFzc2V0X2FnZV9kYXlzIjoxMiwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjE0LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=8a33bc35f23af520&_nc_vs=HBkcFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC80ODBBNDc3NzNDMkM0NkJCQkI2RDQ2M0VFMDdEOTQ3Nl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAKAAYABsCiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATEVAAAm5tSu-PT_rkAVAigCQzMsF0AsAAAAAAAAGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHX-B2XmnQEA&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQTmzGc9AHEnuc2M-AcIogqAhuR0sqzGfoD5bCbIj4mMcQ&oe=6AEF412A\",\n        \"durationSec\": 14,\n        \"dimensions\": {\n          \"width\": 1080,\n          \"height\": 1920\n        },\n        \"carousel\": null,\n        \"audio\": null,\n        \"coauthors\": [],\n        \"taggedUsers\": [],\n        \"location\": null,\n        \"isPaidPartnership\": false,\n        \"sponsors\": [],\n        \"commentsDisabled\": null,\n        \"isPinned\": false,\n        \"story\": null\n      },\n      {\n        \"id\": \"4014372718157231696\",\n        \"shortcode\": \"De16rfVx_ZQ\",\n        \"url\": \"https://www.instagram.com/reel/De16rfVx_ZQ/\",\n        \"kind\": \"reel\",\n        \"mediaType\": \"video\",\n        \"caption\": \"Shabang\ud83d\udca5\",\n        \"altText\": null,\n        \"createdAt\": \"2026-10-23T15:51:45.000Z\",\n        \"owner\": {\n          \"id\": \"49472358623\",\n          \"handle\": \"prepredzonenext\",\n          \"displayName\": \"Prep Redzone NEXT\",\n          \"avatarUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/463737765_926123479414895_7081349122286300623_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MDAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gHwzJRrP-UVdnkXUezM313K6P-ReQtEXfF4dhgZ3wY5yAxNZYFUOBgr9CuFyInYijs&_nc_ohc=d_c_nUcNTX0Q7kNvwFzEz6O&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GKUTpBtvOALtTUoDAM8tZhSCAUZibkULAAAB1501500j-ccb7-5&oh=00_AQQGzAPRyd8hrtkK8o78zFCs2-jHE2WLalLOvYnJu7lrYQ&oe=6AF34800&_nc_sid=c024bc\",\n          \"verified\": true,\n          \"privateAccount\": false\n        },\n        \"metrics\": {\n          \"likeCount\": 158,\n          \"commentCount\": 9,\n          \"playCount\": 7621,\n          \"shareCount\": 48,\n          \"saveCount\": 19,\n          \"likesHidden\": false\n        },\n        \"imageUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/861868921_18100215479654624_3504842379801913963_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&ig_cache_key=NDAxNDM3MjcxODE1NzIzMTY5NjE4MTAwMjE1NDczNjU0NjI0.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=meCintywCBEQ7kNvwFyRNEP&_nc_oc=AdpyUOt2eiUUAYpk-fWlpruwcp_S_lGT6FCn6l8k8UA7DSY62E3cTIihi9mqQIZMBQ8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQTVFQ08jWHU20ULsk8lMErzaG_Lxnz0Epz2XtXRJ9oUig&oe=6AF34C58\",\n        \"thumbnailUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/861868921_18100215479654624_3504842379801913963_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&ig_cache_key=NDAxNDM3MjcxODE1NzIzMTY5NjE4MTAwMjE1NDczNjU0NjI0.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=meCintywCBEQ7kNvwFyRNEP&_nc_oc=AdpyUOt2eiUUAYpk-fWlpruwcp_S_lGT6FCn6l8k8UA7DSY62E3cTIihi9mqQIZMBQ8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQTVFQ08jWHU20ULsk8lMErzaG_Lxnz0Epz2XtXRJ9oUig&oe=6AF34C58\",\n        \"videoUrl\": \"https://scontent-yyz1-1.cdninstagram.com/o1/v/t2/f2/m86/AQOVneEB31MRGbClZ9rsKWyzXOr77CfLSIv12nOgNvkYY2ed9EA_WVuDxKF0INqs85-sLL129NxyhzToMUy-bLEvAjxGj-mFNsJQAuc.mp4?_nc_cat=108&_nc_sid=5e9851&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_ohc=qo07ZiF44l4Q7kNvwHdJe_9&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjIyNzA1MTE1ODY5MzgyNiwiYXNzZXRfYWdlX2RheXMiOjEzLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MjI1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=64bfd8134ba0699a&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC83REZGMERENTYwREM0OEJFOTdFNDQ2MzA3QTQxNkI1NF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzUxREVCQUY5ODQ0ODQyNTk4QTc3MzJCM0VEQzJGMDc1X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaEn6-TuN_0BxUCKAJDMywXQGwt2yLQ5WAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQRU2g8q2arhC-BAPTWlbVeTRqeWHV7wyplNS-_cedVOag&oe=6AEF568D\",\n        \"durationSec\": 225.441,\n        \"dimensions\": {\n          \"width\": 1080,\n          \"height\": 1920\n        },\n        \"carousel\": null,\n        \"audio\": {\n          \"id\": \"28909034185425090\",\n          \"title\": \"Original audio\",\n          \"artist\": \"Prep Redzone NEXT\",\n          \"isOriginal\": true,\n          \"artistHandle\": \"prepredzonenext\"\n        },\n        \"coauthors\": [\n          {\n            \"id\": \"32764379570\",\n            \"handle\": \"prepredzone\",\n            \"displayName\": \"Prep Redzone\",\n            \"avatarUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/240462627_239891718013395_6596921985347404748_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4zNjAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gHBTPLRp5Pk9LzR0rZGuTEDJXDML_RMQiHxq5bT7vbG35BK0kXKnr5y_7fxKMOwzQ0&_nc_ohc=OvBpLt_HLYUQ7kNvwHdwKn9&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GCMrVQ7TAaMkLtoAAMzDmPuX_YxbbkULAAAB1501500j-ccb7-5&oh=00_AQSrv8x1I62II88kXqXXOcuoV-CWFGe2OCqURMzlOstMxQ&oe=6AF33F55&_nc_sid=c024bc\",\n            \"verified\": true,\n            \"privateAccount\": false\n          },\n          {\n            \"id\": \"72753728506\",\n            \"handle\": \"alpopsscouting\",\n            \"displayName\": \"AL Pops\",\n            \"avatarUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-19/745177496_17913128886424507_7071919484605766505_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby42OTMuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gH-TCOVhFA_CBA8q0QYs6vISB2duQehXFkLchkbrX-bOx16oJ8-PqHVUmuph49zZ64&_nc_ohc=9DlModQOQuUQ7kNvwEepYqK&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GJiBaiy7UxdU5aM-AGkbF3hNgSRibmNDAQAB1501500j-ccb7-5&oh=00_AQQOjrlc3iXgdPL7ntKq089Sxr8ukuFyEZBtvDSoRSCK5g&oe=6AF33579&_nc_sid=c024bc\",\n            \"verified\": false,\n            \"privateAccount\": false\n          }\n        ],\n        \"taggedUsers\": null,\n        \"location\": null,\n        \"isPaidPartnership\": false,\n        \"sponsors\": [],\n        \"commentsDisabled\": null,\n        \"isPinned\": false,\n        \"story\": null\n      },\n      {\n        \"id\": \"4014036359476518062\",\n        \"shortcode\": \"De0uM06GZyu\",\n        \"url\": \"https://www.instagram.com/reel/De0uM06GZyu/\",\n        \"kind\": \"reel\",\n        \"mediaType\": \"video\",\n        \"caption\": \"72-HOUR FLASH SALE \\n\\nFor the next 3 days, get 25% off every Stock Up Showcase. Use code 72SHOWCASEIG at checkout.\\n\\nCompete against the best, get in front of our scouts, and get noticed. No prospect left uncovered.\\n\\nRegister now: prepredzone.com/events (link in bio)\\n\\nSale ends in 72 hours.\\n\\n#PrepRedzone #StockUpShowcase #FootballRecruiting #HighSchoolFootball #NoProspectLeftUncovered\",\n        \"altText\": null,\n        \"createdAt\": \"2026-10-23T04:40:00.000Z\",\n        \"owner\": {\n          \"id\": \"32764379570\",\n          \"handle\": \"prepredzone\",\n          \"displayName\": \"Prep Redzone\",\n          \"avatarUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/240462627_239891718013395_6596921985347404748_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4zNjAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gHBTPLRp5Pk9LzR0rZGuTEDJXDML_RMQiHxq5bT7vbG35BK0kXKnr5y_7fxKMOwzQ0&_nc_ohc=OvBpLt_HLYUQ7kNvwHdwKn9&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GCMrVQ7TAaMkLtoAAMzDmPuX_YxbbkULAAAB1501500j-ccb7-5&oh=00_AQSrv8x1I62II88kXqXXOcuoV-CWFGe2OCqURMzlOstMxQ&oe=6AF33F55&_nc_sid=c024bc\",\n          \"verified\": true,\n          \"privateAccount\": false\n        },\n        \"metrics\": {\n          \"likeCount\": 22,\n          \"commentCount\": 0,\n          \"playCount\": 8997,\n          \"shareCount\": 5,\n          \"saveCount\": 2,\n          \"likesHidden\": false\n        },\n        \"imageUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.71878-15/860020749_1146217461071072_7121981767673026406_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=106&ig_cache_key=NDAxNDAzNjM1OTQ3NjUxODA2Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZmlyc3RfZnJhbWVfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=T3eI8fIGMRAQ7kNvwH3MV1u&_nc_oc=AdpA5BMpVeUxDeAvWe-Ohh8-83e2des1G5plIrU-Xnm1buNf_Yrj34cfvMyaF4uW2_s&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQReSQNmLigxdUyuTeVINdF-8PKsLWM1JrqF8erUdbpChA&oe=6AF31892\",\n        \"thumbnailUrl\": \"https://scontent-yyz1-1.cdninstagram.com/v/t51.71878-15/860020749_1146217461071072_7121981767673026406_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=106&ig_cache_key=NDAxNDAzNjM1OTQ3NjUxODA2Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZmlyc3RfZnJhbWVfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=T3eI8fIGMRAQ7kNvwH3MV1u&_nc_oc=AdpA5BMpVeUxDeAvWe-Ohh8-83e2des1G5plIrU-Xnm1buNf_Yrj34cfvMyaF4uW2_s&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQReSQNmLigxdUyuTeVINdF-8PKsLWM1JrqF8erUdbpChA&oe=6AF31892\",\n        \"videoUrl\": \"https://scontent-yyz1-1.cdninstagram.com/o1/v/t2/f2/m86/AQM2pCkjW_L3LCufTdMMP6dc17JKfac5VXVTUFjnMKhQqT45bS5B7Cd7UvnpNj19_JtwF9hX5mK5-CLct9PcY5APeiE6cRPBMbfJwhE.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_ohc=QCaCv3_JnBQQ7kNvwFdntML&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTEzODA4NzgxODg5NTM1MSwiYXNzZXRfYWdlX2RheXMiOjE0LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MjIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=5a8759b0856a7a32&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9FRjk1MjczNjBGMzE0MjUzODdENTY5MjZGODE0RkY1Ml92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0FDRThGRDBGQ0Y4MTQ4NUM4Q0JGNEE5MTY2OUEyQkE3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbu_9iCt8WFBBUCKAJDMywXQDZmZmZmZmYYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQTmxzU5ZWmThwXFDV5IEAsERkp-N16sfQVTBU4bO-MklA&oe=6AEF3BD5\",\n        \"durationSec\": 22.4,\n        \"dimensions\": {\n          \"width\": 720,\n          \"height\": 1280\n        },\n        \"carousel\": null,\n        \"audio\": {\n          \"id\": \"853636929912776\",\n          \"title\": \"Elite (instrumental)\",\n          \"artist\": \"Fat Trel\",\n          \"isOriginal\": false,\n          \"artistHandle\": \"fat_gleesh_\"\n        },\n        \"coauthors\": [],\n        \"taggedUsers\": [],\n        \"location\": null,\n        \"isPaidPartnership\": false,\n        \"sponsors\": [],\n        \"commentsDisabled\": null,\n        \"isPinned\": false,\n        \"story\": null\n      }\n    ],\n    \"page\": {\n      \"kind\": \"cursor\",\n      \"nextCursor\": \"h1.eyJjIjoiUVZGRU0yNXZkbkZ6V0dWV0xUUnBOekpJYlVwTlprc3pUVEZ0YlVKWlIxSm9OMlY1VVd4QmFWVkRSbkY0TURWaVdGZDZaRTFuZW5kcmVUaGlhWEF0UXkwdFkyWjFkblpRZURWUE0xQkdkRFZzWm1zMlZHUkVXQT09IiwiZSI6Im1UQWZldjhhanAiLCJ1IjoiMzI3NjQzNzk1NzAiLCJ0IjoicmVlbHMiLCJiIjoidDJxNWt3S3A2MSJ9\",\n      \"hasMore\": true,\n      \"start\": null,\n      \"page\": null,\n      \"count\": null,\n      \"returnedCount\": 12,\n      \"total\": null,\n      \"totalPages\": null\n    }\n  },\n  \"meta\": {\n    \"requestId\": \"req_d15d4c39-5503-45c4-9935-02dd70e71914\",\n    \"creditsCharged\": 1,\n    \"version\": \"v2\"\n  }\n}"
+   },
+   {
+    "type": "text",
+    "text": "{\"conversation_id\":\"01a1af42-6a68-719b-b40e-e94ea09d5a04\"}"
+   }
+  ],
+  "structuredContent": {
+   "data": {
+    "lookupStatus": "found",
+    "media": [
+     {
+      "id": "4012502509280561268",
+      "shortcode": "DevRcXmCAh0",
+      "url": "https://www.instagram.com/reel/DevRcXmCAh0/",
+      "kind": "reel",
+      "mediaType": "video",
+      "caption": "The college search just got smarter. Our revamped College Match tool shows you which schools you match best with, with a percentage score for each one. Build your profile and see your matches. Link in bio.",
+      "altText": null,
+      "createdAt": "2026-10-21T01:54:06.000Z",
+      "owner": {
+       "id": "32764379570",
+       "handle": "prepredzone",
+       "displayName": "Prep Redzone",
+       "avatarUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/240462627_239891718013395_6596921985347404748_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4zNjAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gHBTPLRp5Pk9LzR0rZGuTEDJXDML_RMQiHxq5bT7vbG35BK0kXKnr5y_7fxKMOwzQ0&_nc_ohc=OvBpLt_HLYUQ7kNvwHdwKn9&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GCMrVQ7TAaMkLtoAAMzDmPuX_YxbbkULAAAB1501500j-ccb7-5&oh=00_AQSrv8x1I62II88kXqXXOcuoV-CWFGe2OCqURMzlOstMxQ&oe=6AF33F55&_nc_sid=c024bc",
+       "verified": true,
+       "privateAccount": false
+      },
+      "metrics": {
+       "likeCount": 17,
+       "commentCount": 0,
+       "playCount": 2854,
+       "shareCount": 2,
+       "saveCount": 0,
+       "likesHidden": false
+      },
+      "imageUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/850404327_18117333992091571_2676084625778068873_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=105&ig_cache_key=NDAxMjUwMjUwOTI4MDU2MTI2ODE4MTE3MzMzOTg5MDkxNTcx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=7XBYBGq7olMQ7kNvwEU6SjP&_nc_oc=AdqQm_-D0sEC3vV-kxklVtf3FrAIDgfyZH5-A3xK49_0H9gJz2TqYgTO-mPrLYSumtM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQQzukOi9RphYj-Xeox7uGkAkPshHsh9HtA1TTyEuQ1R7w&oe=6AF32506",
+      "thumbnailUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/850404327_18117333992091571_2676084625778068873_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=105&ig_cache_key=NDAxMjUwMjUwOTI4MDU2MTI2ODE4MTE3MzMzOTg5MDkxNTcx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=7XBYBGq7olMQ7kNvwEU6SjP&_nc_oc=AdqQm_-D0sEC3vV-kxklVtf3FrAIDgfyZH5-A3xK49_0H9gJz2TqYgTO-mPrLYSumtM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQQzukOi9RphYj-Xeox7uGkAkPshHsh9HtA1TTyEuQ1R7w&oe=6AF32506",
+      "videoUrl": "https://scontent-yyz1-1.cdninstagram.com/o1/v/t2/f2/m86/AQMo26WcsWdenljyCJTUfLW_gNKCSaPOQoPz9e5IC-bOwN2z5GMuhMKPA0nyC7_4kx0xg-AH6uQcorOilRWkdO0XU1WKiCyt-xwK1Wg.mp4?_nc_cat=101&_nc_sid=5e9851&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_ohc=EE0sb1BNx_QQ7kNvwGr-JR-&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTgxMTczMzM4NDIwOTE1NzEsImFzc2V0X2FnZV9kYXlzIjoxNiwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjYyLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=b69c15e05e7d778f&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9GMTM5NjA1NTIxRkQ0MkU5OUQ4RUEyRkI0QzM4QUMyQ192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0FEQThEMjFGRjQxNDQ1NTU4NUQ5NjJDNDUxRjRBNUY4X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbm-Pr-z-euQBUCKAJDMywXQE9AAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQRtTKmEwb_0_Varex1-ZoVKY3Vg9KbKkopB4Pua2Gy9Vg&oe=6AEF4382",
+      "durationSec": 62.506,
+      "dimensions": {
+       "width": 1080,
+       "height": 1920
+      },
+      "carousel": null,
+      "audio": {
+       "id": "28803544002598748",
+       "title": "Original audio",
+       "artist": "Prep Redzone",
+       "isOriginal": true,
+       "artistHandle": "prepredzone"
+      },
+      "coauthors": [],
+      "taggedUsers": [],
+      "location": null,
+      "isPaidPartnership": false,
+      "sponsors": [],
+      "commentsDisabled": null,
+      "isPinned": true,
+      "story": null
+     },
+     {
+      "id": "4002747590004453838",
+      "shortcode": "DeMnbnDxDHO",
+      "url": "https://www.instagram.com/reel/DeMnbnDxDHO/",
+      "kind": "reel",
+      "mediaType": "video",
+      "caption": "The wait is over. \n\nThe 2027 Prep Redzone 7-on-7 schedule is HERE, and registration is officially OPEN. \ud83c\udfc8\n\n27 events. 19 states. 2,000+ teams. \nOne road to the National Championship in Indy.\n\nWatch the video, find your stops, and lock in your spot before the season kicks off January 30.\n\n\ud83c\udf89 TO CELEBRATE, WE\u2019RE GIVING AWAY 3 FREE TEAM ENTRIES!\n\n\ud83c\udfc6 3 clubs will each win 1 FREE team entry to any 2027 Prep Redzone 7-on-7 event\n\nHOW TO ENTER:\n 1\ufe0f\u20e3 Follow @prepredzone\n 2\ufe0f\u20e3 Repost video\n 3\ufe0f\u20e3 Comment your club name below \ud83d\udc47\n\n\ud83d\udd17 Full schedule + registration at the link in bio",
+      "altText": null,
+      "createdAt": "2026-10-07T15:00:54.000Z",
+      "owner": {
+       "id": "32764379570",
+       "handle": "prepredzone",
+       "displayName": "Prep Redzone",
+       "avatarUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/240462627_239891718013395_6596921985347404748_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4zNjAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gHBTPLRp5Pk9LzR0rZGuTEDJXDML_RMQiHxq5bT7vbG35BK0kXKnr5y_7fxKMOwzQ0&_nc_ohc=OvBpLt_HLYUQ7kNvwHdwKn9&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GCMrVQ7TAaMkLtoAAMzDmPuX_YxbbkULAAAB1501500j-ccb7-5&oh=00_AQSrv8x1I62II88kXqXXOcuoV-CWFGe2OCqURMzlOstMxQ&oe=6AF33F55&_nc_sid=c024bc",
+       "verified": true,
+       "privateAccount": false
+      },
+      "metrics": {
+       "likeCount": 196,
+       "commentCount": 27,
+       "playCount": 17534,
+       "shareCount": 138,
+       "saveCount": 2,
+       "likesHidden": false
+      },
+      "imageUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/841099789_18115927046091571_3010594617096512568_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=107&ig_cache_key=NDAwMjc0NzU5MDAwNDQ1MzgzODE4MTE1OTI3MDQzMDkxNTcx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEzMjAuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=wwQjgYVkfswQ7kNvwEz4R2J&_nc_oc=Adp7UrkSgIoZSXPWZCOvZPZGEff2y_KyFA47oq-Di8wHzPTpAjf-Z_x44oriGuFDDr8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQTTPKXcUn5K5kLIqavuuctdPH_tKy3UxbMvekmGFKr36Q&oe=6AF3238D",
+      "thumbnailUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/841099789_18115927046091571_3010594617096512568_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=107&ig_cache_key=NDAwMjc0NzU5MDAwNDQ1MzgzODE4MTE1OTI3MDQzMDkxNTcx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEzMjAuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=wwQjgYVkfswQ7kNvwEz4R2J&_nc_oc=Adp7UrkSgIoZSXPWZCOvZPZGEff2y_KyFA47oq-Di8wHzPTpAjf-Z_x44oriGuFDDr8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQTTPKXcUn5K5kLIqavuuctdPH_tKy3UxbMvekmGFKr36Q&oe=6AF3238D",
+      "videoUrl": "https://scontent-yyz1-1.cdninstagram.com/o1/v/t2/f2/m86/AQODWck1putuz0S6a_dvr6Eq_kufW0UU50qCPn3MwUmYVPMCDIGURmHGHOi8VMnah0yRe8PTd3pfhXPTzgJ4ggxHAohlyR2E1YwQjGY.mp4?_nc_cat=108&_nc_sid=5e9851&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_ohc=i0M4x8Bixa0Q7kNvwF_pcf-&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6Mzg4OTgwODk0NjMxNzIxMDYsImFzc2V0X2FnZV9kYXlzIjoyOSwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjY0LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=716d52d683a32104&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8yQUMxOUFFMEM3NEM0NkI0QkI5NDQzNzU2OTBCM0JDQV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzMxMDREMTUxRkM0RTQxNDFBQUNGQTRBRTZCNURGMTE3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaUsKbO5uaYigEVAigCQzMsF0BQF2yLQ5WBGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHX-B2XmnQEA&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQTtiCMx1rv_931iQrH1hgdHAx9AA3paoixEDOC1h3YTAg&oe=6AEF4805",
+      "durationSec": 64.366,
+      "dimensions": {
+       "width": 1080,
+       "height": 1920
+      },
+      "carousel": null,
+      "audio": {
+       "id": "28539896622347330",
+       "title": "Original audio",
+       "artist": "Prep Redzone",
+       "isOriginal": true,
+       "artistHandle": "prepredzone"
+      },
+      "coauthors": [
+       {
+        "id": "49472358623",
+        "handle": "prepredzonenext",
+        "displayName": "Prep Redzone NEXT",
+        "avatarUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/463737765_926123479414895_7081349122286300623_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MDAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gHwzJRrP-UVdnkXUezM313K6P-ReQtEXfF4dhgZ3wY5yAxNZYFUOBgr9CuFyInYijs&_nc_ohc=d_c_nUcNTX0Q7kNvwFzEz6O&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GKUTpBtvOALtTUoDAM8tZhSCAUZibkULAAAB1501500j-ccb7-5&oh=00_AQQGzAPRyd8hrtkK8o78zFCs2-jHE2WLalLOvYnJu7lrYQ&oe=6AF34800&_nc_sid=c024bc",
+        "verified": true,
+        "privateAccount": false
+       },
+       {
+        "id": "1632771325",
+        "handle": "sports_thread",
+        "displayName": "SPORTS THREAD",
+        "avatarUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/214372943_817411135818644_6891676993582356791_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44NTkuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gF8Roiwcmh0KL1uaRmEhIBaPnNPBciT8RzpM06DG5mU99NJ1M5Cd72f1jaT6x_fIdo&_nc_ohc=anhQKA1kpdIQ7kNvwFwI4dl&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GE8SxwyUy2JcbucCADdZNUW2J6RfbkULAAAB1501500j-ccb7-5&oh=00_AQSvRZsv1TIoCui2RZPXQ61vsSf08hmR_68sUdlqnb193g&oe=6AF32348&_nc_sid=c024bc",
+        "verified": false,
+        "privateAccount": false
+       }
+      ],
+      "taggedUsers": null,
+      "location": null,
+      "isPaidPartnership": false,
+      "sponsors": [],
+      "commentsDisabled": null,
+      "isPinned": true,
+      "story": null
+     },
+     {
+      "id": "3851525173912933316",
+      "shortcode": "DVzXb1KjhPE",
+      "url": "https://www.instagram.com/reel/DVzXb1KjhPE/",
+      "kind": "reel",
+      "mediaType": "video",
+      "caption": "We\u2019re back! Join The Best! \n\nThe Prep Redzone Exposure Tour is live! Limited spots available - don\u2019t wait to register. \n\nUniversal Speed Rating will be doing third-party verified testing at all showcases. \n\nLock in your spot today!",
+      "altText": null,
+      "createdAt": "2026-03-12T23:21:39.000Z",
+      "owner": {
+       "id": "32764379570",
+       "handle": "prepredzone",
+       "displayName": "Prep Redzone",
+       "avatarUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/240462627_239891718013395_6596921985347404748_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4zNjAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gHBTPLRp5Pk9LzR0rZGuTEDJXDML_RMQiHxq5bT7vbG35BK0kXKnr5y_7fxKMOwzQ0&_nc_ohc=OvBpLt_HLYUQ7kNvwHdwKn9&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GCMrVQ7TAaMkLtoAAMzDmPuX_YxbbkULAAAB1501500j-ccb7-5&oh=00_AQSrv8x1I62II88kXqXXOcuoV-CWFGe2OCqURMzlOstMxQ&oe=6AF33F55&_nc_sid=c024bc",
+       "verified": true,
+       "privateAccount": false
+      },
+      "metrics": {
+       "likeCount": 154,
+       "commentCount": 9,
+       "playCount": 19943,
+       "shareCount": 21,
+       "saveCount": 5,
+       "likesHidden": false
+      },
+      "imageUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/651040568_18094238567091571_5210814515636425670_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=103&ig_cache_key=Mzg1MTUyNTE3MzkxMjkzMzMxNjE4MDk0MjM4NTY0MDkxNTcx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=hIuJBBW5ErgQ7kNvwET89B3&_nc_oc=Adphny6ItvpvK1w9h9GS3JtA2KT37MgLGWkmefzdoJg28QPa1ZoLf1WUD8sBDN0gdVE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQTo6IvkfksZMUSi9KREf1kZyKSVElW5kzKVMsvpjCvCLw&oe=6AF33F65",
+      "thumbnailUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/651040568_18094238567091571_5210814515636425670_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=103&ig_cache_key=Mzg1MTUyNTE3MzkxMjkzMzMxNjE4MDk0MjM4NTY0MDkxNTcx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=hIuJBBW5ErgQ7kNvwET89B3&_nc_oc=Adphny6ItvpvK1w9h9GS3JtA2KT37MgLGWkmefzdoJg28QPa1ZoLf1WUD8sBDN0gdVE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQTo6IvkfksZMUSi9KREf1kZyKSVElW5kzKVMsvpjCvCLw&oe=6AF33F65",
+      "videoUrl": "https://scontent-yyz1-1.cdninstagram.com/o1/v/t16/f2/m69/AQO7Di1qL-qlPcXkLE8HCsL46SdTK212UtNp44yCujZ4OYr0ZPugxBiVxtgLQGXf78-WQcsDGNCGYAwz08imFcj0.mp4?strext=1&_nc_cat=101&_nc_sid=5e9851&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_ohc=4xKR9fhMm_sQ7kNvwEwnmff&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NDg0NDUzMTgxMDM5OTgsImFzc2V0X2FnZV9kYXlzIjoyMzgsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjozNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=23712bbe76ae815b&_nc_vs=HBksFQIYOnBhc3N0aHJvdWdoX2V2ZXJzdG9yZS9HTWhla1NhUXdGeUxtb3NEQUItdnE2ak4wSzVtYnNwVEFRQUYVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0FENEZBOUIyNTA2MUVGMkJGRjJCRDI0RjcyQzY2OTkwX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb8jqa3goHiPxUCKAJDMywXQEFFP3ztkWgYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQQwNUiUnths5aHQHveJRWYURbFQOxtGY4G0orkMFYFZLQ&oe=6AF3427F",
+      "durationSec": 34.541,
+      "dimensions": {
+       "width": 1080,
+       "height": 1080
+      },
+      "carousel": null,
+      "audio": {
+       "id": "25768189582864340",
+       "title": "Original audio",
+       "artist": "Prep Redzone",
+       "isOriginal": true,
+       "artistHandle": "prepredzone"
+      },
+      "coauthors": [
+       {
+        "id": "47928151389",
+        "handle": "universalspeedrating",
+        "displayName": "Universal Speed Rating",
+        "avatarUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/199448069_4052425184874463_869897523197379909_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40NDAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gGcyVg8iqTkU_oWH7tMYpfxSDTVzrhdZHzT4rGm6FNY1Zb04V260PAFBpFpYK8s4qE&_nc_ohc=PAoarbMgd1IQ7kNvwGz53Ob&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GAVW4wvfj5-DqGUOAEUFLD0wfxIMbkULAAAB1501500j-ccb7-5&oh=00_AQSeetRFH4iONRwhVx7jQnOijUgzcbQido0QuKvnHTpjUw&oe=6AF318E7&_nc_sid=c024bc",
+        "verified": false,
+        "privateAccount": false
+       }
+      ],
+      "taggedUsers": null,
+      "location": null,
+      "isPaidPartnership": false,
+      "sponsors": [],
+      "commentsDisabled": null,
+      "isPinned": true,
+      "story": null
+     },
+     {
+      "id": "4023176577048546537",
+      "shortcode": "DfVMcf3pozp",
+      "url": "https://www.instagram.com/reel/DfVMcf3pozp/",
+      "kind": "reel",
+      "mediaType": "video",
+      "caption": "You ready? Clique up\ud83d\ude2e\u200d\ud83d\udca8\n\n@ a middle school baller you want at camp wit you",
+      "altText": null,
+      "createdAt": "2026-11-04T19:33:16.000Z",
+      "owner": {
+       "id": "72753728506",
+       "handle": "alpopsscouting",
+       "displayName": "AL Pops",
+       "avatarUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-19/745177496_17913128886424507_7071919484605766505_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby42OTMuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gH-TCOVhFA_CBA8q0QYs6vISB2duQehXFkLchkbrX-bOx16oJ8-PqHVUmuph49zZ64&_nc_ohc=9DlModQOQuUQ7kNvwEepYqK&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GJiBaiy7UxdU5aM-AGkbF3hNgSRibmNDAQAB1501500j-ccb7-5&oh=00_AQQOjrlc3iXgdPL7ntKq089Sxr8ukuFyEZBtvDSoRSCK5g&oe=6AF33579&_nc_sid=c024bc",
+       "verified": false,
+       "privateAccount": false
+      },
+      "metrics": {
+       "likeCount": 108,
+       "commentCount": 21,
+       "playCount": 7294,
+       "shareCount": 7,
+       "saveCount": 6,
+       "likesHidden": false
+      },
+      "imageUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/888351284_17929707015424507_8714758813227774891_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=106&ig_cache_key=NDAyMzE3NjU3NzA0ODU0NjUzNzE3OTI5NzA3MDA5NDI0NTA3.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=YKjhJe1xeBIQ7kNvwHlXX6l&_nc_oc=AdrLFJh2keZJNuzlGtDWdo5ISY8ITDiUryV7DO9RgR0qOCLwqqWxk6rkspXH5a8PkIk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQQxeC_YOUh_C3ts1XJ8Okyou--ibAc6WIpD_y-i4exG2A&oe=6AF33096",
+      "thumbnailUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/888351284_17929707015424507_8714758813227774891_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=106&ig_cache_key=NDAyMzE3NjU3NzA0ODU0NjUzNzE3OTI5NzA3MDA5NDI0NTA3.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=YKjhJe1xeBIQ7kNvwHlXX6l&_nc_oc=AdrLFJh2keZJNuzlGtDWdo5ISY8ITDiUryV7DO9RgR0qOCLwqqWxk6rkspXH5a8PkIk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQQxeC_YOUh_C3ts1XJ8Okyou--ibAc6WIpD_y-i4exG2A&oe=6AF33096",
+      "videoUrl": "https://scontent-yyz1-1.cdninstagram.com/o1/v/t2/f2/m86/AQNNTMJkMz15KPBbZZHFioJRby4jzQ4VmvG9zN5bf8oizpz66z88SZCGYEweoQiyTC0BCOVwrSyxXq60cg3APKl8CcVlTaZTgGiTy9M.mp4?_nc_cat=107&_nc_sid=5e9851&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_ohc=zIJVSTzwi2QQ7kNvwE1Pnmd&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTg2MDE3Mjk4MTY2MjM4OSwiYXNzZXRfYWdlX2RheXMiOjEsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo3MCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=7bd1e5a199ec77ac&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC84MjcwNDIyMDcwMzI0NDBFQTg4MTE2NjMyNkQ4NTg4RV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0U3OTgwQUZFNUFERTQ1Nzg4Q0Q5NTNDNjUyN0NENDY2X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbqytfcqPTNBhUCKAJDMywXQFGHGp--dskYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQSf9a3qft0VuTkU8tLE6J5_yDT9dtDQ1PwmkFUrDKSRLQ&oe=6AEF337C",
+      "durationSec": 70.111,
+      "dimensions": {
+       "width": 1080,
+       "height": 1920
+      },
+      "carousel": null,
+      "audio": {
+       "id": "29364594833134630",
+       "title": "Original audio",
+       "artist": "AL Pops",
+       "isOriginal": true,
+       "artistHandle": "alpopsscouting"
+      },
+      "coauthors": [
+       {
+        "id": "32764379570",
+        "handle": "prepredzone",
+        "displayName": "Prep Redzone",
+        "avatarUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/240462627_239891718013395_6596921985347404748_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4zNjAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gHBTPLRp5Pk9LzR0rZGuTEDJXDML_RMQiHxq5bT7vbG35BK0kXKnr5y_7fxKMOwzQ0&_nc_ohc=OvBpLt_HLYUQ7kNvwHdwKn9&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GCMrVQ7TAaMkLtoAAMzDmPuX_YxbbkULAAAB1501500j-ccb7-5&oh=00_AQSrv8x1I62II88kXqXXOcuoV-CWFGe2OCqURMzlOstMxQ&oe=6AF33F55&_nc_sid=c024bc",
+        "verified": true,
+        "privateAccount": false
+       },
+       {
+        "id": "49472358623",
+        "handle": "prepredzonenext",
+        "displayName": "Prep Redzone NEXT",
+        "avatarUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/463737765_926123479414895_7081349122286300623_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MDAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gHwzJRrP-UVdnkXUezM313K6P-ReQtEXfF4dhgZ3wY5yAxNZYFUOBgr9CuFyInYijs&_nc_ohc=d_c_nUcNTX0Q7kNvwFzEz6O&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GKUTpBtvOALtTUoDAM8tZhSCAUZibkULAAAB1501500j-ccb7-5&oh=00_AQQGzAPRyd8hrtkK8o78zFCs2-jHE2WLalLOvYnJu7lrYQ&oe=6AF34800&_nc_sid=c024bc",
+        "verified": true,
+        "privateAccount": false
+       }
+      ],
+      "taggedUsers": null,
+      "location": null,
+      "isPaidPartnership": false,
+      "sponsors": [],
+      "commentsDisabled": null,
+      "isPinned": false,
+      "story": null
+     },
+     {
+      "id": "4019780356640844799",
+      "shortcode": "DfJIO_Iq6v_",
+      "url": "https://www.instagram.com/reel/DfJIO_Iq6v_/",
+      "kind": "reel",
+      "mediaType": "video",
+      "caption": "WOAH \ud83d\ude33\n\nCranston East's John Dacruz with the ONE-HANDED INT\ud83d\udea8\n\nOne of the best plays you'll see in Rhode Island High School Football all year...\n\nVery much #SCTop10 worthy @nbc10wjar @sportscenter @sportscenternext \n\n#football #highschoolfootball #rhodeisland #ri",
+      "altText": null,
+      "createdAt": "2026-10-31T02:53:33.000Z",
+      "owner": {
+       "id": "1072720047",
+       "handle": "zachletson",
+       "displayName": "Zach Letson",
+       "avatarUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-19/789540087_18622585528016048_4128244505643140516_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby43MjUuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gGa97tEPXLmgRwJ496WiQvljE2tkpBOgx4ts3c9AjrenKEQi710YYu5BoL90x1Oawo&_nc_ohc=6PFI-zPyf3gQ7kNvwElX2uS&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GPdsDy_wXDKTJClCAKRF0WiBeEo5bmNDAQAB1501500j-ccb7-5&oh=00_AQSUIKfbpYsWkW9fiavuctsohS92dkOxRj8kNcuFR1Pv2Q&oe=6AF34C48&_nc_sid=c024bc",
+       "verified": false,
+       "privateAccount": false
+      },
+      "metrics": {
+       "likeCount": 467,
+       "commentCount": 7,
+       "playCount": 27999,
+       "shareCount": 125,
+       "saveCount": 8,
+       "likesHidden": false
+      },
+      "imageUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/881396688_18643582777016048_402969286215343882_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=110&ig_cache_key=NDAxOTc4MDM1NjY0MDg0NDc5OTE4NjQzNTgyNzcxMDE2MDQ4.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjYwOC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=B4CEWWswkbwQ7kNvwHD1SsU&_nc_oc=AdqUcyGfszdtxlFhQiY1JGvP7IJRhE_1nxlaGyp9boyc_BOEq7KAJuFe-d_sZwyr248&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQTJaNm9fGVzEJ3gcMZmvVm8qD4rZ6_BSKB3K9sngG90kw&oe=6AF34F39",
+      "thumbnailUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/881396688_18643582777016048_402969286215343882_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=110&ig_cache_key=NDAxOTc4MDM1NjY0MDg0NDc5OTE4NjQzNTgyNzcxMDE2MDQ4.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjYwOC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=B4CEWWswkbwQ7kNvwHD1SsU&_nc_oc=AdqUcyGfszdtxlFhQiY1JGvP7IJRhE_1nxlaGyp9boyc_BOEq7KAJuFe-d_sZwyr248&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQTJaNm9fGVzEJ3gcMZmvVm8qD4rZ6_BSKB3K9sngG90kw&oe=6AF34F39",
+      "videoUrl": "https://scontent-yyz1-1.cdninstagram.com/o1/v/t2/f2/m86/AQPNGkGAgSJ8qaSp-CVD7BdqOKNvgWFFCisGlUg1RSfyD4m3O3Dya1Fr9-XT6g0yDmihFpFgI-KOFnZoR3XGgHtFI6HbSZpGD_-BEkk.mp4?_nc_cat=102&_nc_sid=5e9851&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_ohc=FqW0qYJPNrQQ7kNvwFIwGSM&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNjA0LmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjAyNDAxMzEzMTY0NTEyOCwiYXNzZXRfYWdlX2RheXMiOjYsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoyMCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=942cc5a16f7d09fd&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC81MDk1ODFFQTExQjc0OEI3QjI4MTkxOEQ1RkVCMEI3NV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzIwMUM2NDIzRjU5RjQ4MzI5RUQxNTM2QUEwNjZBRjU1X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaQg9z7iLWYBxUCKAJDMywXQDQFHrhR64UYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQR6twLDjfOiKSTDuKTWtsP01oIN5CAnvUr9o44QAnI5aw&oe=6AEF3BD7",
+      "durationSec": 20.02,
+      "dimensions": {
+       "width": 604,
+       "height": 1076
+      },
+      "carousel": null,
+      "audio": {
+       "id": "29450408054552199",
+       "title": "Original audio",
+       "artist": "Zach Letson",
+       "isOriginal": true,
+       "artistHandle": "zachletson"
+      },
+      "coauthors": [
+       {
+        "id": "32764379570",
+        "handle": "prepredzone",
+        "displayName": "Prep Redzone",
+        "avatarUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/240462627_239891718013395_6596921985347404748_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4zNjAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gHBTPLRp5Pk9LzR0rZGuTEDJXDML_RMQiHxq5bT7vbG35BK0kXKnr5y_7fxKMOwzQ0&_nc_ohc=OvBpLt_HLYUQ7kNvwHdwKn9&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GCMrVQ7TAaMkLtoAAMzDmPuX_YxbbkULAAAB1501500j-ccb7-5&oh=00_AQSrv8x1I62II88kXqXXOcuoV-CWFGe2OCqURMzlOstMxQ&oe=6AF33F55&_nc_sid=c024bc",
+        "verified": true,
+        "privateAccount": false
+       },
+       {
+        "id": "4633980089",
+        "handle": "nbc10wjar",
+        "displayName": "NBC 10 WJAR Providence New Bedford",
+        "avatarUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/455159137_383447491443984_6832396802122072602_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MDAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gF5nybqQk75d8RCZZKvjtBglKLAKDevUmR21kOVU20iCIimuCG1ZFLhjzZ9XgY_bGE&_nc_ohc=QA8nKGVWtXMQ7kNvwEl1_hR&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GGEtIRsQfYRTvlwBABpCACOxjNFebkULAAAB1501500j-ccb7-5&oh=00_AQQ1yXQhkxwlCrxLM7kLBN2KbF2QfNm8koo1pBFdmUO0Dw&oe=6AF31F41&_nc_sid=c024bc",
+        "verified": true,
+        "privateAccount": false
+       },
+       {
+        "id": "7232304100",
+        "handle": "breakthroughelitefb",
+        "displayName": "Breakthrough Elite Football",
+        "avatarUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/398173675_654267100210428_4670390555575734311_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gG8Y7Bjhezg_aLCZXkPA6pIFeDVfJZv3fEobpV9J5JKlmuJDrZHtKQUe65aHhIEaGM&_nc_ohc=TLwGB5agHYsQ7kNvwGVZ8RX&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GOuluxf8pBhuDVMCACdQbit3j9BAbkULAAAB1501500j-ccb7-5&oh=00_AQTCJPEmP3nOZjE8nO20FPv3Rq_Ak9yD3rucwFlyCT05Wg&oe=6AF34F28&_nc_sid=c024bc",
+        "verified": false,
+        "privateAccount": false
+       }
+      ],
+      "taggedUsers": null,
+      "location": null,
+      "isPaidPartnership": false,
+      "sponsors": [],
+      "commentsDisabled": null,
+      "isPinned": false,
+      "story": null
+     },
+     {
+      "id": "4019427142415971374",
+      "shortcode": "DfH37CwRHQu",
+      "url": "https://www.instagram.com/reel/DfH37CwRHQu/",
+      "kind": "reel",
+      "mediaType": "video",
+      "caption": "I know. You know. They know. We ALL know.",
+      "altText": null,
+      "createdAt": "2026-10-30T15:13:39.000Z",
+      "owner": {
+       "id": "49472358623",
+       "handle": "prepredzonenext",
+       "displayName": "Prep Redzone NEXT",
+       "avatarUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/463737765_926123479414895_7081349122286300623_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MDAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gHwzJRrP-UVdnkXUezM313K6P-ReQtEXfF4dhgZ3wY5yAxNZYFUOBgr9CuFyInYijs&_nc_ohc=d_c_nUcNTX0Q7kNvwFzEz6O&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GKUTpBtvOALtTUoDAM8tZhSCAUZibkULAAAB1501500j-ccb7-5&oh=00_AQQGzAPRyd8hrtkK8o78zFCs2-jHE2WLalLOvYnJu7lrYQ&oe=6AF34800&_nc_sid=c024bc",
+       "verified": true,
+       "privateAccount": false
+      },
+      "metrics": {
+       "likeCount": 41,
+       "commentCount": 2,
+       "playCount": 3675,
+       "shareCount": 4,
+       "saveCount": 0,
+       "likesHidden": false
+      },
+      "imageUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/871645409_18101493125654624_8855794562484646609_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=106&ig_cache_key=NDAxOTQyNzE0MjQxNTk3MTM3NDE4MTAxNDkzMTIyNjU0NjI0.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNzAuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=rfdc2sCbogkQ7kNvwGcKtj4&_nc_oc=Adp3u6aJQmTxWRuVBxcm3vIGwTGvCJG39RQdJwvGjufv663i4YPqq5ovv2ey38uVEac&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQSYr6I7ak_VjT_9pISEc0FVtV2ALV2A9UkKS_pradadGw&oe=6AF33F16",
+      "thumbnailUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/871645409_18101493125654624_8855794562484646609_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=106&ig_cache_key=NDAxOTQyNzE0MjQxNTk3MTM3NDE4MTAxNDkzMTIyNjU0NjI0.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjExNzAuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=rfdc2sCbogkQ7kNvwGcKtj4&_nc_oc=Adp3u6aJQmTxWRuVBxcm3vIGwTGvCJG39RQdJwvGjufv663i4YPqq5ovv2ey38uVEac&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQSYr6I7ak_VjT_9pISEc0FVtV2ALV2A9UkKS_pradadGw&oe=6AF33F16",
+      "videoUrl": "https://scontent-yyz1-1.cdninstagram.com/o1/v/t2/f2/m86/AQMio83skGjthyw2igjqXLS5f4-J3tt3EbqVYY9ND0kGlbx2K0NKkd5nQLQiMkDWRQCpEsFDk5LdpHnLOU24bg8aGZgj5let1eR7m18.mp4?_nc_cat=110&_nc_sid=5e9851&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_ohc=yPGJ1EeLm7IQ7kNvwGxzzdU&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjIzNDQwNjQyNDE3OTY1NywiYXNzZXRfYWdlX2RheXMiOjYsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxMjEsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=8d09b9e91b13414e&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9CNUVDOURGQzRGQ0Y0QzM0OEVGRUJBNDk2NjMwNTA4RV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0ExODZBRDZERDUzRDQ1MERBQzRGRDIzRTEwMTdGMDZBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaSz5OTyYv4BxUCKAJDMywXQF5GZmZmZmYYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQRF46nMb3TPsibJwk3XzWS_G8rYqYTAk9Dj9m6co29o3w&oe=6AEF2C07",
+      "durationSec": 121.1,
+      "dimensions": {
+       "width": 1080,
+       "height": 1920
+      },
+      "carousel": null,
+      "audio": {
+       "id": "29492589260338165",
+       "title": "Original audio",
+       "artist": "Prep Redzone NEXT",
+       "isOriginal": true,
+       "artistHandle": "prepredzonenext"
+      },
+      "coauthors": [
+       {
+        "id": "32764379570",
+        "handle": "prepredzone",
+        "displayName": "Prep Redzone",
+        "avatarUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/240462627_239891718013395_6596921985347404748_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4zNjAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gHBTPLRp5Pk9LzR0rZGuTEDJXDML_RMQiHxq5bT7vbG35BK0kXKnr5y_7fxKMOwzQ0&_nc_ohc=OvBpLt_HLYUQ7kNvwHdwKn9&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GCMrVQ7TAaMkLtoAAMzDmPuX_YxbbkULAAAB1501500j-ccb7-5&oh=00_AQSrv8x1I62II88kXqXXOcuoV-CWFGe2OCqURMzlOstMxQ&oe=6AF33F55&_nc_sid=c024bc",
+        "verified": true,
+        "privateAccount": false
+       },
+       {
+        "id": "72753728506",
+        "handle": "alpopsscouting",
+        "displayName": "AL Pops",
+        "avatarUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-19/745177496_17913128886424507_7071919484605766505_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby42OTMuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gH-TCOVhFA_CBA8q0QYs6vISB2duQehXFkLchkbrX-bOx16oJ8-PqHVUmuph49zZ64&_nc_ohc=9DlModQOQuUQ7kNvwEepYqK&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GJiBaiy7UxdU5aM-AGkbF3hNgSRibmNDAQAB1501500j-ccb7-5&oh=00_AQQOjrlc3iXgdPL7ntKq089Sxr8ukuFyEZBtvDSoRSCK5g&oe=6AF33579&_nc_sid=c024bc",
+        "verified": false,
+        "privateAccount": false
+       }
+      ],
+      "taggedUsers": null,
+      "location": null,
+      "isPaidPartnership": false,
+      "sponsors": [],
+      "commentsDisabled": null,
+      "isPinned": false,
+      "story": null
+     },
+     {
+      "id": "4019361175716861926",
+      "shortcode": "DfHo7GemZfm",
+      "url": "https://www.instagram.com/reel/DfHo7GemZfm/",
+      "kind": "reel",
+      "mediaType": "video",
+      "caption": "THE ROAD TO INDY STARTS IN YOUR STATE.\n\nSeven on 7 commits are pouring in from across the country, plus Canada. With 27 events in 19 states, more than 2,000 teams and 10,000 players are chasing one goal: the National Championship in Indy.\n\nIs your state on the map yet?\n\nTag your team and state in the comments below. \n\nRegister today at prepredzone.com/events (link in bio).\n\n#PrepRedzone #SevenOn7 #7on7 #RoadToIndy #7on7Football #HighSchoolFootball #FootballRecruiting",
+      "altText": null,
+      "createdAt": "2026-10-30T13:00:00.000Z",
+      "owner": {
+       "id": "32764379570",
+       "handle": "prepredzone",
+       "displayName": "Prep Redzone",
+       "avatarUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/240462627_239891718013395_6596921985347404748_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4zNjAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gHBTPLRp5Pk9LzR0rZGuTEDJXDML_RMQiHxq5bT7vbG35BK0kXKnr5y_7fxKMOwzQ0&_nc_ohc=OvBpLt_HLYUQ7kNvwHdwKn9&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GCMrVQ7TAaMkLtoAAMzDmPuX_YxbbkULAAAB1501500j-ccb7-5&oh=00_AQSrv8x1I62II88kXqXXOcuoV-CWFGe2OCqURMzlOstMxQ&oe=6AF33F55&_nc_sid=c024bc",
+       "verified": true,
+       "privateAccount": false
+      },
+      "metrics": {
+       "likeCount": 30,
+       "commentCount": 1,
+       "playCount": 6760,
+       "shareCount": 3,
+       "saveCount": 1,
+       "likesHidden": false
+      },
+      "imageUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/876658203_18118436258091571_3988514685658341424_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=110&ig_cache_key=NDAxOTM2MTE3NTcxNjg2MTkyNjE4MTE4NDM2MjU1MDkxNTcx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl91cGxvYWRlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=cafyJrRc288Q7kNvwG2kHvj&_nc_oc=Ado1OSLLJB1Lt5MUpumsPpwkRdUZVw-Xxekfm1jeeYryIhIuHMFuZ0Aw-JuDzBkmVQ0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQRtNSN4sZz2V3t-KwioIsz8UCGcJ8SPyNPAQ9RJTaitig&oe=6AF3261F",
+      "thumbnailUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/876658203_18118436258091571_3988514685658341424_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=110&ig_cache_key=NDAxOTM2MTE3NTcxNjg2MTkyNjE4MTE4NDM2MjU1MDkxNTcx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl91cGxvYWRlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=cafyJrRc288Q7kNvwG2kHvj&_nc_oc=Ado1OSLLJB1Lt5MUpumsPpwkRdUZVw-Xxekfm1jeeYryIhIuHMFuZ0Aw-JuDzBkmVQ0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQRtNSN4sZz2V3t-KwioIsz8UCGcJ8SPyNPAQ9RJTaitig&oe=6AF3261F",
+      "videoUrl": "https://scontent-yyz1-1.cdninstagram.com/o1/v/t2/f2/m86/AQO3m-BFvlKPPsUosNPHLSaFV8NS_pKfBk7uHlxXmeVkz0xDpjJCmRMRD8hw3YD4LdqKbGQI8LRH9M8iHf1KM85lSJ3T6iU6lI67Sxg.mp4?_nc_cat=106&_nc_sid=5e9851&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_ohc=3qDG0roF93IQ7kNvwFWIxx_&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTExNTk0ODk1ODA4Njc2NCwiYXNzZXRfYWdlX2RheXMiOjcsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjozNiwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=5936d99993e0cee6&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9CN0IzNjQ3NTQ1NDE0RTNBODRDMTUzODg5N0FFNDY5NF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzdFREU3RDA0MzI5RDRCRjlBMDJEMjE5MDcxMzE1QzQ2X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbY2d_T47z7AxUCKAJDMywXQEIAAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQQOVPd-PNtzfnGZqS5VUraD2_ZajVC28TL5kQJIwUGdDA&oe=6AEF308B",
+      "durationSec": 36.012,
+      "dimensions": {
+       "width": 1080,
+       "height": 1920
+      },
+      "carousel": null,
+      "audio": {
+       "id": "612398182565841",
+       "title": "Go Crazy (Remix / Instrumental) [feat. JA\u0178-Z]",
+       "artist": "Young Jeezy",
+       "isOriginal": false,
+       "artistHandle": "jeezy"
+      },
+      "coauthors": [],
+      "taggedUsers": null,
+      "location": null,
+      "isPaidPartnership": false,
+      "sponsors": [],
+      "commentsDisabled": null,
+      "isPinned": false,
+      "story": null
+     },
+     {
+      "id": "4018604082144319709",
+      "shortcode": "DfE8x8JJZjd",
+      "url": "https://www.instagram.com/reel/DfE8x8JJZjd/",
+      "kind": "reel",
+      "mediaType": "video",
+      "caption": "Did you miss me? \ud83d\ude4b\u200d\u2642\ufe0f",
+      "altText": null,
+      "createdAt": "2026-10-29T11:59:19.000Z",
+      "owner": {
+       "id": "72753728506",
+       "handle": "alpopsscouting",
+       "displayName": "AL Pops",
+       "avatarUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-19/745177496_17913128886424507_7071919484605766505_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby42OTMuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gH-TCOVhFA_CBA8q0QYs6vISB2duQehXFkLchkbrX-bOx16oJ8-PqHVUmuph49zZ64&_nc_ohc=9DlModQOQuUQ7kNvwEepYqK&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GJiBaiy7UxdU5aM-AGkbF3hNgSRibmNDAQAB1501500j-ccb7-5&oh=00_AQQOjrlc3iXgdPL7ntKq089Sxr8ukuFyEZBtvDSoRSCK5g&oe=6AF33579&_nc_sid=c024bc",
+       "verified": false,
+       "privateAccount": false
+      },
+      "metrics": {
+       "likeCount": 129,
+       "commentCount": 16,
+       "playCount": 11662,
+       "shareCount": 7,
+       "saveCount": 4,
+       "likesHidden": false
+      },
+      "imageUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/876310518_17928715461424507_3457227505239283010_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&ig_cache_key=NDAxODYwNDA4MjE0NDMxOTcwOTE3OTI4NzE1NDU4NDI0NTA3.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=6vUm6Is6-ykQ7kNvwHoXgoQ&_nc_oc=Adq0QtBVBPOtFuu9Q0_nlcbJw6BoozRBEy6dGzieou6TYoKlN1SlfcDtUZVY8zq1-rs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQTasAhTnaZbHCZqz_-HhcznTvQ1Hs3e5BIylMUBUSqLBQ&oe=6AF32FB8",
+      "thumbnailUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/876310518_17928715461424507_3457227505239283010_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&ig_cache_key=NDAxODYwNDA4MjE0NDMxOTcwOTE3OTI4NzE1NDU4NDI0NTA3.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=6vUm6Is6-ykQ7kNvwHoXgoQ&_nc_oc=Adq0QtBVBPOtFuu9Q0_nlcbJw6BoozRBEy6dGzieou6TYoKlN1SlfcDtUZVY8zq1-rs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQTasAhTnaZbHCZqz_-HhcznTvQ1Hs3e5BIylMUBUSqLBQ&oe=6AF32FB8",
+      "videoUrl": "https://scontent-yyz1-1.cdninstagram.com/o1/v/t2/f2/m86/AQOBMKj3JjMNalBqx9j5rkCkSN7K30c_G2LoW-I3BU3pBws-pOgutZimkXbRI05xVGBTAbpq48-GuCZ7V4f6YNWSh1AVKjBdrT9wdsw.mp4?_nc_cat=106&_nc_sid=5e9851&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_ohc=OUtV2K_KZsUQ7kNvwECSPnP&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTg2NDUxOTYxMTU3MzY1OCwiYXNzZXRfYWdlX2RheXMiOjcsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoyOSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=927e03e0ff227388&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC81REI0MjdERTMxRjA0NTBGQkZDMzcyMjQxOTM0NEVCNF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzVBNEI4ODdGMDA1NjQ0MTk5QjhGOUZENTdBNTAwQUI0X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACa0lv_RqfHPBhUCKAJDMywXQD0gAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQSC09HOqQJDJdh0kwquloMallnPc_TdQrijzzfeFS2Puw&oe=6AEF2413",
+      "durationSec": 29.125,
+      "dimensions": {
+       "width": 1080,
+       "height": 1920
+      },
+      "carousel": null,
+      "audio": {
+       "id": "29358527770503207",
+       "title": "Original audio",
+       "artist": "AL Pops",
+       "isOriginal": true,
+       "artistHandle": "alpopsscouting"
+      },
+      "coauthors": [
+       {
+        "id": "32764379570",
+        "handle": "prepredzone",
+        "displayName": "Prep Redzone",
+        "avatarUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/240462627_239891718013395_6596921985347404748_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4zNjAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gHBTPLRp5Pk9LzR0rZGuTEDJXDML_RMQiHxq5bT7vbG35BK0kXKnr5y_7fxKMOwzQ0&_nc_ohc=OvBpLt_HLYUQ7kNvwHdwKn9&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GCMrVQ7TAaMkLtoAAMzDmPuX_YxbbkULAAAB1501500j-ccb7-5&oh=00_AQSrv8x1I62II88kXqXXOcuoV-CWFGe2OCqURMzlOstMxQ&oe=6AF33F55&_nc_sid=c024bc",
+        "verified": true,
+        "privateAccount": false
+       },
+       {
+        "id": "49472358623",
+        "handle": "prepredzonenext",
+        "displayName": "Prep Redzone NEXT",
+        "avatarUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/463737765_926123479414895_7081349122286300623_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MDAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gHwzJRrP-UVdnkXUezM313K6P-ReQtEXfF4dhgZ3wY5yAxNZYFUOBgr9CuFyInYijs&_nc_ohc=d_c_nUcNTX0Q7kNvwFzEz6O&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GKUTpBtvOALtTUoDAM8tZhSCAUZibkULAAAB1501500j-ccb7-5&oh=00_AQQGzAPRyd8hrtkK8o78zFCs2-jHE2WLalLOvYnJu7lrYQ&oe=6AF34800&_nc_sid=c024bc",
+        "verified": true,
+        "privateAccount": false
+       }
+      ],
+      "taggedUsers": null,
+      "location": null,
+      "isPaidPartnership": false,
+      "sponsors": [],
+      "commentsDisabled": null,
+      "isPinned": false,
+      "story": null
+     },
+     {
+      "id": "4018179822193785783",
+      "shortcode": "DfDcUJRgLu3",
+      "url": "https://www.instagram.com/reel/DfDcUJRgLu3/",
+      "kind": "reel",
+      "mediaType": "video",
+      "caption": "WE HAVE OUR WINNERS!\n\nCongrats to Made 7v7, Hyte Performance, and Mississippi Dawgs. Each club wins a FREE team entry to any 2027 Prep Redzone 7-on-7 event.\n\nThank you to everyone who entered. The season kicks off January 30, with 27 events across 19 states on one road to the National Championship in Indy.\n\nLock in your spot today at prepredzone.com/events\n\n#PrepRedzone #7on7 #RoadToIndy",
+      "altText": null,
+      "createdAt": "2026-10-28T21:53:50.000Z",
+      "owner": {
+       "id": "32764379570",
+       "handle": "prepredzone",
+       "displayName": "Prep Redzone",
+       "avatarUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/240462627_239891718013395_6596921985347404748_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4zNjAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gHBTPLRp5Pk9LzR0rZGuTEDJXDML_RMQiHxq5bT7vbG35BK0kXKnr5y_7fxKMOwzQ0&_nc_ohc=OvBpLt_HLYUQ7kNvwHdwKn9&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GCMrVQ7TAaMkLtoAAMzDmPuX_YxbbkULAAAB1501500j-ccb7-5&oh=00_AQSrv8x1I62II88kXqXXOcuoV-CWFGe2OCqURMzlOstMxQ&oe=6AF33F55&_nc_sid=c024bc",
+       "verified": true,
+       "privateAccount": false
+      },
+      "metrics": {
+       "likeCount": 55,
+       "commentCount": 3,
+       "playCount": 7646,
+       "shareCount": 2,
+       "saveCount": 0,
+       "likesHidden": false
+      },
+      "imageUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.71878-15/870988453_1444211264468133_7831406997621263258_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=109&ig_cache_key=NDAxODE3OTgyMjE5Mzc4NTc4MzMzMDYxNDUyOTk3NzYyNDk%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=5QV_OL9gu58Q7kNvwEIQOIH&_nc_oc=AdqKI0AkM1ufJSPFU3K9__W7GzNLptOx0aKqQ4X3A4c_eU8AeVeAw-eMNno__w6dJhI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQQ8Y4xYJ1npZI7t29oABo7vb9tuIBTEy_gfJTcvNc7mxQ&oe=6AF34F82",
+      "thumbnailUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.71878-15/870988453_1444211264468133_7831406997621263258_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=109&ig_cache_key=NDAxODE3OTgyMjE5Mzc4NTc4MzMzMDYxNDUyOTk3NzYyNDk%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=5QV_OL9gu58Q7kNvwEIQOIH&_nc_oc=AdqKI0AkM1ufJSPFU3K9__W7GzNLptOx0aKqQ4X3A4c_eU8AeVeAw-eMNno__w6dJhI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQQ8Y4xYJ1npZI7t29oABo7vb9tuIBTEy_gfJTcvNc7mxQ&oe=6AF34F82",
+      "videoUrl": "https://scontent-yyz1-1.cdninstagram.com/o1/v/t2/f2/m86/AQOoYLugj9OUOM8r6IaIgDiL8X2kgq68d7WVkBJ739aZk1vk-5LoZKwR8I4eiwXou6f5yjW-Ve3yGeHzY3iU4KYrA-y2C3YvHzAAfrU.mp4?_nc_cat=109&_nc_sid=5e9851&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_ohc=OI3eOu8WcpMQ7kNvwHF4NDl&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MzMwNjE0NDU0MzEwOTY1OCwiYXNzZXRfYWdlX2RheXMiOjgsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=3ed22a3b1ec38018&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC85QkY1MjUzQzM4QjA0MDFEOTFCMzdCNDgyMzA0OTExNF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzNDRTE2RTIwQUE1RTRFNTI4QUQwQUQ4MUM3MkREODVBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACa0yIux-LrfCxUCKAJDMywXQC5mZmZmZmYYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQSZwyEE29D2hjbBVFW-3yx7O3bkcAW3tRsaCXHImLoAZw&oe=6AEF37C6",
+      "durationSec": 15.207,
+      "dimensions": {
+       "width": 1024,
+       "height": 1280
+      },
+      "carousel": null,
+      "audio": {
+       "id": "940069665734567",
+       "title": "Game Time (Originally Performed By Future, Tyla) [Karaoke Instrumental Version]",
+       "artist": "Hit The Button Karaoke",
+       "isOriginal": false,
+       "artistHandle": "hitthebuttonkaraoke"
+      },
+      "coauthors": [
+       {
+        "id": "65721523624",
+        "handle": "7v7_hyteperformance",
+        "displayName": "Hyte Performance 7v7",
+        "avatarUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/436402556_619983740331545_7948005750693817636_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gF1S4IaIqn1mrHtJFplvHxZsMOiKg9lyyVtfSbo6lrEzQi-UegTChRc6yfrKUzouys&_nc_ohc=eua5RYmzLZsQ7kNvwHXajRl&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GHz5AhoZ5ps23zMCACTt3bIe-UxubkULAAAB1501500j-ccb7-5&oh=00_AQTxWAyTe7w2bEL416xeKmMKIG14uLmUGCRyf2sdvIjW-A&oe=6AF34525&_nc_sid=c024bc",
+        "verified": false,
+        "privateAccount": false
+       },
+       {
+        "id": "62290681247",
+        "handle": "madeathletes7v7",
+        "displayName": "MADE Athletes 7v7",
+        "avatarUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-19/561934864_17938876257073248_1766656346162476199_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gGzpH9CvW7eAGg2hjV_t-7oKHRhR6aKHY00kKtwVlfhRt4UhD4nIwRWfauHisDSxWQ&_nc_ohc=griBMrfah1cQ7kNvwEDWPc3&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GBByfiFg_PgaULs-AKc0NDGWbIQYbmNDAQAB1501500j-ccb7-5&oh=00_AQT_kE8Zsg2QVn083wpDEQpgL4O3SENICcuxeqqQ9QsTsg&oe=6AF346F2&_nc_sid=c024bc",
+        "verified": false,
+        "privateAccount": false
+       }
+      ],
+      "taggedUsers": null,
+      "location": null,
+      "isPaidPartnership": false,
+      "sponsors": [],
+      "commentsDisabled": null,
+      "isPinned": false,
+      "story": null
+     },
+     {
+      "id": "4015347177421254825",
+      "shortcode": "De5YPvQD7Cp",
+      "url": "https://www.instagram.com/reel/De5YPvQD7Cp/",
+      "kind": "reel",
+      "mediaType": "video",
+      "caption": "You put in the work. Now show it off. \ud83d\udcaa\n\nPrep Redzone subscribers can share every evaluation our scouts have written about them, and anyone can read it. Put it in front of the coaches who need to see it.\n\nLink in bio",
+      "altText": null,
+      "createdAt": "2026-10-25T00:05:36.000Z",
+      "owner": {
+       "id": "32764379570",
+       "handle": "prepredzone",
+       "displayName": "Prep Redzone",
+       "avatarUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/240462627_239891718013395_6596921985347404748_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4zNjAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gHBTPLRp5Pk9LzR0rZGuTEDJXDML_RMQiHxq5bT7vbG35BK0kXKnr5y_7fxKMOwzQ0&_nc_ohc=OvBpLt_HLYUQ7kNvwHdwKn9&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GCMrVQ7TAaMkLtoAAMzDmPuX_YxbbkULAAAB1501500j-ccb7-5&oh=00_AQSrv8x1I62II88kXqXXOcuoV-CWFGe2OCqURMzlOstMxQ&oe=6AF33F55&_nc_sid=c024bc",
+       "verified": true,
+       "privateAccount": false
+      },
+      "metrics": {
+       "likeCount": 10,
+       "commentCount": 0,
+       "playCount": 3715,
+       "shareCount": 0,
+       "saveCount": 0,
+       "likesHidden": false
+      },
+      "imageUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/865226416_18117751247091571_733654656446841639_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=109&ig_cache_key=NDAxNTM0NzE3NzQyMTI1NDgyNTE4MTE3NzUxMjQ0MDkxNTcx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=8eRUdCfQsmsQ7kNvwFjDsFM&_nc_oc=AdrQOR0U3cuoQUCINdfIpxvcsEkNala5V9Y1o8GZV5OcJJSUO4zo8piwk0LXqyW2A8M&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQQ1XbuVRjs1rlUvmY0eKDlobVjaJVACrrrRHr6vHDh6RQ&oe=6AF31D18",
+      "thumbnailUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/865226416_18117751247091571_733654656446841639_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=109&ig_cache_key=NDAxNTM0NzE3NzQyMTI1NDgyNTE4MTE3NzUxMjQ0MDkxNTcx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=8eRUdCfQsmsQ7kNvwFjDsFM&_nc_oc=AdrQOR0U3cuoQUCINdfIpxvcsEkNala5V9Y1o8GZV5OcJJSUO4zo8piwk0LXqyW2A8M&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQQ1XbuVRjs1rlUvmY0eKDlobVjaJVACrrrRHr6vHDh6RQ&oe=6AF31D18",
+      "videoUrl": "https://scontent-yyz1-1.cdninstagram.com/o1/v/t2/f2/m86/AQPE1YHOh9nr20my2CNo-Dn6_95FStLK6ZPdk1uBMkZLUvLR0AeokvlbIpDmMy9qeMMqyDreKrOW4DJFNT0dzwOilSmH7pfhncHz5Ic.mp4?_nc_cat=109&_nc_sid=5e9851&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_ohc=jYdOhwVibX0Q7kNvwH8N1r9&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTgxMTc3NTExMTgwOTE1NzEsImFzc2V0X2FnZV9kYXlzIjoxMiwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjE0LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=8a33bc35f23af520&_nc_vs=HBkcFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC80ODBBNDc3NzNDMkM0NkJCQkI2RDQ2M0VFMDdEOTQ3Nl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAKAAYABsCiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATEVAAAm5tSu-PT_rkAVAigCQzMsF0AsAAAAAAAAGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHX-B2XmnQEA&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQTmzGc9AHEnuc2M-AcIogqAhuR0sqzGfoD5bCbIj4mMcQ&oe=6AEF412A",
+      "durationSec": 14,
+      "dimensions": {
+       "width": 1080,
+       "height": 1920
+      },
+      "carousel": null,
+      "audio": null,
+      "coauthors": [],
+      "taggedUsers": [],
+      "location": null,
+      "isPaidPartnership": false,
+      "sponsors": [],
+      "commentsDisabled": null,
+      "isPinned": false,
+      "story": null
+     },
+     {
+      "id": "4014372718157231696",
+      "shortcode": "De16rfVx_ZQ",
+      "url": "https://www.instagram.com/reel/De16rfVx_ZQ/",
+      "kind": "reel",
+      "mediaType": "video",
+      "caption": "Shabang\ud83d\udca5",
+      "altText": null,
+      "createdAt": "2026-10-23T15:51:45.000Z",
+      "owner": {
+       "id": "49472358623",
+       "handle": "prepredzonenext",
+       "displayName": "Prep Redzone NEXT",
+       "avatarUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/463737765_926123479414895_7081349122286300623_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MDAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gHwzJRrP-UVdnkXUezM313K6P-ReQtEXfF4dhgZ3wY5yAxNZYFUOBgr9CuFyInYijs&_nc_ohc=d_c_nUcNTX0Q7kNvwFzEz6O&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GKUTpBtvOALtTUoDAM8tZhSCAUZibkULAAAB1501500j-ccb7-5&oh=00_AQQGzAPRyd8hrtkK8o78zFCs2-jHE2WLalLOvYnJu7lrYQ&oe=6AF34800&_nc_sid=c024bc",
+       "verified": true,
+       "privateAccount": false
+      },
+      "metrics": {
+       "likeCount": 158,
+       "commentCount": 9,
+       "playCount": 7621,
+       "shareCount": 48,
+       "saveCount": 19,
+       "likesHidden": false
+      },
+      "imageUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/861868921_18100215479654624_3504842379801913963_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&ig_cache_key=NDAxNDM3MjcxODE1NzIzMTY5NjE4MTAwMjE1NDczNjU0NjI0.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=meCintywCBEQ7kNvwFyRNEP&_nc_oc=AdpyUOt2eiUUAYpk-fWlpruwcp_S_lGT6FCn6l8k8UA7DSY62E3cTIihi9mqQIZMBQ8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQTVFQ08jWHU20ULsk8lMErzaG_Lxnz0Epz2XtXRJ9oUig&oe=6AF34C58",
+      "thumbnailUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-15/861868921_18100215479654624_3504842379801913963_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&ig_cache_key=NDAxNDM3MjcxODE1NzIzMTY5NjE4MTAwMjE1NDczNjU0NjI0.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=meCintywCBEQ7kNvwFyRNEP&_nc_oc=AdpyUOt2eiUUAYpk-fWlpruwcp_S_lGT6FCn6l8k8UA7DSY62E3cTIihi9mqQIZMBQ8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQTVFQ08jWHU20ULsk8lMErzaG_Lxnz0Epz2XtXRJ9oUig&oe=6AF34C58",
+      "videoUrl": "https://scontent-yyz1-1.cdninstagram.com/o1/v/t2/f2/m86/AQOVneEB31MRGbClZ9rsKWyzXOr77CfLSIv12nOgNvkYY2ed9EA_WVuDxKF0INqs85-sLL129NxyhzToMUy-bLEvAjxGj-mFNsJQAuc.mp4?_nc_cat=108&_nc_sid=5e9851&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_ohc=qo07ZiF44l4Q7kNvwHdJe_9&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjIyNzA1MTE1ODY5MzgyNiwiYXNzZXRfYWdlX2RheXMiOjEzLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MjI1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=64bfd8134ba0699a&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC83REZGMERENTYwREM0OEJFOTdFNDQ2MzA3QTQxNkI1NF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzUxREVCQUY5ODQ0ODQyNTk4QTc3MzJCM0VEQzJGMDc1X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaEn6-TuN_0BxUCKAJDMywXQGwt2yLQ5WAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQRU2g8q2arhC-BAPTWlbVeTRqeWHV7wyplNS-_cedVOag&oe=6AEF568D",
+      "durationSec": 225.441,
+      "dimensions": {
+       "width": 1080,
+       "height": 1920
+      },
+      "carousel": null,
+      "audio": {
+       "id": "28909034185425090",
+       "title": "Original audio",
+       "artist": "Prep Redzone NEXT",
+       "isOriginal": true,
+       "artistHandle": "prepredzonenext"
+      },
+      "coauthors": [
+       {
+        "id": "32764379570",
+        "handle": "prepredzone",
+        "displayName": "Prep Redzone",
+        "avatarUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/240462627_239891718013395_6596921985347404748_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4zNjAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gHBTPLRp5Pk9LzR0rZGuTEDJXDML_RMQiHxq5bT7vbG35BK0kXKnr5y_7fxKMOwzQ0&_nc_ohc=OvBpLt_HLYUQ7kNvwHdwKn9&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GCMrVQ7TAaMkLtoAAMzDmPuX_YxbbkULAAAB1501500j-ccb7-5&oh=00_AQSrv8x1I62II88kXqXXOcuoV-CWFGe2OCqURMzlOstMxQ&oe=6AF33F55&_nc_sid=c024bc",
+        "verified": true,
+        "privateAccount": false
+       },
+       {
+        "id": "72753728506",
+        "handle": "alpopsscouting",
+        "displayName": "AL Pops",
+        "avatarUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.82787-19/745177496_17913128886424507_7071919484605766505_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby42OTMuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gH-TCOVhFA_CBA8q0QYs6vISB2duQehXFkLchkbrX-bOx16oJ8-PqHVUmuph49zZ64&_nc_ohc=9DlModQOQuUQ7kNvwEepYqK&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GJiBaiy7UxdU5aM-AGkbF3hNgSRibmNDAQAB1501500j-ccb7-5&oh=00_AQQOjrlc3iXgdPL7ntKq089Sxr8ukuFyEZBtvDSoRSCK5g&oe=6AF33579&_nc_sid=c024bc",
+        "verified": false,
+        "privateAccount": false
+       }
+      ],
+      "taggedUsers": null,
+      "location": null,
+      "isPaidPartnership": false,
+      "sponsors": [],
+      "commentsDisabled": null,
+      "isPinned": false,
+      "story": null
+     },
+     {
+      "id": "4014036359476518062",
+      "shortcode": "De0uM06GZyu",
+      "url": "https://www.instagram.com/reel/De0uM06GZyu/",
+      "kind": "reel",
+      "mediaType": "video",
+      "caption": "72-HOUR FLASH SALE \n\nFor the next 3 days, get 25% off every Stock Up Showcase. Use code 72SHOWCASEIG at checkout.\n\nCompete against the best, get in front of our scouts, and get noticed. No prospect left uncovered.\n\nRegister now: prepredzone.com/events (link in bio)\n\nSale ends in 72 hours.\n\n#PrepRedzone #StockUpShowcase #FootballRecruiting #HighSchoolFootball #NoProspectLeftUncovered",
+      "altText": null,
+      "createdAt": "2026-10-23T04:40:00.000Z",
+      "owner": {
+       "id": "32764379570",
+       "handle": "prepredzone",
+       "displayName": "Prep Redzone",
+       "avatarUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/240462627_239891718013395_6596921985347404748_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4zNjAuYzIifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gHBTPLRp5Pk9LzR0rZGuTEDJXDML_RMQiHxq5bT7vbG35BK0kXKnr5y_7fxKMOwzQ0&_nc_ohc=OvBpLt_HLYUQ7kNvwHdwKn9&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GCMrVQ7TAaMkLtoAAMzDmPuX_YxbbkULAAAB1501500j-ccb7-5&oh=00_AQSrv8x1I62II88kXqXXOcuoV-CWFGe2OCqURMzlOstMxQ&oe=6AF33F55&_nc_sid=c024bc",
+       "verified": true,
+       "privateAccount": false
+      },
+      "metrics": {
+       "likeCount": 22,
+       "commentCount": 0,
+       "playCount": 8997,
+       "shareCount": 5,
+       "saveCount": 2,
+       "likesHidden": false
+      },
+      "imageUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.71878-15/860020749_1146217461071072_7121981767673026406_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=106&ig_cache_key=NDAxNDAzNjM1OTQ3NjUxODA2Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZmlyc3RfZnJhbWVfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=T3eI8fIGMRAQ7kNvwH3MV1u&_nc_oc=AdpA5BMpVeUxDeAvWe-Ohh8-83e2des1G5plIrU-Xnm1buNf_Yrj34cfvMyaF4uW2_s&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQReSQNmLigxdUyuTeVINdF-8PKsLWM1JrqF8erUdbpChA&oe=6AF31892",
+      "thumbnailUrl": "https://scontent-yyz1-1.cdninstagram.com/v/t51.71878-15/860020749_1146217461071072_7121981767673026406_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=106&ig_cache_key=NDAxNDAzNjM1OTQ3NjUxODA2Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZmlyc3RfZnJhbWVfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=T3eI8fIGMRAQ7kNvwH3MV1u&_nc_oc=AdpA5BMpVeUxDeAvWe-Ohh8-83e2des1G5plIrU-Xnm1buNf_Yrj34cfvMyaF4uW2_s&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&oh=00_AQReSQNmLigxdUyuTeVINdF-8PKsLWM1JrqF8erUdbpChA&oe=6AF31892",
+      "videoUrl": "https://scontent-yyz1-1.cdninstagram.com/o1/v/t2/f2/m86/AQM2pCkjW_L3LCufTdMMP6dc17JKfac5VXVTUFjnMKhQqT45bS5B7Cd7UvnpNj19_JtwF9hX5mK5-CLct9PcY5APeiE6cRPBMbfJwhE.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_ohc=QCaCv3_JnBQQ7kNvwFdntML&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTEzODA4NzgxODg5NTM1MSwiYXNzZXRfYWdlX2RheXMiOjE0LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MjIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=5a8759b0856a7a32&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9FRjk1MjczNjBGMzE0MjUzODdENTY5MjZGODE0RkY1Ml92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0FDRThGRDBGQ0Y4MTQ4NUM4Q0JGNEE5MTY2OUEyQkE3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbu_9iCt8WFBBUCKAJDMywXQDZmZmZmZmYYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=jTT1JONYEqgMvRBr2CQrBA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQTmxzU5ZWmThwXFDV5IEAsERkp-N16sfQVTBU4bO-MklA&oe=6AEF3BD5",
+      "durationSec": 22.4,
+      "dimensions": {
+       "width": 720,
+       "height": 1280
+      },
+      "carousel": null,
+      "audio": {
+       "id": "853636929912776",
+       "title": "Elite (instrumental)",
+       "artist": "Fat Trel",
+       "isOriginal": false,
+       "artistHandle": "fat_gleesh_"
+      },
+      "coauthors": [],
+      "taggedUsers": [],
+      "location": null,
+      "isPaidPartnership": false,
+      "sponsors": [],
+      "commentsDisabled": null,
+      "isPinned": false,
+      "story": null
+     }
+    ],
+    "page": {
+     "kind": "cursor",
+     "nextCursor": "h1.eyJjIjoiUVZGRU0yNXZkbkZ6V0dWV0xUUnBOekpJYlVwTlprc3pUVEZ0YlVKWlIxSm9OMlY1VVd4QmFWVkRSbkY0TURWaVdGZDZaRTFuZW5kcmVUaGlhWEF0UXkwdFkyWjFkblpRZURWUE0xQkdkRFZzWm1zMlZHUkVXQT09IiwiZSI6Im1UQWZldjhhanAiLCJ1IjoiMzI3NjQzNzk1NzAiLCJ0IjoicmVlbHMiLCJiIjoidDJxNWt3S3A2MSJ9",
+     "hasMore": true,
+     "start": null,
+     "page": null,
+     "count": null,
+     "returnedCount": 12,
+     "total": null,
+     "totalPages": null
+    }
+   },
+   "meta": {
+    "requestId": "req_d15d4c39-5503-45c4-9935-02dd70e71914",
+    "creditsCharged": 1,
+    "version": "v2"
+   },
+   "card": {
+    "kind": "search",
+    "title": "Results",
+    "subtitle": "12 results",
+    "resultCount": 12,
+    "items": [
+     {
+      "title": "The college search just got smarter. Our revamped College Match tool shows you which schools you match best with, with a percentage score for each one. Build\u2026",
+      "subtitle": "@prepredzone \u00b7 1:03 \u00b7 17 likes \u00b7 0 comments",
+      "href": "https://www.instagram.com/reel/DevRcXmCAh0/",
+      "platform": "Instagram"
+     },
+     {
+      "title": "The wait is over. The 2027 Prep Redzone 7-on-7 schedule is HERE, and registration is officially OPEN. \ud83c\udfc8 27 events. 19 states. 2,000+ teams. One road to the\u2026",
+      "subtitle": "@prepredzone \u00b7 1:04 \u00b7 196 likes \u00b7 27 comments",
+      "href": "https://www.instagram.com/reel/DeMnbnDxDHO/",
+      "platform": "Instagram"
+     },
+     {
+      "title": "We\u2019re back! Join The Best! The Prep Redzone Exposure Tour is live! Limited spots available - don\u2019t wait to register. Universal Speed Rating will be doing\u2026",
+      "subtitle": "@prepredzone \u00b7 0:35 \u00b7 154 likes \u00b7 9 comments",
+      "href": "https://www.instagram.com/reel/DVzXb1KjhPE/",
+      "platform": "Instagram"
+     },
+     {
+      "title": "You ready? Clique up\ud83d\ude2e\u200d\ud83d\udca8 @ a middle school baller you want at camp wit you",
+      "subtitle": "@alpopsscouting \u00b7 1:10 \u00b7 108 likes \u00b7 21 comments",
+      "href": "https://www.instagram.com/reel/DfVMcf3pozp/",
+      "platform": "Instagram"
+     },
+     {
+      "title": "WOAH \ud83d\ude33 Cranston East's John Dacruz with the ONE-HANDED INT\ud83d\udea8 One of the best plays you'll see in Rhode Island High School Football all year... Very much\u2026",
+      "subtitle": "@zachletson \u00b7 0:20 \u00b7 467 likes \u00b7 7 comments",
+      "href": "https://www.instagram.com/reel/DfJIO_Iq6v_/",
+      "platform": "Instagram"
+     },
+     {
+      "title": "I know. You know. They know. We ALL know.",
+      "subtitle": "@prepredzonenext \u00b7 2:01 \u00b7 41 likes \u00b7 2 comments",
+      "href": "https://www.instagram.com/reel/DfH37CwRHQu/",
+      "platform": "Instagram"
+     },
+     {
+      "title": "THE ROAD TO INDY STARTS IN YOUR STATE. Seven on 7 commits are pouring in from across the country, plus Canada. With 27 events in 19 states, more than 2,000\u2026",
+      "subtitle": "@prepredzone \u00b7 0:36 \u00b7 30 likes \u00b7 1 comment",
+      "href": "https://www.instagram.com/reel/DfHo7GemZfm/",
+      "platform": "Instagram"
+     },
+     {
+      "title": "Did you miss me? \ud83d\ude4b\u200d\u2642\ufe0f",
+      "subtitle": "@alpopsscouting \u00b7 0:29 \u00b7 129 likes \u00b7 16 comments",
+      "href": "https://www.instagram.com/reel/DfE8x8JJZjd/",
+      "platform": "Instagram"
+     }
+    ]
+   }
+  }
+ },
+ "jsonrpc": "2.0",
+ "id": 1
+}

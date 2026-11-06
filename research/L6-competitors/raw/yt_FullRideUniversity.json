@@ -1,0 +1,30 @@
+{
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "{\n  \"error\": {\n    \"code\": \"lookup_failed\",\n    \"message\": \"The lookup could not be completed.\",\n    \"requestId\": \"req_543fae26-1612-4351-b730-6673e811022e\"\n  }\n}"
+   },
+   {
+    "type": "text",
+    "text": "{\"conversation_id\":\"01a1af41-c382-73e5-847f-2885011138ce\"}"
+   }
+  ],
+  "structuredContent": {
+   "error": {
+    "code": "lookup_failed",
+    "message": "The lookup could not be completed.",
+    "requestId": "req_543fae26-1612-4351-b730-6673e811022e"
+   },
+   "card": {
+    "kind": "status",
+    "status": "error",
+    "title": "Lookup failed",
+    "subtitle": "The lookup could not be completed."
+   }
+  },
+  "isError": true
+ },
+ "jsonrpc": "2.0",
+ "id": 1
+}

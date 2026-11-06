@@ -1,0 +1,829 @@
+{
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "{\n  \"data\": {\n    \"lookupStatus\": \"found\",\n    \"media\": [\n      {\n        \"id\": \"4023982329545779062\",\n        \"shortcode\": \"DfYDpvXBmd2\",\n        \"url\": \"https://www.instagram.com/reel/DfYDpvXBmd2/\",\n        \"kind\": \"reel\",\n        \"mediaType\": \"video\",\n        \"caption\": \"TIPPED. DIVING. CAUGHT. \ud83d\ude32\ud83c\udfc8\\n\\nThe defender got a hand on it \u2014 and it still wasn\u2019t enough.\\n\\nA Texas high school deep shot gets deflected at the catch point\u2026 and #5 in white re-tracks it in under a second, lays out at full stretch, and pulls it in about a foot off the turf at the 11-yard line.\\n\\nTHE BIOMECHANICS (digitized from the film):\\n\u2022 Throw: \u224838 yards in the air\\n\u2022 Tip \u2192 catch: under 1 second (27 frames of film)\\n\u2022 Front knee at full extension: 179\u00b0 \u2014 dead straight\\n\u2022 Hip closes to 80\u00b0 as he reaches\\n\u2022 Trail knee tucks to 53\u00b0 at the catch, so nothing drags the ball loose\\n\u2022 Ball secured \u22481 ft off the ground and held through the roll\\n\\nAngles were digitized frame-by-frame from the film (\u00b15\u00b0) \u2014 film estimates, not lab data. The clip\u2019s playback looks slowed, so the reaction time is counted in film frames, not real-world seconds.\\n\\nBreakdown done on thespeeddoctor.app\\nMore biomechanics at elytics.pro\\nFilm: @cbssports via @dctf\",\n        \"altText\": null,\n        \"createdAt\": \"2026-11-05T22:02:08.000Z\",\n        \"owner\": {\n          \"id\": \"22043763\",\n          \"handle\": \"coachschuman\",\n          \"displayName\": \"Dave Schuman\",\n          \"avatarUrl\": \"https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/274869808_1367041353775254_3106188262092592795_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFf2Q5bTCuVy6ZKTa1EvzoNy4XkZTUkdZ3123glM5DmS1yNUUtZhNEld5bWXD3MT8Y&_nc_ohc=ePOCjceNRIgQ7kNvwGEuVJT&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GDAuYhCW_EgeUdsEAJtWhF-EZRsrbkULAAAB1501500j-ccb7-5&oh=00_AQRqGNBTVe3m3sBGZmMfIJ9vGGkRrnAlu6VKYJTegKnx4A&oe=6AF33A56&_nc_sid=c024bc\",\n          \"verified\": true,\n          \"privateAccount\": false\n        },\n        \"metrics\": {\n          \"likeCount\": 12,\n          \"commentCount\": 0,\n          \"playCount\": 609,\n          \"shareCount\": 2,\n          \"saveCount\": 0,\n          \"likesHidden\": false\n        },\n        \"imageUrl\": \"https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/888205809_18642021307027764_2607013085840712814_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=106&ig_cache_key=NDAyMzk4MjMyOTU0NTc3OTA2MjE4NjQyMDIxMzA0MDI3NzY0.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=Y1RmGPtY5aAQ7kNvwGginLi&_nc_oc=AdojIEbW67qCYOKPOwS-nGyFZFRqa7SdSNcQ0UutXlghdtXTH3nY40h2l0GE8V_u8YA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQTBN1K4WWINZnZ4pb-bLmdKphSBkJ3EM6W01hoeWULv2g&oe=6AF33BA4\",\n        \"thumbnailUrl\": \"https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/888205809_18642021307027764_2607013085840712814_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=106&ig_cache_key=NDAyMzk4MjMyOTU0NTc3OTA2MjE4NjQyMDIxMzA0MDI3NzY0.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=Y1RmGPtY5aAQ7kNvwGginLi&_nc_oc=AdojIEbW67qCYOKPOwS-nGyFZFRqa7SdSNcQ0UutXlghdtXTH3nY40h2l0GE8V_u8YA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQTBN1K4WWINZnZ4pb-bLmdKphSBkJ3EM6W01hoeWULv2g&oe=6AF33BA4\",\n        \"videoUrl\": \"https://scontent-sjc6-1.cdninstagram.com/o1/v/t2/f2/m86/AQM2B36RvSz03_WpqNS40IpAYS04rqP7Mvidqq-V81DygBIhjfAd2DDDUXgzlQyr3MrZUFJ1nG007Vo6MUkDCPjqu9Qjk8BacD5HBhY.mp4?_nc_cat=104&_nc_sid=5e9851&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_ohc=yEZqtmPdWvoQ7kNvwEddeMo&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6OTc3ODg2MjMxNTY3OTk5LCJhc3NldF9hZ2VfZGF5cyI6MCwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjI0LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=80ee681c4e209633&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9FNDZGQTlCNjhBRDU0NUQwQjAxNjIzRjEyMjQ2RUJDMl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzRDQjdGRDJFMTMyMTRGRUFBQjk2M0RDNkQ4MUE0MjA5X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb--bSXvNi8AxUCKAJDMywXQDjMzMzMzM0YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQTBR56Gij9PZGf_Qs2d_GVXD27tgZxlBqoFoEYcVjQx9Q&oe=6AEF45A9\",\n        \"durationSec\": 24.8,\n        \"dimensions\": {\n          \"width\": 720,\n          \"height\": 1280\n        },\n        \"carousel\": null,\n        \"audio\": {\n          \"id\": \"27269554482742355\",\n          \"title\": \"Original audio\",\n          \"artist\": \"Dave Schuman\",\n          \"isOriginal\": true,\n          \"artistHandle\": \"coachschuman\"\n        },\n        \"coauthors\": [\n          {\n            \"id\": \"1427878777\",\n            \"handle\": \"nuc_football\",\n            \"displayName\": \"NUC Sports Football\",\n            \"avatarUrl\": \"https://scontent-sjc6-1.cdninstagram.com/v/t51.2885-19/246459011_577611593477636_3381206565882710988_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDI0LmMyIn0&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gFBguB8h7BedPuWx8x5JxFiqtpKtVRPAsSEMHwv7pLcvWCfCU97r7Y5NOPNDs4ugIc&_nc_ohc=uCzbXlZJPpEQ7kNvwErEDex&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GIOqsA4E7titVQ0CAMxLqA91dewubkULAAAB1501500j-ccb7-5&oh=00_AQQ04qFuZnOnYlzkksgFGPH2I2B198eDAihSO6HAkYMp3A&oe=6AF33087&_nc_sid=c024bc\",\n            \"verified\": false,\n            \"privateAccount\": false\n          },\n          {\n            \"id\": \"47072753570\",\n            \"handle\": \"boardwalk_beasts\",\n            \"displayName\": \"Boardwalk Beasts\",\n            \"avatarUrl\": \"https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/163608154_154927249824077_1074408637391226070_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gEICChuYxBR1Yhp4t4M1DPlWAHPE3uPDBOQG5fCaC03wXs0t-1JJINqAfjiFQ7rb9k&_nc_ohc=PeLwVt3dVaMQ7kNvwEwHMk8&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GFp2wAlNGbHP54wAANbEUJf2EOkObkULAAAB1501500j-ccb7-5&oh=00_AQQcrpQ2oiDL4by4NXRf4VXob2f-7xEfsKJZHGvWItRnlw&oe=6AF348B5&_nc_sid=c024bc\",\n            \"verified\": true,\n            \"privateAccount\": false\n          },\n          {\n            \"id\": \"13079191371\",\n            \"handle\": \"footballusaacademy\",\n            \"displayName\": \"NUC Sports Football Academy\",\n            \"avatarUrl\": \"https://scontent-sjc6-1.cdninstagram.com/v/t51.2885-19/219766625_856091178360115_6610978457477325878_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44NjUuYzIifQ&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gE1WkD1K6sM_iDR21Hni8jlhUAaEhvcMuq8-MxW6LF81Y3PaZZt6_StrEwM-4MzH80&_nc_ohc=M4nTlJouxEgQ7kNvwGgSsUm&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GGFfGQ0z3ZRCnAoDADYksm-h6b5bbkULAAAB1501500j-ccb7-5&oh=00_AQQOEbWEwTMkw3njeUZfH62WYvHXTtjN2R2BSuBFFxWFTw&oe=6AF34BCF&_nc_sid=c024bc\",\n            \"verified\": false,\n            \"privateAccount\": false\n          }\n        ],\n        \"taggedUsers\": null,\n        \"location\": {\n          \"id\": \"102618861444715\",\n          \"name\": \"USA\",\n          \"lat\": 38.89459748583,\n          \"lng\": -77.036781330782\n        },\n        \"isPaidPartnership\": false,\n        \"sponsors\": [],\n        \"commentsDisabled\": null,\n        \"isPinned\": false,\n        \"story\": null\n      },\n      {\n        \"id\": \"4023781196571237704\",\n        \"shortcode\": \"DfXV63rhl1I\",\n        \"url\": \"https://www.instagram.com/reel/DfXV63rhl1I/\",\n        \"kind\": \"reel\",\n        \"mediaType\": \"video\",\n        \"caption\": \"Your athlete is fast. But do you know why they're not faster? \ud83c\udfc3\u200d\u2642\ufe0f\ud83d\udca8\\n\\nThe Speed Doctor turns any sprint video into a full biomechanical breakdown \u2014 5 key sprint positions, joint angles, elite benchmarks, and a training plan that adjusts as they improve.\\n\\nThespeeddoctor.app to find out more.\\n\\nCoaches see the whole team. Athletes see exactly what to fix.\\n\\n\ud83c\udfaf Try it FREE for 7 days \u2014 link in bio (Card required, then $99.99/mo. Cancel anytime before the trial ends.)\\n\\n#speedtraining #sprinttraining #trackandfield #footballtraining #athletedevelopment #speedcoach #biomechanics #coaching #sportstech #recruiting\",\n        \"altText\": null,\n        \"createdAt\": \"2026-11-05T15:22:14.000Z\",\n        \"owner\": {\n          \"id\": \"22043763\",\n          \"handle\": \"coachschuman\",\n          \"displayName\": \"Dave Schuman\",\n          \"avatarUrl\": \"https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/274869808_1367041353775254_3106188262092592795_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFf2Q5bTCuVy6ZKTa1EvzoNy4XkZTUkdZ3123glM5DmS1yNUUtZhNEld5bWXD3MT8Y&_nc_ohc=ePOCjceNRIgQ7kNvwGEuVJT&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GDAuYhCW_EgeUdsEAJtWhF-EZRsrbkULAAAB1501500j-ccb7-5&oh=00_AQRqGNBTVe3m3sBGZmMfIJ9vGGkRrnAlu6VKYJTegKnx4A&oe=6AF33A56&_nc_sid=c024bc\",\n          \"verified\": true,\n          \"privateAccount\": false\n        },\n        \"metrics\": {\n          \"likeCount\": 1,\n          \"commentCount\": 1,\n          \"playCount\": 232,\n          \"shareCount\": null,\n          \"saveCount\": 0,\n          \"likesHidden\": false\n        },\n        \"imageUrl\": \"https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/881132519_18641933152027764_1800219637812057774_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=111&ig_cache_key=NDAyMzc4MTE5NjU3MTIzNzcwNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=hBr5LKCPG3oQ7kNvwE1Xomg&_nc_oc=Adr2PvL2z-xqKBZ_QNlJ8tPqcWKdzDKYU6TvAR7dFLNvAFdqBVIAoxO04MPL5ZS6xxs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQRvtp4yPsGs4soPP0wce1bvN2Pqc5lPVWC6g22LgFqdbg&oe=6AF31D5D\",\n        \"thumbnailUrl\": \"https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/881132519_18641933152027764_1800219637812057774_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=111&ig_cache_key=NDAyMzc4MTE5NjU3MTIzNzcwNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=hBr5LKCPG3oQ7kNvwE1Xomg&_nc_oc=Adr2PvL2z-xqKBZ_QNlJ8tPqcWKdzDKYU6TvAR7dFLNvAFdqBVIAoxO04MPL5ZS6xxs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQRvtp4yPsGs4soPP0wce1bvN2Pqc5lPVWC6g22LgFqdbg&oe=6AF31D5D\",\n        \"videoUrl\": \"https://scontent-sjc6-1.cdninstagram.com/o1/v/t2/f2/m86/AQOOYkGjR83j_s8desuLyAxAHPhS1qVYRZoMchulz9AGpHUwwoRblJRoQzb8_4f7kQq27IQwkBXoWfp985k3ZDlIKDHbladWP4OYVw8.mp4?_nc_cat=107&_nc_sid=5e9851&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_ohc=f2vIG4B8DSAQ7kNvwG14iT2&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTcwNzUzMDgwNDEzNjU3MywiYXNzZXRfYWdlX2RheXMiOjAsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=b884da9b373b63e2&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9CQUY2NDBEOTRBNDQ0REEzOTA4NTg4NzRFRUE4QzQyNl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0U0MTU0QjNCMkZCRjRBMzM4ODg5OEQ1RUE3OTE3NjYwX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb6qbDwr7-IBhUCKAJDMywXQC0AAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQTf892Spc4LSDW4JoQNqYsxCVVK1pVxStJpotSSMMYNgg&oe=6AEF4D9C\",\n        \"durationSec\": 14.506,\n        \"dimensions\": {\n          \"width\": 1080,\n          \"height\": 1920\n        },\n        \"carousel\": null,\n        \"audio\": {\n          \"id\": \"30202054592717432\",\n          \"title\": \"Original audio\",\n          \"artist\": \"Dave Schuman\",\n          \"isOriginal\": true,\n          \"artistHandle\": \"coachschuman\"\n        },\n        \"coauthors\": [\n          {\n            \"id\": \"13079191371\",\n            \"handle\": \"footballusaacademy\",\n            \"displayName\": \"NUC Sports Football Academy\",\n            \"avatarUrl\": \"https://scontent-sjc6-1.cdninstagram.com/v/t51.2885-19/219766625_856091178360115_6610978457477325878_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44NjUuYzIifQ&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gE1WkD1K6sM_iDR21Hni8jlhUAaEhvcMuq8-MxW6LF81Y3PaZZt6_StrEwM-4MzH80&_nc_ohc=M4nTlJouxEgQ7kNvwGgSsUm&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GGFfGQ0z3ZRCnAoDADYksm-h6b5bbkULAAAB1501500j-ccb7-5&oh=00_AQQOEbWEwTMkw3njeUZfH62WYvHXTtjN2R2BSuBFFxWFTw&oe=6AF34BCF&_nc_sid=c024bc\",\n            \"verified\": false,\n            \"privateAccount\": false\n          },\n          {\n            \"id\": \"1427878777\",\n            \"handle\": \"nuc_football\",\n            \"displayName\": \"NUC Sports Football\",\n            \"avatarUrl\": \"https://scontent-sjc6-1.cdninstagram.com/v/t51.2885-19/246459011_577611593477636_3381206565882710988_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDI0LmMyIn0&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gFBguB8h7BedPuWx8x5JxFiqtpKtVRPAsSEMHwv7pLcvWCfCU97r7Y5NOPNDs4ugIc&_nc_ohc=uCzbXlZJPpEQ7kNvwErEDex&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GIOqsA4E7titVQ0CAMxLqA91dewubkULAAAB1501500j-ccb7-5&oh=00_AQQ04qFuZnOnYlzkksgFGPH2I2B198eDAihSO6HAkYMp3A&oe=6AF33087&_nc_sid=c024bc\",\n            \"verified\": false,\n            \"privateAccount\": false\n          }\n        ],\n        \"taggedUsers\": null,\n        \"location\": {\n          \"id\": \"148983528766257\",\n          \"name\": \"USA\",\n          \"lat\": 5.839945,\n          \"lng\": 6.857564\n        },\n        \"isPaidPartnership\": false,\n        \"sponsors\": [],\n        \"commentsDisabled\": null,\n        \"isPinned\": false,\n        \"story\": null\n      },\n      {\n        \"id\": \"4023774121468952698\",\n        \"shortcode\": \"DfXUT6ekQB6\",\n        \"url\": \"https://www.instagram.com/reel/DfXUT6ekQB6/\",\n        \"kind\": \"reel\",\n        \"mediaType\": \"video\",\n        \"caption\": \"How the Big Shot Gets made!!\",\n        \"altText\": null,\n        \"createdAt\": \"2026-11-05T15:08:00.000Z\",\n        \"owner\": {\n          \"id\": \"22043763\",\n          \"handle\": \"coachschuman\",\n          \"displayName\": \"Dave Schuman\",\n          \"avatarUrl\": \"https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/274869808_1367041353775254_3106188262092592795_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFf2Q5bTCuVy6ZKTa1EvzoNy4XkZTUkdZ3123glM5DmS1yNUUtZhNEld5bWXD3MT8Y&_nc_ohc=ePOCjceNRIgQ7kNvwGEuVJT&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GDAuYhCW_EgeUdsEAJtWhF-EZRsrbkULAAAB1501500j-ccb7-5&oh=00_AQRqGNBTVe3m3sBGZmMfIJ9vGGkRrnAlu6VKYJTegKnx4A&oe=6AF33A56&_nc_sid=c024bc\",\n          \"verified\": true,\n          \"privateAccount\": false\n        },\n        \"metrics\": {\n          \"likeCount\": 27,\n          \"commentCount\": 0,\n          \"playCount\": 1669,\n          \"shareCount\": 5,\n          \"saveCount\": 2,\n          \"likesHidden\": false\n        },\n        \"imageUrl\": \"https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/891043190_18641925643027764_6295443874168470703_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=101&ig_cache_key=NDAyMzc3NDEyMTQ2ODk1MjY5OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2ZpcnN0X2ZyYW1lX3RodW1ibmFpbC5DMyJ9&_nc_ohc=CJEIEN2QEPEQ7kNvwF1lJOb&_nc_oc=AdrF0l6TkLAsWSpTvxC60pqzRxzRQzks2RDlOXz1TJ7rVTKIsJJgbwYmJ7_uspwhT7c&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQQgsxQyoKqAwUZs9Fd4so5lbSdoEuaSRIyDjsfWW9czYg&oe=6AF33796\",\n        \"thumbnailUrl\": \"https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/891043190_18641925643027764_6295443874168470703_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=101&ig_cache_key=NDAyMzc3NDEyMTQ2ODk1MjY5OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2ZpcnN0X2ZyYW1lX3RodW1ibmFpbC5DMyJ9&_nc_ohc=CJEIEN2QEPEQ7kNvwF1lJOb&_nc_oc=AdrF0l6TkLAsWSpTvxC60pqzRxzRQzks2RDlOXz1TJ7rVTKIsJJgbwYmJ7_uspwhT7c&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQQgsxQyoKqAwUZs9Fd4so5lbSdoEuaSRIyDjsfWW9czYg&oe=6AF33796\",\n        \"videoUrl\": \"https://scontent-sjc6-1.cdninstagram.com/o1/v/t2/f2/m366/AQN3vKlOz1kuycSnBoX_nggQ29r-lsMyHtDb1zrkDbasYItNBuWRfUHHjn3MsTefvmXDKjDjq7tyK2OteNjC9Jo0Iu3xd22OeNWhkCLl3LP8_g.mp4?_nc_cat=108&_nc_sid=5e9851&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_ohc=PGzXS7SqR-kQ7kNvwHHqV8r&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEwMjQzNDUwMzA2Nzk5NzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDEyMiwiZHVyYXRpb25fcyI6ODMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=f07fc3690e6577e2&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8zRkEwNzQyNzhCQjM0OUQ3QjJGQTQwMEEwNzQxNjlFMV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0M3RkQ5NDBEODQ2MjRBMThCNEZDNTFEQ0I0OTgzNDlFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbI9vKa3ejRAxUCKAJDMywXQFTZmZmZmZoYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHX-B2WUngEA&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQScTefmahet0KWWjf49C5YYd135RuObOCmAkYABq5O3XA&oe=6AF34F44\",\n        \"durationSec\": 83.4,\n        \"dimensions\": {\n          \"width\": 1080,\n          \"height\": 1920\n        },\n        \"carousel\": null,\n        \"audio\": null,\n        \"coauthors\": [],\n        \"taggedUsers\": [],\n        \"location\": null,\n        \"isPaidPartnership\": false,\n        \"sponsors\": [],\n        \"commentsDisabled\": null,\n        \"isPinned\": false,\n        \"story\": null\n      },\n      {\n        \"id\": \"4023774085339009439\",\n        \"shortcode\": \"DfXUTY1DdGf\",\n        \"url\": \"https://www.instagram.com/reel/DfXUTY1DdGf/\",\n        \"kind\": \"reel\",\n        \"mediaType\": \"video\",\n        \"caption\": \"Remember Speed Kills!!\",\n        \"altText\": null,\n        \"createdAt\": \"2026-11-05T15:07:55.000Z\",\n        \"owner\": {\n          \"id\": \"22043763\",\n          \"handle\": \"coachschuman\",\n          \"displayName\": \"Dave Schuman\",\n          \"avatarUrl\": \"https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/274869808_1367041353775254_3106188262092592795_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFf2Q5bTCuVy6ZKTa1EvzoNy4XkZTUkdZ3123glM5DmS1yNUUtZhNEld5bWXD3MT8Y&_nc_ohc=ePOCjceNRIgQ7kNvwGEuVJT&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GDAuYhCW_EgeUdsEAJtWhF-EZRsrbkULAAAB1501500j-ccb7-5&oh=00_AQRqGNBTVe3m3sBGZmMfIJ9vGGkRrnAlu6VKYJTegKnx4A&oe=6AF33A56&_nc_sid=c024bc\",\n          \"verified\": true,\n          \"privateAccount\": false\n        },\n        \"metrics\": {\n          \"likeCount\": 6,\n          \"commentCount\": 1,\n          \"playCount\": 383,\n          \"shareCount\": 4,\n          \"saveCount\": 1,\n          \"likesHidden\": false\n        },\n        \"imageUrl\": \"https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/890188568_18641925622027764_541804270009839167_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=102&ig_cache_key=NDAyMzc3NDA4NTMzOTAwOTQzOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2ZpcnN0X2ZyYW1lX3RodW1ibmFpbC5DMyJ9&_nc_ohc=jwb7bxFBLukQ7kNvwF4YNIF&_nc_oc=Adp0K6GWnlS8YtDMkx1UKgCIujK4FKkW68UaQYkqaPWY8uUyN16qj-PkvwLv9db0D1c&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQS0U5PN6avLDxC0SgMOQlE7CWJdlLobXLOQbPa0xdnP3w&oe=6AF33D78\",\n        \"thumbnailUrl\": \"https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/890188568_18641925622027764_541804270009839167_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=102&ig_cache_key=NDAyMzc3NDA4NTMzOTAwOTQzOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2ZpcnN0X2ZyYW1lX3RodW1ibmFpbC5DMyJ9&_nc_ohc=jwb7bxFBLukQ7kNvwF4YNIF&_nc_oc=Adp0K6GWnlS8YtDMkx1UKgCIujK4FKkW68UaQYkqaPWY8uUyN16qj-PkvwLv9db0D1c&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQS0U5PN6avLDxC0SgMOQlE7CWJdlLobXLOQbPa0xdnP3w&oe=6AF33D78\",\n        \"videoUrl\": \"https://scontent-sjc6-1.cdninstagram.com/o1/v/t2/f2/m366/AQNHaZOUQm4E1GCQmbdSG-iKMfjOxwKCCKP9udHa4WSEXWZWOgwBXLy97Ksj1rRDrlS9whPOguGU2VTTXbRHLSfXpNG80WPwYnny65yyPEaQkQ.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_ohc=-fVte5fiKzoQ7kNvwFYOLM8&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjI5MDMyMDE2MTc2NDUxOTYwLCJhc3NldF9hZ2VfZGF5cyI6MCwidmlfdXNlY2FzZV9pZCI6MTAxMjIsImR1cmF0aW9uX3MiOjgzLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=b0cadaca834acf12&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9DQjc2MTQ3MzY0MkU0QTZFOTM0QzE4NEM4M0M0NzEzN19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzVCQ0I2MDBBOTY2OTRDQUFBMjhDMjI1ODVDRTk1QzZDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbwxfy04J2SZxUCKAJDMywXQFTmZmZmZmYYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHX-B2WUngEA&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQS0QXowkvku9FxLRgFrnidMybNPnxoMcCsoSNHmIrMw8g&oe=6AF337B0\",\n        \"durationSec\": 83.6,\n        \"dimensions\": {\n          \"width\": 1080,\n          \"height\": 1920\n        },\n        \"carousel\": null,\n        \"audio\": null,\n        \"coauthors\": [],\n        \"taggedUsers\": [],\n        \"location\": null,\n        \"isPaidPartnership\": false,\n        \"sponsors\": [],\n        \"commentsDisabled\": null,\n        \"isPinned\": false,\n        \"story\": null\n      },\n      {\n        \"id\": \"4023400338165129790\",\n        \"shortcode\": \"DfV_UpphOI-\",\n        \"url\": \"https://www.instagram.com/reel/DfV_UpphOI-/\",\n        \"kind\": \"reel\",\n        \"mediaType\": \"video\",\n        \"caption\": \"6-3, 245, and 57 career rushing touchdowns, which set the SEC record.\\n\\nTim Tebow at Florida, a quarterback who ran like a fullback. Roboflow pose tracking shows the mechanics behind the power.\\n\\nThe Speed Doctor breakdown:\\n1. The carry. Roboflow pose: trunk ~36\u00b0 forward, both knees bent ~110\u00b0 (2D). Low pad level, so the first defender meets his shoulder, not his chest.\\n2. The goal-line pile. Feet keep driving through contact. At ~8 mph and 245 lbs he brings ~400 kg\u00b7m/s of momentum (estimated), about what a 300-lb lineman carries at 6.5 mph.\\n3. The open-field stride. Trunk ~20\u00b0, front knee ~91\u00b0, drive leg ~156\u00b0 (2D). Still leaning in, ready to lower a shoulder.\\n\\nListed vs. estimated: 6-3/245 and 57 rushing TDs are per Florida's roster page. Angles are Roboflow 2D pose. Speeds and momentum are Speed Doctor estimates from a highlight montage.\\n\\nImprove as an athlete today at elytics.pro\\n\\n#TimTebow #Gators #CollegeFootball #SEC #Biomechanics #PowerRunning #Elytics #SpeedDoctor #CoachSchuman\",\n        \"altText\": null,\n        \"createdAt\": \"2026-11-05T02:45:58.000Z\",\n        \"owner\": {\n          \"id\": \"22043763\",\n          \"handle\": \"coachschuman\",\n          \"displayName\": \"Dave Schuman\",\n          \"avatarUrl\": \"https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/274869808_1367041353775254_3106188262092592795_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFf2Q5bTCuVy6ZKTa1EvzoNy4XkZTUkdZ3123glM5DmS1yNUUtZhNEld5bWXD3MT8Y&_nc_ohc=ePOCjceNRIgQ7kNvwGEuVJT&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GDAuYhCW_EgeUdsEAJtWhF-EZRsrbkULAAAB1501500j-ccb7-5&oh=00_AQRqGNBTVe3m3sBGZmMfIJ9vGGkRrnAlu6VKYJTegKnx4A&oe=6AF33A56&_nc_sid=c024bc\",\n          \"verified\": true,\n          \"privateAccount\": false\n        },\n        \"metrics\": {\n          \"likeCount\": 23,\n          \"commentCount\": 0,\n          \"playCount\": 1900,\n          \"shareCount\": 1,\n          \"saveCount\": 1,\n          \"likesHidden\": false\n        },\n        \"imageUrl\": \"https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/887061873_18641720629027764_4684325978659923053_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=102&ig_cache_key=NDAyMzQwMDMzODE2NTEyOTc5MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=xvQkWfyeCBEQ7kNvwE_pIay&_nc_oc=AdrznxAjxWdVrrzJd4Ay0Ll8dtykZvu54C-iXTsSx0nm3BFL2LzMjxxJwglSBZYHq2w&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQS_08GV8xaia-jiQlf9vxQhK8RhKDuf7EjrdNzxvENfNg&oe=6AF34A74\",\n        \"thumbnailUrl\": \"https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/887061873_18641720629027764_4684325978659923053_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=102&ig_cache_key=NDAyMzQwMDMzODE2NTEyOTc5MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=xvQkWfyeCBEQ7kNvwE_pIay&_nc_oc=AdrznxAjxWdVrrzJd4Ay0Ll8dtykZvu54C-iXTsSx0nm3BFL2LzMjxxJwglSBZYHq2w&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQS_08GV8xaia-jiQlf9vxQhK8RhKDuf7EjrdNzxvENfNg&oe=6AF34A74\",\n        \"videoUrl\": \"https://scontent-sjc6-1.cdninstagram.com/o1/v/t2/f2/m86/AQN-BQ6IQfMTd4izMoQDY4TSZIm_fbG3VVAPcjXmKduTTqOiKOPJf6QN-Z3BBvnWGfAOeRT9mZpMG1aFJm52WJLc98Nk4bVyiR4ROa4.mp4?_nc_cat=107&_nc_sid=5e9851&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_ohc=SJ4Pc4ytoogQ7kNvwGdY1-w&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6OTgwMjI5ODUxODI0MTcyLCJhc3NldF9hZ2VfZGF5cyI6MSwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjgzLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=a6abd6af74784f85&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9ERDM2MkM2Q0VGRDY0QTEwOTlCODE3RkFDNjNEQTFCNF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzQwODQxMTVFMDFBOTRBRUE5RDQ0QUE2REQ0MTEzNDVBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbYgO7B8eC9AxUCKAJDMywXQFTZmZmZmZoYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQTKf8-x5lk3isfHwb3BXdTzSPsdf-oIDxZjvxUgfuS0pw&oe=6AEF5764\",\n        \"durationSec\": 83.4,\n        \"dimensions\": {\n          \"width\": 1080,\n          \"height\": 1920\n        },\n        \"carousel\": null,\n        \"audio\": {\n          \"id\": \"29623756203894972\",\n          \"title\": \"Original audio\",\n          \"artist\": \"Dave Schuman\",\n          \"isOriginal\": true,\n          \"artistHandle\": \"coachschuman\"\n        },\n        \"coauthors\": [\n          {\n            \"id\": \"1427878777\",\n            \"handle\": \"nuc_football\",\n            \"displayName\": \"NUC Sports Football\",\n            \"avatarUrl\": \"https://scontent-sjc6-1.cdninstagram.com/v/t51.2885-19/246459011_577611593477636_3381206565882710988_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDI0LmMyIn0&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gFBguB8h7BedPuWx8x5JxFiqtpKtVRPAsSEMHwv7pLcvWCfCU97r7Y5NOPNDs4ugIc&_nc_ohc=uCzbXlZJPpEQ7kNvwErEDex&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GIOqsA4E7titVQ0CAMxLqA91dewubkULAAAB1501500j-ccb7-5&oh=00_AQQ04qFuZnOnYlzkksgFGPH2I2B198eDAihSO6HAkYMp3A&oe=6AF33087&_nc_sid=c024bc\",\n            \"verified\": false,\n            \"privateAccount\": false\n          },\n          {\n            \"id\": \"47072753570\",\n            \"handle\": \"boardwalk_beasts\",\n            \"displayName\": \"Boardwalk Beasts\",\n            \"avatarUrl\": \"https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/163608154_154927249824077_1074408637391226070_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gEICChuYxBR1Yhp4t4M1DPlWAHPE3uPDBOQG5fCaC03wXs0t-1JJINqAfjiFQ7rb9k&_nc_ohc=PeLwVt3dVaMQ7kNvwEwHMk8&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GFp2wAlNGbHP54wAANbEUJf2EOkObkULAAAB1501500j-ccb7-5&oh=00_AQQcrpQ2oiDL4by4NXRf4VXob2f-7xEfsKJZHGvWItRnlw&oe=6AF348B5&_nc_sid=c024bc\",\n            \"verified\": true,\n            \"privateAccount\": false\n          },\n          {\n            \"id\": \"13079191371\",\n            \"handle\": \"footballusaacademy\",\n            \"displayName\": \"NUC Sports Football Academy\",\n            \"avatarUrl\": \"https://scontent-sjc6-1.cdninstagram.com/v/t51.2885-19/219766625_856091178360115_6610978457477325878_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44NjUuYzIifQ&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gE1WkD1K6sM_iDR21Hni8jlhUAaEhvcMuq8-MxW6LF81Y3PaZZt6_StrEwM-4MzH80&_nc_ohc=M4nTlJouxEgQ7kNvwGgSsUm&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GGFfGQ0z3ZRCnAoDADYksm-h6b5bbkULAAAB1501500j-ccb7-5&oh=00_AQQOEbWEwTMkw3njeUZfH62WYvHXTtjN2R2BSuBFFxWFTw&oe=6AF34BCF&_nc_sid=c024bc\",\n            \"verified\": false,\n            \"privateAccount\": false\n          }\n        ],\n        \"taggedUsers\": null,\n        \"location\": {\n          \"id\": \"741244374\",\n          \"name\": \"Florida, USA\",\n          \"lat\": 28.330220020385,\n          \"lng\": -81.664303739079\n        },\n        \"isPaidPartnership\": false,\n        \"sponsors\": [],\n        \"commentsDisabled\": null,\n        \"isPinned\": false,\n        \"story\": null\n      },\n      {\n        \"id\": \"4023262542461037419\",\n        \"shortcode\": \"DfVf_dZhmtr\",\n        \"url\": \"https://www.instagram.com/reel/DfVf_dZhmtr/\",\n        \"kind\": \"reel\",\n        \"mediaType\": \"video\",\n        \"caption\": \"Down 28-12 at halftime. Third play of the second half: 80 yards.\\n\\nTexas QB Vince Young at Oklahoma State in 2005. At 6-5 and 233, Roboflow pose tracking shows how that frame covers ground.\\n\\nThe Speed Doctor breakdown:\\n1. The escape. He slips outside the rush and turns his shoulders downfield in a couple of steps. The decision comes first; the stride does the rest.\\n2. The pursuit. The Cowboys defender chases from behind and the gap grows every stride. About 12 seconds from snap to end zone: a ~14 mph average, scramble included (estimated).\\n3. The stride. Roboflow pose: trunk ~7\u00b0, drive leg fully extended at ~179\u00b0 (2D). Estimated near 20 mph.\\n\\nReported vs. estimated: 6-5/233 is his Texas roster listing; the 80-yard TD, 267 rushing yards and 47-28 final are per Texas Athletics. Angles are Roboflow 2D pose. Speeds are Speed Doctor estimates from the broadcast clock and film.\\n\\nImprove as an athlete today at elytics.pro\\n\\n#VinceYoung #Longhorns #HookEm #CollegeFootball #Biomechanics #SpeedTraining #Elytics #SpeedDoctor #CoachSchuman\",\n        \"altText\": null,\n        \"createdAt\": \"2026-11-04T22:12:14.000Z\",\n        \"owner\": {\n          \"id\": \"22043763\",\n          \"handle\": \"coachschuman\",\n          \"displayName\": \"Dave Schuman\",\n          \"avatarUrl\": \"https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/274869808_1367041353775254_3106188262092592795_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFf2Q5bTCuVy6ZKTa1EvzoNy4XkZTUkdZ3123glM5DmS1yNUUtZhNEld5bWXD3MT8Y&_nc_ohc=ePOCjceNRIgQ7kNvwGEuVJT&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GDAuYhCW_EgeUdsEAJtWhF-EZRsrbkULAAAB1501500j-ccb7-5&oh=00_AQRqGNBTVe3m3sBGZmMfIJ9vGGkRrnAlu6VKYJTegKnx4A&oe=6AF33A56&_nc_sid=c024bc\",\n          \"verified\": true,\n          \"privateAccount\": false\n        },\n        \"metrics\": {\n          \"likeCount\": 0,\n          \"commentCount\": 0,\n          \"playCount\": 297,\n          \"shareCount\": null,\n          \"saveCount\": 0,\n          \"likesHidden\": false\n        },\n        \"imageUrl\": \"https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/891772007_18641643814027764_5574990943383977397_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=100&ig_cache_key=NDAyMzI2MjU0MjQ2MTAzNzQxOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=YmdsTETY1ykQ7kNvwE4yDzT&_nc_oc=AdoBq12p4JyP7BCxlevU6z9iE1dZU7hJ4U7J8h1MIl7Rw0t17pCBKTZm7Jajb8apB3I&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQRpwJW10rbedegaFJOor7I6rMrqfMl0d0rbArVelPwjeQ&oe=6AF3258C\",\n        \"thumbnailUrl\": \"https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/891772007_18641643814027764_5574990943383977397_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=100&ig_cache_key=NDAyMzI2MjU0MjQ2MTAzNzQxOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=YmdsTETY1ykQ7kNvwE4yDzT&_nc_oc=AdoBq12p4JyP7BCxlevU6z9iE1dZU7hJ4U7J8h1MIl7Rw0t17pCBKTZm7Jajb8apB3I&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQRpwJW10rbedegaFJOor7I6rMrqfMl0d0rbArVelPwjeQ&oe=6AF3258C\",\n        \"videoUrl\": \"https://scontent-sjc6-1.cdninstagram.com/o1/v/t2/f2/m86/AQP6Lx8XyHtWQs_pW2ifFnnpmfs6-7KL9qA9j_4WW0iL8FXw60r1OzKQVDQyxnYRtGvTqa7UxueHXxOy46Rpkwyy4_N7S2sKx9sHEk8.mp4?_nc_cat=109&_nc_sid=5e9851&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_ohc=Z5FuHgL9pFIQ7kNvwGMdg8V&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTE0OTE3ODExNDcxNzM2OCwiYXNzZXRfYWdlX2RheXMiOjEsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo4NCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=d4dd88ed52e4772d&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC83NEFEQTYxNDlDQzI0Q0EwODc1RjAyRUQyOTRFRUU3N192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzdENDc2QjQ3RDRENjRENERCQTE4QThCREQ2MTJENEE2X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbw2v2U_MqKBBUCKAJDMywXQFUMzMzMzM0YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQQc5mwGdfx1hpdrUUhcXsRRJ0YCxwO3qwZqEAITwFXlbQ&oe=6AEF4F32\",\n        \"durationSec\": 84.2,\n        \"dimensions\": {\n          \"width\": 1080,\n          \"height\": 1920\n        },\n        \"carousel\": null,\n        \"audio\": {\n          \"id\": \"28807515408875426\",\n          \"title\": \"Original audio\",\n          \"artist\": \"Dave Schuman\",\n          \"isOriginal\": true,\n          \"artistHandle\": \"coachschuman\"\n        },\n        \"coauthors\": [\n          {\n            \"id\": \"1427878777\",\n            \"handle\": \"nuc_football\",\n            \"displayName\": \"NUC Sports Football\",\n            \"avatarUrl\": \"https://scontent-sjc6-1.cdninstagram.com/v/t51.2885-19/246459011_577611593477636_3381206565882710988_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDI0LmMyIn0&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gFBguB8h7BedPuWx8x5JxFiqtpKtVRPAsSEMHwv7pLcvWCfCU97r7Y5NOPNDs4ugIc&_nc_ohc=uCzbXlZJPpEQ7kNvwErEDex&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GIOqsA4E7titVQ0CAMxLqA91dewubkULAAAB1501500j-ccb7-5&oh=00_AQQ04qFuZnOnYlzkksgFGPH2I2B198eDAihSO6HAkYMp3A&oe=6AF33087&_nc_sid=c024bc\",\n            \"verified\": false,\n            \"privateAccount\": false\n          },\n          {\n            \"id\": \"54569493745\",\n            \"handle\": \"boardwalksportsusa\",\n            \"displayName\": \"Boardwalk Sports USA\",\n            \"avatarUrl\": \"https://scontent-sjc6-1.cdninstagram.com/v/t51.2885-19/297869610_150885614229349_3120713413831661911_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby41MDEuYzIifQ&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gFl1nFy-MMDueCRH4F9DL6bEkywq4nHH6h8UwaEYInNbqb6QMxfpFUPzbCrITgQSrM&_nc_ohc=-l6pJNUaomYQ7kNvwESZ1N2&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GCohwRFlF3DLOokAAFeZO81QAE8rbkULAAAB1501500j-ccb7-5&oh=00_AQQWjtpdxMj9FvkPhotizr76h2mjjtjcIo2Z4fK8S81ikA&oe=6AF32926&_nc_sid=c024bc\",\n            \"verified\": false,\n            \"privateAccount\": false\n          }\n        ],\n        \"taggedUsers\": null,\n        \"location\": {\n          \"id\": \"100149244104629\",\n          \"name\": \"Texas, USA\",\n          \"lat\": 32.735959285409,\n          \"lng\": -97.458626586023\n        },\n        \"isPaidPartnership\": false,\n        \"sponsors\": [],\n        \"commentsDisabled\": null,\n        \"isPinned\": false,\n        \"story\": null\n      },\n      {\n        \"id\": \"4023156892750061305\",\n        \"shortcode\": \"DfVH-DcCB75\",\n        \"url\": \"https://www.instagram.com/reel/DfVH-DcCB75/\",\n        \"kind\": \"reel\",\n        \"mediaType\": \"video\",\n        \"caption\": \"From one baseline to the other rim, and it didn't count.\\n\\nLebanon's Charbel El Herera at the FIBA U18 Asia Cup. It came on an inbound pass, so under FIBA rules the basket was waved off. The throw is still worth breaking down.\\n\\nThe Speed Doctor breakdown:\\n1. The windup. Roboflow pose: trunk upright at ~2\u00b0, ball loaded low by his right hip (2D). A long path to build speed through the whole body, not just the arm.\\n2. The release. Throwing arm extended to ~179\u00b0, raised ~136\u00b0 from his trunk, upper body leaning ~19\u00b0 (2D). Our model needs a ~46\u00b0 launch at ~36.5 mph.\\n3. The flight. ~26 m in ~2.3 s, peaking ~7 m above his release (modeled). A 1% change in release speed moves the ball ~0.5 m, and the rim is 45 cm wide.\\n\\nRules vs. modeled: the basket didn't count because it was scored directly from an inbound pass. Angles are Roboflow 2D pose (upper body only). Ball speed, angle and flight are a projectile model, not measured data.\\n\\nImprove as an athlete today at elytics.pro\\n\\n#CharbelElHerera #Lebanon #FIBA #Basketball #Biomechanics #Physics #Elytics #SpeedDoctor #CoachSchuman\",\n        \"altText\": null,\n        \"createdAt\": \"2026-11-04T18:41:45.000Z\",\n        \"owner\": {\n          \"id\": \"22043763\",\n          \"handle\": \"coachschuman\",\n          \"displayName\": \"Dave Schuman\",\n          \"avatarUrl\": \"https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/274869808_1367041353775254_3106188262092592795_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFf2Q5bTCuVy6ZKTa1EvzoNy4XkZTUkdZ3123glM5DmS1yNUUtZhNEld5bWXD3MT8Y&_nc_ohc=ePOCjceNRIgQ7kNvwGEuVJT&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GDAuYhCW_EgeUdsEAJtWhF-EZRsrbkULAAAB1501500j-ccb7-5&oh=00_AQRqGNBTVe3m3sBGZmMfIJ9vGGkRrnAlu6VKYJTegKnx4A&oe=6AF33A56&_nc_sid=c024bc\",\n          \"verified\": true,\n          \"privateAccount\": false\n        },\n        \"metrics\": {\n          \"likeCount\": 24,\n          \"commentCount\": 0,\n          \"playCount\": 1578,\n          \"shareCount\": 1,\n          \"saveCount\": 1,\n          \"likesHidden\": false\n        },\n        \"imageUrl\": \"https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/886654911_18641585905027764_329842223668302893_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=110&ig_cache_key=NDAyMzE1Njg5Mjc1MDA2MTMwNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2ZpcnN0X2ZyYW1lX3RodW1ibmFpbC5DMyJ9&_nc_ohc=VZ0eJjN-BNYQ7kNvwEKZ3yT&_nc_oc=AdrHLIhNqGD1NlHIgBS2gdpXEXwK0FX4bSvwXyVQCbFQIxclKTqWqp-eeKUji8E-Ye4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQR5q-0wGBGazi4Pw09pbMtGmd83m74H0vRRTICwP4qYZw&oe=6AF34ECD\",\n        \"thumbnailUrl\": \"https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/886654911_18641585905027764_329842223668302893_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=110&ig_cache_key=NDAyMzE1Njg5Mjc1MDA2MTMwNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2ZpcnN0X2ZyYW1lX3RodW1ibmFpbC5DMyJ9&_nc_ohc=VZ0eJjN-BNYQ7kNvwEKZ3yT&_nc_oc=AdrHLIhNqGD1NlHIgBS2gdpXEXwK0FX4bSvwXyVQCbFQIxclKTqWqp-eeKUji8E-Ye4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQR5q-0wGBGazi4Pw09pbMtGmd83m74H0vRRTICwP4qYZw&oe=6AF34ECD\",\n        \"videoUrl\": \"https://scontent-sjc6-1.cdninstagram.com/o1/v/t2/f2/m366/AQNTQn6gCgaK3SuXMAHJVAzq6HX6jAv1Oj_ko_jiZ7UeUL3P1Ev4tHZP43pLISz9kD-Z3O12CtoC3GnNlLrGaaJXt74l6VyqzJS86AhoTzAaHA.mp4?_nc_cat=111&_nc_sid=5e9851&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_ohc=FkKRc1dC-wAQ7kNvwGW161o&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE0NjgxMTQxMjUyNzE3ODMsImFzc2V0X2FnZV9kYXlzIjoxLCJ2aV91c2VjYXNlX2lkIjoxMDEyMiwiZHVyYXRpb25fcyI6ODMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=ef852d066331652b&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8zOTA4QURDQzMyNkI0QUI1ODVFN0U3Q0QyMEM4NzM5Rl9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzBBNzBCNjE5MDZBQzQ1MUFBQjNBODQyMDdDOUJFNzhBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbOy-nOvs-bBRUCKAJDMywXQFTZmZmZmZoYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHX-B2WUngEA&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQTIM0mVxUdQe0CWDaGFmQRxXQdfBDJ_a9EfjO-Ni4iM6Q&oe=6AF333C1\",\n        \"durationSec\": 83.4,\n        \"dimensions\": {\n          \"width\": 1080,\n          \"height\": 1920\n        },\n        \"carousel\": null,\n        \"audio\": null,\n        \"coauthors\": [],\n        \"taggedUsers\": [],\n        \"location\": null,\n        \"isPaidPartnership\": false,\n        \"sponsors\": [],\n        \"commentsDisabled\": null,\n        \"isPinned\": false,\n        \"story\": null\n      },\n      {\n        \"id\": \"4023043651859960786\",\n        \"shortcode\": \"DfUuOLpANPS\",\n        \"url\": \"https://www.instagram.com/reel/DfUuOLpANPS/\",\n        \"kind\": \"reel\",\n        \"mediaType\": \"video\",\n        \"caption\": \"Blitz zero used to break C.J. Stroud. In London, it made him. \ud83c\udfc8\\nSeven pressure reps, one plan: know your hot, replace the blitzer, throw INTO the pressure \u2014 that's where the void is, and that's where the explosive lives.\\nFull 8-minute breakdown on YouTube. Breakdown done on thespeeddoctor.app\",\n        \"altText\": null,\n        \"createdAt\": \"2026-11-04T14:56:41.000Z\",\n        \"owner\": {\n          \"id\": \"22043763\",\n          \"handle\": \"coachschuman\",\n          \"displayName\": \"Dave Schuman\",\n          \"avatarUrl\": \"https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/274869808_1367041353775254_3106188262092592795_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFf2Q5bTCuVy6ZKTa1EvzoNy4XkZTUkdZ3123glM5DmS1yNUUtZhNEld5bWXD3MT8Y&_nc_ohc=ePOCjceNRIgQ7kNvwGEuVJT&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GDAuYhCW_EgeUdsEAJtWhF-EZRsrbkULAAAB1501500j-ccb7-5&oh=00_AQRqGNBTVe3m3sBGZmMfIJ9vGGkRrnAlu6VKYJTegKnx4A&oe=6AF33A56&_nc_sid=c024bc\",\n          \"verified\": true,\n          \"privateAccount\": false\n        },\n        \"metrics\": {\n          \"likeCount\": 7,\n          \"commentCount\": 0,\n          \"playCount\": 220,\n          \"shareCount\": 1,\n          \"saveCount\": 1,\n          \"likesHidden\": false\n        },\n        \"imageUrl\": \"https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/885588055_18641524753027764_8982949586259516785_n.jpg?stp=dst-jpg_e35_s750x750_sh2.08_tt6&_nc_cat=111&ig_cache_key=NDAyMzA0MzY1MTg1OTk2MDc4Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjE5MjAuc2RyLnZpZGVvX2ZpcnN0X2ZyYW1lX3RodW1ibmFpbC5DMyJ9&_nc_ohc=ZWKyBgRWhsMQ7kNvwFwPpg-&_nc_oc=Adok8sTim36y87lpjBOwxpp2NZQxGY_03G1vts9AQUk4y9CvSqVgkzFVfkcjiJO3VYU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQRBscF6mVwUnjUJk0xMQBH-9imOiIw0CRYRWGrjfJLuzw&oe=6AF329E6\",\n        \"thumbnailUrl\": \"https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/885588055_18641524753027764_8982949586259516785_n.jpg?stp=dst-jpg_e35_s750x750_sh2.08_tt6&_nc_cat=111&ig_cache_key=NDAyMzA0MzY1MTg1OTk2MDc4Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjE5MjAuc2RyLnZpZGVvX2ZpcnN0X2ZyYW1lX3RodW1ibmFpbC5DMyJ9&_nc_ohc=ZWKyBgRWhsMQ7kNvwFwPpg-&_nc_oc=Adok8sTim36y87lpjBOwxpp2NZQxGY_03G1vts9AQUk4y9CvSqVgkzFVfkcjiJO3VYU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQRBscF6mVwUnjUJk0xMQBH-9imOiIw0CRYRWGrjfJLuzw&oe=6AF329E6\",\n        \"videoUrl\": \"https://scontent-sjc3-1.cdninstagram.com/o1/v/t2/f2/m366/AQNZOh00r4QHuMp2-LDDEgGZ3bTKOoHCXJwapVfk6YdBJt2jCmF-72t2hsH2M0n5lXRrIMWLFdzOwpw1SCJ-nsT9EBirP-VgWGk8J-HSmWJZRw.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_ohc=EwsweGcN4x4Q7kNvwHcm6Ps&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuMTI4MC5kYXNoX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxNzkxMDE5NjI1NDQ3NjAyLCJhc3NldF9hZ2VfZGF5cyI6MSwidmlfdXNlY2FzZV9pZCI6MTAxMjIsImR1cmF0aW9uX3MiOjM5MiwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=52a5d5caea17b0ea&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8yNzNCMkE5MTk4N0I0MTk5OEUyQTE4MTg3OTI0RUE1M19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0M0RkZBQUIxM0FDMzRDM0Y4M0NGRTYxRjk2QjI4NkZGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbkgvyIiLuuBhUCKAJDMywXQHiJmZmZmZoYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHX-B2WUngEA&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQR0N7CU1jpvJEEOU8d6RoRV05gYqzN0S1x-rk-WLWSKbw&oe=6AF347E9\",\n        \"durationSec\": 392.6,\n        \"dimensions\": {\n          \"width\": 1920,\n          \"height\": 1080\n        },\n        \"carousel\": null,\n        \"audio\": null,\n        \"coauthors\": [],\n        \"taggedUsers\": [],\n        \"location\": null,\n        \"isPaidPartnership\": false,\n        \"sponsors\": [],\n        \"commentsDisabled\": null,\n        \"isPinned\": false,\n        \"story\": null\n      },\n      {\n        \"id\": \"4023034627446193476\",\n        \"shortcode\": \"DfUsK3ABr1E\",\n        \"url\": \"https://www.instagram.com/reel/DfUsK3ABr1E/\",\n        \"kind\": \"reel\",\n        \"mediaType\": \"video\",\n        \"caption\": \"Blitz zero used to break C.J. Stroud. In London, it made him. \ud83c\udfc8\\nSeven pressure reps, one plan: know your hot, replace the blitzer, throw INTO the pressure \u2014 that's where the void is, and that's where the explosive lives.\\nFull 8-minute breakdown on YouTube. Breakdown done on thespeeddoctor.app\",\n        \"altText\": null,\n        \"createdAt\": \"2026-11-04T14:41:04.000Z\",\n        \"owner\": {\n          \"id\": \"22043763\",\n          \"handle\": \"coachschuman\",\n          \"displayName\": \"Dave Schuman\",\n          \"avatarUrl\": \"https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/274869808_1367041353775254_3106188262092592795_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFf2Q5bTCuVy6ZKTa1EvzoNy4XkZTUkdZ3123glM5DmS1yNUUtZhNEld5bWXD3MT8Y&_nc_ohc=ePOCjceNRIgQ7kNvwGEuVJT&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GDAuYhCW_EgeUdsEAJtWhF-EZRsrbkULAAAB1501500j-ccb7-5&oh=00_AQRqGNBTVe3m3sBGZmMfIJ9vGGkRrnAlu6VKYJTegKnx4A&oe=6AF33A56&_nc_sid=c024bc\",\n          \"verified\": true,\n          \"privateAccount\": false\n        },\n        \"metrics\": {\n          \"likeCount\": 6,\n          \"commentCount\": 0,\n          \"playCount\": 509,\n          \"shareCount\": 2,\n          \"saveCount\": 0,\n          \"likesHidden\": false\n        },\n        \"imageUrl\": \"https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/888832455_18641519629027764_3388703069488722512_n.jpg?stp=dst-jpg_e35_s750x750_sh2.08_tt6&_nc_cat=102&ig_cache_key=NDAyMzAzNDYyNzQ0NjE5MzQ3Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjE5MjAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=4FRvTCCPyEYQ7kNvwHP8vK2&_nc_oc=AdpnLT5J_6Cz5Yonp4kgDO3cRaAUjukjGmn0WAX-pLDMCR25C7h2ZYfGiHcyqgcgyGc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQQMVM_Hhqiw9U00XCzKdWzKHl6WlYfwCZxgrXK3SOBAVg&oe=6AF33BAB\",\n        \"thumbnailUrl\": \"https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/888832455_18641519629027764_3388703069488722512_n.jpg?stp=dst-jpg_e35_s750x750_sh2.08_tt6&_nc_cat=102&ig_cache_key=NDAyMzAzNDYyNzQ0NjE5MzQ3Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjE5MjAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=4FRvTCCPyEYQ7kNvwHP8vK2&_nc_oc=AdpnLT5J_6Cz5Yonp4kgDO3cRaAUjukjGmn0WAX-pLDMCR25C7h2ZYfGiHcyqgcgyGc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQQMVM_Hhqiw9U00XCzKdWzKHl6WlYfwCZxgrXK3SOBAVg&oe=6AF33BAB\",\n        \"videoUrl\": \"https://scontent-sjc6-1.cdninstagram.com/o1/v/t2/f2/m86/AQMJ1cXYdm857XRh9wlQtuZaZuCUvLpQ8yJwXHwsTLEv9CvC1LQLmW7vvYW1U1-n54K90bZWSL9ahvA_KJOSCpff_rOrebtiF1Lbwkw.mp4?_nc_cat=107&_nc_sid=5e9851&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_ohc=D7ihstyVwPkQ7kNvwGjZoxv&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuMTI4MC5kYXNoX2Jhc2VsaW5lXzFfdjEiLCJ4cHZfYXNzZXRfaWQiOjI1OTI3ODYzODc4MzQ5MTMsImFzc2V0X2FnZV9kYXlzIjoxLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MzkyLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=6a449976e69469b4&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC83NzEwMTRCNURGMDc0MDY0QUU2OUYzQjYxNTM1MDYwQ192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzI5MzI0RkIxQjczQTQ5QTY4OEU1M0Y2ODdFNThFRUEyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbC4ID6g4ibCRUCKAJDMywXQHiJmZmZmZoYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQQsiBPbDXFTQGb26_Tb2KEPU5loxkVtUaGOwWCXs3cQlw&oe=6AEF4578\",\n        \"durationSec\": 392.6,\n        \"dimensions\": {\n          \"width\": 1920,\n          \"height\": 1080\n        },\n        \"carousel\": null,\n        \"audio\": {\n          \"id\": \"39555617120752883\",\n          \"title\": \"Original audio\",\n          \"artist\": \"Dave Schuman\",\n          \"isOriginal\": true,\n          \"artistHandle\": \"coachschuman\"\n        },\n        \"coauthors\": [\n          {\n            \"id\": \"54569493745\",\n            \"handle\": \"boardwalksportsusa\",\n            \"displayName\": \"Boardwalk Sports USA\",\n            \"avatarUrl\": \"https://scontent-sjc6-1.cdninstagram.com/v/t51.2885-19/297869610_150885614229349_3120713413831661911_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby41MDEuYzIifQ&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gFl1nFy-MMDueCRH4F9DL6bEkywq4nHH6h8UwaEYInNbqb6QMxfpFUPzbCrITgQSrM&_nc_ohc=-l6pJNUaomYQ7kNvwESZ1N2&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GCohwRFlF3DLOokAAFeZO81QAE8rbkULAAAB1501500j-ccb7-5&oh=00_AQQWjtpdxMj9FvkPhotizr76h2mjjtjcIo2Z4fK8S81ikA&oe=6AF32926&_nc_sid=c024bc\",\n            \"verified\": false,\n            \"privateAccount\": false\n          },\n          {\n            \"id\": \"13079191371\",\n            \"handle\": \"footballusaacademy\",\n            \"displayName\": \"NUC Sports Football Academy\",\n            \"avatarUrl\": \"https://scontent-sjc6-1.cdninstagram.com/v/t51.2885-19/219766625_856091178360115_6610978457477325878_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44NjUuYzIifQ&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gE1WkD1K6sM_iDR21Hni8jlhUAaEhvcMuq8-MxW6LF81Y3PaZZt6_StrEwM-4MzH80&_nc_ohc=M4nTlJouxEgQ7kNvwGgSsUm&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GGFfGQ0z3ZRCnAoDADYksm-h6b5bbkULAAAB1501500j-ccb7-5&oh=00_AQQOEbWEwTMkw3njeUZfH62WYvHXTtjN2R2BSuBFFxWFTw&oe=6AF34BCF&_nc_sid=c024bc\",\n            \"verified\": false,\n            \"privateAccount\": false\n          },\n          {\n            \"id\": \"47072753570\",\n            \"handle\": \"boardwalk_beasts\",\n            \"displayName\": \"Boardwalk Beasts\",\n            \"avatarUrl\": \"https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/163608154_154927249824077_1074408637391226070_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gEICChuYxBR1Yhp4t4M1DPlWAHPE3uPDBOQG5fCaC03wXs0t-1JJINqAfjiFQ7rb9k&_nc_ohc=PeLwVt3dVaMQ7kNvwEwHMk8&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GFp2wAlNGbHP54wAANbEUJf2EOkObkULAAAB1501500j-ccb7-5&oh=00_AQQcrpQ2oiDL4by4NXRf4VXob2f-7xEfsKJZHGvWItRnlw&oe=6AF348B5&_nc_sid=c024bc\",\n            \"verified\": true,\n            \"privateAccount\": false\n          }\n        ],\n        \"taggedUsers\": null,\n        \"location\": {\n          \"id\": \"100149244104629\",\n          \"name\": \"Texas, USA\",\n          \"lat\": 32.735959285409,\n          \"lng\": -97.458626586023\n        },\n        \"isPaidPartnership\": false,\n        \"sponsors\": [],\n        \"commentsDisabled\": null,\n        \"isPinned\": false,\n        \"story\": null\n      },\n      {\n        \"id\": \"4022961517975968057\",\n        \"shortcode\": \"DfUbi-gBhk5\",\n        \"url\": \"https://www.instagram.com/reel/DfUbi-gBhk5/\",\n        \"kind\": \"reel\",\n        \"mediaType\": \"video\",\n        \"caption\": \"97 yards on his first NFL snap.\\n\\nBears rookie Zavion Thomas took it the distance in the preseason finale against the Titans. He ran a 4.28 forty. Here\u2019s how that speed shows up in pads.\\n\\nThe Speed Doctor breakdown:\\n1. The double move. Roboflow pose: plant knee loaded to ~70\u00b0, trunk ~27\u00b0 forward (2D). Sinking the hips sells the stop, and the same loaded leg launches him back upfield.\\n2. Top-end mechanics. Trunk ~2\u00b0, nearly vertical, with ~87\u00b0 of thigh separation (2D). Estimated ~21.5 mph with the ball in his arm.\\n3. The last defender. He has to dive and still comes up short. 190 lbs at ~21 mph is ~810 kg\u00b7m/s of momentum (estimated).\\n\\nListed vs. estimated: the 4.28 and 5-10/190 are listed figures. Joint angles are Roboflow 2D pose and depend on the camera angle. Speeds and momentum are Speed Doctor estimates, not NFL tracking data.\\n\\nImprove as an athlete today at elytics.pro\\n\\n#ZavionThomas #Bears #NFLPreseason #Biomechanics #SpeedTraining Elytics SpeedDoctor CoachSchuman\",\n        \"altText\": null,\n        \"createdAt\": \"2026-11-04T12:14:13.000Z\",\n        \"owner\": {\n          \"id\": \"22043763\",\n          \"handle\": \"coachschuman\",\n          \"displayName\": \"Dave Schuman\",\n          \"avatarUrl\": \"https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/274869808_1367041353775254_3106188262092592795_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFf2Q5bTCuVy6ZKTa1EvzoNy4XkZTUkdZ3123glM5DmS1yNUUtZhNEld5bWXD3MT8Y&_nc_ohc=ePOCjceNRIgQ7kNvwGEuVJT&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GDAuYhCW_EgeUdsEAJtWhF-EZRsrbkULAAAB1501500j-ccb7-5&oh=00_AQRqGNBTVe3m3sBGZmMfIJ9vGGkRrnAlu6VKYJTegKnx4A&oe=6AF33A56&_nc_sid=c024bc\",\n          \"verified\": true,\n          \"privateAccount\": false\n        },\n        \"metrics\": {\n          \"likeCount\": 39,\n          \"commentCount\": 0,\n          \"playCount\": 2417,\n          \"shareCount\": 1,\n          \"saveCount\": 1,\n          \"likesHidden\": false\n        },\n        \"imageUrl\": \"https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/886518546_18641474665027764_5637733255281468059_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=108&ig_cache_key=NDAyMjk2MTUxNzk3NTk2ODA1NzE4NjQxNDc0NjYyMDI3NzY0.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=Z6T6Jccqx08Q7kNvwG2Zsvc&_nc_oc=AdpfB5atTflEB_8grR9ZBwkUyRMCOlyz32QVWu0X4X35apjOXmTUXzqtfGEZfoGL2CM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQR9D6vC9ncf0k2q1iQfNpdQvSDrE2eifaYiytQ_AK6i7g&oe=6AF33957\",\n        \"thumbnailUrl\": \"https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/886518546_18641474665027764_5637733255281468059_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=108&ig_cache_key=NDAyMjk2MTUxNzk3NTk2ODA1NzE4NjQxNDc0NjYyMDI3NzY0.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=Z6T6Jccqx08Q7kNvwG2Zsvc&_nc_oc=AdpfB5atTflEB_8grR9ZBwkUyRMCOlyz32QVWu0X4X35apjOXmTUXzqtfGEZfoGL2CM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQR9D6vC9ncf0k2q1iQfNpdQvSDrE2eifaYiytQ_AK6i7g&oe=6AF33957\",\n        \"videoUrl\": \"https://scontent-sjc6-1.cdninstagram.com/o1/v/t2/f2/m86/AQN6uXT3uqAU3Perd0xONYJg-iV29LIPXy1uIcLwMWD4-e8RC4uWakE3Wgpm6XZ6fSSBuoTjGZfYzkiWomWzqGBFyzep4Jk5qlb4vUk.mp4?_nc_cat=102&_nc_sid=5e9851&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_ohc=fROdP7Olf-0Q7kNvwGQBcvr&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6OTEwNzI5NTI4NjkwODI0LCJhc3NldF9hZ2VfZGF5cyI6MSwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjc5LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=f67d0b291e4bf1ac&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9CMUUzQUZENDRERDY0NEJCODU4RkYxM0UwOUMxOEUwN192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzVFNTlBMjg1QjQxRTQyREE5OTczNzVBN0FCNDY1OTc3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaQotrgt5OeAxUCKAJDMywXQFP90vGp--cYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQQquvU8WrdIKk26q9q7bnRV82E-CXm0a-_6cSPnrsYN2g&oe=6AEF3F47\",\n        \"durationSec\": 79.966,\n        \"dimensions\": {\n          \"width\": 1080,\n          \"height\": 1920\n        },\n        \"carousel\": null,\n        \"audio\": {\n          \"id\": \"29175378912114093\",\n          \"title\": \"Original audio\",\n          \"artist\": \"Dave Schuman\",\n          \"isOriginal\": true,\n          \"artistHandle\": \"coachschuman\"\n        },\n        \"coauthors\": [],\n        \"taggedUsers\": [],\n        \"location\": {\n          \"id\": \"102618861444715\",\n          \"name\": \"USA\",\n          \"lat\": 38.89459748583,\n          \"lng\": -77.036781330782\n        },\n        \"isPaidPartnership\": false,\n        \"sponsors\": [],\n        \"commentsDisabled\": null,\n        \"isPinned\": false,\n        \"story\": null\n      },\n      {\n        \"id\": \"4022379934223124985\",\n        \"shortcode\": \"DfSXT0bB0n5\",\n        \"url\": \"https://www.instagram.com/reel/DfSXT0bB0n5/\",\n        \"kind\": \"reel\",\n        \"mediaType\": \"video\",\n        \"caption\": \"Adrian Peterson in an Oklahoma jersey was a PROBLEM. \ud83d\udd25\ud83c\udfc8\\n\\nWatch the leg recovery. Follow the stride rhythm. Then watch him find daylight.\\n\\nWe break down five plays with coaching notes and biomechanics drawings so you can see the movement inside the highlight.\\n\\nSave this for your next film session. Which running back should we break down next? \ud83d\udc47\\n\\nFollow @coachschuman and visit TheSpeedDoctor.app.\\n\\nAngles are 2D estimates. Speed and force graphics are modeled.\\n\\n#AdrianPeterson #BoomerSooner #RunningBackTraining #FootballFilm #Biomechanics\",\n        \"altText\": null,\n        \"createdAt\": \"2026-11-03T16:58:24.000Z\",\n        \"owner\": {\n          \"id\": \"22043763\",\n          \"handle\": \"coachschuman\",\n          \"displayName\": \"Dave Schuman\",\n          \"avatarUrl\": \"https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/274869808_1367041353775254_3106188262092592795_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFf2Q5bTCuVy6ZKTa1EvzoNy4XkZTUkdZ3123glM5DmS1yNUUtZhNEld5bWXD3MT8Y&_nc_ohc=ePOCjceNRIgQ7kNvwGEuVJT&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GDAuYhCW_EgeUdsEAJtWhF-EZRsrbkULAAAB1501500j-ccb7-5&oh=00_AQRqGNBTVe3m3sBGZmMfIJ9vGGkRrnAlu6VKYJTegKnx4A&oe=6AF33A56&_nc_sid=c024bc\",\n          \"verified\": true,\n          \"privateAccount\": false\n        },\n        \"metrics\": {\n          \"likeCount\": 4,\n          \"commentCount\": 0,\n          \"playCount\": 376,\n          \"shareCount\": null,\n          \"saveCount\": 0,\n          \"likesHidden\": false\n        },\n        \"imageUrl\": \"https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/882487929_18641221405027764_4504678691073649117_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&ig_cache_key=NDAyMjM3OTkzNDIyMzEyNDk4NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=VEumitXnynAQ7kNvwFcJagU&_nc_oc=AdrNOrKM-IIr0dgz5IxUwA9zZ3xKKpRO29qnscg1cgmcx8QOYOqozil8NN5T5dTar5k&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQT6-qJYM59RauT-iQOBQDmPxgbkyMAe4ka4B-Owy0bgOQ&oe=6AF32486\",\n        \"thumbnailUrl\": \"https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/882487929_18641221405027764_4504678691073649117_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&ig_cache_key=NDAyMjM3OTkzNDIyMzEyNDk4NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=VEumitXnynAQ7kNvwFcJagU&_nc_oc=AdrNOrKM-IIr0dgz5IxUwA9zZ3xKKpRO29qnscg1cgmcx8QOYOqozil8NN5T5dTar5k&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQT6-qJYM59RauT-iQOBQDmPxgbkyMAe4ka4B-Owy0bgOQ&oe=6AF32486\",\n        \"videoUrl\": \"https://scontent-sjc6-1.cdninstagram.com/o1/v/t2/f2/m86/AQOcHqKRSi3EUfldwCr-DuMCPCPo6KkhjRkTKKYOXxJgYgeitZZcrhZZ9_fs1hEGtLf4cyVGIVlj_CpHxsgXpv1segWqsZc_V5pfGTw.mp4?_nc_cat=109&_nc_sid=5e9851&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_ohc=Zg9nw31Rzt4Q7kNvwFN-szg&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTI5NDUxMDM0OTQ4ODUxMCwiYXNzZXRfYWdlX2RheXMiOjIsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo2OCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=40aa9314d3701229&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC83RTRCODM0RUExMDc0RTk5QTZBNDlDQjExQzhCMjJBQl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzJENUQwOTBBOENDNTQ2QTJCQzA5M0Q5RDBFNDZCMTMzX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb8xdDYtdbMBBUCKAJDMywXQFETMzMzMzMYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQTNZi8GHgzl0iV9di5qOf_9sCZuYOp-XoHkMnmv-RG5qg&oe=6AEF4E46\",\n        \"durationSec\": 68.313,\n        \"dimensions\": {\n          \"width\": 720,\n          \"height\": 1280\n        },\n        \"carousel\": null,\n        \"audio\": {\n          \"id\": \"28763423420023683\",\n          \"title\": \"Original audio\",\n          \"artist\": \"Dave Schuman\",\n          \"isOriginal\": true,\n          \"artistHandle\": \"coachschuman\"\n        },\n        \"coauthors\": [\n          {\n            \"id\": \"13079191371\",\n            \"handle\": \"footballusaacademy\",\n            \"displayName\": \"NUC Sports Football Academy\",\n            \"avatarUrl\": \"https://scontent-sjc6-1.cdninstagram.com/v/t51.2885-19/219766625_856091178360115_6610978457477325878_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44NjUuYzIifQ&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gE1WkD1K6sM_iDR21Hni8jlhUAaEhvcMuq8-MxW6LF81Y3PaZZt6_StrEwM-4MzH80&_nc_ohc=M4nTlJouxEgQ7kNvwGgSsUm&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GGFfGQ0z3ZRCnAoDADYksm-h6b5bbkULAAAB1501500j-ccb7-5&oh=00_AQQOEbWEwTMkw3njeUZfH62WYvHXTtjN2R2BSuBFFxWFTw&oe=6AF34BCF&_nc_sid=c024bc\",\n            \"verified\": false,\n            \"privateAccount\": false\n          }\n        ],\n        \"taggedUsers\": null,\n        \"location\": {\n          \"id\": \"469882534\",\n          \"name\": \"Oklahoma\",\n          \"lat\": 35.5,\n          \"lng\": -98\n        },\n        \"isPaidPartnership\": false,\n        \"sponsors\": [],\n        \"commentsDisabled\": null,\n        \"isPinned\": false,\n        \"story\": null\n      },\n      {\n        \"id\": \"4021848076821286698\",\n        \"shortcode\": \"DfQeYRnhU8q\",\n        \"url\": \"https://www.instagram.com/reel/DfQeYRnhU8q/\",\n        \"kind\": \"reel\",\n        \"mediaType\": \"video\",\n        \"caption\": \"POV: you\u2019re the last man between a 245-lb tight end and the end zone \ud83d\ude05\\n\\nMark Bowman\u2019s 70-yard TD vs Ohio State, by the numbers (digitized from the film):\\n\u2022 Hurdle \u2014 lead knee 134\u00b0, trail knee tucked to 60\u00b0\\n\u2022 Landing knee 135\u00b0 \u2014 lands tall, stays at speed\\n\u2022 Runs THROUGH the grab \u2014 drive leg 173\u00b0\\n\u2022 Top speed \u224820 MPH film est. \u2014 \u22481,000 kg\u00b7m/s of momentum\\n\\nBreakdown done on thespeeddoctor.app \u00b7 More biomechanics at elytics.pro\\nFilm: @TrojanFBx \u00b7 All figures are film estimates\",\n        \"altText\": null,\n        \"createdAt\": \"2026-11-02T23:22:01.000Z\",\n        \"owner\": {\n          \"id\": \"22043763\",\n          \"handle\": \"coachschuman\",\n          \"displayName\": \"Dave Schuman\",\n          \"avatarUrl\": \"https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/274869808_1367041353775254_3106188262092592795_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFf2Q5bTCuVy6ZKTa1EvzoNy4XkZTUkdZ3123glM5DmS1yNUUtZhNEld5bWXD3MT8Y&_nc_ohc=ePOCjceNRIgQ7kNvwGEuVJT&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GDAuYhCW_EgeUdsEAJtWhF-EZRsrbkULAAAB1501500j-ccb7-5&oh=00_AQRqGNBTVe3m3sBGZmMfIJ9vGGkRrnAlu6VKYJTegKnx4A&oe=6AF33A56&_nc_sid=c024bc\",\n          \"verified\": true,\n          \"privateAccount\": false\n        },\n        \"metrics\": {\n          \"likeCount\": 6,\n          \"commentCount\": 0,\n          \"playCount\": 484,\n          \"shareCount\": 3,\n          \"saveCount\": 0,\n          \"likesHidden\": false\n        },\n        \"imageUrl\": \"https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/883201855_18640966216027764_3246181866433659616_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=109&ig_cache_key=NDAyMTg0ODA3NjgyMTI4NjY5ODE4NjQwOTY2MjEzMDI3NzY0.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=hlyV78pkBpIQ7kNvwHMh-qT&_nc_oc=Adp21aD-LfD5iISI-pmuwwS5dnXjM9rW-fGtTLJEv0BhRQ-DDgv6DR1xW-ulLz1m3Ek&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQSHrBhHPStNC6RU23bvb0GvzUgYhRFEp0W5L--8wUfPIg&oe=6AF33738\",\n        \"thumbnailUrl\": \"https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/883201855_18640966216027764_3246181866433659616_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=109&ig_cache_key=NDAyMTg0ODA3NjgyMTI4NjY5ODE4NjQwOTY2MjEzMDI3NzY0.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=hlyV78pkBpIQ7kNvwHMh-qT&_nc_oc=Adp21aD-LfD5iISI-pmuwwS5dnXjM9rW-fGtTLJEv0BhRQ-DDgv6DR1xW-ulLz1m3Ek&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQSHrBhHPStNC6RU23bvb0GvzUgYhRFEp0W5L--8wUfPIg&oe=6AF33738\",\n        \"videoUrl\": \"https://scontent-sjc3-1.cdninstagram.com/o1/v/t2/f2/m86/AQNnXd-fYMzodi-J3GXNIxNidYaJ-YEZV8WdMe-JSxxbUm8rZvAMFvU82aYQB09esNZKEbuB3qfVpcxDDvUTr2x4I5L4mTCirnCe6i8.mp4?_nc_cat=106&_nc_sid=5e9851&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_ohc=d4ZzZnLIeFQQ7kNvwFVvHau&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTE1MDg2NDcwNzU0NjUzMCwiYXNzZXRfYWdlX2RheXMiOjMsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjozNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=6a0539200b5789db&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8wMkVGQjc4MDgzNjY0OEE4OEZGQkZCMENBREQ3QUI4RF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzEyNTNGMDdBMjNDMjRBNUU5MDRCREM0REY2OUZEM0VCX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbEtp-hkq2LBBUCKAJDMywXQEEd0vGp--cYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQSQ9vIpo8HYoRhsTHaWJ-hypZ1MeXDF1sp_23MkVGBjkw&oe=6AEF4CC3\",\n        \"durationSec\": 34.233,\n        \"dimensions\": {\n          \"width\": 720,\n          \"height\": 1280\n        },\n        \"carousel\": null,\n        \"audio\": {\n          \"id\": \"29388420700753847\",\n          \"title\": \"Original audio\",\n          \"artist\": \"Dave Schuman\",\n          \"isOriginal\": true,\n          \"artistHandle\": \"coachschuman\"\n        },\n        \"coauthors\": [],\n        \"taggedUsers\": [],\n        \"location\": {\n          \"id\": \"102618861444715\",\n          \"name\": \"USA\",\n          \"lat\": 38.89459748583,\n          \"lng\": -77.036781330782\n        },\n        \"isPaidPartnership\": false,\n        \"sponsors\": [],\n        \"commentsDisabled\": null,\n        \"isPinned\": false,\n        \"story\": null\n      }\n    ],\n    \"page\": {\n      \"kind\": \"cursor\",\n      \"nextCursor\": \"h1.eyJjIjoiUVZGRFRUbG5lVnByYTJwRVpFcEhNRmxqWm10NFl6QXhYMFZMTWpnemVteENlVGswY0ZGdVVscFBjMGg1WmpOaFdraEVNVzVNV0Vwd2FGVTJZVTVQTVRoS2REbE1SRkJJYURWMk1tMUVialZ6U0hGd1NUVjBNZz09IiwiZSI6Im1UQWZldjhhanAiLCJ1IjoiMjIwNDM3NjMiLCJ0IjoicmVlbHMiLCJiIjoiSFB0dXNCSWlhOSJ9\",\n      \"hasMore\": true,\n      \"start\": null,\n      \"page\": null,\n      \"count\": null,\n      \"returnedCount\": 12,\n      \"total\": null,\n      \"totalPages\": null\n    }\n  },\n  \"meta\": {\n    \"requestId\": \"req_19827529-42a9-48a6-bee1-4f3dea4bbbd8\",\n    \"creditsCharged\": 1,\n    \"version\": \"v2\"\n  }\n}"
+   },
+   {
+    "type": "text",
+    "text": "{\"conversation_id\":\"01a1af42-6270-7638-bcd1-8270bf72d60f\"}"
+   }
+  ],
+  "structuredContent": {
+   "data": {
+    "lookupStatus": "found",
+    "media": [
+     {
+      "id": "4023982329545779062",
+      "shortcode": "DfYDpvXBmd2",
+      "url": "https://www.instagram.com/reel/DfYDpvXBmd2/",
+      "kind": "reel",
+      "mediaType": "video",
+      "caption": "TIPPED. DIVING. CAUGHT. \ud83d\ude32\ud83c\udfc8\n\nThe defender got a hand on it \u2014 and it still wasn\u2019t enough.\n\nA Texas high school deep shot gets deflected at the catch point\u2026 and #5 in white re-tracks it in under a second, lays out at full stretch, and pulls it in about a foot off the turf at the 11-yard line.\n\nTHE BIOMECHANICS (digitized from the film):\n\u2022 Throw: \u224838 yards in the air\n\u2022 Tip \u2192 catch: under 1 second (27 frames of film)\n\u2022 Front knee at full extension: 179\u00b0 \u2014 dead straight\n\u2022 Hip closes to 80\u00b0 as he reaches\n\u2022 Trail knee tucks to 53\u00b0 at the catch, so nothing drags the ball loose\n\u2022 Ball secured \u22481 ft off the ground and held through the roll\n\nAngles were digitized frame-by-frame from the film (\u00b15\u00b0) \u2014 film estimates, not lab data. The clip\u2019s playback looks slowed, so the reaction time is counted in film frames, not real-world seconds.\n\nBreakdown done on thespeeddoctor.app\nMore biomechanics at elytics.pro\nFilm: @cbssports via @dctf",
+      "altText": null,
+      "createdAt": "2026-11-05T22:02:08.000Z",
+      "owner": {
+       "id": "22043763",
+       "handle": "coachschuman",
+       "displayName": "Dave Schuman",
+       "avatarUrl": "https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/274869808_1367041353775254_3106188262092592795_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFf2Q5bTCuVy6ZKTa1EvzoNy4XkZTUkdZ3123glM5DmS1yNUUtZhNEld5bWXD3MT8Y&_nc_ohc=ePOCjceNRIgQ7kNvwGEuVJT&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GDAuYhCW_EgeUdsEAJtWhF-EZRsrbkULAAAB1501500j-ccb7-5&oh=00_AQRqGNBTVe3m3sBGZmMfIJ9vGGkRrnAlu6VKYJTegKnx4A&oe=6AF33A56&_nc_sid=c024bc",
+       "verified": true,
+       "privateAccount": false
+      },
+      "metrics": {
+       "likeCount": 12,
+       "commentCount": 0,
+       "playCount": 609,
+       "shareCount": 2,
+       "saveCount": 0,
+       "likesHidden": false
+      },
+      "imageUrl": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/888205809_18642021307027764_2607013085840712814_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=106&ig_cache_key=NDAyMzk4MjMyOTU0NTc3OTA2MjE4NjQyMDIxMzA0MDI3NzY0.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=Y1RmGPtY5aAQ7kNvwGginLi&_nc_oc=AdojIEbW67qCYOKPOwS-nGyFZFRqa7SdSNcQ0UutXlghdtXTH3nY40h2l0GE8V_u8YA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQTBN1K4WWINZnZ4pb-bLmdKphSBkJ3EM6W01hoeWULv2g&oe=6AF33BA4",
+      "thumbnailUrl": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/888205809_18642021307027764_2607013085840712814_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=106&ig_cache_key=NDAyMzk4MjMyOTU0NTc3OTA2MjE4NjQyMDIxMzA0MDI3NzY0.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=Y1RmGPtY5aAQ7kNvwGginLi&_nc_oc=AdojIEbW67qCYOKPOwS-nGyFZFRqa7SdSNcQ0UutXlghdtXTH3nY40h2l0GE8V_u8YA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQTBN1K4WWINZnZ4pb-bLmdKphSBkJ3EM6W01hoeWULv2g&oe=6AF33BA4",
+      "videoUrl": "https://scontent-sjc6-1.cdninstagram.com/o1/v/t2/f2/m86/AQM2B36RvSz03_WpqNS40IpAYS04rqP7Mvidqq-V81DygBIhjfAd2DDDUXgzlQyr3MrZUFJ1nG007Vo6MUkDCPjqu9Qjk8BacD5HBhY.mp4?_nc_cat=104&_nc_sid=5e9851&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_ohc=yEZqtmPdWvoQ7kNvwEddeMo&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6OTc3ODg2MjMxNTY3OTk5LCJhc3NldF9hZ2VfZGF5cyI6MCwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjI0LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=80ee681c4e209633&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9FNDZGQTlCNjhBRDU0NUQwQjAxNjIzRjEyMjQ2RUJDMl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzRDQjdGRDJFMTMyMTRGRUFBQjk2M0RDNkQ4MUE0MjA5X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb--bSXvNi8AxUCKAJDMywXQDjMzMzMzM0YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQTBR56Gij9PZGf_Qs2d_GVXD27tgZxlBqoFoEYcVjQx9Q&oe=6AEF45A9",
+      "durationSec": 24.8,
+      "dimensions": {
+       "width": 720,
+       "height": 1280
+      },
+      "carousel": null,
+      "audio": {
+       "id": "27269554482742355",
+       "title": "Original audio",
+       "artist": "Dave Schuman",
+       "isOriginal": true,
+       "artistHandle": "coachschuman"
+      },
+      "coauthors": [
+       {
+        "id": "1427878777",
+        "handle": "nuc_football",
+        "displayName": "NUC Sports Football",
+        "avatarUrl": "https://scontent-sjc6-1.cdninstagram.com/v/t51.2885-19/246459011_577611593477636_3381206565882710988_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDI0LmMyIn0&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gFBguB8h7BedPuWx8x5JxFiqtpKtVRPAsSEMHwv7pLcvWCfCU97r7Y5NOPNDs4ugIc&_nc_ohc=uCzbXlZJPpEQ7kNvwErEDex&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GIOqsA4E7titVQ0CAMxLqA91dewubkULAAAB1501500j-ccb7-5&oh=00_AQQ04qFuZnOnYlzkksgFGPH2I2B198eDAihSO6HAkYMp3A&oe=6AF33087&_nc_sid=c024bc",
+        "verified": false,
+        "privateAccount": false
+       },
+       {
+        "id": "47072753570",
+        "handle": "boardwalk_beasts",
+        "displayName": "Boardwalk Beasts",
+        "avatarUrl": "https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/163608154_154927249824077_1074408637391226070_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gEICChuYxBR1Yhp4t4M1DPlWAHPE3uPDBOQG5fCaC03wXs0t-1JJINqAfjiFQ7rb9k&_nc_ohc=PeLwVt3dVaMQ7kNvwEwHMk8&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GFp2wAlNGbHP54wAANbEUJf2EOkObkULAAAB1501500j-ccb7-5&oh=00_AQQcrpQ2oiDL4by4NXRf4VXob2f-7xEfsKJZHGvWItRnlw&oe=6AF348B5&_nc_sid=c024bc",
+        "verified": true,
+        "privateAccount": false
+       },
+       {
+        "id": "13079191371",
+        "handle": "footballusaacademy",
+        "displayName": "NUC Sports Football Academy",
+        "avatarUrl": "https://scontent-sjc6-1.cdninstagram.com/v/t51.2885-19/219766625_856091178360115_6610978457477325878_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44NjUuYzIifQ&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gE1WkD1K6sM_iDR21Hni8jlhUAaEhvcMuq8-MxW6LF81Y3PaZZt6_StrEwM-4MzH80&_nc_ohc=M4nTlJouxEgQ7kNvwGgSsUm&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GGFfGQ0z3ZRCnAoDADYksm-h6b5bbkULAAAB1501500j-ccb7-5&oh=00_AQQOEbWEwTMkw3njeUZfH62WYvHXTtjN2R2BSuBFFxWFTw&oe=6AF34BCF&_nc_sid=c024bc",
+        "verified": false,
+        "privateAccount": false
+       }
+      ],
+      "taggedUsers": null,
+      "location": {
+       "id": "102618861444715",
+       "name": "USA",
+       "lat": 38.89459748583,
+       "lng": -77.036781330782
+      },
+      "isPaidPartnership": false,
+      "sponsors": [],
+      "commentsDisabled": null,
+      "isPinned": false,
+      "story": null
+     },
+     {
+      "id": "4023781196571237704",
+      "shortcode": "DfXV63rhl1I",
+      "url": "https://www.instagram.com/reel/DfXV63rhl1I/",
+      "kind": "reel",
+      "mediaType": "video",
+      "caption": "Your athlete is fast. But do you know why they're not faster? \ud83c\udfc3\u200d\u2642\ufe0f\ud83d\udca8\n\nThe Speed Doctor turns any sprint video into a full biomechanical breakdown \u2014 5 key sprint positions, joint angles, elite benchmarks, and a training plan that adjusts as they improve.\n\nThespeeddoctor.app to find out more.\n\nCoaches see the whole team. Athletes see exactly what to fix.\n\n\ud83c\udfaf Try it FREE for 7 days \u2014 link in bio (Card required, then $99.99/mo. Cancel anytime before the trial ends.)\n\n#speedtraining #sprinttraining #trackandfield #footballtraining #athletedevelopment #speedcoach #biomechanics #coaching #sportstech #recruiting",
+      "altText": null,
+      "createdAt": "2026-11-05T15:22:14.000Z",
+      "owner": {
+       "id": "22043763",
+       "handle": "coachschuman",
+       "displayName": "Dave Schuman",
+       "avatarUrl": "https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/274869808_1367041353775254_3106188262092592795_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFf2Q5bTCuVy6ZKTa1EvzoNy4XkZTUkdZ3123glM5DmS1yNUUtZhNEld5bWXD3MT8Y&_nc_ohc=ePOCjceNRIgQ7kNvwGEuVJT&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GDAuYhCW_EgeUdsEAJtWhF-EZRsrbkULAAAB1501500j-ccb7-5&oh=00_AQRqGNBTVe3m3sBGZmMfIJ9vGGkRrnAlu6VKYJTegKnx4A&oe=6AF33A56&_nc_sid=c024bc",
+       "verified": true,
+       "privateAccount": false
+      },
+      "metrics": {
+       "likeCount": 1,
+       "commentCount": 1,
+       "playCount": 232,
+       "shareCount": null,
+       "saveCount": 0,
+       "likesHidden": false
+      },
+      "imageUrl": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/881132519_18641933152027764_1800219637812057774_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=111&ig_cache_key=NDAyMzc4MTE5NjU3MTIzNzcwNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=hBr5LKCPG3oQ7kNvwE1Xomg&_nc_oc=Adr2PvL2z-xqKBZ_QNlJ8tPqcWKdzDKYU6TvAR7dFLNvAFdqBVIAoxO04MPL5ZS6xxs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQRvtp4yPsGs4soPP0wce1bvN2Pqc5lPVWC6g22LgFqdbg&oe=6AF31D5D",
+      "thumbnailUrl": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/881132519_18641933152027764_1800219637812057774_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=111&ig_cache_key=NDAyMzc4MTE5NjU3MTIzNzcwNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=hBr5LKCPG3oQ7kNvwE1Xomg&_nc_oc=Adr2PvL2z-xqKBZ_QNlJ8tPqcWKdzDKYU6TvAR7dFLNvAFdqBVIAoxO04MPL5ZS6xxs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQRvtp4yPsGs4soPP0wce1bvN2Pqc5lPVWC6g22LgFqdbg&oe=6AF31D5D",
+      "videoUrl": "https://scontent-sjc6-1.cdninstagram.com/o1/v/t2/f2/m86/AQOOYkGjR83j_s8desuLyAxAHPhS1qVYRZoMchulz9AGpHUwwoRblJRoQzb8_4f7kQq27IQwkBXoWfp985k3ZDlIKDHbladWP4OYVw8.mp4?_nc_cat=107&_nc_sid=5e9851&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_ohc=f2vIG4B8DSAQ7kNvwG14iT2&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTcwNzUzMDgwNDEzNjU3MywiYXNzZXRfYWdlX2RheXMiOjAsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=b884da9b373b63e2&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9CQUY2NDBEOTRBNDQ0REEzOTA4NTg4NzRFRUE4QzQyNl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0U0MTU0QjNCMkZCRjRBMzM4ODg5OEQ1RUE3OTE3NjYwX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb6qbDwr7-IBhUCKAJDMywXQC0AAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQTf892Spc4LSDW4JoQNqYsxCVVK1pVxStJpotSSMMYNgg&oe=6AEF4D9C",
+      "durationSec": 14.506,
+      "dimensions": {
+       "width": 1080,
+       "height": 1920
+      },
+      "carousel": null,
+      "audio": {
+       "id": "30202054592717432",
+       "title": "Original audio",
+       "artist": "Dave Schuman",
+       "isOriginal": true,
+       "artistHandle": "coachschuman"
+      },
+      "coauthors": [
+       {
+        "id": "13079191371",
+        "handle": "footballusaacademy",
+        "displayName": "NUC Sports Football Academy",
+        "avatarUrl": "https://scontent-sjc6-1.cdninstagram.com/v/t51.2885-19/219766625_856091178360115_6610978457477325878_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44NjUuYzIifQ&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gE1WkD1K6sM_iDR21Hni8jlhUAaEhvcMuq8-MxW6LF81Y3PaZZt6_StrEwM-4MzH80&_nc_ohc=M4nTlJouxEgQ7kNvwGgSsUm&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GGFfGQ0z3ZRCnAoDADYksm-h6b5bbkULAAAB1501500j-ccb7-5&oh=00_AQQOEbWEwTMkw3njeUZfH62WYvHXTtjN2R2BSuBFFxWFTw&oe=6AF34BCF&_nc_sid=c024bc",
+        "verified": false,
+        "privateAccount": false
+       },
+       {
+        "id": "1427878777",
+        "handle": "nuc_football",
+        "displayName": "NUC Sports Football",
+        "avatarUrl": "https://scontent-sjc6-1.cdninstagram.com/v/t51.2885-19/246459011_577611593477636_3381206565882710988_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDI0LmMyIn0&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gFBguB8h7BedPuWx8x5JxFiqtpKtVRPAsSEMHwv7pLcvWCfCU97r7Y5NOPNDs4ugIc&_nc_ohc=uCzbXlZJPpEQ7kNvwErEDex&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GIOqsA4E7titVQ0CAMxLqA91dewubkULAAAB1501500j-ccb7-5&oh=00_AQQ04qFuZnOnYlzkksgFGPH2I2B198eDAihSO6HAkYMp3A&oe=6AF33087&_nc_sid=c024bc",
+        "verified": false,
+        "privateAccount": false
+       }
+      ],
+      "taggedUsers": null,
+      "location": {
+       "id": "148983528766257",
+       "name": "USA",
+       "lat": 5.839945,
+       "lng": 6.857564
+      },
+      "isPaidPartnership": false,
+      "sponsors": [],
+      "commentsDisabled": null,
+      "isPinned": false,
+      "story": null
+     },
+     {
+      "id": "4023774121468952698",
+      "shortcode": "DfXUT6ekQB6",
+      "url": "https://www.instagram.com/reel/DfXUT6ekQB6/",
+      "kind": "reel",
+      "mediaType": "video",
+      "caption": "How the Big Shot Gets made!!",
+      "altText": null,
+      "createdAt": "2026-11-05T15:08:00.000Z",
+      "owner": {
+       "id": "22043763",
+       "handle": "coachschuman",
+       "displayName": "Dave Schuman",
+       "avatarUrl": "https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/274869808_1367041353775254_3106188262092592795_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFf2Q5bTCuVy6ZKTa1EvzoNy4XkZTUkdZ3123glM5DmS1yNUUtZhNEld5bWXD3MT8Y&_nc_ohc=ePOCjceNRIgQ7kNvwGEuVJT&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GDAuYhCW_EgeUdsEAJtWhF-EZRsrbkULAAAB1501500j-ccb7-5&oh=00_AQRqGNBTVe3m3sBGZmMfIJ9vGGkRrnAlu6VKYJTegKnx4A&oe=6AF33A56&_nc_sid=c024bc",
+       "verified": true,
+       "privateAccount": false
+      },
+      "metrics": {
+       "likeCount": 27,
+       "commentCount": 0,
+       "playCount": 1669,
+       "shareCount": 5,
+       "saveCount": 2,
+       "likesHidden": false
+      },
+      "imageUrl": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/891043190_18641925643027764_6295443874168470703_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=101&ig_cache_key=NDAyMzc3NDEyMTQ2ODk1MjY5OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2ZpcnN0X2ZyYW1lX3RodW1ibmFpbC5DMyJ9&_nc_ohc=CJEIEN2QEPEQ7kNvwF1lJOb&_nc_oc=AdrF0l6TkLAsWSpTvxC60pqzRxzRQzks2RDlOXz1TJ7rVTKIsJJgbwYmJ7_uspwhT7c&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQQgsxQyoKqAwUZs9Fd4so5lbSdoEuaSRIyDjsfWW9czYg&oe=6AF33796",
+      "thumbnailUrl": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/891043190_18641925643027764_6295443874168470703_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=101&ig_cache_key=NDAyMzc3NDEyMTQ2ODk1MjY5OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2ZpcnN0X2ZyYW1lX3RodW1ibmFpbC5DMyJ9&_nc_ohc=CJEIEN2QEPEQ7kNvwF1lJOb&_nc_oc=AdrF0l6TkLAsWSpTvxC60pqzRxzRQzks2RDlOXz1TJ7rVTKIsJJgbwYmJ7_uspwhT7c&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQQgsxQyoKqAwUZs9Fd4so5lbSdoEuaSRIyDjsfWW9czYg&oe=6AF33796",
+      "videoUrl": "https://scontent-sjc6-1.cdninstagram.com/o1/v/t2/f2/m366/AQN3vKlOz1kuycSnBoX_nggQ29r-lsMyHtDb1zrkDbasYItNBuWRfUHHjn3MsTefvmXDKjDjq7tyK2OteNjC9Jo0Iu3xd22OeNWhkCLl3LP8_g.mp4?_nc_cat=108&_nc_sid=5e9851&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_ohc=PGzXS7SqR-kQ7kNvwHHqV8r&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEwMjQzNDUwMzA2Nzk5NzIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDEyMiwiZHVyYXRpb25fcyI6ODMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=f07fc3690e6577e2&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8zRkEwNzQyNzhCQjM0OUQ3QjJGQTQwMEEwNzQxNjlFMV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0M3RkQ5NDBEODQ2MjRBMThCNEZDNTFEQ0I0OTgzNDlFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbI9vKa3ejRAxUCKAJDMywXQFTZmZmZmZoYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHX-B2WUngEA&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQScTefmahet0KWWjf49C5YYd135RuObOCmAkYABq5O3XA&oe=6AF34F44",
+      "durationSec": 83.4,
+      "dimensions": {
+       "width": 1080,
+       "height": 1920
+      },
+      "carousel": null,
+      "audio": null,
+      "coauthors": [],
+      "taggedUsers": [],
+      "location": null,
+      "isPaidPartnership": false,
+      "sponsors": [],
+      "commentsDisabled": null,
+      "isPinned": false,
+      "story": null
+     },
+     {
+      "id": "4023774085339009439",
+      "shortcode": "DfXUTY1DdGf",
+      "url": "https://www.instagram.com/reel/DfXUTY1DdGf/",
+      "kind": "reel",
+      "mediaType": "video",
+      "caption": "Remember Speed Kills!!",
+      "altText": null,
+      "createdAt": "2026-11-05T15:07:55.000Z",
+      "owner": {
+       "id": "22043763",
+       "handle": "coachschuman",
+       "displayName": "Dave Schuman",
+       "avatarUrl": "https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/274869808_1367041353775254_3106188262092592795_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFf2Q5bTCuVy6ZKTa1EvzoNy4XkZTUkdZ3123glM5DmS1yNUUtZhNEld5bWXD3MT8Y&_nc_ohc=ePOCjceNRIgQ7kNvwGEuVJT&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GDAuYhCW_EgeUdsEAJtWhF-EZRsrbkULAAAB1501500j-ccb7-5&oh=00_AQRqGNBTVe3m3sBGZmMfIJ9vGGkRrnAlu6VKYJTegKnx4A&oe=6AF33A56&_nc_sid=c024bc",
+       "verified": true,
+       "privateAccount": false
+      },
+      "metrics": {
+       "likeCount": 6,
+       "commentCount": 1,
+       "playCount": 383,
+       "shareCount": 4,
+       "saveCount": 1,
+       "likesHidden": false
+      },
+      "imageUrl": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/890188568_18641925622027764_541804270009839167_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=102&ig_cache_key=NDAyMzc3NDA4NTMzOTAwOTQzOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2ZpcnN0X2ZyYW1lX3RodW1ibmFpbC5DMyJ9&_nc_ohc=jwb7bxFBLukQ7kNvwF4YNIF&_nc_oc=Adp0K6GWnlS8YtDMkx1UKgCIujK4FKkW68UaQYkqaPWY8uUyN16qj-PkvwLv9db0D1c&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQS0U5PN6avLDxC0SgMOQlE7CWJdlLobXLOQbPa0xdnP3w&oe=6AF33D78",
+      "thumbnailUrl": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/890188568_18641925622027764_541804270009839167_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=102&ig_cache_key=NDAyMzc3NDA4NTMzOTAwOTQzOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2ZpcnN0X2ZyYW1lX3RodW1ibmFpbC5DMyJ9&_nc_ohc=jwb7bxFBLukQ7kNvwF4YNIF&_nc_oc=Adp0K6GWnlS8YtDMkx1UKgCIujK4FKkW68UaQYkqaPWY8uUyN16qj-PkvwLv9db0D1c&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQS0U5PN6avLDxC0SgMOQlE7CWJdlLobXLOQbPa0xdnP3w&oe=6AF33D78",
+      "videoUrl": "https://scontent-sjc6-1.cdninstagram.com/o1/v/t2/f2/m366/AQNHaZOUQm4E1GCQmbdSG-iKMfjOxwKCCKP9udHa4WSEXWZWOgwBXLy97Ksj1rRDrlS9whPOguGU2VTTXbRHLSfXpNG80WPwYnny65yyPEaQkQ.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_ohc=-fVte5fiKzoQ7kNvwFYOLM8&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjI5MDMyMDE2MTc2NDUxOTYwLCJhc3NldF9hZ2VfZGF5cyI6MCwidmlfdXNlY2FzZV9pZCI6MTAxMjIsImR1cmF0aW9uX3MiOjgzLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=b0cadaca834acf12&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9DQjc2MTQ3MzY0MkU0QTZFOTM0QzE4NEM4M0M0NzEzN19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzVCQ0I2MDBBOTY2OTRDQUFBMjhDMjI1ODVDRTk1QzZDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbwxfy04J2SZxUCKAJDMywXQFTmZmZmZmYYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHX-B2WUngEA&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQS0QXowkvku9FxLRgFrnidMybNPnxoMcCsoSNHmIrMw8g&oe=6AF337B0",
+      "durationSec": 83.6,
+      "dimensions": {
+       "width": 1080,
+       "height": 1920
+      },
+      "carousel": null,
+      "audio": null,
+      "coauthors": [],
+      "taggedUsers": [],
+      "location": null,
+      "isPaidPartnership": false,
+      "sponsors": [],
+      "commentsDisabled": null,
+      "isPinned": false,
+      "story": null
+     },
+     {
+      "id": "4023400338165129790",
+      "shortcode": "DfV_UpphOI-",
+      "url": "https://www.instagram.com/reel/DfV_UpphOI-/",
+      "kind": "reel",
+      "mediaType": "video",
+      "caption": "6-3, 245, and 57 career rushing touchdowns, which set the SEC record.\n\nTim Tebow at Florida, a quarterback who ran like a fullback. Roboflow pose tracking shows the mechanics behind the power.\n\nThe Speed Doctor breakdown:\n1. The carry. Roboflow pose: trunk ~36\u00b0 forward, both knees bent ~110\u00b0 (2D). Low pad level, so the first defender meets his shoulder, not his chest.\n2. The goal-line pile. Feet keep driving through contact. At ~8 mph and 245 lbs he brings ~400 kg\u00b7m/s of momentum (estimated), about what a 300-lb lineman carries at 6.5 mph.\n3. The open-field stride. Trunk ~20\u00b0, front knee ~91\u00b0, drive leg ~156\u00b0 (2D). Still leaning in, ready to lower a shoulder.\n\nListed vs. estimated: 6-3/245 and 57 rushing TDs are per Florida's roster page. Angles are Roboflow 2D pose. Speeds and momentum are Speed Doctor estimates from a highlight montage.\n\nImprove as an athlete today at elytics.pro\n\n#TimTebow #Gators #CollegeFootball #SEC #Biomechanics #PowerRunning #Elytics #SpeedDoctor #CoachSchuman",
+      "altText": null,
+      "createdAt": "2026-11-05T02:45:58.000Z",
+      "owner": {
+       "id": "22043763",
+       "handle": "coachschuman",
+       "displayName": "Dave Schuman",
+       "avatarUrl": "https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/274869808_1367041353775254_3106188262092592795_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFf2Q5bTCuVy6ZKTa1EvzoNy4XkZTUkdZ3123glM5DmS1yNUUtZhNEld5bWXD3MT8Y&_nc_ohc=ePOCjceNRIgQ7kNvwGEuVJT&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GDAuYhCW_EgeUdsEAJtWhF-EZRsrbkULAAAB1501500j-ccb7-5&oh=00_AQRqGNBTVe3m3sBGZmMfIJ9vGGkRrnAlu6VKYJTegKnx4A&oe=6AF33A56&_nc_sid=c024bc",
+       "verified": true,
+       "privateAccount": false
+      },
+      "metrics": {
+       "likeCount": 23,
+       "commentCount": 0,
+       "playCount": 1900,
+       "shareCount": 1,
+       "saveCount": 1,
+       "likesHidden": false
+      },
+      "imageUrl": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/887061873_18641720629027764_4684325978659923053_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=102&ig_cache_key=NDAyMzQwMDMzODE2NTEyOTc5MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=xvQkWfyeCBEQ7kNvwE_pIay&_nc_oc=AdrznxAjxWdVrrzJd4Ay0Ll8dtykZvu54C-iXTsSx0nm3BFL2LzMjxxJwglSBZYHq2w&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQS_08GV8xaia-jiQlf9vxQhK8RhKDuf7EjrdNzxvENfNg&oe=6AF34A74",
+      "thumbnailUrl": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/887061873_18641720629027764_4684325978659923053_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=102&ig_cache_key=NDAyMzQwMDMzODE2NTEyOTc5MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=xvQkWfyeCBEQ7kNvwE_pIay&_nc_oc=AdrznxAjxWdVrrzJd4Ay0Ll8dtykZvu54C-iXTsSx0nm3BFL2LzMjxxJwglSBZYHq2w&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQS_08GV8xaia-jiQlf9vxQhK8RhKDuf7EjrdNzxvENfNg&oe=6AF34A74",
+      "videoUrl": "https://scontent-sjc6-1.cdninstagram.com/o1/v/t2/f2/m86/AQN-BQ6IQfMTd4izMoQDY4TSZIm_fbG3VVAPcjXmKduTTqOiKOPJf6QN-Z3BBvnWGfAOeRT9mZpMG1aFJm52WJLc98Nk4bVyiR4ROa4.mp4?_nc_cat=107&_nc_sid=5e9851&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_ohc=SJ4Pc4ytoogQ7kNvwGdY1-w&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6OTgwMjI5ODUxODI0MTcyLCJhc3NldF9hZ2VfZGF5cyI6MSwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjgzLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=a6abd6af74784f85&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9ERDM2MkM2Q0VGRDY0QTEwOTlCODE3RkFDNjNEQTFCNF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzQwODQxMTVFMDFBOTRBRUE5RDQ0QUE2REQ0MTEzNDVBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbYgO7B8eC9AxUCKAJDMywXQFTZmZmZmZoYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQTKf8-x5lk3isfHwb3BXdTzSPsdf-oIDxZjvxUgfuS0pw&oe=6AEF5764",
+      "durationSec": 83.4,
+      "dimensions": {
+       "width": 1080,
+       "height": 1920
+      },
+      "carousel": null,
+      "audio": {
+       "id": "29623756203894972",
+       "title": "Original audio",
+       "artist": "Dave Schuman",
+       "isOriginal": true,
+       "artistHandle": "coachschuman"
+      },
+      "coauthors": [
+       {
+        "id": "1427878777",
+        "handle": "nuc_football",
+        "displayName": "NUC Sports Football",
+        "avatarUrl": "https://scontent-sjc6-1.cdninstagram.com/v/t51.2885-19/246459011_577611593477636_3381206565882710988_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDI0LmMyIn0&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gFBguB8h7BedPuWx8x5JxFiqtpKtVRPAsSEMHwv7pLcvWCfCU97r7Y5NOPNDs4ugIc&_nc_ohc=uCzbXlZJPpEQ7kNvwErEDex&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GIOqsA4E7titVQ0CAMxLqA91dewubkULAAAB1501500j-ccb7-5&oh=00_AQQ04qFuZnOnYlzkksgFGPH2I2B198eDAihSO6HAkYMp3A&oe=6AF33087&_nc_sid=c024bc",
+        "verified": false,
+        "privateAccount": false
+       },
+       {
+        "id": "47072753570",
+        "handle": "boardwalk_beasts",
+        "displayName": "Boardwalk Beasts",
+        "avatarUrl": "https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/163608154_154927249824077_1074408637391226070_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gEICChuYxBR1Yhp4t4M1DPlWAHPE3uPDBOQG5fCaC03wXs0t-1JJINqAfjiFQ7rb9k&_nc_ohc=PeLwVt3dVaMQ7kNvwEwHMk8&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GFp2wAlNGbHP54wAANbEUJf2EOkObkULAAAB1501500j-ccb7-5&oh=00_AQQcrpQ2oiDL4by4NXRf4VXob2f-7xEfsKJZHGvWItRnlw&oe=6AF348B5&_nc_sid=c024bc",
+        "verified": true,
+        "privateAccount": false
+       },
+       {
+        "id": "13079191371",
+        "handle": "footballusaacademy",
+        "displayName": "NUC Sports Football Academy",
+        "avatarUrl": "https://scontent-sjc6-1.cdninstagram.com/v/t51.2885-19/219766625_856091178360115_6610978457477325878_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44NjUuYzIifQ&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gE1WkD1K6sM_iDR21Hni8jlhUAaEhvcMuq8-MxW6LF81Y3PaZZt6_StrEwM-4MzH80&_nc_ohc=M4nTlJouxEgQ7kNvwGgSsUm&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GGFfGQ0z3ZRCnAoDADYksm-h6b5bbkULAAAB1501500j-ccb7-5&oh=00_AQQOEbWEwTMkw3njeUZfH62WYvHXTtjN2R2BSuBFFxWFTw&oe=6AF34BCF&_nc_sid=c024bc",
+        "verified": false,
+        "privateAccount": false
+       }
+      ],
+      "taggedUsers": null,
+      "location": {
+       "id": "741244374",
+       "name": "Florida, USA",
+       "lat": 28.330220020385,
+       "lng": -81.664303739079
+      },
+      "isPaidPartnership": false,
+      "sponsors": [],
+      "commentsDisabled": null,
+      "isPinned": false,
+      "story": null
+     },
+     {
+      "id": "4023262542461037419",
+      "shortcode": "DfVf_dZhmtr",
+      "url": "https://www.instagram.com/reel/DfVf_dZhmtr/",
+      "kind": "reel",
+      "mediaType": "video",
+      "caption": "Down 28-12 at halftime. Third play of the second half: 80 yards.\n\nTexas QB Vince Young at Oklahoma State in 2005. At 6-5 and 233, Roboflow pose tracking shows how that frame covers ground.\n\nThe Speed Doctor breakdown:\n1. The escape. He slips outside the rush and turns his shoulders downfield in a couple of steps. The decision comes first; the stride does the rest.\n2. The pursuit. The Cowboys defender chases from behind and the gap grows every stride. About 12 seconds from snap to end zone: a ~14 mph average, scramble included (estimated).\n3. The stride. Roboflow pose: trunk ~7\u00b0, drive leg fully extended at ~179\u00b0 (2D). Estimated near 20 mph.\n\nReported vs. estimated: 6-5/233 is his Texas roster listing; the 80-yard TD, 267 rushing yards and 47-28 final are per Texas Athletics. Angles are Roboflow 2D pose. Speeds are Speed Doctor estimates from the broadcast clock and film.\n\nImprove as an athlete today at elytics.pro\n\n#VinceYoung #Longhorns #HookEm #CollegeFootball #Biomechanics #SpeedTraining #Elytics #SpeedDoctor #CoachSchuman",
+      "altText": null,
+      "createdAt": "2026-11-04T22:12:14.000Z",
+      "owner": {
+       "id": "22043763",
+       "handle": "coachschuman",
+       "displayName": "Dave Schuman",
+       "avatarUrl": "https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/274869808_1367041353775254_3106188262092592795_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFf2Q5bTCuVy6ZKTa1EvzoNy4XkZTUkdZ3123glM5DmS1yNUUtZhNEld5bWXD3MT8Y&_nc_ohc=ePOCjceNRIgQ7kNvwGEuVJT&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GDAuYhCW_EgeUdsEAJtWhF-EZRsrbkULAAAB1501500j-ccb7-5&oh=00_AQRqGNBTVe3m3sBGZmMfIJ9vGGkRrnAlu6VKYJTegKnx4A&oe=6AF33A56&_nc_sid=c024bc",
+       "verified": true,
+       "privateAccount": false
+      },
+      "metrics": {
+       "likeCount": 0,
+       "commentCount": 0,
+       "playCount": 297,
+       "shareCount": null,
+       "saveCount": 0,
+       "likesHidden": false
+      },
+      "imageUrl": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/891772007_18641643814027764_5574990943383977397_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=100&ig_cache_key=NDAyMzI2MjU0MjQ2MTAzNzQxOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=YmdsTETY1ykQ7kNvwE4yDzT&_nc_oc=AdoBq12p4JyP7BCxlevU6z9iE1dZU7hJ4U7J8h1MIl7Rw0t17pCBKTZm7Jajb8apB3I&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQRpwJW10rbedegaFJOor7I6rMrqfMl0d0rbArVelPwjeQ&oe=6AF3258C",
+      "thumbnailUrl": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/891772007_18641643814027764_5574990943383977397_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=100&ig_cache_key=NDAyMzI2MjU0MjQ2MTAzNzQxOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=YmdsTETY1ykQ7kNvwE4yDzT&_nc_oc=AdoBq12p4JyP7BCxlevU6z9iE1dZU7hJ4U7J8h1MIl7Rw0t17pCBKTZm7Jajb8apB3I&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQRpwJW10rbedegaFJOor7I6rMrqfMl0d0rbArVelPwjeQ&oe=6AF3258C",
+      "videoUrl": "https://scontent-sjc6-1.cdninstagram.com/o1/v/t2/f2/m86/AQP6Lx8XyHtWQs_pW2ifFnnpmfs6-7KL9qA9j_4WW0iL8FXw60r1OzKQVDQyxnYRtGvTqa7UxueHXxOy46Rpkwyy4_N7S2sKx9sHEk8.mp4?_nc_cat=109&_nc_sid=5e9851&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_ohc=Z5FuHgL9pFIQ7kNvwGMdg8V&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTE0OTE3ODExNDcxNzM2OCwiYXNzZXRfYWdlX2RheXMiOjEsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo4NCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=d4dd88ed52e4772d&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC83NEFEQTYxNDlDQzI0Q0EwODc1RjAyRUQyOTRFRUU3N192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzdENDc2QjQ3RDRENjRENERCQTE4QThCREQ2MTJENEE2X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbw2v2U_MqKBBUCKAJDMywXQFUMzMzMzM0YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQQc5mwGdfx1hpdrUUhcXsRRJ0YCxwO3qwZqEAITwFXlbQ&oe=6AEF4F32",
+      "durationSec": 84.2,
+      "dimensions": {
+       "width": 1080,
+       "height": 1920
+      },
+      "carousel": null,
+      "audio": {
+       "id": "28807515408875426",
+       "title": "Original audio",
+       "artist": "Dave Schuman",
+       "isOriginal": true,
+       "artistHandle": "coachschuman"
+      },
+      "coauthors": [
+       {
+        "id": "1427878777",
+        "handle": "nuc_football",
+        "displayName": "NUC Sports Football",
+        "avatarUrl": "https://scontent-sjc6-1.cdninstagram.com/v/t51.2885-19/246459011_577611593477636_3381206565882710988_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDI0LmMyIn0&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gFBguB8h7BedPuWx8x5JxFiqtpKtVRPAsSEMHwv7pLcvWCfCU97r7Y5NOPNDs4ugIc&_nc_ohc=uCzbXlZJPpEQ7kNvwErEDex&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GIOqsA4E7titVQ0CAMxLqA91dewubkULAAAB1501500j-ccb7-5&oh=00_AQQ04qFuZnOnYlzkksgFGPH2I2B198eDAihSO6HAkYMp3A&oe=6AF33087&_nc_sid=c024bc",
+        "verified": false,
+        "privateAccount": false
+       },
+       {
+        "id": "54569493745",
+        "handle": "boardwalksportsusa",
+        "displayName": "Boardwalk Sports USA",
+        "avatarUrl": "https://scontent-sjc6-1.cdninstagram.com/v/t51.2885-19/297869610_150885614229349_3120713413831661911_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby41MDEuYzIifQ&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gFl1nFy-MMDueCRH4F9DL6bEkywq4nHH6h8UwaEYInNbqb6QMxfpFUPzbCrITgQSrM&_nc_ohc=-l6pJNUaomYQ7kNvwESZ1N2&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GCohwRFlF3DLOokAAFeZO81QAE8rbkULAAAB1501500j-ccb7-5&oh=00_AQQWjtpdxMj9FvkPhotizr76h2mjjtjcIo2Z4fK8S81ikA&oe=6AF32926&_nc_sid=c024bc",
+        "verified": false,
+        "privateAccount": false
+       }
+      ],
+      "taggedUsers": null,
+      "location": {
+       "id": "100149244104629",
+       "name": "Texas, USA",
+       "lat": 32.735959285409,
+       "lng": -97.458626586023
+      },
+      "isPaidPartnership": false,
+      "sponsors": [],
+      "commentsDisabled": null,
+      "isPinned": false,
+      "story": null
+     },
+     {
+      "id": "4023156892750061305",
+      "shortcode": "DfVH-DcCB75",
+      "url": "https://www.instagram.com/reel/DfVH-DcCB75/",
+      "kind": "reel",
+      "mediaType": "video",
+      "caption": "From one baseline to the other rim, and it didn't count.\n\nLebanon's Charbel El Herera at the FIBA U18 Asia Cup. It came on an inbound pass, so under FIBA rules the basket was waved off. The throw is still worth breaking down.\n\nThe Speed Doctor breakdown:\n1. The windup. Roboflow pose: trunk upright at ~2\u00b0, ball loaded low by his right hip (2D). A long path to build speed through the whole body, not just the arm.\n2. The release. Throwing arm extended to ~179\u00b0, raised ~136\u00b0 from his trunk, upper body leaning ~19\u00b0 (2D). Our model needs a ~46\u00b0 launch at ~36.5 mph.\n3. The flight. ~26 m in ~2.3 s, peaking ~7 m above his release (modeled). A 1% change in release speed moves the ball ~0.5 m, and the rim is 45 cm wide.\n\nRules vs. modeled: the basket didn't count because it was scored directly from an inbound pass. Angles are Roboflow 2D pose (upper body only). Ball speed, angle and flight are a projectile model, not measured data.\n\nImprove as an athlete today at elytics.pro\n\n#CharbelElHerera #Lebanon #FIBA #Basketball #Biomechanics #Physics #Elytics #SpeedDoctor #CoachSchuman",
+      "altText": null,
+      "createdAt": "2026-11-04T18:41:45.000Z",
+      "owner": {
+       "id": "22043763",
+       "handle": "coachschuman",
+       "displayName": "Dave Schuman",
+       "avatarUrl": "https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/274869808_1367041353775254_3106188262092592795_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFf2Q5bTCuVy6ZKTa1EvzoNy4XkZTUkdZ3123glM5DmS1yNUUtZhNEld5bWXD3MT8Y&_nc_ohc=ePOCjceNRIgQ7kNvwGEuVJT&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GDAuYhCW_EgeUdsEAJtWhF-EZRsrbkULAAAB1501500j-ccb7-5&oh=00_AQRqGNBTVe3m3sBGZmMfIJ9vGGkRrnAlu6VKYJTegKnx4A&oe=6AF33A56&_nc_sid=c024bc",
+       "verified": true,
+       "privateAccount": false
+      },
+      "metrics": {
+       "likeCount": 24,
+       "commentCount": 0,
+       "playCount": 1578,
+       "shareCount": 1,
+       "saveCount": 1,
+       "likesHidden": false
+      },
+      "imageUrl": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/886654911_18641585905027764_329842223668302893_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=110&ig_cache_key=NDAyMzE1Njg5Mjc1MDA2MTMwNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2ZpcnN0X2ZyYW1lX3RodW1ibmFpbC5DMyJ9&_nc_ohc=VZ0eJjN-BNYQ7kNvwEKZ3yT&_nc_oc=AdrHLIhNqGD1NlHIgBS2gdpXEXwK0FX4bSvwXyVQCbFQIxclKTqWqp-eeKUji8E-Ye4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQR5q-0wGBGazi4Pw09pbMtGmd83m74H0vRRTICwP4qYZw&oe=6AF34ECD",
+      "thumbnailUrl": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/886654911_18641585905027764_329842223668302893_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=110&ig_cache_key=NDAyMzE1Njg5Mjc1MDA2MTMwNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2ZpcnN0X2ZyYW1lX3RodW1ibmFpbC5DMyJ9&_nc_ohc=VZ0eJjN-BNYQ7kNvwEKZ3yT&_nc_oc=AdrHLIhNqGD1NlHIgBS2gdpXEXwK0FX4bSvwXyVQCbFQIxclKTqWqp-eeKUji8E-Ye4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQR5q-0wGBGazi4Pw09pbMtGmd83m74H0vRRTICwP4qYZw&oe=6AF34ECD",
+      "videoUrl": "https://scontent-sjc6-1.cdninstagram.com/o1/v/t2/f2/m366/AQNTQn6gCgaK3SuXMAHJVAzq6HX6jAv1Oj_ko_jiZ7UeUL3P1Ev4tHZP43pLISz9kD-Z3O12CtoC3GnNlLrGaaJXt74l6VyqzJS86AhoTzAaHA.mp4?_nc_cat=111&_nc_sid=5e9851&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_ohc=FkKRc1dC-wAQ7kNvwGW161o&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE0NjgxMTQxMjUyNzE3ODMsImFzc2V0X2FnZV9kYXlzIjoxLCJ2aV91c2VjYXNlX2lkIjoxMDEyMiwiZHVyYXRpb25fcyI6ODMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=ef852d066331652b&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8zOTA4QURDQzMyNkI0QUI1ODVFN0U3Q0QyMEM4NzM5Rl9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzBBNzBCNjE5MDZBQzQ1MUFBQjNBODQyMDdDOUJFNzhBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbOy-nOvs-bBRUCKAJDMywXQFTZmZmZmZoYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHX-B2WUngEA&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQTIM0mVxUdQe0CWDaGFmQRxXQdfBDJ_a9EfjO-Ni4iM6Q&oe=6AF333C1",
+      "durationSec": 83.4,
+      "dimensions": {
+       "width": 1080,
+       "height": 1920
+      },
+      "carousel": null,
+      "audio": null,
+      "coauthors": [],
+      "taggedUsers": [],
+      "location": null,
+      "isPaidPartnership": false,
+      "sponsors": [],
+      "commentsDisabled": null,
+      "isPinned": false,
+      "story": null
+     },
+     {
+      "id": "4023043651859960786",
+      "shortcode": "DfUuOLpANPS",
+      "url": "https://www.instagram.com/reel/DfUuOLpANPS/",
+      "kind": "reel",
+      "mediaType": "video",
+      "caption": "Blitz zero used to break C.J. Stroud. In London, it made him. \ud83c\udfc8\nSeven pressure reps, one plan: know your hot, replace the blitzer, throw INTO the pressure \u2014 that's where the void is, and that's where the explosive lives.\nFull 8-minute breakdown on YouTube. Breakdown done on thespeeddoctor.app",
+      "altText": null,
+      "createdAt": "2026-11-04T14:56:41.000Z",
+      "owner": {
+       "id": "22043763",
+       "handle": "coachschuman",
+       "displayName": "Dave Schuman",
+       "avatarUrl": "https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/274869808_1367041353775254_3106188262092592795_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFf2Q5bTCuVy6ZKTa1EvzoNy4XkZTUkdZ3123glM5DmS1yNUUtZhNEld5bWXD3MT8Y&_nc_ohc=ePOCjceNRIgQ7kNvwGEuVJT&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GDAuYhCW_EgeUdsEAJtWhF-EZRsrbkULAAAB1501500j-ccb7-5&oh=00_AQRqGNBTVe3m3sBGZmMfIJ9vGGkRrnAlu6VKYJTegKnx4A&oe=6AF33A56&_nc_sid=c024bc",
+       "verified": true,
+       "privateAccount": false
+      },
+      "metrics": {
+       "likeCount": 7,
+       "commentCount": 0,
+       "playCount": 220,
+       "shareCount": 1,
+       "saveCount": 1,
+       "likesHidden": false
+      },
+      "imageUrl": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/885588055_18641524753027764_8982949586259516785_n.jpg?stp=dst-jpg_e35_s750x750_sh2.08_tt6&_nc_cat=111&ig_cache_key=NDAyMzA0MzY1MTg1OTk2MDc4Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjE5MjAuc2RyLnZpZGVvX2ZpcnN0X2ZyYW1lX3RodW1ibmFpbC5DMyJ9&_nc_ohc=ZWKyBgRWhsMQ7kNvwFwPpg-&_nc_oc=Adok8sTim36y87lpjBOwxpp2NZQxGY_03G1vts9AQUk4y9CvSqVgkzFVfkcjiJO3VYU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQRBscF6mVwUnjUJk0xMQBH-9imOiIw0CRYRWGrjfJLuzw&oe=6AF329E6",
+      "thumbnailUrl": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/885588055_18641524753027764_8982949586259516785_n.jpg?stp=dst-jpg_e35_s750x750_sh2.08_tt6&_nc_cat=111&ig_cache_key=NDAyMzA0MzY1MTg1OTk2MDc4Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjE5MjAuc2RyLnZpZGVvX2ZpcnN0X2ZyYW1lX3RodW1ibmFpbC5DMyJ9&_nc_ohc=ZWKyBgRWhsMQ7kNvwFwPpg-&_nc_oc=Adok8sTim36y87lpjBOwxpp2NZQxGY_03G1vts9AQUk4y9CvSqVgkzFVfkcjiJO3VYU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQRBscF6mVwUnjUJk0xMQBH-9imOiIw0CRYRWGrjfJLuzw&oe=6AF329E6",
+      "videoUrl": "https://scontent-sjc3-1.cdninstagram.com/o1/v/t2/f2/m366/AQNZOh00r4QHuMp2-LDDEgGZ3bTKOoHCXJwapVfk6YdBJt2jCmF-72t2hsH2M0n5lXRrIMWLFdzOwpw1SCJ-nsT9EBirP-VgWGk8J-HSmWJZRw.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_ohc=EwsweGcN4x4Q7kNvwHcm6Ps&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuMTI4MC5kYXNoX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxNzkxMDE5NjI1NDQ3NjAyLCJhc3NldF9hZ2VfZGF5cyI6MSwidmlfdXNlY2FzZV9pZCI6MTAxMjIsImR1cmF0aW9uX3MiOjM5MiwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=52a5d5caea17b0ea&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8yNzNCMkE5MTk4N0I0MTk5OEUyQTE4MTg3OTI0RUE1M19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0M0RkZBQUIxM0FDMzRDM0Y4M0NGRTYxRjk2QjI4NkZGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbkgvyIiLuuBhUCKAJDMywXQHiJmZmZmZoYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHX-B2WUngEA&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQR0N7CU1jpvJEEOU8d6RoRV05gYqzN0S1x-rk-WLWSKbw&oe=6AF347E9",
+      "durationSec": 392.6,
+      "dimensions": {
+       "width": 1920,
+       "height": 1080
+      },
+      "carousel": null,
+      "audio": null,
+      "coauthors": [],
+      "taggedUsers": [],
+      "location": null,
+      "isPaidPartnership": false,
+      "sponsors": [],
+      "commentsDisabled": null,
+      "isPinned": false,
+      "story": null
+     },
+     {
+      "id": "4023034627446193476",
+      "shortcode": "DfUsK3ABr1E",
+      "url": "https://www.instagram.com/reel/DfUsK3ABr1E/",
+      "kind": "reel",
+      "mediaType": "video",
+      "caption": "Blitz zero used to break C.J. Stroud. In London, it made him. \ud83c\udfc8\nSeven pressure reps, one plan: know your hot, replace the blitzer, throw INTO the pressure \u2014 that's where the void is, and that's where the explosive lives.\nFull 8-minute breakdown on YouTube. Breakdown done on thespeeddoctor.app",
+      "altText": null,
+      "createdAt": "2026-11-04T14:41:04.000Z",
+      "owner": {
+       "id": "22043763",
+       "handle": "coachschuman",
+       "displayName": "Dave Schuman",
+       "avatarUrl": "https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/274869808_1367041353775254_3106188262092592795_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFf2Q5bTCuVy6ZKTa1EvzoNy4XkZTUkdZ3123glM5DmS1yNUUtZhNEld5bWXD3MT8Y&_nc_ohc=ePOCjceNRIgQ7kNvwGEuVJT&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GDAuYhCW_EgeUdsEAJtWhF-EZRsrbkULAAAB1501500j-ccb7-5&oh=00_AQRqGNBTVe3m3sBGZmMfIJ9vGGkRrnAlu6VKYJTegKnx4A&oe=6AF33A56&_nc_sid=c024bc",
+       "verified": true,
+       "privateAccount": false
+      },
+      "metrics": {
+       "likeCount": 6,
+       "commentCount": 0,
+       "playCount": 509,
+       "shareCount": 2,
+       "saveCount": 0,
+       "likesHidden": false
+      },
+      "imageUrl": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/888832455_18641519629027764_3388703069488722512_n.jpg?stp=dst-jpg_e35_s750x750_sh2.08_tt6&_nc_cat=102&ig_cache_key=NDAyMzAzNDYyNzQ0NjE5MzQ3Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjE5MjAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=4FRvTCCPyEYQ7kNvwHP8vK2&_nc_oc=AdpnLT5J_6Cz5Yonp4kgDO3cRaAUjukjGmn0WAX-pLDMCR25C7h2ZYfGiHcyqgcgyGc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQQMVM_Hhqiw9U00XCzKdWzKHl6WlYfwCZxgrXK3SOBAVg&oe=6AF33BAB",
+      "thumbnailUrl": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/888832455_18641519629027764_3388703069488722512_n.jpg?stp=dst-jpg_e35_s750x750_sh2.08_tt6&_nc_cat=102&ig_cache_key=NDAyMzAzNDYyNzQ0NjE5MzQ3Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjE5MjAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=4FRvTCCPyEYQ7kNvwHP8vK2&_nc_oc=AdpnLT5J_6Cz5Yonp4kgDO3cRaAUjukjGmn0WAX-pLDMCR25C7h2ZYfGiHcyqgcgyGc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQQMVM_Hhqiw9U00XCzKdWzKHl6WlYfwCZxgrXK3SOBAVg&oe=6AF33BAB",
+      "videoUrl": "https://scontent-sjc6-1.cdninstagram.com/o1/v/t2/f2/m86/AQMJ1cXYdm857XRh9wlQtuZaZuCUvLpQ8yJwXHwsTLEv9CvC1LQLmW7vvYW1U1-n54K90bZWSL9ahvA_KJOSCpff_rOrebtiF1Lbwkw.mp4?_nc_cat=107&_nc_sid=5e9851&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_ohc=D7ihstyVwPkQ7kNvwGjZoxv&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuMTI4MC5kYXNoX2Jhc2VsaW5lXzFfdjEiLCJ4cHZfYXNzZXRfaWQiOjI1OTI3ODYzODc4MzQ5MTMsImFzc2V0X2FnZV9kYXlzIjoxLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MzkyLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=6a449976e69469b4&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC83NzEwMTRCNURGMDc0MDY0QUU2OUYzQjYxNTM1MDYwQ192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzI5MzI0RkIxQjczQTQ5QTY4OEU1M0Y2ODdFNThFRUEyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbC4ID6g4ibCRUCKAJDMywXQHiJmZmZmZoYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQQsiBPbDXFTQGb26_Tb2KEPU5loxkVtUaGOwWCXs3cQlw&oe=6AEF4578",
+      "durationSec": 392.6,
+      "dimensions": {
+       "width": 1920,
+       "height": 1080
+      },
+      "carousel": null,
+      "audio": {
+       "id": "39555617120752883",
+       "title": "Original audio",
+       "artist": "Dave Schuman",
+       "isOriginal": true,
+       "artistHandle": "coachschuman"
+      },
+      "coauthors": [
+       {
+        "id": "54569493745",
+        "handle": "boardwalksportsusa",
+        "displayName": "Boardwalk Sports USA",
+        "avatarUrl": "https://scontent-sjc6-1.cdninstagram.com/v/t51.2885-19/297869610_150885614229349_3120713413831661911_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby41MDEuYzIifQ&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gFl1nFy-MMDueCRH4F9DL6bEkywq4nHH6h8UwaEYInNbqb6QMxfpFUPzbCrITgQSrM&_nc_ohc=-l6pJNUaomYQ7kNvwESZ1N2&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GCohwRFlF3DLOokAAFeZO81QAE8rbkULAAAB1501500j-ccb7-5&oh=00_AQQWjtpdxMj9FvkPhotizr76h2mjjtjcIo2Z4fK8S81ikA&oe=6AF32926&_nc_sid=c024bc",
+        "verified": false,
+        "privateAccount": false
+       },
+       {
+        "id": "13079191371",
+        "handle": "footballusaacademy",
+        "displayName": "NUC Sports Football Academy",
+        "avatarUrl": "https://scontent-sjc6-1.cdninstagram.com/v/t51.2885-19/219766625_856091178360115_6610978457477325878_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44NjUuYzIifQ&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gE1WkD1K6sM_iDR21Hni8jlhUAaEhvcMuq8-MxW6LF81Y3PaZZt6_StrEwM-4MzH80&_nc_ohc=M4nTlJouxEgQ7kNvwGgSsUm&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GGFfGQ0z3ZRCnAoDADYksm-h6b5bbkULAAAB1501500j-ccb7-5&oh=00_AQQOEbWEwTMkw3njeUZfH62WYvHXTtjN2R2BSuBFFxWFTw&oe=6AF34BCF&_nc_sid=c024bc",
+        "verified": false,
+        "privateAccount": false
+       },
+       {
+        "id": "47072753570",
+        "handle": "boardwalk_beasts",
+        "displayName": "Boardwalk Beasts",
+        "avatarUrl": "https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/163608154_154927249824077_1074408637391226070_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gEICChuYxBR1Yhp4t4M1DPlWAHPE3uPDBOQG5fCaC03wXs0t-1JJINqAfjiFQ7rb9k&_nc_ohc=PeLwVt3dVaMQ7kNvwEwHMk8&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GFp2wAlNGbHP54wAANbEUJf2EOkObkULAAAB1501500j-ccb7-5&oh=00_AQQcrpQ2oiDL4by4NXRf4VXob2f-7xEfsKJZHGvWItRnlw&oe=6AF348B5&_nc_sid=c024bc",
+        "verified": true,
+        "privateAccount": false
+       }
+      ],
+      "taggedUsers": null,
+      "location": {
+       "id": "100149244104629",
+       "name": "Texas, USA",
+       "lat": 32.735959285409,
+       "lng": -97.458626586023
+      },
+      "isPaidPartnership": false,
+      "sponsors": [],
+      "commentsDisabled": null,
+      "isPinned": false,
+      "story": null
+     },
+     {
+      "id": "4022961517975968057",
+      "shortcode": "DfUbi-gBhk5",
+      "url": "https://www.instagram.com/reel/DfUbi-gBhk5/",
+      "kind": "reel",
+      "mediaType": "video",
+      "caption": "97 yards on his first NFL snap.\n\nBears rookie Zavion Thomas took it the distance in the preseason finale against the Titans. He ran a 4.28 forty. Here\u2019s how that speed shows up in pads.\n\nThe Speed Doctor breakdown:\n1. The double move. Roboflow pose: plant knee loaded to ~70\u00b0, trunk ~27\u00b0 forward (2D). Sinking the hips sells the stop, and the same loaded leg launches him back upfield.\n2. Top-end mechanics. Trunk ~2\u00b0, nearly vertical, with ~87\u00b0 of thigh separation (2D). Estimated ~21.5 mph with the ball in his arm.\n3. The last defender. He has to dive and still comes up short. 190 lbs at ~21 mph is ~810 kg\u00b7m/s of momentum (estimated).\n\nListed vs. estimated: the 4.28 and 5-10/190 are listed figures. Joint angles are Roboflow 2D pose and depend on the camera angle. Speeds and momentum are Speed Doctor estimates, not NFL tracking data.\n\nImprove as an athlete today at elytics.pro\n\n#ZavionThomas #Bears #NFLPreseason #Biomechanics #SpeedTraining Elytics SpeedDoctor CoachSchuman",
+      "altText": null,
+      "createdAt": "2026-11-04T12:14:13.000Z",
+      "owner": {
+       "id": "22043763",
+       "handle": "coachschuman",
+       "displayName": "Dave Schuman",
+       "avatarUrl": "https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/274869808_1367041353775254_3106188262092592795_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFf2Q5bTCuVy6ZKTa1EvzoNy4XkZTUkdZ3123glM5DmS1yNUUtZhNEld5bWXD3MT8Y&_nc_ohc=ePOCjceNRIgQ7kNvwGEuVJT&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GDAuYhCW_EgeUdsEAJtWhF-EZRsrbkULAAAB1501500j-ccb7-5&oh=00_AQRqGNBTVe3m3sBGZmMfIJ9vGGkRrnAlu6VKYJTegKnx4A&oe=6AF33A56&_nc_sid=c024bc",
+       "verified": true,
+       "privateAccount": false
+      },
+      "metrics": {
+       "likeCount": 39,
+       "commentCount": 0,
+       "playCount": 2417,
+       "shareCount": 1,
+       "saveCount": 1,
+       "likesHidden": false
+      },
+      "imageUrl": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/886518546_18641474665027764_5637733255281468059_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=108&ig_cache_key=NDAyMjk2MTUxNzk3NTk2ODA1NzE4NjQxNDc0NjYyMDI3NzY0.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=Z6T6Jccqx08Q7kNvwG2Zsvc&_nc_oc=AdpfB5atTflEB_8grR9ZBwkUyRMCOlyz32QVWu0X4X35apjOXmTUXzqtfGEZfoGL2CM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQR9D6vC9ncf0k2q1iQfNpdQvSDrE2eifaYiytQ_AK6i7g&oe=6AF33957",
+      "thumbnailUrl": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/886518546_18641474665027764_5637733255281468059_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=108&ig_cache_key=NDAyMjk2MTUxNzk3NTk2ODA1NzE4NjQxNDc0NjYyMDI3NzY0.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=Z6T6Jccqx08Q7kNvwG2Zsvc&_nc_oc=AdpfB5atTflEB_8grR9ZBwkUyRMCOlyz32QVWu0X4X35apjOXmTUXzqtfGEZfoGL2CM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQR9D6vC9ncf0k2q1iQfNpdQvSDrE2eifaYiytQ_AK6i7g&oe=6AF33957",
+      "videoUrl": "https://scontent-sjc6-1.cdninstagram.com/o1/v/t2/f2/m86/AQN6uXT3uqAU3Perd0xONYJg-iV29LIPXy1uIcLwMWD4-e8RC4uWakE3Wgpm6XZ6fSSBuoTjGZfYzkiWomWzqGBFyzep4Jk5qlb4vUk.mp4?_nc_cat=102&_nc_sid=5e9851&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_ohc=fROdP7Olf-0Q7kNvwGQBcvr&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6OTEwNzI5NTI4NjkwODI0LCJhc3NldF9hZ2VfZGF5cyI6MSwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjc5LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=f67d0b291e4bf1ac&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9CMUUzQUZENDRERDY0NEJCODU4RkYxM0UwOUMxOEUwN192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzVFNTlBMjg1QjQxRTQyREE5OTczNzVBN0FCNDY1OTc3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaQotrgt5OeAxUCKAJDMywXQFP90vGp--cYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQQquvU8WrdIKk26q9q7bnRV82E-CXm0a-_6cSPnrsYN2g&oe=6AEF3F47",
+      "durationSec": 79.966,
+      "dimensions": {
+       "width": 1080,
+       "height": 1920
+      },
+      "carousel": null,
+      "audio": {
+       "id": "29175378912114093",
+       "title": "Original audio",
+       "artist": "Dave Schuman",
+       "isOriginal": true,
+       "artistHandle": "coachschuman"
+      },
+      "coauthors": [],
+      "taggedUsers": [],
+      "location": {
+       "id": "102618861444715",
+       "name": "USA",
+       "lat": 38.89459748583,
+       "lng": -77.036781330782
+      },
+      "isPaidPartnership": false,
+      "sponsors": [],
+      "commentsDisabled": null,
+      "isPinned": false,
+      "story": null
+     },
+     {
+      "id": "4022379934223124985",
+      "shortcode": "DfSXT0bB0n5",
+      "url": "https://www.instagram.com/reel/DfSXT0bB0n5/",
+      "kind": "reel",
+      "mediaType": "video",
+      "caption": "Adrian Peterson in an Oklahoma jersey was a PROBLEM. \ud83d\udd25\ud83c\udfc8\n\nWatch the leg recovery. Follow the stride rhythm. Then watch him find daylight.\n\nWe break down five plays with coaching notes and biomechanics drawings so you can see the movement inside the highlight.\n\nSave this for your next film session. Which running back should we break down next? \ud83d\udc47\n\nFollow @coachschuman and visit TheSpeedDoctor.app.\n\nAngles are 2D estimates. Speed and force graphics are modeled.\n\n#AdrianPeterson #BoomerSooner #RunningBackTraining #FootballFilm #Biomechanics",
+      "altText": null,
+      "createdAt": "2026-11-03T16:58:24.000Z",
+      "owner": {
+       "id": "22043763",
+       "handle": "coachschuman",
+       "displayName": "Dave Schuman",
+       "avatarUrl": "https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/274869808_1367041353775254_3106188262092592795_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFf2Q5bTCuVy6ZKTa1EvzoNy4XkZTUkdZ3123glM5DmS1yNUUtZhNEld5bWXD3MT8Y&_nc_ohc=ePOCjceNRIgQ7kNvwGEuVJT&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GDAuYhCW_EgeUdsEAJtWhF-EZRsrbkULAAAB1501500j-ccb7-5&oh=00_AQRqGNBTVe3m3sBGZmMfIJ9vGGkRrnAlu6VKYJTegKnx4A&oe=6AF33A56&_nc_sid=c024bc",
+       "verified": true,
+       "privateAccount": false
+      },
+      "metrics": {
+       "likeCount": 4,
+       "commentCount": 0,
+       "playCount": 376,
+       "shareCount": null,
+       "saveCount": 0,
+       "likesHidden": false
+      },
+      "imageUrl": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/882487929_18641221405027764_4504678691073649117_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&ig_cache_key=NDAyMjM3OTkzNDIyMzEyNDk4NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=VEumitXnynAQ7kNvwFcJagU&_nc_oc=AdrNOrKM-IIr0dgz5IxUwA9zZ3xKKpRO29qnscg1cgmcx8QOYOqozil8NN5T5dTar5k&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQT6-qJYM59RauT-iQOBQDmPxgbkyMAe4ka4B-Owy0bgOQ&oe=6AF32486",
+      "thumbnailUrl": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/882487929_18641221405027764_4504678691073649117_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&ig_cache_key=NDAyMjM3OTkzNDIyMzEyNDk4NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=VEumitXnynAQ7kNvwFcJagU&_nc_oc=AdrNOrKM-IIr0dgz5IxUwA9zZ3xKKpRO29qnscg1cgmcx8QOYOqozil8NN5T5dTar5k&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQT6-qJYM59RauT-iQOBQDmPxgbkyMAe4ka4B-Owy0bgOQ&oe=6AF32486",
+      "videoUrl": "https://scontent-sjc6-1.cdninstagram.com/o1/v/t2/f2/m86/AQOcHqKRSi3EUfldwCr-DuMCPCPo6KkhjRkTKKYOXxJgYgeitZZcrhZZ9_fs1hEGtLf4cyVGIVlj_CpHxsgXpv1segWqsZc_V5pfGTw.mp4?_nc_cat=109&_nc_sid=5e9851&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_ohc=Zg9nw31Rzt4Q7kNvwFN-szg&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTI5NDUxMDM0OTQ4ODUxMCwiYXNzZXRfYWdlX2RheXMiOjIsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo2OCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=40aa9314d3701229&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC83RTRCODM0RUExMDc0RTk5QTZBNDlDQjExQzhCMjJBQl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzJENUQwOTBBOENDNTQ2QTJCQzA5M0Q5RDBFNDZCMTMzX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb8xdDYtdbMBBUCKAJDMywXQFETMzMzMzMYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQTNZi8GHgzl0iV9di5qOf_9sCZuYOp-XoHkMnmv-RG5qg&oe=6AEF4E46",
+      "durationSec": 68.313,
+      "dimensions": {
+       "width": 720,
+       "height": 1280
+      },
+      "carousel": null,
+      "audio": {
+       "id": "28763423420023683",
+       "title": "Original audio",
+       "artist": "Dave Schuman",
+       "isOriginal": true,
+       "artistHandle": "coachschuman"
+      },
+      "coauthors": [
+       {
+        "id": "13079191371",
+        "handle": "footballusaacademy",
+        "displayName": "NUC Sports Football Academy",
+        "avatarUrl": "https://scontent-sjc6-1.cdninstagram.com/v/t51.2885-19/219766625_856091178360115_6610978457477325878_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44NjUuYzIifQ&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gE1WkD1K6sM_iDR21Hni8jlhUAaEhvcMuq8-MxW6LF81Y3PaZZt6_StrEwM-4MzH80&_nc_ohc=M4nTlJouxEgQ7kNvwGgSsUm&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GGFfGQ0z3ZRCnAoDADYksm-h6b5bbkULAAAB1501500j-ccb7-5&oh=00_AQQOEbWEwTMkw3njeUZfH62WYvHXTtjN2R2BSuBFFxWFTw&oe=6AF34BCF&_nc_sid=c024bc",
+        "verified": false,
+        "privateAccount": false
+       }
+      ],
+      "taggedUsers": null,
+      "location": {
+       "id": "469882534",
+       "name": "Oklahoma",
+       "lat": 35.5,
+       "lng": -98
+      },
+      "isPaidPartnership": false,
+      "sponsors": [],
+      "commentsDisabled": null,
+      "isPinned": false,
+      "story": null
+     },
+     {
+      "id": "4021848076821286698",
+      "shortcode": "DfQeYRnhU8q",
+      "url": "https://www.instagram.com/reel/DfQeYRnhU8q/",
+      "kind": "reel",
+      "mediaType": "video",
+      "caption": "POV: you\u2019re the last man between a 245-lb tight end and the end zone \ud83d\ude05\n\nMark Bowman\u2019s 70-yard TD vs Ohio State, by the numbers (digitized from the film):\n\u2022 Hurdle \u2014 lead knee 134\u00b0, trail knee tucked to 60\u00b0\n\u2022 Landing knee 135\u00b0 \u2014 lands tall, stays at speed\n\u2022 Runs THROUGH the grab \u2014 drive leg 173\u00b0\n\u2022 Top speed \u224820 MPH film est. \u2014 \u22481,000 kg\u00b7m/s of momentum\n\nBreakdown done on thespeeddoctor.app \u00b7 More biomechanics at elytics.pro\nFilm: @TrojanFBx \u00b7 All figures are film estimates",
+      "altText": null,
+      "createdAt": "2026-11-02T23:22:01.000Z",
+      "owner": {
+       "id": "22043763",
+       "handle": "coachschuman",
+       "displayName": "Dave Schuman",
+       "avatarUrl": "https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/274869808_1367041353775254_3106188262092592795_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFf2Q5bTCuVy6ZKTa1EvzoNy4XkZTUkdZ3123glM5DmS1yNUUtZhNEld5bWXD3MT8Y&_nc_ohc=ePOCjceNRIgQ7kNvwGEuVJT&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&edm=ACHbZRIBAAAA&ccb=7-5&ig_cache_key=GDAuYhCW_EgeUdsEAJtWhF-EZRsrbkULAAAB1501500j-ccb7-5&oh=00_AQRqGNBTVe3m3sBGZmMfIJ9vGGkRrnAlu6VKYJTegKnx4A&oe=6AF33A56&_nc_sid=c024bc",
+       "verified": true,
+       "privateAccount": false
+      },
+      "metrics": {
+       "likeCount": 6,
+       "commentCount": 0,
+       "playCount": 484,
+       "shareCount": 3,
+       "saveCount": 0,
+       "likesHidden": false
+      },
+      "imageUrl": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/883201855_18640966216027764_3246181866433659616_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=109&ig_cache_key=NDAyMTg0ODA3NjgyMTI4NjY5ODE4NjQwOTY2MjEzMDI3NzY0.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=hlyV78pkBpIQ7kNvwHMh-qT&_nc_oc=Adp21aD-LfD5iISI-pmuwwS5dnXjM9rW-fGtTLJEv0BhRQ-DDgv6DR1xW-ulLz1m3Ek&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQSHrBhHPStNC6RU23bvb0GvzUgYhRFEp0W5L--8wUfPIg&oe=6AF33738",
+      "thumbnailUrl": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/883201855_18640966216027764_3246181866433659616_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=109&ig_cache_key=NDAyMTg0ODA3NjgyMTI4NjY5ODE4NjQwOTY2MjEzMDI3NzY0.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=hlyV78pkBpIQ7kNvwHMh-qT&_nc_oc=Adp21aD-LfD5iISI-pmuwwS5dnXjM9rW-fGtTLJEv0BhRQ-DDgv6DR1xW-ulLz1m3Ek&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&oh=00_AQSHrBhHPStNC6RU23bvb0GvzUgYhRFEp0W5L--8wUfPIg&oe=6AF33738",
+      "videoUrl": "https://scontent-sjc3-1.cdninstagram.com/o1/v/t2/f2/m86/AQNnXd-fYMzodi-J3GXNIxNidYaJ-YEZV8WdMe-JSxxbUm8rZvAMFvU82aYQB09esNZKEbuB3qfVpcxDDvUTr2x4I5L4mTCirnCe6i8.mp4?_nc_cat=106&_nc_sid=5e9851&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_ohc=d4ZzZnLIeFQQ7kNvwFVvHau&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTE1MDg2NDcwNzU0NjUzMCwiYXNzZXRfYWdlX2RheXMiOjMsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjozNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=6a0539200b5789db&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8wMkVGQjc4MDgzNjY0OEE4OEZGQkZCMENBREQ3QUI4RF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzEyNTNGMDdBMjNDMjRBNUU5MDRCREM0REY2OUZEM0VCX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbEtp-hkq2LBBUCKAJDMywXQEEd0vGp--cYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=4qirfGdnBmU6l6GT3zlpuA&_nc_ss=7a3ba&_nc_zt=28&oh=00_AQSQ9vIpo8HYoRhsTHaWJ-hypZ1MeXDF1sp_23MkVGBjkw&oe=6AEF4CC3",
+      "durationSec": 34.233,
+      "dimensions": {
+       "width": 720,
+       "height": 1280
+      },
+      "carousel": null,
+      "audio": {
+       "id": "29388420700753847",
+       "title": "Original audio",
+       "artist": "Dave Schuman",
+       "isOriginal": true,
+       "artistHandle": "coachschuman"
+      },
+      "coauthors": [],
+      "taggedUsers": [],
+      "location": {
+       "id": "102618861444715",
+       "name": "USA",
+       "lat": 38.89459748583,
+       "lng": -77.036781330782
+      },
+      "isPaidPartnership": false,
+      "sponsors": [],
+      "commentsDisabled": null,
+      "isPinned": false,
+      "story": null
+     }
+    ],
+    "page": {
+     "kind": "cursor",
+     "nextCursor": "h1.eyJjIjoiUVZGRFRUbG5lVnByYTJwRVpFcEhNRmxqWm10NFl6QXhYMFZMTWpnemVteENlVGswY0ZGdVVscFBjMGg1WmpOaFdraEVNVzVNV0Vwd2FGVTJZVTVQTVRoS2REbE1SRkJJYURWMk1tMUVialZ6U0hGd1NUVjBNZz09IiwiZSI6Im1UQWZldjhhanAiLCJ1IjoiMjIwNDM3NjMiLCJ0IjoicmVlbHMiLCJiIjoiSFB0dXNCSWlhOSJ9",
+     "hasMore": true,
+     "start": null,
+     "page": null,
+     "count": null,
+     "returnedCount": 12,
+     "total": null,
+     "totalPages": null
+    }
+   },
+   "meta": {
+    "requestId": "req_19827529-42a9-48a6-bee1-4f3dea4bbbd8",
+    "creditsCharged": 1,
+    "version": "v2"
+   },
+   "card": {
+    "kind": "search",
+    "title": "Results \u00b7 @coachschuman",
+    "subtitle": "12 results",
+    "resultCount": 12,
+    "items": [
+     {
+      "title": "TIPPED. DIVING. CAUGHT. \ud83d\ude32\ud83c\udfc8 The defender got a hand on it \u2014 and it still wasn\u2019t enough. A Texas high school deep shot gets deflected at the catch point\u2026 and\u2026",
+      "subtitle": "0:25 \u00b7 12 likes \u00b7 0 comments",
+      "href": "https://www.instagram.com/reel/DfYDpvXBmd2/",
+      "platform": "Instagram"
+     },
+     {
+      "title": "Your athlete is fast. But do you know why they're not faster? \ud83c\udfc3\u200d\u2642\ufe0f\ud83d\udca8 The Speed Doctor turns any sprint video into a full biomechanical breakdown \u2014 5 key\u2026",
+      "subtitle": "0:15 \u00b7 1 like \u00b7 1 comment",
+      "href": "https://www.instagram.com/reel/DfXV63rhl1I/",
+      "platform": "Instagram"
+     },
+     {
+      "title": "How the Big Shot Gets made!!",
+      "subtitle": "1:23 \u00b7 27 likes \u00b7 0 comments",
+      "href": "https://www.instagram.com/reel/DfXUT6ekQB6/",
+      "platform": "Instagram"
+     },
+     {
+      "title": "Remember Speed Kills!!",
+      "subtitle": "1:24 \u00b7 6 likes \u00b7 1 comment",
+      "href": "https://www.instagram.com/reel/DfXUTY1DdGf/",
+      "platform": "Instagram"
+     },
+     {
+      "title": "6-3, 245, and 57 career rushing touchdowns, which set the SEC record. Tim Tebow at Florida, a quarterback who ran like a fullback. Roboflow pose tracking\u2026",
+      "subtitle": "1:23 \u00b7 23 likes \u00b7 0 comments",
+      "href": "https://www.instagram.com/reel/DfV_UpphOI-/",
+      "platform": "Instagram"
+     },
+     {
+      "title": "Down 28-12 at halftime. Third play of the second half: 80 yards. Texas QB Vince Young at Oklahoma State in 2005. At 6-5 and 233, Roboflow pose tracking shows\u2026",
+      "subtitle": "1:24 \u00b7 0 likes \u00b7 0 comments",
+      "href": "https://www.instagram.com/reel/DfVf_dZhmtr/",
+      "platform": "Instagram"
+     },
+     {
+      "title": "From one baseline to the other rim, and it didn't count. Lebanon's Charbel El Herera at the FIBA U18 Asia Cup. It came on an inbound pass, so under FIBA rules\u2026",
+      "subtitle": "1:23 \u00b7 24 likes \u00b7 0 comments",
+      "href": "https://www.instagram.com/reel/DfVH-DcCB75/",
+      "platform": "Instagram"
+     },
+     {
+      "title": "Blitz zero used to break C.J. Stroud. In London, it made him. \ud83c\udfc8 Seven pressure reps, one plan: know your hot, replace the blitzer, throw INTO the pressure\u2026",
+      "subtitle": "6:33 \u00b7 7 likes \u00b7 0 comments",
+      "href": "https://www.instagram.com/reel/DfUuOLpANPS/",
+      "platform": "Instagram"
+     }
+    ]
+   }
+  }
+ },
+ "jsonrpc": "2.0",
+ "id": 1
+}

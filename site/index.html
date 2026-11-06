@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en" data-type="service">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="page-type" content="service"><meta name="site-kind" content="other">
+<title>The Recruiting Calendar: every NCAA recruiting date for your kid's sport and class year</title>
+<meta name="description" content="Pick your kid's sport and graduation year. See every date a college coach may contact them, every eligibility deadline, and what each one costs if you miss it. Sourced to the NCAA manual, with the date we checked.">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="wrap row">
+    <a class="wordmark" href="#">The Recruiting <em>Calendar</em></a>
+    <nav><a href="/rules/">Rules</a><a href="/math/">Roster math</a><a href="/camps/">Camps</a><a href="/compare/">Compare</a><a href="/price/">Price</a><a href="/free/">Free guide</a></nav>
+  </div>
+  <div class="wrap dateline"><span>Vol. 1</span><span>Rules checked against the 2026-27 NCAA Division I Manual</span><span id="today"></span></div>
+</header>
+
+<main>
+<section class="hero wrap">
+  <p class="kicker">For parents of high school football, baseball and track athletes</p>
+  <h1>Every date a college coach may contact your kid, in one sourced calendar.</h1>
+  <p class="lede">Recruiting runs on deadlines nobody prints in one place. Pick the sport and the class year. You see every date, the rule behind it, and what it costs if you miss it.</p>
+
+  <form class="picker" id="picker" onsubmit="return false">
+    <label>Sport
+      <select id="sport">
+        <option value="baseball">Baseball</option>
+        <option value="football">Football</option>
+        <option value="track">Track &amp; field / cross country</option>
+      </select></label>
+    <label>Graduates high school in
+      <select id="cls"><option>2027</option><option>2028</option><option selected>2029</option><option>2030</option></select></label>
+    <button id="go" type="button">Show my dates</button>
+  </form>
+  <p class="fine">Free. No account and no film upload. 3 dates are free; the full calendar comes with membership.</p>
+</section>
+
+<section id="dates" class="dates wrap wide">
+  <div class="dates-head">
+    <h2 id="dates-title">Baseball, Class of 2029</h2>
+    <p class="meta" id="dates-meta"></p>
+  </div>
+  <p class="legend">Most recruiting dates are <b>openings</b>: the earliest a coach may act. Only two are <b>hard limits</b> that can cost eligibility. Every row tells you which.</p>
+  <ol class="ledger" id="ledger"></ol>
+  <div class="gate" id="gate">
+    <p><strong id="gate-n"></strong> more dates for this sport and year, with alerts 30 and 7 days before each one.</p>
+    <a class="btn" href="#price">Get the full calendar</a>
+  </div>
+</section>
+
+<section id="math" class="math">
+  <div class="wrap wide grid2">
+    <div>
+      <p class="kicker">Roster math</p>
+      <h2>"How many scholarships do they have" is now the wrong question.</h2>
+      <p>On July 1, 2025, Division I schools that opted into the House settlement replaced scholarship caps with roster limits. A program can now fund every rostered player, or none. The number that decides your kid's chances is how many spots open in their class.</p>
+      <p>Most recruiting services still sell the word "scholarship". We show you the rule, the date it changed, and the questions that get a real answer out of a coach.</p>
+    </div>
+    <dl class="figures">
+      <div><dt>105</dt><dd>Division I football roster limit at opted-in schools</dd></div>
+      <div><dt>34</dt><dd>Division I baseball roster limit at opted-in schools, where the old scholarship cap no longer applies. Division II baseball still caps aid at 9.0 equivalencies.</dd></div>
+      <div><dt>2%</dt><dd>of high school athletes receive an athletic scholarship, per the NCAA. Most of those awards are partial.</dd></div>
+      <div><dt>0</dt><dd>athletic scholarships in Division III. Merit and need-based aid still apply.</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section id="why" class="why wrap wide">
+  <p class="kicker">What families get wrong, and what it costs</p>
+  <h2>The expensive mistakes are dates, not effort.</h2>
+  <div class="cols3">
+    <article><span class="num">01</span><h3>Core courses</h3><p>Division I requires 16 core courses, with 10 finished before senior year. Not every class your school offers counts. Families often find out in 12th grade, when it is too late to fix.</p></article>
+    <article><span class="num">02</span><h3>Camps before contact</h3><p>A showcase can cost hundreds of dollars. If the coach has never heard of your kid, it is an expensive practice. Email first, then go.</p></article>
+    <article><span class="num">03</span><h3>Parents doing outreach</h3><p>Coaches want to hear from the athlete. The parent's job is the calendar, the paperwork and the money. We built the product around that split.</p></article>
+  </div>
+</section>
+
+<section class="contrast">
+  <div class="wrap wide grid2">
+    <div>
+      <p class="kicker">How we're different</p>
+      <h2>No sales call. No promise of a scholarship. A published price.</h2>
+    </div>
+    <ul class="ticks">
+      <li><strong>Every date cites the rule.</strong> The bylaw number, a link to the NCAA source, and the day we last checked it.</li>
+      <li><strong>The price is on this page.</strong> You will not need a phone call to find out what it costs.</li>
+      <li><strong>30 days, full refund.</strong> Ask by email. We won't run a retention script on you.</li>
+      <li><strong>We sell the rules, not exposure.</strong> We don't promise coaches will see your kid. Nobody honest can.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="price" class="price wrap wide">
+  <p class="kicker">Price</p>
+  <h2>One school year of dates, for less than one showcase.</h2>
+  <div class="tiers">
+    <div class="tier">
+      <h3>Free</h3><p class="amt">$0</p>
+      <ul><li>3 dates for your sport and class year</li><li>Roster math</li><li>Monthly rules briefing by email</li></ul>
+      <a class="btn ghost" href="#dates">See your dates</a>
+    </div>
+    <div class="tier lead">
+      <p class="flag">Founding members, first 100</p>
+      <h3>Sideline</h3><p class="amt">$99<span>/yr</span> <s>$149</s></p>
+      <ul><li>Full calendar for one sport and class year</li><li>Email alerts 30 and 7 days before each date</li><li>Recruiting tracker for schools, coaches and visits</li><li>The full tool library: coach scripts, visit scorecard, NIL checklist</li></ul>
+      <a class="btn" href="mailto:hello@therecruitingcalendar.example?subject=Founding%20Sideline">Become a founding member</a>
+    </div>
+    <div class="tier">
+      <h3>Pathway</h3><p class="amt">$499<span>/yr</span></p>
+      <ul><li>Everything in Sideline, for two sports or two kids</li><li>A written plan review each quarter</li><li>A target-school list, checked against your calendar</li><li>Questions answered in writing</li></ul>
+      <a class="btn ghost" href="mailto:hello@therecruitingcalendar.example?subject=Pathway">Ask about Pathway</a>
+    </div>
+  </div>
+  <p class="aside-line">Want a person to review everything? <a href="mailto:hello@therecruitingcalendar.example?subject=Recruiting%20Audit">The Recruiting Audit</a> is $1,500: a 90-minute working session plus a written 12-month plan. High school and club programs: <a href="mailto:hello@therecruitingcalendar.example?subject=Program%20seats">$299 a year covers every athlete</a>.</p>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap wide">
+    <p class="footnav"><a href="/rules/">Rules by sport</a> · <a href="/math/">Roster math</a> · <a href="/camps/">Camps</a> · <a href="/coaches/">For coaches</a> · <a href="/about/">About</a> · <a href="/legal/terms/">Terms</a> · <a href="/legal/privacy/">Privacy</a> · <a href="/legal/refund/">Refunds</a> · <a href="/legal/auto-renewal/">Auto-renewal</a></p>
+    <p>The Recruiting Calendar provides education, not legal advice, and does not recruit or place athletes. Rules change. Confirm each one with the school's compliance office and the governing body. No scholarship, offer or roster spot is promised. Not affiliated with or endorsed by the NCAA, NAIA or NJCAA.</p>
+  </div>
+</footer>
+<script src="/data.js"></script>
+<script src="/app.js"></script>
+</body></html>

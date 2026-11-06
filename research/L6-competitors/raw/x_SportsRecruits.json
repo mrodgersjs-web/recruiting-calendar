@@ -1,0 +1,127 @@
+{
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "{\n  \"data\": {\n    \"lookupStatus\": \"found\",\n    \"profile\": {\n      \"platform\": \"twitter\",\n      \"handle\": \"SportsRecruits\",\n      \"displayName\": \"The Nation.\",\n      \"bio\": \"\\\\\\\\ CLA // YouTube + IG : \u27a1 SportsRecruits\",\n      \"avatarUrl\": \"https://pbs.twimg.com/profile_images/947322365884563456/XA1tqywW_400x400.jpg\",\n      \"bannerUrl\": \"https://pbs.twimg.com/profile_banners/37363905/1475315330/1500x500\",\n      \"verified\": false,\n      \"blueVerified\": false,\n      \"profileUrl\": \"https://x.com/SportsRecruits\",\n      \"privateAccount\": false,\n      \"platformUserId\": \"37363905\",\n      \"accountCreatedAt\": \"2009-05-03T04:29:25.000Z\",\n      \"accountCreatedAtUnix\": 1241324965,\n      \"location\": \"Your game.\",\n      \"website\": \"http://instagram.com/sportsrecruits\",\n      \"pinnedTweetId\": \"975465226794487809\",\n      \"highlights\": {\n        \"canHighlightTweets\": false,\n        \"highlightedTweetCount\": 0\n      },\n      \"businessAccount\": {\n        \"affiliatesCount\": 0\n      },\n      \"creatorSubscriptionsCount\": 0,\n      \"isBlueVerified\": false,\n      \"verifiedType\": null,\n      \"pinnedTweetIds\": [\n        \"975465226794487809\"\n      ],\n      \"favoritesCount\": 25865,\n      \"createdAt\": \"2009-05-03T04:29:25.000Z\",\n      \"professional\": null,\n      \"withheldInCountries\": [],\n      \"profileImageShape\": \"Circle\",\n      \"verifiedSince\": null,\n      \"possiblySensitive\": false,\n      \"profileInterstitialType\": null,\n      \"hasHiddenSubscriptions\": false,\n      \"hasGraduatedAccess\": true,\n      \"isProfileTranslatable\": false,\n      \"hasCustomTimelines\": false,\n      \"isTranslator\": false,\n      \"defaultProfile\": false,\n      \"defaultProfileImage\": false\n    },\n    \"metrics\": {\n      \"availableFields\": [\n        \"followers\",\n        \"following\",\n        \"tweets\",\n        \"favourites\",\n        \"listedCount\",\n        \"mediaCount\"\n      ],\n      \"followers\": 71943,\n      \"following\": 10145,\n      \"tweets\": 65889,\n      \"favourites\": 25865,\n      \"listedCount\": 162,\n      \"mediaCount\": 15324\n    }\n  },\n  \"meta\": {\n    \"requestId\": \"req_5b1453e0-253f-4296-8201-0e17fe879f42\",\n    \"creditsCharged\": 1,\n    \"version\": \"v1\"\n  }\n}"
+   },
+   {
+    "type": "text",
+    "text": "{\"conversation_id\":\"01a1af41-e39d-758a-82a2-0a0894efc28b\"}"
+   }
+  ],
+  "structuredContent": {
+   "data": {
+    "lookupStatus": "found",
+    "profile": {
+     "platform": "twitter",
+     "handle": "SportsRecruits",
+     "displayName": "The Nation.",
+     "bio": "\\\\ CLA // YouTube + IG : \u27a1 SportsRecruits",
+     "avatarUrl": "https://pbs.twimg.com/profile_images/947322365884563456/XA1tqywW_400x400.jpg",
+     "bannerUrl": "https://pbs.twimg.com/profile_banners/37363905/1475315330/1500x500",
+     "verified": false,
+     "blueVerified": false,
+     "profileUrl": "https://x.com/SportsRecruits",
+     "privateAccount": false,
+     "platformUserId": "37363905",
+     "accountCreatedAt": "2009-05-03T04:29:25.000Z",
+     "accountCreatedAtUnix": 1241324965,
+     "location": "Your game.",
+     "website": "http://instagram.com/sportsrecruits",
+     "pinnedTweetId": "975465226794487809",
+     "highlights": {
+      "canHighlightTweets": false,
+      "highlightedTweetCount": 0
+     },
+     "businessAccount": {
+      "affiliatesCount": 0
+     },
+     "creatorSubscriptionsCount": 0,
+     "isBlueVerified": false,
+     "verifiedType": null,
+     "pinnedTweetIds": [
+      "975465226794487809"
+     ],
+     "favoritesCount": 25865,
+     "createdAt": "2009-05-03T04:29:25.000Z",
+     "professional": null,
+     "withheldInCountries": [],
+     "profileImageShape": "Circle",
+     "verifiedSince": null,
+     "possiblySensitive": false,
+     "profileInterstitialType": null,
+     "hasHiddenSubscriptions": false,
+     "hasGraduatedAccess": true,
+     "isProfileTranslatable": false,
+     "hasCustomTimelines": false,
+     "isTranslator": false,
+     "defaultProfile": false,
+     "defaultProfileImage": false
+    },
+    "metrics": {
+     "availableFields": [
+      "followers",
+      "following",
+      "tweets",
+      "favourites",
+      "listedCount",
+      "mediaCount"
+     ],
+     "followers": 71943,
+     "following": 10145,
+     "tweets": 65889,
+     "favourites": 25865,
+     "listedCount": 162,
+     "mediaCount": 15324
+    }
+   },
+   "meta": {
+    "requestId": "req_5b1453e0-253f-4296-8201-0e17fe879f42",
+    "creditsCharged": 1,
+    "version": "v1"
+   },
+   "card": {
+    "kind": "profile",
+    "title": "The Nation.",
+    "subtitle": "@SportsRecruits",
+    "platform": "X",
+    "handle": "@SportsRecruits",
+    "headline": "\\\\ CLA // YouTube + IG : \u27a1 SportsRecruits",
+    "location": "Your game.",
+    "verified": false,
+    "metrics": [
+     {
+      "label": "Followers",
+      "value": "72k"
+     },
+     {
+      "label": "Following",
+      "value": "10k"
+     },
+     {
+      "label": "Posts",
+      "value": "66k"
+     },
+     {
+      "label": "Listed",
+      "value": "162"
+     }
+    ],
+    "details": [
+     "instagram.com",
+     "Joined May 2009",
+     "0 affiliates"
+    ],
+    "href": "https://x.com/SportsRecruits",
+    "sourceLabel": "Open profile",
+    "avatar": {
+     "kind": "fallback",
+     "initial": "T"
+    }
+   }
+  }
+ },
+ "jsonrpc": "2.0",
+ "id": 1
+}

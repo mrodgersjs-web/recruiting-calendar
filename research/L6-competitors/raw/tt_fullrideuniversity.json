@@ -1,0 +1,109 @@
+{
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "{\n  \"data\": {\n    \"lookupStatus\": \"found\",\n    \"profile\": {\n      \"platform\": \"tiktok\",\n      \"handle\": \"fullrideuniversity\",\n      \"displayName\": \"Full Ride University\",\n      \"bio\": \"Athlete Management\\nFree NCAA Recruiting Calendar \ud83d\udc47\\nfullrideu.com/links\",\n      \"avatarUrl\": \"https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/871f7e921094c3deeb8ae4d053cd9f81~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=9640&refresh_token=d02685dd&x-expires=1794114000&x-signature=hqJkv8YHoOr2ig6%2FQLttD0QISt8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5\",\n      \"verified\": false,\n      \"profileUrl\": \"https://www.tiktok.com/@fullrideuniversity\",\n      \"privateAccount\": false,\n      \"platformUserId\": \"7607899717565023252\",\n      \"secUid\": \"MS4wLjABAAAAh_yce8lwF5Qh3fG3j8Htf-KCAyPkbybfhCNRzYXlLT3F3eWj4uTqHDjFtiN6gkmV\",\n      \"accountCreatedAt\": \"2026-03-15T17:22:15.000Z\",\n      \"accountCreatedAtUnix\": 1773595335,\n      \"avatarUrls\": {\n        \"large\": \"https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/871f7e921094c3deeb8ae4d053cd9f81~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=9640&refresh_token=d02685dd&x-expires=1794114000&x-signature=hqJkv8YHoOr2ig6%2FQLttD0QISt8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5\",\n        \"medium\": \"https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/871f7e921094c3deeb8ae4d053cd9f81~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=f8b82242&x-expires=1794114000&x-signature=bOH8p2sQtm1haGXRF7Ztx6D9Fyg%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5\",\n        \"thumb\": \"https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/871f7e921094c3deeb8ae4d053cd9f81~tplv-tiktokx-cropcenter:100:100.jpeg?dr=9640&refresh_token=d0a27db8&x-expires=1794114000&x-signature=sCjgwb2yJ6kMKlkr2oKabzLTcQQ%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5\"\n      },\n      \"language\": \"en\",\n      \"isCommerceUser\": false,\n      \"isSeller\": false,\n      \"openFavorite\": false,\n      \"isAdVirtual\": false,\n      \"isEmbedBanned\": false,\n      \"canExpandPlaylist\": true,\n      \"profileEmbedPermission\": 1,\n      \"followingVisibility\": 1,\n      \"contentSettings\": {\n        \"comment\": 0,\n        \"duet\": 0,\n        \"stitch\": 0,\n        \"download\": 0\n      },\n      \"profileTabs\": {\n        \"showMusicTab\": false,\n        \"showQuestionTab\": false,\n        \"showPlayListTab\": false\n      }\n    },\n    \"metrics\": {\n      \"followers\": 3,\n      \"following\": 0,\n      \"likes\": 13,\n      \"posts\": 18,\n      \"friends\": 0,\n      \"diggs\": 0\n    }\n  },\n  \"meta\": {\n    \"requestId\": \"req_e5df27af-004b-4e43-8027-454b592e3b9c\",\n    \"creditsCharged\": 1,\n    \"version\": \"v1\"\n  }\n}"
+   },
+   {
+    "type": "text",
+    "text": "{\"conversation_id\":\"01a1af41-db7c-7c6a-bae0-ffb3b281fb04\"}"
+   }
+  ],
+  "structuredContent": {
+   "data": {
+    "lookupStatus": "found",
+    "profile": {
+     "platform": "tiktok",
+     "handle": "fullrideuniversity",
+     "displayName": "Full Ride University",
+     "bio": "Athlete Management\nFree NCAA Recruiting Calendar \ud83d\udc47\nfullrideu.com/links",
+     "avatarUrl": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/871f7e921094c3deeb8ae4d053cd9f81~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=9640&refresh_token=d02685dd&x-expires=1794114000&x-signature=hqJkv8YHoOr2ig6%2FQLttD0QISt8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
+     "verified": false,
+     "profileUrl": "https://www.tiktok.com/@fullrideuniversity",
+     "privateAccount": false,
+     "platformUserId": "7607899717565023252",
+     "secUid": "MS4wLjABAAAAh_yce8lwF5Qh3fG3j8Htf-KCAyPkbybfhCNRzYXlLT3F3eWj4uTqHDjFtiN6gkmV",
+     "accountCreatedAt": "2026-03-15T17:22:15.000Z",
+     "accountCreatedAtUnix": 1773595335,
+     "avatarUrls": {
+      "large": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/871f7e921094c3deeb8ae4d053cd9f81~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=9640&refresh_token=d02685dd&x-expires=1794114000&x-signature=hqJkv8YHoOr2ig6%2FQLttD0QISt8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
+      "medium": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/871f7e921094c3deeb8ae4d053cd9f81~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=f8b82242&x-expires=1794114000&x-signature=bOH8p2sQtm1haGXRF7Ztx6D9Fyg%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
+      "thumb": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/871f7e921094c3deeb8ae4d053cd9f81~tplv-tiktokx-cropcenter:100:100.jpeg?dr=9640&refresh_token=d0a27db8&x-expires=1794114000&x-signature=sCjgwb2yJ6kMKlkr2oKabzLTcQQ%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5"
+     },
+     "language": "en",
+     "isCommerceUser": false,
+     "isSeller": false,
+     "openFavorite": false,
+     "isAdVirtual": false,
+     "isEmbedBanned": false,
+     "canExpandPlaylist": true,
+     "profileEmbedPermission": 1,
+     "followingVisibility": 1,
+     "contentSettings": {
+      "comment": 0,
+      "duet": 0,
+      "stitch": 0,
+      "download": 0
+     },
+     "profileTabs": {
+      "showMusicTab": false,
+      "showQuestionTab": false,
+      "showPlayListTab": false
+     }
+    },
+    "metrics": {
+     "followers": 3,
+     "following": 0,
+     "likes": 13,
+     "posts": 18,
+     "friends": 0,
+     "diggs": 0
+    }
+   },
+   "meta": {
+    "requestId": "req_e5df27af-004b-4e43-8027-454b592e3b9c",
+    "creditsCharged": 1,
+    "version": "v1"
+   },
+   "card": {
+    "kind": "profile",
+    "title": "Full Ride University",
+    "subtitle": "@fullrideuniversity \u00b7 Joined Mar 2026",
+    "platform": "TikTok",
+    "handle": "@fullrideuniversity",
+    "headline": "Athlete Management Free NCAA Recruiting Calendar \ud83d\udc47 fullrideu.com/links",
+    "verified": false,
+    "metrics": [
+     {
+      "label": "Followers",
+      "value": "3"
+     },
+     {
+      "label": "Likes",
+      "value": "13"
+     },
+     {
+      "label": "Videos",
+      "value": "18"
+     },
+     {
+      "label": "Following",
+      "value": "0"
+     }
+    ],
+    "details": [
+     "Joined Mar 2026"
+    ],
+    "href": "https://www.tiktok.com/@fullrideuniversity",
+    "sourceLabel": "Open profile",
+    "avatar": {
+     "kind": "fallback",
+     "initial": "F"
+    }
+   }
+  }
+ },
+ "jsonrpc": "2.0",
+ "id": 1
+}
