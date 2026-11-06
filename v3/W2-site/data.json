@@ -23,6 +23,7 @@
     "Ask club coach to call"
    ],
    "img": "/assets/media/cut-swimmer-640.webp",
+   "art_fictional": false,
    "video": "",
    "poster": "",
    "hold": false,
@@ -91,7 +92,8 @@
     "Ask every PWO offer what the path to scholarship looks like",
     "Weigh guaranteed money vs. fit honestly as a family"
    ],
-   "img": "",
+   "img": "/assets/media/cut-renfrow-640.webp",
+   "art_fictional": true,
    "video": "/assets/media/real-renfrow-720p.mp4",
    "poster": "/assets/media/real-renfrow-poster.jpg",
    "hold": false,
@@ -186,7 +188,8 @@
     "Pick club events where target coaches actually attend",
     "Say yes to visits outside your geography"
    ],
-   "img": "",
+   "img": "/assets/media/cut-groenewegen-640.webp",
+   "art_fictional": true,
    "video": "/assets/media/real-groenewegen-720p.mp4",
    "poster": "/assets/media/real-groenewegen-poster.jpg",
    "hold": false,
@@ -290,7 +293,8 @@
     "Late-specializing athletes still have windows",
     "Treat walk-on as a real option at the right fit"
    ],
-   "img": "",
+   "img": "/assets/media/cut-lowe-640.webp",
+   "art_fictional": true,
    "video": "/assets/media/real-lowe-720p.mp4",
    "poster": "/assets/media/real-lowe-poster.jpg",
    "hold": false,
@@ -381,7 +385,8 @@
    "replicate": [
     "Ask admissions-first schools about fall walk-on tryouts"
    ],
-   "img": "",
+   "img": "/assets/media/cut-pichardo-640.webp",
+   "art_fictional": true,
    "video": "/assets/media/real-pichardo-720p.mp4",
    "poster": "/assets/media/real-pichardo-poster.jpg",
    "hold": false,
@@ -481,7 +486,8 @@
     "Email video broadly to JUCO/D2, not just D1",
     "Track coaches who move jobs"
    ],
-   "img": "",
+   "img": "/assets/media/cut-white-640.webp",
+   "art_fictional": true,
    "video": "/assets/media/real-white-720p.mp4",
    "poster": "/assets/media/real-white-poster.jpg",
    "hold": false,
@@ -579,7 +585,8 @@
     "Use HS coach as the first contact to nearby D2s",
     "Pair athletics with a professional major"
    ],
-   "img": "",
+   "img": "/assets/media/cut-pirosko-640.webp",
+   "art_fictional": true,
    "video": "/assets/media/real-pirosko-720p.mp4",
    "poster": "/assets/media/real-pirosko-poster.jpg",
    "hold": false,
@@ -678,7 +685,8 @@
    "replicate": [
     "Treat D3 as a development path, not a consolation"
    ],
-   "img": "",
+   "img": "/assets/media/cut-marpet-640.webp",
+   "art_fictional": true,
    "video": "/assets/media/real-marpet-720p.mp4",
    "poster": "/assets/media/real-marpet-poster.jpg",
    "hold": false,
@@ -771,7 +779,8 @@
     "Multi-sport kids: test a second sport junior year",
     "Target D3 coaches who develop raw athletes"
    ],
-   "img": "",
+   "img": "/assets/media/cut-rodenfels-640.webp",
+   "art_fictional": true,
    "video": "/assets/media/real-rodenfels-720p.mp4",
    "poster": "/assets/media/real-rodenfels-poster.jpg",
    "hold": true,
@@ -829,7 +838,8 @@
     "Write the goal down early",
     "Score schools on culture, not just level"
    ],
-   "img": "",
+   "img": "/assets/media/cut-perez-640.webp",
+   "art_fictional": true,
    "video": "/assets/media/real-perez-720p.mp4",
    "poster": "/assets/media/real-perez-poster.jpg",
    "hold": false,
@@ -880,7 +890,8 @@
    "replicate": [
     "D3 film can open D1 doors via portal"
    ],
-   "img": "",
+   "img": "/assets/media/cut-coward-640.webp",
+   "art_fictional": true,
    "video": "/assets/media/real-coward-720p.mp4",
    "poster": "/assets/media/real-coward-poster.jpg",
    "hold": false,
@@ -941,7 +952,8 @@
     "Look at brand-new programs",
     "A gap year from the sport is not the end"
    ],
-   "img": "",
+   "img": "/assets/media/cut-rodriguez-640.webp",
+   "art_fictional": true,
    "video": "/assets/media/real-rodriguez-720p.mp4",
    "poster": "/assets/media/real-rodriguez-poster.jpg",
    "hold": false,
@@ -991,7 +1003,8 @@
     "JUCO as a one-year showcase",
     "Watch for programs with sudden roster holes"
    ],
-   "img": "",
+   "img": "/assets/media/cut-butler-640.webp",
+   "art_fictional": true,
    "video": "/assets/media/real-butler-720p.mp4",
    "poster": "/assets/media/real-butler-poster.jpg",
    "hold": false,
@@ -1044,7 +1057,8 @@
     "Play the events lower-division coaches attend",
     "Treat D2 as a real path to the pros"
    ],
-   "img": "",
+   "img": "/assets/media/cut-wondolowski-640.webp",
+   "art_fictional": true,
    "video": "",
    "poster": "",
    "hold": false,

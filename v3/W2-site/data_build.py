@@ -38,6 +38,9 @@ def pbs(x):
   return b
 MAP2={'renfrow':['walk-on','football-junior-year','offer-and-signing'],'groenewegen':['offer-and-signing','eligibility-2-hard-deadlines'],'lowe':['walk-on','offer-and-signing'],'pichardo':['walk-on','eligibility-2-hard-deadlines'],'white':['offer-and-signing','eligibility-2-hard-deadlines'],'pirosko':['offer-and-signing','eligibility-2-hard-deadlines'],'marpet':['d3-academic-aid-first','walk-on','football-junior-year'],'rodenfels':['track-field-marks','d3-academic-aid-first','late-bloomer'],'perez':['late-bloomer','d3-academic-aid-first'],'coward':['d3-academic-aid-first','offer-and-signing'],'rodriguez':['late-bloomer','offer-and-signing'],'butler':['juco-to-d1','offer-and-signing'],'wondolowski':['offer-and-signing','eligibility-2-hard-deadlines'],'composite-swim':['eligibility-2-hard-deadlines','offer-and-signing']}
 VID={x['id'] for x in S}-{'composite-swim'}
+# W5-athletes (Mike 2026-11-06: "generate the rest of the people"): every card gets a figure.
+# Real-athlete slots get a FICTIONAL same-sport composite figure, never a likeness; the card tag says so.
+ART={x['id']:'/assets/media/cut-%s-640.webp'%x['id'] for x in S+[SOCCER] if not x.get('composite')}
 out=[]
 for x in S+[SOCCER]:
   x=dict(x);f=FIX.get(x['id'],{})
@@ -52,7 +55,7 @@ for x in S+[SOCCER]:
   out.append({'id':x['id'],'name':x['name'],'short':'Maya (composite)' if comp else x['name'],'composite':comp,'label':x.get('label',''),'sport':x['sport'],
    'from':(x.get('hs') or 'Club swimmer').split(';')[0],'school':x.get('hs') or '','college':x.get('college') or 'D2 program','div':x['division'],'path':x['path'],
    'timeline':x['timeline'],'basis':x.get('basis',[]),'turning':x.get('turning',[]),'replicate':x.get('replicate',[]),
-   'img':'/assets/media/cut-swimmer-640.webp' if comp else '','video':('/assets/media/real-%s-720p.mp4'%x['id']) if x['id'] in VID else '',
+   'img':('/assets/media/cut-swimmer-640.webp' if comp else ART.get(x['id'],'')),'art_fictional':(not comp) and x['id'] in ART,'video':('/assets/media/real-%s-720p.mp4'%x['id']) if x['id'] in VID else '',
    'poster':('/assets/media/real-%s-poster.jpg'%x['id']) if x['id'] in VID else '','hold':x['id'] in HOLD,'playbooks':MAP2[x['id']]})
 # Maya: feed her W2-scripts beats 1-6 (beat 7 = playbooks section) in the composite shape
 _SC=json.load(open(R+'/v3/W2-scripts/SCRIPTS.json'));_SC=_SC if isinstance(_SC,list) else _SC.get('stories')
@@ -65,7 +68,7 @@ for a in out:
 for c in json.load(open(R+'/v3/W4-composites/COMPOSITES.json'))['stories']:
   out.append({'id':c['id'],'name':c['name'],'short':c['short'],'composite':True,'label':c['label'],'sport':c['sport'],'from':c['hs'],'school':c['hs'],'college':c['college'],'div':c['division'],'path':c['path'],
    'timeline':[],'basis':c['basis'],'turning':[],'replicate':[],'img':c['img'],'video':'','poster':'','hold':False,'playbooks':c['playbooks'],'beats':c['beats'],'rule':c['rule'],'real_person':False})
-assert not any(a['img'] and not a['composite'] for a in out)
+assert not any(a['img'] and not a['composite'] and not a.get('art_fictional') for a in out), 'a real-athlete card may only carry a fictional-art figure'
 # ring order: figures lead, composites interleaved with real posters
 cs=[a for a in out if a['composite']];rs=[a for a in out if not a['composite']];o=[]
 while cs or rs:

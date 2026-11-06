@@ -6,7 +6,8 @@ const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
 const wrapPi=p=>{p=p%(2*Math.PI);if(p>Math.PI)p-=2*Math.PI;if(p<=-Math.PI)p+=2*Math.PI;return p};
 const sil=(i)=>{const poses=['M50 8a9 9 0 1 1 0 18a9 9 0 1 1 0-18zM38 30h24l6 50-8 2-4-30-2 50 6 64h-11l-7-56-7 56H24l6-64-2-50-4 30-8-2z','M50 6a9 9 0 1 1 0 18a9 9 0 1 1 0-18zM36 28h28l14 30-8 4-10-18 2 46 4 68h-11l-9-58-9 58H26l4-68 2-46-10 18-8-4z'];
  return `<svg viewBox="0 0 100 180" aria-hidden="true"><path fill="#111" d="${poses[i%2]}"/></svg>`};
-const cardHTML=(a,i)=>`<span class="card__shadow"></span><span class="card__art">${a.img?`<img src="${a.img}" alt="" loading="eager" decoding="async">`:`<span class="card__poster"><b>${a.sport}</b><i>${a.short}</i></span>`}</span><span class="card__lbl">${a.composite?'Illustration · Composite':'Real athlete · sourced'}</span>
+const sp=(s)=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const cardHTML=(a,i)=>`<span class="card__shadow"></span><span class="card__art">${a.img?`<img src="${a.img}" alt="${a.composite?'Illustration of a fictional composite '+sp(a.sport)+' athlete':'Illustration of a fictional '+sp(a.sport)+' athlete, not '+sp(a.short)}" loading="eager" decoding="async">`:`<span class="card__poster"><b>${a.sport}</b><i>${a.short}</i></span>`}</span><span class="card__lbl">${a.composite?'Illustration · Composite':(a.art_fictional?'Illustration · not '+a.short:'Real athlete · sourced')}</span>
 <span class="card__meta"><span class="card__div">${a.div}</span><div class="card__name">${a.short}</div><div class="card__line">${a.sport}<br>${a.from} → ${a.college}</div></span>`;
 class StoryRing extends HTMLElement{
 connectedCallback(){
