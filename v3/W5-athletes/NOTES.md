@@ -29,3 +29,11 @@ real-athlete cards stay typographic, delete ART in v3/W2-site/data_build.py and 
 ## Payload note
 Card art on the home page went from 8 to 21 images: 1.64 MB of 640px webp (all eager, the ring's existing no-pop-in rule).
 Drop to ~1.1 MB by regenerating at quality 76 if the perf lane wants it back.
+
+## v2 (post-Mike review 2026-11-06 11:09)
+- ROSTER2 v2 prompts: jersey as outermost top, large near-miss crest, headroom clause. All 21 generated (provider had one connection-error wave; retry succeeded).
+- Audit: 21/21 jersey/crest/gear/marks PASS; 9 headroom FAILs fixed by re-key with 12% top headroom (build4.py; pixel-verified gap; crest@96px still PASS).
+- v1 keyed webp backed up to v1media/. Keyed v2 lives in site/assets/media. Manifest IMAGES-v2.json.
+- Cards keep tag "Illustration · not <athlete>" / "Illustration · Composite".
+## W8 rebrand link
+- Mike m00328: Gumroad concepts -> Commit Book offerings, catalog + 8 built deliverables at v3/W8-offerings/. Story mapping >=6 (actual 9-10) in OFFERINGS.json['stories'].
