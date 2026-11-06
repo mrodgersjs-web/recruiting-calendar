@@ -133,3 +133,11 @@ story-ring.is-revealed .sr__stage{opacity:1;transition:opacity 1.6s .1s}story-ri
  .card__div{font-size:12px;padding:3px 6px;background:var(--ink);color:#fff}
  .card__shadow{height:34px;background:radial-gradient(closest-side,rgb(0 0 0/.38),rgb(0 0 0/0))}
 }
+
+/* desktop mid-spin legibility (heartbeat run 13): only the front card shows its meta; panel rows never caught blurred; bigger front figure */
+@media (min-width:750px){
+ .sr__body .card__meta{transition:opacity .25s,visibility .25s}
+ .is-in .sr__item{animation-duration:.55s;animation-delay:calc(var(--i)*40ms + 40ms)}
+ @keyframes itemin{from{opacity:0;transform:translateY(14px)}}
+ .sr__hero .card__art img,.sr__body .card__art img{transform:scale(1.12);transform-origin:50% 100%}
+}

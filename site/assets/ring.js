@@ -56,6 +56,7 @@ put(s,x,bottom,scale,op,blur,z){
  const e=s.el;e.style.transform=`translate3d(${x.toFixed(2)}px,${(-bottom).toFixed(2)}px,0) translateX(-50%) scale(${scale.toFixed(4)})`;
  e.style.opacity=op.toFixed(3);e.style.zIndex=z;e.style.visibility=op<.01?'hidden':'visible';e.style.pointerEvents=op<.5?'none':'auto';
  const b=Math.round(blur*10)/10;if(b!==s.blur){s.blur=b;e.style.filter=b>.05?`blur(${b}px)`:''}
+ if(!this.mob){const m=e.querySelector('.card__meta');if(m){const front=scale>=.99*(this.fs||1)&&b<.3;const v=front?1:0;if(s.mv!==v){s.mv=v;m.style.opacity=v;m.style.visibility=v?'visible':'hidden'}}}
 }
 renderRing(){
  const W=this.W,H=this.H,cx=.5*W,R=.62*W,P=1.05*W,floor=H-34,hor=.36*H,step=2*Math.PI/this.N;
