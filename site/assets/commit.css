@@ -181,3 +181,26 @@ select,input{font-family:var(--font-text);background:#fff!important;border-radiu
 .hx-word{font-size:44vw;top:30%}
 .story .b1.hx-r .hx-name{font-size:clamp(52px,16vw,88px)}
 }
+/* /price phone: illustration hero + bold plan cards (heartbeat run 9) */
+.pr-hero{display:none}
+@media (max-width:749px){
+ body[data-page=price] .pr-hero{display:block;position:relative;margin:4px -24px 22px;height:300px;overflow:hidden;background:#222}
+ body[data-page=price] .pr-hero .pr-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+ body[data-page=price] .pr-hero .pr-fig{position:absolute;right:6%;bottom:0;height:94%;width:auto;filter:drop-shadow(0 12px 16px rgb(0 0 0/.35))}
+ body[data-page=price] .pr-hero .tag-ill{position:absolute;top:12px;left:12px;z-index:2}
+ body[data-page=price] .pr-hero figcaption{position:absolute;left:0;right:0;bottom:0;padding:40px 20px 14px;color:#fff;font:400 26px/.95 var(--font-display);text-transform:uppercase;max-width:62%;background:linear-gradient(to top,rgb(0 0 0/.7),rgb(0 0 0/0))}
+ body[data-page=price] .tiers{border:0;gap:14px;display:grid}
+ body[data-page=price] .tier{border:2px solid var(--c-ink,#111);border-radius:0;padding:22px 20px;background:#fff}
+ body[data-page=price] .tier h3{font:400 30px/1 var(--font-display);text-transform:uppercase;margin:0 0 6px}
+ body[data-page=price] .tier .amt{font:400 64px/.9 var(--font-display);margin:0 0 12px}
+ body[data-page=price] .tier.lead{background:var(--c-ink,#111);color:#fff;border-color:var(--c-ink,#111);order:-1}
+ body[data-page=price] .tier.lead .flag{display:inline-block;background:var(--c-signal,#d2321e);color:#fff;padding:5px 8px;font:700 11px/1 Arial;letter-spacing:.1em;text-transform:uppercase}
+ body[data-page=price] .tier.lead .note,body[data-page=price] .tier.lead li{color:#f2f2f2}
+ body[data-page=price] .tier.lead .btn{background:#fff;color:#111;border-color:#fff}
+ body[data-page=price] .tier .btn{width:100%;justify-content:center;text-align:center;min-height:48px;display:flex;align-items:center}
+}
+@media (max-width:749px){
+ body[data-page=price] .tier.lead,body[data-page=price] .tier.lead h3,body[data-page=price] .tier.lead .amt,body[data-page=price] .tier.lead .amt span,body[data-page=price] .tier.lead p{color:#fff}
+ body[data-page=price] .tier.lead .amt s{color:#bbb}
+}
+@media (max-width:749px){body[data-page=price] .tiers .tier.lead{background:var(--c-ink,#111)!important;border-color:var(--c-ink,#111)!important}}

@@ -110,12 +110,17 @@ for f in glob.glob(SITE+'/**/index.html',recursive=True):
   s=re.sub(r'<link rel="icon".*?<meta name="theme-color" content="#ffffff">','',s,flags=re.S)
   s=re.sub(r'<script src="/checkout.js[^"]*" defer></script><link rel="stylesheet" href="/assets/tokens.css"><link rel="stylesheet" href="/assets/commit.css[^"]*">','',s)
   s=s.replace('<link rel="stylesheet" href="/style.css">','<link rel="stylesheet" href="/style.css">'+HEADIN+CSS)
+  s=s.replace('<link rel="stylesheet" href="/assets/commit.css">','')
   s=s.replace(' class="intro-pending"','')
+  if rel=='price/index.html' and 'pr-hero' not in s:
+    s=s.replace('<body','<body data-page="price"',1)
+    s=re.sub(r'(<div class="tiers")',r'<figure class="pr-hero" aria-hidden="true"><img src="/assets/media/env-gym-1080.webp" alt="" class="pr-bg"><img src="/assets/media/cut-volleyball-1080.webp" alt="" class="pr-fig" loading="eager"><span class="tag-ill">Illustration</span><figcaption>Less than one showcase. Every date cited to its bylaw.</figcaption></figure>\1',s,count=1)
+
   if '/assets/site.js' not in s: s=s.replace('</body>','<script src="/assets/stories.js"></script><script src="/assets/site.js" defer></script></body>')
   s=re.sub(r'(<form class="capture".*?</form>)(?!<p class="note f5">)',r'\1<p class="note f5">For parents and guardians. We do not knowingly collect information from children under 13.</p>',s,flags=re.S)
   s=s.replace('your receipt email says how to cancel online in one click.','manage or cancel your trial any time from the billing link on this page.')
   open(f,'w').write(s)
-REP=[('<s>$149</s>',''),('Most families can run recruiting themselves','You can run recruiting without a paid service. Plenty of families do'),('Most families can run recruiting on their own','You can run recruiting without a paid service. Plenty of families do'),
+REP=[('<s>$149</s>',''),('leave your email and we will send the founding-member link','leave your email to hear when founding membership opens'),('Most families can run recruiting themselves','You can run recruiting without a paid service. Plenty of families do'),('Most families can run recruiting on their own','You can run recruiting without a paid service. Plenty of families do'),
  ('what each one costs if you miss it','what happens if you wait'),('what it costs to miss it','what happens if you wait'),
  ('Cancel any time by email or from your account; cancelling stops the next renewal','Cancel online any time from your billing page. Cancelling stops the next renewal'),
  ('Cancel any time online in one click','Cancel online any time from your billing page.'[:-1]),('Trial members: manage or cancel your trial any time from the billing link on this page','Trial members: cancel online any time from your billing page, linked below'),
