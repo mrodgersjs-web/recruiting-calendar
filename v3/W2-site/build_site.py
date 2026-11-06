@@ -4,7 +4,9 @@ D=json.load(open(R+'/v3/W2-site/data.json'));A=D['athletes'];P=D['playbooks']
 SEO=json.load(open(R+'/v3/W2-seo/head-tags.json'))
 e=html.escape
 HEADIN='<link rel="icon" href="/assets/logo/favicon.svg" type="image/svg+xml"><link rel="icon" href="/assets/logo/favicon-32.png" sizes="32x32"><link rel="apple-touch-icon" href="/assets/logo/favicon-256.png"><meta property="og:image" content="/assets/logo/social-card-dark.png"><meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#ffffff">'
-CSS='<script src="/checkout.js" defer></script><link rel="stylesheet" href="/assets/tokens.css"><link rel="stylesheet" href="/assets/commit.css">'
+import hashlib
+CV=hashlib.md5(open(SITE+'/assets/commit.css','rb').read()).hexdigest()[:8]
+CSS='<script src="/checkout.js" defer></script><link rel="stylesheet" href="/assets/tokens.css"><link rel="stylesheet" href="/assets/commit.css?v='+CV+'">'
 HDR='''<header class="site-header cb-header"><a class="brand" href="/" aria-label="The Commit Book home"><img src="/assets/logo/lockup-horizontal-light.svg" alt="The Commit Book" width="135" height="30"></a><button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button><nav id="site-nav" aria-label="Main"><a href="/">Stories</a><a href="/calendar">Calendar</a><a href="/playbooks">Playbooks</a><a href="/rules">Rules</a><a href="/price">Price</a></nav><a class="bag" href="/playbooks">Bag (<span data-bag-count>0</span>)</a></header>'''
 FTR='''<footer class="cb-foot"><img src="/assets/logo/lockup-horizontal-dark.svg" alt="The Commit Book" width="180" height="40"><p class="footnav"><a href="/">Stories</a> · <a href="/playbooks">Playbooks</a> · <a href="/calendar">Calendar</a> · <a href="/rules">Rules by sport</a> · <a href="/math">Roster math</a> · <a href="/camps">Camps</a> · <a href="/compare">Compare</a> · <a href="/price">Price</a> · <a href="/about">About</a> · <a href="/legal/terms">Terms</a> · <a href="/legal/privacy">Privacy</a> · <a href="/legal/refund">Refunds</a> · <a href="/legal/auto-renewal">Auto-renewal</a></p><p>Education, not legal advice. We do not recruit or place athletes, and nobody here contacts your kid. No scholarship, offer or roster spot is promised. Stories of real athletes are built only from public sources, linked on each page; no likeness of a real person is generated. Images marked Illustration show fictional composites. Not affiliated with or endorsed by the NCAA, NAIA, NJCAA, any college, or any athlete named on this site.</p></footer>'''
 def seo(path,title,desc):
@@ -44,7 +46,7 @@ def VIS(a,n):
   t=a['timeline'];f=t[min(n-1,len(t)-1)] if t else {'date':'','fact':''}
   if n==1:
     return f'<section class="beat vis vis-t" aria-label="{e(a["sport"])} at {e(a["college"])}"><p class="vis-giant" aria-hidden="true">{e(SPW(a["sport"]))}</p><div class="vis-tbody"><p class="lab">{e(a["div"])}</p><p class="vis-college">{e(a["college"])}</p><p class="vis-date">{e(f["date"])}</p><p class="vis-fact">{e(f["fact"])}</p></div></section>'
-  return f'<section class="beat vis vis-v"><video src="{a["video"]}" poster="{a["poster"]}" muted playsinline loop preload="metadata" aria-label="Kinetic typography. No likeness of {e(a["name"])}."></video><div class="vis-vcap"><p class="vis-date">{e(f["date"])}</p><p class="vis-fact">{e(f["fact"])}</p><p class="note">Typography only. No image of {e(a["name"])} is shown or generated.</p></div></section>'
+  return f'<section class="beat vis vis-v"><video src="{a["video"]}" poster="/assets/media/real-{a["id"]}-poster.jpg" muted playsinline loop preload="none" aria-label="Kinetic typography. No likeness of {e(a["name"])}."></video><div class="vis-vcap"><p class="vis-date">{e(f["date"])}</p><p class="vis-fact">{e(f["fact"])}</p><p class="note">Typography only. No image of {e(a["name"])} is shown or generated.</p></div></section>'
 for a in A:
   pb=a['playbooks'];tot=sum(P[p]['price'] for p in pb)
   if a['composite']:
@@ -91,7 +93,7 @@ for f in glob.glob(SITE+'/**/index.html',recursive=True):
   s=re.sub(r'<header class="site-header cb-header">.*?</header>',HDR,s,flags=re.S)
   s=re.sub(r'<footer class="(foot|cb-foot)">.*?</footer>',FTR,s,flags=re.S)
   s=re.sub(r'<link rel="icon".*?<meta name="theme-color" content="#ffffff">','',s,flags=re.S)
-  s=s.replace(CSS,'')
+  s=re.sub(r'<script src="/checkout.js" defer></script><link rel="stylesheet" href="/assets/tokens.css"><link rel="stylesheet" href="/assets/commit.css[^"]*">','',s)
   s=s.replace('<link rel="stylesheet" href="/style.css">','<link rel="stylesheet" href="/style.css">'+HEADIN+CSS)
   s=s.replace(' class="intro-pending"','')
   if '/assets/site.js' not in s: s=s.replace('</body>','<script src="/assets/stories.js"></script><script src="/assets/site.js" defer></script></body>')
