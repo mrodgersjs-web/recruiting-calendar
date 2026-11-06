@@ -9,7 +9,7 @@ export const SPORTS=['football','baseball','track'];
 const SPORT_BOOK={football:'football-junior-year',baseball:'baseball-showcase-to-signing',track:'track-field-marks'};
 export const TRIAL_DAYS=14, SIDELINE_USD=149;
 // Exact auto-renew disclosure. Must render next to EVERY trial button and in Stripe's submit text.
-export const TRIAL_DISCLOSURE=`Free for ${TRIAL_DAYS} days, then $${SIDELINE_USD} per year, renewing yearly until you cancel. Cancel any time online in one click. We email you 7 days before the trial ends.`;
+export const TRIAL_DISCLOSURE=`Free for ${TRIAL_DAYS} days, then $${SIDELINE_USD} per year, renewing yearly until you cancel. Cancel any time online in one click. Your renewal date is shown on your billing page.`;
 export const books=Object.fromEntries(CAT.catalog.map(p=>[p.slug,p]));
 export const hasPdf=slug=>fs.existsSync(path.join(PDF_DIR,`${slug}.pdf`));
 const ready=slug=>books[slug]?.status==='WRITTEN'&&hasPdf(slug);
