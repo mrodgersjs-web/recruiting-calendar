@@ -1,0 +1,4 @@
+research/
+funnel/lead-magnet/out/
+*.md
+!site/**

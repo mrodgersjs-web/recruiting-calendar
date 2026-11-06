@@ -1,0 +1,11 @@
+(function(){
+ var b=document.querySelector('.menu-btn'),n=document.getElementById('site-nav');
+ if(b&&n){b.addEventListener('click',function(){var o=b.getAttribute('aria-expanded')==='true';b.setAttribute('aria-expanded',String(!o));n.classList.toggle('open',!o);});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&n.classList.contains('open')){n.classList.remove('open');b.setAttribute('aria-expanded','false');b.focus();}});}
+ function msg(f,t,ok){var p=f.querySelector('.form-msg');if(!p){p=document.createElement('p');p.className='form-msg';p.setAttribute('role','status');f.appendChild(p);}p.textContent=t;p.dataset.ok=ok?'1':'0';}
+ document.querySelectorAll('form.capture').forEach(function(f){f.addEventListener('submit',function(e){e.preventDefault();var d=Object.fromEntries(new FormData(f));d.consent=!!f.querySelector('[name=consent]:checked');
+  if(!d.consent){msg(f,'Please tick the box so we can email you.');return;}
+  fetch('/api/capture',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(d)}).then(function(r){return r.json().then(function(j){return[r.ok,j]})}).then(function(x){if(x[0]){msg(f,'Saved. Your calendar PDF: ',1);var a=document.createElement('a');a.href=x[1].pdf||'/downloads/recruiting-calendar-class-2029.pdf';a.textContent='download';f.querySelector('.form-msg').appendChild(a);}else msg(f,x[1].error||'Could not save. Try again.');}).catch(function(){msg(f,'Sign-up is not connected in this preview. Nothing was sent.');});});});
+ document.querySelectorAll('[data-checkout]').forEach(function(btn){btn.addEventListener('click',function(e){e.preventDefault();var em=document.querySelector('form.capture [name=email]');
+  fetch('/api/checkout',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({plan:btn.dataset.checkout,email:em&&em.value||undefined})}).then(function(r){return r.json()}).then(function(j){if(j.url)location.href=j.url;else throw 0;}).catch(function(){var f=document.querySelector('form.capture');if(f){f.querySelector('[name=plan]').value=btn.dataset.checkout;f.scrollIntoView();msg(f,'Checkout is not connected in this preview. Leave your email and we will send the link.');}});});});
+})();

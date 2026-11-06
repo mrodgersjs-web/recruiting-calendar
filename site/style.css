@@ -96,3 +96,30 @@ select{font-size:17px;padding:11px 12px;border:1px solid var(--ink);background:v
 .crumb{font-family:"Helvetica Neue",Arial,sans-serif;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink3);margin-bottom:14px}.crumb a{color:var(--ink3)}
 @media (prefers-reduced-motion:no-preference){.ledger li{animation:rise .5s both}@keyframes rise{from{opacity:0;transform:translateY(8px)}}}
 img,table{max-width:100%}body{overflow-x:hidden}
+.menu-btn{display:none;margin-left:auto;font:700 12px/1 "Helvetica Neue",Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase;background:transparent;border:1px solid var(--ink);padding:10px 14px;color:var(--ink);cursor:pointer;min-height:44px}
+.capture select{font-size:16px;padding:11px}.capture .consent{flex-basis:100%;font:13px/1.4 "Helvetica Neue",Arial,sans-serif;color:var(--ink2);display:flex;gap:8px;align-items:flex-start}.capture .consent input{width:auto;flex:none;min-width:0}
+.hp{position:absolute;left:-9999px;width:1px;height:1px}.form-msg{flex-basis:100%;font:14px "Helvetica Neue",Arial,sans-serif;margin:4px 0 0}.form-msg[data-ok="0"]{color:var(--red)}
+@media (max-width:860px){.menu-btn{display:inline-block}#site-nav{display:none;flex-basis:100%;flex-direction:column;gap:0;margin:0}#site-nav.open{display:flex}#site-nav a{padding:14px 0;border-top:1px solid var(--rule)}}
+/* L1 motion */
+html.intro-pending .masthead,html.intro-pending .hero{opacity:0}
+.fade{opacity:0;transform:translateY(24px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1)}.fade.in{opacity:1;transform:none}
+.ledger li.pulse .day::before{content:"";width:10px;height:10px;border-radius:50%;background:var(--red);order:2;margin-top:6px;animation:pulse .6s 1 .4s}@keyframes pulse{50%{transform:scale(1.4)}}
+[data-spot]{position:relative}[data-spot]::after{content:"";position:absolute;inset:0;pointer-events:none;border:1px solid transparent;background:radial-gradient(220px circle at var(--spot-x,-999px) var(--spot-y,-999px),rgba(210,50,30,.35),transparent 60%) border-box;-webkit-mask:linear-gradient(#000 0 0) padding-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude}
+.tier.lead{border-top:3px solid var(--red)}
+.btn{transition:transform .25s cubic-bezier(.22,1,.36,1),background .15s}.btn:hover{transform:translateY(-1px)}
+.sport-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:22px;max-width:880px}
+.sport-cards button{display:flex;align-items:center;gap:14px;text-align:left;background:#fffdf7;border:1px solid var(--ink);padding:16px;font:700 15px "Helvetica Neue",Arial,sans-serif;color:var(--ink);cursor:pointer;transition:border-color .15s,transform .15s;min-height:44px}
+.sport-cards button:hover{border-color:var(--red);transform:translateY(-1px)}
+.sport-cards i{font:italic 700 24px Didot,"Bodoni 72",Georgia,serif;width:42px;height:42px;border:1px solid var(--ink);border-radius:50%;display:grid;place-items:center;flex:none}
+.acc{border-top:1px solid var(--ink);max-width:880px}.acc-i{border-bottom:1px solid var(--rule)}.acc-i:hover{border-bottom-color:var(--red)}
+.acc-q{width:100%;display:flex;justify-content:space-between;gap:16px;background:none;border:0;padding:18px 0;font:700 20px Didot,"Bodoni 72",Georgia,serif;color:var(--ink);text-align:left;cursor:pointer}
+.acc-q::after{content:"\2304";transition:transform .32s;color:var(--red)}.acc-i.open .acc-q::after{transform:rotate(180deg)}
+.acc-a{display:grid;grid-template-rows:0fr;transition:grid-template-rows .32s cubic-bezier(.22,1,.36,1)}.acc-i.open .acc-a{grid-template-rows:1fr}.acc-a>div{overflow:hidden}.acc-a p{padding-bottom:14px;margin:0;color:var(--ink2)}
+.band{background:var(--ink);color:var(--paper);padding:56px 24px;text-align:center;margin-top:40px}.band h2{color:var(--paper)}.band .btn{background:var(--red);border-color:var(--red)}.band .btn.ghost{background:transparent;color:var(--paper);border-color:var(--paper)}
+.bigmark{font:700 clamp(40px,9vw,120px)/1 Didot,"Bodoni 72",Georgia,serif;letter-spacing:-.03em;color:var(--ink);margin:0 0 18px}.bigmark em{color:var(--red)}
+.foot a{transition:color .15s}.foot a:hover{color:var(--red)}
+@media (max-width:860px){.sport-cards{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+.pull{margin:24px 0;padding:0 0 0 22px;border-left:3px solid var(--red);font:italic 22px/1.45 Didot,"Bodoni 72",Georgia,serif;max-width:40em}.pull cite{display:block;margin-top:10px;font:normal 12px "Helvetica Neue",Arial,sans-serif;color:var(--ink3);letter-spacing:.04em}
+.page td{min-width:150px}
+.promise{font:700 15px 'Helvetica Neue',Arial,sans-serif;letter-spacing:.02em;margin:-6px 0 14px}.refund{margin:8px 0 0;font-size:12px}

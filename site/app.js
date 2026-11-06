@@ -13,13 +13,13 @@
   $('dates-meta').textContent=rows.length+' dates · verified '+set.verified_on+' · '+set.source_label;
   rows.forEach((d,i)=>{
    const li=document.createElement('li'); if(i>=FREE)li.className='locked';
-   const K={opening:'Opening',window:'Window opens',projected:'Projected',hard:'Hard limit',action:'Our recommended date'};li.dataset.kind=d.kind;li.innerHTML=(d.dt?'<div><div class="day">'+d.dt.getDate()+'</div><span class="when">'+M[d.dt.getMonth()]+' '+d.dt.getFullYear()+'</span>':'<div><div class="day sm">Your school\'s date</div>')+'<span class="tag">'+K[d.kind]+'</span></div>'+
+   const K={opening:'Opening',window:'Window opens',projected:'Projected',hard:'Hard limit',action:'Our recommended date'};li.dataset.kind=d.kind;if(d.dt)li.dataset.ts=d.dt.getTime();li.innerHTML=(d.dt?'<div><div class="day">'+d.dt.getDate()+'</div><span class="when">'+M[d.dt.getMonth()]+' '+d.dt.getFullYear()+'</span>':'<div><div class="day sm">Your school\'s date</div>')+'<span class="tag">'+K[d.kind]+'</span></div>'+
     '<div><h3>'+d.event+'</h3><p>'+d.plain_english+'</p><p class="src">'+(d.rule?d.rule+' · ':'')+'<a href="'+d.citation_url+'" target="_blank" rel="noopener">source</a></p></div>'+
     '<div class="cost"><b>'+(d.kind==='hard'?'If you miss it':'If you wait')+'</b>'+d.cost_if_missed+'</div>';
    ledger.appendChild(li);
   });
   $('gate-n').textContent=Math.max(0,rows.length-FREE);
-  $('gate').style.display=rows.length>FREE?'':'none';
+  $('gate').style.display=rows.length>FREE?'':'none';if(window.RC_led)window.RC_led();
  }
  $('go').addEventListener('click',()=>{render();document.getElementById('dates').scrollIntoView();});
  $('sport').addEventListener('change',render);$('cls').addEventListener('change',render);

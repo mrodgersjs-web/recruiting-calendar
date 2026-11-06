@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-type="service">
+<html lang="en" data-type="service" class="intro-pending">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="page-type" content="service"><meta name="site-kind" content="other">
@@ -11,7 +11,7 @@
 <header class="masthead">
   <div class="wrap row">
     <a class="wordmark" href="#">The Recruiting <em>Calendar</em></a>
-    <nav><a href="/rules/">Rules</a><a href="/math/">Roster math</a><a href="/camps/">Camps</a><a href="/compare/">Compare</a><a href="/price/">Price</a><a href="/free/">Free guide</a></nav>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button><nav id="site-nav" aria-label="Main"><a href="/rules">Rules</a><a href="/math">Roster math</a><a href="/camps">Camps</a><a href="/compare">Compare</a><a href="/price">Price</a><a href="/free">Free guide</a></nav>
   </div>
   <div class="wrap dateline"><span>Vol. 1</span><span>Rules checked against the 2026-27 NCAA Division I Manual</span><span id="today"></span></div>
 </header>
@@ -19,8 +19,9 @@
 <main>
 <section class="hero wrap">
   <p class="kicker">For parents of high school football, baseball and track athletes</p>
+  <p class="promise">No sales call. Nobody phones your kid.</p>
   <h1>Every date a college coach may contact your kid, in one sourced calendar.</h1>
-  <p class="lede">Recruiting runs on deadlines nobody prints in one place. Pick the sport and the class year. You see every date, the rule behind it, and what it costs if you miss it.</p>
+  <p class="lede">A free PDF lists one season's dates. Ours is live for your kid's sport and class year, links every date to its bylaw, and emails you before each one. It also tells you what each one costs if you miss it. Most families can run recruiting themselves; this is the kit that makes doing it yourself work.</p>
 
   <form class="picker" id="picker" onsubmit="return false">
     <label>Sport
@@ -33,6 +34,7 @@
       <select id="cls"><option>2027</option><option>2028</option><option selected>2029</option><option>2030</option></select></label>
     <button id="go" type="button">Show my dates</button>
   </form>
+  <div class="sport-cards" aria-label="Pick a sport"><button type="button" data-sport-card="football"><i>F</i>Football</button><button type="button" data-sport-card="baseball"><i>B</i>Baseball</button><button type="button" data-sport-card="track"><i>T</i>Track &amp; XC</button></div>
   <p class="fine">Free. No account and no film upload. 3 dates are free; the full calendar comes with membership.</p>
 </section>
 
@@ -80,13 +82,15 @@
   <div class="wrap wide grid2">
     <div>
       <p class="kicker">How we're different</p>
-      <h2>No sales call. No promise of a scholarship. A published price.</h2>
+      <h2>No sales call. No one phones your kid. The price is on this page.</h2>
     </div>
     <ul class="ticks">
       <li><strong>Every date cites the rule.</strong> The bylaw number, a link to the NCAA source, and the day we last checked it.</li>
       <li><strong>The price is on this page.</strong> You will not need a phone call to find out what it costs.</li>
       <li><strong>30 days, full refund.</strong> Ask by email. We won't run a retention script on you.</li>
       <li><strong>We sell the rules, not exposure.</strong> We don't promise coaches will see your kid. Nobody honest can.</li>
+      <li><strong>We only email the parent.</strong> No calls, and never to your kid.</li>
+      <li><strong>Doing it yourself works.</strong> Most families can run recruiting on their own. This is the calendar, the rules and the tracker that make it work. <a href="/compare">See how we compare</a>.</li>
     </ul>
   </div>
 </section>
@@ -95,33 +99,37 @@
   <p class="kicker">Price</p>
   <h2>One school year of dates, for less than one showcase.</h2>
   <div class="tiers">
-    <div class="tier">
+    <div class="tier" data-spot data-fade>
       <h3>Free</h3><p class="amt">$0</p>
       <ul><li>3 dates for your sport and class year</li><li>Roster math</li><li>Monthly rules briefing by email</li></ul>
       <a class="btn ghost" href="#dates">See your dates</a>
     </div>
-    <div class="tier lead">
+    <div class="tier lead" data-spot data-fade data-delay=".1">
       <p class="flag">Founding members, first 100</p>
       <h3>Sideline</h3><p class="amt">$99<span>/yr</span> <s>$149</s></p>
-      <ul><li>Full calendar for one sport and class year</li><li>Email alerts 30 and 7 days before each date</li><li>Recruiting tracker for schools, coaches and visits</li><li>The full tool library: coach scripts, visit scorecard, NIL checklist</li></ul>
-      <a class="btn" href="mailto:hello@therecruitingcalendar.example?subject=Founding%20Sideline">Become a founding member</a>
+      <ul><li>Full calendar for one sport and class year</li><li>Email alerts 30 and 7 days before each date</li><li>Your recruiting spreadsheet, already built: schools, coach contacts, emails, follow-ups, film links</li><li>The full tool library: coach scripts, visit scorecard, NIL checklist</li></ul>
+      <a class="btn" href="/price" data-checkout="sideline">Start the 14-day free trial</a><p class="note refund">30-day full refund. Ask by email.</p>
     </div>
-    <div class="tier">
+    <div class="tier" data-spot data-fade>
       <h3>Pathway</h3><p class="amt">$499<span>/yr</span></p>
       <ul><li>Everything in Sideline, for two sports or two kids</li><li>A written plan review each quarter</li><li>A target-school list, checked against your calendar</li><li>Questions answered in writing</li></ul>
-      <a class="btn ghost" href="mailto:hello@therecruitingcalendar.example?subject=Pathway">Ask about Pathway</a>
+      <a class="btn ghost" href="/price#join">Choose Pathway</a><p class="note refund">30-day full refund. Ask by email.</p>
     </div>
   </div>
-  <p class="aside-line">Want a person to review everything? <a href="mailto:hello@therecruitingcalendar.example?subject=Recruiting%20Audit">The Recruiting Audit</a> is $1,500: a 90-minute working session plus a written 12-month plan. High school and club programs: <a href="mailto:hello@therecruitingcalendar.example?subject=Program%20seats">$299 a year covers every athlete</a>.</p>
+  <p class="aside-line">Want a person to review everything? <a href="/price#join">The Recruiting Audit</a> is $1,500: a 90-minute working session plus a written 12-month plan. High school and club programs: <a href="/coaches">$299 a year covers every athlete</a>.</p>
 </section>
+<section class="wrap wide faq" style="padding:72px 24px"><p class="kicker" data-fade>Before you start</p><h2 data-fade data-delay=".1">Questions parents ask first.</h2><div class="acc" data-fade data-delay=".2"><div class="acc-i"><button class="acc-q" type="button" aria-expanded="false">Can't we do this ourselves for free?</button><div class="acc-a"><div><p>Yes, and most families should. Email coaches yourself, use a free FieldLevel account, fill in each program's questionnaire. What we add is the dated rules for your kid's sport and class, and a tracker that is already built.</p></div></div></div><div class="acc-i"><button class="acc-q" type="button" aria-expanded="false">Is this another service that promises my kid a scholarship?</button><div class="acc-a"><div><p>No. We sell the rules and the dates, not exposure. Nobody honest can promise a scholarship, a roster spot or that a coach will look.</p></div></div></div><div class="acc-i"><button class="acc-q" type="button" aria-expanded="false">Where do the dates come from?</button><div class="acc-a"><div><p>The NCAA Division I, II and III manuals and Eligibility Center documents. Every row shows the bylaw, a source link and the day we checked it.</p></div></div></div><div class="acc-i"><button class="acc-q" type="button" aria-expanded="false">What if it isn't worth it?</button><div class="acc-a"><div><p>Email us within 30 days and you get a full refund. No call and no retention script.</p></div></div></div><div class="acc-i"><button class="acc-q" type="button" aria-expanded="false">What do you collect about my kid?</button><div class="acc-a"><div><p>Your email, sport and class year. No athlete names, film, stats or photos.</p></div></div></div><div class="acc-i"><button class="acc-q" type="button" aria-expanded="false">How do I cancel?</button><div class="acc-a"><div><p>Online, in one click, any time. Cancelling stops the next renewal.</p></div></div></div></div></section>
+<section class="band"><h2>Start with your kid's dates.</h2><p>Free for 14 days, then $149 a year (proposed). Cancel online any time. 30-day full refund.</p><a class="btn" href="/price#join" data-checkout="sideline">Start free</a> <a class="btn ghost" href="/free">Get the free PDF</a></section>
 </main>
 
 <footer class="foot">
-  <div class="wrap wide">
-    <p class="footnav"><a href="/rules/">Rules by sport</a> · <a href="/math/">Roster math</a> · <a href="/camps/">Camps</a> · <a href="/coaches/">For coaches</a> · <a href="/about/">About</a> · <a href="/legal/terms/">Terms</a> · <a href="/legal/privacy/">Privacy</a> · <a href="/legal/refund/">Refunds</a> · <a href="/legal/auto-renewal/">Auto-renewal</a></p>
+  <div class="wrap wide"><p class="bigmark">The Recruiting <em>Calendar</em></p>
+    <p class="footnav"><a href="/rules">Rules by sport</a> · <a href="/math">Roster math</a> · <a href="/camps">Camps</a> · <a href="/coaches">For coaches</a> · <a href="/about">About</a> · <a href="/legal/terms">Terms</a> · <a href="/legal/privacy">Privacy</a> · <a href="/legal/refund">Refunds</a> · <a href="/legal/auto-renewal">Auto-renewal</a></p>
     <p>The Recruiting Calendar provides education, not legal advice, and does not recruit or place athletes. Rules change. Confirm each one with the school's compliance office and the governing body. No scholarship, offer or roster spot is promised. Not affiliated with or endorsed by the NCAA, NAIA or NJCAA.</p>
   </div>
 </footer>
 <script src="/data.js"></script>
 <script src="/app.js"></script>
+<script src="/forms.js" defer></script>
+<script src="/motion.js" defer></script>
 </body></html>
