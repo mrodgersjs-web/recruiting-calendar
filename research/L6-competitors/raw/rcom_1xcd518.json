@@ -3,27 +3,607 @@
   "content": [
    {
     "type": "text",
-    "text": "{\n  \"error\": {\n    \"code\": \"bad_request\",\n    \"message\": \"Unknown field `postId`. This tool takes: `url`, `cursor`, `trim`.\",\n    \"requestId\": \"req_bb0eb4c5-1b57-4db5-83d0-0b3e11fa719a\"\n  }\n}"
+    "text": "{\n  \"data\": {\n    \"lookupStatus\": \"found\",\n    \"post\": {\n      \"id\": \"1xcd518\",\n      \"title\": \"Any advice for parents dealing with college sports recruiting?\",\n      \"text\": \"The whole process seems a little overwhelming, especially when you're trying to figure out which colleges might be a good fit. I found NCSA College Recruiting while looking into the options, but I'd like to hear from parents who have been through this. What helped your family the most?\",\n      \"url\": \"https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/any_advice_for_parents_dealing_with_college/\",\n      \"permalink\": \"/r/ApplyingToCollege/comments/1xcd518/any_advice_for_parents_dealing_with_college/\",\n      \"subreddit\": \"ApplyingToCollege\",\n      \"subredditNamePrefixed\": \"r/ApplyingToCollege\",\n      \"author\": \"Material-Scratch845\",\n      \"score\": 6,\n      \"upvoteRatio\": 1,\n      \"commentCount\": 20,\n      \"createdAt\": \"2026-10-22T08:41:16.000Z\",\n      \"createdUtc\": 1792658476,\n      \"over18\": false,\n      \"locked\": false,\n      \"stickied\": false\n    },\n    \"page\": {\n      \"nextCursor\": null,\n      \"hasMore\": false\n    },\n    \"comments\": [\n      {\n        \"id\": \"19rhivlvvq3qb\",\n        \"url\": \"https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rhivlvvq3qb/\",\n        \"permalink\": \"/r/ApplyingToCollege/comments/1xcd518/comment/19rhivlvvq3qb/\",\n        \"parentId\": \"t3_1xcd518\",\n        \"author\": \"Purple_Umpire_8331\",\n        \"text\": \"Skip NCSA!\\n\\n What sport? I would start looking for information specifically for that sport, as the process will vary by sport.\\n\\n My oldest is a college track athlete. You either have competitive times or you don\u2019t. It was a lot of emails and follow ups. Some obviously were not interested because his times just weren\u2019t where they needed to be, but he became much more comfortable communicating with adults in the process. He learned to take the nos gracefully and worked harder to beat the standards at schools he was really interested in. He finally narrowed it down to 3 schools we felt were a good fit for him. He went on official visits to those 3, but one really felt like the right place for him of those 3. It\u2019s a division 1 school, but he does not receive any athletic money. Be aware that in non revenue sports, there aren\u2019t many golden tickets.\",\n        \"renderedHtml\": \"\\n      <p>\\n      Skip NCSA!\\n    </p><p>\\n      What sport?  I would start looking for information specifically for that sport, as the process will vary by sport.\\n    </p><p>\\n      My oldest is a college track athlete.  You either have competitive times or you don\u2019t.  It was a lot of emails and follow ups.  Some obviously were not interested because his times just weren\u2019t where they needed to be, but he became much more comfortable communicating with adults in the process.  He learned to take the nos gracefully and worked harder to beat the standards at schools he was really interested in.  He finally narrowed it down to 3 schools we felt were a good fit for him.  He went on official visits to those 3, but one really felt like the right place for him of those 3.  It\u2019s a division 1 school, but he does not receive any athletic money.  Be aware that in non revenue sports, there aren\u2019t many golden tickets.\\n    </p>\\n    \",\n        \"score\": 10,\n        \"upvotes\": 10,\n        \"createdAt\": \"2026-10-22T13:52:42.000Z\",\n        \"createdUtc\": 1792677162,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"19rhlbz6x0nky\",\n        \"url\": \"https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rhlbz6x0nky/\",\n        \"permalink\": \"/r/ApplyingToCollege/comments/1xcd518/comment/19rhlbz6x0nky/\",\n        \"parentId\": \"t3_1xcd518\",\n        \"author\": \"External_Ad952\",\n        \"text\": \"What sport? My daughter got recruited for volleyball and something it took a while for me to learn is that all sports have different nuances and coaches in those sports use different platforms, etc... There's overlap in principles, but I just don't want to steer you in too specific a direction depending on the sport.\\n\\n In general, here is a quick list of things I've learned:\\n\\n Recruiting services like NCSA are generally unnecessary and a waste of money. They only make sense if you don't want to invest the time, have the extra money to burn, and if your kid is so talented that their options will be there for them no matter what. My daughter got better offers than girls more talented than her who used recruiting services. Paid services have their place, but if you are motivated you can do a much better job yourself.\\n\\n Everyone tells you \\\"the kid has to drive the process,\\\" but it's not that simple. Recruiting is a team effort and you shouldn't feel bad participating or helping. As long as the athlete isn't disengaged and you aren't pushing them in a direction they aren't bought into, dividing and conquering is needed to be successful. My daughter made a list of what she was looking for, I researched a list of target schools and we built her list together. She wrote the outreach and I helped by editing videos, etc.. It's too much work for a high school kid to do alone.\\n\\n People over-value \\\"exposure\\\" in the process. Unless your kid is an athletic phenom, the idea that a college coach just happens to see them at a showcase or tournament or discovers them on social media is a super low-probability way of being recruited. Proactive, targeted e-mail outreach with film and consistent follow up is the single most important thing in this process. A free dedicated Gmail account and free YouTube channels are your most important recruiting tools.\\n\\n Cast a wide net and learn how to focus on realistic possibilities. There are a lot of tools to help create lists, but the more schools you reach out to the more potential opportunity you have. Some will tell you to target 20-50 schools across divisions. I would double that. It doesn't take that much longer to personalize your messages and once you create one, a tweak to personalize for a school is easy. You will quickly learn what levels and types of schools she's getting traction with and can adjust your list and add/delete schools from there.\\n\\n Learn how to narrow down your list to realistic options. Including stretch schools (athletically or academically) is fine, but if you clutter your list with them you're going to waste a lot of time with no return. In my daughter's example, she's a 5'9\\\" pin hitter, so one thing we did was review the current rosters of any school she wanted to reach out to. If a school didn't have a single hitter on the team under 6' tall, we passed. We also knocked several off the list due to cost after completing their Net Price Calculator. So figure out what measurables you can look at ahead of time and take the time to research.\\n\\n Don't sleep on D3. Most high school athletes look at D3 as a negative stigma and most parents look at the fact that there are no athletic scholarships. But when we dug into it, D3 has some really competitive programs, amazing schools (MIT, Emory, Tufts, NYU, UChicago, Vassar, etc...). The two other misconceptions are that it's all small private LACs, but there are a lot of larger (5-10k+) public schools that are D3 if you look for them. Also, many of the private schools give amazing merit scholarships, so don't be put off by the sticker price if you kid has decent grades.\\n\\n Related to the above, at D2 and NAIA virtually all scholarships (academic and athletic) are glorified discounts with conditions, meaning they aren't that different from D3. Some will let you stack academic and athletic, others won't. It really comes down to: what is your net tuition, regardless of how you get there (need, merit, athletic aid)? These aren't funded athletic programs handing dollars out. It's the school discounting their own tuition. Just be aware of that and don't get blinded by the lure of an \\\"athletic scholarship.\\\"\\n\\n If your kid is hell bent on D1 or has the talent, the 5 for 5 rule is going to make recruiting very challenging for high school kids for the foreseeable future. I would fully understand that rule and how the programs you're looking at are managing their rosters as it relates to that.\\n\\n Happy to answer any questions. Best of luck! It's a journey, but in the end it can be very rewarding...\",\n        \"renderedHtml\": \"\\n      <p>\\n      What sport? My daughter got recruited for volleyball and something it took a while for me to learn is that all sports have different nuances and coaches in those sports use different platforms, etc... There's overlap in principles, but I just don't want to steer you in too specific a direction depending on the sport.\\n    </p><p>\\n      In general, here is a quick list of things I've learned:\\n    </p><ol>\\n        <li>\\n      <p>\\n      Recruiting services like NCSA are generally unnecessary and a waste of money. They only make sense if you don't want to invest the time, have the extra money to burn, and if your kid is so talented that their options will be there for them no matter what. My daughter got better offers than girls more talented than her who used recruiting services. Paid services have their place, but if you are motivated you can do a much better job yourself.\\n    </p>\\n    </li><li>\\n      <p>\\n      Everyone tells you \\\"the kid has to drive the process,\\\" but it's not that simple. Recruiting is a team effort and you shouldn't feel bad participating or helping. As long as the athlete isn't disengaged and you aren't pushing them in a direction they aren't bought into, dividing and conquering is needed to be successful. My daughter made a list of what she was looking for, I researched a list of target schools and we built her list together. She wrote the outreach and I helped by editing videos, etc.. It's too much work for a high school kid to do alone.\\n    </p>\\n    </li><li>\\n      <p>\\n      People over-value \\\"exposure\\\" in the process. Unless your kid is an athletic phenom, the idea that a college coach just happens to see them at a showcase or tournament or discovers them on social media is a super low-probability way of being recruited. Proactive, targeted e-mail outreach with film and consistent follow up is the single most important thing in this process. A free dedicated Gmail account and free YouTube channels are your most important recruiting tools.\\n    </p>\\n    </li><li>\\n      <p>\\n      Cast a wide net and learn how to focus on realistic possibilities. There are a lot of tools to help create lists, but the more schools you reach out to the more potential opportunity you have. Some will tell you to target 20-50 schools across divisions. I would double that. It doesn't take that much longer to personalize your messages and once you create one, a tweak to personalize for a school is easy. You will quickly learn what levels and types of schools she's getting traction with and can adjust your list and add/delete schools from there.\\n    </p>\\n    </li><li>\\n      <p>\\n      Learn how to narrow down your list to realistic options. Including stretch schools (athletically or academically) is fine, but if you clutter your list with them you're going to waste a lot of time with no return. In my daughter's example, she's a 5'9\\\" pin hitter, so one thing we did was review the current rosters of any school she wanted to reach out to. If a school didn't have a single hitter on the team under 6' tall, we passed. We also knocked several off the list due to cost after completing their Net Price Calculator. So figure out what measurables you can look at ahead of time and take the time to research.\\n    </p>\\n    </li><li>\\n      <p>\\n      Don't sleep on D3. Most high school athletes look at D3 as a negative stigma and most parents look at the fact that there are no athletic scholarships. But when we dug into it, D3 has some really competitive programs, amazing schools (MIT, Emory, Tufts, NYU, UChicago, Vassar, etc...). The two other misconceptions are that it's all small private LACs, but there are a lot of larger (5-10k+) public schools that are D3 if you look for them. Also, many of the private schools give amazing merit scholarships, so don't be put off by the sticker price if you kid has decent grades.\\n    </p>\\n    </li><li>\\n      <p>\\n      Related to the above, at D2 and NAIA virtually all scholarships (academic and athletic) are glorified discounts with conditions, meaning they aren't that different from D3. Some will let you stack academic and athletic, others won't. It really comes down to: what is your net tuition, regardless of how you get there (need, merit, athletic aid)? These aren't funded athletic programs handing dollars out. It's the school discounting their own tuition. Just be aware of that and don't get blinded by the lure of an \\\"athletic scholarship.\\\"\\n    </p>\\n    </li><li>\\n      <p>\\n      If your kid is hell bent on D1 or has the talent, the 5 for 5 rule is going to make recruiting very challenging for high school kids for the foreseeable future. I would fully understand that rule and how the programs you're looking at are managing their rosters as it relates to that.\\n    </p>\\n    </li>\\n      </ol><p>\\n      Happy to answer any questions. Best of luck! It's a journey, but in the end it can be very rewarding...\\n    </p>\\n    \",\n        \"score\": 8,\n        \"upvotes\": 8,\n        \"createdAt\": \"2026-10-22T14:47:44.000Z\",\n        \"createdUtc\": 1792680464,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"19rnr2o6icew3\",\n              \"url\": \"https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rnr2o6icew3/\",\n              \"permalink\": \"/r/ApplyingToCollege/comments/1xcd518/comment/19rnr2o6icew3/\",\n              \"parentId\": \"t1_19rhlbz6x0nky\",\n              \"author\": \"Juice-cup\",\n              \"text\": \"This is all spot on. My daughter is also a college volleyball player and what you wrote is almost scary in how close it is to the advice I give.\\n\\n NCSA is not necessary. One of closest friends paid NCSA and our kids ended up in the race for the same schools. It's really all about your kid reaching out.\\n\\n We handled this the same way, and so did many other parents whose kids got recruited.\\n\\n If you are not a top tier player, you aren't actually getting recruited, you are almost recruiting the colleges.\\n\\n We created a list of every school, region, division (on Notion). We started narrowing them down overtime. My daughter realized realistically she only like D1 or D3 schools because she was looking into high academics. Because of this, we added our expected cost to the list and eliminated more schools. Eventually we got it to the top 50. And she wrote to most of them after every tournament late sophomore and all of junior year. By the end of Junior year she was down to about 10 schools.\\n\\n Not all D1 schools are giving out athletic scholarships for full teams. It matters what sport, what conference, etc. Merit-aid and Need-based aid come in clutch in these situations.\\n\\n Also, don't lose hope if it gets late in the game. My daughter had already committed but she started receiving unsolicited offers to schools she had both written and not written to, even into January of her senior year.\",\n              \"renderedHtml\": \"\\n      <p>\\n      This is all spot on.  My daughter is also a college volleyball player and what you wrote is almost scary in how close it is to the advice I give.\\n    </p><ol>\\n        <li>\\n      <p>\\n      NCSA is not necessary.  One of closest friends paid NCSA and our kids ended up in the race for the same schools.  It's really all about your kid reaching out.\\n    </p>\\n    </li><li>\\n      <p>\\n      We handled this the same way, and so did many other parents whose kids got recruited.\\n    </p>\\n    </li><li>\\n      <p>\\n      If you are not a top tier player, you aren't actually getting recruited, you are almost recruiting the colleges.\\n    </p>\\n    </li><li>\\n      <p>\\n      We created a list of every school, region, division (on Notion).  We started narrowing them down overtime.  My daughter realized realistically she only like D1 or D3 schools because she was looking into high academics.  Because of this, we added our expected cost to the list and eliminated more schools.  Eventually we got it to the top 50.  And she wrote to most of them after every tournament late sophomore and all of junior year.  By the end of Junior year she was down to about 10 schools.\\n    </p>\\n    </li><li>\\n      <p>\\n      Not all D1 schools are giving out athletic scholarships for full teams.  It matters what sport, what conference, etc.  Merit-aid and Need-based aid come in clutch in these situations.\\n    </p>\\n    </li>\\n      </ol><p>\\n      Also, don't lose hope if it gets late in the game.  My daughter had already committed but she started receiving unsolicited offers to schools she had both written and not written to, even into January of her senior year.\\n    </p>\\n    \",\n              \"score\": 3,\n              \"upvotes\": 3,\n              \"createdAt\": \"2026-10-26T01:39:13.000Z\",\n              \"createdUtc\": 1792978753,\n              \"depth\": 0,\n              \"isSubmitter\": false,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": null,\n                  \"hasMore\": false\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"19rhlbz6x0nky\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"19rh6mhr34kmb\",\n        \"url\": \"https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rh6mhr34kmb/\",\n        \"permalink\": \"/r/ApplyingToCollege/comments/1xcd518/comment/19rh6mhr34kmb/\",\n        \"parentId\": \"t3_1xcd518\",\n        \"author\": \"hebronbear\",\n        \"text\": \"NCSA is a waste of money\",\n        \"renderedHtml\": \"\\n      <p>\\n      NCSA is a waste of money\\n    </p>\\n    \",\n        \"score\": 4,\n        \"upvotes\": 4,\n        \"createdAt\": \"2026-10-22T09:17:58.000Z\",\n        \"createdUtc\": 1792660678,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"19ri449ecjk2p\",\n        \"url\": \"https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19ri449ecjk2p/\",\n        \"permalink\": \"/r/ApplyingToCollege/comments/1xcd518/comment/19ri449ecjk2p/\",\n        \"parentId\": \"t3_1xcd518\",\n        \"author\": \"Responsible-Cup-4352\",\n        \"text\": \"NCSA is a joke, they just want your money\",\n        \"renderedHtml\": \"\\n      <p>\\n      NCSA is a joke, they just want your money\\n    </p>\\n    \",\n        \"score\": 2,\n        \"upvotes\": 2,\n        \"createdAt\": \"2026-10-22T21:48:54.000Z\",\n        \"createdUtc\": 1792705734,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"19roigkl19d9d\",\n        \"url\": \"https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19roigkl19d9d/\",\n        \"permalink\": \"/r/ApplyingToCollege/comments/1xcd518/comment/19roigkl19d9d/\",\n        \"parentId\": \"t3_1xcd518\",\n        \"author\": \"CollegeSportsSheets\",\n        \"text\": \"NCSA can be a four letter word, and people are pretty divided on it. Some find value and others say its a waste of time and money and did nothing for them. My recommendation is to find the subreddit for your kid\u2019s sport and search for NCSA or do \u201creviews NCSA\u201d on google. This will pull up numerous first hand accounts from other parents and give you the info you need. Overall general consensus is that its not worth the money, and all the recruiting work they do, you and your athlete can do yourself. Additionally coaches want to deal directly with the athletes and not a third party service, since it just adds more friction to the process. So use the free resources that they have because there is some good info, but be leery of paying or negotiate the hell out of it to get a lower price. They basically get you on FOMO, that you need this order to get recruited, so if you don\u2019t you are doing your player a disservice.\\n\\n But I would proceed cautiously (and ultimately ignore or if you already made contact just clearly state you aren\u2019t interested). They will follow up with a lot - text, phone email, etc.\\n\\n If you need a breakdown on how to start the college sport recruiting process yourself here is a breakdown:\\n\\n Research - Research the sports programs that would be a good fit for your athletes socially, athletically and academically. Set up some criteria that you can filter against - What major are you interested in, what kind of campus do you want, private or public, driving distance, class size, costs, urban/rural campus, etc?\\n\\n Then use both sets of information to make a short list of schools to focus on.\\n\\n 2. Profiles/Videos/Social Media \u2013 Get your profiles, social media, website, highlight videos, in order and keep them updated. Develop a list of links that you can share quickly, when asked. When posting videos, make sure you can be clearly identified at all times, or are somehow highlighted in the video. Not sure where to get started, find and following recently recruited players to see what social media platforms they used, who they followed, what kind of posts they did, how often they posted, and how their highlight videos are set up. Emulate and borrow ideas from them.\\nNote - Depending on the sport not all of them need video.\\n\\n 3. Recruiting Forms - when you have your short list of schools, fill out the recruiting forms on their athletic website. Since the recruiting forms will often want the same info fill out one once then save that information in a document that you can copy and paste into other recruiting forms.\\n\\n 4. Track - Keep track of the schools that you filled out forms with along with dates, so you can email the coach with any updates throughout the season. A spreadsheet to track and document would be helpful, you can also keep track of any coaches contacting you.\\n\\n Not sure how to find the programs, check out my profile for sport specific spreadsheets set up that list all the schools with that varsity sport and help you keep track of your top schools and all the recruiting steps you have done with each school.\\n\\n 5. Follow-up Email - after you fill out a recruiting form, send over an intro email to all the coaches listed. State some intro and background information, stats, school/club you play for, why you are interested in the school, goals for this season, profile/video links, and then state your ask - what to learn more about the program, Are they recruiting for certain positions, set up a call to learn more, or ask about camps, etc.\\n\\n 6. Camps - ideally as you start outreach with coaches and programs you will be informed about camps and invited to camps. They are two different types of camps 3rd party camps and school hosted camps. Just try to do some research on the camps so you know what to expect and make sure they will be right for you. Ideally you will prioritize a few schools and get personally invited by their coaches to their specific camps and you can go from there.\\nNote - not all sports have or use camps for recruiting.\\n\\n 7. Social media - this can be an aspect on your recruiting but it really depends on what sport. Take a look at other recently recruited athletes in your sport and see where they are active on and how often they post and what they post. Make sure you clean and sanitize all your social media account so there isn\u2019t something out there that you don\u2019t want seen.\\n\\n Also you need to read up on NCAA Eligibility to make sure there are no surprises and keep your grades up. Having good gpa and test scores makes your player a lot easier to recruit and less of a potential headache for coaches.\\n\\n That should get you started.\",\n        \"renderedHtml\": \"\\n      <p>\\n      NCSA can be a four letter word, and people are pretty divided on it. Some find value and others say its a waste of time and money and did nothing for them. My recommendation is to find the subreddit for your kid\u2019s sport and search for NCSA  or do \u201creviews NCSA\u201d on google. This will pull up numerous first hand accounts from other parents and give you the info you need. Overall general consensus is that its not worth the money, and all the recruiting work they do, you and your athlete can do yourself. Additionally coaches want to deal directly with the athletes and not a third party service, since it just adds more friction to the process. So use the free resources that they have because there is some good info, but be leery of paying or negotiate the hell out of it to get a lower price. They basically get you on FOMO, that you need this order to get recruited, so if you don\u2019t you are doing your player a disservice.\\n    </p><p>\\n      But I would proceed cautiously (and ultimately ignore or if you already made contact just clearly state you aren\u2019t interested). They will follow up with a lot - text, phone email, etc.\\n    </p><p>\\n      If you need a breakdown on how to start the college sport recruiting process yourself here is a breakdown:\\n    </p><ol>\\n        <li>\\n      <p>\\n      Research - Research the sports programs that would be a good fit for your athletes socially, athletically and academically. Set up some criteria that you can filter against - What major are you interested in, what kind of campus do you want, private or public, driving distance, class size, costs, urban/rural campus, etc?\\n    </p>\\n    </li>\\n      </ol><p>\\n      Then use both sets of information to make a short list of schools to focus on.\\n    </p><p>\\n      2. Profiles/Videos/Social Media \u2013 Get your profiles, social media, website, highlight videos, in order and keep them updated. Develop a list of links that you can share quickly, when asked. When posting videos, make sure you can be clearly identified at all times, or are somehow highlighted in the video. Not sure where to get started, find and following recently recruited players to see what social media platforms they used, who they followed, what kind of posts they did, how often they posted, and how their highlight videos are set up. Emulate and borrow ideas from them.<br>Note - Depending on the sport not all of them need video.\\n    </p><p>\\n      3. Recruiting Forms - when you have your short list of schools, fill out the recruiting forms on their athletic website. Since the recruiting forms will often want the same info fill out one once then save that information in a document that you can copy and paste into other recruiting forms.\\n    </p><p>\\n      4. Track - Keep track of the schools that you filled out forms with along with dates, so you can email the coach with any updates throughout the season. A spreadsheet to track and document would be helpful, you can also keep track of any coaches contacting you.\\n    </p><p>\\n      Not sure how to find the programs, check out my profile for sport specific spreadsheets set up that list all the schools with that varsity sport and help you keep track of your top schools and all the recruiting steps you have done with each school.\\n    </p><p>\\n      5. Follow-up Email - after you fill out a recruiting form, send over an intro email to all the coaches listed. State some intro and background information, stats, school/club you play for, why you are interested in the school, goals for this season, profile/video links, and then state your ask - what to learn more about the program, Are they recruiting for certain positions, set up a call to learn more, or ask about camps, etc.\\n    </p><p>\\n      6. Camps - ideally as you start outreach with coaches and programs you will be informed about camps and invited to camps. They are two different types of camps 3rd party camps and school hosted camps. Just try to do some research on the camps so you know what to expect and make sure they will be right for you. Ideally you will prioritize a few schools and get personally invited by their coaches to their specific camps and you can go from there.<br>Note - not all sports have or use camps for recruiting.\\n    </p><p>\\n      7. Social media - this can be an aspect on your recruiting but it really depends on what sport. Take a look at other recently recruited athletes in your sport and see where they are active on and how often they post and what they post. Make sure you clean and sanitize all your social media account so there isn\u2019t something out there that you don\u2019t want seen.\\n    </p><p>\\n      Also you need to read up on NCAA Eligibility to make sure there are no surprises and keep your grades up. Having good gpa and test scores makes your player a lot easier to recruit and less of a potential headache for coaches.\\n    </p><p>\\n      That should get you started.\\n    </p>\\n    \",\n        \"score\": 2,\n        \"upvotes\": 2,\n        \"createdAt\": \"2026-10-26T11:53:13.000Z\",\n        \"createdUtc\": 1793015593,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"19rj8qepg7skh\",\n        \"url\": \"https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rj8qepg7skh/\",\n        \"permalink\": \"/r/ApplyingToCollege/comments/1xcd518/comment/19rj8qepg7skh/\",\n        \"parentId\": \"t3_1xcd518\",\n        \"author\": \"DC-2018\",\n        \"text\": \"NCSA is a waste of money! You don't need a paid recruiter! With a little bit of organization and patience, your family can handle it on your own!\\n\\n My daughter is a 2031 who just committed to D3 volleyball.\",\n        \"renderedHtml\": \"\\n      <p>\\n      NCSA is a waste of money! You don't need a paid recruiter! With a little bit of organization and patience, your family can handle it on your own!\\n    </p><p>\\n      My daughter is a 2031 who just committed to D3 volleyball.\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2026-10-23T12:59:30.000Z\",\n        \"createdUtc\": 1792760370,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"19rpkrec5x2lc\",\n              \"url\": \"https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rpkrec5x2lc/\",\n              \"permalink\": \"/r/ApplyingToCollege/comments/1xcd518/comment/19rpkrec5x2lc/\",\n              \"parentId\": \"t1_19rj8qepg7skh\",\n              \"author\": \"marveloustime28\",\n              \"text\": \"2031 in high school? So an 8th grader?\",\n              \"renderedHtml\": \"\\n      <p>\\n      2031 in high school? So an 8th grader?\\n    </p>\\n    \",\n              \"score\": 1,\n              \"upvotes\": 1,\n              \"createdAt\": \"2026-10-27T02:11:55.000Z\",\n              \"createdUtc\": 1793067115,\n              \"depth\": 0,\n              \"isSubmitter\": false,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [\n                  {\n                    \"id\": \"19rpl4tl0hw0w\",\n                    \"url\": \"https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rpl4tl0hw0w/\",\n                    \"permalink\": \"/r/ApplyingToCollege/comments/1xcd518/comment/19rpl4tl0hw0w/\",\n                    \"parentId\": \"t1_19rpkrec5x2lc\",\n                    \"author\": \"DC-2018\",\n                    \"text\": \"No, college class of 2031. 2027 in high school.\",\n                    \"renderedHtml\": \"\\n      <p>\\n      No, college class of 2031. 2027 in high school.\\n    </p>\\n    \",\n                    \"score\": 1,\n                    \"upvotes\": 1,\n                    \"createdAt\": \"2026-10-27T02:20:17.000Z\",\n                    \"createdUtc\": 1793067617,\n                    \"depth\": 0,\n                    \"isSubmitter\": false,\n                    \"stickied\": false,\n                    \"locked\": false,\n                    \"distinguished\": null,\n                    \"replies\": {\n                      \"items\": [],\n                      \"page\": {\n                        \"nextCursor\": null,\n                        \"hasMore\": false\n                      }\n                    }\n                  }\n                ],\n                \"page\": {\n                  \"nextCursor\": \"19rpkrec5x2lc\",\n                  \"hasMore\": true\n                }\n              }\n            },\n            {\n              \"id\": \"19rzosl1ng9r6\",\n              \"url\": \"https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rzosl1ng9r6/\",\n              \"permalink\": \"/r/ApplyingToCollege/comments/1xcd518/comment/19rzosl1ng9r6/\",\n              \"parentId\": \"t1_19rj8qepg7skh\",\n              \"author\": \"NoVariety7801\",\n              \"text\": \"So what did she get with D3? Any academic money or she just really wanted to play on a team?\",\n              \"renderedHtml\": \"\\n      <p>\\n      So what did she get with D3? Any academic money or she just really wanted to play on a team?\\n    </p>\\n    \",\n              \"score\": 1,\n              \"upvotes\": 1,\n              \"createdAt\": \"2026-11-01T18:13:36.000Z\",\n              \"createdUtc\": 1793556816,\n              \"depth\": 0,\n              \"isSubmitter\": false,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [\n                  {\n                    \"id\": \"19rztgq3eaqua\",\n                    \"url\": \"https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rztgq3eaqua/\",\n                    \"permalink\": \"/r/ApplyingToCollege/comments/1xcd518/comment/19rztgq3eaqua/\",\n                    \"parentId\": \"t1_19rzosl1ng9r6\",\n                    \"author\": \"DC-2018\",\n                    \"text\": \"She has been given a very generous academic scholarship. She chose her school based on where she wanted to attend academically.\",\n                    \"renderedHtml\": \"\\n      <p>\\n      She has been given a very generous academic scholarship. She chose her school based on where she wanted to attend academically.\\n    </p>\\n    \",\n                    \"score\": 1,\n                    \"upvotes\": 1,\n                    \"createdAt\": \"2026-11-01T19:58:19.000Z\",\n                    \"createdUtc\": 1793563099,\n                    \"depth\": 0,\n                    \"isSubmitter\": false,\n                    \"stickied\": false,\n                    \"locked\": false,\n                    \"distinguished\": null,\n                    \"replies\": {\n                      \"items\": [],\n                      \"page\": {\n                        \"nextCursor\": null,\n                        \"hasMore\": false\n                      }\n                    }\n                  }\n                ],\n                \"page\": {\n                  \"nextCursor\": \"19rzosl1ng9r6\",\n                  \"hasMore\": true\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"19rpkrec5x2lc\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"19rjn2t170wo0\",\n        \"url\": \"https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rjn2t170wo0/\",\n        \"permalink\": \"/r/ApplyingToCollege/comments/1xcd518/comment/19rjn2t170wo0/\",\n        \"parentId\": \"t3_1xcd518\",\n        \"author\": \"More_Average6654\",\n        \"text\": \"Use the free NCSA as a research tool (do not pay for it) and help your child with the legwork. Don't be too proud to look at D2, D3 (they give a ton of non-athletic aid). Find the right school for your child and if the sports work great...if the don't they will still be happy. We came from a huge athletic HS and tons of kids go on to play at many levels. I would say 75% quit or get injured. Also, find a school that wants you kid as a TOP RECRUIT no matter the level, don't sneak onto a roster...your kid will never play.\",\n        \"renderedHtml\": \"\\n      <p>\\n      Use the free NCSA as a research tool (do not pay for it) and help your child with the legwork.  Don't be too proud to look at D2, D3 (they give a ton of non-athletic aid).  Find the right school for your child and if the sports work great...if the don't they will still be happy.  We came from a huge athletic HS and tons of kids go on to play at many levels.  I would say 75% quit or get injured.  Also, find a school that wants you kid as a TOP RECRUIT no matter the level, don't sneak onto a roster...your kid will never play.\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2026-10-23T18:21:07.000Z\",\n        \"createdUtc\": 1792779667,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"19rl47s2j7ejo\",\n        \"url\": \"https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rl47s2j7ejo/\",\n        \"permalink\": \"/r/ApplyingToCollege/comments/1xcd518/comment/19rl47s2j7ejo/\",\n        \"parentId\": \"t3_1xcd518\",\n        \"author\": \"BananaPants430\",\n        \"text\": \"NCSA is a racket. They don't do anything that you can't do yourself. There is some sports-specific nuance, though.\\n\\n Our junior is fairly close to the end of her women's lacrosse recruiting process (several offers, making her decision). It's been a year-long effort, if not longer. We've had a lot of guidance and support from her club's recruiting director. She's been driving the process - but there's no way she could have done it without parental guidance and support (both time and financial).\",\n        \"renderedHtml\": \"\\n      <p>\\n      NCSA is a racket.  They don't do anything that you can't do yourself.   There is some sports-specific nuance, though.\\n    </p><p>\\n      Our junior is fairly close to the end of her women's lacrosse recruiting process (several offers, making her decision).   It's been a year-long effort, if not longer.   We've had a lot of guidance and support from her club's recruiting director.   She's been driving the process - but there's no way she could have done it without parental guidance and support (both time and financial).\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2026-10-24T14:12:28.000Z\",\n        \"createdUtc\": 1792851148,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"19rlisjrnqrfp\",\n        \"url\": \"https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rlisjrnqrfp/\",\n        \"permalink\": \"/r/ApplyingToCollege/comments/1xcd518/comment/19rlisjrnqrfp/\",\n        \"parentId\": \"t3_1xcd518\",\n        \"author\": \"Funnyface92\",\n        \"text\": \"My only advice is when your kid goes on a official have him/her ask if they should bring bedding. My kid and some of his teammates have been in interesting predicaments.\",\n        \"renderedHtml\": \"\\n      <p>\\n      My only advice is when your kid goes on a official have him/her ask if they should bring bedding. My kid and some of his teammates have been in interesting predicaments.\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2026-10-24T19:39:18.000Z\",\n        \"createdUtc\": 1792870758,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"19rnr7h9kb0ps\",\n        \"url\": \"https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rnr7h9kb0ps/\",\n        \"permalink\": \"/r/ApplyingToCollege/comments/1xcd518/comment/19rnr7h9kb0ps/\",\n        \"parentId\": \"t3_1xcd518\",\n        \"author\": \"Juice-cup\",\n        \"text\": \"What helped us the most:\\n\\n 0. The absolute most important thing. Get good grades. If you have exceptional grades there are many more opportunities.\\n\\n Finding realistic targets, academically, financially, and athletically. My daughter decided that she wanted to play in college but would not sacrifice by going to a college she didn't want to be at.\\n\\n Getting coaches on the phone after a couple emails. Once my kid started doing this, it changed everything.\",\n        \"renderedHtml\": \"\\n      <p>\\n      What helped us the most:\\n    </p><p>\\n      0.  The absolute most important thing.  Get good grades.  If you have exceptional grades there are many more opportunities.\\n    </p><ol>\\n        <li>\\n      <p>\\n      Finding realistic targets, academically, financially, and athletically.  My daughter decided that she wanted to play in college but would not sacrifice by going to a college she didn't want to be at.\\n    </p>\\n    </li><li>\\n      <p>\\n      Getting coaches on the phone after a couple emails.  Once my kid started doing this, it changed everything.\\n    </p>\\n    </li>\\n      </ol>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2026-10-26T01:42:12.000Z\",\n        \"createdUtc\": 1792978932,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"19rr9i94l1n4y\",\n        \"url\": \"https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rr9i94l1n4y/\",\n        \"permalink\": \"/r/ApplyingToCollege/comments/1xcd518/comment/19rr9i94l1n4y/\",\n        \"parentId\": \"t3_1xcd518\",\n        \"author\": \"BUST_DA_HEDGE_FUNDS\",\n        \"text\": \"we engaged with NCSA for 2 free sessions (general consultant, swim specialist). their approach is very much driven to place the athlete, but doesn't prioritize the academics as we wanted to. in conclusion, they contributed a number of schools were she attracted the coaches attention, but she ended up going through the process with a focus on the strongest academic schools.\\n\\n competing in a time based sport is easier, and opening a collegeconfidential thread was very useful for getting informed feedback.\\n\\n generally, there will be a list of schools where we qualified (including safety, matches, and stretches) bearing in mind that times evolve and improve through junior year and the beginning of senior year of high school. from that list, there will be a subset that satisfied the academic/vibe.\\n\\n at that point, she shotgunned all the coaches/online applications (that's a lot of work), and received various responses:\\n\\n no response / your not fast enough /you can consider walk on if admitted (Dartmouth, Cornell, etc\\n\\n this is the table of times you need to engage in conversation (Chicago, JHU etc)\\n\\n your times are interesting, keep us posted on your progress (Washington St Louis, Swarthmore, etc)\\n\\n let's talk (Claremont, Grinnell, Bowdoin, Wesleyan, etc)\\n\\n in our case, focused on tier 2 D3 schools in swimming, which where academically tier 1. the initial dialogue consisted of a zoom call with the coach, and followed by regularly updating the coaches with time improvements in competitions. the number of live conversations dropped progressively, followed by campus visits/in person meetings in the summer of senior year, passing pre-reads at 6 D3 schools across 4 sports conferences, and ultimately 3 offers, plus one which came at Christmas after ED1 results were out. by then she has a very clear idea of how many athletes reach coach was recruiting, what was her ranking on the coaches list, and that she had full coach support as a recruit.\\n\\n the stronger the athlete, there more options there will be, and the easier the process.\",\n        \"renderedHtml\": \"\\n      <p>\\n      we engaged with NCSA for 2 free sessions (general consultant, swim specialist). their approach is very much driven to place the athlete, but doesn't prioritize the academics as we wanted to. in conclusion, they contributed a number of schools were she attracted the coaches attention, but she ended up going through the process with a focus on the strongest academic schools.\\n    </p><p>\\n      competing in a time based sport is easier, and opening a collegeconfidential thread was very useful for getting informed feedback.\\n    </p><p>\\n      generally, there will be a list of schools where we qualified (including safety, matches, and stretches) bearing in mind that times evolve and improve through junior year and the beginning of senior year of high school. from that list, there will be a subset that satisfied the academic/vibe.\\n    </p><p>\\n      at that point, she shotgunned all the coaches/online applications (that's a lot of work), and received various responses:\\n    </p><ul>\\n        <li>\\n      <p>\\n      no response / your not fast enough /you can consider walk on if admitted (Dartmouth, Cornell, etc\\n    </p>\\n    </li><li>\\n      <p>\\n      this is the table of times you need to engage in conversation (Chicago, JHU etc)\\n    </p>\\n    </li><li>\\n      <p>\\n      your times are interesting, keep us posted on your progress (Washington St Louis, Swarthmore, etc)\\n    </p>\\n    </li><li>\\n      <p>\\n      let's talk (Claremont, Grinnell, Bowdoin, Wesleyan, etc)\\n    </p>\\n    </li>\\n      </ul><p>\\n      in our case, focused on tier 2 D3 schools in swimming,  which where academically tier 1. the initial dialogue consisted of a zoom call with the coach, and followed by regularly updating the coaches with time improvements in competitions. the number of live conversations dropped progressively, followed by campus visits/in person meetings in the summer of senior year, passing pre-reads at 6 D3 schools across 4 sports conferences, and ultimately 3 offers, plus one which came at Christmas after ED1 results were out. by then she has a very clear idea of how many athletes reach coach was recruiting, what was her ranking on the coaches list, and that she had full coach support as a recruit.\\n    </p><p>\\n      the stronger the athlete, there more options there will be, and the easier the process.\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2026-10-28T00:53:51.000Z\",\n        \"createdUtc\": 1793148831,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"19rreea1tz42q\",\n        \"url\": \"https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rreea1tz42q/\",\n        \"permalink\": \"/r/ApplyingToCollege/comments/1xcd518/comment/19rreea1tz42q/\",\n        \"parentId\": \"t3_1xcd518\",\n        \"author\": \"Chin-Music\",\n        \"text\": \"Great answers from everyone here! If your child plays baseball DM me. I had three D3 players all go to schools thousands of miles away, and all their recruiting experiences were different. Common denominator: their athletic ability allowed them to attend schools that had under 15% admissions rates. But the most important thing is fit, as you've been told ad nauseam. It really is.\",\n        \"renderedHtml\": \"\\n      <p>\\n      Great answers from everyone here! If your child plays baseball DM me. I had three D3 players all go to schools thousands of miles away, and all their recruiting  experiences were different.  Common denominator: their athletic ability allowed them to attend schools that had under 15% admissions rates.  But the most important thing is fit, as you've been told ad nauseam. It really is.\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2026-10-28T02:43:29.000Z\",\n        \"createdUtc\": 1793155409,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"19rsk1bntl74x\",\n        \"url\": \"https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rsk1bntl74x/\",\n        \"permalink\": \"/r/ApplyingToCollege/comments/1xcd518/comment/19rsk1bntl74x/\",\n        \"parentId\": \"t3_1xcd518\",\n        \"author\": \"Lonely_Estate_8907\",\n        \"text\": \"Use Twitter and other social media. Complete college recruiting questionnaire on their website. PrepRedzone is good. Email coaches with hudl film and post on Twitter your film. NCSA is user friendly because it has everything in one place but its also just a money grab. There's kids they accept that shouldn't even play and they talk them up. Save your money and use that money to go to camps and such.\",\n        \"renderedHtml\": \"\\n      <p>\\n      Use Twitter and other social media. Complete college recruiting questionnaire on their website. PrepRedzone is good. Email coaches with hudl film and post on Twitter your film. NCSA is user friendly because it has everything in one place but its also just a money grab. There's kids they accept that shouldn't even play and they talk them up. Save your money and use that money to go to camps and such.\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2026-10-28T18:17:04.000Z\",\n        \"createdUtc\": 1793211424,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"19rsw9t3xmue8\",\n        \"url\": \"https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rsw9t3xmue8/\",\n        \"permalink\": \"/r/ApplyingToCollege/comments/1xcd518/comment/19rsw9t3xmue8/\",\n        \"parentId\": \"t3_1xcd518\",\n        \"author\": \"phairphair\",\n        \"text\": \"NCSA was a great tool for my daughter to get noticed by coaches and recruited. Just don\u2019t use any of their paid services.\\n\\n Your kid can still post and maintain all of their stats and videos without paying a cent.\\n\\n She had 3 official visits with great D1 schools that were initiated by coaches that followed her on NCSA. She\u2019s verbally committed to one of them with a full ride.\\n\\n So definitely wasn\u2019t a waste of time for us. We just ignored all of their sales pitches.\",\n        \"renderedHtml\": \"\\n      <p>\\n      NCSA was a great tool for my daughter to get noticed by coaches and recruited. Just don\u2019t use any of their paid services.\\n    </p><p>\\n      Your kid can still post and maintain all of their stats and videos without paying a cent.\\n    </p><p>\\n      She had 3 official visits with great D1 schools that were initiated by coaches that followed her on NCSA. She\u2019s verbally committed to one of them with a full ride.\\n    </p><p>\\n      So definitely wasn\u2019t a waste of time for us. We just ignored all of their sales pitches.\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2026-10-28T22:51:23.000Z\",\n        \"createdUtc\": 1793227883,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"19rvlf66wjja9\",\n        \"url\": \"https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rvlf66wjja9/\",\n        \"permalink\": \"/r/ApplyingToCollege/comments/1xcd518/comment/19rvlf66wjja9/\",\n        \"parentId\": \"t3_1xcd518\",\n        \"author\": \"AREN_Consulting_Fod\",\n        \"text\": \"Use X.\",\n        \"renderedHtml\": \"\\n      <p>\\n      Use X.\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2026-10-30T11:09:29.000Z\",\n        \"createdUtc\": 1793358569,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      }\n    ]\n  },\n  \"meta\": {\n    \"requestId\": \"req_efe9ee4e-8b5a-48fb-8e86-8c179e14ea2f\",\n    \"creditsCharged\": 1,\n    \"version\": \"v1\"\n  }\n}"
    },
    {
     "type": "text",
-    "text": "{\"conversation_id\":\"01a1af42-8569-77b7-9c95-44c280cfc7f4\"}"
+    "text": "{\"conversation_id\":\"01a1af43-06f7-759e-8a24-48422c16f362\"}"
    }
   ],
   "structuredContent": {
-   "error": {
-    "code": "bad_request",
-    "message": "Unknown field `postId`. This tool takes: `url`, `cursor`, `trim`.",
-    "requestId": "req_bb0eb4c5-1b57-4db5-83d0-0b3e11fa719a"
+   "data": {
+    "lookupStatus": "found",
+    "post": {
+     "id": "1xcd518",
+     "title": "Any advice for parents dealing with college sports recruiting?",
+     "text": "The whole process seems a little overwhelming, especially when you're trying to figure out which colleges might be a good fit. I found NCSA College Recruiting while looking into the options, but I'd like to hear from parents who have been through this. What helped your family the most?",
+     "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/any_advice_for_parents_dealing_with_college/",
+     "permalink": "/r/ApplyingToCollege/comments/1xcd518/any_advice_for_parents_dealing_with_college/",
+     "subreddit": "ApplyingToCollege",
+     "subredditNamePrefixed": "r/ApplyingToCollege",
+     "author": "Material-Scratch845",
+     "score": 6,
+     "upvoteRatio": 1,
+     "commentCount": 20,
+     "createdAt": "2026-10-22T08:41:16.000Z",
+     "createdUtc": 1792658476,
+     "over18": false,
+     "locked": false,
+     "stickied": false
+    },
+    "page": {
+     "nextCursor": null,
+     "hasMore": false
+    },
+    "comments": [
+     {
+      "id": "19rhivlvvq3qb",
+      "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rhivlvvq3qb/",
+      "permalink": "/r/ApplyingToCollege/comments/1xcd518/comment/19rhivlvvq3qb/",
+      "parentId": "t3_1xcd518",
+      "author": "Purple_Umpire_8331",
+      "text": "Skip NCSA!\n\n What sport? I would start looking for information specifically for that sport, as the process will vary by sport.\n\n My oldest is a college track athlete. You either have competitive times or you don\u2019t. It was a lot of emails and follow ups. Some obviously were not interested because his times just weren\u2019t where they needed to be, but he became much more comfortable communicating with adults in the process. He learned to take the nos gracefully and worked harder to beat the standards at schools he was really interested in. He finally narrowed it down to 3 schools we felt were a good fit for him. He went on official visits to those 3, but one really felt like the right place for him of those 3. It\u2019s a division 1 school, but he does not receive any athletic money. Be aware that in non revenue sports, there aren\u2019t many golden tickets.",
+      "renderedHtml": "\n      <p>\n      Skip NCSA!\n    </p><p>\n      What sport?  I would start looking for information specifically for that sport, as the process will vary by sport.\n    </p><p>\n      My oldest is a college track athlete.  You either have competitive times or you don\u2019t.  It was a lot of emails and follow ups.  Some obviously were not interested because his times just weren\u2019t where they needed to be, but he became much more comfortable communicating with adults in the process.  He learned to take the nos gracefully and worked harder to beat the standards at schools he was really interested in.  He finally narrowed it down to 3 schools we felt were a good fit for him.  He went on official visits to those 3, but one really felt like the right place for him of those 3.  It\u2019s a division 1 school, but he does not receive any athletic money.  Be aware that in non revenue sports, there aren\u2019t many golden tickets.\n    </p>\n    ",
+      "score": 10,
+      "upvotes": 10,
+      "createdAt": "2026-10-22T13:52:42.000Z",
+      "createdUtc": 1792677162,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "19rhlbz6x0nky",
+      "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rhlbz6x0nky/",
+      "permalink": "/r/ApplyingToCollege/comments/1xcd518/comment/19rhlbz6x0nky/",
+      "parentId": "t3_1xcd518",
+      "author": "External_Ad952",
+      "text": "What sport? My daughter got recruited for volleyball and something it took a while for me to learn is that all sports have different nuances and coaches in those sports use different platforms, etc... There's overlap in principles, but I just don't want to steer you in too specific a direction depending on the sport.\n\n In general, here is a quick list of things I've learned:\n\n Recruiting services like NCSA are generally unnecessary and a waste of money. They only make sense if you don't want to invest the time, have the extra money to burn, and if your kid is so talented that their options will be there for them no matter what. My daughter got better offers than girls more talented than her who used recruiting services. Paid services have their place, but if you are motivated you can do a much better job yourself.\n\n Everyone tells you \"the kid has to drive the process,\" but it's not that simple. Recruiting is a team effort and you shouldn't feel bad participating or helping. As long as the athlete isn't disengaged and you aren't pushing them in a direction they aren't bought into, dividing and conquering is needed to be successful. My daughter made a list of what she was looking for, I researched a list of target schools and we built her list together. She wrote the outreach and I helped by editing videos, etc.. It's too much work for a high school kid to do alone.\n\n People over-value \"exposure\" in the process. Unless your kid is an athletic phenom, the idea that a college coach just happens to see them at a showcase or tournament or discovers them on social media is a super low-probability way of being recruited. Proactive, targeted e-mail outreach with film and consistent follow up is the single most important thing in this process. A free dedicated Gmail account and free YouTube channels are your most important recruiting tools.\n\n Cast a wide net and learn how to focus on realistic possibilities. There are a lot of tools to help create lists, but the more schools you reach out to the more potential opportunity you have. Some will tell you to target 20-50 schools across divisions. I would double that. It doesn't take that much longer to personalize your messages and once you create one, a tweak to personalize for a school is easy. You will quickly learn what levels and types of schools she's getting traction with and can adjust your list and add/delete schools from there.\n\n Learn how to narrow down your list to realistic options. Including stretch schools (athletically or academically) is fine, but if you clutter your list with them you're going to waste a lot of time with no return. In my daughter's example, she's a 5'9\" pin hitter, so one thing we did was review the current rosters of any school she wanted to reach out to. If a school didn't have a single hitter on the team under 6' tall, we passed. We also knocked several off the list due to cost after completing their Net Price Calculator. So figure out what measurables you can look at ahead of time and take the time to research.\n\n Don't sleep on D3. Most high school athletes look at D3 as a negative stigma and most parents look at the fact that there are no athletic scholarships. But when we dug into it, D3 has some really competitive programs, amazing schools (MIT, Emory, Tufts, NYU, UChicago, Vassar, etc...). The two other misconceptions are that it's all small private LACs, but there are a lot of larger (5-10k+) public schools that are D3 if you look for them. Also, many of the private schools give amazing merit scholarships, so don't be put off by the sticker price if you kid has decent grades.\n\n Related to the above, at D2 and NAIA virtually all scholarships (academic and athletic) are glorified discounts with conditions, meaning they aren't that different from D3. Some will let you stack academic and athletic, others won't. It really comes down to: what is your net tuition, regardless of how you get there (need, merit, athletic aid)? These aren't funded athletic programs handing dollars out. It's the school discounting their own tuition. Just be aware of that and don't get blinded by the lure of an \"athletic scholarship.\"\n\n If your kid is hell bent on D1 or has the talent, the 5 for 5 rule is going to make recruiting very challenging for high school kids for the foreseeable future. I would fully understand that rule and how the programs you're looking at are managing their rosters as it relates to that.\n\n Happy to answer any questions. Best of luck! It's a journey, but in the end it can be very rewarding...",
+      "renderedHtml": "\n      <p>\n      What sport? My daughter got recruited for volleyball and something it took a while for me to learn is that all sports have different nuances and coaches in those sports use different platforms, etc... There's overlap in principles, but I just don't want to steer you in too specific a direction depending on the sport.\n    </p><p>\n      In general, here is a quick list of things I've learned:\n    </p><ol>\n        <li>\n      <p>\n      Recruiting services like NCSA are generally unnecessary and a waste of money. They only make sense if you don't want to invest the time, have the extra money to burn, and if your kid is so talented that their options will be there for them no matter what. My daughter got better offers than girls more talented than her who used recruiting services. Paid services have their place, but if you are motivated you can do a much better job yourself.\n    </p>\n    </li><li>\n      <p>\n      Everyone tells you \"the kid has to drive the process,\" but it's not that simple. Recruiting is a team effort and you shouldn't feel bad participating or helping. As long as the athlete isn't disengaged and you aren't pushing them in a direction they aren't bought into, dividing and conquering is needed to be successful. My daughter made a list of what she was looking for, I researched a list of target schools and we built her list together. She wrote the outreach and I helped by editing videos, etc.. It's too much work for a high school kid to do alone.\n    </p>\n    </li><li>\n      <p>\n      People over-value \"exposure\" in the process. Unless your kid is an athletic phenom, the idea that a college coach just happens to see them at a showcase or tournament or discovers them on social media is a super low-probability way of being recruited. Proactive, targeted e-mail outreach with film and consistent follow up is the single most important thing in this process. A free dedicated Gmail account and free YouTube channels are your most important recruiting tools.\n    </p>\n    </li><li>\n      <p>\n      Cast a wide net and learn how to focus on realistic possibilities. There are a lot of tools to help create lists, but the more schools you reach out to the more potential opportunity you have. Some will tell you to target 20-50 schools across divisions. I would double that. It doesn't take that much longer to personalize your messages and once you create one, a tweak to personalize for a school is easy. You will quickly learn what levels and types of schools she's getting traction with and can adjust your list and add/delete schools from there.\n    </p>\n    </li><li>\n      <p>\n      Learn how to narrow down your list to realistic options. Including stretch schools (athletically or academically) is fine, but if you clutter your list with them you're going to waste a lot of time with no return. In my daughter's example, she's a 5'9\" pin hitter, so one thing we did was review the current rosters of any school she wanted to reach out to. If a school didn't have a single hitter on the team under 6' tall, we passed. We also knocked several off the list due to cost after completing their Net Price Calculator. So figure out what measurables you can look at ahead of time and take the time to research.\n    </p>\n    </li><li>\n      <p>\n      Don't sleep on D3. Most high school athletes look at D3 as a negative stigma and most parents look at the fact that there are no athletic scholarships. But when we dug into it, D3 has some really competitive programs, amazing schools (MIT, Emory, Tufts, NYU, UChicago, Vassar, etc...). The two other misconceptions are that it's all small private LACs, but there are a lot of larger (5-10k+) public schools that are D3 if you look for them. Also, many of the private schools give amazing merit scholarships, so don't be put off by the sticker price if you kid has decent grades.\n    </p>\n    </li><li>\n      <p>\n      Related to the above, at D2 and NAIA virtually all scholarships (academic and athletic) are glorified discounts with conditions, meaning they aren't that different from D3. Some will let you stack academic and athletic, others won't. It really comes down to: what is your net tuition, regardless of how you get there (need, merit, athletic aid)? These aren't funded athletic programs handing dollars out. It's the school discounting their own tuition. Just be aware of that and don't get blinded by the lure of an \"athletic scholarship.\"\n    </p>\n    </li><li>\n      <p>\n      If your kid is hell bent on D1 or has the talent, the 5 for 5 rule is going to make recruiting very challenging for high school kids for the foreseeable future. I would fully understand that rule and how the programs you're looking at are managing their rosters as it relates to that.\n    </p>\n    </li>\n      </ol><p>\n      Happy to answer any questions. Best of luck! It's a journey, but in the end it can be very rewarding...\n    </p>\n    ",
+      "score": 8,
+      "upvotes": 8,
+      "createdAt": "2026-10-22T14:47:44.000Z",
+      "createdUtc": 1792680464,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "19rnr2o6icew3",
+         "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rnr2o6icew3/",
+         "permalink": "/r/ApplyingToCollege/comments/1xcd518/comment/19rnr2o6icew3/",
+         "parentId": "t1_19rhlbz6x0nky",
+         "author": "Juice-cup",
+         "text": "This is all spot on. My daughter is also a college volleyball player and what you wrote is almost scary in how close it is to the advice I give.\n\n NCSA is not necessary. One of closest friends paid NCSA and our kids ended up in the race for the same schools. It's really all about your kid reaching out.\n\n We handled this the same way, and so did many other parents whose kids got recruited.\n\n If you are not a top tier player, you aren't actually getting recruited, you are almost recruiting the colleges.\n\n We created a list of every school, region, division (on Notion). We started narrowing them down overtime. My daughter realized realistically she only like D1 or D3 schools because she was looking into high academics. Because of this, we added our expected cost to the list and eliminated more schools. Eventually we got it to the top 50. And she wrote to most of them after every tournament late sophomore and all of junior year. By the end of Junior year she was down to about 10 schools.\n\n Not all D1 schools are giving out athletic scholarships for full teams. It matters what sport, what conference, etc. Merit-aid and Need-based aid come in clutch in these situations.\n\n Also, don't lose hope if it gets late in the game. My daughter had already committed but she started receiving unsolicited offers to schools she had both written and not written to, even into January of her senior year.",
+         "renderedHtml": "\n      <p>\n      This is all spot on.  My daughter is also a college volleyball player and what you wrote is almost scary in how close it is to the advice I give.\n    </p><ol>\n        <li>\n      <p>\n      NCSA is not necessary.  One of closest friends paid NCSA and our kids ended up in the race for the same schools.  It's really all about your kid reaching out.\n    </p>\n    </li><li>\n      <p>\n      We handled this the same way, and so did many other parents whose kids got recruited.\n    </p>\n    </li><li>\n      <p>\n      If you are not a top tier player, you aren't actually getting recruited, you are almost recruiting the colleges.\n    </p>\n    </li><li>\n      <p>\n      We created a list of every school, region, division (on Notion).  We started narrowing them down overtime.  My daughter realized realistically she only like D1 or D3 schools because she was looking into high academics.  Because of this, we added our expected cost to the list and eliminated more schools.  Eventually we got it to the top 50.  And she wrote to most of them after every tournament late sophomore and all of junior year.  By the end of Junior year she was down to about 10 schools.\n    </p>\n    </li><li>\n      <p>\n      Not all D1 schools are giving out athletic scholarships for full teams.  It matters what sport, what conference, etc.  Merit-aid and Need-based aid come in clutch in these situations.\n    </p>\n    </li>\n      </ol><p>\n      Also, don't lose hope if it gets late in the game.  My daughter had already committed but she started receiving unsolicited offers to schools she had both written and not written to, even into January of her senior year.\n    </p>\n    ",
+         "score": 3,
+         "upvotes": 3,
+         "createdAt": "2026-10-26T01:39:13.000Z",
+         "createdUtc": 1792978753,
+         "depth": 0,
+         "isSubmitter": false,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": null,
+           "hasMore": false
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "19rhlbz6x0nky",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "19rh6mhr34kmb",
+      "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rh6mhr34kmb/",
+      "permalink": "/r/ApplyingToCollege/comments/1xcd518/comment/19rh6mhr34kmb/",
+      "parentId": "t3_1xcd518",
+      "author": "hebronbear",
+      "text": "NCSA is a waste of money",
+      "renderedHtml": "\n      <p>\n      NCSA is a waste of money\n    </p>\n    ",
+      "score": 4,
+      "upvotes": 4,
+      "createdAt": "2026-10-22T09:17:58.000Z",
+      "createdUtc": 1792660678,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "19ri449ecjk2p",
+      "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19ri449ecjk2p/",
+      "permalink": "/r/ApplyingToCollege/comments/1xcd518/comment/19ri449ecjk2p/",
+      "parentId": "t3_1xcd518",
+      "author": "Responsible-Cup-4352",
+      "text": "NCSA is a joke, they just want your money",
+      "renderedHtml": "\n      <p>\n      NCSA is a joke, they just want your money\n    </p>\n    ",
+      "score": 2,
+      "upvotes": 2,
+      "createdAt": "2026-10-22T21:48:54.000Z",
+      "createdUtc": 1792705734,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "19roigkl19d9d",
+      "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19roigkl19d9d/",
+      "permalink": "/r/ApplyingToCollege/comments/1xcd518/comment/19roigkl19d9d/",
+      "parentId": "t3_1xcd518",
+      "author": "CollegeSportsSheets",
+      "text": "NCSA can be a four letter word, and people are pretty divided on it. Some find value and others say its a waste of time and money and did nothing for them. My recommendation is to find the subreddit for your kid\u2019s sport and search for NCSA or do \u201creviews NCSA\u201d on google. This will pull up numerous first hand accounts from other parents and give you the info you need. Overall general consensus is that its not worth the money, and all the recruiting work they do, you and your athlete can do yourself. Additionally coaches want to deal directly with the athletes and not a third party service, since it just adds more friction to the process. So use the free resources that they have because there is some good info, but be leery of paying or negotiate the hell out of it to get a lower price. They basically get you on FOMO, that you need this order to get recruited, so if you don\u2019t you are doing your player a disservice.\n\n But I would proceed cautiously (and ultimately ignore or if you already made contact just clearly state you aren\u2019t interested). They will follow up with a lot - text, phone email, etc.\n\n If you need a breakdown on how to start the college sport recruiting process yourself here is a breakdown:\n\n Research - Research the sports programs that would be a good fit for your athletes socially, athletically and academically. Set up some criteria that you can filter against - What major are you interested in, what kind of campus do you want, private or public, driving distance, class size, costs, urban/rural campus, etc?\n\n Then use both sets of information to make a short list of schools to focus on.\n\n 2. Profiles/Videos/Social Media \u2013 Get your profiles, social media, website, highlight videos, in order and keep them updated. Develop a list of links that you can share quickly, when asked. When posting videos, make sure you can be clearly identified at all times, or are somehow highlighted in the video. Not sure where to get started, find and following recently recruited players to see what social media platforms they used, who they followed, what kind of posts they did, how often they posted, and how their highlight videos are set up. Emulate and borrow ideas from them.\nNote - Depending on the sport not all of them need video.\n\n 3. Recruiting Forms - when you have your short list of schools, fill out the recruiting forms on their athletic website. Since the recruiting forms will often want the same info fill out one once then save that information in a document that you can copy and paste into other recruiting forms.\n\n 4. Track - Keep track of the schools that you filled out forms with along with dates, so you can email the coach with any updates throughout the season. A spreadsheet to track and document would be helpful, you can also keep track of any coaches contacting you.\n\n Not sure how to find the programs, check out my profile for sport specific spreadsheets set up that list all the schools with that varsity sport and help you keep track of your top schools and all the recruiting steps you have done with each school.\n\n 5. Follow-up Email - after you fill out a recruiting form, send over an intro email to all the coaches listed. State some intro and background information, stats, school/club you play for, why you are interested in the school, goals for this season, profile/video links, and then state your ask - what to learn more about the program, Are they recruiting for certain positions, set up a call to learn more, or ask about camps, etc.\n\n 6. Camps - ideally as you start outreach with coaches and programs you will be informed about camps and invited to camps. They are two different types of camps 3rd party camps and school hosted camps. Just try to do some research on the camps so you know what to expect and make sure they will be right for you. Ideally you will prioritize a few schools and get personally invited by their coaches to their specific camps and you can go from there.\nNote - not all sports have or use camps for recruiting.\n\n 7. Social media - this can be an aspect on your recruiting but it really depends on what sport. Take a look at other recently recruited athletes in your sport and see where they are active on and how often they post and what they post. Make sure you clean and sanitize all your social media account so there isn\u2019t something out there that you don\u2019t want seen.\n\n Also you need to read up on NCAA Eligibility to make sure there are no surprises and keep your grades up. Having good gpa and test scores makes your player a lot easier to recruit and less of a potential headache for coaches.\n\n That should get you started.",
+      "renderedHtml": "\n      <p>\n      NCSA can be a four letter word, and people are pretty divided on it. Some find value and others say its a waste of time and money and did nothing for them. My recommendation is to find the subreddit for your kid\u2019s sport and search for NCSA  or do \u201creviews NCSA\u201d on google. This will pull up numerous first hand accounts from other parents and give you the info you need. Overall general consensus is that its not worth the money, and all the recruiting work they do, you and your athlete can do yourself. Additionally coaches want to deal directly with the athletes and not a third party service, since it just adds more friction to the process. So use the free resources that they have because there is some good info, but be leery of paying or negotiate the hell out of it to get a lower price. They basically get you on FOMO, that you need this order to get recruited, so if you don\u2019t you are doing your player a disservice.\n    </p><p>\n      But I would proceed cautiously (and ultimately ignore or if you already made contact just clearly state you aren\u2019t interested). They will follow up with a lot - text, phone email, etc.\n    </p><p>\n      If you need a breakdown on how to start the college sport recruiting process yourself here is a breakdown:\n    </p><ol>\n        <li>\n      <p>\n      Research - Research the sports programs that would be a good fit for your athletes socially, athletically and academically. Set up some criteria that you can filter against - What major are you interested in, what kind of campus do you want, private or public, driving distance, class size, costs, urban/rural campus, etc?\n    </p>\n    </li>\n      </ol><p>\n      Then use both sets of information to make a short list of schools to focus on.\n    </p><p>\n      2. Profiles/Videos/Social Media \u2013 Get your profiles, social media, website, highlight videos, in order and keep them updated. Develop a list of links that you can share quickly, when asked. When posting videos, make sure you can be clearly identified at all times, or are somehow highlighted in the video. Not sure where to get started, find and following recently recruited players to see what social media platforms they used, who they followed, what kind of posts they did, how often they posted, and how their highlight videos are set up. Emulate and borrow ideas from them.<br>Note - Depending on the sport not all of them need video.\n    </p><p>\n      3. Recruiting Forms - when you have your short list of schools, fill out the recruiting forms on their athletic website. Since the recruiting forms will often want the same info fill out one once then save that information in a document that you can copy and paste into other recruiting forms.\n    </p><p>\n      4. Track - Keep track of the schools that you filled out forms with along with dates, so you can email the coach with any updates throughout the season. A spreadsheet to track and document would be helpful, you can also keep track of any coaches contacting you.\n    </p><p>\n      Not sure how to find the programs, check out my profile for sport specific spreadsheets set up that list all the schools with that varsity sport and help you keep track of your top schools and all the recruiting steps you have done with each school.\n    </p><p>\n      5. Follow-up Email - after you fill out a recruiting form, send over an intro email to all the coaches listed. State some intro and background information, stats, school/club you play for, why you are interested in the school, goals for this season, profile/video links, and then state your ask - what to learn more about the program, Are they recruiting for certain positions, set up a call to learn more, or ask about camps, etc.\n    </p><p>\n      6. Camps - ideally as you start outreach with coaches and programs you will be informed about camps and invited to camps. They are two different types of camps 3rd party camps and school hosted camps. Just try to do some research on the camps so you know what to expect and make sure they will be right for you. Ideally you will prioritize a few schools and get personally invited by their coaches to their specific camps and you can go from there.<br>Note - not all sports have or use camps for recruiting.\n    </p><p>\n      7. Social media - this can be an aspect on your recruiting but it really depends on what sport. Take a look at other recently recruited athletes in your sport and see where they are active on and how often they post and what they post. Make sure you clean and sanitize all your social media account so there isn\u2019t something out there that you don\u2019t want seen.\n    </p><p>\n      Also you need to read up on NCAA Eligibility to make sure there are no surprises and keep your grades up. Having good gpa and test scores makes your player a lot easier to recruit and less of a potential headache for coaches.\n    </p><p>\n      That should get you started.\n    </p>\n    ",
+      "score": 2,
+      "upvotes": 2,
+      "createdAt": "2026-10-26T11:53:13.000Z",
+      "createdUtc": 1793015593,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "19rj8qepg7skh",
+      "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rj8qepg7skh/",
+      "permalink": "/r/ApplyingToCollege/comments/1xcd518/comment/19rj8qepg7skh/",
+      "parentId": "t3_1xcd518",
+      "author": "DC-2018",
+      "text": "NCSA is a waste of money! You don't need a paid recruiter! With a little bit of organization and patience, your family can handle it on your own!\n\n My daughter is a 2031 who just committed to D3 volleyball.",
+      "renderedHtml": "\n      <p>\n      NCSA is a waste of money! You don't need a paid recruiter! With a little bit of organization and patience, your family can handle it on your own!\n    </p><p>\n      My daughter is a 2031 who just committed to D3 volleyball.\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2026-10-23T12:59:30.000Z",
+      "createdUtc": 1792760370,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "19rpkrec5x2lc",
+         "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rpkrec5x2lc/",
+         "permalink": "/r/ApplyingToCollege/comments/1xcd518/comment/19rpkrec5x2lc/",
+         "parentId": "t1_19rj8qepg7skh",
+         "author": "marveloustime28",
+         "text": "2031 in high school? So an 8th grader?",
+         "renderedHtml": "\n      <p>\n      2031 in high school? So an 8th grader?\n    </p>\n    ",
+         "score": 1,
+         "upvotes": 1,
+         "createdAt": "2026-10-27T02:11:55.000Z",
+         "createdUtc": 1793067115,
+         "depth": 0,
+         "isSubmitter": false,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [
+           {
+            "id": "19rpl4tl0hw0w",
+            "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rpl4tl0hw0w/",
+            "permalink": "/r/ApplyingToCollege/comments/1xcd518/comment/19rpl4tl0hw0w/",
+            "parentId": "t1_19rpkrec5x2lc",
+            "author": "DC-2018",
+            "text": "No, college class of 2031. 2027 in high school.",
+            "renderedHtml": "\n      <p>\n      No, college class of 2031. 2027 in high school.\n    </p>\n    ",
+            "score": 1,
+            "upvotes": 1,
+            "createdAt": "2026-10-27T02:20:17.000Z",
+            "createdUtc": 1793067617,
+            "depth": 0,
+            "isSubmitter": false,
+            "stickied": false,
+            "locked": false,
+            "distinguished": null,
+            "replies": {
+             "items": [],
+             "page": {
+              "nextCursor": null,
+              "hasMore": false
+             }
+            }
+           }
+          ],
+          "page": {
+           "nextCursor": "19rpkrec5x2lc",
+           "hasMore": true
+          }
+         }
+        },
+        {
+         "id": "19rzosl1ng9r6",
+         "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rzosl1ng9r6/",
+         "permalink": "/r/ApplyingToCollege/comments/1xcd518/comment/19rzosl1ng9r6/",
+         "parentId": "t1_19rj8qepg7skh",
+         "author": "NoVariety7801",
+         "text": "So what did she get with D3? Any academic money or she just really wanted to play on a team?",
+         "renderedHtml": "\n      <p>\n      So what did she get with D3? Any academic money or she just really wanted to play on a team?\n    </p>\n    ",
+         "score": 1,
+         "upvotes": 1,
+         "createdAt": "2026-11-01T18:13:36.000Z",
+         "createdUtc": 1793556816,
+         "depth": 0,
+         "isSubmitter": false,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [
+           {
+            "id": "19rztgq3eaqua",
+            "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rztgq3eaqua/",
+            "permalink": "/r/ApplyingToCollege/comments/1xcd518/comment/19rztgq3eaqua/",
+            "parentId": "t1_19rzosl1ng9r6",
+            "author": "DC-2018",
+            "text": "She has been given a very generous academic scholarship. She chose her school based on where she wanted to attend academically.",
+            "renderedHtml": "\n      <p>\n      She has been given a very generous academic scholarship. She chose her school based on where she wanted to attend academically.\n    </p>\n    ",
+            "score": 1,
+            "upvotes": 1,
+            "createdAt": "2026-11-01T19:58:19.000Z",
+            "createdUtc": 1793563099,
+            "depth": 0,
+            "isSubmitter": false,
+            "stickied": false,
+            "locked": false,
+            "distinguished": null,
+            "replies": {
+             "items": [],
+             "page": {
+              "nextCursor": null,
+              "hasMore": false
+             }
+            }
+           }
+          ],
+          "page": {
+           "nextCursor": "19rzosl1ng9r6",
+           "hasMore": true
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "19rpkrec5x2lc",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "19rjn2t170wo0",
+      "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rjn2t170wo0/",
+      "permalink": "/r/ApplyingToCollege/comments/1xcd518/comment/19rjn2t170wo0/",
+      "parentId": "t3_1xcd518",
+      "author": "More_Average6654",
+      "text": "Use the free NCSA as a research tool (do not pay for it) and help your child with the legwork. Don't be too proud to look at D2, D3 (they give a ton of non-athletic aid). Find the right school for your child and if the sports work great...if the don't they will still be happy. We came from a huge athletic HS and tons of kids go on to play at many levels. I would say 75% quit or get injured. Also, find a school that wants you kid as a TOP RECRUIT no matter the level, don't sneak onto a roster...your kid will never play.",
+      "renderedHtml": "\n      <p>\n      Use the free NCSA as a research tool (do not pay for it) and help your child with the legwork.  Don't be too proud to look at D2, D3 (they give a ton of non-athletic aid).  Find the right school for your child and if the sports work great...if the don't they will still be happy.  We came from a huge athletic HS and tons of kids go on to play at many levels.  I would say 75% quit or get injured.  Also, find a school that wants you kid as a TOP RECRUIT no matter the level, don't sneak onto a roster...your kid will never play.\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2026-10-23T18:21:07.000Z",
+      "createdUtc": 1792779667,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "19rl47s2j7ejo",
+      "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rl47s2j7ejo/",
+      "permalink": "/r/ApplyingToCollege/comments/1xcd518/comment/19rl47s2j7ejo/",
+      "parentId": "t3_1xcd518",
+      "author": "BananaPants430",
+      "text": "NCSA is a racket. They don't do anything that you can't do yourself. There is some sports-specific nuance, though.\n\n Our junior is fairly close to the end of her women's lacrosse recruiting process (several offers, making her decision). It's been a year-long effort, if not longer. We've had a lot of guidance and support from her club's recruiting director. She's been driving the process - but there's no way she could have done it without parental guidance and support (both time and financial).",
+      "renderedHtml": "\n      <p>\n      NCSA is a racket.  They don't do anything that you can't do yourself.   There is some sports-specific nuance, though.\n    </p><p>\n      Our junior is fairly close to the end of her women's lacrosse recruiting process (several offers, making her decision).   It's been a year-long effort, if not longer.   We've had a lot of guidance and support from her club's recruiting director.   She's been driving the process - but there's no way she could have done it without parental guidance and support (both time and financial).\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2026-10-24T14:12:28.000Z",
+      "createdUtc": 1792851148,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "19rlisjrnqrfp",
+      "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rlisjrnqrfp/",
+      "permalink": "/r/ApplyingToCollege/comments/1xcd518/comment/19rlisjrnqrfp/",
+      "parentId": "t3_1xcd518",
+      "author": "Funnyface92",
+      "text": "My only advice is when your kid goes on a official have him/her ask if they should bring bedding. My kid and some of his teammates have been in interesting predicaments.",
+      "renderedHtml": "\n      <p>\n      My only advice is when your kid goes on a official have him/her ask if they should bring bedding. My kid and some of his teammates have been in interesting predicaments.\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2026-10-24T19:39:18.000Z",
+      "createdUtc": 1792870758,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "19rnr7h9kb0ps",
+      "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rnr7h9kb0ps/",
+      "permalink": "/r/ApplyingToCollege/comments/1xcd518/comment/19rnr7h9kb0ps/",
+      "parentId": "t3_1xcd518",
+      "author": "Juice-cup",
+      "text": "What helped us the most:\n\n 0. The absolute most important thing. Get good grades. If you have exceptional grades there are many more opportunities.\n\n Finding realistic targets, academically, financially, and athletically. My daughter decided that she wanted to play in college but would not sacrifice by going to a college she didn't want to be at.\n\n Getting coaches on the phone after a couple emails. Once my kid started doing this, it changed everything.",
+      "renderedHtml": "\n      <p>\n      What helped us the most:\n    </p><p>\n      0.  The absolute most important thing.  Get good grades.  If you have exceptional grades there are many more opportunities.\n    </p><ol>\n        <li>\n      <p>\n      Finding realistic targets, academically, financially, and athletically.  My daughter decided that she wanted to play in college but would not sacrifice by going to a college she didn't want to be at.\n    </p>\n    </li><li>\n      <p>\n      Getting coaches on the phone after a couple emails.  Once my kid started doing this, it changed everything.\n    </p>\n    </li>\n      </ol>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2026-10-26T01:42:12.000Z",
+      "createdUtc": 1792978932,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "19rr9i94l1n4y",
+      "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rr9i94l1n4y/",
+      "permalink": "/r/ApplyingToCollege/comments/1xcd518/comment/19rr9i94l1n4y/",
+      "parentId": "t3_1xcd518",
+      "author": "BUST_DA_HEDGE_FUNDS",
+      "text": "we engaged with NCSA for 2 free sessions (general consultant, swim specialist). their approach is very much driven to place the athlete, but doesn't prioritize the academics as we wanted to. in conclusion, they contributed a number of schools were she attracted the coaches attention, but she ended up going through the process with a focus on the strongest academic schools.\n\n competing in a time based sport is easier, and opening a collegeconfidential thread was very useful for getting informed feedback.\n\n generally, there will be a list of schools where we qualified (including safety, matches, and stretches) bearing in mind that times evolve and improve through junior year and the beginning of senior year of high school. from that list, there will be a subset that satisfied the academic/vibe.\n\n at that point, she shotgunned all the coaches/online applications (that's a lot of work), and received various responses:\n\n no response / your not fast enough /you can consider walk on if admitted (Dartmouth, Cornell, etc\n\n this is the table of times you need to engage in conversation (Chicago, JHU etc)\n\n your times are interesting, keep us posted on your progress (Washington St Louis, Swarthmore, etc)\n\n let's talk (Claremont, Grinnell, Bowdoin, Wesleyan, etc)\n\n in our case, focused on tier 2 D3 schools in swimming, which where academically tier 1. the initial dialogue consisted of a zoom call with the coach, and followed by regularly updating the coaches with time improvements in competitions. the number of live conversations dropped progressively, followed by campus visits/in person meetings in the summer of senior year, passing pre-reads at 6 D3 schools across 4 sports conferences, and ultimately 3 offers, plus one which came at Christmas after ED1 results were out. by then she has a very clear idea of how many athletes reach coach was recruiting, what was her ranking on the coaches list, and that she had full coach support as a recruit.\n\n the stronger the athlete, there more options there will be, and the easier the process.",
+      "renderedHtml": "\n      <p>\n      we engaged with NCSA for 2 free sessions (general consultant, swim specialist). their approach is very much driven to place the athlete, but doesn't prioritize the academics as we wanted to. in conclusion, they contributed a number of schools were she attracted the coaches attention, but she ended up going through the process with a focus on the strongest academic schools.\n    </p><p>\n      competing in a time based sport is easier, and opening a collegeconfidential thread was very useful for getting informed feedback.\n    </p><p>\n      generally, there will be a list of schools where we qualified (including safety, matches, and stretches) bearing in mind that times evolve and improve through junior year and the beginning of senior year of high school. from that list, there will be a subset that satisfied the academic/vibe.\n    </p><p>\n      at that point, she shotgunned all the coaches/online applications (that's a lot of work), and received various responses:\n    </p><ul>\n        <li>\n      <p>\n      no response / your not fast enough /you can consider walk on if admitted (Dartmouth, Cornell, etc\n    </p>\n    </li><li>\n      <p>\n      this is the table of times you need to engage in conversation (Chicago, JHU etc)\n    </p>\n    </li><li>\n      <p>\n      your times are interesting, keep us posted on your progress (Washington St Louis, Swarthmore, etc)\n    </p>\n    </li><li>\n      <p>\n      let's talk (Claremont, Grinnell, Bowdoin, Wesleyan, etc)\n    </p>\n    </li>\n      </ul><p>\n      in our case, focused on tier 2 D3 schools in swimming,  which where academically tier 1. the initial dialogue consisted of a zoom call with the coach, and followed by regularly updating the coaches with time improvements in competitions. the number of live conversations dropped progressively, followed by campus visits/in person meetings in the summer of senior year, passing pre-reads at 6 D3 schools across 4 sports conferences, and ultimately 3 offers, plus one which came at Christmas after ED1 results were out. by then she has a very clear idea of how many athletes reach coach was recruiting, what was her ranking on the coaches list, and that she had full coach support as a recruit.\n    </p><p>\n      the stronger the athlete, there more options there will be, and the easier the process.\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2026-10-28T00:53:51.000Z",
+      "createdUtc": 1793148831,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "19rreea1tz42q",
+      "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rreea1tz42q/",
+      "permalink": "/r/ApplyingToCollege/comments/1xcd518/comment/19rreea1tz42q/",
+      "parentId": "t3_1xcd518",
+      "author": "Chin-Music",
+      "text": "Great answers from everyone here! If your child plays baseball DM me. I had three D3 players all go to schools thousands of miles away, and all their recruiting experiences were different. Common denominator: their athletic ability allowed them to attend schools that had under 15% admissions rates. But the most important thing is fit, as you've been told ad nauseam. It really is.",
+      "renderedHtml": "\n      <p>\n      Great answers from everyone here! If your child plays baseball DM me. I had three D3 players all go to schools thousands of miles away, and all their recruiting  experiences were different.  Common denominator: their athletic ability allowed them to attend schools that had under 15% admissions rates.  But the most important thing is fit, as you've been told ad nauseam. It really is.\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2026-10-28T02:43:29.000Z",
+      "createdUtc": 1793155409,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "19rsk1bntl74x",
+      "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rsk1bntl74x/",
+      "permalink": "/r/ApplyingToCollege/comments/1xcd518/comment/19rsk1bntl74x/",
+      "parentId": "t3_1xcd518",
+      "author": "Lonely_Estate_8907",
+      "text": "Use Twitter and other social media. Complete college recruiting questionnaire on their website. PrepRedzone is good. Email coaches with hudl film and post on Twitter your film. NCSA is user friendly because it has everything in one place but its also just a money grab. There's kids they accept that shouldn't even play and they talk them up. Save your money and use that money to go to camps and such.",
+      "renderedHtml": "\n      <p>\n      Use Twitter and other social media. Complete college recruiting questionnaire on their website. PrepRedzone is good. Email coaches with hudl film and post on Twitter your film. NCSA is user friendly because it has everything in one place but its also just a money grab. There's kids they accept that shouldn't even play and they talk them up. Save your money and use that money to go to camps and such.\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2026-10-28T18:17:04.000Z",
+      "createdUtc": 1793211424,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "19rsw9t3xmue8",
+      "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rsw9t3xmue8/",
+      "permalink": "/r/ApplyingToCollege/comments/1xcd518/comment/19rsw9t3xmue8/",
+      "parentId": "t3_1xcd518",
+      "author": "phairphair",
+      "text": "NCSA was a great tool for my daughter to get noticed by coaches and recruited. Just don\u2019t use any of their paid services.\n\n Your kid can still post and maintain all of their stats and videos without paying a cent.\n\n She had 3 official visits with great D1 schools that were initiated by coaches that followed her on NCSA. She\u2019s verbally committed to one of them with a full ride.\n\n So definitely wasn\u2019t a waste of time for us. We just ignored all of their sales pitches.",
+      "renderedHtml": "\n      <p>\n      NCSA was a great tool for my daughter to get noticed by coaches and recruited. Just don\u2019t use any of their paid services.\n    </p><p>\n      Your kid can still post and maintain all of their stats and videos without paying a cent.\n    </p><p>\n      She had 3 official visits with great D1 schools that were initiated by coaches that followed her on NCSA. She\u2019s verbally committed to one of them with a full ride.\n    </p><p>\n      So definitely wasn\u2019t a waste of time for us. We just ignored all of their sales pitches.\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2026-10-28T22:51:23.000Z",
+      "createdUtc": 1793227883,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "19rvlf66wjja9",
+      "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rvlf66wjja9/",
+      "permalink": "/r/ApplyingToCollege/comments/1xcd518/comment/19rvlf66wjja9/",
+      "parentId": "t3_1xcd518",
+      "author": "AREN_Consulting_Fod",
+      "text": "Use X.",
+      "renderedHtml": "\n      <p>\n      Use X.\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2026-10-30T11:09:29.000Z",
+      "createdUtc": 1793358569,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     }
+    ]
+   },
+   "meta": {
+    "requestId": "req_efe9ee4e-8b5a-48fb-8e86-8c179e14ea2f",
+    "creditsCharged": 1,
+    "version": "v1"
    },
    "card": {
-    "kind": "status",
-    "status": "error",
-    "title": "Lookup failed",
-    "subtitle": "Unknown field `postId`. This tool takes: `url`, `cursor`, `trim`."
+    "kind": "search",
+    "title": "Reddit comments",
+    "subtitle": "15 results",
+    "resultCount": 15,
+    "items": [
+     {
+      "title": "Skip NCSA! What sport? I would start looking for information specifically for that sport, as the process will vary by sport. My oldest is a college track\u2026",
+      "subtitle": "@Purple_Umpire_8331 \u00b7 10 points",
+      "href": "https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rhivlvvq3qb/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "What sport? My daughter got recruited for volleyball and something it took a while for me to learn is that all sports have different nuances and coaches in\u2026",
+      "subtitle": "@External_Ad952 \u00b7 8 points",
+      "href": "https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rhlbz6x0nky/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "NCSA is a waste of money",
+      "subtitle": "@hebronbear \u00b7 4 points",
+      "href": "https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rh6mhr34kmb/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "NCSA is a joke, they just want your money",
+      "subtitle": "@Responsible-Cup-4352 \u00b7 2 points",
+      "href": "https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19ri449ecjk2p/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "NCSA can be a four letter word, and people are pretty divided on it. Some find value and others say its a waste of time and money and did nothing for them. My\u2026",
+      "subtitle": "@CollegeSportsSheets \u00b7 2 points",
+      "href": "https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19roigkl19d9d/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "NCSA is a waste of money! You don't need a paid recruiter! With a little bit of organization and patience, your family can handle it on your own! My daughter\u2026",
+      "subtitle": "@DC-2018 \u00b7 1 point",
+      "href": "https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rj8qepg7skh/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Use the free NCSA as a research tool (do not pay for it) and help your child with the legwork. Don't be too proud to look at D2, D3 (they give a ton of\u2026",
+      "subtitle": "@More_Average6654 \u00b7 1 point",
+      "href": "https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rjn2t170wo0/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "NCSA is a racket. They don't do anything that you can't do yourself. There is some sports-specific nuance, though. Our junior is fairly close to the end of\u2026",
+      "subtitle": "@BananaPants430 \u00b7 1 point",
+      "href": "https://www.reddit.com/r/ApplyingToCollege/comments/1xcd518/comment/19rl47s2j7ejo/",
+      "platform": "Reddit"
+     }
+    ]
    }
-  },
-  "isError": true
+  }
  },
  "jsonrpc": "2.0",
  "id": 1

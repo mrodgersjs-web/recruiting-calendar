@@ -3,27 +3,507 @@
   "content": [
    {
     "type": "text",
-    "text": "{\n  \"error\": {\n    \"code\": \"bad_request\",\n    \"message\": \"Unknown field `postId`. This tool takes: `url`, `cursor`, `trim`.\",\n    \"requestId\": \"req_75bbbf7d-68a4-4f3b-967c-82dfb09dd768\"\n  }\n}"
+    "text": "{\n  \"data\": {\n    \"lookupStatus\": \"found\",\n    \"post\": {\n      \"id\": \"1pvfd3s\",\n      \"title\": \"NCSA v SportsRecruits v Stack\",\n      \"text\": \"Merry Christmas all! I have a quick question about the three above services. My high school aged child is on SportsRecruits and has a free account on Stack and NCSA. We keep getting emails that coaches have viewed her Stack profile, etc., but we have to pay for more information to find out who. I don\u2019t really want to pay, as it feels like a scam. Does anyone have any insight? Thanks!\",\n      \"url\": \"https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/ncsa_v_sportsrecruits_v_stack/\",\n      \"permalink\": \"/r/CollegeSoccer/comments/1pvfd3s/ncsa_v_sportsrecruits_v_stack/\",\n      \"subreddit\": \"CollegeSoccer\",\n      \"subredditNamePrefixed\": \"r/CollegeSoccer\",\n      \"author\": \"Frank5616\",\n      \"score\": 2,\n      \"upvoteRatio\": 0.75,\n      \"commentCount\": 23,\n      \"createdAt\": \"2025-12-25T15:14:13.000Z\",\n      \"createdUtc\": 1766675653,\n      \"over18\": false,\n      \"locked\": false,\n      \"stickied\": false\n    },\n    \"page\": {\n      \"nextCursor\": null,\n      \"hasMore\": false\n    },\n    \"comments\": [\n      {\n        \"id\": \"nvvo19c\",\n        \"url\": \"https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/nvvo19c/\",\n        \"permalink\": \"/r/CollegeSoccer/comments/1pvfd3s/comment/nvvo19c/\",\n        \"parentId\": \"t3_1pvfd3s\",\n        \"author\": \"Mediumofmediocrity\",\n        \"text\": \"What grade is your child in? I\u2019ve always understood these programs to be a money grab. Attend ID camps for the schools in which your child is interested, and you think they have a good chance of playing for. Does your kid play club, if so what league?\",\n        \"renderedHtml\": \"\\n      <p>\\n      What grade is your child in?  I\u2019ve always understood these programs to be a money grab.  Attend ID camps for the schools in which your child is interested, and you think they have a good chance of playing for.  Does your kid play club, if so what league?\\n    </p>\\n    \",\n        \"score\": 2,\n        \"upvotes\": 2,\n        \"createdAt\": \"2025-12-25T15:18:46.000Z\",\n        \"createdUtc\": 1766675926,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"nvw1vgs\",\n              \"url\": \"https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/nvw1vgs/\",\n              \"permalink\": \"/r/CollegeSoccer/comments/1pvfd3s/comment/nvw1vgs/\",\n              \"parentId\": \"t1_nvvo19c\",\n              \"author\": \"Frank5616\",\n              \"text\": \"Yes- sophomore in high school, and plays club. Thx for the insight!\",\n              \"renderedHtml\": \"\\n      <p>\\n      Yes- sophomore in high school, and plays club.  Thx for the insight!\\n    </p>\\n    \",\n              \"score\": 1,\n              \"upvotes\": 1,\n              \"createdAt\": \"2025-12-25T16:43:18.000Z\",\n              \"createdUtc\": 1766680998,\n              \"depth\": 0,\n              \"isSubmitter\": true,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [\n                  {\n                    \"id\": \"nvw2in8\",\n                    \"url\": \"https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/nvw2in8/\",\n                    \"permalink\": \"/r/CollegeSoccer/comments/1pvfd3s/comment/nvw2in8/\",\n                    \"parentId\": \"t1_nvw1vgs\",\n                    \"author\": \"Mediumofmediocrity\",\n                    \"text\": \"What league is his club team, ECNL, ECRL, MLS Next, National League?\",\n                    \"renderedHtml\": \"\\n      <p>\\n      What league is his club team, ECNL, ECRL, MLS Next, National League?\\n    </p>\\n    \",\n                    \"score\": 1,\n                    \"upvotes\": 1,\n                    \"createdAt\": \"2025-12-25T16:47:11.000Z\",\n                    \"createdUtc\": 1766681231,\n                    \"depth\": 0,\n                    \"isSubmitter\": false,\n                    \"stickied\": false,\n                    \"locked\": false,\n                    \"distinguished\": null,\n                    \"replies\": {\n                      \"items\": [],\n                      \"page\": {\n                        \"nextCursor\": \"eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy9Db2xsZWdlU29jY2VyL3QzXzFwdmZkM3M_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MyZjb21tZW50UGFyZW50UG9zaXRpb25zPTAsMCwwIiwiY3Vyc29yIjoiWTI5dGJXVnVkSFJ5WldVNk1HVTBZMlkxT0RJc09qb3pPbVF4T25ReFgyNTJkekpwYmpnPSIsInN1YnJlZGRpdCI6IkNvbGxlZ2VTb2NjZXIiLCJwb3N0SWQiOiIxcHZmZDNzIiwicGFyZW50VGhpbmdJZCI6InQxX252dzJpbjgifQ\",\n                        \"hasMore\": true\n                      }\n                    }\n                  }\n                ],\n                \"page\": {\n                  \"nextCursor\": \"nvw2in8\",\n                  \"hasMore\": true\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"nvw2in8\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"nvvsmxg\",\n        \"url\": \"https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/nvvsmxg/\",\n        \"permalink\": \"/r/CollegeSoccer/comments/1pvfd3s/comment/nvvsmxg/\",\n        \"parentId\": \"t3_1pvfd3s\",\n        \"author\": \"MSJLionsroar\",\n        \"text\": \"SR was great for video. Never paid but when a coach was interested = straight to the video. Most messages were generic come attend our id camp, but there were a few random coaches that checked in. My daughter was solid D2/NAIA talent. It also is a place where we go look at all her highlights over the years.\\nCollege coaches do pay to subscribe to these services so your profile will be seen by some\u2026\",\n        \"renderedHtml\": \"\\n      <p>\\n      SR was great for video.  Never paid but when a coach was interested = straight to the video.  Most messages were generic come attend our id camp, but there were a few random coaches that checked in.   My daughter was solid D2/NAIA talent.   It also is a place where we go look at all her highlights over the years.<br>College coaches do pay to subscribe to these services so your profile will be seen by some\u2026\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2025-12-25T15:47:45.000Z\",\n        \"createdUtc\": 1766677665,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"nvvvvuj\",\n              \"url\": \"https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/nvvvvuj/\",\n              \"permalink\": \"/r/CollegeSoccer/comments/1pvfd3s/comment/nvvvvuj/\",\n              \"parentId\": \"t1_nvvsmxg\",\n              \"author\": \"thadcastleisagod\",\n              \"text\": \"I can\u2019t speak for stack. I don\u2019t use it. But ncsa and sportsrecruits are free for college coaches. So we can see all the info you put on it right off the bat.\\nI\u2019ve had club players pay the 2k-4k for the star rating and the email blast and the little class they give you over zoom and email templates. I also have recruited players who had a free profile. It really doesn\u2019t make a difference to me as a college coach. As long as I can see your, gpa, videos, position, major, height, contact info. I\u2019m good.\",\n              \"renderedHtml\": \"\\n      <p>\\n      I can\u2019t speak for stack. I don\u2019t use it.  But ncsa and sportsrecruits are free for college coaches.  So we can see all the info you put on it right off the bat.<br>I\u2019ve had club players pay the 2k-4k for the star rating and the email blast and the little class they give you over zoom and email templates.  I also have recruited players who had a free profile.    It really doesn\u2019t make a difference to me as a college coach.  As long as I can see your, gpa, videos, position, major, height, contact info. I\u2019m good.\\n    </p>\\n    \",\n              \"score\": 4,\n              \"upvotes\": 4,\n              \"createdAt\": \"2025-12-25T16:07:27.000Z\",\n              \"createdUtc\": 1766678847,\n              \"depth\": 0,\n              \"isSubmitter\": false,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [\n                  {\n                    \"id\": \"nvw1we5\",\n                    \"url\": \"https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/nvw1we5/\",\n                    \"permalink\": \"/r/CollegeSoccer/comments/1pvfd3s/comment/nvw1we5/\",\n                    \"parentId\": \"t1_nvvvvuj\",\n                    \"author\": \"Frank5616\",\n                    \"text\": \"Thx!\",\n                    \"renderedHtml\": \"\\n      <p>\\n      Thx!\\n    </p>\\n    \",\n                    \"score\": 2,\n                    \"upvotes\": 2,\n                    \"createdAt\": \"2025-12-25T16:43:28.000Z\",\n                    \"createdUtc\": 1766681008,\n                    \"depth\": 0,\n                    \"isSubmitter\": true,\n                    \"stickied\": false,\n                    \"locked\": false,\n                    \"distinguished\": null,\n                    \"replies\": {\n                      \"items\": [],\n                      \"page\": {\n                        \"nextCursor\": null,\n                        \"hasMore\": false\n                      }\n                    }\n                  },\n                  {\n                    \"id\": \"nvwjl7o\",\n                    \"url\": \"https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/nvwjl7o/\",\n                    \"permalink\": \"/r/CollegeSoccer/comments/1pvfd3s/comment/nvwjl7o/\",\n                    \"parentId\": \"t1_nvvvvuj\",\n                    \"author\": \"Dry-Umpire-3138\",\n                    \"text\": \"how do you guys search, if you are looking for a certain position do you just type in \\\"CB 2026\\\" for example?\",\n                    \"renderedHtml\": \"\\n      <p>\\n      how do you guys search, if you are looking for a certain position do you just type in \\\"CB 2026\\\" for example?\\n    </p>\\n    \",\n                    \"score\": 1,\n                    \"upvotes\": 1,\n                    \"createdAt\": \"2025-12-25T18:28:05.000Z\",\n                    \"createdUtc\": 1766687285,\n                    \"depth\": 0,\n                    \"isSubmitter\": false,\n                    \"stickied\": false,\n                    \"locked\": false,\n                    \"distinguished\": null,\n                    \"replies\": {\n                      \"items\": [],\n                      \"page\": {\n                        \"nextCursor\": \"eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy9Db2xsZWdlU29jY2VyL3QzXzFwdmZkM3M_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MyZjb21tZW50UGFyZW50UG9zaXRpb25zPTEsMCwxIiwiY3Vyc29yIjoiWTI5dGJXVnVkSFJ5WldVNk1UZG1PVFJqTUdVc09qb3pPbVF4T25ReFgyNTJkMnBzTjI4PSIsInN1YnJlZGRpdCI6IkNvbGxlZ2VTb2NjZXIiLCJwb3N0SWQiOiIxcHZmZDNzIiwicGFyZW50VGhpbmdJZCI6InQxX252d2psN28ifQ\",\n                        \"hasMore\": true\n                      }\n                    }\n                  }\n                ],\n                \"page\": {\n                  \"nextCursor\": \"nvwjl7o\",\n                  \"hasMore\": true\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"nvwjl7o\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"nvw8sve\",\n        \"url\": \"https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/nvw8sve/\",\n        \"permalink\": \"/r/CollegeSoccer/comments/1pvfd3s/comment/nvw8sve/\",\n        \"parentId\": \"t3_1pvfd3s\",\n        \"author\": \"2eighty1\",\n        \"text\": \"I used NCSA. Heard a lotta knee jerk responses from parents who's kid ended up not playing on in college about what a waste of time, scam, kid should do it all on their own if they are motivated, yada yada yada, like that. I intro'd several parents to this platform, two put got their boys in programs also, D3s. My son ended up in D1. I will tell you how it helped. It connected him with former d2 and d3 head coach with 20 years experience who became a mentor for him and was available to him his Jr. and Sr. year as he went thru ID camps and recruiting process. That was the main value. The second value was centralized info about schools. We keep his list there and profiled schools thru their portal. We got the first level free thru our club then upgrade to the highest level where the mentor was in text and email touch with player when there was a sale. It was <than $2K. My kid never played ECNL or MLS Next, and he was a young 2006, 2024 HS grad, but we knew he could play D1 bc we went and watched games in person and he did our a local University D1 ID early and their players and HC informally told me he could do D1 and he did get D1 partial and is very happy. The NCSA sports mentor helped him / us build a profile of schools that would be a good fit for him and thru every ID camp and discussion. I never played soccer or college sport. I did not want to f-up a process I never did before in my life - I'd seen so many fumbles by know-it-all and hands-off parents many of them played soccer but not college soccer - and I could see the process was opaque and not what it appeared - the goal was for my player to play 4 more years - the sport he loved - while he got his degree. No regrets. YMMV. Best of luck.\",\n        \"renderedHtml\": \"\\n      <p>\\n      I used NCSA. Heard a lotta knee jerk responses from parents who's kid ended up not playing on in college about what a waste of time, scam, kid should do it all on their own if they are motivated, yada yada yada, like that.  I intro'd several parents to this platform, two put got their boys in programs also, D3s.  My son ended up in D1. I will tell you how it helped.  It connected him with former d2 and d3 head coach with 20 years experience who became a mentor for him and was available to him his Jr. and Sr. year as he went thru ID camps and recruiting process.  That was the main value. The second value was centralized info about schools.  We keep his list there and profiled schools thru their portal.  We got the first level free thru our club then upgrade to the highest level where the mentor was in text and email touch with player when there was a sale.  It was &lt;than $2K.  My kid never played ECNL or MLS Next, and he was a young 2006, 2024 HS grad, but we knew he could play D1 bc we went and watched games in person and he did our a local University D1 ID early and their players and HC informally told me he could do D1 and he did get D1 partial and is very happy.  The NCSA sports mentor helped him / us build a profile of schools that would be a good fit for him and thru every ID camp and discussion.  I never played soccer or college sport.  I did not want to f-up a process I never did before in my life - I'd seen so many fumbles by know-it-all and hands-off parents many of them played soccer but not college soccer - and I could see the process was opaque and not what it appeared - the goal was for my player to play 4 more years - the sport he loved - while he got his degree.  No regrets.  YMMV.  Best of luck.\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2025-12-25T17:25:01.000Z\",\n        \"createdUtc\": 1766683501,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"nvy0fif\",\n        \"url\": \"https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/nvy0fif/\",\n        \"permalink\": \"/r/CollegeSoccer/comments/1pvfd3s/comment/nvy0fif/\",\n        \"parentId\": \"t3_1pvfd3s\",\n        \"author\": \"[deleted]\",\n        \"text\": \"[deleted]\",\n        \"renderedHtml\": null,\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2025-12-25T23:53:05.000Z\",\n        \"createdUtc\": 1766706785,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"nvy5lw5\",\n        \"url\": \"https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/nvy5lw5/\",\n        \"permalink\": \"/r/CollegeSoccer/comments/1pvfd3s/comment/nvy5lw5/\",\n        \"parentId\": \"t3_1pvfd3s\",\n        \"author\": \"Aussieomni\",\n        \"text\": \"As a commentator I use NCSA. A LOT for research so you know that would help me out personally if people used that.\",\n        \"renderedHtml\": \"\\n      <p>\\n      As a commentator I use NCSA. A LOT for research so you know that would help me out personally if people used that.\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2025-12-26T00:25:47.000Z\",\n        \"createdUtc\": 1766708747,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"nw0ki7z\",\n        \"url\": \"https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/nw0ki7z/\",\n        \"permalink\": \"/r/CollegeSoccer/comments/1pvfd3s/comment/nw0ki7z/\",\n        \"parentId\": \"t3_1pvfd3s\",\n        \"author\": \"hahaanonymouse765\",\n        \"text\": \"Many people will say these are money grabs, but it totally depends on your situation. NCSA for example has great resources if you are unfamiliar with recruiting or don\u2019t want to do the work/research yourself. There are tons of families who use them simply because they don\u2019t understand the recruiting world and need help. NCSA is your so-called \u201cmiddle man\u201d who will do a lot of the work for you, either the recruiting \u201ccoach\u201d will do it via consultations, video review, etc. I know they perform outreach to coaches but not sure how exactly. The platform itself also provides a ton of resources, webinars, etc to help guide you through the process.\\n\\n SportsRecruits, from my understanding, is a platform for you to put up your info- video, stats, academics, etc. I don\u2019t think they have individuals that perform outreach, I think the coaches go to the platform to see everything. I could be mistaken though.\\n\\n No idea about Stack, sorry.\\n\\n NCSA and SportsRecruits are both owned by IMG Academy so not sure if that matters to you or not. IMG does provide mental training and other programs through NCSA as well.\",\n        \"renderedHtml\": \"\\n      <p>\\n      Many people will say these are money grabs, but it totally depends on your situation. NCSA for example has great resources if you are unfamiliar with recruiting or don\u2019t want to do the work/research yourself. There are tons of families who use them simply because they don\u2019t understand the recruiting world and need help. NCSA is your so-called \u201cmiddle man\u201d who will do a lot of the work for you, either the recruiting \u201ccoach\u201d will do it via consultations, video review, etc. I know they perform outreach to coaches but not sure how exactly. The platform itself also provides a ton of resources, webinars, etc to help guide you through the process.\\n    </p><p>\\n      SportsRecruits, from my understanding, is a platform for you to put up your info- video, stats, academics, etc. I don\u2019t think they have individuals that perform outreach, I think the coaches go to the platform to see everything. I could be mistaken though.\\n    </p><p>\\n      No idea about Stack, sorry.\\n    </p><p>\\n      NCSA and SportsRecruits are both owned by IMG Academy so not sure if that matters to you or not. IMG does provide mental training and other programs through NCSA as well.\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2025-12-26T12:36:19.000Z\",\n        \"createdUtc\": 1766752579,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"ods31g0\",\n        \"url\": \"https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/ods31g0/\",\n        \"permalink\": \"/r/CollegeSoccer/comments/1pvfd3s/comment/ods31g0/\",\n        \"parentId\": \"t3_1pvfd3s\",\n        \"author\": \"Maleficent-Dress-500\",\n        \"text\": \"NCSA is NOT a good resource in the world of the Transfer portal. If you're looking to play D1, NCSA cannot help you with that any more than posting on twitter, instagram, and youtube/messaging coaches and programs on your own will. Having worked at NCSA, I know what they sell is a lie. Most of the commitments they advertise are actually just their team marking athletes as \\\"committed to NCSA\\\" when they don't commit to a school.\",\n        \"renderedHtml\": \"\\n      <p>\\n      NCSA is NOT a good resource in the world of the Transfer portal. If you're looking to play D1, NCSA cannot help you with that any more than posting on twitter, instagram, and youtube/messaging coaches and programs on your own will. Having worked at NCSA, I know what they sell is a lie. Most of the commitments they advertise are actually just their team marking athletes as \\\"committed to NCSA\\\" when they don't commit to a school.\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2026-04-01T22:23:50.000Z\",\n        \"createdUtc\": 1775082230,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"oj6f3rl\",\n        \"url\": \"https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/oj6f3rl/\",\n        \"permalink\": \"/r/CollegeSoccer/comments/1pvfd3s/comment/oj6f3rl/\",\n        \"parentId\": \"t3_1pvfd3s\",\n        \"author\": \"php_js_dev\",\n        \"text\": \"Played college soccer at Michigan (D1) and went through ODP, so some context on these three:\\n\\n NCSA \u2014 you're mostly paying for a huge sales team. The \\\"a coach viewed your profile\\\" emails are intentionally vague because the upsell is finding out who. Not a scam exactly, but expensive for what it actually is.\\n\\n SportsRecruits \u2014 more legit, mostly because clubs pay for it. If your daughter's club already has it, use what's there and don't pay extra yourself.\\n\\n Stack \u2014 basically a free profile/highlight host. Fine as a place to park video, not really a recruiting service.\\n\\n The bigger issue with all three is that they don't really help with the thing that actually moves the needle: athletes emailing coaches directly from their own email. A personal email from the player will outperform any \\\"profile view\\\" notification, and you stay in control of the conversation.\\n\\n Full disclosure \u2014 I run ProductiveRecruit (productiverecruit.com), which is built around exactly that (direct Gmail outreach to coaches with open/click tracking). Mentioning it because it's relevant to your question, not trying to spam the sub. Happy to answer questions either way.\",\n        \"renderedHtml\": \"\\n      <p>\\n      Played college soccer at Michigan (D1) and went through ODP, so some context on these three:\\n    </p><p>\\n      NCSA \u2014 you're mostly paying for a huge sales team. The \\\"a coach viewed your profile\\\" emails are intentionally vague because the upsell is finding out who. Not a scam exactly, but expensive for what it actually is.\\n    </p><p>\\n      SportsRecruits \u2014 more legit, mostly because clubs pay for it. If your daughter's club already has it, use what's there and don't pay extra yourself.\\n    </p><p>\\n      Stack \u2014 basically a free profile/highlight host. Fine as a place to park video, not really a recruiting service.\\n    </p><p>\\n      The bigger issue with all three is that they don't really help with the thing that actually moves the needle: athletes emailing coaches directly from their own email. A personal email from the player will outperform any \\\"profile view\\\" notification, and you stay in control of the conversation.\\n    </p><p>\\n      Full disclosure \u2014 I run ProductiveRecruit (productiverecruit.com), which is built around exactly that (direct Gmail outreach to coaches with open/click tracking). Mentioning it because it's relevant to your question, not trying to spam the sub. Happy to answer questions either way.\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2026-04-30T18:29:01.000Z\",\n        \"createdUtc\": 1777573741,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"oko0w3x\",\n        \"url\": \"https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/oko0w3x/\",\n        \"permalink\": \"/r/CollegeSoccer/comments/1pvfd3s/comment/oko0w3x/\",\n        \"parentId\": \"t3_1pvfd3s\",\n        \"author\": \"ScoutUBen\",\n        \"text\": \"I'm a new scout with ScoutU. I'd be happy to answer questions.\",\n        \"renderedHtml\": \"\\n      <p>\\n      I'm a new scout with ScoutU. I'd be happy to answer questions.\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2026-05-08T16:30:29.000Z\",\n        \"createdUtc\": 1778257829,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"oxp4s4v\",\n        \"url\": \"https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/oxp4s4v/\",\n        \"permalink\": \"/r/CollegeSoccer/comments/1pvfd3s/comment/oxp4s4v/\",\n        \"parentId\": \"t3_1pvfd3s\",\n        \"author\": \"Imeanbusiness1\",\n        \"text\": \"Sportsrecruit is a complete scam and low quality build. You cant even pick a gender for your athlete. I paid the $500 and they had her assigned as a male athlete. I realized this and after I built out the whole profile ajd paid the $500 they told me we had to deactivate the whole account and start a new one. Our $499 would go in the trash and all the work we did in building the account went to waste. I jave to file with my bank to get the money back. I had the account paid for 20 minutes and instantly knew what a pile of junk system it was. Their email response to buying a new account was confirmation. How can you not pick a gender? That means no one looks at you because youre a girl showing up on men's recruiting accounts and girls coaches never see you!\",\n        \"renderedHtml\": \"\\n      <p>\\n      Sportsrecruit is a complete scam and low quality build. You cant even pick a gender for your athlete. I paid the $500 and they had her assigned as a male athlete. I realized this and after I built out the whole profile ajd paid the $500 they told me we had to deactivate the whole account and start a new one. Our $499 would go in the trash and all the work we did in building the account went to waste. I jave to file with my bank to get the money back. I had the account paid for 20 minutes and instantly knew what a pile of junk system it was. Their email response to buying a new account was confirmation. How can you not pick a gender? That means no one looks at you because youre a girl showing up on men's recruiting accounts and girls coaches never see you!\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2026-07-15T15:27:09.000Z\",\n        \"createdUtc\": 1784129229,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"nvvnvqi\",\n        \"url\": \"https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/nvvnvqi/\",\n        \"permalink\": \"/r/CollegeSoccer/comments/1pvfd3s/comment/nvvnvqi/\",\n        \"parentId\": \"t3_1pvfd3s\",\n        \"author\": \"adadwhocantputt\",\n        \"text\": \"It\u2019s a scam. 75% of Division 3, Division 2, NAIA, and Junior colleges will actively recruit any player regardless of skill as long as they are academically able to attend the college. Especially girls.\\n\\n The more prestigious the school academically the less likely the head coach has any power of academic scholarships.\",\n        \"renderedHtml\": \"\\n      <p>\\n      It\u2019s a scam. 75% of Division 3, Division 2, NAIA, and Junior colleges will actively recruit any player regardless of skill as long as they are academically able to attend the college. Especially girls.\\n    </p><p>\\n      The more prestigious the school academically the less likely the head coach has any power of academic scholarships.\\n    </p>\\n    \",\n        \"score\": 0,\n        \"upvotes\": 0,\n        \"createdAt\": \"2025-12-25T15:17:49.000Z\",\n        \"createdUtc\": 1766675869,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      }\n    ]\n  },\n  \"meta\": {\n    \"requestId\": \"req_a0be3a58-2c19-476b-9611-d521653cacc8\",\n    \"creditsCharged\": 1,\n    \"version\": \"v1\"\n  }\n}"
    },
    {
     "type": "text",
-    "text": "{\"conversation_id\":\"01a1af42-8400-7d23-8b53-612e71d8f877\"}"
+    "text": "{\"conversation_id\":\"01a1af43-069f-730d-90a2-6b5744c377df\"}"
    }
   ],
   "structuredContent": {
-   "error": {
-    "code": "bad_request",
-    "message": "Unknown field `postId`. This tool takes: `url`, `cursor`, `trim`.",
-    "requestId": "req_75bbbf7d-68a4-4f3b-967c-82dfb09dd768"
+   "data": {
+    "lookupStatus": "found",
+    "post": {
+     "id": "1pvfd3s",
+     "title": "NCSA v SportsRecruits v Stack",
+     "text": "Merry Christmas all! I have a quick question about the three above services. My high school aged child is on SportsRecruits and has a free account on Stack and NCSA. We keep getting emails that coaches have viewed her Stack profile, etc., but we have to pay for more information to find out who. I don\u2019t really want to pay, as it feels like a scam. Does anyone have any insight? Thanks!",
+     "url": "https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/ncsa_v_sportsrecruits_v_stack/",
+     "permalink": "/r/CollegeSoccer/comments/1pvfd3s/ncsa_v_sportsrecruits_v_stack/",
+     "subreddit": "CollegeSoccer",
+     "subredditNamePrefixed": "r/CollegeSoccer",
+     "author": "Frank5616",
+     "score": 2,
+     "upvoteRatio": 0.75,
+     "commentCount": 23,
+     "createdAt": "2025-12-25T15:14:13.000Z",
+     "createdUtc": 1766675653,
+     "over18": false,
+     "locked": false,
+     "stickied": false
+    },
+    "page": {
+     "nextCursor": null,
+     "hasMore": false
+    },
+    "comments": [
+     {
+      "id": "nvvo19c",
+      "url": "https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/nvvo19c/",
+      "permalink": "/r/CollegeSoccer/comments/1pvfd3s/comment/nvvo19c/",
+      "parentId": "t3_1pvfd3s",
+      "author": "Mediumofmediocrity",
+      "text": "What grade is your child in? I\u2019ve always understood these programs to be a money grab. Attend ID camps for the schools in which your child is interested, and you think they have a good chance of playing for. Does your kid play club, if so what league?",
+      "renderedHtml": "\n      <p>\n      What grade is your child in?  I\u2019ve always understood these programs to be a money grab.  Attend ID camps for the schools in which your child is interested, and you think they have a good chance of playing for.  Does your kid play club, if so what league?\n    </p>\n    ",
+      "score": 2,
+      "upvotes": 2,
+      "createdAt": "2025-12-25T15:18:46.000Z",
+      "createdUtc": 1766675926,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "nvw1vgs",
+         "url": "https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/nvw1vgs/",
+         "permalink": "/r/CollegeSoccer/comments/1pvfd3s/comment/nvw1vgs/",
+         "parentId": "t1_nvvo19c",
+         "author": "Frank5616",
+         "text": "Yes- sophomore in high school, and plays club. Thx for the insight!",
+         "renderedHtml": "\n      <p>\n      Yes- sophomore in high school, and plays club.  Thx for the insight!\n    </p>\n    ",
+         "score": 1,
+         "upvotes": 1,
+         "createdAt": "2025-12-25T16:43:18.000Z",
+         "createdUtc": 1766680998,
+         "depth": 0,
+         "isSubmitter": true,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [
+           {
+            "id": "nvw2in8",
+            "url": "https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/nvw2in8/",
+            "permalink": "/r/CollegeSoccer/comments/1pvfd3s/comment/nvw2in8/",
+            "parentId": "t1_nvw1vgs",
+            "author": "Mediumofmediocrity",
+            "text": "What league is his club team, ECNL, ECRL, MLS Next, National League?",
+            "renderedHtml": "\n      <p>\n      What league is his club team, ECNL, ECRL, MLS Next, National League?\n    </p>\n    ",
+            "score": 1,
+            "upvotes": 1,
+            "createdAt": "2025-12-25T16:47:11.000Z",
+            "createdUtc": 1766681231,
+            "depth": 0,
+            "isSubmitter": false,
+            "stickied": false,
+            "locked": false,
+            "distinguished": null,
+            "replies": {
+             "items": [],
+             "page": {
+              "nextCursor": "eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy9Db2xsZWdlU29jY2VyL3QzXzFwdmZkM3M_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MyZjb21tZW50UGFyZW50UG9zaXRpb25zPTAsMCwwIiwiY3Vyc29yIjoiWTI5dGJXVnVkSFJ5WldVNk1HVTBZMlkxT0RJc09qb3pPbVF4T25ReFgyNTJkekpwYmpnPSIsInN1YnJlZGRpdCI6IkNvbGxlZ2VTb2NjZXIiLCJwb3N0SWQiOiIxcHZmZDNzIiwicGFyZW50VGhpbmdJZCI6InQxX252dzJpbjgifQ",
+              "hasMore": true
+             }
+            }
+           }
+          ],
+          "page": {
+           "nextCursor": "nvw2in8",
+           "hasMore": true
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "nvw2in8",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "nvvsmxg",
+      "url": "https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/nvvsmxg/",
+      "permalink": "/r/CollegeSoccer/comments/1pvfd3s/comment/nvvsmxg/",
+      "parentId": "t3_1pvfd3s",
+      "author": "MSJLionsroar",
+      "text": "SR was great for video. Never paid but when a coach was interested = straight to the video. Most messages were generic come attend our id camp, but there were a few random coaches that checked in. My daughter was solid D2/NAIA talent. It also is a place where we go look at all her highlights over the years.\nCollege coaches do pay to subscribe to these services so your profile will be seen by some\u2026",
+      "renderedHtml": "\n      <p>\n      SR was great for video.  Never paid but when a coach was interested = straight to the video.  Most messages were generic come attend our id camp, but there were a few random coaches that checked in.   My daughter was solid D2/NAIA talent.   It also is a place where we go look at all her highlights over the years.<br>College coaches do pay to subscribe to these services so your profile will be seen by some\u2026\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2025-12-25T15:47:45.000Z",
+      "createdUtc": 1766677665,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "nvvvvuj",
+         "url": "https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/nvvvvuj/",
+         "permalink": "/r/CollegeSoccer/comments/1pvfd3s/comment/nvvvvuj/",
+         "parentId": "t1_nvvsmxg",
+         "author": "thadcastleisagod",
+         "text": "I can\u2019t speak for stack. I don\u2019t use it. But ncsa and sportsrecruits are free for college coaches. So we can see all the info you put on it right off the bat.\nI\u2019ve had club players pay the 2k-4k for the star rating and the email blast and the little class they give you over zoom and email templates. I also have recruited players who had a free profile. It really doesn\u2019t make a difference to me as a college coach. As long as I can see your, gpa, videos, position, major, height, contact info. I\u2019m good.",
+         "renderedHtml": "\n      <p>\n      I can\u2019t speak for stack. I don\u2019t use it.  But ncsa and sportsrecruits are free for college coaches.  So we can see all the info you put on it right off the bat.<br>I\u2019ve had club players pay the 2k-4k for the star rating and the email blast and the little class they give you over zoom and email templates.  I also have recruited players who had a free profile.    It really doesn\u2019t make a difference to me as a college coach.  As long as I can see your, gpa, videos, position, major, height, contact info. I\u2019m good.\n    </p>\n    ",
+         "score": 4,
+         "upvotes": 4,
+         "createdAt": "2025-12-25T16:07:27.000Z",
+         "createdUtc": 1766678847,
+         "depth": 0,
+         "isSubmitter": false,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [
+           {
+            "id": "nvw1we5",
+            "url": "https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/nvw1we5/",
+            "permalink": "/r/CollegeSoccer/comments/1pvfd3s/comment/nvw1we5/",
+            "parentId": "t1_nvvvvuj",
+            "author": "Frank5616",
+            "text": "Thx!",
+            "renderedHtml": "\n      <p>\n      Thx!\n    </p>\n    ",
+            "score": 2,
+            "upvotes": 2,
+            "createdAt": "2025-12-25T16:43:28.000Z",
+            "createdUtc": 1766681008,
+            "depth": 0,
+            "isSubmitter": true,
+            "stickied": false,
+            "locked": false,
+            "distinguished": null,
+            "replies": {
+             "items": [],
+             "page": {
+              "nextCursor": null,
+              "hasMore": false
+             }
+            }
+           },
+           {
+            "id": "nvwjl7o",
+            "url": "https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/nvwjl7o/",
+            "permalink": "/r/CollegeSoccer/comments/1pvfd3s/comment/nvwjl7o/",
+            "parentId": "t1_nvvvvuj",
+            "author": "Dry-Umpire-3138",
+            "text": "how do you guys search, if you are looking for a certain position do you just type in \"CB 2026\" for example?",
+            "renderedHtml": "\n      <p>\n      how do you guys search, if you are looking for a certain position do you just type in \"CB 2026\" for example?\n    </p>\n    ",
+            "score": 1,
+            "upvotes": 1,
+            "createdAt": "2025-12-25T18:28:05.000Z",
+            "createdUtc": 1766687285,
+            "depth": 0,
+            "isSubmitter": false,
+            "stickied": false,
+            "locked": false,
+            "distinguished": null,
+            "replies": {
+             "items": [],
+             "page": {
+              "nextCursor": "eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy9Db2xsZWdlU29jY2VyL3QzXzFwdmZkM3M_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MyZjb21tZW50UGFyZW50UG9zaXRpb25zPTEsMCwxIiwiY3Vyc29yIjoiWTI5dGJXVnVkSFJ5WldVNk1UZG1PVFJqTUdVc09qb3pPbVF4T25ReFgyNTJkMnBzTjI4PSIsInN1YnJlZGRpdCI6IkNvbGxlZ2VTb2NjZXIiLCJwb3N0SWQiOiIxcHZmZDNzIiwicGFyZW50VGhpbmdJZCI6InQxX252d2psN28ifQ",
+              "hasMore": true
+             }
+            }
+           }
+          ],
+          "page": {
+           "nextCursor": "nvwjl7o",
+           "hasMore": true
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "nvwjl7o",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "nvw8sve",
+      "url": "https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/nvw8sve/",
+      "permalink": "/r/CollegeSoccer/comments/1pvfd3s/comment/nvw8sve/",
+      "parentId": "t3_1pvfd3s",
+      "author": "2eighty1",
+      "text": "I used NCSA. Heard a lotta knee jerk responses from parents who's kid ended up not playing on in college about what a waste of time, scam, kid should do it all on their own if they are motivated, yada yada yada, like that. I intro'd several parents to this platform, two put got their boys in programs also, D3s. My son ended up in D1. I will tell you how it helped. It connected him with former d2 and d3 head coach with 20 years experience who became a mentor for him and was available to him his Jr. and Sr. year as he went thru ID camps and recruiting process. That was the main value. The second value was centralized info about schools. We keep his list there and profiled schools thru their portal. We got the first level free thru our club then upgrade to the highest level where the mentor was in text and email touch with player when there was a sale. It was <than $2K. My kid never played ECNL or MLS Next, and he was a young 2006, 2024 HS grad, but we knew he could play D1 bc we went and watched games in person and he did our a local University D1 ID early and their players and HC informally told me he could do D1 and he did get D1 partial and is very happy. The NCSA sports mentor helped him / us build a profile of schools that would be a good fit for him and thru every ID camp and discussion. I never played soccer or college sport. I did not want to f-up a process I never did before in my life - I'd seen so many fumbles by know-it-all and hands-off parents many of them played soccer but not college soccer - and I could see the process was opaque and not what it appeared - the goal was for my player to play 4 more years - the sport he loved - while he got his degree. No regrets. YMMV. Best of luck.",
+      "renderedHtml": "\n      <p>\n      I used NCSA. Heard a lotta knee jerk responses from parents who's kid ended up not playing on in college about what a waste of time, scam, kid should do it all on their own if they are motivated, yada yada yada, like that.  I intro'd several parents to this platform, two put got their boys in programs also, D3s.  My son ended up in D1. I will tell you how it helped.  It connected him with former d2 and d3 head coach with 20 years experience who became a mentor for him and was available to him his Jr. and Sr. year as he went thru ID camps and recruiting process.  That was the main value. The second value was centralized info about schools.  We keep his list there and profiled schools thru their portal.  We got the first level free thru our club then upgrade to the highest level where the mentor was in text and email touch with player when there was a sale.  It was &lt;than $2K.  My kid never played ECNL or MLS Next, and he was a young 2006, 2024 HS grad, but we knew he could play D1 bc we went and watched games in person and he did our a local University D1 ID early and their players and HC informally told me he could do D1 and he did get D1 partial and is very happy.  The NCSA sports mentor helped him / us build a profile of schools that would be a good fit for him and thru every ID camp and discussion.  I never played soccer or college sport.  I did not want to f-up a process I never did before in my life - I'd seen so many fumbles by know-it-all and hands-off parents many of them played soccer but not college soccer - and I could see the process was opaque and not what it appeared - the goal was for my player to play 4 more years - the sport he loved - while he got his degree.  No regrets.  YMMV.  Best of luck.\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2025-12-25T17:25:01.000Z",
+      "createdUtc": 1766683501,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "nvy0fif",
+      "url": "https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/nvy0fif/",
+      "permalink": "/r/CollegeSoccer/comments/1pvfd3s/comment/nvy0fif/",
+      "parentId": "t3_1pvfd3s",
+      "author": "[deleted]",
+      "text": "[deleted]",
+      "renderedHtml": null,
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2025-12-25T23:53:05.000Z",
+      "createdUtc": 1766706785,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "nvy5lw5",
+      "url": "https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/nvy5lw5/",
+      "permalink": "/r/CollegeSoccer/comments/1pvfd3s/comment/nvy5lw5/",
+      "parentId": "t3_1pvfd3s",
+      "author": "Aussieomni",
+      "text": "As a commentator I use NCSA. A LOT for research so you know that would help me out personally if people used that.",
+      "renderedHtml": "\n      <p>\n      As a commentator I use NCSA. A LOT for research so you know that would help me out personally if people used that.\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2025-12-26T00:25:47.000Z",
+      "createdUtc": 1766708747,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "nw0ki7z",
+      "url": "https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/nw0ki7z/",
+      "permalink": "/r/CollegeSoccer/comments/1pvfd3s/comment/nw0ki7z/",
+      "parentId": "t3_1pvfd3s",
+      "author": "hahaanonymouse765",
+      "text": "Many people will say these are money grabs, but it totally depends on your situation. NCSA for example has great resources if you are unfamiliar with recruiting or don\u2019t want to do the work/research yourself. There are tons of families who use them simply because they don\u2019t understand the recruiting world and need help. NCSA is your so-called \u201cmiddle man\u201d who will do a lot of the work for you, either the recruiting \u201ccoach\u201d will do it via consultations, video review, etc. I know they perform outreach to coaches but not sure how exactly. The platform itself also provides a ton of resources, webinars, etc to help guide you through the process.\n\n SportsRecruits, from my understanding, is a platform for you to put up your info- video, stats, academics, etc. I don\u2019t think they have individuals that perform outreach, I think the coaches go to the platform to see everything. I could be mistaken though.\n\n No idea about Stack, sorry.\n\n NCSA and SportsRecruits are both owned by IMG Academy so not sure if that matters to you or not. IMG does provide mental training and other programs through NCSA as well.",
+      "renderedHtml": "\n      <p>\n      Many people will say these are money grabs, but it totally depends on your situation. NCSA for example has great resources if you are unfamiliar with recruiting or don\u2019t want to do the work/research yourself. There are tons of families who use them simply because they don\u2019t understand the recruiting world and need help. NCSA is your so-called \u201cmiddle man\u201d who will do a lot of the work for you, either the recruiting \u201ccoach\u201d will do it via consultations, video review, etc. I know they perform outreach to coaches but not sure how exactly. The platform itself also provides a ton of resources, webinars, etc to help guide you through the process.\n    </p><p>\n      SportsRecruits, from my understanding, is a platform for you to put up your info- video, stats, academics, etc. I don\u2019t think they have individuals that perform outreach, I think the coaches go to the platform to see everything. I could be mistaken though.\n    </p><p>\n      No idea about Stack, sorry.\n    </p><p>\n      NCSA and SportsRecruits are both owned by IMG Academy so not sure if that matters to you or not. IMG does provide mental training and other programs through NCSA as well.\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2025-12-26T12:36:19.000Z",
+      "createdUtc": 1766752579,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "ods31g0",
+      "url": "https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/ods31g0/",
+      "permalink": "/r/CollegeSoccer/comments/1pvfd3s/comment/ods31g0/",
+      "parentId": "t3_1pvfd3s",
+      "author": "Maleficent-Dress-500",
+      "text": "NCSA is NOT a good resource in the world of the Transfer portal. If you're looking to play D1, NCSA cannot help you with that any more than posting on twitter, instagram, and youtube/messaging coaches and programs on your own will. Having worked at NCSA, I know what they sell is a lie. Most of the commitments they advertise are actually just their team marking athletes as \"committed to NCSA\" when they don't commit to a school.",
+      "renderedHtml": "\n      <p>\n      NCSA is NOT a good resource in the world of the Transfer portal. If you're looking to play D1, NCSA cannot help you with that any more than posting on twitter, instagram, and youtube/messaging coaches and programs on your own will. Having worked at NCSA, I know what they sell is a lie. Most of the commitments they advertise are actually just their team marking athletes as \"committed to NCSA\" when they don't commit to a school.\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2026-04-01T22:23:50.000Z",
+      "createdUtc": 1775082230,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "oj6f3rl",
+      "url": "https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/oj6f3rl/",
+      "permalink": "/r/CollegeSoccer/comments/1pvfd3s/comment/oj6f3rl/",
+      "parentId": "t3_1pvfd3s",
+      "author": "php_js_dev",
+      "text": "Played college soccer at Michigan (D1) and went through ODP, so some context on these three:\n\n NCSA \u2014 you're mostly paying for a huge sales team. The \"a coach viewed your profile\" emails are intentionally vague because the upsell is finding out who. Not a scam exactly, but expensive for what it actually is.\n\n SportsRecruits \u2014 more legit, mostly because clubs pay for it. If your daughter's club already has it, use what's there and don't pay extra yourself.\n\n Stack \u2014 basically a free profile/highlight host. Fine as a place to park video, not really a recruiting service.\n\n The bigger issue with all three is that they don't really help with the thing that actually moves the needle: athletes emailing coaches directly from their own email. A personal email from the player will outperform any \"profile view\" notification, and you stay in control of the conversation.\n\n Full disclosure \u2014 I run ProductiveRecruit (productiverecruit.com), which is built around exactly that (direct Gmail outreach to coaches with open/click tracking). Mentioning it because it's relevant to your question, not trying to spam the sub. Happy to answer questions either way.",
+      "renderedHtml": "\n      <p>\n      Played college soccer at Michigan (D1) and went through ODP, so some context on these three:\n    </p><p>\n      NCSA \u2014 you're mostly paying for a huge sales team. The \"a coach viewed your profile\" emails are intentionally vague because the upsell is finding out who. Not a scam exactly, but expensive for what it actually is.\n    </p><p>\n      SportsRecruits \u2014 more legit, mostly because clubs pay for it. If your daughter's club already has it, use what's there and don't pay extra yourself.\n    </p><p>\n      Stack \u2014 basically a free profile/highlight host. Fine as a place to park video, not really a recruiting service.\n    </p><p>\n      The bigger issue with all three is that they don't really help with the thing that actually moves the needle: athletes emailing coaches directly from their own email. A personal email from the player will outperform any \"profile view\" notification, and you stay in control of the conversation.\n    </p><p>\n      Full disclosure \u2014 I run ProductiveRecruit (productiverecruit.com), which is built around exactly that (direct Gmail outreach to coaches with open/click tracking). Mentioning it because it's relevant to your question, not trying to spam the sub. Happy to answer questions either way.\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2026-04-30T18:29:01.000Z",
+      "createdUtc": 1777573741,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "oko0w3x",
+      "url": "https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/oko0w3x/",
+      "permalink": "/r/CollegeSoccer/comments/1pvfd3s/comment/oko0w3x/",
+      "parentId": "t3_1pvfd3s",
+      "author": "ScoutUBen",
+      "text": "I'm a new scout with ScoutU. I'd be happy to answer questions.",
+      "renderedHtml": "\n      <p>\n      I'm a new scout with ScoutU. I'd be happy to answer questions.\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2026-05-08T16:30:29.000Z",
+      "createdUtc": 1778257829,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "oxp4s4v",
+      "url": "https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/oxp4s4v/",
+      "permalink": "/r/CollegeSoccer/comments/1pvfd3s/comment/oxp4s4v/",
+      "parentId": "t3_1pvfd3s",
+      "author": "Imeanbusiness1",
+      "text": "Sportsrecruit is a complete scam and low quality build. You cant even pick a gender for your athlete. I paid the $500 and they had her assigned as a male athlete. I realized this and after I built out the whole profile ajd paid the $500 they told me we had to deactivate the whole account and start a new one. Our $499 would go in the trash and all the work we did in building the account went to waste. I jave to file with my bank to get the money back. I had the account paid for 20 minutes and instantly knew what a pile of junk system it was. Their email response to buying a new account was confirmation. How can you not pick a gender? That means no one looks at you because youre a girl showing up on men's recruiting accounts and girls coaches never see you!",
+      "renderedHtml": "\n      <p>\n      Sportsrecruit is a complete scam and low quality build. You cant even pick a gender for your athlete. I paid the $500 and they had her assigned as a male athlete. I realized this and after I built out the whole profile ajd paid the $500 they told me we had to deactivate the whole account and start a new one. Our $499 would go in the trash and all the work we did in building the account went to waste. I jave to file with my bank to get the money back. I had the account paid for 20 minutes and instantly knew what a pile of junk system it was. Their email response to buying a new account was confirmation. How can you not pick a gender? That means no one looks at you because youre a girl showing up on men's recruiting accounts and girls coaches never see you!\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2026-07-15T15:27:09.000Z",
+      "createdUtc": 1784129229,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "nvvnvqi",
+      "url": "https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/nvvnvqi/",
+      "permalink": "/r/CollegeSoccer/comments/1pvfd3s/comment/nvvnvqi/",
+      "parentId": "t3_1pvfd3s",
+      "author": "adadwhocantputt",
+      "text": "It\u2019s a scam. 75% of Division 3, Division 2, NAIA, and Junior colleges will actively recruit any player regardless of skill as long as they are academically able to attend the college. Especially girls.\n\n The more prestigious the school academically the less likely the head coach has any power of academic scholarships.",
+      "renderedHtml": "\n      <p>\n      It\u2019s a scam. 75% of Division 3, Division 2, NAIA, and Junior colleges will actively recruit any player regardless of skill as long as they are academically able to attend the college. Especially girls.\n    </p><p>\n      The more prestigious the school academically the less likely the head coach has any power of academic scholarships.\n    </p>\n    ",
+      "score": 0,
+      "upvotes": 0,
+      "createdAt": "2025-12-25T15:17:49.000Z",
+      "createdUtc": 1766675869,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     }
+    ]
+   },
+   "meta": {
+    "requestId": "req_a0be3a58-2c19-476b-9611-d521653cacc8",
+    "creditsCharged": 1,
+    "version": "v1"
    },
    "card": {
-    "kind": "status",
-    "status": "error",
-    "title": "Lookup failed",
-    "subtitle": "Unknown field `postId`. This tool takes: `url`, `cursor`, `trim`."
+    "kind": "search",
+    "title": "Reddit comments",
+    "subtitle": "11 results",
+    "resultCount": 11,
+    "items": [
+     {
+      "title": "What grade is your child in? I\u2019ve always understood these programs to be a money grab. Attend ID camps for the schools in which your child is interested, and\u2026",
+      "subtitle": "@Mediumofmediocrity \u00b7 2 points",
+      "href": "https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/nvvo19c/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "SR was great for video. Never paid but when a coach was interested = straight to the video. Most messages were generic come attend our id camp, but there were\u2026",
+      "subtitle": "@MSJLionsroar \u00b7 1 point",
+      "href": "https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/nvvsmxg/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "I used NCSA. Heard a lotta knee jerk responses from parents who's kid ended up not playing on in college about what a waste of time, scam, kid should do it\u2026",
+      "subtitle": "@2eighty1 \u00b7 1 point",
+      "href": "https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/nvw8sve/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "[deleted]",
+      "subtitle": "@[deleted] \u00b7 1 point",
+      "href": "https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/nvy0fif/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "As a commentator I use NCSA. A LOT for research so you know that would help me out personally if people used that.",
+      "subtitle": "@Aussieomni \u00b7 1 point",
+      "href": "https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/nvy5lw5/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Many people will say these are money grabs, but it totally depends on your situation. NCSA for example has great resources if you are unfamiliar with\u2026",
+      "subtitle": "@hahaanonymouse765 \u00b7 1 point",
+      "href": "https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/nw0ki7z/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "NCSA is NOT a good resource in the world of the Transfer portal. If you're looking to play D1, NCSA cannot help you with that any more than posting on\u2026",
+      "subtitle": "@Maleficent-Dress-500 \u00b7 1 point",
+      "href": "https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/ods31g0/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Played college soccer at Michigan (D1) and went through ODP, so some context on these three: NCSA \u2014 you're mostly paying for a huge sales team. The \"a coach\u2026",
+      "subtitle": "@php_js_dev \u00b7 1 point",
+      "href": "https://www.reddit.com/r/CollegeSoccer/comments/1pvfd3s/comment/oj6f3rl/",
+      "platform": "Reddit"
+     }
+    ]
    }
-  },
-  "isError": true
+  }
  },
  "jsonrpc": "2.0",
  "id": 1

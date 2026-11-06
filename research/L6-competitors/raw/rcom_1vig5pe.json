@@ -3,27 +3,688 @@
   "content": [
    {
     "type": "text",
-    "text": "{\n  \"error\": {\n    \"code\": \"bad_request\",\n    \"message\": \"Unknown field `postId`. This tool takes: `url`, `cursor`, `trim`.\",\n    \"requestId\": \"req_5bdf936c-e16e-48a8-aa3c-8db2b3ebb8c2\"\n  }\n}"
+    "text": "{\n  \"data\": {\n    \"lookupStatus\": \"found\",\n    \"post\": {\n      \"id\": \"1vig5pe\",\n      \"title\": \"Cautionary note about NCSA recruitment practices\",\n      \"text\": \"Our high school just adopted a new digital registration platform, Arbiter, which automatically creates an account with NCSA for your child at the end of the registration process if you indicate that you may be interested in future college athletics recruitment. What we didn't realize is that this apparently means an NCSA recruitment coordinator will then call every number listed on the account, beginning with your child. Since the profile creation included a bunch of info that my child's travel team also requests upon registration, I included what was asked. My fault, honestly, for listing my kid's mobile number. I didn't think that she would be called prior to her junior year, due to NCAA restrictions on that behavior. Unfortunately, this NCSA recruiter got my 14 year old on the phone and urged her to schedule an assessment with him and a formal 60 minute recruitment meeting ASAP, since it's his \\\"busy season\\\" and he can squeeze her in now. She was weirded out and told my husband and I. Upon hearing about this, I immediately called back and spoke with the person who called her (he is legitimately an employee of NCSA - I looked him up) and pointed out that he cold called a 14 year old. He argued with me that creating the account grants permission for him to contact her directly, to which I rebuffed with the NCAA restriction regarding contact prior to junior year. He stated that since he isn't an NCAA coach, he doesn't have to abide by their contact restrictions. I added that she doesn't graduate until 2030 and is only beginning to think about whether she wants to play in college. He continued to talk, and I hung up at that point, logged into the account, and deleted all non mandatory info. I then contacted our athletic department and left a message about what happened. I'm kind of disappointed I blindly entered my kid's mobile number not even considering the possibility that this would entitle someone to approach her like this. We have a bunch of other avenues we can rely on to begin the recruitment process, if she decides to pursue it. I get that NCSA can offer some genuine assistance for people that don't know how else to do this, but today's experience landed as highly predatory. I just needed to put this somewhere. I'm kind of grossed out, a little mad at myself, and annoyed with our school's athletic department.\",\n      \"url\": \"https://www.reddit.com/r/Softball/comments/1vig5pe/cautionary_note_about_ncsa_recruitment_practices/\",\n      \"permalink\": \"/r/Softball/comments/1vig5pe/cautionary_note_about_ncsa_recruitment_practices/\",\n      \"subreddit\": \"Softball\",\n      \"subredditNamePrefixed\": \"r/Softball\",\n      \"author\": \"hadronmotel\",\n      \"score\": 16,\n      \"upvoteRatio\": 0.9,\n      \"commentCount\": 23,\n      \"createdAt\": \"2026-08-07T23:27:38.000Z\",\n      \"createdUtc\": 1786145258,\n      \"over18\": false,\n      \"locked\": false,\n      \"stickied\": false\n    },\n    \"page\": {\n      \"nextCursor\": null,\n      \"hasMore\": false\n    },\n    \"comments\": [\n      {\n        \"id\": \"p2dbibi\",\n        \"url\": \"https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2dbibi/\",\n        \"permalink\": \"/r/Softball/comments/1vig5pe/comment/p2dbibi/\",\n        \"parentId\": \"t3_1vig5pe\",\n        \"author\": \"CollegeSportsSheets\",\n        \"text\": \"NCSA\\n\\n does this a bunch of sports organization platforms. TeamSnap\\n\\n is the same way and an NCSA app always pops up that you have to close out to advance in the app.\\n\\n This is also how you sometimes get on schools camp invite email lists as well.\\n\\n If you do hear from them again just be super clear that you aren\u2019t interested in their services and please remove you from their list.\",\n        \"renderedHtml\": \"\\n      <p>\\n      <search-telemetry-tracker data-faceplate-tracking-context=\\\"{&quot;action_info&quot;:{&quot;type&quot;:&quot;search&quot;},&quot;comment&quot;:{&quot;id&quot;:&quot;t1_p2dbibi&quot;,&quot;post_id&quot;:&quot;t3_1vig5pe&quot;},&quot;meta_search&quot;:{&quot;display_query&quot;:&quot;NCSA&quot;}}\\\" view-events=\\\"post_detail/view/highlight\\\"><search-telemetry-tracker data-faceplate-tracking-context=\\\"{&quot;action_info&quot;:{&quot;type&quot;:&quot;pdp_term&quot;},&quot;meta_search&quot;:{&quot;raw_query&quot;:&quot;NCSA recruitment practices&quot;},&quot;search&quot;:{&quot;impression_id&quot;:&quot;8ff4451a-75d1-45c6-9786-a11dc7fd6df7&quot;,&quot;origin_element&quot;:&quot;pdp_comment_highlighted_search_term&quot;,&quot;query&quot;:&quot;NCSA recruitment practices&quot;,&quot;conversation_id&quot;:&quot;b555f478-8bfc-4faf-81ec-e3fc7794fcdd&quot;}}\\\" click-events=\\\"search/click/full_search_button\\\"><a rpl=\\\"\\\" class=\\\"border-[var(--color-a-default)] visited:border-[var(--color-a-visited)] hover:border-[var(--color-a-hover)] hover:visited:border-[var(--color-a-visited)] !no-underline border-dotted border-b-sm border-x-0 border-t-0 p-px a\\n  \\n  \\n  \\n  \\n  no-underline hover:no-underline\\n  \\n  cursor-pointer\\\" href=\\\"/search/?q=NCSA+recruitment+practices&amp;cId=b555f478-8bfc-4faf-81ec-e3fc7794fcdd&amp;iId=18e5a917-c945-401d-807c-fb238c6ef488\\\">NCSA<span class=\\\"ms-2xs align-middle\\\"><svg rpl=\\\"\\\" fill=\\\"currentColor\\\" height=\\\"12\\\" icon-name=\\\"search\\\" viewBox=\\\"0 0 20 20\\\" width=\\\"12\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\">\\n      <path d=\\\"m18.736 17.464-3.483-3.483A7.961 7.961 0 0016.999 9 8 8 0 109 17a7.961 7.961 0 004.981-1.746l3.483 3.483a.9.9 0 101.272-1.273ZM9 15.2A6.207 6.207 0 012.8 9c0-3.419 2.781-6.2 6.2-6.2s6.2 2.781 6.2 6.2-2.781 6.2-6.2 6.2Z\\\"></path>\\n    </svg></span></a></search-telemetry-tracker></search-telemetry-tracker> does this a bunch of sports organization platforms. <search-telemetry-tracker data-faceplate-tracking-context=\\\"{&quot;action_info&quot;:{&quot;type&quot;:&quot;search&quot;},&quot;comment&quot;:{&quot;id&quot;:&quot;t1_p2dbibi&quot;,&quot;post_id&quot;:&quot;t3_1vig5pe&quot;},&quot;meta_search&quot;:{&quot;display_query&quot;:&quot;TeamSnap&quot;}}\\\" view-events=\\\"post_detail/view/highlight\\\"><search-telemetry-tracker data-faceplate-tracking-context=\\\"{&quot;action_info&quot;:{&quot;type&quot;:&quot;pdp_term&quot;},&quot;meta_search&quot;:{&quot;raw_query&quot;:&quot;TeamSnap NCSA integration&quot;},&quot;search&quot;:{&quot;impression_id&quot;:&quot;8ff4451a-75d1-45c6-9786-a11dc7fd6df7&quot;,&quot;origin_element&quot;:&quot;pdp_comment_highlighted_search_term&quot;,&quot;query&quot;:&quot;TeamSnap NCSA integration&quot;,&quot;conversation_id&quot;:&quot;ab740894-be0a-493f-80ef-2d091cccecc3&quot;}}\\\" click-events=\\\"search/click/full_search_button\\\"><a rpl=\\\"\\\" class=\\\"border-[var(--color-a-default)] visited:border-[var(--color-a-visited)] hover:border-[var(--color-a-hover)] hover:visited:border-[var(--color-a-visited)] !no-underline border-dotted border-b-sm border-x-0 border-t-0 p-px a\\n  \\n  \\n  \\n  \\n  no-underline hover:no-underline\\n  \\n  cursor-pointer\\\" href=\\\"/search/?q=TeamSnap+NCSA+integration&amp;cId=ab740894-be0a-493f-80ef-2d091cccecc3&amp;iId=6582ad1d-a04f-48a3-a203-1358e235dd95\\\">TeamSnap<span class=\\\"ms-2xs align-middle\\\"><svg rpl=\\\"\\\" fill=\\\"currentColor\\\" height=\\\"12\\\" icon-name=\\\"search\\\" viewBox=\\\"0 0 20 20\\\" width=\\\"12\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\">\\n      <path d=\\\"m18.736 17.464-3.483-3.483A7.961 7.961 0 0016.999 9 8 8 0 109 17a7.961 7.961 0 004.981-1.746l3.483 3.483a.9.9 0 101.272-1.273ZM9 15.2A6.207 6.207 0 012.8 9c0-3.419 2.781-6.2 6.2-6.2s6.2 2.781 6.2 6.2-2.781 6.2-6.2 6.2Z\\\"></path>\\n    </svg></span></a></search-telemetry-tracker></search-telemetry-tracker> is the same way and an NCSA app always pops up that you have to close out to advance in the app.\\n    </p><p>\\n      This is also how you sometimes get on schools camp invite email lists as well.\\n    </p><p>\\n      If you do hear from them again just be super clear that you aren\u2019t interested in their services and please remove you from their list.\\n    </p>\\n    \",\n        \"score\": 7,\n        \"upvotes\": 7,\n        \"createdAt\": \"2026-08-08T00:08:46.000Z\",\n        \"createdUtc\": 1786147726,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"p2dfr2d\",\n              \"url\": \"https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2dfr2d/\",\n              \"permalink\": \"/r/Softball/comments/1vig5pe/comment/p2dfr2d/\",\n              \"parentId\": \"t1_p2dbibi\",\n              \"author\": \"hadronmotel\",\n              \"text\": \"Thank you\",\n              \"renderedHtml\": \"\\n      <p>\\n      Thank you\\n    </p>\\n    \",\n              \"score\": 3,\n              \"upvotes\": 3,\n              \"createdAt\": \"2026-08-08T00:32:54.000Z\",\n              \"createdUtc\": 1786149174,\n              \"depth\": 0,\n              \"isSubmitter\": true,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": null,\n                  \"hasMore\": false\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"p2dbibi\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"p2di8s5\",\n        \"url\": \"https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2di8s5/\",\n        \"permalink\": \"/r/Softball/comments/1vig5pe/comment/p2di8s5/\",\n        \"parentId\": \"t3_1vig5pe\",\n        \"author\": \"AwfulMouthful\",\n        \"text\": \"I suppose I might be missing some context, but an adult man intentionally bypassing me and calling my 14 year old to \\\"come in for a meeting\\\" is asking for trouble, I don't give a shit where he works.\",\n        \"renderedHtml\": \"\\n      <p>\\n      I suppose I might be missing some context, but an adult man intentionally bypassing me and calling my 14 year old to \\\"come in for a meeting\\\" is asking for trouble, I don't give a shit where he works.\\n    </p>\\n    \",\n        \"score\": 9,\n        \"upvotes\": 9,\n        \"createdAt\": \"2026-08-08T00:47:12.000Z\",\n        \"createdUtc\": 1786150032,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"p2dkrdt\",\n              \"url\": \"https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2dkrdt/\",\n              \"permalink\": \"/r/Softball/comments/1vig5pe/comment/p2dkrdt/\",\n              \"parentId\": \"t1_p2di8s5\",\n              \"author\": \"hadronmotel\",\n              \"text\": \"When you pare it down to basics, that essentially is what happened. Ultimately that's why it feels predatory and all wrong.\",\n              \"renderedHtml\": \"\\n      <p>\\n      When you pare it down to basics, that essentially is what happened. Ultimately that's why it feels predatory and all wrong.\\n    </p>\\n    \",\n              \"score\": 5,\n              \"upvotes\": 5,\n              \"createdAt\": \"2026-08-08T01:01:35.000Z\",\n              \"createdUtc\": 1786150895,\n              \"depth\": 0,\n              \"isSubmitter\": true,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": null,\n                  \"hasMore\": false\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"p2di8s5\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"p2deg09\",\n        \"url\": \"https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2deg09/\",\n        \"permalink\": \"/r/Softball/comments/1vig5pe/comment/p2deg09/\",\n        \"parentId\": \"t3_1vig5pe\",\n        \"author\": \"scrodytheroadie\",\n        \"text\": \"I made the same mistake. You\u2019re going through and checking a million boxes, I just checked that one too. I got a bunch of calls for a few days, but ignored them. They eventually stopped.\",\n        \"renderedHtml\": \"\\n      <p>\\n      I made the same mistake. You\u2019re going through and checking a million boxes, I just checked that one too. I got a bunch of calls for a few days, but ignored them. They eventually stopped.\\n    </p>\\n    \",\n        \"score\": 5,\n        \"upvotes\": 5,\n        \"createdAt\": \"2026-08-08T00:25:21.000Z\",\n        \"createdUtc\": 1786148721,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"p2dgbb2\",\n              \"url\": \"https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2dgbb2/\",\n              \"permalink\": \"/r/Softball/comments/1vig5pe/comment/p2dgbb2/\",\n              \"parentId\": \"t1_p2deg09\",\n              \"author\": \"hadronmotel\",\n              \"text\": \"That's relieving to hear\",\n              \"renderedHtml\": \"\\n      <p>\\n      That's relieving to hear\\n    </p>\\n    \",\n              \"score\": 1,\n              \"upvotes\": 1,\n              \"createdAt\": \"2026-08-08T00:36:06.000Z\",\n              \"createdUtc\": 1786149366,\n              \"depth\": 0,\n              \"isSubmitter\": true,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": null,\n                  \"hasMore\": false\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"p2deg09\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"p2g47w7\",\n        \"url\": \"https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2g47w7/\",\n        \"permalink\": \"/r/Softball/comments/1vig5pe/comment/p2g47w7/\",\n        \"parentId\": \"t3_1vig5pe\",\n        \"author\": \"Educational_Limit161\",\n        \"text\": \"NCSA is extremely pushy and honestly your story doesn\u2019t surprise me. I would have done exactly the same thing that you did. Then blocked them and notified the school.\\n\\n I\u2019ll add that you 100% don\u2019t need NCSA for the college recruitment process. I have a 2026 (lax) playing in college this year and a 2027 (softball) committed to play next year. We didn\u2019t use a recruiting service for either one. You and your child can do everything that the recruiting service can do and from my understanding, college coaches prefer working directly with the player/family anyway.\",\n        \"renderedHtml\": \"\\n      <p>\\n      NCSA is extremely pushy and honestly your story doesn\u2019t surprise me. I would have done exactly the same thing that you did. Then blocked them and notified the school.\\n    </p><p>\\n      I\u2019ll add that you 100% don\u2019t need NCSA for the college recruitment process. I have a 2026 (lax) playing in college this year and a 2027 (softball) committed to play next year. We didn\u2019t use a recruiting service for either one. You and your child can do everything that the recruiting service can do and from my understanding, college coaches prefer working directly with the player/family anyway.\\n    </p>\\n    \",\n        \"score\": 3,\n        \"upvotes\": 3,\n        \"createdAt\": \"2026-08-08T12:09:04.000Z\",\n        \"createdUtc\": 1786190944,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"p2gbpek\",\n              \"url\": \"https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2gbpek/\",\n              \"permalink\": \"/r/Softball/comments/1vig5pe/comment/p2gbpek/\",\n              \"parentId\": \"t1_p2g47w7\",\n              \"author\": \"hadronmotel\",\n              \"text\": \"Thank you. We are acquainted with a college coach and have a family member of another college coach in our network of contacts, along with a handful of other personal friends who have been recruited for softball. The general recommendation is the same: email them directly to invite them to showcases, and then periodically to give them updates (my favorite description of the process was like writing a one-sided email diary since they can't respond until junior year). Seeing the player in her element and getting a general read on the parent dynamic were at the top of the list of things we were told they want to see. A coach once told us that she is very wary of any dynamics that scream \\\"team poison.\\\" There is literally no way an NCSA intermediary can help us any better than we can help ourselves, given what we already know.\",\n              \"renderedHtml\": \"\\n      <p>\\n      Thank you. We are acquainted with a college coach and have a family member of another college coach in our network of contacts, along with a handful of other personal friends who have been recruited for softball. The general recommendation is the same: email them directly to invite them to showcases, and then periodically to give them updates (my favorite description of the process was like writing a one-sided email diary since they can't respond until junior year). Seeing the player in her element and getting a general read on the parent dynamic were at the top of the list of things we were told they want to see. A coach once told us that she is very wary of any dynamics that scream \\\"team poison.\\\" There is literally no way an NCSA intermediary can help us any better than we can help ourselves, given what we already know.\\n    </p>\\n    \",\n              \"score\": 4,\n              \"upvotes\": 4,\n              \"createdAt\": \"2026-08-08T12:54:55.000Z\",\n              \"createdUtc\": 1786193695,\n              \"depth\": 0,\n              \"isSubmitter\": true,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [\n                  {\n                    \"id\": \"p2gfxqz\",\n                    \"url\": \"https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2gfxqz/\",\n                    \"permalink\": \"/r/Softball/comments/1vig5pe/comment/p2gfxqz/\",\n                    \"parentId\": \"t1_p2gbpek\",\n                    \"author\": \"Educational_Limit161\",\n                    \"text\": \"The one sided diary description is spot on!\\n\\n That was exactly our 2027s experience. During her visit, the college coach literally said to her:\\n\\n \u201cI couldn\u2019t contact you until this year, but I\u2019ve been reading your messages (emails/DMs) ever since you came to our camp as a 9th grader.\u201d\",\n                    \"renderedHtml\": \"\\n      <p>\\n      The one sided diary description is spot on!\\n    </p><p>\\n      That was exactly our 2027s experience. During her visit, the college coach literally said to her:\\n    </p><p>\\n      \u201cI couldn\u2019t contact you until this year, but I\u2019ve been reading your messages (emails/DMs) ever since you came to our camp as a 9th grader.\u201d\\n    </p>\\n    \",\n                    \"score\": 2,\n                    \"upvotes\": 2,\n                    \"createdAt\": \"2026-08-08T13:19:11.000Z\",\n                    \"createdUtc\": 1786195151,\n                    \"depth\": 0,\n                    \"isSubmitter\": false,\n                    \"stickied\": false,\n                    \"locked\": false,\n                    \"distinguished\": null,\n                    \"replies\": {\n                      \"items\": [],\n                      \"page\": {\n                        \"nextCursor\": null,\n                        \"hasMore\": false\n                      }\n                    }\n                  }\n                ],\n                \"page\": {\n                  \"nextCursor\": \"p2gbpek\",\n                  \"hasMore\": true\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"p2gbpek\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"p2h2ojr\",\n        \"url\": \"https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2h2ojr/\",\n        \"permalink\": \"/r/Softball/comments/1vig5pe/comment/p2h2ojr/\",\n        \"parentId\": \"t3_1vig5pe\",\n        \"author\": \"bravara-mike\",\n        \"text\": \"NCSA and anyone who works with youth athletes should be held accountable to SafeSport rules around communication between adults and minors. No one-on-one electronic communication, phone calls, video calls, or in person meetings.\",\n        \"renderedHtml\": \"\\n      <p>\\n      NCSA and anyone who works with youth athletes should be held accountable to SafeSport rules around communication between adults and minors. No one-on-one electronic communication, phone calls, video calls, or in person meetings.\\n    </p>\\n    \",\n        \"score\": 2,\n        \"upvotes\": 2,\n        \"createdAt\": \"2026-08-08T15:15:53.000Z\",\n        \"createdUtc\": 1786202153,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"p2irohd\",\n              \"url\": \"https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2irohd/\",\n              \"permalink\": \"/r/Softball/comments/1vig5pe/comment/p2irohd/\",\n              \"parentId\": \"t1_p2h2ojr\",\n              \"author\": \"hadronmotel\",\n              \"text\": \"See, that's the other part that had me surprised. I was a youth coach for awhile, and I've been an educator for even longer. It's grooming adjacent behavior to engage in private communication with other people's kids and forbidden in my professional life to do that.\",\n              \"renderedHtml\": \"\\n      <p>\\n      See, that's the other part that had me surprised. I was a youth coach for awhile, and I've been an educator for even longer. It's grooming adjacent behavior to engage in private communication with other people's kids and forbidden in my professional life to do that.\\n    </p>\\n    \",\n              \"score\": 1,\n              \"upvotes\": 1,\n              \"createdAt\": \"2026-08-08T20:07:12.000Z\",\n              \"createdUtc\": 1786219632,\n              \"depth\": 0,\n              \"isSubmitter\": true,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": null,\n                  \"hasMore\": false\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"p2h2ojr\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"p2d8cot\",\n        \"url\": \"https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2d8cot/\",\n        \"permalink\": \"/r/Softball/comments/1vig5pe/comment/p2d8cot/\",\n        \"parentId\": \"t3_1vig5pe\",\n        \"author\": \"Dapper-Persimmon-445\",\n        \"text\": \"Don\u2019t blame the NCSA employee. He\u2019s doing his job. Blame the school and/or yourself in the event that there was fine print.\",\n        \"renderedHtml\": \"\\n      <p>\\n      Don\u2019t blame the NCSA employee. He\u2019s doing his job. Blame the school and/or yourself in the event that there was fine print.\\n    </p>\\n    \",\n        \"score\": 2,\n        \"upvotes\": 2,\n        \"createdAt\": \"2026-08-07T23:51:08.000Z\",\n        \"createdUtc\": 1786146668,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"p2dhdia\",\n              \"url\": \"https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2dhdia/\",\n              \"permalink\": \"/r/Softball/comments/1vig5pe/comment/p2dhdia/\",\n              \"parentId\": \"t1_p2d8cot\",\n              \"author\": \"hadronmotel\",\n              \"text\": \"I get what you're saying. I'm just put off because he was manipulative with her. The profile was incomplete and clearly listed her grad year, but he told her she was a prime candidate and made exaggerated claims about her potential with almost no information to base those claims on. The urgency to act NOW when she has literally not started high school yet is ridiculous. He was indeed doing his job, but also, in blaming myself, I tried and tried to find that fine print and found it nowhere.\",\n              \"renderedHtml\": \"\\n      <p>\\n      I get what you're saying. I'm just put off because he was manipulative with her. The profile was incomplete and clearly listed her grad year, but he told her she was a prime candidate and made exaggerated claims about her potential with almost no information to base those claims on. The urgency to act NOW when she has literally not started high school yet is ridiculous. He was indeed doing his job, but also, in blaming myself, I tried and tried to find that fine print and found it nowhere.\\n    </p>\\n    \",\n              \"score\": 2,\n              \"upvotes\": 2,\n              \"createdAt\": \"2026-08-08T00:42:14.000Z\",\n              \"createdUtc\": 1786149734,\n              \"depth\": 0,\n              \"isSubmitter\": true,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [\n                  {\n                    \"id\": \"p2diegn\",\n                    \"url\": \"https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2diegn/\",\n                    \"permalink\": \"/r/Softball/comments/1vig5pe/comment/p2diegn/\",\n                    \"parentId\": \"t1_p2dhdia\",\n                    \"author\": \"Dapper-Persimmon-445\",\n                    \"text\": \"I agree that I don\u2019t like them reaching out. My son has been called and it\u2019s nonsense. But the anger should be directed at the school.\",\n                    \"renderedHtml\": \"\\n      <p>\\n      I agree that I don\u2019t like them reaching out. My son has been called and it\u2019s nonsense. But the anger should be directed at the school.\\n    </p>\\n    \",\n                    \"score\": 3,\n                    \"upvotes\": 3,\n                    \"createdAt\": \"2026-08-08T00:48:06.000Z\",\n                    \"createdUtc\": 1786150086,\n                    \"depth\": 0,\n                    \"isSubmitter\": false,\n                    \"stickied\": false,\n                    \"locked\": false,\n                    \"distinguished\": null,\n                    \"replies\": {\n                      \"items\": [],\n                      \"page\": {\n                        \"nextCursor\": null,\n                        \"hasMore\": false\n                      }\n                    }\n                  }\n                ],\n                \"page\": {\n                  \"nextCursor\": \"p2dhdia\",\n                  \"hasMore\": true\n                }\n              }\n            },\n            {\n              \"id\": \"p2da4jw\",\n              \"url\": \"https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2da4jw/\",\n              \"permalink\": \"/r/Softball/comments/1vig5pe/comment/p2da4jw/\",\n              \"parentId\": \"t1_p2d8cot\",\n              \"author\": \"sounds_like_kong\",\n              \"text\": \"I\u2019ll happily blame them for being unscrupulous predators. I\u2019ll blame the SCHOOL for not spelling out the fine print clearly in that their registration partner\u2019s partner is contacting 14 year olds through a loophole.\\n\\n As a parent you do put some trust in your high school having their shit together. You have to. Many of us are juggling multiple kids and their academics and sports and all other aspects of providing for them. You think something as rudimentary as registering your child athlete with their high school athletics department wouldn\u2019t result in a grown ass man trying to set up a meeting with your 14 year old.\",\n              \"renderedHtml\": \"\\n      <p>\\n      I\u2019ll happily blame them for being unscrupulous predators. I\u2019ll blame the SCHOOL for not spelling out the fine print clearly in that their registration partner\u2019s partner is contacting 14 year olds through a loophole.\\n    </p><p>\\n      As a parent you do put some trust in your high school having their shit together. You have to. Many of us are juggling multiple kids and their academics and sports and all other aspects of providing for them. You think something as rudimentary as registering your child athlete with their high school athletics department wouldn\u2019t result in a grown ass man trying to set up a meeting with your 14 year old.\\n    </p>\\n    \",\n              \"score\": 3,\n              \"upvotes\": 3,\n              \"createdAt\": \"2026-08-08T00:00:59.000Z\",\n              \"createdUtc\": 1786147259,\n              \"depth\": 0,\n              \"isSubmitter\": false,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [\n                  {\n                    \"id\": \"p2dhmb4\",\n                    \"url\": \"https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2dhmb4/\",\n                    \"permalink\": \"/r/Softball/comments/1vig5pe/comment/p2dhmb4/\",\n                    \"parentId\": \"t1_p2da4jw\",\n                    \"author\": \"hadronmotel\",\n                    \"text\": \"Really appreciate you affirming my sentiments \ud83d\ude4f\",\n                    \"renderedHtml\": \"\\n      <p>\\n      Really appreciate you affirming my sentiments \ud83d\ude4f\\n    </p>\\n    \",\n                    \"score\": 2,\n                    \"upvotes\": 2,\n                    \"createdAt\": \"2026-08-08T00:43:38.000Z\",\n                    \"createdUtc\": 1786149818,\n                    \"depth\": 0,\n                    \"isSubmitter\": true,\n                    \"stickied\": false,\n                    \"locked\": false,\n                    \"distinguished\": null,\n                    \"replies\": {\n                      \"items\": [],\n                      \"page\": {\n                        \"nextCursor\": null,\n                        \"hasMore\": false\n                      }\n                    }\n                  },\n                  {\n                    \"id\": \"p2ezjlo\",\n                    \"url\": \"https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2ezjlo/\",\n                    \"permalink\": \"/r/Softball/comments/1vig5pe/comment/p2ezjlo/\",\n                    \"parentId\": \"t1_p2da4jw\",\n                    \"author\": \"mowegl\",\n                    \"text\": \"I think arbiter is probably much more to blame for not keeping the minors records private, but it might be allowed (for example a 16 year old trying to be recruited is a minor and can be contacted by coaches by filling something like this out). There are probably technically only certain people that can get that and they probably have to have a background check, but obviously that isnt a foolproof way of preventing abuse.\\nI would just make the school/school system/state aware that this is what is happening with the minors information so they can stop it or make others aware before they check yes\",\n                    \"renderedHtml\": \"\\n      <p>\\n      I think arbiter is probably much more to blame for not keeping the minors records private, but it might be allowed (for example a 16 year old trying to be recruited is a minor and can be contacted by coaches by filling something like this out). There are probably technically only certain people that can get that and they probably have to have a background check, but obviously that isnt a foolproof way of preventing abuse.<br>I would just make the school/school system/state aware that this is what is happening with the minors information so they can stop it or make others aware before they check yes\\n    </p>\\n    \",\n                    \"score\": 2,\n                    \"upvotes\": 2,\n                    \"createdAt\": \"2026-08-08T06:39:10.000Z\",\n                    \"createdUtc\": 1786171150,\n                    \"depth\": 0,\n                    \"isSubmitter\": false,\n                    \"stickied\": false,\n                    \"locked\": false,\n                    \"distinguished\": null,\n                    \"replies\": {\n                      \"items\": [],\n                      \"page\": {\n                        \"nextCursor\": null,\n                        \"hasMore\": false\n                      }\n                    }\n                  }\n                ],\n                \"page\": {\n                  \"nextCursor\": \"p2da4jw\",\n                  \"hasMore\": true\n                }\n              }\n            },\n            {\n              \"id\": \"p2h1g44\",\n              \"url\": \"https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2h1g44/\",\n              \"permalink\": \"/r/Softball/comments/1vig5pe/comment/p2h1g44/\",\n              \"parentId\": \"t1_p2d8cot\",\n              \"author\": \"bravara-mike\",\n              \"text\": \"Wrong. Fine print doesn\u2019t absolve people from predatory practices. Hold NCSA leadership most responsible here but employee can also stand up for what is right.\",\n              \"renderedHtml\": \"\\n      <p>\\n      Wrong. Fine print doesn\u2019t absolve people from predatory practices. Hold NCSA leadership most responsible here but employee can also stand up for what is right.\\n    </p>\\n    \",\n              \"score\": 2,\n              \"upvotes\": 2,\n              \"createdAt\": \"2026-08-08T15:09:51.000Z\",\n              \"createdUtc\": 1786201791,\n              \"depth\": 0,\n              \"isSubmitter\": false,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": null,\n                  \"hasMore\": false\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"p2dhdia\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"p2dbhfz\",\n        \"url\": \"https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2dbhfz/\",\n        \"permalink\": \"/r/Softball/comments/1vig5pe/comment/p2dbhfz/\",\n        \"parentId\": \"t3_1vig5pe\",\n        \"author\": \"Dapper-Persimmon-445\",\n        \"text\": \"I get it. But i would put it on the school. They should clearly provide an opt out.\",\n        \"renderedHtml\": \"\\n      <p>\\n      I get it. But i would put it on the school. They should clearly provide an opt out.\\n    </p>\\n    \",\n        \"score\": 4,\n        \"upvotes\": 4,\n        \"createdAt\": \"2026-08-08T00:08:38.000Z\",\n        \"createdUtc\": 1786147718,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"p2ez5y2\",\n              \"url\": \"https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2ez5y2/\",\n              \"permalink\": \"/r/Softball/comments/1vig5pe/comment/p2ez5y2/\",\n              \"parentId\": \"t1_p2dbhfz\",\n              \"author\": \"mowegl\",\n              \"text\": \"They said \u201cif you indicate you are interested in college recruitment\u201d which I assume they checked yes which probably opened the door. My state uses a different system but they had to work closely with them to develop it. Arbiter is probably the one to blame for not keeping minors records private\",\n              \"renderedHtml\": \"\\n      <p>\\n      They said \u201cif you indicate you are interested in college recruitment\u201d which I assume they checked yes which probably opened the door. My state uses a different system but they had to work closely with them to develop it. Arbiter is probably the one to blame for not keeping minors records private\\n    </p>\\n    \",\n              \"score\": 2,\n              \"upvotes\": 2,\n              \"createdAt\": \"2026-08-08T06:36:03.000Z\",\n              \"createdUtc\": 1786170963,\n              \"depth\": 0,\n              \"isSubmitter\": false,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": null,\n                  \"hasMore\": false\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"p2dbhfz\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"p4c8974\",\n        \"url\": \"https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p4c8974/\",\n        \"permalink\": \"/r/Softball/comments/1vig5pe/comment/p4c8974/\",\n        \"parentId\": \"t3_1vig5pe\",\n        \"author\": \"Much_Illustrator1825\",\n        \"text\": \"We had a very similar experience with NCSA. We eventually stopped using it and just created our own Excel recruiting tracker to keep schools, coach contacts, emails, follow-ups, video links, etc. all in one place. For us, having a simple system we controlled ended up being much easier.\",\n        \"renderedHtml\": \"\\n      <p>\\n      We had a very similar experience with NCSA. We eventually stopped using it and just created our own Excel recruiting tracker to keep schools, coach contacts, emails, follow-ups, video links, etc. all in one place. For us, having a simple system we controlled ended up being much easier.\\n    </p>\\n    \",\n        \"score\": 2,\n        \"upvotes\": 2,\n        \"createdAt\": \"2026-08-18T02:03:09.000Z\",\n        \"createdUtc\": 1787018589,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"paibbzw\",\n        \"url\": \"https://www.reddit.com/r/Softball/comments/1vig5pe/comment/paibbzw/\",\n        \"permalink\": \"/r/Softball/comments/1vig5pe/comment/paibbzw/\",\n        \"parentId\": \"t3_1vig5pe\",\n        \"author\": \"justadufuss\",\n        \"text\": \"Ncsa and the sales team there are horrible. Worked there for a couple years not in sales. Ya it\u2019s a horrible company and I couldn\u2019t get out of there fast enough. The price you pay Ncsa you would be better off hiring someone private\",\n        \"renderedHtml\": \"\\n      <p>\\n      Ncsa and the sales team there are horrible. Worked there for a couple years not in sales. Ya it\u2019s a horrible company and I couldn\u2019t get out of there fast enough. The price you pay Ncsa you would be better off hiring someone private\\n    </p>\\n    \",\n        \"score\": 2,\n        \"upvotes\": 2,\n        \"createdAt\": \"2026-09-18T04:09:10.000Z\",\n        \"createdUtc\": 1789704550,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"p2ioowl\",\n        \"url\": \"https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2ioowl/\",\n        \"permalink\": \"/r/Softball/comments/1vig5pe/comment/p2ioowl/\",\n        \"parentId\": \"t3_1vig5pe\",\n        \"author\": \"Bennie-Factors\",\n        \"text\": \"She has a mobile number anyone can call it. Sure it is annoying but this is how all these things work.\\n\\n Use it to teach and educate her.\",\n        \"renderedHtml\": \"\\n      <p>\\n      She has a mobile number anyone can call it.  Sure it is annoying but this is how all these things work.\\n    </p><p>\\n      Use it to teach and educate her.\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2026-08-08T19:52:25.000Z\",\n        \"createdUtc\": 1786218745,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      }\n    ]\n  },\n  \"meta\": {\n    \"requestId\": \"req_87786735-1486-482e-a3cd-f001af373d91\",\n    \"creditsCharged\": 1,\n    \"version\": \"v1\"\n  }\n}"
    },
    {
     "type": "text",
-    "text": "{\"conversation_id\":\"01a1af42-8302-7646-a4b1-77607e300102\"}"
+    "text": "{\"conversation_id\":\"01a1af43-06ef-786f-bf94-ec78aa799b07\"}"
    }
   ],
   "structuredContent": {
-   "error": {
-    "code": "bad_request",
-    "message": "Unknown field `postId`. This tool takes: `url`, `cursor`, `trim`.",
-    "requestId": "req_5bdf936c-e16e-48a8-aa3c-8db2b3ebb8c2"
+   "data": {
+    "lookupStatus": "found",
+    "post": {
+     "id": "1vig5pe",
+     "title": "Cautionary note about NCSA recruitment practices",
+     "text": "Our high school just adopted a new digital registration platform, Arbiter, which automatically creates an account with NCSA for your child at the end of the registration process if you indicate that you may be interested in future college athletics recruitment. What we didn't realize is that this apparently means an NCSA recruitment coordinator will then call every number listed on the account, beginning with your child. Since the profile creation included a bunch of info that my child's travel team also requests upon registration, I included what was asked. My fault, honestly, for listing my kid's mobile number. I didn't think that she would be called prior to her junior year, due to NCAA restrictions on that behavior. Unfortunately, this NCSA recruiter got my 14 year old on the phone and urged her to schedule an assessment with him and a formal 60 minute recruitment meeting ASAP, since it's his \"busy season\" and he can squeeze her in now. She was weirded out and told my husband and I. Upon hearing about this, I immediately called back and spoke with the person who called her (he is legitimately an employee of NCSA - I looked him up) and pointed out that he cold called a 14 year old. He argued with me that creating the account grants permission for him to contact her directly, to which I rebuffed with the NCAA restriction regarding contact prior to junior year. He stated that since he isn't an NCAA coach, he doesn't have to abide by their contact restrictions. I added that she doesn't graduate until 2030 and is only beginning to think about whether she wants to play in college. He continued to talk, and I hung up at that point, logged into the account, and deleted all non mandatory info. I then contacted our athletic department and left a message about what happened. I'm kind of disappointed I blindly entered my kid's mobile number not even considering the possibility that this would entitle someone to approach her like this. We have a bunch of other avenues we can rely on to begin the recruitment process, if she decides to pursue it. I get that NCSA can offer some genuine assistance for people that don't know how else to do this, but today's experience landed as highly predatory. I just needed to put this somewhere. I'm kind of grossed out, a little mad at myself, and annoyed with our school's athletic department.",
+     "url": "https://www.reddit.com/r/Softball/comments/1vig5pe/cautionary_note_about_ncsa_recruitment_practices/",
+     "permalink": "/r/Softball/comments/1vig5pe/cautionary_note_about_ncsa_recruitment_practices/",
+     "subreddit": "Softball",
+     "subredditNamePrefixed": "r/Softball",
+     "author": "hadronmotel",
+     "score": 16,
+     "upvoteRatio": 0.9,
+     "commentCount": 23,
+     "createdAt": "2026-08-07T23:27:38.000Z",
+     "createdUtc": 1786145258,
+     "over18": false,
+     "locked": false,
+     "stickied": false
+    },
+    "page": {
+     "nextCursor": null,
+     "hasMore": false
+    },
+    "comments": [
+     {
+      "id": "p2dbibi",
+      "url": "https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2dbibi/",
+      "permalink": "/r/Softball/comments/1vig5pe/comment/p2dbibi/",
+      "parentId": "t3_1vig5pe",
+      "author": "CollegeSportsSheets",
+      "text": "NCSA\n\n does this a bunch of sports organization platforms. TeamSnap\n\n is the same way and an NCSA app always pops up that you have to close out to advance in the app.\n\n This is also how you sometimes get on schools camp invite email lists as well.\n\n If you do hear from them again just be super clear that you aren\u2019t interested in their services and please remove you from their list.",
+      "renderedHtml": "\n      <p>\n      <search-telemetry-tracker data-faceplate-tracking-context=\"{&quot;action_info&quot;:{&quot;type&quot;:&quot;search&quot;},&quot;comment&quot;:{&quot;id&quot;:&quot;t1_p2dbibi&quot;,&quot;post_id&quot;:&quot;t3_1vig5pe&quot;},&quot;meta_search&quot;:{&quot;display_query&quot;:&quot;NCSA&quot;}}\" view-events=\"post_detail/view/highlight\"><search-telemetry-tracker data-faceplate-tracking-context=\"{&quot;action_info&quot;:{&quot;type&quot;:&quot;pdp_term&quot;},&quot;meta_search&quot;:{&quot;raw_query&quot;:&quot;NCSA recruitment practices&quot;},&quot;search&quot;:{&quot;impression_id&quot;:&quot;8ff4451a-75d1-45c6-9786-a11dc7fd6df7&quot;,&quot;origin_element&quot;:&quot;pdp_comment_highlighted_search_term&quot;,&quot;query&quot;:&quot;NCSA recruitment practices&quot;,&quot;conversation_id&quot;:&quot;b555f478-8bfc-4faf-81ec-e3fc7794fcdd&quot;}}\" click-events=\"search/click/full_search_button\"><a rpl=\"\" class=\"border-[var(--color-a-default)] visited:border-[var(--color-a-visited)] hover:border-[var(--color-a-hover)] hover:visited:border-[var(--color-a-visited)] !no-underline border-dotted border-b-sm border-x-0 border-t-0 p-px a\n  \n  \n  \n  \n  no-underline hover:no-underline\n  \n  cursor-pointer\" href=\"/search/?q=NCSA+recruitment+practices&amp;cId=b555f478-8bfc-4faf-81ec-e3fc7794fcdd&amp;iId=18e5a917-c945-401d-807c-fb238c6ef488\">NCSA<span class=\"ms-2xs align-middle\"><svg rpl=\"\" fill=\"currentColor\" height=\"12\" icon-name=\"search\" viewBox=\"0 0 20 20\" width=\"12\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path d=\"m18.736 17.464-3.483-3.483A7.961 7.961 0 0016.999 9 8 8 0 109 17a7.961 7.961 0 004.981-1.746l3.483 3.483a.9.9 0 101.272-1.273ZM9 15.2A6.207 6.207 0 012.8 9c0-3.419 2.781-6.2 6.2-6.2s6.2 2.781 6.2 6.2-2.781 6.2-6.2 6.2Z\"></path>\n    </svg></span></a></search-telemetry-tracker></search-telemetry-tracker> does this a bunch of sports organization platforms. <search-telemetry-tracker data-faceplate-tracking-context=\"{&quot;action_info&quot;:{&quot;type&quot;:&quot;search&quot;},&quot;comment&quot;:{&quot;id&quot;:&quot;t1_p2dbibi&quot;,&quot;post_id&quot;:&quot;t3_1vig5pe&quot;},&quot;meta_search&quot;:{&quot;display_query&quot;:&quot;TeamSnap&quot;}}\" view-events=\"post_detail/view/highlight\"><search-telemetry-tracker data-faceplate-tracking-context=\"{&quot;action_info&quot;:{&quot;type&quot;:&quot;pdp_term&quot;},&quot;meta_search&quot;:{&quot;raw_query&quot;:&quot;TeamSnap NCSA integration&quot;},&quot;search&quot;:{&quot;impression_id&quot;:&quot;8ff4451a-75d1-45c6-9786-a11dc7fd6df7&quot;,&quot;origin_element&quot;:&quot;pdp_comment_highlighted_search_term&quot;,&quot;query&quot;:&quot;TeamSnap NCSA integration&quot;,&quot;conversation_id&quot;:&quot;ab740894-be0a-493f-80ef-2d091cccecc3&quot;}}\" click-events=\"search/click/full_search_button\"><a rpl=\"\" class=\"border-[var(--color-a-default)] visited:border-[var(--color-a-visited)] hover:border-[var(--color-a-hover)] hover:visited:border-[var(--color-a-visited)] !no-underline border-dotted border-b-sm border-x-0 border-t-0 p-px a\n  \n  \n  \n  \n  no-underline hover:no-underline\n  \n  cursor-pointer\" href=\"/search/?q=TeamSnap+NCSA+integration&amp;cId=ab740894-be0a-493f-80ef-2d091cccecc3&amp;iId=6582ad1d-a04f-48a3-a203-1358e235dd95\">TeamSnap<span class=\"ms-2xs align-middle\"><svg rpl=\"\" fill=\"currentColor\" height=\"12\" icon-name=\"search\" viewBox=\"0 0 20 20\" width=\"12\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path d=\"m18.736 17.464-3.483-3.483A7.961 7.961 0 0016.999 9 8 8 0 109 17a7.961 7.961 0 004.981-1.746l3.483 3.483a.9.9 0 101.272-1.273ZM9 15.2A6.207 6.207 0 012.8 9c0-3.419 2.781-6.2 6.2-6.2s6.2 2.781 6.2 6.2-2.781 6.2-6.2 6.2Z\"></path>\n    </svg></span></a></search-telemetry-tracker></search-telemetry-tracker> is the same way and an NCSA app always pops up that you have to close out to advance in the app.\n    </p><p>\n      This is also how you sometimes get on schools camp invite email lists as well.\n    </p><p>\n      If you do hear from them again just be super clear that you aren\u2019t interested in their services and please remove you from their list.\n    </p>\n    ",
+      "score": 7,
+      "upvotes": 7,
+      "createdAt": "2026-08-08T00:08:46.000Z",
+      "createdUtc": 1786147726,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "p2dfr2d",
+         "url": "https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2dfr2d/",
+         "permalink": "/r/Softball/comments/1vig5pe/comment/p2dfr2d/",
+         "parentId": "t1_p2dbibi",
+         "author": "hadronmotel",
+         "text": "Thank you",
+         "renderedHtml": "\n      <p>\n      Thank you\n    </p>\n    ",
+         "score": 3,
+         "upvotes": 3,
+         "createdAt": "2026-08-08T00:32:54.000Z",
+         "createdUtc": 1786149174,
+         "depth": 0,
+         "isSubmitter": true,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": null,
+           "hasMore": false
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "p2dbibi",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "p2di8s5",
+      "url": "https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2di8s5/",
+      "permalink": "/r/Softball/comments/1vig5pe/comment/p2di8s5/",
+      "parentId": "t3_1vig5pe",
+      "author": "AwfulMouthful",
+      "text": "I suppose I might be missing some context, but an adult man intentionally bypassing me and calling my 14 year old to \"come in for a meeting\" is asking for trouble, I don't give a shit where he works.",
+      "renderedHtml": "\n      <p>\n      I suppose I might be missing some context, but an adult man intentionally bypassing me and calling my 14 year old to \"come in for a meeting\" is asking for trouble, I don't give a shit where he works.\n    </p>\n    ",
+      "score": 9,
+      "upvotes": 9,
+      "createdAt": "2026-08-08T00:47:12.000Z",
+      "createdUtc": 1786150032,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "p2dkrdt",
+         "url": "https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2dkrdt/",
+         "permalink": "/r/Softball/comments/1vig5pe/comment/p2dkrdt/",
+         "parentId": "t1_p2di8s5",
+         "author": "hadronmotel",
+         "text": "When you pare it down to basics, that essentially is what happened. Ultimately that's why it feels predatory and all wrong.",
+         "renderedHtml": "\n      <p>\n      When you pare it down to basics, that essentially is what happened. Ultimately that's why it feels predatory and all wrong.\n    </p>\n    ",
+         "score": 5,
+         "upvotes": 5,
+         "createdAt": "2026-08-08T01:01:35.000Z",
+         "createdUtc": 1786150895,
+         "depth": 0,
+         "isSubmitter": true,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": null,
+           "hasMore": false
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "p2di8s5",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "p2deg09",
+      "url": "https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2deg09/",
+      "permalink": "/r/Softball/comments/1vig5pe/comment/p2deg09/",
+      "parentId": "t3_1vig5pe",
+      "author": "scrodytheroadie",
+      "text": "I made the same mistake. You\u2019re going through and checking a million boxes, I just checked that one too. I got a bunch of calls for a few days, but ignored them. They eventually stopped.",
+      "renderedHtml": "\n      <p>\n      I made the same mistake. You\u2019re going through and checking a million boxes, I just checked that one too. I got a bunch of calls for a few days, but ignored them. They eventually stopped.\n    </p>\n    ",
+      "score": 5,
+      "upvotes": 5,
+      "createdAt": "2026-08-08T00:25:21.000Z",
+      "createdUtc": 1786148721,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "p2dgbb2",
+         "url": "https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2dgbb2/",
+         "permalink": "/r/Softball/comments/1vig5pe/comment/p2dgbb2/",
+         "parentId": "t1_p2deg09",
+         "author": "hadronmotel",
+         "text": "That's relieving to hear",
+         "renderedHtml": "\n      <p>\n      That's relieving to hear\n    </p>\n    ",
+         "score": 1,
+         "upvotes": 1,
+         "createdAt": "2026-08-08T00:36:06.000Z",
+         "createdUtc": 1786149366,
+         "depth": 0,
+         "isSubmitter": true,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": null,
+           "hasMore": false
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "p2deg09",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "p2g47w7",
+      "url": "https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2g47w7/",
+      "permalink": "/r/Softball/comments/1vig5pe/comment/p2g47w7/",
+      "parentId": "t3_1vig5pe",
+      "author": "Educational_Limit161",
+      "text": "NCSA is extremely pushy and honestly your story doesn\u2019t surprise me. I would have done exactly the same thing that you did. Then blocked them and notified the school.\n\n I\u2019ll add that you 100% don\u2019t need NCSA for the college recruitment process. I have a 2026 (lax) playing in college this year and a 2027 (softball) committed to play next year. We didn\u2019t use a recruiting service for either one. You and your child can do everything that the recruiting service can do and from my understanding, college coaches prefer working directly with the player/family anyway.",
+      "renderedHtml": "\n      <p>\n      NCSA is extremely pushy and honestly your story doesn\u2019t surprise me. I would have done exactly the same thing that you did. Then blocked them and notified the school.\n    </p><p>\n      I\u2019ll add that you 100% don\u2019t need NCSA for the college recruitment process. I have a 2026 (lax) playing in college this year and a 2027 (softball) committed to play next year. We didn\u2019t use a recruiting service for either one. You and your child can do everything that the recruiting service can do and from my understanding, college coaches prefer working directly with the player/family anyway.\n    </p>\n    ",
+      "score": 3,
+      "upvotes": 3,
+      "createdAt": "2026-08-08T12:09:04.000Z",
+      "createdUtc": 1786190944,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "p2gbpek",
+         "url": "https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2gbpek/",
+         "permalink": "/r/Softball/comments/1vig5pe/comment/p2gbpek/",
+         "parentId": "t1_p2g47w7",
+         "author": "hadronmotel",
+         "text": "Thank you. We are acquainted with a college coach and have a family member of another college coach in our network of contacts, along with a handful of other personal friends who have been recruited for softball. The general recommendation is the same: email them directly to invite them to showcases, and then periodically to give them updates (my favorite description of the process was like writing a one-sided email diary since they can't respond until junior year). Seeing the player in her element and getting a general read on the parent dynamic were at the top of the list of things we were told they want to see. A coach once told us that she is very wary of any dynamics that scream \"team poison.\" There is literally no way an NCSA intermediary can help us any better than we can help ourselves, given what we already know.",
+         "renderedHtml": "\n      <p>\n      Thank you. We are acquainted with a college coach and have a family member of another college coach in our network of contacts, along with a handful of other personal friends who have been recruited for softball. The general recommendation is the same: email them directly to invite them to showcases, and then periodically to give them updates (my favorite description of the process was like writing a one-sided email diary since they can't respond until junior year). Seeing the player in her element and getting a general read on the parent dynamic were at the top of the list of things we were told they want to see. A coach once told us that she is very wary of any dynamics that scream \"team poison.\" There is literally no way an NCSA intermediary can help us any better than we can help ourselves, given what we already know.\n    </p>\n    ",
+         "score": 4,
+         "upvotes": 4,
+         "createdAt": "2026-08-08T12:54:55.000Z",
+         "createdUtc": 1786193695,
+         "depth": 0,
+         "isSubmitter": true,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [
+           {
+            "id": "p2gfxqz",
+            "url": "https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2gfxqz/",
+            "permalink": "/r/Softball/comments/1vig5pe/comment/p2gfxqz/",
+            "parentId": "t1_p2gbpek",
+            "author": "Educational_Limit161",
+            "text": "The one sided diary description is spot on!\n\n That was exactly our 2027s experience. During her visit, the college coach literally said to her:\n\n \u201cI couldn\u2019t contact you until this year, but I\u2019ve been reading your messages (emails/DMs) ever since you came to our camp as a 9th grader.\u201d",
+            "renderedHtml": "\n      <p>\n      The one sided diary description is spot on!\n    </p><p>\n      That was exactly our 2027s experience. During her visit, the college coach literally said to her:\n    </p><p>\n      \u201cI couldn\u2019t contact you until this year, but I\u2019ve been reading your messages (emails/DMs) ever since you came to our camp as a 9th grader.\u201d\n    </p>\n    ",
+            "score": 2,
+            "upvotes": 2,
+            "createdAt": "2026-08-08T13:19:11.000Z",
+            "createdUtc": 1786195151,
+            "depth": 0,
+            "isSubmitter": false,
+            "stickied": false,
+            "locked": false,
+            "distinguished": null,
+            "replies": {
+             "items": [],
+             "page": {
+              "nextCursor": null,
+              "hasMore": false
+             }
+            }
+           }
+          ],
+          "page": {
+           "nextCursor": "p2gbpek",
+           "hasMore": true
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "p2gbpek",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "p2h2ojr",
+      "url": "https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2h2ojr/",
+      "permalink": "/r/Softball/comments/1vig5pe/comment/p2h2ojr/",
+      "parentId": "t3_1vig5pe",
+      "author": "bravara-mike",
+      "text": "NCSA and anyone who works with youth athletes should be held accountable to SafeSport rules around communication between adults and minors. No one-on-one electronic communication, phone calls, video calls, or in person meetings.",
+      "renderedHtml": "\n      <p>\n      NCSA and anyone who works with youth athletes should be held accountable to SafeSport rules around communication between adults and minors. No one-on-one electronic communication, phone calls, video calls, or in person meetings.\n    </p>\n    ",
+      "score": 2,
+      "upvotes": 2,
+      "createdAt": "2026-08-08T15:15:53.000Z",
+      "createdUtc": 1786202153,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "p2irohd",
+         "url": "https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2irohd/",
+         "permalink": "/r/Softball/comments/1vig5pe/comment/p2irohd/",
+         "parentId": "t1_p2h2ojr",
+         "author": "hadronmotel",
+         "text": "See, that's the other part that had me surprised. I was a youth coach for awhile, and I've been an educator for even longer. It's grooming adjacent behavior to engage in private communication with other people's kids and forbidden in my professional life to do that.",
+         "renderedHtml": "\n      <p>\n      See, that's the other part that had me surprised. I was a youth coach for awhile, and I've been an educator for even longer. It's grooming adjacent behavior to engage in private communication with other people's kids and forbidden in my professional life to do that.\n    </p>\n    ",
+         "score": 1,
+         "upvotes": 1,
+         "createdAt": "2026-08-08T20:07:12.000Z",
+         "createdUtc": 1786219632,
+         "depth": 0,
+         "isSubmitter": true,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": null,
+           "hasMore": false
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "p2h2ojr",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "p2d8cot",
+      "url": "https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2d8cot/",
+      "permalink": "/r/Softball/comments/1vig5pe/comment/p2d8cot/",
+      "parentId": "t3_1vig5pe",
+      "author": "Dapper-Persimmon-445",
+      "text": "Don\u2019t blame the NCSA employee. He\u2019s doing his job. Blame the school and/or yourself in the event that there was fine print.",
+      "renderedHtml": "\n      <p>\n      Don\u2019t blame the NCSA employee. He\u2019s doing his job. Blame the school and/or yourself in the event that there was fine print.\n    </p>\n    ",
+      "score": 2,
+      "upvotes": 2,
+      "createdAt": "2026-08-07T23:51:08.000Z",
+      "createdUtc": 1786146668,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "p2dhdia",
+         "url": "https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2dhdia/",
+         "permalink": "/r/Softball/comments/1vig5pe/comment/p2dhdia/",
+         "parentId": "t1_p2d8cot",
+         "author": "hadronmotel",
+         "text": "I get what you're saying. I'm just put off because he was manipulative with her. The profile was incomplete and clearly listed her grad year, but he told her she was a prime candidate and made exaggerated claims about her potential with almost no information to base those claims on. The urgency to act NOW when she has literally not started high school yet is ridiculous. He was indeed doing his job, but also, in blaming myself, I tried and tried to find that fine print and found it nowhere.",
+         "renderedHtml": "\n      <p>\n      I get what you're saying. I'm just put off because he was manipulative with her. The profile was incomplete and clearly listed her grad year, but he told her she was a prime candidate and made exaggerated claims about her potential with almost no information to base those claims on. The urgency to act NOW when she has literally not started high school yet is ridiculous. He was indeed doing his job, but also, in blaming myself, I tried and tried to find that fine print and found it nowhere.\n    </p>\n    ",
+         "score": 2,
+         "upvotes": 2,
+         "createdAt": "2026-08-08T00:42:14.000Z",
+         "createdUtc": 1786149734,
+         "depth": 0,
+         "isSubmitter": true,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [
+           {
+            "id": "p2diegn",
+            "url": "https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2diegn/",
+            "permalink": "/r/Softball/comments/1vig5pe/comment/p2diegn/",
+            "parentId": "t1_p2dhdia",
+            "author": "Dapper-Persimmon-445",
+            "text": "I agree that I don\u2019t like them reaching out. My son has been called and it\u2019s nonsense. But the anger should be directed at the school.",
+            "renderedHtml": "\n      <p>\n      I agree that I don\u2019t like them reaching out. My son has been called and it\u2019s nonsense. But the anger should be directed at the school.\n    </p>\n    ",
+            "score": 3,
+            "upvotes": 3,
+            "createdAt": "2026-08-08T00:48:06.000Z",
+            "createdUtc": 1786150086,
+            "depth": 0,
+            "isSubmitter": false,
+            "stickied": false,
+            "locked": false,
+            "distinguished": null,
+            "replies": {
+             "items": [],
+             "page": {
+              "nextCursor": null,
+              "hasMore": false
+             }
+            }
+           }
+          ],
+          "page": {
+           "nextCursor": "p2dhdia",
+           "hasMore": true
+          }
+         }
+        },
+        {
+         "id": "p2da4jw",
+         "url": "https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2da4jw/",
+         "permalink": "/r/Softball/comments/1vig5pe/comment/p2da4jw/",
+         "parentId": "t1_p2d8cot",
+         "author": "sounds_like_kong",
+         "text": "I\u2019ll happily blame them for being unscrupulous predators. I\u2019ll blame the SCHOOL for not spelling out the fine print clearly in that their registration partner\u2019s partner is contacting 14 year olds through a loophole.\n\n As a parent you do put some trust in your high school having their shit together. You have to. Many of us are juggling multiple kids and their academics and sports and all other aspects of providing for them. You think something as rudimentary as registering your child athlete with their high school athletics department wouldn\u2019t result in a grown ass man trying to set up a meeting with your 14 year old.",
+         "renderedHtml": "\n      <p>\n      I\u2019ll happily blame them for being unscrupulous predators. I\u2019ll blame the SCHOOL for not spelling out the fine print clearly in that their registration partner\u2019s partner is contacting 14 year olds through a loophole.\n    </p><p>\n      As a parent you do put some trust in your high school having their shit together. You have to. Many of us are juggling multiple kids and their academics and sports and all other aspects of providing for them. You think something as rudimentary as registering your child athlete with their high school athletics department wouldn\u2019t result in a grown ass man trying to set up a meeting with your 14 year old.\n    </p>\n    ",
+         "score": 3,
+         "upvotes": 3,
+         "createdAt": "2026-08-08T00:00:59.000Z",
+         "createdUtc": 1786147259,
+         "depth": 0,
+         "isSubmitter": false,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [
+           {
+            "id": "p2dhmb4",
+            "url": "https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2dhmb4/",
+            "permalink": "/r/Softball/comments/1vig5pe/comment/p2dhmb4/",
+            "parentId": "t1_p2da4jw",
+            "author": "hadronmotel",
+            "text": "Really appreciate you affirming my sentiments \ud83d\ude4f",
+            "renderedHtml": "\n      <p>\n      Really appreciate you affirming my sentiments \ud83d\ude4f\n    </p>\n    ",
+            "score": 2,
+            "upvotes": 2,
+            "createdAt": "2026-08-08T00:43:38.000Z",
+            "createdUtc": 1786149818,
+            "depth": 0,
+            "isSubmitter": true,
+            "stickied": false,
+            "locked": false,
+            "distinguished": null,
+            "replies": {
+             "items": [],
+             "page": {
+              "nextCursor": null,
+              "hasMore": false
+             }
+            }
+           },
+           {
+            "id": "p2ezjlo",
+            "url": "https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2ezjlo/",
+            "permalink": "/r/Softball/comments/1vig5pe/comment/p2ezjlo/",
+            "parentId": "t1_p2da4jw",
+            "author": "mowegl",
+            "text": "I think arbiter is probably much more to blame for not keeping the minors records private, but it might be allowed (for example a 16 year old trying to be recruited is a minor and can be contacted by coaches by filling something like this out). There are probably technically only certain people that can get that and they probably have to have a background check, but obviously that isnt a foolproof way of preventing abuse.\nI would just make the school/school system/state aware that this is what is happening with the minors information so they can stop it or make others aware before they check yes",
+            "renderedHtml": "\n      <p>\n      I think arbiter is probably much more to blame for not keeping the minors records private, but it might be allowed (for example a 16 year old trying to be recruited is a minor and can be contacted by coaches by filling something like this out). There are probably technically only certain people that can get that and they probably have to have a background check, but obviously that isnt a foolproof way of preventing abuse.<br>I would just make the school/school system/state aware that this is what is happening with the minors information so they can stop it or make others aware before they check yes\n    </p>\n    ",
+            "score": 2,
+            "upvotes": 2,
+            "createdAt": "2026-08-08T06:39:10.000Z",
+            "createdUtc": 1786171150,
+            "depth": 0,
+            "isSubmitter": false,
+            "stickied": false,
+            "locked": false,
+            "distinguished": null,
+            "replies": {
+             "items": [],
+             "page": {
+              "nextCursor": null,
+              "hasMore": false
+             }
+            }
+           }
+          ],
+          "page": {
+           "nextCursor": "p2da4jw",
+           "hasMore": true
+          }
+         }
+        },
+        {
+         "id": "p2h1g44",
+         "url": "https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2h1g44/",
+         "permalink": "/r/Softball/comments/1vig5pe/comment/p2h1g44/",
+         "parentId": "t1_p2d8cot",
+         "author": "bravara-mike",
+         "text": "Wrong. Fine print doesn\u2019t absolve people from predatory practices. Hold NCSA leadership most responsible here but employee can also stand up for what is right.",
+         "renderedHtml": "\n      <p>\n      Wrong. Fine print doesn\u2019t absolve people from predatory practices. Hold NCSA leadership most responsible here but employee can also stand up for what is right.\n    </p>\n    ",
+         "score": 2,
+         "upvotes": 2,
+         "createdAt": "2026-08-08T15:09:51.000Z",
+         "createdUtc": 1786201791,
+         "depth": 0,
+         "isSubmitter": false,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": null,
+           "hasMore": false
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "p2dhdia",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "p2dbhfz",
+      "url": "https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2dbhfz/",
+      "permalink": "/r/Softball/comments/1vig5pe/comment/p2dbhfz/",
+      "parentId": "t3_1vig5pe",
+      "author": "Dapper-Persimmon-445",
+      "text": "I get it. But i would put it on the school. They should clearly provide an opt out.",
+      "renderedHtml": "\n      <p>\n      I get it. But i would put it on the school. They should clearly provide an opt out.\n    </p>\n    ",
+      "score": 4,
+      "upvotes": 4,
+      "createdAt": "2026-08-08T00:08:38.000Z",
+      "createdUtc": 1786147718,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "p2ez5y2",
+         "url": "https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2ez5y2/",
+         "permalink": "/r/Softball/comments/1vig5pe/comment/p2ez5y2/",
+         "parentId": "t1_p2dbhfz",
+         "author": "mowegl",
+         "text": "They said \u201cif you indicate you are interested in college recruitment\u201d which I assume they checked yes which probably opened the door. My state uses a different system but they had to work closely with them to develop it. Arbiter is probably the one to blame for not keeping minors records private",
+         "renderedHtml": "\n      <p>\n      They said \u201cif you indicate you are interested in college recruitment\u201d which I assume they checked yes which probably opened the door. My state uses a different system but they had to work closely with them to develop it. Arbiter is probably the one to blame for not keeping minors records private\n    </p>\n    ",
+         "score": 2,
+         "upvotes": 2,
+         "createdAt": "2026-08-08T06:36:03.000Z",
+         "createdUtc": 1786170963,
+         "depth": 0,
+         "isSubmitter": false,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": null,
+           "hasMore": false
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "p2dbhfz",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "p4c8974",
+      "url": "https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p4c8974/",
+      "permalink": "/r/Softball/comments/1vig5pe/comment/p4c8974/",
+      "parentId": "t3_1vig5pe",
+      "author": "Much_Illustrator1825",
+      "text": "We had a very similar experience with NCSA. We eventually stopped using it and just created our own Excel recruiting tracker to keep schools, coach contacts, emails, follow-ups, video links, etc. all in one place. For us, having a simple system we controlled ended up being much easier.",
+      "renderedHtml": "\n      <p>\n      We had a very similar experience with NCSA. We eventually stopped using it and just created our own Excel recruiting tracker to keep schools, coach contacts, emails, follow-ups, video links, etc. all in one place. For us, having a simple system we controlled ended up being much easier.\n    </p>\n    ",
+      "score": 2,
+      "upvotes": 2,
+      "createdAt": "2026-08-18T02:03:09.000Z",
+      "createdUtc": 1787018589,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "paibbzw",
+      "url": "https://www.reddit.com/r/Softball/comments/1vig5pe/comment/paibbzw/",
+      "permalink": "/r/Softball/comments/1vig5pe/comment/paibbzw/",
+      "parentId": "t3_1vig5pe",
+      "author": "justadufuss",
+      "text": "Ncsa and the sales team there are horrible. Worked there for a couple years not in sales. Ya it\u2019s a horrible company and I couldn\u2019t get out of there fast enough. The price you pay Ncsa you would be better off hiring someone private",
+      "renderedHtml": "\n      <p>\n      Ncsa and the sales team there are horrible. Worked there for a couple years not in sales. Ya it\u2019s a horrible company and I couldn\u2019t get out of there fast enough. The price you pay Ncsa you would be better off hiring someone private\n    </p>\n    ",
+      "score": 2,
+      "upvotes": 2,
+      "createdAt": "2026-09-18T04:09:10.000Z",
+      "createdUtc": 1789704550,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "p2ioowl",
+      "url": "https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2ioowl/",
+      "permalink": "/r/Softball/comments/1vig5pe/comment/p2ioowl/",
+      "parentId": "t3_1vig5pe",
+      "author": "Bennie-Factors",
+      "text": "She has a mobile number anyone can call it. Sure it is annoying but this is how all these things work.\n\n Use it to teach and educate her.",
+      "renderedHtml": "\n      <p>\n      She has a mobile number anyone can call it.  Sure it is annoying but this is how all these things work.\n    </p><p>\n      Use it to teach and educate her.\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2026-08-08T19:52:25.000Z",
+      "createdUtc": 1786218745,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     }
+    ]
+   },
+   "meta": {
+    "requestId": "req_87786735-1486-482e-a3cd-f001af373d91",
+    "creditsCharged": 1,
+    "version": "v1"
    },
    "card": {
-    "kind": "status",
-    "status": "error",
-    "title": "Lookup failed",
-    "subtitle": "Unknown field `postId`. This tool takes: `url`, `cursor`, `trim`."
+    "kind": "search",
+    "title": "Reddit comments",
+    "subtitle": "10 results",
+    "resultCount": 10,
+    "items": [
+     {
+      "title": "NCSA does this a bunch of sports organization platforms. TeamSnap is the same way and an NCSA app always pops up that you have to close out to advance in the\u2026",
+      "subtitle": "@CollegeSportsSheets \u00b7 7 points",
+      "href": "https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2dbibi/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "I suppose I might be missing some context, but an adult man intentionally bypassing me and calling my 14 year old to \"come in for a meeting\" is asking for\u2026",
+      "subtitle": "@AwfulMouthful \u00b7 9 points",
+      "href": "https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2di8s5/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "I made the same mistake. You\u2019re going through and checking a million boxes, I just checked that one too. I got a bunch of calls for a few days, but ignored\u2026",
+      "subtitle": "@scrodytheroadie \u00b7 5 points",
+      "href": "https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2deg09/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "NCSA is extremely pushy and honestly your story doesn\u2019t surprise me. I would have done exactly the same thing that you did. Then blocked them and notified the\u2026",
+      "subtitle": "@Educational_Limit161 \u00b7 3 points",
+      "href": "https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2g47w7/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "NCSA and anyone who works with youth athletes should be held accountable to SafeSport rules around communication between adults and minors. No one-on-one\u2026",
+      "subtitle": "@bravara-mike \u00b7 2 points",
+      "href": "https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2h2ojr/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Don\u2019t blame the NCSA employee. He\u2019s doing his job. Blame the school and/or yourself in the event that there was fine print.",
+      "subtitle": "@Dapper-Persimmon-445 \u00b7 2 points",
+      "href": "https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2d8cot/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "I get it. But i would put it on the school. They should clearly provide an opt out.",
+      "subtitle": "@Dapper-Persimmon-445 \u00b7 4 points",
+      "href": "https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p2dbhfz/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "We had a very similar experience with NCSA. We eventually stopped using it and just created our own Excel recruiting tracker to keep schools, coach contacts\u2026",
+      "subtitle": "@Much_Illustrator1825 \u00b7 2 points",
+      "href": "https://www.reddit.com/r/Softball/comments/1vig5pe/comment/p4c8974/",
+      "platform": "Reddit"
+     }
+    ]
    }
-  },
-  "isError": true
+  }
  },
  "jsonrpc": "2.0",
  "id": 1

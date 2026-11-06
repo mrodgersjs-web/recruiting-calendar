@@ -3,27 +3,481 @@
   "content": [
    {
     "type": "text",
-    "text": "{\n  \"error\": {\n    \"code\": \"bad_request\",\n    \"message\": \"Unknown field `postId`. This tool takes: `url`, `cursor`, `trim`.\",\n    \"requestId\": \"req_2491ce65-8eaf-4181-aca7-09ffab41ddac\"\n  }\n}"
+    "text": "{\n  \"data\": {\n    \"lookupStatus\": \"found\",\n    \"post\": {\n      \"id\": \"1shq2rt\",\n      \"title\": \"Worth it or not? Looking for honest opinions on NCSA and recruiting services\",\n      \"text\": \"Hey everyone, I\u2019m a high school volleyball player starting to think seriously about playing at the next level, and I\u2019ve been looking into recruiting services like NCSA and a few others. They all seem to promise a lot\u2014more exposure, connections with coaches, help with the process\u2014but they\u2019re also pretty expensive. I wanted to ask: do you think these services are actually worth it? For those of you who\u2019ve gone through recruiting (players, parents, or coaches), did using something like NCSA make a real difference for you? Or is it just as effective to reach out to coaches, send film, and attend camps on your own? I\u2019m trying to figure out if it\u2019s a smart investment or if I\u2019d be better off putting that money toward camps, travel teams, or showcases instead. Any honest experiences or advice would be really appreciated\u2014good or bad. Thanks!\",\n      \"url\": \"https://www.reddit.com/r/volleyball/comments/1shq2rt/worth_it_or_not_looking_for_honest_opinions_on/\",\n      \"permalink\": \"/r/volleyball/comments/1shq2rt/worth_it_or_not_looking_for_honest_opinions_on/\",\n      \"subreddit\": \"volleyball\",\n      \"subredditNamePrefixed\": \"r/volleyball\",\n      \"author\": \"oknookno19299283\",\n      \"score\": 4,\n      \"upvoteRatio\": 0.75,\n      \"commentCount\": 16,\n      \"createdAt\": \"2026-04-10T15:38:09.000Z\",\n      \"createdUtc\": 1775835489,\n      \"over18\": false,\n      \"locked\": false,\n      \"stickied\": false\n    },\n    \"page\": {\n      \"nextCursor\": null,\n      \"hasMore\": false\n    },\n    \"comments\": [\n      {\n        \"id\": \"ofei3c3\",\n        \"url\": \"https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/ofei3c3/\",\n        \"permalink\": \"/r/volleyball/comments/1shq2rt/comment/ofei3c3/\",\n        \"parentId\": \"t3_1shq2rt\",\n        \"author\": \"Juice-cup\",\n        \"text\": \"Did everything ourselves. \u00a0Emailed coaches, a couple of targeted camps, paid for a few visits and spent time and money on training.\\n\\n If you do it yourself, you have to stay disciplined, contact coaches consistently and stay on top of your videos. \u00a0If you can\u2019t do that and you have the money, a service might help you.\\n\\n IMO, the key is getting the coaches on the phone. \u00a0After that you\u2019ve mostly surpassed what the services can provide. \u00a0From our team last year most of the girls ended up signing (all NCAA divisions) and as far as I know two used a service. \u00a0One used NCSA\\n\\n but ultimately got connected to a coach via family.\\n\\n Our club did pay for sportsrecruits\\n\\n . \u00a0Senior year my kid was getting consistent messages from coaches without us reaching out. \u00a0These were mostly from colleges she wasn\u2019t interested in and she had already signed. \u00a0But just throwing it out there.\\n\\n Are you boy or girls volleyball\\n\\n ?\",\n        \"renderedHtml\": \"\\n      <p>\\n      Did everything ourselves. &nbsp;Emailed coaches, a couple of targeted camps, paid for a few visits and spent time and money on training. &nbsp;\\n    </p><p>\\n      If you do it yourself, you have to stay disciplined, contact coaches consistently and stay on top of your videos. &nbsp;If you can\u2019t do that and you have the money, a service might help you.\\n    </p><p>\\n      IMO, the key is getting the coaches on the phone. &nbsp;After that you\u2019ve mostly surpassed what the services can provide. &nbsp;From our team last year most of the girls ended up signing (all NCAA divisions) and as far as I know two used a service. &nbsp;One used <search-telemetry-tracker data-faceplate-tracking-context=\\\"{&quot;action_info&quot;:{&quot;type&quot;:&quot;search&quot;},&quot;comment&quot;:{&quot;id&quot;:&quot;t1_ofei3c3&quot;,&quot;post_id&quot;:&quot;t3_1shq2rt&quot;},&quot;meta_search&quot;:{&quot;display_query&quot;:&quot;NCSA&quot;}}\\\" view-events=\\\"post_detail/view/highlight\\\"><search-telemetry-tracker data-faceplate-tracking-context=\\\"{&quot;action_info&quot;:{&quot;type&quot;:&quot;pdp_term&quot;},&quot;meta_search&quot;:{&quot;raw_query&quot;:&quot;NCSA recruiting services volleyball&quot;},&quot;search&quot;:{&quot;impression_id&quot;:&quot;e7eaee79-b957-42d6-936b-a7aa2e21954f&quot;,&quot;origin_element&quot;:&quot;pdp_comment_highlighted_search_term&quot;,&quot;query&quot;:&quot;NCSA recruiting services volleyball&quot;,&quot;conversation_id&quot;:&quot;77e5c953-cc44-4972-9579-905a39a8c10f&quot;}}\\\" click-events=\\\"search/click/full_search_button\\\"><a rpl=\\\"\\\" class=\\\"border-[var(--color-a-default)] visited:border-[var(--color-a-visited)] hover:border-[var(--color-a-hover)] hover:visited:border-[var(--color-a-visited)] !no-underline border-dotted border-b-sm border-x-0 border-t-0 p-px a\\n  \\n  \\n  \\n  \\n  no-underline hover:no-underline\\n  \\n  cursor-pointer\\\" href=\\\"/search/?q=NCSA+recruiting+services+volleyball&amp;cId=77e5c953-cc44-4972-9579-905a39a8c10f&amp;iId=35c7c43f-f1a3-4daa-a0d6-cc3f0a156b5d\\\">NCSA<span class=\\\"ms-2xs align-middle\\\"><svg rpl=\\\"\\\" fill=\\\"currentColor\\\" height=\\\"12\\\" icon-name=\\\"search\\\" viewBox=\\\"0 0 20 20\\\" width=\\\"12\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\">\\n      <path d=\\\"m18.736 17.464-3.483-3.483A7.961 7.961 0 0016.999 9 8 8 0 109 17a7.961 7.961 0 004.981-1.746l3.483 3.483a.9.9 0 101.272-1.273ZM9 15.2A6.207 6.207 0 012.8 9c0-3.419 2.781-6.2 6.2-6.2s6.2 2.781 6.2 6.2-2.781 6.2-6.2 6.2Z\\\"></path>\\n    </svg></span></a></search-telemetry-tracker></search-telemetry-tracker> but ultimately got connected to a coach via family.\\n    </p><p>\\n      Our club did pay for <search-telemetry-tracker data-faceplate-tracking-context=\\\"{&quot;action_info&quot;:{&quot;type&quot;:&quot;search&quot;},&quot;comment&quot;:{&quot;id&quot;:&quot;t1_ofei3c3&quot;,&quot;post_id&quot;:&quot;t3_1shq2rt&quot;},&quot;meta_search&quot;:{&quot;display_query&quot;:&quot;sportsrecruits&quot;}}\\\" view-events=\\\"post_detail/view/highlight\\\"><search-telemetry-tracker data-faceplate-tracking-context=\\\"{&quot;action_info&quot;:{&quot;type&quot;:&quot;pdp_term&quot;},&quot;meta_search&quot;:{&quot;raw_query&quot;:&quot;sportsrecruits college volleyball&quot;},&quot;search&quot;:{&quot;impression_id&quot;:&quot;e7eaee79-b957-42d6-936b-a7aa2e21954f&quot;,&quot;origin_element&quot;:&quot;pdp_comment_highlighted_search_term&quot;,&quot;query&quot;:&quot;sportsrecruits college volleyball&quot;,&quot;conversation_id&quot;:&quot;f50d7c52-0a0b-4aeb-9ed8-2b699f1794fd&quot;}}\\\" click-events=\\\"search/click/full_search_button\\\"><a rpl=\\\"\\\" class=\\\"border-[var(--color-a-default)] visited:border-[var(--color-a-visited)] hover:border-[var(--color-a-hover)] hover:visited:border-[var(--color-a-visited)] !no-underline border-dotted border-b-sm border-x-0 border-t-0 p-px a\\n  \\n  \\n  \\n  \\n  no-underline hover:no-underline\\n  \\n  cursor-pointer\\\" href=\\\"/search/?q=sportsrecruits+college+volleyball&amp;cId=f50d7c52-0a0b-4aeb-9ed8-2b699f1794fd&amp;iId=64513b2b-df48-4785-8151-5e0614677bfe\\\">sportsrecruits<span class=\\\"ms-2xs align-middle\\\"><svg rpl=\\\"\\\" fill=\\\"currentColor\\\" height=\\\"12\\\" icon-name=\\\"search\\\" viewBox=\\\"0 0 20 20\\\" width=\\\"12\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\">\\n      <path d=\\\"m18.736 17.464-3.483-3.483A7.961 7.961 0 0016.999 9 8 8 0 109 17a7.961 7.961 0 004.981-1.746l3.483 3.483a.9.9 0 101.272-1.273ZM9 15.2A6.207 6.207 0 012.8 9c0-3.419 2.781-6.2 6.2-6.2s6.2 2.781 6.2 6.2-2.781 6.2-6.2 6.2Z\\\"></path>\\n    </svg></span></a></search-telemetry-tracker></search-telemetry-tracker>. &nbsp;Senior year my kid was getting consistent messages from coaches without us reaching out. &nbsp;These were mostly from colleges she wasn\u2019t interested in and she had already signed. &nbsp;But just throwing it out there. &nbsp;\\n    </p><p>\\n      Are you boy or <search-telemetry-tracker data-faceplate-tracking-context=\\\"{&quot;action_info&quot;:{&quot;type&quot;:&quot;search&quot;},&quot;comment&quot;:{&quot;id&quot;:&quot;t1_ofei3c3&quot;,&quot;post_id&quot;:&quot;t3_1shq2rt&quot;},&quot;meta_search&quot;:{&quot;display_query&quot;:&quot;girls volleyball&quot;}}\\\" view-events=\\\"post_detail/view/highlight\\\"><search-telemetry-tracker data-faceplate-tracking-context=\\\"{&quot;action_info&quot;:{&quot;type&quot;:&quot;pdp_term&quot;},&quot;meta_search&quot;:{&quot;raw_query&quot;:&quot;girls volleyball college recruiting&quot;},&quot;search&quot;:{&quot;impression_id&quot;:&quot;e7eaee79-b957-42d6-936b-a7aa2e21954f&quot;,&quot;origin_element&quot;:&quot;pdp_comment_highlighted_search_term&quot;,&quot;query&quot;:&quot;girls volleyball college recruiting&quot;,&quot;conversation_id&quot;:&quot;60cc0eb1-8508-4d62-9cb4-ba7e48771c47&quot;}}\\\" click-events=\\\"search/click/full_search_button\\\"><a rpl=\\\"\\\" class=\\\"border-[var(--color-a-default)] visited:border-[var(--color-a-visited)] hover:border-[var(--color-a-hover)] hover:visited:border-[var(--color-a-visited)] !no-underline border-dotted border-b-sm border-x-0 border-t-0 p-px a\\n  \\n  \\n  \\n  \\n  no-underline hover:no-underline\\n  \\n  cursor-pointer\\\" href=\\\"/search/?q=girls+volleyball+college+recruiting&amp;cId=60cc0eb1-8508-4d62-9cb4-ba7e48771c47&amp;iId=ccbd99b9-b863-4fe1-90e2-c1ab7d376551\\\">girls volleyball<span class=\\\"ms-2xs align-middle\\\"><svg rpl=\\\"\\\" fill=\\\"currentColor\\\" height=\\\"12\\\" icon-name=\\\"search\\\" viewBox=\\\"0 0 20 20\\\" width=\\\"12\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\">\\n      <path d=\\\"m18.736 17.464-3.483-3.483A7.961 7.961 0 0016.999 9 8 8 0 109 17a7.961 7.961 0 004.981-1.746l3.483 3.483a.9.9 0 101.272-1.273ZM9 15.2A6.207 6.207 0 012.8 9c0-3.419 2.781-6.2 6.2-6.2s6.2 2.781 6.2 6.2-2.781 6.2-6.2 6.2Z\\\"></path>\\n    </svg></span></a></search-telemetry-tracker></search-telemetry-tracker>?\\n    </p>\\n    \",\n        \"score\": 6,\n        \"upvotes\": 6,\n        \"createdAt\": \"2026-04-10T15:53:10.000Z\",\n        \"createdUtc\": 1775836390,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"off96wb\",\n        \"url\": \"https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/off96wb/\",\n        \"permalink\": \"/r/volleyball/comments/1shq2rt/comment/off96wb/\",\n        \"parentId\": \"t3_1shq2rt\",\n        \"author\": \"joetrinsey\",\n        \"text\": \"I've been on both sides of this: NCAA D1 coach\\n\\n both women's and men's side and been involved with club for a while. The best thing you can do as a player is to directly email the full coaching staff from your personal email. Short and sweet.\\n\\n ---------------------------------------\\n\\n Subject Line: Your Name - Grade Year - Position\\n\\n Email Body: Hello Coach [X],\\n\\n My name is [Name], I am a [Height + Position] with a spike touch of X. My grad year is Y. I play club for Coach ABC at Club Whatever. Here is their contact information.\\n\\n Here is my highlight tape\\n\\n : [Youtube link]\\n\\n I want to play volleyball at the next level and would love the chance for you to evaluate my video.\\n\\n -----------------------------------------\\n\\n Anything other than that, such as a service like NCSA puts an additional barrier of inconvenience for the coaches because they are slightly less convenient to respond to those messages, forward them between members of the coaching staff, etc. And when you're on a coaching staff and you get an NCSA email you assume you're getting spammed along with 100 other schools. When a kid emails you directly, you know they took the time to do it. (That said, most of the time your video is still going to get clicked regardless of how it gets sent because most staffs watch close to all the videos they get sent and if your video is good enough you'll get a response.)\\n\\n Nothing wrong with something like NCSA, Sports Recruits, etc. They can sometimes broaden your range of schools that you might not otherwise contact. But not really any benefit. I think sometimes the main benefit is actually that you DO pay for it, so it helps mom and dad say, \\\"listen, we paid that money, so we better follow through with making a highlight tape.\\\" Etc.\\n\\n It was said by another poster: \\\"Height/size matters and make your first 10-30s of your highlight reel the best.\\\"\\n\\n Take a few minutes to edit your video and put your best two swings first because the average length of time most coaches watch a video is about 10-15s. Experienced coaches can tell a lot off just one or two swings because you can see size and physicality which is the baseline for being a recruitable athlete at a school.\",\n        \"renderedHtml\": \"\\n      <p>\\n      I've been on both sides of this: <search-telemetry-tracker data-faceplate-tracking-context=\\\"{&quot;action_info&quot;:{&quot;type&quot;:&quot;search&quot;},&quot;comment&quot;:{&quot;id&quot;:&quot;t1_off96wb&quot;,&quot;post_id&quot;:&quot;t3_1shq2rt&quot;},&quot;meta_search&quot;:{&quot;display_query&quot;:&quot;NCAA D1 coach&quot;}}\\\" view-events=\\\"post_detail/view/highlight\\\"><search-telemetry-tracker data-faceplate-tracking-context=\\\"{&quot;action_info&quot;:{&quot;type&quot;:&quot;pdp_term&quot;},&quot;meta_search&quot;:{&quot;raw_query&quot;:&quot;NCAA D1 coach volleyball recruiting&quot;},&quot;search&quot;:{&quot;impression_id&quot;:&quot;e7eaee79-b957-42d6-936b-a7aa2e21954f&quot;,&quot;origin_element&quot;:&quot;pdp_comment_highlighted_search_term&quot;,&quot;query&quot;:&quot;NCAA D1 coach volleyball recruiting&quot;,&quot;conversation_id&quot;:&quot;b46611c8-cd95-41ac-a823-962def4c50c8&quot;}}\\\" click-events=\\\"search/click/full_search_button\\\"><a rpl=\\\"\\\" class=\\\"border-[var(--color-a-default)] visited:border-[var(--color-a-visited)] hover:border-[var(--color-a-hover)] hover:visited:border-[var(--color-a-visited)] !no-underline border-dotted border-b-sm border-x-0 border-t-0 p-px a\\n  \\n  \\n  \\n  \\n  no-underline hover:no-underline\\n  \\n  cursor-pointer\\\" href=\\\"/search/?q=NCAA+D1+coach+volleyball+recruiting&amp;cId=b46611c8-cd95-41ac-a823-962def4c50c8&amp;iId=bb7e193a-1b1e-442e-9268-67792126f0e3\\\">NCAA D1 coach<span class=\\\"ms-2xs align-middle\\\"><svg rpl=\\\"\\\" fill=\\\"currentColor\\\" height=\\\"12\\\" icon-name=\\\"search\\\" viewBox=\\\"0 0 20 20\\\" width=\\\"12\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\">\\n      <path d=\\\"m18.736 17.464-3.483-3.483A7.961 7.961 0 0016.999 9 8 8 0 109 17a7.961 7.961 0 004.981-1.746l3.483 3.483a.9.9 0 101.272-1.273ZM9 15.2A6.207 6.207 0 012.8 9c0-3.419 2.781-6.2 6.2-6.2s6.2 2.781 6.2 6.2-2.781 6.2-6.2 6.2Z\\\"></path>\\n    </svg></span></a></search-telemetry-tracker></search-telemetry-tracker> both women's and men's side and been involved with club for a while. The best thing you can do as a player is to directly email the full coaching staff from your personal email. Short and sweet.\\n    </p><p>\\n      ---------------------------------------\\n    </p><p>\\n      Subject Line: Your Name - Grade Year - Position\\n    </p><p>\\n      Email Body: Hello Coach [X],\\n    </p><p>\\n      My name is [Name], I am a [Height + Position] with a spike touch of X. My grad year is Y. I play club for Coach ABC at Club Whatever. Here is their contact information.\\n    </p><p>\\n      Here is my <search-telemetry-tracker data-faceplate-tracking-context=\\\"{&quot;action_info&quot;:{&quot;type&quot;:&quot;search&quot;},&quot;comment&quot;:{&quot;id&quot;:&quot;t1_off96wb&quot;,&quot;post_id&quot;:&quot;t3_1shq2rt&quot;},&quot;meta_search&quot;:{&quot;display_query&quot;:&quot;highlight tape&quot;}}\\\" view-events=\\\"post_detail/view/highlight\\\"><search-telemetry-tracker data-faceplate-tracking-context=\\\"{&quot;action_info&quot;:{&quot;type&quot;:&quot;pdp_term&quot;},&quot;meta_search&quot;:{&quot;raw_query&quot;:&quot;volleyball highlight tape recruiting&quot;},&quot;search&quot;:{&quot;impression_id&quot;:&quot;e7eaee79-b957-42d6-936b-a7aa2e21954f&quot;,&quot;origin_element&quot;:&quot;pdp_comment_highlighted_search_term&quot;,&quot;query&quot;:&quot;volleyball highlight tape recruiting&quot;,&quot;conversation_id&quot;:&quot;ebc2dd14-0e94-40db-bb59-4f7ea7983345&quot;}}\\\" click-events=\\\"search/click/full_search_button\\\"><a rpl=\\\"\\\" class=\\\"border-[var(--color-a-default)] visited:border-[var(--color-a-visited)] hover:border-[var(--color-a-hover)] hover:visited:border-[var(--color-a-visited)] !no-underline border-dotted border-b-sm border-x-0 border-t-0 p-px a\\n  \\n  \\n  \\n  \\n  no-underline hover:no-underline\\n  \\n  cursor-pointer\\\" href=\\\"/search/?q=volleyball+highlight+tape+recruiting&amp;cId=ebc2dd14-0e94-40db-bb59-4f7ea7983345&amp;iId=8f3294e2-34ed-46e2-ba92-5ea8a680ae49\\\">highlight tape<span class=\\\"ms-2xs align-middle\\\"><svg rpl=\\\"\\\" fill=\\\"currentColor\\\" height=\\\"12\\\" icon-name=\\\"search\\\" viewBox=\\\"0 0 20 20\\\" width=\\\"12\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\">\\n      <path d=\\\"m18.736 17.464-3.483-3.483A7.961 7.961 0 0016.999 9 8 8 0 109 17a7.961 7.961 0 004.981-1.746l3.483 3.483a.9.9 0 101.272-1.273ZM9 15.2A6.207 6.207 0 012.8 9c0-3.419 2.781-6.2 6.2-6.2s6.2 2.781 6.2 6.2-2.781 6.2-6.2 6.2Z\\\"></path>\\n    </svg></span></a></search-telemetry-tracker></search-telemetry-tracker>: [Youtube link]\\n    </p><p>\\n      I want to play volleyball at the next level and would love the chance for you to evaluate my video.\\n    </p><p>\\n      -----------------------------------------\\n    </p><p>\\n      Anything other than that, such as a service like NCSA puts an additional barrier of inconvenience for the coaches because they are slightly less convenient to respond to those messages, forward them between members of the coaching staff, etc. And when you're on a coaching staff and you get an NCSA email you assume you're getting spammed along with 100 other schools. When a kid emails you directly, you know they took the time to do it. (That said, most of the time your video is still going to get clicked regardless of how it gets sent because most staffs watch close to all the videos they get sent and if your video is good enough you'll get a response.)\\n    </p><p>\\n      Nothing wrong with something like NCSA, Sports Recruits, etc. They can sometimes broaden your range of schools that you might not otherwise contact. But not really any benefit. I think sometimes the main benefit is actually that you DO pay for it, so it helps mom and dad say, \\\"listen, we paid that money, so we better follow through with making a highlight tape.\\\" Etc.\\n    </p><p>\\n      It was said by another poster: \\\"Height/size matters and make your first 10-30s of your highlight reel the best.\\\"\\n    </p><p>\\n      Take a few minutes to edit your video and put your best two swings first because the average length of time most coaches watch a video is about 10-15s. Experienced coaches can tell a lot off just one or two swings because you can see size and physicality which is the baseline for being a recruitable athlete at a school.\\n    </p>\\n    \",\n        \"score\": 6,\n        \"upvotes\": 6,\n        \"createdAt\": \"2026-04-10T17:53:03.000Z\",\n        \"createdUtc\": 1775843583,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"offdkiu\",\n              \"url\": \"https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/offdkiu/\",\n              \"permalink\": \"/r/volleyball/comments/1shq2rt/comment/offdkiu/\",\n              \"parentId\": \"t1_off96wb\",\n              \"author\": \"Juice-cup\",\n              \"text\": \"To add to height/size matters but also GPA is just as important for some schools. \u00a0If you are looking at a top tier high academic D3 I\u2019d add:\\n\\n Subject: \u00a0Lisa Jones // 5\u201911\u201d Setter // 2026 // 4.5 GPA.\\n\\n Also on average video length (basically Joe is correct!), from a parent view. \u00a0We started with 3 minute videos and saw on YouTube that the average view time was 40 seconds. \u00a0We trimmed to 1:00-1:15 after that.\",\n              \"renderedHtml\": \"\\n      <p>\\n      To add to height/size matters but also GPA is just as important for some schools. &nbsp;If you are looking at a top tier high academic D3 I\u2019d add:\\n    </p><p>\\n      Subject: &nbsp;Lisa Jones // 5\u201911\u201d Setter // 2026 // 4.5 GPA. &nbsp;\\n    </p><p>\\n      Also on average video length (basically Joe is correct!), from a parent view. &nbsp;We started with 3 minute videos and saw on YouTube that the average view time was 40 seconds. &nbsp;We trimmed to 1:00-1:15 after that. &nbsp;\\n    </p>\\n    \",\n              \"score\": 4,\n              \"upvotes\": 4,\n              \"createdAt\": \"2026-04-10T18:12:33.000Z\",\n              \"createdUtc\": 1775844753,\n              \"depth\": 0,\n              \"isSubmitter\": false,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": null,\n                  \"hasMore\": false\n                }\n              }\n            },\n            {\n              \"id\": \"ofgrov7\",\n              \"url\": \"https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/ofgrov7/\",\n              \"permalink\": \"/r/volleyball/comments/1shq2rt/comment/ofgrov7/\",\n              \"parentId\": \"t1_off96wb\",\n              \"author\": \"Nickilaughs\",\n              \"text\": \"Thank you so much this was incredibly helpful. To expand on OP. What age would my kid want to start sending emails? He's currently a 15 yr old sophomore. I figured coaches would want to see junior year highlights.\",\n              \"renderedHtml\": \"\\n      <p>\\n      Thank you so much this was incredibly helpful.  To expand on OP.  What age would my kid want to start sending emails?  He's currently a 15 yr old sophomore.  I figured coaches would want to see junior year highlights.\\n    </p>\\n    \",\n              \"score\": 2,\n              \"upvotes\": 2,\n              \"createdAt\": \"2026-04-10T22:11:06.000Z\",\n              \"createdUtc\": 1775859066,\n              \"depth\": 0,\n              \"isSubmitter\": false,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": null,\n                  \"hasMore\": false\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"off96wb\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"ofes7ud\",\n        \"url\": \"https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/ofes7ud/\",\n        \"permalink\": \"/r/volleyball/comments/1shq2rt/comment/ofes7ud/\",\n        \"parentId\": \"t3_1shq2rt\",\n        \"author\": \"kramig_stan_account\",\n        \"text\": \"I do not think it\u2019s worth it to pay for recruiting services if you\u2019re willing to do the work yourself. You can cut together a highlights video in an afternoon, you can write an email template that you modify to send to coaches. Save the money you\u2019d spend on it and visit more schools / attend more camps, IMO.\",\n        \"renderedHtml\": \"\\n      <p>\\n      I do not think it\u2019s worth it to pay for recruiting services if you\u2019re willing to do the work yourself. You can cut together a highlights video in an afternoon, you can write an email template that you modify to send to coaches. Save the money you\u2019d spend on it and visit more schools / attend more camps, IMO.\\n    </p>\\n    \",\n        \"score\": 4,\n        \"upvotes\": 4,\n        \"createdAt\": \"2026-04-10T16:38:43.000Z\",\n        \"createdUtc\": 1775839123,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"off2ru9\",\n        \"url\": \"https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/off2ru9/\",\n        \"permalink\": \"/r/volleyball/comments/1shq2rt/comment/off2ru9/\",\n        \"parentId\": \"t3_1shq2rt\",\n        \"author\": \"DadwithTwoDaughters\",\n        \"text\": \"Largest waste of dollars ever spent. Pros Platform looks great Makes finding schools you wouldn\u2019t think about easily available Has coaches emails\\n\\n Cons While the platform makes it easy to find and email coaches. Not one replied from the platform but did from a personal email. All information is available online and LLMs do a decent job scraping together the information.\\n\\n If I had to do it again, I would take my kid on a solid vacation instead.\",\n        \"renderedHtml\": \"\\n      <p>\\n      Largest waste of dollars ever spent. Pros Platform looks great Makes finding schools you wouldn\u2019t think about easily available Has coaches emails\\n    </p><p>\\n      Cons While the platform makes it easy to find and email coaches. Not one replied from the platform but did from a personal email. All information is available online and LLMs do a decent job scraping together the information.\\n    </p><p>\\n      If I had to do it again, I would take my kid on a solid vacation instead.\\n    </p>\\n    \",\n        \"score\": 3,\n        \"upvotes\": 3,\n        \"createdAt\": \"2026-04-10T17:25:15.000Z\",\n        \"createdUtc\": 1775841915,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"off5afs\",\n        \"url\": \"https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/off5afs/\",\n        \"permalink\": \"/r/volleyball/comments/1shq2rt/comment/off5afs/\",\n        \"parentId\": \"t3_1shq2rt\",\n        \"author\": \"JoshuaAncaster\",\n        \"text\": \"Not, it\u2019s important to do your own research into which academic programs you\u2019re interested in and contact the coaches recruiting admin with an email letter of intent. There are around 8 other steps they\u2019ll outline if they reach out to you.\\n\\n You must first meet the school\u2019s entry requirements GPA etc. There is a giant volume of prospects they have to go through and a recruiting company doesn\u2019t get you higher in the coaches\u2019 lists.\\n\\n Height/size matters and make your first 10-30s of your highlight reel the best. There are Facebook posts and other places with free info/tips what you\u2019d be paying for at NCSA. I think they and others continually spam you if you contact them. Our club often has commits, 11/12 18U\u2019s this year, none of them use recruiting services.\",\n        \"renderedHtml\": \"\\n      <p>\\n      Not, it\u2019s important to do your own research into which academic programs you\u2019re interested in and contact the coaches recruiting admin with an email letter of intent. There are around 8 other steps they\u2019ll outline if they reach out to you.\\n    </p><p>\\n      You must first meet the school\u2019s entry requirements GPA etc. There is a giant volume of prospects they have to go through and a recruiting company doesn\u2019t get you higher in the coaches\u2019 lists.\\n    </p><p>\\n      Height/size matters and make your first 10-30s of your highlight reel the best. There are Facebook posts and other places with free info/tips what you\u2019d be paying for at NCSA. I think they and others continually spam you if you contact them. Our club often has commits, 11/12 18U\u2019s this year, none of them use recruiting services.\\n    </p>\\n    \",\n        \"score\": 2,\n        \"upvotes\": 2,\n        \"createdAt\": \"2026-04-10T17:36:11.000Z\",\n        \"createdUtc\": 1775842571,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"off69nv\",\n        \"url\": \"https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/off69nv/\",\n        \"permalink\": \"/r/volleyball/comments/1shq2rt/comment/off69nv/\",\n        \"parentId\": \"t3_1shq2rt\",\n        \"author\": \"CollegeSportsSheets\",\n        \"text\": \"People are pretty divided on it. Some find value and others say its a waste of time and money and did nothing for them. My recommendation is to search this group for \u201cNCSA\u201d or do \u201creviews NCSA\u201d on google or in Reddit. This will pull up numerous first hand accounts from other parents across all sports and give you the info you need. Overall general consensus is that its not worth the money, and all the recruiting work they do, you and your athlete can do yourself. Lastly usually coaches want to deal directly with the athletes and not a third party service, that just adds friction to the process. So use the free resources that they have because there is some good info, but be leery of paying.\\n\\n Check out these others posts in this sub that break down the college volleyball recruiting process\\n\\n https://www.reddit.com/r/volleyball/comments/1ddw1h5/rough_guide_to_playing_volleyball_at_college_how/\\n\\n https://www.reddit.com/r/volleyball/comments/1kgn78e/what_to_expect_on_june_15th_as_a_volleyball_player/\\n\\n I would start the process yourself and see if you start getting traction. Research programs that would be good matches for your volleyball skills, academically, sociallly, environmentally and financially. Then start your outreach.\\n\\n If you do decide to go with NCSA, negotiate the price, they will drop it. And if you decide not to move forward with them be direct and let them know not to contact you, because they will be relentless in follow-up.\",\n        \"renderedHtml\": \"\\n      <p>\\n      People are pretty divided on it. Some find value and others say its a waste of time and money and did nothing for them. My recommendation is to search this group for \u201cNCSA\u201d or do \u201creviews NCSA\u201d on google or in Reddit. This will pull up numerous first hand accounts from other parents across all sports and give you the info you need. Overall general consensus is that its not worth the money, and all the recruiting work they do, you and your athlete can do yourself. Lastly usually coaches want to deal directly with the athletes and not a third party service, that just adds friction to the process. So use the free resources that they have because there is some good info, but be leery of paying.\\n    </p><p>\\n      Check out these others posts in this sub that break down the college volleyball recruiting process\\n    </p><p>\\n      <a rpl=\\\"\\\" class=\\\"relative pointer-events-auto a\\n  \\n  \\n  \\n  \\n  underline\\n  \\n  cursor-pointer\\\" href=\\\"https://www.reddit.com/r/volleyball/comments/1ddw1h5/rough_guide_to_playing_volleyball_at_college_how/\\\" rel=\\\"noopener nofollow ugc\\\" target=\\\"_blank\\\">https://www.reddit.com/r/volleyball/comments/1ddw1h5/rough_guide_to_playing_volleyball_at_college_how/</a>\\n    </p><p>\\n      <a rpl=\\\"\\\" class=\\\"relative pointer-events-auto a\\n  \\n  \\n  \\n  \\n  underline\\n  \\n  cursor-pointer\\\" href=\\\"https://www.reddit.com/r/volleyball/comments/1kgn78e/what_to_expect_on_june_15th_as_a_volleyball_player/\\\" rel=\\\"noopener nofollow ugc\\\" target=\\\"_blank\\\">https://www.reddit.com/r/volleyball/comments/1kgn78e/what_to_expect_on_june_15th_as_a_volleyball_player/</a>\\n    </p><p>\\n      I would start the process yourself and see if you start getting traction. Research programs that would be good matches for your volleyball skills, academically, sociallly, environmentally and financially. Then start your outreach.\\n    </p><p>\\n      If you do decide to go with NCSA, negotiate the price, they will drop it. And if you decide not to move forward with them be direct and let them know not to contact you, because they will be relentless in follow-up.\\n    </p>\\n    \",\n        \"score\": 2,\n        \"upvotes\": 2,\n        \"createdAt\": \"2026-04-10T17:40:23.000Z\",\n        \"createdUtc\": 1775842823,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"ofg3g0p\",\n        \"url\": \"https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/ofg3g0p/\",\n        \"permalink\": \"/r/volleyball/comments/1shq2rt/comment/ofg3g0p/\",\n        \"parentId\": \"t3_1shq2rt\",\n        \"author\": \"vbsteez\",\n        \"text\": \"Do you play club? can any of your coaches advise you in this process?\\n\\n if you're a guy, i can probably help you navigate the collegiate MVB scene and help you figure out a realistic level for you to play at. I played college, have been a college assistant coach, have coached club in a few parts of the country, and have friends who are college head coaches.\",\n        \"renderedHtml\": \"\\n      <p>\\n      Do you play club? can any of your coaches advise you in this process?\\n    </p><p>\\n      if you're a guy, i can probably help you navigate the collegiate MVB scene and help you figure out a realistic level for you to play at. I played college, have been a college assistant coach, have coached club in a few parts of the country, and have friends who are college head coaches.\\n    </p>\\n    \",\n        \"score\": 2,\n        \"upvotes\": 2,\n        \"createdAt\": \"2026-04-10T20:12:25.000Z\",\n        \"createdUtc\": 1775851945,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"ofgs1o6\",\n              \"url\": \"https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/ofgs1o6/\",\n              \"permalink\": \"/r/volleyball/comments/1shq2rt/comment/ofgs1o6/\",\n              \"parentId\": \"t1_ofg3g0p\",\n              \"author\": \"Nickilaughs\",\n              \"text\": \"Can I save your info for my son when he's closer to actively pursuing college options? Ty!\",\n              \"renderedHtml\": \"\\n      <p>\\n      Can I save your info for my son when he's closer to actively pursuing college options?  Ty!\\n    </p>\\n    \",\n              \"score\": 1,\n              \"upvotes\": 1,\n              \"createdAt\": \"2026-04-10T22:13:02.000Z\",\n              \"createdUtc\": 1775859182,\n              \"depth\": 0,\n              \"isSubmitter\": false,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [\n                  {\n                    \"id\": \"ofh8nby\",\n                    \"url\": \"https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/ofh8nby/\",\n                    \"permalink\": \"/r/volleyball/comments/1shq2rt/comment/ofh8nby/\",\n                    \"parentId\": \"t1_ofgs1o6\",\n                    \"author\": \"vbsteez\",\n                    \"text\": \"happy to help.\",\n                    \"renderedHtml\": \"\\n      <p>\\n      happy to help.\\n    </p>\\n    \",\n                    \"score\": 2,\n                    \"upvotes\": 2,\n                    \"createdAt\": \"2026-04-10T23:44:57.000Z\",\n                    \"createdUtc\": 1775864697,\n                    \"depth\": 0,\n                    \"isSubmitter\": false,\n                    \"stickied\": false,\n                    \"locked\": false,\n                    \"distinguished\": null,\n                    \"replies\": {\n                      \"items\": [],\n                      \"page\": {\n                        \"nextCursor\": null,\n                        \"hasMore\": false\n                      }\n                    }\n                  }\n                ],\n                \"page\": {\n                  \"nextCursor\": \"ofgs1o6\",\n                  \"hasMore\": true\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"ofgs1o6\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"ofkpmz6\",\n        \"url\": \"https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/ofkpmz6/\",\n        \"permalink\": \"/r/volleyball/comments/1shq2rt/comment/ofkpmz6/\",\n        \"parentId\": \"t3_1shq2rt\",\n        \"author\": \"volleballers-dot-com\",\n        \"text\": \"Shameless plug - check out my platform https://volleyballers.com - for practically no significant cost (this is my hobby, not really a business, I started it to track my daughter's career more so that anything else, specifically see https://volleyballers.com/user-guide/recruiting ). You also get a website and custom URL for you to keep forever once your amazing career comes to an end :)\",\n        \"renderedHtml\": \"\\n      <p>\\n      Shameless plug - check out my platform <a rpl=\\\"\\\" class=\\\"relative pointer-events-auto a\\n  \\n  \\n  \\n  \\n  underline\\n  \\n  cursor-pointer\\\" href=\\\"https://volleyballers.com\\\" rel=\\\"noopener nofollow ugc\\\" target=\\\"_blank\\\">https://volleyballers.com</a> - for practically no significant cost (this is my hobby, not really a business, I started it to track my daughter's career more so that anything else, specifically see <a rpl=\\\"\\\" class=\\\"relative pointer-events-auto a\\n  \\n  \\n  \\n  \\n  underline\\n  \\n  cursor-pointer\\\" href=\\\"https://volleyballers.com/user-guide/recruiting\\\" rel=\\\"noopener nofollow ugc\\\" target=\\\"_blank\\\">https://volleyballers.com/user-guide/recruiting</a> ). You also get a website and custom URL for you to keep forever once your amazing career comes to an end :)\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2026-04-11T14:24:55.000Z\",\n        \"createdUtc\": 1775917495,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"otzqb0h\",\n        \"url\": \"https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/otzqb0h/\",\n        \"permalink\": \"/r/volleyball/comments/1shq2rt/comment/otzqb0h/\",\n        \"parentId\": \"t3_1shq2rt\",\n        \"author\": \"Various-Connection-8\",\n        \"text\": \"Use NHR Prospects, they are way better than NCSA, they actually do most of your recruiting for you, highly recommend\",\n        \"renderedHtml\": \"\\n      <p>\\n      Use NHR Prospects, they are way better than NCSA, they actually do most of your recruiting for you, highly recommend\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2026-06-26T19:31:38.000Z\",\n        \"createdUtc\": 1782502298,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"ozit52q\",\n        \"url\": \"https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/ozit52q/\",\n        \"permalink\": \"/r/volleyball/comments/1shq2rt/comment/ozit52q/\",\n        \"parentId\": \"t3_1shq2rt\",\n        \"author\": \"Stunning_Factor9052\",\n        \"text\": \"It\u2019s a money grab. All they do is send you webinar links. The coach that was assigned to us was inconsistent and seemed uninterested. All the things they direct you to do , you can do it your self without paying thousands of dollars. Which is emailing coaches at different schools. I regret signing up and would never do it again\",\n        \"renderedHtml\": \"\\n      <p>\\n      It\u2019s a money grab. All they do is send you webinar links.  The coach that was assigned to us was inconsistent and seemed uninterested.   All the things they direct you to do , you can do it your self without paying thousands of dollars.  Which is emailing coaches at different schools.   I regret signing up  and would never do it again\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2026-07-24T17:11:38.000Z\",\n        \"createdUtc\": 1784913098,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"pa6cggr\",\n        \"url\": \"https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/pa6cggr/\",\n        \"permalink\": \"/r/volleyball/comments/1shq2rt/comment/pa6cggr/\",\n        \"parentId\": \"t3_1shq2rt\",\n        \"author\": \"LogicalHomework5410\",\n        \"text\": \"University Athlete is a free volleyball specific recruiting tool that almost all college programs actually use. I know of a ton of clubs that set up accounts for their kids, but it's also available for a family to sign up for.\\n\\n It connects to the tournaments that teams play in, sends the schedules to them so they can find the right courts where athletes are playing and evaluate them. All of that information lives in University Athlete and if an athlete is not on UA, then the college coach cant find them or evaluate them!\",\n        \"renderedHtml\": \"\\n      <p>\\n      University Athlete is a free volleyball specific recruiting tool that almost all college programs actually use. I know of a ton of clubs that set up accounts for their kids, but it's also available for a family to sign up for.\\n    </p><p>\\n      It connects to the tournaments that teams play in, sends the schedules to them so they can find the right courts where athletes are playing and evaluate them. All of that information lives in University Athlete and if an athlete is not on UA, then the college coach cant find them or evaluate them!\\n    </p>\\n    \",\n        \"score\": 0,\n        \"upvotes\": 0,\n        \"createdAt\": \"2026-09-16T15:02:56.000Z\",\n        \"createdUtc\": 1789570976,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      }\n    ]\n  },\n  \"meta\": {\n    \"requestId\": \"req_96e7bf76-5f7e-4c1b-942a-c665350abef6\",\n    \"creditsCharged\": 1,\n    \"version\": \"v1\"\n  }\n}"
    },
    {
     "type": "text",
-    "text": "{\"conversation_id\":\"01a1af42-81f2-7aae-96f6-72c4c5a80a7a\"}"
+    "text": "{\"conversation_id\":\"01a1af43-0989-7146-b6b7-0a939c00f8c2\"}"
    }
   ],
   "structuredContent": {
-   "error": {
-    "code": "bad_request",
-    "message": "Unknown field `postId`. This tool takes: `url`, `cursor`, `trim`.",
-    "requestId": "req_2491ce65-8eaf-4181-aca7-09ffab41ddac"
+   "data": {
+    "lookupStatus": "found",
+    "post": {
+     "id": "1shq2rt",
+     "title": "Worth it or not? Looking for honest opinions on NCSA and recruiting services",
+     "text": "Hey everyone, I\u2019m a high school volleyball player starting to think seriously about playing at the next level, and I\u2019ve been looking into recruiting services like NCSA and a few others. They all seem to promise a lot\u2014more exposure, connections with coaches, help with the process\u2014but they\u2019re also pretty expensive. I wanted to ask: do you think these services are actually worth it? For those of you who\u2019ve gone through recruiting (players, parents, or coaches), did using something like NCSA make a real difference for you? Or is it just as effective to reach out to coaches, send film, and attend camps on your own? I\u2019m trying to figure out if it\u2019s a smart investment or if I\u2019d be better off putting that money toward camps, travel teams, or showcases instead. Any honest experiences or advice would be really appreciated\u2014good or bad. Thanks!",
+     "url": "https://www.reddit.com/r/volleyball/comments/1shq2rt/worth_it_or_not_looking_for_honest_opinions_on/",
+     "permalink": "/r/volleyball/comments/1shq2rt/worth_it_or_not_looking_for_honest_opinions_on/",
+     "subreddit": "volleyball",
+     "subredditNamePrefixed": "r/volleyball",
+     "author": "oknookno19299283",
+     "score": 4,
+     "upvoteRatio": 0.75,
+     "commentCount": 16,
+     "createdAt": "2026-04-10T15:38:09.000Z",
+     "createdUtc": 1775835489,
+     "over18": false,
+     "locked": false,
+     "stickied": false
+    },
+    "page": {
+     "nextCursor": null,
+     "hasMore": false
+    },
+    "comments": [
+     {
+      "id": "ofei3c3",
+      "url": "https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/ofei3c3/",
+      "permalink": "/r/volleyball/comments/1shq2rt/comment/ofei3c3/",
+      "parentId": "t3_1shq2rt",
+      "author": "Juice-cup",
+      "text": "Did everything ourselves. \u00a0Emailed coaches, a couple of targeted camps, paid for a few visits and spent time and money on training.\n\n If you do it yourself, you have to stay disciplined, contact coaches consistently and stay on top of your videos. \u00a0If you can\u2019t do that and you have the money, a service might help you.\n\n IMO, the key is getting the coaches on the phone. \u00a0After that you\u2019ve mostly surpassed what the services can provide. \u00a0From our team last year most of the girls ended up signing (all NCAA divisions) and as far as I know two used a service. \u00a0One used NCSA\n\n but ultimately got connected to a coach via family.\n\n Our club did pay for sportsrecruits\n\n . \u00a0Senior year my kid was getting consistent messages from coaches without us reaching out. \u00a0These were mostly from colleges she wasn\u2019t interested in and she had already signed. \u00a0But just throwing it out there.\n\n Are you boy or girls volleyball\n\n ?",
+      "renderedHtml": "\n      <p>\n      Did everything ourselves. &nbsp;Emailed coaches, a couple of targeted camps, paid for a few visits and spent time and money on training. &nbsp;\n    </p><p>\n      If you do it yourself, you have to stay disciplined, contact coaches consistently and stay on top of your videos. &nbsp;If you can\u2019t do that and you have the money, a service might help you.\n    </p><p>\n      IMO, the key is getting the coaches on the phone. &nbsp;After that you\u2019ve mostly surpassed what the services can provide. &nbsp;From our team last year most of the girls ended up signing (all NCAA divisions) and as far as I know two used a service. &nbsp;One used <search-telemetry-tracker data-faceplate-tracking-context=\"{&quot;action_info&quot;:{&quot;type&quot;:&quot;search&quot;},&quot;comment&quot;:{&quot;id&quot;:&quot;t1_ofei3c3&quot;,&quot;post_id&quot;:&quot;t3_1shq2rt&quot;},&quot;meta_search&quot;:{&quot;display_query&quot;:&quot;NCSA&quot;}}\" view-events=\"post_detail/view/highlight\"><search-telemetry-tracker data-faceplate-tracking-context=\"{&quot;action_info&quot;:{&quot;type&quot;:&quot;pdp_term&quot;},&quot;meta_search&quot;:{&quot;raw_query&quot;:&quot;NCSA recruiting services volleyball&quot;},&quot;search&quot;:{&quot;impression_id&quot;:&quot;e7eaee79-b957-42d6-936b-a7aa2e21954f&quot;,&quot;origin_element&quot;:&quot;pdp_comment_highlighted_search_term&quot;,&quot;query&quot;:&quot;NCSA recruiting services volleyball&quot;,&quot;conversation_id&quot;:&quot;77e5c953-cc44-4972-9579-905a39a8c10f&quot;}}\" click-events=\"search/click/full_search_button\"><a rpl=\"\" class=\"border-[var(--color-a-default)] visited:border-[var(--color-a-visited)] hover:border-[var(--color-a-hover)] hover:visited:border-[var(--color-a-visited)] !no-underline border-dotted border-b-sm border-x-0 border-t-0 p-px a\n  \n  \n  \n  \n  no-underline hover:no-underline\n  \n  cursor-pointer\" href=\"/search/?q=NCSA+recruiting+services+volleyball&amp;cId=77e5c953-cc44-4972-9579-905a39a8c10f&amp;iId=35c7c43f-f1a3-4daa-a0d6-cc3f0a156b5d\">NCSA<span class=\"ms-2xs align-middle\"><svg rpl=\"\" fill=\"currentColor\" height=\"12\" icon-name=\"search\" viewBox=\"0 0 20 20\" width=\"12\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path d=\"m18.736 17.464-3.483-3.483A7.961 7.961 0 0016.999 9 8 8 0 109 17a7.961 7.961 0 004.981-1.746l3.483 3.483a.9.9 0 101.272-1.273ZM9 15.2A6.207 6.207 0 012.8 9c0-3.419 2.781-6.2 6.2-6.2s6.2 2.781 6.2 6.2-2.781 6.2-6.2 6.2Z\"></path>\n    </svg></span></a></search-telemetry-tracker></search-telemetry-tracker> but ultimately got connected to a coach via family.\n    </p><p>\n      Our club did pay for <search-telemetry-tracker data-faceplate-tracking-context=\"{&quot;action_info&quot;:{&quot;type&quot;:&quot;search&quot;},&quot;comment&quot;:{&quot;id&quot;:&quot;t1_ofei3c3&quot;,&quot;post_id&quot;:&quot;t3_1shq2rt&quot;},&quot;meta_search&quot;:{&quot;display_query&quot;:&quot;sportsrecruits&quot;}}\" view-events=\"post_detail/view/highlight\"><search-telemetry-tracker data-faceplate-tracking-context=\"{&quot;action_info&quot;:{&quot;type&quot;:&quot;pdp_term&quot;},&quot;meta_search&quot;:{&quot;raw_query&quot;:&quot;sportsrecruits college volleyball&quot;},&quot;search&quot;:{&quot;impression_id&quot;:&quot;e7eaee79-b957-42d6-936b-a7aa2e21954f&quot;,&quot;origin_element&quot;:&quot;pdp_comment_highlighted_search_term&quot;,&quot;query&quot;:&quot;sportsrecruits college volleyball&quot;,&quot;conversation_id&quot;:&quot;f50d7c52-0a0b-4aeb-9ed8-2b699f1794fd&quot;}}\" click-events=\"search/click/full_search_button\"><a rpl=\"\" class=\"border-[var(--color-a-default)] visited:border-[var(--color-a-visited)] hover:border-[var(--color-a-hover)] hover:visited:border-[var(--color-a-visited)] !no-underline border-dotted border-b-sm border-x-0 border-t-0 p-px a\n  \n  \n  \n  \n  no-underline hover:no-underline\n  \n  cursor-pointer\" href=\"/search/?q=sportsrecruits+college+volleyball&amp;cId=f50d7c52-0a0b-4aeb-9ed8-2b699f1794fd&amp;iId=64513b2b-df48-4785-8151-5e0614677bfe\">sportsrecruits<span class=\"ms-2xs align-middle\"><svg rpl=\"\" fill=\"currentColor\" height=\"12\" icon-name=\"search\" viewBox=\"0 0 20 20\" width=\"12\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path d=\"m18.736 17.464-3.483-3.483A7.961 7.961 0 0016.999 9 8 8 0 109 17a7.961 7.961 0 004.981-1.746l3.483 3.483a.9.9 0 101.272-1.273ZM9 15.2A6.207 6.207 0 012.8 9c0-3.419 2.781-6.2 6.2-6.2s6.2 2.781 6.2 6.2-2.781 6.2-6.2 6.2Z\"></path>\n    </svg></span></a></search-telemetry-tracker></search-telemetry-tracker>. &nbsp;Senior year my kid was getting consistent messages from coaches without us reaching out. &nbsp;These were mostly from colleges she wasn\u2019t interested in and she had already signed. &nbsp;But just throwing it out there. &nbsp;\n    </p><p>\n      Are you boy or <search-telemetry-tracker data-faceplate-tracking-context=\"{&quot;action_info&quot;:{&quot;type&quot;:&quot;search&quot;},&quot;comment&quot;:{&quot;id&quot;:&quot;t1_ofei3c3&quot;,&quot;post_id&quot;:&quot;t3_1shq2rt&quot;},&quot;meta_search&quot;:{&quot;display_query&quot;:&quot;girls volleyball&quot;}}\" view-events=\"post_detail/view/highlight\"><search-telemetry-tracker data-faceplate-tracking-context=\"{&quot;action_info&quot;:{&quot;type&quot;:&quot;pdp_term&quot;},&quot;meta_search&quot;:{&quot;raw_query&quot;:&quot;girls volleyball college recruiting&quot;},&quot;search&quot;:{&quot;impression_id&quot;:&quot;e7eaee79-b957-42d6-936b-a7aa2e21954f&quot;,&quot;origin_element&quot;:&quot;pdp_comment_highlighted_search_term&quot;,&quot;query&quot;:&quot;girls volleyball college recruiting&quot;,&quot;conversation_id&quot;:&quot;60cc0eb1-8508-4d62-9cb4-ba7e48771c47&quot;}}\" click-events=\"search/click/full_search_button\"><a rpl=\"\" class=\"border-[var(--color-a-default)] visited:border-[var(--color-a-visited)] hover:border-[var(--color-a-hover)] hover:visited:border-[var(--color-a-visited)] !no-underline border-dotted border-b-sm border-x-0 border-t-0 p-px a\n  \n  \n  \n  \n  no-underline hover:no-underline\n  \n  cursor-pointer\" href=\"/search/?q=girls+volleyball+college+recruiting&amp;cId=60cc0eb1-8508-4d62-9cb4-ba7e48771c47&amp;iId=ccbd99b9-b863-4fe1-90e2-c1ab7d376551\">girls volleyball<span class=\"ms-2xs align-middle\"><svg rpl=\"\" fill=\"currentColor\" height=\"12\" icon-name=\"search\" viewBox=\"0 0 20 20\" width=\"12\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path d=\"m18.736 17.464-3.483-3.483A7.961 7.961 0 0016.999 9 8 8 0 109 17a7.961 7.961 0 004.981-1.746l3.483 3.483a.9.9 0 101.272-1.273ZM9 15.2A6.207 6.207 0 012.8 9c0-3.419 2.781-6.2 6.2-6.2s6.2 2.781 6.2 6.2-2.781 6.2-6.2 6.2Z\"></path>\n    </svg></span></a></search-telemetry-tracker></search-telemetry-tracker>?\n    </p>\n    ",
+      "score": 6,
+      "upvotes": 6,
+      "createdAt": "2026-04-10T15:53:10.000Z",
+      "createdUtc": 1775836390,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "off96wb",
+      "url": "https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/off96wb/",
+      "permalink": "/r/volleyball/comments/1shq2rt/comment/off96wb/",
+      "parentId": "t3_1shq2rt",
+      "author": "joetrinsey",
+      "text": "I've been on both sides of this: NCAA D1 coach\n\n both women's and men's side and been involved with club for a while. The best thing you can do as a player is to directly email the full coaching staff from your personal email. Short and sweet.\n\n ---------------------------------------\n\n Subject Line: Your Name - Grade Year - Position\n\n Email Body: Hello Coach [X],\n\n My name is [Name], I am a [Height + Position] with a spike touch of X. My grad year is Y. I play club for Coach ABC at Club Whatever. Here is their contact information.\n\n Here is my highlight tape\n\n : [Youtube link]\n\n I want to play volleyball at the next level and would love the chance for you to evaluate my video.\n\n -----------------------------------------\n\n Anything other than that, such as a service like NCSA puts an additional barrier of inconvenience for the coaches because they are slightly less convenient to respond to those messages, forward them between members of the coaching staff, etc. And when you're on a coaching staff and you get an NCSA email you assume you're getting spammed along with 100 other schools. When a kid emails you directly, you know they took the time to do it. (That said, most of the time your video is still going to get clicked regardless of how it gets sent because most staffs watch close to all the videos they get sent and if your video is good enough you'll get a response.)\n\n Nothing wrong with something like NCSA, Sports Recruits, etc. They can sometimes broaden your range of schools that you might not otherwise contact. But not really any benefit. I think sometimes the main benefit is actually that you DO pay for it, so it helps mom and dad say, \"listen, we paid that money, so we better follow through with making a highlight tape.\" Etc.\n\n It was said by another poster: \"Height/size matters and make your first 10-30s of your highlight reel the best.\"\n\n Take a few minutes to edit your video and put your best two swings first because the average length of time most coaches watch a video is about 10-15s. Experienced coaches can tell a lot off just one or two swings because you can see size and physicality which is the baseline for being a recruitable athlete at a school.",
+      "renderedHtml": "\n      <p>\n      I've been on both sides of this: <search-telemetry-tracker data-faceplate-tracking-context=\"{&quot;action_info&quot;:{&quot;type&quot;:&quot;search&quot;},&quot;comment&quot;:{&quot;id&quot;:&quot;t1_off96wb&quot;,&quot;post_id&quot;:&quot;t3_1shq2rt&quot;},&quot;meta_search&quot;:{&quot;display_query&quot;:&quot;NCAA D1 coach&quot;}}\" view-events=\"post_detail/view/highlight\"><search-telemetry-tracker data-faceplate-tracking-context=\"{&quot;action_info&quot;:{&quot;type&quot;:&quot;pdp_term&quot;},&quot;meta_search&quot;:{&quot;raw_query&quot;:&quot;NCAA D1 coach volleyball recruiting&quot;},&quot;search&quot;:{&quot;impression_id&quot;:&quot;e7eaee79-b957-42d6-936b-a7aa2e21954f&quot;,&quot;origin_element&quot;:&quot;pdp_comment_highlighted_search_term&quot;,&quot;query&quot;:&quot;NCAA D1 coach volleyball recruiting&quot;,&quot;conversation_id&quot;:&quot;b46611c8-cd95-41ac-a823-962def4c50c8&quot;}}\" click-events=\"search/click/full_search_button\"><a rpl=\"\" class=\"border-[var(--color-a-default)] visited:border-[var(--color-a-visited)] hover:border-[var(--color-a-hover)] hover:visited:border-[var(--color-a-visited)] !no-underline border-dotted border-b-sm border-x-0 border-t-0 p-px a\n  \n  \n  \n  \n  no-underline hover:no-underline\n  \n  cursor-pointer\" href=\"/search/?q=NCAA+D1+coach+volleyball+recruiting&amp;cId=b46611c8-cd95-41ac-a823-962def4c50c8&amp;iId=bb7e193a-1b1e-442e-9268-67792126f0e3\">NCAA D1 coach<span class=\"ms-2xs align-middle\"><svg rpl=\"\" fill=\"currentColor\" height=\"12\" icon-name=\"search\" viewBox=\"0 0 20 20\" width=\"12\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path d=\"m18.736 17.464-3.483-3.483A7.961 7.961 0 0016.999 9 8 8 0 109 17a7.961 7.961 0 004.981-1.746l3.483 3.483a.9.9 0 101.272-1.273ZM9 15.2A6.207 6.207 0 012.8 9c0-3.419 2.781-6.2 6.2-6.2s6.2 2.781 6.2 6.2-2.781 6.2-6.2 6.2Z\"></path>\n    </svg></span></a></search-telemetry-tracker></search-telemetry-tracker> both women's and men's side and been involved with club for a while. The best thing you can do as a player is to directly email the full coaching staff from your personal email. Short and sweet.\n    </p><p>\n      ---------------------------------------\n    </p><p>\n      Subject Line: Your Name - Grade Year - Position\n    </p><p>\n      Email Body: Hello Coach [X],\n    </p><p>\n      My name is [Name], I am a [Height + Position] with a spike touch of X. My grad year is Y. I play club for Coach ABC at Club Whatever. Here is their contact information.\n    </p><p>\n      Here is my <search-telemetry-tracker data-faceplate-tracking-context=\"{&quot;action_info&quot;:{&quot;type&quot;:&quot;search&quot;},&quot;comment&quot;:{&quot;id&quot;:&quot;t1_off96wb&quot;,&quot;post_id&quot;:&quot;t3_1shq2rt&quot;},&quot;meta_search&quot;:{&quot;display_query&quot;:&quot;highlight tape&quot;}}\" view-events=\"post_detail/view/highlight\"><search-telemetry-tracker data-faceplate-tracking-context=\"{&quot;action_info&quot;:{&quot;type&quot;:&quot;pdp_term&quot;},&quot;meta_search&quot;:{&quot;raw_query&quot;:&quot;volleyball highlight tape recruiting&quot;},&quot;search&quot;:{&quot;impression_id&quot;:&quot;e7eaee79-b957-42d6-936b-a7aa2e21954f&quot;,&quot;origin_element&quot;:&quot;pdp_comment_highlighted_search_term&quot;,&quot;query&quot;:&quot;volleyball highlight tape recruiting&quot;,&quot;conversation_id&quot;:&quot;ebc2dd14-0e94-40db-bb59-4f7ea7983345&quot;}}\" click-events=\"search/click/full_search_button\"><a rpl=\"\" class=\"border-[var(--color-a-default)] visited:border-[var(--color-a-visited)] hover:border-[var(--color-a-hover)] hover:visited:border-[var(--color-a-visited)] !no-underline border-dotted border-b-sm border-x-0 border-t-0 p-px a\n  \n  \n  \n  \n  no-underline hover:no-underline\n  \n  cursor-pointer\" href=\"/search/?q=volleyball+highlight+tape+recruiting&amp;cId=ebc2dd14-0e94-40db-bb59-4f7ea7983345&amp;iId=8f3294e2-34ed-46e2-ba92-5ea8a680ae49\">highlight tape<span class=\"ms-2xs align-middle\"><svg rpl=\"\" fill=\"currentColor\" height=\"12\" icon-name=\"search\" viewBox=\"0 0 20 20\" width=\"12\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path d=\"m18.736 17.464-3.483-3.483A7.961 7.961 0 0016.999 9 8 8 0 109 17a7.961 7.961 0 004.981-1.746l3.483 3.483a.9.9 0 101.272-1.273ZM9 15.2A6.207 6.207 0 012.8 9c0-3.419 2.781-6.2 6.2-6.2s6.2 2.781 6.2 6.2-2.781 6.2-6.2 6.2Z\"></path>\n    </svg></span></a></search-telemetry-tracker></search-telemetry-tracker>: [Youtube link]\n    </p><p>\n      I want to play volleyball at the next level and would love the chance for you to evaluate my video.\n    </p><p>\n      -----------------------------------------\n    </p><p>\n      Anything other than that, such as a service like NCSA puts an additional barrier of inconvenience for the coaches because they are slightly less convenient to respond to those messages, forward them between members of the coaching staff, etc. And when you're on a coaching staff and you get an NCSA email you assume you're getting spammed along with 100 other schools. When a kid emails you directly, you know they took the time to do it. (That said, most of the time your video is still going to get clicked regardless of how it gets sent because most staffs watch close to all the videos they get sent and if your video is good enough you'll get a response.)\n    </p><p>\n      Nothing wrong with something like NCSA, Sports Recruits, etc. They can sometimes broaden your range of schools that you might not otherwise contact. But not really any benefit. I think sometimes the main benefit is actually that you DO pay for it, so it helps mom and dad say, \"listen, we paid that money, so we better follow through with making a highlight tape.\" Etc.\n    </p><p>\n      It was said by another poster: \"Height/size matters and make your first 10-30s of your highlight reel the best.\"\n    </p><p>\n      Take a few minutes to edit your video and put your best two swings first because the average length of time most coaches watch a video is about 10-15s. Experienced coaches can tell a lot off just one or two swings because you can see size and physicality which is the baseline for being a recruitable athlete at a school.\n    </p>\n    ",
+      "score": 6,
+      "upvotes": 6,
+      "createdAt": "2026-04-10T17:53:03.000Z",
+      "createdUtc": 1775843583,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "offdkiu",
+         "url": "https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/offdkiu/",
+         "permalink": "/r/volleyball/comments/1shq2rt/comment/offdkiu/",
+         "parentId": "t1_off96wb",
+         "author": "Juice-cup",
+         "text": "To add to height/size matters but also GPA is just as important for some schools. \u00a0If you are looking at a top tier high academic D3 I\u2019d add:\n\n Subject: \u00a0Lisa Jones // 5\u201911\u201d Setter // 2026 // 4.5 GPA.\n\n Also on average video length (basically Joe is correct!), from a parent view. \u00a0We started with 3 minute videos and saw on YouTube that the average view time was 40 seconds. \u00a0We trimmed to 1:00-1:15 after that.",
+         "renderedHtml": "\n      <p>\n      To add to height/size matters but also GPA is just as important for some schools. &nbsp;If you are looking at a top tier high academic D3 I\u2019d add:\n    </p><p>\n      Subject: &nbsp;Lisa Jones // 5\u201911\u201d Setter // 2026 // 4.5 GPA. &nbsp;\n    </p><p>\n      Also on average video length (basically Joe is correct!), from a parent view. &nbsp;We started with 3 minute videos and saw on YouTube that the average view time was 40 seconds. &nbsp;We trimmed to 1:00-1:15 after that. &nbsp;\n    </p>\n    ",
+         "score": 4,
+         "upvotes": 4,
+         "createdAt": "2026-04-10T18:12:33.000Z",
+         "createdUtc": 1775844753,
+         "depth": 0,
+         "isSubmitter": false,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": null,
+           "hasMore": false
+          }
+         }
+        },
+        {
+         "id": "ofgrov7",
+         "url": "https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/ofgrov7/",
+         "permalink": "/r/volleyball/comments/1shq2rt/comment/ofgrov7/",
+         "parentId": "t1_off96wb",
+         "author": "Nickilaughs",
+         "text": "Thank you so much this was incredibly helpful. To expand on OP. What age would my kid want to start sending emails? He's currently a 15 yr old sophomore. I figured coaches would want to see junior year highlights.",
+         "renderedHtml": "\n      <p>\n      Thank you so much this was incredibly helpful.  To expand on OP.  What age would my kid want to start sending emails?  He's currently a 15 yr old sophomore.  I figured coaches would want to see junior year highlights.\n    </p>\n    ",
+         "score": 2,
+         "upvotes": 2,
+         "createdAt": "2026-04-10T22:11:06.000Z",
+         "createdUtc": 1775859066,
+         "depth": 0,
+         "isSubmitter": false,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": null,
+           "hasMore": false
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "off96wb",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "ofes7ud",
+      "url": "https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/ofes7ud/",
+      "permalink": "/r/volleyball/comments/1shq2rt/comment/ofes7ud/",
+      "parentId": "t3_1shq2rt",
+      "author": "kramig_stan_account",
+      "text": "I do not think it\u2019s worth it to pay for recruiting services if you\u2019re willing to do the work yourself. You can cut together a highlights video in an afternoon, you can write an email template that you modify to send to coaches. Save the money you\u2019d spend on it and visit more schools / attend more camps, IMO.",
+      "renderedHtml": "\n      <p>\n      I do not think it\u2019s worth it to pay for recruiting services if you\u2019re willing to do the work yourself. You can cut together a highlights video in an afternoon, you can write an email template that you modify to send to coaches. Save the money you\u2019d spend on it and visit more schools / attend more camps, IMO.\n    </p>\n    ",
+      "score": 4,
+      "upvotes": 4,
+      "createdAt": "2026-04-10T16:38:43.000Z",
+      "createdUtc": 1775839123,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "off2ru9",
+      "url": "https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/off2ru9/",
+      "permalink": "/r/volleyball/comments/1shq2rt/comment/off2ru9/",
+      "parentId": "t3_1shq2rt",
+      "author": "DadwithTwoDaughters",
+      "text": "Largest waste of dollars ever spent. Pros Platform looks great Makes finding schools you wouldn\u2019t think about easily available Has coaches emails\n\n Cons While the platform makes it easy to find and email coaches. Not one replied from the platform but did from a personal email. All information is available online and LLMs do a decent job scraping together the information.\n\n If I had to do it again, I would take my kid on a solid vacation instead.",
+      "renderedHtml": "\n      <p>\n      Largest waste of dollars ever spent. Pros Platform looks great Makes finding schools you wouldn\u2019t think about easily available Has coaches emails\n    </p><p>\n      Cons While the platform makes it easy to find and email coaches. Not one replied from the platform but did from a personal email. All information is available online and LLMs do a decent job scraping together the information.\n    </p><p>\n      If I had to do it again, I would take my kid on a solid vacation instead.\n    </p>\n    ",
+      "score": 3,
+      "upvotes": 3,
+      "createdAt": "2026-04-10T17:25:15.000Z",
+      "createdUtc": 1775841915,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "off5afs",
+      "url": "https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/off5afs/",
+      "permalink": "/r/volleyball/comments/1shq2rt/comment/off5afs/",
+      "parentId": "t3_1shq2rt",
+      "author": "JoshuaAncaster",
+      "text": "Not, it\u2019s important to do your own research into which academic programs you\u2019re interested in and contact the coaches recruiting admin with an email letter of intent. There are around 8 other steps they\u2019ll outline if they reach out to you.\n\n You must first meet the school\u2019s entry requirements GPA etc. There is a giant volume of prospects they have to go through and a recruiting company doesn\u2019t get you higher in the coaches\u2019 lists.\n\n Height/size matters and make your first 10-30s of your highlight reel the best. There are Facebook posts and other places with free info/tips what you\u2019d be paying for at NCSA. I think they and others continually spam you if you contact them. Our club often has commits, 11/12 18U\u2019s this year, none of them use recruiting services.",
+      "renderedHtml": "\n      <p>\n      Not, it\u2019s important to do your own research into which academic programs you\u2019re interested in and contact the coaches recruiting admin with an email letter of intent. There are around 8 other steps they\u2019ll outline if they reach out to you.\n    </p><p>\n      You must first meet the school\u2019s entry requirements GPA etc. There is a giant volume of prospects they have to go through and a recruiting company doesn\u2019t get you higher in the coaches\u2019 lists.\n    </p><p>\n      Height/size matters and make your first 10-30s of your highlight reel the best. There are Facebook posts and other places with free info/tips what you\u2019d be paying for at NCSA. I think they and others continually spam you if you contact them. Our club often has commits, 11/12 18U\u2019s this year, none of them use recruiting services.\n    </p>\n    ",
+      "score": 2,
+      "upvotes": 2,
+      "createdAt": "2026-04-10T17:36:11.000Z",
+      "createdUtc": 1775842571,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "off69nv",
+      "url": "https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/off69nv/",
+      "permalink": "/r/volleyball/comments/1shq2rt/comment/off69nv/",
+      "parentId": "t3_1shq2rt",
+      "author": "CollegeSportsSheets",
+      "text": "People are pretty divided on it. Some find value and others say its a waste of time and money and did nothing for them. My recommendation is to search this group for \u201cNCSA\u201d or do \u201creviews NCSA\u201d on google or in Reddit. This will pull up numerous first hand accounts from other parents across all sports and give you the info you need. Overall general consensus is that its not worth the money, and all the recruiting work they do, you and your athlete can do yourself. Lastly usually coaches want to deal directly with the athletes and not a third party service, that just adds friction to the process. So use the free resources that they have because there is some good info, but be leery of paying.\n\n Check out these others posts in this sub that break down the college volleyball recruiting process\n\n https://www.reddit.com/r/volleyball/comments/1ddw1h5/rough_guide_to_playing_volleyball_at_college_how/\n\n https://www.reddit.com/r/volleyball/comments/1kgn78e/what_to_expect_on_june_15th_as_a_volleyball_player/\n\n I would start the process yourself and see if you start getting traction. Research programs that would be good matches for your volleyball skills, academically, sociallly, environmentally and financially. Then start your outreach.\n\n If you do decide to go with NCSA, negotiate the price, they will drop it. And if you decide not to move forward with them be direct and let them know not to contact you, because they will be relentless in follow-up.",
+      "renderedHtml": "\n      <p>\n      People are pretty divided on it. Some find value and others say its a waste of time and money and did nothing for them. My recommendation is to search this group for \u201cNCSA\u201d or do \u201creviews NCSA\u201d on google or in Reddit. This will pull up numerous first hand accounts from other parents across all sports and give you the info you need. Overall general consensus is that its not worth the money, and all the recruiting work they do, you and your athlete can do yourself. Lastly usually coaches want to deal directly with the athletes and not a third party service, that just adds friction to the process. So use the free resources that they have because there is some good info, but be leery of paying.\n    </p><p>\n      Check out these others posts in this sub that break down the college volleyball recruiting process\n    </p><p>\n      <a rpl=\"\" class=\"relative pointer-events-auto a\n  \n  \n  \n  \n  underline\n  \n  cursor-pointer\" href=\"https://www.reddit.com/r/volleyball/comments/1ddw1h5/rough_guide_to_playing_volleyball_at_college_how/\" rel=\"noopener nofollow ugc\" target=\"_blank\">https://www.reddit.com/r/volleyball/comments/1ddw1h5/rough_guide_to_playing_volleyball_at_college_how/</a>\n    </p><p>\n      <a rpl=\"\" class=\"relative pointer-events-auto a\n  \n  \n  \n  \n  underline\n  \n  cursor-pointer\" href=\"https://www.reddit.com/r/volleyball/comments/1kgn78e/what_to_expect_on_june_15th_as_a_volleyball_player/\" rel=\"noopener nofollow ugc\" target=\"_blank\">https://www.reddit.com/r/volleyball/comments/1kgn78e/what_to_expect_on_june_15th_as_a_volleyball_player/</a>\n    </p><p>\n      I would start the process yourself and see if you start getting traction. Research programs that would be good matches for your volleyball skills, academically, sociallly, environmentally and financially. Then start your outreach.\n    </p><p>\n      If you do decide to go with NCSA, negotiate the price, they will drop it. And if you decide not to move forward with them be direct and let them know not to contact you, because they will be relentless in follow-up.\n    </p>\n    ",
+      "score": 2,
+      "upvotes": 2,
+      "createdAt": "2026-04-10T17:40:23.000Z",
+      "createdUtc": 1775842823,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "ofg3g0p",
+      "url": "https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/ofg3g0p/",
+      "permalink": "/r/volleyball/comments/1shq2rt/comment/ofg3g0p/",
+      "parentId": "t3_1shq2rt",
+      "author": "vbsteez",
+      "text": "Do you play club? can any of your coaches advise you in this process?\n\n if you're a guy, i can probably help you navigate the collegiate MVB scene and help you figure out a realistic level for you to play at. I played college, have been a college assistant coach, have coached club in a few parts of the country, and have friends who are college head coaches.",
+      "renderedHtml": "\n      <p>\n      Do you play club? can any of your coaches advise you in this process?\n    </p><p>\n      if you're a guy, i can probably help you navigate the collegiate MVB scene and help you figure out a realistic level for you to play at. I played college, have been a college assistant coach, have coached club in a few parts of the country, and have friends who are college head coaches.\n    </p>\n    ",
+      "score": 2,
+      "upvotes": 2,
+      "createdAt": "2026-04-10T20:12:25.000Z",
+      "createdUtc": 1775851945,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "ofgs1o6",
+         "url": "https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/ofgs1o6/",
+         "permalink": "/r/volleyball/comments/1shq2rt/comment/ofgs1o6/",
+         "parentId": "t1_ofg3g0p",
+         "author": "Nickilaughs",
+         "text": "Can I save your info for my son when he's closer to actively pursuing college options? Ty!",
+         "renderedHtml": "\n      <p>\n      Can I save your info for my son when he's closer to actively pursuing college options?  Ty!\n    </p>\n    ",
+         "score": 1,
+         "upvotes": 1,
+         "createdAt": "2026-04-10T22:13:02.000Z",
+         "createdUtc": 1775859182,
+         "depth": 0,
+         "isSubmitter": false,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [
+           {
+            "id": "ofh8nby",
+            "url": "https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/ofh8nby/",
+            "permalink": "/r/volleyball/comments/1shq2rt/comment/ofh8nby/",
+            "parentId": "t1_ofgs1o6",
+            "author": "vbsteez",
+            "text": "happy to help.",
+            "renderedHtml": "\n      <p>\n      happy to help.\n    </p>\n    ",
+            "score": 2,
+            "upvotes": 2,
+            "createdAt": "2026-04-10T23:44:57.000Z",
+            "createdUtc": 1775864697,
+            "depth": 0,
+            "isSubmitter": false,
+            "stickied": false,
+            "locked": false,
+            "distinguished": null,
+            "replies": {
+             "items": [],
+             "page": {
+              "nextCursor": null,
+              "hasMore": false
+             }
+            }
+           }
+          ],
+          "page": {
+           "nextCursor": "ofgs1o6",
+           "hasMore": true
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "ofgs1o6",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "ofkpmz6",
+      "url": "https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/ofkpmz6/",
+      "permalink": "/r/volleyball/comments/1shq2rt/comment/ofkpmz6/",
+      "parentId": "t3_1shq2rt",
+      "author": "volleballers-dot-com",
+      "text": "Shameless plug - check out my platform https://volleyballers.com - for practically no significant cost (this is my hobby, not really a business, I started it to track my daughter's career more so that anything else, specifically see https://volleyballers.com/user-guide/recruiting ). You also get a website and custom URL for you to keep forever once your amazing career comes to an end :)",
+      "renderedHtml": "\n      <p>\n      Shameless plug - check out my platform <a rpl=\"\" class=\"relative pointer-events-auto a\n  \n  \n  \n  \n  underline\n  \n  cursor-pointer\" href=\"https://volleyballers.com\" rel=\"noopener nofollow ugc\" target=\"_blank\">https://volleyballers.com</a> - for practically no significant cost (this is my hobby, not really a business, I started it to track my daughter's career more so that anything else, specifically see <a rpl=\"\" class=\"relative pointer-events-auto a\n  \n  \n  \n  \n  underline\n  \n  cursor-pointer\" href=\"https://volleyballers.com/user-guide/recruiting\" rel=\"noopener nofollow ugc\" target=\"_blank\">https://volleyballers.com/user-guide/recruiting</a> ). You also get a website and custom URL for you to keep forever once your amazing career comes to an end :)\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2026-04-11T14:24:55.000Z",
+      "createdUtc": 1775917495,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "otzqb0h",
+      "url": "https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/otzqb0h/",
+      "permalink": "/r/volleyball/comments/1shq2rt/comment/otzqb0h/",
+      "parentId": "t3_1shq2rt",
+      "author": "Various-Connection-8",
+      "text": "Use NHR Prospects, they are way better than NCSA, they actually do most of your recruiting for you, highly recommend",
+      "renderedHtml": "\n      <p>\n      Use NHR Prospects, they are way better than NCSA, they actually do most of your recruiting for you, highly recommend\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2026-06-26T19:31:38.000Z",
+      "createdUtc": 1782502298,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "ozit52q",
+      "url": "https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/ozit52q/",
+      "permalink": "/r/volleyball/comments/1shq2rt/comment/ozit52q/",
+      "parentId": "t3_1shq2rt",
+      "author": "Stunning_Factor9052",
+      "text": "It\u2019s a money grab. All they do is send you webinar links. The coach that was assigned to us was inconsistent and seemed uninterested. All the things they direct you to do , you can do it your self without paying thousands of dollars. Which is emailing coaches at different schools. I regret signing up and would never do it again",
+      "renderedHtml": "\n      <p>\n      It\u2019s a money grab. All they do is send you webinar links.  The coach that was assigned to us was inconsistent and seemed uninterested.   All the things they direct you to do , you can do it your self without paying thousands of dollars.  Which is emailing coaches at different schools.   I regret signing up  and would never do it again\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2026-07-24T17:11:38.000Z",
+      "createdUtc": 1784913098,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "pa6cggr",
+      "url": "https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/pa6cggr/",
+      "permalink": "/r/volleyball/comments/1shq2rt/comment/pa6cggr/",
+      "parentId": "t3_1shq2rt",
+      "author": "LogicalHomework5410",
+      "text": "University Athlete is a free volleyball specific recruiting tool that almost all college programs actually use. I know of a ton of clubs that set up accounts for their kids, but it's also available for a family to sign up for.\n\n It connects to the tournaments that teams play in, sends the schedules to them so they can find the right courts where athletes are playing and evaluate them. All of that information lives in University Athlete and if an athlete is not on UA, then the college coach cant find them or evaluate them!",
+      "renderedHtml": "\n      <p>\n      University Athlete is a free volleyball specific recruiting tool that almost all college programs actually use. I know of a ton of clubs that set up accounts for their kids, but it's also available for a family to sign up for.\n    </p><p>\n      It connects to the tournaments that teams play in, sends the schedules to them so they can find the right courts where athletes are playing and evaluate them. All of that information lives in University Athlete and if an athlete is not on UA, then the college coach cant find them or evaluate them!\n    </p>\n    ",
+      "score": 0,
+      "upvotes": 0,
+      "createdAt": "2026-09-16T15:02:56.000Z",
+      "createdUtc": 1789570976,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     }
+    ]
+   },
+   "meta": {
+    "requestId": "req_96e7bf76-5f7e-4c1b-942a-c665350abef6",
+    "creditsCharged": 1,
+    "version": "v1"
    },
    "card": {
-    "kind": "status",
-    "status": "error",
-    "title": "Lookup failed",
-    "subtitle": "Unknown field `postId`. This tool takes: `url`, `cursor`, `trim`."
+    "kind": "search",
+    "title": "Reddit comments",
+    "subtitle": "11 results",
+    "resultCount": 11,
+    "items": [
+     {
+      "title": "Did everything ourselves. Emailed coaches, a couple of targeted camps, paid for a few visits and spent time and money on training. If you do it yourself, you\u2026",
+      "subtitle": "@Juice-cup \u00b7 6 points",
+      "href": "https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/ofei3c3/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "I've been on both sides of this: NCAA D1 coach both women's and men's side and been involved with club for a while. The best thing you can do as a player is\u2026",
+      "subtitle": "@joetrinsey \u00b7 6 points",
+      "href": "https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/off96wb/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "I do not think it\u2019s worth it to pay for recruiting services if you\u2019re willing to do the work yourself. You can cut together a highlights video in an\u2026",
+      "subtitle": "@kramig_stan_account \u00b7 4 points",
+      "href": "https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/ofes7ud/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Largest waste of dollars ever spent. Pros Platform looks great Makes finding schools you wouldn\u2019t think about easily available Has coaches emails Cons While\u2026",
+      "subtitle": "@DadwithTwoDaughters \u00b7 3 points",
+      "href": "https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/off2ru9/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Not, it\u2019s important to do your own research into which academic programs you\u2019re interested in and contact the coaches recruiting admin with an email letter of\u2026",
+      "subtitle": "@JoshuaAncaster \u00b7 2 points",
+      "href": "https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/off5afs/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "People are pretty divided on it. Some find value and others say its a waste of time and money and did nothing for them. My recommendation is to search this\u2026",
+      "subtitle": "@CollegeSportsSheets \u00b7 2 points",
+      "href": "https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/off69nv/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Do you play club? can any of your coaches advise you in this process? if you're a guy, i can probably help you navigate the collegiate MVB scene and help you\u2026",
+      "subtitle": "@vbsteez \u00b7 2 points",
+      "href": "https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/ofg3g0p/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Shameless plug - check out my platform https://volleyballers.com - for practically no significant cost (this is my hobby, not really a business, I started it\u2026",
+      "subtitle": "@volleballers-dot-com \u00b7 1 point",
+      "href": "https://www.reddit.com/r/volleyball/comments/1shq2rt/comment/ofkpmz6/",
+      "platform": "Reddit"
+     }
+    ]
    }
-  },
-  "isError": true
+  }
  },
  "jsonrpc": "2.0",
  "id": 1
