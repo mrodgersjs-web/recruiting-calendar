@@ -33,7 +33,7 @@ for a in A:
     media=f'<figure class="st-fig st-vid"><video src="{a["video"]}" poster="{a["poster"]}" muted playsinline loop preload="none" aria-label="Kinetic typography about {e(a["name"])}. No likeness."></video><figcaption>Typography only. No image of {e(a["name"])} is shown or generated.</figcaption></figure>'
     tl=''.join(f'<li class="ev"><span class="evdate">{e(t["date"])}</span>{e(t["fact"])} <a href="{e(t["url"])}" rel="noopener">source</a></li>' for t in a['timeline'])
     kick='Real athlete · every fact linked to a public source'
-    kick+='</p><p class="note st-disc">'+e(f"Public facts only, sourced below. {a['name']} is not affiliated with, has not endorsed, and was not paid by The Recruiting Calendar. {a['college']} and the NCAA/NAIA/NJCAA are not affiliated with us.")
+    kick+='</p><p class="note st-disc">'+e(f"Public facts only, sourced below. {a['name']} is not affiliated with, has not endorsed, and was not paid by The Commit Book. {a['college']} and the NCAA/NAIA/NJCAA are not affiliated with us.")
   body=f'''<main class="story"><div class="st-progress"></div>
 <section class="beat b1"><div class="pin"><p class="lab">{e(a["sport"])} · {e(a["div"])}</p><h1 class="hero">{e(a["short"])}</h1>{'' if a['composite'] else f'<p class="note st-disc">Not affiliated with or endorsed by {e(a["name"])} or {e(a["college"])}. Facts from public sources.</p>'}<p class="st-route">{e(a["from"])} <span>→</span> {e(a["college"])}</p><p class="lab st-k">{kick}</p></div></section>
 <section class="beat b2"><div class="pin st-split"><div class="st-copy"><p class="lab">01 / The path</p><h2 class="d1">{e(a["path"])}</h2>{''.join(f'<p class="turn">{e(t)}</p>' for t in a["turning"])}</div><div class="st3d">{media}</div></div></section>
@@ -43,13 +43,13 @@ for a in A:
 <p><a class="btn btn--primary btn--l" {'data-notify' if P[pb[0]]['notify'] else 'data-checkout'}="{pb[0]}" data-offer="{pb[0]}" href="/playbooks/{pb[0]}">{'Notify me' if P[pb[0]]['notify'] else 'Get the playbook'}</a> <a class="btn btn--outline" href="/">Keep reading stories</a></p><p class="note">One-time price. No calls, no sales team, nobody contacts your kid. 30-day full refund. Checkout runs in test mode until payments go live.</p>
 <details class="st-src"><summary>Sources ({len(a["timeline"]) or len(a["basis"])})</summary><ul>{src_list(a)}</ul></details></section></main>'''
   hold='<meta name="robots" content="noindex">' if a['hold'] else ''
-  w(f'story/{a["id"]}/index.html',page(f'/stories/{a["id"]}/',f'{a["short"]}: {a["path"]} | The Recruiting Calendar',f'How {a["short"]} got from {a["from"]} to {a["college"]} ({a["div"]} {a["sport"]}). Sourced facts and the playbook behind it.',body,hold,'<script src="/assets/story.js" defer></script>','story-page'+(' is-held' if a['hold'] else '')))
+  w(f'story/{a["id"]}/index.html',page(f'/stories/{a["id"]}/',f'{a["short"]}: {a["path"]} | The Commit Book',f'How {a["short"]} got from {a["from"]} to {a["college"]} ({a["div"]} {a["sport"]}). Sourced facts and the playbook behind it.',body,hold,'<script src="/assets/story.js" defer></script>','story-page'+(' is-held' if a['hold'] else '')))
 # PLAYBOOKS
 def card(s,p):
   return f'<a class="pb-card" href="/playbooks/{s}"><span class="pb-thumb"><b>{e(p["title"].split(":")[0])}</b><i>{p["pages"]} pages · {e(p["format"])}</i></span><span class="lab">{e(p["who"].split(",")[0])}</span><span class="pb-t">{e(p["title"])}</span><span class="pb-s">{e(p["outcome"][:110])}{"…" if len(p["outcome"])>110 else ""}</span><span class="pb-p">${p["price"]}</span></a>'
 grid=''.join(card(s,p) for s,p in P.items())
 bund=''.join(f'<li><b>{e(b["title"])}</b> <span>${b.get("price_usd",b.get("price_usd_per_year"))}{"/yr" if "price_usd_per_year" in b else ""}</span></li>' for b in D['bundles'])
-w('playbooks/index.html',page('/playbooks/','Recruiting playbooks by sport and path | The Recruiting Calendar','Dated, sourced recruiting playbooks: football, baseball, track, walk-on, JUCO, D3, offers and signing. One-time prices.',
+w('playbooks/index.html',page('/playbooks/','Recruiting playbooks by sport and path | The Commit Book','Dated, sourced recruiting playbooks: football, baseball, track, walk-on, JUCO, D3, offers and signing. One-time prices.',
  f'<main class="cb-page"><p class="lab">Playbooks</p><h1 class="d1">Run recruiting yourself. With the rules in hand.</h1><p class="lede">Playbooks for the athlete to run, with parents in support. Every rule cites its bylaw.</p><div class="pb-grid">{grid}</div><section class="pb-bund"><h2 class="d2">Bundles</h2><ul>{bund}</ul><p class="note">Prices proposed for launch. Checkout runs in test mode until payments go live. 30-day full refund.</p></section></main>'))
 def NOTIFY(s): return f'<p class="note">Some rules in this playbook are still being verified against the manual. Leave your email and we will tell you when it is ready.</p><form class="capture" data-src="notify-{s}" novalidate><input type="email" name="email" required placeholder="Your email" aria-label="Your email" autocomplete="email"><input type="hidden" name="plan" value="giveaway"><input type="hidden" name="source" value="notify-{s}"><input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true"><button class="btn btn--primary" type="submit">Notify me</button><label class="consent"><input type="checkbox" name="consent" value="1"> Email me when this playbook is ready. Unsubscribe any time.</label></form><p class="note f5">For parents and guardians. We do not knowingly collect information from children under 13.</p>'
 for s,p in P.items():
@@ -59,7 +59,7 @@ for s,p in P.items():
 <p class="note">No calls, no sales team. 30-day full refund. Checkout runs in test mode until payments go live; if this playbook's file is not ready, checkout says so and you can leave your email instead.</p>
 <details open><summary>What's inside</summary><ol>{''.join(f"<li>{e(t)}</li>" for t in p["toc"])}</ol></details><details><summary>Tools included</summary><ul>{''.join(f"<li>{e(t)}</li>" for t in p["tools"])}</ul></details>
 {f'<details><summary>Stories that use it</summary><ul>{"".join(f"<li><a href=/story/{a['id']}>{e(a['short'])}</a> · {e(a['sport'])} · {e(a['div'])}</li>" for a in stories)}</ul></details>' if stories else ''}</div></div></main>'''
-  w(f'playbooks/{s}/index.html',page(f'/playbooks/{s}/',f'{p["title"]} | The Recruiting Calendar',p['outcome'],body))
+  w(f'playbooks/{s}/index.html',page(f'/playbooks/{s}/',f'{p["title"]} | The Commit Book',p['outcome'],body))
 # RESKIN v2 pages
 for f in glob.glob(SITE+'/**/index.html',recursive=True):
   rel=os.path.relpath(f,SITE)

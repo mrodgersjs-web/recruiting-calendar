@@ -1,0 +1,213 @@
+{
+ "rule": "BRIEF-V3 rule 2: no generated likeness of any real person; every image is a fictional composite or environment, display with 'Illustration' tag top-left.",
+ "images": [
+  {
+   "file": [
+    "cut-football-640.webp",
+    "cut-football-1080.webp"
+   ],
+   "subject": "a muscular Black male college football player age 21 in helmet held under arm, shoulder pads, plain white and black uniform",
+   "kind": "composite",
+   "label": "Illustration",
+   "real_person": false,
+   "transparent": true,
+   "aspect": "9:16",
+   "prompt": "Full-body photo of a muscular Black male college football player age 21 in helmet held under arm, shoulder pads, plain white and black uniform, standing confident heroic pose, entire body visible from head to feet, feet near the bottom edge, vertical 9:16 framing, isolated on a perfectly flat solid pure chroma green (#00FF00) background with no shadows or floor. Fictional composite person, not any real individual. Nike-campaign editorial lighting, hard rim light, matte natural colour grade. Footwear: plain solid black cleats with no markings. Absolutely no brand marks, swooshes, stripes, logos or symbols on shoes, clothing or equipment. Plain generic uniform with no logos, no text, no numbers, no trademarks."
+  },
+  {
+   "file": [
+    "cut-baseball-640.webp",
+    "cut-baseball-1080.webp"
+   ],
+   "subject": "a lean Latino male college baseball player age 20 with bat on shoulder, plain grey uniform and cap",
+   "kind": "composite",
+   "label": "Illustration",
+   "real_person": false,
+   "transparent": true,
+   "aspect": "9:16",
+   "prompt": "Full-body photo of a lean Latino male college baseball player age 20 with bat on shoulder, plain grey uniform and cap, standing confident heroic pose, entire body visible from head to feet, feet near the bottom edge, vertical 9:16 framing, isolated on a perfectly flat solid pure chroma green (#00FF00) background with no shadows or floor. Fictional composite person, not any real individual. Nike-campaign editorial lighting, hard rim light, matte natural colour grade. Footwear: plain solid black baseball cleats with no markings. Absolutely no brand marks, swooshes, stripes, logos or symbols on shoes, clothing, bat or equipment. Plain generic uniform with no logos, no text, no numbers, no trademarks."
+  },
+  {
+   "file": [
+    "cut-softball-640.webp",
+    "cut-softball-1080.webp"
+   ],
+   "subject": "a strong white female college softball player age 20 with glove, plain navy uniform, visor",
+   "kind": "composite",
+   "label": "Illustration",
+   "real_person": false,
+   "transparent": true,
+   "aspect": "9:16",
+   "prompt": "Full-body photo of a strong white female college softball player age 20 with glove, plain navy uniform, visor, standing confident heroic pose, entire body visible from head to feet, feet near the bottom edge, vertical 9:16 framing, isolated on a perfectly flat solid pure chroma green (#00FF00) background with no shadows or floor. Fictional composite person, not any real individual. Nike-campaign editorial lighting, hard rim light, matte natural colour grade. Plain generic uniform with no logos, no text, no numbers, no trademarks."
+  },
+  {
+   "file": [
+    "cut-wbasketball-640.webp",
+    "cut-wbasketball-1080.webp"
+   ],
+   "subject": "a tall East Asian female college basketball player age 21 holding a basketball, plain black jersey and shorts",
+   "kind": "composite",
+   "label": "Illustration",
+   "real_person": false,
+   "transparent": true,
+   "aspect": "9:16",
+   "prompt": "Full-body photo of a tall East Asian female college basketball player age 21 holding a basketball, plain black jersey and shorts, standing confident heroic pose, entire body visible from head to feet, feet near the bottom edge, vertical 9:16 framing, isolated on a perfectly flat solid pure chroma green (#00FF00) background with no shadows or floor. Fictional composite person, not any real individual. Nike-campaign editorial lighting, hard rim light, matte natural colour grade. Plain generic uniform with no logos, no text, no numbers, no trademarks."
+  },
+  {
+   "file": [
+    "cut-wrestling-640.webp",
+    "cut-wrestling-1080.webp"
+   ],
+   "subject": "a stocky South Asian male college wrestler age 21 in a plain dark red singlet and wrestling shoes, ready stance",
+   "kind": "composite",
+   "label": "Illustration",
+   "real_person": false,
+   "transparent": true,
+   "aspect": "9:16",
+   "prompt": "Full-body photo of a stocky South Asian male college wrestler age 21 in a plain dark red singlet and wrestling shoes, ready stance, standing confident heroic pose, entire body visible from head to feet, feet near the bottom edge, vertical 9:16 framing, isolated on a perfectly flat solid pure chroma green (#00FF00) background with no shadows or floor. Fictional composite person, not any real individual. Nike-campaign editorial lighting, hard rim light, matte natural colour grade. Footwear: plain solid black wrestling shoes with no markings. Absolutely no brand marks, swooshes, stripes, logos or symbols on shoes, clothing or equipment. Plain generic uniform with no logos, no text, no numbers, no trademarks."
+  },
+  {
+   "file": [
+    "cut-volleyball-640.webp",
+    "cut-volleyball-1080.webp"
+   ],
+   "subject": "a tall Black female college volleyball player age 20 with volleyball, plain white jersey, knee pads",
+   "kind": "composite",
+   "label": "Illustration",
+   "real_person": false,
+   "transparent": true,
+   "aspect": "9:16",
+   "prompt": "Full-body photo of a tall Black female college volleyball player age 20 with volleyball, plain white jersey, knee pads, standing confident heroic pose, entire body visible from head to feet, feet near the bottom edge, vertical 9:16 framing, isolated on a perfectly flat solid pure chroma green (#00FF00) background with no shadows or floor. Fictional composite person, not any real individual. Nike-campaign editorial lighting, hard rim light, matte natural colour grade. Plain generic uniform with no logos, no text, no numbers, no trademarks."
+  },
+  {
+   "file": [
+    "cut-sprinter-640.webp",
+    "cut-sprinter-1080.webp"
+   ],
+   "subject": "a muscular mixed-race male college track sprinter age 22 in plain black racing kit and spikes",
+   "kind": "composite",
+   "label": "Illustration",
+   "real_person": false,
+   "transparent": true,
+   "aspect": "9:16",
+   "prompt": "Full-body photo of a muscular mixed-race male college track sprinter age 22 in plain black racing kit and spikes, standing confident heroic pose, entire body visible from head to feet, feet near the bottom edge, vertical 9:16 framing, isolated on a perfectly flat solid pure chroma green (#00FF00) background with no shadows or floor. Fictional composite person, not any real individual. Nike-campaign editorial lighting, hard rim light, matte natural colour grade. Footwear: plain solid black track spikes with no markings. Absolutely no brand marks, swooshes, stripes, logos or symbols on shoes, clothing or equipment. Plain generic uniform with no logos, no text, no numbers, no trademarks."
+  },
+  {
+   "file": [
+    "cut-swimmer-640.webp",
+    "cut-swimmer-1080.webp"
+   ],
+   "subject": "a broad-shouldered Pacific Islander female college swimmer age 20 in plain black competition swimsuit, cap and goggles in hand, barefoot",
+   "kind": "composite",
+   "label": "Illustration",
+   "real_person": false,
+   "transparent": true,
+   "aspect": "9:16",
+   "prompt": "Full-body photo of a broad-shouldered Pacific Islander female college swimmer age 20 in plain black competition swimsuit, cap and goggles in hand, barefoot, standing confident heroic pose, entire body visible from head to feet, feet near the bottom edge, vertical 9:16 framing, isolated on a perfectly flat solid pure chroma green (#00FF00) background with no shadows or floor. Fictional composite person, not any real individual. Nike-campaign editorial lighting, hard rim light, matte natural colour grade. Plain generic uniform with no logos, no text, no numbers, no trademarks."
+  },
+  {
+   "file": [
+    "env-field-dawn-640.webp",
+    "env-field-dawn-1080.webp"
+   ],
+   "subject": "empty American football field at dawn, mist, low sun flare, no people, no logos",
+   "kind": "environment",
+   "label": "Illustration",
+   "real_person": false,
+   "transparent": false,
+   "aspect": "1672x941",
+   "prompt": "empty American football field at dawn, mist, low sun flare, no people, no logos. Cinematic editorial photograph, Nike-campaign lighting, matte natural grade, 16:9. Any person is a fictional composite, not identifiable."
+  },
+  {
+   "file": [
+    "env-gym-640.webp",
+    "env-gym-1080.webp"
+   ],
+   "subject": "empty college gymnasium with hardwood court, shafts of window light, no people, no logos or text",
+   "kind": "environment",
+   "label": "Illustration",
+   "real_person": false,
+   "transparent": false,
+   "aspect": "1672x941",
+   "prompt": "empty college gymnasium with hardwood court, shafts of window light, no people, no logos or text. Cinematic editorial photograph, Nike-campaign lighting, matte natural grade, 16:9. Any person is a fictional composite, not identifiable."
+  },
+  {
+   "file": [
+    "env-track-640.webp",
+    "env-track-1080.webp"
+   ],
+   "subject": "empty running track lanes at golden hour, starting blocks, no people, no text",
+   "kind": "environment",
+   "label": "Illustration",
+   "real_person": false,
+   "transparent": false,
+   "aspect": "1672x941",
+   "prompt": "empty running track lanes at golden hour, starting blocks, no people, no text. Cinematic editorial photograph, Nike-campaign lighting, matte natural grade, 16:9. Any person is a fictional composite, not identifiable."
+  },
+  {
+   "file": [
+    "env-pool-640.webp",
+    "env-pool-1080.webp"
+   ],
+   "subject": "empty indoor competition pool, lane ropes, still water, overhead light, no people, no text",
+   "kind": "environment",
+   "label": "Illustration",
+   "real_person": false,
+   "transparent": false,
+   "aspect": "1672x941",
+   "prompt": "empty indoor competition pool, lane ropes, still water, overhead light, no people, no text. Cinematic editorial photograph, Nike-campaign lighting, matte natural grade, 16:9. Any person is a fictional composite, not identifiable."
+  },
+  {
+   "file": [
+    "env-dorm-desk-640.webp",
+    "env-dorm-desk-1080.webp"
+   ],
+   "subject": "dorm room desk at night with an open laptop showing a generic calendar grid, notebook, sneakers, warm lamp, no people, no readable text, no logos",
+   "kind": "environment",
+   "label": "Illustration",
+   "real_person": false,
+   "transparent": false,
+   "aspect": "1672x941",
+   "prompt": "dorm room desk at night with an open laptop showing a generic calendar grid, notebook, sneakers, warm lamp, no people, no readable text, no logos. Cinematic editorial photograph, Nike-campaign lighting, matte natural grade, 16:9. Any person is a fictional composite, not identifiable."
+  },
+  {
+   "file": [
+    "hero-1-640.webp",
+    "hero-1-1080.webp"
+   ],
+   "subject": "wide campaign image: a fictional composite young adult female athlete silhouetted in profile tying her shoe on stadium stairs at dawn, face in shadow, no logos",
+   "kind": "environment",
+   "label": "Illustration",
+   "real_person": false,
+   "transparent": false,
+   "aspect": "1672x941",
+   "prompt": "wide campaign image: a fictional composite young adult female athlete silhouetted in profile tying her shoe on stadium stairs at dawn, face in shadow, no logos. Cinematic editorial photograph, Nike-campaign lighting, matte natural grade, 16:9. Any person is a fictional composite, not identifiable."
+  },
+  {
+   "file": [
+    "hero-2-640.webp",
+    "hero-2-1080.webp"
+   ],
+   "subject": "wide campaign image: three fictional composite young adult athletes from different sports walking away down a tunnel toward bright light, seen from behind, no logos",
+   "kind": "environment",
+   "label": "Illustration",
+   "real_person": false,
+   "transparent": false,
+   "aspect": "1672x941",
+   "prompt": "wide campaign image: three fictional composite young adult athletes from different sports walking away down a tunnel toward bright light, seen from behind, no logos. Cinematic editorial photograph, Nike-campaign lighting, matte natural grade, 16:9. Any person is a fictional composite, not identifiable."
+  },
+  {
+   "file": [
+    "hero-3-640.webp",
+    "hero-3-1080.webp"
+   ],
+   "subject": "wide campaign image: a fictional composite young adult male athlete seen from behind sitting on a bench in an empty locker room looking at a phone, no logos, no readable text",
+   "kind": "environment",
+   "label": "Illustration",
+   "real_person": false,
+   "transparent": false,
+   "aspect": "1672x941",
+   "prompt": "wide campaign image: a fictional composite young adult male athlete seen from behind sitting on a bench in an empty locker room looking at a phone, no logos, no readable text. Cinematic editorial photograph, Nike-campaign lighting, matte natural grade, 16:9. Any person is a fictional composite, not identifiable."
+  }
+ ]
+}

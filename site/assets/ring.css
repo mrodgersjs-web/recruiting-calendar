@@ -108,7 +108,7 @@ story-ring.is-revealed .sr__stage{opacity:1;transition:opacity 1.6s .1s}story-ri
 .card__art img{height:100%;width:auto;object-fit:contain}
 .card__poster{height:100%;width:100%;background:#111;color:#fff;display:flex;flex-direction:column;justify-content:flex-end;padding:8%;gap:6px;text-align:left}
 .card__poster b{font:600 11px/1 var(--font-condensed);letter-spacing:.14em;text-transform:uppercase;color:#cacacb}
-.card__poster i{font:400 clamp(20px,3.2vw,46px)/.9 var(--font-display);font-style:normal;text-transform:uppercase;word-break:break-word}
+.card__poster i{font:400 clamp(16px,2.1vw,34px)/.92 var(--font-display);font-style:normal;text-transform:uppercase;word-break:normal;overflow-wrap:normal;hyphens:none}
 .card__name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding-right:44px}
 .sr__iname{text-decoration:underline;text-underline-offset:3px}
 

@@ -110,7 +110,7 @@ setIndex(i,silent){
 renderPanel(silent){
  const a=this.A[this.index],ul=this.querySelector('[data-items]');
  this.querySelector('[data-count]').textContent=a.playbooks.length+' playbooks';
- this.querySelector('[data-who]').textContent=`${a.short} · ${a.sport} · ${a.div}`+(a.composite?` · ${a.label}`:` · Public facts only, sourced in the story. ${a.name} is not affiliated with, has not endorsed, and was not paid by The Recruiting Calendar. ${a.college} and the NCAA/NAIA/NJCAA are not affiliated with us.`);
+ this.querySelector('[data-who]').textContent=`${a.short} · ${a.sport} · ${a.div}`+(a.composite?` · ${a.label}`:` · Public facts only, sourced in the story. ${a.name} is not affiliated with, has not endorsed, and was not paid by The Commit Book. ${a.college} and the NCAA/NAIA/NJCAA are not affiliated with us.`);
  ul.innerHTML=a.playbooks.map((p,i)=>{const pb=this.P[p],on=this.bag.has(p);return `<li class="sr__item" style="--i:${i+1}"><span class="sr__thumb">${String(i+1).padStart(2,'0')}</span><span><div class="sr__itype">Playbook · $${pb.price}, one-time</div><a class="sr__iname" href="/playbooks/${p}">${pb.title}</a></span><button class="sr__add" data-add="${p}" aria-pressed="${on}">${on?'Added':'Get'}</button></li>`}).join('');
  const pi=this.querySelector('.sr__pinner');pi.classList.remove('is-in');void pi.offsetWidth;pi.classList.add('is-in');
  this.querySelector('[data-read]').onclick=()=>location.href='/story/'+a.id;
