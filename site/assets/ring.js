@@ -6,7 +6,7 @@ const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
 const wrapPi=p=>{p=p%(2*Math.PI);if(p>Math.PI)p-=2*Math.PI;if(p<=-Math.PI)p+=2*Math.PI;return p};
 const sil=(i)=>{const poses=['M50 8a9 9 0 1 1 0 18a9 9 0 1 1 0-18zM38 30h24l6 50-8 2-4-30-2 50 6 64h-11l-7-56-7 56H24l6-64-2-50-4 30-8-2z','M50 6a9 9 0 1 1 0 18a9 9 0 1 1 0-18zM36 28h28l14 30-8 4-10-18 2 46 4 68h-11l-9-58-9 58H26l4-68 2-46-10 18-8-4z'];
  return `<svg viewBox="0 0 100 180" aria-hidden="true"><path fill="#111" d="${poses[i%2]}"/></svg>`};
-const cardHTML=(a,i)=>`<span class="card__shadow"></span><span class="card__art">${a.img?`<img src="${a.img}" alt="" loading="lazy">`:`<span class="card__poster"><b>${a.sport}</b><i>${a.short}</i></span>`}</span><span class="card__lbl">${a.composite?'Illustration · Composite':'Real athlete · sourced'}</span>
+const cardHTML=(a,i)=>`<span class="card__shadow"></span><span class="card__art">${a.img?`<img src="${a.img}" alt="" loading="eager" decoding="async">`:`<span class="card__poster"><b>${a.sport}</b><i>${a.short}</i></span>`}</span><span class="card__lbl">${a.composite?'Illustration · Composite':'Real athlete · sourced'}</span>
 <span class="card__meta"><span class="card__div">${a.div}</span><div class="card__name">${a.short}</div><div class="card__line">${a.sport}<br>${a.from} → ${a.college}</div></span>`;
 class StoryRing extends HTMLElement{
 connectedCallback(){
@@ -15,7 +15,7 @@ connectedCallback(){
  this.playing=false;this.engaged=false;this.panelHover=false;this.dragging=false;this.visible=false;
  this.bag=new Set(JSON.parse(localStorage.getItem('playbook-bag-v1')||'[]'));
  const s0=Math.max(0,this.A.findIndex(a=>a.id==='composite-football'&&a.img)),s1=s0>=0&&this.A[s0]?.composite?s0:Math.max(0,this.A.findIndex(a=>a.composite&&a.img));this.target=s1;this.cur=RM?s1:s1-1.15;
- this.render();this.classList.add('js');this.bind();this.measure();this.setIndex(s1,true);
+ this.render();this.querySelectorAll('img').forEach(i=>{i.loading='eager';if(i.decode)i.decode().catch(()=>{})});this.classList.add('js');this.bind();this.measure();this.setIndex(s1,true);
  const io=new IntersectionObserver(e=>{this.visible=e[0].isIntersecting;if(this.visible)this.kick()},{threshold:0});io.observe(this);
  const rv=new IntersectionObserver(e=>{if(e[0].isIntersecting){rv.disconnect();requestAnimationFrame(()=>requestAnimationFrame(()=>{this.classList.add('is-revealed');this.kick()}))}},{rootMargin:'0px 0px -22% 0px'});
  if(RM)this.classList.add('is-revealed');else rv.observe(this);
@@ -67,22 +67,26 @@ renderRing(){
 stepClassic(dt){
  let moving=false;const N=this.N;
  for(const s of this.bodies){const goal=this.wrapN(s.a-this.target);if(s.goal===undefined){s.goal=goal;s.g=goal+(RM?0:1.15);s.x=s.g;s.v=0}
-  if(Math.abs(goal-s.goal)>N/2){s.trip=true;s.from=s.x}s.goal=goal;
-  const tau=this.dragging?.016:s.trip?.1:.03+.04*Math.min(goal,4);s.g+=(goal-s.g)*(1-Math.exp(-dt/tau));
+  const raw=s.a-this.target,uw=raw-N*Math.round((raw-s.x)/N);
+  if(this.dragging||s.unw){if(Math.abs(goal-s.goal)>N/2)s.unw=true;s.trip=false;s.goal=goal;
+   s.g+=(uw-s.g)*(1-Math.exp(-dt/(this.dragging?.016:.06)));
+   if(!this.dragging&&Math.abs(s.x-uw)<.02&&Math.abs(s.v)<.05){const d=goal-uw;s.x+=d;s.g=goal;s.unw=false}}
+  else{if(Math.abs(goal-s.goal)>N/2){s.trip=true;s.from=s.x}s.goal=goal;
+  const tau=s.trip?.1:.03+.04*Math.min(goal,4);s.g+=(goal-s.g)*(1-Math.exp(-dt/tau));}
   const h=dt/3;for(let i=0;i<3;i++){const acc=-K*(s.x-s.g)-C*s.v;s.v+=acc*h;s.x+=s.v*h}
-  if(Math.abs(s.x-goal)<.0006&&Math.abs(s.v)<.0006){s.x=goal;s.v=0;s.g=goal}else moving=true;
+  if(!s.unw&&Math.abs(s.x-goal)<.0006&&Math.abs(s.v)<.0006){s.x=goal;s.v=0;s.g=goal}else moving=true;
   if(s.trip&&Math.abs(s.x-goal)<.02)s.trip=false}
  return moving;
 }
 renderClassic(){
- const W=this.W,ax=.5,ay=22,sx=.30,sy=22,sr=.76,ex=.55,d=4;
+ const W=this.W,ax=.5,ay=22,sx=this.mob?.46:.30,sy=22,sr=this.mob?.62:.76,ex=.55,d=4;
  for(const s of this.bodies){let k=s.x,e=-1;
   if(s.trip){const u=clamp(Math.abs(s.x-s.from)/Math.max(1e-6,Math.abs(s.goal-s.from)),0,1);
    if(s.goal>s.from){if(u<.5)e=2*u*1.4;else k=s.goal+2*(1-u)}else{if(u<.5)k=s.from+2*u;else e=2*(1-u)*1.4}}
   else if(k<0)e=Math.min(-k,1.4);
-  if(e>=0){this.put(s,W*(ax-ex*e),ay-22*e,1+.14*e,Math.max(0,1-1.05*e),4*Math.min(e,1),1100);continue}
+  if(e>=0){this.put(s,W*(ax-ex*e),ay-22*e,1+.14*e,Math.max(0,1-1.05*e),this.mob?0:4*Math.min(e,1),1100);continue}
   let op=k<=d-1?1-.13*k:Math.max(0,.61*(4-k));if(this.mob&&k<=1.05)op=1;else if(this.mob&&k<=d-1)op=Math.max(op,.9-.08*k);if(this.still&&k<.02)op=0;
-  this.put(s,W*(ax+sx*k),ay+sy*k,Math.pow(sr,k),op,Math.min(.9*k,3.2),1000-Math.round(10*k))}
+  this.put(s,W*(ax+sx*k),ay+sy*k,Math.pow(sr,k),op,this.mob?0:Math.min(.9*k,3.2),1000-Math.round(10*k))}
 }
 kick(){if(!this.raf&&this.visible&&!document.hidden){this.last=0;this.raf=requestAnimationFrame(t=>this.frame(t))}}
 frame(t){
