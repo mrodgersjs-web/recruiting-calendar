@@ -1,0 +1,20 @@
+# W11-7 readiness remediation: DONE (code/page blockers only)
+2026-11-06. Not legal clearance, not a release approval. Real money stays blocked: `CHECKOUT_ENABLED` and `PORTAL_ENABLED` are unset = 503 preview-disabled.
+
+## Remediated
+| W10 finding | Fix | Evidence |
+|---|---|---|
+| P0 `/account`, `/billing` 404 | New `site/account/index.html`, `site/billing/index.html` (site design system, noindex). State: preview, no billable subscriptions. Lookup/removal by email, cancel steps for once-live, links to /start /access /recruitiq /personalize /free, refund + auto-renewal. | files exist; price page now links /billing |
+| P0 price `$99` vs `$149` | `site/price/index.html` Sideline card now `$149/yr`; "first 100 founding" claim and "Reserve founding price" removed (no quota existed). `funnel/lib/offers.js` documents single source `SIDELINE_USD=149`, adds `CONSENT_VERSION` and a `PLANNED_NOT_FOR_SALE` table. Pathway/Audit/Club labelled "Planned - Not For Sale", no CTA to buy. | test `price card and API agree on $149/yr` |
+| P0 `portal.js` | POST only (405 otherwise); `PORTAL_ENABLED==='true'` required (503 default); test key + sandbox guard; caller-supplied `customer` ignored; requires `cs_test_` `checkout_session_id` + `email`, fetches the session from Stripe, requires complete subscription session whose `customer_email`/`customer_details.email` matches, uses the session's customer only. | 6 portal tests |
+| P0 consent record | `checkout.js`: subscription/trial requires `consent_version` (safe token) and `consent_accepted_at` (valid ISO, within last 24h); written to session metadata and subscription metadata. Also added `CHECKOUT_ENABLED` gate (503 default). | 3 checkout tests |
+| P1 notification routing | `capture.js`: `source`/`tool_slug` sanitised, kept in stored record (`sport|class|plan|source`) and returned; `class_year` validated and kept; sport normalised (trim/lowercase) to football/baseball/track, otherwise `null` with fallback to `recruiting-calendar-class-2029.pdf` (no more silent "football"). | 2 capture tests |
+| Test hygiene | `funnel/test/funnel.test.js`: 27/27 pass (`node --test funnel/test/funnel.test.js`; the directory form fails on Node 26). Fake PDF is content-checked and removed on exit/SIGINT/SIGTERM; `pdfs/` verified clean (README.txt only) after run. | run output |
+
+## Still needs owner / legal / other lanes before any money
+1. **Out-of-scope client file:** `site/checkout.js` must send `consent_version` (= `CONSENT_VERSION`) and `consent_accepted_at` (ISO time when the box was ticked) on the sideline POST, and its inline disclosure `D` should be the exact `TRIAL_DISCLOSURE`; until then sideline checkout returns 400 even when enabled. Also `site/forms.js` should send `source`/`tool_slug`.
+2. `/access`, `/recruitiq`, `/personalize` are linked as the brief required but **no such site directories exist** (only /start, /free, /tools/*). Build them or repoint the links.
+3. Counsel: final terms, refund, privacy, auto-renewal wording (legal pages still "Draft for review"); `CONSENT_VERSION` is a draft label. A real monitored support address replaces `hello@therecruitingcalendar.example` (account/billing pages say none is published yet).
+4. Owner: approve the $149 price (founding rate dropped; a founding offer would need its own slug, cap enforcement and disclosure). Confirm Pathway/Audit/Club stay unsellable.
+5. Not fixed here (other P0s): webhook persistence/idempotency/entitlements, welcome and lifecycle emails (`capture.js` send branch still empty), paid PDFs (0 ready), renewal notice scheduler, validating a supplied `STRIPE_TEST_PRICE_SIDELINE` against $149/year, sandbox end-to-end checkout and cancellation evidence, durable account auth for deliver, tax/NIL content review, minor-safety data map for hosted features.
+6. Portal needs the Stripe billing-portal configuration set in the sandbox dashboard, and a flow that supplies `checkout_session_id` (receipt link) before `PORTAL_ENABLED` is turned on. Go-live of either flag is Mike's explicit decision.

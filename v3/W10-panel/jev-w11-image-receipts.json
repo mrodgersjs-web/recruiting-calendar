@@ -1,0 +1,418 @@
+{
+  "timestamp": "2026-11-06T22:24:40.412351+00:00",
+  "rubric": "wow: striking premium scroll-stopping|ok: competent functional|weak: broken or empty",
+  "question": "Evaluate visual quality, readability, typography/brand hierarchy, and parent utility of this Commit Book solution page.",
+  "blankControl": {
+    "label": "weak: broken or empty",
+    "confidence": 1.0,
+    "noul_score": 1.0,
+    "verdict": "PASS",
+    "probabilities": {
+      "wow: striking premium scroll-stopping": 0.0,
+      "ok: competent functional": 0.0,
+      "weak: broken or empty": 1.0
+    },
+    "backend": "typesafe-hosted",
+    "judge": "hosted-jev",
+    "local_error": "legacy 8898 unreachable"
+  },
+  "count": 18,
+  "receipts": [
+    {
+      "slug": "access",
+      "viewport": "1440",
+      "image": "/Users/rig128gb/.aside/u/0/sessions/2026-11-05_vDWfWwrS181z6OQU/tmp/panel-access-1440.png",
+      "wow_prob": 0.33,
+      "ok_prob": 0.63,
+      "weak_prob": 0.04,
+      "result": {
+        "label": "ok: competent functional",
+        "confidence": 0.63,
+        "noul_score": 0.63,
+        "verdict": "PASS",
+        "probabilities": {
+          "wow: striking premium scroll-stopping": 0.33,
+          "ok: competent functional": 0.63,
+          "weak: broken or empty": 0.04
+        },
+        "backend": "typesafe-hosted",
+        "judge": "hosted-jev",
+        "local_error": "legacy 8898 unreachable"
+      }
+    },
+    {
+      "slug": "access",
+      "viewport": "390",
+      "image": "/Users/rig128gb/.aside/u/0/sessions/2026-11-05_vDWfWwrS181z6OQU/tmp/panel-access-390.png",
+      "wow_prob": 0.27,
+      "ok_prob": 0.72,
+      "weak_prob": 0.01,
+      "result": {
+        "label": "ok: competent functional",
+        "confidence": 0.72,
+        "noul_score": 0.72,
+        "verdict": "PASS",
+        "probabilities": {
+          "wow: striking premium scroll-stopping": 0.27,
+          "ok: competent functional": 0.72,
+          "weak: broken or empty": 0.01
+        },
+        "backend": "typesafe-hosted",
+        "judge": "hosted-jev",
+        "local_error": "legacy 8898 unreachable"
+      }
+    },
+    {
+      "slug": "recruitiq",
+      "viewport": "1440",
+      "image": "/Users/rig128gb/.aside/u/0/sessions/2026-11-05_vDWfWwrS181z6OQU/tmp/panel-recruitiq-1440.png",
+      "wow_prob": 0.3,
+      "ok_prob": 0.69,
+      "weak_prob": 0.01,
+      "result": {
+        "label": "ok: competent functional",
+        "confidence": 0.69,
+        "noul_score": 0.69,
+        "verdict": "PASS",
+        "probabilities": {
+          "wow: striking premium scroll-stopping": 0.3,
+          "ok: competent functional": 0.69,
+          "weak: broken or empty": 0.01
+        },
+        "backend": "typesafe-hosted",
+        "judge": "hosted-jev",
+        "local_error": "legacy 8898 unreachable"
+      }
+    },
+    {
+      "slug": "recruitiq",
+      "viewport": "390",
+      "image": "/Users/rig128gb/.aside/u/0/sessions/2026-11-05_vDWfWwrS181z6OQU/tmp/panel-recruitiq-390.png",
+      "wow_prob": 0.12,
+      "ok_prob": 0.84,
+      "weak_prob": 0.04,
+      "result": {
+        "label": "ok: competent functional",
+        "confidence": 0.84,
+        "noul_score": 0.84,
+        "verdict": "PASS",
+        "probabilities": {
+          "wow: striking premium scroll-stopping": 0.12,
+          "ok: competent functional": 0.84,
+          "weak: broken or empty": 0.04
+        },
+        "backend": "typesafe-hosted",
+        "judge": "hosted-jev",
+        "local_error": "legacy 8898 unreachable"
+      }
+    },
+    {
+      "slug": "personalize",
+      "viewport": "1440",
+      "image": "/Users/rig128gb/.aside/u/0/sessions/2026-11-05_vDWfWwrS181z6OQU/tmp/panel-personalize-1440.png",
+      "wow_prob": 0.46,
+      "ok_prob": 0.43,
+      "weak_prob": 0.11,
+      "result": {
+        "label": null,
+        "confidence": 0.46,
+        "noul_score": 0.46,
+        "verdict": "ESCALATE",
+        "probabilities": {
+          "wow: striking premium scroll-stopping": 0.46,
+          "ok: competent functional": 0.43,
+          "weak: broken or empty": 0.11
+        },
+        "backend": "typesafe-hosted",
+        "judge": "hosted-jev",
+        "local_error": "legacy 8898 unreachable"
+      }
+    },
+    {
+      "slug": "personalize",
+      "viewport": "390",
+      "image": "/Users/rig128gb/.aside/u/0/sessions/2026-11-05_vDWfWwrS181z6OQU/tmp/panel-personalize-390.png",
+      "wow_prob": 0.51,
+      "ok_prob": 0.48,
+      "weak_prob": 0.01,
+      "result": {
+        "label": "wow: striking premium scroll-stopping",
+        "confidence": 0.51,
+        "noul_score": 0.51,
+        "verdict": "PASS",
+        "probabilities": {
+          "wow: striking premium scroll-stopping": 0.51,
+          "ok: competent functional": 0.48,
+          "weak: broken or empty": 0.01
+        },
+        "backend": "typesafe-hosted",
+        "judge": "hosted-jev",
+        "local_error": "legacy 8898 unreachable"
+      }
+    },
+    {
+      "slug": "segments",
+      "viewport": "1440",
+      "image": "/Users/rig128gb/.aside/u/0/sessions/2026-11-05_vDWfWwrS181z6OQU/tmp/panel-segments-1440.png",
+      "wow_prob": 0.0,
+      "ok_prob": 0.57,
+      "weak_prob": 0.43,
+      "result": {
+        "label": "ok: competent functional",
+        "confidence": 0.57,
+        "noul_score": 0.57,
+        "verdict": "PASS",
+        "probabilities": {
+          "wow: striking premium scroll-stopping": 0.0,
+          "ok: competent functional": 0.57,
+          "weak: broken or empty": 0.43
+        },
+        "backend": "typesafe-hosted",
+        "judge": "hosted-jev",
+        "local_error": "legacy 8898 unreachable"
+      }
+    },
+    {
+      "slug": "segments",
+      "viewport": "390",
+      "image": "/Users/rig128gb/.aside/u/0/sessions/2026-11-05_vDWfWwrS181z6OQU/tmp/panel-segments-390.png",
+      "wow_prob": 0.02,
+      "ok_prob": 0.97,
+      "weak_prob": 0.01,
+      "result": {
+        "label": "ok: competent functional",
+        "confidence": 0.97,
+        "noul_score": 0.97,
+        "verdict": "PASS",
+        "probabilities": {
+          "wow: striking premium scroll-stopping": 0.02,
+          "ok: competent functional": 0.97,
+          "weak: broken or empty": 0.01
+        },
+        "backend": "typesafe-hosted",
+        "judge": "hosted-jev",
+        "local_error": "legacy 8898 unreachable"
+      }
+    },
+    {
+      "slug": "emerging-sports",
+      "viewport": "1440",
+      "image": "/Users/rig128gb/.aside/u/0/sessions/2026-11-05_vDWfWwrS181z6OQU/tmp/panel-emerging-sports-1440.png",
+      "wow_prob": 0.55,
+      "ok_prob": 0.44,
+      "weak_prob": 0.01,
+      "result": {
+        "label": "wow: striking premium scroll-stopping",
+        "confidence": 0.55,
+        "noul_score": 0.55,
+        "verdict": "PASS",
+        "probabilities": {
+          "wow: striking premium scroll-stopping": 0.55,
+          "ok: competent functional": 0.44,
+          "weak: broken or empty": 0.01
+        },
+        "backend": "typesafe-hosted",
+        "judge": "hosted-jev",
+        "local_error": "legacy 8898 unreachable"
+      }
+    },
+    {
+      "slug": "emerging-sports",
+      "viewport": "390",
+      "image": "/Users/rig128gb/.aside/u/0/sessions/2026-11-05_vDWfWwrS181z6OQU/tmp/panel-emerging-sports-390.png",
+      "wow_prob": 0.48,
+      "ok_prob": 0.5,
+      "weak_prob": 0.02,
+      "result": {
+        "label": "ok: competent functional",
+        "confidence": 0.5,
+        "noul_score": 0.5,
+        "verdict": "PASS",
+        "probabilities": {
+          "wow: striking premium scroll-stopping": 0.48,
+          "ok: competent functional": 0.5,
+          "weak: broken or empty": 0.02
+        },
+        "backend": "typesafe-hosted",
+        "judge": "hosted-jev",
+        "local_error": "legacy 8898 unreachable"
+      }
+    },
+    {
+      "slug": "resources",
+      "viewport": "1440",
+      "image": "/Users/rig128gb/.aside/u/0/sessions/2026-11-05_vDWfWwrS181z6OQU/tmp/panel-resources-1440.png",
+      "wow_prob": 0.14,
+      "ok_prob": 0.85,
+      "weak_prob": 0.01,
+      "result": {
+        "label": "ok: competent functional",
+        "confidence": 0.85,
+        "noul_score": 0.85,
+        "verdict": "PASS",
+        "probabilities": {
+          "wow: striking premium scroll-stopping": 0.14,
+          "ok: competent functional": 0.85,
+          "weak: broken or empty": 0.01
+        },
+        "backend": "typesafe-hosted",
+        "judge": "hosted-jev",
+        "local_error": "legacy 8898 unreachable"
+      }
+    },
+    {
+      "slug": "resources",
+      "viewport": "390",
+      "image": "/Users/rig128gb/.aside/u/0/sessions/2026-11-05_vDWfWwrS181z6OQU/tmp/panel-resources-390.png",
+      "wow_prob": 0.06,
+      "ok_prob": 0.89,
+      "weak_prob": 0.05,
+      "result": {
+        "label": "ok: competent functional",
+        "confidence": 0.89,
+        "noul_score": 0.89,
+        "verdict": "PASS",
+        "probabilities": {
+          "wow: striking premium scroll-stopping": 0.06,
+          "ok: competent functional": 0.89,
+          "weak: broken or empty": 0.05
+        },
+        "backend": "typesafe-hosted",
+        "judge": "hosted-jev",
+        "local_error": "legacy 8898 unreachable"
+      }
+    },
+    {
+      "slug": "price",
+      "viewport": "1440",
+      "image": "/Users/rig128gb/.aside/u/0/sessions/2026-11-05_vDWfWwrS181z6OQU/tmp/panel-price-1440.png",
+      "wow_prob": 0.06,
+      "ok_prob": 0.91,
+      "weak_prob": 0.03,
+      "result": {
+        "label": "ok: competent functional",
+        "confidence": 0.91,
+        "noul_score": 0.91,
+        "verdict": "PASS",
+        "probabilities": {
+          "wow: striking premium scroll-stopping": 0.06,
+          "ok: competent functional": 0.91,
+          "weak: broken or empty": 0.03
+        },
+        "backend": "typesafe-hosted",
+        "judge": "hosted-jev",
+        "local_error": "legacy 8898 unreachable"
+      }
+    },
+    {
+      "slug": "price",
+      "viewport": "390",
+      "image": "/Users/rig128gb/.aside/u/0/sessions/2026-11-05_vDWfWwrS181z6OQU/tmp/panel-price-390.png",
+      "wow_prob": 0.14,
+      "ok_prob": 0.48,
+      "weak_prob": 0.38,
+      "result": {
+        "label": null,
+        "confidence": 0.48,
+        "noul_score": 0.48,
+        "verdict": "ESCALATE",
+        "probabilities": {
+          "wow: striking premium scroll-stopping": 0.14,
+          "ok: competent functional": 0.48,
+          "weak: broken or empty": 0.38
+        },
+        "backend": "typesafe-hosted",
+        "judge": "hosted-jev",
+        "local_error": "legacy 8898 unreachable"
+      }
+    },
+    {
+      "slug": "account",
+      "viewport": "1440",
+      "image": "/Users/rig128gb/.aside/u/0/sessions/2026-11-05_vDWfWwrS181z6OQU/tmp/panel-account-1440.png",
+      "wow_prob": 0.0,
+      "ok_prob": 0.84,
+      "weak_prob": 0.16,
+      "result": {
+        "label": "ok: competent functional",
+        "confidence": 0.84,
+        "noul_score": 0.84,
+        "verdict": "PASS",
+        "probabilities": {
+          "wow: striking premium scroll-stopping": 0.0,
+          "ok: competent functional": 0.84,
+          "weak: broken or empty": 0.16
+        },
+        "backend": "typesafe-hosted",
+        "judge": "hosted-jev",
+        "local_error": "legacy 8898 unreachable"
+      }
+    },
+    {
+      "slug": "account",
+      "viewport": "390",
+      "image": "/Users/rig128gb/.aside/u/0/sessions/2026-11-05_vDWfWwrS181z6OQU/tmp/panel-account-390.png",
+      "wow_prob": 0.0,
+      "ok_prob": 0.87,
+      "weak_prob": 0.13,
+      "result": {
+        "label": "ok: competent functional",
+        "confidence": 0.87,
+        "noul_score": 0.87,
+        "verdict": "PASS",
+        "probabilities": {
+          "wow: striking premium scroll-stopping": 0.0,
+          "ok: competent functional": 0.87,
+          "weak: broken or empty": 0.13
+        },
+        "backend": "typesafe-hosted",
+        "judge": "hosted-jev",
+        "local_error": "legacy 8898 unreachable"
+      }
+    },
+    {
+      "slug": "billing",
+      "viewport": "1440",
+      "image": "/Users/rig128gb/.aside/u/0/sessions/2026-11-05_vDWfWwrS181z6OQU/tmp/panel-billing-1440.png",
+      "wow_prob": 0.0,
+      "ok_prob": 0.91,
+      "weak_prob": 0.09,
+      "result": {
+        "label": "ok: competent functional",
+        "confidence": 0.91,
+        "noul_score": 0.91,
+        "verdict": "PASS",
+        "probabilities": {
+          "wow: striking premium scroll-stopping": 0.0,
+          "ok: competent functional": 0.91,
+          "weak: broken or empty": 0.09
+        },
+        "backend": "typesafe-hosted",
+        "judge": "hosted-jev",
+        "local_error": "legacy 8898 unreachable"
+      }
+    },
+    {
+      "slug": "billing",
+      "viewport": "390",
+      "image": "/Users/rig128gb/.aside/u/0/sessions/2026-11-05_vDWfWwrS181z6OQU/tmp/panel-billing-390.png",
+      "wow_prob": 0.01,
+      "ok_prob": 0.98,
+      "weak_prob": 0.01,
+      "result": {
+        "label": "ok: competent functional",
+        "confidence": 0.98,
+        "noul_score": 0.98,
+        "verdict": "PASS",
+        "probabilities": {
+          "wow: striking premium scroll-stopping": 0.01,
+          "ok: competent functional": 0.98,
+          "weak: broken or empty": 0.01
+        },
+        "backend": "typesafe-hosted",
+        "judge": "hosted-jev",
+        "local_error": "legacy 8898 unreachable"
+      }
+    }
+  ]
+}

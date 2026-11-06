@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RecruitIQ Standards &amp; Fit Explorer | The Commit Book</title>
+<meta name="description" content="Four separate, sourced panels: hard eligibility and roster rules, published track and field standards, the unpublished football and baseball evaluation, and official NCAA participation ratios. Not a prediction.">
+<link rel="canonical" href="https://recruiting-calendar.vercel.app/recruitiq/">
+<meta name="theme-color" content="#0a0a0a">
+<link rel="icon" href="/assets/logo/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/tokens.css">
+<link rel="stylesheet" href="/assets/commit.css?v=6ac59abf">
+<link rel="stylesheet" href="/recruitiq/recruitiq.css">
+</head>
+<body class="riq">
+<header class="site-header cb-header"><a class="brand" href="/" aria-label="The Commit Book home"><img src="/assets/logo/lockup-horizontal-light.svg" alt="The Commit Book" width="135" height="30"></a><button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button><nav id="site-nav" aria-label="Main"><a href="/start">Start here</a><a href="/">Stories</a><a href="/access">Access</a><a href="/recruitiq" aria-current="page">RecruitIQ</a><a href="/personalize">Personalize</a><a href="/segments">Segments</a><a href="/emerging-sports">Emerging sports</a><a href="/playbooks">Playbooks</a><a href="/price">Price</a></nav><a class="bag" href="/playbooks">Bag (<span data-bag-count>0</span>)</a></header>
+
+<main id="main">
+<section class="riq-hero"><div class="riq-wrap">
+<p class="riq-kick">RecruitIQ · Audited 2026-11-06</p>
+<h1>Standards &amp; Fit Explorer</h1>
+<p>Four kinds of evidence, kept apart on purpose: <strong>rules</strong>, <strong>published program marks</strong>, <strong>coach judgment</strong> and <strong>population statistics</strong>. This page never blends them into one score and never outputs a scholarship probability.</p>
+<p>Every number below was read on its primary source by an independent audit on 2026-11-06 (W10) and links to it.</p>
+<nav class="riq-four" aria-label="Panels">
+<a href="#bucket1"><b>Bucket 1</b><span>Hard eligibility &amp; post-House roster rules</span></a>
+<a href="#bucket2"><b>Bucket 2</b><span>Published track &amp; field standards comparator</span></a>
+<a href="#bucket3"><b>Bucket 3</b><span>Unpublished coach evaluation: football &amp; baseball</span></a>
+<a href="#bucket4"><b>Bucket 4</b><span>Official NCAA participation ratios, 2024-25</span></a>
+</nav>
+</div></section>
+
+<!-- ============ BUCKET 1 ============ -->
+<section class="riq-panel" id="bucket1" aria-labelledby="b1h"><div class="riq-wrap">
+<span class="riq-bucket">Bucket 1 · Rules</span>
+<h2 id="b1h">Hard eligibility &amp; post-House roster rules</h2>
+<p class="riq-sub">Governing-body text only. A roster limit is a ceiling on team size, not a count of open spots and not a scholarship count. Eligibility is pass/fail and separate from fit.</p>
+<form class="riq-controls" id="b1form" onsubmit="return false">
+<label>Sport<select id="b1sport"><option>Football</option><option>Baseball</option><option>Track &amp; Field / XC</option></select></label>
+<label>Division<select id="b1div">
+<option>D1 opted-in</option><option>D1 non-opted-in (legacy)</option><option>D2</option><option>D3</option><option>NAIA</option><option>NJCAA</option></select></label>
+</form>
+<div id="b1out" aria-live="polite">
+<!-- static fallback: same verified figures -->
+<noscript><div class="riq-cards">
+<div class="riq-card"><h3>D1 opted-in</h3><p>Roster limits: Football 105, Baseball 34, Track 45 (Men's XC 17).</p></div>
+<div class="riq-card"><h3>D2</h3><p>Equivalencies: Football 36.0, Baseball 9.0, Track/XC 12.6.</p></div>
+<div class="riq-card"><h3>D3</h3><p>0 athletic aid.</p></div>
+<div class="riq-card"><h3>NAIA</h3><p>Football 24, Baseball 12, Track 12.</p></div>
+<div class="riq-card"><h3>NJCAA (2026-27)</h3><p>Football 85, Baseball 30, Track 20.</p></div>
+</div></noscript>
+</div>
+<h3 style="font:700 24px 'Barlow Condensed',sans-serif;text-transform:uppercase;margin:36px 0 10px">Rules that moved recently</h3>
+<div id="b1moving" class="riq-cards"></div>
+<p class="riq-note">Under the old D1 model baseball had 11.7 equivalencies across at most 27 aided counters; an opted-in school may now in principle aid all 34 rostered players. Whether it does is a budget decision no tool can see.</p>
+</div></section>
+
+<!-- ============ BUCKET 2 ============ -->
+<section class="riq-panel" id="bucket2" aria-labelledby="b2h"><div class="riq-wrap">
+<span class="riq-bucket">Bucket 2 · Published program marks</span>
+<h2 id="b2h">Published school track &amp; field standards comparator</h2>
+<p class="riq-sub">Men's marks exactly as each program publishes them, fully automatic timing (FAT). Enter a mark and see where it sits against each school's own tiers. Labels differ by school, so the numbers are not like-for-like. This is not a prediction and not a recruiting score.</p>
+<form class="riq-controls" id="b2form" onsubmit="return false">
+<label>Event<select id="b2event"><option value="100">Men's 100m</option><option value="400">Men's 400m</option><option value="800">Men's 800m</option><option value="1500">Men's 1500m</option></select></label>
+<label>Your FAT time<input id="b2time" type="text" inputmode="decimal" autocomplete="off" placeholder="e.g. 10.62 or 1:54.20" aria-describedby="b2hint"></label>
+<button class="riq-btn" id="b2go" type="submit" style="align-self:flex-end">Compare</button>
+</form>
+<p class="note" id="b2hint" style="font-size:13px;color:#46423b;margin:-12px 0 18px">Seconds for the 100m and 400m (10.62, 49.10); minutes:seconds for the 800m and 1500m (1:54.20). Lower is faster.</p>
+<div id="b2out" aria-live="polite"><div class="riq-empty">Enter a time to compare against Brown, Rutgers, Princeton, Eastern Michigan and Oral Roberts.</div></div>
+
+<div id="b2unopolicy" class="riq-card" style="margin-top:12px"></div>
+<h3 style="font:700 24px 'Barlow Condensed',sans-serif;text-transform:uppercase;margin:36px 0 10px">Source vintages</h3>
+<div class="riq-tw"><table id="b2vint"><thead><tr><th>Program</th><th>Source date</th><th>Cycle</th><th>Source</th></tr></thead><tbody></tbody></table></div>
+<div class="riq-note" id="b2excl"></div>
+<p class="riq-note"><strong>Spread is large and levels overlap.</strong> Men's 400m as each D1 program publishes it: Rutgers "consider for full aid" 46.20; Eastern Michigan "scholarship" 47.50; Brown "walk on consideration" 48.70; Oral Roberts "target" 49.60. Same word "D1", four different numbers, four different labels. Compare the same label to the same label, within one event.</p>
+</div></section>
+
+<!-- ============ BUCKET 3 ============ -->
+<section class="riq-panel" id="bucket3" aria-labelledby="b3h"><div class="riq-wrap">
+<span class="riq-bucket">Bucket 3 · Coach judgment</span>
+<h2 id="b3h">Unpublished coach evaluation checklist: football &amp; baseball</h2>
+<p class="riq-sub" id="b3why"></p>
+<div class="riq-cards">
+<div class="riq-card"><h3>What coaches actually weigh</h3><ul class="riq-list" id="b3list" style="margin-top:10px"></ul></div>
+<div class="riq-card"><h3>Why vendor tables are estimates</h3><p id="b3agg"></p><p><span class="riq-tag warn">Not an NCAA standard</span><span class="riq-tag warn">Not a program statement</span></p></div>
+<div class="riq-card"><h3>Your move</h3><p id="b3act"></p>
+<p>Use the checklist to organize your own dated evidence: film links, event-verified numbers, transcript. RecruitIQ shows no football or baseball cutoff because none is published.</p></div>
+</div>
+<p class="riq-note">No source found in this research pass gives the share of rostered athletes who were recruited with aid versus walk-ons, by sport and division. That is a data gap and is left empty on purpose.</p>
+</div></section>
+
+<!-- ============ BUCKET 4 ============ -->
+<section class="riq-panel" id="bucket4" aria-labelledby="b4h"><div class="riq-wrap">
+<span class="riq-bucket">Bucket 4 · Population statistics</span>
+<h2 id="b4h">Official NCAA participation ratios, 2024-25</h2>
+<p class="riq-sub">Men's high school participants versus NCAA participants in the same year. Context for a population, never odds for one athlete.</p>
+<form class="riq-controls" onsubmit="return false">
+<label>Sport<select id="b4sport"><option value="all">All three sports</option><option>Football</option><option>Baseball</option><option>Track &amp; Field</option></select></label>
+<label>Level<select id="b4lvl"><option value="overall">NCAA overall</option><option value="d1">D1</option><option value="d2">D2</option><option value="d3">D3</option></select></label>
+</form>
+<div class="riq-tw"><table id="b4tab"><thead><tr><th>Sport (men)</th><th>HS participants</th><th>NCAA participants</th><th>HS to any NCAA</th><th>to D1</th><th>to D2</th><th>to D3</th></tr></thead><tbody>
+<tr data-sport="Football"><td>Football</td><td class="num">1,029,588</td><td class="num">83,794</td><td class="num">8.1%</td><td class="num">3.4%</td><td class="num">2.1%</td><td class="num">2.6%</td></tr>
+<tr data-sport="Baseball"><td>Baseball</td><td class="num">472,598</td><td class="num">41,580</td><td class="num">8.8%</td><td class="num">2.7%</td><td class="num">2.6%</td><td class="num">3.5%</td></tr>
+<tr data-sport="Track &amp; Field"><td>Track &amp; Field</td><td class="num">644,235</td><td class="num">34,747</td><td class="num">5.4%</td><td class="num">1.9%</td><td class="num">1.5%</td><td class="num">2.0%</td></tr>
+</tbody></table></div>
+<div id="b4bars" style="margin-top:18px"></div>
+<h3 style="font:700 24px 'Barlow Condensed',sans-serif;text-transform:uppercase;margin:32px 0 10px">Methodology: read before quoting</h3>
+<ul class="riq-list" id="b4method"></ul>
+<p class="riq-cite" id="b4src"></p>
+<p class="riq-note" id="b4prev"></p>
+<p class="riq-note" id="b4fact"></p>
+</div></section>
+</main>
+
+<footer class="riq-foot"><div class="riq-wrap">
+<p><a href="/">Stories</a> · <a href="/playbooks">Playbooks</a> · <a href="/calendar">Calendar</a> · <a href="/rules">Rules by sport</a> · <a href="/legal/terms">Terms</a> · <a href="/legal/privacy">Privacy</a></p>
+<p>Education, not legal advice. We do not recruit or place athletes, and nobody here contacts your kid. No scholarship, offer or roster spot is promised. Marks are each school's own published figures with the source date shown; a school can change them at any time. Not affiliated with or endorsed by the NCAA, NAIA, NJCAA or any college named here. No profile of a minor is created or stored: the time you type stays in your browser.</p>
+</div></footer>
+<script src="/assets/site.js" defer></script>
+<script src="/recruitiq/recruitiq.js" defer></script>
+</body></html>

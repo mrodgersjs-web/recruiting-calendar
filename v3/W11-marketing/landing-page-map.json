@@ -1,0 +1,198 @@
+{
+ "generated": "2026-11-06",
+ "status": "DRAFT, nothing launched or posted",
+ "landing_base": "https://recruiting-calendar.vercel.app",
+ "routes": {
+  "/start": "Free grade-by-grade recruiting steps (live)",
+  "/access": "Access routes for families (W10-access; not yet live in site/)",
+  "/recruitiq": "RecruitIQ readiness (W10-recruitiq; not yet live in site/)",
+  "/personalize": "Personalized plan (W10-personalization; not yet live in site/)",
+  "/segments": "Sport/segment hub (not yet live in site/)",
+  "/emerging-sports": "Emerging sports: girls wrestling, flag football (not yet live in site/)",
+  "/resources": "Third-party resource directory (built here, site/resources/)"
+ },
+ "live_status_note": "Only /start (and /resources once released) exist in site/ today. The other routes are mapped from sibling W10 builds; do not run any ad pointing at a route until it is live and Mike approves the exact text.",
+ "buyer_segments": [
+  {
+   "id": "football",
+   "label": "Football parents",
+   "ads": [
+    "F1",
+    "F2",
+    "F3"
+   ],
+   "stories": [
+    "marpet",
+    "renfrow",
+    "composite-football"
+   ],
+   "hooks": [
+    "Every date a coach can contact your kid, with the rule number",
+    "Late isn't over: an honest next 30 days for a junior/senior",
+    "Before you pay a recruiting service, read this comparison"
+   ],
+   "primary_route": "/start",
+   "secondary_routes": [
+    "/personalize",
+    "/recruitiq",
+    "/resources"
+   ],
+   "resources_story_filter": "renfrow",
+   "primary_angle": "Proof over hype; bylaw-cited calendar vs Full Ride U free calendar ad"
+  },
+  {
+   "id": "travel_baseball_softball",
+   "label": "Travel baseball / softball",
+   "ads": [
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "stories": [
+    "composite-softball",
+    "composite-baseball",
+    "groenewegen",
+    "pichardo"
+   ],
+   "hooks": [
+    "Check which showcases fit before the next one",
+    "D1 scholarships are split across a roster: see the math"
+   ],
+   "primary_route": "/start",
+   "secondary_routes": [
+    "/personalize",
+    "/segments",
+    "/resources"
+   ],
+   "resources_story_filter": "groenewegen",
+   "primary_angle": "Showcase ROI and honest roster-split math"
+  },
+  {
+   "id": "club_volleyball",
+   "label": "Club volleyball",
+   "ads": [
+    "V1",
+    "V2",
+    "V3"
+   ],
+   "stories": [
+    "composite-volleyball",
+    "lowe"
+   ],
+   "hooks": [
+    "The recruiting dates are different for your sport",
+    "What to write in the first email to a college coach"
+   ],
+   "primary_route": "/start",
+   "secondary_routes": [
+    "/personalize",
+    "/segments",
+    "/resources"
+   ],
+   "resources_story_filter": "lowe",
+   "primary_angle": "Sport-specific dates; first-email words"
+  },
+  {
+   "id": "wrestling_incl_girls",
+   "label": "Wrestling incl. girls",
+   "ads": [
+    "W1",
+    "W2"
+   ],
+   "stories": [
+    "rodriguez",
+    "composite-wrestling"
+   ],
+   "hooks": [
+    "Women's wrestling is now an NCAA D-III championship sport",
+    "The two Eligibility Center dates that can cost eligibility ($9, no sales call)"
+   ],
+   "primary_route": "/emerging-sports",
+   "secondary_routes": [
+    "/start",
+    "/recruitiq",
+    "/resources"
+   ],
+   "resources_story_filter": "rodriguez",
+   "primary_angle": "New-sport pride; eligibility dates"
+  },
+  {
+   "id": "aau_basketball",
+   "label": "AAU basketball",
+   "ads": [
+    "L1"
+   ],
+   "stories": [
+    "butler",
+    "white",
+    "coward",
+    "composite-wbasketball",
+    "pirosko"
+   ],
+   "hooks": [
+    "Late isn't over: an honest next 30 days for a junior/senior"
+   ],
+   "primary_route": "/access",
+   "secondary_routes": [
+    "/start",
+    "/recruitiq",
+    "/resources"
+   ],
+   "resources_story_filter": "butler",
+   "primary_angle": "JUCO/transfer paths; plain-cost framing"
+  },
+  {
+   "id": "late_start_jr_sr",
+   "label": "Late-start junior/senior families",
+   "ads": [
+    "L1",
+    "L2",
+    "F2"
+   ],
+   "stories": [
+    "marpet",
+    "butler",
+    "composite-baseball"
+   ],
+   "hooks": [
+    "Late isn't over: an honest next 30 days for a junior/senior",
+    "The two Eligibility Center dates that can cost eligibility ($9, no sales call)"
+   ],
+   "primary_route": "/recruitiq",
+   "secondary_routes": [
+    "/personalize",
+    "/start",
+    "/resources"
+   ],
+   "resources_story_filter": "butler",
+   "primary_angle": "Fast honest readiness check, then 30-day plan"
+  }
+ ],
+ "small_tests": [
+  {
+   "id": "girls_flag_football",
+   "ads": [
+    "G1"
+   ],
+   "primary_route": "/emerging-sports",
+   "note": "Small $50 test; program list is a sourcing GAP so copy says where to look, not which schools. No story exists; resources filter n/a."
+  },
+  {
+   "id": "track_xc",
+   "ads": [
+    "T1"
+   ],
+   "primary_route": "/segments",
+   "stories": [
+    "rodenfels",
+    "composite-sprinter"
+   ],
+   "note": "Small $50 test; rodenfels story page is HELD (noindex), use composite-sprinter for any creative link until released."
+  }
+ ],
+ "out_of_scope_paid": [
+  "hs_coaches_ads",
+  "club_directors",
+  "single_parent_first_gen"
+ ]
+}

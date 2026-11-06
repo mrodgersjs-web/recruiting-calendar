@@ -1,0 +1,136 @@
+{
+  "generated": "2026-11-06",
+  "survey": {
+    "name": "NFHS High School Athletics Participation Survey, 2024-25",
+    "url": "https://a-us.storyblok.com/f/1022696/x/85a6414d04/2024-25-nfhs-high-school-athletics-participation-survey.pdf",
+    "release_url": "https://nfhs.org/stories/participation-in-high-school-sports-hits-record-high-with-sizable-increase-in-2024-25"
+  },
+  "overall": {
+    "total": 8266244,
+    "total_display": "8,266,244",
+    "boys": 4726648,
+    "girls": 3539596,
+    "prior_year": 8062302,
+    "delta": 203942,
+    "source": "NFHS 2024-25 High School Athletics Participation Survey, totals table (2024-25: 4,726,648 boys, 3,539,596 girls, 8,266,244 total)",
+    "url": "https://a-us.storyblok.com/f/1022696/x/85a6414d04/2024-25-nfhs-high-school-athletics-participation-survey.pdf",
+    "correction": "The build brief cited 8,215,882. That number appears in no NFHS document or in this repo. The NFHS survey table and NFHS release both print 8,266,244, so this page shows 8,266,244. (A first-release wire version printed 8,260,891; NFHS's published survey PDF and its later release carry 8,266,244.)"
+  },
+  "sports": [
+    {
+      "id": "flag-football",
+      "name": "Girls Flag Football",
+      "participants": 68847,
+      "participants_display": "68,847",
+      "growth_display": "+60%",
+      "growth_note": "year over year, 2023-24 to 2024-25",
+      "schools": 2736,
+      "schools_display": "2,736",
+      "schools_note": "schools reporting girls flag football in the NFHS 2024-25 table (the NFHS release says nearly 1,000 schools were added in one year). The brief's 1,781 does not appear in the NFHS table and is not used.",
+      "nfhs_source": "NFHS 2024-25 survey, Flag Football (5/20 states): girls 2,736 schools, 68,847 participants",
+      "nfhs_url": "https://a-us.storyblok.com/f/1022696/x/85a6414d04/2024-25-nfhs-high-school-athletics-participation-survey.pdf",
+      "history": "11,209 (2018) to 42,955 (2023-24) to 68,847 (2024-25)",
+      "pathway": {
+        "ncaa": {
+          "status": "Emerging Sport (not yet a championship sport)",
+          "detail": "Added to the NCAA Emerging Sports for Women program, effective immediately, by all three divisions at the January 2026 NCAA Convention. Schools sponsoring it in spring 2026 count toward the 40-school threshold needed for a National Collegiate championship.",
+          "url": "https://www.ncaa.org/news/2026/1/16/media-center-ncaa-adds-flag-football-to-emerging-sports-for-women-program.aspx"
+        },
+        "naia": {
+          "status": "Championship sport starting 2026-27",
+          "detail": "NAIA National Administrative Council approved women's flag football as the NAIA's 30th championship sport (June 17, 2026), first championship spring 2027. It was an NAIA emerging sport from 2021 and an invitational sport in 2026.",
+          "url": "https://www.naia.org/news/womenss-flag-football/naia-womens-flag-football-approved-as-associations-30th-championship-sport/"
+        },
+        "njcaa": {
+          "status": "Championship sport starting 2027-28",
+          "detail": "NJCAA Board of Regents elevated women's flag football to championship status (June 2026); first national championship in 2027-28. The 2026-27 season is still an invitational; the NJCAA release says 33 member colleges sponsor it in 2026-27.",
+          "url": "https://www.njcaa.org/sports/flagfball/2025-26/releases/20260625mdk2fk"
+        }
+      },
+      "story": null
+    },
+    {
+      "id": "girls-wrestling",
+      "name": "Girls Wrestling",
+      "participants": 74064,
+      "participants_display": "74,064",
+      "growth_display": "+15%",
+      "growth_note": "year over year, 2023-24 (64,257) to 2024-25 (74,064)",
+      "schools": 8100,
+      "schools_display": "8,100",
+      "schools_note": "schools with girls wrestling in the NFHS 2024-25 table",
+      "doubled": "31,654 in 2021-22 to 74,064 in 2024-25 (about 2.3 times; NFHS 2023-24 release gives the 31,654 base)",
+      "nfhs_source": "NFHS 2024-25 survey, Wrestling (51/50 states): girls 8,100 schools, 74,064 participants",
+      "nfhs_url": "https://a-us.storyblok.com/f/1022696/x/85a6414d04/2024-25-nfhs-high-school-athletics-participation-survey.pdf",
+      "pathway": {
+        "ncaa": {
+          "status": "NCAA championship sport",
+          "detail": "NCAA added women's wrestling as its 91st championship in January 2025 (Divisions I, II and III compete together). The first National Collegiate Women's Wrestling Championships were held in March 2026 in Coralville, Iowa (180 qualifiers). In January 2026 Division III also voted to create its own DIII women's wrestling championship starting 2027-28.",
+          "url": "https://www.ncaa.org/news/2026/3/4/media-center-ncaas-first-womens-wrestling-championships-what-to-know.aspx"
+        },
+        "naia": {
+          "status": "NAIA championship sport",
+          "detail": "The NAIA first held a women's wrestling invitational in 2018 and adopted it as its 28th championship sport in 2022. NAIA eligibility and recruiting rules sit in NAIA Bylaws Article V Section C (2026-27 NAIA Official Handbook). Cristelle Rodriguez became Doane's first NAIA champion in 2024.",
+          "url": "https://www.naia.org/news/insights/the-first-association-to-recognize-womens-wrestling"
+        },
+        "njcaa": {
+          "status": "Not confirmed",
+          "detail": "NWCA lists the NJCAA as recognizing women's wrestling as an emerging sport. We did not find a current NJCAA championship announcement. Ask each program for its status.",
+          "url": "https://nwcaonline.com/sports/2023/4/3/womens-wrestling-facts-resources.aspx"
+        }
+      },
+      "story": "/story/rodriguez"
+    },
+    {
+      "id": "boys-volleyball",
+      "name": "Boys Volleyball",
+      "participants": 95972,
+      "participants_display": "95,972",
+      "growth_display": "+24.2%",
+      "growth_note": "two-year growth, 2022-23 to 2024-25 (from the NCAA's reprint of NFHS tables; NFHS itself reports 66,487 three years ago to 95,972). Year over year the figure is +12.57% (AVCA).",
+      "schools": 4303,
+      "schools_display": "4,303",
+      "schools_note": "schools with boys volleyball in the NFHS 2024-25 table (32 reporting states). The brief's '2,900+ schools' does not match the table and is not used.",
+      "nfhs_source": "NFHS 2024-25 survey, Volleyball (32/51 states): boys 4,303 schools, 95,972 participants",
+      "nfhs_url": "https://a-us.storyblok.com/f/1022696/x/85a6414d04/2024-25-nfhs-high-school-athletics-participation-survey.pdf",
+      "pathway": {
+        "ncaa": {
+          "status": "NCAA National Collegiate (D1 and D2 together) and Division III",
+          "detail": "Men's volleyball is a National Collegiate championship (Division I and II combined) and a separate Division III championship. AVCA counts 73 announced or playing National Collegiate programs and 145 Division III programs for 2027.",
+          "url": "https://www.ncaa.org/championship/national-collegiate/mens-volleyball/"
+        },
+        "naia": {
+          "status": "NAIA varsity",
+          "detail": "NAIA sponsors men's volleyball with a national championship. AVCA counts 69 announced or playing NAIA programs for 2027.",
+          "url": "https://naia.org/sports/mens-volleyball"
+        },
+        "njcaa": {
+          "status": "NJCAA championship sport from 2026",
+          "detail": "2026 is the first year NJCAA men's volleyball runs as a National Championship after several years as an invitational. AVCA counts 35 two-year college programs. Club teams sit under the NCVF and are not varsity.",
+          "url": "https://www.njcaa.org/sports/mvball/2025-26/releases/20260113pbzbdc"
+        }
+      },
+      "story": "/story/composite-volleyball"
+    }
+  ],
+  "avca_programs_url": "https://www.avca.org/resource/collegiate-mens-programs-list-map/",
+  "links": {
+    "stories": [
+      {"href": "/story/rodriguez", "label": "Cristelle Rodriguez: NAIA women's wrestling at Doane", "kind": "real"},
+      {"href": "/story/composite-volleyball", "label": "Ava (composite): late specializer, close-to-home D2 volleyball", "kind": "composite"},
+      {"href": "/story/composite-wrestling", "label": "Tyler (composite): stepped away, came back, D3 wrestling", "kind": "composite"},
+      {"href": "/story/perez", "label": "Tori Perez: lacrosse goalie who started in 8th grade, D3 Oglethorpe", "kind": "real"}
+    ],
+    "tools": [
+      {"href": "/access", "label": "Access tools: contact kit and worksheets"},
+      {"href": "/recruitiq", "label": "RecruitIQ: your numbers next to named programs' published marks"}
+    ]
+  },
+  "aid_rules": [
+    {"id": "naia", "level": "NAIA", "text": "Athletic aid is limited to tuition, fees, books, room and board, with a per-sport limit of full-grant equivalencies that a program can split across any number of players. Check the NAIA Official Handbook and the NAIA financial aid page for the sport's exact limit.", "url": "https://www.naia.org/student-athletes/current/financial-aid"},
+    {"id": "d1", "level": "NCAA Division I", "text": "Aid is moving from fixed equivalency caps to roster limits for schools that opted in to the House settlement; schools that did not opt in keep the old caps. Ask which model the school is in.", "url": "https://ncaaorg.s3.amazonaws.com/governance/d1/legislation/2026-27/2024-25D1GMS_Bylaw15.pdf"},
+    {"id": "d2", "level": "NCAA Division II", "text": "Equivalency limits by sport; partial scholarships are common. Ask for the sport's equivalency count and how many athletes share it.", "url": "https://www.ncaa.org/division-ii/governance/membership-and-institutional-resources/athletics-scholarships"},
+    {"id": "d3", "level": "NCAA Division III", "text": "No athletic scholarships at all. Aid is academic and need-based, so ask the financial aid office, not the coach, what the package is.", "url": "https://web3.ncaa.org/lsdbi/reports/getReport/90011"},
+    {"id": "njcaa", "level": "NJCAA", "text": "Division 1 may give full aid; Division 2 limited to tuition, fees, books and up to $250; Division 3 gives none.", "url": "https://www.njcaa.org/member_colleges/Divisional_Structure"}
+  ]
+}

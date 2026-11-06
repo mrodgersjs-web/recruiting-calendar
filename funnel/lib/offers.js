@@ -7,7 +7,10 @@ export const PDF_DIR=path.join(ROOT,'funnel/deliver/pdfs');
 const CAT=JSON.parse(fs.readFileSync(path.join(ROOT,'v3/W1-playbooks/CATALOG.json'),'utf8'));
 export const SPORTS=['football','baseball','track'];
 const SPORT_BOOK={football:'football-junior-year',baseball:'baseball-showcase-to-signing',track:'track-field-marks'};
-export const TRIAL_DAYS=14, SIDELINE_USD=149;
+export const TRIAL_DAYS=14, SIDELINE_USD=149; // single source of truth: price card, trial disclosure and API all use $149/yr. No founding-rate offer exists.
+export const CONSENT_VERSION='auto-renewal-2026-11-06-draft';
+// Not purchasable; shown only as planned on /price. No checkout resolves for these slugs.
+export const PLANNED_NOT_FOR_SALE=Object.freeze({pathway:{usd:499,interval:'year'},audit:{usd:1500,interval:'once'},club:{usd:299,interval:'year'}});
 // Exact auto-renew disclosure. Must render next to EVERY trial button and in Stripe's submit text.
 export const TRIAL_DISCLOSURE=`Free for ${TRIAL_DAYS} days, then $${SIDELINE_USD} per year, renewing yearly until you cancel. Cancel any time online in one click. Your renewal date is shown on your billing page.`;
 export const books=Object.fromEntries(CAT.catalog.map(p=>[p.slug,p]));

@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Denver Metro Personalization: checkable camps, trainers and dates | The Commit Book</title>
+<meta name="description" content="Filter Denver-area camps, speed and strength trainers and mental performance consultants by sport, category, distance and budget. Every row shows its source, its check date and whether it is Verified or only Listed. No child information is collected.">
+<meta name="theme-color" content="#0a0a0a">
+<link rel="icon" href="/assets/logo/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/tokens.css">
+<link rel="stylesheet" href="/assets/commit.css">
+<link rel="stylesheet" href="/personalize/personalize.css">
+</head>
+<body class="pz">
+<header class="site-header cb-header"><a class="brand" href="/" aria-label="The Commit Book home"><img src="/assets/logo/lockup-horizontal-light.svg" alt="The Commit Book" width="135" height="30"></a><button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button><nav id="site-nav" aria-label="Main"><a href="/start">Start here</a><a href="/">Stories</a><a href="/access">Access</a><a href="/recruitiq">RecruitIQ</a><a href="/personalize" aria-current="page">Personalize</a><a href="/emerging-sports">Emerging sports</a><a href="/playbooks">Playbooks</a><a href="/price">Price</a></nav><a class="bag" href="/playbooks">Bag (<span data-bag-count>0</span>)</a></header>
+
+<main id="main">
+<section class="pz-hero">
+  <div class="in">
+    <p class="lab">Denver Metro pilot</p>
+    <h1>Real camps. Checkable trainers. Honest dates.</h1>
+    <p>Five questions, no child information. We show who runs each camp or program, when we last read the page, and whether anything beyond the provider's own word backs it up.</p>
+    <p class="pz-privacy"><b>Parent-safe by design.</b> This page asks only for sport, graduation year, a 3-digit ZIP prefix, a budget and a goal. It never asks for a child's name, birth date, phone, school or practice schedule. Nothing you pick leaves this browser.</p>
+  </div>
+</section>
+
+<div class="pz-wrap">
+
+<section class="pz-sec" id="sec-intake" aria-labelledby="h-intake">
+  <p class="lab">A. Intake</p>
+  <h2 id="h-intake">Find what fits</h2>
+  <form id="intake" class="pz-form" novalidate autocomplete="off">
+    <label>Sport
+      <select id="f-sport">
+        <option value="football">Football</option>
+        <option value="baseball">Baseball</option>
+        <option value="track">Track &amp; Field</option>
+        <option value="multi">Multi-sport</option>
+      </select>
+    </label>
+    <label>Category
+      <select id="f-category">
+        <option value="all">All categories</option>
+        <option value="mental">Mental Performance / CMPC</option>
+        <option value="speed">Speed &amp; Strength</option>
+        <option value="governing">Governing body / CHSAA calendar</option>
+        <option value="camp">College ID Camp / Showcase</option>
+      </select>
+    </label>
+    <label>Verification status
+      <select id="f-verif">
+        <option value="all">Verified and Listed</option>
+        <option value="verified">Verified (registry row)</option>
+        <option value="listed">Listed (directory entry)</option>
+      </select>
+    </label>
+    <label>Graduating class
+      <select id="f-class"></select>
+    </label>
+    <label>Area: ZIP or 3-digit prefix
+      <input id="f-zip" type="text" inputmode="numeric" maxlength="5" value="802" pattern="[0-9]{3,5}" aria-describedby="zip-help">
+    </label>
+    <label>Distance from that area
+      <select id="f-radius">
+        <option value="any">Any distance</option>
+        <option value="15">Within 15 miles</option>
+        <option value="40">Within 40 miles</option>
+        <option value="100">Within 100 miles</option>
+      </select>
+    </label>
+    <label>Monthly budget cap (USD)
+      <input id="f-budget" type="number" min="0" max="5000" step="25" placeholder="No cap">
+    </label>
+    <label class="pz-check"><input id="f-hist" type="checkbox"> Show historical/undated reference rows</label>
+    <p class="pz-pii" id="zip-help">Only the first 3 digits of a ZIP are kept, and only in this page's memory. We do not ask for, and this page cannot send, a child's name, birth date, phone number, school or schedule. Distances are straight-line miles from ZIP-prefix centers, not drive time.</p>
+    <p class="pz-msg" id="form-msg" role="alert"></p>
+  </form>
+
+  <div class="pz-badges-help note">
+    <p class="note"><b>Verified</b>: a third-party registry entry was read for this row. <b>Listed</b>: the provider, a directory or a dated page says so; not independently checked. We do not show "Vetted" because no background-check documentation is on file for any provider.</p>
+  </div>
+</section>
+
+<section class="pz-sec" id="sec-results" aria-labelledby="h-results">
+  <p class="lab">B. Results with provenance</p>
+  <h2 id="h-results">What we found, and how sure we are</h2>
+  <div id="summary" aria-live="polite"></div>
+  <div id="results"></div>
+</section>
+
+<section class="pz-sec" id="sec-checklist" aria-labelledby="h-ck">
+  <p class="lab">C. Before you pay</p>
+  <h2 id="h-ck">Parent vetting checklist: Colorado SB24-113 and SafeSport</h2>
+  <p class="pz-law">Colorado's Safer Youth Sports law (SB24-113) requires youth sports organizations to run pre-hire criminal history checks on coaches through a consumer reporting agency, to require annual mandatory-reporter training, and to adopt a prohibited-conduct policy. It also encourages annual abuse-prevention training. Ask every private trainer, facility or camp these questions before paying or leaving a minor athlete. Education, not legal advice. We have not verified any provider's safety.</p>
+  <ul id="checklist" class="pz-ckl"></ul>
+  <div class="pz-actions pz-noprint">
+    <button type="button" class="pz-btn" id="btn-print">Print checklist</button>
+    <button type="button" class="pz-btn pz-btn--ghost" id="btn-ck-dl">Download as text</button>
+  </div>
+</section>
+</div>
+
+<section class="pz-ics" id="sec-ics" aria-labelledby="h-ics">
+  <div class="in">
+    <p class="lab">D. Calendar</p>
+    <h2 id="h-ics">Export dated rows to your calendar</h2>
+    <p>Downloads an .ics file with only the dated rows currently shown. It works in Apple Calendar and Google Calendar. Windows are marked as windows, not confirmed days. Undated and past rows are never exported, and the file contains no child information.</p>
+    <button type="button" class="pz-btn" id="btn-ics" disabled>Download .ics</button>
+  </div>
+</section>
+</main>
+
+<footer class="cb-foot"><img src="/assets/logo/lockup-horizontal-dark.svg" alt="The Commit Book" width="180" height="40"><p class="footnav"><a href="/">Stories</a> · <a href="/playbooks">Playbooks</a> · <a href="/calendar">Calendar</a> · <a href="/rules">Rules by sport</a> · <a href="/legal/terms">Terms</a> · <a href="/legal/privacy">Privacy</a></p><p>Education, not legal advice. Not medical advice. Ranked by fit, location, cost clarity, checkability and freshness, not by who pays us. We do not recruit or place athletes, and no scholarship, offer or roster spot is promised. Mental performance consulting is not a substitute for medical or mental-health care.</p></footer>
+
+<script src="/personalize/personalize.js"></script>
+<script src="/personalize/personalize.ui.js"></script>
+</body>
+</html>

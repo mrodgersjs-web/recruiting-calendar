@@ -1,0 +1,1269 @@
+{
+ "generated_from": [
+  "v3/W7-segments/MARKET.md",
+  "v3/W7-segments/TEN-LAYERS.md",
+  "v3/W7-segments/SOLUTIONS.md",
+  "v3/W6-problems/PROBLEMS.md"
+ ],
+ "honesty": {
+  "evidenced": 42,
+  "inferred": 18,
+  "note": "Evidenced = Social Fetch sample (hand-tagged, directional, paraphrased, no usernames) or a primary NCAA rule. Inferred = our working hypothesis, not yet tested with families."
+ },
+ "segments": [
+  {
+   "id": 1,
+   "key": "planner",
+   "name": "9th/10th Grade Planner",
+   "tag": "Early, curious, not yet panicking",
+   "who": "Parent of a 9th or 10th grader. No coach has called. The risk is a paid service pitching a young athlete, and spending before the rules say anyone may reply.",
+   "chains": [
+    1,
+    5,
+    3
+   ],
+   "plan": [
+    {
+     "step": "This month: read the by-grade checklist",
+     "why": "Problem #1 in the Social Fetch sample: 'just give me the steps'.",
+     "tool": "Start here by grade",
+     "href": "/start/",
+     "planned_route": "/start"
+    },
+    {
+     "step": "Put the contact dates on your own calendar",
+     "why": "D1/D2 coaches generally cannot reply to you before the dates in the bylaws. Emailing earlier gets no answer by rule.",
+     "tool": "Rule calendar",
+     "href": "/calendar/",
+     "planned_route": "/calendar"
+    },
+    {
+     "step": "Check every class against the NCAA-approved list",
+     "why": "Core-course mistakes cannot be fixed late.",
+     "tool": "Eligibility: the 2 hard deadlines",
+     "href": "/playbooks/eligibility-2-hard-deadlines/",
+     "planned_route": "/playbooks/eligibility-2-hard-deadlines"
+    },
+    {
+     "step": "If you live in the Denver metro, check camps and trainers against their sources",
+     "why": "Every row shows its source and check date. Denver area only.",
+     "tool": "Denver metro camps & trainers",
+     "href": "/personalize/",
+     "planned_route": "/personalize"
+    },
+    {
+     "step": "Hold your money until a coach has actually written",
+     "why": "Spend nothing on showcases or services yet.",
+     "tool": "Family spending check (view C)",
+     "href": "#view-c",
+     "planned_route": "#view-c"
+    }
+   ],
+   "story": {
+    "label": "Perez: started in eighth grade and still found a home",
+    "href": "/athlete/perez/"
+   },
+   "spend_note": "Free path. Budget line to protect: nothing recurring before sophomore summer."
+  },
+  {
+   "id": 2,
+   "key": "late",
+   "name": "Late-Start Junior/Senior Panic",
+   "tag": "Behind, and feels it",
+   "who": "Junior or senior with no list, no film plan, no replies. Roster spots are filling. The risk is mass-emailing the wrong level and buying a panic service.",
+   "chains": [
+    2,
+    4,
+    5
+   ],
+   "plan": [
+    {
+     "step": "Reset the level: D2, D3, NAIA and JUCO still fill rosters in senior year",
+     "why": "Chain 2 layer 3: aiming too high is the usual cause.",
+     "tool": "Late Bloomer playbook",
+     "href": "/playbooks/late-bloomer/",
+     "planned_route": "/playbooks/late-bloomer"
+    },
+    {
+     "step": "Read the by-grade checklist for what is still open",
+     "why": "It tells you what is allowed now and what date comes next.",
+     "tool": "Start here by grade",
+     "href": "/start/",
+     "planned_route": "/start"
+    },
+    {
+     "step": "Get your earliest contact dates, a 30-school target list and an athlete-voice email",
+     "why": "Coaches spot parent-written mail; a short, realistic list beats mass email.",
+     "tool": "Reach coaches yourself",
+     "href": "/access/",
+     "planned_route": "/access"
+    },
+    {
+     "step": "Open the Eligibility Center account if you have not",
+     "why": "Without it, no D1/D2 official visit.",
+     "tool": "Eligibility Center cost answer",
+     "href": "/answers/ncaa-eligibility-center-account-cost/",
+     "planned_route": "/answers/ncaa-eligibility-center-account-cost"
+    }
+   ],
+   "story": {
+    "label": "Diego: junior college is a real first step",
+    "href": "/athlete/composite-baseball/"
+   },
+   "spend_note": "Spend only on verified essentials. One targeted camp, after a coach has replied."
+  },
+  {
+   "id": 3,
+   "key": "burned",
+   "name": "Burned by a Paid Recruiting Service or Showcase Circuit",
+   "tag": "Paid $1,500–$4,200 and wants out",
+   "who": "Family that paid a recruiting service or ran the showcase circuit and is asking 'was it worth it, and how do we cancel?' Parents in the sample report up to about $4K plus monthly fees.",
+   "chains": [
+    3,
+    4,
+    5
+   ],
+   "plan": [
+    {
+     "step": "Check your athlete against sourced standards before paying anyone to judge level",
+     "why": "Chain 3: services did little families could not do; prices hidden until the end of the call.",
+     "tool": "Standards & fit explorer",
+     "href": "/recruitiq/",
+     "planned_route": "/recruitiq"
+    },
+    {
+     "step": "Compare what you bought with what is free",
+     "why": "Chain 3: services did little families could not do; prices hidden until the end of the call.",
+     "tool": "Service vs DIY comparison",
+     "href": "/compare/",
+     "planned_route": "/compare"
+    },
+    {
+     "step": "Rebuild the timeline and tracker yourself",
+     "why": "The thing parents liked about services was the contact timeline.",
+     "tool": "Rule calendar",
+     "href": "/calendar/",
+     "planned_route": "/calendar"
+    },
+    {
+     "step": "Spot the next pitch before it lands",
+     "why": "Red-flag checklist for sales calls and contracts.",
+     "tool": "Red flags checklist (coming soon)",
+     "href": "/tools/red-flags/",
+     "planned_route": "/tools/red-flags"
+    },
+    {
+     "step": "Redirect the remaining budget (view C)",
+     "why": "The $110 NCAA fee is the one cost every D1/D2 path needs.",
+     "tool": "Reallocator",
+     "href": "#view-c",
+     "planned_route": "#view-c"
+    }
+   ],
+   "story": {
+    "label": "Coward: zero D1 offers, a D3 start, a long climb",
+    "href": "/athlete/coward/"
+   },
+   "spend_note": "Cancellation terms vary by contract. Read yours; this site gives education, not legal advice."
+  },
+  {
+   "id": 4,
+   "key": "academic",
+   "name": "High-Academic D3 / Ivy / Merit-Aid Family",
+   "tag": "Admissions and recruiting at once",
+   "who": "Strong student, often swimming, tennis, lacrosse or golf. The questions are early-action with coach support and how athletic and academic aid stack.",
+   "chains": [
+    5,
+    4,
+    6
+   ],
+   "plan": [
+    {
+     "step": "Lead with academic aid, then ask the coach about fit",
+     "why": "D3 gives no athletic scholarships; aid is academic or need-based.",
+     "tool": "D3 path: academic aid first",
+     "href": "/playbooks/d3-academic-aid-first/",
+     "planned_route": "/playbooks/d3-academic-aid-first"
+    },
+    {
+     "step": "Do the roster and aid math before you fall for a school",
+     "why": "Know the spots and the real net cost.",
+     "tool": "Roster and aid math",
+     "href": "/math/",
+     "planned_route": "/math"
+    },
+    {
+     "step": "Check whether D3 offers athletic scholarships (it does not)",
+     "why": "Clears up the most common wrong assumption.",
+     "tool": "Parent answer",
+     "href": "/answers/does-d3-offer-athletic-scholarships/",
+     "planned_route": "/answers"
+    },
+    {
+     "step": "Compare offers side by side before deadlines",
+     "why": "Early-decision commitments bind.",
+     "tool": "Offers & signing playbook",
+     "href": "/playbooks/offer-and-signing/",
+     "planned_route": "/playbooks/offer-and-signing"
+    }
+   ],
+   "story": {
+    "label": "Marpet: no D1 offers? Division III can build an athlete",
+    "href": "/athlete/marpet/"
+   },
+   "spend_note": "Highest household spend in the Aspen data ($100K+ band). Spend on visits that matter, not on volume."
+  },
+  {
+   "id": 5,
+   "key": "clock",
+   "name": "Clock/Mark Sport: Track, XC, Swim",
+   "tag": "Your times are the résumé",
+   "who": "Athlete whose numbers are public. The lever is a verified mark at a meet coaches use, a clear list, and the right email, not a flashy video.",
+   "chains": [
+    4,
+    5,
+    6
+   ],
+   "plan": [
+    {
+     "step": "Know the track dates and rules for your class year",
+     "why": "Track recruiting dates differ from team sports.",
+     "tool": "Track rules by class year",
+     "href": "/rules/track/2029/",
+     "planned_route": "/rules"
+    },
+    {
+     "step": "Use the marks-to-roster playbook",
+     "why": "Turn a verified time into a target list.",
+     "tool": "Track & field: marks to roster",
+     "href": "/playbooks/track-field-marks/",
+     "planned_route": "/playbooks/track-field-marks"
+    },
+    {
+     "step": "Check when track coaches may contact you",
+     "why": "Direct answer with the bylaw cited.",
+     "tool": "Parent answer",
+     "href": "/answers/when-can-track-coaches-contact-athletes/",
+     "planned_route": "/answers"
+    },
+    {
+     "step": "Email in the athlete's voice with the mark in the subject",
+     "why": "Coaches skim; grad year and mark first.",
+     "tool": "Reach coaches yourself",
+     "href": "/access/",
+     "planned_route": "/access"
+    }
+   ],
+   "story": {
+    "label": "Maya: her times were good, nobody knew yet",
+    "href": "/athlete/composite-swim/"
+   },
+   "spend_note": "Aspen 2019 average for track is $191 and swimming $786, so the budget is modest. Protect it."
+  },
+  {
+   "id": 6,
+   "key": "emerging",
+   "name": "Emerging Sport or JUCO/NAIA Transfer Path",
+   "tag": "A new door, thin information",
+   "who": "Girls' flag football, women's wrestling, or a family weighing JUCO then transfer. Few playbooks exist; the college pathway is new.",
+   "chains": [
+    1,
+    2,
+    5
+   ],
+   "plan": [
+    {
+     "step": "Find your sport's pathway checklist",
+     "why": "Girls flag football, girls wrestling and boys volleyball are growing faster than most guides track.",
+     "tool": "Emerging sports checklist",
+     "href": "/emerging-sports/",
+     "planned_route": "/emerging-sports"
+    },
+    {
+     "step": "Read the JUCO-to-D1 path",
+     "why": "Many families use a JUCO year as a real first step.",
+     "tool": "JUCO to D1 playbook",
+     "href": "/playbooks/juco-to-d1/",
+     "planned_route": "/playbooks/juco-to-d1"
+    },
+    {
+     "step": "Learn the walk-on route where no scholarship exists yet",
+     "why": "New programs often fill through tryouts.",
+     "tool": "Walk-on playbook",
+     "href": "/playbooks/walk-on/",
+     "planned_route": "/playbooks/walk-on"
+    },
+    {
+     "step": "Use the by-grade checklist and rule calendar",
+     "why": "Rules for new sports lag; confirm each date.",
+     "tool": "Start here by grade",
+     "href": "/start/",
+     "planned_route": "/start"
+    },
+    {
+     "step": "See the full playbook shelf",
+     "why": "All sport and stage playbooks.",
+     "tool": "Playbooks",
+     "href": "/playbooks/",
+     "planned_route": "/playbooks"
+    }
+   ],
+   "story": {
+    "label": "Rodriguez: stepped away? A new program can still find you",
+    "href": "/athlete/rodriguez/"
+   },
+   "spend_note": "Cheap sports but a high information need. An emerging-sports program list is not on the site yet."
+  }
+ ],
+ "chains": [
+  {
+   "id": 1,
+   "title": "Where do I start: give me the steps",
+   "hardest": [
+    "Football (boys)",
+    "Volleyball (girls)",
+    "Flag Football (girls)",
+    "Wrestling (girls)"
+   ],
+   "layers": [
+    {
+     "n": 1,
+     "name": "Stated complaint",
+     "text": "Parents say they don't know who/what/when/how and ask for a step list.",
+     "status": "EVIDENCED",
+     "source": "v3/W6-problems/PROBLEMS.md #1"
+    },
+    {
+     "n": 2,
+     "name": "Trigger",
+     "text": "A first recruiting video, camp invite, or a peer committing makes the family realize the process exists; often 8th-10th grade.",
+     "status": "EVIDENCED",
+     "source": "v3/W7-segments/raw/ytc_ogjICDcgCro.json (class-of-2030 asks when to email); v3/W6-problems/PROBLEMS.md #5"
+    },
+    {
+     "n": 3,
+     "name": "Underlying cause",
+     "text": "No neutral owner of the process: HS coach is not responsible, the NCAA publishes rules not plans, services sell rather than teach.",
+     "status": "EVIDENCED",
+     "source": "v3/W7-segments/raw/fbc_2817241591782952.json; v3/W7-segments/raw/ws3.json"
+    },
+    {
+     "n": 4,
+     "name": "What they tried",
+     "text": "Ask in TikTok comments, 'DM me', join FB groups, read blogs.",
+     "status": "EVIDENCED",
+     "source": "v3/W6-problems/PROBLEMS.md #1; v3/W7-segments/raw/ws4.json"
+    },
+    {
+     "n": 5,
+     "name": "Why it failed",
+     "text": "Answers are pitches or lead magnets; big FB groups ban school-specific questions; advice conflicts.",
+     "status": "EVIDENCED",
+     "source": "v3/W6-problems/PROBLEMS.md sec D(f); v3/W7-segments/raw/ws4.json"
+    },
+    {
+     "n": 6,
+     "name": "Cost",
+     "text": "Time and missed windows (e.g. D1/D2 contact opens Jun 15 / Sep 1 after sophomore yr); risk of paying a service out of panic.",
+     "status": "EVIDENCED",
+     "source": "v3/W7-segments/raw/ws5.json; v3/W6-problems/PROBLEMS.md #3"
+    },
+    {
+     "n": 7,
+     "name": "Who else",
+     "text": "Athlete loses months of outreach; parent carries the stress; spouses disagree on spend.",
+     "status": "INFERRED",
+     "source": "-"
+    },
+    {
+     "n": 8,
+     "name": "Job-to-be-done",
+     "text": "'Tell me, for my kid's grade and sport, the 3 things to do this month.'",
+     "status": "INFERRED",
+     "source": "derived from v3/W6-problems/PROBLEMS.md sec B.1"
+    },
+    {
+     "n": 9,
+     "name": "Winning solution",
+     "text": "Free 'Start here by grade + sport' page that outputs a dated monthly checklist from the rule calendar, then routes to the Sport Pack.",
+     "status": "INFERRED",
+     "source": "-"
+    },
+    {
+     "n": 10,
+     "name": "Proof it worked",
+     "text": "Parent can name this month's 3 tasks and the next contact date; checklist items ticked; first coach email sent within 14 days.",
+     "status": "INFERRED",
+     "source": "-"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Is it too late? Junior/senior with nothing",
+   "hardest": [
+    "Football (boys)",
+    "Baseball",
+    "Soccer (boys)",
+    "Basketball (boys)",
+    "Swimming (girls)"
+   ],
+   "layers": [
+    {
+     "n": 1,
+     "name": "Stated complaint",
+     "text": "'My kid is a senior/junior and we have nothing. Is it too late?'",
+     "status": "EVIDENCED",
+     "source": "v3/W6-problems/PROBLEMS.md #2; v3/W7-segments/raw/fbc_1905509627076483.json"
+    },
+    {
+     "n": 2,
+     "name": "Trigger",
+     "text": "Summer before senior year: teammates commit, D2 boards look full, a dream school goes silent.",
+     "status": "EVIDENCED",
+     "source": "v3/W7-segments/raw/fbc_1905509627076483.json; v3/W7-segments/raw/fbc_777151595302886.json; v3/W7-segments/raw/ws2.json"
+    },
+    {
+     "n": 3,
+     "name": "Underlying cause",
+     "text": "Started outreach late and aimed too high; never assessed realistic level.",
+     "status": "EVIDENCED",
+     "source": "v3/W7-segments/raw/fbc_3036669593173483.json (hunting too big a school)"
+    },
+    {
+     "n": 4,
+     "name": "What they tried",
+     "text": "Mass-email, buy a service, post on X, attend late camps.",
+     "status": "EVIDENCED",
+     "source": "v3/W7-segments/raw/fbc_2817241591782952.json (20-30 DMs/day); v3/W6-problems/PROBLEMS.md #2"
+    },
+    {
+     "n": 5,
+     "name": "Why it failed",
+     "text": "Wrong targets (P4/D1 boards filled by August), unanswered emails, no follow-up plan.",
+     "status": "EVIDENCED",
+     "source": "v3/W7-segments/raw/ws2.json; v3/W7-segments/raw/fbc_777151595302886.json"
+    },
+    {
+     "n": 6,
+     "name": "Cost",
+     "text": "Eligibility of the window: roster spots filled; possible JUCO detour; money on panic services.",
+     "status": "EVIDENCED",
+     "source": "v3/W6-problems/PROBLEMS.md #2; v3/W7-segments/raw/fbc_1905509627076483.json (JC route)"
+    },
+    {
+     "n": 7,
+     "name": "Who else",
+     "text": "Athlete's confidence; club coaches; target coaches still filling the roster for next year.",
+     "status": "EVIDENCED",
+     "source": "v3/W7-segments/raw/fbc_948952934789417.json; v3/W7-segments/raw/fbc_777151595302886.json"
+    },
+    {
+     "n": 8,
+     "name": "Job-to-be-done",
+     "text": "'Find the programs still filling our class and get us in front of them before signing day.'",
+     "status": "INFERRED",
+     "source": "-"
+    },
+    {
+     "n": 9,
+     "name": "Winning solution",
+     "text": "Senior-year sprint playbook: level reset to D2/D3/NAIA/JUCO, 30-school list, 4-touch follow-up cadence, 'we'll be in your area' visit email, JUCO/post-grad fallback.",
+     "status": "EVIDENCED",
+     "source": "tactics from v3/W7-segments/raw/fbc_777151595302886.json, fbc_1905509627076483.json; existing https://recruiting-calendar.vercel.app/playbooks/late-bloomer/"
+    },
+    {
+     "n": 10,
+     "name": "Proof it worked",
+     "text": "A coach reply or visit invite within 30 days; a roster spot or JUCO plan in hand by graduation.",
+     "status": "EVIDENCED",
+     "source": "v3/W7-segments/raw/fbc_1640678950582058.json (committed after graduation)"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Is NCSA/a recruiting service worth it, and how do I cancel?",
+   "hardest": [
+    "Football (boys)",
+    "Baseball",
+    "Basketball (boys)",
+    "Volleyball (girls)"
+   ],
+   "layers": [
+    {
+     "n": 1,
+     "name": "Stated complaint",
+     "text": "Regret after paying; aggressive calls; can't cancel; 'is it worth it?'",
+     "status": "EVIDENCED",
+     "source": "v3/W7-segments/raw/fbc_2777699965737115.json; v3/W7-segments/raw/fbc_3051766708336417.json; v3/W7-segments/raw/ytc_GrjjF7Uw7Kg.json"
+    },
+    {
+     "n": 2,
+     "name": "Trigger",
+     "text": "Unsolicited call/text from a service after a free profile or camp, often to a young athlete.",
+     "status": "EVIDENCED",
+     "source": "v3/W7-segments/raw/ytc_GrjjF7Uw7Kg.json; v3/W6-problems/PROBLEMS.md #3"
+    },
+    {
+     "n": 3,
+     "name": "Underlying cause",
+     "text": "Parents don't know what is free (NCAA rules, email, X) and fear their kid is invisible without paying.",
+     "status": "INFERRED",
+     "source": "-"
+    },
+    {
+     "n": 4,
+     "name": "What they tried",
+     "text": "Sign up, sometimes at a 'discount'; ask groups.",
+     "status": "EVIDENCED",
+     "source": "v3/W7-segments/raw/fbc_3051766708336417.json"
+    },
+    {
+     "n": 5,
+     "name": "Why it failed",
+     "text": "Coaches dislike agency contact; services did nothing families couldn't do; prices hidden till end of call; refund refused under hardship.",
+     "status": "EVIDENCED",
+     "source": "v3/W7-segments/raw/fbc_3036669593173483.json; v3/W7-segments/raw/fbc_3051766708336417.json; v3/W7-segments/raw/ytc_obrG2cvdBxQ.json; v3/W7-segments/raw/fbc_2777699965737115.json"
+    },
+    {
+     "n": 6,
+     "name": "Cost",
+     "text": "Money: parents report up to ~$4K plus monthly fees; a contract during income loss.",
+     "status": "EVIDENCED",
+     "source": "v3/W6-problems/PROBLEMS.md #3; v3/W7-segments/raw/fbc_2777699965737115.json"
+    },
+    {
+     "n": 7,
+     "name": "Who else",
+     "text": "Athlete (coaches ignore service emails); a minority report real offers, so families split.",
+     "status": "EVIDENCED",
+     "source": "v3/W7-segments/raw/fbc_2777699965737115.json; v3/W7-segments/raw/ytc_GrjjF7Uw7Kg.json"
+    },
+    {
+     "n": 8,
+     "name": "Job-to-be-done",
+     "text": "'Get the organization and timeline a service gives, without the price or the sales pressure.'",
+     "status": "EVIDENCED",
+     "source": "v3/W7-segments/raw/fbc_3051766708336417.json (liked the contact timeline)"
+    },
+    {
+     "n": 9,
+     "name": "Winning solution",
+     "text": "Honest 'service vs DIY' comparison + cancel guide + the same timeline/tracker for a fixed low price.",
+     "status": "INFERRED",
+     "source": "existing https://recruiting-calendar.vercel.app/compare/"
+    },
+    {
+     "n": 10,
+     "name": "Proof it worked",
+     "text": "Family cancels or never signs; saves the fee; still sends weekly outreach from the tracker.",
+     "status": "INFERRED",
+     "source": "-"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "title": "What do I say to a coach, and on which channel?",
+   "hardest": [
+    "Baseball",
+    "Soccer (girls)",
+    "Swimming (girls)",
+    "Volleyball (girls)",
+    "Lacrosse (boys)"
+   ],
+   "layers": [
+    {
+     "n": 1,
+     "name": "Stated complaint",
+     "text": "'What do I actually write, and email vs X DM vs questionnaire?'",
+     "status": "EVIDENCED",
+     "source": "v3/W6-problems/PROBLEMS.md #4; v3/W7-segments/raw/ws4.json"
+    },
+    {
+     "n": 2,
+     "name": "Trigger",
+     "text": "First outreach push, or weeks of silence after the first emails.",
+     "status": "EVIDENCED",
+     "source": "v3/W7-segments/raw/ws5.json; v3/W7-segments/raw/fbc_777151595302886.json"
+    },
+    {
+     "n": 3,
+     "name": "Underlying cause",
+     "text": "Emails written by parents, no grad year in subject, no film link, sent before contact dates.",
+     "status": "EVIDENCED",
+     "source": "v3/W7-segments/raw/ws4.json; v3/W7-segments/raw/ws5.json"
+    },
+    {
+     "n": 4,
+     "name": "What they tried",
+     "text": "Random templates, mass DMs, creators' dead links.",
+     "status": "EVIDENCED",
+     "source": "v3/W6-problems/PROBLEMS.md #4; v3/W7-segments/raw/fbc_2817241591782952.json"
+    },
+    {
+     "n": 5,
+     "name": "Why it failed",
+     "text": "Coaches skim and delete; D1/D2 can't reply before Jun 15/Sep 1 dates; silence read as rejection.",
+     "status": "EVIDENCED",
+     "source": "v3/W7-segments/raw/ws5.json"
+    },
+    {
+     "n": 6,
+     "name": "Cost",
+     "text": "Time; a burned first impression with a target program.",
+     "status": "INFERRED",
+     "source": "-"
+    },
+    {
+     "n": 7,
+     "name": "Who else",
+     "text": "Athlete must own it (coaches spot parent-written mail); target coaches flooded.",
+     "status": "EVIDENCED",
+     "source": "v3/W7-segments/raw/ws4.json; v3/W7-segments/raw/fbc_948952934789417.json"
+    },
+    {
+     "n": 8,
+     "name": "Job-to-be-done",
+     "text": "'Get a reply from the coaches who fit us.'",
+     "status": "INFERRED",
+     "source": "-"
+    },
+    {
+     "n": 9,
+     "name": "Winning solution",
+     "text": "Sport-specific email/DM scripts written in the athlete's voice + follow-up cadence tied to the contact calendar.",
+     "status": "INFERRED",
+     "source": "existing https://recruiting-calendar.vercel.app/playbooks/highlight-reel-social/"
+    },
+    {
+     "n": 10,
+     "name": "Proof it worked",
+     "text": "Reply rate per 10 emails sent; first coach reply.",
+     "status": "INFERRED",
+     "source": "-"
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "title": "When can coaches contact us, and when should we start?",
+   "hardest": [
+    "Baseball",
+    "Football (boys)",
+    "Soccer (girls)",
+    "Lacrosse (girls)"
+   ],
+   "layers": [
+    {
+     "n": 1,
+     "name": "Stated complaint",
+     "text": "'When can coaches contact us, and when should we start?'",
+     "status": "EVIDENCED",
+     "source": "v3/W6-problems/PROBLEMS.md #5; v3/W7-segments/raw/ytc_ogjICDcgCro.json"
+    },
+    {
+     "n": 2,
+     "name": "Trigger",
+     "text": "Younger sibling or 8th-9th grader gets a service call; peers talk about offers.",
+     "status": "EVIDENCED",
+     "source": "v3/W6-problems/PROBLEMS.md #3, #5"
+    },
+    {
+     "n": 3,
+     "name": "Underlying cause",
+     "text": "Rules differ by division and sport and change; most sources don't cite the bylaw.",
+     "status": "INFERRED",
+     "source": "-"
+    },
+    {
+     "n": 4,
+     "name": "What they tried",
+     "text": "Ask creators; follow services' 'start freshman year' advice.",
+     "status": "EVIDENCED",
+     "source": "v3/W6-problems/PROBLEMS.md #5"
+    },
+    {
+     "n": 5,
+     "name": "Why it failed",
+     "text": "Conflicting advice; emailing D1 coaches early gets no reply by rule.",
+     "status": "EVIDENCED",
+     "source": "v3/W7-segments/raw/ws5.json"
+    },
+    {
+     "n": 6,
+     "name": "Cost",
+     "text": "Wasted early spend; anxiety; or missed contact-opening dates.",
+     "status": "EVIDENCED",
+     "source": "v3/W6-problems/PROBLEMS.md #5"
+    },
+    {
+     "n": 7,
+     "name": "Who else",
+     "text": "Coaches bound by rules; athlete confused by silence.",
+     "status": "INFERRED",
+     "source": "-"
+    },
+    {
+     "n": 8,
+     "name": "Job-to-be-done",
+     "text": "'Know exactly what's allowed now and what date to act next.'",
+     "status": "INFERRED",
+     "source": "-"
+    },
+    {
+     "n": 9,
+     "name": "Winning solution",
+     "text": "Bylaw-cited rule calendar by sport/division with date reminders.",
+     "status": "EVIDENCED",
+     "source": "https://recruiting-calendar.vercel.app/calendar/ and https://recruiting-calendar.vercel.app/answers/when-can-college-coaches-contact-my-kid/"
+    },
+    {
+     "n": 10,
+     "name": "Proof it worked",
+     "text": "Parent acts on the opening date (e.g. Jun 15 after soph year) instead of guessing.",
+     "status": "INFERRED",
+     "source": "-"
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "title": "How do I register with the NCAA / get the ID, and what does it cost?",
+   "hardest": [
+    "Football (boys)",
+    "Basketball (boys)",
+    "Soccer (girls)",
+    "Track & Field"
+   ],
+   "layers": [
+    {
+     "n": 1,
+     "name": "Stated complaint",
+     "text": "'How do I get the NCAA ID? What does it cost?'",
+     "status": "EVIDENCED",
+     "source": "v3/W6-problems/PROBLEMS.md #6"
+    },
+    {
+     "n": 2,
+     "name": "Trigger",
+     "text": "A coach asks for the ID, or an official visit is scheduled.",
+     "status": "EVIDENCED",
+     "source": "v3/W7-segments/raw/fbc_486168307734551.json; v3/W7-segments/raw/ws6.json"
+    },
+    {
+     "n": 3,
+     "name": "Underlying cause",
+     "text": "Confusion among NCAA ID, Eligibility Center Certification vs Profile account, fee, and NCSA.",
+     "status": "EVIDENCED",
+     "source": "v3/W6-problems/PROBLEMS.md #6; v3/W7-segments/raw/ws6.json"
+    },
+    {
+     "n": 4,
+     "name": "What they tried",
+     "text": "Ask creators and groups.",
+     "status": "EVIDENCED",
+     "source": "v3/W6-problems/PROBLEMS.md #6"
+    },
+    {
+     "n": 5,
+     "name": "Why it failed",
+     "text": "Mixed timing advice ('register sophomore year' vs 'don't apply yet').",
+     "status": "EVIDENCED",
+     "source": "v3/W7-segments/raw/fbc_486168307734551.json; v3/W7-segments/raw/ws6.json"
+    },
+    {
+     "n": 6,
+     "name": "Cost",
+     "text": "Eligibility: no Certification account and transcripts means no D1/D2 official visit.",
+     "status": "EVIDENCED",
+     "source": "v3/W7-segments/raw/ws6.json; v3/W7-segments/raw/fbc_486168307734551.json"
+    },
+    {
+     "n": 7,
+     "name": "Who else",
+     "text": "HS counselor (transcripts), college compliance, athlete.",
+     "status": "EVIDENCED",
+     "source": "v3/W7-segments/raw/fbc_486168307734551.json"
+    },
+    {
+     "n": 8,
+     "name": "Job-to-be-done",
+     "text": "'Make sure nothing on paper blocks my kid.'",
+     "status": "INFERRED",
+     "source": "-"
+    },
+    {
+     "n": 9,
+     "name": "Winning solution",
+     "text": "Step-by-step Eligibility Center + NAIA registration walkthrough with fee and deadline.",
+     "status": "EVIDENCED",
+     "source": "https://recruiting-calendar.vercel.app/playbooks/eligibility-2-hard-deadlines/ and https://recruiting-calendar.vercel.app/answers/ncaa-eligibility-center-account-cost/"
+    },
+    {
+     "n": 10,
+     "name": "Proof it worked",
+     "text": "Account created, transcripts sent, official visit not blocked.",
+     "status": "INFERRED",
+     "source": "-"
+    }
+   ]
+  }
+ ],
+ "badges": {
+  "EVIDENCED": "EVIDENCED — Social Fetch / Primary Rule",
+  "INFERRED": "INFERRED — Working Hypothesis"
+ },
+ "spending": {
+  "source": "Aspen Institute Project Play, National Youth Sports Parent Survey, 2024 (n=1,848, fielded Nov-Dec 2024)",
+  "url": "https://www.aspeninstitute.org/wp-content/uploads/2025/06/National-Youth-Sports-Parent-Survey-FINAL.pdf",
+  "avg_primary_sport": 1016,
+  "avg_other_sports": 475,
+  "by_income": [
+   {
+    "label": "Under $50K",
+    "amt": 604
+   },
+   {
+    "label": "$50K-$99K",
+    "amt": 961
+   },
+   {
+    "label": "$100K+",
+    "amt": 1591
+   }
+  ],
+  "by_sport_2024": [
+   {
+    "label": "Dance",
+    "amt": 2048
+   },
+   {
+    "label": "Baseball",
+    "amt": 1113
+   },
+   {
+    "label": "Soccer",
+    "amt": 910
+   },
+   {
+    "label": "Basketball",
+    "amt": 876
+   },
+   {
+    "label": "Tackle football",
+    "amt": 634
+   },
+   {
+    "label": "Flag football",
+    "amt": 444
+   }
+  ],
+  "travel_lodging_avg": 278,
+  "travel_lodging_100k": 429,
+  "ncaa_cert_fee": 110,
+  "ncaa_cert_url": "https://fs.ncaa.org/Docs/eligibility_center/Student_Resources/Registration_Checklist.pdf"
+ },
+ "sizing": {
+  "label": "MODEL ASSUMPTION, not a census figure",
+  "assumptions": [
+   "Jr+Sr = HS participants / 4 x 2",
+   "College intent 30% (ESTIMATE)",
+   "Paying share by income skew H 55% / M 40% / L 30% (ESTIMATE)",
+   "Revenue ceiling = families x $149 membership; real conversion would be a few percent"
+  ],
+  "total_serviceable_families": 496245,
+  "conversion_example": {
+   "rate": 0.02,
+   "families": 9925
+  },
+  "participation_source": "NFHS 2024-25 participation survey (record 8,266,244); division percentages from NCAA Probability of Competing Beyond HS (derived, rounded)",
+  "rows": [
+   {
+    "sport": "Football (boys 11-player)",
+    "hs": "1,029,588",
+    "growth": "0.1",
+    "ncaa": "83,794",
+    "ratio": "12.3",
+    "spend2019": "$485",
+    "skew": "M",
+    "jrsr": "514,794",
+    "paying": "61,775",
+    "ceiling": "$9,204,475"
+   },
+   {
+    "sport": "Volleyball (girls)",
+    "hs": "492,799",
+    "growth": "4.7",
+    "ncaa": "19,810",
+    "ratio": "24.9",
+    "spend2019": "$595",
+    "skew": "H",
+    "jrsr": "246,400",
+    "paying": "40,656",
+    "ceiling": "$6,057,744"
+   },
+   {
+    "sport": "Baseball",
+    "hs": "472,598",
+    "growth": "-1.2",
+    "ncaa": "41,580",
+    "ratio": "11.4",
+    "spend2019": "$660",
+    "skew": "H",
+    "jrsr": "236,299",
+    "paying": "38,989",
+    "ceiling": "$5,809,361"
+   },
+   {
+    "sport": "Basketball (boys)",
+    "hs": "540,704",
+    "growth": "0.6",
+    "ncaa": "19,617",
+    "ratio": "27.6",
+    "spend2019": "$427",
+    "skew": "M",
+    "jrsr": "270,352",
+    "paying": "32,442",
+    "ceiling": "$4,833,858"
+   },
+   {
+    "sport": "Soccer (girls)",
+    "hs": "393,048",
+    "growth": "4",
+    "ncaa": "31,200",
+    "ratio": "12.6",
+    "spend2019": "$537",
+    "skew": "H",
+    "jrsr": "196,524",
+    "paying": "32,426",
+    "ceiling": "$4,831,474"
+   },
+   {
+    "sport": "Soccer (boys)",
+    "hs": "484,908",
+    "growth": "7.6",
+    "ncaa": "28,746",
+    "ratio": "16.9",
+    "spend2019": "$537",
+    "skew": "M",
+    "jrsr": "242,454",
+    "paying": "29,094",
+    "ceiling": "$4,335,006"
+   },
+   {
+    "sport": "Track & Field (boys)",
+    "hs": "644,235",
+    "growth": "6.5",
+    "ncaa": "34,747",
+    "ratio": "18.5",
+    "spend2019": "$191",
+    "skew": "L",
+    "jrsr": "322,118",
+    "paying": "28,991",
+    "ceiling": "$4,319,659"
+   },
+   {
+    "sport": "Track & Field (girls)",
+    "hs": "513,808",
+    "growth": "5.6",
+    "ncaa": "33,519",
+    "ratio": "15.3",
+    "spend2019": "$191",
+    "skew": "L",
+    "jrsr": "256,904",
+    "paying": "23,121",
+    "ceiling": "$3,445,029"
+   },
+   {
+    "sport": "Basketball (girls)",
+    "hs": "356,240",
+    "growth": "-4.6",
+    "ncaa": "16,823",
+    "ratio": "21.2",
+    "spend2019": "$427",
+    "skew": "M",
+    "jrsr": "178,120",
+    "paying": "21,374",
+    "ceiling": "$3,184,726"
+   },
+   {
+    "sport": "Softball (girls)",
+    "hs": "338,315",
+    "growth": "-1.9",
+    "ncaa": "21,916",
+    "ratio": "15.4",
+    "spend2019": "$613",
+    "skew": "M",
+    "jrsr": "169,158",
+    "paying": "20,299",
+    "ceiling": "$3,024,551"
+   },
+   {
+    "sport": "Tennis (girls)",
+    "hs": "204,721",
+    "growth": "7.2",
+    "ncaa": "8,137",
+    "ratio": "25.2",
+    "spend2019": "$1,170",
+    "skew": "H",
+    "jrsr": "102,361",
+    "paying": "16,890",
+    "ceiling": "$2,516,610"
+   },
+   {
+    "sport": "Cross Country (boys)",
+    "hs": "241,565",
+    "growth": "0.6",
+    "ncaa": "15,425",
+    "ratio": "15.7",
+    "spend2019": "n/a",
+    "skew": "M",
+    "jrsr": "120,783",
+    "paying": "14,494",
+    "ceiling": "$2,159,606"
+   },
+   {
+    "sport": "Wrestling (boys)",
+    "hs": "300,214",
+    "growth": "15.7",
+    "ncaa": "9,056",
+    "ratio": "33.2",
+    "spend2019": "$476",
+    "skew": "L",
+    "jrsr": "150,107",
+    "paying": "13,510",
+    "ceiling": "$2,012,990"
+   },
+   {
+    "sport": "Golf (boys)",
+    "hs": "162,357",
+    "growth": "8.1",
+    "ncaa": "8,818",
+    "ratio": "18.4",
+    "spend2019": "$925",
+    "skew": "H",
+    "jrsr": "81,179",
+    "paying": "13,395",
+    "ceiling": "$1,995,855"
+   },
+   {
+    "sport": "Tennis (boys)",
+    "hs": "158,667",
+    "growth": "0.2",
+    "ncaa": "7,473",
+    "ratio": "21.2",
+    "spend2019": "$1,170",
+    "skew": "H",
+    "jrsr": "79,334",
+    "paying": "13,090",
+    "ceiling": "$1,950,410"
+   },
+   {
+    "sport": "Competitive Spirit (girls)",
+    "hs": "206,262",
+    "growth": "14 (1yr)",
+    "ncaa": "n/a",
+    "ratio": "n/a",
+    "spend2019": "n/a",
+    "skew": "M",
+    "jrsr": "103,131",
+    "paying": "12,376",
+    "ceiling": "$1,844,024"
+   },
+   {
+    "sport": "Cross Country (girls)",
+    "hs": "191,733",
+    "growth": "-3",
+    "ncaa": "15,396",
+    "ratio": "12.5",
+    "spend2019": "n/a",
+    "skew": "M",
+    "jrsr": "95,867",
+    "paying": "11,504",
+    "ceiling": "$1,714,096"
+   },
+   {
+    "sport": "Swimming (girls)",
+    "hs": "138,303",
+    "growth": "-1.7",
+    "ncaa": "12,998",
+    "ratio": "10.6",
+    "spend2019": "$786",
+    "skew": "H",
+    "jrsr": "69,152",
+    "paying": "11,410",
+    "ceiling": "$1,700,090"
+   },
+   {
+    "sport": "Swimming (boys)",
+    "hs": "119,102",
+    "growth": "2",
+    "ncaa": "10,131",
+    "ratio": "11.8",
+    "spend2019": "$786",
+    "skew": "H",
+    "jrsr": "59,551",
+    "paying": "9,826",
+    "ceiling": "$1,464,074"
+   },
+   {
+    "sport": "Lacrosse (boys)",
+    "hs": "113,696",
+    "growth": "2.3",
+    "ncaa": "16,691",
+    "ratio": "6.8",
+    "spend2019": "$1,289",
+    "skew": "H",
+    "jrsr": "56,848",
+    "paying": "9,380",
+    "ceiling": "$1,397,620"
+   },
+   {
+    "sport": "Lacrosse (girls)",
+    "hs": "99,292",
+    "growth": "1.3",
+    "ncaa": "13,906",
+    "ratio": "7.1",
+    "spend2019": "$1,289",
+    "skew": "H",
+    "jrsr": "49,646",
+    "paying": "8,192",
+    "ceiling": "$1,220,608"
+   },
+   {
+    "sport": "Golf (girls)",
+    "hs": "85,385",
+    "growth": "5.5",
+    "ncaa": "5,861",
+    "ratio": "14.6",
+    "spend2019": "$925",
+    "skew": "H",
+    "jrsr": "42,693",
+    "paying": "7,044",
+    "ceiling": "$1,049,556"
+   },
+   {
+    "sport": "Volleyball (boys)",
+    "hs": "95,972",
+    "growth": "24.2",
+    "ncaa": "3,478",
+    "ratio": "27.6",
+    "spend2019": "$595",
+    "skew": "M",
+    "jrsr": "47,986",
+    "paying": "5,758",
+    "ceiling": "$857,942"
+   },
+   {
+    "sport": "Field Hockey (girls)",
+    "hs": "50,764",
+    "growth": "-4.2",
+    "ncaa": "6,610",
+    "ratio": "7.7",
+    "spend2019": "$2,125",
+    "skew": "H",
+    "jrsr": "25,382",
+    "paying": "4,188",
+    "ceiling": "$624,012"
+   },
+   {
+    "sport": "Wrestling (girls)",
+    "hs": "74,064",
+    "growth": "15 (1yr)",
+    "ncaa": "n/a",
+    "ratio": "n/a",
+    "spend2019": "$476",
+    "skew": "L",
+    "jrsr": "37,032",
+    "paying": "3,333",
+    "ceiling": "$496,617"
+   },
+   {
+    "sport": "Flag Football (girls)",
+    "hs": "68,847",
+    "growth": "60 (1yr)",
+    "ncaa": "373",
+    "ratio": "184.6",
+    "spend2019": "$268",
+    "skew": "L",
+    "jrsr": "34,424",
+    "paying": "3,098",
+    "ceiling": "$461,602"
+   },
+   {
+    "sport": "Ice Hockey (boys)",
+    "hs": "32,253",
+    "growth": "-2.3",
+    "ncaa": "4,558",
+    "ratio": "7.1",
+    "spend2019": "$2,583",
+    "skew": "H",
+    "jrsr": "16,127",
+    "paying": "2,661",
+    "ceiling": "$396,489"
+   },
+   {
+    "sport": "Esports (combined)",
+    "hs": "30,440",
+    "growth": "10.7 (1yr)",
+    "ncaa": "n/a",
+    "ratio": "n/a",
+    "spend2019": "n/a",
+    "skew": "M",
+    "jrsr": "15,220",
+    "paying": "1,826",
+    "ceiling": "$272,074"
+   },
+   {
+    "sport": "Water Polo (boys)",
+    "hs": "21,756",
+    "growth": "2.2",
+    "ncaa": "1,245",
+    "ratio": "17.5",
+    "spend2019": "n/a",
+    "skew": "H",
+    "jrsr": "10,878",
+    "paying": "1,795",
+    "ceiling": "$267,455"
+   },
+   {
+    "sport": "Water Polo (girls)",
+    "hs": "18,023",
+    "growth": "-3.8",
+    "ncaa": "1,333",
+    "ratio": "13.5",
+    "spend2019": "n/a",
+    "skew": "H",
+    "jrsr": "9,012",
+    "paying": "1,487",
+    "ceiling": "$221,563"
+   },
+   {
+    "sport": "Beach Volleyball (combined)",
+    "hs": "12,481",
+    "growth": "n/a",
+    "ncaa": "n/a",
+    "ratio": "n/a",
+    "spend2019": "$595",
+    "skew": "H",
+    "jrsr": "6,241",
+    "paying": "1,030",
+    "ceiling": "$153,470"
+   },
+   {
+    "sport": "Ice Hockey (girls)",
+    "hs": "9,589",
+    "growth": "11.5",
+    "ncaa": "3,074",
+    "ratio": "3.1",
+    "spend2019": "$2,583",
+    "skew": "H",
+    "jrsr": "4,795",
+    "paying": "791",
+    "ceiling": "$117,859"
+   }
+  ]
+ }
+}
