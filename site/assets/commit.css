@@ -137,3 +137,7 @@ select,input{font-family:var(--font-text);background:#fff!important;border-radiu
 .vis-t{display:flex!important;align-items:flex-end}
 @media (prefers-reduced-motion:reduce){.vis-c .vis-bg img{transform:scale(1.08)!important}.vis-c .vis-cut{transform:none!important}}
 @media (prefers-reduced-motion:reduce) and (max-width:640px){.vis-c .vis-cut{transform:translateX(50%)!important}}
+/* keep the whole kinetic frame visible above the caption bar */
+.vis-v video{object-fit:contain;height:calc(100% - var(--vcap-h,190px));bottom:auto}
+.vis-v .vis-vcap{min-height:var(--vcap-h,190px);background:#000}
+@media (max-width:749px){.vis-v{--vcap-h:230px}}

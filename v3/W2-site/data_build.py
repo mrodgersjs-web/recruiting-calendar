@@ -54,6 +54,13 @@ for x in S+[SOCCER]:
    'timeline':x['timeline'],'basis':x.get('basis',[]),'turning':x.get('turning',[]),'replicate':x.get('replicate',[]),
    'img':'/assets/media/cut-swimmer-640.webp' if comp else '','video':('/assets/media/real-%s-720p.mp4'%x['id']) if x['id'] in VID else '',
    'poster':('/assets/media/real-%s-poster.jpg'%x['id']) if x['id'] in VID else '','hold':x['id'] in HOLD,'playbooks':MAP2[x['id']]})
+# Maya: feed her W2-scripts beats 1-6 (beat 7 = playbooks section) in the composite shape
+_SC=json.load(open(R+'/v3/W2-scripts/SCRIPTS.json'));_SC=_SC if isinstance(_SC,list) else _SC.get('stories')
+_m=[x for x in _SC if x['id']=='composite-swim'][0]
+for a in out:
+  if a['id']=='composite-swim':
+    a['beats']=[b['text'].replace('progressing year over year','dropping time season to season').replace('year-over-year progression','steady time drops') for b in _m['beats'] if b['beat']!='offer']
+    a['rule']={'text':'Division II: in-person contact and paid official visits may begin June 15 before junior year; calls, texts and emails are allowed at any time.','bylaw':_m['rule']['bylaw'],'url':_m['rule']['url']}
 # W4-composites: 7 composite figures (Illustration, real_person false). Never paired with real athletes.
 for c in json.load(open(R+'/v3/W4-composites/COMPOSITES.json'))['stories']:
   out.append({'id':c['id'],'name':c['name'],'short':c['short'],'composite':True,'label':c['label'],'sport':c['sport'],'from':c['hs'],'school':c['hs'],'college':c['college'],'div':c['division'],'path':c['path'],
