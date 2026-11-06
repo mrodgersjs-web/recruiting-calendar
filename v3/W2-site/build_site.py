@@ -54,6 +54,12 @@ def VIS(a,n):
   if n==1:
     return f'<section class="beat vis vis-t" aria-label="{e(a["sport"])} at {e(a["college"])}"><p class="vis-giant" aria-hidden="true">{e(SPW(a["sport"]))}</p><div class="vis-tbody"><p class="lab">{e(a["div"])}</p><p class="vis-college">{e(a["college"])}</p><p class="vis-date">{e(f["date"])}</p><p class="vis-fact">{e(f["fact"])}</p></div></section>'
   return f'<section class="beat vis vis-v"><video src="{a["video"]}" poster="/assets/media/real-{a["id"]}-poster.jpg" muted playsinline loop preload="none" aria-label="Kinetic typography. No likeness of {e(a["name"])}."></video><div class="vis-vcap"><p class="vis-date">{e(f["date"])}</p><p class="vis-fact">{e(f["fact"])}</p><p class="note">Typography only. No image of {e(a["name"])} is shown or generated.</p></div></section>'
+def HERO(a,kick):
+  sw=e(SPW(a["sport"]))
+  if a.get('composite') and a.get('img'):
+    env=ENV(a['sport']);cut=a['img'].replace('-640','-1080')
+    return f'<section class="beat b1 hx hx-c" aria-label="Illustration: {e(a["sport"])} scene"><picture class="hx-bg"><source media="(max-width:749px)" srcset="/assets/media/env-{env}-640.webp"><img src="/assets/media/env-{env}-1080.webp" alt="" fetchpriority="high"></picture><div class="hx-shade" aria-hidden="true"></div><span class="hx-shadow" aria-hidden="true"></span><img class="hx-cut" src="{cut}" alt="Illustration of a fictional composite {e(a["sport"].lower())} athlete" fetchpriority="high"><span class="tag-ill hx-tag">Illustration</span><div class="pin hx-txt"><p class="lab">{e(a["sport"])} · {e(a["div"])}</p><h1 class="hero">{e(a["short"])}</h1><p class="st-route">{e(a["from"])} <span>→</span> {e(a["college"])}</p><p class="lab st-k">{kick}</p></div></section>'
+  return f'<section class="beat b1 hx hx-r"><p class="hx-word" aria-hidden="true">{sw}</p><div class="pin hx-txt"><p class="lab">Real athlete · {e(a["sport"])}</p><h1 class="hero hx-name">{e(a["name"])}</h1><p class="hx-col">{e(a["college"])} <span class="hx-div">{e(a["div"])}</span></p><p class="st-route">{e(a["from"])} <span>→</span> {e(a["college"])}</p><p class="note st-disc">Not affiliated with or endorsed by {e(a["name"])} or {e(a["college"])}. Facts from public sources.</p><p class="lab st-k">Every fact linked to a public source</p></div></section>'
 for a in A:
   pb=a['playbooks'];tot=sum(P[p]['price'] for p in pb)
   if a['composite']:
@@ -66,7 +72,7 @@ for a in A:
     kick='Real athlete · every fact linked to a public source'
     kick+='</p><p class="note st-disc">'+e(f"Public facts only, sourced below. {a['name']} is not affiliated with, has not endorsed, and was not paid by The Commit Book. {a['college']} and the NCAA/NAIA/NJCAA are not affiliated with us.")
   body=f'''<main class="story"><div class="st-progress"></div>
-<section class="beat b1{' has-fig' if a.get('composite') and a.get('img') else ''}">{(f'<img class="b1-fig" src="{a["img"].replace("-640","-1080")}" alt="" aria-hidden="true"><span class="tag-ill b1-tag">Illustration · Composite</span>') if a.get('composite') and a.get('img') else ''}<div class="pin"><p class="lab">{e(a["sport"])} · {e(a["div"])}</p><h1 class="hero">{e(a["short"])}</h1>{'' if a['composite'] else f'<p class="note st-disc">Not affiliated with or endorsed by {e(a["name"])} or {e(a["college"])}. Facts from public sources.</p>'}<p class="st-route">{e(a["from"])} <span>→</span> {e(a["college"])}</p><p class="lab st-k">{kick}</p></div></section>
+{HERO(a,kick)}
 <section class="beat b2"><div class="pin st-split"><div class="st-copy"><p class="lab">01 / The path</p><h2 class="d1">{e(a["path"])}</h2>{''.join(f'<p class="turn">{e(t)}</p>' for t in a["turning"])}</div><div class="st3d">{media}</div></div></section>
 {VIS(a,1)}<section class="st-tl"><p class="lab">02 / What happened, in order</p><ol class="timeline">{tl}</ol></section>
 {VIS(a,2)}{BEATS(a)}<section class="st-rep"><p class="lab">03 / What you can copy</p><ul>{''.join(f'<li>{e(r)}</li>' for r in a["replicate"])}</ul><p class="note">Paraphrased from the sources. No quotes are invented. Not a promise that the same path works for your athlete.</p></section>
