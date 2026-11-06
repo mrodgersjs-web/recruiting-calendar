@@ -29,7 +29,20 @@
    "playbooks": [
     "eligibility-2-hard-deadlines",
     "offer-and-signing"
-   ]
+   ],
+   "beats": [
+    "This is a composite story built from three sourced recruiting paths, not one real person. Maya is a club swimmer at a mid-size public high school. Her times are solid, improving each season, but not at the top of national rankings. Every image of Maya on this page is an illustration. If your swimmer is steadily dropping time but not on anyone's radar yet, this is a starting point you may recognize.",
+    "Maya's family has the question many swim families ask: what level do her times fit, and will any coach notice a swimmer who is improving but not already fast enough for the biggest programs? A swimming club resource citing USA Swimming says coaches weigh steady time drops and where times would place in their conference. That gives the family a way to frame the question, even though it does not answer it.",
+    "In this composite, Maya keeps an updated times sheet and her club coach reaches out to programs for her, a pattern a Wabash College story describes in swim recruiting. Like Derrick White's family in basketball, she sends her information widely to Division II and Division III programs, not only Division I. The choice is to widen the list and let the times speak. These steps are drawn from the sources, and Maya herself is invented.",
+    "The rule that mattered. Division II: calls, texts and emails are allowed at any time. In-person contact and paid official visits open June 15 after sophomore year. Rule then, rule now:  The rule did not cause this outcome and guarantees nothing. It is a date your family can check yourself, at the source below, before your athlete messages a coach.",
+    "In this composite, Maya chooses a Division II program where her times would score in the conference and where the coach shows steady interest. The real-world pattern behind that choice is athletes finding a level where they compete right away. Division II is her destination, not a consolation. Because Maya is a composite, the outcome is illustrative only; nothing here is a real result or a promise of one.",
+    "One path, not a formula. Your athlete's path will differ, and the ending here is not a typical result. Nothing in this story proves that any playbook, camp or service caused it. This athlete never used our playbooks. We do not contact coaches, and we never contact your kid. The rule shown is real and cited; the outcome is the athlete's own."
+   ],
+   "rule": {
+    "text": "Division II: in-person contact and paid official visits may begin June 15 before junior year; calls, texts and emails are allowed at any time.",
+    "bylaw": "D2 Bylaws 13.1.1.1, 13.3.1.2",
+    "url": "https://web3.ncaa.org/lsdbi/reports/getReport/90010"
+   }
   },
   {
    "id": "renfrow",

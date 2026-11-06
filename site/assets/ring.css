@@ -119,3 +119,4 @@ story-ring.is-revealed .sr__stage{opacity:1;transition:opacity 1.6s .1s}story-ri
 @media (max-width:749px){.sr__item{grid-template-columns:48px minmax(0,1fr);row-gap:8px;flex:0 0 78%}.sr__item .sr__add{grid-column:2;justify-self:start}.sr__itype{letter-spacing:.08em}.sr__who{font-size:11px!important}}
 
 .sr__surv{margin-top:6px!important}@media (max-width:749px){.sr__surv{display:block!important;font-size:11px}}
+@media (max-width:749px){.sr__body{will-change:transform;backface-visibility:hidden}.card__art img{image-rendering:auto;transform:translateZ(0)}}

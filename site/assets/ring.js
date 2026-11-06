@@ -51,7 +51,7 @@ measure(){
 }
 wrapN(v){const N=this.N;return((v%N)+N)%N}
 put(s,x,bottom,scale,op,blur,z){
- const hw=s.w*scale/2;if(x+hw<-4||x-hw>this.W+4)op=0;
+ if(this.mob)blur=blur<.6?0:Math.min(blur,1);const hw=s.w*scale/2;if(x+hw<-4||x-hw>this.W+4)op=0;
  const e=s.el;e.style.transform=`translate3d(${x.toFixed(2)}px,${(-bottom).toFixed(2)}px,0) translateX(-50%) scale(${scale.toFixed(4)})`;
  e.style.opacity=op.toFixed(3);e.style.zIndex=z;e.style.visibility=op<.01?'hidden':'visible';e.style.pointerEvents=op<.5?'none':'auto';
  const b=Math.round(blur*10)/10;if(b!==s.blur){s.blur=b;e.style.filter=b>.05?`blur(${b}px)`:''}
@@ -80,7 +80,7 @@ renderClassic(){
    if(s.goal>s.from){if(u<.5)e=2*u*1.4;else k=s.goal+2*(1-u)}else{if(u<.5)k=s.from+2*u;else e=2*(1-u)*1.4}}
   else if(k<0)e=Math.min(-k,1.4);
   if(e>=0){this.put(s,W*(ax-ex*e),ay-22*e,1+.14*e,Math.max(0,1-1.05*e),4*Math.min(e,1),1100);continue}
-  let op=k<=d-1?1-.13*k:Math.max(0,.61*(4-k));if(this.still&&k<.02)op=0;
+  let op=k<=d-1?1-.13*k:Math.max(0,.61*(4-k));if(this.mob&&k<=1.05)op=1;else if(this.mob&&k<=d-1)op=Math.max(op,.9-.08*k);if(this.still&&k<.02)op=0;
   this.put(s,W*(ax+sx*k),ay+sy*k,Math.pow(sr,k),op,Math.min(.9*k,3.2),1000-Math.round(10*k))}
 }
 kick(){if(!this.raf&&this.visible&&!document.hidden){this.last=0;this.raf=requestAnimationFrame(t=>this.frame(t))}}

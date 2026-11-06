@@ -5,6 +5,7 @@ SEO=json.load(open(R+'/v3/W2-seo/head-tags.json'))
 e=html.escape
 HEADIN='<link rel="icon" href="/assets/logo/favicon.svg" type="image/svg+xml"><link rel="icon" href="/assets/logo/favicon-32.png" sizes="32x32"><link rel="apple-touch-icon" href="/assets/logo/favicon-256.png"><meta property="og:image" content="/assets/logo/social-card-dark.png"><meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#ffffff">'
 import hashlib
+RV=hashlib.md5(open(SITE+'/assets/ring.css','rb').read()).hexdigest()[:8];JV=hashlib.md5(open(SITE+'/assets/ring.js','rb').read()).hexdigest()[:8]
 CV=hashlib.md5(open(SITE+'/assets/commit.css','rb').read()).hexdigest()[:8]
 CSS='<script src="/checkout.js" defer></script><link rel="stylesheet" href="/assets/tokens.css"><link rel="stylesheet" href="/assets/commit.css?v='+CV+'">'
 HDR='''<header class="site-header cb-header"><a class="brand" href="/" aria-label="The Commit Book home"><img src="/assets/logo/lockup-horizontal-light.svg" alt="The Commit Book" width="135" height="30"></a><button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button><nav id="site-nav" aria-label="Main"><a href="/">Stories</a><a href="/calendar">Calendar</a><a href="/playbooks">Playbooks</a><a href="/rules">Rules</a><a href="/price">Price</a></nav><a class="bag" href="/playbooks">Bag (<span data-bag-count>0</span>)</a></header>'''
@@ -20,7 +21,7 @@ def w(rel,s):
 # HOME
 w('index.html',page('/','The Commit Book: real college athlete stories and the recruiting playbooks behind them','Pick an athlete. Read how they really got to a college roster, from public sources. Then get the dated playbook for your sport.',
  '<main><h1 class="vh">The Commit Book: real paths to a college roster</h1><story-ring></story-ring><section class="cb-band"><p class="lab">Every rule cites its bylaw</p><h2 class="d2">Then build your own calendar.</h2><p>Pick your sport and class year. See every date a coach may contact your athlete, linked to the NCAA bylaw.</p><a class="btn btn--primary" href="/calendar">Open the calendar</a> <button class="btn btn--outline" data-offer="eligibility-2-hard-deadlines">Get the Eligibility playbook, $9</button></section></main>',
- '<link rel="stylesheet" href="/assets/ring.css">','<script src="/assets/ring.js"></script>','home'))
+ '<link rel="stylesheet" href="/assets/ring.css?v='+RV+'">','<script src="/assets/ring.js?v='+JV+'"></script>','home'))
 # STORIES
 BN=['The ordinary start','What the family didn\'t know','A choice, not luck','The rule that mattered','The fit decision','What this story doesn\'t prove']
 def BEATS(a):
@@ -38,6 +39,12 @@ def ENV(sp):
   if 'track' in sp:return 'track'
   return 'field-dawn'
 def SPW(sp):return re.split(r'[ (/&]',sp)[0].upper()
+def BAND(a):
+  if a['composite'] and a.get('img'):
+    env=ENV(a['sport']);cut=a['img'].replace('-640','-1080')
+    return f'<section class="st-band" aria-label="Illustration: {e(a["sport"])} scene"><picture class="st-band-bg"><source media="(max-width:640px)" srcset="/assets/media/env-{env}-640.webp"><img src="/assets/media/env-{env}-1080.webp" alt="" loading="lazy"></picture><img class="st-band-cut" src="{cut}" alt="Illustration of a fictional composite {e(a["sport"].lower())} athlete" loading="lazy"><span class="tag-ill st-band-tag">Illustration</span><div class="st-band-cap"><p class="st-band-word">{SPW(a["sport"])}</p><p class="lab">The playbooks for this stage</p></div></section>'
+  h='hero-2' if sum(map(ord,a['id']))%2 else 'hero-3'
+  return f'<section class="st-band st-band-r" aria-label="Illustration: campaign image, no real athlete depicted"><picture class="st-band-bg"><source media="(max-width:640px)" srcset="/assets/media/{h}-640.webp"><img src="/assets/media/{h}-1080.webp" alt="" loading="lazy"></picture><span class="tag-ill st-band-tag">Illustration</span><div class="st-band-cap"><p class="st-band-word">{SPW(a["sport"])}</p><p class="lab">The playbooks for this stage</p></div></section>'
 def VIS(a,n):
   if a['composite']:
     env=ENV(a['sport']);cut=a['img'].replace('-640','-1080')
@@ -63,7 +70,7 @@ for a in A:
 <section class="beat b2"><div class="pin st-split"><div class="st-copy"><p class="lab">01 / The path</p><h2 class="d1">{e(a["path"])}</h2>{''.join(f'<p class="turn">{e(t)}</p>' for t in a["turning"])}</div><div class="st3d">{media}</div></div></section>
 {VIS(a,1)}<section class="st-tl"><p class="lab">02 / What happened, in order</p><ol class="timeline">{tl}</ol></section>
 {VIS(a,2)}{BEATS(a)}<section class="st-rep"><p class="lab">03 / What you can copy</p><ul>{''.join(f'<li>{e(r)}</li>' for r in a["replicate"])}</ul><p class="note">Paraphrased from the sources. No quotes are invented. Not a promise that the same path works for your athlete.</p></section>
-<section class="st-end"><p class="lab">The playbooks in this story</p><h2 class="d1">The playbooks for this stage.</h2><p>These playbooks cover the rules and steps families ask about at this stage. They didn't produce this athlete's result, and they can't promise yours.</p><ul class="st-pbs">{''.join(f'<li><a href="/playbooks/{p}"><b>{e(P[p]["title"])}</b><span>${P[p]["price"]}, one-time{' · rules being verified' if P[p]['notify'] else ''}</span></a>{f'<a class="sr__add" href="/playbooks/{p}">Notify me</a>' if P[p]['notify'] else f'<button class="sr__add" data-add="{p}" aria-pressed="false">Get</button>'}</li>' for p in pb)}</ul>
+{BAND(a)}<section class="st-end"><p class="lab">The playbooks in this story</p><h2 class="d1">The playbooks for this stage.</h2><p>These playbooks cover the rules and steps families ask about at this stage. They didn't produce this athlete's result, and they can't promise yours.</p><ul class="st-pbs">{''.join(f'<li><a href="/playbooks/{p}"><b>{e(P[p]["title"])}</b><span>${P[p]["price"]}, one-time{' · rules being verified' if P[p]['notify'] else ''}</span></a>{f'<a class="sr__add" href="/playbooks/{p}">Notify me</a>' if P[p]['notify'] else f'<button class="sr__add" data-add="{p}" aria-pressed="false">Get</button>'}</li>' for p in pb)}</ul>
 <p><a class="btn btn--primary btn--l" {'data-notify' if P[pb[0]]['notify'] else 'data-checkout'}="{pb[0]}" data-offer="{pb[0]}" href="/playbooks/{pb[0]}">{'Notify me' if P[pb[0]]['notify'] else 'Get the playbook'}</a> <a class="btn btn--outline" href="/">Keep reading stories</a></p><p class="note">One-time price. No calls, no sales team, nobody contacts your kid. 30-day full refund. Checkout runs in test mode until payments go live.</p>
 <details class="st-src"><summary>Sources ({len(a["timeline"]) or len(a["basis"])})</summary><ul>{src_list(a)}</ul></details></section></main>'''
   hold='<meta name="robots" content="noindex">' if a['hold'] else ''
