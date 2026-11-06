@@ -20,13 +20,19 @@ w('index.html',page('/','The Recruiting Calendar: real college athlete paths, an
  '<main><h1 class="vh">The Recruiting Calendar: real paths to a college roster</h1><story-ring></story-ring><section class="cb-band"><p class="lab">Every rule cites its bylaw</p><h2 class="d2">Then build your own calendar.</h2><p>Pick your sport and class year. See every date a coach may contact your athlete, linked to the NCAA bylaw.</p><a class="btn btn--primary" href="/calendar">Open the calendar</a> <button class="btn btn--outline" data-offer="eligibility-2-hard-deadlines">Get the Eligibility playbook, $9</button></section></main>',
  '<link rel="stylesheet" href="/assets/ring.css">','<script src="/assets/ring.js"></script>','home'))
 # STORIES
+BN=['The ordinary start','What the family didn\'t know','A choice, not luck','The rule that mattered','The fit decision','What this story doesn\'t prove']
+def BEATS(a):
+  if not a.get('beats'):return ''
+  r=a['rule']
+  li=''.join(f'<li class="ev"><span class="evdate">{i+1:02d} · {BN[i]}</span>{e(x)}'+(f' <a href="{e(r["url"])}" rel="noopener">{e(r["bylaw"])}</a>' if i==3 else '')+'</li>' for i,x in enumerate(a['beats']))
+  return f'<section class="st-tl st-beats"><p class="lab">The story, in seven beats (07 is the playbooks below)</p><ol class="timeline">{li}</ol></section>'
 def src_list(a):
-  urls=[];[urls.append(t['url']) for t in a['timeline'] if t['url'] not in urls]
+  urls=[];[urls.append(u) for u in [t['url'] for t in a['timeline']]+[m.group(0) for x in a.get('basis',[]) for m in [re.search(r"https?://[^ )]+",x)] if m] if u not in urls]
   return ''.join(f'<li><a href="{e(u)}" rel="noopener">{e(re.sub(r"^https?://(www\\.)?","",u).split("/")[0])}</a> <span class="mono">retrieved 2026-11-05</span></li>' for u in urls)
 for a in A:
   pb=a['playbooks'];tot=sum(P[p]['price'] for p in pb)
   if a['composite']:
-    media=f'<figure class="st-fig"><span class="tag-ill">Illustration · Composite</span><img src="/assets/media/cut-swimmer-640.webp" alt="Illustration of a fictional composite swimmer"></figure>'
+    media=f'<figure class="st-fig"><span class="tag-ill">Illustration · Composite</span><img src="{a['img'].replace('-640','-1080')}" alt="Illustration of a fictional composite {e(a['sport'].lower())} athlete"></figure>'
     tl=''.join(f'<li class="ev"><span class="evdate">Basis {i+1}</span>{e(b.split(" (http")[0])} <a href="{e(re.search(r"https?://[^ )]+",b).group(0))}" rel="noopener">source</a></li>' for i,b in enumerate(a['basis']))
     kick=e(a['label'])
   else:
@@ -38,7 +44,7 @@ for a in A:
 <section class="beat b1"><div class="pin"><p class="lab">{e(a["sport"])} · {e(a["div"])}</p><h1 class="hero">{e(a["short"])}</h1>{'' if a['composite'] else f'<p class="note st-disc">Not affiliated with or endorsed by {e(a["name"])} or {e(a["college"])}. Facts from public sources.</p>'}<p class="st-route">{e(a["from"])} <span>→</span> {e(a["college"])}</p><p class="lab st-k">{kick}</p></div></section>
 <section class="beat b2"><div class="pin st-split"><div class="st-copy"><p class="lab">01 / The path</p><h2 class="d1">{e(a["path"])}</h2>{''.join(f'<p class="turn">{e(t)}</p>' for t in a["turning"])}</div><div class="st3d">{media}</div></div></section>
 <section class="st-tl"><p class="lab">02 / What happened, in order</p><ol class="timeline">{tl}</ol></section>
-<section class="st-rep"><p class="lab">03 / What you can copy</p><ul>{''.join(f'<li>{e(r)}</li>' for r in a["replicate"])}</ul><p class="note">Paraphrased from the sources. No quotes are invented. Not a promise that the same path works for your athlete.</p></section>
+{BEATS(a)}<section class="st-rep"><p class="lab">03 / What you can copy</p><ul>{''.join(f'<li>{e(r)}</li>' for r in a["replicate"])}</ul><p class="note">Paraphrased from the sources. No quotes are invented. Not a promise that the same path works for your athlete.</p></section>
 <section class="st-end"><p class="lab">The playbooks in this story</p><h2 class="d1">The playbooks for this stage.</h2><p>These playbooks cover the rules and steps families ask about at this stage. They didn't produce this athlete's result, and they can't promise yours.</p><ul class="st-pbs">{''.join(f'<li><a href="/playbooks/{p}"><b>{e(P[p]["title"])}</b><span>${P[p]["price"]}, one-time{' · rules being verified' if P[p]['notify'] else ''}</span></a>{f'<a class="sr__add" href="/playbooks/{p}">Notify me</a>' if P[p]['notify'] else f'<button class="sr__add" data-add="{p}" aria-pressed="false">Get</button>'}</li>' for p in pb)}</ul>
 <p><a class="btn btn--primary btn--l" {'data-notify' if P[pb[0]]['notify'] else 'data-checkout'}="{pb[0]}" data-offer="{pb[0]}" href="/playbooks/{pb[0]}">{'Notify me' if P[pb[0]]['notify'] else 'Get the playbook'}</a> <a class="btn btn--outline" href="/">Keep reading stories</a></p><p class="note">One-time price. No calls, no sales team, nobody contacts your kid. 30-day full refund. Checkout runs in test mode until payments go live.</p>
 <details class="st-src"><summary>Sources ({len(a["timeline"]) or len(a["basis"])})</summary><ul>{src_list(a)}</ul></details></section></main>'''

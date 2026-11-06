@@ -54,6 +54,17 @@ for x in S+[SOCCER]:
    'timeline':x['timeline'],'basis':x.get('basis',[]),'turning':x.get('turning',[]),'replicate':x.get('replicate',[]),
    'img':'/assets/media/cut-swimmer-640.webp' if comp else '','video':('/assets/media/real-%s-720p.mp4'%x['id']) if x['id'] in VID else '',
    'poster':('/assets/media/real-%s-poster.jpg'%x['id']) if x['id'] in VID else '','hold':x['id'] in HOLD,'playbooks':MAP2[x['id']]})
+# W4-composites: 7 composite figures (Illustration, real_person false). Never paired with real athletes.
+for c in json.load(open(R+'/v3/W4-composites/COMPOSITES.json'))['stories']:
+  out.append({'id':c['id'],'name':c['name'],'short':c['short'],'composite':True,'label':c['label'],'sport':c['sport'],'from':c['hs'],'school':c['hs'],'college':c['college'],'div':c['division'],'path':c['path'],
+   'timeline':[],'basis':c['basis'],'turning':[],'replicate':[],'img':c['img'],'video':'','poster':'','hold':False,'playbooks':c['playbooks'],'beats':c['beats'],'rule':c['rule'],'real_person':False})
+assert not any(a['img'] and not a['composite'] for a in out)
+# ring order: figures lead, composites interleaved with real posters
+cs=[a for a in out if a['composite']];rs=[a for a in out if not a['composite']];o=[]
+while cs or rs:
+  if cs:o.append(cs.pop(0))
+  if rs:o.append(rs.pop(0))
+out=o
 P={k:{'title':v['title'],'price':v['price_usd'],'type':'Playbook','who':v['who'],'outcome':v['outcome'],'toc':v['toc'],'tools':v['tools'],'pages':v['pages'],'format':v['format'],'status':v['status'],'notify':k in ('nil-high-school','d3-academic-aid-first','late-bloomer','juco-to-d1'),'beats':v['story_beats']} for k,v in PB.items()}
 json.dump({'athletes':out,'playbooks':P,'bundles':C['bundles']},open(R+'/v3/W2-site/data.json','w'),indent=1)
 open(R+'/site/assets/stories.js','w').write('window.STORY_ALL='+json.dumps({'athletes':out,'playbooks':P})+';(function(){var q=/[?&]flags=all/.test(location.search);window.STORY_DATA={athletes:STORY_ALL.athletes.filter(function(a){return q||!a.hold}),playbooks:STORY_ALL.playbooks}})();')
