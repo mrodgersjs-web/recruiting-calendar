@@ -46,7 +46,7 @@ measure(){
  const r=this.stage.getBoundingClientRect();this.W=r.width;this.H=r.height;
  this.fs=mob?1:1.08;const mh=mob?Math.max(200,Math.round((this.H-24-18)*.9)):Math.max(200,Math.round((this.H-34-18)/1.08));
  this.stage.style.setProperty('--model-h',Math.min(mh,mob?mh:620)+'px');
- const hx=mob?.3*this.W:.5*this.W,hy=mob?22:34;this.stage.style.setProperty('--hx',hx+'px');this.stage.style.setProperty('--hy',hy+'px');this.stage.style.setProperty('--fs',this.fs);
+ const hx=mob?.5*this.W:.5*this.W,hy=mob?22:34;this.stage.style.setProperty('--hx',hx+'px');this.stage.style.setProperty('--hy',hy+'px');this.stage.style.setProperty('--fs',this.fs);
  this.bodies.forEach(s=>s.w=s.el.offsetWidth);this.unit=mob?Math.max(90,this.W*.32*1.6):Math.max(120,.3*this.W);
  if(this.mobPrev!==undefined&&this.mobPrev!==mob)this.bodies.forEach(s=>{s.x=this.wrapN(s.a-this.target);s.g=s.x;s.v=0});this.mobPrev=mob;this.kick();
 }
@@ -75,7 +75,7 @@ stepClassic(dt){
  return moving;
 }
 renderClassic(){
- const W=this.W,ax=.3,ay=22,sx=.32,sy=22,sr=.76,ex=.55,d=4;
+ const W=this.W,ax=.5,ay=22,sx=.30,sy=22,sr=.76,ex=.55,d=4;
  for(const s of this.bodies){let k=s.x,e=-1;
   if(s.trip){const u=clamp(Math.abs(s.x-s.from)/Math.max(1e-6,Math.abs(s.goal-s.from)),0,1);
    if(s.goal>s.from){if(u<.5)e=2*u*1.4;else k=s.goal+2*(1-u)}else{if(u<.5)k=s.from+2*u;else e=2*(1-u)*1.4}}
