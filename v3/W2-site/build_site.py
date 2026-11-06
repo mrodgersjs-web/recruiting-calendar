@@ -29,6 +29,22 @@ def BEATS(a):
 def src_list(a):
   urls=[];[urls.append(u) for u in [t['url'] for t in a['timeline']]+[m.group(0) for x in a.get('basis',[]) for m in [re.search(r"https?://[^ )]+",x)] if m] if u not in urls]
   return ''.join(f'<li><a href="{e(u)}" rel="noopener">{e(re.sub(r"^https?://(www\\.)?","",u).split("/")[0])}</a> <span class="mono">retrieved 2026-11-05</span></li>' for u in urls)
+def ENV(sp):
+  sp=sp.lower()
+  if 'swim' in sp:return 'pool'
+  if any(k in sp for k in ('basketball','volleyball','wrestling')):return 'gym'
+  if 'track' in sp:return 'track'
+  return 'field-dawn'
+def SPW(sp):return re.split(r'[ (/&]',sp)[0].upper()
+def VIS(a,n):
+  if a['composite']:
+    env=ENV(a['sport']);cut=a['img'].replace('-640','-1080')
+    cap=['The work nobody films.','The decision point.'][n-1]
+    return f'<section class="beat vis vis-c" aria-label="Illustration: {e(a["sport"])} scene"><picture class="vis-bg"><source media="(max-width:640px)" srcset="/assets/media/env-{env}-640.webp"><img src="/assets/media/env-{env}-1080.webp" alt="" loading="lazy"></picture><img class="vis-cut" src="{cut}" alt="Illustration of a fictional composite {e(a["sport"].lower())} athlete" loading="lazy"><span class="tag-ill vis-tag">Illustration</span><div class="vis-cap"><p class="lab">0{n+1} / {e(a["div"])}</p><p class="vis-word">{cap}</p></div></section>'
+  t=a['timeline'];f=t[min(n-1,len(t)-1)] if t else {'date':'','fact':''}
+  if n==1:
+    return f'<section class="beat vis vis-t" aria-label="{e(a["sport"])} at {e(a["college"])}"><p class="vis-giant" aria-hidden="true">{e(SPW(a["sport"]))}</p><div class="vis-tbody"><p class="lab">{e(a["div"])}</p><p class="vis-college">{e(a["college"])}</p><p class="vis-date">{e(f["date"])}</p><p class="vis-fact">{e(f["fact"])}</p></div></section>'
+  return f'<section class="beat vis vis-v"><video src="{a["video"]}" poster="{a["poster"]}" muted playsinline loop preload="metadata" aria-label="Kinetic typography. No likeness of {e(a["name"])}."></video><div class="vis-vcap"><p class="vis-date">{e(f["date"])}</p><p class="vis-fact">{e(f["fact"])}</p><p class="note">Typography only. No image of {e(a["name"])} is shown or generated.</p></div></section>'
 for a in A:
   pb=a['playbooks'];tot=sum(P[p]['price'] for p in pb)
   if a['composite']:
@@ -43,13 +59,13 @@ for a in A:
   body=f'''<main class="story"><div class="st-progress"></div>
 <section class="beat b1{' has-fig' if a.get('composite') and a.get('img') else ''}">{(f'<img class="b1-fig" src="{a["img"].replace("-640","-1080")}" alt="" aria-hidden="true"><span class="tag-ill b1-tag">Illustration · Composite</span>') if a.get('composite') and a.get('img') else ''}<div class="pin"><p class="lab">{e(a["sport"])} · {e(a["div"])}</p><h1 class="hero">{e(a["short"])}</h1>{'' if a['composite'] else f'<p class="note st-disc">Not affiliated with or endorsed by {e(a["name"])} or {e(a["college"])}. Facts from public sources.</p>'}<p class="st-route">{e(a["from"])} <span>→</span> {e(a["college"])}</p><p class="lab st-k">{kick}</p></div></section>
 <section class="beat b2"><div class="pin st-split"><div class="st-copy"><p class="lab">01 / The path</p><h2 class="d1">{e(a["path"])}</h2>{''.join(f'<p class="turn">{e(t)}</p>' for t in a["turning"])}</div><div class="st3d">{media}</div></div></section>
-<section class="st-tl"><p class="lab">02 / What happened, in order</p><ol class="timeline">{tl}</ol></section>
-{BEATS(a)}<section class="st-rep"><p class="lab">03 / What you can copy</p><ul>{''.join(f'<li>{e(r)}</li>' for r in a["replicate"])}</ul><p class="note">Paraphrased from the sources. No quotes are invented. Not a promise that the same path works for your athlete.</p></section>
+{VIS(a,1)}<section class="st-tl"><p class="lab">02 / What happened, in order</p><ol class="timeline">{tl}</ol></section>
+{VIS(a,2)}{BEATS(a)}<section class="st-rep"><p class="lab">03 / What you can copy</p><ul>{''.join(f'<li>{e(r)}</li>' for r in a["replicate"])}</ul><p class="note">Paraphrased from the sources. No quotes are invented. Not a promise that the same path works for your athlete.</p></section>
 <section class="st-end"><p class="lab">The playbooks in this story</p><h2 class="d1">The playbooks for this stage.</h2><p>These playbooks cover the rules and steps families ask about at this stage. They didn't produce this athlete's result, and they can't promise yours.</p><ul class="st-pbs">{''.join(f'<li><a href="/playbooks/{p}"><b>{e(P[p]["title"])}</b><span>${P[p]["price"]}, one-time{' · rules being verified' if P[p]['notify'] else ''}</span></a>{f'<a class="sr__add" href="/playbooks/{p}">Notify me</a>' if P[p]['notify'] else f'<button class="sr__add" data-add="{p}" aria-pressed="false">Get</button>'}</li>' for p in pb)}</ul>
 <p><a class="btn btn--primary btn--l" {'data-notify' if P[pb[0]]['notify'] else 'data-checkout'}="{pb[0]}" data-offer="{pb[0]}" href="/playbooks/{pb[0]}">{'Notify me' if P[pb[0]]['notify'] else 'Get the playbook'}</a> <a class="btn btn--outline" href="/">Keep reading stories</a></p><p class="note">One-time price. No calls, no sales team, nobody contacts your kid. 30-day full refund. Checkout runs in test mode until payments go live.</p>
 <details class="st-src"><summary>Sources ({len(a["timeline"]) or len(a["basis"])})</summary><ul>{src_list(a)}</ul></details></section></main>'''
   hold='<meta name="robots" content="noindex">' if a['hold'] else ''
-  w(f'story/{a["id"]}/index.html',page(f'/stories/{a["id"]}/',f'{a["short"]}: {a["path"]} | The Commit Book',f'How {a["short"]} got from {a["from"]} to {a["college"]} ({a["div"]} {a["sport"]}). Sourced facts and the playbook behind it.',body,hold,'<script src="/assets/story.js" defer></script>','story-page'+(' is-held' if a['hold'] else '')))
+  w(f'story/{a["id"]}/index.html',page(f'/stories/{a["id"]}/',f'{a["short"]}: {a["path"]} | The Commit Book',f'How {a["short"]} got from {a["from"]} to {a["college"]} ({a["div"]} {a["sport"]}). Sourced facts and the playbook behind it.',body,hold,'<script src="/assets/story.js" defer></script><script>addEventListener("DOMContentLoaded",function(){if(matchMedia("(prefers-reduced-motion: reduce)").matches)return;document.querySelectorAll(".vis-v video").forEach(function(v){new IntersectionObserver(function(es){es.forEach(function(x){x.isIntersecting?v.play().catch(function(){}):v.pause()})},{threshold:.3}).observe(v)})})</script>','story-page'+(' is-held' if a['hold'] else '')))
 # PLAYBOOKS
 def card(s,p):
   return f'<a class="pb-card" href="/playbooks/{s}"><span class="pb-thumb"><b>{e(p["title"].split(":")[0])}</b><i>{p["pages"]} pages · {e(p["format"])}</i></span><span class="lab">{e(p["who"].split(",")[0])}</span><span class="pb-t">{e(p["title"])}</span><span class="pb-s">{e(p["outcome"][:110])}{"…" if len(p["outcome"])>110 else ""}</span><span class="pb-p">${p["price"]}</span></a>'+('' if p['notify'] else f'<button class="btn btn--primary" data-offer="{s}">Get the playbook</button>')
