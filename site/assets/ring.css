@@ -120,3 +120,16 @@ story-ring.is-revealed .sr__stage{opacity:1;transition:opacity 1.6s .1s}story-ri
 
 .sr__surv{margin-top:6px!important}@media (max-width:749px){.sr__surv{display:block!important;font-size:11px}}
 @media (max-width:749px){.sr__body{will-change:transform;backface-visibility:hidden}.card__art img{image-rendering:auto;transform:translateZ(0)}}
+
+/* run3 mobile presence */
+@media (max-width:749px){
+ .sr__head{padding:12px 20px 0}.sr__title{font-size:min(34px,10vw)}
+ .sr__left{padding-bottom:8px}
+ .sr__panel{margin-top:-12px}
+ .sr__pinner{display:block}.sr__phead{padding:14px 20px 4px}.sr__who{padding:0 20px 4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+ .sr__items{flex:none;min-height:0;padding:2px 20px 4px;overflow-y:hidden}
+ .sr__item{padding:8px 16px 8px 0}
+ .sr__bundle{padding:8px 20px calc(12px + env(safe-area-inset-bottom))}
+ .card__div{font-size:12px;padding:3px 6px;background:var(--ink);color:#fff}
+ .card__shadow{height:34px;background:radial-gradient(closest-side,rgb(0 0 0/.38),rgb(0 0 0/0))}
+}

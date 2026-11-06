@@ -53,7 +53,7 @@ select,input{font-family:var(--font-text);background:#fff!important;border-radiu
 .story .b1{background:var(--c-ink);color:#fff;min-height:calc(100svh - 60px);text-align:left;align-items:end}
 .story .b1 .lab{color:#cacacb}.story .b1 .hero{max-width:12em}
 .st-route{font:600 clamp(20px,2.4vw,32px)/1.2 var(--font-condensed);text-transform:uppercase;margin:16px 0}.st-route span{color:var(--c-signal)}
-.st-k{color:var(--c-illustration-tag)!important}
+.st-k{color:var(--c-muted)!important}
 .st-split{display:grid;grid-template-columns:1fr 1fr;gap:var(--s-8);align-items:center;max-width:1280px;margin:0 auto;width:100%}
 .turn{font:500 var(--fs-body-l)/1.5 var(--font-text);border-left:2px solid var(--c-signal);padding-left:16px}
 .st3d{perspective:1200px}.st-fig{margin:0;position:relative;transform-style:preserve-3d;transform:rotateY(calc(18deg - var(--p,0)*36deg)) rotateX(calc(6deg - var(--p,0)*6deg));transition:transform .1s linear;background:var(--c-snow)}
@@ -151,3 +151,5 @@ select,input{font-family:var(--font-text);background:#fff!important;border-radiu
 .st-band-word{font:900 clamp(64px,14vw,220px)/.85 var(--font-display,Impact,sans-serif);letter-spacing:-.02em;text-transform:uppercase;margin:0;overflow-wrap:anywhere}
 .st-band-cap .lab{color:#fff;margin:.4em 0 0}
 @media (max-width:640px){.st-band{height:62vh}.st-band-cut{right:-4%;max-width:80%}}
+
+@media (max-width:749px){.story .b1.has-fig{min-height:auto;padding-top:16px;padding-bottom:24px;justify-content:flex-end}.story .b1 .b1-fig{max-height:54svh;max-width:80%}}

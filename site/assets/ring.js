@@ -14,11 +14,12 @@ connectedCallback(){
  this.N=n*Math.ceil(8/n);this.index=0;this.target=0;this.cur=RM?0:-1.15;this.vel=0;this.still=false;
  this.playing=false;this.engaged=false;this.panelHover=false;this.dragging=false;this.visible=false;
  this.bag=new Set(JSON.parse(localStorage.getItem('playbook-bag-v1')||'[]'));
- this.render();this.classList.add('js');this.bind();this.measure();this.setIndex(0,true);
+ const s0=Math.max(0,this.A.findIndex(a=>a.id==='composite-football'&&a.img)),s1=s0>=0&&this.A[s0]?.composite?s0:Math.max(0,this.A.findIndex(a=>a.composite&&a.img));this.target=s1;this.cur=RM?s1:s1-1.15;
+ this.render();this.classList.add('js');this.bind();this.measure();this.setIndex(s1,true);
  const io=new IntersectionObserver(e=>{this.visible=e[0].isIntersecting;if(this.visible)this.kick()},{threshold:0});io.observe(this);
  const rv=new IntersectionObserver(e=>{if(e[0].isIntersecting){rv.disconnect();requestAnimationFrame(()=>requestAnimationFrame(()=>{this.classList.add('is-revealed');this.kick()}))}},{rootMargin:'0px 0px -22% 0px'});
  if(RM)this.classList.add('is-revealed');else rv.observe(this);
- if(!RM)this.play(true);this.updBag();
+ if(!RM&&innerWidth>749)this.play(true);this.updBag();
 }
 render(){
  const A=this.A,n=this.n;
@@ -40,10 +41,10 @@ render(){
 }
 measure(){
  const mob=innerWidth<=749;this.mob=mob;
- if(mob){if(!this.vh||Math.abs(innerHeight-this.vh)>=160||this.vw!==innerWidth){this.vh=innerHeight;this.vw=innerWidth}this.style.setProperty('--frame-h',Math.round(this.vh*.58)+'px')}
+ if(mob){if(!this.vh||Math.abs(innerHeight-this.vh)>=160||this.vw!==innerWidth){this.vh=innerHeight;this.vw=innerWidth}this.style.setProperty('--frame-h',Math.round(this.vh*.66)+'px')}
  else{const hh=document.querySelector('.site-header')?.offsetHeight||0;this.style.setProperty('--frame-h',Math.max(380,innerHeight-hh)+'px')}
  const r=this.stage.getBoundingClientRect();this.W=r.width;this.H=r.height;
- this.fs=mob?1:1.08;const mh=mob?Math.max(200,Math.round((this.H-24-18)*.78)):Math.max(200,Math.round((this.H-34-18)/1.08));
+ this.fs=mob?1:1.08;const mh=mob?Math.max(200,Math.round((this.H-24-18)*.9)):Math.max(200,Math.round((this.H-34-18)/1.08));
  this.stage.style.setProperty('--model-h',Math.min(mh,mob?mh:620)+'px');
  const hx=mob?.3*this.W:.5*this.W,hy=mob?22:34;this.stage.style.setProperty('--hx',hx+'px');this.stage.style.setProperty('--hy',hy+'px');this.stage.style.setProperty('--fs',this.fs);
  this.bodies.forEach(s=>s.w=s.el.offsetWidth);this.unit=mob?Math.max(90,this.W*.32*1.6):Math.max(120,.3*this.W);
