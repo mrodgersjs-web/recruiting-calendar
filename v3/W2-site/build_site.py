@@ -7,7 +7,9 @@ HEADIN='<link rel="icon" href="/assets/logo/favicon.svg" type="image/svg+xml"><l
 import hashlib
 RV=hashlib.md5(open(SITE+'/assets/ring.css','rb').read()).hexdigest()[:8];JV=hashlib.md5(open(SITE+'/assets/ring.js','rb').read()).hexdigest()[:8]
 CV=hashlib.md5(open(SITE+'/assets/commit.css','rb').read()).hexdigest()[:8]
-CSS='<script src="/checkout.js" defer></script><link rel="stylesheet" href="/assets/tokens.css"><link rel="stylesheet" href="/assets/commit.css?v='+CV+'">'
+KV=hashlib.md5(open(SITE+'/checkout.js','rb').read()).hexdigest()[:8]
+DV=hashlib.md5(open(SITE+'/assets/deck.js','rb').read()+open(SITE+'/assets/deck.css','rb').read()).hexdigest()[:8]
+CSS='<script src="/checkout.js?v='+KV+'" defer></script><link rel="stylesheet" href="/assets/tokens.css"><link rel="stylesheet" href="/assets/commit.css?v='+CV+'">'
 HDR='''<header class="site-header cb-header"><a class="brand" href="/" aria-label="The Commit Book home"><img src="/assets/logo/lockup-horizontal-light.svg" alt="The Commit Book" width="135" height="30"></a><button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button><nav id="site-nav" aria-label="Main"><a href="/">Stories</a><a href="/calendar">Calendar</a><a href="/playbooks">Playbooks</a><a href="/rules">Rules</a><a href="/price">Price</a></nav><a class="bag" href="/playbooks">Bag (<span data-bag-count>0</span>)</a></header>'''
 FTR='''<footer class="cb-foot"><img src="/assets/logo/lockup-horizontal-dark.svg" alt="The Commit Book" width="180" height="40"><p class="footnav"><a href="/">Stories</a> · <a href="/playbooks">Playbooks</a> · <a href="/calendar">Calendar</a> · <a href="/rules">Rules by sport</a> · <a href="/math">Roster math</a> · <a href="/camps">Camps</a> · <a href="/compare">Compare</a> · <a href="/price">Price</a> · <a href="/about">About</a> · <a href="/legal/terms">Terms</a> · <a href="/legal/privacy">Privacy</a> · <a href="/legal/refund">Refunds</a> · <a href="/legal/auto-renewal">Auto-renewal</a></p><p>Education, not legal advice. We do not recruit or place athletes, and nobody here contacts your kid. No scholarship, offer or roster spot is promised. Stories of real athletes are built only from public sources, linked on each page; no likeness of a real person is generated. Images marked Illustration show fictional composites. Not affiliated with or endorsed by the NCAA, NAIA, NJCAA, any college, or any athlete named on this site.</p></footer>'''
 def seo(path,title,desc):
@@ -20,8 +22,8 @@ def w(rel,s):
   p=os.path.join(SITE,rel);os.makedirs(os.path.dirname(p),exist_ok=True);open(p,'w').write(s)
 # HOME
 w('index.html',page('/','The Commit Book: real college athlete stories and the recruiting playbooks behind them','Pick an athlete. Read how they really got to a college roster, from public sources. Then get the dated playbook for your sport.',
- '<main><h1 class="vh">The Commit Book: real paths to a college roster</h1><story-ring></story-ring><section class="cb-band"><p class="lab">Every rule cites its bylaw</p><h2 class="d2">Then build your own calendar.</h2><p>Pick your sport and class year. See every date a coach may contact your athlete, linked to the NCAA bylaw.</p><a class="btn btn--primary" href="/calendar">Open the calendar</a> <button class="btn btn--outline" data-offer="eligibility-2-hard-deadlines">Get the Eligibility playbook, $9</button></section></main>',
- '<link rel="stylesheet" href="/assets/ring.css?v='+RV+'">','<script src="/assets/ring.js?v='+JV+'"></script>','home'))
+ '<main><h1 class="vh">The Commit Book: real paths to a college roster</h1><story-ring></story-ring><story-deck></story-deck><section class="cb-band"><p class="lab">Every rule cites its bylaw</p><h2 class="d2">Then build your own calendar.</h2><p>Pick your sport and class year. See every date a coach may contact your athlete, linked to the NCAA bylaw.</p><a class="btn btn--primary" href="/calendar">Open the calendar</a> <button class="btn btn--outline" data-offer="eligibility-2-hard-deadlines">Get the Eligibility playbook, $9</button></section></main>',
+ '<link rel="stylesheet" href="/assets/ring.css?v='+RV+'"><link rel="stylesheet" href="/assets/deck.css?v='+DV+'">','<script src="/assets/ring.js?v='+JV+'"></script><script src="/assets/deck.js?v='+DV+'"></script>','home'))
 # STORIES
 BN=['The ordinary start','What the family didn\'t know','A choice, not luck','The rule that mattered','The fit decision','What this story doesn\'t prove']
 def BEATS(a):
@@ -106,7 +108,7 @@ for f in glob.glob(SITE+'/**/index.html',recursive=True):
   s=re.sub(r'<header class="site-header cb-header">.*?</header>',HDR,s,flags=re.S)
   s=re.sub(r'<footer class="(foot|cb-foot)">.*?</footer>',FTR,s,flags=re.S)
   s=re.sub(r'<link rel="icon".*?<meta name="theme-color" content="#ffffff">','',s,flags=re.S)
-  s=re.sub(r'<script src="/checkout.js" defer></script><link rel="stylesheet" href="/assets/tokens.css"><link rel="stylesheet" href="/assets/commit.css[^"]*">','',s)
+  s=re.sub(r'<script src="/checkout.js[^"]*" defer></script><link rel="stylesheet" href="/assets/tokens.css"><link rel="stylesheet" href="/assets/commit.css[^"]*">','',s)
   s=s.replace('<link rel="stylesheet" href="/style.css">','<link rel="stylesheet" href="/style.css">'+HEADIN+CSS)
   s=s.replace(' class="intro-pending"','')
   if '/assets/site.js' not in s: s=s.replace('</body>','<script src="/assets/stories.js"></script><script src="/assets/site.js" defer></script></body>')
