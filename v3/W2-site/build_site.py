@@ -9,6 +9,8 @@ RV=hashlib.md5(open(SITE+'/assets/ring.css','rb').read()).hexdigest()[:8];JV=has
 CV=hashlib.md5(open(SITE+'/assets/commit.css','rb').read()).hexdigest()[:8]
 KV=hashlib.md5(open(SITE+'/checkout.js','rb').read()).hexdigest()[:8]
 DV=hashlib.md5(open(SITE+'/assets/deck.js','rb').read()+open(SITE+'/assets/deck.css','rb').read()).hexdigest()[:8]
+SV=hashlib.md5(open(SITE+'/assets/stories.js','rb').read()).hexdigest()[:8]
+STORIES='<script src="/assets/stories.js?v='+SV+'"></script>'
 CSS='<script src="/checkout.js?v='+KV+'" defer></script><link rel="stylesheet" href="/assets/tokens.css"><link rel="stylesheet" href="/assets/commit.css?v='+CV+'">'
 HDR='''<header class="site-header cb-header"><a class="brand" href="/" aria-label="The Commit Book home"><img src="/assets/logo/lockup-horizontal-light.svg" alt="The Commit Book" width="135" height="30"></a><button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button><nav id="site-nav" aria-label="Main"><a href="/">Stories</a><a href="/calendar">Calendar</a><a href="/playbooks">Playbooks</a><a href="/rules">Rules</a><a href="/price">Price</a></nav><a class="bag" href="/playbooks">Bag (<span data-bag-count>0</span>)</a></header>'''
 FTR='''<footer class="cb-foot"><img src="/assets/logo/lockup-horizontal-dark.svg" alt="The Commit Book" width="180" height="40"><p class="footnav"><a href="/">Stories</a> · <a href="/playbooks">Playbooks</a> · <a href="/calendar">Calendar</a> · <a href="/rules">Rules by sport</a> · <a href="/math">Roster math</a> · <a href="/camps">Camps</a> · <a href="/compare">Compare</a> · <a href="/price">Price</a> · <a href="/about">About</a> · <a href="/legal/terms">Terms</a> · <a href="/legal/privacy">Privacy</a> · <a href="/legal/refund">Refunds</a> · <a href="/legal/auto-renewal">Auto-renewal</a></p><p>Education, not legal advice. We do not recruit or place athletes, and nobody here contacts your kid. No scholarship, offer or roster spot is promised. Stories of real athletes are built only from public sources, linked on each page; no likeness of a real person is generated. Images marked Illustration show fictional composites. Not affiliated with or endorsed by the NCAA, NAIA, NJCAA, any college, or any athlete named on this site.</p></footer>'''
@@ -17,7 +19,7 @@ def seo(path,title,desc):
   if t: t=re.sub(r'<meta charset[^>]*>|<meta name="viewport"[^>]*>','',t);return t
   return f'<title>{e(title)}</title><meta name="description" content="{e(desc)}"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}">'
 def page(path,title,desc,body,extra_head='',scripts='',cls=''):
-  return f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">{seo(path,title,desc)}{HEADIN}{CSS}{extra_head}</head><body class="{cls}">{HDR}{body}{FTR}<div id="bag-status" role="status" aria-live="polite"></div><script src="/assets/stories.js"></script><script src="/assets/site.js" defer></script>{scripts}</body></html>'
+  return f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">{seo(path,title,desc)}{HEADIN}{CSS}{extra_head}</head><body class="{cls}">{HDR}{body}{FTR}<div id="bag-status" role="status" aria-live="polite"></div>{STORIES}<script src="/assets/site.js" defer></script>{scripts}</body></html>'
 def w(rel,s):
   p=os.path.join(SITE,rel);os.makedirs(os.path.dirname(p),exist_ok=True);open(p,'w').write(s)
 # HOME
@@ -116,7 +118,8 @@ for f in glob.glob(SITE+'/**/index.html',recursive=True):
     s=s.replace('<body','<body data-page="price"',1)
     s=re.sub(r'(<div class="tiers")',r'<figure class="pr-hero" aria-hidden="true"><img src="/assets/media/env-gym-1080.webp" alt="" class="pr-bg"><img src="/assets/media/cut-volleyball-1080.webp" alt="" class="pr-fig" loading="eager"><span class="tag-ill">Illustration</span><figcaption>Less than one showcase. Every date cited to its bylaw.</figcaption></figure>\1',s,count=1)
 
-  if '/assets/site.js' not in s: s=s.replace('</body>','<script src="/assets/stories.js"></script><script src="/assets/site.js" defer></script></body>')
+  if '/assets/site.js' not in s: s=s.replace('</body>','<script src="/assets/stories.js?v='+SV+'"></script><script src="/assets/site.js" defer></script></body>')
+  s=s.replace('<script src="/assets/stories.js"></script>','<script src="/assets/stories.js?v='+SV+'"></script>')
   s=re.sub(r'(<form class="capture".*?</form>)(?!<p class="note f5">)',r'\1<p class="note f5">For parents and guardians. We do not knowingly collect information from children under 13.</p>',s,flags=re.S)
   s=s.replace('your receipt email says how to cancel online in one click.','manage or cancel your trial any time from the billing link on this page.')
   open(f,'w').write(s)
