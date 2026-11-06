@@ -1,0 +1,1077 @@
+{
+ "athletes": [
+  {
+   "id": "renfrow",
+   "name": "Hunter Renfrow",
+   "short": "Hunter Renfrow",
+   "composite": false,
+   "label": "",
+   "sport": "Football",
+   "from": "Socastee HS, Myrtle Beach, SC",
+   "school": "Socastee HS, Myrtle Beach, SC",
+   "college": "Clemson",
+   "div": "D1 (FBS)",
+   "path": "preferred walk-on",
+   "timeline": [
+    {
+     "date": "c.2013",
+     "fact": "HS quarterback at Socastee, ~150 lb; recruited by Appalachian State (scholarship) while Clemson offered only preferred walk-on status",
+     "url": "https://www.ncaa.com/news/football/article/2017-01-10/college-football-hunter-renfrows-leap-faith-carried-him-clemson",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2014-2016",
+     "fact": "Changed position to receiver, gained ~30 lb, roughly raised lift from ~180 to 280+ lb",
+     "url": "https://bendbulletin.com/2017/01/11/former-clemson-walk-on-renfrow-stars-in-title-game",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2016",
+     "fact": "Awarded scholarship before the 2016 season",
+     "url": "https://www.si.com/college/clemson/football/hunter-renfrow-from-walk-on-to-hero",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2017-01-09",
+     "fact": "Caught game-winning TD with 1 second left vs Alabama in national title game",
+     "url": "https://www.ncaa.com/news/football/article/2017-01-10/college-football-hunter-renfrows-leap-faith-carried-him-clemson",
+     "retrieved": "2026-11-05"
+    }
+   ],
+   "basis": [],
+   "turning": [
+    "Chose PWO at dream school over a scholarship",
+    "Position change plus strength program"
+   ],
+   "replicate": [
+    "Ask every PWO offer what the path to scholarship looks like",
+    "Weigh guaranteed money vs. fit honestly as a family"
+   ],
+   "img": "",
+   "video": "/assets/media/real-renfrow-720p.mp4",
+   "poster": "/assets/media/real-renfrow-poster.jpg",
+   "hold": false,
+   "playbooks": [
+    "walk-on",
+    "football-junior-year",
+    "offer-and-signing"
+   ]
+  },
+  {
+   "id": "groenewegen",
+   "name": "Sara Groenewegen",
+   "short": "Sara Groenewegen",
+   "composite": false,
+   "label": "",
+   "sport": "Softball",
+   "from": "White Rock, British Columbia (Canada)",
+   "school": "White Rock, British Columbia (Canada); club: Washington Sidewinders",
+   "college": "Minnesota",
+   "div": "D1",
+   "path": "under-recruited club player found at tournaments",
+   "timeline": [
+    {
+     "date": "HS years",
+     "fact": "Said she was not highly recruited; only a couple of schools showed serious interest",
+     "url": "https://gophersports.com/news/2015/9/22/Ski_U_Mah_Preview_North_Star",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "HS years",
+     "fact": "Minnesota coach Jessica Allister first saw her at club tournaments in Seattle and Portland",
+     "url": "https://gophersports.com/news/2015/9/22/Ski_U_Mah_Preview_North_Star",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "junior year",
+     "fact": "Assistant Piper Ritter persistently emailed; she visited and committed after feeling at home",
+     "url": "https://gophersports.com/news/2015/9/22/Ski_U_Mah_Preview_North_Star",
+     "retrieved": "2026-11-05"
+    }
+   ],
+   "basis": [],
+   "turning": [
+    "Club tournament exposure in a non-hotbed region",
+    "Agreed to visit a school she had never heard of"
+   ],
+   "replicate": [
+    "Pick club events where target coaches actually attend",
+    "Say yes to visits outside your geography"
+   ],
+   "img": "",
+   "video": "/assets/media/real-groenewegen-720p.mp4",
+   "poster": "/assets/media/real-groenewegen-poster.jpg",
+   "hold": false,
+   "playbooks": [
+    "offer-and-signing",
+    "eligibility-2-hard-deadlines"
+   ]
+  },
+  {
+   "id": "lowe",
+   "name": "Karsta Lowe",
+   "short": "Karsta Lowe",
+   "composite": false,
+   "label": "",
+   "sport": "Volleyball",
+   "from": "La Costa Canyon HS, Carlsbad, CA",
+   "school": "La Costa Canyon HS, Carlsbad, CA",
+   "college": "UCLA",
+   "div": "D1",
+   "path": "walk-on despite scholarship offers elsewhere",
+   "timeline": [
+    {
+     "date": "to soph year HS",
+     "fact": "Two-sport athlete (tennis and volleyball) until sophomore year, so specialized late",
+     "url": "https://dailybruin.com/2013/11/27/ucla-volleyballs-karsta-lowe-went-from-walk-on-to-top-player",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "HS",
+     "fact": "Only a handful of East Coast programs offered scholarships; she did not feel comfortable that far from home",
+     "url": "https://dailybruin.com/2013/11/27/ucla-volleyballs-karsta-lowe-went-from-walk-on-to-top-player",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "spring junior year",
+     "fact": "Committed to walk on at UCLA with no scholarship money available",
+     "url": "https://dailybruin.com/2013/11/27/ucla-volleyballs-karsta-lowe-went-from-walk-on-to-top-player",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2013",
+     "fact": "Emerged as one of UCLA top performers as a junior",
+     "url": "https://dailybruin.com/2013/11/27/ucla-volleyballs-karsta-lowe-went-from-walk-on-to-top-player",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "college",
+     "fact": "Came as a walk-on; coach later awarded a scholarship",
+     "url": "https://www.espn.com/espnw/news-commentary/article/11930309/ucla-karsta-lowe-blossoming-fiery-new-attitude"
+    }
+   ],
+   "basis": [],
+   "turning": [
+    "Late specialization",
+    "Fit/geography over money"
+   ],
+   "replicate": [
+    "Late-specializing athletes still have windows",
+    "Treat walk-on as a real option at the right fit"
+   ],
+   "img": "",
+   "video": "/assets/media/real-lowe-720p.mp4",
+   "poster": "/assets/media/real-lowe-poster.jpg",
+   "hold": false,
+   "playbooks": [
+    "walk-on",
+    "offer-and-signing"
+   ]
+  },
+  {
+   "id": "pichardo",
+   "name": "Olivia Pichardo",
+   "short": "Olivia Pichardo",
+   "composite": false,
+   "label": "",
+   "sport": "Baseball",
+   "from": "Queens, NY (club: NY Crush, Next Level Baseball)",
+   "school": "Queens, NY (club: NY Crush, Next Level Baseball)",
+   "college": "Brown",
+   "div": "D1",
+   "path": "walk-on tryout",
+   "timeline": [
+    {
+     "date": "HS",
+     "fact": "Played club/travel baseball on Long Island and made the US Women's National Baseball Team",
+     "url": "https://www.nancybkennedy.com/a-walk-on-wonder",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2022 fall",
+     "fact": "Had several college options but chose Brown with no guarantee; went through walk-on tryouts",
+     "url": "https://www.nancybkennedy.com/a-walk-on-wonder"
+    },
+    {
+     "date": "2022-11",
+     "fact": "Named to Brown varsity roster, first woman on a D1 baseball roster",
+     "url": "https://www.si.com/college/2022/11/21/brown-university-olivia-pichardo-walk-on-first-woman-division-i-ncaa-baseball",
+     "retrieved": "2026-11-05"
+    }
+   ],
+   "basis": [],
+   "turning": [
+    "National-team credential",
+    "Academic-first school choice, then tryout"
+   ],
+   "replicate": [
+    "Ask admissions-first schools about fall walk-on tryouts"
+   ],
+   "img": "",
+   "video": "/assets/media/real-pichardo-720p.mp4",
+   "poster": "/assets/media/real-pichardo-poster.jpg",
+   "hold": false,
+   "playbooks": [
+    "walk-on",
+    "eligibility-2-hard-deadlines"
+   ]
+  },
+  {
+   "id": "white",
+   "name": "Derrick White",
+   "short": "Derrick White",
+   "composite": false,
+   "label": "",
+   "sport": "Basketball",
+   "from": "Legend HS, Parker, CO (first graduating class)",
+   "school": "Legend HS, Parker, CO (first graduating class)",
+   "college": "UCCS then Colorado",
+   "div": "D2 -> D1 transfer",
+   "path": "no 4-year offers; D2 partial aid",
+   "timeline": [
+    {
+     "date": "2012",
+     "fact": "6-0 senior with no D1 offers; father sent highlight video to ~25 JUCO and D2 schools",
+     "url": "https://www.nba.com/spurs/derrick-white-dare-be-great",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2012",
+     "fact": "His one offer was a D2 preferred walk-on at UCCS with a $3,000 partial scholarship; the other option was a junior college in Wyoming",
+     "url": "https://andscape.com/features/derrick-white-started-as-the-ultimate-underdog-in-his-journey-to-the-nba-finals/"
+    },
+    {
+     "date": "2012",
+     "fact": "Culver: White was first recruit he brought for a campus visit; redshirt plan scrapped",
+     "url": "https://news.uccs.edu/2026/07/15/nba-champion-olympic-gold-medalist-and-former-uccs-standout-derrick-white-inducted-into-rmac-hall-of-fame",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2015",
+     "fact": "D2 All-American; transferred to Colorado, sat 2015-16, led CU in scoring 2016-17",
+     "url": "https://cubuffs.com/sports/mens-basketball/roster/derrick-white/10873",
+     "retrieved": "2026-11-05"
+    }
+   ],
+   "basis": [],
+   "turning": [
+    "Parent-run outreach",
+    "Following a coach who believed in him",
+    "Growth spurt in college"
+   ],
+   "replicate": [
+    "Email video broadly to JUCO/D2, not just D1",
+    "Track coaches who move jobs"
+   ],
+   "img": "",
+   "video": "/assets/media/real-white-720p.mp4",
+   "poster": "/assets/media/real-white-poster.jpg",
+   "hold": false,
+   "playbooks": [
+    "offer-and-signing",
+    "eligibility-2-hard-deadlines"
+   ]
+  },
+  {
+   "id": "pirosko",
+   "name": "Samantha Pirosko",
+   "short": "Samantha Pirosko",
+   "composite": false,
+   "label": "",
+   "sport": "Basketball",
+   "from": "Eastlake North HS, Eastlake, OH",
+   "school": "Eastlake North HS, Eastlake, OH",
+   "college": "Gannon",
+   "div": "D2",
+   "path": "regional D2 recruit; academic + athletic",
+   "timeline": [
+    {
+     "date": "2018",
+     "fact": "Recruited to Gannon by then-coach Jim Brunelli; credits HS coach Paul Force",
+     "url": "https://www.news-herald.com/2022/02/12/north-grad-sam-pirosko-in-leading-role-for-first-place-gannon",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2023-24",
+     "fact": "WBCA D2 National Player of the Year; 35-3, Elite Eight",
+     "url": "https://wbca.org/news/wbca-announces-ncaa-division-ii-honorees-for-2023-24-season",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2024-11",
+     "fact": "NCAA Woman of the Year finalist; PA health-sciences major",
+     "url": "https://www.ncaa.org/news/2024/11/20/media-center-2024-ncaa-woman-of-the-year-finalists-named.aspx",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2018-05",
+     "fact": "Signed National Letter of Intent with Gannon in the spring 2018 signing period",
+     "url": "https://gannonsports.com/story.aspx?file_date=5-2-2018&filename=gannon-womens-basketball-program-adds-pair-to-recruiting-class"
+    }
+   ],
+   "basis": [],
+   "turning": [
+    "HS coach as advocate",
+    "Stayed close to home at D2"
+   ],
+   "replicate": [
+    "Use HS coach as the first contact to nearby D2s",
+    "Pair athletics with a professional major"
+   ],
+   "img": "",
+   "video": "/assets/media/real-pirosko-720p.mp4",
+   "poster": "/assets/media/real-pirosko-poster.jpg",
+   "hold": false,
+   "playbooks": [
+    "offer-and-signing",
+    "eligibility-2-hard-deadlines"
+   ]
+  },
+  {
+   "id": "marpet",
+   "name": "Ali Marpet",
+   "short": "Ali Marpet",
+   "composite": false,
+   "label": "",
+   "sport": "Football",
+   "from": "Hastings High School, Hastings-on-Hudson, NY",
+   "school": "Hastings High School, Hastings-on-Hudson, NY",
+   "college": "Hobart",
+   "div": "D3",
+   "path": "academic-first, no D1 offers",
+   "timeline": [
+    {
+     "date": "HS",
+     "fact": "Undersized (~235 lb), played football and basketball; no D1 offers",
+     "url": "https://www.buccaneers.com/news/reflecting-on-ali-marpet-s-college-career-16779250",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "recruiting",
+     "fact": "Hobart pitched economics/Wall Street path; later grew and football became priority",
+     "url": "https://www.buccaneers.com/news/reflecting-on-ali-marpet-s-college-career-16779250",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2015",
+     "fact": "Drafted round 2 by Tampa Bay, highest-drafted D3 player ever",
+     "url": "https://www.buccaneers.com/news/reflecting-on-ali-marpet-s-college-career-16779250",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "HS",
+     "fact": "FCS interest (Fordham, Marist, Holy Cross) was walk-on only, no scholarship",
+     "url": "https://www.buccaneers.com/news/5-things-to-know-about-ali-marpet-15227691"
+    }
+   ],
+   "basis": [],
+   "turning": [
+    "Chose academics",
+    "Physical development in college"
+   ],
+   "replicate": [
+    "Treat D3 as a development path, not a consolation"
+   ],
+   "img": "",
+   "video": "/assets/media/real-marpet-720p.mp4",
+   "poster": "/assets/media/real-marpet-poster.jpg",
+   "hold": false,
+   "playbooks": [
+    "d3-academic-aid-first",
+    "walk-on",
+    "football-junior-year"
+   ]
+  },
+  {
+   "id": "rodenfels",
+   "name": "Annie Rodenfels",
+   "short": "Annie Rodenfels",
+   "composite": false,
+   "label": "",
+   "sport": "Track/XC",
+   "from": "Dayton Christian, Centerville, OH",
+   "school": "Dayton Christian, Centerville, OH",
+   "college": "Centre College",
+   "div": "D3",
+   "path": "late starter (soccer player)",
+   "timeline": [
+    {
+     "date": "HS jr year",
+     "fact": "Started running at 17; soccer conflicted with XC so she ran track only; original plan was soccer scholarship",
+     "url": "https://www.baa.org/news/chatting-champion-annie-rodenfels",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "recruiting",
+     "fact": "Came to Centre with little running experience; coach Lisa Owens saw potential",
+     "url": "https://www.letsrun.com/news/2022/02/annie-rodenfels-has-gone-from-ncaa-d-iii-champion-to-world-leader",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2018-05-26",
+     "fact": "NCAA D3 steeplechase champion",
+     "url": "https://saa-sports.com/news/2018/5/26/5_26_2018_1541.aspx",
+     "retrieved": "2026-11-05"
+    }
+   ],
+   "basis": [],
+   "turning": [
+    "Switched sports late on coach advice"
+   ],
+   "replicate": [
+    "Multi-sport kids: test a second sport junior year",
+    "Target D3 coaches who develop raw athletes"
+   ],
+   "img": "",
+   "video": "/assets/media/real-rodenfels-720p.mp4",
+   "poster": "/assets/media/real-rodenfels-poster.jpg",
+   "hold": true,
+   "playbooks": [
+    "track-field-marks",
+    "d3-academic-aid-first",
+    "late-bloomer"
+   ]
+  },
+  {
+   "id": "perez",
+   "name": "Tori Perez",
+   "short": "Tori Perez",
+   "composite": false,
+   "label": "",
+   "sport": "Lacrosse (goalie)",
+   "from": "Palm Beach Gardens, FL",
+   "school": "Palm Beach Gardens, FL",
+   "college": "Oglethorpe",
+   "div": "D3",
+   "path": "first-gen, started sport in 8th grade",
+   "timeline": [
+    {
+     "date": "8th grade",
+     "fact": "Became a goalie when a friend needed one; soccer background",
+     "url": "https://www.ncaa.org/news/2025/9/19/media-center-how-lacrosse-goalie-tori-perez-created-a-name-and-a-home-at-oglethorpe.aspx",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "HS freshman",
+     "fact": "Set goal of playing in college during first season",
+     "url": "https://www.ncaa.org/news/2025/9/19/media-center-how-lacrosse-goalie-tori-perez-created-a-name-and-a-home-at-oglethorpe.aspx",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "HS senior",
+     "fact": "Committed to Oglethorpe for city location and team diversity",
+     "url": "https://www.ncaa.org/news/2025/9/19/media-center-how-lacrosse-goalie-tori-perez-created-a-name-and-a-home-at-oglethorpe.aspx",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2025-05",
+     "fact": "Graduated biology; Colombian national team",
+     "url": "https://www.ncaa.org/news/2025/9/19/media-center-how-lacrosse-goalie-tori-perez-created-a-name-and-a-home-at-oglethorpe.aspx",
+     "retrieved": "2026-11-05"
+    }
+   ],
+   "basis": [],
+   "turning": [
+    "Late entry into sport",
+    "Fit and community as criteria"
+   ],
+   "replicate": [
+    "Write the goal down early",
+    "Score schools on culture, not just level"
+   ],
+   "img": "",
+   "video": "/assets/media/real-perez-720p.mp4",
+   "poster": "/assets/media/real-perez-poster.jpg",
+   "hold": false,
+   "playbooks": [
+    "late-bloomer",
+    "d3-academic-aid-first"
+   ]
+  },
+  {
+   "id": "coward",
+   "name": "Cedric Coward",
+   "short": "Cedric Coward",
+   "composite": false,
+   "label": "",
+   "sport": "Basketball",
+   "from": "Fresno, CA",
+   "school": "Fresno, CA",
+   "college": "Willamette (D3) then Eastern Washington and Washington State",
+   "div": "D3 -> D1",
+   "path": "zero D1 offers, D3 start",
+   "timeline": [
+    {
+     "date": "out of HS",
+     "fact": "Chose Willamette (D3) as the best fit out of high school",
+     "url": "https://www.spokesman.com/stories/2022/dec/19/eastern-washingtons-cedric-coward-carving-out-impo"
+    },
+    {
+     "date": "2021-22",
+     "fact": "Averaged 19.5 points and 12.0 rebounds at Willamette",
+     "url": "https://www.nba.com/draft/2025/prospects/cedric-coward"
+    },
+    {
+     "date": "2022-25",
+     "fact": "Transferred to Eastern Washington (D1), then Washington State",
+     "url": "https://wsucougars.com/sports/mens-basketball/roster/player/cedric-coward"
+    },
+    {
+     "date": "2025",
+     "fact": "Picked 11th in the 2025 NBA Draft",
+     "url": "https://www.nba.com/draft/2025/prospects/cedric-coward"
+    }
+   ],
+   "basis": [],
+   "turning": [
+    "Late growth",
+    "D3 production -> portal"
+   ],
+   "replicate": [
+    "D3 film can open D1 doors via portal"
+   ],
+   "img": "",
+   "video": "/assets/media/real-coward-720p.mp4",
+   "poster": "/assets/media/real-coward-poster.jpg",
+   "hold": false,
+   "playbooks": [
+    "d3-academic-aid-first",
+    "offer-and-signing"
+   ]
+  },
+  {
+   "id": "rodriguez",
+   "name": "Cristelle Rodriguez",
+   "short": "Cristelle Rodriguez",
+   "composite": false,
+   "label": "",
+   "sport": "Wrestling",
+   "from": "Buchanan High School, Clovis, CA",
+   "school": "Buchanan High School, Clovis, CA",
+   "college": "Doane University (NE)",
+   "div": "NAIA",
+   "path": "quit in HS, recruited into new program",
+   "timeline": [
+    {
+     "date": "HS jr/sr",
+     "fact": "Stepped away from wrestling due to pressure and mental health",
+     "url": "https://www.themat.com/news/2024/september/17/u20-world-champion-cristelle-rodriguez-overcame-pressure-doubt-to-reignite-wrestling-career",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2021-08",
+     "fact": "Joined Doane first women's wrestling recruiting class under Dana Vote",
+     "url": "https://doaneathletics.com/sports/wwrest/2024-25/releases/20240905s8eb2c",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2024-03",
+     "fact": "First NAIA champion in school history (123)",
+     "url": "https://www.win-magazine.com/2024/11/08/california-native-rodriguez-rediscovered-love-of-sport-at-small-doane-u-in-nebraska",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2024-09",
+     "fact": "U20 World Champion 55kg",
+     "url": "https://doaneathletics.com/sports/wwrest/2024-25/releases/20240905s8eb2c",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "NAIA rule",
+     "fact": "NAIA: register with the NAIA Eligibility Center (PlayNAIA.org). A 2.3 high school GPA makes a freshman eligible, or two of three: ACT 18/SAT 970, 2.0 GPA, top half of class. NAIA contact rules are far looser than NCAA. (NAIA Bylaws Art. V Sec. C, 2026-27 NAIA Handbook p.70)",
+     "url": "https://www.naia.org/legislative/2026-27/NAIA_Handbook.pdf"
+    }
+   ],
+   "basis": [],
+   "turning": [
+    "New program needed roster",
+    "Coach patience after burnout"
+   ],
+   "replicate": [
+    "Look at brand-new programs",
+    "A gap year from the sport is not the end"
+   ],
+   "img": "",
+   "video": "/assets/media/real-rodriguez-720p.mp4",
+   "poster": "/assets/media/real-rodriguez-poster.jpg",
+   "hold": false,
+   "playbooks": [
+    "late-bloomer",
+    "offer-and-signing"
+   ]
+  },
+  {
+   "id": "butler",
+   "name": "Jimmy Butler",
+   "short": "Jimmy Butler",
+   "composite": false,
+   "label": "",
+   "sport": "Basketball",
+   "from": "Tomball HS, Tomball, TX",
+   "school": "Tomball HS, Tomball, TX",
+   "college": "Tyler JC then Marquette",
+   "div": "JUCO -> D1",
+   "path": "JUCO then transfer",
+   "timeline": [
+    {
+     "date": "2007",
+     "fact": "Averaged ~19 pts as senior but not heavily recruited",
+     "url": "https://nfhs.org/stories/it-all-started-here-jimmy-butler",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2007-08",
+     "fact": "NJCAA honorable mention All-American at Tyler JC (18.1 ppg)",
+     "url": "https://gomarquette.com/news/2008/4/17/MU_Lands_Junior_College_Standout_Jimmy_Butler",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2008-04-17",
+     "fact": "Signed NLI with Marquette as Buzz Williams first signee",
+     "url": "https://gomarquette.com/news/2008/4/17/MU_Lands_Junior_College_Standout_Jimmy_Butler",
+     "retrieved": "2026-11-05"
+    }
+   ],
+   "basis": [],
+   "turning": [
+    "One JUCO year of production",
+    "Coaching change opened roster spots"
+   ],
+   "replicate": [
+    "JUCO as a one-year showcase",
+    "Watch for programs with sudden roster holes"
+   ],
+   "img": "",
+   "video": "/assets/media/real-butler-720p.mp4",
+   "poster": "/assets/media/real-butler-poster.jpg",
+   "hold": false,
+   "playbooks": [
+    "juco-to-d1",
+    "offer-and-signing"
+   ]
+  },
+  {
+   "id": "composite-swim",
+   "name": "Composite: \"Maya\" (swimmer)",
+   "short": "Maya (composite)",
+   "composite": true,
+   "label": "Composite story built from 3 sourced recruiting paths",
+   "sport": "Swimming",
+   "from": "Club swimmer",
+   "school": "",
+   "college": "D2 program",
+   "div": "D2",
+   "path": "times-driven outreach, club coach advocate",
+   "timeline": [],
+   "basis": [
+    "Swimmer recruiting weighs past results, potential and conference fit, with club coach advocacy (https://www.wabash.edu/news/story/2362)",
+    "Parent-sent video to many lower-division programs (Derrick White: https://www.nba.com/spurs/derrick-white-dare-be-great)"
+   ],
+   "turning": [],
+   "replicate": [
+    "Keep a times sheet updated and send to D2/D3 coaches",
+    "Ask club coach to call"
+   ],
+   "img": "/assets/media/cut-swimmer-640.webp",
+   "video": "",
+   "poster": "",
+   "hold": false,
+   "playbooks": [
+    "eligibility-2-hard-deadlines",
+    "offer-and-signing"
+   ]
+  },
+  {
+   "id": "wondolowski",
+   "name": "Chris Wondolowski",
+   "short": "Chris Wondolowski",
+   "composite": false,
+   "label": "",
+   "sport": "Soccer",
+   "from": "De La Salle HS, Danville, CA",
+   "school": "De La Salle HS, Danville, CA",
+   "college": "Chico State",
+   "div": "D2",
+   "path": "D1 interest was mostly for track; found at a tournament",
+   "timeline": [
+    {
+     "date": "HS",
+     "fact": "Not heavily recruited for soccer; D1 interest was mostly for track",
+     "url": "https://www.ncaa.com/news/soccer-men/article/2019-08-29/how-chris-wondolowski-went-dii-mls-record-book"
+    },
+    {
+     "date": "HS",
+     "fact": "Chico State coach saw him at a San Diego tournament",
+     "url": "https://www.ncaa.com/news/soccer-men/article/2019-08-29/how-chris-wondolowski-went-dii-mls-record-book"
+    },
+    {
+     "date": "college",
+     "fact": "Scored 39 goals at Chico State and was named All-American",
+     "url": "https://www.ncaa.com/news/soccer-men/article/2019-08-29/how-chris-wondolowski-went-dii-mls-record-book"
+    },
+    {
+     "date": "2005",
+     "fact": "Taken 41st in the MLS Supplemental Draft",
+     "url": "https://www.ncaa.com/news/soccer-men/article/2019-08-29/how-chris-wondolowski-went-dii-mls-record-book"
+    }
+   ],
+   "basis": [],
+   "turning": [
+    "A tournament put him in front of the right coach"
+   ],
+   "replicate": [
+    "Play the events lower-division coaches attend",
+    "Treat D2 as a real path to the pros"
+   ],
+   "img": "",
+   "video": "",
+   "poster": "",
+   "hold": false,
+   "playbooks": [
+    "offer-and-signing",
+    "eligibility-2-hard-deadlines"
+   ]
+  }
+ ],
+ "playbooks": {
+  "football-junior-year": {
+   "title": "Football: Junior Year Playbook",
+   "price": 29,
+   "type": "Playbook",
+   "who": "Football families, Class of 2029, sophomore spring to senior Nov",
+   "outcome": "A dated plan for every football recruiting window from June 15 after sophomore year to signing, with the core-course lock built in",
+   "toc": [
+    "How football recruiting is timed",
+    "The 2 hard deadlines",
+    "Calendar: Jun 2027 to Feb 2029",
+    "Target list in 3 tiers",
+    "Coach email and call scripts",
+    "Junior-year official visit window",
+    "Written offers and signing",
+    "Trackers"
+   ],
+   "tools": [
+    "Dated calendar (11 sourced rows)",
+    "Target school list tiers",
+    "4 coach scripts",
+    "Contact log",
+    "Official visit checklist",
+    "Offer question sheet"
+   ],
+   "pages": 24,
+   "format": "PDF + XLSX tracker",
+   "status": "WRITTEN",
+   "notify": false,
+   "beats": [
+    "first coach contact",
+    "the visit",
+    "the offer",
+    "signing day"
+   ]
+  },
+  "eligibility-2-hard-deadlines": {
+   "title": "Eligibility: the 2 Hard Deadlines",
+   "price": 9,
+   "type": "Playbook",
+   "who": "Any NCAA D1/D2 hopeful family, grades 9-11",
+   "outcome": "Know the two academic lines that can't be repaired late, and have the counselor meeting done",
+   "toc": [
+    "The 10/7 lock",
+    "The 16-core, 2.3 finish",
+    "Eligibility Center account",
+    "Counselor meeting script",
+    "Core GPA worksheet",
+    "Year-by-year checklist"
+   ],
+   "tools": [
+    "Core-course worksheet",
+    "Counselor script",
+    "Eligibility Center checklist",
+    "Core GPA calculator steps"
+   ],
+   "pages": 12,
+   "format": "PDF",
+   "status": "WRITTEN",
+   "notify": false,
+   "beats": [
+    "the transcript scare",
+    "freshman-year planning"
+   ]
+  },
+  "baseball-showcase-to-signing": {
+   "title": "Baseball: From Showcase to Signing",
+   "price": 29,
+   "type": "Playbook",
+   "who": "Baseball families, Class of 2029",
+   "outcome": "Use baseball's later Aug 1 / Sep 1 openings and the Nov signing date without wasting showcase money",
+   "toc": [
+    "Baseball's different clock",
+    "Showcase budget",
+    "Aug 1 junior-year contact",
+    "Sep 1 visits and camps",
+    "Signing in November"
+   ],
+   "tools": [
+    "Dated calendar (10 rows)",
+    "Showcase ROI sheet",
+    "Coach scripts",
+    "Contact log"
+   ],
+   "pages": 22,
+   "format": "PDF + XLSX",
+   "status": "OUTLINE",
+   "notify": false,
+   "beats": [
+    "the showcase",
+    "first coach reply",
+    "signing"
+   ]
+  },
+  "track-field-marks": {
+   "title": "Track & Field: Marks to Roster",
+   "price": 25,
+   "type": "Playbook",
+   "who": "Track and cross-country families, Class of 2029",
+   "outcome": "Turn verified marks into a target list and contact plan by event group",
+   "toc": [
+    "Your marks vs program standards (you look them up)",
+    "Contact opens",
+    "Visits",
+    "Signing"
+   ],
+   "tools": [
+    "Dated calendar (9 rows)",
+    "Marks tracker",
+    "Coach email scripts"
+   ],
+   "pages": 18,
+   "format": "PDF + XLSX",
+   "status": "OUTLINE",
+   "notify": false,
+   "beats": [
+    "the breakout meet",
+    "first coach reply"
+   ]
+  },
+  "d3-academic-aid-first": {
+   "title": "D3 Path: Academic Aid First",
+   "price": 19,
+   "type": "Playbook",
+   "who": "Families who want a strong school plus a roster spot",
+   "outcome": "Compare D3 net cost honestly: no athletic aid, academic and need-based only",
+   "toc": [
+    "How D3 aid works (Bylaw 15)",
+    "Jan 1 junior-year official visits",
+    "Net price calculators",
+    "Admissions vs coach support"
+   ],
+   "tools": [
+    "Net cost comparison sheet",
+    "Coach questions",
+    "Visit scoring"
+   ],
+   "pages": 16,
+   "format": "PDF + XLSX",
+   "status": "OUTLINE",
+   "notify": true,
+   "beats": [
+    "choosing school over scholarship"
+   ]
+  },
+  "walk-on": {
+   "title": "Walk-On Playbook",
+   "price": 15,
+   "type": "Playbook",
+   "who": "Athletes without an aid offer who still want to play",
+   "outcome": "Know the walk-on types and the questions to ask before committing",
+   "toc": [
+    "Preferred vs tryout walk-on",
+    "Roster limits after House",
+    "What to get in writing",
+    "Admissions timeline"
+   ],
+   "tools": [
+    "Walk-on question sheet",
+    "Commit checklist"
+   ],
+   "pages": 14,
+   "format": "PDF",
+   "status": "OUTLINE",
+   "notify": false,
+   "beats": [
+    "the roster spot without a scholarship"
+   ]
+  },
+  "juco-to-d1": {
+   "title": "JUCO to D1",
+   "price": 19,
+   "type": "Playbook",
+   "who": "Athletes considering NJCAA as a route",
+   "outcome": "Plan transferable credits and the two-year recruiting window",
+   "toc": [
+    "NJCAA basics",
+    "Transfer credit planning",
+    "When 4-year coaches recruit you",
+    "Questions for JUCO coaches"
+   ],
+   "tools": [
+    "Credit transfer tracker",
+    "JUCO coach questions"
+   ],
+   "pages": 16,
+   "format": "PDF",
+   "status": "OUTLINE",
+   "notify": true,
+   "beats": [
+    "the second chance"
+   ]
+  },
+  "late-bloomer": {
+   "title": "Late Bloomer Playbook",
+   "price": 15,
+   "type": "Playbook",
+   "who": "Seniors and post-grads with late growth or late film",
+   "outcome": "A 90-day plan for a late start: who still has roster needs and how to reach them",
+   "toc": [
+    "Who recruits late",
+    "D2, D3, NAIA, JUCO doors",
+    "90-day sprint",
+    "Gap-year cautions"
+   ],
+   "tools": [
+    "90-day plan",
+    "Target list",
+    "Scripts"
+   ],
+   "pages": 14,
+   "format": "PDF",
+   "status": "OUTLINE",
+   "notify": true,
+   "beats": [
+    "the late breakout"
+   ]
+  },
+  "highlight-reel-social": {
+   "title": "Highlight Reel & Social Playbook",
+   "price": 15,
+   "type": "Playbook",
+   "who": "Any athlete building film and a public profile",
+   "outcome": "A reel coaches finish and a profile that doesn't hurt you",
+   "toc": [
+    "Reel structure by position",
+    "One-page profile",
+    "Social audit",
+    "What not to post",
+    "Coach follow tracking (manual)"
+   ],
+   "tools": [
+    "Reel brief",
+    "Profile template",
+    "Social audit checklist",
+    "Follow log"
+   ],
+   "pages": 16,
+   "format": "PDF + DOCX",
+   "status": "OUTLINE",
+   "notify": false,
+   "beats": [
+    "the reel that got watched"
+   ]
+  },
+  "camp-roi": {
+   "title": "Camp ROI Playbook",
+   "price": 15,
+   "type": "Playbook",
+   "who": "Families deciding which camps to pay for",
+   "outcome": "Score camps before paying, track the cost, and know when recruiting talk is allowed",
+   "toc": [
+    "Camp types",
+    "When camp recruiting talk opens (by sport)",
+    "Cost budget",
+    "Post-camp follow-up"
+   ],
+   "tools": [
+    "Camp scoring sheet",
+    "Budget tracker",
+    "Follow-up script"
+   ],
+   "pages": 14,
+   "format": "PDF + XLSX",
+   "status": "OUTLINE",
+   "notify": false,
+   "beats": [
+    "the camp invite"
+   ]
+  },
+  "nil-high-school": {
+   "title": "NIL for High Schoolers",
+   "price": 15,
+   "type": "Playbook",
+   "who": "HS athletes and parents asked about a deal",
+   "outcome": "Screen a deal against state and association rules before signing anything",
+   "toc": [
+    "State rules vary",
+    "Recruiting-inducement risk",
+    "Deal screening checklist",
+    "Taxes basics"
+   ],
+   "tools": [
+    "25-question deal checklist",
+    "Red-flag page"
+   ],
+   "pages": 14,
+   "format": "PDF",
+   "status": "OUTLINE",
+   "notify": true,
+   "beats": [
+    "the first deal offer"
+   ]
+  },
+  "offer-and-signing": {
+   "title": "Offers & Signing Day",
+   "price": 19,
+   "type": "Playbook",
+   "who": "Families holding one or more offers",
+   "outcome": "Compare offers on the same terms and know what's binding and when",
+   "toc": [
+    "Verbal vs written",
+    "Written-offer dates",
+    "Signing periods",
+    "Compare up to 4 offers"
+   ],
+   "tools": [
+    "Offer comparison sheet",
+    "Compliance questions"
+   ],
+   "pages": 14,
+   "format": "PDF + XLSX",
+   "status": "OUTLINE",
+   "notify": false,
+   "beats": [
+    "the offer",
+    "signing"
+   ]
+  }
+ },
+ "bundles": [
+  {
+   "slug": "sport-pack",
+   "title": "Sport Pack (your sport playbook + Eligibility + Offers & Signing + Camp ROI)",
+   "price_usd": 49,
+   "note": "vs ~$72 a la carte; anchored between MM3 $25 and $79 bundles"
+  },
+  {
+   "slug": "all-playbooks",
+   "title": "Every Playbook",
+   "price_usd": 99,
+   "note": "all 12 a la carte ~$234"
+  },
+  {
+   "slug": "sideline",
+   "title": "Sideline membership",
+   "price_usd_per_year": 149,
+   "includes": "All playbooks (downloads + yearly re-verified editions) + hosted tracker + calendar alerts + coach-activity benchmarks",
+   "note": "Recommended: YES include all playbooks. Membership value is the re-verification each manual year; a la carte buys a dated edition."
+  }
+ ]
+}

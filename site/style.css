@@ -1,4 +1,4 @@
-:root{--paper:#f5f1e8;--paper2:#ebe5d6;--ink:#141414;--ink2:#46423b;--ink3:#7a7468;--rule:#d3cbb8;--red:#d2321e;--green:#1f4d3a}
+:root{--paper:#f5f1e8;--paper2:#ebe5d6;--ink:#141414;--ink2:#46423b;--ink3:#665f54;--rule:#d3cbb8;--red:#b5281a;--green:#1f4d3a}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.6 "Iowan Old Style","Charter","Georgia",serif;-webkit-font-smoothing:antialiased}
