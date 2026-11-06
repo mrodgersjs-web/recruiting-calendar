@@ -139,5 +139,4 @@ story-ring.is-revealed .sr__stage{opacity:1;transition:opacity 1.6s .1s}story-ri
  .sr__body .card__meta{transition:opacity .25s,visibility .25s}
  .is-in .sr__item{animation-duration:.55s;animation-delay:calc(var(--i)*40ms + 40ms)}
  @keyframes itemin{from{opacity:0;transform:translateY(14px)}}
- .sr__hero .card__art img,.sr__body .card__art img{transform:scale(1.12);transform-origin:50% 100%}
 }
