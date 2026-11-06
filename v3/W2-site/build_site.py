@@ -17,7 +17,7 @@ def w(rel,s):
   p=os.path.join(SITE,rel);os.makedirs(os.path.dirname(p),exist_ok=True);open(p,'w').write(s)
 # HOME
 w('index.html',page('/','The Recruiting Calendar: real college athlete paths, and the plan to run yours','Pick an athlete. Read how they really got to a college roster, from public sources. Then get the dated playbook for your sport.',
- '<main><h1 class="vh">The Recruiting Calendar: real paths to a college roster</h1><story-ring></story-ring><section class="cb-band"><p class="lab">Every rule cites its bylaw</p><h2 class="d2">Then build your own calendar.</h2><p>Pick your sport and class year. See every date a coach may contact your athlete, linked to the NCAA bylaw.</p><a class="btn btn--primary" href="/calendar">Open the calendar</a></section></main>',
+ '<main><h1 class="vh">The Recruiting Calendar: real paths to a college roster</h1><story-ring></story-ring><section class="cb-band"><p class="lab">Every rule cites its bylaw</p><h2 class="d2">Then build your own calendar.</h2><p>Pick your sport and class year. See every date a coach may contact your athlete, linked to the NCAA bylaw.</p><a class="btn btn--primary" href="/calendar">Open the calendar</a> <button class="btn btn--outline" data-offer="eligibility-2-hard-deadlines">Get the Eligibility playbook, $9</button></section></main>',
  '<link rel="stylesheet" href="/assets/ring.css">','<script src="/assets/ring.js"></script>','home'))
 # STORIES
 def src_list(a):
@@ -46,8 +46,8 @@ for a in A:
   w(f'story/{a["id"]}/index.html',page(f'/stories/{a["id"]}/',f'{a["short"]}: {a["path"]} | The Commit Book',f'How {a["short"]} got from {a["from"]} to {a["college"]} ({a["div"]} {a["sport"]}). Sourced facts and the playbook behind it.',body,hold,'<script src="/assets/story.js" defer></script>','story-page'+(' is-held' if a['hold'] else '')))
 # PLAYBOOKS
 def card(s,p):
-  return f'<a class="pb-card" href="/playbooks/{s}"><span class="pb-thumb"><b>{e(p["title"].split(":")[0])}</b><i>{p["pages"]} pages · {e(p["format"])}</i></span><span class="lab">{e(p["who"].split(",")[0])}</span><span class="pb-t">{e(p["title"])}</span><span class="pb-s">{e(p["outcome"][:110])}{"…" if len(p["outcome"])>110 else ""}</span><span class="pb-p">${p["price"]}</span></a>'
-grid=''.join(card(s,p) for s,p in P.items())
+  return f'<a class="pb-card" href="/playbooks/{s}"><span class="pb-thumb"><b>{e(p["title"].split(":")[0])}</b><i>{p["pages"]} pages · {e(p["format"])}</i></span><span class="lab">{e(p["who"].split(",")[0])}</span><span class="pb-t">{e(p["title"])}</span><span class="pb-s">{e(p["outcome"][:110])}{"…" if len(p["outcome"])>110 else ""}</span><span class="pb-p">${p["price"]}</span></a>'+('' if p['notify'] else f'<button class="btn btn--primary" data-offer="{s}">Get the playbook</button>')
+grid=''.join('<div class="pb-cell">'+card(s,p)+('<p class="note">Rules being verified</p>' if p['notify'] else f'<button class="btn btn--primary" data-offer="{s}">Get the playbook</button>')+'</div>' for s,p in P.items())
 bund=''.join(f'<li><b>{e(b["title"])}</b> <span>${b.get("price_usd",b.get("price_usd_per_year"))}{"/yr" if "price_usd_per_year" in b else ""}</span></li>' for b in D['bundles'])
 w('playbooks/index.html',page('/playbooks/','Recruiting playbooks by sport and path | The Commit Book','Dated, sourced recruiting playbooks: football, baseball, track, walk-on, JUCO, D3, offers and signing. One-time prices.',
  f'<main class="cb-page"><p class="lab">Playbooks</p><h1 class="d1">Run recruiting yourself. With the rules in hand.</h1><p class="lede">Playbooks for the athlete to run, with parents in support. Every rule cites its bylaw.</p><div class="pb-grid">{grid}</div><section class="pb-bund"><h2 class="d2">Bundles</h2><ul>{bund}</ul><p class="note">Prices proposed for launch. Checkout runs in test mode until payments go live. 30-day full refund.</p></section></main>'))
@@ -57,7 +57,7 @@ for s,p in P.items():
   body=f'''<main class="cb-page pdp"><div class="pdp-g"><div class="pdp-img"><span class="pb-thumb big"><b>{e(p["title"])}</b><i>{p["pages"]} pages · {e(p["format"])}</i></span></div><div class="pdp-info"><p class="lab">Playbook</p><h1 class="d2">{e(p["title"])}</h1><p class="pb-p">${p["price"]} <span class="note">one-time</span></p><p>{e(p["outcome"])}</p><p class="note">For: {e(p["who"])}</p>
 {NOTIFY(s) if p['notify'] else f'<button class="btn btn--primary btn--l" data-checkout="{s}" data-offer="{s}">Get the playbook</button> <button class="btn btn--outline sr__add" data-add="{s}" aria-pressed="false">Get</button>'}
 <p class="note">No calls, no sales team. 30-day full refund. Checkout runs in test mode until payments go live; if this playbook's file is not ready, checkout says so and you can leave your email instead.</p>
-<details open><summary>What's inside</summary><ol>{''.join(f"<li>{e(t)}</li>" for t in p["toc"])}</ol></details><details><summary>Tools included</summary><ul>{''.join(f"<li>{e(t)}</li>" for t in p["tools"])}</ul></details>
+<details open><summary>What's inside</summary><ol>{''.join(f"<li>{e(t)}</li>" for t in p["toc"])}</ol>{'<p class="note">D3 aid rules: <a href="https://web3.ncaa.org/lsdbi/reports/getReport/90011" rel="noopener">NCAA Division III Manual, Bylaw 15</a></p>' if s=="d3-academic-aid-first" else ""}</details><details><summary>Tools included</summary><ul>{''.join(f"<li>{e(t)}</li>" for t in p["tools"])}</ul></details>
 {f'<details><summary>Stories that use it</summary><ul>{"".join(f"<li><a href=/story/{a['id']}>{e(a['short'])}</a> · {e(a['sport'])} · {e(a['div'])}</li>" for a in stories)}</ul></details>' if stories else ''}</div></div></main>'''
   w(f'playbooks/{s}/index.html',page(f'/playbooks/{s}/',f'{p["title"]} | The Commit Book',p['outcome'],body))
 # RESKIN v2 pages

@@ -7,7 +7,7 @@ const raw=req=>new Promise(r=>{let d='';req.on('data',c=>d+=c);req.on('end',()=>
 export default async function handler(req,res){
   const body=await raw(req),sig=req.headers['stripe-signature']||'';
   const t=(sig.match(/t=(\d+)/)||[])[1],v=(sig.match(/v1=([a-f0-9]+)/)||[])[1];
-  const exp=crypto.createHmac('sha256',process.env.STRIPE_TEST_WEBHOOK_SECRET||'').update(`${t}.${body}`).digest('hex');
+  const exp=crypto.createHmac('sha256',process.env.STRIPE_TEST_WEBHOOK_SECRET||process.env.STRIPE_WEBHOOK_SECRET||'').update(`${t}.${body}`).digest('hex');
   if(!v||v.length!==exp.length||!crypto.timingSafeEqual(Buffer.from(v),Buffer.from(exp))||Math.abs(Date.now()/1000-t)>300)return res.status(400).end();
   const e=JSON.parse(body); if(e.livemode)return res.status(400).json({error:'live event rejected'});
   const map={'checkout.session.completed':'welcome','customer.subscription.trial_will_end':'trial-ending (backup)','invoice.paid':'renewal-receipt','customer.subscription.deleted':'cancel-confirm','invoice.payment_failed':'payment-failed'};
