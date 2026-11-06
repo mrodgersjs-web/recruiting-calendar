@@ -12,7 +12,7 @@ DV=hashlib.md5(open(SITE+'/assets/deck.js','rb').read()+open(SITE+'/assets/deck.
 SV=hashlib.md5(open(SITE+'/assets/stories.js','rb').read()).hexdigest()[:8]
 STORIES='<script src="/assets/stories.js?v='+SV+'"></script>'
 CSS='<script src="/checkout.js?v='+KV+'" defer></script><link rel="stylesheet" href="/assets/tokens.css"><link rel="stylesheet" href="/assets/commit.css?v='+CV+'">'
-HDR='''<header class="site-header cb-header"><a class="brand" href="/" aria-label="The Commit Book home"><img src="/assets/logo/lockup-horizontal-light.svg" alt="The Commit Book" width="135" height="30"></a><button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button><nav id="site-nav" aria-label="Main"><a href="/">Stories</a><a href="/calendar">Calendar</a><a href="/playbooks">Playbooks</a><a href="/rules">Rules</a><a href="/price">Price</a></nav><a class="bag" href="/playbooks">Bag (<span data-bag-count>0</span>)</a></header>'''
+HDR='''<header class="site-header cb-header"><a class="brand" href="/" aria-label="The Commit Book home"><img src="/assets/logo/lockup-horizontal-light.svg" alt="The Commit Book" width="135" height="30"></a><button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button><nav id="site-nav" aria-label="Main"><a href="/start">Start here</a><a href="/">Stories</a><a href="/calendar">Calendar</a><a href="/playbooks">Playbooks</a><a href="/rules">Rules</a><a href="/price">Price</a></nav><a class="bag" href="/playbooks">Bag (<span data-bag-count>0</span>)</a></header>'''
 FTR='''<footer class="cb-foot"><img src="/assets/logo/lockup-horizontal-dark.svg" alt="The Commit Book" width="180" height="40"><p class="footnav"><a href="/">Stories</a> · <a href="/playbooks">Playbooks</a> · <a href="/calendar">Calendar</a> · <a href="/rules">Rules by sport</a> · <a href="/math">Roster math</a> · <a href="/camps">Camps</a> · <a href="/compare">Compare</a> · <a href="/price">Price</a> · <a href="/about">About</a> · <a href="/legal/terms">Terms</a> · <a href="/legal/privacy">Privacy</a> · <a href="/legal/refund">Refunds</a> · <a href="/legal/auto-renewal">Auto-renewal</a></p><p>Education, not legal advice. We do not recruit or place athletes, and nobody here contacts your kid. No scholarship, offer or roster spot is promised. Stories of real athletes are built only from public sources, linked on each page; no likeness of a real person is generated. Images marked Illustration show fictional composites. Not affiliated with or endorsed by the NCAA, NAIA, NJCAA, any college, or any athlete named on this site.</p></footer>'''
 def seo(path,title,desc):
   t=SEO.get(path)
@@ -86,6 +86,35 @@ for a in A:
   hold='<meta name="robots" content="noindex">' if a['hold'] else ''
   w(f'story/{a["id"]}/index.html',page(f'/stories/{a["id"]}/',f'{a["short"]}: {a["path"]} | The Commit Book',f'How {a["short"]} got from {a["from"]} to {a["college"]} ({a["div"]} {a["sport"]}). Sourced facts and the playbook behind it.',body,hold,'<script src="/assets/story.js" defer></script><script>addEventListener("DOMContentLoaded",function(){if(matchMedia("(prefers-reduced-motion: reduce)").matches)return;document.querySelectorAll(".vis-v video").forEach(function(v){new IntersectionObserver(function(es){es.forEach(function(x){x.isIntersecting?v.play().catch(function(){}):v.pause()})},{threshold:.3}).observe(v)})})</script>','story-page'+(' is-held' if a['hold'] else '')))
 # PLAYBOOKS
+# /start: free "start here by grade" page (W6-problems #1 gap, 2026-11-06). Every rule cites data.js rows already on the site.
+_MAN='https://web3.ncaa.org/lsdbi/reports/getReport/90008'
+_EC='https://fs.ncaa.org/Docs/eligibility_center/Student_Resources/IE_Brochure.pdf'
+_REG='https://fs.ncaa.org/Docs/eligibility_center/Student_Resources/Registration_Checklist.pdf'
+_STEPS=[
+ ('9th grade','Get the course plan right',[
+   ('Ask the school counselor to check every class against your school\'s NCAA-approved course list. Not every class counts.','D1 Bylaw 14.3.1.1',_MAN),
+   ('Know the two academic lines that can\'t be fixed late: 10 core courses (7 in English, math or science) done before senior year, and 16 core courses with at least a 2.3 core GPA by graduation.','D1 Bylaws 14.3.1.1(b), 14.3.1.3',_EC)],'eligibility-2-hard-deadlines'),
+ ('10th grade','Start the record, not the hype',[
+   ('Keep one tracker: schools, coaches, what was said, next step. A plain spreadsheet works; several parents in our research built one after leaving a paid service.',None,None),
+   ('Before contact opens, your athlete can email coaches and fill in questionnaires. Many sports open coach calls and texts on June 15 after sophomore year; D1 baseball waits until August 1 of junior year.','D1 Bylaws 13.1.3.1, 13.1.3.1.1, 13.4.1',_MAN)],'football-junior-year'),
+ ('11th grade','The real recruiting year',[
+   ('Open the NCAA Eligibility Center certification account ($110 domestic, waivers possible). You need it before any D1 official visit.','D1 Bylaw 13.6.3',_REG),
+   ('Visits: official visits open by sport (for example April 1 of junior year in football, September 1 in baseball). Check your sport\'s page for the exact rule.','D1 Bylaws 13.6.2.1.2, 13.6.2.1.7',_MAN),
+   ('Pick camps where your target coaches will be, after you\'ve emailed them. A camp the coach has never heard of you for is an expensive practice.',None,None)],'camp-roi'),
+ ('12th grade','Decide and finish',[
+   ('It isn\'t too late for many paths: D2, D3, NAIA and junior college programs still fill rosters in senior year.',None,None),
+   ('Written offers and signing follow sport-specific dates; a verbal commitment binds no one. Fall enrollees can request final amateurism certification from April 1.','D1 Bylaw 13.02.13.1; Eligibility Center procedure',_EC)],'offer-and-signing')]
+def _start_page():
+  rows=''
+  for g,h,items,pb in _STEPS:
+    lis=''.join(f'<li>{e(t)}'+(f' <a class="src" href="{u}" rel="noopener">{e(r)}</a>' if r else '')+'</li>' for t,r,u in items)
+    pt=P.get(pb,{}).get('title','')
+    rows+=f'<section class="sh-step"><p class="lab">{e(g)}</p><h2 class="d2">{e(h)}</h2><ul>{lis}</ul>'+(f'<p class="sh-pb">Go deeper: <a href="/playbooks/{pb}/">{e(pt)}</a></p>' if pt else '')+'</section>'
+  return ('<main class="cb-page sh"><p class="lab">Free · No account · No sales call</p><h1 class="d1">Start here.</h1>'
+   '<p class="lede">The recruiting steps by grade, in plain words. Every rule links to its source. Your athlete leads the conversations; your job is the calendar, the paperwork and the money.</p>'
+   +rows+
+   '<section class="sh-cta"><h2 class="d2">Get your sport\'s exact dates.</h2><p>Pick the sport and class year for the full dated calendar.</p><a class="btn btn--primary" href="/calendar">Open the calendar</a></section></main>')
+w('start/index.html',page('/start/','Start here: the college recruiting steps by grade | The Commit Book','The free recruiting checklist for parents: what to do in 9th, 10th, 11th and 12th grade, with every NCAA rule linked to its bylaw. No sales call.',_start_page()))
 def card(s,p):
   return f'<a class="pb-card" href="/playbooks/{s}"><span class="pb-thumb"><b>{e(p["title"].split(":")[0])}</b><i>{p["pages"]} pages · {e(p["format"])}</i></span><span class="lab">{e(p["who"].split(",")[0])}</span><span class="pb-t">{e(p["title"])}</span><span class="pb-s">{e(p["outcome"][:110])}{"…" if len(p["outcome"])>110 else ""}</span><span class="pb-p">${p["price"]}</span></a>'+('' if p['notify'] else f'<button class="btn btn--primary" data-offer="{s}">Get the playbook</button>')
 grid=''.join('<div class="pb-cell">'+card(s,p)+('<p class="note">Rules being verified</p>' if p['notify'] else f'<button class="btn btn--primary" data-offer="{s}">Get the playbook</button>')+'</div>' for s,p in P.items())
@@ -104,7 +133,7 @@ for s,p in P.items():
 # RESKIN v2 pages
 for f in glob.glob(SITE+'/**/index.html',recursive=True):
   rel=os.path.relpath(f,SITE)
-  if rel=='index.html' or rel.startswith(('story/','playbooks/')):continue
+  if rel=='index.html' or rel.startswith(('story/','playbooks/','start/')):continue
   s=open(f).read()
   s=re.sub(r'<header class="masthead">.*?</header>',HDR,s,flags=re.S)
   s=re.sub(r'<header class="site-header cb-header">.*?</header>',HDR,s,flags=re.S)

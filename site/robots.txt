@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /welcome/
+Disallow: /api/
+
+Sitemap: https://recruiting-calendar.vercel.app/sitemap.xml
