@@ -1,0 +1,69 @@
+{
+  "id": "composite-wrestling",
+  "headline": "Tyler stepped away. The door was still open.",
+  "dek": "A composite story built from sourced paths. Tyler is invented. The steps come from real recruiting patterns, and nothing here promises a result.",
+  "chapters": [
+    {
+      "kicker": "Sophomore year",
+      "title": "A season off",
+      "what_was_happening": "Tyler stepped away from wrestling for a season. His parents worry. They ask whether a gap in the sport closes the door. Sourced stories show wrestlers who stepped back and returned.",
+      "what_they_did": "They start with grades, the part still fully in their hands. They read Eligibility: the 2 Hard Deadlines to see what has to be on track (offering: eligibility-2-hard-deadlines, $9).",
+      "how_it_helps": "Knowing the two deadlines turns a vague worry into a checklist.",
+      "offer": "eligibility-2-hard-deadlines",
+      "source_url": "https://www.themat.com/news/2024/september/17/u20-world-champion-cristelle-rodriguez-overcame-pressure-doubt-to-reignite-wrestling-career",
+      "image_prompt": "A parent's kitchen table with a laptop, a printed transcript and a mug of coffee, fictional adult hands holding a pen, soft morning light; cinematic editorial photo, 16:9, no logos or wordmarks"
+    },
+    {
+      "kicker": "Junior year",
+      "title": "Back on the mat",
+      "what_was_happening": "Tyler decides to return. He is still finding his level. His family does not know what coaches will think of the gap.",
+      "what_they_did": "They keep a plain log of every coach contact so nothing gets lost while he rebuilds (offering: contact-log). It is coming soon.",
+      "how_it_helps": "A log shows who replied and who is waiting. It does not change a coach's mind.",
+      "offer": "contact-log",
+      "source_url": null,
+      "image_prompt": "A fictional adult college-age male wrestler tying his shoes at the edge of an empty wrestling mat in a quiet gym at dawn, no readable signage; cinematic editorial photo, 16:9, no logos"
+    },
+    {
+      "kicker": "Junior year",
+      "title": "Wrestling and grades in one email",
+      "what_was_happening": "Division III coaches read both. A sourced pattern shows a D3 school pitching its academic path to an athlete with no D1 offers. Tyler's family decides to write about wrestling and academics together.",
+      "what_they_did": "They use the First Contact Pack templates to write a short first note with one result and one academic line (offering: coach-emails). It is coming soon.",
+      "how_it_helps": "A short note with the facts in it is easy to answer.",
+      "offer": "coach-emails",
+      "source_url": "https://www.buccaneers.com/news/reflecting-on-ali-marpet-s-college-career-16779250",
+      "image_prompt": "A fictional adult college-age man at a desk typing on a laptop, a wrestling singlet folded on a chair beside him; cinematic editorial photo, 16:9, no logos"
+    },
+    {
+      "kicker": "January 1, junior year",
+      "title": "Money at a school with no athletic scholarships",
+      "what_was_happening": "Division III paid official visits open January 1 of junior year (D3 Bylaw 13.6.1.1.1). D3 offers no athletic scholarships. Aid there is academic and need-based.",
+      "what_they_did": "The family starts learning how D3 aid works with the D3 Path: Academic Aid First (offering: d3-academic-aid-first). It is coming soon, not for sale yet.",
+      "how_it_helps": "Knowing aid is academic and need-based keeps a family from hunting for a scholarship that does not exist there.",
+      "offer": "d3-academic-aid-first",
+      "source_url": "https://web3.ncaa.org/lsdbi/reports/getReport/90011",
+      "image_prompt": "A printed college financial aid worksheet with a calculator and a pen on a wooden table, fictional adult hands, no readable school names; cinematic editorial photo, 16:9, no logos"
+    },
+    {
+      "kicker": "Visits",
+      "title": "Reading a visit with clear eyes",
+      "what_was_happening": "Tyler visits a few Division III campuses. He asks about roster spots and the major he wants. His parents watch how the staff treats him and the other athletes.",
+      "what_they_did": "They carry the Red Flags checklist and note what they see (offering: red-flags). It is coming soon.",
+      "how_it_helps": "A checklist helps parents notice things in the moment. It is not a verdict on a program.",
+      "offer": "red-flags",
+      "source_url": null,
+      "image_prompt": "A fictional adult father and his college-age son walking across an empty college quad in early autumn, backs to camera, no signage; cinematic editorial photo, 16:9, no logos"
+    },
+    {
+      "kicker": "Senior year",
+      "title": "A fit, not a trophy",
+      "what_was_happening": "In this composite, Tyler picks a Division III program where he makes the lineup some weekends and not others. He studies and graduates. The ending is ordinary on purpose.",
+      "what_they_did": "They compare the offers side by side before deciding (offering: offer-comparison). It is coming soon.",
+      "how_it_helps": "Seeing aid, major and roster spot in one grid makes the choice calmer.",
+      "offer": "offer-comparison",
+      "source_url": "https://www.spokesman.com/stories/2022/dec/19/eastern-washingtons-cedric-coward-carving-out-impo",
+      "image_prompt": "A fictional adult college-age wrestler in a hoodie sitting in a university library with a textbook open, late afternoon light; cinematic editorial photo, 16:9, no logos"
+    }
+  ],
+  "offers": ["eligibility-2-hard-deadlines", "d3-academic-aid-first", "coach-emails", "contact-log", "red-flags", "offer-comparison"],
+  "closing": "One path, made from several real ones. The ending is ordinary on purpose: most college athletes play, study and graduate."
+}

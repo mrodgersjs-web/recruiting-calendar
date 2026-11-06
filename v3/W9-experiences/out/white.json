@@ -1,0 +1,66 @@
+{
+  "id": "white",
+  "headline": "No D1 offers: what a parent-run search looked like",
+  "dek": "Derrick White's recruiting facts come from public sources. The Commit Book did not exist then. The steps marked \"If your family is here today\" are hypothetical, for a family in the same spot.",
+  "chapters": [
+    {
+      "kicker": "2012, senior year",
+      "title": "A 6-0 senior with no D1 offers",
+      "what_was_happening": "Per NBA.com, Derrick White was a 6-0 senior at Legend High School in Parker, Colorado, with no D1 offers. His father sent a highlight video to about 25 junior college and D2 schools.",
+      "what_they_did": "If your family is here today: put the film in front of coaches at every level, not only D1. A Highlight Reel & Social playbook covers how to structure the reel and a one-page profile.",
+      "how_it_helps": "A clear reel gives a coach a fast first look. It cannot make anyone reply.",
+      "offer": "highlight-reel-social",
+      "source_url": "https://www.nba.com/spurs/derrick-white-dare-be-great",
+      "image_prompt": "A parent's kitchen table at night with a laptop open to a blank email, a printed list of schools and a basketball on a chair, no logos, no people, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "2012, the same fall",
+      "title": "Writing to many schools, tracking replies",
+      "what_was_happening": "The published account says the outreach was run by a parent and went to about 25 schools at the JUCO and D2 level. That is the fact. We do not know more about how the family tracked it.",
+      "what_they_did": "If your family is here today: log every coach you write to and every answer. The Contact Log is built for that. It is coming soon, not on sale yet. The First Contact Pack has the email scripts, also coming soon.",
+      "how_it_helps": "Twenty-five schools is too many to hold in your head. A grid shows who has answered and who has not.",
+      "offer": "contact-log",
+      "source_url": "https://www.nba.com/spurs/derrick-white-dare-be-great",
+      "image_prompt": "A printed grid of school names with pen marks on a wooden desk beside a coffee mug, early morning light, no readable logos, no people, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "2012, the offer",
+      "title": "One offer: D2 walk-on with partial aid",
+      "what_was_happening": "Per Andscape, his one offer was a D2 preferred walk-on spot at UCCS with a $3,000 partial scholarship. The other option was a junior college in Wyoming.",
+      "what_they_did": "If your family is here today: learn what a walk-on spot means and what to get in writing before saying yes. The Walk-On Playbook covers that. Offers & Signing Day covers verbal versus written.",
+      "how_it_helps": "You know what to ask for in writing. It does not tell you which option is right.",
+      "offer": "walk-on",
+      "source_url": "https://andscape.com/features/derrick-white-started-as-the-ultimate-underdog-in-his-journey-to-the-nba-finals/",
+      "image_prompt": "An empty small college gymnasium at dawn, a single basketball at center court, light through high windows, no logos or wordmarks, no people, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "2012, campus visit",
+      "title": "A coach who brought him in",
+      "what_was_happening": "UCCS says coach Culver brought White as the first recruit he hosted on a campus visit. The redshirt plan was scrapped. Nothing more is stated about what the family felt or said.",
+      "what_they_did": "If your family is here today: prepare for the visit with questions about role and playing time. The Red Flags checklist has a set of them, coming soon, not on sale yet.",
+      "how_it_helps": "You walk in with questions instead of hoping they come up. It does not predict a role.",
+      "offer": "red-flags",
+      "source_url": "https://news.uccs.edu/2026/07/15/nba-champion-olympic-gold-medalist-and-former-uccs-standout-derrick-white-inducted-into-rmac-hall-of-fame",
+      "image_prompt": "A visitor's parking sign and an empty campus walkway at early morning, a gym entrance in the distance with no readable names or logos, no people, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "2015",
+      "title": "D2 All-American, then a transfer",
+      "what_was_happening": "Per the Colorado roster page, White was a D2 All-American, transferred to Colorado, sat out 2015-16 and led the team in scoring in 2016-17. The sources named the turning points as parent-run outreach, following a coach who believed in him, and a growth spurt in college.",
+      "what_they_did": "If your family is here today and a later transfer is possible: check eligibility rules early and keep a clear record of contacts. The Eligibility playbook covers the two hard deadlines.",
+      "how_it_helps": "A transfer is easier when the paperwork is ready. Nothing here shows that any product caused his path.",
+      "offer": "eligibility-2-hard-deadlines",
+      "source_url": "https://cubuffs.com/sports/mens-basketball/roster/derrick-white/10873",
+      "image_prompt": "A basketball arena seen from the upper rows at dawn, empty seats, a court with no readable logos or wordmarks, no people, cinematic editorial photo, 16:9"
+    }
+  ],
+  "offers": [
+    "highlight-reel-social",
+    "contact-log",
+    "walk-on",
+    "red-flags",
+    "eligibility-2-hard-deadlines",
+    "offer-and-signing"
+  ],
+  "closing": "These are public facts about one player, with hypothetical steps for a family in the same spot. Nothing here promises the same result."
+}

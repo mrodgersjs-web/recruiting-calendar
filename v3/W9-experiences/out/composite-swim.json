@@ -1,0 +1,69 @@
+{
+  "id": "composite-swim",
+  "headline": "Maya's times were good. Nobody knew yet.",
+  "dek": "A composite story built from sourced paths. Maya is invented. The steps come from real recruiting patterns, and nothing here promises a result.",
+  "chapters": [
+    {
+      "kicker": "Sophomore spring",
+      "title": "Good times, no phone calls",
+      "what_was_happening": "Maya is a club swimmer at a mid-size public high school. Her times drop every season. They are solid, but not at the top of national lists. Her parents ask what level these times fit.",
+      "what_they_did": "They start a Contact Log. Every coach, school, date and reply goes in one grid (offering: contact-log). It is coming soon, so they sketch the same grid on paper first.",
+      "how_it_helps": "One grid shows the family what is actually happening. It does not make a coach reply.",
+      "offer": "contact-log",
+      "source_url": "https://www.wabash.edu/news/story/2362",
+      "image_prompt": "A parent's kitchen table at dusk with a laptop open to a spreadsheet, a printed swim meet results sheet and a mug, fictional adult hands only; cinematic editorial photo, 16:9, no logos or wordmarks"
+    },
+    {
+      "kicker": "Summer before junior year",
+      "title": "A times sheet that is easy to forward",
+      "what_was_happening": "Maya's family learns that coaches weigh steady time drops and where those times would place in their conference. D2 programs may call, text and email at any time. In-person contact and paid visits open June 15 after sophomore year (D2 Bylaws 13.1.1.1, 13.3.1.2).",
+      "what_they_did": "They build one clean times sheet with her best swims and the dates. They use the First Contact Pack to write a short note with her key time in it (offering: coach-emails). It is coming soon.",
+      "how_it_helps": "A coach can read the sheet in under a minute. That is the only goal of the note.",
+      "offer": "coach-emails",
+      "source_url": "https://web3.ncaa.org/lsdbi/reports/getReport/90010",
+      "image_prompt": "A fictional adult woman swimmer in a plain black cap and goggles checking a stopwatch at the edge of an indoor pool at early morning, no readable signage; cinematic editorial photo, 16:9, no logos"
+    },
+    {
+      "kicker": "Junior fall",
+      "title": "The club coach makes the call",
+      "what_was_happening": "Swim recruiting often runs through the club coach, a pattern a Wabash College story describes. Maya's coach knows her training and her work ethic. Coaches trust what another coach tells them.",
+      "what_they_did": "Her parents ask the club coach to call a short list of programs. They line up the meets worth watching with the Season & Film Planner (offering: season-planner). It is coming soon.",
+      "how_it_helps": "The coach does the part a parent cannot. The family keeps the schedule straight.",
+      "offer": "season-planner",
+      "source_url": "https://www.wabash.edu/news/story/2362",
+      "image_prompt": "A fictional adult male swim coach in a plain polo with a clipboard, talking on a phone on a pool deck, lane lines blurred behind him; cinematic editorial photo, 16:9, no logos"
+    },
+    {
+      "kicker": "Junior winter",
+      "title": "Widen the list",
+      "what_was_happening": "Maya's family does what Derrick White's family did in basketball: send information to many Division II and Division III programs, not only Division I. The list is longer than they first expected.",
+      "what_they_did": "They send her sheet to every program where her times would score in the conference. They use the Camp ROI Playbook to decide which one or two camps are worth the money (offering: camp-roi, $15).",
+      "how_it_helps": "A budget keeps camps from turning into a pile of receipts.",
+      "offer": "camp-roi",
+      "source_url": "https://www.nba.com/spurs/derrick-white-dare-be-great",
+      "image_prompt": "A printed calendar with highlighted dates, a laptop and a small stack of plain envelopes with no readable addresses on a kitchen table, fictional adult hands writing notes; cinematic editorial photo, 16:9, no logos"
+    },
+    {
+      "kicker": "Senior fall",
+      "title": "Two interested coaches, one decision",
+      "what_was_happening": "Replies come back. One program shows steady interest and her times would score in its conference. Another is polite but quiet. The family now has something to compare.",
+      "what_they_did": "They lay the offers side by side with the Offer Comparison & Negotiation Toolkit (offering: offer-comparison). It is coming soon. For written-offer dates they use Offers & Signing Day (offering: offer-and-signing, $19).",
+      "how_it_helps": "A grid shows tuition, fees and aid in the same units. The decision stays the family's.",
+      "offer": "offer-comparison",
+      "source_url": null,
+      "image_prompt": "A fictional adult couple in their forties at a table comparing two printed pages side by side, a pen and a calculator between them, soft window light; cinematic editorial photo, 16:9, no logos"
+    },
+    {
+      "kicker": "Signing",
+      "title": "A level where she competes right away",
+      "what_was_happening": "In this composite, Maya picks a Division II program where her times would score and the coach keeps showing up. For her it is the destination, not a consolation. The ending is illustrative, not typical.",
+      "what_they_did": "They write the choice down. They keep the Contact Log going so every other coach gets a thank-you (offering: contact-log). It is coming soon.",
+      "how_it_helps": "Closing the loop politely keeps doors open. It guarantees nothing.",
+      "offer": "contact-log",
+      "source_url": null,
+      "image_prompt": "A fictional adult woman swimmer in her early twenties sitting on a pool bench with a towel around her shoulders, looking toward the water, empty natatorium behind her; cinematic editorial photo, 16:9, no logos"
+    }
+  ],
+  "offers": ["contact-log", "coach-emails", "season-planner", "camp-roi", "offer-comparison", "offer-and-signing"],
+  "closing": "One path, not a formula. Your swimmer's path will differ, and nothing here proves any product caused an outcome."
+}

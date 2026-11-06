@@ -1,0 +1,66 @@
+{
+  "id": "pichardo",
+  "headline": "A walk-on tryout, and the families who might try one",
+  "dek": "Olivia Pichardo's path is sourced and public. The Commit Book did not exist then. Each step below asks: if your family is here today, what would you do?",
+  "chapters": [
+    {
+      "kicker": "High school",
+      "title": "Club ball and a national-team credential",
+      "what_was_happening": "Olivia Pichardo played club and travel baseball on Long Island and made the US Women's National Baseball Team, according to a profile by Nancy B. Kennedy. That is what is on the record. Nothing more is claimed here about her family or how they decided.",
+      "what_they_did": "If your family is here today: write down every credential your player has, in one place, before talking to any school. The Highlight Reel & Social Playbook (highlight-reel-social, $15) has a one-page profile section for exactly that.",
+      "how_it_helps": "A coach reads a one-page summary faster than a long email. It does not make a coach reply.",
+      "offer": "highlight-reel-social",
+      "source_url": "https://www.nancybkennedy.com/a-walk-on-wonder",
+      "image_prompt": "A baseball glove, a worn ball and a duffel bag on a wooden dugout bench in an empty ballfield at dawn, no people. No logos or wordmarks. Cinematic editorial photo, 16:9."
+    },
+    {
+      "kicker": "Fall 2022",
+      "title": "Several options, and a school with no guarantee",
+      "what_was_happening": "The same profile says she had several college options and chose Brown with no guarantee of a spot. She went through walk-on tryouts. The sources do not say what her family discussed.",
+      "what_they_did": "If your family is here today: learn the difference between a preferred walk-on and a tryout walk-on before you commit to a school. The Walk-On Playbook (walk-on, $15) covers both, plus roster limits and what to get in writing.",
+      "how_it_helps": "Knowing the terms keeps you from mistaking an invitation to try out for a roster spot. It promises no outcome.",
+      "offer": "walk-on",
+      "source_url": "https://www.nancybkennedy.com/a-walk-on-wonder",
+      "image_prompt": "A parent's kitchen table with a laptop, a printed college list and a baseball cap beside a coffee mug, no people visible. No logos or wordmarks. Cinematic editorial photo, 16:9."
+    },
+    {
+      "kicker": "Academics first",
+      "title": "Asking admissions-first schools about fall tryouts",
+      "what_was_happening": "Her path went academic-first school choice, then tryout. The pattern recorded in her timeline is to ask admissions-first schools about fall walk-on tryouts.",
+      "what_they_did": "If your family is here today: email the program and ask when fall tryouts happen and how admissions timing fits. The Walk-On Playbook (walk-on) includes an admissions timeline. The First Contact Pack (coach-emails, $9) is coming soon with templates.",
+      "how_it_helps": "A direct question gets you a real date to plan around. A coach is free to say there is no tryout.",
+      "offer": "walk-on",
+      "source_url": "https://www.nancybkennedy.com/a-walk-on-wonder",
+      "image_prompt": "An envelope with a blank letter and a printed admissions calendar on a desk by a window, no readable text, no people. No logos or wordmarks. Cinematic editorial photo, 16:9."
+    },
+    {
+      "kicker": "Tryout season",
+      "title": "Keeping the tryout date and the paperwork straight",
+      "what_was_happening": "She went through walk-on tryouts in fall 2022. Tryout calendars sit alongside classes, deposits and housing dates, and they are easy to lose in the pile.",
+      "what_they_did": "If your family is here today: put the tryout date, the admissions dates and any contact in one grid. The Contact Log (contact-log) is coming soon and is built for that. The Season & Film Planner (season-planner) is also coming soon.",
+      "how_it_helps": "One grid helps a family see what is due next. It does not change what a coach decides.",
+      "offer": "contact-log",
+      "source_url": null,
+      "image_prompt": "A printed monthly calendar with several dates circled in pen next to a pair of cleats on a table, no people. No logos or wordmarks. Cinematic editorial photo, 16:9."
+    },
+    {
+      "kicker": "November 2022",
+      "title": "Named to the varsity roster",
+      "what_was_happening": "In November 2022, Sports Illustrated reported that she was named to the Brown varsity roster, the first woman on a Division I baseball roster. That is the sourced outcome. The sources do not claim anything caused it.",
+      "what_they_did": "If your family is here today: ask what a roster spot actually includes before you celebrate or plan. The Offers & Signing Day playbook (offer-and-signing, $19) and the Walk-On Playbook (walk-on) explain what to get in writing.",
+      "how_it_helps": "Getting terms in writing is a good habit at any level. It is not a guarantee of playing time.",
+      "offer": "offer-and-signing",
+      "source_url": "https://www.si.com/college/2022/11/21/brown-university-olivia-pichardo-walk-on-first-woman-division-i-ncaa-baseball",
+      "image_prompt": "An empty college baseball stadium at dawn with a single folded jersey, unmarked, on a dugout bench, no people. No logos or wordmarks. Cinematic editorial photo, 16:9."
+    }
+  ],
+  "offers": [
+    "walk-on",
+    "highlight-reel-social",
+    "contact-log",
+    "offer-and-signing",
+    "baseball-showcase-to-signing",
+    "coach-emails"
+  ],
+  "closing": "That is the sourced record, and only that. If your family is in a similar spot, start with the walk-on terms and the dates. Some tools here are coming soon."
+}

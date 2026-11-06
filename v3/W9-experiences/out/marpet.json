@@ -1,0 +1,76 @@
+{
+  "id": "marpet",
+  "headline": "No D1 offers? Division III can build an athlete",
+  "dek": "Ali Marpet, a football player from Hastings-on-Hudson, NY, went to Hobart, a D3 school, and was drafted in the second round in 2015. The facts below come from the linked sources. The Commit Book did not exist then, so the steps marked 'If your family is here today' are hypothetical.",
+  "chapters": [
+    {
+      "kicker": "High school",
+      "title": "Undersized, two sports, no D1 offers",
+      "what_was_happening": "Ali was about 235 pounds in high school. He played football and basketball, and he had no D1 offers. Some families reach this point and wonder whether the door has closed.",
+      "what_they_did": "If your family is here today: write down every school that has contacted you and what each one actually said. The Contact Log (contact-log) is the grid for that. It is coming soon.",
+      "how_it_helps": "You see which conversations are real. It does not create offers.",
+      "offer": "contact-log",
+      "source_url": "https://www.buccaneers.com/news/reflecting-on-ali-marpet-s-college-career-16779250",
+      "image_prompt": "A high school football field at dawn, empty bleachers, a helmet and a pair of cleats resting on a bench, mist on the grass, no logos or wordmarks, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "High school",
+      "title": "FCS interest came as walk-on only",
+      "what_was_happening": "The sources say Fordham, Marist and Holy Cross showed FCS interest, and it was walk-on only, with no scholarship. A walk-on spot is not the same as a scholarship, and families often learn the difference late.",
+      "what_they_did": "If your family is here today: ask what a walk-on offer means in writing before you answer. The Walk-On Playbook (walk-on) covers preferred versus tryout walk-ons, roster limits and what to get in writing.",
+      "how_it_helps": "You know what to ask. It does not tell you whether to accept.",
+      "offer": "walk-on",
+      "source_url": "https://www.buccaneers.com/news/5-things-to-know-about-ali-marpet-15227691",
+      "image_prompt": "A parent's kitchen table with a printed email on paper, a pen, a laptop and a mug of coffee, a football on a chair nearby, no readable logos, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "Recruiting",
+      "title": "Hobart pitched economics and a Wall Street path",
+      "what_was_happening": "The sources say Hobart pitched Ali an economics and Wall Street path. Later he grew, and football became his priority. The sources describe the pitch but not how his family weighed it.",
+      "what_they_did": "If your family is here today: compare schools on aid and academics as well as football. D3 Path: Academic Aid First (d3-academic-aid-first) covers how D3 aid works, net price calculators and admissions versus coach support. It is coming soon.",
+      "how_it_helps": "You can compare real costs. It cannot tell you which school fits.",
+      "offer": "d3-academic-aid-first",
+      "source_url": "https://www.buccaneers.com/news/reflecting-on-ali-marpet-s-college-career-16779250",
+      "image_prompt": "A small college quad in early autumn with brick buildings with no readable signs, a lone bicycle against a rail, soft morning light, no people close up, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "Eligibility",
+      "title": "The classes still have to count",
+      "what_was_happening": "Ali chose academics, according to the sources. They do not say anything about his coursework or eligibility. Any family weighing a school that stresses academics still has to make sure the high school classes meet the rules.",
+      "what_they_did": "If your family is here today: meet with the counselor early and build a core course plan. Eligibility: the 2 Hard Deadlines (eligibility-2-hard-deadlines) has a counselor meeting script and a year-by-year checklist.",
+      "how_it_helps": "You catch gaps while they can still be fixed. It does not guarantee eligibility.",
+      "offer": "eligibility-2-hard-deadlines",
+      "source_url": null,
+      "image_prompt": "A school counselor's desk seen from the doorway, a printed course list and a pencil, a parent's hands folded out of focus, warm office light, no logos, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "College",
+      "title": "Physical development in college",
+      "what_was_happening": "The sources point to physical development in college as part of his story. They say football became the priority after he grew. They do not describe a plan or a program he followed.",
+      "what_they_did": "If your family is here today: plan the season on paper, including film nights and recruiting windows. The Season & Film Planner (season-planner) is a blank grid with windows pre-marked. It is coming soon.",
+      "how_it_helps": "You keep film and dates in one place. It does not build size or speed.",
+      "offer": "season-planner",
+      "source_url": "https://www.buccaneers.com/news/reflecting-on-ali-marpet-s-college-career-16779250",
+      "image_prompt": "A weight room at dawn with an empty barbell rack, a clipboard and a water bottle on a bench, no logos or wordmarks, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "2015",
+      "title": "Drafted in the second round",
+      "what_was_happening": "In 2015 Tampa Bay drafted Ali in round 2. The sources call him the highest-drafted D3 player ever. His path was unusual, and it is one example, not a formula.",
+      "what_they_did": "If your family is here today: read about offers and signing before any offer arrives. Offers & Signing Day (offer-and-signing) explains verbal versus written offers and signing periods.",
+      "how_it_helps": "You know the terms before the call comes. It does not predict any result.",
+      "offer": "offer-and-signing",
+      "source_url": "https://nypost.com/2021/02/01/ali-marpets-journey-to-super-bowl-2021-is-unbelievably-surreal",
+      "image_prompt": "An empty football stadium at dawn, rows of seats with no signage, a single football on the sideline grass, mist, no logos or wordmarks, cinematic editorial photo, 16:9"
+    }
+  ],
+  "offers": [
+    "d3-academic-aid-first",
+    "walk-on",
+    "contact-log",
+    "eligibility-2-hard-deadlines",
+    "season-planner",
+    "offer-and-signing"
+  ],
+  "closing": "Ali's path was academics first, then growth, then football. Your family's path will look different. Some tools above are coming soon, and the linked sources show what we know."
+}

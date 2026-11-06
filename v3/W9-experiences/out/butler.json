@@ -1,0 +1,66 @@
+{
+  "id": "butler",
+  "headline": "Not heavily recruited: one JUCO year, then Marquette",
+  "dek": "Jimmy Butler's recruiting facts come from public sources. The Commit Book did not exist then. The steps marked \"If your family is here today\" are hypothetical, for a family in the same spot.",
+  "chapters": [
+    {
+      "kicker": "2007, senior year",
+      "title": "About 19 points a game, few offers",
+      "what_was_happening": "Per NFHS, Jimmy Butler averaged about 19 points as a senior at Tomball High School in Texas but was not heavily recruited. That is all the source says.",
+      "what_they_did": "If your family is here today: write down every coach who has shown interest and every one who has not, so you can see the real picture. The Contact Log is made for that. It is coming soon, not on sale yet.",
+      "how_it_helps": "You see where you stand before you decide. It does not create interest.",
+      "offer": "contact-log",
+      "source_url": "https://nfhs.org/stories/it-all-started-here-jimmy-butler",
+      "image_prompt": "An empty high school gymnasium at dawn, a ball rack and a single basketball on the floor, no logos or wordmarks, no people, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "2007",
+      "title": "Junior college as the next step",
+      "what_was_happening": "Butler went to Tyler Junior College. The sources do not describe his family's reasons or any private discussion. The public record is the choice and what followed.",
+      "what_they_did": "If your family is here today: read how junior college transfers work, including credits and when four-year coaches recruit. The JUCO to D1 playbook covers it. It is coming soon, not on sale yet.",
+      "how_it_helps": "You can judge the route before you commit to it. It does not promise a transfer.",
+      "offer": "juco-to-d1",
+      "source_url": "https://nfhs.org/stories/it-all-started-here-jimmy-butler",
+      "image_prompt": "A small junior college campus sign-free walkway at sunrise, a gym building in the distance, no readable names or logos, no people, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "2007-08",
+      "title": "One year of production",
+      "what_was_happening": "Per Marquette, Butler was an NJCAA honorable mention All-American at Tyler JC, averaging 18.1 points a game. The listed turning points were one JUCO year of production and a coaching change that opened roster spots.",
+      "what_they_did": "If your family is here today: build a season film file as the year goes, so the best games are cut and ready. The Highlight Reel & Social playbook covers structure and what not to post.",
+      "how_it_helps": "Coaches can see a full year in a few minutes. Film does not replace the numbers.",
+      "offer": "highlight-reel-social",
+      "source_url": "https://gomarquette.com/news/2008/4/17/MU_Lands_Junior_College_Standout_Jimmy_Butler",
+      "image_prompt": "A laptop on a desk showing an empty video timeline beside a notebook of game stats, desk lamp glow, no logos, no people, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "Spring 2008",
+      "title": "Watching for roster holes",
+      "what_was_happening": "The sources point to a coaching change that opened roster spots. The public record does not say how Butler's side found the opening.",
+      "what_they_did": "If your family is here today: keep a list of programs with new coaches or open spots, and send film to them in a set order. The First Contact Pack has scripts for that. It is coming soon, not on sale yet.",
+      "how_it_helps": "A set routine keeps you from missing a window. It does not open a spot.",
+      "offer": "coach-emails",
+      "source_url": null,
+      "image_prompt": "A printed list of program names with a few circled in pen on a kitchen table, a laptop and a coffee mug, morning light, no readable logos, no people, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "April 17, 2008",
+      "title": "Signing with Marquette",
+      "what_was_happening": "Per Marquette, Butler signed a National Letter of Intent on April 17, 2008, as Buzz Williams' first signee.",
+      "what_they_did": "If your family is here today: before anyone signs, learn the difference between verbal and written offers and how signing periods work. The Offers & Signing Day playbook covers it.",
+      "how_it_helps": "You sign knowing what the paper says. It does not change what the school offers.",
+      "offer": "offer-and-signing",
+      "source_url": "https://gomarquette.com/news/2008/4/17/MU_Lands_Junior_College_Standout_Jimmy_Butler",
+      "image_prompt": "A pen resting on an unsigned document on a wooden table, a basketball nearby, soft window light, no readable text or logos, no people, cinematic editorial photo, 16:9"
+    }
+  ],
+  "offers": [
+    "juco-to-d1",
+    "contact-log",
+    "highlight-reel-social",
+    "coach-emails",
+    "offer-and-signing",
+    "eligibility-2-hard-deadlines"
+  ],
+  "closing": "These are public facts about one player, with hypothetical steps for a family in the same spot. Nothing here promises the same result."
+}

@@ -1,0 +1,76 @@
+{
+  "id": "perez",
+  "headline": "She started in eighth grade and still found a home",
+  "dek": "Tori Perez's sourced path from a friend's request in eighth grade to Oglethorpe lacrosse. The Commit Book parts are written as 'if your family is here today' steps. Her family did not use The Commit Book, and it did not exist.",
+  "chapters": [
+    {
+      "kicker": "8th grade",
+      "title": "A friend needed a goalie",
+      "what_was_happening": "Perez became a lacrosse goalie in eighth grade because a friend needed one. She came from a soccer background. She was a late starter in a sport where many players begin earlier.",
+      "what_they_did": "If your family is here today and your athlete started late, read the Late Bloomer Playbook for who recruits late and the D2, D3, NAIA and JUCO doors. It is coming soon.",
+      "how_it_helps": "It tells a late starter which doors are still open. It does not open one.",
+      "offer": "late-bloomer",
+      "source_url": "https://www.ncaa.org/news/2025/9/19/media-center-how-lacrosse-goalie-tori-perez-created-a-name-and-a-home-at-oglethorpe.aspx",
+      "image_prompt": "An empty lacrosse goal on a suburban practice field at dawn, a single goalie stick and helmet resting on the grass, no people, no logos or wordmarks. Cinematic editorial photo, 16:9, no real school, NCAA, brand or league logos."
+    },
+    {
+      "kicker": "High school freshman year",
+      "title": "Write the goal down early",
+      "what_was_happening": "During her first high school season, Perez set a goal of playing in college. The lesson drawn from her case is to write the goal down early.",
+      "what_they_did": "If your family is here today, put the goal on paper and plan around it. The Season & Film Planner has a season grid with recruiting windows pre-marked. It is coming soon.",
+      "how_it_helps": "A written goal turns into dates on a calendar.",
+      "offer": "season-planner",
+      "source_url": "https://www.ncaa.org/news/2025/9/19/media-center-how-lacrosse-goalie-tori-perez-created-a-name-and-a-home-at-oglethorpe.aspx",
+      "image_prompt": "A parent's kitchen table with a printed school-year calendar, a handwritten goal on a notepad with no readable text, and a laptop, morning light. Cinematic editorial photo, 16:9, no logos or wordmarks."
+    },
+    {
+      "kicker": "Getting seen",
+      "title": "Film that shows a goalie's work",
+      "what_was_happening": "A goalie's value shows in saves and decisions, not points. Our sources do not say how Perez's film or recruiting contact worked.",
+      "what_they_did": "If your family is here today, build a short reel and a one-page profile. The Highlight Reel & Social Playbook has reel structure by position and a social audit.",
+      "how_it_helps": "A coach who finds your athlete can see the work quickly.",
+      "offer": "highlight-reel-social",
+      "source_url": null,
+      "image_prompt": "A phone on a small tripod at the edge of an empty lacrosse field filming the goal at golden hour, no people, no logos or wordmarks. Cinematic editorial photo, 16:9."
+    },
+    {
+      "kicker": "Choosing a school",
+      "title": "Score schools on culture, not just level",
+      "what_was_happening": "Perez committed to Oglethorpe as a high school senior. The sources give her reasons as city location and team diversity.",
+      "what_they_did": "If your family is here today, rate each school on culture and community as well as level of play. The Offer Comparison Toolkit has a side-by-side grid and 12 questions for each coach. It is coming soon.",
+      "how_it_helps": "It makes fit something you can compare, not just a feeling.",
+      "offer": "offer-comparison",
+      "source_url": "https://www.ncaa.org/news/2025/9/19/media-center-how-lacrosse-goalie-tori-perez-created-a-name-and-a-home-at-oglethorpe.aspx",
+      "image_prompt": "Two printed comparison sheets side by side on a desk with a pen and a city skyline visible through a window, no readable text or logos. Cinematic editorial photo, 16:9."
+    },
+    {
+      "kicker": "D3 and aid",
+      "title": "How a D3 school pays",
+      "what_was_happening": "Oglethorpe is a Division III school. Division III offers academic aid, not athletic scholarships, so the net price matters. Our sources do not describe Perez's aid package.",
+      "what_they_did": "If your family is here today, learn how D3 aid works and run each school's net price calculator. The D3 Path: Academic Aid First playbook covers Bylaw 15 and admissions versus coach support. It is coming soon.",
+      "how_it_helps": "It helps a family compare the real cost before falling for a campus.",
+      "offer": "d3-academic-aid-first",
+      "source_url": null,
+      "image_prompt": "A laptop on a kitchen table showing an unreadable cost calculator beside a calculator and a stack of college mailers with no readable text or logos, afternoon light. Cinematic editorial photo, 16:9."
+    },
+    {
+      "kicker": "May 2025",
+      "title": "A degree and a national team",
+      "what_was_happening": "Perez graduated in May 2025 with a biology degree. She also played for the Colombian national team. We cite these as facts about her, not as results of any playbook.",
+      "what_they_did": "If your family is here today, look past the roster years too. The After the Roster: Career Transition Workbook has a year-by-year plan from junior year to five years out. It is coming soon.",
+      "how_it_helps": "It keeps the degree and the next step in view while the sport is still going.",
+      "offer": "career-transition",
+      "source_url": "https://www.ncaa.org/news/2025/9/19/media-center-how-lacrosse-goalie-tori-perez-created-a-name-and-a-home-at-oglethorpe.aspx",
+      "image_prompt": "A graduation cap and a lacrosse stick leaning against a brick wall in soft morning light, no people, no logos or wordmarks. Cinematic editorial photo, 16:9."
+    }
+  ],
+  "offers": [
+    "late-bloomer",
+    "season-planner",
+    "highlight-reel-social",
+    "offer-comparison",
+    "d3-academic-aid-first",
+    "career-transition"
+  ],
+  "closing": "Perez's path is one path, not a formula. If your family is starting late, write the goal down and score schools on fit."
+}

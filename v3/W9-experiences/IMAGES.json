@@ -1,0 +1,275 @@
+{
+ "composite-sprinter": {
+  "hero": "/assets/media/ax-composite-sprinter-1600.webp",
+  "chapters": [
+   "/assets/media/ax-composite-sprinter-1080.webp",
+   "/assets/media/ax-composite-sprinter-1080.webp",
+   "/assets/media/ax-composite-sprinter-1080.webp",
+   "/assets/media/ax-composite-sprinter-1080.webp",
+   "/assets/media/ax-composite-sprinter-1080.webp",
+   "/assets/media/ax-composite-sprinter-1080.webp",
+   "/assets/media/ax-composite-sprinter-1080.webp"
+  ],
+  "src": "/Users/rig128gb/.aside/u/0/sessions/2026-11-06_hLvETrrsmXbtaPQy/artifacts/imagegen-GW8n2iGGbmcPkwa3.png"
+ },
+ "composite-football": {
+  "hero": "/assets/media/ax-composite-football-1600.webp",
+  "chapters": [
+   "/assets/media/ax-composite-football-1080.webp",
+   "/assets/media/ax-composite-football-1080.webp",
+   "/assets/media/ax-composite-football-1080.webp",
+   "/assets/media/ax-composite-football-1080.webp",
+   "/assets/media/ax-composite-football-1080.webp",
+   "/assets/media/ax-composite-football-1080.webp",
+   "/assets/media/ax-composite-football-1080.webp"
+  ],
+  "src": "/Users/rig128gb/.aside/u/0/sessions/2026-11-06_hLvETrrsmXbtaPQy/artifacts/imagegen-3fv1VZmVIKxyL8J4.png"
+ },
+ "butler": {
+  "hero": "/assets/media/ax-butler-1600.webp",
+  "chapters": [
+   "/assets/media/ax-butler-1080.webp",
+   "/assets/media/ax-butler-1080.webp",
+   "/assets/media/ax-butler-1080.webp",
+   "/assets/media/ax-butler-1080.webp",
+   "/assets/media/ax-butler-1080.webp",
+   "/assets/media/ax-butler-1080.webp",
+   "/assets/media/ax-butler-1080.webp"
+  ],
+  "src": "/Users/rig128gb/.aside/u/0/sessions/2026-11-06_hLvETrrsmXbtaPQy/artifacts/imagegen-YxePU7AkwCmfnxe1.png"
+ },
+ "composite-baseball": {
+  "hero": "/assets/media/ax-composite-baseball-1600.webp",
+  "chapters": [
+   "/assets/media/ax-composite-baseball-1080.webp",
+   "/assets/media/ax-composite-baseball-1080.webp",
+   "/assets/media/ax-composite-baseball-1080.webp",
+   "/assets/media/ax-composite-baseball-1080.webp",
+   "/assets/media/ax-composite-baseball-1080.webp",
+   "/assets/media/ax-composite-baseball-1080.webp",
+   "/assets/media/ax-composite-baseball-1080.webp"
+  ],
+  "src": "/Users/rig128gb/.aside/u/0/sessions/2026-11-06_hLvETrrsmXbtaPQy/artifacts/imagegen-oQq42kv4PGJZRQKB.png"
+ },
+ "composite-swim": {
+  "hero": "/assets/media/ax-composite-swim-1600.webp",
+  "chapters": [
+   "/assets/media/ax-composite-swim-1080.webp",
+   "/assets/media/ax-composite-swim-1080.webp",
+   "/assets/media/ax-composite-swim-1080.webp",
+   "/assets/media/ax-composite-swim-1080.webp",
+   "/assets/media/ax-composite-swim-1080.webp",
+   "/assets/media/ax-composite-swim-1080.webp",
+   "/assets/media/ax-composite-swim-1080.webp"
+  ],
+  "src": "/Users/rig128gb/.aside/u/0/sessions/2026-11-06_hLvETrrsmXbtaPQy/artifacts/imagegen-riAy9jHQtxC4SMIX.png"
+ },
+ "composite-softball": {
+  "hero": "/assets/media/ax-composite-softball-1600.webp",
+  "chapters": [
+   "/assets/media/ax-composite-softball-1080.webp",
+   "/assets/media/ax-composite-softball-1080.webp",
+   "/assets/media/ax-composite-softball-1080.webp",
+   "/assets/media/ax-composite-softball-1080.webp",
+   "/assets/media/ax-composite-softball-1080.webp",
+   "/assets/media/ax-composite-softball-1080.webp",
+   "/assets/media/ax-composite-softball-1080.webp"
+  ],
+  "src": "/Users/rig128gb/.aside/u/0/sessions/2026-11-06_hLvETrrsmXbtaPQy/artifacts/imagegen-lRb0SDmiQMvcdxas.png"
+ },
+ "coward": {
+  "hero": "/assets/media/ax-coward-1600.webp",
+  "chapters": [
+   "/assets/media/ax-coward-1080.webp",
+   "/assets/media/ax-coward-1080.webp",
+   "/assets/media/ax-coward-1080.webp",
+   "/assets/media/ax-coward-1080.webp",
+   "/assets/media/ax-coward-1080.webp",
+   "/assets/media/ax-coward-1080.webp",
+   "/assets/media/ax-coward-1080.webp"
+  ],
+  "src": "/Users/rig128gb/.aside/u/0/sessions/2026-11-06_hLvETrrsmXbtaPQy/artifacts/imagegen-2RM2RMzCLtzvm3V1.png"
+ },
+ "lowe": {
+  "hero": "/assets/media/ax-lowe-1600.webp",
+  "chapters": [
+   "/assets/media/ax-lowe-1080.webp",
+   "/assets/media/ax-lowe-1080.webp",
+   "/assets/media/ax-lowe-1080.webp",
+   "/assets/media/ax-lowe-1080.webp",
+   "/assets/media/ax-lowe-1080.webp",
+   "/assets/media/ax-lowe-1080.webp",
+   "/assets/media/ax-lowe-1080.webp"
+  ],
+  "src": "/Users/rig128gb/.aside/u/0/sessions/2026-11-06_hLvETrrsmXbtaPQy/artifacts/imagegen-GvBrxrxG9D5Ji2Ze.png"
+ },
+ "composite-wbasketball": {
+  "hero": "/assets/media/ax-composite-wbasketball-1600.webp",
+  "chapters": [
+   "/assets/media/ax-composite-wbasketball-1080.webp",
+   "/assets/media/ax-composite-wbasketball-1080.webp",
+   "/assets/media/ax-composite-wbasketball-1080.webp",
+   "/assets/media/ax-composite-wbasketball-1080.webp",
+   "/assets/media/ax-composite-wbasketball-1080.webp",
+   "/assets/media/ax-composite-wbasketball-1080.webp",
+   "/assets/media/ax-composite-wbasketball-1080.webp"
+  ],
+  "src": "/Users/rig128gb/.aside/u/0/sessions/2026-11-06_hLvETrrsmXbtaPQy/artifacts/imagegen-A2JuebY1pdoektpt.png"
+ },
+ "composite-volleyball": {
+  "hero": "/assets/media/ax-composite-volleyball-1600.webp",
+  "chapters": [
+   "/assets/media/ax-composite-volleyball-1080.webp",
+   "/assets/media/ax-composite-volleyball-1080.webp",
+   "/assets/media/ax-composite-volleyball-1080.webp",
+   "/assets/media/ax-composite-volleyball-1080.webp",
+   "/assets/media/ax-composite-volleyball-1080.webp",
+   "/assets/media/ax-composite-volleyball-1080.webp",
+   "/assets/media/ax-composite-volleyball-1080.webp"
+  ],
+  "src": "/Users/rig128gb/.aside/u/0/sessions/2026-11-06_hLvETrrsmXbtaPQy/artifacts/imagegen-50rFlNfuiTtflBGk.png"
+ },
+ "groenewegen": {
+  "hero": "/assets/media/ax-groenewegen-1600.webp",
+  "chapters": [
+   "/assets/media/ax-groenewegen-1080.webp",
+   "/assets/media/ax-groenewegen-1080.webp",
+   "/assets/media/ax-groenewegen-1080.webp",
+   "/assets/media/ax-groenewegen-1080.webp",
+   "/assets/media/ax-groenewegen-1080.webp",
+   "/assets/media/ax-groenewegen-1080.webp",
+   "/assets/media/ax-groenewegen-1080.webp"
+  ],
+  "src": "/Users/rig128gb/.aside/u/0/sessions/2026-11-06_hLvETrrsmXbtaPQy/artifacts/imagegen-5M8U81QdVUspQxqW.png"
+ },
+ "composite-wrestling": {
+  "hero": "/assets/media/ax-composite-wrestling-1600.webp",
+  "chapters": [
+   "/assets/media/ax-composite-wrestling-1080.webp",
+   "/assets/media/ax-composite-wrestling-1080.webp",
+   "/assets/media/ax-composite-wrestling-1080.webp",
+   "/assets/media/ax-composite-wrestling-1080.webp",
+   "/assets/media/ax-composite-wrestling-1080.webp",
+   "/assets/media/ax-composite-wrestling-1080.webp",
+   "/assets/media/ax-composite-wrestling-1080.webp"
+  ],
+  "src": "/Users/rig128gb/.aside/u/0/sessions/2026-11-06_hLvETrrsmXbtaPQy/artifacts/imagegen-hA2kMFV4VgK4Xidq.png"
+ },
+ "white": {
+  "hero": "/assets/media/ax-white-1600.webp",
+  "chapters": [
+   "/assets/media/ax-white-1080.webp",
+   "/assets/media/ax-white-1080.webp",
+   "/assets/media/ax-white-1080.webp",
+   "/assets/media/ax-white-1080.webp",
+   "/assets/media/ax-white-1080.webp",
+   "/assets/media/ax-white-1080.webp",
+   "/assets/media/ax-white-1080.webp"
+  ],
+  "src": "/Users/rig128gb/.aside/u/0/sessions/2026-11-06_hLvETrrsmXbtaPQy/artifacts/imagegen-pqVBWAdzqu1FjMR8.png"
+ },
+ "rodriguez": {
+  "hero": "/assets/media/ax-rodriguez-1600.webp",
+  "chapters": [
+   "/assets/media/ax-rodriguez-1080.webp",
+   "/assets/media/ax-rodriguez-1080.webp",
+   "/assets/media/ax-rodriguez-1080.webp",
+   "/assets/media/ax-rodriguez-1080.webp",
+   "/assets/media/ax-rodriguez-1080.webp",
+   "/assets/media/ax-rodriguez-1080.webp",
+   "/assets/media/ax-rodriguez-1080.webp"
+  ],
+  "src": "/Users/rig128gb/.aside/u/0/sessions/2026-11-06_hLvETrrsmXbtaPQy/artifacts/imagegen-2FkyYQjrunVNdGmw.png"
+ },
+ "rodenfels": {
+  "hero": "/assets/media/ax-rodenfels-1600.webp",
+  "chapters": [
+   "/assets/media/ax-rodenfels-1080.webp",
+   "/assets/media/ax-rodenfels-1080.webp",
+   "/assets/media/ax-rodenfels-1080.webp",
+   "/assets/media/ax-rodenfels-1080.webp",
+   "/assets/media/ax-rodenfels-1080.webp",
+   "/assets/media/ax-rodenfels-1080.webp",
+   "/assets/media/ax-rodenfels-1080.webp"
+  ],
+  "src": "/Users/rig128gb/.aside/u/0/sessions/2026-11-06_hLvETrrsmXbtaPQy/artifacts/imagegen-1HUEaVsHGNQYIQlQ.png"
+ },
+ "pirosko": {
+  "hero": "/assets/media/ax-pirosko-1600.webp",
+  "chapters": [
+   "/assets/media/ax-pirosko-1080.webp",
+   "/assets/media/ax-pirosko-1080.webp",
+   "/assets/media/ax-pirosko-1080.webp",
+   "/assets/media/ax-pirosko-1080.webp",
+   "/assets/media/ax-pirosko-1080.webp",
+   "/assets/media/ax-pirosko-1080.webp",
+   "/assets/media/ax-pirosko-1080.webp"
+  ],
+  "src": "/Users/rig128gb/.aside/u/0/sessions/2026-11-06_hLvETrrsmXbtaPQy/artifacts/imagegen-SBGExOpQcD5iCOUu.png"
+ },
+ "pichardo": {
+  "hero": "/assets/media/ax-pichardo-1600.webp",
+  "chapters": [
+   "/assets/media/ax-pichardo-1080.webp",
+   "/assets/media/ax-pichardo-1080.webp",
+   "/assets/media/ax-pichardo-1080.webp",
+   "/assets/media/ax-pichardo-1080.webp",
+   "/assets/media/ax-pichardo-1080.webp",
+   "/assets/media/ax-pichardo-1080.webp",
+   "/assets/media/ax-pichardo-1080.webp"
+  ],
+  "src": "/Users/rig128gb/.aside/u/0/sessions/2026-11-06_hLvETrrsmXbtaPQy/artifacts/imagegen-kdgvJzN60DzME5FJ.png"
+ },
+ "renfrow": {
+  "hero": "/assets/media/ax-renfrow-1600.webp",
+  "chapters": [
+   "/assets/media/ax-renfrow-1080.webp",
+   "/assets/media/ax-renfrow-1080.webp",
+   "/assets/media/ax-renfrow-1080.webp",
+   "/assets/media/ax-renfrow-1080.webp",
+   "/assets/media/ax-renfrow-1080.webp",
+   "/assets/media/ax-renfrow-1080.webp",
+   "/assets/media/ax-renfrow-1080.webp"
+  ],
+  "src": "/Users/rig128gb/.aside/u/0/sessions/2026-11-06_hLvETrrsmXbtaPQy/artifacts/imagegen-VWrnLyTq6aGlJ6sl.png"
+ },
+ "perez": {
+  "hero": "/assets/media/ax-perez-1600.webp",
+  "chapters": [
+   "/assets/media/ax-perez-1080.webp",
+   "/assets/media/ax-perez-1080.webp",
+   "/assets/media/ax-perez-1080.webp",
+   "/assets/media/ax-perez-1080.webp",
+   "/assets/media/ax-perez-1080.webp",
+   "/assets/media/ax-perez-1080.webp",
+   "/assets/media/ax-perez-1080.webp"
+  ],
+  "src": "/Users/rig128gb/.aside/u/0/sessions/2026-11-06_hLvETrrsmXbtaPQy/artifacts/imagegen-9ItDJyLW5uFSLfCB.png"
+ },
+ "wondolowski": {
+  "hero": "/assets/media/ax-wondolowski-1600.webp",
+  "chapters": [
+   "/assets/media/ax-wondolowski-1080.webp",
+   "/assets/media/ax-wondolowski-1080.webp",
+   "/assets/media/ax-wondolowski-1080.webp",
+   "/assets/media/ax-wondolowski-1080.webp",
+   "/assets/media/ax-wondolowski-1080.webp",
+   "/assets/media/ax-wondolowski-1080.webp",
+   "/assets/media/ax-wondolowski-1080.webp"
+  ],
+  "src": "/Users/rig128gb/.aside/u/0/sessions/2026-11-06_hLvETrrsmXbtaPQy/artifacts/imagegen-UWg3JzbTmRcTuIgg.png"
+ },
+ "marpet": {
+  "hero": "/assets/media/ax-marpet-1600.webp",
+  "chapters": [
+   "/assets/media/ax-marpet-1080.webp",
+   "/assets/media/ax-marpet-1080.webp",
+   "/assets/media/ax-marpet-1080.webp",
+   "/assets/media/ax-marpet-1080.webp",
+   "/assets/media/ax-marpet-1080.webp",
+   "/assets/media/ax-marpet-1080.webp",
+   "/assets/media/ax-marpet-1080.webp"
+  ],
+  "src": "/Users/rig128gb/.aside/u/0/sessions/2026-11-06_hLvETrrsmXbtaPQy/artifacts/imagegen-b5BfJkWj30NPevT8.png"
+ }
+}

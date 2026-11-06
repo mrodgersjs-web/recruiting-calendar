@@ -1,0 +1,69 @@
+{
+  "id": "wondolowski",
+  "headline": "Chris Wondolowski was found at a tournament.",
+  "dek": "Chris Wondolowski is a real athlete, and every fact about him comes from the linked sources. The Commit Book did not exist then. The 'If your family is here today' steps are for families in a similar spot.",
+  "chapters": [
+    {
+      "kicker": "High school",
+      "title": "Not heavily recruited for soccer",
+      "what_was_happening": "At De La Salle High School, Chris was not heavily recruited for soccer. The D1 interest he did get was mostly for track (NCAA.com). That is the sourced fact, and we know nothing about how his family felt.",
+      "what_they_did": "If your family is here today: before anything else, check the two hard eligibility deadlines, so the academic side never narrows your list (offering: eligibility-2-hard-deadlines, $9).",
+      "how_it_helps": "Grades and core courses are the part a family fully controls. Doing them right keeps every door open for a coach to walk through.",
+      "offer": "eligibility-2-hard-deadlines",
+      "source_url": "https://www.ncaa.com/news/soccer-men/article/2019-08-29/how-chris-wondolowski-went-dii-mls-record-book",
+      "image_prompt": "An empty high school soccer field at dawn with goal nets and a ball resting on the center spot, no people; cinematic editorial photo, 16:9, no logos or wordmarks"
+    },
+    {
+      "kicker": "High school",
+      "title": "The tournament that mattered",
+      "what_was_happening": "A Chico State coach saw him at a San Diego tournament (NCAA.com). One of the turning points in his path is that a tournament put him in front of the right coach.",
+      "what_they_did": "If your family is here today: pick the events that lower-division coaches attend, and set a budget before you book anything (offering: camp-roi, $15).",
+      "how_it_helps": "A budget keeps you from paying for events nobody is watching. It cannot make a coach show up.",
+      "offer": "camp-roi",
+      "source_url": "https://www.ncaa.com/news/soccer-men/article/2019-08-29/how-chris-wondolowski-went-dii-mls-record-book",
+      "image_prompt": "Rows of folding chairs and a canopy tent on the sideline of an empty tournament soccer complex at sunrise, cones scattered on the grass, no people; cinematic editorial photo, 16:9, no logos"
+    },
+    {
+      "kicker": "After the tournament",
+      "title": "Follow up while they remember",
+      "what_was_happening": "The sources say a coach saw him play. They do not say what happened between the two of them next, so we do not either.",
+      "what_they_did": "If your family is here today: send a short note to every coach who watched, with the game, the date and your athlete's contact details (offering: coach-emails). It is coming soon.",
+      "how_it_helps": "A quick, specific note is easy to answer. It does not promise a reply.",
+      "offer": "coach-emails",
+      "source_url": null,
+      "image_prompt": "A parent's kitchen table with a laptop open to an email draft, a printed tournament schedule and a mug, no people visible, warm morning light; cinematic editorial photo, 16:9, no logos"
+    },
+    {
+      "kicker": "Choosing a program",
+      "title": "D2 can be a real path",
+      "what_was_happening": "Chris went to Chico State, a Division II school. A lesson in his sourced path is to treat D2 as a real path, not a fallback.",
+      "what_they_did": "If your family is here today: keep a log of every coach, school, date and next step, so a Division II list gets the same care as a D1 list (offering: contact-log). It is coming soon.",
+      "how_it_helps": "A log keeps a long list organized. It does not decide the level for you.",
+      "offer": "contact-log",
+      "source_url": null,
+      "image_prompt": "A printed grid of coach names and dates on a clipboard beside a pen and a soccer ball on a wooden bench, no people; cinematic editorial photo, 16:9, no logos"
+    },
+    {
+      "kicker": "Offers",
+      "title": "Compare offers on the same terms",
+      "what_was_happening": "When more than one program shows interest, the choices are hard to line up. Money, fit and playing time rarely sit in the same column. The sources do not describe his offers, so this step is for you.",
+      "what_they_did": "If your family is here today: put every offer into one grid and ask each coach the same questions (offering: offer-comparison). It is coming soon.",
+      "how_it_helps": "Side by side, the differences show up. The decision stays with your family.",
+      "offer": "offer-comparison",
+      "source_url": null,
+      "image_prompt": "Two printed pages laid side by side on a table with a pen and a calculator between them, no people, soft window light; cinematic editorial photo, 16:9, no logos"
+    },
+    {
+      "kicker": "College and after",
+      "title": "39 goals, then a draft pick",
+      "what_was_happening": "At Chico State he scored 39 goals and was named All-American (NCAA.com). In 2005 he was taken 41st in the MLS Supplemental Draft. Those are the sourced facts. They are his, not a promise about any other athlete.",
+      "what_they_did": "If your family is here today: know the written-offer dates and the signing periods before anyone commits out loud (offering: offer-and-signing, $19).",
+      "how_it_helps": "The dates keep a family from mistaking a promise for a contract.",
+      "offer": "offer-and-signing",
+      "source_url": "https://www.dlshs.org/about/communications/news/details/~board/60-for-60/post/chris-wondolowski-01-a-legend-built-on-heart-hustle-and-humility",
+      "image_prompt": "An empty college soccer stadium at sunrise with rows of empty seats and a ball on the pitch, no people, no logos or wordmarks; cinematic editorial photo, 16:9"
+    }
+  ],
+  "offers": ["eligibility-2-hard-deadlines", "camp-roi", "coach-emails", "contact-log", "offer-comparison", "offer-and-signing"],
+  "closing": "Chris Wondolowski's path is his, and the sources tell only part of it. If your family is in a similar spot, these steps are here to use."
+}

@@ -1,0 +1,76 @@
+{
+  "id": "composite-football",
+  "headline": "Marcus: a lineman, no D1 offers, a D3 fit",
+  "dek": "A composite story built from sourced paths. Marcus is not a real person. Here is how a family in his spot might work the calendar, with The Commit Book beside them.",
+  "chapters": [
+    {
+      "kicker": "Sophomore year",
+      "title": "Good grades, a lighter frame, no big-school interest",
+      "what_was_happening": "Marcus plays both ways on the line at a mid-size public school. He is a little light for the position. His grades are strong. No Division I program has written. His parents are not sure there is a college roster for a player his size.",
+      "what_they_did": "They sit down at the kitchen table and read how football recruiting is timed before they spend a dollar on anything else. They use the Football: Junior Year Playbook (football-junior-year, $29) to see the calendar and the two hard dates.",
+      "how_it_helps": "It turns a vague worry into dates on a page. It does not tell you where your son will play.",
+      "offer": "football-junior-year",
+      "source_url": null,
+      "image_prompt": "A parent's kitchen table at dusk with an open laptop, a printed football recruiting calendar and a mug of coffee, two adults seated, faces turned away from camera. No logos or wordmarks. Cinematic editorial photo, 16:9."
+    },
+    {
+      "kicker": "Sophomore spring",
+      "title": "Making sure the classroom door stays open",
+      "what_was_happening": "Coaches at every level check eligibility. Marcus's family has not looked at core courses or the deadlines that lock in. They do not want a surprise in senior year.",
+      "what_they_did": "They meet with the school counselor and walk through the core-course list and the Eligibility Center account. They use Eligibility: the 2 Hard Deadlines (eligibility-2-hard-deadlines, $9) for the counselor meeting script and the core GPA worksheet.",
+      "how_it_helps": "A counselor meeting goes faster when you bring the questions. It does not change anyone's eligibility decision.",
+      "offer": "eligibility-2-hard-deadlines",
+      "source_url": null,
+      "image_prompt": "A high school counselor's office with a printed core-course checklist and a folder on a desk, two fictional adults in conversation, soft window light. No logos or wordmarks. Cinematic editorial photo, 16:9."
+    },
+    {
+      "kicker": "Summer before junior year",
+      "title": "Switching the question from 'who wants him' to 'who fits him'",
+      "what_was_happening": "Marcus is not the size the big programs list. His family decides to stop waiting on Division I. The sources behind this story describe an undersized lineman with no D1 offers who chose a D3 school after it pitched its academic path. Marcus asks about both football and his intended major.",
+      "what_they_did": "They build a target list in three tiers and draft a first note to Division III coaches. The Football: Junior Year Playbook (football-junior-year) has the tiers and the email and call scripts. The First Contact Pack (coach-emails, $9) is coming soon and will add 12 templates.",
+      "how_it_helps": "A tiered list keeps the family from chasing one program. Coaches decide whether to answer.",
+      "offer": "football-junior-year",
+      "source_url": "https://www.buccaneers.com/news/reflecting-on-ali-marpet-s-college-career-16779250",
+      "image_prompt": "A fictional college-age adult lineman in plain unbranded practice gear sits on a bench in an empty stadium at dawn, helmet at his feet, looking toward the field. No logos or wordmarks. Cinematic editorial photo, 16:9."
+    },
+    {
+      "kicker": "January of junior year",
+      "title": "Campus visits open, and the family keeps a record",
+      "what_was_happening": "Under the rule this story draws on (D3 Bylaw 13.6.1.1.1), paid official visits at Division III open January 1 of junior year. Division III offers no athletic scholarships. Aid there is academic and need-based. Marcus's family starts getting invitations and does not want to lose track of who said what.",
+      "what_they_did": "They tour campuses and keep one grid of coach names, dates and next steps. The Contact Log (contact-log) is coming soon and is built for that grid and a 5-minute Sunday review. Until then they use the trackers in the Football: Junior Year Playbook.",
+      "how_it_helps": "One page means no one asks 'did he ever write back?' at dinner. The rule guarantees nothing. Check it at the source.",
+      "offer": "contact-log",
+      "source_url": "https://web3.ncaa.org/lsdbi/reports/getReport/90011",
+      "image_prompt": "A fictional college-age adult in a plain jacket and a parent walking across a quiet small-college quad in autumn, a notebook in hand. No logos, signs or wordmarks. Cinematic editorial photo, 16:9."
+    },
+    {
+      "kicker": "Senior fall",
+      "title": "Reading what a school is really offering",
+      "what_was_happening": "A Division III coach is recruiting Marcus directly. The family wants to know what a campus-visit conversation should sound like and which comments are worth a second question. Aid will be academic and need-based, so the net price matters as much as the roster spot.",
+      "what_they_did": "They bring a short list of questions on playing time, academics and cost to each visit. Red Flags: The Checklist (red-flags) is coming soon with 40 flags in four groups. The D3 Path: Academic Aid First (d3-academic-aid-first, $19) is also coming soon and covers net price calculators.",
+      "how_it_helps": "Written questions keep a good visit from skipping the hard topics. They do not predict how a program treats players.",
+      "offer": "red-flags",
+      "source_url": "https://nescac.com/news/2024/12/20/nescac-news-nescac-friday-feature-elias-espinosa-conn-college-mens-basketball.aspx",
+      "image_prompt": "A parent and a fictional college-age adult athlete review a printed question list at a small cafe table, a campus building blurred behind them. No logos or wordmarks. Cinematic editorial photo, 16:9."
+    },
+    {
+      "kicker": "Decision time",
+      "title": "Choosing the school where he can play and study",
+      "what_was_happening": "Marcus has more than one answer. The family picks a Division III school where he can play and study what he came for. In this composite he plays four seasons, mostly as a starter in his last two, and graduates. No draft. That is the destination.",
+      "what_they_did": "They compare offers on one sheet and ask the same questions of every staff. The Offers & Signing Day playbook (offer-and-signing, $19) covers verbal versus written and signing periods. The Offer Comparison Toolkit (offer-comparison) is coming soon.",
+      "how_it_helps": "A side-by-side makes a close choice easier to talk about. It does not make the choice for you.",
+      "offer": "offer-and-signing",
+      "source_url": null,
+      "image_prompt": "A fictional college-age adult athlete in a plain sweatshirt signs a document at a wooden table while two fictional adult parents look on, warm late-afternoon light. No logos or wordmarks. Cinematic editorial photo, 16:9."
+    }
+  ],
+  "offers": [
+    "football-junior-year",
+    "eligibility-2-hard-deadlines",
+    "contact-log",
+    "red-flags",
+    "offer-and-signing",
+    "d3-academic-aid-first"
+  ],
+  "closing": "One path, made of several real ones. Marcus does not exist, and nothing here proves a playbook causes a result. Start with the calendar and see what it shows you."
+}

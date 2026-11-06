@@ -1,0 +1,76 @@
+{
+  "id": "composite-volleyball",
+  "headline": "Ava picked volleyball late. Was it too late?",
+  "dek": "A composite story built from sourced paths. Ava is not a real person. Here is how a family in her spot might work the calendar, with The Commit Book beside them.",
+  "chapters": [
+    {
+      "kicker": "Sophomore year",
+      "title": "Two sports, then one choice",
+      "what_was_happening": "Ava played two sports into high school and only picked volleyball as a sophomore. Her parents worry it is too late. They also wonder whether she has to move far from home to play. The sources behind this story describe a two-sport athlete who specialized late.",
+      "what_they_did": "They start with the calendar for her sport and what each window means. The Camp ROI Playbook (camp-roi, $15) lays out camp types and when recruiting talk opens by sport. They also plan a season of film using the Season & Film Planner (season-planner), which is coming soon.",
+      "how_it_helps": "A late start is easier to plan once the dates are on paper. It does not tell you whether a coach will want her.",
+      "offer": "camp-roi",
+      "source_url": "https://dailybruin.com/2013/11/27/ucla-volleyballs-karsta-lowe-went-from-walk-on-to-top-player",
+      "image_prompt": "A fictional college-age adult woman volleyball player in plain unbranded gear sits on a gym floor beside a ball in soft morning light, an empty gym behind her. No logos or wordmarks. Cinematic editorial photo, 16:9."
+    },
+    {
+      "kicker": "Sophomore spring",
+      "title": "A short video, made on purpose",
+      "what_was_happening": "Ava has good footage but it is scattered across phones. Her mom and dad want one short reel a coach can watch in a couple of minutes.",
+      "what_they_did": "They cut a reel with a clear opening and a one-page profile, following the Highlight Reel & Social Playbook (highlight-reel-social, $15). They also tidy her public social posts before any coach looks.",
+      "how_it_helps": "A clean reel and profile save a coach time. Coaches still decide whom to answer.",
+      "offer": "highlight-reel-social",
+      "source_url": null,
+      "image_prompt": "A fictional adult parent and a fictional college-age adult volleyball player review a short video on a laptop at a kitchen table, a printed one-page profile beside it. No logos or wordmarks. Cinematic editorial photo, 16:9."
+    },
+    {
+      "kicker": "Summer after sophomore year",
+      "title": "Contacting programs within driving distance",
+      "what_was_happening": "Under the rule this story draws on (D2 Bylaws 13.1.1.1, 13.3.1.2), Division II calls, texts and emails are allowed at any time. In-person contact and paid official visits open June 15 after sophomore year. Staying close to home is a deliberate choice for Ava, as the sources describe for another athlete.",
+      "what_they_did": "They list programs within a few hours' drive and email the staffs. The First Contact Pack (coach-emails, $9) is coming soon with 12 templates. The Contact Log (contact-log) is also coming soon and is built to track who answered and when to follow up.",
+      "how_it_helps": "A tracked list means no coach goes unanswered by accident. The rule guarantees nothing. Check it at the source.",
+      "offer": "contact-log",
+      "source_url": "https://web3.ncaa.org/lsdbi/reports/getReport/90010",
+      "image_prompt": "A road map of a home state with several towns circled in pen and a coffee mug on a kitchen table, an open laptop beside it, no people. No logos or wordmarks. Cinematic editorial photo, 16:9."
+    },
+    {
+      "kicker": "Junior year",
+      "title": "Camps that cost money, and a budget for them",
+      "what_was_happening": "Camps are where many staffs see players in person. They also add up fast. Ava's family has a budget and does not want to spend it on events that do not fit her goals.",
+      "what_they_did": "They pick camps by who will be there and what the trip costs, then plan the follow-up note ahead of time. The Camp ROI Playbook (camp-roi) has a cost budget and a post-camp follow-up section.",
+      "how_it_helps": "A budget keeps the family from chasing every event. A camp does not promise an offer.",
+      "offer": "camp-roi",
+      "source_url": null,
+      "image_prompt": "A fictional adult volleyball player in plain gear and a fictional adult parent walking toward a bright community gym at morning, duffel bag over a shoulder. No logos or wordmarks. Cinematic editorial photo, 16:9."
+    },
+    {
+      "kicker": "Senior fall",
+      "title": "A partial scholarship, read carefully",
+      "what_was_happening": "A Division II program offers Ava a partial scholarship. A source behind this story describes a recruit with few options who took a D2 partial-scholarship offer. Partial means the family still has costs to compare, and a verbal offer is not a signed one.",
+      "what_they_did": "They read what is verbal and what is written, and they ask the coach about fees, housing and what happens if plans change. The Offers & Signing Day playbook (offer-and-signing, $19) covers written-offer dates and signing periods. The Offer Comparison Toolkit (offer-comparison) is coming soon.",
+      "how_it_helps": "Questions asked early are easier than questions asked after signing. This is not legal advice.",
+      "offer": "offer-and-signing",
+      "source_url": "https://andscape.com/features/derrick-white-started-as-the-ultimate-underdog-in-his-journey-to-the-nba-finals/",
+      "image_prompt": "A fictional adult parent and a fictional college-age adult woman athlete review a printed offer letter at a wooden table, a pen in hand, warm light. No readable text, no logos or wordmarks. Cinematic editorial photo, 16:9."
+    },
+    {
+      "kicker": "Decision time",
+      "title": "A program a few hours from home",
+      "what_was_happening": "Ava picks a Division II program a few hours from home with a partial scholarship. In this composite she is a rotation player, then a starter as a senior. Ordinary, and a real destination.",
+      "what_they_did": "Before signing, they screen the program for anything that would make them walk away. Red Flags: The Checklist (red-flags) is coming soon and has 40 flags in four groups: money, playing time, academic fit and treatment.",
+      "how_it_helps": "A checklist helps a family say what worried them out loud. It cannot predict how a program will treat a player.",
+      "offer": "red-flags",
+      "source_url": null,
+      "image_prompt": "A fictional college-age adult woman volleyball player in plain unbranded gear stands at the edge of an empty indoor court at dawn, a duffel bag on the floor beside her. No logos or wordmarks. Cinematic editorial photo, 16:9."
+    }
+  ],
+  "offers": [
+    "camp-roi",
+    "highlight-reel-social",
+    "contact-log",
+    "offer-and-signing",
+    "red-flags",
+    "coach-emails"
+  ],
+  "closing": "One path, made of several real ones. Ava does not exist, and nothing here proves a playbook or camp causes a result. Start with the dates and see where your family stands."
+}

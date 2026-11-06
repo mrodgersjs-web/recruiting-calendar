@@ -1,0 +1,17 @@
+{
+ "q1": {
+  "label": "different",
+  "confidence": 0.54,
+  "verdict": "PASS"
+ },
+ "q2": {
+  "label": "yes",
+  "confidence": 0.99,
+  "verdict": "PASS"
+ },
+ "q3": {
+  "label": "no",
+  "confidence": 0.88,
+  "verdict": "PASS"
+ }
+}

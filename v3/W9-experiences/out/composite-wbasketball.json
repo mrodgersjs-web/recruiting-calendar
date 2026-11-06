@@ -1,0 +1,76 @@
+{
+  "id": "composite-wbasketball",
+  "headline": "Can she play in college? One family widens the search",
+  "dek": "A composite story built from sourced paths. Jasmine is not a real person, and this family is fictional. It shows how one family could use The Commit Book, and it promises no outcome.",
+  "chapters": [
+    {
+      "kicker": "Sophomore year",
+      "title": "A steady scorer on a team nobody scouts",
+      "what_was_happening": "Jasmine is a guard at a public high school. She scores steadily, but her team does not get much attention. Her parents have one question: can she play in college at all, and at what level? They do not know where to start.",
+      "what_they_did": "Her parents open a Contact Log (contact-log) so every coach, date and reply goes in one grid. It is coming soon, like several tools in the Commit Book. They begin with the schools they already know by name.",
+      "how_it_helps": "The family sees who has replied and who has not. It does not make anyone reply.",
+      "offer": "contact-log",
+      "source_url": null,
+      "image_prompt": "A fictional adult woman basketball guard, college age, shooting alone in an empty public high school gym in early morning light, no logos or readable wordmarks, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "Junior year, fall",
+      "title": "Her parents learn the academic rules first",
+      "what_was_happening": "Before sending anything, Jasmine's mother asks the school counselor what classes count. The family learns the two hard deadlines and the 16-core, 2.3 rule apply to the NCAA path. They put them on the wall calendar.",
+      "what_they_did": "They work through Eligibility: the 2 Hard Deadlines (eligibility-2-hard-deadlines), including the counselor meeting script and the core GPA worksheet. Jasmine's father also reads the NAIA rule in the source below.",
+      "how_it_helps": "The family finds out early which classes count. It does not promise eligibility for any program.",
+      "offer": "eligibility-2-hard-deadlines",
+      "source_url": "https://www.naia.org/wp-content/uploads/2026/07/2026_Official_Handbook.pdf",
+      "image_prompt": "Two fictional adult parents at a counselor's desk reviewing a printed course list together, a pencil and a folder, warm office light, no logos, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "Junior year, winter",
+      "title": "A reel that fits on one page",
+      "what_was_happening": "The family has game film but no easy way to share it. Jasmine's coach says a shorter video would be easier for staff to open. The family decides to cut the film down and attach a one-page profile.",
+      "what_they_did": "They use the Highlight Reel & Social Playbook (highlight-reel-social) for the reel structure, the one-page profile and a quick check of Jasmine's public posts.",
+      "how_it_helps": "A coach can see her play in two minutes. A short reel does not guarantee a response.",
+      "offer": "highlight-reel-social",
+      "source_url": null,
+      "image_prompt": "A fictional adult woman basketball player and her mother, both adults, reviewing a short video clip on a laptop at a kitchen table with a printed one-page profile, no logos, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "Junior year, spring",
+      "title": "Widening the list on purpose",
+      "what_was_happening": "No big offers come in. Sources describe a family that sent a highlight video to about 25 junior-college and D2 schools when no D1 offers came, and a high school coach who made calls for a player. Jasmine's family widens its list too, including NAIA and junior-college programs, and her coach agrees to make calls.",
+      "what_they_did": "They send first emails from the First Contact Pack (coach-emails), which is coming soon, and log each send in the Contact Log (contact-log). NAIA publishes no contact-date calendar, so the family checks the rule at the source.",
+      "how_it_helps": "The family can send many careful messages without losing track of them. It does not mean any coach will answer.",
+      "offer": "coach-emails",
+      "source_url": "https://www.nba.com/spurs/derrick-white-dare-be-great",
+      "image_prompt": "A parent's kitchen table with a laptop, a printed list of colleges with check marks and a calendar, a coffee mug, a fictional adult mother typing, no logos, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "Senior year, fall",
+      "title": "Visits, and a camp or two that earn their cost",
+      "what_was_happening": "A few NAIA coaches reply. Jasmine's family plans visits. They also look at camps, and her father adds up travel and fees before saying yes to any of them.",
+      "what_they_did": "They use the Camp ROI Playbook (camp-roi) for the cost budget and post-camp follow-up. Her parents write down answers after each visit and compare notes at home.",
+      "how_it_helps": "The family spends only on events that match its list. A checklist does not predict how a program will treat her.",
+      "offer": "camp-roi",
+      "source_url": "https://www.naia.org/wp-content/uploads/2026/05/naia_guide_college_bound_student-1.pdf",
+      "image_prompt": "A fictional adult woman basketball player walking with two fictional adult parents across a small college campus in autumn, a gym building with no readable signs in the background, no logos, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "Senior year, winter",
+      "title": "Two offers, one kitchen table",
+      "what_was_happening": "Two NAIA programs make offers. The aid packages look different, and the playing-time talk differs too. Jasmine's family sits down together to compare them line by line.",
+      "what_they_did": "They use Offers & Signing Day (offer-and-signing) to understand verbal and written offers and to compare both packages side by side, with written questions for each coach.",
+      "how_it_helps": "The family compares the same things in both offers. It does not decide which program is right for her.",
+      "offer": "offer-and-signing",
+      "source_url": null,
+      "image_prompt": "A fictional adult woman and her fictional adult parents at a kitchen table comparing two printed offer letters side by side with a notepad, no readable logos, warm evening light, cinematic editorial photo, 16:9"
+    }
+  ],
+  "offers": [
+    "contact-log",
+    "eligibility-2-hard-deadlines",
+    "highlight-reel-social",
+    "coach-emails",
+    "camp-roi",
+    "offer-and-signing"
+  ],
+  "closing": "In this composite, Jasmine picks an NAIA school where she plays from her first season and graduates on time. That is an ordinary ending on purpose. Nothing here proves any tool causes a result. Check every rule at the source."
+}

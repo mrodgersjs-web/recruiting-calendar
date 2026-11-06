@@ -1,0 +1,76 @@
+{
+  "id": "rodriguez",
+  "headline": "Stepped away? A new program can still find you",
+  "dek": "Cristelle Rodriguez, a wrestler from Clovis, CA, stepped away from wrestling in high school and later joined Doane University's first women's wrestling class. The facts below come from the linked sources. The Commit Book did not exist then, so the steps marked 'If your family is here today' are hypothetical.",
+  "chapters": [
+    {
+      "kicker": "Junior and senior year",
+      "title": "She stepped away from wrestling",
+      "what_was_happening": "In her junior and senior years, Cristelle stepped away from wrestling because of pressure and mental health, according to the source. Families in this spot often worry that the college door has shut.",
+      "what_they_did": "If your family is here today: start a simple log of who has been in touch and what happens next, without any pressure to decide. The Contact Log (contact-log) is built for that. It is coming soon.",
+      "how_it_helps": "You keep track without carrying it all in your head. It does not decide anything for the athlete.",
+      "offer": "contact-log",
+      "source_url": "https://www.themat.com/news/2024/september/17/u20-world-champion-cristelle-rodriguez-overcame-pressure-doubt-to-reignite-wrestling-career",
+      "image_prompt": "An empty wrestling room at dawn, a single mat with a pair of wrestling shoes set neatly on its edge, soft light through high windows, no logos or wordmarks, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "Before college",
+      "title": "Check the academic rules for a smaller association",
+      "what_was_happening": "Cristelle went on to an NAIA school. The NAIA rule listed with her story says to register with the NAIA Eligibility Center. A 2.3 high school GPA makes a freshman eligible, or two of three: ACT 18/SAT 970, 2.0 GPA, top half of class.",
+      "what_they_did": "If your family is here today: read the rule at the source and register early. Eligibility: the 2 Hard Deadlines (eligibility-2-hard-deadlines) covers the NCAA deadlines and a counselor meeting script, so read the NAIA bylaw separately.",
+      "how_it_helps": "You know which rules apply to which association. It does not confirm eligibility.",
+      "offer": "eligibility-2-hard-deadlines",
+      "source_url": "https://www.naia.org/legislative/2026-27/NAIA_Handbook.pdf",
+      "image_prompt": "A parent's kitchen table with a laptop, a printed transcript and a handwritten checklist, morning light, no readable logos, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "August 2021",
+      "title": "A brand-new program needed a roster",
+      "what_was_happening": "In August 2021 Cristelle joined Doane's first women's wrestling recruiting class under coach Dana Vote. The turning point in the notes is that a new program needed a roster.",
+      "what_they_did": "If your family is here today: look at brand-new programs as well as established ones. The Late Bloomer Playbook (late-bloomer) covers D2, D3, NAIA and JUCO doors. It is coming soon.",
+      "how_it_helps": "You widen the list beyond the schools everyone knows. It cannot tell you which program is right.",
+      "offer": "late-bloomer",
+      "source_url": "https://doaneathletics.com/sports/wwrest/2024-25/releases/20240905s8eb2c",
+      "image_prompt": "A small college athletic building at dawn in a quiet town, a closed gym door with no readable signs, a gym bag on the step, soft light, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "First season",
+      "title": "A coach who gave her room after burnout",
+      "what_was_happening": "The notes list coach patience after burnout as part of what made the difference. The sources do not say what was said or done, so this chapter stays with the fact itself.",
+      "what_they_did": "If your family is here today: add the questions about coaching style and treatment to every visit. Red Flags: The Checklist (red-flags) has 40 flags in four groups, including treatment. It is coming soon.",
+      "how_it_helps": "You ask the same questions at every school. It does not tell you what a coach is really like.",
+      "offer": "red-flags",
+      "source_url": "https://doaneathletics.com/sports/wwrest/2024-25/releases/20240905s8eb2c",
+      "image_prompt": "A parent's kitchen table with a printed checklist, a pen and a mug, a wrestling bag on a nearby chair, warm evening light, no readable logos, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "March 2024",
+      "title": "The first NAIA champion in school history",
+      "what_was_happening": "In March 2024 Cristelle became the first NAIA champion in Doane history, at 123. That is what the source reports, and it does not describe her training or preparation.",
+      "what_they_did": "If your family is here today: plan the season on paper with film nights and recruiting windows. The Season & Film Planner (season-planner) has a season grid and an end-of-season review. It is coming soon.",
+      "how_it_helps": "You keep the season organized. It does not produce results on the mat.",
+      "offer": "season-planner",
+      "source_url": "https://www.win-magazine.com/2024/11/08/california-native-rodriguez-rediscovered-love-of-sport-at-small-doane-u-in-nebraska",
+      "image_prompt": "An empty arena at dawn with a single wrestling mat in the center under work lights, folding chairs in rows, no logos or wordmarks, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "September 2024",
+      "title": "U20 World Champion at 55kg",
+      "what_was_happening": "In September 2024 Cristelle was named U20 World Champion at 55kg, per the Doane release. She is one example from one program, not a pattern we can promise.",
+      "what_they_did": "If your family is here today: read about offers before one arrives. Offers & Signing Day (offer-and-signing) explains verbal versus written offers and signing periods.",
+      "how_it_helps": "You know the terms before the call comes. It does not predict any result.",
+      "offer": "offer-and-signing",
+      "source_url": "https://doaneathletics.com/sports/wwrest/2024-25/releases/20240905s8eb2c",
+      "image_prompt": "A championship medal on a wooden table beside a folded team jacket with no logos, window light, shallow depth of field, cinematic editorial photo, 16:9"
+    }
+  ],
+  "offers": [
+    "contact-log",
+    "eligibility-2-hard-deadlines",
+    "late-bloomer",
+    "red-flags",
+    "season-planner",
+    "offer-and-signing"
+  ],
+  "closing": "Cristelle stepped away, then joined a new program and kept going. Your family's path will look different. Some tools above are coming soon, and the linked sources show what we know."
+}

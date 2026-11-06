@@ -1,0 +1,76 @@
+{
+  "id": "renfrow",
+  "headline": "One scholarship, one walk-on offer, one honest family choice",
+  "dek": "Hunter Renfrow's sourced path from a 150-pound Socastee quarterback to Clemson. The Commit Book parts are written as 'if your family is here today' steps. His family did not use The Commit Book, and it did not exist.",
+  "chapters": [
+    {
+      "kicker": "High school, c.2013",
+      "title": "A scholarship on one table, a walk-on spot on the other",
+      "what_was_happening": "Hunter Renfrow was a quarterback at Socastee High School in Myrtle Beach, around 150 pounds. Appalachian State recruited him with a scholarship. Clemson offered only preferred walk-on status.",
+      "what_they_did": "If your family is here today, start by learning what each offer really is. The Walk-On Playbook covers preferred versus tryout walk-on and what to get in writing.",
+      "how_it_helps": "It gives you the right words before you answer a coach. It does not tell you which offer to take.",
+      "offer": "walk-on",
+      "source_url": "https://www.ncaa.com/news/football/article/2017-01-10/college-football-hunter-renfrows-leap-faith-carried-him-clemson",
+      "image_prompt": "A parent's kitchen table at dusk with a laptop open and two printed offer letters side by side, unreadable text, coffee mug, warm lamp light. Cinematic editorial photo, 16:9, no real school, NCAA, brand or league logos or wordmarks."
+    },
+    {
+      "kicker": "The decision",
+      "title": "Guaranteed money or the school you want",
+      "what_was_happening": "The sourced record shows Renfrow chose the preferred walk-on spot at Clemson over a scholarship. His own reasons and what his family said at home are not in our sources, so we do not guess at them.",
+      "what_they_did": "If your family is here today, line the offers up and weigh money against fit in the open. The Offers & Signing Day playbook explains verbal versus written offers and signing periods.",
+      "how_it_helps": "It keeps the choice a family choice, made with the facts on paper.",
+      "offer": "offer-and-signing",
+      "source_url": "https://www.ncaa.com/news/football/article/2017-01-10/college-football-hunter-renfrows-leap-faith-carried-him-clemson",
+      "image_prompt": "A quiet high school football field at dawn, empty bleachers, mist on the grass, a single pair of cleats on a bench. No people, no logos or wordmarks. Cinematic editorial photo, 16:9, no real school, NCAA, brand or league logos."
+    },
+    {
+      "kicker": "Questions for the coach",
+      "title": "Ask what the path to a scholarship looks like",
+      "what_was_happening": "A preferred walk-on spot comes with no scholarship promise. The lesson drawn from Renfrow's case is to ask every walk-on offer what the path to a scholarship looks like.",
+      "what_they_did": "If your family is here today, write those questions down before the call. The Red Flags checklist has one line per flag on what to ask instead of walking away. It is coming soon.",
+      "how_it_helps": "A written list keeps a nervous call on track. It does not change the answer you get.",
+      "offer": "red-flags",
+      "source_url": null,
+      "image_prompt": "A parent's hands writing a short list of questions on a legal pad next to a phone on a wooden table, soft morning light, no readable text. Cinematic editorial photo, 16:9, no logos or wordmarks."
+    },
+    {
+      "kicker": "2014 to 2016",
+      "title": "A new position and a strength plan",
+      "what_was_happening": "Renfrow changed from quarterback to receiver. He gained roughly 30 pounds and raised his lift from about 180 to 280-plus pounds.",
+      "what_they_did": "If your family is here today, plan the year around the work, not just the contact. The Season & Film Planner has a season grid with recruiting windows pre-marked and an end-of-season review. It is coming soon.",
+      "how_it_helps": "It puts the training year and the recruiting windows on one page.",
+      "offer": "season-planner",
+      "source_url": "https://bendbulletin.com/2017/01/11/former-clemson-walk-on-renfrow-stars-in-title-game",
+      "image_prompt": "A weight room at early morning, a loaded barbell and chalk bucket on a rack, no people, no logos or wordmarks on equipment. Cinematic editorial photo, 16:9."
+    },
+    {
+      "kicker": "2016",
+      "title": "The scholarship comes after the work",
+      "what_was_happening": "Renfrow was awarded a scholarship before the 2016 season. The sources do not say who told him or how his family reacted.",
+      "what_they_did": "If your family is here today, keep a record of each coach conversation so progress is visible. The Contact Log is a coach-by-coach grid with a five-minute Sunday review. It is coming soon.",
+      "how_it_helps": "Dates and next steps on paper beat memory when a year goes by.",
+      "offer": "contact-log",
+      "source_url": "https://www.si.com/college/clemson/football/hunter-renfrow-from-walk-on-to-hero",
+      "image_prompt": "A printed monthly calendar pinned above a desk, a sealed recruiting letter envelope with no readable text or logo resting on a laptop. Cinematic editorial photo, 16:9, no logos or wordmarks."
+    },
+    {
+      "kicker": "January 9, 2017",
+      "title": "One second left",
+      "what_was_happening": "Renfrow caught the game-winning touchdown with one second left against Alabama in the national title game. We cite this as a fact about him. We do not claim any playbook led to it.",
+      "what_they_did": "If your family is here today, the takeaway is smaller and more useful: know the hard deadlines early. Eligibility: the 2 Hard Deadlines covers the 10/7 lock and the 16-core, 2.3 finish.",
+      "how_it_helps": "It keeps a paperwork gap from ending a story before it starts.",
+      "offer": "eligibility-2-hard-deadlines",
+      "source_url": "https://www.ncaa.com/news/football/article/2017-01-10/college-football-hunter-renfrows-leap-faith-carried-him-clemson",
+      "image_prompt": "A packed stadium seen from the tunnel at night, stadium lights glowing, field empty in the foreground, no readable signage, no logos or wordmarks. Cinematic editorial photo, 16:9."
+    }
+  ],
+  "offers": [
+    "walk-on",
+    "offer-and-signing",
+    "red-flags",
+    "season-planner",
+    "contact-log",
+    "eligibility-2-hard-deadlines"
+  ],
+  "closing": "Renfrow's path is one path, not a formula. If your family is weighing a walk-on offer, the Walk-On Playbook is the place to start."
+}

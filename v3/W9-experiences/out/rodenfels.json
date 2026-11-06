@@ -1,0 +1,69 @@
+{
+  "id": "rodenfels",
+  "headline": "Annie Rodenfels started running at 17.",
+  "dek": "Annie Rodenfels is a real athlete, and every fact about her comes from the linked sources. The Commit Book did not exist then. The 'If your family is here today' steps are for families in a similar spot.",
+  "chapters": [
+    {
+      "kicker": "High school",
+      "title": "The plan was soccer",
+      "what_was_happening": "Annie's original plan was a soccer scholarship. Soccer conflicted with cross country, so she ran track only (Boston Athletic Association). That is the sourced fact. We do not know how her family felt about it.",
+      "what_they_did": "If your family is here today: your athlete plays one sport and is curious about another. Read the two hard eligibility deadlines first, so a switch does not cost anything on the academic side (offering: eligibility-2-hard-deadlines, $9).",
+      "how_it_helps": "The academic deadlines stay the same whatever the sport. Knowing them early keeps options open.",
+      "offer": "eligibility-2-hard-deadlines",
+      "source_url": "https://www.baa.org/news/chatting-champion-annie-rodenfels",
+      "image_prompt": "A soccer ball and a pair of running spikes side by side on a bench beside an empty high school track at dawn, no people; cinematic editorial photo, 16:9, no logos or wordmarks"
+    },
+    {
+      "kicker": "Junior year",
+      "title": "Started running at 17",
+      "what_was_happening": "She started running at 17, in her junior year of high school (Boston Athletic Association). A turning point in her sourced path is switching sports late on coach advice.",
+      "what_they_did": "If your family is here today: test a second sport in junior year and write down what you learn. The Track & Field playbook shows how marks, contact windows and visits line up (offering: track-field-marks, $25).",
+      "how_it_helps": "A new sport has its own calendar. Seeing it early keeps a late start from becoming a missed date.",
+      "offer": "track-field-marks",
+      "source_url": "https://www.baa.org/news/chatting-champion-annie-rodenfels",
+      "image_prompt": "An empty outdoor running track in early morning mist, lane lines curving away, a lone water bottle on the infield grass, no people; cinematic editorial photo, 16:9, no logos"
+    },
+    {
+      "kicker": "Recruiting",
+      "title": "A coach who saw potential",
+      "what_was_happening": "She came to Centre with little running experience. Coach Lisa Owens saw potential (LetsRun). Those are the sourced facts, and we do not know what was said between them.",
+      "what_they_did": "If your family is here today: aim some first notes at Division III coaches who develop raw athletes, with one honest line about how new your athlete is to the sport (offering: coach-emails). It is coming soon.",
+      "how_it_helps": "A short, honest note gives a coach something to answer. It does not promise a reply.",
+      "offer": "coach-emails",
+      "source_url": "https://www.letsrun.com/news/2022/02/annie-rodenfels-has-gone-from-ncaa-d-iii-champion-to-world-leader",
+      "image_prompt": "A parent's kitchen table with a laptop showing a blank email draft, a printed calendar and a mug, no people visible, warm morning light; cinematic editorial photo, 16:9, no logos"
+    },
+    {
+      "kicker": "Recruiting",
+      "title": "Late starters have windows too",
+      "what_was_happening": "One lesson in her sourced path is that a late start still has windows. A family with a late-starting athlete is often unsure what the timeline allows.",
+      "what_they_did": "If your family is here today: read the Late Bloomer Playbook for who recruits late and what a 90-day sprint looks like (offering: late-bloomer). It is coming soon.",
+      "how_it_helps": "A short plan beats a long worry. It does not change when a coach says yes.",
+      "offer": "late-bloomer",
+      "source_url": null,
+      "image_prompt": "A wall calendar with a ninety-day stretch circled in pencil, a pair of running shoes on the floor beneath it, no people; cinematic editorial photo, 16:9, no logos"
+    },
+    {
+      "kicker": "Choosing a school",
+      "title": "D3 means academic aid first",
+      "what_was_happening": "Annie ran for Centre College, a Division III school. D3 programs do not give athletic scholarships. Aid there is academic and need-based.",
+      "what_they_did": "If your family is here today: learn how D3 aid works and run the net price calculators before you fall for a school (offering: d3-academic-aid-first). It is coming soon.",
+      "how_it_helps": "You see the real cost before you get attached. It does not decide the school for you.",
+      "offer": "d3-academic-aid-first",
+      "source_url": null,
+      "image_prompt": "A printed financial aid letter with no readable names beside a calculator and a pen on a wooden table, no people, soft window light; cinematic editorial photo, 16:9, no logos"
+    },
+    {
+      "kicker": "College",
+      "title": "A national title, years in",
+      "what_was_happening": "On May 26, 2018, she was the NCAA D3 steeplechase champion (SAA Sports). That is the sourced result. It is hers, not a promise about any other athlete.",
+      "what_they_did": "If your family is here today: keep a contact log from the first email on, so every coach, date and next step lives in one place (offering: contact-log). It is coming soon.",
+      "how_it_helps": "A log keeps a long process organized. It does not shorten it.",
+      "offer": "contact-log",
+      "source_url": "https://saa-sports.com/news/2018/5/26/5_26_2018_1541.aspx",
+      "image_prompt": "An empty steeplechase barrier and water jump on an outdoor track at sunrise, no people, no signage; cinematic editorial photo, 16:9, no logos or wordmarks"
+    }
+  ],
+  "offers": ["track-field-marks", "eligibility-2-hard-deadlines", "coach-emails", "late-bloomer", "d3-academic-aid-first", "contact-log"],
+  "closing": "Annie Rodenfels's path is hers, and the sources tell only part of it. If your family is in a similar spot, these steps are here to use."
+}

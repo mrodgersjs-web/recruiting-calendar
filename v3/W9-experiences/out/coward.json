@@ -1,0 +1,66 @@
+{
+  "id": "coward",
+  "headline": "Zero D1 offers, a D3 start, a long climb",
+  "dek": "Cedric Coward's path is sourced and public. The Commit Book did not exist then. Each step below asks: if your family is here today, what would you do?",
+  "chapters": [
+    {
+      "kicker": "Out of high school",
+      "title": "Choosing the best fit, not the biggest name",
+      "what_was_happening": "Cedric Coward is from Fresno, California. Out of high school he chose Willamette, a Division III school, as the best fit, according to the Spokesman-Review. His path is listed as zero Division I offers and a D3 start. The sources do not say what his family discussed.",
+      "what_they_did": "If your family is here today: write down what you need from a school beyond the roster, then compare schools against it. The D3 Path: Academic Aid First (d3-academic-aid-first, $19) is coming soon and covers how D3 aid works and net price calculators.",
+      "how_it_helps": "A written list of needs makes a fit decision less about status. It does not make any program recruit your player.",
+      "offer": "d3-academic-aid-first",
+      "source_url": "https://www.spokesman.com/stories/2022/dec/19/eastern-washingtons-cedric-coward-carving-out-impo",
+      "image_prompt": "An empty small-college basketball gym at dawn with a single ball at center court and light through high windows, no people. No logos or wordmarks. Cinematic editorial photo, 16:9."
+    },
+    {
+      "kicker": "2021-22",
+      "title": "Putting up numbers where you are",
+      "what_was_happening": "At Willamette in 2021-22 he averaged 19.5 points and 12.0 rebounds, per his NBA draft profile. The sources list his turning points as late growth and D3 production. They do not say how those numbers were shared with coaches.",
+      "what_they_did": "If your family is here today: keep a clean season record of stats and film, so there is something to send when the time comes. The Season & Film Planner (season-planner) is coming soon. The Highlight Reel & Social Playbook (highlight-reel-social, $15) covers reel structure and a one-page profile.",
+      "how_it_helps": "Organized numbers and clips are easier for a coach to check. Production does not guarantee interest.",
+      "offer": "highlight-reel-social",
+      "source_url": "https://www.nba.com/draft/2025/prospects/cedric-coward",
+      "image_prompt": "A basketball, a stat sheet and a pair of unbranded sneakers on a wooden bench in a quiet gym, no people. No logos or wordmarks. Cinematic editorial photo, 16:9."
+    },
+    {
+      "kicker": "2022-25",
+      "title": "D3 film opening D1 doors through the portal",
+      "what_was_happening": "He transferred to Eastern Washington, a Division I school, then to Washington State, according to the WSU roster page. The pattern in his timeline is that D3 film can open D1 doors via the transfer portal. The sources do not describe his family's role.",
+      "what_they_did": "If your family is here today: start your first-contact notes with the film and the numbers, and track every reply. The First Contact Pack (coach-emails, $9) and the Contact Log (contact-log) are both coming soon.",
+      "how_it_helps": "A clear note and a reply log keep a transfer search organized. A coach is free not to answer.",
+      "offer": "contact-log",
+      "source_url": "https://wsucougars.com/sports/mens-basketball/roster/player/cedric-coward",
+      "image_prompt": "A laptop showing an unreadable spreadsheet grid beside a printed calendar and a basketball on a kitchen table, no people. No logos or wordmarks. Cinematic editorial photo, 16:9."
+    },
+    {
+      "kicker": "When offers arrive",
+      "title": "Comparing what is actually on the table",
+      "what_was_happening": "A move up a level brings new terms to read. The sources do not describe his offers, so none are claimed here. For any family in a transfer search, verbal and written offers are not the same thing.",
+      "what_they_did": "If your family is here today: line up each offer on one sheet and ask every staff the same questions. The Offers & Signing Day playbook (offer-and-signing, $19) covers verbal versus written and signing periods. The Offer Comparison Toolkit (offer-comparison) is coming soon.",
+      "how_it_helps": "A side-by-side keeps a close choice honest. It does not predict playing time.",
+      "offer": "offer-and-signing",
+      "source_url": null,
+      "image_prompt": "Two printed one-page letters side by side on a wooden table with a pen between them, no readable text, no people. No logos or wordmarks. Cinematic editorial photo, 16:9."
+    },
+    {
+      "kicker": "2025",
+      "title": "Picked 11th in the NBA Draft",
+      "what_was_happening": "In 2025 he was picked 11th in the NBA Draft, per his draft profile. That is the sourced outcome. It is one rare result, and nothing here says any step caused it.",
+      "what_they_did": "If your family is here today: keep the goal wide. Most college athletes graduate and move into work, not a draft. After the Roster: Career Transition Workbook (career-transition) is coming soon.",
+      "how_it_helps": "Planning past the roster protects the family if the sport ends sooner than hoped. It is not a prediction.",
+      "offer": "career-transition",
+      "source_url": "https://www.nba.com/draft/2025/prospects/cedric-coward",
+      "image_prompt": "An empty professional-size arena at dawn with a single basketball resting on the court and soft light across the seats, no people. No logos, wordmarks or league marks. Cinematic editorial photo, 16:9."
+    }
+  ],
+  "offers": [
+    "d3-academic-aid-first",
+    "highlight-reel-social",
+    "contact-log",
+    "offer-and-signing",
+    "season-planner",
+    "career-transition"
+  ],
+  "closing": "That is the sourced record, and only that. If your family is in a similar spot, start with fit and film. Several tools here are coming soon."
+}

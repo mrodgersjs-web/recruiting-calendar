@@ -1,0 +1,76 @@
+{
+  "id": "composite-sprinter",
+  "headline": "Nia's family asks about the major first",
+  "dek": "A composite story built from sourced paths. Nia is not a real person. She came to track late, with good marks but not state-meet times.",
+  "chapters": [
+    {
+      "kicker": "Sophomore spring",
+      "title": "Good marks, late start",
+      "what_was_happening": "Nia plays more than one sport at a public high school. She found track late. Her times are good, not state-meet good. Her parents wonder if any college coach will care.",
+      "what_they_did": "They read the Track & Field playbook to see how marks, contact dates and visits fit together. They look up program standards themselves, since the playbook says you look them up.",
+      "how_it_helps": "They stop guessing and know where her marks sit. It does not say any coach will want her.",
+      "offer": "track-field-marks",
+      "source_url": "https://www.baa.org/news/chatting-champion-annie-rodenfels",
+      "image_prompt": "A fictional adult sprinter in starting blocks on an empty track at dawn, long shadows, no logos or wordmarks, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "Junior fall",
+      "title": "The question is the major",
+      "what_was_happening": "Nia has a major in mind and does not want to give it up. Her parents want to know if she can run and keep it. They learn that Division III offers no athletic scholarships. Aid there is academic and need-based (D3 Bylaw 13.6.1.1.1).",
+      "what_they_did": "They read the D3 playbook on how aid works and how to use net price calculators. It is coming soon, not on sale yet.",
+      "how_it_helps": "The family knows the money question before the first visit. The rule guarantees nothing. Check it at the source.",
+      "offer": "d3-academic-aid-first",
+      "source_url": "https://web3.ncaa.org/lsdbi/reports/getReport/90011",
+      "image_prompt": "A parent's kitchen table with a laptop showing a blank cost spreadsheet, a printed calendar and a mug, evening light, no logos, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "Junior winter",
+      "title": "Ask about the major, then send the marks",
+      "what_was_happening": "Nia writes to coaches. She asks about her intended major first. Then she sends her marks. Paid official visits at D3 open January 1 of junior year.",
+      "what_they_did": "She uses the First Contact Pack for the email and call scripts. It is coming soon, not on sale yet. The family logs each reply in the Contact Log, also coming soon.",
+      "how_it_helps": "The first email has a plain shape. The log shows which coaches wrote back and which did not.",
+      "offer": "coach-emails",
+      "source_url": null,
+      "image_prompt": "A fictional adult young woman at a desk writing an email on a laptop, running shoes by the chair, warm window light, no logos, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "Junior spring",
+      "title": "Short film, tidy profile",
+      "what_was_happening": "Coaches want to see her run. Nia has race footage from meets but nothing cut together. A coach might also look her up online.",
+      "what_they_did": "She follows the Highlight Reel & Social playbook. She builds a short reel and a one-page profile, and checks what her accounts show.",
+      "how_it_helps": "A coach can see her form in a minute. A clean profile removes one reason to hesitate. It does not replace times.",
+      "offer": "highlight-reel-social",
+      "source_url": null,
+      "image_prompt": "A fictional adult sprinter reviewing race footage on a tablet beside a track fence, golden hour, no logos or wordmarks, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "Senior fall",
+      "title": "Visit the program that says yes to both",
+      "what_was_happening": "Nia visits. She wants a coach who says she can run and keep the major. The source pattern shows an athlete who chose her school after a visit where the coach said exactly that, then added track.",
+      "what_they_did": "The family uses the Red Flags checklist to know what to ask at each visit. It is coming soon, not on sale yet.",
+      "how_it_helps": "They arrive with questions in hand. A flag does not decide for them. It points to what to ask.",
+      "offer": "red-flags",
+      "source_url": "https://www.ncaa.org/news/2025/3/21/media-center-how-nebraska-wesleyans-natalie-cummins-balances-soccer-track-and-a-rigorous-nursing-major.aspx",
+      "image_prompt": "A fictional adult young woman and a fictional adult coach talking beside a campus track on a quiet autumn day, no logos or readable school names, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "Senior winter",
+      "title": "Compare, then sign",
+      "what_was_happening": "Nia has more than one answer. The offers differ in aid, fees and terms. Her parents want to see them side by side before anyone signs.",
+      "what_they_did": "They read Offers & Signing Day for verbal versus written and signing periods. Later they can use the Offer Comparison toolkit, coming soon.",
+      "how_it_helps": "The decision is on paper. In this composite she runs four years at a D3 school, scores at conference some seasons and graduates in her major. No records. Nothing here proves a product caused that.",
+      "offer": "offer-and-signing",
+      "source_url": null,
+      "image_prompt": "A fictional adult young woman signing a document at a table with two fictional adult parents beside her, a pair of spikes on the table, no logos, cinematic editorial photo, 16:9"
+    }
+  ],
+  "offers": [
+    "track-field-marks",
+    "d3-academic-aid-first",
+    "coach-emails",
+    "highlight-reel-social",
+    "red-flags",
+    "offer-and-signing"
+  ],
+  "closing": "This person does not exist, and the ending is ordinary on purpose. Most college athletes play, study and graduate."
+}

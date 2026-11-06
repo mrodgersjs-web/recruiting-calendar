@@ -1,0 +1,76 @@
+{
+  "id": "pirosko",
+  "headline": "A hometown coach, a nearby D2, and a real major",
+  "dek": "Samantha Pirosko's sourced path from Eastlake North High School to Gannon. The Commit Book parts are written as 'if your family is here today' steps. Her family did not use The Commit Book, and it did not exist.",
+  "chapters": [
+    {
+      "kicker": "High school",
+      "title": "The high school coach picks up the phone",
+      "what_was_happening": "Pirosko played at Eastlake North High School in Ohio. The sources say she credits her high school coach, Paul Force, and was recruited to Gannon by then-coach Jim Brunelli in 2018. They say nothing more about how that first contact happened.",
+      "what_they_did": "If your family is here today, ask your own coach to make the first introductions to nearby D2 programs. Pair that with the First Contact Pack so your own emails are ready too. It is coming soon.",
+      "how_it_helps": "A coach's word opens a door. A clear email keeps it open.",
+      "offer": "coach-emails",
+      "source_url": "https://www.news-herald.com/2022/02/12/north-grad-sam-pirosko-in-leading-role-for-first-place-gannon",
+      "image_prompt": "A quiet high school gymnasium at dawn with a wooden floor, a single basketball on a bench, light through high windows. No people, no logos or wordmarks. Cinematic editorial photo, 16:9, no real school, NCAA, brand or league logos."
+    },
+    {
+      "kicker": "Early contact",
+      "title": "Keeping track of who said what",
+      "what_was_happening": "A D2 recruit can hear from several coaches within the same few months. Our sources do not detail how many Pirosko heard from.",
+      "what_they_did": "If your family is here today, keep one grid for every coach, date and next step. The Contact Log has a five-minute Sunday review. It is coming soon.",
+      "how_it_helps": "You answer the right coach on the right day.",
+      "offer": "contact-log",
+      "source_url": null,
+      "image_prompt": "A parent's kitchen table with a laptop, a printed calendar and a stack of recruiting envelopes with no readable text or logos, morning light. Cinematic editorial photo, 16:9."
+    },
+    {
+      "kicker": "Spring 2018",
+      "title": "Signing day, in writing",
+      "what_was_happening": "Pirosko signed a National Letter of Intent with Gannon in the spring 2018 signing period. That is the part the sources confirm.",
+      "what_they_did": "If your family is here today, learn the difference between a verbal and a written offer before signing. The Offers & Signing Day playbook covers written-offer dates and signing periods.",
+      "how_it_helps": "You sign knowing what the paper says. It does not change what the school offers.",
+      "offer": "offer-and-signing",
+      "source_url": "https://gannonsports.com/story.aspx?file_date=5-2-2018&filename=gannon-womens-basketball-program-adds-pair-to-recruiting-class",
+      "image_prompt": "A pen resting on an unsigned document on a desk beside a small stack of envelopes, no readable text or logos, soft window light. Cinematic editorial photo, 16:9."
+    },
+    {
+      "kicker": "Close to home",
+      "title": "Weighing offers on more than the roster",
+      "what_was_happening": "Pirosko stayed close to home at a Division II school. The sources do not give her family's reasons.",
+      "what_they_did": "If your family is here today, put offers side by side on cost, fit and travel. The Offer Comparison Toolkit has a side-by-side grid and 12 questions for each coach. It is coming soon.",
+      "how_it_helps": "It gets the whole price and the whole fit onto one page.",
+      "offer": "offer-comparison",
+      "source_url": "https://www.news-herald.com/2022/02/12/north-grad-sam-pirosko-in-leading-role-for-first-place-gannon",
+      "image_prompt": "Two printed side-by-side comparison sheets on a table with a calculator and coffee cup, no readable text or logos, soft afternoon light. Cinematic editorial photo, 16:9."
+    },
+    {
+      "kicker": "College years",
+      "title": "A professional major beside the sport",
+      "what_was_happening": "Pirosko was a PA health-sciences major. She was named WBCA Division II National Player of the Year in 2023-24 and a 2024 NCAA Woman of the Year finalist. We cite this as a fact about her, not as a result of any playbook.",
+      "what_they_did": "If your family is here today, check the academic side first. Eligibility: the 2 Hard Deadlines covers the 16-core, 2.3 finish and your counselor meeting script.",
+      "how_it_helps": "It keeps the major and the sport from competing for the same plan.",
+      "offer": "eligibility-2-hard-deadlines",
+      "source_url": "https://www.ncaa.org/news/2024/11/20/media-center-2024-ncaa-woman-of-the-year-finalists-named.aspx",
+      "image_prompt": "A library desk with a laptop, a textbook and a basketball resting on a chair beside it, golden evening light, no people, no logos or wordmarks. Cinematic editorial photo, 16:9."
+    },
+    {
+      "kicker": "Season by season",
+      "title": "A plan that outlasts one game",
+      "what_was_happening": "Her 2023-24 team went 35-3 and reached the Elite Eight. The sources give the record, not how the team got there.",
+      "what_they_did": "If your family is here today, plan the recruiting year around the season. The Season & Film Planner has a season grid with recruiting windows pre-marked. It is coming soon.",
+      "how_it_helps": "It keeps film and contact dates from getting lost in the schedule.",
+      "offer": "season-planner",
+      "source_url": "https://wbca.org/news/wbca-announces-ncaa-division-ii-honorees-for-2023-24-season",
+      "image_prompt": "An empty arena at dawn, rows of seats and a polished court with a blank scoreboard, no readable signage, no logos or wordmarks. Cinematic editorial photo, 16:9."
+    }
+  ],
+  "offers": [
+    "offer-and-signing",
+    "eligibility-2-hard-deadlines",
+    "contact-log",
+    "coach-emails",
+    "offer-comparison",
+    "season-planner"
+  ],
+  "closing": "Pirosko's path is one path, not a formula. If your family is where hers began, start with the signing-day playbook and the academic deadlines."
+}

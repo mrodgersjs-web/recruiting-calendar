@@ -1,0 +1,1 @@
+{"q1": {"label": "same", "confidence": 0.66, "verdict": "PASS"}, "q2": {"label": "yes", "confidence": 0.98, "verdict": "PASS"}, "q3": {"label": "no", "confidence": 0.77, "verdict": "PASS"}}

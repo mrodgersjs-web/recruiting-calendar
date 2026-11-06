@@ -1,0 +1,76 @@
+{
+  "id": "groenewegen",
+  "headline": "Not heavily recruited? Go where the coaches already are",
+  "dek": "Sara Groenewegen, a softball player from White Rock, British Columbia, later played at Minnesota. The facts below come from the sources linked in each chapter. The Commit Book did not exist then, so the steps marked 'If your family is here today' are hypothetical.",
+  "chapters": [
+    {
+      "kicker": "High school years",
+      "title": "Only a couple of schools showed real interest",
+      "what_was_happening": "Sara said she was not highly recruited. Only a couple of schools showed serious interest. Many families know this quiet stretch, where the phone does not ring and you wonder what to do.",
+      "what_they_did": "If your family is here today: start by writing down every coach you have actually spoken to, so you can see where you really stand. The Commit Book Contact Log (contact-log) is the grid for that. It is coming soon.",
+      "how_it_helps": "A written list shows you who has replied and who has not. It does not change the number of offers.",
+      "offer": "contact-log",
+      "source_url": "https://gophersports.com/news/2015/9/22/Ski_U_Mah_Preview_North_Star",
+      "image_prompt": "A parent's kitchen table in soft morning light, a laptop open beside a printed calendar and a handwritten list of names, a mug of coffee, no readable logos, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "Club season",
+      "title": "A Minnesota coach saw her at tournaments in Seattle and Portland",
+      "what_was_happening": "According to the sources, Minnesota coach Jessica Allister first saw Sara at club tournaments in Seattle and Portland. Sara lived in British Columbia, far from the usual softball hotbeds. The tournaments were where coaches could watch her play.",
+      "what_they_did": "If your family is here today: before you pay for a tournament, find out which college coaches attend it and what it will cost. The Camp ROI Playbook (camp-roi) covers camp types, cost budgets and follow-up after an event.",
+      "how_it_helps": "You spend travel money on events where your targets show up. Nobody can promise a coach will notice your daughter.",
+      "offer": "camp-roi",
+      "source_url": "https://www.thedailygopher.com/2017/7/18/15994084/minnesota-softball-jessica-allister-stanford-cardinal-alma-matter",
+      "image_prompt": "An empty softball complex at dawn, chalked foul lines, a gear bag and a pair of cleats on a dugout bench, mist over the outfield, no logos or wordmarks, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "Between events",
+      "title": "Keep the film and the profile ready for when a coach looks",
+      "what_was_happening": "The sources say coaches found Sara through club play. That is all we know about how she was seen. Nothing in them describes her film or her profile, so we can only say that coaches who watch live often look again afterward.",
+      "what_they_did": "If your family is here today: put together a short reel and a one-page profile a coach can open in a minute. The Highlight Reel & Social Playbook (highlight-reel-social) walks through reel structure and a one-page profile.",
+      "how_it_helps": "A coach who saw one game can find the rest in one place. It does not guarantee a reply.",
+      "offer": "highlight-reel-social",
+      "source_url": null,
+      "image_prompt": "A laptop on a wooden desk showing a paused video editing timeline of a softball swing seen from far away, a notebook of position notes beside it, no readable logos, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "Junior year",
+      "title": "An assistant coach kept emailing",
+      "what_was_happening": "In Sara's junior year, Minnesota assistant Piper Ritter persistently emailed her. Sara visited and committed after feeling at home. Persistence from the coach's side mattered here, and the sources say nothing more about the emails.",
+      "what_they_did": "If your family is here today: write your own first email to the coaches on your list, and send it at a time the sport expects. The First Contact Pack (coach-emails) has templates and a reply-handling tree. It is coming soon.",
+      "how_it_helps": "A clear first message makes it easy for a coach to answer. Whether they answer is up to them.",
+      "offer": "coach-emails",
+      "source_url": "https://gophersports.com/news/2015/9/22/Ski_U_Mah_Preview_North_Star",
+      "image_prompt": "A recruiting letter envelope with no readable logo propped against a mailbox at a suburban home, soft afternoon light, a softball glove on the porch rail, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "The visit",
+      "title": "She visited a school she had never heard of",
+      "what_was_happening": "The sources say Sara agreed to visit a school she had never heard of, and she committed after feeling at home. That is the full account we have. We do not know the details of the trip.",
+      "what_they_did": "If your family is here today: say yes to visits outside your region, and write down what you saw and heard each time. The Offers & Signing Day playbook (offer-and-signing) explains verbal versus written offers and how to compare up to four.",
+      "how_it_helps": "You know the difference between a verbal and a written offer before anyone asks you to decide.",
+      "offer": "offer-and-signing",
+      "source_url": "https://gophersports.com/news/2015/9/22/Ski_U_Mah_Preview_North_Star",
+      "image_prompt": "A quiet college campus walkway in early autumn with no people close up, brick buildings with no readable signs, fallen leaves, a parent's rental car parked at the curb, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "Behind the scenes",
+      "title": "Classes have to count too",
+      "what_was_happening": "Sara's sources are about softball, so they say nothing about her classes. Every family who plans to play in college still has to meet academic eligibility rules, and for many families that part surprises them late.",
+      "what_they_did": "If your family is here today: set up the eligibility account and check the two hard deadlines with your counselor. Eligibility: the 2 Hard Deadlines (eligibility-2-hard-deadlines) has a counselor meeting script and a core GPA worksheet.",
+      "how_it_helps": "You find a gap in the course plan while there is still time to fix it.",
+      "offer": "eligibility-2-hard-deadlines",
+      "source_url": null,
+      "image_prompt": "A school counselor's desk seen from the doorway, a printed course list and a pencil, a parent's folded hands out of focus, warm office light, no logos, cinematic editorial photo, 16:9"
+    }
+  ],
+  "offers": [
+    "camp-roi",
+    "contact-log",
+    "coach-emails",
+    "highlight-reel-social",
+    "offer-and-signing",
+    "eligibility-2-hard-deadlines"
+  ],
+  "closing": "Sara's path went through a few tournaments, a persistent assistant coach and a visit she said yes to. Your path will look different. Some of the tools above are coming soon, and the sources linked in each chapter show what we know."
+}

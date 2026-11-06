@@ -1,0 +1,76 @@
+{
+  "id": "composite-softball",
+  "headline": "Will a coach ever see our small-town softball player?",
+  "dek": "A composite story built from sourced paths. Kayla is not a real person. This is one ordinary path, not a formula, and it promises no result.",
+  "chapters": [
+    {
+      "kicker": "Freshman and sophomore year",
+      "title": "A starter nobody has heard of",
+      "what_was_happening": "Kayla plays club softball and starts for a small-town high school. Few coaches know her program. Her parents wonder whether anyone will ever see her.",
+      "what_they_did": "Her parents start with a plain question: what is realistic? They read the Eligibility: the 2 Hard Deadlines playbook so the paperwork is handled before the film.",
+      "how_it_helps": "It takes one worry off the table. It does not make a coach call.",
+      "offer": "eligibility-2-hard-deadlines",
+      "source_url": null,
+      "image_prompt": "A fictional adult college-age softball player in plain gray practice gear sitting on a dugout bench at dawn, glove on her knee, empty field behind her. No logos or wordmarks. Cinematic editorial photo, 16:9, no real school, NCAA, brand or league logos."
+    },
+    {
+      "kicker": "Club season",
+      "title": "Is Division II a real option or a fallback?",
+      "what_was_happening": "The family isn't sure Division II counts. In this composite, Kayla's club schedule puts her in front of coaches at tournaments, a pattern drawn from a sourced path.",
+      "what_they_did": "They spend one evening on what each division offers, using the Camp ROI Playbook to decide which events are worth the travel money.",
+      "how_it_helps": "It helps a family budget for exposure instead of paying for every event.",
+      "offer": "camp-roi",
+      "source_url": "https://gophersports.com/news/2015/9/22/Ski_U_Mah_Preview_North_Star",
+      "image_prompt": "Fictional adult parents, a man and a woman in their forties, at a kitchen table with a laptop and a printed tournament schedule, coffee cups, evening light. No logos or wordmarks. Cinematic editorial photo, 16:9."
+    },
+    {
+      "kicker": "Tournament weekends",
+      "title": "Getting film ready for the coaches who are watching",
+      "what_was_happening": "Coaches at tournaments see an at-bat or two. Kayla's family wants something they can send afterward.",
+      "what_they_did": "They put together a short reel and a one-page profile using the Highlight Reel & Social Playbook, and check her public social accounts.",
+      "how_it_helps": "A coach who finds you can see you quickly. It does not decide who gets a reply.",
+      "offer": "highlight-reel-social",
+      "source_url": null,
+      "image_prompt": "A fictional adult college-age softball player's gloved hand and a phone on a tripod filming a swing in a batting cage, warm indoor light. No logos or wordmarks. Cinematic editorial photo, 16:9."
+    },
+    {
+      "kicker": "Sophomore spring",
+      "title": "The one coach who keeps writing",
+      "what_was_happening": "One assistant coach keeps emailing. In the sourced path this composite draws on, the player visited and committed where she felt at home. The rule that mattered: Division II calls, texts and emails are allowed at any time, and in-person contact and paid official visits open June 15 after sophomore year (D2 Bylaws 13.1.1.1, 13.3.1.2). The rule guarantees nothing.",
+      "what_they_did": "Her family keeps a grid of every coach, date and next step with the Contact Log, and checks the rule at the source. The Contact Log is coming soon.",
+      "how_it_helps": "A written record keeps replies from slipping. It does not create interest.",
+      "offer": "contact-log",
+      "source_url": "https://web3.ncaa.org/lsdbi/reports/getReport/90010",
+      "image_prompt": "A printed contact grid on a clipboard beside a laptop showing an unreadable email inbox, fictional adult parent's hand holding a pen, soft window light. No logos or wordmarks. Cinematic editorial photo, 16:9."
+    },
+    {
+      "kicker": "Junior year",
+      "title": "Visit questions that matter",
+      "what_was_happening": "Kayla visits. The family wants to notice more than the facilities.",
+      "what_they_did": "They go in with the Red Flags checklist so they know what to ask about money, playing time, academic fit and treatment. It is coming soon.",
+      "how_it_helps": "It turns a good feeling into specific questions. It does not guarantee a good fit.",
+      "offer": "red-flags",
+      "source_url": null,
+      "image_prompt": "A fictional adult college-age softball player and two fictional adult parents walking across a quiet college campus lawn in autumn, seen from behind, no signage or logos. Cinematic editorial photo, 16:9."
+    },
+    {
+      "kicker": "Signing",
+      "title": "An ordinary ending, on purpose",
+      "what_was_happening": "In this composite, Kayla signs with a Division II program where she feels at home and gets on the field as a sophomore. Partial aid, a normal college life, a degree.",
+      "what_they_did": "Before signing, her parents read the Offers & Signing Day playbook on verbal versus written offers, and use it to compare in writing.",
+      "how_it_helps": "It helps a family read an offer before signing. Nothing here proves a playbook caused a result.",
+      "offer": "offer-and-signing",
+      "source_url": "https://gannonsports.com/story.aspx?file_date=5-2-2018&filename=gannon-womens-basketball-program-adds-pair-to-recruiting-class",
+      "image_prompt": "A fictional adult college-age softball player signing a document at a table with two fictional adult parents beside her, pen in hand, window light, no readable text or logos. Cinematic editorial photo, 16:9."
+    }
+  ],
+  "offers": [
+    "contact-log",
+    "red-flags",
+    "offer-and-signing",
+    "highlight-reel-social",
+    "camp-roi",
+    "eligibility-2-hard-deadlines"
+  ],
+  "closing": "Kayla does not exist, and the ending is ordinary on purpose. Most college athletes play, study and graduate."
+}

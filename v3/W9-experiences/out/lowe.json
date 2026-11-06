@@ -1,0 +1,69 @@
+{
+  "id": "lowe",
+  "headline": "Karsta Lowe walked on. Here is the sourced path.",
+  "dek": "Karsta Lowe is a real athlete, and every fact about her comes from the linked sources. The Commit Book did not exist then. The 'If your family is here today' steps are for families in a similar spot.",
+  "chapters": [
+    {
+      "kicker": "Through sophomore year",
+      "title": "Two sports, then one",
+      "what_was_happening": "Karsta Lowe played tennis and volleyball until sophomore year, so she specialized late (Daily Bruin). That is the sourced fact. Nothing here says how she or her family felt about it.",
+      "what_they_did": "If your family is here today: read the two hard eligibility deadlines before anything else. A late start still has to meet them (offering: eligibility-2-hard-deadlines, $9).",
+      "how_it_helps": "The deadlines are the same for early and late specializers. Knowing them early costs nothing.",
+      "offer": "eligibility-2-hard-deadlines",
+      "source_url": "https://dailybruin.com/2013/11/27/ucla-volleyballs-karsta-lowe-went-from-walk-on-to-top-player",
+      "image_prompt": "A volleyball and a tennis racket side by side on a gym bench, empty court behind them in early morning light, no people; cinematic editorial photo, 16:9, no logos or wordmarks"
+    },
+    {
+      "kicker": "High school",
+      "title": "A few offers, all far from home",
+      "what_was_happening": "Only a handful of East Coast programs offered her scholarships. She did not feel comfortable that far from home (Daily Bruin). That is the whole sourced fact. We know nothing more about those offers.",
+      "what_they_did": "If your family is here today: put every offer and its distance in one place and compare them on the same terms (offering: offer-comparison). It is coming soon.",
+      "how_it_helps": "Side by side, money and distance both show up. The family decides which weighs more.",
+      "offer": "offer-comparison",
+      "source_url": "https://dailybruin.com/2013/11/27/ucla-volleyballs-karsta-lowe-went-from-walk-on-to-top-player",
+      "image_prompt": "A parent's kitchen table with a laptop, a printed map of the United States and a notepad, no people visible, warm lamp light; cinematic editorial photo, 16:9, no logos"
+    },
+    {
+      "kicker": "Spring of junior year",
+      "title": "A walk-on commitment",
+      "what_was_happening": "In spring of junior year she committed to walk on at UCLA with no scholarship money available (Daily Bruin). The sourced turning points are fit and geography over money.",
+      "what_they_did": "If your family is here today: learn what a preferred walk-on is, what to get in writing and how roster limits work (offering: walk-on, $15).",
+      "how_it_helps": "A walk-on spot is a real option at the right fit. Terms in writing protect the family.",
+      "offer": "walk-on",
+      "source_url": "https://dailybruin.com/2013/11/27/ucla-volleyballs-karsta-lowe-went-from-walk-on-to-top-player",
+      "image_prompt": "An empty indoor volleyball arena at dawn, nets up, rows of empty seats, a single ball on the floor, no people; cinematic editorial photo, 16:9, no logos or wordmarks"
+    },
+    {
+      "kicker": "Before signing",
+      "title": "Keep the other coaches in the loop",
+      "what_was_happening": "A late decision still touches coaches at other programs. The sources do not say how Karsta handled those conversations, so we do not either.",
+      "what_they_did": "If your family is here today: log every coach conversation and the next step you owe each one (offering: contact-log). It is coming soon.",
+      "how_it_helps": "A log keeps replies from slipping and keeps a decline polite and on time.",
+      "offer": "contact-log",
+      "source_url": null,
+      "image_prompt": "A closed laptop, a printed contact list with a pen on top and a cup of coffee on a wooden desk, no people, soft window light; cinematic editorial photo, 16:9, no logos"
+    },
+    {
+      "kicker": "College",
+      "title": "Walk-on first, scholarship later",
+      "what_was_happening": "She came to UCLA as a walk-on, and the coach later awarded a scholarship (ESPN). In 2013 she emerged as one of UCLA's top performers as a junior (Daily Bruin). Those are the sourced facts.",
+      "what_they_did": "If your family is here today: before you say yes to any walk-on spot, ask what is promised and what is not. Use the Red Flags checklist for the questions (offering: red-flags). It is coming soon.",
+      "how_it_helps": "Her path shows a walk-on spot can lead somewhere. It does not mean yours will.",
+      "offer": "red-flags",
+      "source_url": "https://www.espn.com/espnw/news-commentary/article/11930309/ucla-karsta-lowe-blossoming-fiery-new-attitude",
+      "image_prompt": "A volleyball team bench with folded warm-up jackets and water bottles in an empty gym, no people; cinematic editorial photo, 16:9, no logos or wordmarks"
+    },
+    {
+      "kicker": "Signing",
+      "title": "Know the written-offer dates",
+      "what_was_happening": "Whether a family holds a verbal offer or a walk-on invitation, the written dates are what count. The sources do not detail Karsta's signing, so this step is for you.",
+      "what_they_did": "If your family is here today: check verbal versus written and the signing periods before anyone commits out loud (offering: offer-and-signing, $19).",
+      "how_it_helps": "Knowing the dates keeps a family from mistaking a promise for a contract.",
+      "offer": "offer-and-signing",
+      "source_url": null,
+      "image_prompt": "A plain recruiting letter envelope with no readable logo or address, a pen and a printed calendar on a kitchen table, no people, morning light; cinematic editorial photo, 16:9"
+    }
+  ],
+  "offers": ["walk-on", "offer-comparison", "offer-and-signing", "red-flags", "contact-log", "eligibility-2-hard-deadlines"],
+  "closing": "Karsta Lowe's path is hers, and the sources tell only part of it. If your family is in a similar spot, these steps are here to use."
+}

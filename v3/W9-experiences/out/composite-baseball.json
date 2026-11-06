@@ -1,0 +1,76 @@
+{
+  "id": "composite-baseball",
+  "headline": "Diego's family finds junior college is a real first step",
+  "dek": "A composite story built from sourced paths. Diego is not a real person. He is a solid infielder with no four-year offers, and his parents want to know what JUCO means.",
+  "chapters": [
+    {
+      "kicker": "Junior spring",
+      "title": "Good player, no offers",
+      "what_was_happening": "Diego plays infield for his public high school and travel ball in the summer. He is solid. The four-year offers have not come. His parents are not sure what that means or what to do next.",
+      "what_they_did": "They put every coach contact in one place so nothing lives in a text thread. They use the Contact Log for that grid. It is coming soon, not on sale yet.",
+      "how_it_helps": "One list shows who answered and who did not. It does not make a coach reply.",
+      "offer": "contact-log",
+      "source_url": null,
+      "image_prompt": "A parent's kitchen table at dusk with a laptop, a printed calendar and a handwritten list of coach names, a baseball glove at the edge of the frame, no logos, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "Summer before senior year",
+      "title": "Reading baseball's different clock",
+      "what_was_happening": "Baseball does not run on the same timeline as football. Diego's family sees showcase fees adding up and does not know which events matter. They also do not know when coaches may start reaching out.",
+      "what_they_did": "They read the baseball playbook for the clock, the showcase budget and the contact dates. That is baseball-showcase-to-signing.",
+      "how_it_helps": "They know the dates before they spend. They can pick fewer events and skip the rest.",
+      "offer": "baseball-showcase-to-signing",
+      "source_url": null,
+      "image_prompt": "A fictional adult college-age infielder fielding a ground ball on a sunlit travel-ball field in summer, no team logos or wordmarks, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "Senior fall",
+      "title": "Is junior college a dead end?",
+      "what_was_happening": "The question at the table is blunt. Is junior college a dead end, or a real first step? Diego's parents have heard both. They want to know what has to be true now so a later transfer stays possible.",
+      "what_they_did": "They read the JUCO to D1 playbook to see how transfer credits and later recruiting work. It is coming soon, not on sale yet.",
+      "how_it_helps": "The question gets a plan, not a worry. The sources show other athletes who started at a junior college and signed with a four-year school out of it.",
+      "offer": "juco-to-d1",
+      "source_url": "https://gomarquette.com/news/2008/4/17/MU_Lands_Junior_College_Standout_Jimmy_Butler",
+      "image_prompt": "A fictional adult baseball player and two fictional adult parents looking at a printed junior college campus map on a table in a community room, no logos, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "Senior winter",
+      "title": "Keep the core courses in order",
+      "what_was_happening": "Diego may transfer later to a Division I school. That means his high school core courses still count. D1 initial eligibility needs 16 NCAA-approved core courses (D1 Bylaw 14.3.1.1).",
+      "what_they_did": "His mother checks his course list against the approved list early. The family uses the eligibility playbook and meets the counselor with its script.",
+      "how_it_helps": "A gap found in senior year can still be fixed. A gap found after graduation cannot. The rule guarantees nothing. Check it at the source.",
+      "offer": "eligibility-2-hard-deadlines",
+      "source_url": "https://web3.ncaa.org/lsdbi/reports/getReport/90008",
+      "image_prompt": "A fictional adult parent and a school counselor reviewing a course list at a desk with a laptop, warm window light, no logos or readable school names, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "Senior spring",
+      "title": "Pick the place where he plays right away",
+      "what_was_happening": "Diego chooses a junior college where he will play right away. The point is innings and film now. A walk-on style path means getting things in writing, not trusting a hallway promise.",
+      "what_they_did": "They use the Walk-On Playbook to know what to get in writing. They also build a short highlight reel from the innings he already has.",
+      "how_it_helps": "A clear reel and a clear written role make the next conversation easier. Neither is a promise of a spot.",
+      "offer": "walk-on",
+      "source_url": "https://www.nancybkennedy.com/a-walk-on-wonder",
+      "image_prompt": "A fictional adult baseball player in a dugout of a small college field at dawn, cap and glove on the bench, no logos or wordmarks, cinematic editorial photo, 16:9"
+    },
+    {
+      "kicker": "Sophomore year at JUCO",
+      "title": "Two seasons, then a transfer",
+      "what_was_happening": "After two seasons, Diego looks at four-year schools where he can play and finish his degree. Offers come with different aid, fees and terms. His parents want to compare them fairly.",
+      "what_they_did": "They use the Offers & Signing Day playbook for verbal versus written offers and signing periods. They put two offers side by side in one grid.",
+      "how_it_helps": "The comparison is on paper, not in memory. In this composite he transfers, plays, studies and graduates. No draft. Junior college was a route, not a detour. Nothing here proves any playbook caused it.",
+      "offer": "offer-and-signing",
+      "source_url": null,
+      "image_prompt": "A fictional adult baseball player in a plain jacket walking a quiet college campus path in autumn, backpack on one shoulder, no logos, cinematic editorial photo, 16:9"
+    }
+  ],
+  "offers": [
+    "baseball-showcase-to-signing",
+    "juco-to-d1",
+    "eligibility-2-hard-deadlines",
+    "walk-on",
+    "offer-and-signing",
+    "contact-log"
+  ],
+  "closing": "This person does not exist, and the ending is ordinary on purpose. Most college athletes play, study and graduate."
+}
