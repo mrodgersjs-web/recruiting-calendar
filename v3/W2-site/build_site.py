@@ -32,7 +32,7 @@ def BEATS(a):
   li=''.join(f'<li class="ev"><span class="evdate">{i+1:02d} · {BN[i]}</span>{e(x)}'+(f' <a href="{e(r["url"])}" rel="noopener">{e(r["bylaw"])}</a>' if i==3 else '')+'</li>' for i,x in enumerate(a['beats']))
   return f'<section class="st-tl st-beats"><p class="lab">The story, in seven beats (07 is the playbooks below)</p><ol class="timeline">{li}</ol></section>'
 def src_list(a):
-  urls=[];[urls.append(u) for u in [t['url'] for t in a['timeline']]+[m.group(0) for x in a.get('basis',[]) for m in [re.search(r"https?://[^ )]+",x)] if m] if u not in urls]
+  urls=[];[urls.append(u) for u in [u for t in a['timeline'] for u in (t['url'],t.get('url2')) if u]+[m.group(0) for x in a.get('basis',[]) for m in [re.search(r"https?://[^ )]+",x)] if m] if u not in urls]
   return ''.join(f'<li><a href="{e(u)}" rel="noopener">{e(re.sub(r"^https?://(www\\.)?","",u).split("/")[0])}</a> <span class="mono">retrieved 2026-11-05</span></li>' for u in urls)
 def ENV(sp):
   sp=sp.lower()
@@ -70,7 +70,7 @@ for a in A:
     kick=e(a['label'])
   else:
     media=f'<figure class="st-fig st-vid"><video src="{a["video"]}" poster="{a["poster"]}" muted playsinline loop preload="none" aria-label="Kinetic typography about {e(a["name"])}. No likeness."></video><figcaption>Typography only. No image of {e(a["name"])} is shown or generated.</figcaption></figure>'
-    tl=''.join(f'<li class="ev"><span class="evdate">{e(t["date"])}</span>{e(t["fact"])} <a href="{e(t["url"])}" rel="noopener">source</a></li>' for t in a['timeline'])
+    tl=''.join(f'<li class="ev"><span class="evdate">{e(t["date"])}</span>{e(t["fact"])} <a href="{e(t["url"])}" rel="noopener">source</a>'+(f' <a href="{e(t["url2"])}" rel="noopener">source 2</a>' if t.get('url2') else '')+'</li>' for t in a['timeline'])
     kick='Real athlete · every fact linked to a public source'
     kick+='</p><p class="note st-disc">'+e(f"Public facts only, sourced below. {a['name']} is not affiliated with, has not endorsed, and was not paid by The Commit Book. {a['college']} and the NCAA/NAIA/NJCAA are not affiliated with us.")
   body=f'''<main class="story"><div class="st-progress"></div>

@@ -1,0 +1,56 @@
+[
+ {
+  "id": "marpet",
+  "fact_index": 0,
+  "url": "https://nypost.com/2021/02/01/ali-marpets-journey-to-super-bowl-2021-is-unbelievably-surreal",
+  "domain": "nypost.com",
+  "excerpt": "whose modest high school football career was barely noticed by college recruiters",
+  "supports": "partial",
+  "retrieved": "2026-11-06"
+ },
+ {
+  "id": "marpet",
+  "fact_index": 2,
+  "url": "https://nypost.com/2021/02/01/ali-marpets-journey-to-super-bowl-2021-is-unbelievably-surreal",
+  "domain": "nypost.com",
+  "excerpt": "became the highest draft pick in NFL history to come out of Division III ... traded up to draft him in the second round (61st overall)",
+  "supports": "exact",
+  "retrieved": "2026-11-06"
+ },
+ {
+  "id": "groenewegen",
+  "fact_index": 1,
+  "url": "https://www.thedailygopher.com/2017/7/18/15994084/minnesota-softball-jessica-allister-stanford-cardinal-alma-matter",
+  "domain": "thedailygopher.com",
+  "excerpt": "Allister was the only reason British Columbia native Sara Groenewegen ended up at Minnesota",
+  "supports": "partial",
+  "retrieved": "2026-11-06"
+ },
+ {
+  "id": "perez",
+  "fact_index": 3,
+  "url": "https://www.usalacrosse.com/magazine/national-teams/usa-women/usa-downs-great-britain-finish-usa-lacrosse-experience-unbeaten",
+  "domain": "usalacrosse.com",
+  "excerpt": "Julianna Kyle led Colombia with two goals while Tori Perez and Ava Kalmar combined for 12 saves.",
+  "supports": "partial",
+  "retrieved": "2026-11-06"
+ },
+ {
+  "id": "wondolowski",
+  "fact_index": 0,
+  "url": "https://www.dlshs.org/about/communications/news/details/~board/60-for-60/post/chris-wondolowski-01-a-legend-built-on-heart-hustle-and-humility",
+  "domain": "dlshs.org",
+  "excerpt": "Despite his high school success, Wondolowski wasn't heavily recruited.",
+  "supports": "partial",
+  "retrieved": "2026-11-06"
+ },
+ {
+  "id": "wondolowski",
+  "fact_index": 2,
+  "url": "https://www.dlshs.org/about/communications/news/details/~board/60-for-60/post/chris-wondolowski-01-a-legend-built-on-heart-hustle-and-humility",
+  "domain": "dlshs.org",
+  "excerpt": "Division II Chico State took a chance on him, and he paid them back with 39 goals in 84 games",
+  "supports": "partial",
+  "retrieved": "2026-11-06"
+ }
+]

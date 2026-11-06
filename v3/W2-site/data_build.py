@@ -72,6 +72,11 @@ while cs or rs:
   if cs:o.append(cs.pop(0))
   if rs:o.append(rs.pop(0))
 out=o
+# W5-sourcing: append independent second-source citation (url2) to existing timeline facts, from v3/W5-sourcing/SECOND-SOURCES.json
+for _s in json.load(open(R+'/v3/W5-sourcing/SECOND-SOURCES.json')):
+  for a in out:
+    if a['id']==_s['id'] and 'url2' not in a['timeline'][_s['fact_index']]:
+      a['timeline'][_s['fact_index']]['url2']=_s['url']
 P={k:{'title':v['title'],'price':v['price_usd'],'type':'Playbook','who':v['who'],'outcome':v['outcome'],'toc':v['toc'],'tools':v['tools'],'pages':v['pages'],'format':v['format'],'status':v['status'],'notify':k in ('nil-high-school','d3-academic-aid-first','late-bloomer','juco-to-d1'),'beats':v['story_beats']} for k,v in PB.items()}
 json.dump({'athletes':out,'playbooks':P,'bundles':C['bundles']},open(R+'/v3/W2-site/data.json','w'),indent=1)
 open(R+'/site/assets/stories.js','w').write('window.STORY_ALL='+json.dumps({'athletes':out,'playbooks':P})+';(function(){var q=/[?&]flags=all/.test(location.search);window.STORY_DATA={athletes:STORY_ALL.athletes.filter(function(a){return q||!a.hold}),playbooks:STORY_ALL.playbooks}})();')
