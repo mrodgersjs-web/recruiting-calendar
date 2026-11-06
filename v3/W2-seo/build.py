@@ -46,7 +46,7 @@ A=[
 DEMAND={'when-can-college-coaches-contact-my-kid':'#21, #8','when-does-d1-baseball-recruiting-start':'#8','when-can-track-coaches-contact-athletes':'#8, #21','when-are-official-visits-allowed':'#21','ncaa-10-7-core-course-rule':'#16','ncaa-d1-minimum-core-gpa':'#16','ncaa-eligibility-center-account-cost':'#19','when-can-a-scholarship-offer-be-made':'#5','when-is-signing-day-class-of-2029':'#8','does-d3-offer-athletic-scholarships':'#5, #15'}
 SL={'football':'Football','baseball':'Baseball','track':'Track & XC'}
 def ld(o): return '<script type="application/ld+json">'+json.dumps(o,ensure_ascii=False)+'</script>'
-ORG={"@context":"https://schema.org","@type":"Organization","@id":BASE+"/#org","name":BRAND,"url":BASE+"/","logo":BASE+"/logo.png","description":"Dated NCAA recruiting calendars and playbooks for parents, every rule cited to its bylaw."}
+ORG={"@context":"https://schema.org","@type":"Organization","@id":BASE+"/#org","name":BRAND,"url":BASE+"/","logo":BASE+"/logo.png","description":"Dated NCAA recruiting calendars and playbooks for parents, every calendar date cited to its NCAA bylaw."}
 def head(title,desc,path,typ='website',img='/og/default.png'):
   u=BASE+path
   return f'''<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
