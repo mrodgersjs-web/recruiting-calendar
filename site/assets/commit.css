@@ -204,3 +204,14 @@ select,input{font-family:var(--font-text);background:#fff!important;border-radiu
  body[data-page=price] .tier.lead .amt s{color:#bbb}
 }
 @media (max-width:749px){body[data-page=price] .tiers .tier.lead{background:var(--c-ink,#111)!important;border-color:var(--c-ink,#111)!important}}
+/* phone composite beat: figure + headline both inside one screen (heartbeat run 10) */
+@media (max-width:749px){
+ .vis-c{min-height:calc(100svh - 60px)!important;max-height:calc(100svh - 60px);overflow:hidden}
+ .vis-c .vis-cut{height:64%!important;bottom:auto!important;top:10%!important;right:auto!important;left:50%!important;transform:translateX(-50%)!important}
+ .vis-c::after{background:linear-gradient(180deg,rgba(0,0,0,.2) 0,rgba(0,0,0,0) 30%,rgba(0,0,0,.55) 62%,rgba(0,0,0,.92) 100%)!important}
+ .vis-c .vis-cap{padding:0 20px 22px!important}
+ .vis-c .vis-cap h2,.vis-c .vis-cap .d1{font-size:clamp(34px,10.5vw,44px)!important;line-height:.92!important;margin:4px 0 8px!important}
+ .vis-c .vis-cap .vis-word{font:400 clamp(40px,12vw,52px)/.9 var(--font-display)!important;text-transform:uppercase;margin:6px 0 0!important;color:#fff}
+ .vis-c .vis-cap .lab{margin:0}
+ .vis-c .vis-tag{top:14px!important;left:16px!important}
+}
