@@ -1,0 +1,207 @@
+{
+ "generated": "2026-11-06",
+ "status": "DRAFT, nothing launched",
+ "landing_base": "https://recruiting-calendar.vercel.app",
+ "top_hooks": [
+  "Every date a coach can contact your kid, with the rule number",
+  "Late isn't over: an honest next 30 days for a junior/senior",
+  "Before you pay a recruiting service, read this comparison",
+  "What to write in the first email to a college coach",
+  "The two Eligibility Center dates that can cost eligibility ($9, no sales call)"
+ ],
+ "segments": {
+  "football": {
+   "channels": [
+    "Meta paid (FB+IG) to parents",
+    "TikTok parent-coach feeds (@troycagleofficial 109,422)",
+    "r/footballstrategy, r/highschoolfootball (answer-only)"
+   ],
+   "hooks": [
+    "Every date a coach can contact your kid, with the rule number",
+    "Late isn't over: an honest next 30 days for a junior/senior",
+    "Before you pay a recruiting service, read this comparison"
+   ],
+   "stories": [
+    "marpet",
+    "renfrow",
+    "composite-football"
+   ],
+   "ads": [
+    "F1",
+    "F2",
+    "F3"
+   ]
+  },
+  "travel_baseball_softball": {
+   "channels": [
+    "FB softball groups (Coaching Softball 205,130; Fastpitch Talk 120,217; College Softball Recruiting 72,366)",
+    "r/Homeplate 44.3K",
+    "Meta paid"
+   ],
+   "hooks": [
+    "Check which showcases fit before the next one",
+    "D1 scholarships are split across a roster: see the math"
+   ],
+   "stories": [
+    "composite-softball",
+    "composite-baseball",
+    "groenewegen",
+    "pichardo"
+   ],
+   "ads": [
+    "S1",
+    "S2",
+    "S3"
+   ]
+  },
+  "club_volleyball": {
+   "channels": [
+    "Meta/IG paid (no competitor ads seen)",
+    "YouTube volleyball recruiting explainers (comment research)",
+    "FB Volleyball Players, Coaches, Officials & Parents 25,495"
+   ],
+   "hooks": [
+    "The recruiting dates are different for your sport",
+    "What to write in the first email to a college coach"
+   ],
+   "stories": [
+    "composite-volleyball",
+    "lowe"
+   ],
+   "ads": [
+    "V1",
+    "V2",
+    "V3"
+   ]
+  },
+  "track_xc": {
+   "channels": [
+    "YouTube track recruiting explainers",
+    "r/trackandfield 170K, r/CrossCountry 20.7K (answer-only)",
+    "Meta paid small test"
+   ],
+   "hooks": [
+    "The real question is often the academic package"
+   ],
+   "stories": [
+    "rodenfels",
+    "composite-sprinter"
+   ],
+   "ads": [
+    "T1"
+   ]
+  },
+  "wrestling_incl_girls": {
+   "channels": [
+    "FB Wrestle Like A Girl 76,712",
+    "FB Wrestlers Only!!! 246,335",
+    "Meta paid"
+   ],
+   "hooks": [
+    "Women's wrestling is now an NCAA D-III championship sport",
+    "The two Eligibility Center dates that can cost eligibility ($9, no sales call)"
+   ],
+   "stories": [
+    "rodriguez",
+    "composite-wrestling"
+   ],
+   "ads": [
+    "W1",
+    "W2"
+   ]
+  },
+  "aau_basketball": {
+   "channels": [
+    "FB Travel Basketball 104,765",
+    "YouTube ItsJustDifferentPod",
+    "Meta paid"
+   ],
+   "hooks": [
+    "Late isn't over: an honest next 30 days for a junior/senior"
+   ],
+   "stories": [
+    "butler",
+    "white",
+    "coward",
+    "composite-wbasketball",
+    "pirosko"
+   ],
+   "ads": [
+    "L1"
+   ]
+  },
+  "girls_flag_football": {
+   "channels": [
+    "FB Girls Flag Football 26,549",
+    "Meta paid",
+    "@nflflag 100,856 (reach reference only)"
+   ],
+   "hooks": [
+    "Girls flag football grew 60% in one year. Where can she play in college?"
+   ],
+   "stories": [],
+   "ads": [
+    "G1"
+   ]
+  },
+  "late_start_jr_sr": {
+   "channels": [
+    "Meta paid",
+    "FB Recruit University parent group 29,942",
+    "YouTube D3/JUCO explainers"
+   ],
+   "hooks": [
+    "Late isn't over: an honest next 30 days for a junior/senior",
+    "The two Eligibility Center dates that can cost eligibility ($9, no sales call)"
+   ],
+   "stories": [
+    "marpet",
+    "butler",
+    "composite-baseball"
+   ],
+   "ads": [
+    "L1",
+    "L2",
+    "F2"
+   ]
+  },
+  "single_parent_first_gen": {
+   "channels": [
+    "TikTok first-gen creators (@thefirstgenmentor 185,504; @firstgenstories 53,020)",
+    "Meta paid plain-cost framing",
+    "Local community orgs (unmeasured)"
+   ],
+   "hooks": [
+    "$9, no sales call"
+   ],
+   "stories": [
+    "composite-wbasketball"
+   ],
+   "ads": []
+  },
+  "hs_coaches_ads": {
+   "channels": [
+    "State AD associations (unmeasured)",
+    "Direct email from Mike's own address (approval needed)",
+    "TikTok AD accounts (tiny)"
+   ],
+   "hooks": [
+    "A free bylaw-cited calendar to hand families"
+   ],
+   "stories": [],
+   "ads": []
+  },
+  "club_directors": {
+   "channels": [
+    "Direct outreach",
+    "Club FB groups",
+    "(SportsRecruits incumbent ad 2026-11-02)"
+   ],
+   "hooks": [
+    "A parent handout that doesn't sell a service"
+   ],
+   "stories": [],
+   "ads": []
+  }
+ }
+}

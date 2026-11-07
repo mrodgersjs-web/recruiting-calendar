@@ -1,0 +1,740 @@
+{
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "{\n  \"data\": {\n    \"lookupStatus\": \"found\",\n    \"post\": {\n      \"id\": \"1xbw30n\",\n      \"title\": \"Former Division 1 basketball player and college head coach here to answer questions about development and the recruiting process.\",\n      \"text\": \"I spent nearly 20 years coaching college basketball, including serving as a head coach at the NCAA Division II level and an assistant at the Division I level. Before coaching, I was a nationally ranked high school recruit and played Division I basketball myself. Throughout my career, I've evaluated and recruited hundreds of players, and one thing I've consistently noticed is how confusing the recruiting process can be for players and their families. There's often a significant difference between how parents, high school coaches, trainers, AAU coaches evaluate a player's college potential and how college coaches actually evaluate prospects. I've seen talented players struggle to find opportunities simply because they didn't understand the process. I've also seen families spend thousands of dollars on exposure events and recruiting services without really knowing what they were getting in return. Now that I've stepped away from college coaching, I thought it might be worthwhile to share some of what I've learned. If you're a parent or high school player trying to navigate college basketball recruiting, feel free to ask questions. Whether it's understanding what level of college basketball is realistic, what coaches look for on film, how to contact programs, the value of AAU, or anything else related to recruiting, I'm happy to offer my perspective. I'm not here to promise scholarships or tell anyone what they want to hear. Just hoping to provide some insight from someone who's spent a lot of time on the other side of the recruiting process. What's been the most confusing or frustrating part of recruiting for you?\",\n      \"url\": \"https://www.reddit.com/r/Basketball/comments/1xbw30n/former_division_1_basketball_player_and_college/\",\n      \"permalink\": \"/r/Basketball/comments/1xbw30n/former_division_1_basketball_player_and_college/\",\n      \"subreddit\": \"Basketball\",\n      \"subredditNamePrefixed\": \"r/Basketball\",\n      \"author\": \"Internal_Ad_3977\",\n      \"score\": 29,\n      \"upvoteRatio\": 0.9393939393939394,\n      \"commentCount\": 50,\n      \"createdAt\": \"2026-10-21T18:59:42.000Z\",\n      \"createdUtc\": 1792609182,\n      \"over18\": false,\n      \"locked\": false,\n      \"stickied\": false\n    },\n    \"page\": {\n      \"nextCursor\": \"eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy9CYXNrZXRiYWxsL3QzXzF4YnczMG4_c2Vla2VyLXNlc3Npb249ZmFsc2UmcmVuZGVyLW1vZGU9cGFydGlhbCZ0b3AtbGV2ZWw9MSZjb21tZW50cy1yZW1haW5pbmc9NzUmY29tbWVudFBvc2l0aW9uT2Zmc2V0PTEyIiwiY3Vyc29yIjoiWTI5dGJXVnVkSFJ5WldVNk9EUmtaak0xTXpnc09qb3dPbVY0T2l4WFJ5c21VeTlvWkZjNkttY21Qa0JGT2p0VEpVQXlLQzFvWVN3aVVrMGtORjB0Wld4Yk0ydE9WblZNYkROVU5WWnpYbDBvSWoxTFNWdGFiQ1p0UVdoRGZpTldXblJGVm5BOEpqUkJXbHd1WkNJa1VYMXdlR2tyVWlaemVHUkhjVXhNIiwic3VicmVkZGl0IjoiQmFza2V0YmFsbCIsInBvc3RJZCI6IjF4YnczMG4iLCJwYXJlbnRUaGluZ0lkIjpudWxsfQ\",\n      \"hasMore\": true\n    },\n    \"comments\": [\n      {\n        \"id\": \"19rg5frlfoxxc\",\n        \"url\": \"https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rg5frlfoxxc/\",\n        \"permalink\": \"/r/Basketball/comments/1xbw30n/comment/19rg5frlfoxxc/\",\n        \"parentId\": \"t3_1xbw30n\",\n        \"author\": \"GreezyGz\",\n        \"text\": \"Longtime HS coach here, always had regrets about not trying to go D2 route.\\n\\n Did you ever decide against a prospect due to parent behavior? I\u2019ve had a few players that I\u2019m just certain that mom/dad yelling at officials like a crazy person hurt their prospects.\",\n        \"renderedHtml\": \"\\n      <p>\\n      Longtime HS coach here, always had regrets about not trying to go D2 route.\\n    </p><p>\\n      Did you ever decide against a prospect due to parent behavior? I\u2019ve had a few players that I\u2019m just certain that mom/dad yelling at officials like a crazy person hurt their prospects.\\n    </p>\\n    \",\n        \"score\": 5,\n        \"upvotes\": 5,\n        \"createdAt\": \"2026-10-21T19:24:14.000Z\",\n        \"createdUtc\": 1792610654,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"19rg7jmyzwjb4\",\n              \"url\": \"https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rg7jmyzwjb4/\",\n              \"permalink\": \"/r/Basketball/comments/1xbw30n/comment/19rg7jmyzwjb4/\",\n              \"parentId\": \"t1_19rg5frlfoxxc\",\n              \"author\": \"Internal_Ad_3977\",\n              \"text\": \"I always recruited parents as much as I did kids.\\n\\n \\\"More parents have lost scholarships for kids than they could ever dream of getting for them\\\"\\n\\n Nothing a mom or dad ever said to me was going to make me want a kid. But they could sure turn me off quick.\",\n              \"renderedHtml\": \"\\n      <p>\\n      I always recruited parents as much as I did kids.\\n    </p><p>\\n      \\\"More parents have lost scholarships for kids than they could ever dream of getting for them\\\"\\n    </p><p>\\n      Nothing a mom or dad ever said to me was going to make me want a kid. But they could sure turn me off quick.\\n    </p>\\n    \",\n              \"score\": 8,\n              \"upvotes\": 8,\n              \"createdAt\": \"2026-10-21T20:11:29.000Z\",\n              \"createdUtc\": 1792613489,\n              \"depth\": 0,\n              \"isSubmitter\": true,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": null,\n                  \"hasMore\": false\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"19rg5frlfoxxc\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"19rg5di0ekxj8\",\n        \"url\": \"https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rg5di0ekxj8/\",\n        \"permalink\": \"/r/Basketball/comments/1xbw30n/comment/19rg5di0ekxj8/\",\n        \"parentId\": \"t3_1xbw30n\",\n        \"author\": \"noknownothing\",\n        \"text\": \"Ok so I have a son at a mid major. In high school, he had a trainer that worked with nba and nfl players and he did a lot of foot speed/ foot work type of things. The high school coach, who had played high level basketball and is an nba assistant now would say, \u201cyou\u2019re wasting too much time on that, just get your shots up. College assistants don\u2019t gaf about that because they think they can teach it better.\u201d My son\u2019s 6\u20196\u201d and he can shoot, but still. Who was right?\",\n        \"renderedHtml\": \"\\n      <p>\\n      Ok so I have a son at a mid major. In high school, he had a trainer that worked with nba and nfl players and he did a lot of foot speed/ foot work type of things. The high school coach, who had played high level basketball and is an nba assistant now would say, \u201cyou\u2019re wasting too much time on that, just get your shots up. College assistants don\u2019t gaf about that because they think they can teach it better.\u201d My son\u2019s 6\u20196\u201d and he can shoot, but still. Who was right?\\n    </p>\\n    \",\n        \"score\": 3,\n        \"upvotes\": 3,\n        \"createdAt\": \"2026-10-21T19:22:50.000Z\",\n        \"createdUtc\": 1792610570,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"19rg7hkt9oczm\",\n              \"url\": \"https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rg7hkt9oczm/\",\n              \"permalink\": \"/r/Basketball/comments/1xbw30n/comment/19rg7hkt9oczm/\",\n              \"parentId\": \"t1_19rg5di0ekxj8\",\n              \"author\": \"Internal_Ad_3977\",\n              \"text\": \"I think that's a bit of a generalization by the coach. Some staff's wouldn't care, but others would. Maybe a better way of putting what he was trying to say: DONT SHOW THEM WHAT YOU CANT DO. If I had a kid who was a great athlete but poor shooter, I would suggest in showcase games to be drive heavy. Don't go out there and go 2-10 from 3. Leave the coaches wondering...CAN HE SHOOT, not knowing HE CAN'T SHOOT.\\n\\n Having said that, you should always work on your weaknesses to try to improve. I think it's silly the think otherwise. Working on them in practice and trying to preform them in a game in front of coaches are two different things.\",\n              \"renderedHtml\": \"\\n      <p>\\n      I think that's a bit of a generalization by the coach. Some staff's wouldn't care, but others would. Maybe a better way of putting what he was trying to say: DONT SHOW THEM WHAT YOU CANT DO. If I had a kid who was a great athlete but poor shooter, I would suggest in showcase games to be drive heavy. Don't go out there and go 2-10 from 3. Leave the coaches wondering...CAN HE SHOOT, not knowing HE CAN'T SHOOT.\\n    </p><p>\\n      Having said that, you should always work on your weaknesses to try to improve. I think it's silly the think otherwise. Working on them in practice and trying to preform them in a game in front of coaches are two different things.\\n    </p>\\n    \",\n              \"score\": 14,\n              \"upvotes\": 14,\n              \"createdAt\": \"2026-10-21T20:10:12.000Z\",\n              \"createdUtc\": 1792613412,\n              \"depth\": 0,\n              \"isSubmitter\": true,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": null,\n                  \"hasMore\": false\n                }\n              }\n            },\n            {\n              \"id\": \"19rg6ilz7bv0l\",\n              \"url\": \"https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rg6ilz7bv0l/\",\n              \"permalink\": \"/r/Basketball/comments/1xbw30n/comment/19rg6ilz7bv0l/\",\n              \"parentId\": \"t1_19rg5di0ekxj8\",\n              \"author\": \"[deleted]\",\n              \"text\": \"[deleted]\",\n              \"renderedHtml\": null,\n              \"score\": 1,\n              \"upvotes\": 1,\n              \"createdAt\": \"2026-10-21T19:48:26.000Z\",\n              \"createdUtc\": 1792612106,\n              \"depth\": 0,\n              \"isSubmitter\": false,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": \"eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy9CYXNrZXRiYWxsL3QzXzF4YnczMG4_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MiZjb21tZW50UGFyZW50UG9zaXRpb25zPTEsMSIsImN1cnNvciI6IlkyOXRiV1Z1ZEhSeVpXVTZaalJoTW1FME1XRXNPam95T21ReE9uUXhYekU1Y21jMmFXeDZOMkoyTUd3PSIsInN1YnJlZGRpdCI6IkJhc2tldGJhbGwiLCJwb3N0SWQiOiIxeGJ3MzBuIiwicGFyZW50VGhpbmdJZCI6InQxXzE5cmc2aWx6N2J2MGwifQ\",\n                  \"hasMore\": true\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"19rg6ilz7bv0l\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"19rg8d45q8gqs\",\n        \"url\": \"https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rg8d45q8gqs/\",\n        \"permalink\": \"/r/Basketball/comments/1xbw30n/comment/19rg8d45q8gqs/\",\n        \"parentId\": \"t3_1xbw30n\",\n        \"author\": \"Longjumping_Ad_2815\",\n        \"text\": \"My son has bad body language at times - especially on the bench. How important is that if a scout or recruiter sees that?\\n\\n Also, he plays in several AAU teams but doesn't really get much play time. What would you recommend a player do to improve outside of shooting hundreds of shots and strength training?\\n\\n What can he do for exposure?\\n\\n Would you recommend junior college ?\",\n        \"renderedHtml\": \"\\n      <p>\\n      My son has bad body language at times - especially on the bench.  How important is that if a scout or recruiter sees that?\\n    </p><p>\\n      Also, he plays in several AAU teams but doesn't really get much play time.  What would you recommend a player do to improve outside of shooting hundreds of shots and strength training?\\n    </p><p>\\n      What can he do for exposure?\\n    </p><p>\\n      Would you recommend junior college ?\\n    </p>\\n    \",\n        \"score\": 3,\n        \"upvotes\": 3,\n        \"createdAt\": \"2026-10-21T20:29:51.000Z\",\n        \"createdUtc\": 1792614591,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"19rgb1jvisqtd\",\n              \"url\": \"https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rgb1jvisqtd/\",\n              \"permalink\": \"/r/Basketball/comments/1xbw30n/comment/19rgb1jvisqtd/\",\n              \"parentId\": \"t1_19rg8d45q8gqs\",\n              \"author\": \"Internal_Ad_3977\",\n              \"text\": \"He's got to PLAY! Depending on his age, exposure is completely irrelevant. Getting on the floor and getting game reps is much more important than exposure.\\n\\n It would be hard for me to give you specific advice without intimately looking at his situation, but in general REPS > EXPOSURE always\",\n              \"renderedHtml\": \"\\n      <p>\\n      He's got to PLAY! Depending on his age, exposure is completely irrelevant. Getting on the floor and getting game reps is much more important than exposure.\\n    </p><p>\\n      It would be hard for me to give you specific advice without intimately looking at his situation, but in general REPS &gt; EXPOSURE always\\n    </p>\\n    \",\n              \"score\": 4,\n              \"upvotes\": 4,\n              \"createdAt\": \"2026-10-21T21:29:54.000Z\",\n              \"createdUtc\": 1792618194,\n              \"depth\": 0,\n              \"isSubmitter\": true,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": null,\n                  \"hasMore\": false\n                }\n              }\n            },\n            {\n              \"id\": \"19rga5ch3fvlu\",\n              \"url\": \"https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rga5ch3fvlu/\",\n              \"permalink\": \"/r/Basketball/comments/1xbw30n/comment/19rga5ch3fvlu/\",\n              \"parentId\": \"t1_19rg8d45q8gqs\",\n              \"author\": \"External-Credit954\",\n              \"text\": \"I\u2019d recommend finding a league/team where he can get playing time\",\n              \"renderedHtml\": \"\\n      <p>\\n      I\u2019d recommend finding a league/team where he can get playing time\\n    </p>\\n    \",\n              \"score\": 5,\n              \"upvotes\": 5,\n              \"createdAt\": \"2026-10-21T21:09:51.000Z\",\n              \"createdUtc\": 1792616991,\n              \"depth\": 0,\n              \"isSubmitter\": false,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": \"eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy9CYXNrZXRiYWxsL3QzXzF4YnczMG4_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MiZjb21tZW50UGFyZW50UG9zaXRpb25zPTIsMSIsImN1cnNvciI6IlkyOXRiV1Z1ZEhSeVpXVTZNMlV3Tm1aalpEQXNPam95T21ReE9uUXhYekU1Y21kaE5XTm9NMloyYkhVPSIsInN1YnJlZGRpdCI6IkJhc2tldGJhbGwiLCJwb3N0SWQiOiIxeGJ3MzBuIiwicGFyZW50VGhpbmdJZCI6InQxXzE5cmdhNWNoM2Z2bHUifQ\",\n                  \"hasMore\": true\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"19rga5ch3fvlu\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"19rghntyik91h\",\n        \"url\": \"https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rghntyik91h/\",\n        \"permalink\": \"/r/Basketball/comments/1xbw30n/comment/19rghntyik91h/\",\n        \"parentId\": \"t3_1xbw30n\",\n        \"author\": \"StuntDN\",\n        \"text\": \"Ok coach, I\u2019m 31, have a high paying career, and a family of 4. I\u2019m 6\u20197 220, played high school basketball, and rowed D1. Can play every position, and play against the local community college guys at LA fitness a couple times a week. Do 40in box jumps for reps.\\n\\n What are the chances of walking on at a D1, or the G league, and trying to live my hoop dreams.\",\n        \"renderedHtml\": \"\\n      <p>\\n      Ok coach, I\u2019m 31, have a high paying career, and a family of 4. I\u2019m 6\u20197 220, played high school basketball, and rowed D1. Can play every position, and play against the local community college guys at LA fitness a couple times a week. Do 40in box jumps for reps.\\n    </p><p>\\n      What are the chances of walking on at a D1, or the G league, and trying to live my hoop dreams.\\n    </p>\\n    \",\n        \"score\": 2,\n        \"upvotes\": 2,\n        \"createdAt\": \"2026-10-21T23:58:18.000Z\",\n        \"createdUtc\": 1792627098,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"19rgqameqmbb6\",\n              \"url\": \"https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rgqameqmbb6/\",\n              \"permalink\": \"/r/Basketball/comments/1xbw30n/comment/19rgqameqmbb6/\",\n              \"parentId\": \"t1_19rghntyik91h\",\n              \"author\": \"noknownothing\",\n              \"text\": \"None. They just changed eligibility rules and you\u2019re ineligible.\",\n              \"renderedHtml\": \"\\n      <p>\\n      None. They just changed eligibility rules and you\u2019re ineligible.\\n    </p>\\n    \",\n              \"score\": 4,\n              \"upvotes\": 4,\n              \"createdAt\": \"2026-10-22T03:11:52.000Z\",\n              \"createdUtc\": 1792638712,\n              \"depth\": 0,\n              \"isSubmitter\": false,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [\n                  {\n                    \"id\": \"19rgribmenveo\",\n                    \"url\": \"https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rgribmenveo/\",\n                    \"permalink\": \"/r/Basketball/comments/1xbw30n/comment/19rgribmenveo/\",\n                    \"parentId\": \"t1_19rgqameqmbb6\",\n                    \"author\": \"StuntDN\",\n                    \"text\": \":(\",\n                    \"renderedHtml\": \"\\n      <p>\\n      :(\\n    </p>\\n    \",\n                    \"score\": 2,\n                    \"upvotes\": 2,\n                    \"createdAt\": \"2026-10-22T03:39:04.000Z\",\n                    \"createdUtc\": 1792640344,\n                    \"depth\": 0,\n                    \"isSubmitter\": false,\n                    \"stickied\": false,\n                    \"locked\": false,\n                    \"distinguished\": null,\n                    \"replies\": {\n                      \"items\": [],\n                      \"page\": {\n                        \"nextCursor\": null,\n                        \"hasMore\": false\n                      }\n                    }\n                  }\n                ],\n                \"page\": {\n                  \"nextCursor\": \"19rgqameqmbb6\",\n                  \"hasMore\": true\n                }\n              }\n            },\n            {\n              \"id\": \"19rhom3lee8jp\",\n              \"url\": \"https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rhom3lee8jp/\",\n              \"permalink\": \"/r/Basketball/comments/1xbw30n/comment/19rhom3lee8jp/\",\n              \"parentId\": \"t1_19rghntyik91h\",\n              \"author\": \"[deleted]\",\n              \"text\": \"[deleted]\",\n              \"renderedHtml\": null,\n              \"score\": 1,\n              \"upvotes\": 1,\n              \"createdAt\": \"2026-10-22T16:01:18.000Z\",\n              \"createdUtc\": 1792684878,\n              \"depth\": 0,\n              \"isSubmitter\": false,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": \"eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy9CYXNrZXRiYWxsL3QzXzF4YnczMG4_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MiZjb21tZW50UGFyZW50UG9zaXRpb25zPTMsMSIsImN1cnNvciI6IlkyOXRiV1Z1ZEhSeVpXVTZaak15WWpNeE9HSXNPam95T21ReE9uUXhYekU1Y21odmJUTnNaV1U0YW5BPSIsInN1YnJlZGRpdCI6IkJhc2tldGJhbGwiLCJwb3N0SWQiOiIxeGJ3MzBuIiwicGFyZW50VGhpbmdJZCI6InQxXzE5cmhvbTNsZWU4anAifQ\",\n                  \"hasMore\": true\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"19rgqameqmbb6\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"19rh097qtdccl\",\n        \"url\": \"https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rh097qtdccl/\",\n        \"permalink\": \"/r/Basketball/comments/1xbw30n/comment/19rh097qtdccl/\",\n        \"parentId\": \"t3_1xbw30n\",\n        \"author\": \"svinyard\",\n        \"text\": \"How much coaching development do coaches do with regards to modern research on skill acquisition? Do they even evaluate the sports specific research or is it more or less \\\"what I know is the right way?\\\"\\n\\n For example \\\"Differential shooting training in youth basketball\\\" Burkaite, Figueria\\n\\n While I know we expect a lot of development and unending work out of our players, are the coaches in the US also aggressively developing proactively with new information being so easily accessible?\",\n        \"renderedHtml\": \"\\n      <p>\\n      How much coaching development do coaches do with regards to modern research on skill acquisition?  Do they even evaluate the sports specific research or is it more or less \\\"what I know is the right way?\\\"\\n    </p><p>\\n      For example \\\"Differential shooting training in youth basketball\\\" Burkaite, Figueria\\n    </p><p>\\n      While I know we expect a lot of development and unending work out of our players, are the coaches in the US also aggressively developing proactively with new information being so easily accessible?\\n    </p>\\n    \",\n        \"score\": 2,\n        \"upvotes\": 2,\n        \"createdAt\": \"2026-10-22T06:55:11.000Z\",\n        \"createdUtc\": 1792652111,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"19riiz8o16s3k\",\n        \"url\": \"https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19riiz8o16s3k/\",\n        \"permalink\": \"/r/Basketball/comments/1xbw30n/comment/19riiz8o16s3k/\",\n        \"parentId\": \"t3_1xbw30n\",\n        \"author\": \"Electronic-Month-159\",\n        \"text\": \"Can a kid play at a high level d1 for basketball and another sport?\\n\\n I already asked the other sport ( travel coaches only) and they said no because too much money is involved today.\\n\\n My son plans on asking the colleges and I don\u2019t know if he should.\\n\\n What\u2019s your experience?\",\n        \"renderedHtml\": \"\\n      <p>\\n      Can a kid play at a high level d1 for basketball and another sport?\\n    </p><p>\\n      I already asked the other sport ( travel coaches only) and they said no because too much money is involved today.\\n    </p><p>\\n      My son plans on asking the colleges and I don\u2019t know if he should.\\n    </p><p>\\n      What\u2019s your experience?\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2026-10-23T03:22:05.000Z\",\n        \"createdUtc\": 1792725725,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"19rlm21pkqkzl\",\n        \"url\": \"https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rlm21pkqkzl/\",\n        \"permalink\": \"/r/Basketball/comments/1xbw30n/comment/19rlm21pkqkzl/\",\n        \"parentId\": \"t3_1xbw30n\",\n        \"author\": \"questions8112\",\n        \"text\": \"Hello! Do you know a serious recruiter who help athletes getting in touch with colleges that would be a good fit to them ? My son is 6,7 - varsity player since freshman year - has some D3 and NAIA offers but we want to see what other possibilities are available. Thanks\",\n        \"renderedHtml\": \"\\n      <p>\\n      Hello! Do you know a serious recruiter who help athletes getting in touch with colleges that would be a good fit to them ? My son is 6,7 - varsity player since freshman year - has some D3 and NAIA offers but we want to see what other possibilities are available. Thanks\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2026-10-24T20:52:28.000Z\",\n        \"createdUtc\": 1792875148,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"19rnp1q0h6car\",\n        \"url\": \"https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rnp1q0h6car/\",\n        \"permalink\": \"/r/Basketball/comments/1xbw30n/comment/19rnp1q0h6car/\",\n        \"parentId\": \"t3_1xbw30n\",\n        \"author\": \"Positive-Day-7885\",\n        \"text\": \"Based on your experience, are referees ever on the take? I\u2019ve seen some games where I really thought they were.\",\n        \"renderedHtml\": \"\\n      <p>\\n      Based on your experience, are referees ever on the take?   I\u2019ve seen some games where I really thought they were.\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2026-10-26T00:53:47.000Z\",\n        \"createdUtc\": 1792976027,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"19ros4ec2y2tc\",\n              \"url\": \"https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19ros4ec2y2tc/\",\n              \"permalink\": \"/r/Basketball/comments/1xbw30n/comment/19ros4ec2y2tc/\",\n              \"parentId\": \"t1_19rnp1q0h6car\",\n              \"author\": \"[deleted]\",\n              \"text\": \"[deleted]\",\n              \"renderedHtml\": null,\n              \"score\": 1,\n              \"upvotes\": 1,\n              \"createdAt\": \"2026-10-26T15:29:50.000Z\",\n              \"createdUtc\": 1793028590,\n              \"depth\": 0,\n              \"isSubmitter\": false,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": \"eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy9CYXNrZXRiYWxsL3QzXzF4YnczMG4_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MiZjb21tZW50UGFyZW50UG9zaXRpb25zPTcsMCIsImN1cnNvciI6IlkyOXRiV1Z1ZEhSeVpXVTZPREU0TVRBM1lUZ3NPam95T21ReE9uUXhYekU1Y205ek5HVmpNbmt5ZEdNPSIsInN1YnJlZGRpdCI6IkJhc2tldGJhbGwiLCJwb3N0SWQiOiIxeGJ3MzBuIiwicGFyZW50VGhpbmdJZCI6InQxXzE5cm9zNGVjMnkydGMifQ\",\n                  \"hasMore\": true\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"19ros4ec2y2tc\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"19rr6hb093hkx\",\n        \"url\": \"https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rr6hb093hkx/\",\n        \"permalink\": \"/r/Basketball/comments/1xbw30n/comment/19rr6hb093hkx/\",\n        \"parentId\": \"t3_1xbw30n\",\n        \"author\": \"djdansk\",\n        \"text\": \"Thanks for offering to answer questions. My son is a 6'6\\\" junior starting Varsity this season on a Pacific Northwest 2A team. His school doesn't win a lot, but we're in a tough conference. He played on an unsuccessful AAU team last Spring; hopefully we'll find a more promising team next Spring. He'd like to play D1, but I don't know that that's realistic. We'll put together a highlight reel over the next two months. Should we use a recruiting platform? Which one? We'll contact some D2 and D3 schools directly, but what about competitive D1 programs? Should we reach out to them or wait and see if he can find some success this year?\",\n        \"renderedHtml\": \"\\n      <p>\\n      Thanks for offering to answer questions.  My son is a 6'6\\\" junior starting Varsity this season on a Pacific Northwest 2A team.  His school doesn't win a lot, but we're in a tough conference.  He played on an unsuccessful AAU team last Spring; hopefully we'll find a more promising team next Spring.  He'd like to play D1, but I don't know that that's realistic.  We'll put together a highlight reel over the next two months.  Should we use a recruiting platform?  Which one?  We'll contact some D2 and D3 schools directly, but what about competitive D1 programs?  Should we reach out to them or wait and see if he can find some success this year?\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2026-10-27T23:46:00.000Z\",\n        \"createdUtc\": 1793144760,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"19rgderfqjkjl\",\n        \"url\": \"https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rgderfqjkjl/\",\n        \"permalink\": \"/r/Basketball/comments/1xbw30n/comment/19rgderfqjkjl/\",\n        \"parentId\": \"t3_1xbw30n\",\n        \"author\": \"Giuseppe12\",\n        \"text\": \"Lets go, I have been looking for an outlet to answer questions about training/development/other things. What is the prevailing logic on training when it comes to development as a basketball player starting from a young age with the goal of making it to the NBA. For context, I just had a son and hopefully he wants to play basketball and if he does I want to set him up for success as best I can to give him a shot at the NBA. I have a few variables I want to bounce off you:\\n\\n Location: How much does living in a geographical area of the United States matter? Is it like moving to Canada for Hockey? Do I need to move to Florida and put him in IMG etc\u2026.? And then given the area, should I try and enroll him in the best high school for basketball?\\n\\n AAU: This seems like a must but I\u2019ll ask, does he have to play travel ball? Similar to the location question, should I index off where the best AAU teams are or just pick the best high school?\\n\\n Training: Live game reps are obviously a must but with regards to training. Should it be mostly skill work? What skills by position? How much does footwork matter, again by position? If you had a 2 hour training block how would you divide that time up between the above? When should he be introduced to weights? Is there anything I\u2019m missing?\\n\\n Film: How do you match a player (my son) to someone who is playing similarly in the NBA? My thought is if my son has this play style, how much film should he watching on that specific player or team that has a specific play style?\\n\\n Future: Looking 10-15 years down the road, how do you see the game evolving and what will be the skills, by position that should be mastered to make the NBA? I\u2019m thinking along the lines of 1) Great defensive player 2) Bigs who can shoot 3) Facillitators etc\u2026.\\n\\n Thanks again for doing this.\",\n        \"renderedHtml\": \"\\n      <p>\\n      Lets go, I have been looking for an outlet to answer questions about training/development/other things. What is the prevailing logic on training when it comes to development as a basketball player starting from a young age with the goal of making it to the NBA. For context, I just had a son and hopefully he wants to play basketball and if he does I want to set him up for success as best I can to give him a shot at the NBA. I have a few variables I want to bounce off you:\\n    </p><p>\\n      Location: How much does living in a geographical area of the United States matter? Is it like moving to Canada for Hockey? Do I need to move to Florida and put him in IMG etc\u2026.? And then given the area, should I try and enroll him in the best high school for basketball?\\n    </p><p>\\n      AAU: This seems like a must but I\u2019ll ask, does he have to play travel ball? Similar to the location question, should I index off where the best AAU teams are or just pick the best high school?\\n    </p><p>\\n      Training: Live game reps are obviously a must but with regards to training. Should it be mostly skill work? What skills by position? How much does footwork matter, again by position? If you had a 2 hour training block how would you divide that time up between the above? When should he be introduced to weights? Is there anything I\u2019m missing?\\n    </p><p>\\n      Film: How do you match a player (my son) to someone who is playing similarly in the NBA? My thought is if my son has this play style, how much film should he watching on that specific player or team that has a specific play style?\\n    </p><p>\\n      Future: Looking 10-15 years down the road, how do you see the game evolving and what will be the skills, by position that should be mastered to make the NBA? I\u2019m thinking along the lines of 1) Great defensive player 2) Bigs who can shoot 3) Facillitators etc\u2026.\\n    </p><p>\\n      Thanks again for doing this.\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2026-10-21T22:22:58.000Z\",\n        \"createdUtc\": 1792621378,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"19rgxkyybo8n9\",\n              \"url\": \"https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rgxkyybo8n9/\",\n              \"permalink\": \"/r/Basketball/comments/1xbw30n/comment/19rgxkyybo8n9/\",\n              \"parentId\": \"t1_19rgderfqjkjl\",\n              \"author\": \"chuckmonjares\",\n              \"text\": \"Location matters and doesn\u2019t. I wasn\u2019t even an above average player in Kansas (meaning I can spout off the names of at least 100 players my age that were better than me).\\n\\n I was recruited at a very low level and walked on to a juco close to where my friends went to state school. I didn\u2019t belong there.\\n\\n Continued playing pickup blah blah. Moved to Boston 5 years later, and I was almost always the best on the court which isn\u2019t fun for me. In Boston I can still name several guys better than me, but only in the elite runs that are exclusive and invite only. Back home, the average player is usually kinda decent, in New England, the average player is just okay.\\n\\n I do often compare it to hockey, but there\u2019s not a direct correlation. Also take into consideration I\u2019ve played in every run I could find in New England, good or bad, and one of the reasons I can name a hundred or so players better than me back home could be bc I grew up there. It\u2019s also just pickup and mens leagues these days.\",\n              \"renderedHtml\": \"\\n      <p>\\n      Location matters and doesn\u2019t. I wasn\u2019t even an above average player in Kansas (meaning I can spout off the names of at least 100 players my age that were better than me).\\n    </p><p>\\n      I was recruited at a very low level and walked on to a juco close to where my friends went to state school. I didn\u2019t belong there.\\n    </p><p>\\n      Continued playing pickup blah blah. Moved to Boston 5 years later, and I was almost always the best on the court which isn\u2019t fun for me. In Boston I can still name several guys better than me, but only in the elite runs that are exclusive and invite only. Back home, the average player is usually kinda decent, in New England, the average player is just okay.\\n    </p><p>\\n      I do often compare it to hockey, but there\u2019s not a direct correlation. Also take into consideration I\u2019ve played in every run I could find in New England, good or bad, and one of the reasons I can name a hundred or so players better than me back home could be bc I grew up there. It\u2019s also just pickup and mens leagues these days.\\n    </p>\\n    \",\n              \"score\": 1,\n              \"upvotes\": 1,\n              \"createdAt\": \"2026-10-22T05:55:15.000Z\",\n              \"createdUtc\": 1792648515,\n              \"depth\": 0,\n              \"isSubmitter\": false,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": null,\n                  \"hasMore\": false\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"19rgderfqjkjl\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"19rgj9qnrlrd1\",\n        \"url\": \"https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rgj9qnrlrd1/\",\n        \"permalink\": \"/r/Basketball/comments/1xbw30n/comment/19rgj9qnrlrd1/\",\n        \"parentId\": \"t3_1xbw30n\",\n        \"author\": \"NoSwimmer2185\",\n        \"text\": \"Suppose I've got an opportunity where I can either get a preferred walk in spot to a high major school where I honestly will be lucky to see the floor, offers from some kinda shit d1 schools where I'll get a but of time and likely a rotation player or starter by jr sr year, or a d3 school where I would probably be the best player on the team. I know I'll never make it big in hoops, but I do want to try to play pro over in europe after graduating. Which of those paths do you think will prepare me the best?\",\n        \"renderedHtml\": \"\\n      <p>\\n      Suppose I've got an opportunity where I can either get a preferred walk in spot to a high major school where I honestly will be lucky to see the floor, offers from some kinda shit d1 schools where I'll get a but of time and likely a rotation player or starter by jr sr year, or a d3 school where I would probably be the best player on the team. I know I'll never make it big in hoops, but I do want to try to play pro over in europe after graduating. Which of those paths do you think will prepare me the best?\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2026-10-22T00:34:22.000Z\",\n        \"createdUtc\": 1792629262,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"19rgo93z93lj8\",\n              \"url\": \"https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rgo93z93lj8/\",\n              \"permalink\": \"/r/Basketball/comments/1xbw30n/comment/19rgo93z93lj8/\",\n              \"parentId\": \"t1_19rgj9qnrlrd1\",\n              \"author\": \"[deleted]\",\n              \"text\": \"[deleted]\",\n              \"renderedHtml\": null,\n              \"score\": 1,\n              \"upvotes\": 1,\n              \"createdAt\": \"2026-10-22T02:26:05.000Z\",\n              \"createdUtc\": 1792635965,\n              \"depth\": 0,\n              \"isSubmitter\": false,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": \"eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy9CYXNrZXRiYWxsL3QzXzF4YnczMG4_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MiZjb21tZW50UGFyZW50UG9zaXRpb25zPTEwLDAiLCJjdXJzb3IiOiJZMjl0YldWdWRIUnlaV1U2TjJVd05ERTVNbUVzT2pveU9tUXhPblF4WHpFNWNtZHZPVE42T1ROc2FqZz0iLCJzdWJyZWRkaXQiOiJCYXNrZXRiYWxsIiwicG9zdElkIjoiMXhidzMwbiIsInBhcmVudFRoaW5nSWQiOiJ0MV8xOXJnbzkzejkzbGo4In0\",\n                  \"hasMore\": true\n                }\n              }\n            },\n            {\n              \"id\": \"19rhosnj04vk5\",\n              \"url\": \"https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rhosnj04vk5/\",\n              \"permalink\": \"/r/Basketball/comments/1xbw30n/comment/19rhosnj04vk5/\",\n              \"parentId\": \"t1_19rgj9qnrlrd1\",\n              \"author\": \"[deleted]\",\n              \"text\": \"[deleted]\",\n              \"renderedHtml\": null,\n              \"score\": 1,\n              \"upvotes\": 1,\n              \"createdAt\": \"2026-10-22T16:05:22.000Z\",\n              \"createdUtc\": 1792685122,\n              \"depth\": 0,\n              \"isSubmitter\": false,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": \"eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy9CYXNrZXRiYWxsL3QzXzF4YnczMG4_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MiZjb21tZW50UGFyZW50UG9zaXRpb25zPTEwLDEiLCJjdXJzb3IiOiJZMjl0YldWdWRIUnlaV1U2TlRobE1XVXpZbVlzT2pveU9tUXhPblF4WHpFNWNtaHZjMjVxTURSMmF6VT0iLCJzdWJyZWRkaXQiOiJCYXNrZXRiYWxsIiwicG9zdElkIjoiMXhidzMwbiIsInBhcmVudFRoaW5nSWQiOiJ0MV8xOXJob3NuajA0dms1In0\",\n                  \"hasMore\": true\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"19rgo93z93lj8\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"19rg93ml0sssj\",\n        \"url\": \"https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rg93ml0sssj/\",\n        \"permalink\": \"/r/Basketball/comments/1xbw30n/comment/19rg93ml0sssj/\",\n        \"parentId\": \"t3_1xbw30n\",\n        \"author\": \"WeAreGoingStreaming\",\n        \"text\": \"How early do college coaches really start taking a look? If there is a 7th grader playing high school are they on the radar or do they need to be getting starters minutes?\",\n        \"renderedHtml\": \"\\n      <p>\\n      How early do college coaches really start taking a look? If there is a 7th grader playing high school are they on the radar or do they need to be getting starters minutes?\\n    </p>\\n    \",\n        \"score\": 0,\n        \"upvotes\": 0,\n        \"createdAt\": \"2026-10-21T20:46:22.000Z\",\n        \"createdUtc\": 1792615582,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"19rgb5idrr8w5\",\n              \"url\": \"https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rgb5idrr8w5/\",\n              \"permalink\": \"/r/Basketball/comments/1xbw30n/comment/19rgb5idrr8w5/\",\n              \"parentId\": \"t1_19rg93ml0sssj\",\n              \"author\": \"Internal_Ad_3977\",\n              \"text\": \"Kids can get on a college coaches radar very early on. Having said that, what a kid does or doesn't do in 7th grade has absolutely nothing to do with his long term college recruitment. And with the portal and all of the kids getting 5th years now, coaches aren't looking SERIOUSLY at players that aren't rising seniors unless they are consensus top 100 players.\",\n              \"renderedHtml\": \"\\n      <p>\\n      Kids can get on a college coaches radar very early on. Having said that, what a kid does or doesn't do in 7th grade has absolutely nothing to do with his long term college recruitment. And with the portal and all of the kids getting 5th years now, coaches aren't looking SERIOUSLY at players that aren't rising seniors unless they are consensus top 100 players.\\n    </p>\\n    \",\n              \"score\": 3,\n              \"upvotes\": 3,\n              \"createdAt\": \"2026-10-21T21:32:22.000Z\",\n              \"createdUtc\": 1792618342,\n              \"depth\": 0,\n              \"isSubmitter\": true,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": null,\n                  \"hasMore\": false\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"19rg93ml0sssj\",\n            \"hasMore\": true\n          }\n        }\n      }\n    ]\n  },\n  \"meta\": {\n    \"requestId\": \"req_7bc6d0be-7eae-4840-b1f5-bcff70fd4b7f\",\n    \"creditsCharged\": 1,\n    \"version\": \"v1\"\n  }\n}"
+   },
+   {
+    "type": "text",
+    "text": "{\"conversation_id\":\"01a1af67-baf1-7f7b-8c93-856ac43361e3\"}"
+   }
+  ],
+  "structuredContent": {
+   "data": {
+    "lookupStatus": "found",
+    "post": {
+     "id": "1xbw30n",
+     "title": "Former Division 1 basketball player and college head coach here to answer questions about development and the recruiting process.",
+     "text": "I spent nearly 20 years coaching college basketball, including serving as a head coach at the NCAA Division II level and an assistant at the Division I level. Before coaching, I was a nationally ranked high school recruit and played Division I basketball myself. Throughout my career, I've evaluated and recruited hundreds of players, and one thing I've consistently noticed is how confusing the recruiting process can be for players and their families. There's often a significant difference between how parents, high school coaches, trainers, AAU coaches evaluate a player's college potential and how college coaches actually evaluate prospects. I've seen talented players struggle to find opportunities simply because they didn't understand the process. I've also seen families spend thousands of dollars on exposure events and recruiting services without really knowing what they were getting in return. Now that I've stepped away from college coaching, I thought it might be worthwhile to share some of what I've learned. If you're a parent or high school player trying to navigate college basketball recruiting, feel free to ask questions. Whether it's understanding what level of college basketball is realistic, what coaches look for on film, how to contact programs, the value of AAU, or anything else related to recruiting, I'm happy to offer my perspective. I'm not here to promise scholarships or tell anyone what they want to hear. Just hoping to provide some insight from someone who's spent a lot of time on the other side of the recruiting process. What's been the most confusing or frustrating part of recruiting for you?",
+     "url": "https://www.reddit.com/r/Basketball/comments/1xbw30n/former_division_1_basketball_player_and_college/",
+     "permalink": "/r/Basketball/comments/1xbw30n/former_division_1_basketball_player_and_college/",
+     "subreddit": "Basketball",
+     "subredditNamePrefixed": "r/Basketball",
+     "author": "Internal_Ad_3977",
+     "score": 29,
+     "upvoteRatio": 0.9393939393939394,
+     "commentCount": 50,
+     "createdAt": "2026-10-21T18:59:42.000Z",
+     "createdUtc": 1792609182,
+     "over18": false,
+     "locked": false,
+     "stickied": false
+    },
+    "page": {
+     "nextCursor": "eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy9CYXNrZXRiYWxsL3QzXzF4YnczMG4_c2Vla2VyLXNlc3Npb249ZmFsc2UmcmVuZGVyLW1vZGU9cGFydGlhbCZ0b3AtbGV2ZWw9MSZjb21tZW50cy1yZW1haW5pbmc9NzUmY29tbWVudFBvc2l0aW9uT2Zmc2V0PTEyIiwiY3Vyc29yIjoiWTI5dGJXVnVkSFJ5WldVNk9EUmtaak0xTXpnc09qb3dPbVY0T2l4WFJ5c21VeTlvWkZjNkttY21Qa0JGT2p0VEpVQXlLQzFvWVN3aVVrMGtORjB0Wld4Yk0ydE9WblZNYkROVU5WWnpYbDBvSWoxTFNWdGFiQ1p0UVdoRGZpTldXblJGVm5BOEpqUkJXbHd1WkNJa1VYMXdlR2tyVWlaemVHUkhjVXhNIiwic3VicmVkZGl0IjoiQmFza2V0YmFsbCIsInBvc3RJZCI6IjF4YnczMG4iLCJwYXJlbnRUaGluZ0lkIjpudWxsfQ",
+     "hasMore": true
+    },
+    "comments": [
+     {
+      "id": "19rg5frlfoxxc",
+      "url": "https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rg5frlfoxxc/",
+      "permalink": "/r/Basketball/comments/1xbw30n/comment/19rg5frlfoxxc/",
+      "parentId": "t3_1xbw30n",
+      "author": "GreezyGz",
+      "text": "Longtime HS coach here, always had regrets about not trying to go D2 route.\n\n Did you ever decide against a prospect due to parent behavior? I\u2019ve had a few players that I\u2019m just certain that mom/dad yelling at officials like a crazy person hurt their prospects.",
+      "renderedHtml": "\n      <p>\n      Longtime HS coach here, always had regrets about not trying to go D2 route.\n    </p><p>\n      Did you ever decide against a prospect due to parent behavior? I\u2019ve had a few players that I\u2019m just certain that mom/dad yelling at officials like a crazy person hurt their prospects.\n    </p>\n    ",
+      "score": 5,
+      "upvotes": 5,
+      "createdAt": "2026-10-21T19:24:14.000Z",
+      "createdUtc": 1792610654,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "19rg7jmyzwjb4",
+         "url": "https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rg7jmyzwjb4/",
+         "permalink": "/r/Basketball/comments/1xbw30n/comment/19rg7jmyzwjb4/",
+         "parentId": "t1_19rg5frlfoxxc",
+         "author": "Internal_Ad_3977",
+         "text": "I always recruited parents as much as I did kids.\n\n \"More parents have lost scholarships for kids than they could ever dream of getting for them\"\n\n Nothing a mom or dad ever said to me was going to make me want a kid. But they could sure turn me off quick.",
+         "renderedHtml": "\n      <p>\n      I always recruited parents as much as I did kids.\n    </p><p>\n      \"More parents have lost scholarships for kids than they could ever dream of getting for them\"\n    </p><p>\n      Nothing a mom or dad ever said to me was going to make me want a kid. But they could sure turn me off quick.\n    </p>\n    ",
+         "score": 8,
+         "upvotes": 8,
+         "createdAt": "2026-10-21T20:11:29.000Z",
+         "createdUtc": 1792613489,
+         "depth": 0,
+         "isSubmitter": true,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": null,
+           "hasMore": false
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "19rg5frlfoxxc",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "19rg5di0ekxj8",
+      "url": "https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rg5di0ekxj8/",
+      "permalink": "/r/Basketball/comments/1xbw30n/comment/19rg5di0ekxj8/",
+      "parentId": "t3_1xbw30n",
+      "author": "noknownothing",
+      "text": "Ok so I have a son at a mid major. In high school, he had a trainer that worked with nba and nfl players and he did a lot of foot speed/ foot work type of things. The high school coach, who had played high level basketball and is an nba assistant now would say, \u201cyou\u2019re wasting too much time on that, just get your shots up. College assistants don\u2019t gaf about that because they think they can teach it better.\u201d My son\u2019s 6\u20196\u201d and he can shoot, but still. Who was right?",
+      "renderedHtml": "\n      <p>\n      Ok so I have a son at a mid major. In high school, he had a trainer that worked with nba and nfl players and he did a lot of foot speed/ foot work type of things. The high school coach, who had played high level basketball and is an nba assistant now would say, \u201cyou\u2019re wasting too much time on that, just get your shots up. College assistants don\u2019t gaf about that because they think they can teach it better.\u201d My son\u2019s 6\u20196\u201d and he can shoot, but still. Who was right?\n    </p>\n    ",
+      "score": 3,
+      "upvotes": 3,
+      "createdAt": "2026-10-21T19:22:50.000Z",
+      "createdUtc": 1792610570,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "19rg7hkt9oczm",
+         "url": "https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rg7hkt9oczm/",
+         "permalink": "/r/Basketball/comments/1xbw30n/comment/19rg7hkt9oczm/",
+         "parentId": "t1_19rg5di0ekxj8",
+         "author": "Internal_Ad_3977",
+         "text": "I think that's a bit of a generalization by the coach. Some staff's wouldn't care, but others would. Maybe a better way of putting what he was trying to say: DONT SHOW THEM WHAT YOU CANT DO. If I had a kid who was a great athlete but poor shooter, I would suggest in showcase games to be drive heavy. Don't go out there and go 2-10 from 3. Leave the coaches wondering...CAN HE SHOOT, not knowing HE CAN'T SHOOT.\n\n Having said that, you should always work on your weaknesses to try to improve. I think it's silly the think otherwise. Working on them in practice and trying to preform them in a game in front of coaches are two different things.",
+         "renderedHtml": "\n      <p>\n      I think that's a bit of a generalization by the coach. Some staff's wouldn't care, but others would. Maybe a better way of putting what he was trying to say: DONT SHOW THEM WHAT YOU CANT DO. If I had a kid who was a great athlete but poor shooter, I would suggest in showcase games to be drive heavy. Don't go out there and go 2-10 from 3. Leave the coaches wondering...CAN HE SHOOT, not knowing HE CAN'T SHOOT.\n    </p><p>\n      Having said that, you should always work on your weaknesses to try to improve. I think it's silly the think otherwise. Working on them in practice and trying to preform them in a game in front of coaches are two different things.\n    </p>\n    ",
+         "score": 14,
+         "upvotes": 14,
+         "createdAt": "2026-10-21T20:10:12.000Z",
+         "createdUtc": 1792613412,
+         "depth": 0,
+         "isSubmitter": true,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": null,
+           "hasMore": false
+          }
+         }
+        },
+        {
+         "id": "19rg6ilz7bv0l",
+         "url": "https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rg6ilz7bv0l/",
+         "permalink": "/r/Basketball/comments/1xbw30n/comment/19rg6ilz7bv0l/",
+         "parentId": "t1_19rg5di0ekxj8",
+         "author": "[deleted]",
+         "text": "[deleted]",
+         "renderedHtml": null,
+         "score": 1,
+         "upvotes": 1,
+         "createdAt": "2026-10-21T19:48:26.000Z",
+         "createdUtc": 1792612106,
+         "depth": 0,
+         "isSubmitter": false,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": "eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy9CYXNrZXRiYWxsL3QzXzF4YnczMG4_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MiZjb21tZW50UGFyZW50UG9zaXRpb25zPTEsMSIsImN1cnNvciI6IlkyOXRiV1Z1ZEhSeVpXVTZaalJoTW1FME1XRXNPam95T21ReE9uUXhYekU1Y21jMmFXeDZOMkoyTUd3PSIsInN1YnJlZGRpdCI6IkJhc2tldGJhbGwiLCJwb3N0SWQiOiIxeGJ3MzBuIiwicGFyZW50VGhpbmdJZCI6InQxXzE5cmc2aWx6N2J2MGwifQ",
+           "hasMore": true
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "19rg6ilz7bv0l",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "19rg8d45q8gqs",
+      "url": "https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rg8d45q8gqs/",
+      "permalink": "/r/Basketball/comments/1xbw30n/comment/19rg8d45q8gqs/",
+      "parentId": "t3_1xbw30n",
+      "author": "Longjumping_Ad_2815",
+      "text": "My son has bad body language at times - especially on the bench. How important is that if a scout or recruiter sees that?\n\n Also, he plays in several AAU teams but doesn't really get much play time. What would you recommend a player do to improve outside of shooting hundreds of shots and strength training?\n\n What can he do for exposure?\n\n Would you recommend junior college ?",
+      "renderedHtml": "\n      <p>\n      My son has bad body language at times - especially on the bench.  How important is that if a scout or recruiter sees that?\n    </p><p>\n      Also, he plays in several AAU teams but doesn't really get much play time.  What would you recommend a player do to improve outside of shooting hundreds of shots and strength training?\n    </p><p>\n      What can he do for exposure?\n    </p><p>\n      Would you recommend junior college ?\n    </p>\n    ",
+      "score": 3,
+      "upvotes": 3,
+      "createdAt": "2026-10-21T20:29:51.000Z",
+      "createdUtc": 1792614591,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "19rgb1jvisqtd",
+         "url": "https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rgb1jvisqtd/",
+         "permalink": "/r/Basketball/comments/1xbw30n/comment/19rgb1jvisqtd/",
+         "parentId": "t1_19rg8d45q8gqs",
+         "author": "Internal_Ad_3977",
+         "text": "He's got to PLAY! Depending on his age, exposure is completely irrelevant. Getting on the floor and getting game reps is much more important than exposure.\n\n It would be hard for me to give you specific advice without intimately looking at his situation, but in general REPS > EXPOSURE always",
+         "renderedHtml": "\n      <p>\n      He's got to PLAY! Depending on his age, exposure is completely irrelevant. Getting on the floor and getting game reps is much more important than exposure.\n    </p><p>\n      It would be hard for me to give you specific advice without intimately looking at his situation, but in general REPS &gt; EXPOSURE always\n    </p>\n    ",
+         "score": 4,
+         "upvotes": 4,
+         "createdAt": "2026-10-21T21:29:54.000Z",
+         "createdUtc": 1792618194,
+         "depth": 0,
+         "isSubmitter": true,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": null,
+           "hasMore": false
+          }
+         }
+        },
+        {
+         "id": "19rga5ch3fvlu",
+         "url": "https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rga5ch3fvlu/",
+         "permalink": "/r/Basketball/comments/1xbw30n/comment/19rga5ch3fvlu/",
+         "parentId": "t1_19rg8d45q8gqs",
+         "author": "External-Credit954",
+         "text": "I\u2019d recommend finding a league/team where he can get playing time",
+         "renderedHtml": "\n      <p>\n      I\u2019d recommend finding a league/team where he can get playing time\n    </p>\n    ",
+         "score": 5,
+         "upvotes": 5,
+         "createdAt": "2026-10-21T21:09:51.000Z",
+         "createdUtc": 1792616991,
+         "depth": 0,
+         "isSubmitter": false,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": "eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy9CYXNrZXRiYWxsL3QzXzF4YnczMG4_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MiZjb21tZW50UGFyZW50UG9zaXRpb25zPTIsMSIsImN1cnNvciI6IlkyOXRiV1Z1ZEhSeVpXVTZNMlV3Tm1aalpEQXNPam95T21ReE9uUXhYekU1Y21kaE5XTm9NMloyYkhVPSIsInN1YnJlZGRpdCI6IkJhc2tldGJhbGwiLCJwb3N0SWQiOiIxeGJ3MzBuIiwicGFyZW50VGhpbmdJZCI6InQxXzE5cmdhNWNoM2Z2bHUifQ",
+           "hasMore": true
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "19rga5ch3fvlu",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "19rghntyik91h",
+      "url": "https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rghntyik91h/",
+      "permalink": "/r/Basketball/comments/1xbw30n/comment/19rghntyik91h/",
+      "parentId": "t3_1xbw30n",
+      "author": "StuntDN",
+      "text": "Ok coach, I\u2019m 31, have a high paying career, and a family of 4. I\u2019m 6\u20197 220, played high school basketball, and rowed D1. Can play every position, and play against the local community college guys at LA fitness a couple times a week. Do 40in box jumps for reps.\n\n What are the chances of walking on at a D1, or the G league, and trying to live my hoop dreams.",
+      "renderedHtml": "\n      <p>\n      Ok coach, I\u2019m 31, have a high paying career, and a family of 4. I\u2019m 6\u20197 220, played high school basketball, and rowed D1. Can play every position, and play against the local community college guys at LA fitness a couple times a week. Do 40in box jumps for reps.\n    </p><p>\n      What are the chances of walking on at a D1, or the G league, and trying to live my hoop dreams.\n    </p>\n    ",
+      "score": 2,
+      "upvotes": 2,
+      "createdAt": "2026-10-21T23:58:18.000Z",
+      "createdUtc": 1792627098,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "19rgqameqmbb6",
+         "url": "https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rgqameqmbb6/",
+         "permalink": "/r/Basketball/comments/1xbw30n/comment/19rgqameqmbb6/",
+         "parentId": "t1_19rghntyik91h",
+         "author": "noknownothing",
+         "text": "None. They just changed eligibility rules and you\u2019re ineligible.",
+         "renderedHtml": "\n      <p>\n      None. They just changed eligibility rules and you\u2019re ineligible.\n    </p>\n    ",
+         "score": 4,
+         "upvotes": 4,
+         "createdAt": "2026-10-22T03:11:52.000Z",
+         "createdUtc": 1792638712,
+         "depth": 0,
+         "isSubmitter": false,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [
+           {
+            "id": "19rgribmenveo",
+            "url": "https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rgribmenveo/",
+            "permalink": "/r/Basketball/comments/1xbw30n/comment/19rgribmenveo/",
+            "parentId": "t1_19rgqameqmbb6",
+            "author": "StuntDN",
+            "text": ":(",
+            "renderedHtml": "\n      <p>\n      :(\n    </p>\n    ",
+            "score": 2,
+            "upvotes": 2,
+            "createdAt": "2026-10-22T03:39:04.000Z",
+            "createdUtc": 1792640344,
+            "depth": 0,
+            "isSubmitter": false,
+            "stickied": false,
+            "locked": false,
+            "distinguished": null,
+            "replies": {
+             "items": [],
+             "page": {
+              "nextCursor": null,
+              "hasMore": false
+             }
+            }
+           }
+          ],
+          "page": {
+           "nextCursor": "19rgqameqmbb6",
+           "hasMore": true
+          }
+         }
+        },
+        {
+         "id": "19rhom3lee8jp",
+         "url": "https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rhom3lee8jp/",
+         "permalink": "/r/Basketball/comments/1xbw30n/comment/19rhom3lee8jp/",
+         "parentId": "t1_19rghntyik91h",
+         "author": "[deleted]",
+         "text": "[deleted]",
+         "renderedHtml": null,
+         "score": 1,
+         "upvotes": 1,
+         "createdAt": "2026-10-22T16:01:18.000Z",
+         "createdUtc": 1792684878,
+         "depth": 0,
+         "isSubmitter": false,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": "eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy9CYXNrZXRiYWxsL3QzXzF4YnczMG4_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MiZjb21tZW50UGFyZW50UG9zaXRpb25zPTMsMSIsImN1cnNvciI6IlkyOXRiV1Z1ZEhSeVpXVTZaak15WWpNeE9HSXNPam95T21ReE9uUXhYekU1Y21odmJUTnNaV1U0YW5BPSIsInN1YnJlZGRpdCI6IkJhc2tldGJhbGwiLCJwb3N0SWQiOiIxeGJ3MzBuIiwicGFyZW50VGhpbmdJZCI6InQxXzE5cmhvbTNsZWU4anAifQ",
+           "hasMore": true
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "19rgqameqmbb6",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "19rh097qtdccl",
+      "url": "https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rh097qtdccl/",
+      "permalink": "/r/Basketball/comments/1xbw30n/comment/19rh097qtdccl/",
+      "parentId": "t3_1xbw30n",
+      "author": "svinyard",
+      "text": "How much coaching development do coaches do with regards to modern research on skill acquisition? Do they even evaluate the sports specific research or is it more or less \"what I know is the right way?\"\n\n For example \"Differential shooting training in youth basketball\" Burkaite, Figueria\n\n While I know we expect a lot of development and unending work out of our players, are the coaches in the US also aggressively developing proactively with new information being so easily accessible?",
+      "renderedHtml": "\n      <p>\n      How much coaching development do coaches do with regards to modern research on skill acquisition?  Do they even evaluate the sports specific research or is it more or less \"what I know is the right way?\"\n    </p><p>\n      For example \"Differential shooting training in youth basketball\" Burkaite, Figueria\n    </p><p>\n      While I know we expect a lot of development and unending work out of our players, are the coaches in the US also aggressively developing proactively with new information being so easily accessible?\n    </p>\n    ",
+      "score": 2,
+      "upvotes": 2,
+      "createdAt": "2026-10-22T06:55:11.000Z",
+      "createdUtc": 1792652111,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "19riiz8o16s3k",
+      "url": "https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19riiz8o16s3k/",
+      "permalink": "/r/Basketball/comments/1xbw30n/comment/19riiz8o16s3k/",
+      "parentId": "t3_1xbw30n",
+      "author": "Electronic-Month-159",
+      "text": "Can a kid play at a high level d1 for basketball and another sport?\n\n I already asked the other sport ( travel coaches only) and they said no because too much money is involved today.\n\n My son plans on asking the colleges and I don\u2019t know if he should.\n\n What\u2019s your experience?",
+      "renderedHtml": "\n      <p>\n      Can a kid play at a high level d1 for basketball and another sport?\n    </p><p>\n      I already asked the other sport ( travel coaches only) and they said no because too much money is involved today.\n    </p><p>\n      My son plans on asking the colleges and I don\u2019t know if he should.\n    </p><p>\n      What\u2019s your experience?\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2026-10-23T03:22:05.000Z",
+      "createdUtc": 1792725725,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "19rlm21pkqkzl",
+      "url": "https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rlm21pkqkzl/",
+      "permalink": "/r/Basketball/comments/1xbw30n/comment/19rlm21pkqkzl/",
+      "parentId": "t3_1xbw30n",
+      "author": "questions8112",
+      "text": "Hello! Do you know a serious recruiter who help athletes getting in touch with colleges that would be a good fit to them ? My son is 6,7 - varsity player since freshman year - has some D3 and NAIA offers but we want to see what other possibilities are available. Thanks",
+      "renderedHtml": "\n      <p>\n      Hello! Do you know a serious recruiter who help athletes getting in touch with colleges that would be a good fit to them ? My son is 6,7 - varsity player since freshman year - has some D3 and NAIA offers but we want to see what other possibilities are available. Thanks\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2026-10-24T20:52:28.000Z",
+      "createdUtc": 1792875148,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "19rnp1q0h6car",
+      "url": "https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rnp1q0h6car/",
+      "permalink": "/r/Basketball/comments/1xbw30n/comment/19rnp1q0h6car/",
+      "parentId": "t3_1xbw30n",
+      "author": "Positive-Day-7885",
+      "text": "Based on your experience, are referees ever on the take? I\u2019ve seen some games where I really thought they were.",
+      "renderedHtml": "\n      <p>\n      Based on your experience, are referees ever on the take?   I\u2019ve seen some games where I really thought they were.\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2026-10-26T00:53:47.000Z",
+      "createdUtc": 1792976027,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "19ros4ec2y2tc",
+         "url": "https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19ros4ec2y2tc/",
+         "permalink": "/r/Basketball/comments/1xbw30n/comment/19ros4ec2y2tc/",
+         "parentId": "t1_19rnp1q0h6car",
+         "author": "[deleted]",
+         "text": "[deleted]",
+         "renderedHtml": null,
+         "score": 1,
+         "upvotes": 1,
+         "createdAt": "2026-10-26T15:29:50.000Z",
+         "createdUtc": 1793028590,
+         "depth": 0,
+         "isSubmitter": false,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": "eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy9CYXNrZXRiYWxsL3QzXzF4YnczMG4_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MiZjb21tZW50UGFyZW50UG9zaXRpb25zPTcsMCIsImN1cnNvciI6IlkyOXRiV1Z1ZEhSeVpXVTZPREU0TVRBM1lUZ3NPam95T21ReE9uUXhYekU1Y205ek5HVmpNbmt5ZEdNPSIsInN1YnJlZGRpdCI6IkJhc2tldGJhbGwiLCJwb3N0SWQiOiIxeGJ3MzBuIiwicGFyZW50VGhpbmdJZCI6InQxXzE5cm9zNGVjMnkydGMifQ",
+           "hasMore": true
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "19ros4ec2y2tc",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "19rr6hb093hkx",
+      "url": "https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rr6hb093hkx/",
+      "permalink": "/r/Basketball/comments/1xbw30n/comment/19rr6hb093hkx/",
+      "parentId": "t3_1xbw30n",
+      "author": "djdansk",
+      "text": "Thanks for offering to answer questions. My son is a 6'6\" junior starting Varsity this season on a Pacific Northwest 2A team. His school doesn't win a lot, but we're in a tough conference. He played on an unsuccessful AAU team last Spring; hopefully we'll find a more promising team next Spring. He'd like to play D1, but I don't know that that's realistic. We'll put together a highlight reel over the next two months. Should we use a recruiting platform? Which one? We'll contact some D2 and D3 schools directly, but what about competitive D1 programs? Should we reach out to them or wait and see if he can find some success this year?",
+      "renderedHtml": "\n      <p>\n      Thanks for offering to answer questions.  My son is a 6'6\" junior starting Varsity this season on a Pacific Northwest 2A team.  His school doesn't win a lot, but we're in a tough conference.  He played on an unsuccessful AAU team last Spring; hopefully we'll find a more promising team next Spring.  He'd like to play D1, but I don't know that that's realistic.  We'll put together a highlight reel over the next two months.  Should we use a recruiting platform?  Which one?  We'll contact some D2 and D3 schools directly, but what about competitive D1 programs?  Should we reach out to them or wait and see if he can find some success this year?\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2026-10-27T23:46:00.000Z",
+      "createdUtc": 1793144760,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "19rgderfqjkjl",
+      "url": "https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rgderfqjkjl/",
+      "permalink": "/r/Basketball/comments/1xbw30n/comment/19rgderfqjkjl/",
+      "parentId": "t3_1xbw30n",
+      "author": "Giuseppe12",
+      "text": "Lets go, I have been looking for an outlet to answer questions about training/development/other things. What is the prevailing logic on training when it comes to development as a basketball player starting from a young age with the goal of making it to the NBA. For context, I just had a son and hopefully he wants to play basketball and if he does I want to set him up for success as best I can to give him a shot at the NBA. I have a few variables I want to bounce off you:\n\n Location: How much does living in a geographical area of the United States matter? Is it like moving to Canada for Hockey? Do I need to move to Florida and put him in IMG etc\u2026.? And then given the area, should I try and enroll him in the best high school for basketball?\n\n AAU: This seems like a must but I\u2019ll ask, does he have to play travel ball? Similar to the location question, should I index off where the best AAU teams are or just pick the best high school?\n\n Training: Live game reps are obviously a must but with regards to training. Should it be mostly skill work? What skills by position? How much does footwork matter, again by position? If you had a 2 hour training block how would you divide that time up between the above? When should he be introduced to weights? Is there anything I\u2019m missing?\n\n Film: How do you match a player (my son) to someone who is playing similarly in the NBA? My thought is if my son has this play style, how much film should he watching on that specific player or team that has a specific play style?\n\n Future: Looking 10-15 years down the road, how do you see the game evolving and what will be the skills, by position that should be mastered to make the NBA? I\u2019m thinking along the lines of 1) Great defensive player 2) Bigs who can shoot 3) Facillitators etc\u2026.\n\n Thanks again for doing this.",
+      "renderedHtml": "\n      <p>\n      Lets go, I have been looking for an outlet to answer questions about training/development/other things. What is the prevailing logic on training when it comes to development as a basketball player starting from a young age with the goal of making it to the NBA. For context, I just had a son and hopefully he wants to play basketball and if he does I want to set him up for success as best I can to give him a shot at the NBA. I have a few variables I want to bounce off you:\n    </p><p>\n      Location: How much does living in a geographical area of the United States matter? Is it like moving to Canada for Hockey? Do I need to move to Florida and put him in IMG etc\u2026.? And then given the area, should I try and enroll him in the best high school for basketball?\n    </p><p>\n      AAU: This seems like a must but I\u2019ll ask, does he have to play travel ball? Similar to the location question, should I index off where the best AAU teams are or just pick the best high school?\n    </p><p>\n      Training: Live game reps are obviously a must but with regards to training. Should it be mostly skill work? What skills by position? How much does footwork matter, again by position? If you had a 2 hour training block how would you divide that time up between the above? When should he be introduced to weights? Is there anything I\u2019m missing?\n    </p><p>\n      Film: How do you match a player (my son) to someone who is playing similarly in the NBA? My thought is if my son has this play style, how much film should he watching on that specific player or team that has a specific play style?\n    </p><p>\n      Future: Looking 10-15 years down the road, how do you see the game evolving and what will be the skills, by position that should be mastered to make the NBA? I\u2019m thinking along the lines of 1) Great defensive player 2) Bigs who can shoot 3) Facillitators etc\u2026.\n    </p><p>\n      Thanks again for doing this.\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2026-10-21T22:22:58.000Z",
+      "createdUtc": 1792621378,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "19rgxkyybo8n9",
+         "url": "https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rgxkyybo8n9/",
+         "permalink": "/r/Basketball/comments/1xbw30n/comment/19rgxkyybo8n9/",
+         "parentId": "t1_19rgderfqjkjl",
+         "author": "chuckmonjares",
+         "text": "Location matters and doesn\u2019t. I wasn\u2019t even an above average player in Kansas (meaning I can spout off the names of at least 100 players my age that were better than me).\n\n I was recruited at a very low level and walked on to a juco close to where my friends went to state school. I didn\u2019t belong there.\n\n Continued playing pickup blah blah. Moved to Boston 5 years later, and I was almost always the best on the court which isn\u2019t fun for me. In Boston I can still name several guys better than me, but only in the elite runs that are exclusive and invite only. Back home, the average player is usually kinda decent, in New England, the average player is just okay.\n\n I do often compare it to hockey, but there\u2019s not a direct correlation. Also take into consideration I\u2019ve played in every run I could find in New England, good or bad, and one of the reasons I can name a hundred or so players better than me back home could be bc I grew up there. It\u2019s also just pickup and mens leagues these days.",
+         "renderedHtml": "\n      <p>\n      Location matters and doesn\u2019t. I wasn\u2019t even an above average player in Kansas (meaning I can spout off the names of at least 100 players my age that were better than me).\n    </p><p>\n      I was recruited at a very low level and walked on to a juco close to where my friends went to state school. I didn\u2019t belong there.\n    </p><p>\n      Continued playing pickup blah blah. Moved to Boston 5 years later, and I was almost always the best on the court which isn\u2019t fun for me. In Boston I can still name several guys better than me, but only in the elite runs that are exclusive and invite only. Back home, the average player is usually kinda decent, in New England, the average player is just okay.\n    </p><p>\n      I do often compare it to hockey, but there\u2019s not a direct correlation. Also take into consideration I\u2019ve played in every run I could find in New England, good or bad, and one of the reasons I can name a hundred or so players better than me back home could be bc I grew up there. It\u2019s also just pickup and mens leagues these days.\n    </p>\n    ",
+         "score": 1,
+         "upvotes": 1,
+         "createdAt": "2026-10-22T05:55:15.000Z",
+         "createdUtc": 1792648515,
+         "depth": 0,
+         "isSubmitter": false,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": null,
+           "hasMore": false
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "19rgderfqjkjl",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "19rgj9qnrlrd1",
+      "url": "https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rgj9qnrlrd1/",
+      "permalink": "/r/Basketball/comments/1xbw30n/comment/19rgj9qnrlrd1/",
+      "parentId": "t3_1xbw30n",
+      "author": "NoSwimmer2185",
+      "text": "Suppose I've got an opportunity where I can either get a preferred walk in spot to a high major school where I honestly will be lucky to see the floor, offers from some kinda shit d1 schools where I'll get a but of time and likely a rotation player or starter by jr sr year, or a d3 school where I would probably be the best player on the team. I know I'll never make it big in hoops, but I do want to try to play pro over in europe after graduating. Which of those paths do you think will prepare me the best?",
+      "renderedHtml": "\n      <p>\n      Suppose I've got an opportunity where I can either get a preferred walk in spot to a high major school where I honestly will be lucky to see the floor, offers from some kinda shit d1 schools where I'll get a but of time and likely a rotation player or starter by jr sr year, or a d3 school where I would probably be the best player on the team. I know I'll never make it big in hoops, but I do want to try to play pro over in europe after graduating. Which of those paths do you think will prepare me the best?\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2026-10-22T00:34:22.000Z",
+      "createdUtc": 1792629262,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "19rgo93z93lj8",
+         "url": "https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rgo93z93lj8/",
+         "permalink": "/r/Basketball/comments/1xbw30n/comment/19rgo93z93lj8/",
+         "parentId": "t1_19rgj9qnrlrd1",
+         "author": "[deleted]",
+         "text": "[deleted]",
+         "renderedHtml": null,
+         "score": 1,
+         "upvotes": 1,
+         "createdAt": "2026-10-22T02:26:05.000Z",
+         "createdUtc": 1792635965,
+         "depth": 0,
+         "isSubmitter": false,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": "eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy9CYXNrZXRiYWxsL3QzXzF4YnczMG4_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MiZjb21tZW50UGFyZW50UG9zaXRpb25zPTEwLDAiLCJjdXJzb3IiOiJZMjl0YldWdWRIUnlaV1U2TjJVd05ERTVNbUVzT2pveU9tUXhPblF4WHpFNWNtZHZPVE42T1ROc2FqZz0iLCJzdWJyZWRkaXQiOiJCYXNrZXRiYWxsIiwicG9zdElkIjoiMXhidzMwbiIsInBhcmVudFRoaW5nSWQiOiJ0MV8xOXJnbzkzejkzbGo4In0",
+           "hasMore": true
+          }
+         }
+        },
+        {
+         "id": "19rhosnj04vk5",
+         "url": "https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rhosnj04vk5/",
+         "permalink": "/r/Basketball/comments/1xbw30n/comment/19rhosnj04vk5/",
+         "parentId": "t1_19rgj9qnrlrd1",
+         "author": "[deleted]",
+         "text": "[deleted]",
+         "renderedHtml": null,
+         "score": 1,
+         "upvotes": 1,
+         "createdAt": "2026-10-22T16:05:22.000Z",
+         "createdUtc": 1792685122,
+         "depth": 0,
+         "isSubmitter": false,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": "eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy9CYXNrZXRiYWxsL3QzXzF4YnczMG4_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MiZjb21tZW50UGFyZW50UG9zaXRpb25zPTEwLDEiLCJjdXJzb3IiOiJZMjl0YldWdWRIUnlaV1U2TlRobE1XVXpZbVlzT2pveU9tUXhPblF4WHpFNWNtaHZjMjVxTURSMmF6VT0iLCJzdWJyZWRkaXQiOiJCYXNrZXRiYWxsIiwicG9zdElkIjoiMXhidzMwbiIsInBhcmVudFRoaW5nSWQiOiJ0MV8xOXJob3NuajA0dms1In0",
+           "hasMore": true
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "19rgo93z93lj8",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "19rg93ml0sssj",
+      "url": "https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rg93ml0sssj/",
+      "permalink": "/r/Basketball/comments/1xbw30n/comment/19rg93ml0sssj/",
+      "parentId": "t3_1xbw30n",
+      "author": "WeAreGoingStreaming",
+      "text": "How early do college coaches really start taking a look? If there is a 7th grader playing high school are they on the radar or do they need to be getting starters minutes?",
+      "renderedHtml": "\n      <p>\n      How early do college coaches really start taking a look? If there is a 7th grader playing high school are they on the radar or do they need to be getting starters minutes?\n    </p>\n    ",
+      "score": 0,
+      "upvotes": 0,
+      "createdAt": "2026-10-21T20:46:22.000Z",
+      "createdUtc": 1792615582,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "19rgb5idrr8w5",
+         "url": "https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rgb5idrr8w5/",
+         "permalink": "/r/Basketball/comments/1xbw30n/comment/19rgb5idrr8w5/",
+         "parentId": "t1_19rg93ml0sssj",
+         "author": "Internal_Ad_3977",
+         "text": "Kids can get on a college coaches radar very early on. Having said that, what a kid does or doesn't do in 7th grade has absolutely nothing to do with his long term college recruitment. And with the portal and all of the kids getting 5th years now, coaches aren't looking SERIOUSLY at players that aren't rising seniors unless they are consensus top 100 players.",
+         "renderedHtml": "\n      <p>\n      Kids can get on a college coaches radar very early on. Having said that, what a kid does or doesn't do in 7th grade has absolutely nothing to do with his long term college recruitment. And with the portal and all of the kids getting 5th years now, coaches aren't looking SERIOUSLY at players that aren't rising seniors unless they are consensus top 100 players.\n    </p>\n    ",
+         "score": 3,
+         "upvotes": 3,
+         "createdAt": "2026-10-21T21:32:22.000Z",
+         "createdUtc": 1792618342,
+         "depth": 0,
+         "isSubmitter": true,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": null,
+           "hasMore": false
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "19rg93ml0sssj",
+        "hasMore": true
+       }
+      }
+     }
+    ]
+   },
+   "meta": {
+    "requestId": "req_7bc6d0be-7eae-4840-b1f5-bcff70fd4b7f",
+    "creditsCharged": 1,
+    "version": "v1"
+   },
+   "card": {
+    "kind": "search",
+    "title": "Reddit comments",
+    "subtitle": "12 results",
+    "resultCount": 12,
+    "items": [
+     {
+      "title": "Longtime HS coach here, always had regrets about not trying to go D2 route. Did you ever decide against a prospect due to parent behavior? I\u2019ve had a few\u2026",
+      "subtitle": "@GreezyGz \u00b7 5 points",
+      "href": "https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rg5frlfoxxc/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Ok so I have a son at a mid major. In high school, he had a trainer that worked with nba and nfl players and he did a lot of foot speed/ foot work type of\u2026",
+      "subtitle": "@noknownothing \u00b7 3 points",
+      "href": "https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rg5di0ekxj8/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "My son has bad body language at times - especially on the bench. How important is that if a scout or recruiter sees that? Also, he plays in several AAU teams\u2026",
+      "subtitle": "@Longjumping_Ad_2815 \u00b7 3 points",
+      "href": "https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rg8d45q8gqs/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Ok coach, I\u2019m 31, have a high paying career, and a family of 4. I\u2019m 6\u20197 220, played high school basketball, and rowed D1. Can play every position, and play\u2026",
+      "subtitle": "@StuntDN \u00b7 2 points",
+      "href": "https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rghntyik91h/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "How much coaching development do coaches do with regards to modern research on skill acquisition? Do they even evaluate the sports specific research or is it\u2026",
+      "subtitle": "@svinyard \u00b7 2 points",
+      "href": "https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rh097qtdccl/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Can a kid play at a high level d1 for basketball and another sport? I already asked the other sport ( travel coaches only) and they said no because too much\u2026",
+      "subtitle": "@Electronic-Month-159 \u00b7 1 point",
+      "href": "https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19riiz8o16s3k/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Hello! Do you know a serious recruiter who help athletes getting in touch with colleges that would be a good fit to them ? My son is 6,7 - varsity player\u2026",
+      "subtitle": "@questions8112 \u00b7 1 point",
+      "href": "https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rlm21pkqkzl/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Based on your experience, are referees ever on the take? I\u2019ve seen some games where I really thought they were.",
+      "subtitle": "@Positive-Day-7885 \u00b7 1 point",
+      "href": "https://www.reddit.com/r/Basketball/comments/1xbw30n/comment/19rnp1q0h6car/",
+      "platform": "Reddit"
+     }
+    ]
+   }
+  }
+ },
+ "jsonrpc": "2.0",
+ "id": 1
+}

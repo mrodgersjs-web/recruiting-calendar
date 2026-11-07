@@ -1,0 +1,310 @@
+{
+  "observed_at": "2026-11-06T18:53:10.004Z",
+  "method": "GET only; no forms or Stripe sessions created",
+  "probes": [
+    {
+      "path": "/api/offers",
+      "status": 200,
+      "type": "application/json; charset=utf-8",
+      "body": {
+        "test_mode": true,
+        "trial_disclosure": "Free for 14 days, then $149 per year, renewing yearly until you cancel. Cancel any time online in one click. Your renewal date is shown on your billing page.",
+        "offers": [
+          {
+            "offer": "football-junior-year",
+            "kind": "playbook",
+            "mode": "payment",
+            "title": "Football: Junior Year Playbook",
+            "usd": 29,
+            "slugs": [
+              "football-junior-year"
+            ],
+            "available": false,
+            "ready_slugs": []
+          },
+          {
+            "offer": "eligibility-2-hard-deadlines",
+            "kind": "playbook",
+            "mode": "payment",
+            "title": "Eligibility: the 2 Hard Deadlines",
+            "usd": 9,
+            "slugs": [
+              "eligibility-2-hard-deadlines"
+            ],
+            "available": false,
+            "ready_slugs": []
+          },
+          {
+            "offer": "baseball-showcase-to-signing",
+            "kind": "playbook",
+            "mode": "payment",
+            "title": "Baseball: From Showcase to Signing",
+            "usd": 29,
+            "slugs": [
+              "baseball-showcase-to-signing"
+            ],
+            "available": false,
+            "ready_slugs": []
+          },
+          {
+            "offer": "track-field-marks",
+            "kind": "playbook",
+            "mode": "payment",
+            "title": "Track & Field: Marks to Roster",
+            "usd": 25,
+            "slugs": [
+              "track-field-marks"
+            ],
+            "available": false,
+            "ready_slugs": []
+          },
+          {
+            "offer": "d3-academic-aid-first",
+            "kind": "playbook",
+            "mode": "payment",
+            "title": "D3 Path: Academic Aid First",
+            "usd": 19,
+            "slugs": [
+              "d3-academic-aid-first"
+            ],
+            "available": false,
+            "ready_slugs": []
+          },
+          {
+            "offer": "walk-on",
+            "kind": "playbook",
+            "mode": "payment",
+            "title": "Walk-On Playbook",
+            "usd": 15,
+            "slugs": [
+              "walk-on"
+            ],
+            "available": false,
+            "ready_slugs": []
+          },
+          {
+            "offer": "juco-to-d1",
+            "kind": "playbook",
+            "mode": "payment",
+            "title": "JUCO to D1",
+            "usd": 19,
+            "slugs": [
+              "juco-to-d1"
+            ],
+            "available": false,
+            "ready_slugs": []
+          },
+          {
+            "offer": "late-bloomer",
+            "kind": "playbook",
+            "mode": "payment",
+            "title": "Late Bloomer Playbook",
+            "usd": 15,
+            "slugs": [
+              "late-bloomer"
+            ],
+            "available": false,
+            "ready_slugs": []
+          },
+          {
+            "offer": "highlight-reel-social",
+            "kind": "playbook",
+            "mode": "payment",
+            "title": "Highlight Reel & Social Playbook",
+            "usd": 15,
+            "slugs": [
+              "highlight-reel-social"
+            ],
+            "available": false,
+            "ready_slugs": []
+          },
+          {
+            "offer": "camp-roi",
+            "kind": "playbook",
+            "mode": "payment",
+            "title": "Camp ROI Playbook",
+            "usd": 15,
+            "slugs": [
+              "camp-roi"
+            ],
+            "available": false,
+            "ready_slugs": []
+          },
+          {
+            "offer": "nil-high-school",
+            "kind": "playbook",
+            "mode": "payment",
+            "title": "NIL for High Schoolers",
+            "usd": 15,
+            "slugs": [
+              "nil-high-school"
+            ],
+            "available": false,
+            "ready_slugs": []
+          },
+          {
+            "offer": "offer-and-signing",
+            "kind": "playbook",
+            "mode": "payment",
+            "title": "Offers & Signing Day",
+            "usd": 19,
+            "slugs": [
+              "offer-and-signing"
+            ],
+            "available": false,
+            "ready_slugs": []
+          },
+          {
+            "offer": "sport-pack",
+            "sport": "football",
+            "kind": "bundle",
+            "mode": "payment",
+            "title": "Sport Pack: football",
+            "usd": 49,
+            "slugs": [
+              "football-junior-year",
+              "eligibility-2-hard-deadlines",
+              "offer-and-signing",
+              "camp-roi"
+            ],
+            "available": false,
+            "ready_slugs": []
+          },
+          {
+            "offer": "sport-pack",
+            "sport": "baseball",
+            "kind": "bundle",
+            "mode": "payment",
+            "title": "Sport Pack: baseball",
+            "usd": 49,
+            "slugs": [
+              "baseball-showcase-to-signing",
+              "eligibility-2-hard-deadlines",
+              "offer-and-signing",
+              "camp-roi"
+            ],
+            "available": false,
+            "ready_slugs": []
+          },
+          {
+            "offer": "sport-pack",
+            "sport": "track",
+            "kind": "bundle",
+            "mode": "payment",
+            "title": "Sport Pack: track",
+            "usd": 49,
+            "slugs": [
+              "track-field-marks",
+              "eligibility-2-hard-deadlines",
+              "offer-and-signing",
+              "camp-roi"
+            ],
+            "available": false,
+            "ready_slugs": []
+          },
+          {
+            "offer": "all-playbooks",
+            "kind": "bundle",
+            "mode": "payment",
+            "title": "Every Playbook",
+            "usd": 99,
+            "slugs": [
+              "football-junior-year",
+              "eligibility-2-hard-deadlines",
+              "baseball-showcase-to-signing",
+              "track-field-marks",
+              "d3-academic-aid-first",
+              "walk-on",
+              "juco-to-d1",
+              "late-bloomer",
+              "highlight-reel-social",
+              "camp-roi",
+              "nil-high-school",
+              "offer-and-signing"
+            ],
+            "available": false,
+            "ready_slugs": []
+          },
+          {
+            "offer": "sideline",
+            "kind": "trial",
+            "mode": "subscription",
+            "title": "Sideline membership",
+            "usd": 149,
+            "slugs": [
+              "football-junior-year",
+              "eligibility-2-hard-deadlines",
+              "baseball-showcase-to-signing",
+              "track-field-marks",
+              "d3-academic-aid-first",
+              "walk-on",
+              "juco-to-d1",
+              "late-bloomer",
+              "highlight-reel-social",
+              "camp-roi",
+              "nil-high-school",
+              "offer-and-signing"
+            ],
+            "disclosure": "Free for 14 days, then $149 per year, renewing yearly until you cancel. Cancel any time online in one click. Your renewal date is shown on your billing page.",
+            "available": false,
+            "ready_slugs": []
+          }
+        ]
+      }
+    },
+    {
+      "path": "/api/checkout",
+      "status": 405,
+      "type": "application/json; charset=utf-8",
+      "body": {
+        "error": "POST only"
+      }
+    },
+    {
+      "path": "/api/order",
+      "status": 400,
+      "type": "application/json; charset=utf-8",
+      "body": {
+        "error": "Invalid session"
+      }
+    },
+    {
+      "path": "/api/deliver",
+      "status": 400,
+      "type": "application/json; charset=utf-8",
+      "body": {
+        "error": "Invalid session"
+      }
+    },
+    {
+      "path": "/account",
+      "status": 404,
+      "type": "text/plain; charset=utf-8"
+    },
+    {
+      "path": "/billing",
+      "status": 404,
+      "type": "text/plain; charset=utf-8"
+    },
+    {
+      "path": "/downloads/football-class-2029.pdf",
+      "status": 404,
+      "type": "text/plain; charset=utf-8"
+    },
+    {
+      "path": "/downloads/baseball-class-2029.pdf",
+      "status": 404,
+      "type": "text/plain; charset=utf-8"
+    },
+    {
+      "path": "/downloads/track-class-2029.pdf",
+      "status": 404,
+      "type": "text/plain; charset=utf-8"
+    },
+    {
+      "path": "/downloads/recruiting-calendar-class-2029.pdf",
+      "status": 200,
+      "type": "application/pdf"
+    }
+  ]
+}

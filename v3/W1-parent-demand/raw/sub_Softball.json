@@ -1,0 +1,338 @@
+{
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "{\n  \"data\": {\n    \"subreddit\": \"Softball\",\n    \"query\": \"recruiting parent\",\n    \"sort\": \"comments\",\n    \"timeframe\": \"all\",\n    \"posts\": [\n      {\n        \"id\": \"1m6csbo\",\n        \"postId\": \"t3_1m6csbo\",\n        \"title\": \"How do you act towards coaches or other parents after your daughter gets cut from a team she should have made?\",\n        \"url\": \"https://www.reddit.com/r/Softball/comments/1m6csbo/how_do_you_act_towards_coaches_or_other_parents/\",\n        \"permalink\": \"/r/Softball/comments/1m6csbo/how_do_you_act_towards_coaches_or_other_parents/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"Golf-Beer-BBQ\",\n          \"id\": \"t2_mo9uekksq\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"Softball\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 7,\n          \"comments\": 56,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2025-07-22T12:29:55.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 0,\n        \"relativePosition\": 0\n      },\n      {\n        \"id\": \"1m9gb10\",\n        \"postId\": \"t3_1m9gb10\",\n        \"title\": \"True Costs\",\n        \"url\": \"https://www.reddit.com/r/Softball/comments/1m9gb10/true_costs/\",\n        \"permalink\": \"/r/Softball/comments/1m9gb10/true_costs/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"Hot-Number3696\",\n          \"id\": \"t2_7dlh1f9n\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"Softball\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 15,\n          \"comments\": 52,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2025-07-26T01:02:32.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 1,\n        \"relativePosition\": 1\n      },\n      {\n        \"id\": \"1uquyhy\",\n        \"postId\": \"t3_1uquyhy\",\n        \"title\": \"ESPN calls out US youth soccer travel system. Applies to travel softball too.\",\n        \"url\": \"https://www.reddit.com/r/Softball/comments/1uquyhy/espn_calls_out_us_youth_soccer_travel_system/\",\n        \"permalink\": \"/r/Softball/comments/1uquyhy/espn_calls_out_us_youth_soccer_travel_system/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"Confused_Crossroad\",\n          \"id\": \"t2_1j6q57z8if\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"Softball\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 89,\n          \"comments\": 48,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2026-07-08T14:52:34.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 2,\n        \"relativePosition\": 2\n      },\n      {\n        \"id\": \"1vcsk9x\",\n        \"postId\": \"t3_1vcsk9x\",\n        \"title\": \"Daughter, 14u Continuously Sits\",\n        \"url\": \"https://www.reddit.com/r/Softball/comments/1vcsk9x/daughter_14u_continuously_sits/\",\n        \"permalink\": \"/r/Softball/comments/1vcsk9x/daughter_14u_continuously_sits/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"9thlife818\",\n          \"id\": \"t2_koavvhq\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"Softball\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 17,\n          \"comments\": 38,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2026-08-01T16:59:09.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 3,\n        \"relativePosition\": 3\n      },\n      {\n        \"id\": \"1xinm9q\",\n        \"postId\": \"t3_1xinm9q\",\n        \"title\": \"Hard Truths\",\n        \"url\": \"https://www.reddit.com/r/Softball/comments/1xinm9q/hard_truths/\",\n        \"permalink\": \"/r/Softball/comments/1xinm9q/hard_truths/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"Tasty_University_934\",\n          \"id\": \"t2_jkc8uy928\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"Softball\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 14,\n          \"comments\": 37,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2026-10-29T15:47:33.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 4,\n        \"relativePosition\": 4\n      },\n      {\n        \"id\": \"1s84y0i\",\n        \"postId\": \"t3_1s84y0i\",\n        \"title\": \"Question on safety equipment\",\n        \"url\": \"https://www.reddit.com/r/Softball/comments/1s84y0i/question_on_safety_equipment/\",\n        \"permalink\": \"/r/Softball/comments/1s84y0i/question_on_safety_equipment/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"luvrv8\",\n          \"id\": \"t2_6wq13fa\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"Softball\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 4,\n          \"comments\": 31,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2026-03-30T22:06:41.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 5,\n        \"relativePosition\": 5\n      },\n      {\n        \"id\": \"1l43htb\",\n        \"postId\": \"t3_1l43htb\",\n        \"title\": \"Advice for 12U daughter\",\n        \"url\": \"https://www.reddit.com/r/Softball/comments/1l43htb/advice_for_12u_daughter/\",\n        \"permalink\": \"/r/Softball/comments/1l43htb/advice_for_12u_daughter/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"Comfortable-Pop3302\",\n          \"id\": \"t2_1bekzlwt3i\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"Softball\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 5,\n          \"comments\": 26,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2025-06-05T16:23:17.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 6,\n        \"relativePosition\": 6\n      }\n    ],\n    \"totalResults\": 7,\n    \"page\": {\n      \"nextCursor\": \"eyJjYW5kaWRhdGVzX3JldHVybmVkIjoie1wic2VjdGlvbl8xX3BpcGVsaW5lXzBfZ2xvYmFsX21vZGlmaWVyc1wiOlwiMVwiLFwic2VjdGlvbl8xX3BpcGVsaW5lXzFfbG9jYWxfbW9kaWZpZXJzXCI6XCIyXCIsXCJzZWN0aW9uXzJfcGlwZWxpbmVfN19zY29wZV9zd2l0Y2hlclwiOlwiMFwiLFwic2VjdGlvbl8yX3BpcGVsaW5lXzhfZHluYW1pY18wX3Bvc3Rfc2VhcmNoXCI6XCI3XCIsXCJzZWN0aW9uXzNfcGlwZWxpbmVfMF9zaWRlYmFyX2NvbW11bml0eV9pbmZvXCI6XCIwXCJ9IiwiZXhwZXJpZW5jZV9zZWxlY3Rpb24iOiJwb3N0c192MiIsImV4cGVyaWVuY2VfdmVyc2lvbiI6ImNvbW11bml0eSIsInNlY3Rpb25fMl9waXBlbGluZV84X2R5bmFtaWNfMF9wb3N0X3NlYXJjaCI6IjcifQ==\",\n      \"hasMore\": true\n    }\n  },\n  \"meta\": {\n    \"requestId\": \"req_36b15722-1736-4d73-ac23-715121cee18f\",\n    \"creditsCharged\": 1,\n    \"version\": \"v1\"\n  }\n}"
+   },
+   {
+    "type": "text",
+    "text": "{\"conversation_id\":\"01a1af66-ac50-78c6-9b7f-48a7179bf559\"}"
+   }
+  ],
+  "structuredContent": {
+   "data": {
+    "subreddit": "Softball",
+    "query": "recruiting parent",
+    "sort": "comments",
+    "timeframe": "all",
+    "posts": [
+     {
+      "id": "1m6csbo",
+      "postId": "t3_1m6csbo",
+      "title": "How do you act towards coaches or other parents after your daughter gets cut from a team she should have made?",
+      "url": "https://www.reddit.com/r/Softball/comments/1m6csbo/how_do_you_act_towards_coaches_or_other_parents/",
+      "permalink": "/r/Softball/comments/1m6csbo/how_do_you_act_towards_coaches_or_other_parents/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "Golf-Beer-BBQ",
+       "id": "t2_mo9uekksq"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "Softball",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 7,
+       "comments": 56,
+       "upvoteRatio": null
+      },
+      "createdAt": "2025-07-22T12:29:55.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 0,
+      "relativePosition": 0
+     },
+     {
+      "id": "1m9gb10",
+      "postId": "t3_1m9gb10",
+      "title": "True Costs",
+      "url": "https://www.reddit.com/r/Softball/comments/1m9gb10/true_costs/",
+      "permalink": "/r/Softball/comments/1m9gb10/true_costs/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "Hot-Number3696",
+       "id": "t2_7dlh1f9n"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "Softball",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 15,
+       "comments": 52,
+       "upvoteRatio": null
+      },
+      "createdAt": "2025-07-26T01:02:32.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 1,
+      "relativePosition": 1
+     },
+     {
+      "id": "1uquyhy",
+      "postId": "t3_1uquyhy",
+      "title": "ESPN calls out US youth soccer travel system. Applies to travel softball too.",
+      "url": "https://www.reddit.com/r/Softball/comments/1uquyhy/espn_calls_out_us_youth_soccer_travel_system/",
+      "permalink": "/r/Softball/comments/1uquyhy/espn_calls_out_us_youth_soccer_travel_system/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "Confused_Crossroad",
+       "id": "t2_1j6q57z8if"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "Softball",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 89,
+       "comments": 48,
+       "upvoteRatio": null
+      },
+      "createdAt": "2026-07-08T14:52:34.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 2,
+      "relativePosition": 2
+     },
+     {
+      "id": "1vcsk9x",
+      "postId": "t3_1vcsk9x",
+      "title": "Daughter, 14u Continuously Sits",
+      "url": "https://www.reddit.com/r/Softball/comments/1vcsk9x/daughter_14u_continuously_sits/",
+      "permalink": "/r/Softball/comments/1vcsk9x/daughter_14u_continuously_sits/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "9thlife818",
+       "id": "t2_koavvhq"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "Softball",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 17,
+       "comments": 38,
+       "upvoteRatio": null
+      },
+      "createdAt": "2026-08-01T16:59:09.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 3,
+      "relativePosition": 3
+     },
+     {
+      "id": "1xinm9q",
+      "postId": "t3_1xinm9q",
+      "title": "Hard Truths",
+      "url": "https://www.reddit.com/r/Softball/comments/1xinm9q/hard_truths/",
+      "permalink": "/r/Softball/comments/1xinm9q/hard_truths/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "Tasty_University_934",
+       "id": "t2_jkc8uy928"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "Softball",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 14,
+       "comments": 37,
+       "upvoteRatio": null
+      },
+      "createdAt": "2026-10-29T15:47:33.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 4,
+      "relativePosition": 4
+     },
+     {
+      "id": "1s84y0i",
+      "postId": "t3_1s84y0i",
+      "title": "Question on safety equipment",
+      "url": "https://www.reddit.com/r/Softball/comments/1s84y0i/question_on_safety_equipment/",
+      "permalink": "/r/Softball/comments/1s84y0i/question_on_safety_equipment/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "luvrv8",
+       "id": "t2_6wq13fa"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "Softball",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 4,
+       "comments": 31,
+       "upvoteRatio": null
+      },
+      "createdAt": "2026-03-30T22:06:41.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 5,
+      "relativePosition": 5
+     },
+     {
+      "id": "1l43htb",
+      "postId": "t3_1l43htb",
+      "title": "Advice for 12U daughter",
+      "url": "https://www.reddit.com/r/Softball/comments/1l43htb/advice_for_12u_daughter/",
+      "permalink": "/r/Softball/comments/1l43htb/advice_for_12u_daughter/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "Comfortable-Pop3302",
+       "id": "t2_1bekzlwt3i"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "Softball",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 5,
+       "comments": 26,
+       "upvoteRatio": null
+      },
+      "createdAt": "2025-06-05T16:23:17.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 6,
+      "relativePosition": 6
+     }
+    ],
+    "totalResults": 7,
+    "page": {
+     "nextCursor": "eyJjYW5kaWRhdGVzX3JldHVybmVkIjoie1wic2VjdGlvbl8xX3BpcGVsaW5lXzBfZ2xvYmFsX21vZGlmaWVyc1wiOlwiMVwiLFwic2VjdGlvbl8xX3BpcGVsaW5lXzFfbG9jYWxfbW9kaWZpZXJzXCI6XCIyXCIsXCJzZWN0aW9uXzJfcGlwZWxpbmVfN19zY29wZV9zd2l0Y2hlclwiOlwiMFwiLFwic2VjdGlvbl8yX3BpcGVsaW5lXzhfZHluYW1pY18wX3Bvc3Rfc2VhcmNoXCI6XCI3XCIsXCJzZWN0aW9uXzNfcGlwZWxpbmVfMF9zaWRlYmFyX2NvbW11bml0eV9pbmZvXCI6XCIwXCJ9IiwiZXhwZXJpZW5jZV9zZWxlY3Rpb24iOiJwb3N0c192MiIsImV4cGVyaWVuY2VfdmVyc2lvbiI6ImNvbW11bml0eSIsInNlY3Rpb25fMl9waXBlbGluZV84X2R5bmFtaWNfMF9wb3N0X3NlYXJjaCI6IjcifQ==",
+     "hasMore": true
+    }
+   },
+   "meta": {
+    "requestId": "req_36b15722-1736-4d73-ac23-715121cee18f",
+    "creditsCharged": 1,
+    "version": "v1"
+   },
+   "card": {
+    "kind": "search",
+    "title": "Search results",
+    "subtitle": "7 results",
+    "resultCount": 7,
+    "items": [
+     {
+      "title": "How do you act towards coaches or other parents after your daughter gets cut from a team she should have made?",
+      "subtitle": "@Golf-Beer-BBQ \u00b7 22 Jul 2025",
+      "href": "https://www.reddit.com/r/Softball/comments/1m6csbo/how_do_you_act_towards_coaches_or_other_parents/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "True Costs",
+      "subtitle": "@Hot-Number3696 \u00b7 26 Jul 2025",
+      "href": "https://www.reddit.com/r/Softball/comments/1m9gb10/true_costs/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "ESPN calls out US youth soccer travel system. Applies to travel softball too.",
+      "subtitle": "@Confused_Crossroad \u00b7 8 Jul 2026",
+      "href": "https://www.reddit.com/r/Softball/comments/1uquyhy/espn_calls_out_us_youth_soccer_travel_system/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Daughter, 14u Continuously Sits",
+      "subtitle": "@9thlife818 \u00b7 1 Aug 2026",
+      "href": "https://www.reddit.com/r/Softball/comments/1vcsk9x/daughter_14u_continuously_sits/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Hard Truths",
+      "subtitle": "@Tasty_University_934 \u00b7 29 Oct 2026",
+      "href": "https://www.reddit.com/r/Softball/comments/1xinm9q/hard_truths/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Question on safety equipment",
+      "subtitle": "@luvrv8 \u00b7 30 Mar 2026",
+      "href": "https://www.reddit.com/r/Softball/comments/1s84y0i/question_on_safety_equipment/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Advice for 12U daughter",
+      "subtitle": "@Comfortable-Pop3302 \u00b7 5 Jun 2025",
+      "href": "https://www.reddit.com/r/Softball/comments/1l43htb/advice_for_12u_daughter/",
+      "platform": "Reddit"
+     }
+    ]
+   }
+  }
+ },
+ "jsonrpc": "2.0",
+ "id": 1
+}

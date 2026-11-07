@@ -1,0 +1,59 @@
+- title: "NIL Tax & Income Tracker (coming soon) | The Commit Book" [url=https://recruiting-calendar.vercel.app/tools/nil-tax]
+- banner:
+  - link "The Commit Book home" [ref=e1]:
+    - image "The Commit Book"
+  - navigation "Main" [ref=e2]:
+    - link "Start here" [ref=e3]
+    - link "Stories" [ref=e4]
+    - link "Calendar" [ref=e5]
+    - link "Playbooks" [ref=e6]
+    - link "Rules" [ref=e7]
+    - link "Price" [ref=e8]
+  - link "Bag ()" [ref=e9]: "Bag (0)"
+- main:
+  - text: "Tool · coming soon"
+  - heading "NIL Tax & Income Tracker" [level=1]
+  - text: "$19  planned price\n This tool is being written and checked. It is not for sale yet. Leave your email and we will tell you when it is ready."
+  - generic [ref=e10]:
+    - generic "Planned contents" [ref=e11]
+    - list:
+      - listitem "Income log by deal with payer, date, amount, expenses, set-aside" [ref=e12]
+      - listitem "Quarterly estimate reminder sheet" [ref=e13]
+      - listitem "1099-NEC / 1099-MISC prep tab" [ref=e14]
+      - listitem "What to hand a tax preparer in one folder" [ref=e15]
+  - form:
+    - textbox "Your email" [ref=e16] [placeholder="Your email"]
+    - button "Notify me" [ref=e17]
+    - label:
+      - checkbox "Email me when this tool is ready. Unsubscribe any time." [ref=e18]
+      - text: "Email me when this tool is ready. Unsubscribe any time."
+  - text: "For parents and guardians. We do not knowingly collect information from children under 13."
+- contentinfo:
+  - image "The Commit Book"
+  - paragraph:
+    - link "Stories" [ref=e19]
+    - text: "·"
+    - link "Playbooks" [ref=e20]
+    - text: "·"
+    - link "Calendar" [ref=e21]
+    - text: "·"
+    - link "Rules by sport" [ref=e22]
+    - text: "·"
+    - link "Roster math" [ref=e23]
+    - text: "·"
+    - link "Camps" [ref=e24]
+    - text: "·"
+    - link "Compare" [ref=e25]
+    - text: "·"
+    - link "Price" [ref=e26]
+    - text: "·"
+    - link "About" [ref=e27]
+    - text: "·"
+    - link "Terms" [ref=e28]
+    - text: "·"
+    - link "Privacy" [ref=e29]
+    - text: "·"
+    - link "Refunds" [ref=e30]
+    - text: "·"
+    - link "Auto-renewal" [ref=e31]
+  - text: "Education, not legal advice. We do not recruit or place athletes, and nobody here contacts your kid. No scholarship, offer or roster spot is promised. Stories o…[+275 chars]"

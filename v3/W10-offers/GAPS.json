@@ -1,0 +1,73 @@
+{
+ "fewer_than_six": [
+  {
+   "story": "rodenfels",
+   "count": 5,
+   "note": "Fewer than six credible matches; not padded with unrelated products"
+  },
+  {
+   "story": "rodriguez",
+   "count": 5,
+   "note": "Fewer than six credible matches; not padded with unrelated products"
+  },
+  {
+   "story": "wondolowski",
+   "count": 5,
+   "note": "Fewer than six credible matches; not padded with unrelated products"
+  },
+  {
+   "story": "composite-baseball",
+   "count": 5,
+   "note": "Fewer than six credible matches; not padded with unrelated products"
+  },
+  {
+   "story": "composite-sprinter",
+   "count": 5,
+   "note": "Fewer than six credible matches; not padded with unrelated products"
+  },
+  {
+   "story": "composite-swim",
+   "count": 5,
+   "note": "Fewer than six credible matches; not padded with unrelated products"
+  },
+  {
+   "story": "composite-wrestling",
+   "count": 5,
+   "note": "Fewer than six credible matches; not padded with unrelated products"
+  }
+ ],
+ "no_sport_specific_product": [
+  {
+   "story": "rodriguez",
+   "note": "no wrestling- or NAIA-specific product in the catalog"
+  },
+  {
+   "story": "wondolowski",
+   "note": "no soccer-specific product"
+  },
+  {
+   "story": "composite-swim",
+   "note": "no swimming-specific product"
+  },
+  {
+   "story": "composite-wrestling",
+   "note": "no wrestling-specific product"
+  },
+  {
+   "story": "rodenfels",
+   "note": "no track/XC-specific product; story HELD (noindex)"
+  },
+  {
+   "story": "composite-sprinter",
+   "note": "no track-specific product"
+  },
+  {
+   "story": "groenewegen",
+   "note": "no softball/women's-sport-specific product"
+  },
+  {
+   "story": "pichardo",
+   "note": "no baseball-specific product"
+  }
+ ]
+}

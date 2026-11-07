@@ -1,0 +1,7 @@
+{
+  "status": "BLOCKED",
+  "evaluationRan": false,
+  "score": null,
+  "reason": "No Commit Book screenshot, visual prototype or rendered product image exists in the authorized W10-panel folder. No source or live site was accessed because the assignment limits work to this folder. Discovered image-judging tool requires a Pinterest taste profile and a control image, neither supplied here; it is not a general accessibility audit. No substitute image was generated or presented as product evidence.",
+  "unblock": "Supply an authorized product screenshot or visual artifact in W10-panel and an available general-purpose Jev image evaluator or the required taste profile/control for the configured evaluator. Actual keyboard/screen-reader testing is still required separately."
+}

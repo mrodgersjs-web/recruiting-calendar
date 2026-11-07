@@ -1,0 +1,741 @@
+{
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "{\n  \"data\": {\n    \"lookupStatus\": \"found\",\n    \"post\": {\n      \"id\": \"1iwlltt\",\n      \"title\": \"Parents of kids being recruited...\",\n      \"text\": \"What/how are you posting highlight clips? How are you recording /editing them? What recruiting platforms are you investing in? I am under no illusions that my kid will be playing D1 unless it is a SUPER small program. DII? There's a shot. DIII or NAIA? Also a shot. Had a small university coach ask my wife yesterday how she could \\\"follow her\\\" - meaning my daughter. Asked about if we'd be playing any tournaments in her state (we're not, at least not this club season). She's raw. Very raw right now. But has talent. And is almost 6' tall and can jump high enough to just about get her armpits at the top of the tape. So - we need to start getting ready, I think. Is a phone adequate to film? What hosting platforms? YT? HUDL? Are there others? What about recruiting agencies? We've been contacted by NCSA - but we won't be pursuing them due to several poor recommendations. I'm totally a newb at this and more than a little overwhelmed at the prospect of needing to be some kind of video editor with a crappy computer!\",\n      \"url\": \"https://www.reddit.com/r/volleyball/comments/1iwlltt/parents_of_kids_being_recruited/\",\n      \"permalink\": \"/r/volleyball/comments/1iwlltt/parents_of_kids_being_recruited/\",\n      \"subreddit\": \"volleyball\",\n      \"subredditNamePrefixed\": \"r/volleyball\",\n      \"author\": \"Tactically_Fat\",\n      \"score\": 28,\n      \"upvoteRatio\": 0.9666666666666667,\n      \"commentCount\": 47,\n      \"createdAt\": \"2025-02-23T21:51:18.000Z\",\n      \"createdUtc\": 1740347478,\n      \"over18\": false,\n      \"locked\": false,\n      \"stickied\": false\n    },\n    \"page\": {\n      \"nextCursor\": \"eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy92b2xsZXliYWxsL3QzXzFpd2xsdHQ_c2Vla2VyLXNlc3Npb249ZmFsc2UmcmVuZGVyLW1vZGU9cGFydGlhbCZ0b3AtbGV2ZWw9MSZjb21tZW50cy1yZW1haW5pbmc9NzUmY29tbWVudFBvc2l0aW9uT2Zmc2V0PTEyIiwiY3Vyc29yIjoiWTI5dGJXVnVkSFJ5WldVNk1qQTBOR001WkRFc09qb3dPbVY0T2lnaGIzY3Jhem9sYTF0QlNDazZKMkphSm05Rk1rOWNUWFlpSkh3dGRpTlFma0JHT1hRamV5UTVKSE5CY2tWYU5EWnBRalJQWFN3PSIsInN1YnJlZGRpdCI6InZvbGxleWJhbGwiLCJwb3N0SWQiOiIxaXdsbHR0IiwicGFyZW50VGhpbmdJZCI6bnVsbH0\",\n      \"hasMore\": true\n    },\n    \"comments\": [\n      {\n        \"id\": \"mef0q1n\",\n        \"url\": \"https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/mef0q1n/\",\n        \"permalink\": \"/r/volleyball/comments/1iwlltt/comment/mef0q1n/\",\n        \"parentId\": \"t3_1iwlltt\",\n        \"author\": \"joetrinsey\",\n        \"text\": \"Highlight tape on Youtube is generally good enough. 10-20 good swings and blocks. Direct contact from the athlete to the coach is good. Coaches may want to see full match video, but if you're already going to be at a tournament they will be at then they can watch you live just as easily.\\n\\n If your kid is armpits at the net, then she's at 10' and somebody will recruit her. 9'6\\\"ish will put you in scholarship territory if you're skilled. 10' will get you a scholarship to somewhere unless you're a total basket case.\\n\\n Feel to follow up. I've been involved in club volleyball for a long time and have also coached D1 men's and women's.\",\n        \"renderedHtml\": \"\\n      <p>\\n      Highlight tape on Youtube is generally good enough. 10-20 good swings and blocks. Direct contact from the athlete to the coach is good. Coaches may want to see full match video, but if you're already going to be at a tournament they will be at then they can watch you live just as easily.\\n    </p><p>\\n      If your kid is armpits at the net, then she's at 10' and somebody will recruit her. 9'6\\\"ish will put you in scholarship territory if you're skilled. 10' will get you a scholarship to somewhere unless you're a total basket case.\\n    </p><p>\\n      Feel to follow up. I've been involved in club volleyball for a long time and have also coached D1 men's and women's.\\n    </p>\\n    \",\n        \"score\": 39,\n        \"upvotes\": 39,\n        \"createdAt\": \"2025-02-23T22:12:13.000Z\",\n        \"createdUtc\": 1740348733,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"mel7upk\",\n              \"url\": \"https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/mel7upk/\",\n              \"permalink\": \"/r/volleyball/comments/1iwlltt/comment/mel7upk/\",\n              \"parentId\": \"t1_mef0q1n\",\n              \"author\": \"Tactically_Fat\",\n              \"text\": \"Thank you! I appreciate it!\",\n              \"renderedHtml\": \"\\n      <p>\\n      Thank you! I appreciate it!\\n    </p>\\n    \",\n              \"score\": 3,\n              \"upvotes\": 3,\n              \"createdAt\": \"2025-02-24T21:24:55.000Z\",\n              \"createdUtc\": 1740432295,\n              \"depth\": 0,\n              \"isSubmitter\": true,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": null,\n                  \"hasMore\": false\n                }\n              }\n            },\n            {\n              \"id\": \"mefk5bb\",\n              \"url\": \"https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/mefk5bb/\",\n              \"permalink\": \"/r/volleyball/comments/1iwlltt/comment/mefk5bb/\",\n              \"parentId\": \"t1_mef0q1n\",\n              \"author\": \"ravice41\",\n              \"text\": \"Listen to Joe!!! He knows all.\\n\\n Recruiting services and film editors can help, but at end of the day if the coach can just click on a youtube link, they'll be happy.\\n\\n I currently coach in college. Flipping back and forth between sportsrecruits, NCSA, SandRecruita, Hudl, Instagram, etc...is not ideal. YouTube is easy.\",\n              \"renderedHtml\": \"\\n      <p>\\n      Listen to Joe!!! He knows all.\\n    </p><p>\\n      Recruiting services and film editors can help, but at end of the day if the coach can just click on a youtube link, they'll be happy.\\n    </p><p>\\n      I currently coach in college. Flipping back and forth between sportsrecruits, NCSA, SandRecruita, Hudl, Instagram, etc...is not ideal. YouTube is easy.\\n    </p>\\n    \",\n              \"score\": 10,\n              \"upvotes\": 10,\n              \"createdAt\": \"2025-02-23T23:56:54.000Z\",\n              \"createdUtc\": 1740355014,\n              \"depth\": 0,\n              \"isSubmitter\": false,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": null,\n                  \"hasMore\": false\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy92b2xsZXliYWxsL3QzXzFpd2xsdHQ_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MSZjb21tZW50UG9zaXRpb25PZmZzZXQ9MiZjb21tZW50UGFyZW50UG9zaXRpb25zPTAiLCJjdXJzb3IiOiJZMjl0YldWdWRIUnlaV1U2TUdNd05qZzROeklzT2pveE9tVjRPaWdoY1RGSlNEb2xPaXh0Y2trPSIsInN1YnJlZGRpdCI6InZvbGxleWJhbGwiLCJwb3N0SWQiOiIxaXdsbHR0IiwicGFyZW50VGhpbmdJZCI6InQxX21lZjBxMW4ifQ\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"meeyeg4\",\n        \"url\": \"https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/meeyeg4/\",\n        \"permalink\": \"/r/volleyball/comments/1iwlltt/comment/meeyeg4/\",\n        \"parentId\": \"t3_1iwlltt\",\n        \"author\": \"ohno225\",\n        \"text\": \"I got a good amount of offers from tournaments and stuff, and my NCSA profile. I also had a highlight tape I put together myself of just clips taken on a phone from my tournaments. 4-5 minutes long, edited together in iMovie, and posted onto YouTube. I got a few D1 offers, and a bunch from D2/NAIA just with this set up.\\n\\n Obviously, men's volleyball is less competitive, but as long as college coaches can see what she can do that is enough. I would have that highlight tape, and 1 or 2 full games she played well in posted on a youtube channel that you can send to coaches. I would also put her height, position, and touch height on those videos.\\n\\n I don't know of any other recruiting platforms outside of NCSA, but height and touch height are the two biggest things I was asked by coaches who didn't find me through that. Good luck!!\",\n        \"renderedHtml\": \"\\n      <p>\\n      I got a good amount of offers from tournaments and stuff, and my NCSA profile. I also had a highlight tape I put together myself of just clips taken on a phone from my tournaments. 4-5 minutes long, edited together in iMovie, and posted onto YouTube. I got a few D1 offers, and a bunch from D2/NAIA just with this set up.\\n    </p><p>\\n      Obviously, men's volleyball is less competitive, but as long as college coaches can see what she can do that is enough. I would have that highlight tape, and 1 or 2 full games she played well in posted on a youtube channel that you can send to coaches. I would also put her height, position, and touch height on those videos.\\n    </p><p>\\n      I don't know of any other recruiting platforms outside of NCSA, but height and touch height are the two biggest things I was asked by coaches who didn't find me through that. Good luck!!\\n    </p>\\n    \",\n        \"score\": 6,\n        \"upvotes\": 6,\n        \"createdAt\": \"2025-02-23T22:00:22.000Z\",\n        \"createdUtc\": 1740348022,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"meez2rz\",\n              \"url\": \"https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/meez2rz/\",\n              \"permalink\": \"/r/volleyball/comments/1iwlltt/comment/meez2rz/\",\n              \"parentId\": \"t1_meeyeg4\",\n              \"author\": \"Tactically_Fat\",\n              \"text\": \"Thank you!\",\n              \"renderedHtml\": \"\\n      <p>\\n      Thank you!\\n    </p>\\n    \",\n              \"score\": 2,\n              \"upvotes\": 2,\n              \"createdAt\": \"2025-02-23T22:03:48.000Z\",\n              \"createdUtc\": 1740348228,\n              \"depth\": 0,\n              \"isSubmitter\": true,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": null,\n                  \"hasMore\": false\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"meeyeg4\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"meimg6w\",\n        \"url\": \"https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/meimg6w/\",\n        \"permalink\": \"/r/volleyball/comments/1iwlltt/comment/meimg6w/\",\n        \"parentId\": \"t3_1iwlltt\",\n        \"author\": \"zinger_guy\",\n        \"text\": \"We just went through the recruiting process with my daughter:\\n\\n Phone is sufficient for everything, no need for fancy devices .\\n\\n Have your daughter edit film or clips in iPhone movie editor\\n\\n Create her VB email address, YouTube VB channel, instagram and maybe X profile . Post only all 2-3 platforms. Send all communications from her VB email, include links to social media at the bottom, her phone number and club recruiting coordinator (if any). No need to pay for NCSA!\\n\\n Focus on quality film not quantity: if a hitter, the best hits go first (include the whole play), blocks and passes are also important. Include serving only if amazing and 1-2 serves maximum at the end. 3-5 min max per video! Have a whole game film ready if asked to provide.\\n\\n Get a list of target schools (30ish in total all levels of play), emails of coaches and assistant coaches\\n\\n Have her send updates 1/month if sophomore, every 1-2 weeks if junior . Email coach, copy assistant coach\u2019s. Fill questioners on college website. Help her with admin stuff if you can, this is super overwhelming!\\n\\n Have her send emails to attending coaches before every tournament. Identify team names, her number and position. We included the color of jerseys too. Do this 1-2 weeks in advance, even if you don\u2019t know the exact times of play. Update again closer to date.\\n\\n Don\u2019t waste money on recruiting agencies! Coaches want kids to take initiative, and communicate .\\n\\n Summer between freshmen- sophomore and sophomore- junior, try to attend as many target school camps as possible. Great way to be seen and evaluated by coaches in a smaller setting.\\n\\n Don\u2019t focus on division, focus on an overall fit(social, financial, etc). Use broken leg test: would she consider going to the same college without VB in equation. Also, can you pay for it, without sport scholarship. Caches change, funding decreases, injuries happen.\\n\\n If planning to study a demanding major (ex: nursing, pre-med, etc) think if a kid can manage sport and academics.\\n\\n This will be a roller coaster experience! Lots of rejections! Support, encourage and don\u2019t give up . My kid plays for 18s, girls from the team are still getting recruited.\\n\\n Start ASAP! It\u2019s competitive on every level and not easy! Every coach has at least 2-3 prospects for each position!\\n\\n Hope this helps! If you have additional questions please lmk! Good book to buy is : looking for a full ride. Step by step explanation of the recurring process (not volleyball in particular but all sports 0).\",\n        \"renderedHtml\": \"\\n      <p>\\n      We just went through the recruiting process with my daughter:\\n    </p><ol>\\n        <li>\\n      <p>\\n      Phone is sufficient for everything, no need for fancy devices .\\n    </p>\\n    </li><li>\\n      <p>\\n      Have your daughter edit film or clips in iPhone movie editor\\n    </p>\\n    </li><li>\\n      <p>\\n      Create her VB email address, YouTube VB channel, instagram and maybe X profile . Post only all 2-3 platforms. Send all communications from her VB email, include links to social media at the bottom, her phone number and club recruiting coordinator (if any). No need to pay for NCSA!\\n    </p>\\n    </li><li>\\n      <p>\\n      Focus on quality film not quantity: if a hitter, the best hits go first (include the whole play), blocks and passes are also important. Include serving only if amazing and 1-2 serves maximum at the end. 3-5 min max per video! Have a whole game film ready if asked to provide.\\n    </p>\\n    </li><li>\\n      <p>\\n      Get a list of target schools (30ish in total all levels of play), emails of coaches and assistant coaches\\n    </p>\\n    </li><li>\\n      <p>\\n      Have her send updates 1/month if sophomore, every 1-2 weeks if junior . Email coach, copy assistant coach\u2019s. Fill questioners on college website. Help her with admin stuff if you can, this is super overwhelming!\\n    </p>\\n    </li><li>\\n      <p>\\n      Have her send emails to attending coaches before every tournament. Identify team names, her number and position. We included the color of jerseys too. Do this 1-2 weeks in advance, even if you don\u2019t know the exact times of play. Update again closer to date.\\n    </p>\\n    </li><li>\\n      <p>\\n      Don\u2019t waste money on recruiting agencies! Coaches want kids to take initiative, and communicate .\\n    </p>\\n    </li><li>\\n      <p>\\n      Summer between freshmen- sophomore and sophomore- junior, try to attend as many target school camps as possible. Great way to be seen and evaluated by coaches in a smaller setting.\\n    </p>\\n    </li><li>\\n      <p>\\n      Don\u2019t focus on division, focus on an overall fit(social, financial, etc). Use broken leg test: would she consider going to the same college without VB in equation. Also, can you pay for it, without sport scholarship. Caches change, funding  decreases, injuries happen.\\n    </p>\\n    </li><li>\\n      <p>\\n      If planning to study a demanding major (ex: nursing, pre-med, etc) think if a kid can manage sport and academics.\\n    </p>\\n    </li><li>\\n      <p>\\n      This will be a roller coaster experience! Lots of rejections! Support, encourage and don\u2019t give up . My kid plays for 18s, girls from the team are still getting recruited.\\n    </p>\\n    </li><li>\\n      <p>\\n      Start ASAP! It\u2019s competitive on every level and not easy! Every coach has at least 2-3 prospects for each position!\\n    </p>\\n    </li>\\n      </ol><p>\\n      Hope this helps! If you have additional questions please lmk! Good book to buy is : looking for a full ride. Step by step explanation of the recurring process (not volleyball in particular but all sports 0).\\n    </p>\\n    \",\n        \"score\": 6,\n        \"upvotes\": 6,\n        \"createdAt\": \"2025-02-24T13:50:54.000Z\",\n        \"createdUtc\": 1740405054,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"mekjrim\",\n              \"url\": \"https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/mekjrim/\",\n              \"permalink\": \"/r/volleyball/comments/1iwlltt/comment/mekjrim/\",\n              \"parentId\": \"t1_meimg6w\",\n              \"author\": \"Juice-cup\",\n              \"text\": \"In the process with a Junior and this is what has worked with us as well.\\n\\n In addition:\\n\\n - Complete your University Athlete (Free profile). Fill out the height, gpa, and add at least a video to this. Coaches use this to track players at tournaments and to take notes. I've heard directly from coaches that some filter by height, gpa, and if video is available so those are key metrics.\\n\\n - No recruiting services needed. I have friends that pay and we've just ended up in the same place.\\n\\n - Camps are big, especially for D2, D3.\\n\\n - Have an unofficial transcript ready. High academic schools need to see the grades. After the first semester of Junior year they have a feel if your kid can manage academically but most pre-reads will for D3 will require a fully 3 year transcript.\\n\\n - For D3 if you want to visit a campus, ask. Straight up, I'm planning on taking a tour of your campus on March XX, would it be possible to meet with you or some of your players? My daughter got to hang with some players at a school and it turned the school from a Yes to a No.\\n\\n - My daughter asks to get on the phone with coaches. She's had good luck with it (had two this morning). Research before the phone calls, have a good set of questions ready. Don't wait for them to setup phone calls.\\n\\n - When coaches come to your games, don't bother them. For those that I've met on visits I do say a brief hello after the match. I keep it really brief.\\n\\n - Lastly, have fun. When I stopped worrying about it, my kid stopped and now she's embracing it and it's all been way more fun.\\n\\n Feel free to DM if you have some questions.\",\n              \"renderedHtml\": \"\\n      <p>\\n      In the process with a Junior and this is what has worked with us as well.\\n    </p><p>\\n      In addition:\\n    </p><p>\\n      - Complete your University Athlete (Free profile).  Fill out the height, gpa, and add at least a video to this.  Coaches use this to track players at tournaments and to take notes.  I've heard directly from coaches that some filter by height, gpa, and if video is available so those are key metrics.\\n    </p><p>\\n      - No recruiting services needed.  I have friends that pay and we've just ended up in the same place.\\n    </p><p>\\n      - Camps are big, especially for D2, D3.\\n    </p><p>\\n      - Have an unofficial transcript ready. High academic schools need to see the grades.  After the first semester of Junior year they have a feel if your kid can manage academically but most pre-reads will for D3 will require a fully 3 year transcript.\\n    </p><p>\\n      -  For D3 if you want to visit a campus, ask.  Straight up, I'm planning on taking a tour of your campus on March XX, would it be possible to meet with you or some of your players?  My daughter got to hang with some players at a school and it turned the school from a Yes to a No.\\n    </p><p>\\n      - My daughter asks to get on the phone with coaches.  She's had good luck with it (had two this morning).  Research before the phone calls, have a good set of questions ready.  Don't wait for them to setup phone calls.\\n    </p><p>\\n      - When coaches come to your games, don't bother them.  For those that I've met on visits I do say a brief hello after the match.  I keep it really brief.\\n    </p><p>\\n      - Lastly, have fun.  When I stopped worrying about it, my kid stopped and now she's embracing it and it's all been way more fun.\\n    </p><p>\\n      Feel free to DM if you have some questions.\\n    </p>\\n    \",\n              \"score\": 4,\n              \"upvotes\": 4,\n              \"createdAt\": \"2025-02-24T19:32:44.000Z\",\n              \"createdUtc\": 1740425564,\n              \"depth\": 0,\n              \"isSubmitter\": false,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": \"eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy92b2xsZXliYWxsL3QzXzFpd2xsdHQ_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MiZjb21tZW50UGFyZW50UG9zaXRpb25zPTIsMCIsImN1cnNvciI6IlkyOXRiV1Z1ZEhSeVpXVTZORFF4WVRGalpERXNPam95T21ReE9uUXhYMjFsYTJweWFXMD0iLCJzdWJyZWRkaXQiOiJ2b2xsZXliYWxsIiwicG9zdElkIjoiMWl3bGx0dCIsInBhcmVudFRoaW5nSWQiOiJ0MV9tZWtqcmltIn0\",\n                  \"hasMore\": true\n                }\n              }\n            },\n            {\n              \"id\": \"mel52ht\",\n              \"url\": \"https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/mel52ht/\",\n              \"permalink\": \"/r/volleyball/comments/1iwlltt/comment/mel52ht/\",\n              \"parentId\": \"t1_meimg6w\",\n              \"author\": \"Tactically_Fat\",\n              \"text\": \"Thanks for spiking my anxiety! Haha.\\n\\n I'm guessing my 8th grader is a little early for most of this\",\n              \"renderedHtml\": \"\\n      <p>\\n      Thanks for spiking my anxiety! Haha.\\n    </p><p>\\n      I'm guessing my 8th grader is a little early for most of this\\n    </p>\\n    \",\n              \"score\": 2,\n              \"upvotes\": 2,\n              \"createdAt\": \"2025-02-24T21:11:58.000Z\",\n              \"createdUtc\": 1740431518,\n              \"depth\": 0,\n              \"isSubmitter\": true,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": \"eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy92b2xsZXliYWxsL3QzXzFpd2xsdHQ_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MiZjb21tZW50UGFyZW50UG9zaXRpb25zPTIsMSIsImN1cnNvciI6IlkyOXRiV1Z1ZEhSeVpXVTZZV1l4TUdRNU5tSXNPam95T21ReE9uUXhYMjFsYkRVeWFIUT0iLCJzdWJyZWRkaXQiOiJ2b2xsZXliYWxsIiwicG9zdElkIjoiMWl3bGx0dCIsInBhcmVudFRoaW5nSWQiOiJ0MV9tZWw1Mmh0In0\",\n                  \"hasMore\": true\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"mekjrim\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"meh8j94\",\n        \"url\": \"https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/meh8j94/\",\n        \"permalink\": \"/r/volleyball/comments/1iwlltt/comment/meh8j94/\",\n        \"parentId\": \"t3_1iwlltt\",\n        \"author\": \"Wet_Artichoke\",\n        \"text\": \"I\u2019m sorry I don\u2019t have answers for your questions here. But I need to tell you\u2026\\n\\n Do not use CaptainU\\n\\n It took THREE YEARS to cancel my account. I tried everything. I even had my credit card number changed. In the end, they charged me over $500 in unauthorized transactions.\",\n        \"renderedHtml\": \"\\n      <p>\\n      I\u2019m sorry I don\u2019t have answers for your questions here. But I need to tell you\u2026\\n    </p><blockquote>\\n      <p>\\n      Do not use CaptainU\\n    </p>\\n    </blockquote><p>\\n      It took THREE YEARS to cancel my account. I tried everything. I even had my credit card number changed. In the end, they charged me over $500 in unauthorized transactions.\\n    </p>\\n    \",\n        \"score\": 2,\n        \"upvotes\": 2,\n        \"createdAt\": \"2025-02-24T06:30:39.000Z\",\n        \"createdUtc\": 1740378639,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"mel7blz\",\n              \"url\": \"https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/mel7blz/\",\n              \"permalink\": \"/r/volleyball/comments/1iwlltt/comment/mel7blz/\",\n              \"parentId\": \"t1_meh8j94\",\n              \"author\": \"Tactically_Fat\",\n              \"text\": \"Got it!\",\n              \"renderedHtml\": \"\\n      <p>\\n      Got it!\\n    </p>\\n    \",\n              \"score\": 2,\n              \"upvotes\": 2,\n              \"createdAt\": \"2025-02-24T21:22:26.000Z\",\n              \"createdUtc\": 1740432146,\n              \"depth\": 0,\n              \"isSubmitter\": true,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": null,\n                  \"hasMore\": false\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"meh8j94\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"melw8gd\",\n        \"url\": \"https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/melw8gd/\",\n        \"permalink\": \"/r/volleyball/comments/1iwlltt/comment/melw8gd/\",\n        \"parentId\": \"t3_1iwlltt\",\n        \"author\": \"Ok-Consequence4105\",\n        \"text\": \"No music\",\n        \"renderedHtml\": \"\\n      <p>\\n      No music\\n    </p>\\n    \",\n        \"score\": 2,\n        \"upvotes\": 2,\n        \"createdAt\": \"2025-02-24T23:23:32.000Z\",\n        \"createdUtc\": 1740439412,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"mepcsgd\",\n              \"url\": \"https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/mepcsgd/\",\n              \"permalink\": \"/r/volleyball/comments/1iwlltt/comment/mepcsgd/\",\n              \"parentId\": \"t1_melw8gd\",\n              \"author\": \"Tactically_Fat\",\n              \"text\": \"Oh - I'd 100% not include any music! I'd do what I could to strip all audio.\",\n              \"renderedHtml\": \"\\n      <p>\\n      Oh - I'd 100% not include any music!  I'd do what I could to strip all audio.\\n    </p>\\n    \",\n              \"score\": 1,\n              \"upvotes\": 1,\n              \"createdAt\": \"2025-02-25T14:15:39.000Z\",\n              \"createdUtc\": 1740492939,\n              \"depth\": 0,\n              \"isSubmitter\": true,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": null,\n                  \"hasMore\": false\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"melw8gd\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"meezn4i\",\n        \"url\": \"https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/meezn4i/\",\n        \"permalink\": \"/r/volleyball/comments/1iwlltt/comment/meezn4i/\",\n        \"parentId\": \"t3_1iwlltt\",\n        \"author\": \"J_Kelly11\",\n        \"text\": \"If you go through ncsa which is who I used to get recruited for d3 men\u2019s vball, I think they will make a highlight tape for you if you submit video to them. I think they give 1 for free and if you want others then its more. My mom used a camcorder we\u2019ve had for years and didn\u2019t have the best video quality but they also highlight you in the clip so its easier for coaches to see. I\u2019ve seen a lot of people go the route too of making a specific instagram page just for volleyball and posting highlights and clips there. Coaches could reach out there. Really what it comes down to is seeing who\u2019s interested and reaching out to programs you are interested in too. Send some coaches some emails and have your daughter introduce herself and just kinda see what happens.\",\n        \"renderedHtml\": \"\\n      <p>\\n      If you go through ncsa which is who I used to get recruited for d3 men\u2019s vball, I think they will make a highlight tape for you if you submit video to them. I think they give 1 for free and if you want others then its more. My mom used a camcorder we\u2019ve had for years and didn\u2019t have the best video quality but they also highlight you in the clip so its easier for coaches to see. I\u2019ve seen a lot of people go the route too of making a specific instagram page just for volleyball and posting highlights and clips there. Coaches could reach out there. Really what it comes down to is seeing who\u2019s interested and reaching out to programs you are interested in too. Send some coaches some emails and have your daughter introduce herself and just kinda see what happens.\\n    </p>\\n    \",\n        \"score\": 3,\n        \"upvotes\": 3,\n        \"createdAt\": \"2025-02-23T22:06:42.000Z\",\n        \"createdUtc\": 1740348402,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"mel80kb\",\n              \"url\": \"https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/mel80kb/\",\n              \"permalink\": \"/r/volleyball/comments/1iwlltt/comment/mel80kb/\",\n              \"parentId\": \"t1_meezn4i\",\n              \"author\": \"Tactically_Fat\",\n              \"text\": \"Thank you!\",\n              \"renderedHtml\": \"\\n      <p>\\n      Thank you!\\n    </p>\\n    \",\n              \"score\": 1,\n              \"upvotes\": 1,\n              \"createdAt\": \"2025-02-24T21:25:39.000Z\",\n              \"createdUtc\": 1740432339,\n              \"depth\": 0,\n              \"isSubmitter\": true,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": null,\n                  \"hasMore\": false\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"meezn4i\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"mefc3rj\",\n        \"url\": \"https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/mefc3rj/\",\n        \"permalink\": \"/r/volleyball/comments/1iwlltt/comment/mefc3rj/\",\n        \"parentId\": \"t3_1iwlltt\",\n        \"author\": \"CollegeSportsSheets\",\n        \"text\": \"Lots of questions which is good. To start have you read this post yet - here are 12 recruiting steps you can take yourself - https://www.reddit.com/r/volleyball/comments/1ddw1h5/rough_guide_to_playing_volleyball_at_college_how/\\n\\n With some of your question:\\n\\n Any other players in your club in the recruiting process or alumni that were recruited you can reach out to?\\n\\n Start taking film with your phone and see how it turns out if it\u2019s not enough then look at other options. In terms of editing - clipchamp is a free Microsoft product you can try and see how it works. OpenShot Video editor is another freeware program that works.\\n\\n Also search this subreddit for specifics questions.\\n\\n Good luck.\",\n        \"renderedHtml\": \"\\n      <p>\\n      Lots of questions which is good. To start have you read this post yet - here are 12 recruiting steps you can take yourself - <a rpl=\\\"\\\" class=\\\"relative pointer-events-auto a\\n  \\n  \\n  \\n  \\n  underline\\n  \\n  cursor-pointer\\\" href=\\\"https://www.reddit.com/r/volleyball/comments/1ddw1h5/rough_guide_to_playing_volleyball_at_college_how/\\\" rel=\\\"noopener nofollow ugc\\\" target=\\\"_blank\\\">https://www.reddit.com/r/volleyball/comments/1ddw1h5/rough_guide_to_playing_volleyball_at_college_how/</a>\\n    </p><p>\\n      With some of your question:\\n    </p><p>\\n      Any other players in your club in the recruiting process or alumni that were recruited you can reach out to?\\n    </p><p>\\n      Start taking film with your phone and see how it turns out if it\u2019s not enough then look at other options. In terms of editing - clipchamp is a free Microsoft product you can try and see how it works. OpenShot Video editor is another freeware program that works.\\n    </p><p>\\n      Also search this subreddit for specifics questions.\\n    </p><p>\\n      Good luck.\\n    </p>\\n    \",\n        \"score\": 2,\n        \"upvotes\": 2,\n        \"createdAt\": \"2025-02-23T23:12:17.000Z\",\n        \"createdUtc\": 1740352337,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"mel7kpg\",\n              \"url\": \"https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/mel7kpg/\",\n              \"permalink\": \"/r/volleyball/comments/1iwlltt/comment/mel7kpg/\",\n              \"parentId\": \"t1_mefc3rj\",\n              \"author\": \"Tactically_Fat\",\n              \"text\": \"Thanks! I'll get through that post tomorrow!\",\n              \"renderedHtml\": \"\\n      <p>\\n      Thanks! I'll get through that post tomorrow!\\n    </p>\\n    \",\n              \"score\": 2,\n              \"upvotes\": 2,\n              \"createdAt\": \"2025-02-24T21:23:38.000Z\",\n              \"createdUtc\": 1740432218,\n              \"depth\": 0,\n              \"isSubmitter\": true,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": null,\n                  \"hasMore\": false\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"mefc3rj\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"meifq5m\",\n        \"url\": \"https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/meifq5m/\",\n        \"permalink\": \"/r/volleyball/comments/1iwlltt/comment/meifq5m/\",\n        \"parentId\": \"t3_1iwlltt\",\n        \"author\": \"mwerte\",\n        \"text\": \"Don't need a recruiting service. Coaches want to hear from players who can handle their own business. So player should be sending the emails and not the parent.\\n\\n Record video, throw up on YouTube. Email coaches frequently with new video/tournament schedule. Cast a wide net with who you email.\\n\\n Each email should include:\\n\\n Name High school/grad year Club name/number Club recruiting coordinator contact Position\\n\\n Here's a doc I put together for my girls that has some good info from recruiting coordinators.\\n\\n https://docs.google.com/document/d/1ZpltZCCQNxSj5ZjFx_DYRHVXcWXSmZjORvJXe6v5rDo/edit?usp=drivesdk\",\n        \"renderedHtml\": \"\\n      <p>\\n      Don't need a recruiting service. Coaches want to hear from players who can handle their own business. So player should be sending the emails and not the parent.\\n    </p><p>\\n      Record video, throw up on YouTube. Email coaches frequently with new video/tournament schedule. Cast a wide net with who you email.\\n    </p><p>\\n      Each email should include:\\n    </p><p>\\n      Name High school/grad year Club name/number Club recruiting coordinator contact Position\\n    </p><p>\\n      Here's a doc I put together for my girls that has some good info from recruiting coordinators.\\n    </p><p>\\n      <a rpl=\\\"\\\" class=\\\"relative pointer-events-auto a\\n  \\n  \\n  \\n  \\n  underline\\n  \\n  cursor-pointer\\\" href=\\\"https://docs.google.com/document/d/1ZpltZCCQNxSj5ZjFx_DYRHVXcWXSmZjORvJXe6v5rDo/edit?usp=drivesdk\\\" rel=\\\"noopener nofollow ugc\\\" target=\\\"_blank\\\">https://docs.google.com/document/d/1ZpltZCCQNxSj5ZjFx_DYRHVXcWXSmZjORvJXe6v5rDo/edit?usp=drivesdk</a>\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2025-02-24T13:09:10.000Z\",\n        \"createdUtc\": 1740402550,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"mel795a\",\n              \"url\": \"https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/mel795a/\",\n              \"permalink\": \"/r/volleyball/comments/1iwlltt/comment/mel795a/\",\n              \"parentId\": \"t1_meifq5m\",\n              \"author\": \"Tactically_Fat\",\n              \"text\": \"Awesome! Thank you.\",\n              \"renderedHtml\": \"\\n      <p>\\n      Awesome! Thank you.\\n    </p>\\n    \",\n              \"score\": 1,\n              \"upvotes\": 1,\n              \"createdAt\": \"2025-02-24T21:22:07.000Z\",\n              \"createdUtc\": 1740432127,\n              \"depth\": 0,\n              \"isSubmitter\": true,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": null,\n                  \"hasMore\": false\n                }\n              }\n            },\n            {\n              \"id\": \"mepdrdu\",\n              \"url\": \"https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/mepdrdu/\",\n              \"permalink\": \"/r/volleyball/comments/1iwlltt/comment/mepdrdu/\",\n              \"parentId\": \"t1_meifq5m\",\n              \"author\": \"Tactically_Fat\",\n              \"text\": \"I wanted to thank you again for that document. I copied it!\",\n              \"renderedHtml\": \"\\n      <p>\\n      I wanted to thank you again for that document. I copied it!\\n    </p>\\n    \",\n              \"score\": 1,\n              \"upvotes\": 1,\n              \"createdAt\": \"2025-02-25T14:21:08.000Z\",\n              \"createdUtc\": 1740493268,\n              \"depth\": 0,\n              \"isSubmitter\": true,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": \"eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy92b2xsZXliYWxsL3QzXzFpd2xsdHQ_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MiZjb21tZW50UGFyZW50UG9zaXRpb25zPTcsMSIsImN1cnNvciI6IlkyOXRiV1Z1ZEhSeVpXVTZNbVl4TXpBek5ERXNPam95T21ReE9uUXhYMjFsY0dSeVpIVT0iLCJzdWJyZWRkaXQiOiJ2b2xsZXliYWxsIiwicG9zdElkIjoiMWl3bGx0dCIsInBhcmVudFRoaW5nSWQiOiJ0MV9tZXBkcmR1In0\",\n                  \"hasMore\": true\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"mepdrdu\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"mek1fo2\",\n        \"url\": \"https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/mek1fo2/\",\n        \"permalink\": \"/r/volleyball/comments/1iwlltt/comment/mek1fo2/\",\n        \"parentId\": \"t3_1iwlltt\",\n        \"author\": \"OdysseusA\",\n        \"text\": \"Our club director discouraged paying recruiting agencies. Instead, they suggested athletes to create a free profile account in\\n\\n University Athlete (https://universityathlete.com)\\n\\n As the recruiting platform says, they charge college coaches, not players. It let's you choose your target colleges and correspond with the coaches. Coaches \\\"follow\\\" the athletes in return. You can also put links to highlight and recruiting videos you post on YouTube.\\n\\n How to Make a Recruiting Video (https://www.youtube.com/watch?v=W4qmbBb8cIQ)\\n\\n Hope this helps.\",\n        \"renderedHtml\": \"\\n      <p>\\n      Our club director discouraged paying recruiting agencies. Instead, they suggested athletes to create a free profile account in\\n    </p><p>\\n      <a rpl=\\\"\\\" class=\\\"relative pointer-events-auto a\\n  \\n  \\n  \\n  \\n  underline\\n  \\n  cursor-pointer\\\" href=\\\"https://universityathlete.com\\\" rel=\\\"noopener nofollow ugc\\\" target=\\\"_blank\\\">University Athlete</a> (<a rpl=\\\"\\\" class=\\\"relative pointer-events-auto a\\n  \\n  \\n  \\n  \\n  underline\\n  \\n  cursor-pointer\\\" href=\\\"https://universityathlete.com\\\" rel=\\\"noopener nofollow ugc\\\" target=\\\"_blank\\\">https://universityathlete.com</a>)\\n    </p><p>\\n      As the recruiting platform says, they charge college coaches, not players. It let's you choose your target colleges and correspond with the coaches. Coaches \\\"follow\\\" the athletes in return. You can also put links to highlight and recruiting videos you post on YouTube.\\n    </p><p>\\n      <a rpl=\\\"\\\" class=\\\"relative pointer-events-auto a\\n  \\n  \\n  \\n  \\n  underline\\n  \\n  cursor-pointer\\\" href=\\\"https://www.youtube.com/watch?v=W4qmbBb8cIQ\\\" rel=\\\"noopener nofollow ugc\\\" target=\\\"_blank\\\">How to Make a Recruiting Video</a> (<a rpl=\\\"\\\" class=\\\"relative pointer-events-auto a\\n  \\n  \\n  \\n  \\n  underline\\n  \\n  cursor-pointer\\\" href=\\\"https://www.youtube.com/watch?v=W4qmbBb8cIQ\\\" rel=\\\"noopener nofollow ugc\\\" target=\\\"_blank\\\">https://www.youtube.com/watch?v=W4qmbBb8cIQ</a>)\\n    </p><p>\\n      Hope this helps.\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2025-02-24T18:05:59.000Z\",\n        \"createdUtc\": 1740420359,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"mel4f4h\",\n              \"url\": \"https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/mel4f4h/\",\n              \"permalink\": \"/r/volleyball/comments/1iwlltt/comment/mel4f4h/\",\n              \"parentId\": \"t1_mek1fo2\",\n              \"author\": \"Tactically_Fat\",\n              \"text\": \"It does! Thank you!\",\n              \"renderedHtml\": \"\\n      <p>\\n      It does! Thank you!\\n    </p>\\n    \",\n              \"score\": 1,\n              \"upvotes\": 1,\n              \"createdAt\": \"2025-02-24T21:08:57.000Z\",\n              \"createdUtc\": 1740431337,\n              \"depth\": 0,\n              \"isSubmitter\": true,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": null,\n                  \"hasMore\": false\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"mek1fo2\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"mef3yrr\",\n        \"url\": \"https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/mef3yrr/\",\n        \"permalink\": \"/r/volleyball/comments/1iwlltt/comment/mef3yrr/\",\n        \"parentId\": \"t3_1iwlltt\",\n        \"author\": \"rodrigoruy\",\n        \"text\": \"There's a website called BallTime that uses AI to identify players and their best plays. I helps if you have very little editing skills. It's paid, but there's a 2 weeks free trial.\",\n        \"renderedHtml\": \"\\n      <p>\\n      There's a website called BallTime that uses AI to identify players and their best plays. I helps if you have very little editing skills. It's paid, but there's a 2 weeks free trial.\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2025-02-23T22:28:55.000Z\",\n        \"createdUtc\": 1740349735,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"mel7o90\",\n              \"url\": \"https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/mel7o90/\",\n              \"permalink\": \"/r/volleyball/comments/1iwlltt/comment/mel7o90/\",\n              \"parentId\": \"t1_mef3yrr\",\n              \"author\": \"Tactically_Fat\",\n              \"text\": \"Something to keep in mind! Thank you.\",\n              \"renderedHtml\": \"\\n      <p>\\n      Something to keep in mind! Thank you.\\n    </p>\\n    \",\n              \"score\": 1,\n              \"upvotes\": 1,\n              \"createdAt\": \"2025-02-24T21:24:05.000Z\",\n              \"createdUtc\": 1740432245,\n              \"depth\": 0,\n              \"isSubmitter\": true,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": null,\n                  \"hasMore\": false\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy92b2xsZXliYWxsL3QzXzFpd2xsdHQ_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MSZjb21tZW50UG9zaXRpb25PZmZzZXQ9MSZjb21tZW50UGFyZW50UG9zaXRpb25zPTkiLCJjdXJzb3IiOiJZMjl0YldWdWRIUnlaV1U2TkdabE1XTXlZbVlzT2pveE9tVjRPaWdoZkgwL2JRPT0iLCJzdWJyZWRkaXQiOiJ2b2xsZXliYWxsIiwicG9zdElkIjoiMWl3bGx0dCIsInBhcmVudFRoaW5nSWQiOiJ0MV9tZWYzeXJyIn0\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"nmnlz63\",\n        \"url\": \"https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/nmnlz63/\",\n        \"permalink\": \"/r/volleyball/comments/1iwlltt/comment/nmnlz63/\",\n        \"parentId\": \"t3_1iwlltt\",\n        \"author\": \"[deleted]\",\n        \"text\": \"[deleted]\",\n        \"renderedHtml\": null,\n        \"score\": 2,\n        \"upvotes\": 2,\n        \"createdAt\": \"2025-11-02T04:44:14.000Z\",\n        \"createdUtc\": 1762058654,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"oqi4pzt\",\n        \"url\": \"https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/oqi4pzt/\",\n        \"permalink\": \"/r/volleyball/comments/1iwlltt/comment/oqi4pzt/\",\n        \"parentId\": \"t3_1iwlltt\",\n        \"author\": \"[deleted]\",\n        \"text\": \"[deleted]\",\n        \"renderedHtml\": null,\n        \"score\": 2,\n        \"upvotes\": 2,\n        \"createdAt\": \"2026-06-08T19:03:23.000Z\",\n        \"createdUtc\": 1780945403,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": \"eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy92b2xsZXliYWxsL3QzXzFpd2xsdHQ_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MSZjb21tZW50UGFyZW50UG9zaXRpb25zPTExIiwiY3Vyc29yIjoiWTI5dGJXVnVkSFJ5WldVNllqa3dObVU0WWpZc09qb3hPbVF4T25ReFgyOXhhVFJ3ZW5RPSIsInN1YnJlZGRpdCI6InZvbGxleWJhbGwiLCJwb3N0SWQiOiIxaXdsbHR0IiwicGFyZW50VGhpbmdJZCI6InQxX29xaTRwenQifQ\",\n            \"hasMore\": true\n          }\n        }\n      }\n    ]\n  },\n  \"meta\": {\n    \"requestId\": \"req_06e9fe8b-b4ae-4748-b445-c5cb29df485a\",\n    \"creditsCharged\": 1,\n    \"version\": \"v1\"\n  }\n}"
+   },
+   {
+    "type": "text",
+    "text": "{\"conversation_id\":\"01a1af67-6073-7aec-b92e-c2ba4aff1cb7\"}"
+   }
+  ],
+  "structuredContent": {
+   "data": {
+    "lookupStatus": "found",
+    "post": {
+     "id": "1iwlltt",
+     "title": "Parents of kids being recruited...",
+     "text": "What/how are you posting highlight clips? How are you recording /editing them? What recruiting platforms are you investing in? I am under no illusions that my kid will be playing D1 unless it is a SUPER small program. DII? There's a shot. DIII or NAIA? Also a shot. Had a small university coach ask my wife yesterday how she could \"follow her\" - meaning my daughter. Asked about if we'd be playing any tournaments in her state (we're not, at least not this club season). She's raw. Very raw right now. But has talent. And is almost 6' tall and can jump high enough to just about get her armpits at the top of the tape. So - we need to start getting ready, I think. Is a phone adequate to film? What hosting platforms? YT? HUDL? Are there others? What about recruiting agencies? We've been contacted by NCSA - but we won't be pursuing them due to several poor recommendations. I'm totally a newb at this and more than a little overwhelmed at the prospect of needing to be some kind of video editor with a crappy computer!",
+     "url": "https://www.reddit.com/r/volleyball/comments/1iwlltt/parents_of_kids_being_recruited/",
+     "permalink": "/r/volleyball/comments/1iwlltt/parents_of_kids_being_recruited/",
+     "subreddit": "volleyball",
+     "subredditNamePrefixed": "r/volleyball",
+     "author": "Tactically_Fat",
+     "score": 28,
+     "upvoteRatio": 0.9666666666666667,
+     "commentCount": 47,
+     "createdAt": "2025-02-23T21:51:18.000Z",
+     "createdUtc": 1740347478,
+     "over18": false,
+     "locked": false,
+     "stickied": false
+    },
+    "page": {
+     "nextCursor": "eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy92b2xsZXliYWxsL3QzXzFpd2xsdHQ_c2Vla2VyLXNlc3Npb249ZmFsc2UmcmVuZGVyLW1vZGU9cGFydGlhbCZ0b3AtbGV2ZWw9MSZjb21tZW50cy1yZW1haW5pbmc9NzUmY29tbWVudFBvc2l0aW9uT2Zmc2V0PTEyIiwiY3Vyc29yIjoiWTI5dGJXVnVkSFJ5WldVNk1qQTBOR001WkRFc09qb3dPbVY0T2lnaGIzY3Jhem9sYTF0QlNDazZKMkphSm05Rk1rOWNUWFlpSkh3dGRpTlFma0JHT1hRamV5UTVKSE5CY2tWYU5EWnBRalJQWFN3PSIsInN1YnJlZGRpdCI6InZvbGxleWJhbGwiLCJwb3N0SWQiOiIxaXdsbHR0IiwicGFyZW50VGhpbmdJZCI6bnVsbH0",
+     "hasMore": true
+    },
+    "comments": [
+     {
+      "id": "mef0q1n",
+      "url": "https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/mef0q1n/",
+      "permalink": "/r/volleyball/comments/1iwlltt/comment/mef0q1n/",
+      "parentId": "t3_1iwlltt",
+      "author": "joetrinsey",
+      "text": "Highlight tape on Youtube is generally good enough. 10-20 good swings and blocks. Direct contact from the athlete to the coach is good. Coaches may want to see full match video, but if you're already going to be at a tournament they will be at then they can watch you live just as easily.\n\n If your kid is armpits at the net, then she's at 10' and somebody will recruit her. 9'6\"ish will put you in scholarship territory if you're skilled. 10' will get you a scholarship to somewhere unless you're a total basket case.\n\n Feel to follow up. I've been involved in club volleyball for a long time and have also coached D1 men's and women's.",
+      "renderedHtml": "\n      <p>\n      Highlight tape on Youtube is generally good enough. 10-20 good swings and blocks. Direct contact from the athlete to the coach is good. Coaches may want to see full match video, but if you're already going to be at a tournament they will be at then they can watch you live just as easily.\n    </p><p>\n      If your kid is armpits at the net, then she's at 10' and somebody will recruit her. 9'6\"ish will put you in scholarship territory if you're skilled. 10' will get you a scholarship to somewhere unless you're a total basket case.\n    </p><p>\n      Feel to follow up. I've been involved in club volleyball for a long time and have also coached D1 men's and women's.\n    </p>\n    ",
+      "score": 39,
+      "upvotes": 39,
+      "createdAt": "2025-02-23T22:12:13.000Z",
+      "createdUtc": 1740348733,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "mel7upk",
+         "url": "https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/mel7upk/",
+         "permalink": "/r/volleyball/comments/1iwlltt/comment/mel7upk/",
+         "parentId": "t1_mef0q1n",
+         "author": "Tactically_Fat",
+         "text": "Thank you! I appreciate it!",
+         "renderedHtml": "\n      <p>\n      Thank you! I appreciate it!\n    </p>\n    ",
+         "score": 3,
+         "upvotes": 3,
+         "createdAt": "2025-02-24T21:24:55.000Z",
+         "createdUtc": 1740432295,
+         "depth": 0,
+         "isSubmitter": true,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": null,
+           "hasMore": false
+          }
+         }
+        },
+        {
+         "id": "mefk5bb",
+         "url": "https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/mefk5bb/",
+         "permalink": "/r/volleyball/comments/1iwlltt/comment/mefk5bb/",
+         "parentId": "t1_mef0q1n",
+         "author": "ravice41",
+         "text": "Listen to Joe!!! He knows all.\n\n Recruiting services and film editors can help, but at end of the day if the coach can just click on a youtube link, they'll be happy.\n\n I currently coach in college. Flipping back and forth between sportsrecruits, NCSA, SandRecruita, Hudl, Instagram, etc...is not ideal. YouTube is easy.",
+         "renderedHtml": "\n      <p>\n      Listen to Joe!!! He knows all.\n    </p><p>\n      Recruiting services and film editors can help, but at end of the day if the coach can just click on a youtube link, they'll be happy.\n    </p><p>\n      I currently coach in college. Flipping back and forth between sportsrecruits, NCSA, SandRecruita, Hudl, Instagram, etc...is not ideal. YouTube is easy.\n    </p>\n    ",
+         "score": 10,
+         "upvotes": 10,
+         "createdAt": "2025-02-23T23:56:54.000Z",
+         "createdUtc": 1740355014,
+         "depth": 0,
+         "isSubmitter": false,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": null,
+           "hasMore": false
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy92b2xsZXliYWxsL3QzXzFpd2xsdHQ_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MSZjb21tZW50UG9zaXRpb25PZmZzZXQ9MiZjb21tZW50UGFyZW50UG9zaXRpb25zPTAiLCJjdXJzb3IiOiJZMjl0YldWdWRIUnlaV1U2TUdNd05qZzROeklzT2pveE9tVjRPaWdoY1RGSlNEb2xPaXh0Y2trPSIsInN1YnJlZGRpdCI6InZvbGxleWJhbGwiLCJwb3N0SWQiOiIxaXdsbHR0IiwicGFyZW50VGhpbmdJZCI6InQxX21lZjBxMW4ifQ",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "meeyeg4",
+      "url": "https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/meeyeg4/",
+      "permalink": "/r/volleyball/comments/1iwlltt/comment/meeyeg4/",
+      "parentId": "t3_1iwlltt",
+      "author": "ohno225",
+      "text": "I got a good amount of offers from tournaments and stuff, and my NCSA profile. I also had a highlight tape I put together myself of just clips taken on a phone from my tournaments. 4-5 minutes long, edited together in iMovie, and posted onto YouTube. I got a few D1 offers, and a bunch from D2/NAIA just with this set up.\n\n Obviously, men's volleyball is less competitive, but as long as college coaches can see what she can do that is enough. I would have that highlight tape, and 1 or 2 full games she played well in posted on a youtube channel that you can send to coaches. I would also put her height, position, and touch height on those videos.\n\n I don't know of any other recruiting platforms outside of NCSA, but height and touch height are the two biggest things I was asked by coaches who didn't find me through that. Good luck!!",
+      "renderedHtml": "\n      <p>\n      I got a good amount of offers from tournaments and stuff, and my NCSA profile. I also had a highlight tape I put together myself of just clips taken on a phone from my tournaments. 4-5 minutes long, edited together in iMovie, and posted onto YouTube. I got a few D1 offers, and a bunch from D2/NAIA just with this set up.\n    </p><p>\n      Obviously, men's volleyball is less competitive, but as long as college coaches can see what she can do that is enough. I would have that highlight tape, and 1 or 2 full games she played well in posted on a youtube channel that you can send to coaches. I would also put her height, position, and touch height on those videos.\n    </p><p>\n      I don't know of any other recruiting platforms outside of NCSA, but height and touch height are the two biggest things I was asked by coaches who didn't find me through that. Good luck!!\n    </p>\n    ",
+      "score": 6,
+      "upvotes": 6,
+      "createdAt": "2025-02-23T22:00:22.000Z",
+      "createdUtc": 1740348022,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "meez2rz",
+         "url": "https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/meez2rz/",
+         "permalink": "/r/volleyball/comments/1iwlltt/comment/meez2rz/",
+         "parentId": "t1_meeyeg4",
+         "author": "Tactically_Fat",
+         "text": "Thank you!",
+         "renderedHtml": "\n      <p>\n      Thank you!\n    </p>\n    ",
+         "score": 2,
+         "upvotes": 2,
+         "createdAt": "2025-02-23T22:03:48.000Z",
+         "createdUtc": 1740348228,
+         "depth": 0,
+         "isSubmitter": true,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": null,
+           "hasMore": false
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "meeyeg4",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "meimg6w",
+      "url": "https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/meimg6w/",
+      "permalink": "/r/volleyball/comments/1iwlltt/comment/meimg6w/",
+      "parentId": "t3_1iwlltt",
+      "author": "zinger_guy",
+      "text": "We just went through the recruiting process with my daughter:\n\n Phone is sufficient for everything, no need for fancy devices .\n\n Have your daughter edit film or clips in iPhone movie editor\n\n Create her VB email address, YouTube VB channel, instagram and maybe X profile . Post only all 2-3 platforms. Send all communications from her VB email, include links to social media at the bottom, her phone number and club recruiting coordinator (if any). No need to pay for NCSA!\n\n Focus on quality film not quantity: if a hitter, the best hits go first (include the whole play), blocks and passes are also important. Include serving only if amazing and 1-2 serves maximum at the end. 3-5 min max per video! Have a whole game film ready if asked to provide.\n\n Get a list of target schools (30ish in total all levels of play), emails of coaches and assistant coaches\n\n Have her send updates 1/month if sophomore, every 1-2 weeks if junior . Email coach, copy assistant coach\u2019s. Fill questioners on college website. Help her with admin stuff if you can, this is super overwhelming!\n\n Have her send emails to attending coaches before every tournament. Identify team names, her number and position. We included the color of jerseys too. Do this 1-2 weeks in advance, even if you don\u2019t know the exact times of play. Update again closer to date.\n\n Don\u2019t waste money on recruiting agencies! Coaches want kids to take initiative, and communicate .\n\n Summer between freshmen- sophomore and sophomore- junior, try to attend as many target school camps as possible. Great way to be seen and evaluated by coaches in a smaller setting.\n\n Don\u2019t focus on division, focus on an overall fit(social, financial, etc). Use broken leg test: would she consider going to the same college without VB in equation. Also, can you pay for it, without sport scholarship. Caches change, funding decreases, injuries happen.\n\n If planning to study a demanding major (ex: nursing, pre-med, etc) think if a kid can manage sport and academics.\n\n This will be a roller coaster experience! Lots of rejections! Support, encourage and don\u2019t give up . My kid plays for 18s, girls from the team are still getting recruited.\n\n Start ASAP! It\u2019s competitive on every level and not easy! Every coach has at least 2-3 prospects for each position!\n\n Hope this helps! If you have additional questions please lmk! Good book to buy is : looking for a full ride. Step by step explanation of the recurring process (not volleyball in particular but all sports 0).",
+      "renderedHtml": "\n      <p>\n      We just went through the recruiting process with my daughter:\n    </p><ol>\n        <li>\n      <p>\n      Phone is sufficient for everything, no need for fancy devices .\n    </p>\n    </li><li>\n      <p>\n      Have your daughter edit film or clips in iPhone movie editor\n    </p>\n    </li><li>\n      <p>\n      Create her VB email address, YouTube VB channel, instagram and maybe X profile . Post only all 2-3 platforms. Send all communications from her VB email, include links to social media at the bottom, her phone number and club recruiting coordinator (if any). No need to pay for NCSA!\n    </p>\n    </li><li>\n      <p>\n      Focus on quality film not quantity: if a hitter, the best hits go first (include the whole play), blocks and passes are also important. Include serving only if amazing and 1-2 serves maximum at the end. 3-5 min max per video! Have a whole game film ready if asked to provide.\n    </p>\n    </li><li>\n      <p>\n      Get a list of target schools (30ish in total all levels of play), emails of coaches and assistant coaches\n    </p>\n    </li><li>\n      <p>\n      Have her send updates 1/month if sophomore, every 1-2 weeks if junior . Email coach, copy assistant coach\u2019s. Fill questioners on college website. Help her with admin stuff if you can, this is super overwhelming!\n    </p>\n    </li><li>\n      <p>\n      Have her send emails to attending coaches before every tournament. Identify team names, her number and position. We included the color of jerseys too. Do this 1-2 weeks in advance, even if you don\u2019t know the exact times of play. Update again closer to date.\n    </p>\n    </li><li>\n      <p>\n      Don\u2019t waste money on recruiting agencies! Coaches want kids to take initiative, and communicate .\n    </p>\n    </li><li>\n      <p>\n      Summer between freshmen- sophomore and sophomore- junior, try to attend as many target school camps as possible. Great way to be seen and evaluated by coaches in a smaller setting.\n    </p>\n    </li><li>\n      <p>\n      Don\u2019t focus on division, focus on an overall fit(social, financial, etc). Use broken leg test: would she consider going to the same college without VB in equation. Also, can you pay for it, without sport scholarship. Caches change, funding  decreases, injuries happen.\n    </p>\n    </li><li>\n      <p>\n      If planning to study a demanding major (ex: nursing, pre-med, etc) think if a kid can manage sport and academics.\n    </p>\n    </li><li>\n      <p>\n      This will be a roller coaster experience! Lots of rejections! Support, encourage and don\u2019t give up . My kid plays for 18s, girls from the team are still getting recruited.\n    </p>\n    </li><li>\n      <p>\n      Start ASAP! It\u2019s competitive on every level and not easy! Every coach has at least 2-3 prospects for each position!\n    </p>\n    </li>\n      </ol><p>\n      Hope this helps! If you have additional questions please lmk! Good book to buy is : looking for a full ride. Step by step explanation of the recurring process (not volleyball in particular but all sports 0).\n    </p>\n    ",
+      "score": 6,
+      "upvotes": 6,
+      "createdAt": "2025-02-24T13:50:54.000Z",
+      "createdUtc": 1740405054,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "mekjrim",
+         "url": "https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/mekjrim/",
+         "permalink": "/r/volleyball/comments/1iwlltt/comment/mekjrim/",
+         "parentId": "t1_meimg6w",
+         "author": "Juice-cup",
+         "text": "In the process with a Junior and this is what has worked with us as well.\n\n In addition:\n\n - Complete your University Athlete (Free profile). Fill out the height, gpa, and add at least a video to this. Coaches use this to track players at tournaments and to take notes. I've heard directly from coaches that some filter by height, gpa, and if video is available so those are key metrics.\n\n - No recruiting services needed. I have friends that pay and we've just ended up in the same place.\n\n - Camps are big, especially for D2, D3.\n\n - Have an unofficial transcript ready. High academic schools need to see the grades. After the first semester of Junior year they have a feel if your kid can manage academically but most pre-reads will for D3 will require a fully 3 year transcript.\n\n - For D3 if you want to visit a campus, ask. Straight up, I'm planning on taking a tour of your campus on March XX, would it be possible to meet with you or some of your players? My daughter got to hang with some players at a school and it turned the school from a Yes to a No.\n\n - My daughter asks to get on the phone with coaches. She's had good luck with it (had two this morning). Research before the phone calls, have a good set of questions ready. Don't wait for them to setup phone calls.\n\n - When coaches come to your games, don't bother them. For those that I've met on visits I do say a brief hello after the match. I keep it really brief.\n\n - Lastly, have fun. When I stopped worrying about it, my kid stopped and now she's embracing it and it's all been way more fun.\n\n Feel free to DM if you have some questions.",
+         "renderedHtml": "\n      <p>\n      In the process with a Junior and this is what has worked with us as well.\n    </p><p>\n      In addition:\n    </p><p>\n      - Complete your University Athlete (Free profile).  Fill out the height, gpa, and add at least a video to this.  Coaches use this to track players at tournaments and to take notes.  I've heard directly from coaches that some filter by height, gpa, and if video is available so those are key metrics.\n    </p><p>\n      - No recruiting services needed.  I have friends that pay and we've just ended up in the same place.\n    </p><p>\n      - Camps are big, especially for D2, D3.\n    </p><p>\n      - Have an unofficial transcript ready. High academic schools need to see the grades.  After the first semester of Junior year they have a feel if your kid can manage academically but most pre-reads will for D3 will require a fully 3 year transcript.\n    </p><p>\n      -  For D3 if you want to visit a campus, ask.  Straight up, I'm planning on taking a tour of your campus on March XX, would it be possible to meet with you or some of your players?  My daughter got to hang with some players at a school and it turned the school from a Yes to a No.\n    </p><p>\n      - My daughter asks to get on the phone with coaches.  She's had good luck with it (had two this morning).  Research before the phone calls, have a good set of questions ready.  Don't wait for them to setup phone calls.\n    </p><p>\n      - When coaches come to your games, don't bother them.  For those that I've met on visits I do say a brief hello after the match.  I keep it really brief.\n    </p><p>\n      - Lastly, have fun.  When I stopped worrying about it, my kid stopped and now she's embracing it and it's all been way more fun.\n    </p><p>\n      Feel free to DM if you have some questions.\n    </p>\n    ",
+         "score": 4,
+         "upvotes": 4,
+         "createdAt": "2025-02-24T19:32:44.000Z",
+         "createdUtc": 1740425564,
+         "depth": 0,
+         "isSubmitter": false,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": "eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy92b2xsZXliYWxsL3QzXzFpd2xsdHQ_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MiZjb21tZW50UGFyZW50UG9zaXRpb25zPTIsMCIsImN1cnNvciI6IlkyOXRiV1Z1ZEhSeVpXVTZORFF4WVRGalpERXNPam95T21ReE9uUXhYMjFsYTJweWFXMD0iLCJzdWJyZWRkaXQiOiJ2b2xsZXliYWxsIiwicG9zdElkIjoiMWl3bGx0dCIsInBhcmVudFRoaW5nSWQiOiJ0MV9tZWtqcmltIn0",
+           "hasMore": true
+          }
+         }
+        },
+        {
+         "id": "mel52ht",
+         "url": "https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/mel52ht/",
+         "permalink": "/r/volleyball/comments/1iwlltt/comment/mel52ht/",
+         "parentId": "t1_meimg6w",
+         "author": "Tactically_Fat",
+         "text": "Thanks for spiking my anxiety! Haha.\n\n I'm guessing my 8th grader is a little early for most of this",
+         "renderedHtml": "\n      <p>\n      Thanks for spiking my anxiety! Haha.\n    </p><p>\n      I'm guessing my 8th grader is a little early for most of this\n    </p>\n    ",
+         "score": 2,
+         "upvotes": 2,
+         "createdAt": "2025-02-24T21:11:58.000Z",
+         "createdUtc": 1740431518,
+         "depth": 0,
+         "isSubmitter": true,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": "eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy92b2xsZXliYWxsL3QzXzFpd2xsdHQ_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MiZjb21tZW50UGFyZW50UG9zaXRpb25zPTIsMSIsImN1cnNvciI6IlkyOXRiV1Z1ZEhSeVpXVTZZV1l4TUdRNU5tSXNPam95T21ReE9uUXhYMjFsYkRVeWFIUT0iLCJzdWJyZWRkaXQiOiJ2b2xsZXliYWxsIiwicG9zdElkIjoiMWl3bGx0dCIsInBhcmVudFRoaW5nSWQiOiJ0MV9tZWw1Mmh0In0",
+           "hasMore": true
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "mekjrim",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "meh8j94",
+      "url": "https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/meh8j94/",
+      "permalink": "/r/volleyball/comments/1iwlltt/comment/meh8j94/",
+      "parentId": "t3_1iwlltt",
+      "author": "Wet_Artichoke",
+      "text": "I\u2019m sorry I don\u2019t have answers for your questions here. But I need to tell you\u2026\n\n Do not use CaptainU\n\n It took THREE YEARS to cancel my account. I tried everything. I even had my credit card number changed. In the end, they charged me over $500 in unauthorized transactions.",
+      "renderedHtml": "\n      <p>\n      I\u2019m sorry I don\u2019t have answers for your questions here. But I need to tell you\u2026\n    </p><blockquote>\n      <p>\n      Do not use CaptainU\n    </p>\n    </blockquote><p>\n      It took THREE YEARS to cancel my account. I tried everything. I even had my credit card number changed. In the end, they charged me over $500 in unauthorized transactions.\n    </p>\n    ",
+      "score": 2,
+      "upvotes": 2,
+      "createdAt": "2025-02-24T06:30:39.000Z",
+      "createdUtc": 1740378639,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "mel7blz",
+         "url": "https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/mel7blz/",
+         "permalink": "/r/volleyball/comments/1iwlltt/comment/mel7blz/",
+         "parentId": "t1_meh8j94",
+         "author": "Tactically_Fat",
+         "text": "Got it!",
+         "renderedHtml": "\n      <p>\n      Got it!\n    </p>\n    ",
+         "score": 2,
+         "upvotes": 2,
+         "createdAt": "2025-02-24T21:22:26.000Z",
+         "createdUtc": 1740432146,
+         "depth": 0,
+         "isSubmitter": true,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": null,
+           "hasMore": false
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "meh8j94",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "melw8gd",
+      "url": "https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/melw8gd/",
+      "permalink": "/r/volleyball/comments/1iwlltt/comment/melw8gd/",
+      "parentId": "t3_1iwlltt",
+      "author": "Ok-Consequence4105",
+      "text": "No music",
+      "renderedHtml": "\n      <p>\n      No music\n    </p>\n    ",
+      "score": 2,
+      "upvotes": 2,
+      "createdAt": "2025-02-24T23:23:32.000Z",
+      "createdUtc": 1740439412,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "mepcsgd",
+         "url": "https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/mepcsgd/",
+         "permalink": "/r/volleyball/comments/1iwlltt/comment/mepcsgd/",
+         "parentId": "t1_melw8gd",
+         "author": "Tactically_Fat",
+         "text": "Oh - I'd 100% not include any music! I'd do what I could to strip all audio.",
+         "renderedHtml": "\n      <p>\n      Oh - I'd 100% not include any music!  I'd do what I could to strip all audio.\n    </p>\n    ",
+         "score": 1,
+         "upvotes": 1,
+         "createdAt": "2025-02-25T14:15:39.000Z",
+         "createdUtc": 1740492939,
+         "depth": 0,
+         "isSubmitter": true,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": null,
+           "hasMore": false
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "melw8gd",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "meezn4i",
+      "url": "https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/meezn4i/",
+      "permalink": "/r/volleyball/comments/1iwlltt/comment/meezn4i/",
+      "parentId": "t3_1iwlltt",
+      "author": "J_Kelly11",
+      "text": "If you go through ncsa which is who I used to get recruited for d3 men\u2019s vball, I think they will make a highlight tape for you if you submit video to them. I think they give 1 for free and if you want others then its more. My mom used a camcorder we\u2019ve had for years and didn\u2019t have the best video quality but they also highlight you in the clip so its easier for coaches to see. I\u2019ve seen a lot of people go the route too of making a specific instagram page just for volleyball and posting highlights and clips there. Coaches could reach out there. Really what it comes down to is seeing who\u2019s interested and reaching out to programs you are interested in too. Send some coaches some emails and have your daughter introduce herself and just kinda see what happens.",
+      "renderedHtml": "\n      <p>\n      If you go through ncsa which is who I used to get recruited for d3 men\u2019s vball, I think they will make a highlight tape for you if you submit video to them. I think they give 1 for free and if you want others then its more. My mom used a camcorder we\u2019ve had for years and didn\u2019t have the best video quality but they also highlight you in the clip so its easier for coaches to see. I\u2019ve seen a lot of people go the route too of making a specific instagram page just for volleyball and posting highlights and clips there. Coaches could reach out there. Really what it comes down to is seeing who\u2019s interested and reaching out to programs you are interested in too. Send some coaches some emails and have your daughter introduce herself and just kinda see what happens.\n    </p>\n    ",
+      "score": 3,
+      "upvotes": 3,
+      "createdAt": "2025-02-23T22:06:42.000Z",
+      "createdUtc": 1740348402,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "mel80kb",
+         "url": "https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/mel80kb/",
+         "permalink": "/r/volleyball/comments/1iwlltt/comment/mel80kb/",
+         "parentId": "t1_meezn4i",
+         "author": "Tactically_Fat",
+         "text": "Thank you!",
+         "renderedHtml": "\n      <p>\n      Thank you!\n    </p>\n    ",
+         "score": 1,
+         "upvotes": 1,
+         "createdAt": "2025-02-24T21:25:39.000Z",
+         "createdUtc": 1740432339,
+         "depth": 0,
+         "isSubmitter": true,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": null,
+           "hasMore": false
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "meezn4i",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "mefc3rj",
+      "url": "https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/mefc3rj/",
+      "permalink": "/r/volleyball/comments/1iwlltt/comment/mefc3rj/",
+      "parentId": "t3_1iwlltt",
+      "author": "CollegeSportsSheets",
+      "text": "Lots of questions which is good. To start have you read this post yet - here are 12 recruiting steps you can take yourself - https://www.reddit.com/r/volleyball/comments/1ddw1h5/rough_guide_to_playing_volleyball_at_college_how/\n\n With some of your question:\n\n Any other players in your club in the recruiting process or alumni that were recruited you can reach out to?\n\n Start taking film with your phone and see how it turns out if it\u2019s not enough then look at other options. In terms of editing - clipchamp is a free Microsoft product you can try and see how it works. OpenShot Video editor is another freeware program that works.\n\n Also search this subreddit for specifics questions.\n\n Good luck.",
+      "renderedHtml": "\n      <p>\n      Lots of questions which is good. To start have you read this post yet - here are 12 recruiting steps you can take yourself - <a rpl=\"\" class=\"relative pointer-events-auto a\n  \n  \n  \n  \n  underline\n  \n  cursor-pointer\" href=\"https://www.reddit.com/r/volleyball/comments/1ddw1h5/rough_guide_to_playing_volleyball_at_college_how/\" rel=\"noopener nofollow ugc\" target=\"_blank\">https://www.reddit.com/r/volleyball/comments/1ddw1h5/rough_guide_to_playing_volleyball_at_college_how/</a>\n    </p><p>\n      With some of your question:\n    </p><p>\n      Any other players in your club in the recruiting process or alumni that were recruited you can reach out to?\n    </p><p>\n      Start taking film with your phone and see how it turns out if it\u2019s not enough then look at other options. In terms of editing - clipchamp is a free Microsoft product you can try and see how it works. OpenShot Video editor is another freeware program that works.\n    </p><p>\n      Also search this subreddit for specifics questions.\n    </p><p>\n      Good luck.\n    </p>\n    ",
+      "score": 2,
+      "upvotes": 2,
+      "createdAt": "2025-02-23T23:12:17.000Z",
+      "createdUtc": 1740352337,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "mel7kpg",
+         "url": "https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/mel7kpg/",
+         "permalink": "/r/volleyball/comments/1iwlltt/comment/mel7kpg/",
+         "parentId": "t1_mefc3rj",
+         "author": "Tactically_Fat",
+         "text": "Thanks! I'll get through that post tomorrow!",
+         "renderedHtml": "\n      <p>\n      Thanks! I'll get through that post tomorrow!\n    </p>\n    ",
+         "score": 2,
+         "upvotes": 2,
+         "createdAt": "2025-02-24T21:23:38.000Z",
+         "createdUtc": 1740432218,
+         "depth": 0,
+         "isSubmitter": true,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": null,
+           "hasMore": false
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "mefc3rj",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "meifq5m",
+      "url": "https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/meifq5m/",
+      "permalink": "/r/volleyball/comments/1iwlltt/comment/meifq5m/",
+      "parentId": "t3_1iwlltt",
+      "author": "mwerte",
+      "text": "Don't need a recruiting service. Coaches want to hear from players who can handle their own business. So player should be sending the emails and not the parent.\n\n Record video, throw up on YouTube. Email coaches frequently with new video/tournament schedule. Cast a wide net with who you email.\n\n Each email should include:\n\n Name High school/grad year Club name/number Club recruiting coordinator contact Position\n\n Here's a doc I put together for my girls that has some good info from recruiting coordinators.\n\n https://docs.google.com/document/d/1ZpltZCCQNxSj5ZjFx_DYRHVXcWXSmZjORvJXe6v5rDo/edit?usp=drivesdk",
+      "renderedHtml": "\n      <p>\n      Don't need a recruiting service. Coaches want to hear from players who can handle their own business. So player should be sending the emails and not the parent.\n    </p><p>\n      Record video, throw up on YouTube. Email coaches frequently with new video/tournament schedule. Cast a wide net with who you email.\n    </p><p>\n      Each email should include:\n    </p><p>\n      Name High school/grad year Club name/number Club recruiting coordinator contact Position\n    </p><p>\n      Here's a doc I put together for my girls that has some good info from recruiting coordinators.\n    </p><p>\n      <a rpl=\"\" class=\"relative pointer-events-auto a\n  \n  \n  \n  \n  underline\n  \n  cursor-pointer\" href=\"https://docs.google.com/document/d/1ZpltZCCQNxSj5ZjFx_DYRHVXcWXSmZjORvJXe6v5rDo/edit?usp=drivesdk\" rel=\"noopener nofollow ugc\" target=\"_blank\">https://docs.google.com/document/d/1ZpltZCCQNxSj5ZjFx_DYRHVXcWXSmZjORvJXe6v5rDo/edit?usp=drivesdk</a>\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2025-02-24T13:09:10.000Z",
+      "createdUtc": 1740402550,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "mel795a",
+         "url": "https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/mel795a/",
+         "permalink": "/r/volleyball/comments/1iwlltt/comment/mel795a/",
+         "parentId": "t1_meifq5m",
+         "author": "Tactically_Fat",
+         "text": "Awesome! Thank you.",
+         "renderedHtml": "\n      <p>\n      Awesome! Thank you.\n    </p>\n    ",
+         "score": 1,
+         "upvotes": 1,
+         "createdAt": "2025-02-24T21:22:07.000Z",
+         "createdUtc": 1740432127,
+         "depth": 0,
+         "isSubmitter": true,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": null,
+           "hasMore": false
+          }
+         }
+        },
+        {
+         "id": "mepdrdu",
+         "url": "https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/mepdrdu/",
+         "permalink": "/r/volleyball/comments/1iwlltt/comment/mepdrdu/",
+         "parentId": "t1_meifq5m",
+         "author": "Tactically_Fat",
+         "text": "I wanted to thank you again for that document. I copied it!",
+         "renderedHtml": "\n      <p>\n      I wanted to thank you again for that document. I copied it!\n    </p>\n    ",
+         "score": 1,
+         "upvotes": 1,
+         "createdAt": "2025-02-25T14:21:08.000Z",
+         "createdUtc": 1740493268,
+         "depth": 0,
+         "isSubmitter": true,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": "eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy92b2xsZXliYWxsL3QzXzFpd2xsdHQ_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MiZjb21tZW50UGFyZW50UG9zaXRpb25zPTcsMSIsImN1cnNvciI6IlkyOXRiV1Z1ZEhSeVpXVTZNbVl4TXpBek5ERXNPam95T21ReE9uUXhYMjFsY0dSeVpIVT0iLCJzdWJyZWRkaXQiOiJ2b2xsZXliYWxsIiwicG9zdElkIjoiMWl3bGx0dCIsInBhcmVudFRoaW5nSWQiOiJ0MV9tZXBkcmR1In0",
+           "hasMore": true
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "mepdrdu",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "mek1fo2",
+      "url": "https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/mek1fo2/",
+      "permalink": "/r/volleyball/comments/1iwlltt/comment/mek1fo2/",
+      "parentId": "t3_1iwlltt",
+      "author": "OdysseusA",
+      "text": "Our club director discouraged paying recruiting agencies. Instead, they suggested athletes to create a free profile account in\n\n University Athlete (https://universityathlete.com)\n\n As the recruiting platform says, they charge college coaches, not players. It let's you choose your target colleges and correspond with the coaches. Coaches \"follow\" the athletes in return. You can also put links to highlight and recruiting videos you post on YouTube.\n\n How to Make a Recruiting Video (https://www.youtube.com/watch?v=W4qmbBb8cIQ)\n\n Hope this helps.",
+      "renderedHtml": "\n      <p>\n      Our club director discouraged paying recruiting agencies. Instead, they suggested athletes to create a free profile account in\n    </p><p>\n      <a rpl=\"\" class=\"relative pointer-events-auto a\n  \n  \n  \n  \n  underline\n  \n  cursor-pointer\" href=\"https://universityathlete.com\" rel=\"noopener nofollow ugc\" target=\"_blank\">University Athlete</a> (<a rpl=\"\" class=\"relative pointer-events-auto a\n  \n  \n  \n  \n  underline\n  \n  cursor-pointer\" href=\"https://universityathlete.com\" rel=\"noopener nofollow ugc\" target=\"_blank\">https://universityathlete.com</a>)\n    </p><p>\n      As the recruiting platform says, they charge college coaches, not players. It let's you choose your target colleges and correspond with the coaches. Coaches \"follow\" the athletes in return. You can also put links to highlight and recruiting videos you post on YouTube.\n    </p><p>\n      <a rpl=\"\" class=\"relative pointer-events-auto a\n  \n  \n  \n  \n  underline\n  \n  cursor-pointer\" href=\"https://www.youtube.com/watch?v=W4qmbBb8cIQ\" rel=\"noopener nofollow ugc\" target=\"_blank\">How to Make a Recruiting Video</a> (<a rpl=\"\" class=\"relative pointer-events-auto a\n  \n  \n  \n  \n  underline\n  \n  cursor-pointer\" href=\"https://www.youtube.com/watch?v=W4qmbBb8cIQ\" rel=\"noopener nofollow ugc\" target=\"_blank\">https://www.youtube.com/watch?v=W4qmbBb8cIQ</a>)\n    </p><p>\n      Hope this helps.\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2025-02-24T18:05:59.000Z",
+      "createdUtc": 1740420359,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "mel4f4h",
+         "url": "https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/mel4f4h/",
+         "permalink": "/r/volleyball/comments/1iwlltt/comment/mel4f4h/",
+         "parentId": "t1_mek1fo2",
+         "author": "Tactically_Fat",
+         "text": "It does! Thank you!",
+         "renderedHtml": "\n      <p>\n      It does! Thank you!\n    </p>\n    ",
+         "score": 1,
+         "upvotes": 1,
+         "createdAt": "2025-02-24T21:08:57.000Z",
+         "createdUtc": 1740431337,
+         "depth": 0,
+         "isSubmitter": true,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": null,
+           "hasMore": false
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "mek1fo2",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "mef3yrr",
+      "url": "https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/mef3yrr/",
+      "permalink": "/r/volleyball/comments/1iwlltt/comment/mef3yrr/",
+      "parentId": "t3_1iwlltt",
+      "author": "rodrigoruy",
+      "text": "There's a website called BallTime that uses AI to identify players and their best plays. I helps if you have very little editing skills. It's paid, but there's a 2 weeks free trial.",
+      "renderedHtml": "\n      <p>\n      There's a website called BallTime that uses AI to identify players and their best plays. I helps if you have very little editing skills. It's paid, but there's a 2 weeks free trial.\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2025-02-23T22:28:55.000Z",
+      "createdUtc": 1740349735,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "mel7o90",
+         "url": "https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/mel7o90/",
+         "permalink": "/r/volleyball/comments/1iwlltt/comment/mel7o90/",
+         "parentId": "t1_mef3yrr",
+         "author": "Tactically_Fat",
+         "text": "Something to keep in mind! Thank you.",
+         "renderedHtml": "\n      <p>\n      Something to keep in mind! Thank you.\n    </p>\n    ",
+         "score": 1,
+         "upvotes": 1,
+         "createdAt": "2025-02-24T21:24:05.000Z",
+         "createdUtc": 1740432245,
+         "depth": 0,
+         "isSubmitter": true,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": null,
+           "hasMore": false
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy92b2xsZXliYWxsL3QzXzFpd2xsdHQ_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MSZjb21tZW50UG9zaXRpb25PZmZzZXQ9MSZjb21tZW50UGFyZW50UG9zaXRpb25zPTkiLCJjdXJzb3IiOiJZMjl0YldWdWRIUnlaV1U2TkdabE1XTXlZbVlzT2pveE9tVjRPaWdoZkgwL2JRPT0iLCJzdWJyZWRkaXQiOiJ2b2xsZXliYWxsIiwicG9zdElkIjoiMWl3bGx0dCIsInBhcmVudFRoaW5nSWQiOiJ0MV9tZWYzeXJyIn0",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "nmnlz63",
+      "url": "https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/nmnlz63/",
+      "permalink": "/r/volleyball/comments/1iwlltt/comment/nmnlz63/",
+      "parentId": "t3_1iwlltt",
+      "author": "[deleted]",
+      "text": "[deleted]",
+      "renderedHtml": null,
+      "score": 2,
+      "upvotes": 2,
+      "createdAt": "2025-11-02T04:44:14.000Z",
+      "createdUtc": 1762058654,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "oqi4pzt",
+      "url": "https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/oqi4pzt/",
+      "permalink": "/r/volleyball/comments/1iwlltt/comment/oqi4pzt/",
+      "parentId": "t3_1iwlltt",
+      "author": "[deleted]",
+      "text": "[deleted]",
+      "renderedHtml": null,
+      "score": 2,
+      "upvotes": 2,
+      "createdAt": "2026-06-08T19:03:23.000Z",
+      "createdUtc": 1780945403,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": "eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy92b2xsZXliYWxsL3QzXzFpd2xsdHQ_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MSZjb21tZW50UGFyZW50UG9zaXRpb25zPTExIiwiY3Vyc29yIjoiWTI5dGJXVnVkSFJ5WldVNllqa3dObVU0WWpZc09qb3hPbVF4T25ReFgyOXhhVFJ3ZW5RPSIsInN1YnJlZGRpdCI6InZvbGxleWJhbGwiLCJwb3N0SWQiOiIxaXdsbHR0IiwicGFyZW50VGhpbmdJZCI6InQxX29xaTRwenQifQ",
+        "hasMore": true
+       }
+      }
+     }
+    ]
+   },
+   "meta": {
+    "requestId": "req_06e9fe8b-b4ae-4748-b445-c5cb29df485a",
+    "creditsCharged": 1,
+    "version": "v1"
+   },
+   "card": {
+    "kind": "search",
+    "title": "Reddit comments",
+    "subtitle": "12 results",
+    "resultCount": 12,
+    "items": [
+     {
+      "title": "Highlight tape on Youtube is generally good enough. 10-20 good swings and blocks. Direct contact from the athlete to the coach is good. Coaches may want to\u2026",
+      "subtitle": "@joetrinsey \u00b7 39 points",
+      "href": "https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/mef0q1n/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "I got a good amount of offers from tournaments and stuff, and my NCSA profile. I also had a highlight tape I put together myself of just clips taken on a\u2026",
+      "subtitle": "@ohno225 \u00b7 6 points",
+      "href": "https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/meeyeg4/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "We just went through the recruiting process with my daughter: Phone is sufficient for everything, no need for fancy devices . Have your daughter edit film or\u2026",
+      "subtitle": "@zinger_guy \u00b7 6 points",
+      "href": "https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/meimg6w/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "I\u2019m sorry I don\u2019t have answers for your questions here. But I need to tell you\u2026 Do not use CaptainU It took THREE YEARS to cancel my account. I tried\u2026",
+      "subtitle": "@Wet_Artichoke \u00b7 2 points",
+      "href": "https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/meh8j94/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "No music",
+      "subtitle": "@Ok-Consequence4105 \u00b7 2 points",
+      "href": "https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/melw8gd/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "If you go through ncsa which is who I used to get recruited for d3 men\u2019s vball, I think they will make a highlight tape for you if you submit video to them. I\u2026",
+      "subtitle": "@J_Kelly11 \u00b7 3 points",
+      "href": "https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/meezn4i/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Lots of questions which is good. To start have you read this post yet - here are 12 recruiting steps you can take yourself\u2026",
+      "subtitle": "@CollegeSportsSheets \u00b7 2 points",
+      "href": "https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/mefc3rj/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Don't need a recruiting service. Coaches want to hear from players who can handle their own business. So player should be sending the emails and not the\u2026",
+      "subtitle": "@mwerte \u00b7 1 point",
+      "href": "https://www.reddit.com/r/volleyball/comments/1iwlltt/comment/meifq5m/",
+      "platform": "Reddit"
+     }
+    ]
+   }
+  }
+ },
+ "jsonrpc": "2.0",
+ "id": 1
+}

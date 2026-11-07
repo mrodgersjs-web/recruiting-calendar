@@ -1,0 +1,77 @@
+<html><head><meta charset="utf-8"><title>Late Bloomer Playbook</title><style>/* The Recruiting Calendar — V3 tokens (W1-design, 2026-11-05). Fonts: Google Fonts (OFL). */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@500;600;700;800&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap');
+:root{
+  /* type */
+  --font-display:'Anton','Barlow Condensed',Impact,sans-serif;      /* uppercase hero only */
+  --font-condensed:'Barlow Condensed','Arial Narrow',sans-serif;    /* headings, ticks, labels */
+  --font-text:'Inter Tight','Helvetica Neue',Arial,sans-serif;      /* body, UI */
+  --font-mono:'JetBrains Mono',ui-monospace,monospace;               /* bylaw cites, dates */
+  --fs-hero:clamp(56px,9vw,128px); --lh-hero:.88; --ls-hero:-.01em;
+  --fs-d1:clamp(40px,6vw,76px);  --lh-d1:.9;
+  --fs-d2:clamp(32px,4vw,48px);  --lh-d2:.95;
+  --fs-h1:32px; --fs-h2:24px; --fs-h3:20px; --lh-h:1.2;
+  --fs-body-l:18px; --fs-body:16px; --lh-body:1.65; --fs-small:14px; --fs-label:12px; --fs-micro:10px;
+  --ls-label:.14em; --fw-text:400; --fw-ui:500; --fw-strong:600;
+  /* colour: black/white discipline + one signal */
+  --c-ink:#111111; --c-ink-2:#151413; --c-paper:#ffffff; --c-snow:#f5f5f5; --c-stone:#e5e5e5;
+  --c-line:#cacacb; --c-muted:#707072; --c-muted-2:#66625c;
+  --c-signal:#d2321e;          /* inherited RIG red: CTAs on dark, live states, bylaw rule */
+  --c-signal-ink:#ffffff; --c-focus:#1151ff; --c-success:#007d48; --c-warn:#d43f21;
+  --c-illustration-tag:#fff3b0; /* "Illustration"/"Composite" labels */
+  /* level tags */
+  --c-d1:#111; --c-d2:#3b3b3b; --c-d3:#5c5c5c; --c-naia:#7a4d1f; --c-juco:#1f5c7a;
+  /* spacing (4px base) */
+  --s-1:4px;--s-2:8px;--s-3:12px;--s-4:16px;--s-5:24px;--s-6:32px;--s-7:48px;--s-8:64px;--s-9:96px;--s-10:144px;
+  --gutter:clamp(24px,3.33vw,48px); --grid-gap:12px; --max:1920px; --cols:12;
+  /* shape */
+  --r-0:0; --r-btn:30px; --r-pill:999px; --r-chip:20px; --r-card:0;
+  /* buttons */
+  --btn-h:48px; --btn-h-l:60px; --btn-px:24px;
+  /* motion (ring spec §4.2 + motionsites FadeUp) */
+  --ease-out:cubic-bezier(.16,1,.3,1); --ease-silk:cubic-bezier(.65,0,.35,1);
+  --ease-spring:cubic-bezier(.34,1.56,.64,1); --ease-sheet:cubic-bezier(.32,.72,0,1);
+  --ease-fade:cubic-bezier(.22,1,.36,1); --ease-std:cubic-bezier(.4,0,.2,1);
+  --d-micro:150ms; --d-fast:250ms; --d-base:400ms; --d-slow:600ms; --d-morph:900ms; --d-reveal:1400ms; --d-sweep:1500ms;
+  --autoplay:5s;
+  /* ring (spec §7.4) */
+  --ring-R:.62; --ring-P:1.65; --ring-horizon:.36; --ring-fs:1.08; --ring-bodies:12; --ring-K:95; --ring-C:19.49;
+  --panel-w:380px; --panel-pad:32px; --tick-w:44px; --tick-w-on:190px;
+  /* image */
+  --img-ratio-hero:16/9; --img-ratio-card:4/5; --img-ratio-figure:9/16; --img-bg:#f5f5f5;
+  --scrim:linear-gradient(180deg,rgba(0,0,0,0) 45%,rgba(0,0,0,.55) 100%);
+}
+@media (max-width:749px){:root{--gutter:20px;--grid-gap:8px;--fs-h1:24px;--fs-h2:20px;--panel-pad:20px}}
+@media (prefers-reduced-motion:reduce){:root{--d-micro:0ms;--d-fast:0ms;--d-base:0ms;--d-slow:0ms;--d-morph:0ms;--d-reveal:0ms;--d-sweep:0ms}}
+.btn{display:inline-flex;align-items:center;gap:8px;height:var(--btn-h);padding:0 var(--btn-px);border-radius:var(--r-btn);font:var(--fw-ui) var(--fs-body)/1 var(--font-text);transition:background var(--d-micro),color var(--d-micro),transform var(--d-fast) var(--ease-out)}
+.btn--primary{background:var(--c-ink);color:var(--c-paper)} .btn--primary:hover{background:#3d3d3d}
+.btn--inverse{background:var(--c-paper);color:var(--c-ink)} .btn--inverse:hover{background:var(--c-stone)}
+.btn--outline{background:none;color:var(--c-ink);box-shadow:inset 0 0 0 1.5px var(--c-line)} .btn--outline:hover{box-shadow:inset 0 0 0 1.5px var(--c-ink)}
+.btn--signal{background:var(--c-signal);color:var(--c-signal-ink)}
+.btn:focus-visible{outline:2px solid var(--c-focus);outline-offset:2px}
+.btn:active{transform:scale(.98)}
+@page{size:Letter;margin:0.6in 0.6in 0.7in}body{font-family:var(--font-text);color:#111;font-size:10.5pt;line-height:1.5}
+.cover{height:9.4in;background:#111;color:#fff;margin:-0.6in -0.6in 0;padding:0.8in;display:flex;flex-direction:column;justify-content:space-between;page-break-after:always}
+.cover img{width:3.2in;filter:invert(1)}.cover h1{font-family:var(--font-display);text-transform:uppercase;font-size:58pt;line-height:.9;margin:0;color:#fff;border:0}
+.cover .k{font-family:var(--font-condensed);letter-spacing:.14em;text-transform:uppercase;font-size:11pt;color:#d2321e}.cover .m{font-family:var(--font-mono);font-size:9pt;color:#cacacb}
+h1{display:none}h2{font-family:var(--font-condensed);text-transform:uppercase;font-weight:800;font-size:20pt;border-top:4px solid #111;padding-top:6px;margin:22px 0 8px;page-break-after:avoid}
+.sub{font-family:var(--font-condensed);font-size:13pt;font-weight:600}blockquote{border-left:4px solid #d2321e;margin:10px 0;padding:6px 12px;background:#f5f5f5}
+table{width:100%;border-collapse:collapse;margin:8px 0 14px;font-size:9pt;page-break-inside:auto}th{background:#111;color:#fff;font-family:var(--font-condensed);text-transform:uppercase;letter-spacing:.06em;text-align:left;padding:5px}td{border-bottom:1px solid #cacacb;padding:5px;vertical-align:top;height:16px}tr{page-break-inside:avoid}
+code{font-family:var(--font-mono);font-size:8.5pt;background:#f5f5f5;padding:1px 3px}a{color:#111;word-break:break-all}
+.tag{font-family:var(--font-mono);font-size:7.5pt;padding:1px 4px;border:1px solid #111}.t-PROJECTED{background:#fff3b0}.t-TO{background:#d2321e;color:#fff;border-color:#d2321e}.t-TO.VERIFY{}</style></head><body><section class="cover"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1ODYgMTMwIiB3aWR0aD0iNTg2IiBoZWlnaHQ9IjEzMCI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0iI2ZmZiIvPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgMCkgc2NhbGUoMi4wMykiPjxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgcng9IjYiIGZpbGw9IiMwMDAiLz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMTQgMThoMTRsNCA0IDQtNGgxNHYyNkgzNmwtNCA0LTQtNEgxNHogTTE5IDIzdjE2aDEwbDMgMyAzLTNoMTBWMjNoLThsLTUgNS01LTV6Ii8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTI4IDMxbDMgMyA2LTcgMi41IDIuMkwzMSAzOC41bC01LjUtNS4zeiIvPjwvZz48ZyBmaWxsPSIjMDAwIj48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNTAgMCkgc2NhbGUoMC4zKSIgZmlsbC1ydWxlPSJub256ZXJvIj48cGF0aCBkPSJNMCAwaDQ0djE1aC00NHogTTE0LjUgMGgxNXYxMDBoLTE1eiIvPjwvZz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNjUuMyAwKSBzY2FsZSgwLjMpIiBmaWxsLXJ1bGU9Im5vbnplcm8iPjxwYXRoIGQ9Ik0wIDBoMTV2MTAwaC0xNXogTTI5IDBoMTV2MTAwaC0xNXogTTAgNDJoNDR2MTVoLTQ0eiIvPjwvZz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxODAuNjAwMDAwMDAwMDAwMDIgMCkgc2NhbGUoMC4zKSIgZmlsbC1ydWxlPSJub256ZXJvIj48cGF0aCBkPSJNMCAwaDE1djEwMGgtMTV6IE0wIDBoNDR2MTVoLTQ0eiBNMCA0M2gzOHYxNGgtMzh6IE0wIDg1aDQ0djE1aC00NHoiLz48L2c+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTUwIDQwKSBzY2FsZSgwLjgpIiBmaWxsLXJ1bGU9Im5vbnplcm8iPjxwYXRoIGQ9Ik0wIDEyYTEyIDEyIDAgMCAxIDEyLTEyaDMydjE1aC0yM2E2IDYgMCAwIDAtNiA2djU4YTYgNiAwIDAgMCA2IDZoMjN2MTVoLTMyYTEyIDEyIDAgMCAxLTEyLTEyeiIvPjwvZz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxOTAuOCA0MCkgc2NhbGUoMC44KSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMTIgMGgyMGExMiAxMiAwIDAgMSAxMiAxMnY3NmExMiAxMiAwIDAgMS0xMiAxMmgtMjBhMTIgMTIgMCAwIDEtMTItMTJ2LTc2YTEyIDEyIDAgMCAxIDEyLTEyeiBNMjAgMTVhNSA1IDAgMCAwLTUgNXY2MGE1IDUgMCAwIDAgNSA1aDRhNSA1IDAgMCAwIDUtNXYtNjBhNSA1IDAgMCAwLTUtNXoiLz48L2c+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjMxLjYwMDAwMDAwMDAwMDAyIDQwKSBzY2FsZSgwLjgpIiBmaWxsLXJ1bGU9Im5vbnplcm8iPjxwYXRoIGQ9Ik0wIDBoMTV2MTAwaC0xNXogTTM5IDBoMTV2MTAwaC0xNXogTTAgMGgxNWwxMiA0MGwxMi00MGgxNWwtMjAgNjRoLTh6Ii8+PC9nPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDI4MC40MDAwMDAwMDAwMDAwMyA0MCkgc2NhbGUoMC44KSIgZmlsbC1ydWxlPSJub256ZXJvIj48cGF0aCBkPSJNMCAwaDE1djEwMGgtMTV6IE0zOSAwaDE1djEwMGgtMTV6IE0wIDBoMTVsMTIgNDBsMTItNDBoMTVsLTIwIDY0aC04eiIvPjwvZz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMjkuMjAwMDAwMDAwMDAwMDUgNDApIHNjYWxlKDAuOCkiIGZpbGwtcnVsZT0ibm9uemVybyI+PHBhdGggZD0iTTAgMGgxNXYxMDBoLTE1eiIvPjwvZz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzNDYuODAwMDAwMDAwMDAwMDcgNDApIHNjYWxlKDAuOCkiIGZpbGwtcnVsZT0ibm9uemVybyI+PHBhdGggZD0iTTAgMGg0NHYxNWgtNDR6IE0xNC41IDBoMTV2MTAwaC0xNXoiLz48L2c+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNDA4LjQwMDAwMDAwMDAwMDEgNDApIHNjYWxlKDAuOCkiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PHBhdGggZD0iTTAgMGgzNGExMCAxMCAwIDAgMSAxMCAxMHYyOGE4IDggMCAwIDEtNSA3YTggOCAwIDAgMSA1IDd2MzhhMTAgMTAgMCAwIDEtMTAgMTBoLTM0eiBNMTUgMTV2MjhoMTR2LTI4eiBNMTUgNTd2MjhoMTR2LTI4eiIvPjwvZz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0NDkuMjAwMDAwMDAwMDAwMSA0MCkgc2NhbGUoMC44KSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMTIgMGgyMGExMiAxMiAwIDAgMSAxMiAxMnY3NmExMiAxMiAwIDAgMS0xMiAxMmgtMjBhMTIgMTIgMCAwIDEtMTItMTJ2LTc2YTEyIDEyIDAgMCAxIDEyLTEyeiBNMjAgMTVhNSA1IDAgMCAwLTUgNXY2MGE1IDUgMCAwIDAgNSA1aDRhNSA1IDAgMCAwIDUtNXYtNjBhNSA1IDAgMCAwLTUtNXoiLz48L2c+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNDkwLjAwMDAwMDAwMDAwMDEgNDApIHNjYWxlKDAuOCkiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PHBhdGggZD0iTTEyIDBoMjBhMTIgMTIgMCAwIDEgMTIgMTJ2NzZhMTIgMTIgMCAwIDEtMTIgMTJoLTIwYTEyIDEyIDAgMCAxLTEyLTEydi03NmExMiAxMiAwIDAgMSAxMi0xMnogTTIwIDE1YTUgNSAwIDAgMC01IDV2NjBhNSA1IDAgMCAwIDUgNWg0YTUgNSAwIDAgMCA1LTV2LTYwYTUgNSAwIDAgMC01LTV6Ii8+PC9nPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDUzMC44MDAwMDAwMDAwMDAxIDQwKSBzY2FsZSgwLjgpIiBmaWxsLXJ1bGU9Im5vbnplcm8iPjxwYXRoIGQ9Ik0wIDBoMTV2MTAwaC0xNXogTTE1IDQwbDE1IC00MGgxNmwtMjYgNTBsMjYgNTBoLTE2bC0xNSAtNDB6Ii8+PC9nPjwvZz48L3N2Zz4K"><div><div class="k">The Commit Book · Playbook</div><h1>Late Bloomer Playbook</h1></div><div class="m">For seniors and post-grads with late growth or late film. Rules checked 2026-11-05 against the 2026-27 NCAA Division I Manual.<br>Edition 2026-27 · Rules checked 2026-11-05 · Education, not legal advice. No outcome promised.</div></section><h1>Late Bloomer Playbook</h1>
+<p class="sub">For seniors and post-grads with late growth or late film. Rules checked 2026-11-05 against the 2026-27 NCAA Division I Manual.</p>
+<blockquote>Education, not legal advice. Nothing here promises admission, aid, an offer, a roster spot or playing time. Confirm every rule with each school's compliance and financial aid offices. <span class="tag t-TO VERIFY">TO VERIFY</span> = we could not confirm against a primary source on 2026-11-05.</blockquote>
+<h2>Contents</h2>
+<ol><li>Who still recruits late</li><li>The doors: D2, D3, NAIA, JUCO</li><li>Your 90-day sprint</li><li>Gap-year cautions</li><li>Scripts and target list</li><li>Sources</li></ol>
+<h2>1. Who still recruits late</h2>
+<p>Signing in sports other than football and basketball opens the second Wednesday of November (D1 Bylaw 13.02.13.1(f)); football regular signing opens the first Wednesday of February (13.02.13.1(e)). Schools set their own final signing dates, so many keep filling rosters into spring. Programs with seniors leaving, a coaching change, or a recruit who backed out often have late needs. Check rosters yourself.</p>
+<h2>2. The doors</h2>
+<ul><li><b>D2:</b> athletics aid exists, often partial. Contact rules are broader than D1.</li><li><b>D3:</b> no athletic aid (see <i>D3 Path</i>).</li><li><b>NAIA:</b> separate association, own eligibility center. <span class="tag t-TO VERIFY">TO VERIFY</span> current NAIA rules.</li><li><b>JUCO:</b> a two-year route (see <i>JUCO to D1</i>).</li></ul>
+<h2>3. The 90-day sprint</h2>
+<table><thead><tr><th>Days</th><th>Do this</th></tr></thead><tbody><tr><td>1-7</td><td>New film or verified marks; one-page profile; core-course check with counselor</td></tr><tr><td>8-21</td><td>40-program list across all levels; first emails</td></tr><tr><td>22-45</td><td>Follow-ups every 14 days with something new; ask HS coach to call 5 programs</td></tr><tr><td>46-75</td><td>Visits (official visits need the Eligibility Center account for D1, Bylaw 13.6.3); apply for admission and aid</td></tr><tr><td>76-90</td><td>Compare offers with the <i>Offers &amp; Signing Day</i> sheet; decide or extend the plan</td></tr></tbody></table>
+<h2>4. Gap-year cautions</h2>
+<p>D1 has rules on delayed enrollment and organized competition after high school that can reduce seasons of eligibility. <span class="tag t-TO VERIFY">TO VERIFY</span>: the exact 2026-27 D1 Bylaw 12.8 / 14.2 provisions on delayed enrollment for your sport before taking a gap year or post-grad year. Ask each school's compliance office in writing.</p>
+<h2>5. Script</h2>
+<blockquote>Coach [Last name], I'm [Name], Class of [year] [position/event] at [HS]. Since [date] I've [grown to X / run Y at Z meet, link]. New film: [link]. Do you still have needs at [position] for [year]? GPA [x.x], core courses complete. [Name], [phone].</blockquote>
+<p><b>Target list:</b> School · Div · Need at my spot (roster count) · Coach email · Contacted · Reply · Next</p>
+<h2>6. Sources</h2>
+<ul><li>2026-27 NCAA Division I Manual, LSDBi 90008, checked 2026-11-05: Bylaws 13.02.13.1(e)-(f), 13.6.3, 14.3.1.1.</li><li>NAIA and gap-year rules: <span class="tag t-TO VERIFY">TO VERIFY</span>.</li></ul></body></html>

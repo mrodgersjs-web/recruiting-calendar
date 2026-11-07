@@ -1,0 +1,102 @@
+<html><head><meta charset="utf-8"><title>Football: Junior Year Playbook</title><style>/* The Recruiting Calendar — V3 tokens (W1-design, 2026-11-05). Fonts: Google Fonts (OFL). */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@500;600;700;800&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap');
+:root{
+  /* type */
+  --font-display:'Anton','Barlow Condensed',Impact,sans-serif;      /* uppercase hero only */
+  --font-condensed:'Barlow Condensed','Arial Narrow',sans-serif;    /* headings, ticks, labels */
+  --font-text:'Inter Tight','Helvetica Neue',Arial,sans-serif;      /* body, UI */
+  --font-mono:'JetBrains Mono',ui-monospace,monospace;               /* bylaw cites, dates */
+  --fs-hero:clamp(56px,9vw,128px); --lh-hero:.88; --ls-hero:-.01em;
+  --fs-d1:clamp(40px,6vw,76px);  --lh-d1:.9;
+  --fs-d2:clamp(32px,4vw,48px);  --lh-d2:.95;
+  --fs-h1:32px; --fs-h2:24px; --fs-h3:20px; --lh-h:1.2;
+  --fs-body-l:18px; --fs-body:16px; --lh-body:1.65; --fs-small:14px; --fs-label:12px; --fs-micro:10px;
+  --ls-label:.14em; --fw-text:400; --fw-ui:500; --fw-strong:600;
+  /* colour: black/white discipline + one signal */
+  --c-ink:#111111; --c-ink-2:#151413; --c-paper:#ffffff; --c-snow:#f5f5f5; --c-stone:#e5e5e5;
+  --c-line:#cacacb; --c-muted:#707072; --c-muted-2:#66625c;
+  --c-signal:#d2321e;          /* inherited RIG red: CTAs on dark, live states, bylaw rule */
+  --c-signal-ink:#ffffff; --c-focus:#1151ff; --c-success:#007d48; --c-warn:#d43f21;
+  --c-illustration-tag:#fff3b0; /* "Illustration"/"Composite" labels */
+  /* level tags */
+  --c-d1:#111; --c-d2:#3b3b3b; --c-d3:#5c5c5c; --c-naia:#7a4d1f; --c-juco:#1f5c7a;
+  /* spacing (4px base) */
+  --s-1:4px;--s-2:8px;--s-3:12px;--s-4:16px;--s-5:24px;--s-6:32px;--s-7:48px;--s-8:64px;--s-9:96px;--s-10:144px;
+  --gutter:clamp(24px,3.33vw,48px); --grid-gap:12px; --max:1920px; --cols:12;
+  /* shape */
+  --r-0:0; --r-btn:30px; --r-pill:999px; --r-chip:20px; --r-card:0;
+  /* buttons */
+  --btn-h:48px; --btn-h-l:60px; --btn-px:24px;
+  /* motion (ring spec §4.2 + motionsites FadeUp) */
+  --ease-out:cubic-bezier(.16,1,.3,1); --ease-silk:cubic-bezier(.65,0,.35,1);
+  --ease-spring:cubic-bezier(.34,1.56,.64,1); --ease-sheet:cubic-bezier(.32,.72,0,1);
+  --ease-fade:cubic-bezier(.22,1,.36,1); --ease-std:cubic-bezier(.4,0,.2,1);
+  --d-micro:150ms; --d-fast:250ms; --d-base:400ms; --d-slow:600ms; --d-morph:900ms; --d-reveal:1400ms; --d-sweep:1500ms;
+  --autoplay:5s;
+  /* ring (spec §7.4) */
+  --ring-R:.62; --ring-P:1.65; --ring-horizon:.36; --ring-fs:1.08; --ring-bodies:12; --ring-K:95; --ring-C:19.49;
+  --panel-w:380px; --panel-pad:32px; --tick-w:44px; --tick-w-on:190px;
+  /* image */
+  --img-ratio-hero:16/9; --img-ratio-card:4/5; --img-ratio-figure:9/16; --img-bg:#f5f5f5;
+  --scrim:linear-gradient(180deg,rgba(0,0,0,0) 45%,rgba(0,0,0,.55) 100%);
+}
+@media (max-width:749px){:root{--gutter:20px;--grid-gap:8px;--fs-h1:24px;--fs-h2:20px;--panel-pad:20px}}
+@media (prefers-reduced-motion:reduce){:root{--d-micro:0ms;--d-fast:0ms;--d-base:0ms;--d-slow:0ms;--d-morph:0ms;--d-reveal:0ms;--d-sweep:0ms}}
+.btn{display:inline-flex;align-items:center;gap:8px;height:var(--btn-h);padding:0 var(--btn-px);border-radius:var(--r-btn);font:var(--fw-ui) var(--fs-body)/1 var(--font-text);transition:background var(--d-micro),color var(--d-micro),transform var(--d-fast) var(--ease-out)}
+.btn--primary{background:var(--c-ink);color:var(--c-paper)} .btn--primary:hover{background:#3d3d3d}
+.btn--inverse{background:var(--c-paper);color:var(--c-ink)} .btn--inverse:hover{background:var(--c-stone)}
+.btn--outline{background:none;color:var(--c-ink);box-shadow:inset 0 0 0 1.5px var(--c-line)} .btn--outline:hover{box-shadow:inset 0 0 0 1.5px var(--c-ink)}
+.btn--signal{background:var(--c-signal);color:var(--c-signal-ink)}
+.btn:focus-visible{outline:2px solid var(--c-focus);outline-offset:2px}
+.btn:active{transform:scale(.98)}
+@page{size:Letter;margin:0.6in 0.6in 0.7in}body{font-family:var(--font-text);color:#111;font-size:10.5pt;line-height:1.5}
+.cover{height:9.4in;background:#111;color:#fff;margin:-0.6in -0.6in 0;padding:0.8in;display:flex;flex-direction:column;justify-content:space-between;page-break-after:always}
+.cover img{width:3.2in;filter:invert(1)}.cover h1{font-family:var(--font-display);text-transform:uppercase;font-size:58pt;line-height:.9;margin:0;color:#fff;border:0}
+.cover .k{font-family:var(--font-condensed);letter-spacing:.14em;text-transform:uppercase;font-size:11pt;color:#d2321e}.cover .m{font-family:var(--font-mono);font-size:9pt;color:#cacacb}
+h1{display:none}h2{font-family:var(--font-condensed);text-transform:uppercase;font-weight:800;font-size:20pt;border-top:4px solid #111;padding-top:6px;margin:22px 0 8px;page-break-after:avoid}
+.sub{font-family:var(--font-condensed);font-size:13pt;font-weight:600}blockquote{border-left:4px solid #d2321e;margin:10px 0;padding:6px 12px;background:#f5f5f5}
+table{width:100%;border-collapse:collapse;margin:8px 0 14px;font-size:9pt;page-break-inside:auto}th{background:#111;color:#fff;font-family:var(--font-condensed);text-transform:uppercase;letter-spacing:.06em;text-align:left;padding:5px}td{border-bottom:1px solid #cacacb;padding:5px;vertical-align:top;height:16px}tr{page-break-inside:avoid}
+code{font-family:var(--font-mono);font-size:8.5pt;background:#f5f5f5;padding:1px 3px}a{color:#111;word-break:break-all}
+.tag{font-family:var(--font-mono);font-size:7.5pt;padding:1px 4px;border:1px solid #111}.t-PROJECTED{background:#fff3b0}.t-TO{background:#d2321e;color:#fff;border-color:#d2321e}.t-TO.VERIFY{}</style></head><body><section class="cover"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1ODYgMTMwIiB3aWR0aD0iNTg2IiBoZWlnaHQ9IjEzMCI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0iI2ZmZiIvPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgMCkgc2NhbGUoMi4wMykiPjxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgcng9IjYiIGZpbGw9IiMwMDAiLz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMTQgMThoMTRsNCA0IDQtNGgxNHYyNkgzNmwtNCA0LTQtNEgxNHogTTE5IDIzdjE2aDEwbDMgMyAzLTNoMTBWMjNoLThsLTUgNS01LTV6Ii8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTI4IDMxbDMgMyA2LTcgMi41IDIuMkwzMSAzOC41bC01LjUtNS4zeiIvPjwvZz48ZyBmaWxsPSIjMDAwIj48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNTAgMCkgc2NhbGUoMC4zKSIgZmlsbC1ydWxlPSJub256ZXJvIj48cGF0aCBkPSJNMCAwaDQ0djE1aC00NHogTTE0LjUgMGgxNXYxMDBoLTE1eiIvPjwvZz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNjUuMyAwKSBzY2FsZSgwLjMpIiBmaWxsLXJ1bGU9Im5vbnplcm8iPjxwYXRoIGQ9Ik0wIDBoMTV2MTAwaC0xNXogTTI5IDBoMTV2MTAwaC0xNXogTTAgNDJoNDR2MTVoLTQ0eiIvPjwvZz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxODAuNjAwMDAwMDAwMDAwMDIgMCkgc2NhbGUoMC4zKSIgZmlsbC1ydWxlPSJub256ZXJvIj48cGF0aCBkPSJNMCAwaDE1djEwMGgtMTV6IE0wIDBoNDR2MTVoLTQ0eiBNMCA0M2gzOHYxNGgtMzh6IE0wIDg1aDQ0djE1aC00NHoiLz48L2c+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTUwIDQwKSBzY2FsZSgwLjgpIiBmaWxsLXJ1bGU9Im5vbnplcm8iPjxwYXRoIGQ9Ik0wIDEyYTEyIDEyIDAgMCAxIDEyLTEyaDMydjE1aC0yM2E2IDYgMCAwIDAtNiA2djU4YTYgNiAwIDAgMCA2IDZoMjN2MTVoLTMyYTEyIDEyIDAgMCAxLTEyLTEyeiIvPjwvZz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxOTAuOCA0MCkgc2NhbGUoMC44KSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMTIgMGgyMGExMiAxMiAwIDAgMSAxMiAxMnY3NmExMiAxMiAwIDAgMS0xMiAxMmgtMjBhMTIgMTIgMCAwIDEtMTItMTJ2LTc2YTEyIDEyIDAgMCAxIDEyLTEyeiBNMjAgMTVhNSA1IDAgMCAwLTUgNXY2MGE1IDUgMCAwIDAgNSA1aDRhNSA1IDAgMCAwIDUtNXYtNjBhNSA1IDAgMCAwLTUtNXoiLz48L2c+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjMxLjYwMDAwMDAwMDAwMDAyIDQwKSBzY2FsZSgwLjgpIiBmaWxsLXJ1bGU9Im5vbnplcm8iPjxwYXRoIGQ9Ik0wIDBoMTV2MTAwaC0xNXogTTM5IDBoMTV2MTAwaC0xNXogTTAgMGgxNWwxMiA0MGwxMi00MGgxNWwtMjAgNjRoLTh6Ii8+PC9nPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDI4MC40MDAwMDAwMDAwMDAwMyA0MCkgc2NhbGUoMC44KSIgZmlsbC1ydWxlPSJub256ZXJvIj48cGF0aCBkPSJNMCAwaDE1djEwMGgtMTV6IE0zOSAwaDE1djEwMGgtMTV6IE0wIDBoMTVsMTIgNDBsMTItNDBoMTVsLTIwIDY0aC04eiIvPjwvZz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMjkuMjAwMDAwMDAwMDAwMDUgNDApIHNjYWxlKDAuOCkiIGZpbGwtcnVsZT0ibm9uemVybyI+PHBhdGggZD0iTTAgMGgxNXYxMDBoLTE1eiIvPjwvZz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzNDYuODAwMDAwMDAwMDAwMDcgNDApIHNjYWxlKDAuOCkiIGZpbGwtcnVsZT0ibm9uemVybyI+PHBhdGggZD0iTTAgMGg0NHYxNWgtNDR6IE0xNC41IDBoMTV2MTAwaC0xNXoiLz48L2c+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNDA4LjQwMDAwMDAwMDAwMDEgNDApIHNjYWxlKDAuOCkiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PHBhdGggZD0iTTAgMGgzNGExMCAxMCAwIDAgMSAxMCAxMHYyOGE4IDggMCAwIDEtNSA3YTggOCAwIDAgMSA1IDd2MzhhMTAgMTAgMCAwIDEtMTAgMTBoLTM0eiBNMTUgMTV2MjhoMTR2LTI4eiBNMTUgNTd2MjhoMTR2LTI4eiIvPjwvZz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0NDkuMjAwMDAwMDAwMDAwMSA0MCkgc2NhbGUoMC44KSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMTIgMGgyMGExMiAxMiAwIDAgMSAxMiAxMnY3NmExMiAxMiAwIDAgMS0xMiAxMmgtMjBhMTIgMTIgMCAwIDEtMTItMTJ2LTc2YTEyIDEyIDAgMCAxIDEyLTEyeiBNMjAgMTVhNSA1IDAgMCAwLTUgNXY2MGE1IDUgMCAwIDAgNSA1aDRhNSA1IDAgMCAwIDUtNXYtNjBhNSA1IDAgMCAwLTUtNXoiLz48L2c+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNDkwLjAwMDAwMDAwMDAwMDEgNDApIHNjYWxlKDAuOCkiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PHBhdGggZD0iTTEyIDBoMjBhMTIgMTIgMCAwIDEgMTIgMTJ2NzZhMTIgMTIgMCAwIDEtMTIgMTJoLTIwYTEyIDEyIDAgMCAxLTEyLTEydi03NmExMiAxMiAwIDAgMSAxMi0xMnogTTIwIDE1YTUgNSAwIDAgMC01IDV2NjBhNSA1IDAgMCAwIDUgNWg0YTUgNSAwIDAgMCA1LTV2LTYwYTUgNSAwIDAgMC01LTV6Ii8+PC9nPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDUzMC44MDAwMDAwMDAwMDAxIDQwKSBzY2FsZSgwLjgpIiBmaWxsLXJ1bGU9Im5vbnplcm8iPjxwYXRoIGQ9Ik0wIDBoMTV2MTAwaC0xNXogTTE1IDQwbDE1IC00MGgxNmwtMjYgNTBsMjYgNTBoLTE2bC0xNSAtNDB6Ii8+PC9nPjwvZz48L3N2Zz4K"><div><div class="k">The Commit Book · Playbook</div><h1>Football: Junior Year Playbook</h1></div><div class="m">Class of 2029 edition. Rules checked 2026-11-05 against the 2026-27 NCAA Division I Manual.<br>Edition 2026-27 · Rules checked 2026-11-05 · Education, not legal advice. No outcome promised.</div></section><h1>Football: Junior Year Playbook</h1>
+<p class="sub">Class of 2029 edition. Rules checked 2026-11-05 against the 2026-27 NCAA Division I Manual.</p>
+<blockquote>Education, not legal advice. Nothing here promises a scholarship, an offer, a roster spot or playing time. Confirm every date with each school's compliance office. Dates marked <span class="tag t-PROJECTED">PROJECTED</span> are calculated from current bylaws and are not yet published by the NCAA. Dates marked <span class="tag t-RECOMMENDED">RECOMMENDED</span> are ours, not NCAA deadlines.</blockquote>
+<h2>Contents</h2>
+<ol><li>How football recruiting is timed</li><li>The two academic lines you can't fix late</li><li>The dated calendar, June 2027 to February 2029</li><li>Build a target list in three tiers</li><li>Scripts: first email, follow-up, first call</li><li>The junior-year official visit window</li><li>Written offers and signing</li><li>Trackers (print these)</li><li>Sources</li></ol>
+<h2>1. How football recruiting is timed</h2>
+<p>Three things open at different times. Don't treat them as one date.</p>
+<table><thead><tr><th>What opens</th><th>When (Class of 2029)</th><th>Rule</th></tr></thead><tbody><tr><td>Coach calls, texts, emails to your athlete</td><td>2027-06-15 (after sophomore year)</td><td>D1 Bylaws 13.1.3.1, 13.4.1</td></tr><tr><td>Off-campus, in-person contact</td><td>2028-01-01 (junior year)</td><td>D1 Bylaws 13.1.1.1.6, 13.1.5.3</td></tr><tr><td>Paid (official) visits</td><td>2028-04-01 to 2028-06-25, then from Sept 1 of senior year</td><td>D1 Bylaws 13.6.2.1.7, 13.6.3</td></tr><tr><td>Written aid offer</td><td>On or after 2028-11-15 (senior year)</td><td>D1 Bylaw 13.9.3.3</td></tr></tbody></table>
+<p>Unofficial visits that involve the athletics department are allowed at any age, subject to the recruiting calendar's dead periods.</p>
+<p><b>New for 2027 (FBS only).</b> Bylaw 13.1.5.3 for bowl subdivision football was adopted 10/7/26, effective 1/1/27: a school gets four recruiting opportunities (contacts and evaluations) per prospect from January 1 through May 31, no more than one a week (Monday to Sunday). Of those four, two contacts may be anywhere and two only at the athlete's high school (Bylaw 13.1.5.3.2). A school visit counts as an opportunity for every prospect at that school (Bylaw 13.1.4.3). FCS stays on the older rule: two opportunities per contact period after January 1 of junior year. Limits apply to the whole program, not per coach.</p>
+<p>What this means for you: a spring visit from a coach is scarce. Have film, transcript and schedule ready before January 1, 2028.</p>
+<h2>2. The two academic lines you can't fix late</h2>
+<p><b>Line 1, the 10/7 lock.</b> D1 requires 10 of the 16 core courses, 7 of them English, math or science, finished before the first day of the seventh semester. Those grades lock. Your high school sets the exact date. (D1 Bylaw 14.3.1.1(b))</p>
+<p><b>Line 2, the finish.</b> 16 core courses with at least a 2.300 core GPA, graduate, and the final transcript sent to the Eligibility Center. Core GPA isn't the transcript GPA. (D1 Bylaw 14.3.1.1(a); course criteria Bylaw 14.3.1.3)</p>
+<p>The 16: English 4 years, math 3 (Algebra I or higher), natural/physical science 2, one more English/math/science, social science 2, four more academic courses (Bylaw 14.3.1.1(a)).</p>
+<p>Full worksheet: see the companion playbook <i>Eligibility: the 2 Hard Deadlines</i>.</p>
+<h2>3. The dated calendar</h2>
+<table><thead><tr><th>Date</th><th>Type</th><th>What to do</th><th>Rule</th></tr></thead><tbody><tr><td>2026-11-15</td><td><span class="tag t-RECOMMENDED">RECOMMENDED</span></td><td>Counselor checks every planned course against your school's NCAA list</td><td>D1 Bylaw 14.3.1.1</td></tr><tr><td>2027-06-15</td><td>OPENING</td><td>Coaches may call, text, email. Send your first emails now</td><td>D1 Bylaws 13.1.3.1, 13.4.1</td></tr><tr><td>2027-08-15</td><td><span class="tag t-RECOMMENDED">RECOMMENDED</span></td><td>Open the Eligibility Center certification account ($110 domestic, waivers possible). Needed before any D1 official visit</td><td>D1 Bylaw 13.6.3</td></tr><tr><td>Fall 2027</td><td>YOUR PLAN</td><td>Junior film cut by mid-season; update target list</td><td>—</td></tr><tr><td>2028-01-01</td><td>OPENING</td><td>Off-campus contact begins. FBS: 4 opportunities Jan 1 to May 31</td><td>D1 Bylaws 13.1.1.1.6, 13.1.5.3</td></tr><tr><td>2028-04-01 to 06-25</td><td>WINDOW</td><td>Junior-year official visits. Each needs transcript, EC account, spot on the school's list</td><td>D1 Bylaws 13.6.2.1.7, 13.6.3</td></tr><tr><td>Before 7th semester (school sets)</td><td><span class="tag t-HARD">HARD</span></td><td>10/7 core courses complete</td><td>D1 Bylaw 14.3.1.1(b)</td></tr><tr><td>2028-11-15</td><td>OPENING</td><td>Written aid offers may arrive. Verbal offers bind no one</td><td>D1 Bylaw 13.9.3.3</td></tr><tr><td>2028-11-29 to 12-01</td><td><span class="tag t-PROJECTED">PROJECTED</span></td><td>Early signing period</td><td>D1 Bylaw 13.02.13.1(c)</td></tr><tr><td>2029-02-07</td><td><span class="tag t-PROJECTED">PROJECTED</span></td><td>Regular signing opens; each school sets its own final date</td><td>D1 Bylaw 13.02.13.1(e)</td></tr><tr><td>2029-04-01</td><td>WINDOW</td><td>Request final amateurism certification</td><td>Eligibility Center procedure</td></tr><tr><td>Graduation</td><td><span class="tag t-HARD">HARD</span></td><td>16 cores, 2.300 core GPA, final transcript sent</td><td>D1 Bylaw 14.3.1.1(a)</td></tr></tbody></table>
+<p>Exception to know: in August of senior year, FBS/FCS schools may host a paid visit 48 hours either side of a home game (Bylaw 13.6.2.1.7.1).</p>
+<h2>4. Target list in three tiers</h2>
+<p>Aim for 30 to 50 programs across levels. Fill one row each.</p>
+<table><thead><tr><th>Tier</th><th>What it means</th><th>How many</th></tr></thead><tbody><tr><td>Reach</td><td>Level you'd love; you need a coach to say you fit</td><td>8 to 12</td></tr><tr><td>Fit</td><td>Level where your film, size and grades match recent rosters (you check the roster pages)</td><td>15 to 25</td></tr><tr><td>Sure</td><td>Programs where you'd likely play and the school fits academically. Include D2, D3, NAIA, JUCO</td><td>8 to 12</td></tr></tbody></table>
+<p>For each: division, position need (count seniors at your position on the roster), position coach name and staff email from the official staff page, school's academic fit, cost after likely aid (D3 = no athletic aid).</p>
+<h2>5. Scripts</h2>
+<p><b>First email (athlete sends, after 2027-06-15).</b> Subject: <code>2029 [Position] | [Height/Weight] | [HS], [City, ST] | Film</code></p>
+<blockquote>Coach [Last name], I'm [Name], a Class of 2029 [position] at [HS] in [City, ST]. [Height], [weight]; [one verified stat or measurable with source/date]. My junior film is here: [link]. GPA [x.x]; core courses on track. I'd like to learn what you look for at [position] and whether I should attend your camp. Schedule: [link]. Head coach: [name, phone, email]. Thank you, [Name], [phone].</blockquote>
+<p><b>Follow-up (14 days, no reply).</b></p>
+<blockquote>Coach [Last name], following up with new film from [game, date]: [link]. Still very interested in [School]. [Name]</blockquote>
+<p><b>First call checklist (athlete leads, parent listens).</b> Ask: Where do I fit on your board at my position? How many [position]s are you taking in 2029? What would you need to see from me next? What's the academic profile of your signees? When do you hold junior days and camps?</p>
+<p>Don't ask a coach for an offer on a first call. Write down exactly what was said and when.</p>
+<h2>6. The junior-year official visit window (2028-04-01 to 06-25)</h2>
+<p>Before the visit: EC certification account open; transcript sent to the school; you're on their visit list (D1 Bylaw 13.6.3). Visit checklist: meet the academic advisor; ask how many players at your position are returning; ask for the aid terms in writing (they can't write an aid offer until 2028-11-15); score the visit the same night (tracker below).</p>
+<h2>7. Written offers and signing</h2>
+<ul><li>A verbal "offer" is not binding on you or the school.</li><li>Written aid offers can't come before 2028-11-15 of senior year; you can't sign the acceptance until the signing period (D1 Bylaw 13.9.3.3, 13.02.13.1).</li><li>Signing ends other schools' recruiting of you. Read the offer sheet in the <i>Offers &amp; Signing Day</i> playbook before signing.</li><li>Ask compliance: is this aid for one year or multiple? What happens if the head coach leaves? What settlement-related benefits, if any, are in writing?</li></ul>
+<h2>8. Trackers</h2>
+<p><b>Contact log</b></p>
+<table><thead><tr><th>Date</th><th>School</th><th>Coach</th><th>How (email/call/visit)</th><th>What was said</th><th>Next step</th><th>Follow-up date</th></tr></thead><tbody><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+<p><b>Visit score (1-5 each)</b></p>
+<table><thead><tr><th>School</th><th>Position fit</th><th>Academics</th><th>Coaches</th><th>Players</th><th>Cost after aid</th><th>Total</th></tr></thead><tbody><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+<p><b>Monthly checklist</b></p>
+<ul><li>[ ] New film posted  - [ ] 5 new emails sent  - [ ] Follow-ups due sent  - [ ] Grades checked against core plan  - [ ] Calendar dead periods checked for any planned visit</li></ul>
+<h2>9. Sources</h2>
+<ul><li>2026-27 NCAA Division I Manual (LSDBi report 90008): <a href="https://web3.ncaa.org/lsdbi/reports/getReport/90008">https://web3.ncaa.org/lsdbi/reports/getReport/90008</a> — checked 2026-11-05 (printing dated 11/5/26). Bylaws 13.1.1.1.6, 13.1.3.1, 13.1.4.3, 13.1.5.3 (FBS, adopted 10/7/26 eff. 1/1/27), 13.1.5.3.2, 13.4.1, 13.6.2.1.7, 13.6.2.1.7.1, 13.6.3, 13.9.3.3, 13.02.13.1, 14.3.1.1, 14.3.1.3.</li><li>Eligibility Center registration checklist: <a href="https://fs.ncaa.org/Docs/eligibility_center/Student_Resources/Registration_Checklist.pdf">https://fs.ncaa.org/Docs/eligibility_center/Student_Resources/Registration_Checklist.pdf</a></li><li>Final amateurism certification: <a href="https://fs.ncaa.org/Docs/eligibility_center/Student_Resources/How_to_Request_Final_Amateurism_Certification.pdf">https://fs.ncaa.org/Docs/eligibility_center/Student_Resources/How_to_Request_Final_Amateurism_Certification.pdf</a></li></ul></body></html>

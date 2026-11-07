@@ -1,0 +1,53 @@
+story,claim,source,grade,note
+renfrow,Socastee QB ~150 lb,ncaa.com 2017-01-10,SUPPORTED,
+renfrow,App State scholarship vs Clemson PWO,ncaa.com + si.com,SUPPORTED,
+renfrow,QB->WR and +~30 lb,bendbulletin.com,SUPPORTED,
+renfrow,Scholarship before 2016 season; title-game TD 1 sec left,si.com,SUPPORTED,"SI says 'prior to the start of last season' (article 2017)"
+groenewegen,Surrey BC / White Rock Renegades,softball.ca,SUPPORTED,
+groenewegen,Washington Sidewinders club,gophersports.com,SUPPORTED,"text attributes to Softball Canada; source is the Gophers feature - fix attribution"
+groenewegen,Not highly recruited; couple of schools,gophersports.com,SUPPORTED,verbatim quote
+groenewegen,Minnesota 2014-17 three-time All-American,softball.ca + olympic.ca,SUPPORTED,born 1995 adult
+lowe,LCC HS / Rancho Santa Fe,usavolleyball.org,SUPPORTED,
+lowe,Tennis+volleyball until sophomore yr; handful of East Coast scholarship offers,dailybruin.com,SUPPORTED,
+lowe,Committed spring of junior year,uclabruins.com,SUPPORTED,
+lowe,Walked on; later awarded scholarship,dailybruin + espn,SUPPORTED,ESPN: midway through freshman season
+pichardo,Queens; Long Island club; USA women's national team,nancybkennedy.com,SUPPORTED,
+pichardo,"'SI reported several college options, no guarantee'",si.com,OVERSTATED,"Phrase is in nancybkennedy.com, not SI. Re-attribute."
+pichardo,Walk-on tryouts; first woman on D1 baseball roster,si.com,SUPPORTED,
+white,6-0 senior no D1 offers; father sent video to 25 JUCO/D2,nba.com,SUPPORTED,
+white,"Only full offer was Gillette College (JUCO, Wyoming)",andscape.com,OVERSTATED,"Andscape: lone college offer was a D2 PWO partial scholarship; only other option 'a junior college in Wyoming'. Gillette not named in fetched text; 'full' not stated."
+white,UCCS offered a 'small housing stipend' as PWO,andscape.com,UNSUPPORTED,"Andscape: $3,000 scholarship as PWO with chance at full scholarship as sophomore. Rewrite."
+white,First recruit Culver brought in for campus visit,news.uccs.edu,SOURCE-DEAD,HTTP 403 to fetcher; re-verify in browser
+white,Led Colorado in scoring 2016-17,cubuffs.com,SUPPORTED,18.1 ppg
+pirosko,Signed with Gannon spring 2018 (Brunelli),gannonsports.com,SUPPORTED,
+pirosko,Credited HS coach Paul Force with confidence,news-herald.com,SUPPORTED,
+pirosko,WBCA D2 POY 2023-24; NCAA WOY finalist; PA track,wbca.org + ncaa.org,SUPPORTED,
+marpet,Hastings HS; 230 lb senior; Fordham/Marist/Holy Cross walk-on only,buccaneers.com + nypost,SUPPORTED,
+marpet,Chose Hobart vs walk on at FCS,nypost.com,SUPPORTED,quote
+marpet,Economics pitch; 37 of 43 starts; highest-drafted D3,buccaneers.com (2016),SUPPORTED,
+rodenfels,Started running at 17; soccer-scholarship plan,baa.org,SUPPORTED,
+rodenfels,Arrived at Centre raw; coach Lisa Owens saw potential,letsrun.com,SOURCE-DEAD,HTTP 403; needs browser re-check or second source
+rodenfels,2018 D3 steeplechase champion,saa-sports.com,SUPPORTED,
+perez,8th-grade start; first-gen; big city; Colombia NT; biology 2025,ncaa.org 2025-09-19,SUPPORTED,
+perez,Played goal for Oglethorpe,gopetrels cume.pdf,SUPPORTED,"PDF compressed; not text-verified (low risk, feature also states it)"
+coward,Central HS Fresno 'no great fanfare' per NBA.com,nba.com,UNSUPPORTED,NBA.com says native of Fresno; HS and 'fanfare' not found
+coward,No D1 offers 'according to a D3-focused newsletter',(uncited),UNSUPPORTED,No newsletter in sources; cut or cite
+coward,Chose Willamette as best fit,spokesman.com,SUPPORTED,
+coward,19.5 ppg / 12 rpg freshman,nba.com,SUPPORTED,statesmanjournal fetch failed (network); NBA.com suffices
+coward,EWU then WSU; #11 pick 2025,wsucougars.com + nba.com,SUPPORTED,born 2003 adult
+rodriguez,'Clovis High School',themat.com,UNSUPPORTED,"TheMat: high school was Buchanan (Clovis, CA). Fix to 'Buchanan High School in Clovis'."
+rodriguez,Stepped away junior+senior year (pressure/mental health),themat.com,SUPPORTED,
+rodriguez,Joined Doane Aug 2021 first women's class under Dana Vote,doaneathletics + themat,SUPPORTED,
+rodriguez,Doane's first NAIA national champion March 2024,win-magazine.com,SUPPORTED,"WIN: 'first women's NAIA champ' for Doane"
+rodriguez,U20 world title Sept 2024,doaneathletics.com,SUPPORTED,
+rodriguez,NAIA rule (beat 4),NAIA Handbook 2026-27 Art. V Sec. C,SUPPORTED,"Now citable - see FACTCHECK.md"
+butler,Tomball senior ~19 ppg not heavily recruited,nfhs.org,SUPPORTED,
+butler,Tyler JC 18.1 ppg NJCAA HM All-American; Buzz Williams' first signee,gomarquette.com,SUPPORTED,
+wondolowski,UCLA etc for track; O'Malley saw him in San Diego; 39 goals; #41 supp draft,ncaa.com 2019,SUPPORTED,
+wondolowski,Not heavily recruited for soccer,dlshs.org,SUPPORTED,
+composite-swim,Coaches weigh progression and conference placement (USA Swimming via club),deltaaquatics.com,OVERSTATED,"Page covers past results/potential/conference fit; 'year-over-year progression' not literal"
+composite-swim,Club coach reaches out with times sheet,wabash.edu (2005 Splash Mag),SUPPORTED,"weak/old; acceptable for composite"
+composite-swim,Source athletes.org/my-story-alika-crawford,athletes.org,SOURCE-DEAD,HTTP 404; drop or replace
+answers,All D1 dates/bylaws (13.1.1.1.9 adopted 10/7/26; 13.9.3.3 Nov 15; 14.3.1.3 2.300; 10/7; 13.6.2.1.7 window; 13.02.13.1 signing),NCAA D1 Manual 2026-27 (lsdbi 90008),SUPPORTED,text-verified in PDF
+answers,D3 visits Jan 1 junior yr; no athletic aid,NCAA D3 Manual (lsdbi 90011),SUPPORTED,"Page label says '2026-27 NCAA Division I Manual' for a D3 bylaw - relabel to Division III Manual"
+answers,$110 fee / 2.3 core GPA brochure links,fs.ncaa.org PDFs,SOURCE-DEAD,fetch failed from this host; re-check in browser

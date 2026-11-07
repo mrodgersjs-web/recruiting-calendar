@@ -1,0 +1,522 @@
+{
+ "generated": "2026-11-05",
+ "integrity": "No quotes; paraphrased. No likeness generation for real athletes.",
+ "stories": [
+  {
+   "id": "renfrow",
+   "name": "Hunter Renfrow",
+   "sport": "Football",
+   "gender": "M",
+   "hs": "Socastee HS, Myrtle Beach, SC",
+   "college": "Clemson",
+   "division": "D1 (FBS)",
+   "path": "preferred walk-on",
+   "sourcing": "strong",
+   "timeline": [
+    {
+     "date": "c.2013",
+     "fact": "HS quarterback at Socastee, ~150 lb; recruited by Appalachian State (scholarship) while Clemson offered only preferred walk-on status",
+     "url": "https://www.ncaa.com/news/football/article/2017-01-10/college-football-hunter-renfrows-leap-faith-carried-him-clemson",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2014-2016",
+     "fact": "Changed position to receiver, gained ~30 lb, roughly raised lift from ~180 to 280+ lb",
+     "url": "https://bendbulletin.com/2017/01/11/former-clemson-walk-on-renfrow-stars-in-title-game",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2016",
+     "fact": "Awarded scholarship before the 2016 season",
+     "url": "https://www.si.com/college/clemson/football/hunter-renfrow-from-walk-on-to-hero",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2017-01-09",
+     "fact": "Caught game-winning TD with 1 second left vs Alabama in national title game",
+     "url": "https://www.ncaa.com/news/football/article/2017-01-10/college-football-hunter-renfrows-leap-faith-carried-him-clemson",
+     "retrieved": "2026-11-05"
+    }
+   ],
+   "turning": [
+    "Chose PWO at dream school over a scholarship",
+    "Position change plus strength program"
+   ],
+   "replicate": [
+    "Ask every PWO offer what the path to scholarship looks like",
+    "Weigh guaranteed money vs. fit honestly as a family"
+   ]
+  },
+  {
+   "id": "groenewegen",
+   "name": "Sara Groenewegen",
+   "sport": "Softball",
+   "gender": "F",
+   "hs": "White Rock, British Columbia (Canada); club: Washington Sidewinders",
+   "college": "Minnesota",
+   "division": "D1",
+   "path": "under-recruited club player found at tournaments",
+   "sourcing": "moderate (single feature excerpt)",
+   "timeline": [
+    {
+     "date": "HS years",
+     "fact": "Said she was not highly recruited; only a couple of schools showed serious interest",
+     "url": "https://gophersports.com/news/2015/9/22/Ski_U_Mah_Preview_North_Star",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "HS years",
+     "fact": "Minnesota coach Jessica Allister first saw her at club tournaments in Seattle and Portland",
+     "url": "https://gophersports.com/news/2015/9/22/Ski_U_Mah_Preview_North_Star",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "junior year",
+     "fact": "Assistant Piper Ritter persistently emailed; she visited and committed after feeling at home",
+     "url": "https://gophersports.com/news/2015/9/22/Ski_U_Mah_Preview_North_Star",
+     "retrieved": "2026-11-05"
+    }
+   ],
+   "turning": [
+    "Club tournament exposure in a non-hotbed region",
+    "Agreed to visit a school she had never heard of"
+   ],
+   "replicate": [
+    "Pick club events where target coaches actually attend",
+    "Say yes to visits outside your geography"
+   ]
+  },
+  {
+   "id": "lowe",
+   "name": "Karsta Lowe",
+   "sport": "Volleyball",
+   "gender": "F",
+   "hs": "San Diego, CA",
+   "college": "UCLA",
+   "division": "D1",
+   "path": "walk-on despite scholarship offers elsewhere",
+   "sourcing": "moderate (one student-paper feature)",
+   "timeline": [
+    {
+     "date": "to soph year HS",
+     "fact": "Two-sport athlete (tennis and volleyball) until sophomore year, so specialized late",
+     "url": "https://dailybruin.com/2013/11/27/ucla-volleyballs-karsta-lowe-went-from-walk-on-to-top-player",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "HS",
+     "fact": "Only a handful of East Coast programs offered scholarships; she did not feel comfortable that far from home",
+     "url": "https://dailybruin.com/2013/11/27/ucla-volleyballs-karsta-lowe-went-from-walk-on-to-top-player",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "spring junior year",
+     "fact": "Committed to walk on at UCLA with no scholarship money available",
+     "url": "https://dailybruin.com/2013/11/27/ucla-volleyballs-karsta-lowe-went-from-walk-on-to-top-player",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2013",
+     "fact": "Emerged as one of UCLA top performers as a junior",
+     "url": "https://dailybruin.com/2013/11/27/ucla-volleyballs-karsta-lowe-went-from-walk-on-to-top-player",
+     "retrieved": "2026-11-05"
+    }
+   ],
+   "turning": [
+    "Late specialization",
+    "Fit/geography over money"
+   ],
+   "replicate": [
+    "Late-specializing athletes still have windows",
+    "Treat walk-on as a real option at the right fit"
+   ]
+  },
+  {
+   "id": "pichardo",
+   "name": "Olivia Pichardo",
+   "sport": "Baseball",
+   "gender": "F",
+   "hs": "Queens, NY (club: NY Crush, Next Level Baseball)",
+   "college": "Brown",
+   "division": "D1",
+   "path": "walk-on tryout",
+   "sourcing": "moderate",
+   "timeline": [
+    {
+     "date": "HS",
+     "fact": "Played club/travel baseball on Long Island and made the US Women's National Baseball Team",
+     "url": "https://www.nancybkennedy.com/a-walk-on-wonder",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2022 fall",
+     "fact": "Had several college offers but chose Brown with no guarantee; went through walk-on tryouts",
+     "url": "https://www.si.com/college/2022/11/21/brown-university-olivia-pichardo-walk-on-first-woman-division-i-ncaa-baseball",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2022-11",
+     "fact": "Named to Brown varsity roster, first woman on a D1 baseball roster",
+     "url": "https://www.si.com/college/2022/11/21/brown-university-olivia-pichardo-walk-on-first-woman-division-i-ncaa-baseball",
+     "retrieved": "2026-11-05"
+    }
+   ],
+   "turning": [
+    "National-team credential",
+    "Academic-first school choice, then tryout"
+   ],
+   "replicate": [
+    "Ask admissions-first schools about fall walk-on tryouts"
+   ]
+  },
+  {
+   "id": "white",
+   "name": "Derrick White",
+   "sport": "Basketball",
+   "gender": "M",
+   "hs": "Legend HS, Parker, CO (first graduating class)",
+   "college": "UCCS then Colorado",
+   "division": "D2 -> D1 transfer",
+   "path": "no 4-year offers; D2 partial aid",
+   "sourcing": "strong",
+   "timeline": [
+    {
+     "date": "2012",
+     "fact": "6-0 senior with no D1 offers; father sent highlight video to ~25 JUCO and D2 schools",
+     "url": "https://www.nba.com/spurs/derrick-white-dare-be-great",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2012",
+     "fact": "Only full offer was Gillette (WY) JC; UCCS coach Jeff Culver offered a ~$3,000 housing stipend/preferred walk-on",
+     "url": "https://andscape.com/features/derrick-white-started-as-the-ultimate-underdog-in-his-journey-to-the-nba-finals/",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2012",
+     "fact": "Culver: White was first recruit he brought for a campus visit; redshirt plan scrapped",
+     "url": "https://news.uccs.edu/2026/07/15/nba-champion-olympic-gold-medalist-and-former-uccs-standout-derrick-white-inducted-into-rmac-hall-of-fame",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2015",
+     "fact": "D2 All-American; transferred to Colorado, sat 2015-16, led CU in scoring 2016-17",
+     "url": "https://cubuffs.com/sports/mens-basketball/roster/derrick-white/10873",
+     "retrieved": "2026-11-05"
+    }
+   ],
+   "turning": [
+    "Parent-run outreach",
+    "Following a coach who believed in him",
+    "Growth spurt in college"
+   ],
+   "replicate": [
+    "Email video broadly to JUCO/D2, not just D1",
+    "Track coaches who move jobs"
+   ]
+  },
+  {
+   "id": "pirosko",
+   "name": "Samantha Pirosko",
+   "sport": "Basketball",
+   "gender": "F",
+   "hs": "Eastlake North HS, Eastlake, OH",
+   "college": "Gannon",
+   "division": "D2",
+   "path": "regional D2 recruit; academic + athletic",
+   "sourcing": "thin on recruiting details (outcome well sourced)",
+   "timeline": [
+    {
+     "date": "2018",
+     "fact": "Recruited to Gannon by then-coach Jim Brunelli; credits HS coach Paul Force",
+     "url": "https://www.news-herald.com/2022/02/12/north-grad-sam-pirosko-in-leading-role-for-first-place-gannon",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2023-24",
+     "fact": "WBCA D2 National Player of the Year; 35-3, Elite Eight",
+     "url": "https://wbca.org/news/wbca-announces-ncaa-division-ii-honorees-for-2023-24-season",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2024-11",
+     "fact": "NCAA Woman of the Year finalist; PA health-sciences major",
+     "url": "https://www.ncaa.org/news/2024/11/20/media-center-2024-ncaa-woman-of-the-year-finalists-named.aspx",
+     "retrieved": "2026-11-05"
+    }
+   ],
+   "turning": [
+    "HS coach as advocate",
+    "Stayed close to home at D2"
+   ],
+   "replicate": [
+    "Use HS coach as the first contact to nearby D2s",
+    "Pair athletics with a professional major"
+   ]
+  },
+  {
+   "id": "marpet",
+   "name": "Ali Marpet",
+   "sport": "Football",
+   "gender": "M",
+   "hs": "Hackley School, Tarrytown, NY (private)",
+   "college": "Hobart",
+   "division": "D3",
+   "path": "academic-first, no D1 offers",
+   "sourcing": "moderate (HS name from general knowledge, verify)",
+   "timeline": [
+    {
+     "date": "HS",
+     "fact": "Undersized (~235 lb), played football and basketball; no D1 offers",
+     "url": "https://www.buccaneers.com/news/reflecting-on-ali-marpet-s-college-career-16779250",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "recruiting",
+     "fact": "Hobart pitched economics/Wall Street path; later grew and football became priority",
+     "url": "https://www.buccaneers.com/news/reflecting-on-ali-marpet-s-college-career-16779250",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2015",
+     "fact": "Drafted round 2 by Tampa Bay, highest-drafted D3 player ever",
+     "url": "https://www.buccaneers.com/news/reflecting-on-ali-marpet-s-college-career-16779250",
+     "retrieved": "2026-11-05"
+    }
+   ],
+   "turning": [
+    "Chose academics",
+    "Physical development in college"
+   ],
+   "replicate": [
+    "Treat D3 as a development path, not a consolation"
+   ]
+  },
+  {
+   "id": "rodenfels",
+   "name": "Annie Rodenfels",
+   "sport": "Track/XC",
+   "gender": "F",
+   "hs": "Dayton Christian, Centerville, OH",
+   "college": "Centre College",
+   "division": "D3",
+   "path": "late starter (soccer player)",
+   "sourcing": "strong",
+   "timeline": [
+    {
+     "date": "HS jr year",
+     "fact": "Started running at 17; soccer conflicted with XC so she ran track only; original plan was soccer scholarship",
+     "url": "https://www.baa.org/news/chatting-champion-annie-rodenfels",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "recruiting",
+     "fact": "Came to Centre with little running experience; coach Lisa Owens saw potential",
+     "url": "https://www.letsrun.com/news/2022/02/annie-rodenfels-has-gone-from-ncaa-d-iii-champion-to-world-leader",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2018-05-26",
+     "fact": "NCAA D3 steeplechase champion",
+     "url": "https://saa-sports.com/news/2018/5/26/5_26_2018_1541.aspx",
+     "retrieved": "2026-11-05"
+    }
+   ],
+   "turning": [
+    "Switched sports late on coach advice"
+   ],
+   "replicate": [
+    "Multi-sport kids: test a second sport junior year",
+    "Target D3 coaches who develop raw athletes"
+   ]
+  },
+  {
+   "id": "perez",
+   "name": "Tori Perez",
+   "sport": "Lacrosse (goalie)",
+   "gender": "F",
+   "ethnicity": "Hispanic/Colombian heritage (self-described)",
+   "hs": "Palm Beach Gardens, FL",
+   "college": "Oglethorpe",
+   "division": "D3",
+   "path": "first-gen, started sport in 8th grade",
+   "sourcing": "moderate (one NCAA.org feature)",
+   "timeline": [
+    {
+     "date": "8th grade",
+     "fact": "Became a goalie when a friend needed one; soccer background",
+     "url": "https://www.ncaa.org/news/2025/9/19/media-center-how-lacrosse-goalie-tori-perez-created-a-name-and-a-home-at-oglethorpe.aspx",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "HS freshman",
+     "fact": "Set goal of playing in college during first season",
+     "url": "https://www.ncaa.org/news/2025/9/19/media-center-how-lacrosse-goalie-tori-perez-created-a-name-and-a-home-at-oglethorpe.aspx",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "HS senior",
+     "fact": "Committed to Oglethorpe for city location and team diversity",
+     "url": "https://www.ncaa.org/news/2025/9/19/media-center-how-lacrosse-goalie-tori-perez-created-a-name-and-a-home-at-oglethorpe.aspx",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2025-05",
+     "fact": "Graduated biology; Colombian national team",
+     "url": "https://www.ncaa.org/news/2025/9/19/media-center-how-lacrosse-goalie-tori-perez-created-a-name-and-a-home-at-oglethorpe.aspx",
+     "retrieved": "2026-11-05"
+    }
+   ],
+   "turning": [
+    "Late entry into sport",
+    "Fit and community as criteria"
+   ],
+   "replicate": [
+    "Write the goal down early",
+    "Score schools on culture, not just level"
+   ]
+  },
+  {
+   "id": "coward",
+   "name": "Cedric Coward",
+   "sport": "Basketball",
+   "gender": "M",
+   "hs": "Central HS, Fresno, CA",
+   "college": "Willamette (D3), later D1 transfers",
+   "division": "D3 -> D1",
+   "path": "zero D1 offers, D3 start",
+   "sourcing": "thin (single blog source; verify college names)",
+   "timeline": [
+    {
+     "date": "HS",
+     "fact": "Switched from football to basketball focus; grew to 6-4 by senior year; not highly recruited",
+     "url": "https://www.d3-direct.com/newsletter/from-d3-to-nba-cedric-coward",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2021-22",
+     "fact": "Averaged 19.5 pts / 12 reb at D3",
+     "url": "https://www.d3-direct.com/newsletter/from-d3-to-nba-cedric-coward",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2025",
+     "fact": "First-round NBA draft prospect after D1 transfer",
+     "url": "https://www.d3-direct.com/newsletter/from-d3-to-nba-cedric-coward",
+     "retrieved": "2026-11-05"
+    }
+   ],
+   "turning": [
+    "Late growth",
+    "D3 production -> portal"
+   ],
+   "replicate": [
+    "D3 film can open D1 doors via portal"
+   ]
+  },
+  {
+   "id": "rodriguez",
+   "name": "Cristelle Rodriguez",
+   "sport": "Wrestling",
+   "gender": "F",
+   "hs": "Clovis HS, Clovis, CA",
+   "college": "Doane University (NE)",
+   "division": "NAIA",
+   "path": "quit in HS, recruited into new program",
+   "sourcing": "strong",
+   "timeline": [
+    {
+     "date": "HS jr/sr",
+     "fact": "Stepped away from wrestling due to pressure and mental health",
+     "url": "https://www.themat.com/news/2024/september/17/u20-world-champion-cristelle-rodriguez-overcame-pressure-doubt-to-reignite-wrestling-career",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2021-08",
+     "fact": "Joined Doane first women's wrestling recruiting class under Dana Vote",
+     "url": "https://doaneathletics.com/sports/wwrest/2024-25/releases/20240905s8eb2c",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2024-03",
+     "fact": "First NAIA champion in school history (123)",
+     "url": "https://www.win-magazine.com/2024/11/08/california-native-rodriguez-rediscovered-love-of-sport-at-small-doane-u-in-nebraska",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2024-09",
+     "fact": "U20 World Champion 55kg",
+     "url": "https://doaneathletics.com/sports/wwrest/2024-25/releases/20240905s8eb2c",
+     "retrieved": "2026-11-05"
+    }
+   ],
+   "turning": [
+    "New program needed roster",
+    "Coach patience after burnout"
+   ],
+   "replicate": [
+    "Look at brand-new programs",
+    "A gap year from the sport is not the end"
+   ]
+  },
+  {
+   "id": "butler",
+   "name": "Jimmy Butler",
+   "sport": "Basketball",
+   "gender": "M",
+   "hs": "Tomball HS, Tomball, TX",
+   "college": "Tyler JC then Marquette",
+   "division": "JUCO -> D1",
+   "path": "JUCO then transfer",
+   "sourcing": "strong",
+   "timeline": [
+    {
+     "date": "2007",
+     "fact": "Averaged ~19 pts as senior but not heavily recruited",
+     "url": "https://nfhs.org/stories/it-all-started-here-jimmy-butler",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2007-08",
+     "fact": "NJCAA honorable mention All-American at Tyler JC (18.1 ppg)",
+     "url": "https://gomarquette.com/news/2008/4/17/MU_Lands_Junior_College_Standout_Jimmy_Butler",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "date": "2008-04-17",
+     "fact": "Signed NLI with Marquette as Buzz Williams first signee",
+     "url": "https://gomarquette.com/news/2008/4/17/MU_Lands_Junior_College_Standout_Jimmy_Butler",
+     "retrieved": "2026-11-05"
+    }
+   ],
+   "turning": [
+    "One JUCO year of production",
+    "Coaching change opened roster spots"
+   ],
+   "replicate": [
+    "JUCO as a one-year showcase",
+    "Watch for programs with sudden roster holes"
+   ]
+  },
+  {
+   "id": "composite-swim",
+   "name": "Composite: \"Maya\" (swimmer)",
+   "composite": true,
+   "label": "Composite story built from 3 sourced recruiting paths",
+   "sport": "Swimming",
+   "gender": "F",
+   "division": "D2",
+   "path": "times-driven outreach, club coach advocate",
+   "sourcing": "composite",
+   "basis": [
+    "Swimmer recruiting relies on club coach advocacy and posted times (https://www.wabash.edu/news/story/2362)",
+    "Walk-on to scholarship pattern (Alika Crawford, UNT track: https://www.athletes.org/news/my-story-alika-crawford)",
+    "Parent-sent video to many lower-division programs (Derrick White: https://www.nba.com/spurs/derrick-white-dare-be-great)"
+   ],
+   "replicate": [
+    "Keep a times sheet updated and send to D2/D3 coaches",
+    "Ask club coach to call"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,335 @@
+{
+ "generated": "2026-11-05",
+ "rules_verified_against": "2026-27 NCAA Division I Manual (manual.txt, 11/5/26 printing) + site/data.js verified_on 2026-11-05",
+ "price_comps": "MM3 store comps (research/00-mm3-offers.json, 2026-11-05): single tools $7-$12 (#10,#14,#18 $7; #9,#11,#12,#16 $9), planners/guides $19 (#2,#4,#24,#26), kits $29 (#3,#5,#29), Recruit and Parent Bundle $25 (#20), College Athlete Bundle $79 (#8). Sideline membership $149/yr, $99 founding (FUNNEL.md; unapproved).",
+ "catalog": [
+  {
+   "slug": "football-junior-year",
+   "title": "Football: Junior Year Playbook",
+   "who": "Football families, Class of 2029, sophomore spring to senior Nov",
+   "outcome": "A dated plan for every football recruiting window from June 15 after sophomore year to signing, with the core-course lock built in",
+   "toc": [
+    "How football recruiting is timed",
+    "The 2 hard deadlines",
+    "Calendar: Jun 2027 to Feb 2029",
+    "Target list in 3 tiers",
+    "Coach email and call scripts",
+    "Junior-year official visit window",
+    "Written offers and signing",
+    "Trackers"
+   ],
+   "tools": [
+    "Dated calendar (11 sourced rows)",
+    "Target school list tiers",
+    "4 coach scripts",
+    "Contact log",
+    "Official visit checklist",
+    "Offer question sheet"
+   ],
+   "pages": 24,
+   "format": "PDF + XLSX tracker",
+   "price_usd": 29,
+   "story_beats": [
+    "first coach contact",
+    "the visit",
+    "the offer",
+    "signing day"
+   ],
+   "status": "WRITTEN"
+  },
+  {
+   "slug": "eligibility-2-hard-deadlines",
+   "title": "Eligibility: the 2 Hard Deadlines",
+   "who": "Any NCAA D1/D2 hopeful family, grades 9-11",
+   "outcome": "Know the two academic lines that can't be repaired late, and have the counselor meeting done",
+   "toc": [
+    "The 10/7 lock",
+    "The 16-core, 2.3 finish",
+    "Eligibility Center account",
+    "Counselor meeting script",
+    "Core GPA worksheet",
+    "Year-by-year checklist"
+   ],
+   "tools": [
+    "Core-course worksheet",
+    "Counselor script",
+    "Eligibility Center checklist",
+    "Core GPA calculator steps"
+   ],
+   "pages": 12,
+   "format": "PDF",
+   "price_usd": 9,
+   "story_beats": [
+    "the transcript scare",
+    "freshman-year planning"
+   ],
+   "status": "WRITTEN"
+  },
+  {
+   "slug": "baseball-showcase-to-signing",
+   "title": "Baseball: From Showcase to Signing",
+   "who": "Baseball families, Class of 2029",
+   "outcome": "Use baseball's later Aug 1 / Sep 1 openings and the Nov signing date without wasting showcase money",
+   "toc": [
+    "Baseball's different clock",
+    "Showcase budget",
+    "Aug 1 junior-year contact",
+    "Sep 1 visits and camps",
+    "Signing in November"
+   ],
+   "tools": [
+    "Dated calendar (10 rows)",
+    "Showcase ROI sheet",
+    "Coach scripts",
+    "Contact log"
+   ],
+   "pages": 22,
+   "format": "PDF + XLSX",
+   "price_usd": 29,
+   "story_beats": [
+    "the showcase",
+    "first coach reply",
+    "signing"
+   ],
+   "status": "OUTLINE"
+  },
+  {
+   "slug": "track-field-marks",
+   "title": "Track & Field: Marks to Roster",
+   "who": "Track and cross-country families, Class of 2029",
+   "outcome": "Turn verified marks into a target list and contact plan by event group",
+   "toc": [
+    "Your marks vs program standards (you look them up)",
+    "Contact opens",
+    "Visits",
+    "Signing"
+   ],
+   "tools": [
+    "Dated calendar (9 rows)",
+    "Marks tracker",
+    "Coach email scripts"
+   ],
+   "pages": 18,
+   "format": "PDF + XLSX",
+   "price_usd": 25,
+   "story_beats": [
+    "the breakout meet",
+    "first coach reply"
+   ],
+   "status": "OUTLINE"
+  },
+  {
+   "slug": "d3-academic-aid-first",
+   "title": "D3 Path: Academic Aid First",
+   "who": "Families who want a strong school plus a roster spot",
+   "outcome": "Compare D3 net cost honestly: no athletic aid, academic and need-based only",
+   "toc": [
+    "How D3 aid works (Bylaw 15)",
+    "Jan 1 junior-year official visits",
+    "Net price calculators",
+    "Admissions vs coach support"
+   ],
+   "tools": [
+    "Net cost comparison sheet",
+    "Coach questions",
+    "Visit scoring"
+   ],
+   "pages": 16,
+   "format": "PDF + XLSX",
+   "price_usd": 19,
+   "story_beats": [
+    "choosing school over scholarship"
+   ],
+   "status": "OUTLINE"
+  },
+  {
+   "slug": "walk-on",
+   "title": "Walk-On Playbook",
+   "who": "Athletes without an aid offer who still want to play",
+   "outcome": "Know the walk-on types and the questions to ask before committing",
+   "toc": [
+    "Preferred vs tryout walk-on",
+    "Roster limits after House",
+    "What to get in writing",
+    "Admissions timeline"
+   ],
+   "tools": [
+    "Walk-on question sheet",
+    "Commit checklist"
+   ],
+   "pages": 14,
+   "format": "PDF",
+   "price_usd": 15,
+   "story_beats": [
+    "the roster spot without a scholarship"
+   ],
+   "status": "OUTLINE"
+  },
+  {
+   "slug": "juco-to-d1",
+   "title": "JUCO to D1",
+   "who": "Athletes considering NJCAA as a route",
+   "outcome": "Plan transferable credits and the two-year recruiting window",
+   "toc": [
+    "NJCAA basics",
+    "Transfer credit planning",
+    "When 4-year coaches recruit you",
+    "Questions for JUCO coaches"
+   ],
+   "tools": [
+    "Credit transfer tracker",
+    "JUCO coach questions"
+   ],
+   "pages": 16,
+   "format": "PDF",
+   "price_usd": 19,
+   "story_beats": [
+    "the second chance"
+   ],
+   "status": "OUTLINE"
+  },
+  {
+   "slug": "late-bloomer",
+   "title": "Late Bloomer Playbook",
+   "who": "Seniors and post-grads with late growth or late film",
+   "outcome": "A 90-day plan for a late start: who still has roster needs and how to reach them",
+   "toc": [
+    "Who recruits late",
+    "D2, D3, NAIA, JUCO doors",
+    "90-day sprint",
+    "Gap-year cautions"
+   ],
+   "tools": [
+    "90-day plan",
+    "Target list",
+    "Scripts"
+   ],
+   "pages": 14,
+   "format": "PDF",
+   "price_usd": 15,
+   "story_beats": [
+    "the late breakout"
+   ],
+   "status": "OUTLINE"
+  },
+  {
+   "slug": "highlight-reel-social",
+   "title": "Highlight Reel & Social Playbook",
+   "who": "Any athlete building film and a public profile",
+   "outcome": "A reel coaches finish and a profile that doesn't hurt you",
+   "toc": [
+    "Reel structure by position",
+    "One-page profile",
+    "Social audit",
+    "What not to post",
+    "Coach follow tracking (manual)"
+   ],
+   "tools": [
+    "Reel brief",
+    "Profile template",
+    "Social audit checklist",
+    "Follow log"
+   ],
+   "pages": 16,
+   "format": "PDF + DOCX",
+   "price_usd": 15,
+   "story_beats": [
+    "the reel that got watched"
+   ],
+   "status": "OUTLINE"
+  },
+  {
+   "slug": "camp-roi",
+   "title": "Camp ROI Playbook",
+   "who": "Families deciding which camps to pay for",
+   "outcome": "Score camps before paying, track the cost, and know when recruiting talk is allowed",
+   "toc": [
+    "Camp types",
+    "When camp recruiting talk opens (by sport)",
+    "Cost budget",
+    "Post-camp follow-up"
+   ],
+   "tools": [
+    "Camp scoring sheet",
+    "Budget tracker",
+    "Follow-up script"
+   ],
+   "pages": 14,
+   "format": "PDF + XLSX",
+   "price_usd": 15,
+   "story_beats": [
+    "the camp invite"
+   ],
+   "status": "OUTLINE"
+  },
+  {
+   "slug": "nil-high-school",
+   "title": "NIL for High Schoolers",
+   "who": "HS athletes and parents asked about a deal",
+   "outcome": "Screen a deal against state and association rules before signing anything",
+   "toc": [
+    "State rules vary",
+    "Recruiting-inducement risk",
+    "Deal screening checklist",
+    "Taxes basics"
+   ],
+   "tools": [
+    "25-question deal checklist",
+    "Red-flag page"
+   ],
+   "pages": 14,
+   "format": "PDF",
+   "price_usd": 15,
+   "story_beats": [
+    "the first deal offer"
+   ],
+   "status": "OUTLINE"
+  },
+  {
+   "slug": "offer-and-signing",
+   "title": "Offers & Signing Day",
+   "who": "Families holding one or more offers",
+   "outcome": "Compare offers on the same terms and know what's binding and when",
+   "toc": [
+    "Verbal vs written",
+    "Written-offer dates",
+    "Signing periods",
+    "Compare up to 4 offers"
+   ],
+   "tools": [
+    "Offer comparison sheet",
+    "Compliance questions"
+   ],
+   "pages": 14,
+   "format": "PDF + XLSX",
+   "price_usd": 19,
+   "story_beats": [
+    "the offer",
+    "signing"
+   ],
+   "status": "OUTLINE"
+  }
+ ],
+ "bundles": [
+  {
+   "slug": "sport-pack",
+   "title": "Sport Pack (your sport playbook + Eligibility + Offers & Signing + Camp ROI)",
+   "price_usd": 49,
+   "note": "vs ~$72 a la carte; anchored between MM3 $25 and $79 bundles"
+  },
+  {
+   "slug": "all-playbooks",
+   "title": "Every Playbook",
+   "price_usd": 99,
+   "note": "all 12 a la carte ~$234"
+  },
+  {
+   "slug": "sideline",
+   "title": "Sideline membership",
+   "price_usd_per_year": 149,
+   "includes": "All playbooks (downloads + yearly re-verified editions) + hosted tracker + calendar alerts + coach-activity benchmarks",
+   "note": "Recommended: YES include all playbooks. Membership value is the re-verification each manual year; a la carte buys a dated edition."
+  }
+ ],
+ "integrity": "No scholarship promises; no testimonials; prices proposed (Mike approved showing proposed prices 2026-11-05); payments test-mode."
+}

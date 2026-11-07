@@ -1,0 +1,8 @@
+# W10 offers: attribution and verification (read-only)
+Verified: 2026-11-06 (live fetch, ~11:47-11:50 MST / 18:47 UTC)
+Source catalog: research/00-mm3-offers.json (30 products). Live check: GET https://malbrough6.gumroad.com/l/<slug> for all 30; every one returned HTTP 200 and its live price (product:price:amount) equals the catalog price. 0 mismatches. 15 of the 30 were not in the first 70 links on the storefront home page (pagination/ordering), but their own product pages are live.
+Seller: McKinley Malbrough III (J.D., MS-HRM, certified WNBA player agent; not a licensed attorney), storefront https://malbrough6.gumroad.com. (Note: https://mm3sports.gumroad.com returns 404; the real storefront is malbrough6.)
+Attribution to show next to any product: "By McKinley Malbrough III, MM3 Sports. Educational material, not legal, tax or financial advice." Link text goes to the product's own Gumroad page.
+Scope: only titles, prices and URLs are used. No paid content copied or reproduced. No Gumroad or site files edited. The Commit Book's own products (v3/W8-offerings) are separate originals and are not these MM3 products.
+Relevance: mapping in STORY-OFFERS.json, one `relevance_basis` per story. Matched on sport/path/division topic only; nothing padded.
+Caveats: (1) 8 stories have no sport-specific MM3 product (see GAPS.json), so their picks are generic recruiting tools. (2) Basketball-specific picks (pathway planner, field guide) are used only on basketball stories. (3) NIL and overseas-pro products are used only where the story reaches D1 or pro. (4) Rodenfels is HELD (noindex); do not link offers from it until it is un-held. (5) Prices are as of the timestamp and can change; re-run build.cjs after refreshing /tmp/gr/live.json.

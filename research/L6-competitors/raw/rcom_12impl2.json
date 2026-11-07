@@ -1,0 +1,738 @@
+{
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "{\n  \"data\": {\n    \"lookupStatus\": \"found\",\n    \"post\": {\n      \"id\": \"12impl2\",\n      \"title\": \"For the love of everything please don\u2019t waste your money on an NCSA profile\",\n      \"text\": \"Its a waste of money, 99% of coaches who get those NCSA emails trash them immediately without even looking. Email coaches yourself send them videos, times (DO NOT SEND SPLITS) and GPA.\",\n      \"url\": \"https://www.reddit.com/r/trackandfield/comments/12impl2/for_the_love_of_everything_please_dont_waste_your/\",\n      \"permalink\": \"/r/trackandfield/comments/12impl2/for_the_love_of_everything_please_dont_waste_your/\",\n      \"subreddit\": \"trackandfield\",\n      \"subredditNamePrefixed\": \"r/trackandfield\",\n      \"author\": \"Dingoatemycat69420\",\n      \"score\": 66,\n      \"upvoteRatio\": 0.9852941176470589,\n      \"commentCount\": 93,\n      \"createdAt\": \"2023-04-11T15:05:59.000Z\",\n      \"createdUtc\": 1681225559,\n      \"over18\": false,\n      \"locked\": false,\n      \"stickied\": false\n    },\n    \"page\": {\n      \"nextCursor\": null,\n      \"hasMore\": false\n    },\n    \"comments\": [\n      {\n        \"id\": \"ln9w158\",\n        \"url\": \"https://www.reddit.com/r/trackandfield/comments/12impl2/comment/ln9w158/\",\n        \"permalink\": \"/r/trackandfield/comments/12impl2/comment/ln9w158/\",\n        \"parentId\": \"t3_12impl2\",\n        \"author\": \"OwnEntertainment7715\",\n        \"text\": \"I want to add something to this conversation - because I\u2019m the kind of person that isn\u2019t going to shy away from hard truths or to admit when I\u2019m wrong. Actually I\u2019m not sure I\u2019m necessarily wrong about the product - but boy am I done having anything remotely good to say about NCSA the company/organization.\\n\\n Check this out\u2026\\n\\n The actual NCSA platform is great - but I\u2019ve learned some VERY disturbing things over the last several weeks that I\u2019ve been contemplating ,that I think now need to be addressed.\\n\\n I have very recently learned that the MVP membership, which is the top membership and the most expensive, and where the athlete/family is paying to be serviced by their own full-time recruiting coach, is a complete sham.\\n\\n I spoke with a recently departed recruiting coach (in the last year) in a sport which I\u2019ll decline to name. She was working with 750 MVP athletes. How in God\u2019s name was she ever going to take care of that many kids? Well, there\u2019s a story there. You see, one of the very unusual things about these NCSA memberships is that something like 60% of families will pay for them, then never use them! In fact, she told me that 80% of her time was dedicated to \u201cretention\u201d where she called, texted, and emailed families. Only around 20% of her week involved actually meeting with and helping families. In fact, they are awarded bonuses based on retention, not results! NCSA has FAR more MVP members than it could ever possibly hope to service properly, but their business model relies on enrolling more and more of them - then hoping that they won\u2019t use it! In fact, when my friend left, NCSA told all the other coaches in that sport that they weren\u2019t going to hire anyone to replace her, and that her portfolio would be parceled out to everyone else. This brought the ratio for her sport up to 950 MVP student athletes PER RECRUITING COACH.\\n\\n She told me that she met with, on average, 21 families per week. Out of 750 - and all the calendar slots that she opens are filled immediately. It\u2019s like living in a rural area and needing to see the gastroenterologist, they\u2019re there, they can surely help you, but you\u2019ll need to wait six months to get on their schedule.\\n\\n The company is terrified of losing that monthly income from the folks making monthly payments but at the same time is praying that they won\u2019t actually use what they\u2019ve paid for. So, if even a slightly higher percentage of families decide to begin using their NCSA MVP membership in earnest, the company will be totally screwed - as will the athlete.\\n\\n This explains why, in the past, I\u2019ve had a very difficult time getting NCSA recruiting coaches to follow-up with me. I was always under the impression that they worked one-on-one with their families, but it\u2019s a freaking assembly line bullshit business model - they likely never even saw my email.\\n\\n I\u2019ll still use it, as there are a lot of people that use even the free profile and it\u2019s a great way to find contact info on potential recruits, but my days of defending this blight on humanity are over.\\n\\n I\u2019ve heard other disgusting things, like celebrating enrolling athletes of single mom\u2019s - because they are the ones with the least amount of money and thus least likely to enroll - kinda like \u201cwow look at me, look what a salesman I am - enrolling a single mom\u201d. Other things that are equally shocking and infuriating, especially considering how I\u2019ve defended this company publicly, but I think that\u2019s enough.\\n\\n I was not wrong about the platform and the efficacy of getting professional help with one\u2019s recruiting - but goddammit I was very wrong about NCSA, and I\u2019m man enough to tell you all.\",\n        \"renderedHtml\": \"\\n      <p>\\n      I want to add something to this conversation - because I\u2019m the kind of person that isn\u2019t going to shy away from hard truths or to admit when I\u2019m wrong. Actually I\u2019m not sure I\u2019m necessarily wrong about the product - but boy am I done having anything remotely good to say about NCSA the company/organization.\\n    </p><p>\\n      Check this out\u2026\\n    </p><p>\\n      The actual NCSA platform is great - but I\u2019ve learned some VERY disturbing things over the last several weeks that I\u2019ve been contemplating ,that I think now need to be addressed.\\n    </p><p>\\n      I have very recently learned that the MVP membership, which is the top membership and the most expensive, and where the athlete/family is paying to be serviced by their own full-time recruiting coach, is a complete sham.\\n    </p><p>\\n      I spoke with a recently departed recruiting coach (in the last year) in a sport which I\u2019ll decline to name. She was working with 750 MVP athletes. How in God\u2019s name was she ever going to take care of that many kids? Well, there\u2019s a story there. You see, one of the very unusual things about these NCSA memberships is that something like 60% of families will pay for them, then never use them! In fact, she told me that 80% of her time was dedicated to \u201cretention\u201d where she called, texted, and emailed families. Only around 20% of her week involved actually meeting with and helping families. In fact, they are awarded bonuses based on retention, not results! NCSA has FAR more MVP members than it could ever possibly hope to service properly, but their business model relies on enrolling more and more of them - then hoping that they won\u2019t use it! In fact, when my friend left, NCSA told all the other coaches in that sport that they weren\u2019t going to hire anyone to replace her, and that her portfolio would be parceled out to everyone else. This brought the ratio for her sport up to 950 MVP student athletes PER RECRUITING COACH.\\n    </p><p>\\n      She told me that she met with, on average, 21 families per week. Out of 750 - and all the calendar slots that she opens are filled immediately. It\u2019s like living in a rural area and needing to see the gastroenterologist, they\u2019re there, they can surely help you, but you\u2019ll need to wait six months to get on their schedule.\\n    </p><p>\\n      The company is terrified of losing that monthly income from the folks making monthly payments but at the same time is praying that they won\u2019t actually use what they\u2019ve paid for. So, if even a slightly higher percentage of families decide to begin using their NCSA MVP membership in earnest, the company will be totally screwed - as will the athlete.\\n    </p><p>\\n      This explains why, in the past, I\u2019ve had a very difficult time getting NCSA recruiting coaches to follow-up with me. I was always under the impression that they worked one-on-one with their families, but it\u2019s a freaking assembly line bullshit business model - they likely never even saw my email.\\n    </p><p>\\n      I\u2019ll still use it, as there are a lot of people that use even the free profile and it\u2019s a great way to find contact info on potential recruits, but my days of defending this blight on humanity are over.\\n    </p><p>\\n      I\u2019ve heard other disgusting things, like celebrating enrolling athletes of single mom\u2019s - because they are the ones with the least amount of money and thus least likely to enroll - kinda like \u201cwow look at me, look what a salesman I am - enrolling a single mom\u201d. Other things that are equally shocking and infuriating, especially considering how I\u2019ve defended this company publicly, but I think that\u2019s enough.\\n    </p><p>\\n      I was not wrong about the platform and the efficacy of getting professional help with one\u2019s recruiting - but goddammit I was very wrong about NCSA, and I\u2019m man enough to tell you all.\\n    </p>\\n    \",\n        \"score\": 2,\n        \"upvotes\": 2,\n        \"createdAt\": \"2024-09-15T17:04:01.000Z\",\n        \"createdUtc\": 1726419841,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"lnc4o3i\",\n              \"url\": \"https://www.reddit.com/r/trackandfield/comments/12impl2/comment/lnc4o3i/\",\n              \"permalink\": \"/r/trackandfield/comments/12impl2/comment/lnc4o3i/\",\n              \"parentId\": \"t1_ln9w158\",\n              \"author\": \"Dingoatemycat69420\",\n              \"text\": \"Hey man I appreciate you coming back and sharing this in the hopes that others who are desperate for college recruiting will come by and see these words so they don\u2019t get scammed. NCSA is a joke of an organization but yes I will say it\u2019s ok for the free one as you can get some contact information (most of which you can find on their schools website, but idrc as long as you aren\u2019t paying them anymore) I do wish someone could make a legit platform and not one that thrives on people paying for these MVP stuff that offer no real benefit but alas feels like everything\u2019s a scam nowadays, I\u2019m glad you saw their issues and are moving on tho. And again i appreciate you coming back and sharing these words.\",\n              \"renderedHtml\": \"\\n      <p>\\n      Hey man I appreciate you coming back and sharing this in the hopes that others who are desperate for college recruiting will come by and see these words so they don\u2019t get scammed. NCSA is a joke of an organization but yes I will say it\u2019s ok for the free one as you can get some contact information (most of which you can find on their schools website, but idrc as long as you aren\u2019t paying them anymore) I do wish someone could make a legit platform and not one that thrives on people paying for these MVP stuff that offer no real benefit but alas feels like everything\u2019s a scam nowadays, I\u2019m glad you saw their issues and are moving on tho. And again i appreciate you coming back and sharing these words.\\n    </p>\\n    \",\n              \"score\": 1,\n              \"upvotes\": 1,\n              \"createdAt\": \"2024-09-16T00:25:51.000Z\",\n              \"createdUtc\": 1726446351,\n              \"depth\": 0,\n              \"isSubmitter\": true,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": null,\n                  \"hasMore\": false\n                }\n              }\n            },\n            {\n              \"id\": \"lpqmizv\",\n              \"url\": \"https://www.reddit.com/r/trackandfield/comments/12impl2/comment/lpqmizv/\",\n              \"permalink\": \"/r/trackandfield/comments/12impl2/comment/lpqmizv/\",\n              \"parentId\": \"t1_ln9w158\",\n              \"author\": \"AspieCurmudgeon\",\n              \"text\": \"Bravo.\\n\\n It doesn't excuse the vitriol and disrespect for the last year, calling everyone poor, freeloaders, and cheapskates, but it's worth something.\",\n              \"renderedHtml\": \"\\n      <p>\\n      Bravo.\\n    </p><p>\\n      It doesn't excuse the vitriol and disrespect for the last year, calling everyone poor, freeloaders, and cheapskates, but it's worth something.\\n    </p>\\n    \",\n              \"score\": 2,\n              \"upvotes\": 2,\n              \"createdAt\": \"2024-10-01T00:40:28.000Z\",\n              \"createdUtc\": 1727743228,\n              \"depth\": 0,\n              \"isSubmitter\": false,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [\n                  {\n                    \"id\": \"lqi2nwp\",\n                    \"url\": \"https://www.reddit.com/r/trackandfield/comments/12impl2/comment/lqi2nwp/\",\n                    \"permalink\": \"/r/trackandfield/comments/12impl2/comment/lqi2nwp/\",\n                    \"parentId\": \"t1_lpqmizv\",\n                    \"author\": \"mybillabong\",\n                    \"text\": \"Yeah, because he is a douche, regardless of his newly formed opinion.\",\n                    \"renderedHtml\": \"\\n      <p>\\n      Yeah, because he is a douche, regardless of his newly formed opinion.\\n    </p>\\n    \",\n                    \"score\": 2,\n                    \"upvotes\": 2,\n                    \"createdAt\": \"2024-10-05T19:17:41.000Z\",\n                    \"createdUtc\": 1728155861,\n                    \"depth\": 0,\n                    \"isSubmitter\": false,\n                    \"stickied\": false,\n                    \"locked\": false,\n                    \"distinguished\": null,\n                    \"replies\": {\n                      \"items\": [],\n                      \"page\": {\n                        \"nextCursor\": null,\n                        \"hasMore\": false\n                      }\n                    }\n                  }\n                ],\n                \"page\": {\n                  \"nextCursor\": \"lpqmizv\",\n                  \"hasMore\": true\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"lpqmizv\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"jfvtf7k\",\n        \"url\": \"https://www.reddit.com/r/trackandfield/comments/12impl2/comment/jfvtf7k/\",\n        \"permalink\": \"/r/trackandfield/comments/12impl2/comment/jfvtf7k/\",\n        \"parentId\": \"t3_12impl2\",\n        \"author\": \"[deleted]\",\n        \"text\": \"[deleted]\",\n        \"renderedHtml\": null,\n        \"score\": 17,\n        \"upvotes\": 17,\n        \"createdAt\": \"2023-04-11T21:44:44.000Z\",\n        \"createdUtc\": 1681249484,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"jfx04fw\",\n              \"url\": \"https://www.reddit.com/r/trackandfield/comments/12impl2/comment/jfx04fw/\",\n              \"permalink\": \"/r/trackandfield/comments/12impl2/comment/jfx04fw/\",\n              \"parentId\": \"t1_jfvtf7k\",\n              \"author\": \"rossg876\",\n              \"text\": \"I though NCAA coaches can only contact for recruiting halfway through sophomore year?\",\n              \"renderedHtml\": \"\\n      <p>\\n      I though NCAA coaches can only contact for recruiting halfway through sophomore year?\\n    </p>\\n    \",\n              \"score\": 2,\n              \"upvotes\": 2,\n              \"createdAt\": \"2023-04-12T02:54:42.000Z\",\n              \"createdUtc\": 1681268082,\n              \"depth\": 0,\n              \"isSubmitter\": false,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": \"eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy90cmFja2FuZGZpZWxkL3QzXzEyaW1wbDI_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MiZjb21tZW50UGFyZW50UG9zaXRpb25zPTEsMCIsImN1cnNvciI6IlkyOXRiV1Z1ZEhSeVpXVTZNVEprT0RJeVl6a3NPam95T21ReE9uUXhYMnBtZURBMFpuYz0iLCJzdWJyZWRkaXQiOiJ0cmFja2FuZGZpZWxkIiwicG9zdElkIjoiMTJpbXBsMiIsInBhcmVudFRoaW5nSWQiOiJ0MV9qZngwNGZ3In0\",\n                  \"hasMore\": true\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy90cmFja2FuZGZpZWxkL3QzXzEyaW1wbDI_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MSZjb21tZW50UG9zaXRpb25PZmZzZXQ9MSZjb21tZW50UGFyZW50UG9zaXRpb25zPTEiLCJjdXJzb3IiOiJZMjl0YldWdWRIUnlaV1U2TTJKa1pESmlORFFzT2pveE9tVjRPaWNvYUNaRlZ3PT0iLCJzdWJyZWRkaXQiOiJ0cmFja2FuZGZpZWxkIiwicG9zdElkIjoiMTJpbXBsMiIsInBhcmVudFRoaW5nSWQiOiJ0MV9qZnZ0ZjdrIn0\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"l6yoj3o\",\n        \"url\": \"https://www.reddit.com/r/trackandfield/comments/12impl2/comment/l6yoj3o/\",\n        \"permalink\": \"/r/trackandfield/comments/12impl2/comment/l6yoj3o/\",\n        \"parentId\": \"t3_12impl2\",\n        \"author\": \"ccRanch\",\n        \"text\": \"I just got off the phone with a rep from NCSA with my son. I was considering if I would utilize their contacts and their services. No, I am not put off by their membership cost(s) because of the kind of athlete my son is. After reading the comments you made here, with the aggressive put-downs and your superior tone, you have sealed the fate for NCSA, whether you have anything to do with that organization or not. I will never utilize their services, and I bet they would be appalled to know you\u2019re a self-proclaimed mouthpiece for them.\",\n        \"renderedHtml\": \"\\n      <p>\\n      I just got off the phone with a rep from NCSA with my son. I was considering if I would utilize their contacts and their services. No, I am not put off by their membership cost(s) because of the kind of athlete my son is. After reading the comments you made here, with the aggressive put-downs and your superior tone, you have sealed the fate for NCSA, whether you have anything to do with that organization or not. I will never utilize their services, and I bet they would be appalled to know you\u2019re a self-proclaimed mouthpiece for them.\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2024-06-03T20:16:26.000Z\",\n        \"createdUtc\": 1717445786,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"l6yoylm\",\n              \"url\": \"https://www.reddit.com/r/trackandfield/comments/12impl2/comment/l6yoylm/\",\n              \"permalink\": \"/r/trackandfield/comments/12impl2/comment/l6yoylm/\",\n              \"parentId\": \"t1_l6yoj3o\",\n              \"author\": \"Dingoatemycat69420\",\n              \"text\": \"I don\u2019t know if you meant to comment this as a main or a reply but the whole point of my post was meant to stay away from NCSA, I\u2019m glad you aren\u2019t using it. Have your son send emails to coaches himself, go to camps, do everything to stay in contact with coaches and bug them a little bit, I truly hope your son finds a school and gets into a college for athletics and hopefully a college he loves\",\n              \"renderedHtml\": \"\\n      <p>\\n      I don\u2019t know if you meant to comment this as a main or a reply but the whole point of my post was meant to stay away from NCSA, I\u2019m glad you aren\u2019t using it. Have your son send emails to coaches himself, go to camps, do everything to stay in contact with coaches and bug them a little bit, I truly hope your son finds a school and gets into a college for athletics and hopefully a college he loves\\n    </p>\\n    \",\n              \"score\": 2,\n              \"upvotes\": 2,\n              \"createdAt\": \"2024-06-03T20:18:48.000Z\",\n              \"createdUtc\": 1717445928,\n              \"depth\": 0,\n              \"isSubmitter\": true,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": \"eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy90cmFja2FuZGZpZWxkL3QzXzEyaW1wbDI_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MiZjb21tZW50UGFyZW50UG9zaXRpb25zPTIsMCIsImN1cnNvciI6IlkyOXRiV1Z1ZEhSeVpXVTZZbU0zTVRRMU9UY3NPam95T21ReE9uUXhYMncyZVc5NWJHMD0iLCJzdWJyZWRkaXQiOiJ0cmFja2FuZGZpZWxkIiwicG9zdElkIjoiMTJpbXBsMiIsInBhcmVudFRoaW5nSWQiOiJ0MV9sNnlveWxtIn0\",\n                  \"hasMore\": true\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"l6yoylm\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"k7h26pd\",\n        \"url\": \"https://www.reddit.com/r/trackandfield/comments/12impl2/comment/k7h26pd/\",\n        \"permalink\": \"/r/trackandfield/comments/12impl2/comment/k7h26pd/\",\n        \"parentId\": \"t3_12impl2\",\n        \"author\": \"OwnEntertainment7715\",\n        \"text\": \"No - we found a cheapskate. Keep using the free profile. College coaches will know you\u2019re a kook.\",\n        \"renderedHtml\": \"\\n      <p>\\n      No - we found a cheapskate. Keep using the free profile. College coaches will know you\u2019re a kook.\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2023-11-02T06:01:28.000Z\",\n        \"createdUtc\": 1698904888,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"k7i6glr\",\n              \"url\": \"https://www.reddit.com/r/trackandfield/comments/12impl2/comment/k7i6glr/\",\n              \"permalink\": \"/r/trackandfield/comments/12impl2/comment/k7i6glr/\",\n              \"parentId\": \"t1_k7h26pd\",\n              \"author\": \"Dingoatemycat69420\",\n              \"text\": \"I didn\u2019t use the profile at all, whole thing is a joke. And if you actually are a college coach who uses NCSA and says people are ghetto then clearly you aren\u2019t a good college coach\",\n              \"renderedHtml\": \"\\n      <p>\\n      I didn\u2019t use the profile at all, whole thing is a joke. And if you actually are a college coach who uses NCSA and says people are ghetto then clearly you aren\u2019t a good college coach\\n    </p>\\n    \",\n              \"score\": 3,\n              \"upvotes\": 3,\n              \"createdAt\": \"2023-11-02T13:34:55.000Z\",\n              \"createdUtc\": 1698932095,\n              \"depth\": 0,\n              \"isSubmitter\": true,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": \"eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy90cmFja2FuZGZpZWxkL3QzXzEyaW1wbDI_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MiZjb21tZW50UGFyZW50UG9zaXRpb25zPTMsMCIsImN1cnNvciI6IlkyOXRiV1Z1ZEhSeVpXVTZNVEE0TVdZd09URXNPam95T21ReE9uUXhYMnMzYVRabmJIST0iLCJzdWJyZWRkaXQiOiJ0cmFja2FuZGZpZWxkIiwicG9zdElkIjoiMTJpbXBsMiIsInBhcmVudFRoaW5nSWQiOiJ0MV9rN2k2Z2xyIn0\",\n                  \"hasMore\": true\n                }\n              }\n            },\n            {\n              \"id\": \"l7uytm0\",\n              \"url\": \"https://www.reddit.com/r/trackandfield/comments/12impl2/comment/l7uytm0/\",\n              \"permalink\": \"/r/trackandfield/comments/12impl2/comment/l7uytm0/\",\n              \"parentId\": \"t1_k7h26pd\",\n              \"author\": \"CommercialBug7951\",\n              \"text\": \"Maybe they use the free profile cause the parent could\u2019ve afford it did u think about that\",\n              \"renderedHtml\": \"\\n      <p>\\n      Maybe they use the free profile cause the parent could\u2019ve afford it did u think about that\\n    </p>\\n    \",\n              \"score\": 1,\n              \"upvotes\": 1,\n              \"createdAt\": \"2024-06-09T19:45:39.000Z\",\n              \"createdUtc\": 1717962339,\n              \"depth\": 0,\n              \"isSubmitter\": false,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": \"eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy90cmFja2FuZGZpZWxkL3QzXzEyaW1wbDI_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MiZjb21tZW50UGFyZW50UG9zaXRpb25zPTMsMSIsImN1cnNvciI6IlkyOXRiV1Z1ZEhSeVpXVTZaRGsyWVRsbE56WXNPam95T21ReE9uUXhYMnczZFhsMGJUQT0iLCJzdWJyZWRkaXQiOiJ0cmFja2FuZGZpZWxkIiwicG9zdElkIjoiMTJpbXBsMiIsInBhcmVudFRoaW5nSWQiOiJ0MV9sN3V5dG0wIn0\",\n                  \"hasMore\": true\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"k7i6glr\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"l70qd3z\",\n        \"url\": \"https://www.reddit.com/r/trackandfield/comments/12impl2/comment/l70qd3z/\",\n        \"permalink\": \"/r/trackandfield/comments/12impl2/comment/l70qd3z/\",\n        \"parentId\": \"t3_12impl2\",\n        \"author\": \"Limp_Bite_6194\",\n        \"text\": \"My child is a high school player going through the college recruitment process. We are NCSA members. We are also Scouting Zone members as the club my player belongs to promotes that one and all the members have a Scouting Zone account hosted by the club. We went a full year as Scouting Zone members high school sophomore year, emailing the profile to coaches, etc. and no recruiting activity what-so-ever came out of it. My player is getting legitimate recruiting contacts, now, through NCSA and scouts use it heavily. Members have visibility to what recruiters are viewing their profile and there is a dedicated email platform between athletes and coaches. We've been on official visits to the actual schools, zoom calls and still receiving contacts through NCSA from other coaches. There are so many schools out there that are a fit for my player that we would never have otherwise known about that are finding my player through NCSA and reaching out to get to know my player. I do not work for NCSA but my player is benefitting from the tool. It shows a lot of data about the colleges and contact information for the coaches. I do admit, when we were 1st contacted and had the first initial meeting with the sales person we were very skeptical since they use sales tactics and it felt scammy. However, we did verify this program with other people in the athletic community who vouched for it. The money it costs to be an NCSA member is inconsequential compared to the worth of potential scholarships and the college player experience it can help players achieve.\",\n        \"renderedHtml\": \"\\n      <p>\\n      My child is a high school player going through the college recruitment process.  We are NCSA members.  We are also Scouting Zone members as the club my player belongs to promotes that one and all the members have a Scouting Zone account hosted by the club.  We went a full year as Scouting Zone members high school sophomore year, emailing the profile to coaches, etc. and no recruiting activity what-so-ever came out of it.  My player is getting legitimate recruiting contacts, now, through NCSA and scouts use it heavily.  Members have visibility to what recruiters are viewing their profile and there is a dedicated email platform between athletes and coaches.  We've been on official visits to the actual schools, zoom calls and still receiving contacts through NCSA from other coaches.  There are so many schools out there that are a fit for my player that we would never have otherwise known about that are finding my player through NCSA and reaching out to get to know my player.  I do not work for NCSA but my player is benefitting from the tool.  It shows a lot of data about the colleges and contact information for the coaches.  I do admit, when we were 1st contacted and had the first initial meeting with the sales person we were very skeptical since they use sales tactics and it felt scammy.  However, we did verify this program with other people in the athletic community who vouched for it.  The money it costs to be an NCSA member is inconsequential compared to the worth of potential scholarships and the college player experience it can help players achieve.\\n    </p>\\n    \",\n        \"score\": 3,\n        \"upvotes\": 3,\n        \"createdAt\": \"2024-06-04T04:37:13.000Z\",\n        \"createdUtc\": 1717475833,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"lwcqjfs\",\n        \"url\": \"https://www.reddit.com/r/trackandfield/comments/12impl2/comment/lwcqjfs/\",\n        \"permalink\": \"/r/trackandfield/comments/12impl2/comment/lwcqjfs/\",\n        \"parentId\": \"t3_12impl2\",\n        \"author\": \"Johnweldon2530\",\n        \"text\": \"Once again my son Ryker Armes was Nominated for the All In Award meaning MVP service is \ud83d\udcaf FREE only 1 kid every year can get it At first it's was honestly really great I mean IT'S FREE for us but it's done absolutely nothing to really help him other than a bunch of camp invites which are great but not when it would cost us over a thousand dollars to get to that specific camp so yes everything is a money grab which is not helpful for us that can't afford it Thankfully now my Son has had great help from Coaches to get noticed and thankfully my son performed this year NCSA hasn't really done anything yet to get him on campus that has benefited us Even just recently prep RedZone had included my son in an article heck I have to pay just to read that like really WTF Parents the best thing for you to do is be in your kids lives and talk to his coaches see if they will help which a lot are but most importantly make sure your kid goes to school gets great grades no troubles in school or out and they PERFORM WHEN THEY ARE CALLED UPON\",\n        \"renderedHtml\": \"\\n      <p>\\n      Once again my son Ryker Armes was Nominated for the All In Award meaning MVP service is \ud83d\udcaf FREE only 1 kid every year can get it At first it's was honestly really great I mean IT'S FREE for us but it's done absolutely nothing to really help him other than a bunch of camp invites which are great but not when it would cost us over a thousand dollars to get to that specific camp so yes everything is a money grab which is not helpful for us that can't afford it Thankfully now my Son has had great help from Coaches to get noticed and thankfully my son performed this year NCSA hasn't really done anything yet to get him on campus that has benefited us Even just recently prep RedZone had included my son in an article heck I have to pay just to read that like really WTF Parents the best thing for you to do is be in your kids lives and talk to his coaches see if they will help which a lot are but most importantly make sure your kid goes to school gets great grades no troubles in school or out and they PERFORM WHEN THEY ARE CALLED UPON\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2024-11-10T02:52:10.000Z\",\n        \"createdUtc\": 1731207130,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"m719ews\",\n        \"url\": \"https://www.reddit.com/r/trackandfield/comments/12impl2/comment/m719ews/\",\n        \"permalink\": \"/r/trackandfield/comments/12impl2/comment/m719ews/\",\n        \"parentId\": \"t3_12impl2\",\n        \"author\": \"Live-Review-5327\",\n        \"text\": \"Had the call from NCSA tonight, they've been calling for months to get a profile set up, first \\\"Assistant Coach\\\" when asked what this would cost, she said and I quote \\\" See here is the thing, the great thing about it is, it will cost you absolutely nothing!\\\" end quote. So yes we set up the 1 hour call, and were at first skeptical, but then the website started to look interesting, lots of information and college contacts. Then he showed us what we had been missing out on, the 12 all D1 schools that had tried to reach out to our son, but at no avail. Coach Andrew then asked our son, \\\" on a scale from 1 to 10, how excited does this make you? \\\" His eyes lit up, and after talking to our son, and telling him this is so important that we may be missing out on an incredible opportunity for him to full fill a dream to play college baseball and potentially in the majors, I figured there would be a catch. So the next page he navigated to was the bracket of commitment on your child's future, $$$$$$$$$$$$\\n\\n And we had to make a decision tonight, or it would be his future at stake. I told him I wasn't going to make a decision tonight i would talk to 3 college baseball coaches, all from D3 schools, but one is well known in NCAA and he has major league rings to prove it. All of a sudden Coach Andrew was willing to let us make a decision at a later date. As a salesman myself, this was all about the pressure, and putting your child between his dreams and parents money. I'm not saying there aren't some good things about it, the college contacts is great but I find it highly doubtful that all these people are going to be working for every high school athlete that signs up for this, numbers are absolutely impossible and fulfill all there duties at the school they coach.\\n\\n The Numbers Behind the Dream. According to the National Collegiate Athletic Association (NCAA), approximately 8 million students participate in high school sports in the United States each year. Of these, only about 495,000, or roughly\u00a06%, will go on to compete at NCAA schools.\\n\\n With this I understand as a player you'd better be an athletic god, or have one great of a networking team behind you, so it makes me wonder how they ever did it in the old days. I think the free one is the way to go at first then feel it out.\",\n        \"renderedHtml\": \"\\n      <p>\\n      Had the call from NCSA tonight, they've been calling for months to get a profile set up, first \\\"Assistant Coach\\\" when asked what this would cost, she said and I quote \\\" See here is the thing, the great thing about it is, it will cost you absolutely nothing!\\\" end quote.  So yes we set up the 1 hour call, and were at first skeptical, but then the website started to look interesting, lots of information and college contacts.  Then he showed us what we had been missing out on, the 12 all D1 schools that had tried to reach out to our son, but at no avail.  Coach Andrew then asked our son, \\\" on a scale from 1 to 10, how excited does this make you? \\\"  His eyes lit up, and after talking to our son, and telling him this is so important that we may be missing out on an incredible opportunity for him to full fill a dream to play college baseball and potentially in the majors, I figured there would be a catch.  So the next page he navigated to was the bracket of commitment on your child's future, $$$$$$$$$$$$\\n    </p><p>\\n       </p><figure class=\\\"rte-media\\\">\\n      \\n      <div>\\n        <a href=\\\"https://external-preview.redd.it/JZx1G7OVJSgDv2wMT04TLVxmCvyNZXTguE5tzZ0eaZY.gif?auto=webp&amp;s=68b64b17ab179b9ec283037f580d68d63aa0c411\\\" rel=\\\"noopener ugc\\\" target=\\\"_blank\\\" class=\\\"w-fit max-w-full\\\"><div class=\\\"isolate overflow-hidden rounded-1 block max-w-full non-lightboxed-content\\\" style=\\\"width: 240px; aspect-ratio: 240/131.14754098360655;\\\">\\n      \\n    \\n    \\n    \\n    \\n    <shreddit-async-loader bundlename=\\\"shreddit_player_loader\\\">\\n        \\n        <shreddit-player src=\\\"https://external-preview.redd.it/JZx1G7OVJSgDv2wMT04TLVxmCvyNZXTguE5tzZ0eaZY.gif?width=366&amp;format=mp4&amp;s=5054fe5b4dac9e373854a527002e6ef57165048b\\\" class=\\\"block h-full w-full max-h-full max-w-full object-cover\\\" data-post-click-location=\\\"video-player\\\" autoplay=\\\"\\\" autoplay-visibility-debounce=\\\"\\\" autoplay-pref=\\\"\\\" gif=\\\"\\\" post-id=\\\"t3_12impl2\\\" comment-id=\\\"t1_m719ews\\\" priority=\\\"auto\\\" media-codec-cookie-recalc-version=\\\"0\\\">\\n          <source src=\\\"https://external-preview.redd.it/JZx1G7OVJSgDv2wMT04TLVxmCvyNZXTguE5tzZ0eaZY.gif?width=366&amp;format=mp4&amp;s=5054fe5b4dac9e373854a527002e6ef57165048b\\\">\\n          \\n          \\n        </shreddit-player>\\n        \\n      \\n      </shreddit-async-loader>\\n  \\n  \\n    </div></a>\\n      </div>\\n    \\n      \\n    </figure>\\n    <p></p><p>\\n      And we had to make a decision tonight, or it would be his future at stake.   I told him I wasn't going to make a decision tonight i would talk to 3 college baseball coaches, all from D3 schools, but one is well known in NCAA and he has major league rings to prove it.  All of a sudden Coach Andrew was willing to let us make a decision at a later date.  As a salesman myself, this was all about the pressure, and putting your child between his dreams and parents money.  I'm not saying there aren't some good things about it, the college contacts is great but I find it highly doubtful that all these people are going to be working for every high school athlete that signs up for this, numbers are absolutely impossible and fulfill all there duties at the school they coach.\\n    </p><p>\\n      The Numbers Behind the Dream. According to the National Collegiate Athletic Association (NCAA), approximately 8 million students participate in high school sports in the United States each year. Of these, only about 495,000, or roughly&nbsp;<strong>6%</strong>, will go on to compete at NCAA schools.\\n    </p><p>\\n      With this I understand as a player you'd better be an athletic god, or have one great of a networking team behind you, so it makes me wonder how they ever did it in the old days.  I think the free one is the way to go at first then feel it out.\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2025-01-14T02:45:00.000Z\",\n        \"createdUtc\": 1736822700,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"mfyy27f\",\n              \"url\": \"https://www.reddit.com/r/trackandfield/comments/12impl2/comment/mfyy27f/\",\n              \"permalink\": \"/r/trackandfield/comments/12impl2/comment/mfyy27f/\",\n              \"parentId\": \"t1_m719ews\",\n              \"author\": \"LLLSARAH\",\n              \"text\": \"Thank you for sharing. I just got the call from NCSA and the guy balbala talked and set up a call for us two days later. My daughter is not a top athlete now and she is also not sure if she will continue playing soccer in college. Everything is on the way, but feel a little bit pushy on the call. So I decided to turn down it and give us more time to consider where to go.\",\n              \"renderedHtml\": \"\\n      <p>\\n      Thank you for sharing. I just got the call from NCSA and the guy balbala talked and set up a call for us two days later. My daughter is not a top athlete now and she is also not sure if she will continue playing soccer in college. Everything is on the way, but feel a little bit pushy on the call. So I decided to turn down it and give us more time to consider where to go.\\n    </p>\\n    \",\n              \"score\": 1,\n              \"upvotes\": 1,\n              \"createdAt\": \"2025-03-04T15:07:26.000Z\",\n              \"createdUtc\": 1741100846,\n              \"depth\": 0,\n              \"isSubmitter\": false,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": null,\n                  \"hasMore\": false\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"m719ews\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"mjkcmti\",\n        \"url\": \"https://www.reddit.com/r/trackandfield/comments/12impl2/comment/mjkcmti/\",\n        \"permalink\": \"/r/trackandfield/comments/12impl2/comment/mjkcmti/\",\n        \"parentId\": \"t3_12impl2\",\n        \"author\": \"jmika23\",\n        \"text\": \"I 1000% after. NCSA does not speak to colleges directly to get you recruited. Coaches do not read those emails from NCSA, don\u2019t even look at your profile \ud83e\udd26\ud83c\udffd\u200d\u2640\ufe0f\",\n        \"renderedHtml\": \"\\n      <p>\\n      I 1000% after. NCSA does not speak to colleges directly to get you recruited. Coaches do not read those emails from NCSA, don\u2019t even look at your profile \ud83e\udd26\ud83c\udffd\u200d\u2640\ufe0f\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2025-03-24T23:13:05.000Z\",\n        \"createdUtc\": 1742857985,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"mrl6m1s\",\n        \"url\": \"https://www.reddit.com/r/trackandfield/comments/12impl2/comment/mrl6m1s/\",\n        \"permalink\": \"/r/trackandfield/comments/12impl2/comment/mrl6m1s/\",\n        \"parentId\": \"t3_12impl2\",\n        \"author\": \"Scary-Philosopher-50\",\n        \"text\": \"I coached at a Div III Soccer program and used NCSA for the majority of our recruiting, to here that 99% of coaches do not use NCSA is from someone that has not coached at the collegiate level. 99% of coaches that I interacted with also use the site. Also as a coach we would get more than 50 emails per day, the ones that I would open every time came from NCSA because I knew it was pertaining to recruiting.....when you email from your personal email, coaches do not know who or where it is coming from. also does the email have everything that I need to see?? 99% of the time it does not and it either doesn't get opened or it gets deleted. With an email coming from NCSA, it also has a link that will direct the coach to the student athletes profile where ALL of the information that a coach needs to see to make an evaluation on whether or not they are going to recruit the SA or not.\",\n        \"renderedHtml\": \"\\n      <p>\\n      I coached at a Div III Soccer program and used NCSA for the majority of our recruiting, to here that 99% of coaches do not use NCSA is from someone that has not coached at the collegiate level. 99% of coaches that I interacted with also use the site. Also as a coach we would get more than 50 emails per day, the ones that I would open every time came from NCSA because I knew it was pertaining to recruiting.....when you email from your personal email, coaches do not know who or where it is coming from. also does the email have everything that I need to see?? 99% of the time it does not and it either doesn't get opened or it gets deleted. With an email coming from NCSA, it also has a link that will direct the coach to the student athletes profile where ALL of the information that a coach needs to see to make an evaluation on whether or not they are going to recruit the SA or not.\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2025-05-10T13:47:16.000Z\",\n        \"createdUtc\": 1746884836,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"mvfmf0q\",\n        \"url\": \"https://www.reddit.com/r/trackandfield/comments/12impl2/comment/mvfmf0q/\",\n        \"permalink\": \"/r/trackandfield/comments/12impl2/comment/mvfmf0q/\",\n        \"parentId\": \"t3_12impl2\",\n        \"author\": \"CoffeeSuitable3120\",\n        \"text\": \"I payed for my son\u2019s subscription. Then the coaches or athletic director had as many kids as possible fill out a free profile. The free profiles are all the starters from his 2026 class. It\u2019s been a gut punch. When the free profile kid needs a ride home from practice doesn\u2019t even live in the same city.\",\n        \"renderedHtml\": \"\\n      <p>\\n      I payed for my son\u2019s subscription. Then the coaches or athletic director had as many kids as possible fill out a free profile. The free profiles are all the starters from his 2026 class. It\u2019s been a gut punch. When the free profile kid needs a ride home from practice doesn\u2019t even live in the same city.&nbsp;\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2025-06-01T15:57:32.000Z\",\n        \"createdUtc\": 1748793452,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"n4m5iiq\",\n        \"url\": \"https://www.reddit.com/r/trackandfield/comments/12impl2/comment/n4m5iiq/\",\n        \"permalink\": \"/r/trackandfield/comments/12impl2/comment/n4m5iiq/\",\n        \"parentId\": \"t3_12impl2\",\n        \"author\": \"DrSday\",\n        \"text\": \"We used NCSA for basketball recruiting as our kid played in a small school and we had zero guidance on how to go about this process. Now we feel like pros. It is a TON of work- even if you hire someone private, which we also did for specialized reasons- SO I can share from both sides. Our kid got offers through NCSA and also from our private recruiter. We started with NCSA and and negotiated the price- as yes, it was daunting. At first I was thrilled with the idea they would cover the videos and then was extremely disappointed with them as I am fairly savvy with film and highlight reels, just don't have the time to do them. So if you are paying more for that perk and you are able to make your own highlight reels, and know what to showcase in them, do it yourself. However, my son did get his first official visit invite before his senior year started from a decent school. It was not what we were looking for as we have very specialized needs and THAT is where we ran into trouble. He ended up have 5ish coaches who we would have never known except through NCSA. Some contacted him through the platform bc they regularly recruit there and some bc the coach we worked with made the connection. We ended up with 1 offer that was doable (met our needs) through NCSA and actually another that couldve been from NCSA or maybe it was from Captain U (now Stack Athlete), which was free and then $10 month to see who emailed so did that for a few months senior year. We ended up also paying a private recruiter a bunch bc we really were targeting specialized locations and schools (high academic, for one) and ended up going with an offer through there. However, STILL we speak with our NCSA coach who is just amazing and makes time for us when we have questions. Maybe we got lucky with the coach- but overall we have had a positive experience- This is an especially great system for an athlete who is more flexible on the school location as it seems the ones recruiting most here are in more remote locations (just my observation, I could be wrong). If you are open to that bc you just want to play, totally worth it. Also, even though we had to send the coach emails etc, it was nice that almost all the coach emails were available in the system and we could see if they opened them. So yea- it isn't for everyone- but then again, at least in basketball, only 3% of highschool players play college basketball. Depends how much you want it, and you always have to work. Even with the private person, we did work- don't kid yourself on that. The only time you don't have to do the work is if you are D1 bound without question, and then the coaches come knocking anyway.\",\n        \"renderedHtml\": \"\\n      <p>\\n      We used NCSA for basketball recruiting as our kid played in a small school and we had zero guidance on how to go about this process.  Now we feel like pros. It is a TON of work- even if you hire someone private, which we also did for specialized reasons- SO I can share from both sides.  Our kid got offers through NCSA and also from our private recruiter.  We started with NCSA and and negotiated the price- as yes, it was daunting. At first I was thrilled with the idea they would cover the videos and then was extremely disappointed with them as I am fairly savvy with film and highlight reels, just don't have the time to do them.  So if you are paying more for that perk and you are able to make your own highlight reels, and know what to showcase in them, do it yourself.  However, my son did get his first official visit invite before his senior year started from a decent school.  It was not what we were looking for as we have  very specialized needs and  THAT is where we ran into trouble.  He ended up have 5ish coaches who we would have never known except through NCSA. Some contacted him through the platform bc they regularly recruit there and some bc the coach we worked with made the connection.  We ended up with 1 offer that was doable (met our needs) through NCSA and actually another that couldve been from NCSA or maybe it was from Captain U (now Stack Athlete), which was free  and then $10 month to see who emailed so did that for a few months senior year.   We ended up also paying a private recruiter a bunch bc we really were targeting specialized locations and schools (high academic, for one) and ended up going with an offer through there. However, STILL we speak with our NCSA coach who is just amazing and makes time for us when we have questions. Maybe we got lucky with the coach- but overall we have had a positive experience- This is an especially great system for an athlete who is more flexible on the school location as it seems the ones recruiting most here are in more remote locations (just my observation, I could be wrong).   If you are open to that bc you just want to play, totally worth it.  Also, even though we had to send the coach emails etc, it was nice that almost all the coach emails were available in the system and we could see if they opened them.  So yea- it isn't for everyone- but then again, at least in basketball, only 3% of highschool players play college basketball. Depends how much you want it, and you always have to work. Even with the private person, we did work- don't kid yourself on that. The only time you don't have to do the work is if you are D1 bound without question, and then the coaches come knocking anyway.\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2025-07-22T23:03:46.000Z\",\n        \"createdUtc\": 1753225426,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"nftfvru\",\n        \"url\": \"https://www.reddit.com/r/trackandfield/comments/12impl2/comment/nftfvru/\",\n        \"permalink\": \"/r/trackandfield/comments/12impl2/comment/nftfvru/\",\n        \"parentId\": \"t3_12impl2\",\n        \"author\": \"Ok_Advantage_2870\",\n        \"text\": \"I dont think any recruiting platfor gives a good benefit. I prefer their one stop site though, videos, GPA, links etc that adds value for money there. I've tried D1 Scholarship which boasts about their success, but nothing happens after they grab the money.. At least with NCSA, there's a profile, we get camp invites, and they link to questionnaires so its convenient\",\n        \"renderedHtml\": \"\\n      <p>\\n      I dont think any recruiting platfor gives a good benefit. I prefer their one stop site though, videos, GPA, links etc that adds value for money there. I've tried D1 Scholarship which boasts about their success, but nothing happens after they grab the money.. At least with NCSA, there's a profile, we get camp invites, and they link to questionnaires so its convenient\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2025-09-23T19:03:18.000Z\",\n        \"createdUtc\": 1758654198,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"nmaf2je\",\n        \"url\": \"https://www.reddit.com/r/trackandfield/comments/12impl2/comment/nmaf2je/\",\n        \"permalink\": \"/r/trackandfield/comments/12impl2/comment/nmaf2je/\",\n        \"parentId\": \"t3_12impl2\",\n        \"author\": \"Ok_Guest1608\",\n        \"text\": \"\ud83d\udc9b\",\n        \"renderedHtml\": \"\\n      <p>\\n      \ud83d\udc9b\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2025-10-31T00:24:46.000Z\",\n        \"createdUtc\": 1761870286,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"kgj5veg\",\n        \"url\": \"https://www.reddit.com/r/trackandfield/comments/12impl2/comment/kgj5veg/\",\n        \"permalink\": \"/r/trackandfield/comments/12impl2/comment/kgj5veg/\",\n        \"parentId\": \"t3_12impl2\",\n        \"author\": \"OwnEntertainment7715\",\n        \"text\": \"Another hillbilly heard from\u2026\",\n        \"renderedHtml\": \"\\n      <p>\\n      Another hillbilly heard from\u2026\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2024-01-06T02:52:41.000Z\",\n        \"createdUtc\": 1704509561,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"kycrnlp\",\n              \"url\": \"https://www.reddit.com/r/trackandfield/comments/12impl2/comment/kycrnlp/\",\n              \"permalink\": \"/r/trackandfield/comments/12impl2/comment/kycrnlp/\",\n              \"parentId\": \"t1_kgj5veg\",\n              \"author\": \"TraditionWestern908\",\n              \"text\": \"Just been introduced to NSCA and came to this platform to read reviews.\u00a0 You made some good points and shared insights that I thought were helpful.\u00a0 They were allegedly based on your experience and you established yourself allegedly as a credible expert. Then you spoiled it with your subjective comments about cheapskate and ghetto.\u00a0 NSCA memberships range from $1200 - $ 7000. Some people have that without batting an eye ,but I think it is wrong to label those that might not have it as 'cheapskates' . It is like you are sitting in a bubble on your field oblivious to real challenges people have to buy a loaf of bread and that sample at Costco may be the first 'meal ' of the day. There are many people who dine at 7Eleven bc the coffee and hotdogs are cheap and can get them through the day.\\n\\n I don't believe you work for NSCA and I want to believe you are not a coach with that perspective.\",\n              \"renderedHtml\": \"\\n      <p>\\n      Just been introduced to NSCA and came to this platform to read reviews.&nbsp; You made some good points and shared insights that I thought were helpful.&nbsp; They were allegedly based on your experience and you established yourself allegedly as a credible expert. Then you spoiled it with your subjective comments about cheapskate and ghetto.&nbsp; NSCA memberships range from $1200 - $ 7000. Some people have that without batting an eye ,but I think it is wrong to label those that might not have it as 'cheapskates' . It is like you are sitting in a bubble on your field oblivious to real challenges people have to buy a loaf of bread and that sample at Costco may be the first 'meal ' of the day. There are many people who dine at 7Eleven bc the coffee and hotdogs are cheap and can get them through the day.&nbsp;\\n    </p><p>\\n      I don't believe you work for NSCA and I want to believe you are not a coach with that perspective.&nbsp; &nbsp;\\n    </p>\\n    \",\n              \"score\": 3,\n              \"upvotes\": 3,\n              \"createdAt\": \"2024-04-06T18:07:36.000Z\",\n              \"createdUtc\": 1712426856,\n              \"depth\": 0,\n              \"isSubmitter\": false,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": null,\n                  \"hasMore\": false\n                }\n              }\n            },\n            {\n              \"id\": \"lqi328t\",\n              \"url\": \"https://www.reddit.com/r/trackandfield/comments/12impl2/comment/lqi328t/\",\n              \"permalink\": \"/r/trackandfield/comments/12impl2/comment/lqi328t/\",\n              \"parentId\": \"t1_kgj5veg\",\n              \"author\": \"mybillabong\",\n              \"text\": \"My mission is now to find your true identity. I don\u2019t think it will be to hard \ud83d\ude09\",\n              \"renderedHtml\": \"\\n      <p>\\n      My mission is now to find your true identity. I don\u2019t think it will be to hard \ud83d\ude09\\n    </p>\\n    \",\n              \"score\": 1,\n              \"upvotes\": 1,\n              \"createdAt\": \"2024-10-05T19:19:48.000Z\",\n              \"createdUtc\": 1728155988,\n              \"depth\": 0,\n              \"isSubmitter\": false,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": null,\n                  \"hasMore\": false\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy90cmFja2FuZGZpZWxkL3QzXzEyaW1wbDI_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MSZjb21tZW50UG9zaXRpb25PZmZzZXQ9MiZjb21tZW50UGFyZW50UG9zaXRpb25zPTEzIiwiY3Vyc29yIjoiWTI5dGJXVnVkSFJ5WldVNk1qZ3hOelF6TkRjc09qb3hPbVY0T2lkVmFFRTFORG9tT2pkbmVtMWMiLCJzdWJyZWRkaXQiOiJ0cmFja2FuZGZpZWxkIiwicG9zdElkIjoiMTJpbXBsMiIsInBhcmVudFRoaW5nSWQiOiJ0MV9rZ2o1dmVnIn0\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"otzqibu\",\n        \"url\": \"https://www.reddit.com/r/trackandfield/comments/12impl2/comment/otzqibu/\",\n        \"permalink\": \"/r/trackandfield/comments/12impl2/comment/otzqibu/\",\n        \"parentId\": \"t3_12impl2\",\n        \"author\": \"Various-Connection-8\",\n        \"text\": \"Use NHR prospects, way better and do it for you\",\n        \"renderedHtml\": \"\\n      <p>\\n      Use NHR prospects, way better and do it for you\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2026-06-26T19:32:34.000Z\",\n        \"createdUtc\": 1782502354,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      }\n    ]\n  },\n  \"meta\": {\n    \"requestId\": \"req_97e89985-7677-43ff-9aba-a45e9c0bd691\",\n    \"creditsCharged\": 1,\n    \"version\": \"v1\"\n  }\n}"
+   },
+   {
+    "type": "text",
+    "text": "{\"conversation_id\":\"01a1af43-a2c1-7dbf-baaa-66c4403f5e9f\"}"
+   }
+  ],
+  "structuredContent": {
+   "data": {
+    "lookupStatus": "found",
+    "post": {
+     "id": "12impl2",
+     "title": "For the love of everything please don\u2019t waste your money on an NCSA profile",
+     "text": "Its a waste of money, 99% of coaches who get those NCSA emails trash them immediately without even looking. Email coaches yourself send them videos, times (DO NOT SEND SPLITS) and GPA.",
+     "url": "https://www.reddit.com/r/trackandfield/comments/12impl2/for_the_love_of_everything_please_dont_waste_your/",
+     "permalink": "/r/trackandfield/comments/12impl2/for_the_love_of_everything_please_dont_waste_your/",
+     "subreddit": "trackandfield",
+     "subredditNamePrefixed": "r/trackandfield",
+     "author": "Dingoatemycat69420",
+     "score": 66,
+     "upvoteRatio": 0.9852941176470589,
+     "commentCount": 93,
+     "createdAt": "2023-04-11T15:05:59.000Z",
+     "createdUtc": 1681225559,
+     "over18": false,
+     "locked": false,
+     "stickied": false
+    },
+    "page": {
+     "nextCursor": null,
+     "hasMore": false
+    },
+    "comments": [
+     {
+      "id": "ln9w158",
+      "url": "https://www.reddit.com/r/trackandfield/comments/12impl2/comment/ln9w158/",
+      "permalink": "/r/trackandfield/comments/12impl2/comment/ln9w158/",
+      "parentId": "t3_12impl2",
+      "author": "OwnEntertainment7715",
+      "text": "I want to add something to this conversation - because I\u2019m the kind of person that isn\u2019t going to shy away from hard truths or to admit when I\u2019m wrong. Actually I\u2019m not sure I\u2019m necessarily wrong about the product - but boy am I done having anything remotely good to say about NCSA the company/organization.\n\n Check this out\u2026\n\n The actual NCSA platform is great - but I\u2019ve learned some VERY disturbing things over the last several weeks that I\u2019ve been contemplating ,that I think now need to be addressed.\n\n I have very recently learned that the MVP membership, which is the top membership and the most expensive, and where the athlete/family is paying to be serviced by their own full-time recruiting coach, is a complete sham.\n\n I spoke with a recently departed recruiting coach (in the last year) in a sport which I\u2019ll decline to name. She was working with 750 MVP athletes. How in God\u2019s name was she ever going to take care of that many kids? Well, there\u2019s a story there. You see, one of the very unusual things about these NCSA memberships is that something like 60% of families will pay for them, then never use them! In fact, she told me that 80% of her time was dedicated to \u201cretention\u201d where she called, texted, and emailed families. Only around 20% of her week involved actually meeting with and helping families. In fact, they are awarded bonuses based on retention, not results! NCSA has FAR more MVP members than it could ever possibly hope to service properly, but their business model relies on enrolling more and more of them - then hoping that they won\u2019t use it! In fact, when my friend left, NCSA told all the other coaches in that sport that they weren\u2019t going to hire anyone to replace her, and that her portfolio would be parceled out to everyone else. This brought the ratio for her sport up to 950 MVP student athletes PER RECRUITING COACH.\n\n She told me that she met with, on average, 21 families per week. Out of 750 - and all the calendar slots that she opens are filled immediately. It\u2019s like living in a rural area and needing to see the gastroenterologist, they\u2019re there, they can surely help you, but you\u2019ll need to wait six months to get on their schedule.\n\n The company is terrified of losing that monthly income from the folks making monthly payments but at the same time is praying that they won\u2019t actually use what they\u2019ve paid for. So, if even a slightly higher percentage of families decide to begin using their NCSA MVP membership in earnest, the company will be totally screwed - as will the athlete.\n\n This explains why, in the past, I\u2019ve had a very difficult time getting NCSA recruiting coaches to follow-up with me. I was always under the impression that they worked one-on-one with their families, but it\u2019s a freaking assembly line bullshit business model - they likely never even saw my email.\n\n I\u2019ll still use it, as there are a lot of people that use even the free profile and it\u2019s a great way to find contact info on potential recruits, but my days of defending this blight on humanity are over.\n\n I\u2019ve heard other disgusting things, like celebrating enrolling athletes of single mom\u2019s - because they are the ones with the least amount of money and thus least likely to enroll - kinda like \u201cwow look at me, look what a salesman I am - enrolling a single mom\u201d. Other things that are equally shocking and infuriating, especially considering how I\u2019ve defended this company publicly, but I think that\u2019s enough.\n\n I was not wrong about the platform and the efficacy of getting professional help with one\u2019s recruiting - but goddammit I was very wrong about NCSA, and I\u2019m man enough to tell you all.",
+      "renderedHtml": "\n      <p>\n      I want to add something to this conversation - because I\u2019m the kind of person that isn\u2019t going to shy away from hard truths or to admit when I\u2019m wrong. Actually I\u2019m not sure I\u2019m necessarily wrong about the product - but boy am I done having anything remotely good to say about NCSA the company/organization.\n    </p><p>\n      Check this out\u2026\n    </p><p>\n      The actual NCSA platform is great - but I\u2019ve learned some VERY disturbing things over the last several weeks that I\u2019ve been contemplating ,that I think now need to be addressed.\n    </p><p>\n      I have very recently learned that the MVP membership, which is the top membership and the most expensive, and where the athlete/family is paying to be serviced by their own full-time recruiting coach, is a complete sham.\n    </p><p>\n      I spoke with a recently departed recruiting coach (in the last year) in a sport which I\u2019ll decline to name. She was working with 750 MVP athletes. How in God\u2019s name was she ever going to take care of that many kids? Well, there\u2019s a story there. You see, one of the very unusual things about these NCSA memberships is that something like 60% of families will pay for them, then never use them! In fact, she told me that 80% of her time was dedicated to \u201cretention\u201d where she called, texted, and emailed families. Only around 20% of her week involved actually meeting with and helping families. In fact, they are awarded bonuses based on retention, not results! NCSA has FAR more MVP members than it could ever possibly hope to service properly, but their business model relies on enrolling more and more of them - then hoping that they won\u2019t use it! In fact, when my friend left, NCSA told all the other coaches in that sport that they weren\u2019t going to hire anyone to replace her, and that her portfolio would be parceled out to everyone else. This brought the ratio for her sport up to 950 MVP student athletes PER RECRUITING COACH.\n    </p><p>\n      She told me that she met with, on average, 21 families per week. Out of 750 - and all the calendar slots that she opens are filled immediately. It\u2019s like living in a rural area and needing to see the gastroenterologist, they\u2019re there, they can surely help you, but you\u2019ll need to wait six months to get on their schedule.\n    </p><p>\n      The company is terrified of losing that monthly income from the folks making monthly payments but at the same time is praying that they won\u2019t actually use what they\u2019ve paid for. So, if even a slightly higher percentage of families decide to begin using their NCSA MVP membership in earnest, the company will be totally screwed - as will the athlete.\n    </p><p>\n      This explains why, in the past, I\u2019ve had a very difficult time getting NCSA recruiting coaches to follow-up with me. I was always under the impression that they worked one-on-one with their families, but it\u2019s a freaking assembly line bullshit business model - they likely never even saw my email.\n    </p><p>\n      I\u2019ll still use it, as there are a lot of people that use even the free profile and it\u2019s a great way to find contact info on potential recruits, but my days of defending this blight on humanity are over.\n    </p><p>\n      I\u2019ve heard other disgusting things, like celebrating enrolling athletes of single mom\u2019s - because they are the ones with the least amount of money and thus least likely to enroll - kinda like \u201cwow look at me, look what a salesman I am - enrolling a single mom\u201d. Other things that are equally shocking and infuriating, especially considering how I\u2019ve defended this company publicly, but I think that\u2019s enough.\n    </p><p>\n      I was not wrong about the platform and the efficacy of getting professional help with one\u2019s recruiting - but goddammit I was very wrong about NCSA, and I\u2019m man enough to tell you all.\n    </p>\n    ",
+      "score": 2,
+      "upvotes": 2,
+      "createdAt": "2024-09-15T17:04:01.000Z",
+      "createdUtc": 1726419841,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "lnc4o3i",
+         "url": "https://www.reddit.com/r/trackandfield/comments/12impl2/comment/lnc4o3i/",
+         "permalink": "/r/trackandfield/comments/12impl2/comment/lnc4o3i/",
+         "parentId": "t1_ln9w158",
+         "author": "Dingoatemycat69420",
+         "text": "Hey man I appreciate you coming back and sharing this in the hopes that others who are desperate for college recruiting will come by and see these words so they don\u2019t get scammed. NCSA is a joke of an organization but yes I will say it\u2019s ok for the free one as you can get some contact information (most of which you can find on their schools website, but idrc as long as you aren\u2019t paying them anymore) I do wish someone could make a legit platform and not one that thrives on people paying for these MVP stuff that offer no real benefit but alas feels like everything\u2019s a scam nowadays, I\u2019m glad you saw their issues and are moving on tho. And again i appreciate you coming back and sharing these words.",
+         "renderedHtml": "\n      <p>\n      Hey man I appreciate you coming back and sharing this in the hopes that others who are desperate for college recruiting will come by and see these words so they don\u2019t get scammed. NCSA is a joke of an organization but yes I will say it\u2019s ok for the free one as you can get some contact information (most of which you can find on their schools website, but idrc as long as you aren\u2019t paying them anymore) I do wish someone could make a legit platform and not one that thrives on people paying for these MVP stuff that offer no real benefit but alas feels like everything\u2019s a scam nowadays, I\u2019m glad you saw their issues and are moving on tho. And again i appreciate you coming back and sharing these words.\n    </p>\n    ",
+         "score": 1,
+         "upvotes": 1,
+         "createdAt": "2024-09-16T00:25:51.000Z",
+         "createdUtc": 1726446351,
+         "depth": 0,
+         "isSubmitter": true,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": null,
+           "hasMore": false
+          }
+         }
+        },
+        {
+         "id": "lpqmizv",
+         "url": "https://www.reddit.com/r/trackandfield/comments/12impl2/comment/lpqmizv/",
+         "permalink": "/r/trackandfield/comments/12impl2/comment/lpqmizv/",
+         "parentId": "t1_ln9w158",
+         "author": "AspieCurmudgeon",
+         "text": "Bravo.\n\n It doesn't excuse the vitriol and disrespect for the last year, calling everyone poor, freeloaders, and cheapskates, but it's worth something.",
+         "renderedHtml": "\n      <p>\n      Bravo.\n    </p><p>\n      It doesn't excuse the vitriol and disrespect for the last year, calling everyone poor, freeloaders, and cheapskates, but it's worth something.\n    </p>\n    ",
+         "score": 2,
+         "upvotes": 2,
+         "createdAt": "2024-10-01T00:40:28.000Z",
+         "createdUtc": 1727743228,
+         "depth": 0,
+         "isSubmitter": false,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [
+           {
+            "id": "lqi2nwp",
+            "url": "https://www.reddit.com/r/trackandfield/comments/12impl2/comment/lqi2nwp/",
+            "permalink": "/r/trackandfield/comments/12impl2/comment/lqi2nwp/",
+            "parentId": "t1_lpqmizv",
+            "author": "mybillabong",
+            "text": "Yeah, because he is a douche, regardless of his newly formed opinion.",
+            "renderedHtml": "\n      <p>\n      Yeah, because he is a douche, regardless of his newly formed opinion.\n    </p>\n    ",
+            "score": 2,
+            "upvotes": 2,
+            "createdAt": "2024-10-05T19:17:41.000Z",
+            "createdUtc": 1728155861,
+            "depth": 0,
+            "isSubmitter": false,
+            "stickied": false,
+            "locked": false,
+            "distinguished": null,
+            "replies": {
+             "items": [],
+             "page": {
+              "nextCursor": null,
+              "hasMore": false
+             }
+            }
+           }
+          ],
+          "page": {
+           "nextCursor": "lpqmizv",
+           "hasMore": true
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "lpqmizv",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "jfvtf7k",
+      "url": "https://www.reddit.com/r/trackandfield/comments/12impl2/comment/jfvtf7k/",
+      "permalink": "/r/trackandfield/comments/12impl2/comment/jfvtf7k/",
+      "parentId": "t3_12impl2",
+      "author": "[deleted]",
+      "text": "[deleted]",
+      "renderedHtml": null,
+      "score": 17,
+      "upvotes": 17,
+      "createdAt": "2023-04-11T21:44:44.000Z",
+      "createdUtc": 1681249484,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "jfx04fw",
+         "url": "https://www.reddit.com/r/trackandfield/comments/12impl2/comment/jfx04fw/",
+         "permalink": "/r/trackandfield/comments/12impl2/comment/jfx04fw/",
+         "parentId": "t1_jfvtf7k",
+         "author": "rossg876",
+         "text": "I though NCAA coaches can only contact for recruiting halfway through sophomore year?",
+         "renderedHtml": "\n      <p>\n      I though NCAA coaches can only contact for recruiting halfway through sophomore year?\n    </p>\n    ",
+         "score": 2,
+         "upvotes": 2,
+         "createdAt": "2023-04-12T02:54:42.000Z",
+         "createdUtc": 1681268082,
+         "depth": 0,
+         "isSubmitter": false,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": "eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy90cmFja2FuZGZpZWxkL3QzXzEyaW1wbDI_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MiZjb21tZW50UGFyZW50UG9zaXRpb25zPTEsMCIsImN1cnNvciI6IlkyOXRiV1Z1ZEhSeVpXVTZNVEprT0RJeVl6a3NPam95T21ReE9uUXhYMnBtZURBMFpuYz0iLCJzdWJyZWRkaXQiOiJ0cmFja2FuZGZpZWxkIiwicG9zdElkIjoiMTJpbXBsMiIsInBhcmVudFRoaW5nSWQiOiJ0MV9qZngwNGZ3In0",
+           "hasMore": true
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy90cmFja2FuZGZpZWxkL3QzXzEyaW1wbDI_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MSZjb21tZW50UG9zaXRpb25PZmZzZXQ9MSZjb21tZW50UGFyZW50UG9zaXRpb25zPTEiLCJjdXJzb3IiOiJZMjl0YldWdWRIUnlaV1U2TTJKa1pESmlORFFzT2pveE9tVjRPaWNvYUNaRlZ3PT0iLCJzdWJyZWRkaXQiOiJ0cmFja2FuZGZpZWxkIiwicG9zdElkIjoiMTJpbXBsMiIsInBhcmVudFRoaW5nSWQiOiJ0MV9qZnZ0ZjdrIn0",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "l6yoj3o",
+      "url": "https://www.reddit.com/r/trackandfield/comments/12impl2/comment/l6yoj3o/",
+      "permalink": "/r/trackandfield/comments/12impl2/comment/l6yoj3o/",
+      "parentId": "t3_12impl2",
+      "author": "ccRanch",
+      "text": "I just got off the phone with a rep from NCSA with my son. I was considering if I would utilize their contacts and their services. No, I am not put off by their membership cost(s) because of the kind of athlete my son is. After reading the comments you made here, with the aggressive put-downs and your superior tone, you have sealed the fate for NCSA, whether you have anything to do with that organization or not. I will never utilize their services, and I bet they would be appalled to know you\u2019re a self-proclaimed mouthpiece for them.",
+      "renderedHtml": "\n      <p>\n      I just got off the phone with a rep from NCSA with my son. I was considering if I would utilize their contacts and their services. No, I am not put off by their membership cost(s) because of the kind of athlete my son is. After reading the comments you made here, with the aggressive put-downs and your superior tone, you have sealed the fate for NCSA, whether you have anything to do with that organization or not. I will never utilize their services, and I bet they would be appalled to know you\u2019re a self-proclaimed mouthpiece for them.\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2024-06-03T20:16:26.000Z",
+      "createdUtc": 1717445786,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "l6yoylm",
+         "url": "https://www.reddit.com/r/trackandfield/comments/12impl2/comment/l6yoylm/",
+         "permalink": "/r/trackandfield/comments/12impl2/comment/l6yoylm/",
+         "parentId": "t1_l6yoj3o",
+         "author": "Dingoatemycat69420",
+         "text": "I don\u2019t know if you meant to comment this as a main or a reply but the whole point of my post was meant to stay away from NCSA, I\u2019m glad you aren\u2019t using it. Have your son send emails to coaches himself, go to camps, do everything to stay in contact with coaches and bug them a little bit, I truly hope your son finds a school and gets into a college for athletics and hopefully a college he loves",
+         "renderedHtml": "\n      <p>\n      I don\u2019t know if you meant to comment this as a main or a reply but the whole point of my post was meant to stay away from NCSA, I\u2019m glad you aren\u2019t using it. Have your son send emails to coaches himself, go to camps, do everything to stay in contact with coaches and bug them a little bit, I truly hope your son finds a school and gets into a college for athletics and hopefully a college he loves\n    </p>\n    ",
+         "score": 2,
+         "upvotes": 2,
+         "createdAt": "2024-06-03T20:18:48.000Z",
+         "createdUtc": 1717445928,
+         "depth": 0,
+         "isSubmitter": true,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": "eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy90cmFja2FuZGZpZWxkL3QzXzEyaW1wbDI_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MiZjb21tZW50UGFyZW50UG9zaXRpb25zPTIsMCIsImN1cnNvciI6IlkyOXRiV1Z1ZEhSeVpXVTZZbU0zTVRRMU9UY3NPam95T21ReE9uUXhYMncyZVc5NWJHMD0iLCJzdWJyZWRkaXQiOiJ0cmFja2FuZGZpZWxkIiwicG9zdElkIjoiMTJpbXBsMiIsInBhcmVudFRoaW5nSWQiOiJ0MV9sNnlveWxtIn0",
+           "hasMore": true
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "l6yoylm",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "k7h26pd",
+      "url": "https://www.reddit.com/r/trackandfield/comments/12impl2/comment/k7h26pd/",
+      "permalink": "/r/trackandfield/comments/12impl2/comment/k7h26pd/",
+      "parentId": "t3_12impl2",
+      "author": "OwnEntertainment7715",
+      "text": "No - we found a cheapskate. Keep using the free profile. College coaches will know you\u2019re a kook.",
+      "renderedHtml": "\n      <p>\n      No - we found a cheapskate. Keep using the free profile. College coaches will know you\u2019re a kook.\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2023-11-02T06:01:28.000Z",
+      "createdUtc": 1698904888,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "k7i6glr",
+         "url": "https://www.reddit.com/r/trackandfield/comments/12impl2/comment/k7i6glr/",
+         "permalink": "/r/trackandfield/comments/12impl2/comment/k7i6glr/",
+         "parentId": "t1_k7h26pd",
+         "author": "Dingoatemycat69420",
+         "text": "I didn\u2019t use the profile at all, whole thing is a joke. And if you actually are a college coach who uses NCSA and says people are ghetto then clearly you aren\u2019t a good college coach",
+         "renderedHtml": "\n      <p>\n      I didn\u2019t use the profile at all, whole thing is a joke. And if you actually are a college coach who uses NCSA and says people are ghetto then clearly you aren\u2019t a good college coach\n    </p>\n    ",
+         "score": 3,
+         "upvotes": 3,
+         "createdAt": "2023-11-02T13:34:55.000Z",
+         "createdUtc": 1698932095,
+         "depth": 0,
+         "isSubmitter": true,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": "eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy90cmFja2FuZGZpZWxkL3QzXzEyaW1wbDI_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MiZjb21tZW50UGFyZW50UG9zaXRpb25zPTMsMCIsImN1cnNvciI6IlkyOXRiV1Z1ZEhSeVpXVTZNVEE0TVdZd09URXNPam95T21ReE9uUXhYMnMzYVRabmJIST0iLCJzdWJyZWRkaXQiOiJ0cmFja2FuZGZpZWxkIiwicG9zdElkIjoiMTJpbXBsMiIsInBhcmVudFRoaW5nSWQiOiJ0MV9rN2k2Z2xyIn0",
+           "hasMore": true
+          }
+         }
+        },
+        {
+         "id": "l7uytm0",
+         "url": "https://www.reddit.com/r/trackandfield/comments/12impl2/comment/l7uytm0/",
+         "permalink": "/r/trackandfield/comments/12impl2/comment/l7uytm0/",
+         "parentId": "t1_k7h26pd",
+         "author": "CommercialBug7951",
+         "text": "Maybe they use the free profile cause the parent could\u2019ve afford it did u think about that",
+         "renderedHtml": "\n      <p>\n      Maybe they use the free profile cause the parent could\u2019ve afford it did u think about that\n    </p>\n    ",
+         "score": 1,
+         "upvotes": 1,
+         "createdAt": "2024-06-09T19:45:39.000Z",
+         "createdUtc": 1717962339,
+         "depth": 0,
+         "isSubmitter": false,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": "eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy90cmFja2FuZGZpZWxkL3QzXzEyaW1wbDI_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MiZjb21tZW50UGFyZW50UG9zaXRpb25zPTMsMSIsImN1cnNvciI6IlkyOXRiV1Z1ZEhSeVpXVTZaRGsyWVRsbE56WXNPam95T21ReE9uUXhYMnczZFhsMGJUQT0iLCJzdWJyZWRkaXQiOiJ0cmFja2FuZGZpZWxkIiwicG9zdElkIjoiMTJpbXBsMiIsInBhcmVudFRoaW5nSWQiOiJ0MV9sN3V5dG0wIn0",
+           "hasMore": true
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "k7i6glr",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "l70qd3z",
+      "url": "https://www.reddit.com/r/trackandfield/comments/12impl2/comment/l70qd3z/",
+      "permalink": "/r/trackandfield/comments/12impl2/comment/l70qd3z/",
+      "parentId": "t3_12impl2",
+      "author": "Limp_Bite_6194",
+      "text": "My child is a high school player going through the college recruitment process. We are NCSA members. We are also Scouting Zone members as the club my player belongs to promotes that one and all the members have a Scouting Zone account hosted by the club. We went a full year as Scouting Zone members high school sophomore year, emailing the profile to coaches, etc. and no recruiting activity what-so-ever came out of it. My player is getting legitimate recruiting contacts, now, through NCSA and scouts use it heavily. Members have visibility to what recruiters are viewing their profile and there is a dedicated email platform between athletes and coaches. We've been on official visits to the actual schools, zoom calls and still receiving contacts through NCSA from other coaches. There are so many schools out there that are a fit for my player that we would never have otherwise known about that are finding my player through NCSA and reaching out to get to know my player. I do not work for NCSA but my player is benefitting from the tool. It shows a lot of data about the colleges and contact information for the coaches. I do admit, when we were 1st contacted and had the first initial meeting with the sales person we were very skeptical since they use sales tactics and it felt scammy. However, we did verify this program with other people in the athletic community who vouched for it. The money it costs to be an NCSA member is inconsequential compared to the worth of potential scholarships and the college player experience it can help players achieve.",
+      "renderedHtml": "\n      <p>\n      My child is a high school player going through the college recruitment process.  We are NCSA members.  We are also Scouting Zone members as the club my player belongs to promotes that one and all the members have a Scouting Zone account hosted by the club.  We went a full year as Scouting Zone members high school sophomore year, emailing the profile to coaches, etc. and no recruiting activity what-so-ever came out of it.  My player is getting legitimate recruiting contacts, now, through NCSA and scouts use it heavily.  Members have visibility to what recruiters are viewing their profile and there is a dedicated email platform between athletes and coaches.  We've been on official visits to the actual schools, zoom calls and still receiving contacts through NCSA from other coaches.  There are so many schools out there that are a fit for my player that we would never have otherwise known about that are finding my player through NCSA and reaching out to get to know my player.  I do not work for NCSA but my player is benefitting from the tool.  It shows a lot of data about the colleges and contact information for the coaches.  I do admit, when we were 1st contacted and had the first initial meeting with the sales person we were very skeptical since they use sales tactics and it felt scammy.  However, we did verify this program with other people in the athletic community who vouched for it.  The money it costs to be an NCSA member is inconsequential compared to the worth of potential scholarships and the college player experience it can help players achieve.\n    </p>\n    ",
+      "score": 3,
+      "upvotes": 3,
+      "createdAt": "2024-06-04T04:37:13.000Z",
+      "createdUtc": 1717475833,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "lwcqjfs",
+      "url": "https://www.reddit.com/r/trackandfield/comments/12impl2/comment/lwcqjfs/",
+      "permalink": "/r/trackandfield/comments/12impl2/comment/lwcqjfs/",
+      "parentId": "t3_12impl2",
+      "author": "Johnweldon2530",
+      "text": "Once again my son Ryker Armes was Nominated for the All In Award meaning MVP service is \ud83d\udcaf FREE only 1 kid every year can get it At first it's was honestly really great I mean IT'S FREE for us but it's done absolutely nothing to really help him other than a bunch of camp invites which are great but not when it would cost us over a thousand dollars to get to that specific camp so yes everything is a money grab which is not helpful for us that can't afford it Thankfully now my Son has had great help from Coaches to get noticed and thankfully my son performed this year NCSA hasn't really done anything yet to get him on campus that has benefited us Even just recently prep RedZone had included my son in an article heck I have to pay just to read that like really WTF Parents the best thing for you to do is be in your kids lives and talk to his coaches see if they will help which a lot are but most importantly make sure your kid goes to school gets great grades no troubles in school or out and they PERFORM WHEN THEY ARE CALLED UPON",
+      "renderedHtml": "\n      <p>\n      Once again my son Ryker Armes was Nominated for the All In Award meaning MVP service is \ud83d\udcaf FREE only 1 kid every year can get it At first it's was honestly really great I mean IT'S FREE for us but it's done absolutely nothing to really help him other than a bunch of camp invites which are great but not when it would cost us over a thousand dollars to get to that specific camp so yes everything is a money grab which is not helpful for us that can't afford it Thankfully now my Son has had great help from Coaches to get noticed and thankfully my son performed this year NCSA hasn't really done anything yet to get him on campus that has benefited us Even just recently prep RedZone had included my son in an article heck I have to pay just to read that like really WTF Parents the best thing for you to do is be in your kids lives and talk to his coaches see if they will help which a lot are but most importantly make sure your kid goes to school gets great grades no troubles in school or out and they PERFORM WHEN THEY ARE CALLED UPON\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2024-11-10T02:52:10.000Z",
+      "createdUtc": 1731207130,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "m719ews",
+      "url": "https://www.reddit.com/r/trackandfield/comments/12impl2/comment/m719ews/",
+      "permalink": "/r/trackandfield/comments/12impl2/comment/m719ews/",
+      "parentId": "t3_12impl2",
+      "author": "Live-Review-5327",
+      "text": "Had the call from NCSA tonight, they've been calling for months to get a profile set up, first \"Assistant Coach\" when asked what this would cost, she said and I quote \" See here is the thing, the great thing about it is, it will cost you absolutely nothing!\" end quote. So yes we set up the 1 hour call, and were at first skeptical, but then the website started to look interesting, lots of information and college contacts. Then he showed us what we had been missing out on, the 12 all D1 schools that had tried to reach out to our son, but at no avail. Coach Andrew then asked our son, \" on a scale from 1 to 10, how excited does this make you? \" His eyes lit up, and after talking to our son, and telling him this is so important that we may be missing out on an incredible opportunity for him to full fill a dream to play college baseball and potentially in the majors, I figured there would be a catch. So the next page he navigated to was the bracket of commitment on your child's future, $$$$$$$$$$$$\n\n And we had to make a decision tonight, or it would be his future at stake. I told him I wasn't going to make a decision tonight i would talk to 3 college baseball coaches, all from D3 schools, but one is well known in NCAA and he has major league rings to prove it. All of a sudden Coach Andrew was willing to let us make a decision at a later date. As a salesman myself, this was all about the pressure, and putting your child between his dreams and parents money. I'm not saying there aren't some good things about it, the college contacts is great but I find it highly doubtful that all these people are going to be working for every high school athlete that signs up for this, numbers are absolutely impossible and fulfill all there duties at the school they coach.\n\n The Numbers Behind the Dream. According to the National Collegiate Athletic Association (NCAA), approximately 8 million students participate in high school sports in the United States each year. Of these, only about 495,000, or roughly\u00a06%, will go on to compete at NCAA schools.\n\n With this I understand as a player you'd better be an athletic god, or have one great of a networking team behind you, so it makes me wonder how they ever did it in the old days. I think the free one is the way to go at first then feel it out.",
+      "renderedHtml": "\n      <p>\n      Had the call from NCSA tonight, they've been calling for months to get a profile set up, first \"Assistant Coach\" when asked what this would cost, she said and I quote \" See here is the thing, the great thing about it is, it will cost you absolutely nothing!\" end quote.  So yes we set up the 1 hour call, and were at first skeptical, but then the website started to look interesting, lots of information and college contacts.  Then he showed us what we had been missing out on, the 12 all D1 schools that had tried to reach out to our son, but at no avail.  Coach Andrew then asked our son, \" on a scale from 1 to 10, how excited does this make you? \"  His eyes lit up, and after talking to our son, and telling him this is so important that we may be missing out on an incredible opportunity for him to full fill a dream to play college baseball and potentially in the majors, I figured there would be a catch.  So the next page he navigated to was the bracket of commitment on your child's future, $$$$$$$$$$$$\n    </p><p>\n       </p><figure class=\"rte-media\">\n      \n      <div>\n        <a href=\"https://external-preview.redd.it/JZx1G7OVJSgDv2wMT04TLVxmCvyNZXTguE5tzZ0eaZY.gif?auto=webp&amp;s=68b64b17ab179b9ec283037f580d68d63aa0c411\" rel=\"noopener ugc\" target=\"_blank\" class=\"w-fit max-w-full\"><div class=\"isolate overflow-hidden rounded-1 block max-w-full non-lightboxed-content\" style=\"width: 240px; aspect-ratio: 240/131.14754098360655;\">\n      \n    \n    \n    \n    \n    <shreddit-async-loader bundlename=\"shreddit_player_loader\">\n        \n        <shreddit-player src=\"https://external-preview.redd.it/JZx1G7OVJSgDv2wMT04TLVxmCvyNZXTguE5tzZ0eaZY.gif?width=366&amp;format=mp4&amp;s=5054fe5b4dac9e373854a527002e6ef57165048b\" class=\"block h-full w-full max-h-full max-w-full object-cover\" data-post-click-location=\"video-player\" autoplay=\"\" autoplay-visibility-debounce=\"\" autoplay-pref=\"\" gif=\"\" post-id=\"t3_12impl2\" comment-id=\"t1_m719ews\" priority=\"auto\" media-codec-cookie-recalc-version=\"0\">\n          <source src=\"https://external-preview.redd.it/JZx1G7OVJSgDv2wMT04TLVxmCvyNZXTguE5tzZ0eaZY.gif?width=366&amp;format=mp4&amp;s=5054fe5b4dac9e373854a527002e6ef57165048b\">\n          \n          \n        </shreddit-player>\n        \n      \n      </shreddit-async-loader>\n  \n  \n    </div></a>\n      </div>\n    \n      \n    </figure>\n    <p></p><p>\n      And we had to make a decision tonight, or it would be his future at stake.   I told him I wasn't going to make a decision tonight i would talk to 3 college baseball coaches, all from D3 schools, but one is well known in NCAA and he has major league rings to prove it.  All of a sudden Coach Andrew was willing to let us make a decision at a later date.  As a salesman myself, this was all about the pressure, and putting your child between his dreams and parents money.  I'm not saying there aren't some good things about it, the college contacts is great but I find it highly doubtful that all these people are going to be working for every high school athlete that signs up for this, numbers are absolutely impossible and fulfill all there duties at the school they coach.\n    </p><p>\n      The Numbers Behind the Dream. According to the National Collegiate Athletic Association (NCAA), approximately 8 million students participate in high school sports in the United States each year. Of these, only about 495,000, or roughly&nbsp;<strong>6%</strong>, will go on to compete at NCAA schools.\n    </p><p>\n      With this I understand as a player you'd better be an athletic god, or have one great of a networking team behind you, so it makes me wonder how they ever did it in the old days.  I think the free one is the way to go at first then feel it out.\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2025-01-14T02:45:00.000Z",
+      "createdUtc": 1736822700,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "mfyy27f",
+         "url": "https://www.reddit.com/r/trackandfield/comments/12impl2/comment/mfyy27f/",
+         "permalink": "/r/trackandfield/comments/12impl2/comment/mfyy27f/",
+         "parentId": "t1_m719ews",
+         "author": "LLLSARAH",
+         "text": "Thank you for sharing. I just got the call from NCSA and the guy balbala talked and set up a call for us two days later. My daughter is not a top athlete now and she is also not sure if she will continue playing soccer in college. Everything is on the way, but feel a little bit pushy on the call. So I decided to turn down it and give us more time to consider where to go.",
+         "renderedHtml": "\n      <p>\n      Thank you for sharing. I just got the call from NCSA and the guy balbala talked and set up a call for us two days later. My daughter is not a top athlete now and she is also not sure if she will continue playing soccer in college. Everything is on the way, but feel a little bit pushy on the call. So I decided to turn down it and give us more time to consider where to go.\n    </p>\n    ",
+         "score": 1,
+         "upvotes": 1,
+         "createdAt": "2025-03-04T15:07:26.000Z",
+         "createdUtc": 1741100846,
+         "depth": 0,
+         "isSubmitter": false,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": null,
+           "hasMore": false
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "m719ews",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "mjkcmti",
+      "url": "https://www.reddit.com/r/trackandfield/comments/12impl2/comment/mjkcmti/",
+      "permalink": "/r/trackandfield/comments/12impl2/comment/mjkcmti/",
+      "parentId": "t3_12impl2",
+      "author": "jmika23",
+      "text": "I 1000% after. NCSA does not speak to colleges directly to get you recruited. Coaches do not read those emails from NCSA, don\u2019t even look at your profile \ud83e\udd26\ud83c\udffd\u200d\u2640\ufe0f",
+      "renderedHtml": "\n      <p>\n      I 1000% after. NCSA does not speak to colleges directly to get you recruited. Coaches do not read those emails from NCSA, don\u2019t even look at your profile \ud83e\udd26\ud83c\udffd\u200d\u2640\ufe0f\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2025-03-24T23:13:05.000Z",
+      "createdUtc": 1742857985,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "mrl6m1s",
+      "url": "https://www.reddit.com/r/trackandfield/comments/12impl2/comment/mrl6m1s/",
+      "permalink": "/r/trackandfield/comments/12impl2/comment/mrl6m1s/",
+      "parentId": "t3_12impl2",
+      "author": "Scary-Philosopher-50",
+      "text": "I coached at a Div III Soccer program and used NCSA for the majority of our recruiting, to here that 99% of coaches do not use NCSA is from someone that has not coached at the collegiate level. 99% of coaches that I interacted with also use the site. Also as a coach we would get more than 50 emails per day, the ones that I would open every time came from NCSA because I knew it was pertaining to recruiting.....when you email from your personal email, coaches do not know who or where it is coming from. also does the email have everything that I need to see?? 99% of the time it does not and it either doesn't get opened or it gets deleted. With an email coming from NCSA, it also has a link that will direct the coach to the student athletes profile where ALL of the information that a coach needs to see to make an evaluation on whether or not they are going to recruit the SA or not.",
+      "renderedHtml": "\n      <p>\n      I coached at a Div III Soccer program and used NCSA for the majority of our recruiting, to here that 99% of coaches do not use NCSA is from someone that has not coached at the collegiate level. 99% of coaches that I interacted with also use the site. Also as a coach we would get more than 50 emails per day, the ones that I would open every time came from NCSA because I knew it was pertaining to recruiting.....when you email from your personal email, coaches do not know who or where it is coming from. also does the email have everything that I need to see?? 99% of the time it does not and it either doesn't get opened or it gets deleted. With an email coming from NCSA, it also has a link that will direct the coach to the student athletes profile where ALL of the information that a coach needs to see to make an evaluation on whether or not they are going to recruit the SA or not.\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2025-05-10T13:47:16.000Z",
+      "createdUtc": 1746884836,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "mvfmf0q",
+      "url": "https://www.reddit.com/r/trackandfield/comments/12impl2/comment/mvfmf0q/",
+      "permalink": "/r/trackandfield/comments/12impl2/comment/mvfmf0q/",
+      "parentId": "t3_12impl2",
+      "author": "CoffeeSuitable3120",
+      "text": "I payed for my son\u2019s subscription. Then the coaches or athletic director had as many kids as possible fill out a free profile. The free profiles are all the starters from his 2026 class. It\u2019s been a gut punch. When the free profile kid needs a ride home from practice doesn\u2019t even live in the same city.",
+      "renderedHtml": "\n      <p>\n      I payed for my son\u2019s subscription. Then the coaches or athletic director had as many kids as possible fill out a free profile. The free profiles are all the starters from his 2026 class. It\u2019s been a gut punch. When the free profile kid needs a ride home from practice doesn\u2019t even live in the same city.&nbsp;\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2025-06-01T15:57:32.000Z",
+      "createdUtc": 1748793452,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "n4m5iiq",
+      "url": "https://www.reddit.com/r/trackandfield/comments/12impl2/comment/n4m5iiq/",
+      "permalink": "/r/trackandfield/comments/12impl2/comment/n4m5iiq/",
+      "parentId": "t3_12impl2",
+      "author": "DrSday",
+      "text": "We used NCSA for basketball recruiting as our kid played in a small school and we had zero guidance on how to go about this process. Now we feel like pros. It is a TON of work- even if you hire someone private, which we also did for specialized reasons- SO I can share from both sides. Our kid got offers through NCSA and also from our private recruiter. We started with NCSA and and negotiated the price- as yes, it was daunting. At first I was thrilled with the idea they would cover the videos and then was extremely disappointed with them as I am fairly savvy with film and highlight reels, just don't have the time to do them. So if you are paying more for that perk and you are able to make your own highlight reels, and know what to showcase in them, do it yourself. However, my son did get his first official visit invite before his senior year started from a decent school. It was not what we were looking for as we have very specialized needs and THAT is where we ran into trouble. He ended up have 5ish coaches who we would have never known except through NCSA. Some contacted him through the platform bc they regularly recruit there and some bc the coach we worked with made the connection. We ended up with 1 offer that was doable (met our needs) through NCSA and actually another that couldve been from NCSA or maybe it was from Captain U (now Stack Athlete), which was free and then $10 month to see who emailed so did that for a few months senior year. We ended up also paying a private recruiter a bunch bc we really were targeting specialized locations and schools (high academic, for one) and ended up going with an offer through there. However, STILL we speak with our NCSA coach who is just amazing and makes time for us when we have questions. Maybe we got lucky with the coach- but overall we have had a positive experience- This is an especially great system for an athlete who is more flexible on the school location as it seems the ones recruiting most here are in more remote locations (just my observation, I could be wrong). If you are open to that bc you just want to play, totally worth it. Also, even though we had to send the coach emails etc, it was nice that almost all the coach emails were available in the system and we could see if they opened them. So yea- it isn't for everyone- but then again, at least in basketball, only 3% of highschool players play college basketball. Depends how much you want it, and you always have to work. Even with the private person, we did work- don't kid yourself on that. The only time you don't have to do the work is if you are D1 bound without question, and then the coaches come knocking anyway.",
+      "renderedHtml": "\n      <p>\n      We used NCSA for basketball recruiting as our kid played in a small school and we had zero guidance on how to go about this process.  Now we feel like pros. It is a TON of work- even if you hire someone private, which we also did for specialized reasons- SO I can share from both sides.  Our kid got offers through NCSA and also from our private recruiter.  We started with NCSA and and negotiated the price- as yes, it was daunting. At first I was thrilled with the idea they would cover the videos and then was extremely disappointed with them as I am fairly savvy with film and highlight reels, just don't have the time to do them.  So if you are paying more for that perk and you are able to make your own highlight reels, and know what to showcase in them, do it yourself.  However, my son did get his first official visit invite before his senior year started from a decent school.  It was not what we were looking for as we have  very specialized needs and  THAT is where we ran into trouble.  He ended up have 5ish coaches who we would have never known except through NCSA. Some contacted him through the platform bc they regularly recruit there and some bc the coach we worked with made the connection.  We ended up with 1 offer that was doable (met our needs) through NCSA and actually another that couldve been from NCSA or maybe it was from Captain U (now Stack Athlete), which was free  and then $10 month to see who emailed so did that for a few months senior year.   We ended up also paying a private recruiter a bunch bc we really were targeting specialized locations and schools (high academic, for one) and ended up going with an offer through there. However, STILL we speak with our NCSA coach who is just amazing and makes time for us when we have questions. Maybe we got lucky with the coach- but overall we have had a positive experience- This is an especially great system for an athlete who is more flexible on the school location as it seems the ones recruiting most here are in more remote locations (just my observation, I could be wrong).   If you are open to that bc you just want to play, totally worth it.  Also, even though we had to send the coach emails etc, it was nice that almost all the coach emails were available in the system and we could see if they opened them.  So yea- it isn't for everyone- but then again, at least in basketball, only 3% of highschool players play college basketball. Depends how much you want it, and you always have to work. Even with the private person, we did work- don't kid yourself on that. The only time you don't have to do the work is if you are D1 bound without question, and then the coaches come knocking anyway.\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2025-07-22T23:03:46.000Z",
+      "createdUtc": 1753225426,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "nftfvru",
+      "url": "https://www.reddit.com/r/trackandfield/comments/12impl2/comment/nftfvru/",
+      "permalink": "/r/trackandfield/comments/12impl2/comment/nftfvru/",
+      "parentId": "t3_12impl2",
+      "author": "Ok_Advantage_2870",
+      "text": "I dont think any recruiting platfor gives a good benefit. I prefer their one stop site though, videos, GPA, links etc that adds value for money there. I've tried D1 Scholarship which boasts about their success, but nothing happens after they grab the money.. At least with NCSA, there's a profile, we get camp invites, and they link to questionnaires so its convenient",
+      "renderedHtml": "\n      <p>\n      I dont think any recruiting platfor gives a good benefit. I prefer their one stop site though, videos, GPA, links etc that adds value for money there. I've tried D1 Scholarship which boasts about their success, but nothing happens after they grab the money.. At least with NCSA, there's a profile, we get camp invites, and they link to questionnaires so its convenient\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2025-09-23T19:03:18.000Z",
+      "createdUtc": 1758654198,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "nmaf2je",
+      "url": "https://www.reddit.com/r/trackandfield/comments/12impl2/comment/nmaf2je/",
+      "permalink": "/r/trackandfield/comments/12impl2/comment/nmaf2je/",
+      "parentId": "t3_12impl2",
+      "author": "Ok_Guest1608",
+      "text": "\ud83d\udc9b",
+      "renderedHtml": "\n      <p>\n      \ud83d\udc9b\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2025-10-31T00:24:46.000Z",
+      "createdUtc": 1761870286,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "kgj5veg",
+      "url": "https://www.reddit.com/r/trackandfield/comments/12impl2/comment/kgj5veg/",
+      "permalink": "/r/trackandfield/comments/12impl2/comment/kgj5veg/",
+      "parentId": "t3_12impl2",
+      "author": "OwnEntertainment7715",
+      "text": "Another hillbilly heard from\u2026",
+      "renderedHtml": "\n      <p>\n      Another hillbilly heard from\u2026\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2024-01-06T02:52:41.000Z",
+      "createdUtc": 1704509561,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "kycrnlp",
+         "url": "https://www.reddit.com/r/trackandfield/comments/12impl2/comment/kycrnlp/",
+         "permalink": "/r/trackandfield/comments/12impl2/comment/kycrnlp/",
+         "parentId": "t1_kgj5veg",
+         "author": "TraditionWestern908",
+         "text": "Just been introduced to NSCA and came to this platform to read reviews.\u00a0 You made some good points and shared insights that I thought were helpful.\u00a0 They were allegedly based on your experience and you established yourself allegedly as a credible expert. Then you spoiled it with your subjective comments about cheapskate and ghetto.\u00a0 NSCA memberships range from $1200 - $ 7000. Some people have that without batting an eye ,but I think it is wrong to label those that might not have it as 'cheapskates' . It is like you are sitting in a bubble on your field oblivious to real challenges people have to buy a loaf of bread and that sample at Costco may be the first 'meal ' of the day. There are many people who dine at 7Eleven bc the coffee and hotdogs are cheap and can get them through the day.\n\n I don't believe you work for NSCA and I want to believe you are not a coach with that perspective.",
+         "renderedHtml": "\n      <p>\n      Just been introduced to NSCA and came to this platform to read reviews.&nbsp; You made some good points and shared insights that I thought were helpful.&nbsp; They were allegedly based on your experience and you established yourself allegedly as a credible expert. Then you spoiled it with your subjective comments about cheapskate and ghetto.&nbsp; NSCA memberships range from $1200 - $ 7000. Some people have that without batting an eye ,but I think it is wrong to label those that might not have it as 'cheapskates' . It is like you are sitting in a bubble on your field oblivious to real challenges people have to buy a loaf of bread and that sample at Costco may be the first 'meal ' of the day. There are many people who dine at 7Eleven bc the coffee and hotdogs are cheap and can get them through the day.&nbsp;\n    </p><p>\n      I don't believe you work for NSCA and I want to believe you are not a coach with that perspective.&nbsp; &nbsp;\n    </p>\n    ",
+         "score": 3,
+         "upvotes": 3,
+         "createdAt": "2024-04-06T18:07:36.000Z",
+         "createdUtc": 1712426856,
+         "depth": 0,
+         "isSubmitter": false,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": null,
+           "hasMore": false
+          }
+         }
+        },
+        {
+         "id": "lqi328t",
+         "url": "https://www.reddit.com/r/trackandfield/comments/12impl2/comment/lqi328t/",
+         "permalink": "/r/trackandfield/comments/12impl2/comment/lqi328t/",
+         "parentId": "t1_kgj5veg",
+         "author": "mybillabong",
+         "text": "My mission is now to find your true identity. I don\u2019t think it will be to hard \ud83d\ude09",
+         "renderedHtml": "\n      <p>\n      My mission is now to find your true identity. I don\u2019t think it will be to hard \ud83d\ude09\n    </p>\n    ",
+         "score": 1,
+         "upvotes": 1,
+         "createdAt": "2024-10-05T19:19:48.000Z",
+         "createdUtc": 1728155988,
+         "depth": 0,
+         "isSubmitter": false,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": null,
+           "hasMore": false
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy90cmFja2FuZGZpZWxkL3QzXzEyaW1wbDI_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MSZjb21tZW50UG9zaXRpb25PZmZzZXQ9MiZjb21tZW50UGFyZW50UG9zaXRpb25zPTEzIiwiY3Vyc29yIjoiWTI5dGJXVnVkSFJ5WldVNk1qZ3hOelF6TkRjc09qb3hPbVY0T2lkVmFFRTFORG9tT2pkbmVtMWMiLCJzdWJyZWRkaXQiOiJ0cmFja2FuZGZpZWxkIiwicG9zdElkIjoiMTJpbXBsMiIsInBhcmVudFRoaW5nSWQiOiJ0MV9rZ2o1dmVnIn0",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "otzqibu",
+      "url": "https://www.reddit.com/r/trackandfield/comments/12impl2/comment/otzqibu/",
+      "permalink": "/r/trackandfield/comments/12impl2/comment/otzqibu/",
+      "parentId": "t3_12impl2",
+      "author": "Various-Connection-8",
+      "text": "Use NHR prospects, way better and do it for you",
+      "renderedHtml": "\n      <p>\n      Use NHR prospects, way better and do it for you\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2026-06-26T19:32:34.000Z",
+      "createdUtc": 1782502354,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     }
+    ]
+   },
+   "meta": {
+    "requestId": "req_97e89985-7677-43ff-9aba-a45e9c0bd691",
+    "creditsCharged": 1,
+    "version": "v1"
+   },
+   "card": {
+    "kind": "search",
+    "title": "Reddit comments",
+    "subtitle": "15 results",
+    "resultCount": 15,
+    "items": [
+     {
+      "title": "I want to add something to this conversation - because I\u2019m the kind of person that isn\u2019t going to shy away from hard truths or to admit when I\u2019m wrong\u2026",
+      "subtitle": "@OwnEntertainment7715 \u00b7 2 points",
+      "href": "https://www.reddit.com/r/trackandfield/comments/12impl2/comment/ln9w158/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "[deleted]",
+      "subtitle": "@[deleted] \u00b7 17 points",
+      "href": "https://www.reddit.com/r/trackandfield/comments/12impl2/comment/jfvtf7k/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "I just got off the phone with a rep from NCSA with my son. I was considering if I would utilize their contacts and their services. No, I am not put off by\u2026",
+      "subtitle": "@ccRanch \u00b7 1 point",
+      "href": "https://www.reddit.com/r/trackandfield/comments/12impl2/comment/l6yoj3o/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "No - we found a cheapskate. Keep using the free profile. College coaches will know you\u2019re a kook.",
+      "subtitle": "@OwnEntertainment7715 \u00b7 1 point",
+      "href": "https://www.reddit.com/r/trackandfield/comments/12impl2/comment/k7h26pd/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "My child is a high school player going through the college recruitment process. We are NCSA members. We are also Scouting Zone members as the club my player\u2026",
+      "subtitle": "@Limp_Bite_6194 \u00b7 3 points",
+      "href": "https://www.reddit.com/r/trackandfield/comments/12impl2/comment/l70qd3z/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Once again my son Ryker Armes was Nominated for the All In Award meaning MVP service is \ud83d\udcaf FREE only 1 kid every year can get it At first it's was honestly\u2026",
+      "subtitle": "@Johnweldon2530 \u00b7 1 point",
+      "href": "https://www.reddit.com/r/trackandfield/comments/12impl2/comment/lwcqjfs/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Had the call from NCSA tonight, they've been calling for months to get a profile set up, first \"Assistant Coach\" when asked what this would cost, she said and\u2026",
+      "subtitle": "@Live-Review-5327 \u00b7 1 point",
+      "href": "https://www.reddit.com/r/trackandfield/comments/12impl2/comment/m719ews/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "I 1000% after. NCSA does not speak to colleges directly to get you recruited. Coaches do not read those emails from NCSA, don\u2019t even look at your profile\u2026",
+      "subtitle": "@jmika23 \u00b7 1 point",
+      "href": "https://www.reddit.com/r/trackandfield/comments/12impl2/comment/mjkcmti/",
+      "platform": "Reddit"
+     }
+    ]
+   }
+  }
+ },
+ "jsonrpc": "2.0",
+ "id": 1
+}

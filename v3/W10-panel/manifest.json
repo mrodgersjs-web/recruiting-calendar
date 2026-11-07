@@ -1,0 +1,140 @@
+{
+  "createdAt": "2026-11-06T18:51:43.369Z",
+  "files": [
+    {
+      "file": "README.md",
+      "bytes": 683,
+      "sha256": "7deac012bcbb6f7fcb8433fc8841a6445428a771a974415c70d8a811299f2d26"
+    },
+    {
+      "file": "acceptance-criteria.md",
+      "bytes": 15257,
+      "sha256": "1ba044dc7ca9c023c9ef392b580be882847fe3e0f50564ac4d667f91fbf9b073"
+    },
+    {
+      "file": "build-panel.cjs",
+      "bytes": 15382,
+      "sha256": "2bea00a5a97774791a2edb49d55996013be249749f0c6f3fdd5db950c39829ba"
+    },
+    {
+      "file": "evaluation-report.md",
+      "bytes": 5498,
+      "sha256": "3f768655590e6005d295f0cff91502cb4db83f4c51773424b0180010ba0f2b7b"
+    },
+    {
+      "file": "finalize-panel.cjs",
+      "bytes": 5170,
+      "sha256": "3c86045ff039cf6ddcd0b66d2feaffd139de7c06fb9d5032810365b90c6848eb"
+    },
+    {
+      "file": "jev-image-blocker.json",
+      "bytes": 779,
+      "sha256": "606bbd8a8bde87679db2a2330485e02509851743919a83ab0dd0048ef2581be8"
+    },
+    {
+      "file": "jev-plan.readiness-command.txt",
+      "bytes": 154,
+      "sha256": "3c8b65a0fb3af52c3ce14f4f31e88fe99ff22bfbc5e756999bf2607f3e601d97"
+    },
+    {
+      "file": "jev-plan.readiness-exit.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "file": "jev-plan.readiness-receipt.json",
+      "bytes": 1839,
+      "sha256": "0026893fb368df2243b6d5d5223b1889027e6cf151de711ad0f6f2e166d9d254"
+    },
+    {
+      "file": "jev-plan.readiness-stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "jev-rubric-plan.txt",
+      "bytes": 1339,
+      "sha256": "22829bfbef8908f62c8930a75dd076b5cb4d4979d669f616fdd8b4bc4273e265"
+    },
+    {
+      "file": "jev-rubric-strategy.txt",
+      "bytes": 1942,
+      "sha256": "da626f055a9dacb1206e967337d05a8c8bc5167b28734a7dc66e57b6ced06768"
+    },
+    {
+      "file": "jev-rubric-ui.txt",
+      "bytes": 902,
+      "sha256": "5020dc592d63728b47c97b7aeeb8fea308f8bd90aa7ee6ec2842b52d91e37d18"
+    },
+    {
+      "file": "jev-text-command.txt",
+      "bytes": 155,
+      "sha256": "6dc72ea5728df4dea275ef97eeed9a16fb68d46b9a23ecfd6b5c7f445cfe51db"
+    },
+    {
+      "file": "jev-text-exit.txt",
+      "bytes": 2,
+      "sha256": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3"
+    },
+    {
+      "file": "jev-text-input.md",
+      "bytes": 21323,
+      "sha256": "c7cb5d729c43eaa447a6dc88cc58ed3e310af4c259674c9dc6a4d1087b80ef17"
+    },
+    {
+      "file": "jev-text-receipt.json",
+      "bytes": 3180,
+      "sha256": "170398c2d07a22a3020b53f1523aceb03553fc3b2585ac833927521ca3fc13dd"
+    },
+    {
+      "file": "jev-text-stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "jev-ui.design-command.txt",
+      "bytes": 149,
+      "sha256": "7ffdbec400317e1df91d2db2bcf9420a6ce99fd33912cf5bf9850ab93994fc9d"
+    },
+    {
+      "file": "jev-ui.design-exit.txt",
+      "bytes": 2,
+      "sha256": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3"
+    },
+    {
+      "file": "jev-ui.design-receipt.json",
+      "bytes": 1714,
+      "sha256": "71b0ed8ee452c9dc8730f10dfb83a4e3d8486b25d6a8b81d5a26d7a41b406498"
+    },
+    {
+      "file": "jev-ui.design-stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "panel.json",
+      "bytes": 21605,
+      "sha256": "ed20214a8ba0cc1a5b2dd08d1f70357045de1d03ff6b52efd6571891fa6e7976"
+    },
+    {
+      "file": "structural-check.json",
+      "bytes": 161,
+      "sha256": "d5ffbd2756494be974d44211a732dc0c87d5199b012bf688abd371341e25a607"
+    },
+    {
+      "file": "synthetic-parent-panel.md",
+      "bytes": 6064,
+      "sha256": "0377e7a86314c43e326c0b0b5acd4734b68ea70b5d4e2521eb66e8f42cc8dfa4"
+    },
+    {
+      "file": "verification-receipt.json",
+      "bytes": 293,
+      "sha256": "5c307484c67f83cd9f70237ebabc5159b7eda99756396cad84dc1f75042bd207"
+    },
+    {
+      "file": "verify-panel.cjs",
+      "bytes": 1210,
+      "sha256": "da7cafbd856533c3aa4e11769ab8a79936b7215c9093132720d15afb29fa377a"
+    }
+  ]
+}

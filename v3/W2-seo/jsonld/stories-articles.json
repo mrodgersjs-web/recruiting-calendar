@@ -1,0 +1,270 @@
+{
+ "renfrow": {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How Hunter Renfrow got to Clemson (Football, D1 (FBS))",
+  "dateModified": "2026-11-05",
+  "author": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "publisher": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "mainEntityOfPage": "https://recruiting-calendar.vercel.app/stories/renfrow/",
+  "citation": [
+   "https://bendbulletin.com/2017/01/11/former-clemson-walk-on-renfrow-stars-in-title-game",
+   "https://www.ncaa.com/news/football/article/2017-01-10/college-football-hunter-renfrows-leap-faith-carried-him-clemson",
+   "https://www.si.com/college/clemson/football/hunter-renfrow-from-walk-on-to-hero"
+  ],
+  "about": {
+   "@type": "Person",
+   "name": "Hunter Renfrow"
+  }
+ },
+ "groenewegen": {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How Sara Groenewegen got to Minnesota (Softball, D1)",
+  "dateModified": "2026-11-05",
+  "author": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "publisher": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "mainEntityOfPage": "https://recruiting-calendar.vercel.app/stories/groenewegen/",
+  "citation": [
+   "https://gophersports.com/news/2015/9/22/Ski_U_Mah_Preview_North_Star"
+  ],
+  "about": {
+   "@type": "Person",
+   "name": "Sara Groenewegen"
+  }
+ },
+ "lowe": {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How Karsta Lowe got to UCLA (Volleyball, D1)",
+  "dateModified": "2026-11-05",
+  "author": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "publisher": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "mainEntityOfPage": "https://recruiting-calendar.vercel.app/stories/lowe/",
+  "citation": [
+   "https://dailybruin.com/2013/11/27/ucla-volleyballs-karsta-lowe-went-from-walk-on-to-top-player"
+  ],
+  "about": {
+   "@type": "Person",
+   "name": "Karsta Lowe"
+  }
+ },
+ "pichardo": {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How Olivia Pichardo got to Brown (Baseball, D1)",
+  "dateModified": "2026-11-05",
+  "author": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "publisher": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "mainEntityOfPage": "https://recruiting-calendar.vercel.app/stories/pichardo/",
+  "citation": [
+   "https://www.nancybkennedy.com/a-walk-on-wonder",
+   "https://www.si.com/college/2022/11/21/brown-university-olivia-pichardo-walk-on-first-woman-division-i-ncaa-baseball"
+  ],
+  "about": {
+   "@type": "Person",
+   "name": "Olivia Pichardo"
+  }
+ },
+ "white": {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How Derrick White got to UCCS then Colorado (Basketball, D2 -> D1 transfer)",
+  "dateModified": "2026-11-05",
+  "author": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "publisher": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "mainEntityOfPage": "https://recruiting-calendar.vercel.app/stories/white/",
+  "citation": [
+   "https://andscape.com/features/derrick-white-started-as-the-ultimate-underdog-in-his-journey-to-the-nba-finals/",
+   "https://cubuffs.com/sports/mens-basketball/roster/derrick-white/10873",
+   "https://news.uccs.edu/2026/07/15/nba-champion-olympic-gold-medalist-and-former-uccs-standout-derrick-white-inducted-into-rmac-hall-of-fame",
+   "https://www.nba.com/spurs/derrick-white-dare-be-great"
+  ],
+  "about": {
+   "@type": "Person",
+   "name": "Derrick White"
+  }
+ },
+ "pirosko": {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How Samantha Pirosko got to Gannon (Basketball, D2)",
+  "dateModified": "2026-11-05",
+  "author": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "publisher": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "mainEntityOfPage": "https://recruiting-calendar.vercel.app/stories/pirosko/",
+  "citation": [
+   "https://wbca.org/news/wbca-announces-ncaa-division-ii-honorees-for-2023-24-season",
+   "https://www.ncaa.org/news/2024/11/20/media-center-2024-ncaa-woman-of-the-year-finalists-named.aspx",
+   "https://www.news-herald.com/2022/02/12/north-grad-sam-pirosko-in-leading-role-for-first-place-gannon"
+  ],
+  "about": {
+   "@type": "Person",
+   "name": "Samantha Pirosko"
+  }
+ },
+ "marpet": {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How Ali Marpet got to Hobart (Football, D3)",
+  "dateModified": "2026-11-05",
+  "author": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "publisher": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "mainEntityOfPage": "https://recruiting-calendar.vercel.app/stories/marpet/",
+  "citation": [
+   "https://www.buccaneers.com/news/reflecting-on-ali-marpet-s-college-career-16779250"
+  ],
+  "about": {
+   "@type": "Person",
+   "name": "Ali Marpet"
+  }
+ },
+ "rodenfels": {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How Annie Rodenfels got to Centre College (Track/XC, D3)",
+  "dateModified": "2026-11-05",
+  "author": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "publisher": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "mainEntityOfPage": "https://recruiting-calendar.vercel.app/stories/rodenfels/",
+  "citation": [
+   "https://saa-sports.com/news/2018/5/26/5_26_2018_1541.aspx",
+   "https://www.baa.org/news/chatting-champion-annie-rodenfels",
+   "https://www.letsrun.com/news/2022/02/annie-rodenfels-has-gone-from-ncaa-d-iii-champion-to-world-leader"
+  ],
+  "about": {
+   "@type": "Person",
+   "name": "Annie Rodenfels"
+  }
+ },
+ "perez": {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How Tori Perez got to Oglethorpe (Lacrosse (goalie), D3)",
+  "dateModified": "2026-11-05",
+  "author": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "publisher": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "mainEntityOfPage": "https://recruiting-calendar.vercel.app/stories/perez/",
+  "citation": [
+   "https://www.ncaa.org/news/2025/9/19/media-center-how-lacrosse-goalie-tori-perez-created-a-name-and-a-home-at-oglethorpe.aspx"
+  ],
+  "about": {
+   "@type": "Person",
+   "name": "Tori Perez"
+  }
+ },
+ "coward": {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How Cedric Coward got to Willamette (D3), later D1 transfers (Basketball, D3 -> D1)",
+  "dateModified": "2026-11-05",
+  "author": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "publisher": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "mainEntityOfPage": "https://recruiting-calendar.vercel.app/stories/coward/",
+  "citation": [
+   "https://www.d3-direct.com/newsletter/from-d3-to-nba-cedric-coward"
+  ],
+  "about": {
+   "@type": "Person",
+   "name": "Cedric Coward"
+  }
+ },
+ "rodriguez": {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How Cristelle Rodriguez got to Doane University (NE) (Wrestling, NAIA)",
+  "dateModified": "2026-11-05",
+  "author": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "publisher": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "mainEntityOfPage": "https://recruiting-calendar.vercel.app/stories/rodriguez/",
+  "citation": [
+   "https://doaneathletics.com/sports/wwrest/2024-25/releases/20240905s8eb2c",
+   "https://www.themat.com/news/2024/september/17/u20-world-champion-cristelle-rodriguez-overcame-pressure-doubt-to-reignite-wrestling-career",
+   "https://www.win-magazine.com/2024/11/08/california-native-rodriguez-rediscovered-love-of-sport-at-small-doane-u-in-nebraska"
+  ],
+  "about": {
+   "@type": "Person",
+   "name": "Cristelle Rodriguez"
+  }
+ },
+ "butler": {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How Jimmy Butler got to Tyler JC then Marquette (Basketball, JUCO -> D1)",
+  "dateModified": "2026-11-05",
+  "author": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "publisher": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "mainEntityOfPage": "https://recruiting-calendar.vercel.app/stories/butler/",
+  "citation": [
+   "https://gomarquette.com/news/2008/4/17/MU_Lands_Junior_College_Standout_Jimmy_Butler",
+   "https://nfhs.org/stories/it-all-started-here-jimmy-butler"
+  ],
+  "about": {
+   "@type": "Person",
+   "name": "Jimmy Butler"
+  }
+ },
+ "composite-swim": {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Composite: \"Maya\" (swimmer): Swimming, D2",
+  "dateModified": "2026-11-05",
+  "author": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "publisher": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "mainEntityOfPage": "https://recruiting-calendar.vercel.app/stories/composite-swim/",
+  "citation": [],
+  "genre": "Composite story (illustration)"
+ }
+}

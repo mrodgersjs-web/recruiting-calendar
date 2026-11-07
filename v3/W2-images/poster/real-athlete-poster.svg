@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1600" width="900" height="1600"><!-- Real athlete: typography only, NO likeness (BRIEF-V3 rule 2). Replace {{tokens}}. -->
+<rect width="900" height="1600" fill="#111"/><rect x="0" y="0" width="900" height="8" fill="#d43f21"/>
+<text x="60" y="120" fill="#fff" font-family="Barlow Condensed" font-weight="700" font-size="34" letter-spacing="5">{{SPORT}} · {{STATE}}</text>
+<text x="60" y="1060" fill="#fff" font-family="Anton" font-size="190">{{FIRST}}</text>
+<text x="60" y="1250" fill="#fff" font-family="Anton" font-size="190">{{LAST}}</text>
+<text x="60" y="1340" fill="#bbb" font-family="Inter Tight" font-size="36">{{HS}} → {{COLLEGE}}</text>
+<rect x="60" y="1390" width="170" height="54" fill="#fff"/><text x="145" y="1428" text-anchor="middle" font-family="Barlow Condensed" font-weight="700" font-size="30">{{DIV}}</text>
+<text x="60" y="1530" fill="#888" font-family="JetBrains Mono" font-size="22">Source: {{SOURCE_DOMAIN}} · {{SOURCE_DATE}} · No likeness used</text>
+<text x="840" y="700" fill="#222" text-anchor="end" font-family="Anton" font-size="520">{{NUM}}</text></svg>

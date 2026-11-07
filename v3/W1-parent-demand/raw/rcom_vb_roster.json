@@ -1,0 +1,665 @@
+{
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "{\n  \"data\": {\n    \"lookupStatus\": \"found\",\n    \"post\": {\n      \"id\": \"1nnr2oy\",\n      \"title\": \"Anyone else trying to figure out which colleges even have roster spots open?\",\n      \"text\": \"Hi all, My daughter is a junior and plays club + high school volleyball. We\u2019ve just started really getting into this whole recruiting thing and honestly, it\u2019s been a lot harder than I thought it would be. What\u2019s driving me nuts is figuring out which schools actually have spots open for her position in the next year or two. Most college websites just show last year\u2019s roster. You can kinda guess who\u2019s graduating but then there\u2019s redshirts, transfers, 5th years\u2026 it\u2019s like a puzzle. Right now it feels like we\u2019re emailing coaches kind of blind, not even knowing if they need her position. She\u2019s stressing a bit and I just don\u2019t want her to waste time chasing the wrong schools. Do other parents just make their own notes from rosters? Or is there some better way people are tracking this stuff? I\u2019m sure we\u2019re not the only ones confused here. Thanks for any advice \ud83d\ude4f\",\n      \"url\": \"https://www.reddit.com/r/volleyball/comments/1nnr2oy/anyone_else_trying_to_figure_out_which_colleges/\",\n      \"permalink\": \"/r/volleyball/comments/1nnr2oy/anyone_else_trying_to_figure_out_which_colleges/\",\n      \"subreddit\": \"volleyball\",\n      \"subredditNamePrefixed\": \"r/volleyball\",\n      \"author\": \"Plane_Zucchini_5694\",\n      \"score\": 22,\n      \"upvoteRatio\": 0.8928571428571429,\n      \"commentCount\": 26,\n      \"createdAt\": \"2025-09-22T16:23:20.000Z\",\n      \"createdUtc\": 1758558200,\n      \"over18\": false,\n      \"locked\": false,\n      \"stickied\": false\n    },\n    \"page\": {\n      \"nextCursor\": null,\n      \"hasMore\": false\n    },\n    \"comments\": [\n      {\n        \"id\": \"nfmgv2p\",\n        \"url\": \"https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfmgv2p/\",\n        \"permalink\": \"/r/volleyball/comments/1nnr2oy/comment/nfmgv2p/\",\n        \"parentId\": \"t3_1nnr2oy\",\n        \"author\": \"BackItUpWithLinks\",\n        \"text\": \"Don\u2019t look for open roster spots. You can\u2019t really (reliably) figure that out.\\n\\n She should pick the school(s) she wants and then start working on the coach. If she\u2019s good, the coach will make a roster spot for her.\",\n        \"renderedHtml\": \"\\n      <p>\\n      Don\u2019t look for open roster spots. You can\u2019t really (reliably) figure that out.\\n    </p><p>\\n      She should pick the school(s) she wants and then start working on the coach. If she\u2019s good, the coach will make a roster spot for her.\\n    </p>\\n    \",\n        \"score\": 50,\n        \"upvotes\": 50,\n        \"createdAt\": \"2025-09-22T16:28:37.000Z\",\n        \"createdUtc\": 1758558517,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"nfmmumy\",\n              \"url\": \"https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfmmumy/\",\n              \"permalink\": \"/r/volleyball/comments/1nnr2oy/comment/nfmmumy/\",\n              \"parentId\": \"t1_nfmgv2p\",\n              \"author\": \"Plane_Zucchini_5694\",\n              \"text\": \"Yeah, I get that, and we\u2019ve heard that from a couple coaches too. If they really want a kid, they\u2019ll make it work.\\n\\n But from the parent side it still feels like such a shot in the dark, you know? Like my daughter is busting her tail writing emails and we\u2019re just hoping it\u2019s even worth sending to that school. I\u2019m not saying she won\u2019t go after her dream programs, but it would be nice to have at least some idea where the chances are better vs totally full.\\n\\n That\u2019s where we\u2019re kinda stuck right now.\",\n              \"renderedHtml\": \"\\n      <p>\\n      Yeah, I get that, and we\u2019ve heard that from a couple coaches too. If they really want a kid, they\u2019ll make it work.\\n    </p><p>\\n      But from the parent side it still feels like such a shot in the dark, you know? Like my daughter is busting her tail writing emails and we\u2019re just hoping it\u2019s even worth sending to that school. I\u2019m not saying she won\u2019t go after her dream programs, but it would be nice to have at least some idea where the chances are better vs totally full.\\n    </p><p>\\n      That\u2019s where we\u2019re kinda stuck right now.\\n    </p>\\n    \",\n              \"score\": 3,\n              \"upvotes\": 3,\n              \"createdAt\": \"2025-09-22T16:56:59.000Z\",\n              \"createdUtc\": 1758560219,\n              \"depth\": 0,\n              \"isSubmitter\": true,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [\n                  {\n                    \"id\": \"nfmqq8a\",\n                    \"url\": \"https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfmqq8a/\",\n                    \"permalink\": \"/r/volleyball/comments/1nnr2oy/comment/nfmqq8a/\",\n                    \"parentId\": \"t1_nfmmumy\",\n                    \"author\": \"BackItUpWithLinks\",\n                    \"text\": \"it would be nice to have at least some idea where the chances are better vs totally full.\\n\\n Sorry to be blunt, but you\u2019re thinking about this backwards.\\n\\n You can\u2019t know if there\u2019s a roster spot. The coach might not even be sure if there is. But if your daughter is good, the coach can make sure there\u2019s one.\\n\\n Think of it this way. If the current player in your daughter\u2019s position is a \u201cC+\u201d and your daughter is a B+, roster may look full to you but the coach may be actively looking for a player in that position. You can\u2019t know.\\n\\n So find the colleges, talk to the coaches, get their list of tournaments they\u2019ll attend, send videos, see if that coach is involved with (or runs their own) camps, work with the coach to schedule a visit. Have your daughter do a sleep over and stay with the team.\",\n                    \"renderedHtml\": \"\\n      <blockquote>\\n      <p>\\n      it would be nice to have at least some idea where the chances are better vs totally full.\\n    </p>\\n    </blockquote><p>\\n      Sorry to be blunt, but you\u2019re thinking about this backwards.\\n    </p><p>\\n      You can\u2019t know if there\u2019s a roster spot. The coach might not even be sure if there is. But if your daughter is good, the coach can make sure there\u2019s one.\\n    </p><p>\\n      Think of it this way. If the current player in your daughter\u2019s position is a \u201cC+\u201d and your daughter is a B+, roster may look full to you but the coach may be actively looking for a player in that position. You can\u2019t know.\\n    </p><p>\\n      So find the colleges, talk to the coaches, get their list of tournaments they\u2019ll attend, send videos, see if that coach is involved with (or runs their own) camps, work with the coach to schedule a visit. Have your daughter do a sleep over and stay with the team.\\n    </p>\\n    \",\n                    \"score\": 14,\n                    \"upvotes\": 14,\n                    \"createdAt\": \"2025-09-22T17:15:09.000Z\",\n                    \"createdUtc\": 1758561309,\n                    \"depth\": 0,\n                    \"isSubmitter\": false,\n                    \"stickied\": false,\n                    \"locked\": false,\n                    \"distinguished\": null,\n                    \"replies\": {\n                      \"items\": [],\n                      \"page\": {\n                        \"nextCursor\": \"eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy92b2xsZXliYWxsL3QzXzFubnIyb3k_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MyZjb21tZW50UGFyZW50UG9zaXRpb25zPTAsMCwwIiwiY3Vyc29yIjoiWTI5dGJXVnVkSFJ5WldVNlpHWm1NV00yT0dJc09qb3pPbVF4T25ReFgyNW1iWEZ4T0dFPSIsInN1YnJlZGRpdCI6InZvbGxleWJhbGwiLCJwb3N0SWQiOiIxbm5yMm95IiwicGFyZW50VGhpbmdJZCI6InQxX25mbXFxOGEifQ\",\n                        \"hasMore\": true\n                      }\n                    }\n                  },\n                  {\n                    \"id\": \"nfogh62\",\n                    \"url\": \"https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfogh62/\",\n                    \"permalink\": \"/r/volleyball/comments/1nnr2oy/comment/nfogh62/\",\n                    \"parentId\": \"t1_nfmmumy\",\n                    \"author\": \"TRBadger\",\n                    \"text\": \"I\u2019m not really sure about the women\u2019s side, but for men\u2019s you\u2019re pretty much at the mercy of coaches. You don\u2019t really get to pick the school you want unless you\u2019re a top recruit, at which point you wouldn\u2019t need to be sending emails because you\u2019d be getting offers. Like others have said, if a coach wants you they will make room for you or figure out a way to get you there. I\u2019d recommend looking for schools she likes and then emailing the coaches about potential spots or even if they offer walk-on tryouts. I\u2019m sure some school somewhere has a spot for her, but you need to decide if playing at a random school in the middle of nowhere is better than maybe joining a club team at a more prestigious university.\",\n                    \"renderedHtml\": \"\\n      <p>\\n      I\u2019m not really sure about the women\u2019s side, but for men\u2019s you\u2019re pretty much at the mercy of coaches. You don\u2019t really get to pick the school you want unless you\u2019re a top recruit, at which point you wouldn\u2019t need to be sending emails because you\u2019d be getting offers. Like others have said, if a coach wants you they will make room for you or figure out a way to get you there. I\u2019d recommend looking for schools she likes and then emailing the coaches about potential spots or even if they offer walk-on tryouts. I\u2019m sure some school somewhere has a spot for her, but you need to decide if playing at a random school in the middle of nowhere is better than maybe joining a club team at a more prestigious university.\\n    </p>\\n    \",\n                    \"score\": 2,\n                    \"upvotes\": 2,\n                    \"createdAt\": \"2025-09-22T22:49:25.000Z\",\n                    \"createdUtc\": 1758581365,\n                    \"depth\": 0,\n                    \"isSubmitter\": false,\n                    \"stickied\": false,\n                    \"locked\": false,\n                    \"distinguished\": null,\n                    \"replies\": {\n                      \"items\": [],\n                      \"page\": {\n                        \"nextCursor\": null,\n                        \"hasMore\": false\n                      }\n                    }\n                  }\n                ],\n                \"page\": {\n                  \"nextCursor\": \"nfmqq8a\",\n                  \"hasMore\": true\n                }\n              }\n            },\n            {\n              \"id\": \"nfmmtl8\",\n              \"url\": \"https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfmmtl8/\",\n              \"permalink\": \"/r/volleyball/comments/1nnr2oy/comment/nfmmtl8/\",\n              \"parentId\": \"t1_nfmgv2p\",\n              \"author\": \"SunshinePangolin428\",\n              \"text\": \"With transfer portals and other recruits in play, it will be hard to find the gaps.\\n\\n I agree with above, narrow in on the schools with her major or states/regions that she is interested in and start working the coaches. Send off game tape everywhere you can and plan a visit for those that you build rapport with. Colleges also offer viewing camps over the summer and long weekends that can help with exposure as well. Best of luck on the journey!\",\n              \"renderedHtml\": \"\\n      <p>\\n      With transfer portals and other recruits in play, it will be hard to find the gaps.\\n    </p><p>\\n      I agree with above, narrow in on the schools with her major or states/regions that she is interested in and start working the coaches. Send off game tape everywhere you can and plan a visit for those that you build rapport with. Colleges also offer viewing camps over the summer and long weekends that can help with exposure as well. Best of luck on the journey!\\n    </p>\\n    \",\n              \"score\": 11,\n              \"upvotes\": 11,\n              \"createdAt\": \"2025-09-22T16:56:51.000Z\",\n              \"createdUtc\": 1758560211,\n              \"depth\": 0,\n              \"isSubmitter\": false,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": null,\n                  \"hasMore\": false\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"nfmqq8a\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"nfn41p5\",\n        \"url\": \"https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfn41p5/\",\n        \"permalink\": \"/r/volleyball/comments/1nnr2oy/comment/nfn41p5/\",\n        \"parentId\": \"t3_1nnr2oy\",\n        \"author\": \"benebreit\",\n        \"text\": \"I hear ya. Honestly I think looking at rosters is a good way to help the process. It\u2019s not perfect, no one can predict transfers or redshirts, but it gives you some direction.\\n\\n When you see who\u2019s graduating and how much kids in her spot actually play, it helps narrow down schools instead of just blasting emails everywhere. For me that makes it less random and more focused.\\n\\n Still, no guarantee, but it\u2019s better than going in blind.\",\n        \"renderedHtml\": \"\\n      <p>\\n      I hear ya. Honestly I think looking at rosters is a good way to help the process. It\u2019s not perfect, no one can predict transfers or redshirts, but it gives you some direction.\\n    </p><p>\\n      When you see who\u2019s graduating and how much kids in her spot actually play, it helps narrow down schools instead of just blasting emails everywhere. For me that makes it less random and more focused.\\n    </p><p>\\n      Still, no guarantee, but it\u2019s better than going in blind.\\n    </p>\\n    \",\n        \"score\": 43,\n        \"upvotes\": 43,\n        \"createdAt\": \"2025-09-22T18:17:53.000Z\",\n        \"createdUtc\": 1758565073,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"nfn6531\",\n              \"url\": \"https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfn6531/\",\n              \"permalink\": \"/r/volleyball/comments/1nnr2oy/comment/nfn6531/\",\n              \"parentId\": \"t1_nfn41p5\",\n              \"author\": \"Plane_Zucchini_5694\",\n              \"text\": \"Yeah, that\u2019s exactly how I feel too!! it may not be perfect, but at least it gives you a starting point so it\u2019s not totally random. Curious, what are you using to look at rosters right now? Just school websites, or do you have a system you\u2019ve found that works?\",\n              \"renderedHtml\": \"\\n      <p>\\n      Yeah, that\u2019s exactly how I feel too!! it may not be perfect, but at least it gives you a starting point so it\u2019s not totally random. Curious, what are you using to look at rosters right now? Just school websites, or do you have a system you\u2019ve found that works?\\n    </p>\\n    \",\n              \"score\": 6,\n              \"upvotes\": 6,\n              \"createdAt\": \"2025-09-22T18:28:03.000Z\",\n              \"createdUtc\": 1758565683,\n              \"depth\": 0,\n              \"isSubmitter\": true,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [\n                  {\n                    \"id\": \"nfnbr1h\",\n                    \"url\": \"https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfnbr1h/\",\n                    \"permalink\": \"/r/volleyball/comments/1nnr2oy/comment/nfnbr1h/\",\n                    \"parentId\": \"t1_nfn6531\",\n                    \"author\": \"benebreit\",\n                    \"text\": \"Rosterhunter gives you a great overview and you can filter also other things like majors etc.\\n\\n I would not jump too fast on any of the expensive platforms. You can analysis a lot for free and save yourself a lot of time.\\n\\n Ideally you do it together with your kid. Ideally! \ud83e\udd23\",\n                    \"renderedHtml\": \"\\n      <p>\\n      Rosterhunter gives you a great overview and you can filter also other things like majors etc.\\n    </p><p>\\n      I would not jump too fast on any of the expensive platforms. You can analysis a lot for free and save yourself a lot of time.\\n    </p><p>\\n      Ideally you do it together with your kid. Ideally! \ud83e\udd23\\n    </p>\\n    \",\n                    \"score\": 12,\n                    \"upvotes\": 12,\n                    \"createdAt\": \"2025-09-22T18:56:51.000Z\",\n                    \"createdUtc\": 1758567411,\n                    \"depth\": 0,\n                    \"isSubmitter\": false,\n                    \"stickied\": false,\n                    \"locked\": false,\n                    \"distinguished\": null,\n                    \"replies\": {\n                      \"items\": [],\n                      \"page\": {\n                        \"nextCursor\": null,\n                        \"hasMore\": false\n                      }\n                    }\n                  }\n                ],\n                \"page\": {\n                  \"nextCursor\": \"nfn6531\",\n                  \"hasMore\": true\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"nfn6531\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"nfmty9w\",\n        \"url\": \"https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfmty9w/\",\n        \"permalink\": \"/r/volleyball/comments/1nnr2oy/comment/nfmty9w/\",\n        \"parentId\": \"t3_1nnr2oy\",\n        \"author\": \"VballHerk\",\n        \"text\": \"As a small community college coach I can tell you it's the exact same thing for us. I had 3 returning players drop out. And then 2 of the players I signed decided last minute not to play. And then we had 4 new players show up out of the blue.\",\n        \"renderedHtml\": \"\\n      <p>\\n      As a small community college coach I can tell you it's the exact same thing for us. I had 3 returning players drop out. And then 2 of the players I signed decided last minute not to play. And then we had 4 new players show up out of the blue.\\n    </p>\\n    \",\n        \"score\": 6,\n        \"upvotes\": 6,\n        \"createdAt\": \"2025-09-22T17:30:24.000Z\",\n        \"createdUtc\": 1758562224,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"nfmuva1\",\n              \"url\": \"https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfmuva1/\",\n              \"permalink\": \"/r/volleyball/comments/1nnr2oy/comment/nfmuva1/\",\n              \"parentId\": \"t1_nfmty9w\",\n              \"author\": \"Plane_Zucchini_5694\",\n              \"text\": \"That\u2019s interesting, thanks for sharing that perspective too. Makes sense why it feels so unpredictable from 'our' side.\",\n              \"renderedHtml\": \"\\n      <p>\\n      That\u2019s interesting, thanks for sharing that perspective too. Makes sense why it feels so unpredictable from 'our' side.\\n    </p>\\n    \",\n              \"score\": 2,\n              \"upvotes\": 2,\n              \"createdAt\": \"2025-09-22T17:34:44.000Z\",\n              \"createdUtc\": 1758562484,\n              \"depth\": 0,\n              \"isSubmitter\": true,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": null,\n                  \"hasMore\": false\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"nfmty9w\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"nfmvpb8\",\n        \"url\": \"https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfmvpb8/\",\n        \"permalink\": \"/r/volleyball/comments/1nnr2oy/comment/nfmvpb8/\",\n        \"parentId\": \"t3_1nnr2oy\",\n        \"author\": \"Juice-cup\",\n        \"text\": \"Like others have mentioned, roster spots are fluid. My kid had an offer for a team and ended up losing it to a transfer the next week. She ended up finding a great fit after all so it worked out.\\n\\n There are some reasons to think about roster spots but they're for different reasons and those questions come later when you get the coach on the phone. For example, how many setters do you carry, or how many MBs are you looking to recruit this year?\\n\\n It depends on your kid's goals but my kid only wrote to schools that she was interested in attending w/o volleyball. I also had some parental parameters that limited her search. She was able to get a list of about 40 schools from all divisions. Write to them and ask to get on the phone (if the Division allows). Phone call is where it starts.\\n\\n Ultimately, some wrote back and some didn't. If she loved the school she kept writing to them, sending highlights every 2-3 weeks (after tournaments) during club. Most (especially non-D1) ended up writing back at some point. D1 schools were better about saying they were no longer recruiting or not interested than D2/D3 schools. Her dream school never wrote back (fml)!\\n\\n Also, for D3, recruiting starts later. It will really heat up in the middle of her club season and keeps going until the beginning of senior year.\",\n        \"renderedHtml\": \"\\n      <p>\\n      Like others have mentioned, roster spots are fluid.  My kid had an offer for a team and ended up losing it to a transfer the next week.  She ended up finding a great fit after all so it worked out.\\n    </p><p>\\n      There are some reasons to think about roster spots but they're for different reasons and those questions come later when you get the coach on the phone.  For example, how many setters do you carry, or how many MBs are you looking to recruit this year?\\n    </p><p>\\n      It depends on your kid's goals but my kid only wrote to schools that she was interested in attending w/o volleyball.  I also had some parental parameters that limited her search.  She was able to get a list of about 40 schools from all divisions.   Write to them and ask to get on the phone (if the Division allows).  Phone call is where it starts.\\n    </p><p>\\n      Ultimately, some wrote back and some didn't.   If she loved the school she kept writing to them, sending highlights every 2-3 weeks (after tournaments) during club.  Most (especially non-D1) ended up writing back at some point.  D1 schools were better about saying they were no longer recruiting or not interested than D2/D3 schools.  Her dream school never wrote back (fml)!\\n    </p><p>\\n      Also, for D3, recruiting starts later.  It will really heat up in the middle of her club season and keeps going until the beginning of senior year.\\n    </p>\\n    \",\n        \"score\": 3,\n        \"upvotes\": 3,\n        \"createdAt\": \"2025-09-22T17:38:37.000Z\",\n        \"createdUtc\": 1758562717,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"nfn58y1\",\n              \"url\": \"https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfn58y1/\",\n              \"permalink\": \"/r/volleyball/comments/1nnr2oy/comment/nfn58y1/\",\n              \"parentId\": \"t1_nfmvpb8\",\n              \"author\": \"Plane_Zucchini_5694\",\n              \"text\": \"Thanks for sharing that. Sounds like a rollercoaster with the transfer situation, glad it worked out in the end. Appreciate the insight on how you approached the list and the timing differences with D3, that\u2019s really helpful to hear from another parent \ud83d\ude4f\",\n              \"renderedHtml\": \"\\n      <p>\\n      Thanks for sharing that. Sounds like a rollercoaster with the transfer situation, glad it worked out in the end. Appreciate the insight on how you approached the list and the timing differences with D3, that\u2019s really helpful to hear from another parent \ud83d\ude4f\\n    </p>\\n    \",\n              \"score\": 1,\n              \"upvotes\": 1,\n              \"createdAt\": \"2025-09-22T18:23:42.000Z\",\n              \"createdUtc\": 1758565422,\n              \"depth\": 0,\n              \"isSubmitter\": true,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [\n                  {\n                    \"id\": \"nfnqkf9\",\n                    \"url\": \"https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfnqkf9/\",\n                    \"permalink\": \"/r/volleyball/comments/1nnr2oy/comment/nfnqkf9/\",\n                    \"parentId\": \"t1_nfn58y1\",\n                    \"author\": \"Juice-cup\",\n                    \"text\": \"One more thing. If there's a school they're interested in and they get a rejection form, keep an eye on the team. There was one school that wasn't responding but they got a new coach (mid-May). The new coach contacted my daughter because she had continued to send highlights the whole time.\\n\\n Also, make sure you get a free account on University Athlete. Coaches use it at tournaments to filter, stay organized, see which court your kids on. They'll filter by height, GPA, and also if you have video uploaded to the platform. This is a simple, free helper.\",\n                    \"renderedHtml\": \"\\n      <p>\\n      One more thing.  If there's a school they're interested in and they get a rejection form, keep an eye on the team.  There was one school that wasn't responding but they got a new coach (mid-May).  The new coach contacted my daughter because she had continued to send highlights the whole time.\\n    </p><p>\\n      Also, make sure you get a <strong>free</strong> account on University Athlete.  Coaches use it at tournaments to filter, stay organized, see which court your kids on.  They'll filter by height, GPA, and also if you have video uploaded to the platform.  This is a simple, free helper.\\n    </p>\\n    \",\n                    \"score\": 1,\n                    \"upvotes\": 1,\n                    \"createdAt\": \"2025-09-22T20:17:38.000Z\",\n                    \"createdUtc\": 1758572258,\n                    \"depth\": 0,\n                    \"isSubmitter\": false,\n                    \"stickied\": false,\n                    \"locked\": false,\n                    \"distinguished\": null,\n                    \"replies\": {\n                      \"items\": [],\n                      \"page\": {\n                        \"nextCursor\": null,\n                        \"hasMore\": false\n                      }\n                    }\n                  }\n                ],\n                \"page\": {\n                  \"nextCursor\": \"nfn58y1\",\n                  \"hasMore\": true\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"nfn58y1\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"nfmoceu\",\n        \"url\": \"https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfmoceu/\",\n        \"permalink\": \"/r/volleyball/comments/1nnr2oy/comment/nfmoceu/\",\n        \"parentId\": \"t3_1nnr2oy\",\n        \"author\": \"first-alt-account\",\n        \"text\": \"Looking at what schools have roster spots currently open or projected to be open based on the current roster is...well its a total waste of time.\\n\\n Since I assume she isnt a high D1 level recruit...\\n\\n 1- accurately assess the level at which she could be recruited and play.\\n\\n 2- find schools that match what she wants out of a college(large vs small, close vs far, public vs private).\\n\\n 3- take the list of schools that meet #2 and see what ones fit well for education(major, learning style, etc).\\n\\n 4- take the list from #3 and figure out what schools are affordable.\\n\\n 5- contact those remaining schools and send tape.\\n\\n Schools that are interested will follow her on socials and a relationship can begin where she sends her club schedule and they watch, she goes to camps at the college and they see her play, she takes unofficial visits to watch the team play/practice/see the university, etc.\",\n        \"renderedHtml\": \"\\n      <p>\\n      Looking at what schools have roster spots currently open or projected to be open based on the current roster is...well its a total waste of time.\\n    </p><p>\\n      Since I assume she isnt a high D1 level recruit...\\n    </p><p>\\n      1- accurately assess the level at which she could be recruited and play.\\n    </p><p>\\n      2- find schools that match what she wants out of a college(large vs small, close vs far, public vs private).\\n    </p><p>\\n      3- take the list of schools that meet #2 and see what ones fit well for education(major, learning style, etc).\\n    </p><p>\\n      4- take the list from #3 and figure out what schools are affordable.\\n    </p><p>\\n      5- contact those remaining schools and send tape.\\n    </p><p>\\n      Schools that are interested will follow her on socials and a relationship can begin where she sends her club schedule and they watch, she goes to camps at the college and they see her play, she takes unofficial visits to watch the team play/practice/see the university, etc.\\n    </p>\\n    \",\n        \"score\": 11,\n        \"upvotes\": 11,\n        \"createdAt\": \"2025-09-22T17:03:56.000Z\",\n        \"createdUtc\": 1758560636,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"nfogy17\",\n              \"url\": \"https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfogy17/\",\n              \"permalink\": \"/r/volleyball/comments/1nnr2oy/comment/nfogy17/\",\n              \"parentId\": \"t1_nfmoceu\",\n              \"author\": \"TRBadger\",\n              \"text\": \"It\u2019s always tough to talk to people about this because the reality is if you (or your kid) were good enough to be recruited to a top program, you would already be recruited. Or you\u2019d be receiving emails instead of sending them. If you play club and high school and haven\u2019t had any contact with any coaches from top schools, there is typically a reason for that.\",\n              \"renderedHtml\": \"\\n      <p>\\n      It\u2019s always tough to talk to people about this because the reality is if you (or your kid) were good enough to be recruited to a top program, you would already be recruited. Or you\u2019d be receiving emails instead of sending them. If you play club and high school and haven\u2019t had any contact with any coaches from top schools, there is typically a reason for that.\\n    </p>\\n    \",\n              \"score\": 2,\n              \"upvotes\": 2,\n              \"createdAt\": \"2025-09-22T22:52:24.000Z\",\n              \"createdUtc\": 1758581544,\n              \"depth\": 0,\n              \"isSubmitter\": false,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [\n                  {\n                    \"id\": \"nfp401q\",\n                    \"url\": \"https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfp401q/\",\n                    \"permalink\": \"/r/volleyball/comments/1nnr2oy/comment/nfp401q/\",\n                    \"parentId\": \"t1_nfogy17\",\n                    \"author\": \"first-alt-account\",\n                    \"text\": \"At the D1 level, yes definitely. I have seen a ton of NAIA and D3 players that weren't being recruited and had to push for notice and interest, despite playing on top usav 17s and 18s teams in the state. And multiple NAIA signees received financial assistance.\\n\\n The really gray area is D2 since it can vary so widely in college cost, financial assistance, and recruiting budget. That is a murky level of women's college volleyball when it comes to recruiting. I have coached multiple juco, naia, and D3 players who were as good as or better than many D2 players I have coached and coached against.\\n\\n Who gets signed to D2 and financial aid for play is overall definitely something that tracks in the way you describe...but I think it is tough for a lot of girls to cut thru the noise and be seen for recruiting, so they drop to D3 or NAIA, despite having talent to play higher.\",\n                    \"renderedHtml\": \"\\n      <p>\\n      At the D1 level, yes definitely. I have seen a ton of NAIA and D3 players that weren't being recruited and had to push for notice and interest, despite playing on top usav 17s and 18s teams in the state. And multiple NAIA signees received financial assistance.\\n    </p><p>\\n      The really gray area is D2 since it can vary so widely in college cost, financial assistance, and recruiting budget. That is a murky level of women's college volleyball when it comes to recruiting. I have coached multiple juco, naia, and D3 players who were as good as or better than many D2 players I have coached and coached against.\\n    </p><p>\\n      Who gets signed to D2 and financial aid for play is overall definitely something that tracks in the way you describe...but I think it is tough for a lot of girls to cut thru the noise and be seen for recruiting, so they drop to D3 or NAIA, despite having talent to play higher.\\n    </p>\\n    \",\n                    \"score\": 3,\n                    \"upvotes\": 3,\n                    \"createdAt\": \"2025-09-23T01:24:03.000Z\",\n                    \"createdUtc\": 1758590643,\n                    \"depth\": 0,\n                    \"isSubmitter\": false,\n                    \"stickied\": false,\n                    \"locked\": false,\n                    \"distinguished\": null,\n                    \"replies\": {\n                      \"items\": [],\n                      \"page\": {\n                        \"nextCursor\": \"eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy92b2xsZXliYWxsL3QzXzFubnIyb3k_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MyZjb21tZW50UGFyZW50UG9zaXRpb25zPTQsMCwwIiwiY3Vyc29yIjoiWTI5dGJXVnVkSFJ5WldVNk1EQmlPR1E1Tm1Nc09qb3pPbVF4T25ReFgyNW1jRFF3TVhFPSIsInN1YnJlZGRpdCI6InZvbGxleWJhbGwiLCJwb3N0SWQiOiIxbm5yMm95IiwicGFyZW50VGhpbmdJZCI6InQxX25mcDQwMXEifQ\",\n                        \"hasMore\": true\n                      }\n                    }\n                  }\n                ],\n                \"page\": {\n                  \"nextCursor\": \"nfp401q\",\n                  \"hasMore\": true\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"nfp401q\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"nfmq6gr\",\n        \"url\": \"https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfmq6gr/\",\n        \"permalink\": \"/r/volleyball/comments/1nnr2oy/comment/nfmq6gr/\",\n        \"parentId\": \"t3_1nnr2oy\",\n        \"author\": \"vbandbeer\",\n        \"text\": \"Having \u201croster spots\u201d is not something you can concern yourself with.\\n\\n Find schools your daughter would attend even if she can\u2019t play volleyball. Contact the coach and send video.\\n\\n Remember, coaches are very busy this time of year with their actual season. Most of their recruiting will happen in the club season, especially if your daughter isn\u2019t on the radar.\",\n        \"renderedHtml\": \"\\n      <p>\\n      Having \u201croster spots\u201d is not something you can concern yourself with.\\n    </p><p>\\n      Find schools your daughter would attend even if she can\u2019t play volleyball.  Contact the coach and send video.\\n    </p><p>\\n      Remember, coaches are very busy this time of year with their actual season.  Most of their recruiting will happen in the club season, especially if your daughter isn\u2019t on the radar.\\n    </p>\\n    \",\n        \"score\": 4,\n        \"upvotes\": 4,\n        \"createdAt\": \"2025-09-22T17:12:35.000Z\",\n        \"createdUtc\": 1758561155,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"nfn8win\",\n        \"url\": \"https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfn8win/\",\n        \"permalink\": \"/r/volleyball/comments/1nnr2oy/comment/nfn8win/\",\n        \"parentId\": \"t3_1nnr2oy\",\n        \"author\": \"RB3910\",\n        \"text\": \"Don't look for open roster spots, with the way the portal works there will almost always be something avaiblle, and if the coaches want you bad enough, they will figure out a way to make it work\",\n        \"renderedHtml\": \"\\n      <p>\\n      Don't look for open roster spots, with the way the portal works there will almost always be something avaiblle, and if the coaches want you bad enough, they will figure out a way to make it work\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2025-09-22T18:41:47.000Z\",\n        \"createdUtc\": 1758566507,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"nforwsg\",\n        \"url\": \"https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nforwsg/\",\n        \"permalink\": \"/r/volleyball/comments/1nnr2oy/comment/nforwsg/\",\n        \"parentId\": \"t3_1nnr2oy\",\n        \"author\": \"Lower_Pangolin3891\",\n        \"text\": \"\u201cMost college websites just show last year\u2019s roster.\u201d I am having a hard believing this. The 2025 season is in progress. What colleges don\u2019t have a current roster up?\",\n        \"renderedHtml\": \"\\n      <p>\\n      \u201cMost college websites just show last year\u2019s roster.\u201d I am having a hard believing this. The 2025 season is in progress. What colleges don\u2019t have a current roster up?\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2025-09-23T00:03:29.000Z\",\n        \"createdUtc\": 1758585809,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"nfrno31\",\n        \"url\": \"https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfrno31/\",\n        \"permalink\": \"/r/volleyball/comments/1nnr2oy/comment/nfrno31/\",\n        \"parentId\": \"t3_1nnr2oy\",\n        \"author\": \"JoshuaAncaster\",\n        \"text\": \"It\u2019s tough, recruiting agencies are hounds. Our club runs a recruiting zoom every year, and we use BallTime which was acquired by HUDL and has colleges, coaches and programs listed. 11 of the 12 on our 18U team have accepted offers, 3 are 6\u20192\u201d and up going NCAA D1, the rest are headed to CDN universities, none of them used agencies. If no U.S., my daughter has local interest in her from the coaches and players who sometimes practice at our club in the summer, and she\u2019s attended their clinics. She has academic goals and knows that\u2019s the true end goal. I\u2019d say keep in touch with any interest, going after the right academic program is important. She just entered grade 11, this is the main search year. Good luck!\",\n        \"renderedHtml\": \"\\n      <p>\\n      It\u2019s tough, recruiting agencies are hounds. Our club runs a recruiting zoom every year, and we use BallTime which was acquired by HUDL and has colleges, coaches and programs listed. 11 of the 12 on our 18U team have accepted offers, 3 are 6\u20192\u201d and up going NCAA D1, the rest are headed to CDN universities, none of them used agencies. If no U.S., my daughter has local interest in her from the coaches and players who sometimes practice at our club in the summer, and she\u2019s attended their clinics. She has academic goals and knows that\u2019s the true end goal. I\u2019d say keep in touch with any interest, going after the right academic program is important. She just entered grade 11, this is the main search year. Good luck!\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2025-09-23T13:56:49.000Z\",\n        \"createdUtc\": 1758635809,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"nfvmgco\",\n        \"url\": \"https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfvmgco/\",\n        \"permalink\": \"/r/volleyball/comments/1nnr2oy/comment/nfvmgco/\",\n        \"parentId\": \"t3_1nnr2oy\",\n        \"author\": \"ericalenee\",\n        \"text\": \"I\u2019d say if you want her to play as a freshman then start looking at programs where freshman get good playing time. Unless she\u2019s an all American player that\u2019s probably going to look like a DIII level school or a small D2. And even then she\u2019s not guaranteed playing time.\",\n        \"renderedHtml\": \"\\n      <p>\\n      I\u2019d say if you want her to play as a freshman then start looking at programs where freshman get good playing time. Unless she\u2019s an all American player that\u2019s probably going to look like a DIII level school or a small D2. And even then she\u2019s not guaranteed playing time.\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2025-09-24T02:03:46.000Z\",\n        \"createdUtc\": 1758679426,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"nh7ut1q\",\n        \"url\": \"https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nh7ut1q/\",\n        \"permalink\": \"/r/volleyball/comments/1nnr2oy/comment/nh7ut1q/\",\n        \"parentId\": \"t3_1nnr2oy\",\n        \"author\": \"[deleted]\",\n        \"text\": \"[deleted]\",\n        \"renderedHtml\": null,\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2025-10-01T17:14:27.000Z\",\n        \"createdUtc\": 1759338867,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      }\n    ]\n  },\n  \"meta\": {\n    \"requestId\": \"req_a5eb09e6-2898-460b-8387-71430dbf2437\",\n    \"creditsCharged\": 1,\n    \"version\": \"v1\"\n  }\n}"
+   },
+   {
+    "type": "text",
+    "text": "{\"conversation_id\":\"01a1af67-cac3-70c2-9d2c-c3ad71444795\"}"
+   }
+  ],
+  "structuredContent": {
+   "data": {
+    "lookupStatus": "found",
+    "post": {
+     "id": "1nnr2oy",
+     "title": "Anyone else trying to figure out which colleges even have roster spots open?",
+     "text": "Hi all, My daughter is a junior and plays club + high school volleyball. We\u2019ve just started really getting into this whole recruiting thing and honestly, it\u2019s been a lot harder than I thought it would be. What\u2019s driving me nuts is figuring out which schools actually have spots open for her position in the next year or two. Most college websites just show last year\u2019s roster. You can kinda guess who\u2019s graduating but then there\u2019s redshirts, transfers, 5th years\u2026 it\u2019s like a puzzle. Right now it feels like we\u2019re emailing coaches kind of blind, not even knowing if they need her position. She\u2019s stressing a bit and I just don\u2019t want her to waste time chasing the wrong schools. Do other parents just make their own notes from rosters? Or is there some better way people are tracking this stuff? I\u2019m sure we\u2019re not the only ones confused here. Thanks for any advice \ud83d\ude4f",
+     "url": "https://www.reddit.com/r/volleyball/comments/1nnr2oy/anyone_else_trying_to_figure_out_which_colleges/",
+     "permalink": "/r/volleyball/comments/1nnr2oy/anyone_else_trying_to_figure_out_which_colleges/",
+     "subreddit": "volleyball",
+     "subredditNamePrefixed": "r/volleyball",
+     "author": "Plane_Zucchini_5694",
+     "score": 22,
+     "upvoteRatio": 0.8928571428571429,
+     "commentCount": 26,
+     "createdAt": "2025-09-22T16:23:20.000Z",
+     "createdUtc": 1758558200,
+     "over18": false,
+     "locked": false,
+     "stickied": false
+    },
+    "page": {
+     "nextCursor": null,
+     "hasMore": false
+    },
+    "comments": [
+     {
+      "id": "nfmgv2p",
+      "url": "https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfmgv2p/",
+      "permalink": "/r/volleyball/comments/1nnr2oy/comment/nfmgv2p/",
+      "parentId": "t3_1nnr2oy",
+      "author": "BackItUpWithLinks",
+      "text": "Don\u2019t look for open roster spots. You can\u2019t really (reliably) figure that out.\n\n She should pick the school(s) she wants and then start working on the coach. If she\u2019s good, the coach will make a roster spot for her.",
+      "renderedHtml": "\n      <p>\n      Don\u2019t look for open roster spots. You can\u2019t really (reliably) figure that out.\n    </p><p>\n      She should pick the school(s) she wants and then start working on the coach. If she\u2019s good, the coach will make a roster spot for her.\n    </p>\n    ",
+      "score": 50,
+      "upvotes": 50,
+      "createdAt": "2025-09-22T16:28:37.000Z",
+      "createdUtc": 1758558517,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "nfmmumy",
+         "url": "https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfmmumy/",
+         "permalink": "/r/volleyball/comments/1nnr2oy/comment/nfmmumy/",
+         "parentId": "t1_nfmgv2p",
+         "author": "Plane_Zucchini_5694",
+         "text": "Yeah, I get that, and we\u2019ve heard that from a couple coaches too. If they really want a kid, they\u2019ll make it work.\n\n But from the parent side it still feels like such a shot in the dark, you know? Like my daughter is busting her tail writing emails and we\u2019re just hoping it\u2019s even worth sending to that school. I\u2019m not saying she won\u2019t go after her dream programs, but it would be nice to have at least some idea where the chances are better vs totally full.\n\n That\u2019s where we\u2019re kinda stuck right now.",
+         "renderedHtml": "\n      <p>\n      Yeah, I get that, and we\u2019ve heard that from a couple coaches too. If they really want a kid, they\u2019ll make it work.\n    </p><p>\n      But from the parent side it still feels like such a shot in the dark, you know? Like my daughter is busting her tail writing emails and we\u2019re just hoping it\u2019s even worth sending to that school. I\u2019m not saying she won\u2019t go after her dream programs, but it would be nice to have at least some idea where the chances are better vs totally full.\n    </p><p>\n      That\u2019s where we\u2019re kinda stuck right now.\n    </p>\n    ",
+         "score": 3,
+         "upvotes": 3,
+         "createdAt": "2025-09-22T16:56:59.000Z",
+         "createdUtc": 1758560219,
+         "depth": 0,
+         "isSubmitter": true,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [
+           {
+            "id": "nfmqq8a",
+            "url": "https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfmqq8a/",
+            "permalink": "/r/volleyball/comments/1nnr2oy/comment/nfmqq8a/",
+            "parentId": "t1_nfmmumy",
+            "author": "BackItUpWithLinks",
+            "text": "it would be nice to have at least some idea where the chances are better vs totally full.\n\n Sorry to be blunt, but you\u2019re thinking about this backwards.\n\n You can\u2019t know if there\u2019s a roster spot. The coach might not even be sure if there is. But if your daughter is good, the coach can make sure there\u2019s one.\n\n Think of it this way. If the current player in your daughter\u2019s position is a \u201cC+\u201d and your daughter is a B+, roster may look full to you but the coach may be actively looking for a player in that position. You can\u2019t know.\n\n So find the colleges, talk to the coaches, get their list of tournaments they\u2019ll attend, send videos, see if that coach is involved with (or runs their own) camps, work with the coach to schedule a visit. Have your daughter do a sleep over and stay with the team.",
+            "renderedHtml": "\n      <blockquote>\n      <p>\n      it would be nice to have at least some idea where the chances are better vs totally full.\n    </p>\n    </blockquote><p>\n      Sorry to be blunt, but you\u2019re thinking about this backwards.\n    </p><p>\n      You can\u2019t know if there\u2019s a roster spot. The coach might not even be sure if there is. But if your daughter is good, the coach can make sure there\u2019s one.\n    </p><p>\n      Think of it this way. If the current player in your daughter\u2019s position is a \u201cC+\u201d and your daughter is a B+, roster may look full to you but the coach may be actively looking for a player in that position. You can\u2019t know.\n    </p><p>\n      So find the colleges, talk to the coaches, get their list of tournaments they\u2019ll attend, send videos, see if that coach is involved with (or runs their own) camps, work with the coach to schedule a visit. Have your daughter do a sleep over and stay with the team.\n    </p>\n    ",
+            "score": 14,
+            "upvotes": 14,
+            "createdAt": "2025-09-22T17:15:09.000Z",
+            "createdUtc": 1758561309,
+            "depth": 0,
+            "isSubmitter": false,
+            "stickied": false,
+            "locked": false,
+            "distinguished": null,
+            "replies": {
+             "items": [],
+             "page": {
+              "nextCursor": "eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy92b2xsZXliYWxsL3QzXzFubnIyb3k_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MyZjb21tZW50UGFyZW50UG9zaXRpb25zPTAsMCwwIiwiY3Vyc29yIjoiWTI5dGJXVnVkSFJ5WldVNlpHWm1NV00yT0dJc09qb3pPbVF4T25ReFgyNW1iWEZ4T0dFPSIsInN1YnJlZGRpdCI6InZvbGxleWJhbGwiLCJwb3N0SWQiOiIxbm5yMm95IiwicGFyZW50VGhpbmdJZCI6InQxX25mbXFxOGEifQ",
+              "hasMore": true
+             }
+            }
+           },
+           {
+            "id": "nfogh62",
+            "url": "https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfogh62/",
+            "permalink": "/r/volleyball/comments/1nnr2oy/comment/nfogh62/",
+            "parentId": "t1_nfmmumy",
+            "author": "TRBadger",
+            "text": "I\u2019m not really sure about the women\u2019s side, but for men\u2019s you\u2019re pretty much at the mercy of coaches. You don\u2019t really get to pick the school you want unless you\u2019re a top recruit, at which point you wouldn\u2019t need to be sending emails because you\u2019d be getting offers. Like others have said, if a coach wants you they will make room for you or figure out a way to get you there. I\u2019d recommend looking for schools she likes and then emailing the coaches about potential spots or even if they offer walk-on tryouts. I\u2019m sure some school somewhere has a spot for her, but you need to decide if playing at a random school in the middle of nowhere is better than maybe joining a club team at a more prestigious university.",
+            "renderedHtml": "\n      <p>\n      I\u2019m not really sure about the women\u2019s side, but for men\u2019s you\u2019re pretty much at the mercy of coaches. You don\u2019t really get to pick the school you want unless you\u2019re a top recruit, at which point you wouldn\u2019t need to be sending emails because you\u2019d be getting offers. Like others have said, if a coach wants you they will make room for you or figure out a way to get you there. I\u2019d recommend looking for schools she likes and then emailing the coaches about potential spots or even if they offer walk-on tryouts. I\u2019m sure some school somewhere has a spot for her, but you need to decide if playing at a random school in the middle of nowhere is better than maybe joining a club team at a more prestigious university.\n    </p>\n    ",
+            "score": 2,
+            "upvotes": 2,
+            "createdAt": "2025-09-22T22:49:25.000Z",
+            "createdUtc": 1758581365,
+            "depth": 0,
+            "isSubmitter": false,
+            "stickied": false,
+            "locked": false,
+            "distinguished": null,
+            "replies": {
+             "items": [],
+             "page": {
+              "nextCursor": null,
+              "hasMore": false
+             }
+            }
+           }
+          ],
+          "page": {
+           "nextCursor": "nfmqq8a",
+           "hasMore": true
+          }
+         }
+        },
+        {
+         "id": "nfmmtl8",
+         "url": "https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfmmtl8/",
+         "permalink": "/r/volleyball/comments/1nnr2oy/comment/nfmmtl8/",
+         "parentId": "t1_nfmgv2p",
+         "author": "SunshinePangolin428",
+         "text": "With transfer portals and other recruits in play, it will be hard to find the gaps.\n\n I agree with above, narrow in on the schools with her major or states/regions that she is interested in and start working the coaches. Send off game tape everywhere you can and plan a visit for those that you build rapport with. Colleges also offer viewing camps over the summer and long weekends that can help with exposure as well. Best of luck on the journey!",
+         "renderedHtml": "\n      <p>\n      With transfer portals and other recruits in play, it will be hard to find the gaps.\n    </p><p>\n      I agree with above, narrow in on the schools with her major or states/regions that she is interested in and start working the coaches. Send off game tape everywhere you can and plan a visit for those that you build rapport with. Colleges also offer viewing camps over the summer and long weekends that can help with exposure as well. Best of luck on the journey!\n    </p>\n    ",
+         "score": 11,
+         "upvotes": 11,
+         "createdAt": "2025-09-22T16:56:51.000Z",
+         "createdUtc": 1758560211,
+         "depth": 0,
+         "isSubmitter": false,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": null,
+           "hasMore": false
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "nfmqq8a",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "nfn41p5",
+      "url": "https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfn41p5/",
+      "permalink": "/r/volleyball/comments/1nnr2oy/comment/nfn41p5/",
+      "parentId": "t3_1nnr2oy",
+      "author": "benebreit",
+      "text": "I hear ya. Honestly I think looking at rosters is a good way to help the process. It\u2019s not perfect, no one can predict transfers or redshirts, but it gives you some direction.\n\n When you see who\u2019s graduating and how much kids in her spot actually play, it helps narrow down schools instead of just blasting emails everywhere. For me that makes it less random and more focused.\n\n Still, no guarantee, but it\u2019s better than going in blind.",
+      "renderedHtml": "\n      <p>\n      I hear ya. Honestly I think looking at rosters is a good way to help the process. It\u2019s not perfect, no one can predict transfers or redshirts, but it gives you some direction.\n    </p><p>\n      When you see who\u2019s graduating and how much kids in her spot actually play, it helps narrow down schools instead of just blasting emails everywhere. For me that makes it less random and more focused.\n    </p><p>\n      Still, no guarantee, but it\u2019s better than going in blind.\n    </p>\n    ",
+      "score": 43,
+      "upvotes": 43,
+      "createdAt": "2025-09-22T18:17:53.000Z",
+      "createdUtc": 1758565073,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "nfn6531",
+         "url": "https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfn6531/",
+         "permalink": "/r/volleyball/comments/1nnr2oy/comment/nfn6531/",
+         "parentId": "t1_nfn41p5",
+         "author": "Plane_Zucchini_5694",
+         "text": "Yeah, that\u2019s exactly how I feel too!! it may not be perfect, but at least it gives you a starting point so it\u2019s not totally random. Curious, what are you using to look at rosters right now? Just school websites, or do you have a system you\u2019ve found that works?",
+         "renderedHtml": "\n      <p>\n      Yeah, that\u2019s exactly how I feel too!! it may not be perfect, but at least it gives you a starting point so it\u2019s not totally random. Curious, what are you using to look at rosters right now? Just school websites, or do you have a system you\u2019ve found that works?\n    </p>\n    ",
+         "score": 6,
+         "upvotes": 6,
+         "createdAt": "2025-09-22T18:28:03.000Z",
+         "createdUtc": 1758565683,
+         "depth": 0,
+         "isSubmitter": true,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [
+           {
+            "id": "nfnbr1h",
+            "url": "https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfnbr1h/",
+            "permalink": "/r/volleyball/comments/1nnr2oy/comment/nfnbr1h/",
+            "parentId": "t1_nfn6531",
+            "author": "benebreit",
+            "text": "Rosterhunter gives you a great overview and you can filter also other things like majors etc.\n\n I would not jump too fast on any of the expensive platforms. You can analysis a lot for free and save yourself a lot of time.\n\n Ideally you do it together with your kid. Ideally! \ud83e\udd23",
+            "renderedHtml": "\n      <p>\n      Rosterhunter gives you a great overview and you can filter also other things like majors etc.\n    </p><p>\n      I would not jump too fast on any of the expensive platforms. You can analysis a lot for free and save yourself a lot of time.\n    </p><p>\n      Ideally you do it together with your kid. Ideally! \ud83e\udd23\n    </p>\n    ",
+            "score": 12,
+            "upvotes": 12,
+            "createdAt": "2025-09-22T18:56:51.000Z",
+            "createdUtc": 1758567411,
+            "depth": 0,
+            "isSubmitter": false,
+            "stickied": false,
+            "locked": false,
+            "distinguished": null,
+            "replies": {
+             "items": [],
+             "page": {
+              "nextCursor": null,
+              "hasMore": false
+             }
+            }
+           }
+          ],
+          "page": {
+           "nextCursor": "nfn6531",
+           "hasMore": true
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "nfn6531",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "nfmty9w",
+      "url": "https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfmty9w/",
+      "permalink": "/r/volleyball/comments/1nnr2oy/comment/nfmty9w/",
+      "parentId": "t3_1nnr2oy",
+      "author": "VballHerk",
+      "text": "As a small community college coach I can tell you it's the exact same thing for us. I had 3 returning players drop out. And then 2 of the players I signed decided last minute not to play. And then we had 4 new players show up out of the blue.",
+      "renderedHtml": "\n      <p>\n      As a small community college coach I can tell you it's the exact same thing for us. I had 3 returning players drop out. And then 2 of the players I signed decided last minute not to play. And then we had 4 new players show up out of the blue.\n    </p>\n    ",
+      "score": 6,
+      "upvotes": 6,
+      "createdAt": "2025-09-22T17:30:24.000Z",
+      "createdUtc": 1758562224,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "nfmuva1",
+         "url": "https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfmuva1/",
+         "permalink": "/r/volleyball/comments/1nnr2oy/comment/nfmuva1/",
+         "parentId": "t1_nfmty9w",
+         "author": "Plane_Zucchini_5694",
+         "text": "That\u2019s interesting, thanks for sharing that perspective too. Makes sense why it feels so unpredictable from 'our' side.",
+         "renderedHtml": "\n      <p>\n      That\u2019s interesting, thanks for sharing that perspective too. Makes sense why it feels so unpredictable from 'our' side.\n    </p>\n    ",
+         "score": 2,
+         "upvotes": 2,
+         "createdAt": "2025-09-22T17:34:44.000Z",
+         "createdUtc": 1758562484,
+         "depth": 0,
+         "isSubmitter": true,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": null,
+           "hasMore": false
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "nfmty9w",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "nfmvpb8",
+      "url": "https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfmvpb8/",
+      "permalink": "/r/volleyball/comments/1nnr2oy/comment/nfmvpb8/",
+      "parentId": "t3_1nnr2oy",
+      "author": "Juice-cup",
+      "text": "Like others have mentioned, roster spots are fluid. My kid had an offer for a team and ended up losing it to a transfer the next week. She ended up finding a great fit after all so it worked out.\n\n There are some reasons to think about roster spots but they're for different reasons and those questions come later when you get the coach on the phone. For example, how many setters do you carry, or how many MBs are you looking to recruit this year?\n\n It depends on your kid's goals but my kid only wrote to schools that she was interested in attending w/o volleyball. I also had some parental parameters that limited her search. She was able to get a list of about 40 schools from all divisions. Write to them and ask to get on the phone (if the Division allows). Phone call is where it starts.\n\n Ultimately, some wrote back and some didn't. If she loved the school she kept writing to them, sending highlights every 2-3 weeks (after tournaments) during club. Most (especially non-D1) ended up writing back at some point. D1 schools were better about saying they were no longer recruiting or not interested than D2/D3 schools. Her dream school never wrote back (fml)!\n\n Also, for D3, recruiting starts later. It will really heat up in the middle of her club season and keeps going until the beginning of senior year.",
+      "renderedHtml": "\n      <p>\n      Like others have mentioned, roster spots are fluid.  My kid had an offer for a team and ended up losing it to a transfer the next week.  She ended up finding a great fit after all so it worked out.\n    </p><p>\n      There are some reasons to think about roster spots but they're for different reasons and those questions come later when you get the coach on the phone.  For example, how many setters do you carry, or how many MBs are you looking to recruit this year?\n    </p><p>\n      It depends on your kid's goals but my kid only wrote to schools that she was interested in attending w/o volleyball.  I also had some parental parameters that limited her search.  She was able to get a list of about 40 schools from all divisions.   Write to them and ask to get on the phone (if the Division allows).  Phone call is where it starts.\n    </p><p>\n      Ultimately, some wrote back and some didn't.   If she loved the school she kept writing to them, sending highlights every 2-3 weeks (after tournaments) during club.  Most (especially non-D1) ended up writing back at some point.  D1 schools were better about saying they were no longer recruiting or not interested than D2/D3 schools.  Her dream school never wrote back (fml)!\n    </p><p>\n      Also, for D3, recruiting starts later.  It will really heat up in the middle of her club season and keeps going until the beginning of senior year.\n    </p>\n    ",
+      "score": 3,
+      "upvotes": 3,
+      "createdAt": "2025-09-22T17:38:37.000Z",
+      "createdUtc": 1758562717,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "nfn58y1",
+         "url": "https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfn58y1/",
+         "permalink": "/r/volleyball/comments/1nnr2oy/comment/nfn58y1/",
+         "parentId": "t1_nfmvpb8",
+         "author": "Plane_Zucchini_5694",
+         "text": "Thanks for sharing that. Sounds like a rollercoaster with the transfer situation, glad it worked out in the end. Appreciate the insight on how you approached the list and the timing differences with D3, that\u2019s really helpful to hear from another parent \ud83d\ude4f",
+         "renderedHtml": "\n      <p>\n      Thanks for sharing that. Sounds like a rollercoaster with the transfer situation, glad it worked out in the end. Appreciate the insight on how you approached the list and the timing differences with D3, that\u2019s really helpful to hear from another parent \ud83d\ude4f\n    </p>\n    ",
+         "score": 1,
+         "upvotes": 1,
+         "createdAt": "2025-09-22T18:23:42.000Z",
+         "createdUtc": 1758565422,
+         "depth": 0,
+         "isSubmitter": true,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [
+           {
+            "id": "nfnqkf9",
+            "url": "https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfnqkf9/",
+            "permalink": "/r/volleyball/comments/1nnr2oy/comment/nfnqkf9/",
+            "parentId": "t1_nfn58y1",
+            "author": "Juice-cup",
+            "text": "One more thing. If there's a school they're interested in and they get a rejection form, keep an eye on the team. There was one school that wasn't responding but they got a new coach (mid-May). The new coach contacted my daughter because she had continued to send highlights the whole time.\n\n Also, make sure you get a free account on University Athlete. Coaches use it at tournaments to filter, stay organized, see which court your kids on. They'll filter by height, GPA, and also if you have video uploaded to the platform. This is a simple, free helper.",
+            "renderedHtml": "\n      <p>\n      One more thing.  If there's a school they're interested in and they get a rejection form, keep an eye on the team.  There was one school that wasn't responding but they got a new coach (mid-May).  The new coach contacted my daughter because she had continued to send highlights the whole time.\n    </p><p>\n      Also, make sure you get a <strong>free</strong> account on University Athlete.  Coaches use it at tournaments to filter, stay organized, see which court your kids on.  They'll filter by height, GPA, and also if you have video uploaded to the platform.  This is a simple, free helper.\n    </p>\n    ",
+            "score": 1,
+            "upvotes": 1,
+            "createdAt": "2025-09-22T20:17:38.000Z",
+            "createdUtc": 1758572258,
+            "depth": 0,
+            "isSubmitter": false,
+            "stickied": false,
+            "locked": false,
+            "distinguished": null,
+            "replies": {
+             "items": [],
+             "page": {
+              "nextCursor": null,
+              "hasMore": false
+             }
+            }
+           }
+          ],
+          "page": {
+           "nextCursor": "nfn58y1",
+           "hasMore": true
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "nfn58y1",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "nfmoceu",
+      "url": "https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfmoceu/",
+      "permalink": "/r/volleyball/comments/1nnr2oy/comment/nfmoceu/",
+      "parentId": "t3_1nnr2oy",
+      "author": "first-alt-account",
+      "text": "Looking at what schools have roster spots currently open or projected to be open based on the current roster is...well its a total waste of time.\n\n Since I assume she isnt a high D1 level recruit...\n\n 1- accurately assess the level at which she could be recruited and play.\n\n 2- find schools that match what she wants out of a college(large vs small, close vs far, public vs private).\n\n 3- take the list of schools that meet #2 and see what ones fit well for education(major, learning style, etc).\n\n 4- take the list from #3 and figure out what schools are affordable.\n\n 5- contact those remaining schools and send tape.\n\n Schools that are interested will follow her on socials and a relationship can begin where she sends her club schedule and they watch, she goes to camps at the college and they see her play, she takes unofficial visits to watch the team play/practice/see the university, etc.",
+      "renderedHtml": "\n      <p>\n      Looking at what schools have roster spots currently open or projected to be open based on the current roster is...well its a total waste of time.\n    </p><p>\n      Since I assume she isnt a high D1 level recruit...\n    </p><p>\n      1- accurately assess the level at which she could be recruited and play.\n    </p><p>\n      2- find schools that match what she wants out of a college(large vs small, close vs far, public vs private).\n    </p><p>\n      3- take the list of schools that meet #2 and see what ones fit well for education(major, learning style, etc).\n    </p><p>\n      4- take the list from #3 and figure out what schools are affordable.\n    </p><p>\n      5- contact those remaining schools and send tape.\n    </p><p>\n      Schools that are interested will follow her on socials and a relationship can begin where she sends her club schedule and they watch, she goes to camps at the college and they see her play, she takes unofficial visits to watch the team play/practice/see the university, etc.\n    </p>\n    ",
+      "score": 11,
+      "upvotes": 11,
+      "createdAt": "2025-09-22T17:03:56.000Z",
+      "createdUtc": 1758560636,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "nfogy17",
+         "url": "https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfogy17/",
+         "permalink": "/r/volleyball/comments/1nnr2oy/comment/nfogy17/",
+         "parentId": "t1_nfmoceu",
+         "author": "TRBadger",
+         "text": "It\u2019s always tough to talk to people about this because the reality is if you (or your kid) were good enough to be recruited to a top program, you would already be recruited. Or you\u2019d be receiving emails instead of sending them. If you play club and high school and haven\u2019t had any contact with any coaches from top schools, there is typically a reason for that.",
+         "renderedHtml": "\n      <p>\n      It\u2019s always tough to talk to people about this because the reality is if you (or your kid) were good enough to be recruited to a top program, you would already be recruited. Or you\u2019d be receiving emails instead of sending them. If you play club and high school and haven\u2019t had any contact with any coaches from top schools, there is typically a reason for that.\n    </p>\n    ",
+         "score": 2,
+         "upvotes": 2,
+         "createdAt": "2025-09-22T22:52:24.000Z",
+         "createdUtc": 1758581544,
+         "depth": 0,
+         "isSubmitter": false,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [
+           {
+            "id": "nfp401q",
+            "url": "https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfp401q/",
+            "permalink": "/r/volleyball/comments/1nnr2oy/comment/nfp401q/",
+            "parentId": "t1_nfogy17",
+            "author": "first-alt-account",
+            "text": "At the D1 level, yes definitely. I have seen a ton of NAIA and D3 players that weren't being recruited and had to push for notice and interest, despite playing on top usav 17s and 18s teams in the state. And multiple NAIA signees received financial assistance.\n\n The really gray area is D2 since it can vary so widely in college cost, financial assistance, and recruiting budget. That is a murky level of women's college volleyball when it comes to recruiting. I have coached multiple juco, naia, and D3 players who were as good as or better than many D2 players I have coached and coached against.\n\n Who gets signed to D2 and financial aid for play is overall definitely something that tracks in the way you describe...but I think it is tough for a lot of girls to cut thru the noise and be seen for recruiting, so they drop to D3 or NAIA, despite having talent to play higher.",
+            "renderedHtml": "\n      <p>\n      At the D1 level, yes definitely. I have seen a ton of NAIA and D3 players that weren't being recruited and had to push for notice and interest, despite playing on top usav 17s and 18s teams in the state. And multiple NAIA signees received financial assistance.\n    </p><p>\n      The really gray area is D2 since it can vary so widely in college cost, financial assistance, and recruiting budget. That is a murky level of women's college volleyball when it comes to recruiting. I have coached multiple juco, naia, and D3 players who were as good as or better than many D2 players I have coached and coached against.\n    </p><p>\n      Who gets signed to D2 and financial aid for play is overall definitely something that tracks in the way you describe...but I think it is tough for a lot of girls to cut thru the noise and be seen for recruiting, so they drop to D3 or NAIA, despite having talent to play higher.\n    </p>\n    ",
+            "score": 3,
+            "upvotes": 3,
+            "createdAt": "2025-09-23T01:24:03.000Z",
+            "createdUtc": 1758590643,
+            "depth": 0,
+            "isSubmitter": false,
+            "stickied": false,
+            "locked": false,
+            "distinguished": null,
+            "replies": {
+             "items": [],
+             "page": {
+              "nextCursor": "eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy92b2xsZXliYWxsL3QzXzFubnIyb3k_c29ydD1DT05GSURFTkNFJnN0YXJ0aW5nRGVwdGg9MyZjb21tZW50UGFyZW50UG9zaXRpb25zPTQsMCwwIiwiY3Vyc29yIjoiWTI5dGJXVnVkSFJ5WldVNk1EQmlPR1E1Tm1Nc09qb3pPbVF4T25ReFgyNW1jRFF3TVhFPSIsInN1YnJlZGRpdCI6InZvbGxleWJhbGwiLCJwb3N0SWQiOiIxbm5yMm95IiwicGFyZW50VGhpbmdJZCI6InQxX25mcDQwMXEifQ",
+              "hasMore": true
+             }
+            }
+           }
+          ],
+          "page": {
+           "nextCursor": "nfp401q",
+           "hasMore": true
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "nfp401q",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "nfmq6gr",
+      "url": "https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfmq6gr/",
+      "permalink": "/r/volleyball/comments/1nnr2oy/comment/nfmq6gr/",
+      "parentId": "t3_1nnr2oy",
+      "author": "vbandbeer",
+      "text": "Having \u201croster spots\u201d is not something you can concern yourself with.\n\n Find schools your daughter would attend even if she can\u2019t play volleyball. Contact the coach and send video.\n\n Remember, coaches are very busy this time of year with their actual season. Most of their recruiting will happen in the club season, especially if your daughter isn\u2019t on the radar.",
+      "renderedHtml": "\n      <p>\n      Having \u201croster spots\u201d is not something you can concern yourself with.\n    </p><p>\n      Find schools your daughter would attend even if she can\u2019t play volleyball.  Contact the coach and send video.\n    </p><p>\n      Remember, coaches are very busy this time of year with their actual season.  Most of their recruiting will happen in the club season, especially if your daughter isn\u2019t on the radar.\n    </p>\n    ",
+      "score": 4,
+      "upvotes": 4,
+      "createdAt": "2025-09-22T17:12:35.000Z",
+      "createdUtc": 1758561155,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "nfn8win",
+      "url": "https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfn8win/",
+      "permalink": "/r/volleyball/comments/1nnr2oy/comment/nfn8win/",
+      "parentId": "t3_1nnr2oy",
+      "author": "RB3910",
+      "text": "Don't look for open roster spots, with the way the portal works there will almost always be something avaiblle, and if the coaches want you bad enough, they will figure out a way to make it work",
+      "renderedHtml": "\n      <p>\n      Don't look for open roster spots, with the way the portal works there will almost always be something avaiblle, and if the coaches want you bad enough, they will figure out a way to make it work\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2025-09-22T18:41:47.000Z",
+      "createdUtc": 1758566507,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "nforwsg",
+      "url": "https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nforwsg/",
+      "permalink": "/r/volleyball/comments/1nnr2oy/comment/nforwsg/",
+      "parentId": "t3_1nnr2oy",
+      "author": "Lower_Pangolin3891",
+      "text": "\u201cMost college websites just show last year\u2019s roster.\u201d I am having a hard believing this. The 2025 season is in progress. What colleges don\u2019t have a current roster up?",
+      "renderedHtml": "\n      <p>\n      \u201cMost college websites just show last year\u2019s roster.\u201d I am having a hard believing this. The 2025 season is in progress. What colleges don\u2019t have a current roster up?\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2025-09-23T00:03:29.000Z",
+      "createdUtc": 1758585809,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "nfrno31",
+      "url": "https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfrno31/",
+      "permalink": "/r/volleyball/comments/1nnr2oy/comment/nfrno31/",
+      "parentId": "t3_1nnr2oy",
+      "author": "JoshuaAncaster",
+      "text": "It\u2019s tough, recruiting agencies are hounds. Our club runs a recruiting zoom every year, and we use BallTime which was acquired by HUDL and has colleges, coaches and programs listed. 11 of the 12 on our 18U team have accepted offers, 3 are 6\u20192\u201d and up going NCAA D1, the rest are headed to CDN universities, none of them used agencies. If no U.S., my daughter has local interest in her from the coaches and players who sometimes practice at our club in the summer, and she\u2019s attended their clinics. She has academic goals and knows that\u2019s the true end goal. I\u2019d say keep in touch with any interest, going after the right academic program is important. She just entered grade 11, this is the main search year. Good luck!",
+      "renderedHtml": "\n      <p>\n      It\u2019s tough, recruiting agencies are hounds. Our club runs a recruiting zoom every year, and we use BallTime which was acquired by HUDL and has colleges, coaches and programs listed. 11 of the 12 on our 18U team have accepted offers, 3 are 6\u20192\u201d and up going NCAA D1, the rest are headed to CDN universities, none of them used agencies. If no U.S., my daughter has local interest in her from the coaches and players who sometimes practice at our club in the summer, and she\u2019s attended their clinics. She has academic goals and knows that\u2019s the true end goal. I\u2019d say keep in touch with any interest, going after the right academic program is important. She just entered grade 11, this is the main search year. Good luck!\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2025-09-23T13:56:49.000Z",
+      "createdUtc": 1758635809,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "nfvmgco",
+      "url": "https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfvmgco/",
+      "permalink": "/r/volleyball/comments/1nnr2oy/comment/nfvmgco/",
+      "parentId": "t3_1nnr2oy",
+      "author": "ericalenee",
+      "text": "I\u2019d say if you want her to play as a freshman then start looking at programs where freshman get good playing time. Unless she\u2019s an all American player that\u2019s probably going to look like a DIII level school or a small D2. And even then she\u2019s not guaranteed playing time.",
+      "renderedHtml": "\n      <p>\n      I\u2019d say if you want her to play as a freshman then start looking at programs where freshman get good playing time. Unless she\u2019s an all American player that\u2019s probably going to look like a DIII level school or a small D2. And even then she\u2019s not guaranteed playing time.\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2025-09-24T02:03:46.000Z",
+      "createdUtc": 1758679426,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "nh7ut1q",
+      "url": "https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nh7ut1q/",
+      "permalink": "/r/volleyball/comments/1nnr2oy/comment/nh7ut1q/",
+      "parentId": "t3_1nnr2oy",
+      "author": "[deleted]",
+      "text": "[deleted]",
+      "renderedHtml": null,
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2025-10-01T17:14:27.000Z",
+      "createdUtc": 1759338867,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     }
+    ]
+   },
+   "meta": {
+    "requestId": "req_a5eb09e6-2898-460b-8387-71430dbf2437",
+    "creditsCharged": 1,
+    "version": "v1"
+   },
+   "card": {
+    "kind": "search",
+    "title": "Reddit comments",
+    "subtitle": "11 results",
+    "resultCount": 11,
+    "items": [
+     {
+      "title": "Don\u2019t look for open roster spots. You can\u2019t really (reliably) figure that out. She should pick the school(s) she wants and then start working on the coach. If\u2026",
+      "subtitle": "@BackItUpWithLinks \u00b7 50 points",
+      "href": "https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfmgv2p/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "I hear ya. Honestly I think looking at rosters is a good way to help the process. It\u2019s not perfect, no one can predict transfers or redshirts, but it gives\u2026",
+      "subtitle": "@benebreit \u00b7 43 points",
+      "href": "https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfn41p5/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "As a small community college coach I can tell you it's the exact same thing for us. I had 3 returning players drop out. And then 2 of the players I signed\u2026",
+      "subtitle": "@VballHerk \u00b7 6 points",
+      "href": "https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfmty9w/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Like others have mentioned, roster spots are fluid. My kid had an offer for a team and ended up losing it to a transfer the next week. She ended up finding a\u2026",
+      "subtitle": "@Juice-cup \u00b7 3 points",
+      "href": "https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfmvpb8/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Looking at what schools have roster spots currently open or projected to be open based on the current roster is...well its a total waste of time. Since I\u2026",
+      "subtitle": "@first-alt-account \u00b7 11 points",
+      "href": "https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfmoceu/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Having \u201croster spots\u201d is not something you can concern yourself with. Find schools your daughter would attend even if she can\u2019t play volleyball. Contact the\u2026",
+      "subtitle": "@vbandbeer \u00b7 4 points",
+      "href": "https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfmq6gr/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Don't look for open roster spots, with the way the portal works there will almost always be something avaiblle, and if the coaches want you bad enough, they\u2026",
+      "subtitle": "@RB3910 \u00b7 1 point",
+      "href": "https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nfn8win/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "\u201cMost college websites just show last year\u2019s roster.\u201d I am having a hard believing this. The 2025 season is in progress. What colleges don\u2019t have a current\u2026",
+      "subtitle": "@Lower_Pangolin3891 \u00b7 1 point",
+      "href": "https://www.reddit.com/r/volleyball/comments/1nnr2oy/comment/nforwsg/",
+      "platform": "Reddit"
+     }
+    ]
+   }
+  }
+ },
+ "jsonrpc": "2.0",
+ "id": 1
+}

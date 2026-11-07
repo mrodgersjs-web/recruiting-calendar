@@ -1,0 +1,15 @@
+blank {'a': 0.0, 'b': 0.0, 'c': 0.0, 'd': 0.0, 'e': 0.0}
+home-mid-1440 {'a': 0.27, 'b': 0.07, 'c': 0.11, 'd': 0.35, 'e': 0.32}
+home-mid-390 {'a': 0.16, 'b': 0.09, 'c': 0.08, 'd': 0.45, 'e': 0.37}
+home-rest-1440 {'a': 0.35, 'b': 0.21, 'c': 0.18, 'd': 0.36, 'e': 0.54}
+home-rest-390 {'a': 0.15, 'b': 0.06, 'c': 0.11, 'd': 0.42, 'e': 0.3}
+price-1440 {'a': 0.41, 'b': 0.08, 'c': 0.01, 'd': 0.76, 'e': 0.81}
+price-390 {'a': 0.19, 'b': 0.06, 'c': 0.01, 'd': 0.54, 'e': 0.47}
+story-d1-1440 {'a': 0.13, 'b': 0.36, 'c': 0.15, 'd': 0.09, 'e': 0.23}
+story-d1-390 {'a': 0.17, 'b': 0.19, 'c': 0.17, 'd': 0.19, 'e': 0.1}
+story-d2-1440 {'a': 0.19, 'b': 0.12, 'c': 0.18, 'd': 0.37, 'e': 0.47}
+story-d2-390 {'a': 0.02, 'b': 0.02, 'c': 0.01, 'd': 0.14, 'e': 0.56}
+story-d3-1440 {'a': 0.06, 'b': 0.04, 'c': 0.01, 'd': 0.66, 'e': 0.15}
+story-d3-390 {'a': 0.02, 'b': 0.03, 'c': 0.01, 'd': 0.21, 'e': 0.15}
+v1-almanac {'a': 0.01, 'b': 0.01, 'c': 0.0, 'd': 0.01, 'e': 0.06}
+Video frames: none found on home/story/price. Logo lockup: in header of every shot, not captured separately. Re-capture after fix: not possible same run (builder lane not yet shipped) -> next run.

@@ -1,0 +1,177 @@
+{
+ "schema": "w10-playbook-manifest/1",
+ "id": "w10-track",
+ "sport": "track",
+ "class_year": 2029,
+ "rules_read": "2026-11-05",
+ "written": "2026-11-06",
+ "file": "track/PLAYBOOK.md",
+ "site_mapping": {
+  "catalog_title": "Track & Field: Marks to Roster",
+  "site_slug": "track-field-marks",
+  "relation": "supersedes_on_integration",
+  "catalog_status_before": "OUTLINE"
+ },
+ "price_proposal": {
+  "amount_usd": 25,
+  "status": "PROPOSED_NOT_APPROVED",
+  "note": "From W1 catalog; no price is approved."
+ },
+ "stages": [
+  {
+   "n": 0,
+   "title": "Home base",
+   "has_done_when": true
+  },
+  {
+   "n": 1,
+   "title": "Lock the academics",
+   "has_done_when": true
+  },
+  {
+   "n": 2,
+   "title": "Make every mark verifiable",
+   "has_done_when": true
+  },
+  {
+   "n": 3,
+   "title": "Target list from published marks",
+   "has_done_when": true
+  },
+  {
+   "n": 4,
+   "title": "First contact",
+   "has_done_when": true
+  },
+  {
+   "n": 5,
+   "title": "Meets, camps, visits",
+   "has_done_when": true
+  },
+  {
+   "n": 6,
+   "title": "Offers, comparison, signing",
+   "has_done_when": true
+  }
+ ],
+ "worksheets": [
+  "C1",
+  "C2",
+  "C3",
+  "C4",
+  "C5",
+  "C6",
+  "C7",
+  "C8",
+  "C9",
+  "C10"
+ ],
+ "scripts": [
+  "E1",
+  "E2",
+  "E3",
+  "E4"
+ ],
+ "dates": [
+  {
+   "date": "2027-06-15",
+   "kind": "RULE",
+   "label": "D1 contact and off-campus open (changed 2026-10-07)",
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "date": "2027-08-01",
+   "kind": "RULE",
+   "label": "Official visits and camp talk",
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "date": "2028-01-01",
+   "kind": "RULE",
+   "label": "D3 contact opens",
+   "sources": [
+    "S3"
+   ]
+  },
+  {
+   "date": "2028-08-01",
+   "kind": "RULE",
+   "label": "Aid offer date",
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "date": "2028-11-08",
+   "kind": "PROJECTED",
+   "label": "Signing period",
+   "sources": [
+    "S1"
+   ]
+  }
+ ],
+ "sources": [
+  "S1",
+  "S3",
+  "S4",
+  "S5",
+  "S7",
+  "S8",
+  "S9",
+  "S11",
+  "S13",
+  "S14",
+  "S15",
+  "S17",
+  "S19",
+  "S21",
+  "S22",
+  "S23",
+  "S24",
+  "S25",
+  "S26",
+  "S35",
+  "S38",
+  "S40"
+ ],
+ "story_beats": [
+  "the breakout meet",
+  "first coach reply"
+ ],
+ "offer_links": [
+  {
+   "slug": "contact-log",
+   "w8_status": "BUILT",
+   "action": "link",
+   "placement": "Worksheet C3"
+  },
+  {
+   "slug": "red-flags",
+   "w8_status": "BUILT",
+   "action": "link",
+   "placement": "Visit stage"
+  },
+  {
+   "slug": "offer-comparison",
+   "w8_status": "BUILT",
+   "action": "link",
+   "placement": "Offer worksheet"
+  },
+  {
+   "slug": "coach-emails",
+   "w8_status": "PROPOSED",
+   "action": "notify",
+   "placement": "Scripts section"
+  }
+ ],
+ "integrity": {
+  "no_outcome_promise": true,
+  "no_minor_names": true,
+  "no_athlete_claimed_user": true,
+  "no_outreach": true
+ }
+}

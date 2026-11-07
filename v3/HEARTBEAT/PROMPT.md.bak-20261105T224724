@@ -1,0 +1,24 @@
+# Wow-Factor Verifier heartbeat (Recruiting Calendar v3) — standing prompt
+Owner: Mike, 2026-11-05. Runs every 2 hours until STOP criteria hit. Read ../BRIEF-V3.md first; integrity rules bind.
+
+Each run:
+1. CAPTURE. Open https://recruiting-calendar.vercel.app (and the latest preview if newer) in a background tab. Screenshot at 1440x900 and 390x844:
+   home ring carousel (rest + mid-spin), one athlete story (3 scroll depths), playbook/price page, any video frame, logo lockup.
+   Save to v3/HEARTBEAT/runs/<ISO>/shots/. Close tabs after.
+2. JUDGE WITH JEV IMAGE (hosted, ~/.rig/bin/jev-image check, keep raw JSON). For each shot ask 5 questions, rubric
+   "wow:  striking, premium, would stop a scroll|ok: competent but forgettable|weak: generic, broken or empty":
+   (a) overall wow, (b) imagery quality, (c) motion/3D legibility in frame, (d) typography/brand, (e) does it make a parent want to buy.
+   CONTROLS every run: a blank white PNG and the v1 almanac screenshot (tmp/v2-hero.png in the main session) — blank must score wow<=0.2,
+   else the judge is noise that run: mark DEFERRED.
+3. JUDGE TEXT WITH JEV (rig-s1gate check): every athlete story script and playbook changed since last run, rubrics
+   website.buyer and plan.readiness; plus a deliberately broken control. Keep raw dimensions; never invent a single score.
+4. ROAST ROOM. Run /roast-room (skill /Users/rig128gb/.aside/u/0/skills/user/roast-room/SKILL.md, 7 seats as real subagents) on the
+   single biggest weakness Jev found: frame it as 4 distinct fixes A-D. Save the room under v3/HEARTBEAT/runs/<ISO>/roast/.
+   Every 3rd run, roast the RESEARCH and INPUTS instead (W1 folders): which source is thinnest, which claim is weakest.
+5. ACT. Hand the winning fix to the builder lane (message the main task vDWfWwrS181z6OQU or spawn one fix subagent) with the exact
+   change, then re-capture and re-judge that element in the same run.
+6. LEDGER. Append to v3/HEARTBEAT/SCORECARD.md one row: date, per-surface Jev wow probability (mean of 1440+390), controls, text dims,
+   roast verdict, fix shipped, delta. Baseline = run 1.
+STOP when: every surface's wow >= 0.85 on 3 consecutive runs with controls passing AND the research roast finds no claim rated WEAK,
+ i.e. a measured 10x vs baseline is not provable, so the stop is a measured ceiling, not a feeling. Then pause this routine and report.
+NEVER: post publicly, email anyone except Mike's own address, spend money, generate a likeness of a real person, or edit the judge.

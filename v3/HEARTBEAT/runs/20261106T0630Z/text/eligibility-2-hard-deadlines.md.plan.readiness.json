@@ -1,0 +1,57 @@
+{
+  "rubric": "plan.readiness",
+  "verdict": "BLOCK",
+  "enforced": true,
+  "reasons": [
+    "BLOCK: plan not ready for unattended build [readiness.score=0.74 <= 1.2]",
+    "ESCALATE: low confidence on 'readiness' (0.25 < floor 0.30) -- distribution too flat to act on"
+  ],
+  "answers": {
+    "has_acceptance_criteria": {
+      "type": "noul",
+      "noul": 0.89
+    },
+    "names_the_user_decision": {
+      "type": "noul",
+      "noul": 0.74
+    },
+    "unverifiable_claims": {
+      "type": "noul",
+      "noul": 0.37
+    },
+    "scope_is_bounded": {
+      "type": "noul",
+      "noul": 0.88
+    },
+    "deterministic_first": {
+      "type": "noul",
+      "noul": 0.19
+    },
+    "readiness": {
+      "type": "score",
+      "score": 0.74,
+      "confidence": 0.25,
+      "legend": {
+        "0": "Vague idea, no contract, would produce guesswork",
+        "1": "Direction is clear but acceptance is undefined",
+        "2": "Contract and acceptance defined, some ambiguity at the edges",
+        "3": "Fully specified: inputs, outputs, acceptance tests, and out-of-scope all stated"
+      },
+      "probabilities": {
+        "0": 0.47,
+        "1": 0.36,
+        "2": 0.12,
+        "3": 0.05
+      }
+    }
+  },
+  "model": "jev-1.14.0",
+  "latency_ms": 139,
+  "advisory": false,
+  "state_sha256": "5a9b3470173027f2b7f99878bdee8dc29871c482323391cb61e9a855cb7bcc3d",
+  "state_preview": "# Eligibility: the 2 Hard Deadlines\n### For NCAA Division I hopefuls, grades 9 to 11. Rules checked 2026-11-05 against the 2026-27 NCAA Division I Manual.\n\n> Education, not legal advice. No promise of eligibility, a scholarship or a roster spot. The Eligibility Center makes the final call. D2 has its own academic standards; check them separately.\n\n---\n\n## Contents\n1. Why only two deadlines matter most\n2. Deadline 1: the 10/7 lock\n3. Deadline 2: the 16-core finish\n4. The Eligibility Center accoun",
+  "error": null,
+  "decision_id": 311159,
+  "cache_hit": false
+}
+{"exit":1}

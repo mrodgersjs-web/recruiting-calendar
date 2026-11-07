@@ -1,0 +1,56 @@
+{
+  "rubric": "plan.readiness",
+  "verdict": "BLOCK",
+  "enforced": true,
+  "reasons": [
+    "BLOCK: plan not ready for unattended build [readiness.score=0.38 <= 1.2]"
+  ],
+  "answers": {
+    "has_acceptance_criteria": {
+      "type": "noul",
+      "noul": 0.7
+    },
+    "names_the_user_decision": {
+      "type": "noul",
+      "noul": 0.74
+    },
+    "unverifiable_claims": {
+      "type": "noul",
+      "noul": 0.41
+    },
+    "scope_is_bounded": {
+      "type": "noul",
+      "noul": 0.81
+    },
+    "deterministic_first": {
+      "type": "noul",
+      "noul": 0.1
+    },
+    "readiness": {
+      "type": "score",
+      "score": 0.38,
+      "confidence": 0.62,
+      "legend": {
+        "0": "Vague idea, no contract, would produce guesswork",
+        "1": "Direction is clear but acceptance is undefined",
+        "2": "Contract and acceptance defined, some ambiguity at the edges",
+        "3": "Fully specified: inputs, outputs, acceptance tests, and out-of-scope all stated"
+      },
+      "probabilities": {
+        "0": 0.7,
+        "1": 0.23,
+        "2": 0.06,
+        "3": 0.01
+      }
+    }
+  },
+  "model": "jev-1.14.0",
+  "latency_ms": 125,
+  "advisory": false,
+  "state_sha256": "a46e02df26a88da521cae5836fd13637c69d577821341fd4d22dedc6086992ff",
+  "state_preview": "# Walk-On Playbook\n### For athletes without an aid offer who still want to play. Rules checked 2026-11-05 against the 2026-27 NCAA Division I Manual.\n\n> Education, not legal advice. Nothing here promises admission, aid, an offer, a roster spot or playing time. Confirm every rule with each school's compliance and financial aid offices. TO VERIFY = we could not confirm against a primary source on 2026-11-05.\n\n---\n\n## Contents\n1. Walk-on types\n2. Roster limits after House\n3. What to get in writing\n",
+  "error": null,
+  "decision_id": 311174,
+  "cache_hit": false
+}
+{"exit":1}

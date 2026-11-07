@@ -1,0 +1,56 @@
+{
+  "rubric": "plan.readiness",
+  "verdict": "BLOCK",
+  "enforced": true,
+  "reasons": [
+    "BLOCK: plan not ready for unattended build [readiness.score=0.68 <= 1.2]"
+  ],
+  "answers": {
+    "has_acceptance_criteria": {
+      "type": "noul",
+      "noul": 0.62
+    },
+    "names_the_user_decision": {
+      "type": "noul",
+      "noul": 0.71
+    },
+    "unverifiable_claims": {
+      "type": "noul",
+      "noul": 0.49
+    },
+    "scope_is_bounded": {
+      "type": "noul",
+      "noul": 0.8
+    },
+    "deterministic_first": {
+      "type": "noul",
+      "noul": 0.18
+    },
+    "readiness": {
+      "type": "score",
+      "score": 0.68,
+      "confidence": 0.48,
+      "legend": {
+        "0": "Vague idea, no contract, would produce guesswork",
+        "1": "Direction is clear but acceptance is undefined",
+        "2": "Contract and acceptance defined, some ambiguity at the edges",
+        "3": "Fully specified: inputs, outputs, acceptance tests, and out-of-scope all stated"
+      },
+      "probabilities": {
+        "0": 0.42,
+        "1": 0.49,
+        "2": 0.08,
+        "3": 0.01
+      }
+    }
+  },
+  "model": "jev-1.14.0",
+  "latency_ms": 130,
+  "advisory": false,
+  "state_sha256": "2b9915b689b26005ae1fa9d6b1d71628ce3a57686c72287c272ebf9dee223b4a",
+  "state_preview": "# Baseball: From Showcase to Signing\n### Class of 2029 edition. Rules checked 2026-11-05 against the 2026-27 NCAA Division I Manual (printing dated 11/5/26).\n\n> Education, not legal advice. Nothing here promises an offer, a scholarship, a roster spot or playing time. Confirm every date with each school's compliance office. PROJECTED = calculated from current bylaws, not yet published. RECOMMENDED = our suggestion, not an NCAA deadline.\n\n---\n\n## Contents\n1. Baseball's different clock\n2. The showc",
+  "error": null,
+  "decision_id": 311150,
+  "cache_hit": false
+}
+{"exit":1}

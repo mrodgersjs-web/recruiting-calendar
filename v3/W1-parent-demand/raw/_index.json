@@ -1,0 +1,456 @@
+{
+ "date": "2026-11-05",
+ "credits_spent": 32,
+ "files": [
+  {
+   "file": "rcom_bb_coach.json",
+   "posts": null,
+   "comments": 12
+  },
+  {
+   "file": "rcom_lax_club.json",
+   "posts": null,
+   "comments": 14
+  },
+  {
+   "file": "rcom_sb_costs.json",
+   "posts": null,
+   "comments": 16
+  },
+  {
+   "file": "rcom_sb_hard.json",
+   "posts": null,
+   "comments": 8
+  },
+  {
+   "file": "rcom_sw_harsh.json",
+   "posts": null,
+   "comments": 15
+  },
+  {
+   "file": "rcom_tf_schol.json",
+   "posts": null,
+   "comments": 13
+  },
+  {
+   "file": "rcom_vb_parents.json",
+   "posts": null,
+   "comments": 12
+  },
+  {
+   "file": "rcom_vb_roster.json",
+   "posts": null,
+   "comments": 11
+  },
+  {
+   "file": "reddit_bb.json",
+   "posts": null,
+   "comments": 0
+  },
+  {
+   "file": "reddit_fb.json",
+   "posts": null,
+   "comments": 0
+  },
+  {
+   "file": "reddit_gen.json",
+   "posts": null,
+   "comments": 0
+  },
+  {
+   "file": "reddit_lax.json",
+   "posts": null,
+   "comments": 0
+  },
+  {
+   "file": "reddit_mbb.json",
+   "posts": null,
+   "comments": 0
+  },
+  {
+   "file": "reddit_money.json",
+   "posts": null,
+   "comments": 0
+  },
+  {
+   "file": "reddit_nil.json",
+   "posts": null,
+   "comments": 0
+  },
+  {
+   "file": "reddit_sb.json",
+   "posts": null,
+   "comments": 0
+  },
+  {
+   "file": "reddit_soc.json",
+   "posts": null,
+   "comments": 0
+  },
+  {
+   "file": "reddit_sw.json",
+   "posts": null,
+   "comments": 0
+  },
+  {
+   "file": "reddit_tf.json",
+   "posts": null,
+   "comments": 0
+  },
+  {
+   "file": "reddit_vb.json",
+   "posts": null,
+   "comments": 0
+  },
+  {
+   "file": "reddit_wbb.json",
+   "posts": null,
+   "comments": 0
+  },
+  {
+   "file": "reddit_wr.json",
+   "posts": null,
+   "comments": 0
+  },
+  {
+   "file": "sub_Basketball.json",
+   "posts": [
+    {
+     "title": "18-year-old Irish point guard trying to choose between JUCO in the US vs developing in Greece \u2014 need advice",
+     "url": "https://www.reddit.com/r/Basketball/comments/1uwf73f/18yearold_irish_point_guard_trying_to_choose/"
+    },
+    {
+     "title": "Senior League Fighting Issues",
+     "url": "https://www.reddit.com/r/Basketball/comments/1rne381/senior_league_fighting_issues/"
+    },
+    {
+     "title": "Former Division 1 basketball player and college head coach here to answer questions about development and the recruiting process.",
+     "url": "https://www.reddit.com/r/Basketball/comments/1xbw30n/former_division_1_basketball_player_and_college/"
+    },
+    {
+     "title": "I missed my chance. Where should I go from here?",
+     "url": "https://www.reddit.com/r/Basketball/comments/aa3ehe/i_missed_my_chance_where_should_i_go_from_here/"
+    },
+    {
+     "title": "Coaches: Some input?",
+     "url": "https://www.reddit.com/r/Basketball/comments/anglty/coaches_some_input/"
+    },
+    {
+     "title": "Potential for playing college basketball",
+     "url": "https://www.reddit.com/r/Basketball/comments/gxzdfh/potential_for_playing_college_basketball/"
+    },
+    {
+     "title": "Thinking about starting a podcast on how to become a better player / how to make your high school team and get recruited to play in college. Is this something people people would be interested and listen too?",
+     "url": "https://www.reddit.com/r/Basketball/comments/ah1pq3/thinking_about_starting_a_podcast_on_how_to/"
+    }
+   ],
+   "comments": 0
+  },
+  {
+   "file": "sub_CollegeSoccer.json",
+   "posts": [
+    {
+     "title": "Butler\u2019s college roster is the epitome of the problems with American soccer.",
+     "url": "https://www.reddit.com/r/CollegeSoccer/comments/1pi7zdl/butlers_college_roster_is_the_epitome_of_the/"
+    },
+    {
+     "title": "Gap Year and am I reading the situation right",
+     "url": "https://www.reddit.com/r/CollegeSoccer/comments/1reihfb/gap_year_and_am_i_reading_the_situation_right/"
+    },
+    {
+     "title": "TEAM USA Act, good or bad for college soccer?",
+     "url": "https://www.reddit.com/r/CollegeSoccer/comments/1whyo3y/team_usa_act_good_or_bad_for_college_soccer/"
+    },
+    {
+     "title": "Generic response or genuine interest? Email response from Princeton coaching staff",
+     "url": "https://www.reddit.com/r/CollegeSoccer/comments/1u7i6oh/generic_response_or_genuine_interest_email/"
+    },
+    {
+     "title": "advice for recruiting (help I'm super lost)",
+     "url": "https://www.reddit.com/r/CollegeSoccer/comments/1klavg1/advice_for_recruiting_help_im_super_lost/"
+    },
+    {
+     "title": "Barcelona Residency Academy - Worth It...?",
+     "url": "https://www.reddit.com/r/CollegeSoccer/comments/1i6737g/barcelona_residency_academy_worth_it/"
+    },
+    {
+     "title": "Women's recruiting advice",
+     "url": "https://www.reddit.com/r/CollegeSoccer/comments/1lsl0xf/womens_recruiting_advice/"
+    }
+   ],
+   "comments": 0
+  },
+  {
+   "file": "sub_Homeplate.json",
+   "posts": [
+    {
+     "title": "20+ Years Scouting",
+     "url": "https://www.reddit.com/r/Homeplate/comments/1x4k4zv/20_years_scouting/"
+    },
+    {
+     "title": "I'm a D1 college pitcher \u2014 ask me anything",
+     "url": "https://www.reddit.com/r/Homeplate/comments/1v03jrv/im_a_d1_college_pitcher_ask_me_anything/"
+    },
+    {
+     "title": "How is my 4 year olds form? hoping to get him recruited by an ELITE 5u travel team.",
+     "url": "https://www.reddit.com/r/Homeplate/comments/1lzwh13/how_is_my_4_year_olds_form_hoping_to_get_him/"
+    },
+    {
+     "title": "Does anyone else feel like Baseball is so focused on farming now?",
+     "url": "https://www.reddit.com/r/Homeplate/comments/148p1bv/does_anyone_else_feel_like_baseball_is_so_focused/"
+    },
+    {
+     "title": "My kid wants to transfer to play JUCO. Advice?",
+     "url": "https://www.reddit.com/r/Homeplate/comments/155y6bz/my_kid_wants_to_transfer_to_play_juco_advice/"
+    },
+    {
+     "title": "Found out my 10 year old sons USSSA coach paid for Top Performers on the team",
+     "url": "https://www.reddit.com/r/Homeplate/comments/1fd2sfu/found_out_my_10_year_old_sons_usssa_coach_paid/"
+    },
+    {
+     "title": "Recruiting",
+     "url": "https://www.reddit.com/r/Homeplate/comments/1mefb8i/recruiting/"
+    }
+   ],
+   "comments": 0
+  },
+  {
+   "file": "sub_Softball.json",
+   "posts": [
+    {
+     "title": "How do you act towards coaches or other parents after your daughter gets cut from a team she should have made?",
+     "url": "https://www.reddit.com/r/Softball/comments/1m6csbo/how_do_you_act_towards_coaches_or_other_parents/"
+    },
+    {
+     "title": "True Costs",
+     "url": "https://www.reddit.com/r/Softball/comments/1m9gb10/true_costs/"
+    },
+    {
+     "title": "ESPN calls out US youth soccer travel system. Applies to travel softball too.",
+     "url": "https://www.reddit.com/r/Softball/comments/1uquyhy/espn_calls_out_us_youth_soccer_travel_system/"
+    },
+    {
+     "title": "Daughter, 14u Continuously Sits",
+     "url": "https://www.reddit.com/r/Softball/comments/1vcsk9x/daughter_14u_continuously_sits/"
+    },
+    {
+     "title": "Hard Truths",
+     "url": "https://www.reddit.com/r/Softball/comments/1xinm9q/hard_truths/"
+    },
+    {
+     "title": "Question on safety equipment",
+     "url": "https://www.reddit.com/r/Softball/comments/1s84y0i/question_on_safety_equipment/"
+    },
+    {
+     "title": "Advice for 12U daughter",
+     "url": "https://www.reddit.com/r/Softball/comments/1l43htb/advice_for_12u_daughter/"
+    }
+   ],
+   "comments": 0
+  },
+  {
+   "file": "sub_Swimming.json",
+   "posts": [
+    {
+     "title": "Hey r/Swimming, This is Ian Finnerty/ Junior at Indiana University. I recently set the American Record in the 100yd breast. AMA about technique, college recruiting, or sets I do!",
+     "url": "https://www.reddit.com/r/Swimming/comments/8ch6ot/hey_rswimming_this_is_ian_finnerty_junior_at/"
+    },
+    {
+     "title": "15 Y/O - recruiting chances for D1/D2 and how to handle recruiting?",
+     "url": "https://www.reddit.com/r/Swimming/comments/1ld42in/15_yo_recruiting_chances_for_d1d2_and_how_to/"
+    },
+    {
+     "title": "I am an African American male looking to get recruited for college in swim.",
+     "url": "https://www.reddit.com/r/Swimming/comments/1dh7bcd/i_am_an_african_american_male_looking_to_get/"
+    },
+    {
+     "title": "College Recruiting - Harsh Reality",
+     "url": "https://www.reddit.com/r/Swimming/comments/1o5a6ri/college_recruiting_harsh_reality/"
+    },
+    {
+     "title": "What it takes to swim college level",
+     "url": "https://www.reddit.com/r/Swimming/comments/7z1x4b/what_it_takes_to_swim_college_level/"
+    },
+    {
+     "title": "Can these times get me recruited into good colleges?",
+     "url": "https://www.reddit.com/r/Swimming/comments/243hzj/can_these_times_get_me_recruited_into_good/"
+    },
+    {
+     "title": "How fast are NCAA times?",
+     "url": "https://www.reddit.com/r/Swimming/comments/1b6foel/how_fast_are_ncaa_times/"
+    }
+   ],
+   "comments": 0
+  },
+  {
+   "file": "sub_footballstrategy.json",
+   "posts": [
+    {
+     "title": "Where did all the scoring go? NFL",
+     "url": "https://www.reddit.com/r/footballstrategy/comments/1fidm64/where_did_all_the_scoring_go_nfl/"
+    },
+    {
+     "title": "19-Year-Old, 6\u20198\u201d 360+ OL With No Football Film \u2014 Is JUCO Still Realistic?",
+     "url": "https://www.reddit.com/r/footballstrategy/comments/1wbfw3d/19yearold_68_360_ol_with_no_football_film_is_juco/"
+    },
+    {
+     "title": "How many HS coaches here force a scheme on their players?",
+     "url": "https://www.reddit.com/r/footballstrategy/comments/1bqg3og/how_many_hs_coaches_here_force_a_scheme_on_their/"
+    },
+    {
+     "title": "Be brutally honest is it possible for me to walk on d1.",
+     "url": "https://www.reddit.com/r/footballstrategy/comments/1t6io5v/be_brutally_honest_is_it_possible_for_me_to_walk/"
+    },
+    {
+     "title": "D2 or JUCO?",
+     "url": "https://www.reddit.com/r/footballstrategy/comments/1omp3k5/d2_or_juco/"
+    },
+    {
+     "title": "Getting started playing football",
+     "url": "https://www.reddit.com/r/footballstrategy/comments/122pbm1/getting_started_playing_football/"
+    },
+    {
+     "title": "Running a 33 Stack Defense",
+     "url": "https://www.reddit.com/r/footballstrategy/comments/18i7wfq/running_a_33_stack_defense/"
+    }
+   ],
+   "comments": 0
+  },
+  {
+   "file": "sub_lacrosse.json",
+   "posts": [
+    {
+     "title": "The Truth about Club Lacrosse and Select Events from a College Coach",
+     "url": "https://www.reddit.com/r/lacrosse/comments/1v87u2i/the_truth_about_club_lacrosse_and_select_events/"
+    },
+    {
+     "title": "OLA Policy on Non Sanctioned Events for Youth Lacrosse",
+     "url": "https://www.reddit.com/r/lacrosse/comments/18rkr07/ola_policy_on_non_sanctioned_events_for_youth/"
+    },
+    {
+     "title": "Full-pay at a D3 school or MCLA at my state flagship",
+     "url": "https://www.reddit.com/r/lacrosse/comments/1x5fub4/fullpay_at_a_d3_school_or_mcla_at_my_state/"
+    },
+    {
+     "title": "Play D3 or go to an Ivy and not play",
+     "url": "https://www.reddit.com/r/lacrosse/comments/1glgdpq/play_d3_or_go_to_an_ivy_and_not_play/"
+    },
+    {
+     "title": "Ask A D1 Defenseman Anything!",
+     "url": "https://www.reddit.com/r/lacrosse/comments/2tctad/ask_a_d1_defenseman_anything/"
+    },
+    {
+     "title": "Upset and unsure in my recruitment process",
+     "url": "https://www.reddit.com/r/lacrosse/comments/1v3jcq0/upset_and_unsure_in_my_recruitment_process/"
+    },
+    {
+     "title": "Lacrosse Noob's Dad Seeks Advice on Gear Color",
+     "url": "https://www.reddit.com/r/lacrosse/comments/1aq5lnw/lacrosse_noobs_dad_seeks_advice_on_gear_color/"
+    }
+   ],
+   "comments": 0
+  },
+  {
+   "file": "sub_trackandfield.json",
+   "posts": [
+    {
+     "title": "In the NCAA XC DI Cross Country race, 38 of the top 50 athletes were born outside of the USA. 29 of the top 50 were born in Kenya. Is aggressive international recruiting ruining the spirit of the sport?",
+     "url": "https://www.reddit.com/r/trackandfield/comments/1p4pqpg/in_the_ncaa_xc_di_cross_country_race_38_of_the/"
+    },
+    {
+     "title": "NCSA College recruiting? Worth it?",
+     "url": "https://www.reddit.com/r/trackandfield/comments/10zycqs/ncsa_college_recruiting_worth_it/"
+    },
+    {
+     "title": "Should erriyon transition to football or return to track after his 4 yr suspension",
+     "url": "https://www.reddit.com/r/trackandfield/comments/1nx9rh3/should_erriyon_transition_to_football_or_return/"
+    },
+    {
+     "title": "American standard of competition is SO much higher than Europe",
+     "url": "https://www.reddit.com/r/trackandfield/comments/1deawbt/american_standard_of_competition_is_so_much/"
+    },
+    {
+     "title": "Track & Field Scholarships Debunked",
+     "url": "https://www.reddit.com/r/trackandfield/comments/1ftttpl/track_field_scholarships_debunked/"
+    },
+    {
+     "title": "Willing to answer any questions about running track in college",
+     "url": "https://www.reddit.com/r/trackandfield/comments/1d26x82/willing_to_answer_any_questions_about_running/"
+    },
+    {
+     "title": "Favour Ofili has been DENIED a transfer of allegiance from Nigeria to T\u00fcrkiye by World Athletics.",
+     "url": "https://www.reddit.com/r/trackandfield/comments/1sn0cet/favour_ofili_has_been_denied_a_transfer_of/"
+    }
+   ],
+   "comments": 0
+  },
+  {
+   "file": "sub_volleyball.json",
+   "posts": [
+    {
+     "title": "When AI Failed Me, Reddit Saved My Son's Volleyball Dreams, Literally",
+     "url": "https://www.reddit.com/r/volleyball/comments/1mnv9ih/when_ai_failed_me_reddit_saved_my_sons_volleyball/"
+    },
+    {
+     "title": "Parents of kids being recruited...",
+     "url": "https://www.reddit.com/r/volleyball/comments/1iwlltt/parents_of_kids_being_recruited/"
+    },
+    {
+     "title": "Canadian Volleyball Showcase for a top-tier D1T1 athlete\u2014legit recruiting tool or a massive money grab?",
+     "url": "https://www.reddit.com/r/volleyball/comments/1x7fp2q/canadian_volleyball_showcase_for_a_toptier_d1t1/"
+    },
+    {
+     "title": "TL;DR: I've committed the past 5/6 years of my life for nothing. Advice PLEASE!",
+     "url": "https://www.reddit.com/r/volleyball/comments/19bo7zp/tldr_ive_committed_the_past_56_years_of_my_life/"
+    },
+    {
+     "title": "Anyone else trying to figure out which colleges even have roster spots open?",
+     "url": "https://www.reddit.com/r/volleyball/comments/1nnr2oy/anyone_else_trying_to_figure_out_which_colleges/"
+    },
+    {
+     "title": "Choosing between colleges",
+     "url": "https://www.reddit.com/r/volleyball/comments/1hx4v9f/choosing_between_colleges/"
+    },
+    {
+     "title": "volleyballers.com - made by volleyball parents for volleyball parents",
+     "url": "https://www.reddit.com/r/volleyball/comments/1s9wcbq/volleyballerscom_made_by_volleyball_parents_for/"
+    }
+   ],
+   "comments": 0
+  },
+  {
+   "file": "sub_wrestling.json",
+   "posts": [
+    {
+     "title": "Is Penn States Dominance Actually Bad For NCAA Wrestling?",
+     "url": "https://www.reddit.com/r/wrestling/comments/1r6i0k7/is_penn_states_dominance_actually_bad_for_ncaa/"
+    },
+    {
+     "title": "PSU\u2019s Zack Ryder to the Portal",
+     "url": "https://www.reddit.com/r/wrestling/comments/1jpza6x/psus_zack_ryder_to_the_portal/"
+    },
+    {
+     "title": "Thoughts on the 2026 NCAA Wrestling Championships",
+     "url": "https://www.reddit.com/r/wrestling/comments/1s1o69k/thoughts_on_the_2026_ncaa_wrestling_championships/"
+    },
+    {
+     "title": "Picking state to move to for wrestling",
+     "url": "https://www.reddit.com/r/wrestling/comments/1uwi9bd/picking_state_to_move_to_for_wrestling/"
+    },
+    {
+     "title": "In your opinion, what\u2019s the best way to get recruited out of highschool for college wrestling??",
+     "url": "https://www.reddit.com/r/wrestling/comments/tt278w/in_your_opinion_whats_the_best_way_to_get/"
+    },
+    {
+     "title": "D1 Schools That Should Have Wrestling (please comment, I\u2019d like to hear your thoughts!)",
+     "url": "https://www.reddit.com/r/wrestling/comments/zkidlw/d1_schools_that_should_have_wrestling_please/"
+    },
+    {
+     "title": "My Unlikely Path to D1 Wrestling",
+     "url": "https://www.reddit.com/r/wrestling/comments/e9ij2m/my_unlikely_path_to_d1_wrestling/"
+    }
+   ],
+   "comments": 0
+  }
+ ]
+}

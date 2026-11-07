@@ -1,0 +1,58 @@
+{
+  "rubric": "plan.readiness",
+  "verdict": "BLOCK",
+  "enforced": true,
+  "reasons": [
+    "BLOCK: no checkable acceptance criteria -- the agent has nothing to be graded against [has_acceptance_criteria.noul=0.38 <= 0.4]",
+    "BLOCK: plan not ready for unattended build [readiness.score=0.27 <= 1.2]",
+    "ESCALATE: feature described without the user decision it serves [names_the_user_decision.noul=0.39 <= 0.4]"
+  ],
+  "answers": {
+    "has_acceptance_criteria": {
+      "type": "noul",
+      "noul": 0.38
+    },
+    "names_the_user_decision": {
+      "type": "noul",
+      "noul": 0.39
+    },
+    "unverifiable_claims": {
+      "type": "noul",
+      "noul": 0.25
+    },
+    "scope_is_bounded": {
+      "type": "noul",
+      "noul": 0.91
+    },
+    "deterministic_first": {
+      "type": "noul",
+      "noul": 0.1
+    },
+    "readiness": {
+      "type": "score",
+      "score": 0.27,
+      "confidence": 0.75,
+      "legend": {
+        "0": "Vague idea, no contract, would produce guesswork",
+        "1": "Direction is clear but acceptance is undefined",
+        "2": "Contract and acceptance defined, some ambiguity at the edges",
+        "3": "Fully specified: inputs, outputs, acceptance tests, and out-of-scope all stated"
+      },
+      "probabilities": {
+        "0": 0.81,
+        "1": 0.14,
+        "2": 0.04,
+        "3": 0.01
+      }
+    }
+  },
+  "model": "jev-1.14.0",
+  "latency_ms": 155,
+  "advisory": false,
+  "state_sha256": "609bf01b036f736ebf4a4c3819e15c03f529c848448896d297e6b553bddfa1a4",
+  "state_preview": "# NIL for High Schoolers\n### For HS athletes and parents asked about a deal. Checked 2026-11-05.\n\n> Education, not legal advice. Nothing here promises an offer, aid, a roster spot, playing time or income. Confirm every rule with each school's compliance office. TO VERIFY = not confirmed against a primary source on 2026-11-05. Not tax advice either: talk to a tax professional.\n\n---\n\n## Contents\n1. Two rulebooks, not one\n2. What the NCAA says now\n3. Recruiting-inducement risk\n4. The 25-question de",
+  "error": null,
+  "decision_id": 311169,
+  "cache_hit": false
+}
+{"exit":1}

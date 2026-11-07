@@ -116,7 +116,7 @@ for x in st:
 json.dump(arts,open(R+'/jsonld/stories-articles.json','w'),indent=1)
 json.dump({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":s}} for _,q,s,_ in idx]},open(R+'/jsonld/faqpage-answers-hub.json','w'),indent=1)
 # ---------- sitemap / robots ----------
-sm='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f'<url><loc>{BASE}{p}</loc><lastmod>{CHK}</lastmod></url>\n' for p,_,_ in P)+'<url><loc>'+BASE+'/start/</loc><lastmod>2026-11-06</lastmod></url>\n'+'<url><loc>'+BASE+'/downloads/recruiting-calendar-class-2029.pdf</loc><lastmod>'+CHK+'</lastmod></url>\n</urlset>\n'
+sm='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f'<url><loc>{BASE}{p}</loc><lastmod>{CHK}</lastmod></url>\n' for p,_,_ in P)+'<url><loc>'+BASE+'/start/</loc><lastmod>2026-11-06</lastmod></url>\n'+'<url><loc>'+BASE+'/library</loc><lastmod>2026-11-07</lastmod></url>\n'+'<url><loc>'+BASE+'/access</loc><lastmod>2026-11-07</lastmod></url>\n'+'<url><loc>'+BASE+'/recruitiq</loc><lastmod>2026-11-07</lastmod></url>\n'+'<url><loc>'+BASE+'/segments</loc><lastmod>2026-11-07</lastmod></url>\n'+'<url><loc>'+BASE+'/emerging-sports</loc><lastmod>2026-11-07</lastmod></url>\n'+'<url><loc>'+BASE+'/downloads/recruiting-calendar-class-2029.pdf</loc><lastmod>'+CHK+'</lastmod></url>\n</urlset>\n'
 open(R+'/site/sitemap.xml','w').write(sm)
 open(R+'/site/robots.txt','w').write(f'User-agent: *\nAllow: /\nDisallow: /welcome/\nDisallow: /api/\n\nSitemap: {BASE}/sitemap.xml\n')
 open(R+'/ANSWER-SOURCES.tsv','w').write('page\tsport\trule\tdate\turl\n'+'\n'.join(audit)+'\n')

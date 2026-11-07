@@ -1,0 +1,338 @@
+{
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "{\n  \"data\": {\n    \"subreddit\": \"CollegeSoccer\",\n    \"query\": \"recruiting parent\",\n    \"sort\": \"comments\",\n    \"timeframe\": \"all\",\n    \"posts\": [\n      {\n        \"id\": \"1pi7zdl\",\n        \"postId\": \"t3_1pi7zdl\",\n        \"title\": \"Butler\u2019s college roster is the epitome of the problems with American soccer.\",\n        \"url\": \"https://www.reddit.com/r/CollegeSoccer/comments/1pi7zdl/butlers_college_roster_is_the_epitome_of_the/\",\n        \"permalink\": \"/r/CollegeSoccer/comments/1pi7zdl/butlers_college_roster_is_the_epitome_of_the/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"adadwhocantputt\",\n          \"id\": \"t2_1wqa2c0avs\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"CollegeSoccer\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 20,\n          \"comments\": 107,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2025-12-09T13:53:31.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 0,\n        \"relativePosition\": 0\n      },\n      {\n        \"id\": \"1reihfb\",\n        \"postId\": \"t3_1reihfb\",\n        \"title\": \"Gap Year and am I reading the situation right\",\n        \"url\": \"https://www.reddit.com/r/CollegeSoccer/comments/1reihfb/gap_year_and_am_i_reading_the_situation_right/\",\n        \"permalink\": \"/r/CollegeSoccer/comments/1reihfb/gap_year_and_am_i_reading_the_situation_right/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"Adventurous_Lie8397\",\n          \"id\": \"t2_6nstqi00\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"CollegeSoccer\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 4,\n          \"comments\": 57,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2026-02-25T16:47:01.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 1,\n        \"relativePosition\": 1\n      },\n      {\n        \"id\": \"1whyo3y\",\n        \"postId\": \"t3_1whyo3y\",\n        \"title\": \"TEAM USA Act, good or bad for college soccer?\",\n        \"url\": \"https://www.reddit.com/r/CollegeSoccer/comments/1whyo3y/team_usa_act_good_or_bad_for_college_soccer/\",\n        \"permalink\": \"/r/CollegeSoccer/comments/1whyo3y/team_usa_act_good_or_bad_for_college_soccer/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"881cafe\",\n          \"id\": \"t2_f7d3slm9\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"CollegeSoccer\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 12,\n          \"comments\": 34,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2026-09-16T14:22:37.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 2,\n        \"relativePosition\": 2\n      },\n      {\n        \"id\": \"1u7i6oh\",\n        \"postId\": \"t3_1u7i6oh\",\n        \"title\": \"Generic response or genuine interest? Email response from Princeton coaching staff\",\n        \"url\": \"https://www.reddit.com/r/CollegeSoccer/comments/1u7i6oh/generic_response_or_genuine_interest_email/\",\n        \"permalink\": \"/r/CollegeSoccer/comments/1u7i6oh/generic_response_or_genuine_interest_email/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"Nearby_Mycologist_17\",\n          \"id\": \"t2_k49lpn30\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"CollegeSoccer\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 4,\n          \"comments\": 31,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2026-06-16T16:19:55.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 3,\n        \"relativePosition\": 3\n      },\n      {\n        \"id\": \"1klavg1\",\n        \"postId\": \"t3_1klavg1\",\n        \"title\": \"advice for recruiting (help I'm super lost)\",\n        \"url\": \"https://www.reddit.com/r/CollegeSoccer/comments/1klavg1/advice_for_recruiting_help_im_super_lost/\",\n        \"permalink\": \"/r/CollegeSoccer/comments/1klavg1/advice_for_recruiting_help_im_super_lost/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"Able_Elderberry3443\",\n          \"id\": \"t2_rnocwvs4q\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"CollegeSoccer\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 8,\n          \"comments\": 31,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2025-05-13T02:23:22.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 4,\n        \"relativePosition\": 4\n      },\n      {\n        \"id\": \"1i6737g\",\n        \"postId\": \"t3_1i6737g\",\n        \"title\": \"Barcelona Residency Academy - Worth It...?\",\n        \"url\": \"https://www.reddit.com/r/CollegeSoccer/comments/1i6737g/barcelona_residency_academy_worth_it/\",\n        \"permalink\": \"/r/CollegeSoccer/comments/1i6737g/barcelona_residency_academy_worth_it/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"Helpful_Apartment_69\",\n          \"id\": \"t2_176ya6uluz\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"CollegeSoccer\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 19,\n          \"comments\": 28,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2025-01-21T01:30:13.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 5,\n        \"relativePosition\": 5\n      },\n      {\n        \"id\": \"1lsl0xf\",\n        \"postId\": \"t3_1lsl0xf\",\n        \"title\": \"Women's recruiting advice\",\n        \"url\": \"https://www.reddit.com/r/CollegeSoccer/comments/1lsl0xf/womens_recruiting_advice/\",\n        \"permalink\": \"/r/CollegeSoccer/comments/1lsl0xf/womens_recruiting_advice/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"GrouchyOne4132\",\n          \"id\": \"t2_88v5i4xr\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"CollegeSoccer\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 3,\n          \"comments\": 28,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2025-07-05T21:47:23.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 6,\n        \"relativePosition\": 6\n      }\n    ],\n    \"totalResults\": 7,\n    \"page\": {\n      \"nextCursor\": \"eyJjYW5kaWRhdGVzX3JldHVybmVkIjoie1wic2VjdGlvbl8xX3BpcGVsaW5lXzBfZ2xvYmFsX21vZGlmaWVyc1wiOlwiMVwiLFwic2VjdGlvbl8xX3BpcGVsaW5lXzFfbG9jYWxfbW9kaWZpZXJzXCI6XCIyXCIsXCJzZWN0aW9uXzJfcGlwZWxpbmVfN19zY29wZV9zd2l0Y2hlclwiOlwiMFwiLFwic2VjdGlvbl8yX3BpcGVsaW5lXzhfZHluYW1pY18wX3Bvc3Rfc2VhcmNoXCI6XCI3XCIsXCJzZWN0aW9uXzNfcGlwZWxpbmVfMF9zaWRlYmFyX2NvbW11bml0eV9pbmZvXCI6XCIwXCJ9IiwiZXhwZXJpZW5jZV9zZWxlY3Rpb24iOiJwb3N0c192MiIsImV4cGVyaWVuY2VfdmVyc2lvbiI6ImNvbW11bml0eSIsInNlY3Rpb25fMl9waXBlbGluZV84X2R5bmFtaWNfMF9wb3N0X3NlYXJjaCI6IjcifQ==\",\n      \"hasMore\": true\n    }\n  },\n  \"meta\": {\n    \"requestId\": \"req_fab6c9b0-0201-410d-8c3d-ee1c4bcc1921\",\n    \"creditsCharged\": 1,\n    \"version\": \"v1\"\n  }\n}"
+   },
+   {
+    "type": "text",
+    "text": "{\"conversation_id\":\"01a1af66-bc42-7263-85d8-f1a65e7ab57e\"}"
+   }
+  ],
+  "structuredContent": {
+   "data": {
+    "subreddit": "CollegeSoccer",
+    "query": "recruiting parent",
+    "sort": "comments",
+    "timeframe": "all",
+    "posts": [
+     {
+      "id": "1pi7zdl",
+      "postId": "t3_1pi7zdl",
+      "title": "Butler\u2019s college roster is the epitome of the problems with American soccer.",
+      "url": "https://www.reddit.com/r/CollegeSoccer/comments/1pi7zdl/butlers_college_roster_is_the_epitome_of_the/",
+      "permalink": "/r/CollegeSoccer/comments/1pi7zdl/butlers_college_roster_is_the_epitome_of_the/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "adadwhocantputt",
+       "id": "t2_1wqa2c0avs"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "CollegeSoccer",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 20,
+       "comments": 107,
+       "upvoteRatio": null
+      },
+      "createdAt": "2025-12-09T13:53:31.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 0,
+      "relativePosition": 0
+     },
+     {
+      "id": "1reihfb",
+      "postId": "t3_1reihfb",
+      "title": "Gap Year and am I reading the situation right",
+      "url": "https://www.reddit.com/r/CollegeSoccer/comments/1reihfb/gap_year_and_am_i_reading_the_situation_right/",
+      "permalink": "/r/CollegeSoccer/comments/1reihfb/gap_year_and_am_i_reading_the_situation_right/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "Adventurous_Lie8397",
+       "id": "t2_6nstqi00"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "CollegeSoccer",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 4,
+       "comments": 57,
+       "upvoteRatio": null
+      },
+      "createdAt": "2026-02-25T16:47:01.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 1,
+      "relativePosition": 1
+     },
+     {
+      "id": "1whyo3y",
+      "postId": "t3_1whyo3y",
+      "title": "TEAM USA Act, good or bad for college soccer?",
+      "url": "https://www.reddit.com/r/CollegeSoccer/comments/1whyo3y/team_usa_act_good_or_bad_for_college_soccer/",
+      "permalink": "/r/CollegeSoccer/comments/1whyo3y/team_usa_act_good_or_bad_for_college_soccer/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "881cafe",
+       "id": "t2_f7d3slm9"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "CollegeSoccer",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 12,
+       "comments": 34,
+       "upvoteRatio": null
+      },
+      "createdAt": "2026-09-16T14:22:37.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 2,
+      "relativePosition": 2
+     },
+     {
+      "id": "1u7i6oh",
+      "postId": "t3_1u7i6oh",
+      "title": "Generic response or genuine interest? Email response from Princeton coaching staff",
+      "url": "https://www.reddit.com/r/CollegeSoccer/comments/1u7i6oh/generic_response_or_genuine_interest_email/",
+      "permalink": "/r/CollegeSoccer/comments/1u7i6oh/generic_response_or_genuine_interest_email/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "Nearby_Mycologist_17",
+       "id": "t2_k49lpn30"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "CollegeSoccer",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 4,
+       "comments": 31,
+       "upvoteRatio": null
+      },
+      "createdAt": "2026-06-16T16:19:55.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 3,
+      "relativePosition": 3
+     },
+     {
+      "id": "1klavg1",
+      "postId": "t3_1klavg1",
+      "title": "advice for recruiting (help I'm super lost)",
+      "url": "https://www.reddit.com/r/CollegeSoccer/comments/1klavg1/advice_for_recruiting_help_im_super_lost/",
+      "permalink": "/r/CollegeSoccer/comments/1klavg1/advice_for_recruiting_help_im_super_lost/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "Able_Elderberry3443",
+       "id": "t2_rnocwvs4q"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "CollegeSoccer",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 8,
+       "comments": 31,
+       "upvoteRatio": null
+      },
+      "createdAt": "2025-05-13T02:23:22.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 4,
+      "relativePosition": 4
+     },
+     {
+      "id": "1i6737g",
+      "postId": "t3_1i6737g",
+      "title": "Barcelona Residency Academy - Worth It...?",
+      "url": "https://www.reddit.com/r/CollegeSoccer/comments/1i6737g/barcelona_residency_academy_worth_it/",
+      "permalink": "/r/CollegeSoccer/comments/1i6737g/barcelona_residency_academy_worth_it/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "Helpful_Apartment_69",
+       "id": "t2_176ya6uluz"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "CollegeSoccer",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 19,
+       "comments": 28,
+       "upvoteRatio": null
+      },
+      "createdAt": "2025-01-21T01:30:13.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 5,
+      "relativePosition": 5
+     },
+     {
+      "id": "1lsl0xf",
+      "postId": "t3_1lsl0xf",
+      "title": "Women's recruiting advice",
+      "url": "https://www.reddit.com/r/CollegeSoccer/comments/1lsl0xf/womens_recruiting_advice/",
+      "permalink": "/r/CollegeSoccer/comments/1lsl0xf/womens_recruiting_advice/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "GrouchyOne4132",
+       "id": "t2_88v5i4xr"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "CollegeSoccer",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 3,
+       "comments": 28,
+       "upvoteRatio": null
+      },
+      "createdAt": "2025-07-05T21:47:23.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 6,
+      "relativePosition": 6
+     }
+    ],
+    "totalResults": 7,
+    "page": {
+     "nextCursor": "eyJjYW5kaWRhdGVzX3JldHVybmVkIjoie1wic2VjdGlvbl8xX3BpcGVsaW5lXzBfZ2xvYmFsX21vZGlmaWVyc1wiOlwiMVwiLFwic2VjdGlvbl8xX3BpcGVsaW5lXzFfbG9jYWxfbW9kaWZpZXJzXCI6XCIyXCIsXCJzZWN0aW9uXzJfcGlwZWxpbmVfN19zY29wZV9zd2l0Y2hlclwiOlwiMFwiLFwic2VjdGlvbl8yX3BpcGVsaW5lXzhfZHluYW1pY18wX3Bvc3Rfc2VhcmNoXCI6XCI3XCIsXCJzZWN0aW9uXzNfcGlwZWxpbmVfMF9zaWRlYmFyX2NvbW11bml0eV9pbmZvXCI6XCIwXCJ9IiwiZXhwZXJpZW5jZV9zZWxlY3Rpb24iOiJwb3N0c192MiIsImV4cGVyaWVuY2VfdmVyc2lvbiI6ImNvbW11bml0eSIsInNlY3Rpb25fMl9waXBlbGluZV84X2R5bmFtaWNfMF9wb3N0X3NlYXJjaCI6IjcifQ==",
+     "hasMore": true
+    }
+   },
+   "meta": {
+    "requestId": "req_fab6c9b0-0201-410d-8c3d-ee1c4bcc1921",
+    "creditsCharged": 1,
+    "version": "v1"
+   },
+   "card": {
+    "kind": "search",
+    "title": "Search results",
+    "subtitle": "7 results",
+    "resultCount": 7,
+    "items": [
+     {
+      "title": "Butler\u2019s college roster is the epitome of the problems with American soccer.",
+      "subtitle": "@adadwhocantputt \u00b7 9 Dec 2025",
+      "href": "https://www.reddit.com/r/CollegeSoccer/comments/1pi7zdl/butlers_college_roster_is_the_epitome_of_the/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Gap Year and am I reading the situation right",
+      "subtitle": "@Adventurous_Lie8397 \u00b7 25 Feb 2026",
+      "href": "https://www.reddit.com/r/CollegeSoccer/comments/1reihfb/gap_year_and_am_i_reading_the_situation_right/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "TEAM USA Act, good or bad for college soccer?",
+      "subtitle": "@881cafe \u00b7 16 Sept 2026",
+      "href": "https://www.reddit.com/r/CollegeSoccer/comments/1whyo3y/team_usa_act_good_or_bad_for_college_soccer/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Generic response or genuine interest? Email response from Princeton coaching staff",
+      "subtitle": "@Nearby_Mycologist_17 \u00b7 16 Jun 2026",
+      "href": "https://www.reddit.com/r/CollegeSoccer/comments/1u7i6oh/generic_response_or_genuine_interest_email/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "advice for recruiting (help I'm super lost)",
+      "subtitle": "@Able_Elderberry3443 \u00b7 13 May 2025",
+      "href": "https://www.reddit.com/r/CollegeSoccer/comments/1klavg1/advice_for_recruiting_help_im_super_lost/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Barcelona Residency Academy - Worth It...?",
+      "subtitle": "@Helpful_Apartment_69 \u00b7 21 Jan 2025",
+      "href": "https://www.reddit.com/r/CollegeSoccer/comments/1i6737g/barcelona_residency_academy_worth_it/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Women's recruiting advice",
+      "subtitle": "@GrouchyOne4132 \u00b7 5 Jul 2025",
+      "href": "https://www.reddit.com/r/CollegeSoccer/comments/1lsl0xf/womens_recruiting_advice/",
+      "platform": "Reddit"
+     }
+    ]
+   }
+  }
+ },
+ "jsonrpc": "2.0",
+ "id": 1
+}

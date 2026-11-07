@@ -1,0 +1,24 @@
+✔ live key refused, no Stripe call (0.936125ms)
+✔ wrong account refused (0.291708ms)
+✔ env cannot redirect guard to another account (0.13775ms)
+✔ per-playbook one-time checkout (0.662083ms)
+✔ unwritten playbook blocked unless preorder (0.336ms)
+✔ sport pack needs sport, has 4 books, $49 (0.437708ms)
+✔ every playbook $99 all 12 (0.245167ms)
+✔ sideline trial: 14d, card, consent, disclosure (0.17275ms)
+✔ STRIPE_SECRET_KEY (Preview name) accepted if sk_test_ (0.119042ms)
+✔ unknown offer 400, GET 405 (0.093209ms)
+✔ offers lists 17 with disclosure (0.346625ms)
+✔ capture giveaway: consent, honeypot, saves, no send (0.290041ms)
+✔ capture without provider env says so (0.056666ms)
+✔ order + deliver: paid session serves PDF (0.597583ms)
+✔ deliver refuses unpaid, live, bad id (0.14525ms)
+✔ trial session (no_payment_required) gets order (0.100167ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 55.9445

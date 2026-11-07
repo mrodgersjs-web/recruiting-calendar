@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-11-06T18:51:43.300Z",
+  "structuralChecks": "PASS",
+  "syntheticPanelCount": 10,
+  "criteriaCount": 30,
+  "allProductCriteria": "NOT TESTED",
+  "liveTextReceipts": 3,
+  "imageEvaluation": "BLOCKED",
+  "strictIndependentResearch": "BLOCKED",
+  "siteTesting": "NOT RUN"
+}

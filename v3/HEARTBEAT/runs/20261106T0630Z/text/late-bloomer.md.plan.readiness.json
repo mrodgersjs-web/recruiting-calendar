@@ -1,0 +1,56 @@
+{
+  "rubric": "plan.readiness",
+  "verdict": "BLOCK",
+  "enforced": true,
+  "reasons": [
+    "BLOCK: plan not ready for unattended build [readiness.score=0.52 <= 1.2]"
+  ],
+  "answers": {
+    "has_acceptance_criteria": {
+      "type": "noul",
+      "noul": 0.48
+    },
+    "names_the_user_decision": {
+      "type": "noul",
+      "noul": 0.81
+    },
+    "unverifiable_claims": {
+      "type": "noul",
+      "noul": 0.51
+    },
+    "scope_is_bounded": {
+      "type": "noul",
+      "noul": 0.71
+    },
+    "deterministic_first": {
+      "type": "noul",
+      "noul": 0.12
+    },
+    "readiness": {
+      "type": "score",
+      "score": 0.52,
+      "confidence": 0.48,
+      "legend": {
+        "0": "Vague idea, no contract, would produce guesswork",
+        "1": "Direction is clear but acceptance is undefined",
+        "2": "Contract and acceptance defined, some ambiguity at the edges",
+        "3": "Fully specified: inputs, outputs, acceptance tests, and out-of-scope all stated"
+      },
+      "probabilities": {
+        "0": 0.55,
+        "1": 0.39,
+        "2": 0.05,
+        "3": 0.01
+      }
+    }
+  },
+  "model": "jev-1.14.0",
+  "latency_ms": 147,
+  "advisory": false,
+  "state_sha256": "3ffdabe0b045d94b133b074df84dc86a7e97c5055a5d3ec44aca0ae9c29a05c1",
+  "state_preview": "# Late Bloomer Playbook\n### For seniors and post-grads with late growth or late film. Rules checked 2026-11-05 against the 2026-27 NCAA Division I Manual.\n\n> Education, not legal advice. Nothing here promises admission, aid, an offer, a roster spot or playing time. Confirm every rule with each school's compliance and financial aid offices. TO VERIFY = we could not confirm against a primary source on 2026-11-05.\n\n---\n\n## Contents\n1. Who still recruits late\n2. The doors: D2, D3, NAIA, JUCO\n3. Your",
+  "error": null,
+  "decision_id": 311167,
+  "cache_hit": false
+}
+{"exit":1}

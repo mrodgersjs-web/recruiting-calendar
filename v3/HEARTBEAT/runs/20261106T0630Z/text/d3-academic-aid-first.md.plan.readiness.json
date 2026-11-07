@@ -1,0 +1,57 @@
+{
+  "rubric": "plan.readiness",
+  "verdict": "BLOCK",
+  "enforced": true,
+  "reasons": [
+    "BLOCK: no checkable acceptance criteria -- the agent has nothing to be graded against [has_acceptance_criteria.noul=0.3 <= 0.4]",
+    "BLOCK: plan not ready for unattended build [readiness.score=0.79 <= 1.2]"
+  ],
+  "answers": {
+    "has_acceptance_criteria": {
+      "type": "noul",
+      "noul": 0.3
+    },
+    "names_the_user_decision": {
+      "type": "noul",
+      "noul": 0.66
+    },
+    "unverifiable_claims": {
+      "type": "noul",
+      "noul": 0.55
+    },
+    "scope_is_bounded": {
+      "type": "noul",
+      "noul": 0.84
+    },
+    "deterministic_first": {
+      "type": "noul",
+      "noul": 0.29
+    },
+    "readiness": {
+      "type": "score",
+      "score": 0.79,
+      "confidence": 0.64,
+      "legend": {
+        "0": "Vague idea, no contract, would produce guesswork",
+        "1": "Direction is clear but acceptance is undefined",
+        "2": "Contract and acceptance defined, some ambiguity at the edges",
+        "3": "Fully specified: inputs, outputs, acceptance tests, and out-of-scope all stated"
+      },
+      "probabilities": {
+        "0": 0.29,
+        "1": 0.64,
+        "2": 0.07,
+        "3": 0.0
+      }
+    }
+  },
+  "model": "jev-1.14.0",
+  "latency_ms": 141,
+  "advisory": false,
+  "state_sha256": "a411e4b24cd5c15339bc373fb2d6aa96ee041902844b702c3fd053827f5c576e",
+  "state_preview": "# D3 Path: Academic Aid First\n### For families who want a strong school and a roster spot. Checked 2026-11-05.\n\n> Education, not legal advice. Nothing here promises admission, aid, an offer, a roster spot or playing time. Confirm every rule with each school's compliance and financial aid offices. TO VERIFY = we could not confirm against a primary source on 2026-11-05.\n\n---\n\n## Contents\n1. How D3 aid works\n2. The D3 calendar\n3. Net price, honestly\n4. Admissions support vs coach interest\n5. Coach ",
+  "error": null,
+  "decision_id": 311157,
+  "cache_hit": false
+}
+{"exit":1}

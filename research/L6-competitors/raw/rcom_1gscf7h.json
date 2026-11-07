@@ -1,0 +1,418 @@
+{
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "{\n  \"data\": {\n    \"lookupStatus\": \"found\",\n    \"post\": {\n      \"id\": \"1gscf7h\",\n      \"title\": \"This is so sketchy! My son has a a FIELDLEVEL account. Every so often they send him and myself information about college camps. This was one of them today.\",\n      \"text\": null,\n      \"url\": \"https://i.redd.it/p6gcc3tv361e1.jpeg\",\n      \"permalink\": \"/r/Homeplate/comments/1gscf7h/this_is_so_sketchy_my_son_has_a_a_fieldlevel/\",\n      \"subreddit\": \"Homeplate\",\n      \"subredditNamePrefixed\": \"r/Homeplate\",\n      \"author\": \"Funnyface92\",\n      \"score\": 0,\n      \"upvoteRatio\": 0.45454545454545453,\n      \"commentCount\": 18,\n      \"createdAt\": \"2024-11-16T01:38:08.000Z\",\n      \"createdUtc\": 1731721088,\n      \"over18\": false,\n      \"locked\": false,\n      \"stickied\": false\n    },\n    \"page\": {\n      \"nextCursor\": null,\n      \"hasMore\": false\n    },\n    \"comments\": [\n      {\n        \"id\": \"lxd87fe\",\n        \"url\": \"https://www.reddit.com/r/Homeplate/comments/1gscf7h/comment/lxd87fe/\",\n        \"permalink\": \"/r/Homeplate/comments/1gscf7h/comment/lxd87fe/\",\n        \"parentId\": \"t3_1gscf7h\",\n        \"author\": \"chronop\",\n        \"text\": \"https://gomessiah.com/staff-directory/reed-wagner/381\\n\\n It's probably this assistant coach just trying to make some extra summer cash on the side, since that's the name on the bottom of the ad.\",\n        \"renderedHtml\": \"\\n      <p>\\n      <a rpl=\\\"\\\" class=\\\"relative pointer-events-auto a\\n  \\n  \\n  \\n  \\n  underline\\n  \\n  cursor-pointer\\\" href=\\\"https://gomessiah.com/staff-directory/reed-wagner/381\\\" rel=\\\"noopener nofollow ugc\\\" target=\\\"_blank\\\">https://gomessiah.com/staff-directory/reed-wagner/381</a>\\n    </p><p>\\n      It's probably this assistant coach just trying to make some extra summer cash on the side, since that's the name on the bottom of the ad.\\n    </p>\\n    \",\n        \"score\": 18,\n        \"upvotes\": 18,\n        \"createdAt\": \"2024-11-16T01:53:51.000Z\",\n        \"createdUtc\": 1731722031,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"lxdamd9\",\n              \"url\": \"https://www.reddit.com/r/Homeplate/comments/1gscf7h/comment/lxdamd9/\",\n              \"permalink\": \"/r/Homeplate/comments/1gscf7h/comment/lxdamd9/\",\n              \"parentId\": \"t1_lxd87fe\",\n              \"author\": \"Funnyface92\",\n              \"text\": \"That would make sense. Doesn\u2019t seem like the right way to go about it. :-/\",\n              \"renderedHtml\": \"\\n      <p>\\n      That would make sense. Doesn\u2019t seem like the right way to go about it. :-/\\n    </p>\\n    \",\n              \"score\": -7,\n              \"upvotes\": -7,\n              \"createdAt\": \"2024-11-16T02:09:15.000Z\",\n              \"createdUtc\": 1731722955,\n              \"depth\": 0,\n              \"isSubmitter\": true,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [\n                  {\n                    \"id\": \"lxde9hm\",\n                    \"url\": \"https://www.reddit.com/r/Homeplate/comments/1gscf7h/comment/lxde9hm/\",\n                    \"permalink\": \"/r/Homeplate/comments/1gscf7h/comment/lxde9hm/\",\n                    \"parentId\": \"t1_lxdamd9\",\n                    \"author\": \"jerrygergich56\",\n                    \"text\": \"Really the only way to go about it. Unless they have a Facebook and are connected into the community, nobody will really know about it. Since it probably isn\u2019t endorsed by the university they won\u2019t post anything about it. My 2 cents\",\n                    \"renderedHtml\": \"\\n      <p>\\n      Really the only way to go about it. Unless they have a Facebook and are connected into the community, nobody will really know about it. Since it probably isn\u2019t endorsed by the university they won\u2019t post anything about it. My 2 cents\\n    </p>\\n    \",\n                    \"score\": 5,\n                    \"upvotes\": 5,\n                    \"createdAt\": \"2024-11-16T02:33:25.000Z\",\n                    \"createdUtc\": 1731724405,\n                    \"depth\": 0,\n                    \"isSubmitter\": false,\n                    \"stickied\": false,\n                    \"locked\": false,\n                    \"distinguished\": null,\n                    \"replies\": {\n                      \"items\": [],\n                      \"page\": {\n                        \"nextCursor\": \"eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy9Ib21lcGxhdGUvdDNfMWdzY2Y3aD9zb3J0PUNPTkZJREVOQ0Umc3RhcnRpbmdEZXB0aD0zJmNvbW1lbnRQYXJlbnRQb3NpdGlvbnM9MCwwLDAiLCJjdXJzb3IiOiJZMjl0YldWdWRIUnlaV1U2TkdOalpEVTNOemtzT2pvek9tUXhPblF4WDJ4NFpHVTVhRzA9Iiwic3VicmVkZGl0IjoiSG9tZXBsYXRlIiwicG9zdElkIjoiMWdzY2Y3aCIsInBhcmVudFRoaW5nSWQiOiJ0MV9seGRlOWhtIn0\",\n                        \"hasMore\": true\n                      }\n                    }\n                  },\n                  {\n                    \"id\": \"lxi95k2\",\n                    \"url\": \"https://www.reddit.com/r/Homeplate/comments/1gscf7h/comment/lxi95k2/\",\n                    \"permalink\": \"/r/Homeplate/comments/1gscf7h/comment/lxi95k2/\",\n                    \"parentId\": \"t1_lxdamd9\",\n                    \"author\": \"[deleted]\",\n                    \"text\": \"[deleted]\",\n                    \"renderedHtml\": null,\n                    \"score\": 2,\n                    \"upvotes\": 2,\n                    \"createdAt\": \"2024-11-16T22:55:36.000Z\",\n                    \"createdUtc\": 1731797736,\n                    \"depth\": 0,\n                    \"isSubmitter\": false,\n                    \"stickied\": false,\n                    \"locked\": false,\n                    \"distinguished\": null,\n                    \"replies\": {\n                      \"items\": [],\n                      \"page\": {\n                        \"nextCursor\": null,\n                        \"hasMore\": false\n                      }\n                    }\n                  }\n                ],\n                \"page\": {\n                  \"nextCursor\": \"lxde9hm\",\n                  \"hasMore\": true\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"lxde9hm\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"lxditxo\",\n        \"url\": \"https://www.reddit.com/r/Homeplate/comments/1gscf7h/comment/lxditxo/\",\n        \"permalink\": \"/r/Homeplate/comments/1gscf7h/comment/lxditxo/\",\n        \"parentId\": \"t3_1gscf7h\",\n        \"author\": \"Internal_Ad_255\",\n        \"text\": \"While\u00a0speaking at a Q&A in front of 400 +/- sets of parents at and Orlando Scorpions Tryout/Camp, University of Florida Head Baseball Coach\u00a0Kevin O'Sullivan was asked, \\\"Coach, what recruiting service do you recommend?\\\"\\n\\n He responded, \\\"Honestly, we have never\u00a0used a recruiting services to get players...\\\" He then turned around to the 30 other D-1 & D-2 coaches sitting behind him, and asked, \\\"Do any of you guys?\\\"\\n\\n All the coaches\u00a0shook their head no...\\n\\n \\\"So, save your money, folks...\\\", he continued...\",\n        \"renderedHtml\": \"\\n      <p>\\n      While&nbsp;speaking at a Q&amp;A in front of 400 +/- sets of parents at and Orlando Scorpions Tryout/Camp, University of Florida Head Baseball Coach&nbsp;Kevin O'Sullivan was asked, \\\"Coach, what recruiting service do you recommend?\\\"\\n    </p><p>\\n      He responded, \\\"Honestly, we have never&nbsp;used a recruiting services to get players...\\\" He then turned around to the 30 other D-1 &amp; D-2 coaches sitting behind him, and asked, \\\"Do any of you guys?\\\"&nbsp;\\n    </p><p>\\n      All the coaches&nbsp;shook their head no...\\n    </p><p>\\n      \\\"So, save your money, folks...\\\", he continued...\\n    </p>\\n    \",\n        \"score\": 5,\n        \"upvotes\": 5,\n        \"createdAt\": \"2024-11-16T03:04:12.000Z\",\n        \"createdUtc\": 1731726252,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"lxdkq6q\",\n              \"url\": \"https://www.reddit.com/r/Homeplate/comments/1gscf7h/comment/lxdkq6q/\",\n              \"permalink\": \"/r/Homeplate/comments/1gscf7h/comment/lxdkq6q/\",\n              \"parentId\": \"t1_lxditxo\",\n              \"author\": \"Funnyface92\",\n              \"text\": \"Totally agree with this. We are not paying anything. Coaches can see his videos and information but he can\u2019t see who is viewing them. He can also see camps that come up from time to time. A college coach actually recommended he get on but I refuse to pay for it.\",\n              \"renderedHtml\": \"\\n      <p>\\n      Totally agree with this. We are not paying anything. Coaches can see his videos and information but he can\u2019t see who is viewing them. He can also see camps that come up from time to time. A college coach actually recommended he get on but I refuse to pay for it.\\n    </p>\\n    \",\n              \"score\": 4,\n              \"upvotes\": 4,\n              \"createdAt\": \"2024-11-16T03:16:38.000Z\",\n              \"createdUtc\": 1731726998,\n              \"depth\": 0,\n              \"isSubmitter\": true,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": null,\n                  \"hasMore\": false\n                }\n              }\n            },\n            {\n              \"id\": \"lxdn8j4\",\n              \"url\": \"https://www.reddit.com/r/Homeplate/comments/1gscf7h/comment/lxdn8j4/\",\n              \"permalink\": \"/r/Homeplate/comments/1gscf7h/comment/lxdn8j4/\",\n              \"parentId\": \"t1_lxditxo\",\n              \"author\": \"maxny\",\n              \"text\": \"D2 schools definitely use FieldLevel.\",\n              \"renderedHtml\": \"\\n      <p>\\n      D2 schools definitely use FieldLevel.\\n    </p>\\n    \",\n              \"score\": 1,\n              \"upvotes\": 1,\n              \"createdAt\": \"2024-11-16T03:32:57.000Z\",\n              \"createdUtc\": 1731727977,\n              \"depth\": 0,\n              \"isSubmitter\": false,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": null,\n                  \"hasMore\": false\n                }\n              }\n            },\n            {\n              \"id\": \"m4uhj4h\",\n              \"url\": \"https://www.reddit.com/r/Homeplate/comments/1gscf7h/comment/m4uhj4h/\",\n              \"permalink\": \"/r/Homeplate/comments/1gscf7h/comment/m4uhj4h/\",\n              \"parentId\": \"t1_lxditxo\",\n              \"author\": \"Kindly-Pressure-1133\",\n              \"text\": \"This is misleading. It depends on the state and the schools. We have had several schools reach out to us from Field Level. We have not had a problem with it. Every persons experience will be different.\",\n              \"renderedHtml\": \"\\n      <p>\\n      This is misleading. It depends on the state and the schools. We have had several schools reach out to us from Field Level. We have not had a problem with it. Every persons experience will be different.\\n    </p>\\n    \",\n              \"score\": 0,\n              \"upvotes\": 0,\n              \"createdAt\": \"2025-01-01T13:41:30.000Z\",\n              \"createdUtc\": 1735738890,\n              \"depth\": 0,\n              \"isSubmitter\": false,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [\n                  {\n                    \"id\": \"m4ujh2g\",\n                    \"url\": \"https://www.reddit.com/r/Homeplate/comments/1gscf7h/comment/m4ujh2g/\",\n                    \"permalink\": \"/r/Homeplate/comments/1gscf7h/comment/m4ujh2g/\",\n                    \"parentId\": \"t1_m4uhj4h\",\n                    \"author\": \"Internal_Ad_255\",\n                    \"text\": \"How is it 'misleading'...?\\n\\n The question was asked, Coach O'Sullivan responded, other coaches (from multiple divisions, levels, and states) agreed. That's EXACTLY what happened.\\n\\n I put my kid's stuff on Field Level for free back in the day. Then never payed any attention to it. Once he was recruited to a Power-5, D-1 I saw his name pop up on a Google search that linked back to Field Level, strange.\\n\\n As a matter of fact, his name and verbal commitment is on there still to this day almost 10 years ago.\",\n                    \"renderedHtml\": \"\\n      <p>\\n      How is it 'misleading'...?\\n    </p><p>\\n      The question was asked, Coach O'Sullivan responded, other coaches (from multiple divisions, levels, and states) agreed. That's EXACTLY what happened.\\n    </p><p>\\n      I put my kid's stuff on Field Level for free back in the day. Then never payed any attention to it. Once he was recruited to a Power-5, D-1 I saw his name pop up on a Google search that linked back to Field Level, strange.\\n    </p><p>\\n      As a matter of fact, his name and verbal commitment is on there still to this day almost 10 years ago.\\n    </p>\\n    \",\n                    \"score\": 2,\n                    \"upvotes\": 2,\n                    \"createdAt\": \"2025-01-01T13:56:55.000Z\",\n                    \"createdUtc\": 1735739815,\n                    \"depth\": 0,\n                    \"isSubmitter\": false,\n                    \"stickied\": false,\n                    \"locked\": false,\n                    \"distinguished\": null,\n                    \"replies\": {\n                      \"items\": [],\n                      \"page\": {\n                        \"nextCursor\": \"eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy9Ib21lcGxhdGUvdDNfMWdzY2Y3aD9zb3J0PUNPTkZJREVOQ0Umc3RhcnRpbmdEZXB0aD0zJmNvbW1lbnRQYXJlbnRQb3NpdGlvbnM9MSwyLDAiLCJjdXJzb3IiOiJZMjl0YldWdWRIUnlaV1U2T1dJeFl6bGtZbVlzT2pvek9tUXhPblF4WDIwMGRXcG9NbWM9Iiwic3VicmVkZGl0IjoiSG9tZXBsYXRlIiwicG9zdElkIjoiMWdzY2Y3aCIsInBhcmVudFRoaW5nSWQiOiJ0MV9tNHVqaDJnIn0\",\n                        \"hasMore\": true\n                      }\n                    }\n                  }\n                ],\n                \"page\": {\n                  \"nextCursor\": \"m4ujh2g\",\n                  \"hasMore\": true\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"m4ujh2g\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"lxd7z4s\",\n        \"url\": \"https://www.reddit.com/r/Homeplate/comments/1gscf7h/comment/lxd7z4s/\",\n        \"permalink\": \"/r/Homeplate/comments/1gscf7h/comment/lxd7z4s/\",\n        \"parentId\": \"t3_1gscf7h\",\n        \"author\": \"CoachRev\",\n        \"text\": \"I mean Mechanicsburg would be a legit to work on mechanics.\",\n        \"renderedHtml\": \"\\n      <p>\\n      I mean Mechanicsburg would be a legit to work on mechanics.\\n    </p>\\n    \",\n        \"score\": 4,\n        \"upvotes\": 4,\n        \"createdAt\": \"2024-11-16T01:52:24.000Z\",\n        \"createdUtc\": 1731721944,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"lxdanpb\",\n              \"url\": \"https://www.reddit.com/r/Homeplate/comments/1gscf7h/comment/lxdanpb/\",\n              \"permalink\": \"/r/Homeplate/comments/1gscf7h/comment/lxdanpb/\",\n              \"parentId\": \"t1_lxd7z4s\",\n              \"author\": \"Funnyface92\",\n              \"text\": \"Ha! Indeed!\",\n              \"renderedHtml\": \"\\n      <p>\\n      Ha! Indeed!\\n    </p>\\n    \",\n              \"score\": 1,\n              \"upvotes\": 1,\n              \"createdAt\": \"2024-11-16T02:09:30.000Z\",\n              \"createdUtc\": 1731722970,\n              \"depth\": 0,\n              \"isSubmitter\": true,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": null,\n                  \"hasMore\": false\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"lxd7z4s\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"lxdkv2j\",\n        \"url\": \"https://www.reddit.com/r/Homeplate/comments/1gscf7h/comment/lxdkv2j/\",\n        \"permalink\": \"/r/Homeplate/comments/1gscf7h/comment/lxdkv2j/\",\n        \"parentId\": \"t3_1gscf7h\",\n        \"author\": \"Greenking73\",\n        \"text\": \"Rules from HS and up prevent out of season school affiliated programs. This is a way for coaches to work outside of their official capacities.\",\n        \"renderedHtml\": \"\\n      <p>\\n      Rules from HS and up prevent out of season school affiliated programs. This is a way for coaches to work outside of their official capacities.\\n    </p>\\n    \",\n        \"score\": 2,\n        \"upvotes\": 2,\n        \"createdAt\": \"2024-11-16T03:17:32.000Z\",\n        \"createdUtc\": 1731727052,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"lxdis8o\",\n        \"url\": \"https://www.reddit.com/r/Homeplate/comments/1gscf7h/comment/lxdis8o/\",\n        \"permalink\": \"/r/Homeplate/comments/1gscf7h/comment/lxdis8o/\",\n        \"parentId\": \"t3_1gscf7h\",\n        \"author\": \"RyCanfield33\",\n        \"text\": \"It\u2019s probably legit. I know Reed. I actually just talked to him about working with some of my team.\",\n        \"renderedHtml\": \"\\n      <p>\\n      It\u2019s probably legit. I know Reed. I actually just talked to him about working with some of my team.\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2024-11-16T03:03:54.000Z\",\n        \"createdUtc\": 1731726234,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      }\n    ]\n  },\n  \"meta\": {\n    \"requestId\": \"req_55e970ab-cf29-4de4-a70b-89fd190546da\",\n    \"creditsCharged\": 1,\n    \"version\": \"v1\"\n  }\n}"
+   },
+   {
+    "type": "text",
+    "text": "{\"conversation_id\":\"01a1af43-a68e-7f50-9f8f-084fad1fcef9\"}"
+   }
+  ],
+  "structuredContent": {
+   "data": {
+    "lookupStatus": "found",
+    "post": {
+     "id": "1gscf7h",
+     "title": "This is so sketchy! My son has a a FIELDLEVEL account. Every so often they send him and myself information about college camps. This was one of them today.",
+     "text": null,
+     "url": "https://i.redd.it/p6gcc3tv361e1.jpeg",
+     "permalink": "/r/Homeplate/comments/1gscf7h/this_is_so_sketchy_my_son_has_a_a_fieldlevel/",
+     "subreddit": "Homeplate",
+     "subredditNamePrefixed": "r/Homeplate",
+     "author": "Funnyface92",
+     "score": 0,
+     "upvoteRatio": 0.45454545454545453,
+     "commentCount": 18,
+     "createdAt": "2024-11-16T01:38:08.000Z",
+     "createdUtc": 1731721088,
+     "over18": false,
+     "locked": false,
+     "stickied": false
+    },
+    "page": {
+     "nextCursor": null,
+     "hasMore": false
+    },
+    "comments": [
+     {
+      "id": "lxd87fe",
+      "url": "https://www.reddit.com/r/Homeplate/comments/1gscf7h/comment/lxd87fe/",
+      "permalink": "/r/Homeplate/comments/1gscf7h/comment/lxd87fe/",
+      "parentId": "t3_1gscf7h",
+      "author": "chronop",
+      "text": "https://gomessiah.com/staff-directory/reed-wagner/381\n\n It's probably this assistant coach just trying to make some extra summer cash on the side, since that's the name on the bottom of the ad.",
+      "renderedHtml": "\n      <p>\n      <a rpl=\"\" class=\"relative pointer-events-auto a\n  \n  \n  \n  \n  underline\n  \n  cursor-pointer\" href=\"https://gomessiah.com/staff-directory/reed-wagner/381\" rel=\"noopener nofollow ugc\" target=\"_blank\">https://gomessiah.com/staff-directory/reed-wagner/381</a>\n    </p><p>\n      It's probably this assistant coach just trying to make some extra summer cash on the side, since that's the name on the bottom of the ad.\n    </p>\n    ",
+      "score": 18,
+      "upvotes": 18,
+      "createdAt": "2024-11-16T01:53:51.000Z",
+      "createdUtc": 1731722031,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "lxdamd9",
+         "url": "https://www.reddit.com/r/Homeplate/comments/1gscf7h/comment/lxdamd9/",
+         "permalink": "/r/Homeplate/comments/1gscf7h/comment/lxdamd9/",
+         "parentId": "t1_lxd87fe",
+         "author": "Funnyface92",
+         "text": "That would make sense. Doesn\u2019t seem like the right way to go about it. :-/",
+         "renderedHtml": "\n      <p>\n      That would make sense. Doesn\u2019t seem like the right way to go about it. :-/\n    </p>\n    ",
+         "score": -7,
+         "upvotes": -7,
+         "createdAt": "2024-11-16T02:09:15.000Z",
+         "createdUtc": 1731722955,
+         "depth": 0,
+         "isSubmitter": true,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [
+           {
+            "id": "lxde9hm",
+            "url": "https://www.reddit.com/r/Homeplate/comments/1gscf7h/comment/lxde9hm/",
+            "permalink": "/r/Homeplate/comments/1gscf7h/comment/lxde9hm/",
+            "parentId": "t1_lxdamd9",
+            "author": "jerrygergich56",
+            "text": "Really the only way to go about it. Unless they have a Facebook and are connected into the community, nobody will really know about it. Since it probably isn\u2019t endorsed by the university they won\u2019t post anything about it. My 2 cents",
+            "renderedHtml": "\n      <p>\n      Really the only way to go about it. Unless they have a Facebook and are connected into the community, nobody will really know about it. Since it probably isn\u2019t endorsed by the university they won\u2019t post anything about it. My 2 cents\n    </p>\n    ",
+            "score": 5,
+            "upvotes": 5,
+            "createdAt": "2024-11-16T02:33:25.000Z",
+            "createdUtc": 1731724405,
+            "depth": 0,
+            "isSubmitter": false,
+            "stickied": false,
+            "locked": false,
+            "distinguished": null,
+            "replies": {
+             "items": [],
+             "page": {
+              "nextCursor": "eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy9Ib21lcGxhdGUvdDNfMWdzY2Y3aD9zb3J0PUNPTkZJREVOQ0Umc3RhcnRpbmdEZXB0aD0zJmNvbW1lbnRQYXJlbnRQb3NpdGlvbnM9MCwwLDAiLCJjdXJzb3IiOiJZMjl0YldWdWRIUnlaV1U2TkdOalpEVTNOemtzT2pvek9tUXhPblF4WDJ4NFpHVTVhRzA9Iiwic3VicmVkZGl0IjoiSG9tZXBsYXRlIiwicG9zdElkIjoiMWdzY2Y3aCIsInBhcmVudFRoaW5nSWQiOiJ0MV9seGRlOWhtIn0",
+              "hasMore": true
+             }
+            }
+           },
+           {
+            "id": "lxi95k2",
+            "url": "https://www.reddit.com/r/Homeplate/comments/1gscf7h/comment/lxi95k2/",
+            "permalink": "/r/Homeplate/comments/1gscf7h/comment/lxi95k2/",
+            "parentId": "t1_lxdamd9",
+            "author": "[deleted]",
+            "text": "[deleted]",
+            "renderedHtml": null,
+            "score": 2,
+            "upvotes": 2,
+            "createdAt": "2024-11-16T22:55:36.000Z",
+            "createdUtc": 1731797736,
+            "depth": 0,
+            "isSubmitter": false,
+            "stickied": false,
+            "locked": false,
+            "distinguished": null,
+            "replies": {
+             "items": [],
+             "page": {
+              "nextCursor": null,
+              "hasMore": false
+             }
+            }
+           }
+          ],
+          "page": {
+           "nextCursor": "lxde9hm",
+           "hasMore": true
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "lxde9hm",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "lxditxo",
+      "url": "https://www.reddit.com/r/Homeplate/comments/1gscf7h/comment/lxditxo/",
+      "permalink": "/r/Homeplate/comments/1gscf7h/comment/lxditxo/",
+      "parentId": "t3_1gscf7h",
+      "author": "Internal_Ad_255",
+      "text": "While\u00a0speaking at a Q&A in front of 400 +/- sets of parents at and Orlando Scorpions Tryout/Camp, University of Florida Head Baseball Coach\u00a0Kevin O'Sullivan was asked, \"Coach, what recruiting service do you recommend?\"\n\n He responded, \"Honestly, we have never\u00a0used a recruiting services to get players...\" He then turned around to the 30 other D-1 & D-2 coaches sitting behind him, and asked, \"Do any of you guys?\"\n\n All the coaches\u00a0shook their head no...\n\n \"So, save your money, folks...\", he continued...",
+      "renderedHtml": "\n      <p>\n      While&nbsp;speaking at a Q&amp;A in front of 400 +/- sets of parents at and Orlando Scorpions Tryout/Camp, University of Florida Head Baseball Coach&nbsp;Kevin O'Sullivan was asked, \"Coach, what recruiting service do you recommend?\"\n    </p><p>\n      He responded, \"Honestly, we have never&nbsp;used a recruiting services to get players...\" He then turned around to the 30 other D-1 &amp; D-2 coaches sitting behind him, and asked, \"Do any of you guys?\"&nbsp;\n    </p><p>\n      All the coaches&nbsp;shook their head no...\n    </p><p>\n      \"So, save your money, folks...\", he continued...\n    </p>\n    ",
+      "score": 5,
+      "upvotes": 5,
+      "createdAt": "2024-11-16T03:04:12.000Z",
+      "createdUtc": 1731726252,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "lxdkq6q",
+         "url": "https://www.reddit.com/r/Homeplate/comments/1gscf7h/comment/lxdkq6q/",
+         "permalink": "/r/Homeplate/comments/1gscf7h/comment/lxdkq6q/",
+         "parentId": "t1_lxditxo",
+         "author": "Funnyface92",
+         "text": "Totally agree with this. We are not paying anything. Coaches can see his videos and information but he can\u2019t see who is viewing them. He can also see camps that come up from time to time. A college coach actually recommended he get on but I refuse to pay for it.",
+         "renderedHtml": "\n      <p>\n      Totally agree with this. We are not paying anything. Coaches can see his videos and information but he can\u2019t see who is viewing them. He can also see camps that come up from time to time. A college coach actually recommended he get on but I refuse to pay for it.\n    </p>\n    ",
+         "score": 4,
+         "upvotes": 4,
+         "createdAt": "2024-11-16T03:16:38.000Z",
+         "createdUtc": 1731726998,
+         "depth": 0,
+         "isSubmitter": true,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": null,
+           "hasMore": false
+          }
+         }
+        },
+        {
+         "id": "lxdn8j4",
+         "url": "https://www.reddit.com/r/Homeplate/comments/1gscf7h/comment/lxdn8j4/",
+         "permalink": "/r/Homeplate/comments/1gscf7h/comment/lxdn8j4/",
+         "parentId": "t1_lxditxo",
+         "author": "maxny",
+         "text": "D2 schools definitely use FieldLevel.",
+         "renderedHtml": "\n      <p>\n      D2 schools definitely use FieldLevel.\n    </p>\n    ",
+         "score": 1,
+         "upvotes": 1,
+         "createdAt": "2024-11-16T03:32:57.000Z",
+         "createdUtc": 1731727977,
+         "depth": 0,
+         "isSubmitter": false,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": null,
+           "hasMore": false
+          }
+         }
+        },
+        {
+         "id": "m4uhj4h",
+         "url": "https://www.reddit.com/r/Homeplate/comments/1gscf7h/comment/m4uhj4h/",
+         "permalink": "/r/Homeplate/comments/1gscf7h/comment/m4uhj4h/",
+         "parentId": "t1_lxditxo",
+         "author": "Kindly-Pressure-1133",
+         "text": "This is misleading. It depends on the state and the schools. We have had several schools reach out to us from Field Level. We have not had a problem with it. Every persons experience will be different.",
+         "renderedHtml": "\n      <p>\n      This is misleading. It depends on the state and the schools. We have had several schools reach out to us from Field Level. We have not had a problem with it. Every persons experience will be different.\n    </p>\n    ",
+         "score": 0,
+         "upvotes": 0,
+         "createdAt": "2025-01-01T13:41:30.000Z",
+         "createdUtc": 1735738890,
+         "depth": 0,
+         "isSubmitter": false,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [
+           {
+            "id": "m4ujh2g",
+            "url": "https://www.reddit.com/r/Homeplate/comments/1gscf7h/comment/m4ujh2g/",
+            "permalink": "/r/Homeplate/comments/1gscf7h/comment/m4ujh2g/",
+            "parentId": "t1_m4uhj4h",
+            "author": "Internal_Ad_255",
+            "text": "How is it 'misleading'...?\n\n The question was asked, Coach O'Sullivan responded, other coaches (from multiple divisions, levels, and states) agreed. That's EXACTLY what happened.\n\n I put my kid's stuff on Field Level for free back in the day. Then never payed any attention to it. Once he was recruited to a Power-5, D-1 I saw his name pop up on a Google search that linked back to Field Level, strange.\n\n As a matter of fact, his name and verbal commitment is on there still to this day almost 10 years ago.",
+            "renderedHtml": "\n      <p>\n      How is it 'misleading'...?\n    </p><p>\n      The question was asked, Coach O'Sullivan responded, other coaches (from multiple divisions, levels, and states) agreed. That's EXACTLY what happened.\n    </p><p>\n      I put my kid's stuff on Field Level for free back in the day. Then never payed any attention to it. Once he was recruited to a Power-5, D-1 I saw his name pop up on a Google search that linked back to Field Level, strange.\n    </p><p>\n      As a matter of fact, his name and verbal commitment is on there still to this day almost 10 years ago.\n    </p>\n    ",
+            "score": 2,
+            "upvotes": 2,
+            "createdAt": "2025-01-01T13:56:55.000Z",
+            "createdUtc": 1735739815,
+            "depth": 0,
+            "isSubmitter": false,
+            "stickied": false,
+            "locked": false,
+            "distinguished": null,
+            "replies": {
+             "items": [],
+             "page": {
+              "nextCursor": "eyJ0eXBlIjoic2hyZWRkaXRfbW9yZV9jb21tZW50cyIsInNyYyI6Ii9zdmMvc2hyZWRkaXQvbW9yZS1jb21tZW50cy9Ib21lcGxhdGUvdDNfMWdzY2Y3aD9zb3J0PUNPTkZJREVOQ0Umc3RhcnRpbmdEZXB0aD0zJmNvbW1lbnRQYXJlbnRQb3NpdGlvbnM9MSwyLDAiLCJjdXJzb3IiOiJZMjl0YldWdWRIUnlaV1U2T1dJeFl6bGtZbVlzT2pvek9tUXhPblF4WDIwMGRXcG9NbWM9Iiwic3VicmVkZGl0IjoiSG9tZXBsYXRlIiwicG9zdElkIjoiMWdzY2Y3aCIsInBhcmVudFRoaW5nSWQiOiJ0MV9tNHVqaDJnIn0",
+              "hasMore": true
+             }
+            }
+           }
+          ],
+          "page": {
+           "nextCursor": "m4ujh2g",
+           "hasMore": true
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "m4ujh2g",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "lxd7z4s",
+      "url": "https://www.reddit.com/r/Homeplate/comments/1gscf7h/comment/lxd7z4s/",
+      "permalink": "/r/Homeplate/comments/1gscf7h/comment/lxd7z4s/",
+      "parentId": "t3_1gscf7h",
+      "author": "CoachRev",
+      "text": "I mean Mechanicsburg would be a legit to work on mechanics.",
+      "renderedHtml": "\n      <p>\n      I mean Mechanicsburg would be a legit to work on mechanics.\n    </p>\n    ",
+      "score": 4,
+      "upvotes": 4,
+      "createdAt": "2024-11-16T01:52:24.000Z",
+      "createdUtc": 1731721944,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "lxdanpb",
+         "url": "https://www.reddit.com/r/Homeplate/comments/1gscf7h/comment/lxdanpb/",
+         "permalink": "/r/Homeplate/comments/1gscf7h/comment/lxdanpb/",
+         "parentId": "t1_lxd7z4s",
+         "author": "Funnyface92",
+         "text": "Ha! Indeed!",
+         "renderedHtml": "\n      <p>\n      Ha! Indeed!\n    </p>\n    ",
+         "score": 1,
+         "upvotes": 1,
+         "createdAt": "2024-11-16T02:09:30.000Z",
+         "createdUtc": 1731722970,
+         "depth": 0,
+         "isSubmitter": true,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": null,
+           "hasMore": false
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "lxd7z4s",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "lxdkv2j",
+      "url": "https://www.reddit.com/r/Homeplate/comments/1gscf7h/comment/lxdkv2j/",
+      "permalink": "/r/Homeplate/comments/1gscf7h/comment/lxdkv2j/",
+      "parentId": "t3_1gscf7h",
+      "author": "Greenking73",
+      "text": "Rules from HS and up prevent out of season school affiliated programs. This is a way for coaches to work outside of their official capacities.",
+      "renderedHtml": "\n      <p>\n      Rules from HS and up prevent out of season school affiliated programs. This is a way for coaches to work outside of their official capacities.\n    </p>\n    ",
+      "score": 2,
+      "upvotes": 2,
+      "createdAt": "2024-11-16T03:17:32.000Z",
+      "createdUtc": 1731727052,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "lxdis8o",
+      "url": "https://www.reddit.com/r/Homeplate/comments/1gscf7h/comment/lxdis8o/",
+      "permalink": "/r/Homeplate/comments/1gscf7h/comment/lxdis8o/",
+      "parentId": "t3_1gscf7h",
+      "author": "RyCanfield33",
+      "text": "It\u2019s probably legit. I know Reed. I actually just talked to him about working with some of my team.",
+      "renderedHtml": "\n      <p>\n      It\u2019s probably legit. I know Reed. I actually just talked to him about working with some of my team.\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2024-11-16T03:03:54.000Z",
+      "createdUtc": 1731726234,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     }
+    ]
+   },
+   "meta": {
+    "requestId": "req_55e970ab-cf29-4de4-a70b-89fd190546da",
+    "creditsCharged": 1,
+    "version": "v1"
+   },
+   "card": {
+    "kind": "search",
+    "title": "Reddit comments",
+    "subtitle": "5 results",
+    "resultCount": 5,
+    "items": [
+     {
+      "title": "https://gomessiah.com/staff-directory/reed-wagner/381 It's probably this assistant coach just trying to make some extra summer cash on the side, since that's\u2026",
+      "subtitle": "@chronop \u00b7 18 points",
+      "href": "https://www.reddit.com/r/Homeplate/comments/1gscf7h/comment/lxd87fe/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "While speaking at a Q&A in front of 400 +/- sets of parents at and Orlando Scorpions Tryout/Camp, University of Florida Head Baseball Coach Kevin O'Sullivan\u2026",
+      "subtitle": "@Internal_Ad_255 \u00b7 5 points",
+      "href": "https://www.reddit.com/r/Homeplate/comments/1gscf7h/comment/lxditxo/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "I mean Mechanicsburg would be a legit to work on mechanics.",
+      "subtitle": "@CoachRev \u00b7 4 points",
+      "href": "https://www.reddit.com/r/Homeplate/comments/1gscf7h/comment/lxd7z4s/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Rules from HS and up prevent out of season school affiliated programs. This is a way for coaches to work outside of their official capacities.",
+      "subtitle": "@Greenking73 \u00b7 2 points",
+      "href": "https://www.reddit.com/r/Homeplate/comments/1gscf7h/comment/lxdkv2j/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "It\u2019s probably legit. I know Reed. I actually just talked to him about working with some of my team.",
+      "subtitle": "@RyCanfield33 \u00b7 1 point",
+      "href": "https://www.reddit.com/r/Homeplate/comments/1gscf7h/comment/lxdis8o/",
+      "platform": "Reddit"
+     }
+    ]
+   }
+  }
+ },
+ "jsonrpc": "2.0",
+ "id": 1
+}

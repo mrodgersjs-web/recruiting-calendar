@@ -1,0 +1,57 @@
+{
+  "rubric": "plan.readiness",
+  "verdict": "BLOCK",
+  "enforced": true,
+  "reasons": [
+    "BLOCK: ProofPacket violation: asserts outcomes with no source [unverifiable_claims.noul=0.74 >= 0.7]",
+    "BLOCK: plan not ready for unattended build [readiness.score=0.68 <= 1.2]"
+  ],
+  "answers": {
+    "has_acceptance_criteria": {
+      "type": "noul",
+      "noul": 0.54
+    },
+    "names_the_user_decision": {
+      "type": "noul",
+      "noul": 0.76
+    },
+    "unverifiable_claims": {
+      "type": "noul",
+      "noul": 0.74
+    },
+    "scope_is_bounded": {
+      "type": "noul",
+      "noul": 0.71
+    },
+    "deterministic_first": {
+      "type": "noul",
+      "noul": 0.13
+    },
+    "readiness": {
+      "type": "score",
+      "score": 0.68,
+      "confidence": 0.53,
+      "legend": {
+        "0": "Vague idea, no contract, would produce guesswork",
+        "1": "Direction is clear but acceptance is undefined",
+        "2": "Contract and acceptance defined, some ambiguity at the edges",
+        "3": "Fully specified: inputs, outputs, acceptance tests, and out-of-scope all stated"
+      },
+      "probabilities": {
+        "0": 0.4,
+        "1": 0.53,
+        "2": 0.07,
+        "3": 0.0
+      }
+    }
+  },
+  "model": "jev-1.14.0",
+  "latency_ms": 144,
+  "advisory": false,
+  "state_sha256": "fe8ead6ad62e70abc8c904f6c0a08cdafd7d14a11f7bd30c61958fde76d2d325",
+  "state_preview": "# Track & Field: Marks to Roster\n### Track and cross country, Class of 2029 edition. Rules checked 2026-11-05 against the 2026-27 NCAA Division I Manual.\n\n> Education, not legal advice. No promise of an offer, aid or a roster spot. Confirm dates with each school's compliance office. RECOMMENDED = ours, not NCAA. PROJECTED = calculated, not yet published.\n\n---\n\n## Contents\n1. Your marks are the resume\n2. When contact opens\n3. The dated calendar\n4. Building the target list from marks\n5. Coach emai",
+  "error": null,
+  "decision_id": 311173,
+  "cache_hit": false
+}
+{"exit":1}

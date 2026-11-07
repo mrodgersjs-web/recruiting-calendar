@@ -59,5 +59,15 @@
     "api/*.js": {
       "includeFiles": "{funnel/**,v3/W1-playbooks/CATALOG.json}"
     }
-  }
+  },
+  "redirects": [
+    {
+      "source": "/resources",
+      "destination": "/library"
+    },
+    {
+      "source": "/resources/",
+      "destination": "/library"
+    }
+  ]
 }

@@ -1,0 +1,56 @@
+{
+  "rubric": "plan.readiness",
+  "verdict": "BLOCK",
+  "enforced": true,
+  "reasons": [
+    "BLOCK: no checkable acceptance criteria -- the agent has nothing to be graded against [has_acceptance_criteria.noul=0.14 <= 0.4]",
+    "BLOCK: plan not ready for unattended build [readiness.score=0.36 <= 1.2]"
+  ],
+  "answers": {
+    "has_acceptance_criteria": {
+      "type": "noul",
+      "noul": 0.14
+    },
+    "names_the_user_decision": {
+      "type": "noul",
+      "noul": 0.44
+    },
+    "unverifiable_claims": {
+      "type": "noul",
+      "noul": 0.31
+    },
+    "scope_is_bounded": {
+      "type": "noul",
+      "noul": 0.82
+    },
+    "deterministic_first": {
+      "type": "noul",
+      "noul": 0.13
+    },
+    "readiness": {
+      "type": "score",
+      "score": 0.36,
+      "confidence": 0.64,
+      "legend": {
+        "0": "Vague idea, no contract, would produce guesswork",
+        "1": "Direction is clear but acceptance is undefined",
+        "2": "Contract and acceptance defined, some ambiguity at the edges",
+        "3": "Fully specified: inputs, outputs, acceptance tests, and out-of-scope all stated"
+      },
+      "probabilities": {
+        "0": 0.74,
+        "1": 0.18,
+        "2": 0.06,
+        "3": 0.02
+      }
+    }
+  },
+  "model": "jev-1.14.0",
+  "latency_ms": 140,
+  "advisory": false,
+  "state_sha256": "1897c3b95f7325ac96d125098581aaec16a8398b9f67e5b8151da39a5cdb7b81",
+  "state_preview": "<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>How Ali Marpet got to Hobart (Football, D3) | The Commit Book</title><meta name=\"description\" content=\"The sourced recruiting path of Ali Marpet, Football, D3, with the playbook it maps to.\"><link rel=\"canonical\" href=\"https://recruiting-calendar.vercel.app/stories/marpet/\">\n<meta property=\"og:type\" content=\"website\"><meta property=\"og:site_name\" content=\"The Comm",
+  "error": null,
+  "decision_id": 311382,
+  "cache_hit": false
+}

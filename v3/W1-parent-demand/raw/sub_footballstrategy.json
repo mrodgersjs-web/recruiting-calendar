@@ -1,0 +1,338 @@
+{
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "{\n  \"data\": {\n    \"subreddit\": \"footballstrategy\",\n    \"query\": \"recruiting\",\n    \"sort\": \"comments\",\n    \"timeframe\": \"all\",\n    \"posts\": [\n      {\n        \"id\": \"1fidm64\",\n        \"postId\": \"t3_1fidm64\",\n        \"title\": \"Where did all the scoring go? NFL\",\n        \"url\": \"https://www.reddit.com/r/footballstrategy/comments/1fidm64/where_did_all_the_scoring_go_nfl/\",\n        \"permalink\": \"/r/footballstrategy/comments/1fidm64/where_did_all_the_scoring_go_nfl/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"Fun-Warthog-1765\",\n          \"id\": \"t2_egt0wcck\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"footballstrategy\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 58,\n          \"comments\": 97,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2024-09-16T19:31:54.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 0,\n        \"relativePosition\": 0\n      },\n      {\n        \"id\": \"1wbfw3d\",\n        \"postId\": \"t3_1wbfw3d\",\n        \"title\": \"19-Year-Old, 6\u20198\u201d 360+ OL With No Football Film \u2014 Is JUCO Still Realistic?\",\n        \"url\": \"https://www.reddit.com/r/footballstrategy/comments/1wbfw3d/19yearold_68_360_ol_with_no_football_film_is_juco/\",\n        \"permalink\": \"/r/footballstrategy/comments/1wbfw3d/19yearold_68_360_ol_with_no_football_film_is_juco/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"Striking-Ostrich-821\",\n          \"id\": \"t2_b77nwvqr\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"footballstrategy\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 56,\n          \"comments\": 91,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2026-09-09T08:41:31.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 1,\n        \"relativePosition\": 1\n      },\n      {\n        \"id\": \"1bqg3og\",\n        \"postId\": \"t3_1bqg3og\",\n        \"title\": \"How many HS coaches here force a scheme on their players?\",\n        \"url\": \"https://www.reddit.com/r/footballstrategy/comments/1bqg3og/how_many_hs_coaches_here_force_a_scheme_on_their/\",\n        \"permalink\": \"/r/footballstrategy/comments/1bqg3og/how_many_hs_coaches_here_force_a_scheme_on_their/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"Bogert\",\n          \"id\": \"t2_8eb2o\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"footballstrategy\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 54,\n          \"comments\": 86,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2024-03-29T04:10:11.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 2,\n        \"relativePosition\": 2\n      },\n      {\n        \"id\": \"1t6io5v\",\n        \"postId\": \"t3_1t6io5v\",\n        \"title\": \"Be brutally honest is it possible for me to walk on d1.\",\n        \"url\": \"https://www.reddit.com/r/footballstrategy/comments/1t6io5v/be_brutally_honest_is_it_possible_for_me_to_walk/\",\n        \"permalink\": \"/r/footballstrategy/comments/1t6io5v/be_brutally_honest_is_it_possible_for_me_to_walk/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"Brick247__\",\n          \"id\": \"t2_22ra1mybzk\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"footballstrategy\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 24,\n          \"comments\": 77,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2026-05-07T18:14:22.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 3,\n        \"relativePosition\": 3\n      },\n      {\n        \"id\": \"1omp3k5\",\n        \"postId\": \"t3_1omp3k5\",\n        \"title\": \"D2 or JUCO?\",\n        \"url\": \"https://www.reddit.com/r/footballstrategy/comments/1omp3k5/d2_or_juco/\",\n        \"permalink\": \"/r/footballstrategy/comments/1omp3k5/d2_or_juco/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"PSAwt\",\n          \"id\": \"t2_1yultgsq2u\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"footballstrategy\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 15,\n          \"comments\": 70,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2025-11-02T18:37:47.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 4,\n        \"relativePosition\": 4\n      },\n      {\n        \"id\": \"122pbm1\",\n        \"postId\": \"t3_122pbm1\",\n        \"title\": \"Getting started playing football\",\n        \"url\": \"https://www.reddit.com/r/footballstrategy/comments/122pbm1/getting_started_playing_football/\",\n        \"permalink\": \"/r/footballstrategy/comments/122pbm1/getting_started_playing_football/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"MrTattooMann\",\n          \"id\": \"t2_3w82driq\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"footballstrategy\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 20,\n          \"comments\": 64,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2023-03-26T15:12:26.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 5,\n        \"relativePosition\": 5\n      },\n      {\n        \"id\": \"18i7wfq\",\n        \"postId\": \"t3_18i7wfq\",\n        \"title\": \"Running a 33 Stack Defense\",\n        \"url\": \"https://www.reddit.com/r/footballstrategy/comments/18i7wfq/running_a_33_stack_defense/\",\n        \"permalink\": \"/r/footballstrategy/comments/18i7wfq/running_a_33_stack_defense/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"Daiddim\",\n          \"id\": \"t2_ctvhc4p4h\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"footballstrategy\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 18,\n          \"comments\": 63,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2023-12-14T12:48:10.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 6,\n        \"relativePosition\": 6\n      }\n    ],\n    \"totalResults\": 7,\n    \"page\": {\n      \"nextCursor\": \"eyJjYW5kaWRhdGVzX3JldHVybmVkIjoie1wic2VjdGlvbl8xX3BpcGVsaW5lXzBfZ2xvYmFsX21vZGlmaWVyc1wiOlwiMVwiLFwic2VjdGlvbl8xX3BpcGVsaW5lXzFfbG9jYWxfbW9kaWZpZXJzXCI6XCIyXCIsXCJzZWN0aW9uXzJfcGlwZWxpbmVfN19zY29wZV9zd2l0Y2hlclwiOlwiMFwiLFwic2VjdGlvbl8yX3BpcGVsaW5lXzhfZHluYW1pY18wX3Bvc3Rfc2VhcmNoXCI6XCI3XCIsXCJzZWN0aW9uXzNfcGlwZWxpbmVfMF9zaWRlYmFyX2NvbW11bml0eV9pbmZvXCI6XCIwXCJ9IiwiZXhwZXJpZW5jZV9zZWxlY3Rpb24iOiJwb3N0c192MiIsImV4cGVyaWVuY2VfdmVyc2lvbiI6ImNvbW11bml0eSIsInNlY3Rpb25fMl9waXBlbGluZV84X2R5bmFtaWNfMF9wb3N0X3NlYXJjaCI6IjcifQ==\",\n      \"hasMore\": true\n    }\n  },\n  \"meta\": {\n    \"requestId\": \"req_3324d020-5474-4daf-8ea9-d5d66f13978b\",\n    \"creditsCharged\": 1,\n    \"version\": \"v1\"\n  }\n}"
+   },
+   {
+    "type": "text",
+    "text": "{\"conversation_id\":\"01a1af67-1667-7ae0-ad7c-a41b39b5d4f1\"}"
+   }
+  ],
+  "structuredContent": {
+   "data": {
+    "subreddit": "footballstrategy",
+    "query": "recruiting",
+    "sort": "comments",
+    "timeframe": "all",
+    "posts": [
+     {
+      "id": "1fidm64",
+      "postId": "t3_1fidm64",
+      "title": "Where did all the scoring go? NFL",
+      "url": "https://www.reddit.com/r/footballstrategy/comments/1fidm64/where_did_all_the_scoring_go_nfl/",
+      "permalink": "/r/footballstrategy/comments/1fidm64/where_did_all_the_scoring_go_nfl/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "Fun-Warthog-1765",
+       "id": "t2_egt0wcck"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "footballstrategy",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 58,
+       "comments": 97,
+       "upvoteRatio": null
+      },
+      "createdAt": "2024-09-16T19:31:54.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 0,
+      "relativePosition": 0
+     },
+     {
+      "id": "1wbfw3d",
+      "postId": "t3_1wbfw3d",
+      "title": "19-Year-Old, 6\u20198\u201d 360+ OL With No Football Film \u2014 Is JUCO Still Realistic?",
+      "url": "https://www.reddit.com/r/footballstrategy/comments/1wbfw3d/19yearold_68_360_ol_with_no_football_film_is_juco/",
+      "permalink": "/r/footballstrategy/comments/1wbfw3d/19yearold_68_360_ol_with_no_football_film_is_juco/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "Striking-Ostrich-821",
+       "id": "t2_b77nwvqr"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "footballstrategy",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 56,
+       "comments": 91,
+       "upvoteRatio": null
+      },
+      "createdAt": "2026-09-09T08:41:31.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 1,
+      "relativePosition": 1
+     },
+     {
+      "id": "1bqg3og",
+      "postId": "t3_1bqg3og",
+      "title": "How many HS coaches here force a scheme on their players?",
+      "url": "https://www.reddit.com/r/footballstrategy/comments/1bqg3og/how_many_hs_coaches_here_force_a_scheme_on_their/",
+      "permalink": "/r/footballstrategy/comments/1bqg3og/how_many_hs_coaches_here_force_a_scheme_on_their/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "Bogert",
+       "id": "t2_8eb2o"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "footballstrategy",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 54,
+       "comments": 86,
+       "upvoteRatio": null
+      },
+      "createdAt": "2024-03-29T04:10:11.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 2,
+      "relativePosition": 2
+     },
+     {
+      "id": "1t6io5v",
+      "postId": "t3_1t6io5v",
+      "title": "Be brutally honest is it possible for me to walk on d1.",
+      "url": "https://www.reddit.com/r/footballstrategy/comments/1t6io5v/be_brutally_honest_is_it_possible_for_me_to_walk/",
+      "permalink": "/r/footballstrategy/comments/1t6io5v/be_brutally_honest_is_it_possible_for_me_to_walk/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "Brick247__",
+       "id": "t2_22ra1mybzk"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "footballstrategy",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 24,
+       "comments": 77,
+       "upvoteRatio": null
+      },
+      "createdAt": "2026-05-07T18:14:22.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 3,
+      "relativePosition": 3
+     },
+     {
+      "id": "1omp3k5",
+      "postId": "t3_1omp3k5",
+      "title": "D2 or JUCO?",
+      "url": "https://www.reddit.com/r/footballstrategy/comments/1omp3k5/d2_or_juco/",
+      "permalink": "/r/footballstrategy/comments/1omp3k5/d2_or_juco/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "PSAwt",
+       "id": "t2_1yultgsq2u"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "footballstrategy",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 15,
+       "comments": 70,
+       "upvoteRatio": null
+      },
+      "createdAt": "2025-11-02T18:37:47.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 4,
+      "relativePosition": 4
+     },
+     {
+      "id": "122pbm1",
+      "postId": "t3_122pbm1",
+      "title": "Getting started playing football",
+      "url": "https://www.reddit.com/r/footballstrategy/comments/122pbm1/getting_started_playing_football/",
+      "permalink": "/r/footballstrategy/comments/122pbm1/getting_started_playing_football/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "MrTattooMann",
+       "id": "t2_3w82driq"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "footballstrategy",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 20,
+       "comments": 64,
+       "upvoteRatio": null
+      },
+      "createdAt": "2023-03-26T15:12:26.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 5,
+      "relativePosition": 5
+     },
+     {
+      "id": "18i7wfq",
+      "postId": "t3_18i7wfq",
+      "title": "Running a 33 Stack Defense",
+      "url": "https://www.reddit.com/r/footballstrategy/comments/18i7wfq/running_a_33_stack_defense/",
+      "permalink": "/r/footballstrategy/comments/18i7wfq/running_a_33_stack_defense/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "Daiddim",
+       "id": "t2_ctvhc4p4h"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "footballstrategy",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 18,
+       "comments": 63,
+       "upvoteRatio": null
+      },
+      "createdAt": "2023-12-14T12:48:10.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 6,
+      "relativePosition": 6
+     }
+    ],
+    "totalResults": 7,
+    "page": {
+     "nextCursor": "eyJjYW5kaWRhdGVzX3JldHVybmVkIjoie1wic2VjdGlvbl8xX3BpcGVsaW5lXzBfZ2xvYmFsX21vZGlmaWVyc1wiOlwiMVwiLFwic2VjdGlvbl8xX3BpcGVsaW5lXzFfbG9jYWxfbW9kaWZpZXJzXCI6XCIyXCIsXCJzZWN0aW9uXzJfcGlwZWxpbmVfN19zY29wZV9zd2l0Y2hlclwiOlwiMFwiLFwic2VjdGlvbl8yX3BpcGVsaW5lXzhfZHluYW1pY18wX3Bvc3Rfc2VhcmNoXCI6XCI3XCIsXCJzZWN0aW9uXzNfcGlwZWxpbmVfMF9zaWRlYmFyX2NvbW11bml0eV9pbmZvXCI6XCIwXCJ9IiwiZXhwZXJpZW5jZV9zZWxlY3Rpb24iOiJwb3N0c192MiIsImV4cGVyaWVuY2VfdmVyc2lvbiI6ImNvbW11bml0eSIsInNlY3Rpb25fMl9waXBlbGluZV84X2R5bmFtaWNfMF9wb3N0X3NlYXJjaCI6IjcifQ==",
+     "hasMore": true
+    }
+   },
+   "meta": {
+    "requestId": "req_3324d020-5474-4daf-8ea9-d5d66f13978b",
+    "creditsCharged": 1,
+    "version": "v1"
+   },
+   "card": {
+    "kind": "search",
+    "title": "Search results",
+    "subtitle": "7 results",
+    "resultCount": 7,
+    "items": [
+     {
+      "title": "Where did all the scoring go? NFL",
+      "subtitle": "@Fun-Warthog-1765 \u00b7 16 Sept 2024",
+      "href": "https://www.reddit.com/r/footballstrategy/comments/1fidm64/where_did_all_the_scoring_go_nfl/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "19-Year-Old, 6\u20198\u201d 360+ OL With No Football Film \u2014 Is JUCO Still Realistic?",
+      "subtitle": "@Striking-Ostrich-821 \u00b7 9 Sept 2026",
+      "href": "https://www.reddit.com/r/footballstrategy/comments/1wbfw3d/19yearold_68_360_ol_with_no_football_film_is_juco/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "How many HS coaches here force a scheme on their players?",
+      "subtitle": "@Bogert \u00b7 29 Mar 2024",
+      "href": "https://www.reddit.com/r/footballstrategy/comments/1bqg3og/how_many_hs_coaches_here_force_a_scheme_on_their/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Be brutally honest is it possible for me to walk on d1.",
+      "subtitle": "@Brick247__ \u00b7 7 May 2026",
+      "href": "https://www.reddit.com/r/footballstrategy/comments/1t6io5v/be_brutally_honest_is_it_possible_for_me_to_walk/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "D2 or JUCO?",
+      "subtitle": "@PSAwt \u00b7 2 Nov 2025",
+      "href": "https://www.reddit.com/r/footballstrategy/comments/1omp3k5/d2_or_juco/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Getting started playing football",
+      "subtitle": "@MrTattooMann \u00b7 26 Mar 2023",
+      "href": "https://www.reddit.com/r/footballstrategy/comments/122pbm1/getting_started_playing_football/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Running a 33 Stack Defense",
+      "subtitle": "@Daiddim \u00b7 14 Dec 2023",
+      "href": "https://www.reddit.com/r/footballstrategy/comments/18i7wfq/running_a_33_stack_defense/",
+      "platform": "Reddit"
+     }
+    ]
+   }
+  }
+ },
+ "jsonrpc": "2.0",
+ "id": 1
+}

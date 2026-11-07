@@ -1,0 +1,41 @@
+{
+  "name": "ui.design",
+  "stage": "build",
+  "lane": "frontend",
+  "calibrated": false,
+  "enforcing": true,
+  "mode": "ENFORCING",
+  "never_auto": false,
+  "confidence_floor": 0.3,
+  "questions": [
+    "primary_action_obvious",
+    "states_handled",
+    "accessible",
+    "mobile_considered",
+    "jargon",
+    "clarity"
+  ],
+  "rules": [
+    {
+      "when": "states_handled.noul <= 0.35",
+      "verdict": "ESCALATE",
+      "reason": "empty/error/loading states unspecified"
+    },
+    {
+      "when": "accessible.noul <= 0.35",
+      "verdict": "ESCALATE",
+      "reason": "accessibility unaddressed"
+    },
+    {
+      "when": "clarity.score <= 1.00",
+      "verdict": "ESCALATE",
+      "reason": "primary action not clear"
+    },
+    {
+      "when": "primary_action_obvious.noul <= 0.35",
+      "verdict": "ESCALATE",
+      "reason": "no obvious primary action"
+    }
+  ],
+  "calibration": {}
+}

@@ -1,0 +1,942 @@
+{
+  "generated": "2026-11-07",
+  "site": "The Commit Book",
+  "status_legend": {
+    "live": "page exists today",
+    "needs-page": "page not built; route and contents proposed",
+    "gap": "no step exists"
+  },
+  "site_facts": {
+    "tools_pages_are_notify_me_shells": true,
+    "checkout_enabled": false,
+    "email_product_live": false,
+    "monitored_support_mailbox": false,
+    "membership": [
+      {
+        "name": "Sideline",
+        "price_usd_per_year": 149
+      },
+      {
+        "name": "Pathway",
+        "price_usd_one_year": 99
+      }
+    ],
+    "founding_slots": 100,
+    "sources": [
+      "Aspen Project Play 2024",
+      "NFHS 2024-25",
+      "Social Fetch parent-problem sample"
+    ]
+  },
+  "global_must_not_claim": [
+    "Promise a coach reply, offer, scholarship or roster spot",
+    "Give legal advice",
+    "Recruit or place athletes"
+  ],
+  "buyers": [
+    {
+      "id": "planner-9-10",
+      "name": "9th/10th Grade Planner",
+      "moment": "Parent of a 9th/10th grader, no coach has called; afraid of paying before the rules allow a reply.",
+      "story_route": "/athlete/perez",
+      "spend_note": "Free path; nothing recurring before sophomore summer.",
+      "path": [
+        {
+          "order": 1,
+          "label": "entry: rules search or parent group",
+          "route": "/answers",
+          "status": "live",
+          "note": ""
+        },
+        {
+          "order": 2,
+          "label": "landing",
+          "route": "/start",
+          "status": "live",
+          "note": ""
+        },
+        {
+          "order": 3,
+          "label": "aha: what a coach may do for sport and class year",
+          "route": "/calendar",
+          "status": "live",
+          "note": ""
+        },
+        {
+          "order": 4,
+          "label": "depth",
+          "route": "/playbooks/eligibility-2-hard-deadlines",
+          "status": "live",
+          "note": ""
+        },
+        {
+          "order": 5,
+          "label": "first ask: email capture",
+          "route": "/personalize",
+          "status": "live",
+          "note": "capture live; follow-up emails are a gap"
+        },
+        {
+          "order": 6,
+          "label": "family spending check",
+          "route": "/segments#view-c",
+          "status": "live",
+          "note": ""
+        },
+        {
+          "order": 7,
+          "label": "offer download pages (Contact Log, Season Planner)",
+          "route": "/tools/contact-log",
+          "status": "needs-page",
+          "note": "notify-me shell today"
+        },
+        {
+          "order": 8,
+          "label": "purchase",
+          "route": "checkout",
+          "status": "gap",
+          "note": "checkout flag off"
+        },
+        {
+          "order": 9,
+          "label": "after: yearly calendar rebuild email",
+          "route": "email",
+          "status": "gap",
+          "note": ""
+        }
+      ],
+      "outcomes": [
+        {
+          "offering": "contact-log",
+          "outcome": "One grid ready before the first touch."
+        },
+        {
+          "offering": "season-planner",
+          "outcome": "Season page with recruiting windows marked and a clip list."
+        }
+      ],
+      "objection": {
+        "text": "Why pay anything now?",
+        "honest_answer": "Most of this stage is free. Nothing recurring is needed before sophomore summer."
+      },
+      "must_not_claim": [
+        "Promise a coach reply, offer, scholarship or roster spot",
+        "Give legal advice",
+        "Recruit or place athletes",
+        "That starting early gets a reply",
+        "That the Denver pilot is a placement program"
+      ],
+      "measure": {
+        "number": "Share of email captures who reopen /calendar within 30 days",
+        "event": "calendar_return_visit"
+      }
+    },
+    {
+      "id": "late-start-panic",
+      "name": "Late-Start Junior/Senior Panic",
+      "moment": "Junior/senior, no list, no film plan, no replies; roster spots filling.",
+      "story_route": "/athlete/composite-baseball",
+      "spend_note": "Only verified essentials.",
+      "path": [
+        {
+          "order": 1,
+          "label": "entry: late-start search or Reddit/Facebook thread",
+          "route": "/playbooks/late-bloomer",
+          "status": "live",
+          "note": ""
+        },
+        {
+          "order": 2,
+          "label": "landing and aha",
+          "route": "/playbooks/late-bloomer",
+          "status": "live",
+          "note": ""
+        },
+        {
+          "order": 3,
+          "label": "next",
+          "route": "/start",
+          "status": "live",
+          "note": ""
+        },
+        {
+          "order": 4,
+          "label": "build list and first email",
+          "route": "/access",
+          "status": "live",
+          "note": ""
+        },
+        {
+          "order": 5,
+          "label": "real required cost",
+          "route": "/answers/ncaa-eligibility-center-account-cost",
+          "status": "live",
+          "note": ""
+        },
+        {
+          "order": 6,
+          "label": "first ask: save list by email",
+          "route": "/access",
+          "status": "needs-page",
+          "note": "save-by-email not built"
+        },
+        {
+          "order": 7,
+          "label": "offer: First Contact Pack $9 and Contact Log",
+          "route": "/tools/coach-emails",
+          "status": "needs-page",
+          "note": "Pack is PROPOSED; Log is a shell"
+        },
+        {
+          "order": 8,
+          "label": "purchase Pathway $99",
+          "route": "checkout",
+          "status": "gap",
+          "note": "flag off"
+        },
+        {
+          "order": 9,
+          "label": "after: weekly Sunday review email",
+          "route": "email",
+          "status": "gap",
+          "note": ""
+        }
+      ],
+      "outcomes": [
+        {
+          "offering": "contact-log",
+          "outcome": "Record of who was emailed and when, with 10-day follow-up."
+        },
+        {
+          "offering": "coach-emails",
+          "outcome": "The right email for each moment (once built)."
+        }
+      ],
+      "objection": {
+        "text": "Is it too late?",
+        "honest_answer": "We cannot say it is not. The late-bloomer playbook gives the order of steps and the free tools build the list."
+      },
+      "must_not_claim": [
+        "Promise a coach reply, offer, scholarship or roster spot",
+        "Give legal advice",
+        "Recruit or place athletes",
+        "That a late start can be fixed",
+        "That any fast-track service exists"
+      ],
+      "measure": {
+        "number": "Share of /access visitors who export the 30-school list",
+        "event": "access_export"
+      }
+    },
+    {
+      "id": "burned-by-service",
+      "name": "Burned by a Paid Recruiting Service or Showcase Circuit",
+      "moment": "Paid $1,500-$4,200 (Social Fetch parent-problem sample: up to about $4K plus monthly fees) and wants out.",
+      "story_route": "/athlete/coward",
+      "spend_note": "Cancellation terms vary by contract; education, not legal advice.",
+      "path": [
+        {
+          "order": 1,
+          "label": "entry: refund or legitimacy search",
+          "route": "/recruitiq",
+          "status": "live",
+          "note": ""
+        },
+        {
+          "order": 2,
+          "label": "landing and aha",
+          "route": "/recruitiq",
+          "status": "live",
+          "note": ""
+        },
+        {
+          "order": 3,
+          "label": "compare",
+          "route": "/compare",
+          "status": "live",
+          "note": ""
+        },
+        {
+          "order": 4,
+          "label": "calendar",
+          "route": "/calendar",
+          "status": "live",
+          "note": ""
+        },
+        {
+          "order": 5,
+          "label": "red flags checklist",
+          "route": "/tools/red-flags",
+          "status": "needs-page",
+          "note": "announce-only shell; checklist BUILT"
+        },
+        {
+          "order": 6,
+          "label": "first ask: email for Red Flags",
+          "route": "/tools/red-flags",
+          "status": "needs-page",
+          "note": "delivery not built"
+        },
+        {
+          "order": 7,
+          "label": "budget reallocator",
+          "route": "/tools/budget-reallocator",
+          "status": "gap",
+          "note": ""
+        },
+        {
+          "order": 8,
+          "label": "purchase Pathway $99",
+          "route": "checkout",
+          "status": "gap",
+          "note": "flag off"
+        },
+        {
+          "order": 9,
+          "label": "after: contract-check education page",
+          "route": "/answers/contract-check",
+          "status": "gap",
+          "note": ""
+        }
+      ],
+      "outcomes": [
+        {
+          "offering": "red-flags",
+          "outcome": "40 warning signs in 4 groups with what to ask instead."
+        },
+        {
+          "offering": "contact-log",
+          "outcome": "Run own outreach and see every touch."
+        },
+        {
+          "offering": "offer-comparison",
+          "outcome": "Real dollar number behind each letter if offers come."
+        }
+      ],
+      "objection": {
+        "text": "I already got burned. Why trust you?",
+        "honest_answer": "We do not recruit or place athletes. We sell tools you run yourself and the free ones come first. We cannot get money back."
+      },
+      "must_not_claim": [
+        "Promise a coach reply, offer, scholarship or roster spot",
+        "Give legal advice",
+        "Recruit or place athletes",
+        "That a given service is fraud",
+        "That a refund is owed"
+      ],
+      "measure": {
+        "number": "Share of Red Flags requests who start /access or the Contact Log within 14 days",
+        "event": "redflags_delivered then access_start"
+      }
+    },
+    {
+      "id": "high-academic",
+      "name": "High-Academic D3 / Ivy / Merit-Aid Family",
+      "moment": "Strong student; wants early action with coach support and to know how athletic and academic aid stack.",
+      "story_route": "/athlete/marpet",
+      "spend_note": "Highest household spend band (Aspen Project Play 2024: $100K+ about $1,591/yr vs $604 under $50K); spend on visits that matter.",
+      "path": [
+        {
+          "order": 1,
+          "label": "entry: D3 scholarship search",
+          "route": "/answers/does-d3-offer-athletic-scholarships",
+          "status": "live",
+          "note": ""
+        },
+        {
+          "order": 2,
+          "label": "landing and aha",
+          "route": "/playbooks/d3-academic-aid-first",
+          "status": "live",
+          "note": ""
+        },
+        {
+          "order": 3,
+          "label": "roster math",
+          "route": "/math",
+          "status": "live",
+          "note": ""
+        },
+        {
+          "order": 4,
+          "label": "offer and signing",
+          "route": "/playbooks/offer-and-signing",
+          "status": "live",
+          "note": ""
+        },
+        {
+          "order": 5,
+          "label": "first ask: aid stacking worksheet",
+          "route": "/tools/aid-stack",
+          "status": "gap",
+          "note": ""
+        },
+        {
+          "order": 6,
+          "label": "offer: Offer Comparison $29",
+          "route": "/tools/offer-comparison",
+          "status": "needs-page",
+          "note": "BUILT, shell page"
+        },
+        {
+          "order": 7,
+          "label": "purchase Sideline $149",
+          "route": "checkout",
+          "status": "gap",
+          "note": "flag off"
+        },
+        {
+          "order": 8,
+          "label": "after: visit priority page",
+          "route": "/tools/visit-priority",
+          "status": "gap",
+          "note": ""
+        }
+      ],
+      "outcomes": [
+        {
+          "offering": "offer-comparison",
+          "outcome": "Grid for up to six schools plus 12 post-offer questions and a worked example."
+        }
+      ],
+      "objection": {
+        "text": "D3 has no athletic scholarships, so what is there to buy?",
+        "honest_answer": "Correct, D3 gives none. The tool reads academic aid and any other offer on net price."
+      },
+      "must_not_claim": [
+        "Promise a coach reply, offer, scholarship or roster spot",
+        "Give legal advice",
+        "Recruit or place athletes",
+        "That a coach will support an application",
+        "That any school will admit the athlete",
+        "That aid will stack"
+      ],
+      "measure": {
+        "number": "Share of d3 playbook readers who complete the playbook chain",
+        "event": "playbook_chain_complete"
+      }
+    },
+    {
+      "id": "clock-mark",
+      "name": "Clock/Mark Sport: Track, XC, Swim",
+      "moment": "Numbers are public; lever is a verified mark at a meet coaches use, a clear list and the right email.",
+      "story_route": "/athlete/composite-swim",
+      "spend_note": "Aspen Project Play 2019 average: track about $191, swimming about $786.",
+      "path": [
+        {
+          "order": 1,
+          "label": "entry: track contact-rule search",
+          "route": "/answers/when-can-track-coaches-contact-athletes",
+          "status": "live",
+          "note": ""
+        },
+        {
+          "order": 2,
+          "label": "landing and aha",
+          "route": "/rules/track/2029",
+          "status": "live",
+          "note": ""
+        },
+        {
+          "order": 3,
+          "label": "marks playbook",
+          "route": "/playbooks/track-field-marks",
+          "status": "live",
+          "note": ""
+        },
+        {
+          "order": 4,
+          "label": "list and email",
+          "route": "/access",
+          "status": "live",
+          "note": ""
+        },
+        {
+          "order": 5,
+          "label": "swim playbook",
+          "route": "/playbooks/swim-times",
+          "status": "needs-page",
+          "note": ""
+        },
+        {
+          "order": 6,
+          "label": "first ask: meet calendar reminder",
+          "route": "/access",
+          "status": "needs-page",
+          "note": ""
+        },
+        {
+          "order": 7,
+          "label": "offer: Season & Film Planner $19, First Contact Pack $9",
+          "route": "/tools/season-planner",
+          "status": "needs-page",
+          "note": ""
+        },
+        {
+          "order": 8,
+          "label": "purchase Pathway $99",
+          "route": "checkout",
+          "status": "gap",
+          "note": "flag off"
+        },
+        {
+          "order": 9,
+          "label": "after: meet result log",
+          "route": "/tools/meet-log",
+          "status": "gap",
+          "note": ""
+        }
+      ],
+      "outcomes": [
+        {
+          "offering": "season-planner",
+          "outcome": "Season grid with windows marked and sport stat prompts."
+        },
+        {
+          "offering": "coach-emails",
+          "outcome": "The right email for a mark (once built)."
+        }
+      ],
+      "objection": {
+        "text": "The times speak for themselves. Why pay?",
+        "honest_answer": "The times do speak. Paid tools save the search and follow-through; track youth spend averages about $191 so price low."
+      },
+      "must_not_claim": [
+        "Promise a coach reply, offer, scholarship or roster spot",
+        "Give legal advice",
+        "Recruit or place athletes",
+        "That a time guarantees a look",
+        "That film replaces a verified mark"
+      ],
+      "measure": {
+        "number": "Share of /rules/track/2029 visitors who start /access",
+        "event": "access_start"
+      }
+    },
+    {
+      "id": "emerging-juco",
+      "name": "Emerging Sport or JUCO/NAIA Transfer Path",
+      "moment": "Girls' flag football, women's wrestling or JUCO-then-transfer; few playbooks exist.",
+      "story_route": "/athlete/rodriguez",
+      "spend_note": "Short window; keep spend to one transition year.",
+      "path": [
+        {
+          "order": 1,
+          "label": "entry: emerging sport or JUCO search",
+          "route": "/emerging-sports",
+          "status": "live",
+          "note": ""
+        },
+        {
+          "order": 2,
+          "label": "landing and aha",
+          "route": "/emerging-sports",
+          "status": "live",
+          "note": ""
+        },
+        {
+          "order": 3,
+          "label": "JUCO playbook",
+          "route": "/playbooks/juco-to-d1",
+          "status": "live",
+          "note": ""
+        },
+        {
+          "order": 4,
+          "label": "walk-on playbook",
+          "route": "/playbooks/walk-on",
+          "status": "live",
+          "note": ""
+        },
+        {
+          "order": 5,
+          "label": "start",
+          "route": "/start",
+          "status": "live",
+          "note": ""
+        },
+        {
+          "order": 6,
+          "label": "first ask: sport watchlist",
+          "route": "/emerging-sports",
+          "status": "needs-page",
+          "note": ""
+        },
+        {
+          "order": 7,
+          "label": "offer: Contact Log, Offer Comparison, First Contact Pack",
+          "route": "/tools/contact-log",
+          "status": "needs-page",
+          "note": ""
+        },
+        {
+          "order": 8,
+          "label": "purchase Pathway $99",
+          "route": "checkout",
+          "status": "gap",
+          "note": "flag off"
+        },
+        {
+          "order": 9,
+          "label": "after: transfer checklist",
+          "route": "/playbooks/transfer-checklist",
+          "status": "gap",
+          "note": ""
+        }
+      ],
+      "outcomes": [
+        {
+          "offering": "contact-log",
+          "outcome": "Proof of every conversation in a field where rules are still being written."
+        },
+        {
+          "offering": "offer-comparison",
+          "outcome": "Compare transfer offers on dollars."
+        }
+      ],
+      "objection": {
+        "text": "Is this even a real path?",
+        "honest_answer": "We show what is known and label what is not. We will not invent a pathway."
+      },
+      "must_not_claim": [
+        "Promise a coach reply, offer, scholarship or roster spot",
+        "Give legal advice",
+        "Recruit or place athletes",
+        "That an emerging sport has scholarships at any school",
+        "That a JUCO transfer is easier",
+        "That credits will transfer"
+      ],
+      "measure": {
+        "number": "Share of /emerging-sports visitors who leave an email with a sport",
+        "event": "capture_submit"
+      }
+    }
+  ],
+  "funnel_spine": [
+    {
+      "stage": "unidentified_reader",
+      "handoff": "Search, group post or link lands on a free page",
+      "reader_gives": "Attention",
+      "we_give": "A true answer to one rule question",
+      "status": "live",
+      "blocker": null
+    },
+    {
+      "stage": "email",
+      "handoff": "Reader leaves email, sport, class year",
+      "reader_gives": "Email, sport, class year",
+      "we_give": "A free tool delivered",
+      "status": "partial",
+      "blocker": "Capture live; every /tools page is a notify-me shell; no email product sends; no monitored support mailbox"
+    },
+    {
+      "stage": "paying_member",
+      "handoff": "Buys Sideline $149, Pathway $99 or a single tool",
+      "reader_gives": "Money",
+      "we_give": "Tools, playbooks, yearly calendar rebuild",
+      "status": "blocked",
+      "blocker": "Checkout OFF behind a flag (503 in preview); deliberate readiness gate"
+    },
+    {
+      "stage": "renewed_member",
+      "handoff": "Returns for next season",
+      "reader_gives": "Second payment",
+      "we_give": "Rebuilt yearly calendar",
+      "status": "gap",
+      "blocker": "No renewal email or rebuild notice"
+    },
+    {
+      "stage": "referring_member",
+      "handoff": "Sends another parent",
+      "reader_gives": "A name and a link",
+      "we_give": "Not decided (inference)",
+      "status": "gap",
+      "blocker": "No referral link, reward or tracking"
+    }
+  ],
+  "value_matrix": [
+    {
+      "key": "contact-log",
+      "title": "The Commit Book Contact Log",
+      "price_usd": 0,
+      "status": "BUILT",
+      "kind": "offering",
+      "by_buyer": {
+        "planner-9-10": "Ready before the first touch",
+        "late-start-panic": "Who was emailed and when; 10-day follow-up",
+        "burned-by-service": "Take the work back; see every touch",
+        "high-academic": "One grid for several schools",
+        "clock-mark": "Track which coaches saw which mark",
+        "emerging-juco": "Record every touch in a thin field"
+      }
+    },
+    {
+      "key": "red-flags",
+      "title": "Red Flags: The Checklist",
+      "price_usd": 0,
+      "status": "BUILT",
+      "kind": "offering",
+      "by_buyer": {
+        "planner-9-10": null,
+        "late-start-panic": "Screen camps and services before paying",
+        "burned-by-service": "40 signs and what to ask instead",
+        "high-academic": "Check programs that oversell aid",
+        "clock-mark": null,
+        "emerging-juco": "Check programs that oversell a new sport"
+      }
+    },
+    {
+      "key": "offer-comparison",
+      "title": "Offer Comparison & Negotiation Toolkit",
+      "price_usd": 29,
+      "status": "BUILT",
+      "kind": "offering",
+      "by_buyer": {
+        "planner-9-10": null,
+        "late-start-panic": "Compare offers that arrive",
+        "burned-by-service": "Real dollar number behind each letter",
+        "high-academic": "Net price per school; 12 post-offer questions",
+        "clock-mark": null,
+        "emerging-juco": "Compare transfer offers"
+      }
+    },
+    {
+      "key": "nil-starter",
+      "title": "The NIL Ledger: Starter Kit",
+      "price_usd": 29,
+      "status": "BUILT",
+      "kind": "offering",
+      "by_buyer": {
+        "planner-9-10": null,
+        "late-start-panic": null,
+        "burned-by-service": null,
+        "high-academic": null,
+        "clock-mark": null,
+        "emerging-juco": null
+      }
+    },
+    {
+      "key": "nil-tax",
+      "title": "NIL Tax & Income Tracker",
+      "price_usd": 19,
+      "status": "BUILT",
+      "kind": "offering",
+      "by_buyer": {
+        "planner-9-10": null,
+        "late-start-panic": null,
+        "burned-by-service": null,
+        "high-academic": null,
+        "clock-mark": null,
+        "emerging-juco": null
+      }
+    },
+    {
+      "key": "local-nil",
+      "title": "Local NIL Deal Kit",
+      "price_usd": 19,
+      "status": "BUILT",
+      "kind": "offering",
+      "by_buyer": {
+        "planner-9-10": null,
+        "late-start-panic": null,
+        "burned-by-service": null,
+        "high-academic": null,
+        "clock-mark": null,
+        "emerging-juco": null
+      }
+    },
+    {
+      "key": "season-planner",
+      "title": "Season & Film Planner",
+      "price_usd": 19,
+      "status": "BUILT",
+      "kind": "offering",
+      "by_buyer": {
+        "planner-9-10": "Season grid with windows marked",
+        "late-start-panic": "Plan film nights fast",
+        "burned-by-service": null,
+        "high-academic": null,
+        "clock-mark": "Season grid and sport stat prompts",
+        "emerging-juco": null
+      }
+    },
+    {
+      "key": "career-transition",
+      "title": "After the Roster: Career Transition Workbook",
+      "price_usd": 19,
+      "status": "BUILT",
+      "kind": "offering",
+      "by_buyer": {
+        "planner-9-10": null,
+        "late-start-panic": null,
+        "burned-by-service": null,
+        "high-academic": "Plan from junior year for athletes who do not play past college",
+        "clock-mark": null,
+        "emerging-juco": null
+      }
+    },
+    {
+      "key": "coach-emails",
+      "title": "The First Contact Pack",
+      "price_usd": 9,
+      "status": "PROPOSED",
+      "kind": "offering",
+      "by_buyer": {
+        "planner-9-10": null,
+        "late-start-panic": "12 emails by moment",
+        "burned-by-service": "Restart outreach with the right email",
+        "high-academic": null,
+        "clock-mark": "The right email for a mark",
+        "emerging-juco": "12 emails for a new field"
+      }
+    },
+    {
+      "key": "bundle",
+      "title": "The Full Commit Book Bundle",
+      "price_usd": 79,
+      "status": "PROPOSED",
+      "kind": "offering",
+      "by_buyer": {
+        "planner-9-10": null,
+        "late-start-panic": "Everything once",
+        "burned-by-service": null,
+        "high-academic": null,
+        "clock-mark": null,
+        "emerging-juco": null
+      }
+    },
+    {
+      "key": "sideline_149",
+      "title": "Sideline",
+      "price_usd": 149,
+      "status": "FOUNDING_PRICE_CHECKOUT_OFF",
+      "kind": "membership",
+      "by_buyer": {
+        "planner-9-10": null,
+        "late-start-panic": null,
+        "burned-by-service": null,
+        "high-academic": "Everything, all year, several schools",
+        "clock-mark": "Everything; price needs care vs track average",
+        "emerging-juco": null
+      }
+    },
+    {
+      "key": "pathway_99",
+      "title": "Pathway",
+      "price_usd": 99,
+      "status": "FOUNDING_PRICE_CHECKOUT_OFF",
+      "kind": "membership",
+      "by_buyer": {
+        "planner-9-10": null,
+        "late-start-panic": "One season of need",
+        "burned-by-service": "One season after a loss",
+        "high-academic": null,
+        "clock-mark": "One season",
+        "emerging-juco": "One JUCO or transfer year"
+      }
+    },
+    {
+      "key": "free_interactive_pages",
+      "title": "Free interactive pages",
+      "price_usd": 0,
+      "status": "live",
+      "kind": "free",
+      "by_buyer": {
+        "planner-9-10": "/start, /calendar, /personalize",
+        "late-start-panic": "/access, /math",
+        "burned-by-service": "/recruitiq, /compare",
+        "high-academic": "/math, /compare",
+        "clock-mark": "/rules, /access",
+        "emerging-juco": "/emerging-sports, /start"
+      }
+    }
+  ],
+  "justification_149": [
+    {
+      "buyer": "planner-9-10",
+      "must_believe": "Should not buy Sideline yet; free path first."
+    },
+    {
+      "buyer": "late-start-panic",
+      "must_believe": "Cheap verified version of what a panic service charges; Pathway $99 fits."
+    },
+    {
+      "buyer": "burned-by-service",
+      "must_believe": "A tool you run, not a service that runs you; Pathway $99 or free tools first."
+    },
+    {
+      "buyer": "high-academic",
+      "must_believe": "Comparison grid shows net price that differs from the letter; Sideline $149 fits."
+    },
+    {
+      "buyer": "clock-mark",
+      "must_believe": "Track averages about $191 (Aspen Project Play 2024); Pathway $99 or per-tool."
+    },
+    {
+      "buyer": "emerging-juco",
+      "must_believe": "No other playbook for the sport; Pathway $99 for one transition year."
+    }
+  ],
+  "build_list": [
+    {
+      "order": 1,
+      "item": "Publish the 8 BUILT deliverables behind their /tools pages",
+      "unblocks": "All offer steps, all six buyers"
+    },
+    {
+      "order": 2,
+      "item": "Free-tool email delivery from a real sender plus a monitored support mailbox on /account",
+      "unblocks": "Spine stage 2; B1 and B3 first ask"
+    },
+    {
+      "order": 3,
+      "item": "Turn checkout on after items 1 and 2 (Sideline, Pathway, single tools)",
+      "unblocks": "All purchase steps"
+    },
+    {
+      "order": 4,
+      "item": "Write and publish The First Contact Pack ($9)",
+      "unblocks": "B2 offer, B3 restart, B5 and B6 email"
+    },
+    {
+      "order": 5,
+      "item": "Welcome, weekly and yearly rebuild emails from funnel/emails/DRAFTS.md",
+      "unblocks": "B1 and B2 after; spine stage 4"
+    },
+    {
+      "order": 6,
+      "item": "/tools/budget-reallocator and a contract-check education page",
+      "unblocks": "B3 money and after steps"
+    },
+    {
+      "order": 7,
+      "item": "/playbooks/swim-times and swim rules view",
+      "unblocks": "B5 swim path"
+    },
+    {
+      "order": 8,
+      "item": "Save-by-email on /access (30-school list, .ics)",
+      "unblocks": "B2 and B5 first ask"
+    },
+    {
+      "order": 9,
+      "item": "/tools/aid-stack worksheet and visit-priority page",
+      "unblocks": "B4 first ask and after"
+    },
+    {
+      "order": 10,
+      "item": "Sport watchlist on capture and transfer checklist",
+      "unblocks": "B6 first ask and after"
+    },
+    {
+      "order": 11,
+      "item": "Referral link and tracking",
+      "unblocks": "Spine stage 5"
+    },
+    {
+      "order": 12,
+      "item": "Instrument the six measurement events",
+      "unblocks": "All measurement"
+    }
+  ]
+}

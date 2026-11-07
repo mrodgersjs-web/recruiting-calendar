@@ -1,0 +1,59 @@
+{
+  "rubric": "plan.readiness",
+  "verdict": "BLOCK",
+  "enforced": true,
+  "reasons": [
+    "BLOCK: no checkable acceptance criteria -- the agent has nothing to be graded against [has_acceptance_criteria.noul=0.06 <= 0.4]",
+    "BLOCK: ProofPacket violation: asserts outcomes with no source [unverifiable_claims.noul=0.94 >= 0.7]",
+    "BLOCK: plan not ready for unattended build [readiness.score=0.0 <= 1.2]",
+    "ESCALATE: unbounded scope [scope_is_bounded.noul=0.26 <= 0.35]",
+    "ESCALATE: feature described without the user decision it serves [names_the_user_decision.noul=0.14 <= 0.4]"
+  ],
+  "answers": {
+    "has_acceptance_criteria": {
+      "type": "noul",
+      "noul": 0.06
+    },
+    "names_the_user_decision": {
+      "type": "noul",
+      "noul": 0.14
+    },
+    "unverifiable_claims": {
+      "type": "noul",
+      "noul": 0.94
+    },
+    "scope_is_bounded": {
+      "type": "noul",
+      "noul": 0.26
+    },
+    "deterministic_first": {
+      "type": "noul",
+      "noul": 0.25
+    },
+    "readiness": {
+      "type": "score",
+      "score": 0.0,
+      "confidence": 1.0,
+      "legend": {
+        "0": "Vague idea, no contract, would produce guesswork",
+        "1": "Direction is clear but acceptance is undefined",
+        "2": "Contract and acceptance defined, some ambiguity at the edges",
+        "3": "Fully specified: inputs, outputs, acceptance tests, and out-of-scope all stated"
+      },
+      "probabilities": {
+        "0": 1.0,
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0
+      }
+    }
+  },
+  "model": "jev-1.14.0",
+  "latency_ms": 111,
+  "advisory": false,
+  "state_sha256": "3e23c5c86e80c9046f3ac1deaf2fe99327a824d4bd1b360944c3993fe1b48bb9",
+  "state_preview": "buy now!!! best recruiting thing ever lorem ipsum guaranteed scholarship\n",
+  "error": null,
+  "decision_id": 311387,
+  "cache_hit": false
+}

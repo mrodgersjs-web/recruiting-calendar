@@ -1,0 +1,17 @@
+{
+  "label": null,
+  "confidence": 0.38,
+  "noul_score": 0.38,
+  "verdict": "ESCALATE",
+  "probabilities": {
+    "wow:  striking": 0.38,
+    "premium": 0.03,
+    "would stop a scroll": 0.33,
+    "ok: competent but forgettable": 0.18,
+    "weak: generic": 0.06,
+    "broken or empty": 0.02
+  },
+  "backend": "typesafe-hosted",
+  "judge": "hosted-jev",
+  "local_error": "legacy 8898 unreachable"
+}

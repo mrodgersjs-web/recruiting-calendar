@@ -1,0 +1,86 @@
+{
+ "stories": [
+  {
+   "id": "composite-swim",
+   "name": "Composite: \"Maya\" (swimmer)",
+   "composite": true,
+   "label": "Composite story built from 3 sourced recruiting paths",
+   "sport": "Swimming",
+   "level": "D2",
+   "image_policy": "Generated illustration allowed, label 'Illustration' on every image",
+   "rule": {
+    "bylaw": "D2 Bylaws 13.1.1.1, 13.3.1.2",
+    "url": "https://web3.ncaa.org/lsdbi/reports/getReport/90010",
+    "verified_against": "site/data.js verified_on 2026-11-05"
+   },
+   "sources": [
+    {
+     "url": "https://www.wabash.edu/news/story/2362",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "url": "https://www.athletes.org/news/my-story-alika-crawford",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "url": "https://www.nba.com/spurs/derrick-white-dare-be-great",
+     "retrieved": "2026-11-05"
+    },
+    {
+     "url": "https://www.deltaaquatics.com/page/about-us/college-recruiting-resources",
+     "retrieved": "2026-11-05"
+    }
+   ],
+   "beats": [
+    {
+     "beat": "hook",
+     "text": "This is a composite story built from three sourced recruiting paths, not one real person. Maya is a club swimmer whose times keep improving but sit outside national rankings. Every image of Maya is an illustration."
+    },
+    {
+     "beat": "stakes",
+     "text": "Her family asks what level her times fit, and whether any coach notices an improving swimmer. Coaches weigh year-over-year progression and conference placing, which frames the question without answering it."
+    },
+    {
+     "beat": "turning_point_1",
+     "text": "Maya keeps an updated times sheet, her club coach contacts programs, and she writes to Division II and III teams, not only Division I."
+    },
+    {
+     "beat": "rule",
+     "text": "The rule that mattered: in Division II, calls, texts and emails are allowed any time, and official visits open June 15 after sophomore year. Check it at the source."
+    },
+    {
+     "beat": "fit_decision",
+     "text": "Maya picks a Division II program where she would score in the conference. Because she is a composite, the outcome is illustrative only."
+    },
+    {
+     "beat": "does_not_prove",
+     "text": "What this doesn't prove: one path, not a formula. Nothing here shows a playbook caused it. This athlete never used our playbooks, and we never contact your kid."
+    },
+    {
+     "beat": "offer",
+     "text": "These steps are in the Late Bloomer Playbook and Offers and Signing Day. Checkout isn't live yet, so leave your email for the link."
+    }
+   ],
+   "in_this_story": [
+    {
+     "slug": "late-bloomer",
+     "title": "Late Bloomer Playbook",
+     "price_usd": 15,
+     "status": "OUTLINE"
+    },
+    {
+     "slug": "offer-and-signing",
+     "title": "Offers & Signing Day",
+     "price_usd": 19,
+     "status": "OUTLINE"
+    }
+   ],
+   "narration": {
+    "text": "This is a composite story, built from three real recruiting paths. This is a composite story built from three sourced recruiting paths, not one real person. Maya is a club swimmer at a mid-size public high school. In this composite, Maya keeps an updated times sheet and her club coach reaches out to programs for her, a pattern a Wabash College story describes in swim recruiting. Like Derrick White's family in basketball, she sends her information widely to Division II and Division III programs, not only Division I. One rule mattered here: Division II calls, texts and emails are allowed at any time. In this composite, Maya chooses a Division II program where her times would score in the conference and where the coach shows steady interest. The real-world pattern behind that choice is athletes finding a level where they compete right away. This is one path, not a formula, and no playbook caused it. If you want the steps from this story as tools your athlete can run, they're below.",
+    "words": 171,
+    "est_seconds": 68
+   },
+   "qa_issues": []
+  }
+ ]
+}

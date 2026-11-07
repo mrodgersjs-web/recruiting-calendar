@@ -1,0 +1,117 @@
+- title: "Price | The Commit Book" [url=https://recruiting-calendar.vercel.app/price]
+- banner:
+  - link "The Commit Book home" [ref=e1]:
+    - image "The Commit Book"
+  - navigation "Main" [ref=e2]:
+    - link "Start here" [ref=e3]
+    - link "Stories" [ref=e4]
+    - link "Calendar" [ref=e5]
+    - link "Playbooks" [ref=e6]
+    - link "Rules" [ref=e7]
+    - link "Price" [ref=e8]
+  - link "Bag ()" [ref=e9]: "Bag (0)"
+- main:
+  - text: "Price"
+  - heading "One school year of dates, for less than one showcase." [level=1]
+  - text: "Prices below are proposed for launch and shown so you never need a call to learn them. Checkout is not live in this preview; leave your email to hear when founding membership opens."
+  - heading "Free" [level=3]
+  - text: "$0"
+  - list:
+    - listitem "3 dates for your sport and class year" [ref=e10]
+    - listitem "Roster math" [ref=e11]
+    - listitem "Monthly rules briefing" [ref=e12]
+  - link "Get the free guide" [ref=e13]
+  - text: "Founding members, first 100"
+  - heading "Sideline" [level=3]
+  - text: "$99/yr"
+  - list:
+    - listitem "Full calendar for one sport and class year" [ref=e14]
+    - listitem "Alerts 30 and 7 days before each date" [ref=e15]
+    - listitem "Recruiting tracker" [ref=e16]
+    - listitem "Coach scripts, visit scorecard, NIL checklist" [ref=e17]
+  - link "Start the 14-day free trial" [ref=e18] [disabled]
+  - text: "Free for 14 days, then $149 per year (proposed), renewing yearly until you cancel. Cancel online any time from your billing page. We'll show your renewal date in your account and billing page."
+  - label:
+    - checkbox "I agree that my membership renews automatically each year until I cancel." [ref=e19]
+    - text: "I agree that my membership renews automatically each year until I cancel."
+  - text: "30-day full refund. Ask by email."
+  - heading "Pathway" [level=3]
+  - text: "$499/yr"
+  - list:
+    - listitem "Everything in Sideline, for two sports or two kids" [ref=e20]
+    - listitem "Written plan review each quarter" [ref=e21]
+    - listitem "Target-school list checked against your calendar" [ref=e22]
+    - listitem "Questions answered in writing" [ref=e23]
+  - link "Choose Pathway" [ref=e24]
+  - text: "30-day full refund. Ask by email."
+  - heading "What each plan includes" [level=2]
+  - table: "Feature Plan Coach-follow signal tracker Pathway Which coaches actually use X (role benchmarks)Sideline Program & coach contact directory Pathway Target school list builder Pathway Hosted recruiting tracker (contacts, replies, next step)Sideline Recruiting progress scorecard Pathway Recruiting X profile audit Recruiting Audit Coach-eye profile review Recruiting Audit Film reel brief + cut checklist Pathway Film guide: what coaches watch first Free Sourced contact-period rules (by bylaw)Free NIL readiness checklist (state rules)Pathway Recruiting X playbook for parents Sideline Weekly recruiting content calendar (drafts only)Pathway Parent-approval gate (no auto-posting)Sideline Camp ROI checker Sideline"
+  - text: "Planned features; some are in build. Status shown at checkout."
+  - paragraph:
+    - text: "Recruiting Audit: $1,500 for a 90-minute working session and a written 12-month plan. High school and club programs:"
+    - link "$299 a year" [ref=e25]
+    - text: "."
+  - region:
+    - text: "Before you start"
+    - heading "Questions parents ask first." [level=2]
+    - button "Is this another service that promises my kid a scholarship?⌄" [ref=e26]
+    - button "Where do the dates come from?⌄" [ref=e27]
+    - button "What if it isn't worth it?⌄" [ref=e28]
+    - button "What do you collect about my kid?⌄" [ref=e29]
+    - button "How do I cancel?⌄" [ref=e30]
+  - region:
+    - heading "Start with your kid's dates." [level=2]
+    - text: "Free for 14 days, then $149 a year (proposed). Cancel online any time. 30-day full refund."
+    - link "Start free" [ref=e31] [disabled]
+    - text: "Free for 14 days, then $149 per year (proposed), renewing yearly until you cancel. Cancel online any time from your billing page. We'll show your renewal date in your account and billing page."
+    - label:
+      - checkbox "I agree that my membership renews automatically each year until I cancel." [ref=e32]
+      - text: "I agree that my membership renews automatically each year until I cancel."
+    - link "Get the free PDF" [ref=e33]
+  - heading "Reserve your price" [level=2]
+  - form:
+    - textbox "Your email" [ref=e34] [placeholder="Your email"]
+    - combobox "Sport" [ref=e35]:
+      - option "Football" (selected) value="football"
+      - option "Baseball" value="baseball"
+      - option "Track / XC" value="track"
+    - button "Reserve my founding price" [ref=e36]
+    - label:
+      - checkbox "Email me the calendar and the monthly rules briefing. Unsubscribe any time." [ref=e37]
+      - text: "Email me the calendar and the monthly rules briefing. Unsubscribe any time."
+  - text: "For parents and guardians. We do not knowingly collect information from children under 13."
+  - paragraph:
+    - text: "Memberships renew yearly until cancelled. See the"
+    - link "auto-renewal disclosure" [ref=e38]
+    - text: "and"
+    - link "30-day refund policy" [ref=e39]
+    - text: "."
+- contentinfo:
+  - image "The Commit Book"
+  - paragraph:
+    - link "Stories" [ref=e40]
+    - text: "·"
+    - link "Playbooks" [ref=e41]
+    - text: "·"
+    - link "Calendar" [ref=e42]
+    - text: "·"
+    - link "Rules by sport" [ref=e43]
+    - text: "·"
+    - link "Roster math" [ref=e44]
+    - text: "·"
+    - link "Camps" [ref=e45]
+    - text: "·"
+    - link "Compare" [ref=e46]
+    - text: "·"
+    - link "Price" [ref=e47]
+    - text: "·"
+    - link "About" [ref=e48]
+    - text: "·"
+    - link "Terms" [ref=e49]
+    - text: "·"
+    - link "Privacy" [ref=e50]
+    - text: "·"
+    - link "Refunds" [ref=e51]
+    - text: "·"
+    - link "Auto-renewal" [ref=e52]
+  - text: "Education, not legal advice. We do not recruit or place athletes, and nobody here contacts your kid. No scholarship, offer or roster spot is promised. Stories o…[+275 chars]"

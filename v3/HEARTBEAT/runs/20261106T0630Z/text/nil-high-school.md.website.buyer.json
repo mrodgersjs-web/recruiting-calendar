@@ -1,0 +1,1335 @@
+{
+  "rubric": "website.buyer",
+  "verdict": "ESCALATE",
+  "enforced": true,
+  "reasons": [
+    "ESCALATE: no usable primary action above the fold [conv_primary_action.score=1.53 <= 2.0]",
+    "ESCALATE: no price anchor on the page [money_price_visible.score=1.35 <= 2.0]",
+    "ESCALATE: low confidence on 'offer_problem_recognition' (0.00 < floor 0.20) -- distribution too flat to act on",
+    "ESCALATE: low confidence on 'offer_deliverable_tangibility' (0.00 < floor 0.20) -- distribution too flat to act on",
+    "ESCALATE: low confidence on 'money_entry_ladder' (0.00 < floor 0.20) -- distribution too flat to act on",
+    "ESCALATE: low confidence on 'conv_action_cost_low' (0.00 < floor 0.20) -- distribution too flat to act on",
+    "ESCALATE: low confidence on 'conv_objection_resolution' (0.00 < floor 0.20) -- distribution too flat to act on",
+    "ESCALATE: low confidence on 'conv_lead_capture_path' (0.07 < floor 0.20) -- distribution too flat to act on",
+    "ESCALATE: low confidence on 'conv_scan_efficiency' (0.00 < floor 0.20) -- distribution too flat to act on",
+    "ESCALATE: low confidence on 'vert_portability' (0.00 < floor 0.20) -- distribution too flat to act on",
+    "ESCALATE: low confidence on 'design_hierarchy' (0.00 < floor 0.20) -- distribution too flat to act on",
+    "ESCALATE: low confidence on 'tech_content_integrity' (0.04 < floor 0.20) -- distribution too flat to act on"
+  ],
+  "answers": {
+    "trust_five_second": {
+      "type": "score",
+      "score": 4.9,
+      "confidence": 0.38,
+      "legend": {
+        "0": "Nothing legible above the fold / Only a slogan, no business",
+        "1": "Slogan plus vague category",
+        "2": "Category readable, audience unclear",
+        "3": "Category and audience both readable",
+        "4": "Clear what/for-whom, no why-now",
+        "5": "Clear plus one differentiating claim",
+        "6": "What/for-whom/differentiator in one glance",
+        "7": "Same, and the promise is falsifiable",
+        "8": "Falsifiable promise plus visible proof",
+        "9": "Instantly: what, for whom, why you, and evidence"
+      },
+      "probabilities": {
+        "0": 0.03,
+        "1": 0.01,
+        "2": 0.02,
+        "3": 0.12,
+        "4": 0.28,
+        "5": 0.12,
+        "6": 0.27,
+        "7": 0.07,
+        "8": 0.04,
+        "9": 0.04
+      }
+    },
+    "trust_evidence_receipts": {
+      "type": "score",
+      "score": 6.68,
+      "confidence": 0.42,
+      "legend": {
+        "0": "Zero evidence of any kind / Adjectives only",
+        "1": "One vague number",
+        "2": "Generic stats, unattributed",
+        "3": "Illustrative example present",
+        "4": "Illustrative example clearly labelled",
+        "5": "Worked artifact shown",
+        "6": "Worked artifact plus named method",
+        "7": "Worked artifact plus reproducible check",
+        "8": "Multiple artifacts with provenance and dates",
+        "9": "Client-verifiable receipts, dated, contactable"
+      },
+      "probabilities": {
+        "0": 0.06,
+        "1": 0.03,
+        "2": 0.05,
+        "3": 0.04,
+        "4": 0.02,
+        "5": 0.02,
+        "6": 0.02,
+        "7": 0.04,
+        "8": 0.67,
+        "9": 0.05
+      }
+    },
+    "trust_operator_visibility": {
+      "type": "score",
+      "score": 0.03,
+      "confidence": 1.0,
+      "legend": {
+        "0": "Anonymous, no person / Company voice only",
+        "1": "A name appears once",
+        "2": "Name plus location",
+        "3": "Name plus role",
+        "4": "Named person plus their accountability",
+        "5": "Named person plus face/photo",
+        "6": "Named person, face, and role in the promise",
+        "7": "Named person commits personally to outcomes",
+        "8": "Named person plus direct contact route",
+        "9": "Face, name, personal commitment, direct line"
+      },
+      "probabilities": {
+        "0": 1.0,
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0,
+        "6": 0.0,
+        "7": 0.0,
+        "8": 0.0,
+        "9": 0.0
+      }
+    },
+    "trust_local_accountability": {
+      "type": "score",
+      "score": 0.03,
+      "confidence": 1.0,
+      "legend": {
+        "0": "No geography at all / Vague region",
+        "1": "City named in footer only",
+        "2": "City named prominently",
+        "3": "City plus \"works directly with\"",
+        "4": "City plus local service claim",
+        "5": "City plus local proof (address, phone, events)",
+        "6": "Named local person plus reachable phone",
+        "7": "Local identity is a core positioning element",
+        "8": "Local plus verifiable business registration",
+        "9": "Hyper-local trust: name, place, phone, track record"
+      },
+      "probabilities": {
+        "0": 1.0,
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0,
+        "6": 0.0,
+        "7": 0.0,
+        "8": 0.0,
+        "9": 0.0
+      }
+    },
+    "trust_operating_company": {
+      "type": "score",
+      "score": 3.22,
+      "confidence": 0.74,
+      "legend": {
+        "0": "Looks abandoned/broken / Looks like a mockup",
+        "1": "Undated, no signals",
+        "2": "Current copy but no signals",
+        "3": "Current copy plus dated content",
+        "4": "Dated content plus real routes",
+        "5": "Real routes plus working contact path",
+        "6": "Working contact path plus response expectation",
+        "7": "Adds operating detail (hours, systems, process)",
+        "8": "Adds live operational proof",
+        "9": "Unmistakably live: dated, responsive, staffed"
+      },
+      "probabilities": {
+        "0": 0.03,
+        "1": 0.01,
+        "2": 0.11,
+        "3": 0.45,
+        "4": 0.38,
+        "5": 0.01,
+        "6": 0.0,
+        "7": 0.01,
+        "8": 0.0,
+        "9": 0.0
+      }
+    },
+    "trust_claim_hygiene": {
+      "type": "score",
+      "score": 8.01,
+      "confidence": 0.6,
+      "legend": {
+        "0": "Invented clients or numbers / Unverifiable superlatives",
+        "1": "Vague implied scale",
+        "2": "Mostly safe, one risk",
+        "3": "Safe with hedged risk",
+        "4": "Safe plus explicit disclaimers",
+        "5": "Disclaimers plus labelled illustrations",
+        "6": "Labelled illustrations plus no outcome promise",
+        "7": "Every claim sourced or explicitly bounded",
+        "8": "Bounded claims plus what-the-page-will-not-promise section",
+        "9": "Model of honest claiming: bounded, sourced, negative-space stated"
+      },
+      "probabilities": {
+        "0": 0.03,
+        "1": 0.0,
+        "2": 0.02,
+        "3": 0.01,
+        "4": 0.02,
+        "5": 0.01,
+        "6": 0.03,
+        "7": 0.03,
+        "8": 0.24,
+        "9": 0.61
+      }
+    },
+    "offer_problem_recognition": {
+      "type": "score",
+      "score": 2.7,
+      "confidence": 0.0,
+      "legend": {
+        "0": "Abstract only / Category-level pain",
+        "1": "Generic pain (\"inefficiency\")",
+        "2": "Named domain of pain",
+        "3": "Named workflow, generic industry",
+        "4": "Named workflow plus failure mode",
+        "5": "Named workflow plus failure mode plus consequence",
+        "6": "Adds the moment the failure is noticed",
+        "7": "Adds who gets blamed when it fails",
+        "8": "Buyer recognises their exact incident",
+        "9": "Buyer could paste their own case into it"
+      },
+      "probabilities": {
+        "0": 0.36,
+        "1": 0.04,
+        "2": 0.09,
+        "3": 0.12,
+        "4": 0.14,
+        "5": 0.13,
+        "6": 0.05,
+        "7": 0.01,
+        "8": 0.02,
+        "9": 0.04
+      }
+    },
+    "offer_deliverable_tangibility": {
+      "type": "score",
+      "score": 4.1,
+      "confidence": 0.0,
+      "legend": {
+        "0": "Cannot tell at all / \"Solutions\"",
+        "1": "Services named, no output",
+        "2": "Outputs named abstractly",
+        "3": "One concrete deliverable named",
+        "4": "Deliverables named with contents",
+        "5": "Deliverables with contents and format",
+        "6": "Plus what is required from the buyer",
+        "7": "Plus acceptance criteria per deliverable",
+        "8": "Plus a sample of the deliverable",
+        "9": "Buyer could restate the deliverable verbatim unprompted"
+      },
+      "probabilities": {
+        "0": 0.29,
+        "1": 0.03,
+        "2": 0.06,
+        "3": 0.07,
+        "4": 0.14,
+        "5": 0.07,
+        "6": 0.06,
+        "7": 0.0,
+        "8": 0.02,
+        "9": 0.26
+      }
+    },
+    "offer_differentiation": {
+      "type": "score",
+      "score": 0.12,
+      "confidence": 0.95,
+      "legend": {
+        "0": "No differentiator / Clich\u00e9 (\"bespoke solutions\")",
+        "1": "Implied by tone",
+        "2": "One structural difference",
+        "3": "One structural difference explained",
+        "4": "Two or three differences",
+        "5": "Differences mapped to buyer outcomes",
+        "6": "Differences plus why competitors cannot do it",
+        "7": "Adds the trade-off being asked",
+        "8": "Differences are testable against a competitor page",
+        "9": "Category-defining: \"no one else offers this combination\""
+      },
+      "probabilities": {
+        "0": 0.94,
+        "1": 0.03,
+        "2": 0.01,
+        "3": 0.01,
+        "4": 0.01,
+        "5": 0.0,
+        "6": 0.0,
+        "7": 0.0,
+        "8": 0.0,
+        "9": 0.0
+      }
+    },
+    "offer_boundary_honesty": {
+      "type": "score",
+      "score": 7.4,
+      "confidence": 0.74,
+      "legend": {
+        "0": "Nothing bounded / No exclusions",
+        "1": "Implicit limits",
+        "2": "One exclusion stated",
+        "3": "Exclusions stated",
+        "4": "Exclusions plus what is separate",
+        "5": "Separates diagnosis from implementation",
+        "6": "Separates diagnosis/implementation/care",
+        "7": "Explicitly names what the page does not promise",
+        "8": "Named non-promises plus why they are excluded",
+        "9": "Full scope contract visible pre-engagement"
+      },
+      "probabilities": {
+        "0": 0.0,
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.05,
+        "5": 0.0,
+        "6": 0.0,
+        "7": 0.4,
+        "8": 0.51,
+        "9": 0.04
+      }
+    },
+    "offer_route_completeness": {
+      "type": "score",
+      "score": 0.35,
+      "confidence": 0.88,
+      "legend": {
+        "0": "No routes exist / One route",
+        "1": "Two routes",
+        "2": "Three routes",
+        "3": "Four routes, unlabeled",
+        "4": "Four routes labeled",
+        "5": "Labeled routes plus tier names",
+        "6": "Tier names plus prices where published",
+        "7": "Tiers, prices, and what each is for",
+        "8": "Plus a recommendation of which fits whom",
+        "9": "Self-selecting: every buyer knows their entry point"
+      },
+      "probabilities": {
+        "0": 0.91,
+        "1": 0.01,
+        "2": 0.0,
+        "3": 0.03,
+        "4": 0.05,
+        "5": 0.0,
+        "6": 0.0,
+        "7": 0.0,
+        "8": 0.0,
+        "9": 0.0
+      }
+    },
+    "offer_jargon_free": {
+      "type": "score",
+      "score": 4.07,
+      "confidence": 0.42,
+      "legend": {
+        "0": "Deep internal jargon / Heavy technical terms",
+        "1": "Some unexplained terms",
+        "2": "Mostly plain, a few terms",
+        "3": "Plain with terms explained",
+        "4": "Plain plus buyer vocabulary",
+        "5": "Buyer vocabulary dominant",
+        "6": "Buyer vocabulary plus their failure phrases",
+        "7": "Reads like the buyer wrote it",
+        "8": "Mirrors a specific buyer role's speech",
+        "9": "Zero jargon, maximum precision"
+      },
+      "probabilities": {
+        "0": 0.0,
+        "1": 0.05,
+        "2": 0.14,
+        "3": 0.23,
+        "4": 0.13,
+        "5": 0.27,
+        "6": 0.13,
+        "7": 0.03,
+        "8": 0.02,
+        "9": 0.0
+      }
+    },
+    "money_price_visible": {
+      "type": "score",
+      "score": 1.35,
+      "confidence": 0.48,
+      "legend": {
+        "0": "No number anywhere / Number buried off-page",
+        "1": "Price hinted",
+        "2": "One price, unclear scope",
+        "3": "One price with scope",
+        "4": "Two prices with scope",
+        "5": "Prices mapped to offerings",
+        "6": "Prices plus what changes the price",
+        "7": "Prices plus what is always extra",
+        "8": "Full pricing logic visible",
+        "9": "Buyer can compute their own likely spend"
+      },
+      "probabilities": {
+        "0": 0.52,
+        "1": 0.08,
+        "2": 0.07,
+        "3": 0.3,
+        "4": 0.01,
+        "5": 0.0,
+        "6": 0.01,
+        "7": 0.0,
+        "8": 0.0,
+        "9": 0.01
+      }
+    },
+    "money_price_justified": {
+      "type": "score",
+      "score": 1.89,
+      "confidence": 0.26,
+      "legend": {
+        "0": "Price appears arbitrary / No scope attached",
+        "1": "Thin scope attached",
+        "2": "Scope stated",
+        "3": "Scope stated with inputs",
+        "4": "Scope plus deliverable",
+        "5": "Scope plus deliverable plus timebox",
+        "6": "Adds what the price excludes",
+        "7": "Adds the alternative cost of not doing it",
+        "8": "Adds quantified buyer-side cost of the problem",
+        "9": "Price reads obviously cheap against named loss"
+      },
+      "probabilities": {
+        "0": 0.58,
+        "1": 0.02,
+        "2": 0.07,
+        "3": 0.05,
+        "4": 0.04,
+        "5": 0.07,
+        "6": 0.17,
+        "7": 0.0,
+        "8": 0.0,
+        "9": 0.0
+      }
+    },
+    "money_entry_ladder": {
+      "type": "score",
+      "score": 2.62,
+      "confidence": 0.0,
+      "legend": {
+        "0": "No free step / Free step mentioned only",
+        "1": "Free step exists",
+        "2": "Free step described",
+        "3": "Free step described with contents",
+        "4": "Contents plus immediate usefulness",
+        "5": "Immediate usefulness plus no signup required",
+        "6": "No signup plus clear route to paid",
+        "7": "Route to paid is the same page",
+        "8": "Free step demonstrably works standalone",
+        "9": "Free step is the sales pitch: trying it creates the buy"
+      },
+      "probabilities": {
+        "0": 0.43,
+        "1": 0.02,
+        "2": 0.03,
+        "3": 0.07,
+        "4": 0.07,
+        "5": 0.35,
+        "6": 0.0,
+        "7": 0.0,
+        "8": 0.02,
+        "9": 0.01
+      }
+    },
+    "money_ladder_coherence": {
+      "type": "score",
+      "score": 0.45,
+      "confidence": 0.81,
+      "legend": {
+        "0": "No ordering visible / Offerings listed flat",
+        "1": "Flat list with tiers",
+        "2": "Tiers imply order",
+        "3": "Order implied",
+        "4": "Order stated",
+        "5": "Order plus when to use each",
+        "6": "Plus the answer to \"do I need the earlier one\"",
+        "7": "Sequencing question explicitly answered",
+        "8": "Sequencing answered plus upgrade triggers",
+        "9": "A first-time buyer can pick their step unaided"
+      },
+      "probabilities": {
+        "0": 0.87,
+        "1": 0.03,
+        "2": 0.01,
+        "3": 0.02,
+        "4": 0.04,
+        "5": 0.01,
+        "6": 0.0,
+        "7": 0.01,
+        "8": 0.0,
+        "9": 0.01
+      }
+    },
+    "money_risk_reversal": {
+      "type": "score",
+      "score": 3.03,
+      "confidence": 0.52,
+      "legend": {
+        "0": "Nothing said / Implied confidence only",
+        "1": "Vague reassurance",
+        "2": "Process reduces risk",
+        "3": "Named acceptance criteria",
+        "4": "Acceptance criteria plus failure path",
+        "5": "Failure path plus exception handling",
+        "6": "Plus handover/ownership if RIG leaves",
+        "7": "Plus \"what if you stop\" continuity answer",
+        "8": "Explicit guarantee or exit terms",
+        "9": "Risk sits visibly with the seller, not the buyer"
+      },
+      "probabilities": {
+        "0": 0.03,
+        "1": 0.03,
+        "2": 0.55,
+        "3": 0.1,
+        "4": 0.13,
+        "5": 0.04,
+        "6": 0.04,
+        "7": 0.02,
+        "8": 0.04,
+        "9": 0.02
+      }
+    },
+    "money_reason_to_act": {
+      "type": "score",
+      "score": 1.88,
+      "confidence": 0.26,
+      "legend": {
+        "0": "No timing signal / Urgency is fake",
+        "1": "Generic \"get started\"",
+        "2": "Availability implied",
+        "3": "Capacity implied",
+        "4": "Capacity stated honestly",
+        "5": "Honest capacity plus what delay costs",
+        "6": "Delay cost quantified",
+        "7": "Delay cost plus dependency on acting",
+        "8": "Seasonal/operational trigger named",
+        "9": "Timing argument is the page's core logic"
+      },
+      "probabilities": {
+        "0": 0.57,
+        "1": 0.14,
+        "2": 0.02,
+        "3": 0.01,
+        "4": 0.03,
+        "5": 0.1,
+        "6": 0.01,
+        "7": 0.02,
+        "8": 0.09,
+        "9": 0.01
+      }
+    },
+    "conv_primary_action": {
+      "type": "score",
+      "score": 1.53,
+      "confidence": 0.39,
+      "legend": {
+        "0": "No action visible / Action ambiguous",
+        "1": "Multiple equal actions",
+        "2": "One action, low emphasis",
+        "3": "One action, clear",
+        "4": "One action, clear and labelled",
+        "5": "Labelled with the outcome it produces",
+        "6": "Outcome-labelled plus friction stated",
+        "7": "Plus the secondary action is clearly subordinate",
+        "8": "Action, outcome, and next-step expectation all clear",
+        "9": "Impossible to miss; competing actions removed"
+      },
+      "probabilities": {
+        "0": 0.64,
+        "1": 0.02,
+        "2": 0.08,
+        "3": 0.07,
+        "4": 0.07,
+        "5": 0.02,
+        "6": 0.03,
+        "7": 0.01,
+        "8": 0.04,
+        "9": 0.02
+      }
+    },
+    "conv_action_availability": {
+      "type": "score",
+      "score": 0.62,
+      "confidence": 0.78,
+      "legend": {
+        "0": "One action total / Action only at top",
+        "1": "Top and bottom",
+        "2": "Two mid-page repeats",
+        "3": "Three repeats",
+        "4": "Repeat at each section end",
+        "5": "Repeats plus persistent nav affordance",
+        "6": "Persistent plus sticky element",
+        "7": "Sticky plus mobile-reachable",
+        "8": "Sticky, mobile-safe, and never competes with content",
+        "9": "Action present exactly when intent is highest"
+      },
+      "probabilities": {
+        "0": 0.8,
+        "1": 0.08,
+        "2": 0.03,
+        "3": 0.02,
+        "4": 0.04,
+        "5": 0.02,
+        "6": 0.0,
+        "7": 0.0,
+        "8": 0.0,
+        "9": 0.01
+      }
+    },
+    "conv_action_cost_low": {
+      "type": "score",
+      "score": 5.69,
+      "confidence": 0.0,
+      "legend": {
+        "0": "Asks for a sale / Asks a long form",
+        "1": "Asks a call cold",
+        "2": "Asks a call, purpose unclear",
+        "3": "Asks a call, purpose clear",
+        "4": "Asks a short brief",
+        "5": "Short brief plus what happens next",
+        "6": "Plus expected response time",
+        "7": "Plus what to prepare",
+        "8": "Preparation, timing, and outcome all stated",
+        "9": "Lowest possible commitment with highest possible information"
+      },
+      "probabilities": {
+        "0": 0.22,
+        "1": 0.04,
+        "2": 0.01,
+        "3": 0.02,
+        "4": 0.09,
+        "5": 0.07,
+        "6": 0.01,
+        "7": 0.05,
+        "8": 0.02,
+        "9": 0.47
+      }
+    },
+    "conv_objection_resolution": {
+      "type": "score",
+      "score": 4.9,
+      "confidence": 0.0,
+      "legend": {
+        "0": "No objections addressed / One generic reassurance",
+        "1": "Two answers",
+        "2": "Three answers",
+        "3": "Three plus the price objection",
+        "4": "Price objection answered",
+        "5": "Price plus \"is this mandatory\" answered",
+        "6": "Plus \"what do I actually receive\"",
+        "7": "Plus \"is implementation included\"",
+        "8": "Plus \"what does this page not promise\"",
+        "9": "Answers the buyer's private doubts in their order"
+      },
+      "probabilities": {
+        "0": 0.26,
+        "1": 0.04,
+        "2": 0.07,
+        "3": 0.04,
+        "4": 0.02,
+        "5": 0.02,
+        "6": 0.04,
+        "7": 0.01,
+        "8": 0.4,
+        "9": 0.1
+      }
+    },
+    "conv_lead_capture_path": {
+      "type": "score",
+      "score": 2.36,
+      "confidence": 0.07,
+      "legend": {
+        "0": "None / Sales call only",
+        "1": "Call plus email",
+        "2": "Email route exists",
+        "3": "Email plus a low-commitment asset",
+        "4": "Asset ungated and useful",
+        "5": "Ungated asset plus optional gate",
+        "6": "Plus a no-email-needed path",
+        "7": "Multiple capture depths by commitment level",
+        "8": "Plus measurement wired to each capture",
+        "9": "A capture path matched to every intent level"
+      },
+      "probabilities": {
+        "0": 0.48,
+        "1": 0.0,
+        "2": 0.03,
+        "3": 0.01,
+        "4": 0.32,
+        "5": 0.01,
+        "6": 0.15,
+        "7": 0.0,
+        "8": 0.0,
+        "9": 0.0
+      }
+    },
+    "conv_scan_efficiency": {
+      "type": "score",
+      "score": 3.27,
+      "confidence": 0.0,
+      "legend": {
+        "0": "Requires full read / Skimmable but incomplete",
+        "1": "Offer and action only",
+        "2": "Offer, price, action",
+        "3": "Offer, price, proof, action",
+        "4": "Those four in one viewport",
+        "5": "One-screen summary plus supporting depth",
+        "6": "Plus progressive disclosure",
+        "7": "Progressive disclosure with anchors",
+        "8": "Anchored, and a skimmer cannot miss a pillar",
+        "9": "Faster to skim than to read: designed for it"
+      },
+      "probabilities": {
+        "0": 0.3,
+        "1": 0.14,
+        "2": 0.05,
+        "3": 0.11,
+        "4": 0.04,
+        "5": 0.11,
+        "6": 0.03,
+        "7": 0.04,
+        "8": 0.06,
+        "9": 0.12
+      }
+    },
+    "vert_professional_services": {
+      "type": "score",
+      "score": 2.84,
+      "confidence": 0.26,
+      "legend": {
+        "0": "No vertical language / One generic B2B phrase",
+        "1": "B2B plus size hint",
+        "2": "Named profession",
+        "3": "Named profession plus their workflow",
+        "4": "Profession, workflow, and their system stack",
+        "5": "Plus their compliance/discretion concern",
+        "6": "Concern addressed without overclaiming",
+        "7": "Names their tools and handoff partners",
+        "8": "Plus a worked scenario in that vertical",
+        "9": "This vertical would book from this page alone"
+      },
+      "probabilities": {
+        "0": 0.25,
+        "1": 0.02,
+        "2": 0.28,
+        "3": 0.14,
+        "4": 0.0,
+        "5": 0.06,
+        "6": 0.24,
+        "7": 0.01,
+        "8": 0.0,
+        "9": 0.0
+      }
+    },
+    "vert_healthcare_regulated": {
+      "type": "score",
+      "score": 0.21,
+      "confidence": 0.94,
+      "legend": {
+        "0": "Nothing healthcare-adjacent / Mentions healthcare as a claim",
+        "1": "Mentions healthcare as background",
+        "2": "Healthcare named neutrally",
+        "3": "Patient-intake workflow named",
+        "4": "Workflow plus privacy awareness",
+        "5": "Privacy-aware plus explicit no-clinical-claim statement",
+        "6": "Plus regulated-data handling posture",
+        "7": "Posture plus boundary statement (what RIG will not touch)",
+        "8": "Plus a worked regulated-intake example",
+        "9": "A regulated buyer feels understood and safe"
+      },
+      "probabilities": {
+        "0": 0.95,
+        "1": 0.01,
+        "2": 0.03,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0,
+        "6": 0.0,
+        "7": 0.01,
+        "8": 0.0,
+        "9": 0.0
+      }
+    },
+    "vert_field_industrial": {
+      "type": "score",
+      "score": 0.26,
+      "confidence": 0.91,
+      "legend": {
+        "0": "Pure software language / One operations word",
+        "1": "Operations named",
+        "2": "Ops plus shop-floor relevance",
+        "3": "Shop-floor plus crew/shift context",
+        "4": "Crew context plus offline/exception handling",
+        "5": "Plus no-jargon delivery",
+        "6": "Plus scheduling/throughput framing",
+        "7": "Framing matches their real bottleneck",
+        "8": "Plus an example in that setting",
+        "9": "A plant or site manager would shortlist from this page"
+      },
+      "probabilities": {
+        "0": 0.92,
+        "1": 0.04,
+        "2": 0.01,
+        "3": 0.01,
+        "4": 0.0,
+        "5": 0.01,
+        "6": 0.0,
+        "7": 0.0,
+        "8": 0.0,
+        "9": 0.01
+      }
+    },
+    "vert_practice_volume": {
+      "type": "score",
+      "score": 0.04,
+      "confidence": 1.0,
+      "legend": {
+        "0": "No volume/front-desk framing / Generic \"intake\"",
+        "1": "Intake plus volume hint",
+        "2": "Volume named as the problem",
+        "3": "Volume plus missed-contact consequence",
+        "4": "Consequence plus revenue framing",
+        "5": "Revenue framing without promising revenue",
+        "6": "Plus staff/role impact (who chases)",
+        "7": "Names the specific daily failure",
+        "8": "Plus a worked high-volume scenario",
+        "9": "A practice manager recognises their Monday morning"
+      },
+      "probabilities": {
+        "0": 1.0,
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0,
+        "6": 0.0,
+        "7": 0.0,
+        "8": 0.0,
+        "9": 0.0
+      }
+    },
+    "vert_portability": {
+      "type": "score",
+      "score": 3.19,
+      "confidence": 0.0,
+      "legend": {
+        "0": "Locked to one niche / Locked with jargon",
+        "1": "Mostly generic",
+        "2": "Generic enough to fit anyone",
+        "3": "Generic but specific in method",
+        "4": "Method transfers, examples localise",
+        "5": "Explicit \"does this apply to me\" answer",
+        "6": "Applies-to-me plus per-vertical entry routes",
+        "7": "Per-vertical routes plus tailored proof",
+        "8": "Plus a self-qualification device",
+        "9": "Any serious operator can map it onto their own workflow"
+      },
+      "probabilities": {
+        "0": 0.34,
+        "1": 0.03,
+        "2": 0.01,
+        "3": 0.07,
+        "4": 0.28,
+        "5": 0.08,
+        "6": 0.04,
+        "7": 0.02,
+        "8": 0.07,
+        "9": 0.06
+      }
+    },
+    "typ_free_kit": {
+      "type": "score",
+      "score": 3.77,
+      "confidence": 0.32,
+      "legend": {
+        "0": "Not present / Named only",
+        "1": "Named plus one line",
+        "2": "Contents summarised",
+        "3": "Contents itemised",
+        "4": "Itemised plus how to use it",
+        "5": "How-to-use plus no-signup needed",
+        "6": "Plus it produces an output the buyer keeps",
+        "7": "Output plus it creates a reason to buy",
+        "8": "Creates the buy for the right buyer only (honest filter)",
+        "9": "The kit alone would justify the visit"
+      },
+      "probabilities": {
+        "0": 0.13,
+        "1": 0.01,
+        "2": 0.03,
+        "3": 0.4,
+        "4": 0.19,
+        "5": 0.03,
+        "6": 0.04,
+        "7": 0.02,
+        "8": 0.09,
+        "9": 0.06
+      }
+    },
+    "typ_fixed_build": {
+      "type": "score",
+      "score": 0.92,
+      "confidence": 0.65,
+      "legend": {
+        "0": "Not present / Vague \"we build things\"",
+        "1": "Service described",
+        "2": "Named build with scope",
+        "3": "Named build, fixed scope",
+        "4": "Fixed scope plus what is included",
+        "5": "Included items plus what is separate",
+        "6": "Plus how it is quoted",
+        "7": "Quoting path plus typical boundary count",
+        "8": "Boundary count plus acceptance criteria",
+        "9": "A buyer could commission this without a call"
+      },
+      "probabilities": {
+        "0": 0.73,
+        "1": 0.05,
+        "2": 0.06,
+        "3": 0.05,
+        "4": 0.04,
+        "5": 0.06,
+        "6": 0.0,
+        "7": 0.0,
+        "8": 0.0,
+        "9": 0.01
+      }
+    },
+    "typ_paid_review": {
+      "type": "score",
+      "score": 0.45,
+      "confidence": 0.83,
+      "legend": {
+        "0": "Not present / Present, no price",
+        "1": "Priced, no scope",
+        "2": "Priced with thin scope",
+        "3": "Priced with scope",
+        "4": "Scope plus deliverable named",
+        "5": "Deliverable plus who can use it independently",
+        "6": "Independently usable plus timeboxed",
+        "7": "Timeboxed plus optional (not mandatory)",
+        "8": "Optional-and-why plus what it prevents",
+        "9": "The fee looks like the cheap option"
+      },
+      "probabilities": {
+        "0": 0.93,
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.01,
+        "5": 0.01,
+        "6": 0.03,
+        "7": 0.01,
+        "8": 0.01,
+        "9": 0.0
+      }
+    },
+    "typ_care_retainer": {
+      "type": "score",
+      "score": 0.18,
+      "confidence": 0.92,
+      "legend": {
+        "0": "Absent / Mentioned once",
+        "1": "Named as a tier",
+        "2": "Named plus what it covers",
+        "3": "Covers monitoring/maintenance",
+        "4": "Plus explicitly separate agreement",
+        "5": "Separate plus what triggers needing it",
+        "6": "Plus honest product-maturity status",
+        "7": "Maturity stated plus boundaries",
+        "8": "Boundaries plus scaling logic",
+        "9": "A buyer can plan multi-year cost from this page"
+      },
+      "probabilities": {
+        "0": 0.95,
+        "1": 0.01,
+        "2": 0.01,
+        "3": 0.01,
+        "4": 0.0,
+        "5": 0.0,
+        "6": 0.01,
+        "7": 0.01,
+        "8": 0.0,
+        "9": 0.0
+      }
+    },
+    "design_hierarchy": {
+      "type": "score",
+      "score": 5.34,
+      "confidence": 0.0,
+      "legend": {
+        "0": "Eye lands on decoration / No hierarchy",
+        "1": "Flat hierarchy",
+        "2": "Headline only",
+        "3": "Headline plus one action",
+        "4": "Action clearly subordinate to headline",
+        "5": "Correct order: problem, then proof, then action",
+        "6": "Plus supporting detail recedes",
+        "7": "Recedes but stays findable",
+        "8": "Scannable path in reading order",
+        "9": "Hierarchy does the selling in the right sequence"
+      },
+      "probabilities": {
+        "0": 0.04,
+        "1": 0.04,
+        "2": 0.15,
+        "3": 0.07,
+        "4": 0.12,
+        "5": 0.08,
+        "6": 0.05,
+        "7": 0.07,
+        "8": 0.28,
+        "9": 0.1
+      }
+    },
+    "design_visual_evidence": {
+      "type": "score",
+      "score": 0.03,
+      "confidence": 1.0,
+      "legend": {
+        "0": "Zero imagery / Abstract decoration only",
+        "1": "Icons only",
+        "2": "Icons plus shapes",
+        "3": "One non-photographic anchor",
+        "4": "A real portrait",
+        "5": "Portrait plus one artifact image",
+        "6": "Portrait plus artifact plus place",
+        "7": "All three, and images carry meaning",
+        "8": "Meaningful images plus captions/dates",
+        "9": "Visual evidence alone would persuade a skeptic"
+      },
+      "probabilities": {
+        "0": 1.0,
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0,
+        "6": 0.0,
+        "7": 0.0,
+        "8": 0.0,
+        "9": 0.0
+      }
+    },
+    "design_premium_craft": {
+      "type": "score",
+      "score": 3.87,
+      "confidence": 0.4,
+      "legend": {
+        "0": "Off-the-shelf obvious / Template with swapped copy",
+        "1": "Near-standard layout",
+        "2": "Layout adjusted to content",
+        "3": "Layout shaped to content",
+        "4": "Consistent system visible",
+        "5": "System plus considered typography",
+        "6": "Typography carries meaning (not decoration)",
+        "7": "Meaningful type plus restrained palette",
+        "8": "Restrained palette with deliberate accents",
+        "9": "A buyer infers the same care would reach their work"
+      },
+      "probabilities": {
+        "0": 0.05,
+        "1": 0.08,
+        "2": 0.09,
+        "3": 0.18,
+        "4": 0.24,
+        "5": 0.18,
+        "6": 0.08,
+        "7": 0.05,
+        "8": 0.03,
+        "9": 0.02
+      }
+    },
+    "design_brand_fidelity": {
+      "type": "score",
+      "score": 0.67,
+      "confidence": 0.75,
+      "legend": {
+        "0": "No identity / Colors clash",
+        "1": "Partly applied",
+        "2": "Applied to hero only",
+        "3": "Hero plus sections",
+        "4": "Whole page consistent",
+        "5": "Consistent plus type system matches brand",
+        "6": "Type and colour and spacing unified",
+        "7": "Unified and distinct from the template source",
+        "8": "Distinctive and ownable",
+        "9": "The identity is itself a credibility asset"
+      },
+      "probabilities": {
+        "0": 0.82,
+        "1": 0.03,
+        "2": 0.02,
+        "3": 0.02,
+        "4": 0.07,
+        "5": 0.02,
+        "6": 0.02,
+        "7": 0.0,
+        "8": 0.0,
+        "9": 0.0
+      }
+    },
+    "design_mobile_integrity": {
+      "type": "score",
+      "score": 4.14,
+      "confidence": 0.39,
+      "legend": {
+        "0": "Scroll is broken / Fixed artboard clips content",
+        "1": "Horizontal overflow",
+        "2": "Fits but unreadable",
+        "3": "Fits and readable",
+        "4": "Reflows with minor loss",
+        "5": "Clean reflow",
+        "6": "Clean reflow, touch targets adequate",
+        "7": "Plus reduced-motion respected",
+        "8": "Reduced motion plus no-JS legible",
+        "9": "Mobile is the better experience"
+      },
+      "probabilities": {
+        "0": 0.02,
+        "1": 0.16,
+        "2": 0.01,
+        "3": 0.16,
+        "4": 0.07,
+        "5": 0.37,
+        "6": 0.13,
+        "7": 0.02,
+        "8": 0.05,
+        "9": 0.01
+      }
+    },
+    "design_density_balance": {
+      "type": "score",
+      "score": 6.73,
+      "confidence": 0.25,
+      "legend": {
+        "0": "Almost nothing on the page / Sparse to the point of suspicion",
+        "1": "Thin",
+        "2": "Adequate but dry",
+        "3": "Balanced",
+        "4": "Balanced with grouping",
+        "5": "Grouped with visual relief",
+        "6": "Relief plus progressive disclosure",
+        "7": "Disclosure plus scannable summaries",
+        "8": "Every density level serves a different reader",
+        "9": "Long enough to convince, short enough to finish"
+      },
+      "probabilities": {
+        "0": 0.0,
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.01,
+        "4": 0.05,
+        "5": 0.32,
+        "6": 0.05,
+        "7": 0.22,
+        "8": 0.08,
+        "9": 0.27
+      }
+    },
+    "tech_seo_ready": {
+      "type": "score",
+      "score": 3.24,
+      "confidence": 0.77,
+      "legend": {
+        "0": "No semantic structure / Divs only",
+        "1": "Some headings",
+        "2": "Heading hierarchy correct",
+        "3": "Correct plus title",
+        "4": "Title plus meta description",
+        "5": "Plus Open Graph",
+        "6": "Plus canonical",
+        "7": "Plus structured data",
+        "8": "Structured data plus alt/anchor semantics",
+        "9": "Fully describable by a crawler and a share preview"
+      },
+      "probabilities": {
+        "0": 0.01,
+        "1": 0.02,
+        "2": 0.11,
+        "3": 0.77,
+        "4": 0.03,
+        "5": 0.0,
+        "6": 0.0,
+        "7": 0.0,
+        "8": 0.0,
+        "9": 0.06
+      }
+    },
+    "tech_accessibility": {
+      "type": "score",
+      "score": 3.48,
+      "confidence": 0.75,
+      "legend": {
+        "0": "Semantically empty / Non-semantic divs",
+        "1": "Landmarks absent",
+        "2": "Some landmarks",
+        "3": "Landmarks present",
+        "4": "Plus heading structure",
+        "5": "Heading structure plus labelled controls",
+        "6": "Plus contrast checked",
+        "7": "Contrast plus reduced-motion and focus order",
+        "8": "All of the above plus images described",
+        "9": "Audited: keyboard, reader, contrast, motion, text-spacing"
+      },
+      "probabilities": {
+        "0": 0.02,
+        "1": 0.12,
+        "2": 0.06,
+        "3": 0.02,
+        "4": 0.75,
+        "5": 0.02,
+        "6": 0.01,
+        "7": 0.0,
+        "8": 0.0,
+        "9": 0.0
+      }
+    },
+    "tech_performance": {
+      "type": "score",
+      "score": 7.92,
+      "confidence": 0.58,
+      "legend": {
+        "0": "Heavy third-party stack / External fonts plus video",
+        "1": "External fonts",
+        "2": "External requests present",
+        "3": "Self-hosted, heavy",
+        "4": "Self-hosted, moderate",
+        "5": "Self-hosted and lean",
+        "6": "Lean plus image budget controlled",
+        "7": "Controlled plus LCP independent of animation",
+        "8": "All of the above plus no layout shift",
+        "9": "Sub-second mobile LCP with nothing third-party"
+      },
+      "probabilities": {
+        "0": 0.0,
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.02,
+        "5": 0.19,
+        "6": 0.03,
+        "7": 0.03,
+        "8": 0.05,
+        "9": 0.68
+      }
+    },
+    "tech_content_integrity": {
+      "type": "score",
+      "score": 2.42,
+      "confidence": 0.04,
+      "legend": {
+        "0": "Most content missing / Hero only",
+        "1": "Hero plus one section",
+        "2": "Half the offering present",
+        "3": "Offerings present, proof missing",
+        "4": "Proof present, FAQ missing",
+        "5": "FAQ present, disclosures missing",
+        "6": "All sections present",
+        "7": "Present and correctly labelled (illustrative vs real)",
+        "8": "Labelled with no clipped or hidden content",
+        "9": "Complete, correct, and verifiable against the contract"
+      },
+      "probabilities": {
+        "0": 0.58,
+        "1": 0.01,
+        "2": 0.01,
+        "3": 0.13,
+        "4": 0.01,
+        "5": 0.0,
+        "6": 0.09,
+        "7": 0.03,
+        "8": 0.07,
+        "9": 0.07
+      }
+    },
+    "anti_slop_genericity": {
+      "type": "score",
+      "score": 6.51,
+      "confidence": 0.64,
+      "legend": {
+        "0": "Full AI-slop clich\u00e9 set / Clich\u00e9 plus stock phrase",
+        "1": "Two clich\u00e9s",
+        "2": "One clich\u00e9",
+        "3": "Near-clich\u00e9",
+        "4": "Clich\u00e9-free but generic",
+        "5": "Generic but specific copy",
+        "6": "Specific copy plus distinctive layout",
+        "7": "Distinctive layout plus proprietary framing",
+        "8": "Proprietary framing throughout",
+        "9": "Could not be anyone else's page"
+      },
+      "probabilities": {
+        "0": 0.0,
+        "1": 0.0,
+        "2": 0.01,
+        "3": 0.01,
+        "4": 0.01,
+        "5": 0.09,
+        "6": 0.38,
+        "7": 0.31,
+        "8": 0.17,
+        "9": 0.02
+      }
+    },
+    "authority_posture": {
+      "type": "score",
+      "score": 4.5,
+      "confidence": 0.78,
+      "legend": {
+        "0": "Begging for the sale / Eager",
+        "1": "Neutral vendor voice",
+        "2": "Confident vendor",
+        "3": "Neutral-expert",
+        "4": "Expert posture with named standards",
+        "5": "Standards plus boundaries on who it suits",
+        "6": "Suits/does-not-suit stated",
+        "7": "Declines unfit work explicitly",
+        "8": "Explicitly selective",
+        "9": "Peer-to-peer: the buyer qualifies themselves"
+      },
+      "probabilities": {
+        "0": 0.0,
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.03,
+        "4": 0.57,
+        "5": 0.3,
+        "6": 0.08,
+        "7": 0.02,
+        "8": 0.0,
+        "9": 0.0
+      }
+    }
+  },
+  "model": "jev-1.14.0",
+  "latency_ms": 197,
+  "advisory": false,
+  "state_sha256": "609bf01b036f736ebf4a4c3819e15c03f529c848448896d297e6b553bddfa1a4",
+  "state_preview": "# NIL for High Schoolers\n### For HS athletes and parents asked about a deal. Checked 2026-11-05.\n\n> Education, not legal advice. Nothing here promises an offer, aid, a roster spot, playing time or income. Confirm every rule with each school's compliance office. TO VERIFY = not confirmed against a primary source on 2026-11-05. Not tax advice either: talk to a tax professional.\n\n---\n\n## Contents\n1. Two rulebooks, not one\n2. What the NCAA says now\n3. Recruiting-inducement risk\n4. The 25-question de",
+  "error": null,
+  "decision_id": 311171,
+  "cache_hit": false
+}
+{"exit":2}

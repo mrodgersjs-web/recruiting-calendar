@@ -1,0 +1,335 @@
+{
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "{\n  \"data\": {\n    \"subreddit\": \"Homeplate\",\n    \"query\": \"recruiting\",\n    \"sort\": \"comments\",\n    \"timeframe\": \"all\",\n    \"posts\": [\n      {\n        \"id\": \"1x4k4zv\",\n        \"postId\": \"t3_1x4k4zv\",\n        \"title\": \"20+ Years Scouting\",\n        \"url\": \"https://www.reddit.com/r/Homeplate/comments/1x4k4zv/20_years_scouting/\",\n        \"permalink\": \"/r/Homeplate/comments/1x4k4zv/20_years_scouting/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"scoutsreportbaseball\",\n          \"id\": \"t2_2oqnoibf39\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"Homeplate\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 27,\n          \"comments\": 137,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2026-10-13T01:46:50.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 0,\n        \"relativePosition\": 0\n      },\n      {\n        \"id\": \"1v03jrv\",\n        \"postId\": \"t3_1v03jrv\",\n        \"title\": \"I'm a D1 college pitcher \u2014 ask me anything\",\n        \"url\": \"https://www.reddit.com/r/Homeplate/comments/1v03jrv/im_a_d1_college_pitcher_ask_me_anything/\",\n        \"permalink\": \"/r/Homeplate/comments/1v03jrv/im_a_d1_college_pitcher_ask_me_anything/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"NecessaryBuilding585\",\n          \"id\": \"t2_2ip3c2qic2\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"Homeplate\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 26,\n          \"comments\": 114,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2026-07-18T18:32:04.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 1,\n        \"relativePosition\": 1\n      },\n      {\n        \"id\": \"1lzwh13\",\n        \"postId\": \"t3_1lzwh13\",\n        \"title\": \"How is my 4 year olds form? hoping to get him recruited by an ELITE 5u travel team.\",\n        \"url\": \"https://www.reddit.com/r/Homeplate/comments/1lzwh13/how_is_my_4_year_olds_form_hoping_to_get_him/\",\n        \"permalink\": \"/r/Homeplate/comments/1lzwh13/how_is_my_4_year_olds_form_hoping_to_get_him/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"Durka_Dur\",\n          \"id\": \"t2_9wxf4\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"Homeplate\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 32,\n          \"comments\": 113,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2025-07-14T19:46:54.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 2,\n        \"relativePosition\": 2\n      },\n      {\n        \"id\": \"148p1bv\",\n        \"postId\": \"t3_148p1bv\",\n        \"title\": \"Does anyone else feel like Baseball is so focused on farming now?\",\n        \"url\": \"https://www.reddit.com/r/Homeplate/comments/148p1bv/does_anyone_else_feel_like_baseball_is_so_focused/\",\n        \"permalink\": \"/r/Homeplate/comments/148p1bv/does_anyone_else_feel_like_baseball_is_so_focused/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": null,\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"Homeplate\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 39,\n          \"comments\": 108,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2023-06-13T20:39:10.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 3,\n        \"relativePosition\": 3\n      },\n      {\n        \"id\": \"155y6bz\",\n        \"postId\": \"t3_155y6bz\",\n        \"title\": \"My kid wants to transfer to play JUCO. Advice?\",\n        \"url\": \"https://www.reddit.com/r/Homeplate/comments/155y6bz/my_kid_wants_to_transfer_to_play_juco_advice/\",\n        \"permalink\": \"/r/Homeplate/comments/155y6bz/my_kid_wants_to_transfer_to_play_juco_advice/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"ElectricalSense4858\",\n          \"id\": \"t2_vf8k3o3b\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"Homeplate\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 8,\n          \"comments\": 96,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2023-07-21T19:50:01.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 4,\n        \"relativePosition\": 4\n      },\n      {\n        \"id\": \"1fd2sfu\",\n        \"postId\": \"t3_1fd2sfu\",\n        \"title\": \"Found out my 10 year old sons USSSA coach paid for Top Performers on the team\",\n        \"url\": \"https://www.reddit.com/r/Homeplate/comments/1fd2sfu/found_out_my_10_year_old_sons_usssa_coach_paid/\",\n        \"permalink\": \"/r/Homeplate/comments/1fd2sfu/found_out_my_10_year_old_sons_usssa_coach_paid/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"ChemicalKangaroo6687\",\n          \"id\": \"t2_7lxsux1a\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"Homeplate\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 14,\n          \"comments\": 84,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2024-09-09T22:43:22.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 5,\n        \"relativePosition\": 5\n      },\n      {\n        \"id\": \"1mefb8i\",\n        \"postId\": \"t3_1mefb8i\",\n        \"title\": \"Recruiting\",\n        \"url\": \"https://www.reddit.com/r/Homeplate/comments/1mefb8i/recruiting/\",\n        \"permalink\": \"/r/Homeplate/comments/1mefb8i/recruiting/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"BDecker1999\",\n          \"id\": \"t2_1uq1aokbuf\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"Homeplate\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 5,\n          \"comments\": 80,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2025-07-31T22:18:53.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 6,\n        \"relativePosition\": 6\n      }\n    ],\n    \"totalResults\": 7,\n    \"page\": {\n      \"nextCursor\": \"eyJjYW5kaWRhdGVzX3JldHVybmVkIjoie1wic2VjdGlvbl8xX3BpcGVsaW5lXzBfZ2xvYmFsX21vZGlmaWVyc1wiOlwiMVwiLFwic2VjdGlvbl8xX3BpcGVsaW5lXzFfbG9jYWxfbW9kaWZpZXJzXCI6XCIyXCIsXCJzZWN0aW9uXzJfcGlwZWxpbmVfN19zY29wZV9zd2l0Y2hlclwiOlwiMFwiLFwic2VjdGlvbl8yX3BpcGVsaW5lXzhfcG9zdF9zZWFyY2hcIjpcIjdcIixcInNlY3Rpb25fM19waXBlbGluZV8wX3NpZGViYXJfY29tbXVuaXR5X2luZm9cIjpcIjBcIn0iLCJleHBlcmllbmNlX3NlbGVjdGlvbiI6InBvc3Rfd2l0aF9jb21tdW5pdHlfc2lkZWJhciIsImV4cGVyaWVuY2VfdmVyc2lvbiI6ImRlZmF1bHQiLCJzZWN0aW9uXzJfcGlwZWxpbmVfOF9wb3N0X3NlYXJjaCI6IjcifQ==\",\n      \"hasMore\": true\n    }\n  },\n  \"meta\": {\n    \"requestId\": \"req_466c3c25-f73a-40d4-b51b-fad2bfccd916\",\n    \"creditsCharged\": 1,\n    \"version\": \"v1\"\n  }\n}"
+   },
+   {
+    "type": "text",
+    "text": "{\"conversation_id\":\"01a1af66-4cbe-7f8f-950d-733226b74ce4\"}"
+   }
+  ],
+  "structuredContent": {
+   "data": {
+    "subreddit": "Homeplate",
+    "query": "recruiting",
+    "sort": "comments",
+    "timeframe": "all",
+    "posts": [
+     {
+      "id": "1x4k4zv",
+      "postId": "t3_1x4k4zv",
+      "title": "20+ Years Scouting",
+      "url": "https://www.reddit.com/r/Homeplate/comments/1x4k4zv/20_years_scouting/",
+      "permalink": "/r/Homeplate/comments/1x4k4zv/20_years_scouting/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "scoutsreportbaseball",
+       "id": "t2_2oqnoibf39"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "Homeplate",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 27,
+       "comments": 137,
+       "upvoteRatio": null
+      },
+      "createdAt": "2026-10-13T01:46:50.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 0,
+      "relativePosition": 0
+     },
+     {
+      "id": "1v03jrv",
+      "postId": "t3_1v03jrv",
+      "title": "I'm a D1 college pitcher \u2014 ask me anything",
+      "url": "https://www.reddit.com/r/Homeplate/comments/1v03jrv/im_a_d1_college_pitcher_ask_me_anything/",
+      "permalink": "/r/Homeplate/comments/1v03jrv/im_a_d1_college_pitcher_ask_me_anything/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "NecessaryBuilding585",
+       "id": "t2_2ip3c2qic2"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "Homeplate",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 26,
+       "comments": 114,
+       "upvoteRatio": null
+      },
+      "createdAt": "2026-07-18T18:32:04.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 1,
+      "relativePosition": 1
+     },
+     {
+      "id": "1lzwh13",
+      "postId": "t3_1lzwh13",
+      "title": "How is my 4 year olds form? hoping to get him recruited by an ELITE 5u travel team.",
+      "url": "https://www.reddit.com/r/Homeplate/comments/1lzwh13/how_is_my_4_year_olds_form_hoping_to_get_him/",
+      "permalink": "/r/Homeplate/comments/1lzwh13/how_is_my_4_year_olds_form_hoping_to_get_him/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "Durka_Dur",
+       "id": "t2_9wxf4"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "Homeplate",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 32,
+       "comments": 113,
+       "upvoteRatio": null
+      },
+      "createdAt": "2025-07-14T19:46:54.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 2,
+      "relativePosition": 2
+     },
+     {
+      "id": "148p1bv",
+      "postId": "t3_148p1bv",
+      "title": "Does anyone else feel like Baseball is so focused on farming now?",
+      "url": "https://www.reddit.com/r/Homeplate/comments/148p1bv/does_anyone_else_feel_like_baseball_is_so_focused/",
+      "permalink": "/r/Homeplate/comments/148p1bv/does_anyone_else_feel_like_baseball_is_so_focused/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": null,
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "Homeplate",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 39,
+       "comments": 108,
+       "upvoteRatio": null
+      },
+      "createdAt": "2023-06-13T20:39:10.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 3,
+      "relativePosition": 3
+     },
+     {
+      "id": "155y6bz",
+      "postId": "t3_155y6bz",
+      "title": "My kid wants to transfer to play JUCO. Advice?",
+      "url": "https://www.reddit.com/r/Homeplate/comments/155y6bz/my_kid_wants_to_transfer_to_play_juco_advice/",
+      "permalink": "/r/Homeplate/comments/155y6bz/my_kid_wants_to_transfer_to_play_juco_advice/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "ElectricalSense4858",
+       "id": "t2_vf8k3o3b"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "Homeplate",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 8,
+       "comments": 96,
+       "upvoteRatio": null
+      },
+      "createdAt": "2023-07-21T19:50:01.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 4,
+      "relativePosition": 4
+     },
+     {
+      "id": "1fd2sfu",
+      "postId": "t3_1fd2sfu",
+      "title": "Found out my 10 year old sons USSSA coach paid for Top Performers on the team",
+      "url": "https://www.reddit.com/r/Homeplate/comments/1fd2sfu/found_out_my_10_year_old_sons_usssa_coach_paid/",
+      "permalink": "/r/Homeplate/comments/1fd2sfu/found_out_my_10_year_old_sons_usssa_coach_paid/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "ChemicalKangaroo6687",
+       "id": "t2_7lxsux1a"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "Homeplate",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 14,
+       "comments": 84,
+       "upvoteRatio": null
+      },
+      "createdAt": "2024-09-09T22:43:22.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 5,
+      "relativePosition": 5
+     },
+     {
+      "id": "1mefb8i",
+      "postId": "t3_1mefb8i",
+      "title": "Recruiting",
+      "url": "https://www.reddit.com/r/Homeplate/comments/1mefb8i/recruiting/",
+      "permalink": "/r/Homeplate/comments/1mefb8i/recruiting/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "BDecker1999",
+       "id": "t2_1uq1aokbuf"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "Homeplate",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 5,
+       "comments": 80,
+       "upvoteRatio": null
+      },
+      "createdAt": "2025-07-31T22:18:53.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 6,
+      "relativePosition": 6
+     }
+    ],
+    "totalResults": 7,
+    "page": {
+     "nextCursor": "eyJjYW5kaWRhdGVzX3JldHVybmVkIjoie1wic2VjdGlvbl8xX3BpcGVsaW5lXzBfZ2xvYmFsX21vZGlmaWVyc1wiOlwiMVwiLFwic2VjdGlvbl8xX3BpcGVsaW5lXzFfbG9jYWxfbW9kaWZpZXJzXCI6XCIyXCIsXCJzZWN0aW9uXzJfcGlwZWxpbmVfN19zY29wZV9zd2l0Y2hlclwiOlwiMFwiLFwic2VjdGlvbl8yX3BpcGVsaW5lXzhfcG9zdF9zZWFyY2hcIjpcIjdcIixcInNlY3Rpb25fM19waXBlbGluZV8wX3NpZGViYXJfY29tbXVuaXR5X2luZm9cIjpcIjBcIn0iLCJleHBlcmllbmNlX3NlbGVjdGlvbiI6InBvc3Rfd2l0aF9jb21tdW5pdHlfc2lkZWJhciIsImV4cGVyaWVuY2VfdmVyc2lvbiI6ImRlZmF1bHQiLCJzZWN0aW9uXzJfcGlwZWxpbmVfOF9wb3N0X3NlYXJjaCI6IjcifQ==",
+     "hasMore": true
+    }
+   },
+   "meta": {
+    "requestId": "req_466c3c25-f73a-40d4-b51b-fad2bfccd916",
+    "creditsCharged": 1,
+    "version": "v1"
+   },
+   "card": {
+    "kind": "search",
+    "title": "Search results",
+    "subtitle": "7 results",
+    "resultCount": 7,
+    "items": [
+     {
+      "title": "20+ Years Scouting",
+      "subtitle": "@scoutsreportbaseball \u00b7 13 Oct 2026",
+      "href": "https://www.reddit.com/r/Homeplate/comments/1x4k4zv/20_years_scouting/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "I'm a D1 college pitcher \u2014 ask me anything",
+      "subtitle": "@NecessaryBuilding585 \u00b7 18 Jul 2026",
+      "href": "https://www.reddit.com/r/Homeplate/comments/1v03jrv/im_a_d1_college_pitcher_ask_me_anything/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "How is my 4 year olds form? hoping to get him recruited by an ELITE 5u travel team.",
+      "subtitle": "@Durka_Dur \u00b7 14 Jul 2025",
+      "href": "https://www.reddit.com/r/Homeplate/comments/1lzwh13/how_is_my_4_year_olds_form_hoping_to_get_him/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Does anyone else feel like Baseball is so focused on farming now?",
+      "subtitle": "13 Jun 2023",
+      "href": "https://www.reddit.com/r/Homeplate/comments/148p1bv/does_anyone_else_feel_like_baseball_is_so_focused/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "My kid wants to transfer to play JUCO. Advice?",
+      "subtitle": "@ElectricalSense4858 \u00b7 21 Jul 2023",
+      "href": "https://www.reddit.com/r/Homeplate/comments/155y6bz/my_kid_wants_to_transfer_to_play_juco_advice/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Found out my 10 year old sons USSSA coach paid for Top Performers on the team",
+      "subtitle": "@ChemicalKangaroo6687 \u00b7 9 Sept 2024",
+      "href": "https://www.reddit.com/r/Homeplate/comments/1fd2sfu/found_out_my_10_year_old_sons_usssa_coach_paid/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Recruiting",
+      "subtitle": "@BDecker1999 \u00b7 31 Jul 2025",
+      "href": "https://www.reddit.com/r/Homeplate/comments/1mefb8i/recruiting/",
+      "platform": "Reddit"
+     }
+    ]
+   }
+  }
+ },
+ "jsonrpc": "2.0",
+ "id": 1
+}

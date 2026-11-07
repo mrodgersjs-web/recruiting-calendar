@@ -1,0 +1,70 @@
+blank-q1 0.0 broken or empty
+blank-q2 0.0 broken or empty
+blank-q3 0.0 broken or empty
+blank-q4 0.0 broken or empty
+blank-q5 0.0 broken or empty
+d1-1440-q1 0.77 None
+d1-1440-q2 0.43 None
+d1-1440-q3 0.13 None
+d1-1440-q4 0.78 None
+d1-1440-q5 0.4 None
+d1-390-q1 0.55 None
+d1-390-q2 0.31 None
+d1-390-q3 0.17 None
+d1-390-q4 0.68 None
+d1-390-q5 0.26 None
+d2-1440-q1 0.76 None
+d2-1440-q2 0.55 None
+d2-1440-q3 0.28 None
+d2-1440-q4 0.56 None
+d2-1440-q5 0.68 None
+d2-390-q1 0.54 None
+d2-390-q2 0.24 None
+d2-390-q3 0.12 weak: generic
+d2-390-q4 0.58 None
+d2-390-q5 0.42 None
+d3-1440-q1 0.72 None
+d3-1440-q2 0.59 None
+d3-1440-q3 0.35 None
+d3-1440-q4 0.74 None
+d3-1440-q5 0.48 None
+d3-390-q1 0.43 None
+d3-390-q2 0.22 None
+d3-390-q3 0.15 None
+d3-390-q4 0.45 None
+d3-390-q5 0.36 None
+home-mid-1440-q1 0.67 None
+home-mid-1440-q2 0.3 None
+home-mid-1440-q3 0.23 None
+home-mid-1440-q4 0.54 None
+home-mid-1440-q5 0.53 None
+home-mid-390-q1 0.68 would stop a scroll
+home-mid-390-q2 0.38 ok: competent but forgettable
+home-mid-390-q3 0.09 None
+home-mid-390-q4 0.33 ok: competent but forgettable
+home-mid-390-q5 0.53 None
+home-rest-1440-q1 0.61 None
+home-rest-1440-q2 0.31 None
+home-rest-1440-q3 0.22 None
+home-rest-1440-q4 0.54 None
+home-rest-1440-q5 0.46 None
+home-rest-390-q1 0.67 would stop a scroll
+home-rest-390-q2 0.34 ok: competent but forgettable
+home-rest-390-q3 0.1 None
+home-rest-390-q4 0.32 ok: competent but forgettable
+home-rest-390-q5 0.65 None
+price-1440-q1 0.42 ok: competent but forgettable
+price-1440-q2 0.08 ok: competent but forgettable
+price-1440-q3 0.01 broken or empty
+price-1440-q4 0.73 None
+price-1440-q5 0.82 None
+price-390-q1 0.5 None
+price-390-q2 0.18 None
+price-390-q3 0.26 None
+price-390-q4 0.61 None
+price-390-q5 0.48 None
+v1-almanac-q1 0.0 weak: generic
+v1-almanac-q2 0.0 weak: generic
+v1-almanac-q3 0.01 broken or empty
+v1-almanac-q4 0.01 None
+v1-almanac-q5 0.07 None

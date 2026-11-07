@@ -1,0 +1,86 @@
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "When can college coaches contact my kid?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Most D1 sports: June 15 after sophomore year. D1 baseball: August 1 of junior year. D2: calls any time, in-person June 15."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "When does D1 baseball recruiting start?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "D1 baseball coaches may start calling, texting and emailing August 1 of junior year; off-campus contact and visits open September 1."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "When can track and cross country coaches contact athletes?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "June 15 after sophomore year for calls, messages and off-campus contact (changed October 7, 2026). Visits open August 1 of junior year."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "When are NCAA official visits allowed?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "It depends on sport and division: D1 football April 1 of junior year, D1 track August 1, D1 baseball September 1, D3 January 1 of junior year."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "What is the NCAA 10/7 core course rule?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "D1 requires 10 of 16 core courses, 7 of them English, math or science, finished before the seventh semester. Those grades lock."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "What GPA does my kid need for NCAA Division I?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "At least a 2.3 core-course GPA across all 16 NCAA core courses. A transcript GPA is not the same as a core GPA."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Does my kid need an NCAA Eligibility Center account, and what does it cost?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "D1 and D2 recruits need a certification account ($110 domestic, fee waivers possible) before any D1 official visit. The free Profile Page is not enough."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "When can a college make a written scholarship offer?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "D1 football: not before November 15 of senior year (rule adopted October 2025). D1 track: not before August 1 of senior year. Verbal offers are not binding."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "When is signing day for the Class of 2029?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Projected from current rules: D1 football early period Nov 29 to Dec 1, 2028 and regular date Feb 7, 2029; D1 baseball and track open Nov 8, 2028. Not yet published by the NCAA."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Does Division III offer athletic scholarships?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "No. D3 offers no athletic scholarships; aid is academic and need-based. D3 official visits open January 1 of junior year."
+   }
+  }
+ ]
+}

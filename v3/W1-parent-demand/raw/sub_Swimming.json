@@ -1,0 +1,332 @@
+{
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "{\n  \"data\": {\n    \"subreddit\": \"Swimming\",\n    \"query\": \"college recruiting\",\n    \"sort\": \"comments\",\n    \"timeframe\": \"all\",\n    \"posts\": [\n      {\n        \"id\": \"8ch6ot\",\n        \"postId\": \"t3_8ch6ot\",\n        \"title\": \"Hey r/Swimming, This is Ian Finnerty/ Junior at Indiana University. I recently set the American Record in the 100yd breast. AMA about technique, college recruiting, or sets I do!\",\n        \"url\": \"https://www.reddit.com/r/Swimming/comments/8ch6ot/hey_rswimming_this_is_ian_finnerty_junior_at/\",\n        \"permalink\": \"/r/Swimming/comments/8ch6ot/hey_rswimming_this_is_ian_finnerty_junior_at/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"swimma2015\",\n          \"id\": \"t2_td4fjrc\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"Swimming\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 397,\n          \"comments\": 148,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2018-04-15T18:40:10.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 0,\n        \"relativePosition\": 0\n      },\n      {\n        \"id\": \"1ld42in\",\n        \"postId\": \"t3_1ld42in\",\n        \"title\": \"15 Y/O - recruiting chances for D1/D2 and how to handle recruiting?\",\n        \"url\": \"https://www.reddit.com/r/Swimming/comments/1ld42in/15_yo_recruiting_chances_for_d1d2_and_how_to/\",\n        \"permalink\": \"/r/Swimming/comments/1ld42in/15_yo_recruiting_chances_for_d1d2_and_how_to/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"Aggressive-Cow5399\",\n          \"id\": \"t2_mk2uy63g\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"Swimming\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 10,\n          \"comments\": 67,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2025-06-16T20:40:23.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 1,\n        \"relativePosition\": 1\n      },\n      {\n        \"id\": \"1dh7bcd\",\n        \"postId\": \"t3_1dh7bcd\",\n        \"title\": \"I am an African American male looking to get recruited for college in swim.\",\n        \"url\": \"https://www.reddit.com/r/Swimming/comments/1dh7bcd/i_am_an_african_american_male_looking_to_get/\",\n        \"permalink\": \"/r/Swimming/comments/1dh7bcd/i_am_an_african_american_male_looking_to_get/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"Fair_Diamond_1466\",\n          \"id\": \"t2_mtxwrt8w\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"Swimming\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 78,\n          \"comments\": 57,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2024-06-16T13:12:47.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 2,\n        \"relativePosition\": 2\n      },\n      {\n        \"id\": \"1o5a6ri\",\n        \"postId\": \"t3_1o5a6ri\",\n        \"title\": \"College Recruiting - Harsh Reality\",\n        \"url\": \"https://www.reddit.com/r/Swimming/comments/1o5a6ri/college_recruiting_harsh_reality/\",\n        \"permalink\": \"/r/Swimming/comments/1o5a6ri/college_recruiting_harsh_reality/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"Just-Quiet-7893\",\n          \"id\": \"t2_1kpp5dif7j\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"Swimming\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 25,\n          \"comments\": 52,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2025-10-13T04:28:48.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 3,\n        \"relativePosition\": 3\n      },\n      {\n        \"id\": \"7z1x4b\",\n        \"postId\": \"t3_7z1x4b\",\n        \"title\": \"What it takes to swim college level\",\n        \"url\": \"https://www.reddit.com/r/Swimming/comments/7z1x4b/what_it_takes_to_swim_college_level/\",\n        \"permalink\": \"/r/Swimming/comments/7z1x4b/what_it_takes_to_swim_college_level/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": null,\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"Swimming\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 31,\n          \"comments\": 42,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2018-02-21T02:18:44.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 4,\n        \"relativePosition\": 4\n      },\n      {\n        \"id\": \"243hzj\",\n        \"postId\": \"t3_243hzj\",\n        \"title\": \"Can these times get me recruited into good colleges?\",\n        \"url\": \"https://www.reddit.com/r/Swimming/comments/243hzj/can_these_times_get_me_recruited_into_good/\",\n        \"permalink\": \"/r/Swimming/comments/243hzj/can_these_times_get_me_recruited_into_good/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": null,\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"Swimming\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 11,\n          \"comments\": 36,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2014-04-27T10:37:21.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 5,\n        \"relativePosition\": 5\n      },\n      {\n        \"id\": \"1b6foel\",\n        \"postId\": \"t3_1b6foel\",\n        \"title\": \"How fast are NCAA times?\",\n        \"url\": \"https://www.reddit.com/r/Swimming/comments/1b6foel/how_fast_are_ncaa_times/\",\n        \"permalink\": \"/r/Swimming/comments/1b6foel/how_fast_are_ncaa_times/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"fishberrydragon\",\n          \"id\": \"t2_vhqabgrvu\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"Swimming\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 15,\n          \"comments\": 35,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2024-03-04T16:47:58.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 6,\n        \"relativePosition\": 6\n      }\n    ],\n    \"totalResults\": 7,\n    \"page\": {\n      \"nextCursor\": \"eyJjYW5kaWRhdGVzX3JldHVybmVkIjoie1wic2VjdGlvbl8xX3BpcGVsaW5lXzBfZ2xvYmFsX21vZGlmaWVyc1wiOlwiMVwiLFwic2VjdGlvbl8xX3BpcGVsaW5lXzFfbG9jYWxfbW9kaWZpZXJzXCI6XCIyXCIsXCJzZWN0aW9uXzJfcGlwZWxpbmVfN19zY29wZV9zd2l0Y2hlclwiOlwiMFwiLFwic2VjdGlvbl8yX3BpcGVsaW5lXzhfZHluYW1pY18wX3Bvc3Rfc2VhcmNoXCI6XCI3XCIsXCJzZWN0aW9uXzNfcGlwZWxpbmVfMF9zaWRlYmFyX2NvbW11bml0eV9pbmZvXCI6XCIwXCJ9IiwiZXhwZXJpZW5jZV9zZWxlY3Rpb24iOiJwb3N0c192MiIsImV4cGVyaWVuY2VfdmVyc2lvbiI6ImNvbW11bml0eSIsInNlY3Rpb25fMl9waXBlbGluZV84X2R5bmFtaWNfMF9wb3N0X3NlYXJjaCI6IjcifQ==\",\n      \"hasMore\": true\n    }\n  },\n  \"meta\": {\n    \"requestId\": \"req_b2a5cd3a-841a-4e77-b046-eab096b51d81\",\n    \"creditsCharged\": 1,\n    \"version\": \"v1\"\n  }\n}"
+   },
+   {
+    "type": "text",
+    "text": "{\"conversation_id\":\"01a1af66-edf8-7155-aae1-57eedbb8c790\"}"
+   }
+  ],
+  "structuredContent": {
+   "data": {
+    "subreddit": "Swimming",
+    "query": "college recruiting",
+    "sort": "comments",
+    "timeframe": "all",
+    "posts": [
+     {
+      "id": "8ch6ot",
+      "postId": "t3_8ch6ot",
+      "title": "Hey r/Swimming, This is Ian Finnerty/ Junior at Indiana University. I recently set the American Record in the 100yd breast. AMA about technique, college recruiting, or sets I do!",
+      "url": "https://www.reddit.com/r/Swimming/comments/8ch6ot/hey_rswimming_this_is_ian_finnerty_junior_at/",
+      "permalink": "/r/Swimming/comments/8ch6ot/hey_rswimming_this_is_ian_finnerty_junior_at/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "swimma2015",
+       "id": "t2_td4fjrc"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "Swimming",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 397,
+       "comments": 148,
+       "upvoteRatio": null
+      },
+      "createdAt": "2018-04-15T18:40:10.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 0,
+      "relativePosition": 0
+     },
+     {
+      "id": "1ld42in",
+      "postId": "t3_1ld42in",
+      "title": "15 Y/O - recruiting chances for D1/D2 and how to handle recruiting?",
+      "url": "https://www.reddit.com/r/Swimming/comments/1ld42in/15_yo_recruiting_chances_for_d1d2_and_how_to/",
+      "permalink": "/r/Swimming/comments/1ld42in/15_yo_recruiting_chances_for_d1d2_and_how_to/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "Aggressive-Cow5399",
+       "id": "t2_mk2uy63g"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "Swimming",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 10,
+       "comments": 67,
+       "upvoteRatio": null
+      },
+      "createdAt": "2025-06-16T20:40:23.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 1,
+      "relativePosition": 1
+     },
+     {
+      "id": "1dh7bcd",
+      "postId": "t3_1dh7bcd",
+      "title": "I am an African American male looking to get recruited for college in swim.",
+      "url": "https://www.reddit.com/r/Swimming/comments/1dh7bcd/i_am_an_african_american_male_looking_to_get/",
+      "permalink": "/r/Swimming/comments/1dh7bcd/i_am_an_african_american_male_looking_to_get/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "Fair_Diamond_1466",
+       "id": "t2_mtxwrt8w"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "Swimming",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 78,
+       "comments": 57,
+       "upvoteRatio": null
+      },
+      "createdAt": "2024-06-16T13:12:47.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 2,
+      "relativePosition": 2
+     },
+     {
+      "id": "1o5a6ri",
+      "postId": "t3_1o5a6ri",
+      "title": "College Recruiting - Harsh Reality",
+      "url": "https://www.reddit.com/r/Swimming/comments/1o5a6ri/college_recruiting_harsh_reality/",
+      "permalink": "/r/Swimming/comments/1o5a6ri/college_recruiting_harsh_reality/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "Just-Quiet-7893",
+       "id": "t2_1kpp5dif7j"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "Swimming",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 25,
+       "comments": 52,
+       "upvoteRatio": null
+      },
+      "createdAt": "2025-10-13T04:28:48.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 3,
+      "relativePosition": 3
+     },
+     {
+      "id": "7z1x4b",
+      "postId": "t3_7z1x4b",
+      "title": "What it takes to swim college level",
+      "url": "https://www.reddit.com/r/Swimming/comments/7z1x4b/what_it_takes_to_swim_college_level/",
+      "permalink": "/r/Swimming/comments/7z1x4b/what_it_takes_to_swim_college_level/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": null,
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "Swimming",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 31,
+       "comments": 42,
+       "upvoteRatio": null
+      },
+      "createdAt": "2018-02-21T02:18:44.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 4,
+      "relativePosition": 4
+     },
+     {
+      "id": "243hzj",
+      "postId": "t3_243hzj",
+      "title": "Can these times get me recruited into good colleges?",
+      "url": "https://www.reddit.com/r/Swimming/comments/243hzj/can_these_times_get_me_recruited_into_good/",
+      "permalink": "/r/Swimming/comments/243hzj/can_these_times_get_me_recruited_into_good/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": null,
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "Swimming",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 11,
+       "comments": 36,
+       "upvoteRatio": null
+      },
+      "createdAt": "2014-04-27T10:37:21.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 5,
+      "relativePosition": 5
+     },
+     {
+      "id": "1b6foel",
+      "postId": "t3_1b6foel",
+      "title": "How fast are NCAA times?",
+      "url": "https://www.reddit.com/r/Swimming/comments/1b6foel/how_fast_are_ncaa_times/",
+      "permalink": "/r/Swimming/comments/1b6foel/how_fast_are_ncaa_times/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "fishberrydragon",
+       "id": "t2_vhqabgrvu"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "Swimming",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 15,
+       "comments": 35,
+       "upvoteRatio": null
+      },
+      "createdAt": "2024-03-04T16:47:58.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 6,
+      "relativePosition": 6
+     }
+    ],
+    "totalResults": 7,
+    "page": {
+     "nextCursor": "eyJjYW5kaWRhdGVzX3JldHVybmVkIjoie1wic2VjdGlvbl8xX3BpcGVsaW5lXzBfZ2xvYmFsX21vZGlmaWVyc1wiOlwiMVwiLFwic2VjdGlvbl8xX3BpcGVsaW5lXzFfbG9jYWxfbW9kaWZpZXJzXCI6XCIyXCIsXCJzZWN0aW9uXzJfcGlwZWxpbmVfN19zY29wZV9zd2l0Y2hlclwiOlwiMFwiLFwic2VjdGlvbl8yX3BpcGVsaW5lXzhfZHluYW1pY18wX3Bvc3Rfc2VhcmNoXCI6XCI3XCIsXCJzZWN0aW9uXzNfcGlwZWxpbmVfMF9zaWRlYmFyX2NvbW11bml0eV9pbmZvXCI6XCIwXCJ9IiwiZXhwZXJpZW5jZV9zZWxlY3Rpb24iOiJwb3N0c192MiIsImV4cGVyaWVuY2VfdmVyc2lvbiI6ImNvbW11bml0eSIsInNlY3Rpb25fMl9waXBlbGluZV84X2R5bmFtaWNfMF9wb3N0X3NlYXJjaCI6IjcifQ==",
+     "hasMore": true
+    }
+   },
+   "meta": {
+    "requestId": "req_b2a5cd3a-841a-4e77-b046-eab096b51d81",
+    "creditsCharged": 1,
+    "version": "v1"
+   },
+   "card": {
+    "kind": "search",
+    "title": "Search results",
+    "subtitle": "7 results",
+    "resultCount": 7,
+    "items": [
+     {
+      "title": "Hey r/Swimming, This is Ian Finnerty/ Junior at Indiana University. I recently set the American Record in the 100yd breast. AMA about technique, college\u2026",
+      "subtitle": "@swimma2015 \u00b7 15 Apr 2018",
+      "href": "https://www.reddit.com/r/Swimming/comments/8ch6ot/hey_rswimming_this_is_ian_finnerty_junior_at/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "15 Y/O - recruiting chances for D1/D2 and how to handle recruiting?",
+      "subtitle": "@Aggressive-Cow5399 \u00b7 16 Jun 2025",
+      "href": "https://www.reddit.com/r/Swimming/comments/1ld42in/15_yo_recruiting_chances_for_d1d2_and_how_to/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "I am an African American male looking to get recruited for college in swim.",
+      "subtitle": "@Fair_Diamond_1466 \u00b7 16 Jun 2024",
+      "href": "https://www.reddit.com/r/Swimming/comments/1dh7bcd/i_am_an_african_american_male_looking_to_get/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "College Recruiting - Harsh Reality",
+      "subtitle": "@Just-Quiet-7893 \u00b7 13 Oct 2025",
+      "href": "https://www.reddit.com/r/Swimming/comments/1o5a6ri/college_recruiting_harsh_reality/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "What it takes to swim college level",
+      "subtitle": "21 Feb 2018",
+      "href": "https://www.reddit.com/r/Swimming/comments/7z1x4b/what_it_takes_to_swim_college_level/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Can these times get me recruited into good colleges?",
+      "subtitle": "27 Apr 2014",
+      "href": "https://www.reddit.com/r/Swimming/comments/243hzj/can_these_times_get_me_recruited_into_good/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "How fast are NCAA times?",
+      "subtitle": "@fishberrydragon \u00b7 4 Mar 2024",
+      "href": "https://www.reddit.com/r/Swimming/comments/1b6foel/how_fast_are_ncaa_times/",
+      "platform": "Reddit"
+     }
+    ]
+   }
+  }
+ },
+ "jsonrpc": "2.0",
+ "id": 1
+}

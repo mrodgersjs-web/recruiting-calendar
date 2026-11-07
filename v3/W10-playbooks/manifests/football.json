@@ -1,0 +1,193 @@
+{
+ "schema": "w10-playbook-manifest/1",
+ "id": "w10-football",
+ "sport": "football",
+ "class_year": 2029,
+ "rules_read": "2026-11-05",
+ "written": "2026-11-06",
+ "file": "football/PLAYBOOK.md",
+ "site_mapping": {
+  "catalog_title": "Football: Junior Year Playbook",
+  "site_slug": "football-junior-year",
+  "relation": "supersedes_on_integration",
+  "catalog_status_before": "WRITTEN"
+ },
+ "price_proposal": {
+  "amount_usd": 29,
+  "status": "PROPOSED_NOT_APPROVED",
+  "note": "From W1 catalog; no price is approved."
+ },
+ "stages": [
+  {
+   "n": 0,
+   "title": "Set up the home base",
+   "has_done_when": true
+  },
+  {
+   "n": 1,
+   "title": "Lock the academics",
+   "has_done_when": true
+  },
+  {
+   "n": 2,
+   "title": "Build film and a one-page profile",
+   "has_done_when": true
+  },
+  {
+   "n": 3,
+   "title": "Build the target list",
+   "has_done_when": true
+  },
+  {
+   "n": 4,
+   "title": "First contact",
+   "has_done_when": true
+  },
+  {
+   "n": 5,
+   "title": "Camps and junior days: spend by score",
+   "has_done_when": true
+  },
+  {
+   "n": 6,
+   "title": "The visit window",
+   "has_done_when": true
+  },
+  {
+   "n": 7,
+   "title": "Offers, comparison, signing",
+   "has_done_when": true
+  }
+ ],
+ "worksheets": [
+  "C1",
+  "C2",
+  "C3",
+  "C4",
+  "C5",
+  "C6",
+  "C7",
+  "C8",
+  "C9",
+  "C10",
+  "C11"
+ ],
+ "scripts": [
+  "E1",
+  "E2",
+  "E3",
+  "E4"
+ ],
+ "dates": [
+  {
+   "date": "2027-06-15",
+   "kind": "RULE",
+   "label": "D1 coach calls, texts, emails open",
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "date": "2028-01-01",
+   "kind": "RULE",
+   "label": "Off-campus in-person contact",
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "date": "2028-04-01",
+   "kind": "RULE",
+   "label": "Junior-year official visits begin",
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "date": "2028-11-15",
+   "kind": "RULE",
+   "label": "Written aid offer on or after",
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "date": "2028-11-29",
+   "kind": "PROJECTED",
+   "label": "Early signing period opens",
+   "sources": [
+    "S1"
+   ]
+  },
+  {
+   "date": "2029-02-07",
+   "kind": "PROJECTED",
+   "label": "Regular signing opens",
+   "sources": [
+    "S1"
+   ]
+  }
+ ],
+ "sources": [
+  "S1",
+  "S4",
+  "S5",
+  "S6",
+  "S7",
+  "S8",
+  "S9",
+  "S10",
+  "S17",
+  "S18",
+  "S19",
+  "S26",
+  "S27",
+  "S28",
+  "S29",
+  "S31",
+  "S32",
+  "S35",
+  "S36",
+  "S37",
+  "S38",
+  "S40"
+ ],
+ "story_beats": [
+  "first coach contact",
+  "the visit",
+  "the offer",
+  "signing day"
+ ],
+ "offer_links": [
+  {
+   "slug": "contact-log",
+   "w8_status": "BUILT",
+   "action": "link",
+   "placement": "Worksheet C3"
+  },
+  {
+   "slug": "red-flags",
+   "w8_status": "BUILT",
+   "action": "link",
+   "placement": "Visit stage"
+  },
+  {
+   "slug": "offer-comparison",
+   "w8_status": "BUILT",
+   "action": "link",
+   "placement": "Offer worksheet"
+  },
+  {
+   "slug": "coach-emails",
+   "w8_status": "PROPOSED",
+   "action": "notify",
+   "placement": "Scripts section"
+  }
+ ],
+ "integrity": {
+  "no_outcome_promise": true,
+  "no_minor_names": true,
+  "no_athlete_claimed_user": true,
+  "no_outreach": true
+ }
+}

@@ -1,0 +1,56 @@
+{
+  "rubric": "plan.readiness",
+  "verdict": "BLOCK",
+  "enforced": true,
+  "reasons": [
+    "BLOCK: plan not ready for unattended build [readiness.score=0.49 <= 1.2]"
+  ],
+  "answers": {
+    "has_acceptance_criteria": {
+      "type": "noul",
+      "noul": 0.58
+    },
+    "names_the_user_decision": {
+      "type": "noul",
+      "noul": 0.87
+    },
+    "unverifiable_claims": {
+      "type": "noul",
+      "noul": 0.43
+    },
+    "scope_is_bounded": {
+      "type": "noul",
+      "noul": 0.71
+    },
+    "deterministic_first": {
+      "type": "noul",
+      "noul": 0.14
+    },
+    "readiness": {
+      "type": "score",
+      "score": 0.49,
+      "confidence": 0.49,
+      "legend": {
+        "0": "Vague idea, no contract, would produce guesswork",
+        "1": "Direction is clear but acceptance is undefined",
+        "2": "Contract and acceptance defined, some ambiguity at the edges",
+        "3": "Fully specified: inputs, outputs, acceptance tests, and out-of-scope all stated"
+      },
+      "probabilities": {
+        "0": 0.57,
+        "1": 0.36,
+        "2": 0.06,
+        "3": 0.01
+      }
+    }
+  },
+  "model": "jev-1.14.0",
+  "latency_ms": 131,
+  "advisory": false,
+  "state_sha256": "3c7d22b6ced2455a045103df0cd920b40e276fd53f359feb1c316656808e70e5",
+  "state_preview": "# Camp ROI Playbook\n### For families deciding which camps to pay for. Rules checked 2026-11-05 against the 2026-27 NCAA Division I Manual.\n\n> Education, not legal advice. Nothing here promises an offer, aid, a roster spot, playing time or income. Confirm every rule with each school's compliance office. TO VERIFY = not confirmed against a primary source on 2026-11-05.\n\n---\n\n## Contents\n1. Camp types\n2. Camp rules every family should know\n3. When recruiting talk opens at a camp, by sport\n4. Budget",
+  "error": null,
+  "decision_id": 311153,
+  "cache_hit": false
+}
+{"exit":1}

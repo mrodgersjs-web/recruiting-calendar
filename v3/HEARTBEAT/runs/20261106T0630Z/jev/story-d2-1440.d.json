@@ -1,0 +1,17 @@
+{
+  "label": "ok: competent but forgettable",
+  "confidence": 0.54,
+  "noul_score": 0.54,
+  "verdict": "PASS",
+  "probabilities": {
+    "wow:  striking": 0.1,
+    "premium": 0.04,
+    "would stop a scroll": 0.23,
+    "ok: competent but forgettable": 0.54,
+    "weak: generic": 0.08,
+    "broken or empty": 0.01
+  },
+  "backend": "typesafe-hosted",
+  "judge": "hosted-jev",
+  "local_error": "legacy 8898 unreachable"
+}

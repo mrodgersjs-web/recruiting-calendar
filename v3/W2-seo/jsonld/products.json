@@ -1,0 +1,218 @@
+{
+ "football-junior-year": {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Football: Junior Year Playbook",
+  "description": "A dated plan for every football recruiting window from June 15 after sophomore year to signing, with the core-course lock built in",
+  "brand": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "url": "https://recruiting-calendar.vercel.app/playbooks/football-junior-year/",
+  "category": "Digital download (PDF + XLSX tracker)",
+  "offers": {
+   "@type": "Offer",
+   "price": "29",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "url": "https://recruiting-calendar.vercel.app/playbooks/football-junior-year/"
+  }
+ },
+ "eligibility-2-hard-deadlines": {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Eligibility: the 2 Hard Deadlines",
+  "description": "Know the two academic lines that can't be repaired late, and have the counselor meeting done",
+  "brand": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "url": "https://recruiting-calendar.vercel.app/playbooks/eligibility-2-hard-deadlines/",
+  "category": "Digital download (PDF)",
+  "offers": {
+   "@type": "Offer",
+   "price": "9",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/InStock",
+   "url": "https://recruiting-calendar.vercel.app/playbooks/eligibility-2-hard-deadlines/"
+  }
+ },
+ "baseball-showcase-to-signing": {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Baseball: From Showcase to Signing",
+  "description": "Use baseball's later Aug 1 / Sep 1 openings and the Nov signing date without wasting showcase money",
+  "brand": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "url": "https://recruiting-calendar.vercel.app/playbooks/baseball-showcase-to-signing/",
+  "category": "Digital download (PDF + XLSX)",
+  "offers": {
+   "@type": "Offer",
+   "price": "29",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/PreOrder",
+   "url": "https://recruiting-calendar.vercel.app/playbooks/baseball-showcase-to-signing/"
+  }
+ },
+ "track-field-marks": {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Track & Field: Marks to Roster",
+  "description": "Turn verified marks into a target list and contact plan by event group",
+  "brand": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "url": "https://recruiting-calendar.vercel.app/playbooks/track-field-marks/",
+  "category": "Digital download (PDF + XLSX)",
+  "offers": {
+   "@type": "Offer",
+   "price": "25",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/PreOrder",
+   "url": "https://recruiting-calendar.vercel.app/playbooks/track-field-marks/"
+  }
+ },
+ "d3-academic-aid-first": {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "D3 Path: Academic Aid First",
+  "description": "Compare D3 net cost honestly: no athletic aid, academic and need-based only",
+  "brand": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "url": "https://recruiting-calendar.vercel.app/playbooks/d3-academic-aid-first/",
+  "category": "Digital download (PDF + XLSX)",
+  "offers": {
+   "@type": "Offer",
+   "price": "19",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/PreOrder",
+   "url": "https://recruiting-calendar.vercel.app/playbooks/d3-academic-aid-first/"
+  }
+ },
+ "walk-on": {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Walk-On Playbook",
+  "description": "Know the walk-on types and the questions to ask before committing",
+  "brand": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "url": "https://recruiting-calendar.vercel.app/playbooks/walk-on/",
+  "category": "Digital download (PDF)",
+  "offers": {
+   "@type": "Offer",
+   "price": "15",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/PreOrder",
+   "url": "https://recruiting-calendar.vercel.app/playbooks/walk-on/"
+  }
+ },
+ "juco-to-d1": {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "JUCO to D1",
+  "description": "Plan transferable credits and the two-year recruiting window",
+  "brand": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "url": "https://recruiting-calendar.vercel.app/playbooks/juco-to-d1/",
+  "category": "Digital download (PDF)",
+  "offers": {
+   "@type": "Offer",
+   "price": "19",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/PreOrder",
+   "url": "https://recruiting-calendar.vercel.app/playbooks/juco-to-d1/"
+  }
+ },
+ "late-bloomer": {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Late Bloomer Playbook",
+  "description": "A 90-day plan for a late start: who still has roster needs and how to reach them",
+  "brand": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "url": "https://recruiting-calendar.vercel.app/playbooks/late-bloomer/",
+  "category": "Digital download (PDF)",
+  "offers": {
+   "@type": "Offer",
+   "price": "15",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/PreOrder",
+   "url": "https://recruiting-calendar.vercel.app/playbooks/late-bloomer/"
+  }
+ },
+ "highlight-reel-social": {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Highlight Reel & Social Playbook",
+  "description": "A reel coaches finish and a profile that doesn't hurt you",
+  "brand": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "url": "https://recruiting-calendar.vercel.app/playbooks/highlight-reel-social/",
+  "category": "Digital download (PDF + DOCX)",
+  "offers": {
+   "@type": "Offer",
+   "price": "15",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/PreOrder",
+   "url": "https://recruiting-calendar.vercel.app/playbooks/highlight-reel-social/"
+  }
+ },
+ "camp-roi": {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Camp ROI Playbook",
+  "description": "Score camps before paying, track the cost, and know when recruiting talk is allowed",
+  "brand": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "url": "https://recruiting-calendar.vercel.app/playbooks/camp-roi/",
+  "category": "Digital download (PDF + XLSX)",
+  "offers": {
+   "@type": "Offer",
+   "price": "15",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/PreOrder",
+   "url": "https://recruiting-calendar.vercel.app/playbooks/camp-roi/"
+  }
+ },
+ "nil-high-school": {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "NIL for High Schoolers",
+  "description": "Screen a deal against state and association rules before signing anything",
+  "brand": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "url": "https://recruiting-calendar.vercel.app/playbooks/nil-high-school/",
+  "category": "Digital download (PDF)",
+  "offers": {
+   "@type": "Offer",
+   "price": "15",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/PreOrder",
+   "url": "https://recruiting-calendar.vercel.app/playbooks/nil-high-school/"
+  }
+ },
+ "offer-and-signing": {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Offers & Signing Day",
+  "description": "Compare offers on the same terms and know what's binding and when",
+  "brand": {
+   "@id": "https://recruiting-calendar.vercel.app/#org"
+  },
+  "url": "https://recruiting-calendar.vercel.app/playbooks/offer-and-signing/",
+  "category": "Digital download (PDF + XLSX)",
+  "offers": {
+   "@type": "Offer",
+   "price": "19",
+   "priceCurrency": "USD",
+   "availability": "https://schema.org/PreOrder",
+   "url": "https://recruiting-calendar.vercel.app/playbooks/offer-and-signing/"
+  }
+ }
+}

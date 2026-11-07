@@ -1,0 +1,335 @@
+{
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "{\n  \"data\": {\n    \"subreddit\": \"wrestling\",\n    \"query\": \"college recruiting\",\n    \"sort\": \"comments\",\n    \"timeframe\": \"all\",\n    \"posts\": [\n      {\n        \"id\": \"1r6i0k7\",\n        \"postId\": \"t3_1r6i0k7\",\n        \"title\": \"Is Penn States Dominance Actually Bad For NCAA Wrestling?\",\n        \"url\": \"https://www.reddit.com/r/wrestling/comments/1r6i0k7/is_penn_states_dominance_actually_bad_for_ncaa/\",\n        \"permalink\": \"/r/wrestling/comments/1r6i0k7/is_penn_states_dominance_actually_bad_for_ncaa/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"da_trealest\",\n          \"id\": \"t2_hchm8\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"wrestling\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 77,\n          \"comments\": 137,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2026-02-16T18:42:52.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 0,\n        \"relativePosition\": 0\n      },\n      {\n        \"id\": \"1jpza6x\",\n        \"postId\": \"t3_1jpza6x\",\n        \"title\": \"PSU\u2019s Zack Ryder to the Portal\",\n        \"url\": \"https://www.reddit.com/r/wrestling/comments/1jpza6x/psus_zack_ryder_to_the_portal/\",\n        \"permalink\": \"/r/wrestling/comments/1jpza6x/psus_zack_ryder_to_the_portal/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"Fragrant-Rip6443\",\n          \"id\": \"t2_a1w2pxco\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"wrestling\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 102,\n          \"comments\": 107,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2025-04-02T20:42:48.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 1,\n        \"relativePosition\": 1\n      },\n      {\n        \"id\": \"1s1o69k\",\n        \"postId\": \"t3_1s1o69k\",\n        \"title\": \"Thoughts on the 2026 NCAA Wrestling Championships\",\n        \"url\": \"https://www.reddit.com/r/wrestling/comments/1s1o69k/thoughts_on_the_2026_ncaa_wrestling_championships/\",\n        \"permalink\": \"/r/wrestling/comments/1s1o69k/thoughts_on_the_2026_ncaa_wrestling_championships/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"why_mr_pink\",\n          \"id\": \"t2_305mtugw\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"wrestling\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 94,\n          \"comments\": 96,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2026-03-23T17:53:47.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 2,\n        \"relativePosition\": 2\n      },\n      {\n        \"id\": \"1uwi9bd\",\n        \"postId\": \"t3_1uwi9bd\",\n        \"title\": \"Picking state to move to for wrestling\",\n        \"url\": \"https://www.reddit.com/r/wrestling/comments/1uwi9bd/picking_state_to_move_to_for_wrestling/\",\n        \"permalink\": \"/r/wrestling/comments/1uwi9bd/picking_state_to_move_to_for_wrestling/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"noah-__\",\n          \"id\": \"t2_eb8rj1kbw\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"wrestling\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 13,\n          \"comments\": 92,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2026-07-14T19:11:59.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 3,\n        \"relativePosition\": 3\n      },\n      {\n        \"id\": \"tt278w\",\n        \"postId\": \"t3_tt278w\",\n        \"title\": \"In your opinion, what\u2019s the best way to get recruited out of highschool for college wrestling??\",\n        \"url\": \"https://www.reddit.com/r/wrestling/comments/tt278w/in_your_opinion_whats_the_best_way_to_get/\",\n        \"permalink\": \"/r/wrestling/comments/tt278w/in_your_opinion_whats_the_best_way_to_get/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"Tomato_Unable\",\n          \"id\": \"t2_8gkghmb7\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"wrestling\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 70,\n          \"comments\": 79,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2022-03-31T15:24:10.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 4,\n        \"relativePosition\": 4\n      },\n      {\n        \"id\": \"zkidlw\",\n        \"postId\": \"t3_zkidlw\",\n        \"title\": \"D1 Schools That Should Have Wrestling (please comment, I\u2019d like to hear your thoughts!)\",\n        \"url\": \"https://www.reddit.com/r/wrestling/comments/zkidlw/d1_schools_that_should_have_wrestling_please/\",\n        \"permalink\": \"/r/wrestling/comments/zkidlw/d1_schools_that_should_have_wrestling_please/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": null,\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"wrestling\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 37,\n          \"comments\": 75,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2022-12-13T01:32:20.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 5,\n        \"relativePosition\": 5\n      },\n      {\n        \"id\": \"e9ij2m\",\n        \"postId\": \"t3_e9ij2m\",\n        \"title\": \"My Unlikely Path to D1 Wrestling\",\n        \"url\": \"https://www.reddit.com/r/wrestling/comments/e9ij2m/my_unlikely_path_to_d1_wrestling/\",\n        \"permalink\": \"/r/wrestling/comments/e9ij2m/my_unlikely_path_to_d1_wrestling/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"henigin81\",\n          \"id\": \"t2_10mf7o\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"wrestling\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 296,\n          \"comments\": 64,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2019-12-12T04:09:19.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 6,\n        \"relativePosition\": 6\n      }\n    ],\n    \"totalResults\": 7,\n    \"page\": {\n      \"nextCursor\": \"eyJjYW5kaWRhdGVzX3JldHVybmVkIjoie1wic2VjdGlvbl8xX3BpcGVsaW5lXzBfZ2xvYmFsX21vZGlmaWVyc1wiOlwiMVwiLFwic2VjdGlvbl8xX3BpcGVsaW5lXzFfbG9jYWxfbW9kaWZpZXJzXCI6XCIyXCIsXCJzZWN0aW9uXzJfcGlwZWxpbmVfN19zY29wZV9zd2l0Y2hlclwiOlwiMFwiLFwic2VjdGlvbl8yX3BpcGVsaW5lXzhfZHluYW1pY18wX3Bvc3Rfc2VhcmNoXCI6XCI3XCIsXCJzZWN0aW9uXzNfcGlwZWxpbmVfMF9zaWRlYmFyX2NvbW11bml0eV9pbmZvXCI6XCIwXCJ9IiwiZXhwZXJpZW5jZV9zZWxlY3Rpb24iOiJwb3N0c192MiIsImV4cGVyaWVuY2VfdmVyc2lvbiI6ImNvbW11bml0eSIsInNlY3Rpb25fMl9waXBlbGluZV84X2R5bmFtaWNfMF9wb3N0X3NlYXJjaCI6IjcifQ==\",\n      \"hasMore\": true\n    }\n  },\n  \"meta\": {\n    \"requestId\": \"req_78bce106-fc31-40bc-810f-f058704938ff\",\n    \"creditsCharged\": 1,\n    \"version\": \"v1\"\n  }\n}"
+   },
+   {
+    "type": "text",
+    "text": "{\"conversation_id\":\"01a1af66-d59c-75cc-9426-2cd251eb9fc3\"}"
+   }
+  ],
+  "structuredContent": {
+   "data": {
+    "subreddit": "wrestling",
+    "query": "college recruiting",
+    "sort": "comments",
+    "timeframe": "all",
+    "posts": [
+     {
+      "id": "1r6i0k7",
+      "postId": "t3_1r6i0k7",
+      "title": "Is Penn States Dominance Actually Bad For NCAA Wrestling?",
+      "url": "https://www.reddit.com/r/wrestling/comments/1r6i0k7/is_penn_states_dominance_actually_bad_for_ncaa/",
+      "permalink": "/r/wrestling/comments/1r6i0k7/is_penn_states_dominance_actually_bad_for_ncaa/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "da_trealest",
+       "id": "t2_hchm8"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "wrestling",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 77,
+       "comments": 137,
+       "upvoteRatio": null
+      },
+      "createdAt": "2026-02-16T18:42:52.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 0,
+      "relativePosition": 0
+     },
+     {
+      "id": "1jpza6x",
+      "postId": "t3_1jpza6x",
+      "title": "PSU\u2019s Zack Ryder to the Portal",
+      "url": "https://www.reddit.com/r/wrestling/comments/1jpza6x/psus_zack_ryder_to_the_portal/",
+      "permalink": "/r/wrestling/comments/1jpza6x/psus_zack_ryder_to_the_portal/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "Fragrant-Rip6443",
+       "id": "t2_a1w2pxco"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "wrestling",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 102,
+       "comments": 107,
+       "upvoteRatio": null
+      },
+      "createdAt": "2025-04-02T20:42:48.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 1,
+      "relativePosition": 1
+     },
+     {
+      "id": "1s1o69k",
+      "postId": "t3_1s1o69k",
+      "title": "Thoughts on the 2026 NCAA Wrestling Championships",
+      "url": "https://www.reddit.com/r/wrestling/comments/1s1o69k/thoughts_on_the_2026_ncaa_wrestling_championships/",
+      "permalink": "/r/wrestling/comments/1s1o69k/thoughts_on_the_2026_ncaa_wrestling_championships/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "why_mr_pink",
+       "id": "t2_305mtugw"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "wrestling",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 94,
+       "comments": 96,
+       "upvoteRatio": null
+      },
+      "createdAt": "2026-03-23T17:53:47.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 2,
+      "relativePosition": 2
+     },
+     {
+      "id": "1uwi9bd",
+      "postId": "t3_1uwi9bd",
+      "title": "Picking state to move to for wrestling",
+      "url": "https://www.reddit.com/r/wrestling/comments/1uwi9bd/picking_state_to_move_to_for_wrestling/",
+      "permalink": "/r/wrestling/comments/1uwi9bd/picking_state_to_move_to_for_wrestling/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "noah-__",
+       "id": "t2_eb8rj1kbw"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "wrestling",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 13,
+       "comments": 92,
+       "upvoteRatio": null
+      },
+      "createdAt": "2026-07-14T19:11:59.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 3,
+      "relativePosition": 3
+     },
+     {
+      "id": "tt278w",
+      "postId": "t3_tt278w",
+      "title": "In your opinion, what\u2019s the best way to get recruited out of highschool for college wrestling??",
+      "url": "https://www.reddit.com/r/wrestling/comments/tt278w/in_your_opinion_whats_the_best_way_to_get/",
+      "permalink": "/r/wrestling/comments/tt278w/in_your_opinion_whats_the_best_way_to_get/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "Tomato_Unable",
+       "id": "t2_8gkghmb7"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "wrestling",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 70,
+       "comments": 79,
+       "upvoteRatio": null
+      },
+      "createdAt": "2022-03-31T15:24:10.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 4,
+      "relativePosition": 4
+     },
+     {
+      "id": "zkidlw",
+      "postId": "t3_zkidlw",
+      "title": "D1 Schools That Should Have Wrestling (please comment, I\u2019d like to hear your thoughts!)",
+      "url": "https://www.reddit.com/r/wrestling/comments/zkidlw/d1_schools_that_should_have_wrestling_please/",
+      "permalink": "/r/wrestling/comments/zkidlw/d1_schools_that_should_have_wrestling_please/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": null,
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "wrestling",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 37,
+       "comments": 75,
+       "upvoteRatio": null
+      },
+      "createdAt": "2022-12-13T01:32:20.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 5,
+      "relativePosition": 5
+     },
+     {
+      "id": "e9ij2m",
+      "postId": "t3_e9ij2m",
+      "title": "My Unlikely Path to D1 Wrestling",
+      "url": "https://www.reddit.com/r/wrestling/comments/e9ij2m/my_unlikely_path_to_d1_wrestling/",
+      "permalink": "/r/wrestling/comments/e9ij2m/my_unlikely_path_to_d1_wrestling/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "henigin81",
+       "id": "t2_10mf7o"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "wrestling",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 296,
+       "comments": 64,
+       "upvoteRatio": null
+      },
+      "createdAt": "2019-12-12T04:09:19.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 6,
+      "relativePosition": 6
+     }
+    ],
+    "totalResults": 7,
+    "page": {
+     "nextCursor": "eyJjYW5kaWRhdGVzX3JldHVybmVkIjoie1wic2VjdGlvbl8xX3BpcGVsaW5lXzBfZ2xvYmFsX21vZGlmaWVyc1wiOlwiMVwiLFwic2VjdGlvbl8xX3BpcGVsaW5lXzFfbG9jYWxfbW9kaWZpZXJzXCI6XCIyXCIsXCJzZWN0aW9uXzJfcGlwZWxpbmVfN19zY29wZV9zd2l0Y2hlclwiOlwiMFwiLFwic2VjdGlvbl8yX3BpcGVsaW5lXzhfZHluYW1pY18wX3Bvc3Rfc2VhcmNoXCI6XCI3XCIsXCJzZWN0aW9uXzNfcGlwZWxpbmVfMF9zaWRlYmFyX2NvbW11bml0eV9pbmZvXCI6XCIwXCJ9IiwiZXhwZXJpZW5jZV9zZWxlY3Rpb24iOiJwb3N0c192MiIsImV4cGVyaWVuY2VfdmVyc2lvbiI6ImNvbW11bml0eSIsInNlY3Rpb25fMl9waXBlbGluZV84X2R5bmFtaWNfMF9wb3N0X3NlYXJjaCI6IjcifQ==",
+     "hasMore": true
+    }
+   },
+   "meta": {
+    "requestId": "req_78bce106-fc31-40bc-810f-f058704938ff",
+    "creditsCharged": 1,
+    "version": "v1"
+   },
+   "card": {
+    "kind": "search",
+    "title": "Search results",
+    "subtitle": "7 results",
+    "resultCount": 7,
+    "items": [
+     {
+      "title": "Is Penn States Dominance Actually Bad For NCAA Wrestling?",
+      "subtitle": "@da_trealest \u00b7 16 Feb 2026",
+      "href": "https://www.reddit.com/r/wrestling/comments/1r6i0k7/is_penn_states_dominance_actually_bad_for_ncaa/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "PSU\u2019s Zack Ryder to the Portal",
+      "subtitle": "@Fragrant-Rip6443 \u00b7 2 Apr 2025",
+      "href": "https://www.reddit.com/r/wrestling/comments/1jpza6x/psus_zack_ryder_to_the_portal/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Thoughts on the 2026 NCAA Wrestling Championships",
+      "subtitle": "@why_mr_pink \u00b7 23 Mar 2026",
+      "href": "https://www.reddit.com/r/wrestling/comments/1s1o69k/thoughts_on_the_2026_ncaa_wrestling_championships/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Picking state to move to for wrestling",
+      "subtitle": "@noah-__ \u00b7 14 Jul 2026",
+      "href": "https://www.reddit.com/r/wrestling/comments/1uwi9bd/picking_state_to_move_to_for_wrestling/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "In your opinion, what\u2019s the best way to get recruited out of highschool for college wrestling??",
+      "subtitle": "@Tomato_Unable \u00b7 31 Mar 2022",
+      "href": "https://www.reddit.com/r/wrestling/comments/tt278w/in_your_opinion_whats_the_best_way_to_get/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "D1 Schools That Should Have Wrestling (please comment, I\u2019d like to hear your thoughts!)",
+      "subtitle": "13 Dec 2022",
+      "href": "https://www.reddit.com/r/wrestling/comments/zkidlw/d1_schools_that_should_have_wrestling_please/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "My Unlikely Path to D1 Wrestling",
+      "subtitle": "@henigin81 \u00b7 12 Dec 2019",
+      "href": "https://www.reddit.com/r/wrestling/comments/e9ij2m/my_unlikely_path_to_d1_wrestling/",
+      "platform": "Reddit"
+     }
+    ]
+   }
+  }
+ },
+ "jsonrpc": "2.0",
+ "id": 1
+}

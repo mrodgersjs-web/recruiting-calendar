@@ -1,0 +1,68 @@
+{
+  "name": "strategy.output",
+  "stage": "verify",
+  "lane": "strategy",
+  "calibrated": false,
+  "enforcing": true,
+  "mode": "ENFORCING",
+  "never_auto": false,
+  "confidence_floor": 0.9,
+  "questions": [
+    "category_customer_frame",
+    "genuine_disagreement",
+    "only_claim_holds",
+    "tradeoffs_named",
+    "concrete_innovation",
+    "externally_visible",
+    "strategy_not_goal",
+    "specificity"
+  ],
+  "rules": [
+    {
+      "when": "category_customer_frame.noul <= 0.90",
+      "verdict": "ESCALATE",
+      "reason": "category is framed by format or jargon, not by what the customer shops for"
+    },
+    {
+      "when": "genuine_disagreement.noul <= 0.90",
+      "verdict": "ESCALATE",
+      "reason": "no belief a competitor would reject: this is the category average"
+    },
+    {
+      "when": "only_claim_holds.noul <= 0.90",
+      "verdict": "ESCALATE",
+      "reason": "the 'only' claim would not survive the fiercest-competitor test"
+    },
+    {
+      "when": "tradeoffs_named.noul <= 0.90",
+      "verdict": "ESCALATE",
+      "reason": "no trade-offs: nothing is stopped, refused or changed"
+    },
+    {
+      "when": "concrete_innovation.noul <= 0.90",
+      "verdict": "ESCALATE",
+      "reason": "differentiation is a claimed virtue, not an observable innovation"
+    },
+    {
+      "when": "externally_visible.noul <= 0.90",
+      "verdict": "ESCALATE",
+      "reason": "execution is not visible to an outsider"
+    },
+    {
+      "when": "strategy_not_goal.noul <= 0.90",
+      "verdict": "ESCALATE",
+      "reason": "this is a goal or wish list, not a way to win"
+    },
+    {
+      "when": "specificity.score <= 4.50",
+      "verdict": "ESCALATE",
+      "reason": "strategy is not specific enough to this business"
+    },
+    {
+      "when": "specificity.confidence <= 0.90",
+      "verdict": "ESCALATE",
+      "reason": "specificity answer distribution is not concentrated"
+    }
+  ],
+  "calibration": {}
+}

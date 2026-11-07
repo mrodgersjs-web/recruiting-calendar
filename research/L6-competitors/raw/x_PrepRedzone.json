@@ -1,0 +1,138 @@
+{
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "{\n  \"data\": {\n    \"lookupStatus\": \"found\",\n    \"profile\": {\n      \"platform\": \"twitter\",\n      \"handle\": \"PrepRedzone\",\n      \"displayName\": \"Prep Redzone \ud83c\udfc8\",\n      \"bio\": \"The comprehensive authority for High School football prospect coverage & analysis | @prepredzonenext | Text Redzone to (612) 509-1871 for more.\",\n      \"avatarUrl\": \"https://pbs.twimg.com/profile_images/1430677344176517124/lzrqPrH6_400x400.jpg\",\n      \"bannerUrl\": \"https://pbs.twimg.com/profile_banners/1246574056352210955/1770312166/1500x500\",\n      \"verified\": false,\n      \"blueVerified\": true,\n      \"profileUrl\": \"https://x.com/PrepRedzone\",\n      \"privateAccount\": false,\n      \"platformUserId\": \"1246574056352210955\",\n      \"accountCreatedAt\": \"2020-04-04T23:03:16.000Z\",\n      \"accountCreatedAtUnix\": 1586041396,\n      \"location\": \"The Gridiron\",\n      \"website\": \"https://www.PrepRedzone.com\",\n      \"verificationInfo\": {\n        \"isIdentityVerified\": false,\n        \"verifiedSinceMsec\": \"1770413831822\"\n      },\n      \"highlights\": {\n        \"canHighlightTweets\": true,\n        \"highlightedTweetCount\": 12\n      },\n      \"businessAccount\": {\n        \"affiliatesCount\": 0\n      },\n      \"creatorSubscriptionsCount\": 0,\n      \"isBlueVerified\": true,\n      \"verifiedType\": \"This account is verified. Learn more\",\n      \"pinnedTweetIds\": [],\n      \"favoritesCount\": 146391,\n      \"createdAt\": \"2020-04-04T23:03:16.000Z\",\n      \"professional\": {\n        \"type\": \"Business\",\n        \"category\": [\n          {\n            \"id\": 800,\n            \"name\": \"Sports, Fitness & Recreation\",\n            \"icon_name\": \"IconBriefcaseStroke\"\n          }\n        ],\n        \"restId\": \"1631762428395388928\"\n      },\n      \"withheldInCountries\": [],\n      \"profileImageShape\": \"Circle\",\n      \"verifiedSince\": \"2026-02-06T21:37:11.822Z\",\n      \"possiblySensitive\": false,\n      \"profileInterstitialType\": null,\n      \"hasHiddenSubscriptions\": false,\n      \"hasGraduatedAccess\": true,\n      \"isProfileTranslatable\": false,\n      \"hasCustomTimelines\": true,\n      \"isTranslator\": false,\n      \"defaultProfile\": true,\n      \"defaultProfileImage\": false\n    },\n    \"metrics\": {\n      \"availableFields\": [\n        \"followers\",\n        \"following\",\n        \"tweets\",\n        \"favourites\",\n        \"listedCount\",\n        \"mediaCount\"\n      ],\n      \"followers\": 100938,\n      \"following\": 688,\n      \"tweets\": 53405,\n      \"favourites\": 146391,\n      \"listedCount\": 37,\n      \"mediaCount\": 3653\n    }\n  },\n  \"meta\": {\n    \"requestId\": \"req_84efac98-d577-4a17-aba4-4441c9025357\",\n    \"creditsCharged\": 1,\n    \"version\": \"v1\"\n  }\n}"
+   },
+   {
+    "type": "text",
+    "text": "{\"conversation_id\":\"01a1af43-a2f1-74b9-bfb4-42b45e504c59\"}"
+   }
+  ],
+  "structuredContent": {
+   "data": {
+    "lookupStatus": "found",
+    "profile": {
+     "platform": "twitter",
+     "handle": "PrepRedzone",
+     "displayName": "Prep Redzone \ud83c\udfc8",
+     "bio": "The comprehensive authority for High School football prospect coverage & analysis | @prepredzonenext | Text Redzone to (612) 509-1871 for more.",
+     "avatarUrl": "https://pbs.twimg.com/profile_images/1430677344176517124/lzrqPrH6_400x400.jpg",
+     "bannerUrl": "https://pbs.twimg.com/profile_banners/1246574056352210955/1770312166/1500x500",
+     "verified": false,
+     "blueVerified": true,
+     "profileUrl": "https://x.com/PrepRedzone",
+     "privateAccount": false,
+     "platformUserId": "1246574056352210955",
+     "accountCreatedAt": "2020-04-04T23:03:16.000Z",
+     "accountCreatedAtUnix": 1586041396,
+     "location": "The Gridiron",
+     "website": "https://www.PrepRedzone.com",
+     "verificationInfo": {
+      "isIdentityVerified": false,
+      "verifiedSinceMsec": "1770413831822"
+     },
+     "highlights": {
+      "canHighlightTweets": true,
+      "highlightedTweetCount": 12
+     },
+     "businessAccount": {
+      "affiliatesCount": 0
+     },
+     "creatorSubscriptionsCount": 0,
+     "isBlueVerified": true,
+     "verifiedType": "This account is verified. Learn more",
+     "pinnedTweetIds": [],
+     "favoritesCount": 146391,
+     "createdAt": "2020-04-04T23:03:16.000Z",
+     "professional": {
+      "type": "Business",
+      "category": [
+       {
+        "id": 800,
+        "name": "Sports, Fitness & Recreation",
+        "icon_name": "IconBriefcaseStroke"
+       }
+      ],
+      "restId": "1631762428395388928"
+     },
+     "withheldInCountries": [],
+     "profileImageShape": "Circle",
+     "verifiedSince": "2026-02-06T21:37:11.822Z",
+     "possiblySensitive": false,
+     "profileInterstitialType": null,
+     "hasHiddenSubscriptions": false,
+     "hasGraduatedAccess": true,
+     "isProfileTranslatable": false,
+     "hasCustomTimelines": true,
+     "isTranslator": false,
+     "defaultProfile": true,
+     "defaultProfileImage": false
+    },
+    "metrics": {
+     "availableFields": [
+      "followers",
+      "following",
+      "tweets",
+      "favourites",
+      "listedCount",
+      "mediaCount"
+     ],
+     "followers": 100938,
+     "following": 688,
+     "tweets": 53405,
+     "favourites": 146391,
+     "listedCount": 37,
+     "mediaCount": 3653
+    }
+   },
+   "meta": {
+    "requestId": "req_84efac98-d577-4a17-aba4-4441c9025357",
+    "creditsCharged": 1,
+    "version": "v1"
+   },
+   "card": {
+    "kind": "profile",
+    "title": "Prep Redzone \ud83c\udfc8",
+    "subtitle": "@PrepRedzone",
+    "platform": "X",
+    "handle": "@PrepRedzone",
+    "headline": "The comprehensive authority for High School football prospect coverage & analysis | @prepredzonenext | Text Redzone to (612) 509-1871 for more.",
+    "location": "The Gridiron",
+    "verified": false,
+    "metrics": [
+     {
+      "label": "Followers",
+      "value": "101k"
+     },
+     {
+      "label": "Following",
+      "value": "688"
+     },
+     {
+      "label": "Posts",
+      "value": "53k"
+     },
+     {
+      "label": "Listed",
+      "value": "37"
+     }
+    ],
+    "details": [
+     "prepredzone.com",
+     "Joined Apr 2020",
+     "0 affiliates"
+    ],
+    "href": "https://x.com/PrepRedzone",
+    "sourceLabel": "Open profile",
+    "avatar": {
+     "kind": "fallback",
+     "initial": "P"
+    }
+   }
+  }
+ },
+ "jsonrpc": "2.0",
+ "id": 1
+}

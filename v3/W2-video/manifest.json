@@ -1,0 +1,239 @@
+{
+ "generated": "2026-11-05",
+ "integrity": "No faces or generated likeness of any real person. Composite story videos pending W2-images and W2-scripts.",
+ "videos": [
+  {
+   "id": "hero-loop",
+   "duration_s": 27.5,
+   "files": [
+    "hero-loop-1080p.mp4",
+    "hero-loop-720p.mp4",
+    "hero-loop-poster.jpg"
+   ],
+   "sizes_bytes": {
+    "hero-loop-1080p.mp4": 3287999,
+    "hero-loop-720p.mp4": 1763795
+   },
+   "type": "hero silent loop: 8 composite cut-outs (baseball, softball, swimmer, volleyball, wbasketball, football, wrestling, sprinter) on plates, Illustration overlay, logo end card"
+  },
+  {
+   "id": "real-renfrow",
+   "duration_s": 28,
+   "files": [
+    "real-renfrow-1080p.mp4",
+    "real-renfrow-720p.mp4",
+    "real-renfrow-poster.jpg"
+   ],
+   "sizes_bytes": {
+    "real-renfrow-1080p.mp4": 372789,
+    "real-renfrow-720p.mp4": 266172
+   },
+   "type": "real athlete, kinetic typography, no faces",
+   "athlete": "Hunter Renfrow",
+   "end_card": "non-affiliation text, no logo",
+   "source_line_color": "#C8C8C8 on #000 (12.6:1)"
+  },
+  {
+   "id": "real-groenewegen",
+   "duration_s": 23,
+   "files": [
+    "real-groenewegen-1080p.mp4",
+    "real-groenewegen-720p.mp4",
+    "real-groenewegen-poster.jpg"
+   ],
+   "sizes_bytes": {
+    "real-groenewegen-1080p.mp4": 322080,
+    "real-groenewegen-720p.mp4": 225135
+   },
+   "type": "real athlete, kinetic typography, no faces",
+   "athlete": "Sara Groenewegen",
+   "end_card": "non-affiliation text, no logo",
+   "source_line_color": "#C8C8C8 on #000 (12.6:1)"
+  },
+  {
+   "id": "real-lowe",
+   "duration_s": 28,
+   "files": [
+    "real-lowe-1080p.mp4",
+    "real-lowe-720p.mp4",
+    "real-lowe-poster.jpg"
+   ],
+   "sizes_bytes": {
+    "real-lowe-1080p.mp4": 345493,
+    "real-lowe-720p.mp4": 244223
+   },
+   "type": "real athlete, kinetic typography, no faces",
+   "athlete": "Karsta Lowe",
+   "end_card": "non-affiliation text, no logo",
+   "source_line_color": "#C8C8C8 on #000 (12.6:1)"
+  },
+  {
+   "id": "real-pichardo",
+   "duration_s": 23,
+   "files": [
+    "real-pichardo-1080p.mp4",
+    "real-pichardo-720p.mp4",
+    "real-pichardo-poster.jpg"
+   ],
+   "sizes_bytes": {
+    "real-pichardo-1080p.mp4": 292683,
+    "real-pichardo-720p.mp4": 201538
+   },
+   "type": "real athlete, kinetic typography, no faces",
+   "athlete": "Olivia Pichardo",
+   "end_card": "non-affiliation text, no logo",
+   "source_line_color": "#C8C8C8 on #000 (12.6:1)"
+  },
+  {
+   "id": "real-white",
+   "duration_s": 28,
+   "files": [
+    "real-white-1080p.mp4",
+    "real-white-720p.mp4",
+    "real-white-poster.jpg"
+   ],
+   "sizes_bytes": {
+    "real-white-1080p.mp4": 395541,
+    "real-white-720p.mp4": 278059
+   },
+   "type": "real athlete, kinetic typography, no faces",
+   "athlete": "Derrick White",
+   "end_card": "non-affiliation text, no logo",
+   "source_line_color": "#C8C8C8 on #000 (12.6:1)"
+  },
+  {
+   "id": "real-pirosko",
+   "duration_s": 23,
+   "files": [
+    "real-pirosko-1080p.mp4",
+    "real-pirosko-720p.mp4",
+    "real-pirosko-poster.jpg"
+   ],
+   "sizes_bytes": {
+    "real-pirosko-1080p.mp4": 256706,
+    "real-pirosko-720p.mp4": 184913
+   },
+   "type": "real athlete, kinetic typography, no faces",
+   "athlete": "Samantha Pirosko",
+   "end_card": "non-affiliation text, no logo",
+   "source_line_color": "#C8C8C8 on #000 (12.6:1)"
+  },
+  {
+   "id": "real-marpet",
+   "duration_s": 23,
+   "files": [
+    "real-marpet-1080p.mp4",
+    "real-marpet-720p.mp4",
+    "real-marpet-poster.jpg"
+   ],
+   "sizes_bytes": {
+    "real-marpet-1080p.mp4": 251676,
+    "real-marpet-720p.mp4": 179115
+   },
+   "type": "real athlete, kinetic typography, no faces",
+   "athlete": "Ali Marpet",
+   "end_card": "non-affiliation text, no logo",
+   "source_line_color": "#C8C8C8 on #000 (12.6:1)"
+  },
+  {
+   "id": "real-rodenfels",
+   "duration_s": 23,
+   "files": [
+    "real-rodenfels-1080p.mp4",
+    "real-rodenfels-720p.mp4",
+    "real-rodenfels-poster.jpg"
+   ],
+   "sizes_bytes": {
+    "real-rodenfels-1080p.mp4": 292148,
+    "real-rodenfels-720p.mp4": 201578
+   },
+   "type": "real athlete, kinetic typography, no faces",
+   "athlete": "Annie Rodenfels",
+   "end_card": "non-affiliation text, no logo",
+   "source_line_color": "#C8C8C8 on #000 (12.6:1)"
+  },
+  {
+   "id": "real-perez",
+   "duration_s": 28,
+   "files": [
+    "real-perez-1080p.mp4",
+    "real-perez-720p.mp4",
+    "real-perez-poster.jpg"
+   ],
+   "sizes_bytes": {
+    "real-perez-1080p.mp4": 289080,
+    "real-perez-720p.mp4": 200284
+   },
+   "type": "real athlete, kinetic typography, no faces",
+   "athlete": "Tori Perez",
+   "end_card": "non-affiliation text, no logo",
+   "source_line_color": "#C8C8C8 on #000 (12.6:1)"
+  },
+  {
+   "id": "real-coward",
+   "duration_s": 23,
+   "files": [
+    "real-coward-1080p.mp4",
+    "real-coward-720p.mp4",
+    "real-coward-poster.jpg"
+   ],
+   "sizes_bytes": {
+    "real-coward-1080p.mp4": 277662,
+    "real-coward-720p.mp4": 190770
+   },
+   "type": "real athlete, kinetic typography, no faces",
+   "athlete": "Cedric Coward",
+   "end_card": "non-affiliation text, no logo",
+   "source_line_color": "#C8C8C8 on #000 (12.6:1)"
+  },
+  {
+   "id": "real-rodriguez",
+   "duration_s": 28,
+   "files": [
+    "real-rodriguez-1080p.mp4",
+    "real-rodriguez-720p.mp4",
+    "real-rodriguez-poster.jpg"
+   ],
+   "sizes_bytes": {
+    "real-rodriguez-1080p.mp4": 311829,
+    "real-rodriguez-720p.mp4": 212863
+   },
+   "type": "real athlete, kinetic typography, no faces",
+   "athlete": "Cristelle Rodriguez",
+   "end_card": "non-affiliation text, no logo",
+   "source_line_color": "#C8C8C8 on #000 (12.6:1)"
+  },
+  {
+   "id": "real-butler",
+   "duration_s": 23,
+   "files": [
+    "real-butler-1080p.mp4",
+    "real-butler-720p.mp4",
+    "real-butler-poster.jpg"
+   ],
+   "sizes_bytes": {
+    "real-butler-1080p.mp4": 264914,
+    "real-butler-720p.mp4": 186869
+   },
+   "type": "real athlete, kinetic typography, no faces",
+   "athlete": "Jimmy Butler",
+   "end_card": "non-affiliation text, no logo",
+   "source_line_color": "#C8C8C8 on #000 (12.6:1)"
+  },
+  {
+   "id": "composite-swim",
+   "duration_s": 82.9,
+   "beats": 7,
+   "words": 194,
+   "narration": "NONE: macOS say -o writes empty 4 KB aiff and ffmpeg has no flite filter; captioned, silent audio track",
+   "script": "composite-swim-short.json",
+   "files": [
+    "composite-swim-1080p.mp4",
+    "composite-swim-720p.mp4",
+    "composite-swim-poster.jpg"
+   ],
+   "type": "composite story, captioned (no narration), Illustration-labeled, ~200 words"
+  }
+ ],
+ "pending": []
+}

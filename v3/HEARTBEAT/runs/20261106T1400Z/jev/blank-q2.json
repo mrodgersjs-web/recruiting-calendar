@@ -1,0 +1,17 @@
+{
+  "label": "broken or empty",
+  "confidence": 1.0,
+  "noul_score": 1.0,
+  "verdict": "PASS",
+  "probabilities": {
+    "wow: striking": 0.0,
+    "premium": 0.0,
+    "would stop a scroll": 0.0,
+    "ok: competent but forgettable": 0.0,
+    "weak: generic": 0.0,
+    "broken or empty": 1.0
+  },
+  "backend": "typesafe-hosted",
+  "judge": "hosted-jev",
+  "local_error": "legacy 8898 unreachable"
+}

@@ -1,0 +1,409 @@
+{
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "{\n  \"data\": {\n    \"lookupStatus\": \"found\",\n    \"post\": {\n      \"id\": \"1volgnv\",\n      \"title\": \"What\u2019s everyone\u2019s assessment of the recruiting services for College?\",\n      \"text\": \"We are looking into it for my son. Just curious what if anyone has any experience with NCSA or others and if they really do help or is it really a money grab?\",\n      \"url\": \"https://www.reddit.com/r/Homeplate/comments/1volgnv/whats_everyones_assessment_of_the_recruiting/\",\n      \"permalink\": \"/r/Homeplate/comments/1volgnv/whats_everyones_assessment_of_the_recruiting/\",\n      \"subreddit\": \"Homeplate\",\n      \"subredditNamePrefixed\": \"r/Homeplate\",\n      \"author\": \"Due_Display5538\",\n      \"score\": 7,\n      \"upvoteRatio\": 1,\n      \"commentCount\": 15,\n      \"createdAt\": \"2026-08-14T22:24:07.000Z\",\n      \"createdUtc\": 1786746247,\n      \"over18\": false,\n      \"locked\": false,\n      \"stickied\": false\n    },\n    \"page\": {\n      \"nextCursor\": null,\n      \"hasMore\": false\n    },\n    \"comments\": [\n      {\n        \"id\": \"p3qo4zc\",\n        \"url\": \"https://www.reddit.com/r/Homeplate/comments/1volgnv/comment/p3qo4zc/\",\n        \"permalink\": \"/r/Homeplate/comments/1volgnv/comment/p3qo4zc/\",\n        \"parentId\": \"t3_1volgnv\",\n        \"author\": \"BillBob13\",\n        \"text\": \"The college search feature is good, which I think comes for free. But otherwise, never pay for recruiting services.\",\n        \"renderedHtml\": \"\\n      <p>\\n      The college search feature is good, which I think comes for free.  But otherwise, never pay for recruiting services.\\n    </p>\\n    \",\n        \"score\": 4,\n        \"upvotes\": 4,\n        \"createdAt\": \"2026-08-14T22:52:05.000Z\",\n        \"createdUtc\": 1786747925,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"p3qtgvt\",\n              \"url\": \"https://www.reddit.com/r/Homeplate/comments/1volgnv/comment/p3qtgvt/\",\n              \"permalink\": \"/r/Homeplate/comments/1volgnv/comment/p3qtgvt/\",\n              \"parentId\": \"t1_p3qo4zc\",\n              \"author\": \"Critical-Crow-9717\",\n              \"text\": \"Did you use one?\",\n              \"renderedHtml\": \"\\n      <p>\\n      Did you use one?\\n    </p>\\n    \",\n              \"score\": 2,\n              \"upvotes\": 2,\n              \"createdAt\": \"2026-08-14T23:20:43.000Z\",\n              \"createdUtc\": 1786749643,\n              \"depth\": 0,\n              \"isSubmitter\": false,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [\n                  {\n                    \"id\": \"p3qvrck\",\n                    \"url\": \"https://www.reddit.com/r/Homeplate/comments/1volgnv/comment/p3qvrck/\",\n                    \"permalink\": \"/r/Homeplate/comments/1volgnv/comment/p3qvrck/\",\n                    \"parentId\": \"t1_p3qtgvt\",\n                    \"author\": \"BillBob13\",\n                    \"text\": \"Nice thing about being a pitcher, you can email your stats and video (with documented velo) to coaches and they'll respond if you're good enough (Flatgroundapp on twitter was perfect for pitcher recruiting, but I'm not sure if it's a thing anymore). PBR, Field Level, NCSA, and Baseball Factory all did various sales pitches to me/my mom/my coach, but we decided to go with the 'old school' method. The free stuff offered by NCSA and Field Level was really pretty helpful, but I ended up getting signed through an email to a coach.\",\n                    \"renderedHtml\": \"\\n      <p>\\n      Nice thing about being a pitcher, you can email your stats and video (with documented velo) to coaches and they'll respond if you're good enough (Flatgroundapp on twitter was perfect for pitcher recruiting, but I'm not sure if it's a thing anymore).  PBR, Field Level, NCSA, and Baseball Factory all did various sales pitches to me/my mom/my coach, but we decided to go with the 'old school' method.  The free stuff offered by NCSA and Field Level was really pretty helpful, but I ended up getting signed through an email to a coach.\\n    </p>\\n    \",\n                    \"score\": 4,\n                    \"upvotes\": 4,\n                    \"createdAt\": \"2026-08-14T23:33:13.000Z\",\n                    \"createdUtc\": 1786750393,\n                    \"depth\": 0,\n                    \"isSubmitter\": false,\n                    \"stickied\": false,\n                    \"locked\": false,\n                    \"distinguished\": null,\n                    \"replies\": {\n                      \"items\": [],\n                      \"page\": {\n                        \"nextCursor\": null,\n                        \"hasMore\": false\n                      }\n                    }\n                  }\n                ],\n                \"page\": {\n                  \"nextCursor\": \"p3qtgvt\",\n                  \"hasMore\": true\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"p3qtgvt\",\n            \"hasMore\": true\n          }\n        }\n      },\n      {\n        \"id\": \"p3r5kyx\",\n        \"url\": \"https://www.reddit.com/r/Homeplate/comments/1volgnv/comment/p3r5kyx/\",\n        \"permalink\": \"/r/Homeplate/comments/1volgnv/comment/p3r5kyx/\",\n        \"parentId\": \"t3_1volgnv\",\n        \"author\": \"fammo5\",\n        \"text\": \"College baseball coaches have frequently said they don't use these services.\\n\\n Putting solid video with verified metrics on X and have someone who knows to your son connect with coaches on his behalf is the path.\",\n        \"renderedHtml\": \"\\n      <p>\\n      College baseball coaches have frequently said they don't use these services.\\n    </p><p>\\n      Putting solid video with verified metrics on X and have someone who knows to your son connect with coaches on his behalf is the path.\\n    </p>\\n    \",\n        \"score\": 2,\n        \"upvotes\": 2,\n        \"createdAt\": \"2026-08-15T00:28:14.000Z\",\n        \"createdUtc\": 1786753694,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"p3r8b9h\",\n        \"url\": \"https://www.reddit.com/r/Homeplate/comments/1volgnv/comment/p3r8b9h/\",\n        \"permalink\": \"/r/Homeplate/comments/1volgnv/comment/p3r8b9h/\",\n        \"parentId\": \"t3_1volgnv\",\n        \"author\": \"Bulky_Spring_7165\",\n        \"text\": \"Completely unnecessary. Get a free Field Level account and have your kid start researching schools and sending video to coaches.\",\n        \"renderedHtml\": \"\\n      <p>\\n      Completely unnecessary. Get a free Field Level account and have your kid start researching schools and sending video to coaches.\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2026-08-15T00:44:01.000Z\",\n        \"createdUtc\": 1786754641,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"p3r91ep\",\n        \"url\": \"https://www.reddit.com/r/Homeplate/comments/1volgnv/comment/p3r91ep/\",\n        \"permalink\": \"/r/Homeplate/comments/1volgnv/comment/p3r91ep/\",\n        \"parentId\": \"t3_1volgnv\",\n        \"author\": \"Pinkpenguin438\",\n        \"text\": \"There is a great fb group - https://m.facebook.com/groups/parentsofhsathleteswantingtoplayincollege/?ref=share&mibextid=wwXIfr\",\n        \"renderedHtml\": \"\\n      <p>\\n      There is a great fb group - <a rpl=\\\"\\\" class=\\\"relative pointer-events-auto a\\n  \\n  \\n  \\n  \\n  underline\\n  \\n  cursor-pointer\\\" href=\\\"https://m.facebook.com/groups/parentsofhsathleteswantingtoplayincollege/?ref=share&amp;mibextid=wwXIfr\\\" rel=\\\"noopener nofollow ugc\\\" target=\\\"_blank\\\">https://m.facebook.com/groups/parentsofhsathleteswantingtoplayincollege/?ref=share&amp;mibextid=wwXIfr</a>\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2026-08-15T00:48:14.000Z\",\n        \"createdUtc\": 1786754894,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"p3s55mg\",\n        \"url\": \"https://www.reddit.com/r/Homeplate/comments/1volgnv/comment/p3s55mg/\",\n        \"permalink\": \"/r/Homeplate/comments/1volgnv/comment/p3s55mg/\",\n        \"parentId\": \"t3_1volgnv\",\n        \"author\": \"OkJournalist2084\",\n        \"text\": \"Skip recruiting services. College coaches want to talk to the players, not a service. Pick a few colleges from each division that will be target schools. Have your player send videos once a month during freshman season and then increase the frequency each year. If your player doesn't get a response from the coach by the summer after sophomore year, adjust the target list. Go to on campus camps hosted by the target school if your player does get a response.\\n\\n Make an X account. It's also a good way to get film out there and gauge interest.\\n\\n Grades are important too along with intended field of study when considering target schools.\",\n        \"renderedHtml\": \"\\n      <p>\\n      Skip recruiting services. College coaches want to talk to the players, not a service. Pick a few colleges from each division that will be target schools. Have your player send videos once a month during freshman season and then increase the frequency each year. If your player doesn't get a response from the coach by the summer after sophomore year, adjust the target list. Go to on campus camps hosted by the target school if your player does get a response.\\n    </p><p>\\n      Make an X account. It's also a good way to get film out there and gauge interest.\\n    </p><p>\\n      Grades are important too along with intended field of study when considering target schools.\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2026-08-15T04:11:17.000Z\",\n        \"createdUtc\": 1786767077,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"p3uqr4i\",\n        \"url\": \"https://www.reddit.com/r/Homeplate/comments/1volgnv/comment/p3uqr4i/\",\n        \"permalink\": \"/r/Homeplate/comments/1volgnv/comment/p3uqr4i/\",\n        \"parentId\": \"t3_1volgnv\",\n        \"author\": \"redsown36\",\n        \"text\": \"NCSA itself is a waste of time and money.\\n\\n If you're looking to get looks, the best thing you can do is open a line of communication with coaches by email, and make sure that it's not just some automated response. Figure out the schedule of those college's showcases, and have your son attend those showcases.\\nA huge under communicated point of playing at the next level is learning to talk and making good impressions on coaches. Hustle and good communication skills go a long way when it comes to recruiting.\\n\\n Besides all of that, if your son is good, he will noticed and he will get seen playing summer ball, or general showcases like perfect game.\",\n        \"renderedHtml\": \"\\n      <p>\\n      NCSA itself is a waste of time and money.\\n    </p><p>\\n      If you're looking to get looks, the best thing you can do is open a line of communication with coaches by email, and make sure that it's not just some automated response. Figure out the schedule of those college's showcases, and have your son attend those showcases.<br>A huge under communicated point of playing at the next level is learning to talk and making good impressions on coaches. Hustle and good communication skills go a long way when it comes to recruiting.\\n    </p><p>\\n      Besides all of that, if your son is good, he will noticed and he will get seen playing summer ball, or general showcases like perfect game.\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2026-08-15T15:12:17.000Z\",\n        \"createdUtc\": 1786806737,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"p3wmp1g\",\n        \"url\": \"https://www.reddit.com/r/Homeplate/comments/1volgnv/comment/p3wmp1g/\",\n        \"permalink\": \"/r/Homeplate/comments/1volgnv/comment/p3wmp1g/\",\n        \"parentId\": \"t3_1volgnv\",\n        \"author\": \"Warm-Championship-15\",\n        \"text\": \"NCSA is not worth the money. Go to your high school or travel coach if they have good networks.\u00a0 As someone else here suggested open a free level Field Level account and x.com. Reach out to coaches with video clips and your metrics. Attend the college camps of realistic targets.\u00a0 Grades, grades, grades.\u00a0 If you don't have a decent GPA and SAT/ACT you're not in the game for most schools.\",\n        \"renderedHtml\": \"\\n      <p>\\n      NCSA is not worth the money. Go to your high school or travel coach if they have good networks.&nbsp; As someone else here suggested open a free level Field Level account and x.com. Reach out to coaches with video clips and your metrics. Attend the college camps of realistic targets.&nbsp; Grades, grades, grades.&nbsp; If you don't have a decent GPA and SAT/ACT you're not in the game for most schools.&nbsp;\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2026-08-15T20:34:06.000Z\",\n        \"createdUtc\": 1786826046,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"p4an80z\",\n        \"url\": \"https://www.reddit.com/r/Homeplate/comments/1volgnv/comment/p4an80z/\",\n        \"permalink\": \"/r/Homeplate/comments/1volgnv/comment/p4an80z/\",\n        \"parentId\": \"t3_1volgnv\",\n        \"author\": \"ConsequenceNatural80\",\n        \"text\": \"You do not need to pay thousands just to start recruiting. Build a realistic school list, contact coaches directly, complete each program\u2019s questionnaire, and track your follow-ups. The value is in consistent outreach and good targeting, not blasting the same message everywhere.\",\n        \"renderedHtml\": \"\\n      <p>\\n      You do not need to pay thousands just to start recruiting. Build a realistic school list, contact coaches directly, complete each program\u2019s questionnaire, and track your follow-ups. The value is in consistent outreach and good targeting, not blasting the same message everywhere.\\n    </p>\\n    \",\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2026-08-17T21:03:52.000Z\",\n        \"createdUtc\": 1787000632,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [],\n          \"page\": {\n            \"nextCursor\": null,\n            \"hasMore\": false\n          }\n        }\n      },\n      {\n        \"id\": \"p4bhk1d\",\n        \"url\": \"https://www.reddit.com/r/Homeplate/comments/1volgnv/comment/p4bhk1d/\",\n        \"permalink\": \"/r/Homeplate/comments/1volgnv/comment/p4bhk1d/\",\n        \"parentId\": \"t3_1volgnv\",\n        \"author\": \"[deleted]\",\n        \"text\": \"[deleted]\",\n        \"renderedHtml\": null,\n        \"score\": 1,\n        \"upvotes\": 1,\n        \"createdAt\": \"2026-08-17T23:35:29.000Z\",\n        \"createdUtc\": 1787009729,\n        \"depth\": 0,\n        \"isSubmitter\": false,\n        \"stickied\": false,\n        \"locked\": false,\n        \"distinguished\": null,\n        \"replies\": {\n          \"items\": [\n            {\n              \"id\": \"p5kxnbx\",\n              \"url\": \"https://www.reddit.com/r/Homeplate/comments/1volgnv/comment/p5kxnbx/\",\n              \"permalink\": \"/r/Homeplate/comments/1volgnv/comment/p5kxnbx/\",\n              \"parentId\": \"t1_p4bhk1d\",\n              \"author\": \"Warm-Championship-15\",\n              \"text\": \"That\u2019s not a good use of money at all. I would put that into your player\u2019s coaching, strength training, speed work and nutrition instead.\",\n              \"renderedHtml\": \"\\n      <p>\\n      That\u2019s not a good use of money at all. I would put that into your player\u2019s coaching, strength training, speed work and nutrition instead.\\n    </p>\\n    \",\n              \"score\": 1,\n              \"upvotes\": 1,\n              \"createdAt\": \"2026-08-24T11:34:29.000Z\",\n              \"createdUtc\": 1787571269,\n              \"depth\": 0,\n              \"isSubmitter\": false,\n              \"stickied\": false,\n              \"locked\": false,\n              \"distinguished\": null,\n              \"replies\": {\n                \"items\": [],\n                \"page\": {\n                  \"nextCursor\": null,\n                  \"hasMore\": false\n                }\n              }\n            }\n          ],\n          \"page\": {\n            \"nextCursor\": \"p4bhk1d\",\n            \"hasMore\": true\n          }\n        }\n      }\n    ]\n  },\n  \"meta\": {\n    \"requestId\": \"req_925e86bb-7b87-4297-8982-dce57d9bdbd2\",\n    \"creditsCharged\": 1,\n    \"version\": \"v1\"\n  }\n}"
+   },
+   {
+    "type": "text",
+    "text": "{\"conversation_id\":\"01a1af43-a4f4-7930-9689-58f43a80485a\"}"
+   }
+  ],
+  "structuredContent": {
+   "data": {
+    "lookupStatus": "found",
+    "post": {
+     "id": "1volgnv",
+     "title": "What\u2019s everyone\u2019s assessment of the recruiting services for College?",
+     "text": "We are looking into it for my son. Just curious what if anyone has any experience with NCSA or others and if they really do help or is it really a money grab?",
+     "url": "https://www.reddit.com/r/Homeplate/comments/1volgnv/whats_everyones_assessment_of_the_recruiting/",
+     "permalink": "/r/Homeplate/comments/1volgnv/whats_everyones_assessment_of_the_recruiting/",
+     "subreddit": "Homeplate",
+     "subredditNamePrefixed": "r/Homeplate",
+     "author": "Due_Display5538",
+     "score": 7,
+     "upvoteRatio": 1,
+     "commentCount": 15,
+     "createdAt": "2026-08-14T22:24:07.000Z",
+     "createdUtc": 1786746247,
+     "over18": false,
+     "locked": false,
+     "stickied": false
+    },
+    "page": {
+     "nextCursor": null,
+     "hasMore": false
+    },
+    "comments": [
+     {
+      "id": "p3qo4zc",
+      "url": "https://www.reddit.com/r/Homeplate/comments/1volgnv/comment/p3qo4zc/",
+      "permalink": "/r/Homeplate/comments/1volgnv/comment/p3qo4zc/",
+      "parentId": "t3_1volgnv",
+      "author": "BillBob13",
+      "text": "The college search feature is good, which I think comes for free. But otherwise, never pay for recruiting services.",
+      "renderedHtml": "\n      <p>\n      The college search feature is good, which I think comes for free.  But otherwise, never pay for recruiting services.\n    </p>\n    ",
+      "score": 4,
+      "upvotes": 4,
+      "createdAt": "2026-08-14T22:52:05.000Z",
+      "createdUtc": 1786747925,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "p3qtgvt",
+         "url": "https://www.reddit.com/r/Homeplate/comments/1volgnv/comment/p3qtgvt/",
+         "permalink": "/r/Homeplate/comments/1volgnv/comment/p3qtgvt/",
+         "parentId": "t1_p3qo4zc",
+         "author": "Critical-Crow-9717",
+         "text": "Did you use one?",
+         "renderedHtml": "\n      <p>\n      Did you use one?\n    </p>\n    ",
+         "score": 2,
+         "upvotes": 2,
+         "createdAt": "2026-08-14T23:20:43.000Z",
+         "createdUtc": 1786749643,
+         "depth": 0,
+         "isSubmitter": false,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [
+           {
+            "id": "p3qvrck",
+            "url": "https://www.reddit.com/r/Homeplate/comments/1volgnv/comment/p3qvrck/",
+            "permalink": "/r/Homeplate/comments/1volgnv/comment/p3qvrck/",
+            "parentId": "t1_p3qtgvt",
+            "author": "BillBob13",
+            "text": "Nice thing about being a pitcher, you can email your stats and video (with documented velo) to coaches and they'll respond if you're good enough (Flatgroundapp on twitter was perfect for pitcher recruiting, but I'm not sure if it's a thing anymore). PBR, Field Level, NCSA, and Baseball Factory all did various sales pitches to me/my mom/my coach, but we decided to go with the 'old school' method. The free stuff offered by NCSA and Field Level was really pretty helpful, but I ended up getting signed through an email to a coach.",
+            "renderedHtml": "\n      <p>\n      Nice thing about being a pitcher, you can email your stats and video (with documented velo) to coaches and they'll respond if you're good enough (Flatgroundapp on twitter was perfect for pitcher recruiting, but I'm not sure if it's a thing anymore).  PBR, Field Level, NCSA, and Baseball Factory all did various sales pitches to me/my mom/my coach, but we decided to go with the 'old school' method.  The free stuff offered by NCSA and Field Level was really pretty helpful, but I ended up getting signed through an email to a coach.\n    </p>\n    ",
+            "score": 4,
+            "upvotes": 4,
+            "createdAt": "2026-08-14T23:33:13.000Z",
+            "createdUtc": 1786750393,
+            "depth": 0,
+            "isSubmitter": false,
+            "stickied": false,
+            "locked": false,
+            "distinguished": null,
+            "replies": {
+             "items": [],
+             "page": {
+              "nextCursor": null,
+              "hasMore": false
+             }
+            }
+           }
+          ],
+          "page": {
+           "nextCursor": "p3qtgvt",
+           "hasMore": true
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "p3qtgvt",
+        "hasMore": true
+       }
+      }
+     },
+     {
+      "id": "p3r5kyx",
+      "url": "https://www.reddit.com/r/Homeplate/comments/1volgnv/comment/p3r5kyx/",
+      "permalink": "/r/Homeplate/comments/1volgnv/comment/p3r5kyx/",
+      "parentId": "t3_1volgnv",
+      "author": "fammo5",
+      "text": "College baseball coaches have frequently said they don't use these services.\n\n Putting solid video with verified metrics on X and have someone who knows to your son connect with coaches on his behalf is the path.",
+      "renderedHtml": "\n      <p>\n      College baseball coaches have frequently said they don't use these services.\n    </p><p>\n      Putting solid video with verified metrics on X and have someone who knows to your son connect with coaches on his behalf is the path.\n    </p>\n    ",
+      "score": 2,
+      "upvotes": 2,
+      "createdAt": "2026-08-15T00:28:14.000Z",
+      "createdUtc": 1786753694,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "p3r8b9h",
+      "url": "https://www.reddit.com/r/Homeplate/comments/1volgnv/comment/p3r8b9h/",
+      "permalink": "/r/Homeplate/comments/1volgnv/comment/p3r8b9h/",
+      "parentId": "t3_1volgnv",
+      "author": "Bulky_Spring_7165",
+      "text": "Completely unnecessary. Get a free Field Level account and have your kid start researching schools and sending video to coaches.",
+      "renderedHtml": "\n      <p>\n      Completely unnecessary. Get a free Field Level account and have your kid start researching schools and sending video to coaches.\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2026-08-15T00:44:01.000Z",
+      "createdUtc": 1786754641,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "p3r91ep",
+      "url": "https://www.reddit.com/r/Homeplate/comments/1volgnv/comment/p3r91ep/",
+      "permalink": "/r/Homeplate/comments/1volgnv/comment/p3r91ep/",
+      "parentId": "t3_1volgnv",
+      "author": "Pinkpenguin438",
+      "text": "There is a great fb group - https://m.facebook.com/groups/parentsofhsathleteswantingtoplayincollege/?ref=share&mibextid=wwXIfr",
+      "renderedHtml": "\n      <p>\n      There is a great fb group - <a rpl=\"\" class=\"relative pointer-events-auto a\n  \n  \n  \n  \n  underline\n  \n  cursor-pointer\" href=\"https://m.facebook.com/groups/parentsofhsathleteswantingtoplayincollege/?ref=share&amp;mibextid=wwXIfr\" rel=\"noopener nofollow ugc\" target=\"_blank\">https://m.facebook.com/groups/parentsofhsathleteswantingtoplayincollege/?ref=share&amp;mibextid=wwXIfr</a>\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2026-08-15T00:48:14.000Z",
+      "createdUtc": 1786754894,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "p3s55mg",
+      "url": "https://www.reddit.com/r/Homeplate/comments/1volgnv/comment/p3s55mg/",
+      "permalink": "/r/Homeplate/comments/1volgnv/comment/p3s55mg/",
+      "parentId": "t3_1volgnv",
+      "author": "OkJournalist2084",
+      "text": "Skip recruiting services. College coaches want to talk to the players, not a service. Pick a few colleges from each division that will be target schools. Have your player send videos once a month during freshman season and then increase the frequency each year. If your player doesn't get a response from the coach by the summer after sophomore year, adjust the target list. Go to on campus camps hosted by the target school if your player does get a response.\n\n Make an X account. It's also a good way to get film out there and gauge interest.\n\n Grades are important too along with intended field of study when considering target schools.",
+      "renderedHtml": "\n      <p>\n      Skip recruiting services. College coaches want to talk to the players, not a service. Pick a few colleges from each division that will be target schools. Have your player send videos once a month during freshman season and then increase the frequency each year. If your player doesn't get a response from the coach by the summer after sophomore year, adjust the target list. Go to on campus camps hosted by the target school if your player does get a response.\n    </p><p>\n      Make an X account. It's also a good way to get film out there and gauge interest.\n    </p><p>\n      Grades are important too along with intended field of study when considering target schools.\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2026-08-15T04:11:17.000Z",
+      "createdUtc": 1786767077,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "p3uqr4i",
+      "url": "https://www.reddit.com/r/Homeplate/comments/1volgnv/comment/p3uqr4i/",
+      "permalink": "/r/Homeplate/comments/1volgnv/comment/p3uqr4i/",
+      "parentId": "t3_1volgnv",
+      "author": "redsown36",
+      "text": "NCSA itself is a waste of time and money.\n\n If you're looking to get looks, the best thing you can do is open a line of communication with coaches by email, and make sure that it's not just some automated response. Figure out the schedule of those college's showcases, and have your son attend those showcases.\nA huge under communicated point of playing at the next level is learning to talk and making good impressions on coaches. Hustle and good communication skills go a long way when it comes to recruiting.\n\n Besides all of that, if your son is good, he will noticed and he will get seen playing summer ball, or general showcases like perfect game.",
+      "renderedHtml": "\n      <p>\n      NCSA itself is a waste of time and money.\n    </p><p>\n      If you're looking to get looks, the best thing you can do is open a line of communication with coaches by email, and make sure that it's not just some automated response. Figure out the schedule of those college's showcases, and have your son attend those showcases.<br>A huge under communicated point of playing at the next level is learning to talk and making good impressions on coaches. Hustle and good communication skills go a long way when it comes to recruiting.\n    </p><p>\n      Besides all of that, if your son is good, he will noticed and he will get seen playing summer ball, or general showcases like perfect game.\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2026-08-15T15:12:17.000Z",
+      "createdUtc": 1786806737,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "p3wmp1g",
+      "url": "https://www.reddit.com/r/Homeplate/comments/1volgnv/comment/p3wmp1g/",
+      "permalink": "/r/Homeplate/comments/1volgnv/comment/p3wmp1g/",
+      "parentId": "t3_1volgnv",
+      "author": "Warm-Championship-15",
+      "text": "NCSA is not worth the money. Go to your high school or travel coach if they have good networks.\u00a0 As someone else here suggested open a free level Field Level account and x.com. Reach out to coaches with video clips and your metrics. Attend the college camps of realistic targets.\u00a0 Grades, grades, grades.\u00a0 If you don't have a decent GPA and SAT/ACT you're not in the game for most schools.",
+      "renderedHtml": "\n      <p>\n      NCSA is not worth the money. Go to your high school or travel coach if they have good networks.&nbsp; As someone else here suggested open a free level Field Level account and x.com. Reach out to coaches with video clips and your metrics. Attend the college camps of realistic targets.&nbsp; Grades, grades, grades.&nbsp; If you don't have a decent GPA and SAT/ACT you're not in the game for most schools.&nbsp;\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2026-08-15T20:34:06.000Z",
+      "createdUtc": 1786826046,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "p4an80z",
+      "url": "https://www.reddit.com/r/Homeplate/comments/1volgnv/comment/p4an80z/",
+      "permalink": "/r/Homeplate/comments/1volgnv/comment/p4an80z/",
+      "parentId": "t3_1volgnv",
+      "author": "ConsequenceNatural80",
+      "text": "You do not need to pay thousands just to start recruiting. Build a realistic school list, contact coaches directly, complete each program\u2019s questionnaire, and track your follow-ups. The value is in consistent outreach and good targeting, not blasting the same message everywhere.",
+      "renderedHtml": "\n      <p>\n      You do not need to pay thousands just to start recruiting. Build a realistic school list, contact coaches directly, complete each program\u2019s questionnaire, and track your follow-ups. The value is in consistent outreach and good targeting, not blasting the same message everywhere.\n    </p>\n    ",
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2026-08-17T21:03:52.000Z",
+      "createdUtc": 1787000632,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [],
+       "page": {
+        "nextCursor": null,
+        "hasMore": false
+       }
+      }
+     },
+     {
+      "id": "p4bhk1d",
+      "url": "https://www.reddit.com/r/Homeplate/comments/1volgnv/comment/p4bhk1d/",
+      "permalink": "/r/Homeplate/comments/1volgnv/comment/p4bhk1d/",
+      "parentId": "t3_1volgnv",
+      "author": "[deleted]",
+      "text": "[deleted]",
+      "renderedHtml": null,
+      "score": 1,
+      "upvotes": 1,
+      "createdAt": "2026-08-17T23:35:29.000Z",
+      "createdUtc": 1787009729,
+      "depth": 0,
+      "isSubmitter": false,
+      "stickied": false,
+      "locked": false,
+      "distinguished": null,
+      "replies": {
+       "items": [
+        {
+         "id": "p5kxnbx",
+         "url": "https://www.reddit.com/r/Homeplate/comments/1volgnv/comment/p5kxnbx/",
+         "permalink": "/r/Homeplate/comments/1volgnv/comment/p5kxnbx/",
+         "parentId": "t1_p4bhk1d",
+         "author": "Warm-Championship-15",
+         "text": "That\u2019s not a good use of money at all. I would put that into your player\u2019s coaching, strength training, speed work and nutrition instead.",
+         "renderedHtml": "\n      <p>\n      That\u2019s not a good use of money at all. I would put that into your player\u2019s coaching, strength training, speed work and nutrition instead.\n    </p>\n    ",
+         "score": 1,
+         "upvotes": 1,
+         "createdAt": "2026-08-24T11:34:29.000Z",
+         "createdUtc": 1787571269,
+         "depth": 0,
+         "isSubmitter": false,
+         "stickied": false,
+         "locked": false,
+         "distinguished": null,
+         "replies": {
+          "items": [],
+          "page": {
+           "nextCursor": null,
+           "hasMore": false
+          }
+         }
+        }
+       ],
+       "page": {
+        "nextCursor": "p4bhk1d",
+        "hasMore": true
+       }
+      }
+     }
+    ]
+   },
+   "meta": {
+    "requestId": "req_925e86bb-7b87-4297-8982-dce57d9bdbd2",
+    "creditsCharged": 1,
+    "version": "v1"
+   },
+   "card": {
+    "kind": "search",
+    "title": "Reddit comments",
+    "subtitle": "9 results",
+    "resultCount": 9,
+    "items": [
+     {
+      "title": "The college search feature is good, which I think comes for free. But otherwise, never pay for recruiting services.",
+      "subtitle": "@BillBob13 \u00b7 4 points",
+      "href": "https://www.reddit.com/r/Homeplate/comments/1volgnv/comment/p3qo4zc/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "College baseball coaches have frequently said they don't use these services. Putting solid video with verified metrics on X and have someone who knows to your\u2026",
+      "subtitle": "@fammo5 \u00b7 2 points",
+      "href": "https://www.reddit.com/r/Homeplate/comments/1volgnv/comment/p3r5kyx/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Completely unnecessary. Get a free Field Level account and have your kid start researching schools and sending video to coaches.",
+      "subtitle": "@Bulky_Spring_7165 \u00b7 1 point",
+      "href": "https://www.reddit.com/r/Homeplate/comments/1volgnv/comment/p3r8b9h/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "There is a great fb group -",
+      "subtitle": "@Pinkpenguin438 \u00b7 1 point",
+      "href": "https://www.reddit.com/r/Homeplate/comments/1volgnv/comment/p3r91ep/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Skip recruiting services. College coaches want to talk to the players, not a service. Pick a few colleges from each division that will be target schools. Have\u2026",
+      "subtitle": "@OkJournalist2084 \u00b7 1 point",
+      "href": "https://www.reddit.com/r/Homeplate/comments/1volgnv/comment/p3s55mg/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "NCSA itself is a waste of time and money. If you're looking to get looks, the best thing you can do is open a line of communication with coaches by email, and\u2026",
+      "subtitle": "@redsown36 \u00b7 1 point",
+      "href": "https://www.reddit.com/r/Homeplate/comments/1volgnv/comment/p3uqr4i/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "NCSA is not worth the money. Go to your high school or travel coach if they have good networks. As someone else here suggested open a free level Field Level\u2026",
+      "subtitle": "@Warm-Championship-15 \u00b7 1 point",
+      "href": "https://www.reddit.com/r/Homeplate/comments/1volgnv/comment/p3wmp1g/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "You do not need to pay thousands just to start recruiting. Build a realistic school list, contact coaches directly, complete each program\u2019s questionnaire, and\u2026",
+      "subtitle": "@ConsequenceNatural80 \u00b7 1 point",
+      "href": "https://www.reddit.com/r/Homeplate/comments/1volgnv/comment/p4an80z/",
+      "platform": "Reddit"
+     }
+    ]
+   }
+  }
+ },
+ "jsonrpc": "2.0",
+ "id": 1
+}

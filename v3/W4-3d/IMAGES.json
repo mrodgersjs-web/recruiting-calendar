@@ -1,0 +1,127 @@
+{
+ "rule": "BRIEF-V3 rule 2: fictional composites only, label 'Illustration'.",
+ "lane": "W4-3d",
+ "replaces": "W2-images cut-* (same filenames)",
+ "images": [
+  {
+   "file": [
+    "cut-football-640.webp",
+    "cut-football-1080.webp"
+   ],
+   "subject": "a muscular Black man, age 21, college football player, plain white practice jersey with no number, plain white football pants, plain solid black cleats, holding nothing",
+   "kind": "composite",
+   "label": "Illustration",
+   "real_person": false,
+   "transparent": true,
+   "aspect": "9:16",
+   "tool": "Aside imagegen (photoreal) + PIL chroma key and synthetic contact shadow",
+   "license": "Generated for RIG; no third-party model or asset; not a real person",
+   "prompt": "Photorealistic full-body fashion catalogue photo of a muscular Black man, age 21, college football player, plain white practice jersey with no number, plain white football pants, plain solid black cleats, holding nothing, standing relaxed and natural like a runway 'try the look' lookbook model, arms relaxed at sides, facing camera, entire body visible from head to feet, feet near the bottom edge, vertical 9:16 framing, soft natural even studio light, isolated on a perfectly flat solid pure chroma green (#00FF00) background with no floor and no shadows. Fictional composite person, not any real individual. Absolutely no logos, swooshes, stripes, numbers, text, brand marks or symbols anywhere on clothing, shoes or equipment."
+  },
+  {
+   "file": [
+    "cut-wbasketball-640.webp",
+    "cut-wbasketball-1080.webp"
+   ],
+   "subject": "a tall athletic Black woman, age 20, college basketball player, plain white sleeveless basketball jersey with no number, plain white shorts, plain solid white high-top basketball shoes",
+   "kind": "composite",
+   "label": "Illustration",
+   "real_person": false,
+   "transparent": true,
+   "aspect": "9:16",
+   "tool": "Aside imagegen (photoreal) + PIL chroma key and synthetic contact shadow",
+   "license": "Generated for RIG; no third-party model or asset; not a real person",
+   "prompt": "Photorealistic full-body fashion catalogue photo of a tall athletic Black woman, age 20, college basketball player, plain white sleeveless basketball jersey with no number, plain white shorts, plain solid white high-top basketball shoes, standing relaxed and natural like a runway 'try the look' lookbook model, arms relaxed at sides, facing camera, entire body visible from head to feet, feet near the bottom edge, vertical 9:16 framing, soft natural even studio light, isolated on a perfectly flat solid pure chroma green (#00FF00) background with no floor and no shadows. Fictional composite person, not any real individual. Absolutely no logos, swooshes, stripes, numbers, text, brand marks or symbols anywhere on clothing, shoes or equipment."
+  },
+  {
+   "file": [
+    "cut-baseball-640.webp",
+    "cut-baseball-1080.webp"
+   ],
+   "subject": "a lean Latino man, age 20, college baseball player, plain grey baseball uniform with no lettering, plain grey cap with no logo, plain black cleats",
+   "kind": "composite",
+   "label": "Illustration",
+   "real_person": false,
+   "transparent": true,
+   "aspect": "9:16",
+   "tool": "Aside imagegen (photoreal) + PIL chroma key and synthetic contact shadow",
+   "license": "Generated for RIG; no third-party model or asset; not a real person",
+   "prompt": "Photorealistic full-body fashion catalogue photo of a lean Latino man, age 20, college baseball player, plain grey baseball uniform with no lettering, plain grey cap with no logo, plain black cleats, standing relaxed and natural like a runway 'try the look' lookbook model, arms relaxed at sides, facing camera, entire body visible from head to feet, feet near the bottom edge, vertical 9:16 framing, soft natural even studio light, isolated on a perfectly flat solid pure chroma green (#00FF00) background with no floor and no shadows. Fictional composite person, not any real individual. Absolutely no logos, swooshes, stripes, numbers, text, brand marks or symbols anywhere on clothing, shoes or equipment."
+  },
+  {
+   "file": [
+    "cut-swimmer-640.webp",
+    "cut-swimmer-1080.webp"
+   ],
+   "subject": "a broad-shouldered white woman, age 20, college swimmer, plain long black swim parka worn open over a plain navy one-piece swimsuit, plain black slides, holding a plain swim cap",
+   "kind": "composite",
+   "label": "Illustration",
+   "real_person": false,
+   "transparent": true,
+   "aspect": "9:16",
+   "tool": "Aside imagegen (photoreal) + PIL chroma key and synthetic contact shadow",
+   "license": "Generated for RIG; no third-party model or asset; not a real person",
+   "prompt": "Photorealistic full-body fashion catalogue photo of a broad-shouldered white woman, age 20, college swimmer, plain long black swim parka worn open over a plain navy one-piece swimsuit, plain black slides, holding a plain swim cap, standing relaxed and natural like a runway 'try the look' lookbook model, arms relaxed at sides, facing camera, entire body visible from head to feet, feet near the bottom edge, vertical 9:16 framing, soft natural even studio light, isolated on a perfectly flat solid pure chroma green (#00FF00) background with no floor and no shadows. Fictional composite person, not any real individual. Absolutely no logos, swooshes, stripes, numbers, text, brand marks or symbols anywhere on clothing, shoes or equipment."
+  },
+  {
+   "file": [
+    "cut-softball-640.webp",
+    "cut-softball-1080.webp"
+   ],
+   "subject": "a strong athletic white woman, age 20, college softball player, plain navy softball jersey and pants with no lettering, plain black visor, plain black cleats",
+   "kind": "composite",
+   "label": "Illustration",
+   "real_person": false,
+   "transparent": true,
+   "aspect": "9:16",
+   "tool": "Aside imagegen (photoreal) + PIL chroma key and synthetic contact shadow",
+   "license": "Generated for RIG; no third-party model or asset; not a real person",
+   "prompt": "Photorealistic full-body fashion catalogue photo of a strong athletic white woman, age 20, college softball player, plain navy softball jersey and pants with no lettering, plain black visor, plain black cleats, standing relaxed and natural like a runway 'try the look' lookbook model, arms relaxed at sides, facing camera, entire body visible from head to feet, feet near the bottom edge, vertical 9:16 framing, soft natural even studio light, isolated on a perfectly flat solid pure chroma green (#00FF00) background with no floor and no shadows. Fictional composite person, not any real individual. Absolutely no logos, swooshes, stripes, numbers, text, brand marks or symbols anywhere on clothing, shoes or equipment."
+  },
+  {
+   "file": [
+    "cut-volleyball-640.webp",
+    "cut-volleyball-1080.webp"
+   ],
+   "subject": "a tall slim South Asian woman, age 20, college volleyball player, plain light-blue short-sleeve jersey with no number, plain black spandex shorts, black knee pads, plain white court shoes",
+   "kind": "composite",
+   "label": "Illustration",
+   "real_person": false,
+   "transparent": true,
+   "aspect": "9:16",
+   "tool": "Aside imagegen (photoreal) + PIL chroma key and synthetic contact shadow",
+   "license": "Generated for RIG; no third-party model or asset; not a real person",
+   "prompt": "Photorealistic full-body fashion catalogue photo of a tall slim South Asian woman, age 20, college volleyball player, plain light-blue short-sleeve jersey with no number, plain black spandex shorts, black knee pads, plain white court shoes, standing relaxed and natural like a runway 'try the look' lookbook model, arms relaxed at sides, facing camera, entire body visible from head to feet, feet near the bottom edge, vertical 9:16 framing, soft natural even studio light, isolated on a perfectly flat solid pure chroma green (#00FF00) background with no floor and no shadows. Fictional composite person, not any real individual. Absolutely no logos, swooshes, stripes, numbers, text, brand marks or symbols anywhere on clothing, shoes or equipment."
+  },
+  {
+   "file": [
+    "cut-sprinter-640.webp",
+    "cut-sprinter-1080.webp"
+   ],
+   "subject": "a lean muscular mixed-race man, age 21, college sprinter, plain black singlet and plain black half-tights, plain solid black track spikes",
+   "kind": "composite",
+   "label": "Illustration",
+   "real_person": false,
+   "transparent": true,
+   "aspect": "9:16",
+   "tool": "Aside imagegen (photoreal) + PIL chroma key and synthetic contact shadow",
+   "license": "Generated for RIG; no third-party model or asset; not a real person",
+   "prompt": "Photorealistic full-body fashion catalogue photo of a lean muscular mixed-race man, age 21, college sprinter, plain black singlet and plain black half-tights, plain solid black track spikes, standing relaxed and natural like a runway 'try the look' lookbook model, arms relaxed at sides, facing camera, entire body visible from head to feet, feet near the bottom edge, vertical 9:16 framing, soft natural even studio light, isolated on a perfectly flat solid pure chroma green (#00FF00) background with no floor and no shadows. Fictional composite person, not any real individual. Absolutely no logos, swooshes, stripes, numbers, text, brand marks or symbols anywhere on clothing, shoes or equipment."
+  },
+  {
+   "file": [
+    "cut-wrestling-640.webp",
+    "cut-wrestling-1080.webp"
+   ],
+   "subject": "a stocky muscular East Asian man, age 21, college wrestler, wearing a plain black hooded warmup jacket unzipped over a plain solid maroon wrestling singlet, plain black wrestling shoes",
+   "kind": "composite",
+   "label": "Illustration",
+   "real_person": false,
+   "transparent": true,
+   "aspect": "9:16",
+   "tool": "Aside imagegen (photoreal) + PIL chroma key and synthetic contact shadow",
+   "license": "Generated for RIG; no third-party model or asset; not a real person",
+   "prompt": "Photorealistic full-body fashion catalogue photo of a stocky muscular East Asian man, age 21, college wrestler, wearing a plain black hooded warmup jacket unzipped over a plain solid maroon wrestling singlet, plain black wrestling shoes, standing relaxed and natural like a runway 'try the look' lookbook model, arms relaxed at sides, facing camera, entire body visible from head to feet, feet near the bottom edge, vertical 9:16 framing, soft natural even studio light, isolated on a perfectly flat solid pure chroma green (#00FF00) background with no floor and no shadows. Fictional composite person, not any real individual. Absolutely no logos, swooshes, stripes, numbers, text, brand marks or symbols anywhere on clothing, shoes or equipment."
+  }
+ ]
+}

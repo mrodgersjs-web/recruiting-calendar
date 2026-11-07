@@ -1,0 +1,338 @@
+{
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "{\n  \"data\": {\n    \"subreddit\": \"Basketball\",\n    \"query\": \"college recruiting\",\n    \"sort\": \"comments\",\n    \"timeframe\": \"all\",\n    \"posts\": [\n      {\n        \"id\": \"1uwf73f\",\n        \"postId\": \"t3_1uwf73f\",\n        \"title\": \"18-year-old Irish point guard trying to choose between JUCO in the US vs developing in Greece \u2014 need advice\",\n        \"url\": \"https://www.reddit.com/r/Basketball/comments/1uwf73f/18yearold_irish_point_guard_trying_to_choose/\",\n        \"permalink\": \"/r/Basketball/comments/1uwf73f/18yearold_irish_point_guard_trying_to_choose/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"Darkninjago2407\",\n          \"id\": \"t2_nk1hfb7z4\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"Basketball\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 86,\n          \"comments\": 101,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2026-07-14T17:24:47.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 0,\n        \"relativePosition\": 0\n      },\n      {\n        \"id\": \"1rne381\",\n        \"postId\": \"t3_1rne381\",\n        \"title\": \"Senior League Fighting Issues\",\n        \"url\": \"https://www.reddit.com/r/Basketball/comments/1rne381/senior_league_fighting_issues/\",\n        \"permalink\": \"/r/Basketball/comments/1rne381/senior_league_fighting_issues/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"Sufficient-State380\",\n          \"id\": \"t2_1ivk73ar28\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"Basketball\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 60,\n          \"comments\": 55,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2026-03-07T16:22:12.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 1,\n        \"relativePosition\": 1\n      },\n      {\n        \"id\": \"1xbw30n\",\n        \"postId\": \"t3_1xbw30n\",\n        \"title\": \"Former Division 1 basketball player and college head coach here to answer questions about development and the recruiting process.\",\n        \"url\": \"https://www.reddit.com/r/Basketball/comments/1xbw30n/former_division_1_basketball_player_and_college/\",\n        \"permalink\": \"/r/Basketball/comments/1xbw30n/former_division_1_basketball_player_and_college/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"Internal_Ad_3977\",\n          \"id\": \"t2_9nxvg2ah\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"Basketball\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 29,\n          \"comments\": 50,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2026-10-21T18:59:42.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 2,\n        \"relativePosition\": 2\n      },\n      {\n        \"id\": \"aa3ehe\",\n        \"postId\": \"t3_aa3ehe\",\n        \"title\": \"I missed my chance. Where should I go from here?\",\n        \"url\": \"https://www.reddit.com/r/Basketball/comments/aa3ehe/i_missed_my_chance_where_should_i_go_from_here/\",\n        \"permalink\": \"/r/Basketball/comments/aa3ehe/i_missed_my_chance_where_should_i_go_from_here/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"AnimatedPie\",\n          \"id\": \"t2_11i5ni\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"Basketball\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 29,\n          \"comments\": 39,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2018-12-27T21:26:04.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 3,\n        \"relativePosition\": 3\n      },\n      {\n        \"id\": \"anglty\",\n        \"postId\": \"t3_anglty\",\n        \"title\": \"Coaches: Some input?\",\n        \"url\": \"https://www.reddit.com/r/Basketball/comments/anglty/coaches_some_input/\",\n        \"permalink\": \"/r/Basketball/comments/anglty/coaches_some_input/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"TallBobcat\",\n          \"id\": \"t2_ya9l4\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"Basketball\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 49,\n          \"comments\": 27,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2019-02-05T17:47:07.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 4,\n        \"relativePosition\": 4\n      },\n      {\n        \"id\": \"gxzdfh\",\n        \"postId\": \"t3_gxzdfh\",\n        \"title\": \"Potential for playing college basketball\",\n        \"url\": \"https://www.reddit.com/r/Basketball/comments/gxzdfh/potential_for_playing_college_basketball/\",\n        \"permalink\": \"/r/Basketball/comments/gxzdfh/potential_for_playing_college_basketball/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"luckyteep14\",\n          \"id\": \"t2_9z6i8\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"Basketball\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 49,\n          \"comments\": 26,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2020-06-06T21:25:58.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 5,\n        \"relativePosition\": 5\n      },\n      {\n        \"id\": \"ah1pq3\",\n        \"postId\": \"t3_ah1pq3\",\n        \"title\": \"Thinking about starting a podcast on how to become a better player / how to make your high school team and get recruited to play in college. Is this something people people would be interested and listen too?\",\n        \"url\": \"https://www.reddit.com/r/Basketball/comments/ah1pq3/thinking_about_starting_a_podcast_on_how_to/\",\n        \"permalink\": \"/r/Basketball/comments/ah1pq3/thinking_about_starting_a_podcast_on_how_to/\",\n        \"nsfw\": false,\n        \"spoiler\": false,\n        \"crosspost\": false,\n        \"author\": {\n          \"username\": \"PhantomCaldwell\",\n          \"id\": \"t2_15e2b66t\"\n        },\n        \"text\": null,\n        \"subreddit\": {\n          \"id\": null,\n          \"name\": \"Basketball\",\n          \"nsfw\": null,\n          \"quarantined\": null,\n          \"iconUrl\": null,\n          \"bannerUrl\": null,\n          \"description\": null,\n          \"weeklyVisitors\": null,\n          \"weeklyContributions\": null\n        },\n        \"metrics\": {\n          \"votes\": 93,\n          \"comments\": 25,\n          \"upvoteRatio\": null\n        },\n        \"createdAt\": \"2019-01-17T19:54:23.000Z\",\n        \"thumbnailUrl\": null,\n        \"thumbnailBlurred\": false,\n        \"position\": 6,\n        \"relativePosition\": 6\n      }\n    ],\n    \"totalResults\": 7,\n    \"page\": {\n      \"nextCursor\": \"eyJjYW5kaWRhdGVzX3JldHVybmVkIjoie1wic2VjdGlvbl8xX3BpcGVsaW5lXzBfZ2xvYmFsX21vZGlmaWVyc1wiOlwiMVwiLFwic2VjdGlvbl8xX3BpcGVsaW5lXzFfbG9jYWxfbW9kaWZpZXJzXCI6XCIyXCIsXCJzZWN0aW9uXzJfcGlwZWxpbmVfN19zY29wZV9zd2l0Y2hlclwiOlwiMFwiLFwic2VjdGlvbl8yX3BpcGVsaW5lXzhfZHluYW1pY18wX3Bvc3Rfc2VhcmNoXCI6XCI3XCIsXCJzZWN0aW9uXzNfcGlwZWxpbmVfMF9zaWRlYmFyX2NvbW11bml0eV9pbmZvXCI6XCIwXCJ9IiwiZXhwZXJpZW5jZV9zZWxlY3Rpb24iOiJwb3N0c192MiIsImV4cGVyaWVuY2VfdmVyc2lvbiI6ImNvbW11bml0eSIsInNlY3Rpb25fMl9waXBlbGluZV84X2R5bmFtaWNfMF9wb3N0X3NlYXJjaCI6IjcifQ==\",\n      \"hasMore\": true\n    }\n  },\n  \"meta\": {\n    \"requestId\": \"req_ed5ccb08-fe08-40a1-88d3-d44e762d1d46\",\n    \"creditsCharged\": 1,\n    \"version\": \"v1\"\n  }\n}"
+   },
+   {
+    "type": "text",
+    "text": "{\"conversation_id\":\"01a1af67-2f59-77af-883f-439bc9845d36\"}"
+   }
+  ],
+  "structuredContent": {
+   "data": {
+    "subreddit": "Basketball",
+    "query": "college recruiting",
+    "sort": "comments",
+    "timeframe": "all",
+    "posts": [
+     {
+      "id": "1uwf73f",
+      "postId": "t3_1uwf73f",
+      "title": "18-year-old Irish point guard trying to choose between JUCO in the US vs developing in Greece \u2014 need advice",
+      "url": "https://www.reddit.com/r/Basketball/comments/1uwf73f/18yearold_irish_point_guard_trying_to_choose/",
+      "permalink": "/r/Basketball/comments/1uwf73f/18yearold_irish_point_guard_trying_to_choose/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "Darkninjago2407",
+       "id": "t2_nk1hfb7z4"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "Basketball",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 86,
+       "comments": 101,
+       "upvoteRatio": null
+      },
+      "createdAt": "2026-07-14T17:24:47.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 0,
+      "relativePosition": 0
+     },
+     {
+      "id": "1rne381",
+      "postId": "t3_1rne381",
+      "title": "Senior League Fighting Issues",
+      "url": "https://www.reddit.com/r/Basketball/comments/1rne381/senior_league_fighting_issues/",
+      "permalink": "/r/Basketball/comments/1rne381/senior_league_fighting_issues/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "Sufficient-State380",
+       "id": "t2_1ivk73ar28"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "Basketball",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 60,
+       "comments": 55,
+       "upvoteRatio": null
+      },
+      "createdAt": "2026-03-07T16:22:12.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 1,
+      "relativePosition": 1
+     },
+     {
+      "id": "1xbw30n",
+      "postId": "t3_1xbw30n",
+      "title": "Former Division 1 basketball player and college head coach here to answer questions about development and the recruiting process.",
+      "url": "https://www.reddit.com/r/Basketball/comments/1xbw30n/former_division_1_basketball_player_and_college/",
+      "permalink": "/r/Basketball/comments/1xbw30n/former_division_1_basketball_player_and_college/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "Internal_Ad_3977",
+       "id": "t2_9nxvg2ah"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "Basketball",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 29,
+       "comments": 50,
+       "upvoteRatio": null
+      },
+      "createdAt": "2026-10-21T18:59:42.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 2,
+      "relativePosition": 2
+     },
+     {
+      "id": "aa3ehe",
+      "postId": "t3_aa3ehe",
+      "title": "I missed my chance. Where should I go from here?",
+      "url": "https://www.reddit.com/r/Basketball/comments/aa3ehe/i_missed_my_chance_where_should_i_go_from_here/",
+      "permalink": "/r/Basketball/comments/aa3ehe/i_missed_my_chance_where_should_i_go_from_here/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "AnimatedPie",
+       "id": "t2_11i5ni"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "Basketball",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 29,
+       "comments": 39,
+       "upvoteRatio": null
+      },
+      "createdAt": "2018-12-27T21:26:04.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 3,
+      "relativePosition": 3
+     },
+     {
+      "id": "anglty",
+      "postId": "t3_anglty",
+      "title": "Coaches: Some input?",
+      "url": "https://www.reddit.com/r/Basketball/comments/anglty/coaches_some_input/",
+      "permalink": "/r/Basketball/comments/anglty/coaches_some_input/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "TallBobcat",
+       "id": "t2_ya9l4"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "Basketball",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 49,
+       "comments": 27,
+       "upvoteRatio": null
+      },
+      "createdAt": "2019-02-05T17:47:07.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 4,
+      "relativePosition": 4
+     },
+     {
+      "id": "gxzdfh",
+      "postId": "t3_gxzdfh",
+      "title": "Potential for playing college basketball",
+      "url": "https://www.reddit.com/r/Basketball/comments/gxzdfh/potential_for_playing_college_basketball/",
+      "permalink": "/r/Basketball/comments/gxzdfh/potential_for_playing_college_basketball/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "luckyteep14",
+       "id": "t2_9z6i8"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "Basketball",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 49,
+       "comments": 26,
+       "upvoteRatio": null
+      },
+      "createdAt": "2020-06-06T21:25:58.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 5,
+      "relativePosition": 5
+     },
+     {
+      "id": "ah1pq3",
+      "postId": "t3_ah1pq3",
+      "title": "Thinking about starting a podcast on how to become a better player / how to make your high school team and get recruited to play in college. Is this something people people would be interested and listen too?",
+      "url": "https://www.reddit.com/r/Basketball/comments/ah1pq3/thinking_about_starting_a_podcast_on_how_to/",
+      "permalink": "/r/Basketball/comments/ah1pq3/thinking_about_starting_a_podcast_on_how_to/",
+      "nsfw": false,
+      "spoiler": false,
+      "crosspost": false,
+      "author": {
+       "username": "PhantomCaldwell",
+       "id": "t2_15e2b66t"
+      },
+      "text": null,
+      "subreddit": {
+       "id": null,
+       "name": "Basketball",
+       "nsfw": null,
+       "quarantined": null,
+       "iconUrl": null,
+       "bannerUrl": null,
+       "description": null,
+       "weeklyVisitors": null,
+       "weeklyContributions": null
+      },
+      "metrics": {
+       "votes": 93,
+       "comments": 25,
+       "upvoteRatio": null
+      },
+      "createdAt": "2019-01-17T19:54:23.000Z",
+      "thumbnailUrl": null,
+      "thumbnailBlurred": false,
+      "position": 6,
+      "relativePosition": 6
+     }
+    ],
+    "totalResults": 7,
+    "page": {
+     "nextCursor": "eyJjYW5kaWRhdGVzX3JldHVybmVkIjoie1wic2VjdGlvbl8xX3BpcGVsaW5lXzBfZ2xvYmFsX21vZGlmaWVyc1wiOlwiMVwiLFwic2VjdGlvbl8xX3BpcGVsaW5lXzFfbG9jYWxfbW9kaWZpZXJzXCI6XCIyXCIsXCJzZWN0aW9uXzJfcGlwZWxpbmVfN19zY29wZV9zd2l0Y2hlclwiOlwiMFwiLFwic2VjdGlvbl8yX3BpcGVsaW5lXzhfZHluYW1pY18wX3Bvc3Rfc2VhcmNoXCI6XCI3XCIsXCJzZWN0aW9uXzNfcGlwZWxpbmVfMF9zaWRlYmFyX2NvbW11bml0eV9pbmZvXCI6XCIwXCJ9IiwiZXhwZXJpZW5jZV9zZWxlY3Rpb24iOiJwb3N0c192MiIsImV4cGVyaWVuY2VfdmVyc2lvbiI6ImNvbW11bml0eSIsInNlY3Rpb25fMl9waXBlbGluZV84X2R5bmFtaWNfMF9wb3N0X3NlYXJjaCI6IjcifQ==",
+     "hasMore": true
+    }
+   },
+   "meta": {
+    "requestId": "req_ed5ccb08-fe08-40a1-88d3-d44e762d1d46",
+    "creditsCharged": 1,
+    "version": "v1"
+   },
+   "card": {
+    "kind": "search",
+    "title": "Search results",
+    "subtitle": "7 results",
+    "resultCount": 7,
+    "items": [
+     {
+      "title": "18-year-old Irish point guard trying to choose between JUCO in the US vs developing in Greece \u2014 need advice",
+      "subtitle": "@Darkninjago2407 \u00b7 14 Jul 2026",
+      "href": "https://www.reddit.com/r/Basketball/comments/1uwf73f/18yearold_irish_point_guard_trying_to_choose/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Senior League Fighting Issues",
+      "subtitle": "@Sufficient-State380 \u00b7 7 Mar 2026",
+      "href": "https://www.reddit.com/r/Basketball/comments/1rne381/senior_league_fighting_issues/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Former Division 1 basketball player and college head coach here to answer questions about development and the recruiting process.",
+      "subtitle": "@Internal_Ad_3977 \u00b7 21 Oct 2026",
+      "href": "https://www.reddit.com/r/Basketball/comments/1xbw30n/former_division_1_basketball_player_and_college/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "I missed my chance. Where should I go from here?",
+      "subtitle": "@AnimatedPie \u00b7 27 Dec 2018",
+      "href": "https://www.reddit.com/r/Basketball/comments/aa3ehe/i_missed_my_chance_where_should_i_go_from_here/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Coaches: Some input?",
+      "subtitle": "@TallBobcat \u00b7 5 Feb 2019",
+      "href": "https://www.reddit.com/r/Basketball/comments/anglty/coaches_some_input/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Potential for playing college basketball",
+      "subtitle": "@luckyteep14 \u00b7 6 Jun 2020",
+      "href": "https://www.reddit.com/r/Basketball/comments/gxzdfh/potential_for_playing_college_basketball/",
+      "platform": "Reddit"
+     },
+     {
+      "title": "Thinking about starting a podcast on how to become a better player / how to make your high school team and get recruited to play in college. Is this something\u2026",
+      "subtitle": "@PhantomCaldwell \u00b7 17 Jan 2019",
+      "href": "https://www.reddit.com/r/Basketball/comments/ah1pq3/thinking_about_starting_a_podcast_on_how_to/",
+      "platform": "Reddit"
+     }
+    ]
+   }
+  }
+ },
+ "jsonrpc": "2.0",
+ "id": 1
+}

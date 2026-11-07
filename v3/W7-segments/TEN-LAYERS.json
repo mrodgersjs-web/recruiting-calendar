@@ -1,0 +1,490 @@
+[
+ {
+  "problem": "1 Where do I start: give me the steps",
+  "segments": [
+   "Football (boys)",
+   "Volleyball (girls)",
+   "Flag Football (girls)",
+   "Wrestling (girls)"
+  ],
+  "layers": [
+   {
+    "n": 1,
+    "layer": "Stated complaint",
+    "text": "Parents say they don't know who/what/when/how and ask for a step list.",
+    "status": "EVIDENCED",
+    "source": "v3/W6-problems/PROBLEMS.md #1"
+   },
+   {
+    "n": 2,
+    "layer": "Trigger",
+    "text": "A first recruiting video, camp invite, or a peer committing makes the family realize the process exists; often 8th-10th grade.",
+    "status": "EVIDENCED",
+    "source": "v3/W7-segments/raw/ytc_ogjICDcgCro.json (class-of-2030 asks when to email); v3/W6-problems/PROBLEMS.md #5"
+   },
+   {
+    "n": 3,
+    "layer": "Underlying cause",
+    "text": "No neutral owner of the process: HS coach is not responsible, the NCAA publishes rules not plans, services sell rather than teach.",
+    "status": "EVIDENCED",
+    "source": "v3/W7-segments/raw/fbc_2817241591782952.json; v3/W7-segments/raw/ws3.json"
+   },
+   {
+    "n": 4,
+    "layer": "What they tried",
+    "text": "Ask in TikTok comments, 'DM me', join FB groups, read blogs.",
+    "status": "EVIDENCED",
+    "source": "v3/W6-problems/PROBLEMS.md #1; v3/W7-segments/raw/ws4.json"
+   },
+   {
+    "n": 5,
+    "layer": "Why it failed",
+    "text": "Answers are pitches or lead magnets; big FB groups ban school-specific questions; advice conflicts.",
+    "status": "EVIDENCED",
+    "source": "v3/W6-problems/PROBLEMS.md sec D(f); v3/W7-segments/raw/ws4.json"
+   },
+   {
+    "n": 6,
+    "layer": "Cost",
+    "text": "Time and missed windows (e.g. D1/D2 contact opens Jun 15 / Sep 1 after sophomore yr); risk of paying a service out of panic.",
+    "status": "EVIDENCED",
+    "source": "v3/W7-segments/raw/ws5.json; v3/W6-problems/PROBLEMS.md #3"
+   },
+   {
+    "n": 7,
+    "layer": "Who else",
+    "text": "Athlete loses months of outreach; parent carries the stress; spouses disagree on spend.",
+    "status": "INFERRED",
+    "source": ""
+   },
+   {
+    "n": 8,
+    "layer": "Job-to-be-done",
+    "text": "'Tell me, for my kid's grade and sport, the 3 things to do this month.'",
+    "status": "INFERRED",
+    "source": "derived from v3/W6-problems/PROBLEMS.md sec B.1"
+   },
+   {
+    "n": 9,
+    "layer": "Winning solution",
+    "text": "Free 'Start here by grade + sport' page that outputs a dated monthly checklist from the rule calendar, then routes to the Sport Pack.",
+    "status": "INFERRED",
+    "source": ""
+   },
+   {
+    "n": 10,
+    "layer": "Proof it worked",
+    "text": "Parent can name this month's 3 tasks and the next contact date; checklist items ticked; first coach email sent within 14 days.",
+    "status": "INFERRED",
+    "source": ""
+   }
+  ]
+ },
+ {
+  "problem": "2 Is it too late? Junior/senior with nothing",
+  "segments": [
+   "Football (boys)",
+   "Baseball",
+   "Soccer (boys)",
+   "Basketball (boys)",
+   "Swimming (girls)"
+  ],
+  "layers": [
+   {
+    "n": 1,
+    "layer": "Stated complaint",
+    "text": "'My kid is a senior/junior and we have nothing. Is it too late?'",
+    "status": "EVIDENCED",
+    "source": "v3/W6-problems/PROBLEMS.md #2; v3/W7-segments/raw/fbc_1905509627076483.json"
+   },
+   {
+    "n": 2,
+    "layer": "Trigger",
+    "text": "Summer before senior year: teammates commit, D2 boards look full, a dream school goes silent.",
+    "status": "EVIDENCED",
+    "source": "v3/W7-segments/raw/fbc_1905509627076483.json; v3/W7-segments/raw/fbc_777151595302886.json; v3/W7-segments/raw/ws2.json"
+   },
+   {
+    "n": 3,
+    "layer": "Underlying cause",
+    "text": "Started outreach late and aimed too high; never assessed realistic level.",
+    "status": "EVIDENCED",
+    "source": "v3/W7-segments/raw/fbc_3036669593173483.json (hunting too big a school)"
+   },
+   {
+    "n": 4,
+    "layer": "What they tried",
+    "text": "Mass-email, buy a service, post on X, attend late camps.",
+    "status": "EVIDENCED",
+    "source": "v3/W7-segments/raw/fbc_2817241591782952.json (20-30 DMs/day); v3/W6-problems/PROBLEMS.md #2"
+   },
+   {
+    "n": 5,
+    "layer": "Why it failed",
+    "text": "Wrong targets (P4/D1 boards filled by August), unanswered emails, no follow-up plan.",
+    "status": "EVIDENCED",
+    "source": "v3/W7-segments/raw/ws2.json; v3/W7-segments/raw/fbc_777151595302886.json"
+   },
+   {
+    "n": 6,
+    "layer": "Cost",
+    "text": "Eligibility of the window: roster spots filled; possible JUCO detour; money on panic services.",
+    "status": "EVIDENCED",
+    "source": "v3/W6-problems/PROBLEMS.md #2; v3/W7-segments/raw/fbc_1905509627076483.json (JC route)"
+   },
+   {
+    "n": 7,
+    "layer": "Who else",
+    "text": "Athlete's confidence; club coaches; target coaches still filling the roster for next year.",
+    "status": "EVIDENCED",
+    "source": "v3/W7-segments/raw/fbc_948952934789417.json; v3/W7-segments/raw/fbc_777151595302886.json"
+   },
+   {
+    "n": 8,
+    "layer": "Job-to-be-done",
+    "text": "'Find the programs still filling our class and get us in front of them before signing day.'",
+    "status": "INFERRED",
+    "source": ""
+   },
+   {
+    "n": 9,
+    "layer": "Winning solution",
+    "text": "Senior-year sprint playbook: level reset to D2/D3/NAIA/JUCO, 30-school list, 4-touch follow-up cadence, 'we'll be in your area' visit email, JUCO/post-grad fallback.",
+    "status": "EVIDENCED",
+    "source": "tactics from v3/W7-segments/raw/fbc_777151595302886.json, fbc_1905509627076483.json; existing https://recruiting-calendar.vercel.app/playbooks/late-bloomer/"
+   },
+   {
+    "n": 10,
+    "layer": "Proof it worked",
+    "text": "A coach reply or visit invite within 30 days; a roster spot or JUCO plan in hand by graduation.",
+    "status": "EVIDENCED",
+    "source": "v3/W7-segments/raw/fbc_1640678950582058.json (committed after graduation)"
+   }
+  ]
+ },
+ {
+  "problem": "3 Is NCSA/a recruiting service worth it, and how do I cancel?",
+  "segments": [
+   "Football (boys)",
+   "Baseball",
+   "Basketball (boys)",
+   "Volleyball (girls)"
+  ],
+  "layers": [
+   {
+    "n": 1,
+    "layer": "Stated complaint",
+    "text": "Regret after paying; aggressive calls; can't cancel; 'is it worth it?'",
+    "status": "EVIDENCED",
+    "source": "v3/W7-segments/raw/fbc_2777699965737115.json; v3/W7-segments/raw/fbc_3051766708336417.json; v3/W7-segments/raw/ytc_GrjjF7Uw7Kg.json"
+   },
+   {
+    "n": 2,
+    "layer": "Trigger",
+    "text": "Unsolicited call/text from a service after a free profile or camp, often to a young athlete.",
+    "status": "EVIDENCED",
+    "source": "v3/W7-segments/raw/ytc_GrjjF7Uw7Kg.json; v3/W6-problems/PROBLEMS.md #3"
+   },
+   {
+    "n": 3,
+    "layer": "Underlying cause",
+    "text": "Parents don't know what is free (NCAA rules, email, X) and fear their kid is invisible without paying.",
+    "status": "INFERRED",
+    "source": ""
+   },
+   {
+    "n": 4,
+    "layer": "What they tried",
+    "text": "Sign up, sometimes at a 'discount'; ask groups.",
+    "status": "EVIDENCED",
+    "source": "v3/W7-segments/raw/fbc_3051766708336417.json"
+   },
+   {
+    "n": 5,
+    "layer": "Why it failed",
+    "text": "Coaches dislike agency contact; services did nothing families couldn't do; prices hidden till end of call; refund refused under hardship.",
+    "status": "EVIDENCED",
+    "source": "v3/W7-segments/raw/fbc_3036669593173483.json; v3/W7-segments/raw/fbc_3051766708336417.json; v3/W7-segments/raw/ytc_obrG2cvdBxQ.json; v3/W7-segments/raw/fbc_2777699965737115.json"
+   },
+   {
+    "n": 6,
+    "layer": "Cost",
+    "text": "Money: parents report up to ~$4K plus monthly fees; a contract during income loss.",
+    "status": "EVIDENCED",
+    "source": "v3/W6-problems/PROBLEMS.md #3; v3/W7-segments/raw/fbc_2777699965737115.json"
+   },
+   {
+    "n": 7,
+    "layer": "Who else",
+    "text": "Athlete (coaches ignore service emails); a minority report real offers, so families split.",
+    "status": "EVIDENCED",
+    "source": "v3/W7-segments/raw/fbc_2777699965737115.json; v3/W7-segments/raw/ytc_GrjjF7Uw7Kg.json"
+   },
+   {
+    "n": 8,
+    "layer": "Job-to-be-done",
+    "text": "'Get the organization and timeline a service gives, without the price or the sales pressure.'",
+    "status": "EVIDENCED",
+    "source": "v3/W7-segments/raw/fbc_3051766708336417.json (liked the contact timeline)"
+   },
+   {
+    "n": 9,
+    "layer": "Winning solution",
+    "text": "Honest 'service vs DIY' comparison + cancel guide + the same timeline/tracker for a fixed low price.",
+    "status": "INFERRED",
+    "source": "existing https://recruiting-calendar.vercel.app/compare/"
+   },
+   {
+    "n": 10,
+    "layer": "Proof it worked",
+    "text": "Family cancels or never signs; saves the fee; still sends weekly outreach from the tracker.",
+    "status": "INFERRED",
+    "source": ""
+   }
+  ]
+ },
+ {
+  "problem": "4 What do I say to a coach, and on which channel?",
+  "segments": [
+   "Baseball",
+   "Soccer (girls)",
+   "Swimming (girls)",
+   "Volleyball (girls)",
+   "Lacrosse (boys)"
+  ],
+  "layers": [
+   {
+    "n": 1,
+    "layer": "Stated complaint",
+    "text": "'What do I actually write, and email vs X DM vs questionnaire?'",
+    "status": "EVIDENCED",
+    "source": "v3/W6-problems/PROBLEMS.md #4; v3/W7-segments/raw/ws4.json"
+   },
+   {
+    "n": 2,
+    "layer": "Trigger",
+    "text": "First outreach push, or weeks of silence after the first emails.",
+    "status": "EVIDENCED",
+    "source": "v3/W7-segments/raw/ws5.json; v3/W7-segments/raw/fbc_777151595302886.json"
+   },
+   {
+    "n": 3,
+    "layer": "Underlying cause",
+    "text": "Emails written by parents, no grad year in subject, no film link, sent before contact dates.",
+    "status": "EVIDENCED",
+    "source": "v3/W7-segments/raw/ws4.json; v3/W7-segments/raw/ws5.json"
+   },
+   {
+    "n": 4,
+    "layer": "What they tried",
+    "text": "Random templates, mass DMs, creators' dead links.",
+    "status": "EVIDENCED",
+    "source": "v3/W6-problems/PROBLEMS.md #4; v3/W7-segments/raw/fbc_2817241591782952.json"
+   },
+   {
+    "n": 5,
+    "layer": "Why it failed",
+    "text": "Coaches skim and delete; D1/D2 can't reply before Jun 15/Sep 1 dates; silence read as rejection.",
+    "status": "EVIDENCED",
+    "source": "v3/W7-segments/raw/ws5.json"
+   },
+   {
+    "n": 6,
+    "layer": "Cost",
+    "text": "Time; a burned first impression with a target program.",
+    "status": "INFERRED",
+    "source": ""
+   },
+   {
+    "n": 7,
+    "layer": "Who else",
+    "text": "Athlete must own it (coaches spot parent-written mail); target coaches flooded.",
+    "status": "EVIDENCED",
+    "source": "v3/W7-segments/raw/ws4.json; v3/W7-segments/raw/fbc_948952934789417.json"
+   },
+   {
+    "n": 8,
+    "layer": "Job-to-be-done",
+    "text": "'Get a reply from the coaches who fit us.'",
+    "status": "INFERRED",
+    "source": ""
+   },
+   {
+    "n": 9,
+    "layer": "Winning solution",
+    "text": "Sport-specific email/DM scripts written in the athlete's voice + follow-up cadence tied to the contact calendar.",
+    "status": "INFERRED",
+    "source": "existing https://recruiting-calendar.vercel.app/playbooks/highlight-reel-social/"
+   },
+   {
+    "n": 10,
+    "layer": "Proof it worked",
+    "text": "Reply rate per 10 emails sent; first coach reply.",
+    "status": "INFERRED",
+    "source": ""
+   }
+  ]
+ },
+ {
+  "problem": "5 When can coaches contact us, and when should we start?",
+  "segments": [
+   "Baseball",
+   "Football (boys)",
+   "Soccer (girls)",
+   "Lacrosse (girls)"
+  ],
+  "layers": [
+   {
+    "n": 1,
+    "layer": "Stated complaint",
+    "text": "'When can coaches contact us, and when should we start?'",
+    "status": "EVIDENCED",
+    "source": "v3/W6-problems/PROBLEMS.md #5; v3/W7-segments/raw/ytc_ogjICDcgCro.json"
+   },
+   {
+    "n": 2,
+    "layer": "Trigger",
+    "text": "Younger sibling or 8th-9th grader gets a service call; peers talk about offers.",
+    "status": "EVIDENCED",
+    "source": "v3/W6-problems/PROBLEMS.md #3, #5"
+   },
+   {
+    "n": 3,
+    "layer": "Underlying cause",
+    "text": "Rules differ by division and sport and change; most sources don't cite the bylaw.",
+    "status": "INFERRED",
+    "source": ""
+   },
+   {
+    "n": 4,
+    "layer": "What they tried",
+    "text": "Ask creators; follow services' 'start freshman year' advice.",
+    "status": "EVIDENCED",
+    "source": "v3/W6-problems/PROBLEMS.md #5"
+   },
+   {
+    "n": 5,
+    "layer": "Why it failed",
+    "text": "Conflicting advice; emailing D1 coaches early gets no reply by rule.",
+    "status": "EVIDENCED",
+    "source": "v3/W7-segments/raw/ws5.json"
+   },
+   {
+    "n": 6,
+    "layer": "Cost",
+    "text": "Wasted early spend; anxiety; or missed contact-opening dates.",
+    "status": "EVIDENCED",
+    "source": "v3/W6-problems/PROBLEMS.md #5"
+   },
+   {
+    "n": 7,
+    "layer": "Who else",
+    "text": "Coaches bound by rules; athlete confused by silence.",
+    "status": "INFERRED",
+    "source": ""
+   },
+   {
+    "n": 8,
+    "layer": "Job-to-be-done",
+    "text": "'Know exactly what's allowed now and what date to act next.'",
+    "status": "INFERRED",
+    "source": ""
+   },
+   {
+    "n": 9,
+    "layer": "Winning solution",
+    "text": "Bylaw-cited rule calendar by sport/division with date reminders.",
+    "status": "EVIDENCED",
+    "source": "https://recruiting-calendar.vercel.app/calendar/ and https://recruiting-calendar.vercel.app/answers/when-can-college-coaches-contact-my-kid/"
+   },
+   {
+    "n": 10,
+    "layer": "Proof it worked",
+    "text": "Parent acts on the opening date (e.g. Jun 15 after soph year) instead of guessing.",
+    "status": "INFERRED",
+    "source": ""
+   }
+  ]
+ },
+ {
+  "problem": "6 How do I register with the NCAA / get the ID, and what does it cost?",
+  "segments": [
+   "Football (boys)",
+   "Basketball (boys)",
+   "Soccer (girls)",
+   "Track & Field"
+  ],
+  "layers": [
+   {
+    "n": 1,
+    "layer": "Stated complaint",
+    "text": "'How do I get the NCAA ID? What does it cost?'",
+    "status": "EVIDENCED",
+    "source": "v3/W6-problems/PROBLEMS.md #6"
+   },
+   {
+    "n": 2,
+    "layer": "Trigger",
+    "text": "A coach asks for the ID, or an official visit is scheduled.",
+    "status": "EVIDENCED",
+    "source": "v3/W7-segments/raw/fbc_486168307734551.json; v3/W7-segments/raw/ws6.json"
+   },
+   {
+    "n": 3,
+    "layer": "Underlying cause",
+    "text": "Confusion among NCAA ID, Eligibility Center Certification vs Profile account, fee, and NCSA.",
+    "status": "EVIDENCED",
+    "source": "v3/W6-problems/PROBLEMS.md #6; v3/W7-segments/raw/ws6.json"
+   },
+   {
+    "n": 4,
+    "layer": "What they tried",
+    "text": "Ask creators and groups.",
+    "status": "EVIDENCED",
+    "source": "v3/W6-problems/PROBLEMS.md #6"
+   },
+   {
+    "n": 5,
+    "layer": "Why it failed",
+    "text": "Mixed timing advice ('register sophomore year' vs 'don't apply yet').",
+    "status": "EVIDENCED",
+    "source": "v3/W7-segments/raw/fbc_486168307734551.json; v3/W7-segments/raw/ws6.json"
+   },
+   {
+    "n": 6,
+    "layer": "Cost",
+    "text": "Eligibility: no Certification account and transcripts means no D1/D2 official visit.",
+    "status": "EVIDENCED",
+    "source": "v3/W7-segments/raw/ws6.json; v3/W7-segments/raw/fbc_486168307734551.json"
+   },
+   {
+    "n": 7,
+    "layer": "Who else",
+    "text": "HS counselor (transcripts), college compliance, athlete.",
+    "status": "EVIDENCED",
+    "source": "v3/W7-segments/raw/fbc_486168307734551.json"
+   },
+   {
+    "n": 8,
+    "layer": "Job-to-be-done",
+    "text": "'Make sure nothing on paper blocks my kid.'",
+    "status": "INFERRED",
+    "source": ""
+   },
+   {
+    "n": 9,
+    "layer": "Winning solution",
+    "text": "Step-by-step Eligibility Center + NAIA registration walkthrough with fee and deadline.",
+    "status": "EVIDENCED",
+    "source": "https://recruiting-calendar.vercel.app/playbooks/eligibility-2-hard-deadlines/ and https://recruiting-calendar.vercel.app/answers/ncaa-eligibility-center-account-cost/"
+   },
+   {
+    "n": 10,
+    "layer": "Proof it worked",
+    "text": "Account created, transcripts sent, official visit not blocked.",
+    "status": "INFERRED",
+    "source": ""
+   }
+  ]
+ }
+]

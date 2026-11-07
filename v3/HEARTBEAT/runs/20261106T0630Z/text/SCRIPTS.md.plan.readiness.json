@@ -1,0 +1,58 @@
+s1gate: state 65304 chars over the 60000-char provider budget - middle omitted (verdict is on a partial view)
+{
+  "rubric": "plan.readiness",
+  "verdict": "BLOCK",
+  "enforced": true,
+  "reasons": [
+    "BLOCK: no checkable acceptance criteria -- the agent has nothing to be graded against [has_acceptance_criteria.noul=0.34 <= 0.4]",
+    "BLOCK: plan not ready for unattended build [readiness.score=0.89 <= 1.2]"
+  ],
+  "answers": {
+    "has_acceptance_criteria": {
+      "type": "noul",
+      "noul": 0.34
+    },
+    "names_the_user_decision": {
+      "type": "noul",
+      "noul": 0.58
+    },
+    "unverifiable_claims": {
+      "type": "noul",
+      "noul": 0.47
+    },
+    "scope_is_bounded": {
+      "type": "noul",
+      "noul": 0.83
+    },
+    "deterministic_first": {
+      "type": "noul",
+      "noul": 0.45
+    },
+    "readiness": {
+      "type": "score",
+      "score": 0.89,
+      "confidence": 0.46,
+      "legend": {
+        "0": "Vague idea, no contract, would produce guesswork",
+        "1": "Direction is clear but acceptance is undefined",
+        "2": "Contract and acceptance defined, some ambiguity at the edges",
+        "3": "Fully specified: inputs, outputs, acceptance tests, and out-of-scope all stated"
+      },
+      "probabilities": {
+        "0": 0.33,
+        "1": 0.48,
+        "2": 0.17,
+        "3": 0.02
+      }
+    }
+  },
+  "model": "jev-1.14.0",
+  "latency_ms": 196,
+  "advisory": false,
+  "state_sha256": "f622058d3843be1fafa7ef1e1ab04c19fb5361fcc33ecc2ce801a8e7518b6e1c",
+  "state_preview": "# W2 Story Scripts (2026-11-05)\nParaphrase only, no quotes. Real athletes: no generated likeness (typography / school motifs only). Composite: every image labeled Illustration.\n\n## Hunter Renfrow \u2014 Football, D1 (FBS), preferred walk-on\n\n**1. hook** (73w)\nA public high school in Myrtle Beach, South Carolina. Hunter Renfrow played quarterback at Socastee and weighed about 150 pounds, according to NCAA.com. That is not the frame most people picture for a college receiver. He was a real player at a ",
+  "error": null,
+  "decision_id": 311152,
+  "cache_hit": false
+}
+{"exit":1}

@@ -1,0 +1,57 @@
+{
+  "rubric": "plan.readiness",
+  "verdict": "BLOCK",
+  "enforced": true,
+  "reasons": [
+    "BLOCK: no checkable acceptance criteria -- the agent has nothing to be graded against [has_acceptance_criteria.noul=0.19 <= 0.4]",
+    "BLOCK: ProofPacket violation: asserts outcomes with no source [unverifiable_claims.noul=0.71 >= 0.7]",
+    "BLOCK: plan not ready for unattended build [readiness.score=0.24 <= 1.2]"
+  ],
+  "answers": {
+    "has_acceptance_criteria": {
+      "type": "noul",
+      "noul": 0.19
+    },
+    "names_the_user_decision": {
+      "type": "noul",
+      "noul": 0.74
+    },
+    "unverifiable_claims": {
+      "type": "noul",
+      "noul": 0.71
+    },
+    "scope_is_bounded": {
+      "type": "noul",
+      "noul": 0.65
+    },
+    "deterministic_first": {
+      "type": "noul",
+      "noul": 0.18
+    },
+    "readiness": {
+      "type": "score",
+      "score": 0.24,
+      "confidence": 0.76,
+      "legend": {
+        "0": "Vague idea, no contract, would produce guesswork",
+        "1": "Direction is clear but acceptance is undefined",
+        "2": "Contract and acceptance defined, some ambiguity at the edges",
+        "3": "Fully specified: inputs, outputs, acceptance tests, and out-of-scope all stated"
+      },
+      "probabilities": {
+        "0": 0.81,
+        "1": 0.15,
+        "2": 0.03,
+        "3": 0.01
+      }
+    }
+  },
+  "model": "jev-1.14.0",
+  "latency_ms": 147,
+  "advisory": false,
+  "state_sha256": "c4d470c201506e3d7e34ae5811648d502ec67c510a00a765f59b87a8f5cd445c",
+  "state_preview": "<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>Recruiting playbooks for parents | The Commit Book</title><meta name=\"description\" content=\"Dated, cited recruiting playbooks by sport and path: D1, D2, D3, JUCO, walk-on and late bloomer.\"><link rel=\"canonical\" href=\"https://recruiting-calendar.vercel.app/playbooks/\">\n<meta property=\"og:type\" content=\"website\"><meta property=\"og:site_name\" content=\"The Commit Boo",
+  "error": null,
+  "decision_id": 311389,
+  "cache_hit": false
+}
