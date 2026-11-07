@@ -72,16 +72,38 @@ STAGES = [("orient", "Get oriented"), ("build", "Build the list and the message"
           ("buy", "Own the whole shelf")]
 
 now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+# The $0 tools are real downloads, not notify shells: a parent who gives us nothing
+# should still get a real file. Paid tools stay notify-only until the audit is cleared
+# and the payment gateway flag flips.
+DL_SRC = os.path.join(ROOT, "v3", "W8-offerings", "deliverables")
+DL_DIR = os.path.join(ROOT, "site", "downloads", "tools")
+FREE_DL = {"red-flags": ["red-flags.md"],
+           "contact-log": ["contact-log.md", "contact-log.csv"]}
+os.makedirs(DL_DIR, exist_ok=True)
+for _slug, _files in FREE_DL.items():
+    for _f in _files:
+        _s = os.path.join(DL_SRC, _f)
+        if os.path.isfile(_s):
+            with open(_s, "rb") as _fh:
+                _b = _fh.read()
+            with open(os.path.join(DL_DIR, _f), "wb") as _fh:
+                _fh.write(_b)
+
 offers = []
 for o in OFF["offerings"]:
     aud, stage, why = AUDIENCE[o["slug"]]
+    dl = FREE_DL.get(o["slug"]) if o["price"] == 0 else None
+    dl = [f for f in (dl or []) if os.path.isfile(os.path.join(DL_DIR, f))]
     offers.append({
       "slug": o["slug"], "title": o["title"], "price": o["price"],
       "price_label": "$0+ (free)" if o["price"] == 0 else "$%d" % o["price"],
       "status": o["status"], "tagline": o["tagline"], "contents": o["contents"], "price_num": o["price"],
       "audience": aud, "stage": stage, "why": why,
-      "href": "/tools/" + o["slug"],
-      "action": "Notify me when it ships"
+      "href": "/downloads/tools/" + dl[0] if dl else "/tools/" + o["slug"],
+      "files": ["/downloads/tools/" + f for f in dl],
+      "cta": "Download now" if dl else "Notify me",
+      "action": "Download now" if dl else "Notify me when it ships"
     })
 
 playbooks = []
@@ -94,8 +116,8 @@ for slug in sorted(os.listdir(pb_dir)):
 
 data = {"generated": now, "source": "v3/W8-offerings/OFFERINGS.json + v3/W12-journey/BUYER-JOURNEY.json (if present) + site/playbooks",
         "brand": "The Commit Book",
-        "checkout": "Preview: purchases are off until the payment gateway flag is flipped. Every tool below is notify-only until its download page goes live.",
-        "ready_means": "Ready = the full contents are written and checked. The download page is the next build item, so every tool asks for an email first.",
+        "checkout": "Preview: purchases are off until the payment gateway flag is flipped. The two free tools download now; every paid tool below is notify-only until its download page goes live.",
+        "ready_means": "Ready = the full contents are written and checked. The two $0 tools are downloadable now; paid tools ask for an email first, because their download pages are the next build item.",
         "tiers": [{"name": "Sideline", "price": 149, "cadence": "per year", "offered": True,
                    "line": "Every date, every playbook, every tool, all year."},
                   {"name": "Pathway", "price": 99, "cadence": "one year", "offered": True,

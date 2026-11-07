@@ -1,9 +1,9 @@
 {
- "generated": "2026-11-07T17:59:29Z",
+ "generated": "2026-11-07T19:50:11Z",
  "source": "v3/W8-offerings/OFFERINGS.json + v3/W12-journey/BUYER-JOURNEY.json (if present) + site/playbooks",
  "brand": "The Commit Book",
- "checkout": "Preview: purchases are off until the payment gateway flag is flipped. Every tool below is notify-only until its download page goes live.",
- "ready_means": "Ready = the full contents are written and checked. The download page is the next build item, so every tool asks for an email first.",
+ "checkout": "Preview: purchases are off until the payment gateway flag is flipped. The two free tools download now; every paid tool below is notify-only until its download page goes live.",
+ "ready_means": "Ready = the full contents are written and checked. The two $0 tools are downloadable now; paid tools ask for an email first, because their download pages are the next build item.",
  "tiers": [
   {
    "name": "Sideline",
@@ -111,8 +111,13 @@
    ],
    "stage": "build",
    "why": "Your coach list stops living in your inbox.",
-   "href": "/tools/contact-log",
-   "action": "Notify me when it ships"
+   "href": "/downloads/tools/contact-log.md",
+   "files": [
+    "/downloads/tools/contact-log.md",
+    "/downloads/tools/contact-log.csv"
+   ],
+   "cta": "Download now",
+   "action": "Download now"
   },
   {
    "slug": "red-flags",
@@ -134,8 +139,12 @@
    ],
    "stage": "verify",
    "why": "Judge a program yourself before you pay it anything.",
-   "href": "/tools/red-flags",
-   "action": "Notify me when it ships"
+   "href": "/downloads/tools/red-flags.md",
+   "files": [
+    "/downloads/tools/red-flags.md"
+   ],
+   "cta": "Download now",
+   "action": "Download now"
   },
   {
    "slug": "offer-comparison",
@@ -158,6 +167,8 @@
    "stage": "decide",
    "why": "Compare offers on the dollar number, not the letter.",
    "href": "/tools/offer-comparison",
+   "files": [],
+   "cta": "Notify me",
    "action": "Notify me when it ships"
   },
   {
@@ -182,6 +193,8 @@
    "stage": "protect",
    "why": "A first NIL deal without signing away the wrong clause.",
    "href": "/tools/nil-starter",
+   "files": [],
+   "cta": "Notify me",
    "action": "Notify me when it ships"
   },
   {
@@ -205,6 +218,8 @@
    "stage": "protect",
    "why": "Money you kept in sport does not become an April surprise.",
    "href": "/tools/nil-tax",
+   "files": [],
+   "cta": "Notify me",
    "action": "Notify me when it ships"
   },
   {
@@ -229,6 +244,8 @@
    "stage": "protect",
    "why": "Three local deals you can find yourself, in your own town.",
    "href": "/tools/local-nil",
+   "files": [],
+   "cta": "Notify me",
    "action": "Notify me when it ships"
   },
   {
@@ -253,6 +270,8 @@
    "stage": "build",
    "why": "One page that tells you what to film and when to send it.",
    "href": "/tools/season-planner",
+   "files": [],
+   "cta": "Notify me",
    "action": "Notify me when it ships"
   },
   {
@@ -277,6 +296,8 @@
    "stage": "after",
    "why": "A plan for the 98% that does not wait until the last game.",
    "href": "/tools/career-transition",
+   "files": [],
+   "cta": "Notify me",
    "action": "Notify me when it ships"
   },
   {
@@ -300,6 +321,8 @@
    "stage": "build",
    "why": "Twelve moments, twelve subject lines that get opened.",
    "href": "/tools/coach-emails",
+   "files": [],
+   "cta": "Notify me",
    "action": "Notify me when it ships"
   },
   {
@@ -322,6 +345,8 @@
    "stage": "buy",
    "why": "Every tool and playbook, one purchase, no upsell ladder.",
    "href": "/tools/bundle",
+   "files": [],
+   "cta": "Notify me",
    "action": "Notify me when it ships"
   }
  ],

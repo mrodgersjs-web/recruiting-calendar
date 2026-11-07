@@ -78,15 +78,30 @@ def page_for(x):
 <section class="ax-six"><p class="ax-k">Six tools for this path</p><h2 class="d1" style="color:#fff">What a family on this road uses.</h2><p class="ax-dek">{e(x.get("closing",""))} None of these caused this athlete's result, and none can promise yours.</p><div class="ax-grid">{cards}</div>
 <p style="margin-top:32px"><a class="btn btn--primary btn--l" href="/story/{a["id"]}">Read the sourced timeline</a> <a class="btn btn--outline" href="/">All stories</a></p></section></main>'''
     w(f'athlete/{a["id"]}/index.html',page(f'/athlete/{a["id"]}/',f'{x["headline"]} | The Commit Book',x['dek'],body,CSS2,'','ax-page'))
-# /tools/<slug>: notify-only pages (W8 drafts are in review; never sold or downloadable here)
+# /tools/<slug>: notify-only pages (W8 drafts are in review; never sold here).
+# Exception, Mike's call 2026-11-07: a $0 tool whose file is already published under
+# site/downloads/tools/ (step 4, W12-library) links the real file, because a parent who
+# gives us nothing should still get something real. Paid tools stay notify-only.
+import os as _os2
+DLT = _os2.path.join('site', 'downloads', 'tools')
 for s,o in OF.items():
     if o['kind']!='tool':continue
     li=''.join(f'<li>{e(c)}</li>' for c in o.get('contents',[]))
-    body=f'''<main class="cb-page pdp"><p class="lab">Tool · coming soon</p><h1 class="d2">{e(o["title"])}</h1><p class="pb-p">{"Free" if o["price"]==0 else "$"+str(o["price"])} <span class="note">planned price</span></p>
-<p>This tool is being written and checked. It is not for sale yet. Leave your email and we will tell you when it is ready.</p>
-<details open><summary>Planned contents</summary><ul>{li}</ul></details>
-<form class="capture" data-src="notify-{s}" novalidate><input type="email" name="email" required placeholder="Your email" aria-label="Your email" autocomplete="email"><input type="hidden" name="plan" value="giveaway"><input type="hidden" name="source" value="notify-{s}"><input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true"><button class="btn btn--primary" type="submit">Notify me</button><label class="consent"><input type="checkbox" name="consent" value="1"> Email me when this tool is ready. Unsubscribe any time.</label></form><p class="note f5">For parents and guardians. We do not knowingly collect information from children under 13.</p></main>'''
-    w(f'tools/{s}/index.html',page(f'/tools/{s}/',f'{o["title"]} (coming soon) | The Commit Book',o['title'],body))
+    files=[f for f in (s+'.md', s+'.csv') if _os2.path.isfile(_os2.path.join(DLT,f))]
+    if files:
+        dl='<p class="pd-links">'+' '.join(f'<a class="btn btn--primary" href="/downloads/tools/{f}" download>Download {f.split(".")[-1].upper()}</a>' for f in files)+'</p>'
+        intro='Free, and downloadable now. This is the working draft, checked against the rulebook and the sources, not a polished product page.'
+        form=''
+    else:
+        dl=''
+        intro='This tool is being written and checked. It is not for sale yet. Leave your email and we will tell you when it is ready.'
+        form=f'<form class="capture" data-src="notify-{s}" novalidate><input type="email" name="email" required placeholder="Your email" aria-label="Your email" autocomplete="email"><input type="hidden" name="plan" value="giveaway"><input type="hidden" name="source" value="notify-{s}"><input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true"><button class="btn btn--primary" type="submit">Notify me</button><label class="consent"><input type="checkbox" name="consent" value="1"> Email me when this tool is ready. Unsubscribe any time.</label></form>'
+    body=f'''<main class="cb-page pdp"><p class="lab">Tool · {"free download" if files else "coming soon"}</p><h1 class="d2">{e(o["title"])}</h1><p class="pb-p">{"Free" if o["price"]==0 else "$"+str(o["price"])} <span class="note">{"" if files or o["price"]==0 else "planned price"}</span></p>
+<p>{intro}</p>
+{dl}
+<details open><summary>{"What is in it" if files else "Planned contents"}</summary><ul>{li}</ul></details>
+{form}<p class="note f5">For parents and guardians. We do not knowingly collect information from children under 13.</p></main>'''
+    w(f'tools/{s}/index.html',page(f'/tools/{s}/',f'{o["title"]}{" | The Commit Book" if files else " (coming soon) | The Commit Book"}',o['title'],body))
 n=0
 for f in sorted(glob.glob(L+'/out/*.json')):
     x=json.load(open(f));assert len(set(x['offers']))>=6 and all(s in OF for s in x['offers']),f;page_for(x);n+=1

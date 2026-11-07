@@ -1,14 +1,26 @@
-"""W11 verification: resource directory + marketing pack. Offline; reads W10 sources + site/resources + W11 outputs."""
+"""W11 verification: resource directory + marketing pack. Offline; reads W10 sources + site/resources + W11 outputs.
+
+2026-11-07: Mike's rebrand ruling deleted the third-party Gumroad /resources page (see v3/AGENTS.md), so the
+directory assertions are skipped, not deleted: the Gumroad catalogue and the campaign pack stay on disk as
+provenance, and if such a page returns the checks wake up. The drift the rebrand left behind is asserted
+live by RebrandDrift at the bottom of this file.
+"""
 import json, re, unittest
 from pathlib import Path
 R = Path(__file__).resolve().parents[2]
 W10, W7, W11, RES = R/'v3/W10-offers', R/'v3/W7-marketing', R/'v3/W11-marketing', R/'site/resources'
 J = lambda p: json.loads(Path(p).read_text())
 LIVE, OFFERS, STORY, GAPS = J(W10/'LIVE-CHECK.json'), J(W10/'OFFERS.json'), J(W10/'STORY-OFFERS.json'), J(W10/'GAPS.json')
-DIR = J(RES/'offers.json')
-HTML, JS = (RES/'index.html').read_text(), (RES/'resources.js').read_text()
+RETIRED = not (RES/'offers.json').exists()
+REASON = '/resources (the third-party Gumroad directory) was removed by the 2026-11-07 Commit Book rebrand'
+if RETIRED:
+    DIR, HTML, JS = {'offers': [], 'stories': [], 'categories': [], 'attribution': ''}, '', ''
+else:
+    DIR = J(RES/'offers.json')
+    HTML, JS = (RES/'index.html').read_text(), (RES/'resources.js').read_text()
 URL = re.compile(r'^https://malbrough6\.gumroad\.com/l/[a-z0-9-]+$')
 
+@unittest.skipIf(RETIRED, REASON)
 class Gumroad(unittest.TestCase):
     def test_30_urls(self):
         self.assertEqual(len(DIR['offers']), 30)
@@ -39,6 +51,7 @@ class Gumroad(unittest.TestCase):
         self.assertIn("a.target='_blank'", JS); self.assertIn("a.rel='noopener noreferrer'", JS)
         self.assertIn('o.price_label', JS); self.assertIn('o.href', JS)
 
+@unittest.skipIf(RETIRED, REASON)
 class StoryMapping(unittest.TestCase):
     def test_21_stories_14x6_7x5(self):
         self.assertEqual(len(DIR['stories']), 21)
@@ -64,6 +77,7 @@ class StoryMapping(unittest.TestCase):
         s = next(x for x in DIR['stories'] if x['slug'] == 'rodenfels')
         self.assertTrue(s['held']); self.assertIn('HELD', s['no_sport_specific'])
 
+@unittest.skipIf(RETIRED, REASON)
 class Attribution(unittest.TestCase):
     def test_headline_and_notice(self):
         self.assertIn('Third-Party Resource Directory — Created &amp; Sold by McKinley Malbrough III on Gumroad', HTML)
@@ -82,6 +96,7 @@ class Attribution(unittest.TestCase):
         for f in ('resources.css', 'resources.js', 'offers.json'): self.assertTrue((RES/f).exists())
 
 ROUTES = ['/start','/access','/recruitiq','/personalize','/segments','/emerging-sports','/resources']
+@unittest.skipIf(RETIRED, REASON)
 class Marketing(unittest.TestCase):
     M = J(W7/'MARKETING.json'); MAP = J(W11/'landing-page-map.json')
     def test_routes_and_six_segments(self):
@@ -116,5 +131,19 @@ class Marketing(unittest.TestCase):
         self.assertIn('Draft only', pb)
     def test_write_scope(self):
         self.assertTrue({p.name for p in RES.iterdir()} == {'index.html','resources.js','resources.css','offers.json'})
+
+LIB = R/'site/library'
+
+class RebrandDrift(unittest.TestCase):
+    """Live checks on what the rebrand changed, and the one gap it left behind."""
+    MAP = J(W11/'landing-page-map.json')
+    def test_resources_page_is_gone_and_library_is_the_catalog(self):
+        self.assertFalse(RES.exists())
+        self.assertTrue((LIB/'index.html').exists() and (LIB/'library.json').exists())
+        self.assertIn('/library', (R/'site/index.html').read_text())
+    def test_campaign_pack_still_needs_repointing(self):
+        # A documented gap, not a clean pass: the DRAFT campaign pack routes to /resources.
+        # It must be re-pointed at /library before any ad ships; this assertion is the tripwire.
+        self.assertIn('/resources', list(self.MAP['routes']))
 
 if __name__ == '__main__': unittest.main(verbosity=2)
