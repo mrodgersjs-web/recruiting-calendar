@@ -24,7 +24,7 @@
      "note": ""
     },
     {
-     "label": "D1 Governance Q&A (updated 2026-02-11)",
+     "label": "D1 Governance questions and answers (updated 2026-02-11)",
      "url": "https://ncaaorg.s3.amazonaws.com/governance/d1/legislation/Feb2026D1Gov_PhaseSevenSetQuestionandAnswer.pdf",
      "note": ""
     },
@@ -59,7 +59,7 @@
      "note": ""
     },
     {
-     "label": "D1 Governance Q&A (updated 2026-02-11)",
+     "label": "D1 Governance questions and answers (updated 2026-02-11)",
      "url": "https://ncaaorg.s3.amazonaws.com/governance/d1/legislation/Feb2026D1Gov_PhaseSevenSetQuestionandAnswer.pdf",
      "note": ""
     },
@@ -94,7 +94,7 @@
      "note": ""
     },
     {
-     "label": "D1 Governance Q&A (updated 2026-02-11)",
+     "label": "D1 Governance questions and answers (updated 2026-02-11)",
      "url": "https://ncaaorg.s3.amazonaws.com/governance/d1/legislation/Feb2026D1Gov_PhaseSevenSetQuestionandAnswer.pdf",
      "note": ""
     },
@@ -296,7 +296,7 @@
    "sport": "Football",
    "roster_cap": "n/a",
    "aid_cap": "24 equivalencies",
-   "gpa_rule": "NAIA Eligibility Center (separate from NCAA). Accredited HS graduate and 2.3+ GPA, or two of three: 18 ACT / 970 SAT, 2.0 HS GPA, class rank. The NAIA does not recognize the NCAA five-year rule or age limits.",
+   "gpa_rule": "NAIA Eligibility Center (separate from NCAA). Accredited high school graduate and 2.3+ GPA, or two of three: 18 ACT / 970 SAT, 2.0 high school GPA, class rank. The NAIA does not recognize the NCAA five-year rule or age limits.",
    "sources": [
     {
      "label": "NAIA Official Handbook, Upper Limits for Institutional Aid",
@@ -321,7 +321,7 @@
    "sport": "Baseball",
    "roster_cap": "n/a",
    "aid_cap": "12 equivalencies",
-   "gpa_rule": "NAIA Eligibility Center (separate from NCAA). Accredited HS graduate and 2.3+ GPA, or two of three: 18 ACT / 970 SAT, 2.0 HS GPA, class rank. The NAIA does not recognize the NCAA five-year rule or age limits.",
+   "gpa_rule": "NAIA Eligibility Center (separate from NCAA). Accredited high school graduate and 2.3+ GPA, or two of three: 18 ACT / 970 SAT, 2.0 high school GPA, class rank. The NAIA does not recognize the NCAA five-year rule or age limits.",
    "sources": [
     {
      "label": "NAIA Official Handbook, Upper Limits for Institutional Aid",
@@ -346,7 +346,7 @@
    "sport": "Track & Field / XC",
    "roster_cap": "n/a",
    "aid_cap": "12 equivalencies",
-   "gpa_rule": "NAIA Eligibility Center (separate from NCAA). Accredited HS graduate and 2.3+ GPA, or two of three: 18 ACT / 970 SAT, 2.0 HS GPA, class rank. The NAIA does not recognize the NCAA five-year rule or age limits.",
+   "gpa_rule": "NAIA Eligibility Center (separate from NCAA). Accredited high school graduate and 2.3+ GPA, or two of three: 18 ACT / 970 SAT, 2.0 high school GPA, class rank. The NAIA does not recognize the NCAA five-year rule or age limits.",
    "sources": [
     {
      "label": "NAIA Official Handbook, Upper Limits for Institutional Aid",
@@ -456,14 +456,14 @@
  ],
  "programs": [
   {
-   "id": "brown",
-   "name": "Brown",
+   "id": "prog-A",
+   "name": "Program A",
    "level": "D1",
-   "conference": "Ivy",
+   "conference": "private, high academic",
    "vintage": "2026-08-24",
    "cycle": "2026-27",
    "url": "https://brownbears.com/documents/download/2026/8/24/Recruiting_Standards_2026-27.pdf",
-   "label_note": "Brown labels: Target Performance / Walk On Consideration.",
+   "label_note": "This program labels Target Performance / Walk On Consideration.",
    "marks": {
     "100": [
      {
@@ -522,14 +522,14 @@
    "notes": []
   },
   {
-   "id": "rutgers",
-   "name": "Rutgers",
+   "id": "prog-B",
+   "name": "Program B",
    "level": "D1",
-   "conference": "Big Ten",
+   "conference": "Power 4",
    "vintage": "2025-10-10",
    "cycle": "2025-26 (not 2026-27)",
    "url": "https://scarletknights.com/documents/download/2025/10/10/TF_RecruitingStandards.pdf",
-   "label_note": "Rutgers labels: Roster spot consideration / Consider for full athletic aid. All sprint times FAT.",
+   "label_note": "This program labels Roster spot consideration / Consider for full athletic aid. All sprint times FAT.",
    "marks": {
     "100": [
      {
@@ -583,21 +583,21 @@
    "disclaimer": {
     "text": "Achieving the marks does not guarantee a scholarship offer or roster spot.",
     "by": "recruitiq",
-    "extra": "Rutgers itself lists scholarship availability, team needs, \"Academic performance is a critical aspect\" and \"Consistency at standard is heavily favored\"."
+    "extra": "a D1 program itself lists scholarship availability, team needs, \"Academic performance is a critical aspect\" and \"Consistency at standard is heavily favored\"."
    },
    "notes": [
-    "Rutgers lists: scholarship availability varies yearly, team needs, \"Academic performance is a critical aspect\", state/national meet performances, \"Consistency at standard is heavily favored\", coaches' development evaluation, character, and FAT timing only."
+    "a D1 program lists: scholarship availability varies yearly, team needs, \"Academic performance is a critical aspect\", state/national meet performances, \"Consistency at standard is heavily favored\", coaches' development evaluation, character, and FAT timing only."
    ]
   },
   {
-   "id": "princeton",
-   "name": "Princeton",
+   "id": "prog-C",
+   "name": "Program C",
    "level": "D1",
-   "conference": "Ivy",
+   "conference": "private, high academic",
    "vintage": "2024-07-17",
    "cycle": "page dated 2024-07-17 (at least two cycles old unless edited)",
    "url": "https://goprincetontigers.com/sports/2024/7/17/princeton-mens-track-field-standards-for-recruitment",
-   "label_note": "Princeton label: standards to qualify for recruitment; should be achieved by the start of senior year. One mark per event.",
+   "label_note": "This program labels standards to qualify for recruitment; should be achieved by the start of senior year. One mark per event.",
    "marks": {
     "100": [
      {
@@ -636,14 +636,14 @@
    "notes": []
   },
   {
-   "id": "emu",
-   "name": "Eastern Michigan",
+   "id": "prog-D",
+   "name": "Program D",
    "level": "D1",
-   "conference": "MAC",
+   "conference": "mid-major",
    "vintage": "2026-09-02",
    "cycle": "2026-27",
    "url": "https://emueagles.com/documents/download/2026/9/2/Eastern_Michigan_Track___Field_Recruiting_Standards.pdf",
-   "label_note": "EMU labels: Target recruits / Scholarship / Walk-on consideration.",
+   "label_note": "This program labels Target recruits / Scholarship / Walk-on consideration.",
    "marks": {
     "100": [
      {
@@ -722,14 +722,14 @@
    "notes": []
   },
   {
-   "id": "oru",
-   "name": "Oral Roberts",
+   "id": "prog-E",
+   "name": "Program E",
    "level": "D1",
-   "conference": "Summit League",
+   "conference": "mid-major",
    "vintage": "2025-10-24",
    "cycle": "2026-27 target standards",
    "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/oruathletics.com/documents/2025/10/24/Men_s_2026-2027_Target_Standards.pdf",
-   "label_note": "ORU labels: Target marks, with Summit League winning/qualifying marks beside them.",
+   "label_note": "This program labels Target marks, with Summit League winning/qualifying marks beside them.",
    "marks": {
     "100": [
      {
@@ -769,12 +769,12 @@
  ],
  "uno": {
   "id": "uno",
-  "name": "New Orleans",
+  "name": "One more D1 program",
   "level": "D1",
   "vintage": "2026-08-19",
   "cycle": "2026",
   "url": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/unoprivateers.com/documents/2026/8/19/2026_Track_and_Field_Recruiting_Standards.pdf",
-  "policy_note": "Athletic scholarships \"may range from 1%-100%\" and weigh GPA, test scores, aid availability and team needs. This language is New Orleans-only; it is not in the Eastern Michigan PDF. No per-event marks from this PDF are compared in the calculator.",
+  "policy_note": "Athletic scholarships \"may range from 1%-100%\" and weigh GPA, test scores, aid availability and team needs. This language is New Orleans-only; it is not in the a mid-major D1 program PDF. No per-event marks from this PDF are compared in the calculator.",
   "in_calculator": false
  },
  "excluded_from_calculator": [

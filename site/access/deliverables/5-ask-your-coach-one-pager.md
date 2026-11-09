@@ -1,4 +1,4 @@
-# Worksheet 5: Ask your coach (one page to hand your HS/club coach)
+# Worksheet 5: Ask your coach (one page to hand your high school/club coach)
 
 *Rules and scripts for families to use themselves. The Commit Book does not contact coaches, place athletes or promise introductions, replies or offers. Verify every date on the NCAA page for your sport.*
 

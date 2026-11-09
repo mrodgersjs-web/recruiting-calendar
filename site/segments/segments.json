@@ -61,7 +61,7 @@
    ],
    "story": {
     "label": "Perez: started in eighth grade and still found a home",
-    "href": "/athlete/perez/"
+    "href": "/athlete/tori/"
    },
    "spend_note": "Free path. Budget line to protect: nothing recurring before sophomore summer."
   },
@@ -162,7 +162,7 @@
    ],
    "story": {
     "label": "Coward: zero D1 offers, a D3 start, a long climb",
-    "href": "/athlete/coward/"
+    "href": "/athlete/cedric/"
    },
    "spend_note": "Cancellation terms vary by contract. Read yours; this site gives education, not legal advice."
   },
@@ -209,7 +209,7 @@
    ],
    "story": {
     "label": "Marpet: no D1 offers? Division III can build an athlete",
-    "href": "/athlete/marpet/"
+    "href": "/athlete/ali/"
    },
    "spend_note": "Highest household spend in the Aspen data ($100K+ band). Spend on visits that matter, not on volume."
   },
@@ -310,7 +310,7 @@
    ],
    "story": {
     "label": "Rodriguez: stepped away? A new program can still find you",
-    "href": "/athlete/rodriguez/"
+    "href": "/athlete/cristelle/"
    },
    "spend_note": "Cheap sports but a high information need. An emerging-sports program list is not on the site yet."
   }
@@ -343,7 +343,7 @@
     {
      "n": 3,
      "name": "Underlying cause",
-     "text": "No neutral owner of the process: HS coach is not responsible, the NCAA publishes rules not plans, services sell rather than teach.",
+     "text": "No neutral owner of the process: high school coach is not responsible, the NCAA publishes rules not plans, services sell rather than teach.",
      "status": "EVIDENCED",
      "source": "v3/W7-segments/raw/fbc_2817241591782952.json; v3/W7-segments/raw/ws3.json"
     },
@@ -722,7 +722,7 @@
     {
      "n": 10,
      "name": "Proof it worked",
-     "text": "Parent acts on the opening date (e.g. Jun 15 after soph year) instead of guessing.",
+     "text": "Parent acts on the opening date (e.g. Jun 15 after sophomore year) instead of guessing.",
      "status": "INFERRED",
      "source": "-"
     }
@@ -783,7 +783,7 @@
     {
      "n": 7,
      "name": "Who else",
-     "text": "HS counselor (transcripts), college compliance, athlete.",
+     "text": "high school counselor (transcripts), college compliance, athlete.",
      "status": "EVIDENCED",
      "source": "v3/W7-segments/raw/fbc_486168307734551.json"
     },
@@ -868,7 +868,7 @@
  "sizing": {
   "label": "MODEL ASSUMPTION, not a census figure",
   "assumptions": [
-   "Jr+Sr = HS participants / 4 x 2",
+   "Jr+Sr = high school participants / 4 x 2",
    "College intent 30% (ESTIMATE)",
    "Paying share by income skew H 55% / M 40% / L 30% (ESTIMATE)",
    "Revenue ceiling = families x $149 membership; real conversion would be a few percent"
@@ -878,7 +878,7 @@
    "rate": 0.02,
    "families": 9925
   },
-  "participation_source": "NFHS 2024-25 participation survey (record 8,266,244); division percentages from NCAA Probability of Competing Beyond HS (derived, rounded)",
+  "participation_source": "NFHS 2024-25 participation survey (record 8,266,244); division percentages from NCAA Probability of Competing Beyond high school (derived, rounded)",
   "rows": [
    {
     "sport": "Football (boys 11-player)",

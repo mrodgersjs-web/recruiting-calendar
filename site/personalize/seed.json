@@ -91,7 +91,7 @@
     },
     {
       "entity_id": "event-juniorday-ponderosa-2026",
-      "name": "Junior Day football camp, Ponderosa HS, Parker CO",
+      "name": "Junior Day football camp, Ponderosa high school, Parker CO",
       "type": "college_prospect_camp",
       "sport": ["football"],
       "ages_or_grades": null,

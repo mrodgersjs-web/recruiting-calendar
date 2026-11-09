@@ -4,23 +4,23 @@ S=json.load(open(R+'/v3/W1-stories/STORIES.json'))['stories']
 C=json.load(open(R+'/v3/W1-playbooks/CATALOG.json'))
 # Flag resolution (W2-scripts FLAG-RESOLUTION.md): corrections applied; held stories behind flag.
 FIX={
- 'white':{'tl':{1:{'date':'2012','fact':'His one offer was a D2 preferred walk-on at UCCS with a $3,000 partial scholarship; the other option was a junior college in Wyoming','url':'https://andscape.com/features/derrick-white-started-as-the-ultimate-underdog-in-his-journey-to-the-nba-finals/'}}},
- 'pichardo':{'tl':{1:{'date':'2022 fall','fact':'Had several college options but chose Brown with no guarantee; went through walk-on tryouts','url':'https://www.nancybkennedy.com/a-walk-on-wonder'}}},
- 'rodriguez':{'hs':'Buchanan High School, Clovis, CA','add':[{'date':'NAIA rule','fact':'NAIA: register with the NAIA Eligibility Center (PlayNAIA.org). A 2.3 high school GPA makes a freshman eligible, or two of three: ACT 18/SAT 970, 2.0 GPA, top half of class. NAIA contact rules are far looser than NCAA. (NAIA Bylaws Art. V Sec. C, 2026-27 NAIA Handbook p.70)','url':'https://www.naia.org/legislative/2026-27/NAIA_Handbook.pdf'}]},
- 'marpet':{'hs':'Hastings High School, Hastings-on-Hudson, NY','add':[{'date':'HS','fact':'FCS interest (Fordham, Marist, Holy Cross) was walk-on only, no scholarship','url':'https://www.buccaneers.com/news/5-things-to-know-about-ali-marpet-15227691'}]},
- 'lowe':{'hs':'La Costa Canyon HS, Carlsbad, CA','add':[{'date':'college','fact':'Came as a walk-on; coach later awarded a scholarship','url':'https://www.espn.com/espnw/news-commentary/article/11930309/ucla-karsta-lowe-blossoming-fiery-new-attitude'}]},
- 'pirosko':{'add':[{'date':'2018-05','fact':'Signed National Letter of Intent with Gannon in the spring 2018 signing period','url':'https://gannonsports.com/story.aspx?file_date=5-2-2018&filename=gannon-womens-basketball-program-adds-pair-to-recruiting-class'}]},
- 'coward':{'college':'Willamette (D3) then Eastern Washington and Washington State','timeline':[
-  {'date':'out of HS','fact':'Chose Willamette (D3) as the best fit out of high school','url':'https://www.spokesman.com/stories/2022/dec/19/eastern-washingtons-cedric-coward-carving-out-impo'},
-  {'date':'2021-22','fact':'Averaged 19.5 points and 12.0 rebounds at Willamette','url':'https://www.nba.com/draft/2025/prospects/cedric-coward'},
-  {'date':'2022-25','fact':'Transferred to Eastern Washington (D1), then Washington State','url':'https://wsucougars.com/sports/mens-basketball/roster/player/cedric-coward'},
+ 'white':{'tl':{1:{'date':'2012','fact':'His one offer was a D2 preferred walk-on at a D2 school with a $3,000 partial scholarship; the other option was a JUCO program in another state','url':'https://andscape.com/features/derrick-white-started-as-the-ultimate-underdog-in-his-journey-to-the-nba-finals/'}}},
+ 'pichardo':{'tl':{1:{'date':'2022 fall','fact':'Had several college options but chose a D1 program with no guarantee; went through walk-on tryouts','url':'https://www.nancybkennedy.com/a-walk-on-wonder'}}},
+ 'rodriguez':{'hs':'a large high school in California','add':[{'date':'NAIA rule','fact':'NAIA: register with the NAIA Eligibility Center (PlayNAIA.org). A 2.3 high school GPA makes a freshman eligible, or two of three: ACT 18/SAT 970, 2.0 GPA, top half of class. NAIA contact rules are far looser than NCAA. (NAIA Bylaws Art. V Sec. C, 2026-27 NAIA Handbook p.70)','url':'https://www.naia.org/legislative/2026-27/NAIA_Handbook.pdf'}]},
+ 'marpet':{'hs':'a suburban high school in New York','add':[{'date':'high school','fact':'FCS interest (Fordham, Marist, Holy Cross) was walk-on only, no scholarship','url':'https://www.buccaneers.com/news/5-things-to-know-about-ali-marpet-15227691'}]},
+ 'lowe':{'hs':'a large high school in Southern California','add':[{'date':'college','fact':'Came as a walk-on; coach later awarded a scholarship','url':'https://www.espn.com/espnw/news-commentary/article/11930309/ucla-karsta-lowe-blossoming-fiery-new-attitude'}]},
+ 'pirosko':{'add':[{'date':'2018-05','fact':'Signed National Letter of Intent with a D2 program in the spring 2018 signing period','url':'https://gannonsports.com/story.aspx?file_date=5-2-2018&filename=gannon-womens-basketball-program-adds-pair-to-recruiting-class'}]},
+ 'coward':{'college':'a D3 school, then two D1 transfers','timeline':[
+  {'date':'out of high school','fact':'Chose a D3 school (D3) as the best fit out of high school','url':'https://www.spokesman.com/stories/2022/dec/19/eastern-washingtons-cedric-coward-carving-out-impo'},
+  {'date':'2021-22','fact':'Averaged 19.5 points and 12.0 rebounds at a D3 school','url':'https://www.nba.com/draft/2025/prospects/cedric-coward'},
+  {'date':'2022-25','fact':'Transferred to a D1 school (D1), then another D1 school','url':'https://wsucougars.com/sports/mens-basketball/roster/player/cedric-coward'},
   {'date':'2025','fact':'Picked 11th in the 2025 NBA Draft','url':'https://www.nba.com/draft/2025/prospects/cedric-coward'}]},
 }
 HOLD={'rodenfels'}   # single-source path; behind ?flags=all until second source
-SOCCER={'id':'wondolowski','name':'Chris Wondolowski','sport':'Soccer','hs':'De La Salle HS, Danville, CA','college':'Chico State','division':'D2','path':'D1 interest was mostly for track; found at a tournament',
- 'timeline':[{'date':'HS','fact':'Not heavily recruited for soccer; D1 interest was mostly for track','url':'https://www.ncaa.com/news/soccer-men/article/2019-08-29/how-chris-wondolowski-went-dii-mls-record-book'},
-  {'date':'HS','fact':'Chico State coach saw him at a San Diego tournament','url':'https://www.ncaa.com/news/soccer-men/article/2019-08-29/how-chris-wondolowski-went-dii-mls-record-book'},
-  {'date':'college','fact':'Scored 39 goals at Chico State and was named All-American','url':'https://www.ncaa.com/news/soccer-men/article/2019-08-29/how-chris-wondolowski-went-dii-mls-record-book'},
+SOCCER={'id':'wondolowski','name':'Chris','sport':'Soccer','hs':'a perennial powerhouse high school in Northern California','college':'a D2 program','division':'D2','path':'D1 interest was mostly for track; found at a tournament',
+ 'timeline':[{'date':'high school','fact':'Not heavily recruited for soccer; D1 interest was mostly for track','url':'https://www.ncaa.com/news/soccer-men/article/2019-08-29/how-chris-wondolowski-went-dii-mls-record-book'},
+  {'date':'high school','fact':'a D2 program coach saw him at an out-of-state club tournament','url':'https://www.ncaa.com/news/soccer-men/article/2019-08-29/how-chris-wondolowski-went-dii-mls-record-book'},
+  {'date':'college','fact':'Scored 39 goals at a D2 program and was named All-American','url':'https://www.ncaa.com/news/soccer-men/article/2019-08-29/how-chris-wondolowski-went-dii-mls-record-book'},
   {'date':'2005','fact':'Taken 41st in the MLS Supplemental Draft','url':'https://www.ncaa.com/news/soccer-men/article/2019-08-29/how-chris-wondolowski-went-dii-mls-record-book'}],
  'turning':['A tournament put him in front of the right coach'],'replicate':['Play the events lower-division coaches attend','Treat D2 as a real path to the pros']}
 PB={p['slug']:p for p in C['catalog']}
@@ -48,7 +48,7 @@ for x in S+[SOCCER]:
     if k in f:x[k]=f[k]
   x['timeline']=list(x.get('timeline',[]))+f.get('add',[])
   for i,v in f.get('tl',{}).items(): x['timeline'][i]=v
-  if x['id']=='coward': x['hs']='Fresno, CA'
+  if x['id']=='coward': x['hs']='a public high school in California'
   if x.get('basis'): x['basis']=[b.replace('Swimmer recruiting relies on club coach advocacy and posted times','Swimmer recruiting weighs past results, potential and conference fit, with club coach advocacy') for b in x['basis'] if 'athletes.org' not in b]
   x.pop('ethnicity',None)
   comp=bool(x.get('composite'))

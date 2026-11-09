@@ -2,7 +2,7 @@
  "renfrow": {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "How Hunter Renfrow got to Clemson (Football, D1 (FBS))",
+  "headline": "How Hunter got to a Power 4 program (Football, D1)",
   "dateModified": "2026-11-05",
   "author": {
    "@id": "https://recruiting-calendar.vercel.app/#org"
@@ -18,13 +18,13 @@
   ],
   "about": {
    "@type": "Person",
-   "name": "Hunter Renfrow"
+   "name": "Hunter"
   }
  },
  "groenewegen": {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "How Sara Groenewegen got to Minnesota (Softball, D1)",
+  "headline": "How Sara got to Minnesota (Softball, D1)",
   "dateModified": "2026-11-05",
   "author": {
    "@id": "https://recruiting-calendar.vercel.app/#org"
@@ -38,13 +38,13 @@
   ],
   "about": {
    "@type": "Person",
-   "name": "Sara Groenewegen"
+   "name": "Sara"
   }
  },
  "lowe": {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "How Karsta Lowe got to UCLA (Volleyball, D1)",
+  "headline": "How Karsta got to a D1 program (Volleyball, D1)",
   "dateModified": "2026-11-05",
   "author": {
    "@id": "https://recruiting-calendar.vercel.app/#org"
@@ -58,13 +58,13 @@
   ],
   "about": {
    "@type": "Person",
-   "name": "Karsta Lowe"
+   "name": "Karsta"
   }
  },
  "pichardo": {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "How Olivia Pichardo got to Brown (Baseball, D1)",
+  "headline": "How Olivia got to a D1 program (Baseball, D1)",
   "dateModified": "2026-11-05",
   "author": {
    "@id": "https://recruiting-calendar.vercel.app/#org"
@@ -79,13 +79,13 @@
   ],
   "about": {
    "@type": "Person",
-   "name": "Olivia Pichardo"
+   "name": "Olivia"
   }
  },
  "white": {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "How Derrick White got to UCCS then Colorado (Basketball, D2 -> D1 transfer)",
+  "headline": "How Derrick got to a D2 school, then a D1 transfer (Basketball, D2 -> D1 transfer)",
   "dateModified": "2026-11-05",
   "author": {
    "@id": "https://recruiting-calendar.vercel.app/#org"
@@ -102,13 +102,13 @@
   ],
   "about": {
    "@type": "Person",
-   "name": "Derrick White"
+   "name": "Derrick"
   }
  },
  "pirosko": {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "How Samantha Pirosko got to Gannon (Basketball, D2)",
+  "headline": "How Samantha got to a D2 program (Basketball, D2)",
   "dateModified": "2026-11-05",
   "author": {
    "@id": "https://recruiting-calendar.vercel.app/#org"
@@ -124,13 +124,13 @@
   ],
   "about": {
    "@type": "Person",
-   "name": "Samantha Pirosko"
+   "name": "Samantha"
   }
  },
  "marpet": {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "How Ali Marpet got to Hobart (Football, D3)",
+  "headline": "How Ali got to a D3 program (Football, D3)",
   "dateModified": "2026-11-05",
   "author": {
    "@id": "https://recruiting-calendar.vercel.app/#org"
@@ -144,13 +144,13 @@
   ],
   "about": {
    "@type": "Person",
-   "name": "Ali Marpet"
+   "name": "Ali"
   }
  },
  "rodenfels": {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "How Annie Rodenfels got to Centre College (Track/XC, D3)",
+  "headline": "How Annie got to a D3 program (Track/XC, D3)",
   "dateModified": "2026-11-05",
   "author": {
    "@id": "https://recruiting-calendar.vercel.app/#org"
@@ -166,13 +166,13 @@
   ],
   "about": {
    "@type": "Person",
-   "name": "Annie Rodenfels"
+   "name": "Annie"
   }
  },
  "perez": {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "How Tori Perez got to Oglethorpe (Lacrosse (goalie), D3)",
+  "headline": "How Tori got to a D3 program (Lacrosse (goalie), D3)",
   "dateModified": "2026-11-05",
   "author": {
    "@id": "https://recruiting-calendar.vercel.app/#org"
@@ -186,13 +186,13 @@
   ],
   "about": {
    "@type": "Person",
-   "name": "Tori Perez"
+   "name": "Tori"
   }
  },
  "coward": {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "How Cedric Coward got to Willamette (D3), later D1 transfers (Basketball, D3 -> D1)",
+  "headline": "How Cedric got to a D3 school (D3), later D1 transfers (Basketball, D3 -> D1)",
   "dateModified": "2026-11-05",
   "author": {
    "@id": "https://recruiting-calendar.vercel.app/#org"
@@ -206,13 +206,13 @@
   ],
   "about": {
    "@type": "Person",
-   "name": "Cedric Coward"
+   "name": "Cedric"
   }
  },
  "rodriguez": {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "How Cristelle Rodriguez got to Doane University (NE) (Wrestling, NAIA)",
+  "headline": "How Cristelle got to an NAIA program University (NE) (Wrestling, NAIA)",
   "dateModified": "2026-11-05",
   "author": {
    "@id": "https://recruiting-calendar.vercel.app/#org"
@@ -228,13 +228,13 @@
   ],
   "about": {
    "@type": "Person",
-   "name": "Cristelle Rodriguez"
+   "name": "Cristelle"
   }
  },
  "butler": {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "How Jimmy Butler got to Tyler JC then Marquette (Basketball, JUCO -> D1)",
+  "headline": "How Jimmy got to a JUCO program, then a D1 school (Basketball, JUCO -> D1)",
   "dateModified": "2026-11-05",
   "author": {
    "@id": "https://recruiting-calendar.vercel.app/#org"
@@ -249,7 +249,7 @@
   ],
   "about": {
    "@type": "Person",
-   "name": "Jimmy Butler"
+   "name": "Jimmy"
   }
  },
  "composite-swim": {

@@ -121,7 +121,7 @@
     var list = D.ratios.filter(function (r) { return s === 'all' || r.sport === s; });
     var max = Math.max.apply(null, D.ratios.map(function (r) { return r[lvl]; }));
     $('b4bars').innerHTML = list.map(function (r) {
-      return '<div><strong>' + esc(r.sport) + '</strong> · ' + esc(names[lvl]) + ': <span class="riq-tag mono">' + r[lvl].toFixed(1) + '% of HS participants appear on an NCAA roster in the same year</span>' +
+      return '<div><strong>' + esc(r.sport) + '</strong> · ' + esc(names[lvl]) + ': <span class="riq-tag mono">' + r[lvl].toFixed(1) + '% of high school participants appear on an NCAA roster in the same year</span>' +
         '<div class="riq-bar" role="img" aria-label="' + r[lvl].toFixed(1) + ' percent"><i style="width:' + (r[lvl] / max * 100).toFixed(1) + '%"></i></div></div>';
     }).join('');
   }

@@ -16,17 +16,17 @@ Method note: the bxskill gateway tools (bx_bias_audit / bx_falsify) were not loa
 |---|---|---|
 | Renfrow | SURVIVES | 3 independent outlets. Beat 4 rule is current; recruit year (c.2013) precedes the current rule, stated as rule then / rule now. |
 | Groenewegen | SURVIVES (narrow) | Recruiting path single-source (gophersports 2015, attributed in copy); bio facts double-sourced (Softball Canada, COC). |
-| Lowe | SURVIVES | HS corrected to La Costa Canyon (W1 "San Diego" was imprecise). 4 sources incl. UCLA, ESPN, USA Volleyball. |
+| Lowe | SURVIVES | high school corrected to La Costa Canyon (W1 "San Diego" was imprecise). 4 sources incl. UCLA, ESPN, USA Volleyball. |
 | Pichardo | SURVIVES (narrow) | SI + one profile; national-team claim rests on the profile site. Recommend a USA Baseball roster link. |
 | White | SURVIVES | 4 sources. |
 | Pirosko | SURVIVES (narrow) | Second source added (Gannon signing release 2018-05-02). Recruiting process not sourced; beat 2-3 say so. |
-| Marpet | SURVIVES after correction | W1 HS "Hackley" was WRONG; Hastings High School (NY Post, Wikipedia). "small public school" softened to "small school" (public status not sourced). |
+| Marpet | SURVIVES after correction | W1 high school "Hackley" was WRONG; Hastings High School (NY Post, Wikipedia). "small public school" softened to "small school" (public status not sourced). |
 | Rodenfels | SURVIVES | 3 sources. |
 | Perez | SURVIVES (narrow) | No independent 2nd source (Oglethorpe page is a repost). School stats PDF confirms roster/goalie only. |
 | Coward | SURVIVES | Flag resolved: Willamette -> Eastern Washington -> Washington State, 5 sources. |
 | Rodriguez | HOLD | Facts survive (3 sources) but beat 4 has no cited NAIA rule in site/data.js. Cannot ship until a NAIA bylaw row is added. |
 | Butler | SURVIVES | NFHS + Marquette. Beat 4 uses D1 core-course rule (general, applies to D1 entry) with note that JUCO transfer rules are not covered. Weakest rule fit of the set. |
-| Wondolowski (NEW, soccer, real D2) | SURVIVES | NCAA.com + De La Salle alumni profile. HS city stated only as California (sources conflict-free but city not stated). |
+| Wondolowski (NEW, soccer, real D2) | SURVIVES | NCAA.com + De La Salle alumni profile. high school city stated only as California (sources conflict-free but city not stated). |
 | Composite "Maya" | SURVIVES as composite | Labeled in hook and on every image; sources are patterns, outcome marked illustrative. |
 
 ## QA checklist (SCRIPT-FRAMEWORK)

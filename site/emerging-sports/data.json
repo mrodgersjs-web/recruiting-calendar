@@ -70,7 +70,7 @@
         },
         "naia": {
           "status": "NAIA championship sport",
-          "detail": "The NAIA first held a women's wrestling invitational in 2018 and adopted it as its 28th championship sport in 2022. NAIA eligibility and recruiting rules sit in NAIA Bylaws Article V Section C (2026-27 NAIA Official Handbook). Cristelle Rodriguez became Doane's first NAIA champion in 2024.",
+          "detail": "The NAIA first held a women's wrestling invitational in 2018 and adopted it as its 28th championship sport in 2022. NAIA eligibility and recruiting rules sit in NAIA Bylaws Article V Section C (2026-27 NAIA Official Handbook). Cristelle became an NAIA program's first NAIA champion in 2024.",
           "url": "https://www.naia.org/news/insights/the-first-association-to-recognize-womens-wrestling"
         },
         "njcaa": {
@@ -79,7 +79,7 @@
           "url": "https://nwcaonline.com/sports/2023/4/3/womens-wrestling-facts-resources.aspx"
         }
       },
-      "story": "/story/rodriguez"
+      "story": "/story/cristelle"
     },
     {
       "id": "boys-volleyball",
@@ -116,10 +116,10 @@
   "avca_programs_url": "https://www.avca.org/resource/collegiate-mens-programs-list-map/",
   "links": {
     "stories": [
-      {"href": "/story/rodriguez", "label": "Cristelle Rodriguez: NAIA women's wrestling at Doane", "kind": "real"},
+      {"href": "/story/cristelle", "label": "Cristelle: NAIA women's wrestling at an NAIA program", "kind": "real"},
       {"href": "/story/composite-volleyball", "label": "Ava (composite): late specializer, close-to-home D2 volleyball", "kind": "composite"},
       {"href": "/story/composite-wrestling", "label": "Tyler (composite): stepped away, came back, D3 wrestling", "kind": "composite"},
-      {"href": "/story/perez", "label": "Tori Perez: lacrosse goalie who started in 8th grade, D3 Oglethorpe", "kind": "real"}
+      {"href": "/story/tori", "label": "Tori: lacrosse goalie who started in 8th grade, D3 a D3 program", "kind": "real"}
     ],
     "tools": [
       {"href": "/access", "label": "Access tools: contact kit and worksheets"},

@@ -43,7 +43,7 @@
 33. No answer when you asked what you need to improve. Real staffs always have the list.
 34. Multiple coaches giving conflicting timelines. Ask the head coach to name one owner.
 35. You are asked to commit before a visit. Visit first, always.
-36. The NLI is explained as "just a form". It is a contract. Read the exit clause.
+36. The a signed letter of intent is explained as "just a form". It is a contract. Read the exit clause.
 37. "Lots of programs want you" with no names. Ask which programs, and mean it.
 38. Scholarship money described as your parents' tax problem. Ask what the school reports.
 39. Coach disappears after signing day spring. Ask current players about staff stability.

@@ -4,12 +4,12 @@
  "integrity": "Paraphrase only; no quotes; no generated likeness of real athletes; bylaws from site/data.js",
  "stories": [
   {
-   "id": "renfrow",
-   "name": "Hunter Renfrow",
+   "id": "hunter",
+   "name": "Hunter",
    "composite": false,
    "label": null,
    "sport": "Football",
-   "level": "D1 (FBS), preferred walk-on",
+   "level": "D1, preferred walk-on",
    "image_policy": "NO generated likeness; typography/school/sport motifs only",
    "rule": {
     "bylaw": "D1 Bylaws 13.1.3.1, 13.4.1",
@@ -34,31 +34,31 @@
     {
      "n": 1,
      "beat": "hook",
-     "text": "A public high school in Myrtle Beach, South Carolina. Hunter Renfrow played quarterback at Socastee and weighed about 150 pounds, according to NCAA.com. That is not the frame most people picture for a college receiver. He was a real player at a real school, but nothing about his size said big-time college football. Plenty of families are standing exactly here: a good high school athlete who does not look like the recruiting photos.",
+     "text": "A public high school in Myrtle Beach, South Carolina. Hunter played quarterback at a suburban high school and weighed about 150 pounds, according to NCAA.com. That is not the frame most people picture for a college receiver. He was a real player at a real school, but nothing about his size said big-time college football. Plenty of families are standing exactly here: a good high school athlete who does not look like the recruiting photos.",
      "words": 73
     },
     {
      "n": 2,
      "beat": "stakes",
-     "text": "The question in the Renfrow house was the one many families face. Appalachian State offered a scholarship, NCAA.com reported. Clemson, the bigger program, offered only a preferred walk-on spot, which means a roster place with no athletic money attached. So the family had to weigh guaranteed aid against a longer shot at a different school. There was no right answer printed anywhere, and no way to know how it would turn out.",
+     "text": "The question in the Hunter house was the one many families face. a D1 program that offered aid offered a scholarship, NCAA.com reported. a Power 4 program, the bigger program, offered only a preferred walk-on spot, which means a roster place with no athletic money attached. So the family had to weigh guaranteed aid against a longer shot at a different school. There was no right answer printed anywhere, and no way to know how it would turn out.",
      "words": 72
     },
     {
      "n": 3,
      "beat": "turning_point_1",
-     "text": "Renfrow chose the preferred walk-on spot at Clemson over the scholarship elsewhere. Then the work changed. Reporting from the Bend Bulletin says he moved from quarterback to receiver, added about 30 pounds, and raised his lifting numbers sharply over the next seasons. That was a choice, not luck, followed by years of physical work. A walk-on spot is a starting line, not a promise.",
+     "text": "Hunter chose the preferred walk-on spot at a Power 4 program over the scholarship elsewhere. Then the work changed. Reporting from the Bend Bulletin says he moved from quarterback to receiver, added about 30 pounds, and raised his lifting numbers sharply over the next seasons. That was a choice, not luck, followed by years of physical work. A walk-on spot is a starting line, not a promise.",
      "words": 64
     },
     {
      "n": 4,
      "beat": "rule",
-     "text": "The rule that mattered. D1 football: coaches may start calling, texting and emailing June 15 after sophomore year. Rule then, rule now: Renfrow was recruited around 2013, before the current June 15 contact date existed in this form. The rule did not cause this outcome and guarantees nothing. It is a date your family can check yourself, at the source below, before your athlete messages a coach.",
+     "text": "The rule that mattered. D1 football: coaches may start calling, texting and emailing June 15 after sophomore year. Rule then, rule now: Hunter was recruited around 2013, before the current June 15 contact date existed in this form. The rule did not cause this outcome and guarantees nothing. It is a date your family can check yourself, at the source below, before your athlete messages a coach.",
      "words": 67
     },
     {
      "n": 5,
      "beat": "fit_decision",
-     "text": "Before the 2016 season Clemson put him on scholarship, Sports Illustrated reported. In January 2017 he caught the winning touchdown with one second left in the national title game. Treat that ending as rare, not typical. The fit decision that matters for your family happened years earlier: a roster spot at a chosen school versus aid at another. Both paths were real destinations. Appalachian State would not have been a consolation; it was a different, equally legitimate plan.",
+     "text": "Before the 2016 season a Power 4 program put him on scholarship, Sports Illustrated reported. In January 2017 he caught the winning touchdown with one second left in the national title game. Treat that ending as rare, not typical. The fit decision that matters for your family happened years earlier: a roster spot at a chosen school versus aid at another. Both paths were real destinations. a D1 program that offered aid would not have been a consolation; it was a different, equally legitimate plan.",
      "words": 78
     },
     {
@@ -95,15 +95,15 @@
     }
    ],
    "narration": {
-    "text": "A public high school in Myrtle Beach, South Carolina. Hunter Renfrow played quarterback at Socastee and weighed about 150 pounds, according to NCAA.com. The question in the Renfrow house was the one many families face. Appalachian State offered a scholarship, NCAA.com reported. Renfrow chose the preferred walk-on spot at Clemson over the scholarship elsewhere. Then the work changed. One rule mattered here: D1 football coaches may start calling, texting and emailing June 15 after sophomore year. Before the 2016 season Clemson put him on scholarship, Sports Illustrated reported. In January 2017 he caught the winning touchdown with one second left in the national title game. This is one path, not a formula, and no playbook caused it. If you want the steps from this story as tools your athlete can run, they're below.",
+    "text": "A public high school in Myrtle Beach, South Carolina. Hunter played quarterback at a suburban high school and weighed about 150 pounds, according to NCAA.com. The question in the Hunter house was the one many families face. a D1 program that offered aid offered a scholarship, NCAA.com reported. Hunter chose the preferred walk-on spot at a Power 4 program over the scholarship elsewhere. Then the work changed. One rule mattered here: D1 football coaches may start calling, texting and emailing June 15 after sophomore year. Before the 2016 season a Power 4 program put him on scholarship, Sports Illustrated reported. In January 2017 he caught the winning touchdown with one second left in the national title game. This is one path, not a formula, and no playbook caused it. If you want the steps from this story as tools your athlete can run, they're below.",
     "words": 133,
     "est_seconds": 53
    },
    "qa_issues": []
   },
   {
-   "id": "groenewegen",
-   "name": "Sara Groenewegen",
+   "id": "sara",
+   "name": "Sara",
    "composite": false,
    "label": null,
    "sport": "Softball",
@@ -132,19 +132,19 @@
     {
      "n": 1,
      "beat": "hook",
-     "text": "A softball pitcher from Surrey, British Columbia, who grew up playing minor softball with the White Rock Renegades, according to Softball Canada. That is not a recruiting hotbed for American college softball. Her club team was the Washington Sidewinders, across the border. If your athlete plays somewhere coaches rarely travel, this is the starting point you recognize: real talent, in a place that is easy for college programs to overlook.",
+     "text": "A softball pitcher from Surrey, British Columbia, who grew up playing minor softball with the Derrick Rock Renegades, according to Softball Canada. That is not a recruiting hotbed for American college softball. Her club team was the Washington Sidewinders, across the border. If your athlete plays somewhere coaches rarely travel, this is the starting point you recognize: real talent, in a place that is easy for college programs to overlook.",
      "words": 70
     },
     {
      "n": 2,
      "beat": "stakes",
-     "text": "In a 2015 Minnesota athletics feature, Groenewegen described herself as not highly recruited, with only a couple of schools showing serious interest. That is the uncertainty many families live with. Is a small amount of interest a sign of the right level, or a sign of the wrong events? Should you widen the list, travel more, or wait? Nobody hands you that answer, and the feature is our only source for this part of her path.",
+     "text": "In a 2015 Minnesota athletics feature, Sara described herself as not highly recruited, with only a couple of schools showing serious interest. That is the uncertainty many families live with. Is a small amount of interest a sign of the right level, or a sign of the wrong events? Should you widen the list, travel more, or wait? Nobody hands you that answer, and the feature is our only source for this part of her path.",
      "words": 76
     },
     {
      "n": 3,
      "beat": "turning_point_1",
-     "text": "According to the same Minnesota feature, head coach Jessica Allister first saw her pitch at club tournaments in Seattle and Portland, and an assistant coach kept emailing. Groenewegen agreed to visit a school she says she did not know much about, felt at home, and committed. The choice that mattered here was saying yes to a visit outside her own geography. Her family did not need every school; they needed the right events and an open mind.",
+     "text": "According to the same Minnesota feature, head the head coach first saw her pitch at club tournaments outside the usual recruiting map, and an assistant coach kept emailing. Sara agreed to visit a school she says she did not know much about, felt at home, and committed. The choice that mattered here was saying yes to a visit outside her own geography. Her family did not need every school; they needed the right events and an open mind.",
      "words": 77
     },
     {
@@ -193,15 +193,15 @@
     }
    ],
    "narration": {
-    "text": "A softball pitcher from Surrey, British Columbia, who grew up playing minor softball with the White Rock Renegades, according to Softball Canada. That is not a recruiting hotbed for American college softball. In a 2015 Minnesota athletics feature, Groenewegen described herself as not highly recruited, with only a couple of schools showing serious interest. That is the uncertainty many families live with. According to the same Minnesota feature, head coach Jessica Allister first saw her pitch at club tournaments in Seattle and Portland, and an assistant coach kept emailing. Groenewegen agreed to visit a school she says she did not know much about, felt at home, and committed. One rule mattered here: Division I no official visit without an NCAA Eligibility Center certification account ($110 domestic, fee waivers possible). She pitched for Minnesota from 2014 to 2017 and was a three-time All-American, per Softball Canada and the Canadian Olympic Committee. The fit factor, as the Minnesota feature tells it, was feeling at home on the visit. This is one path, not a formula, and no playbook caused it. If you want the steps from this story as tools your athlete can run, they're below.",
+    "text": "A softball pitcher from Surrey, British Columbia, who grew up playing minor softball with the Derrick Rock Renegades, according to Softball Canada. That is not a recruiting hotbed for American college softball. In a 2015 Minnesota athletics feature, Sara described herself as not highly recruited, with only a couple of schools showing serious interest. That is the uncertainty many families live with. According to the same Minnesota feature, head the head coach first saw her pitch at club tournaments outside the usual recruiting map, and an assistant coach kept emailing. Sara agreed to visit a school she says she did not know much about, felt at home, and committed. One rule mattered here: Division I no official visit without an NCAA Eligibility Center certification account ($110 domestic, fee waivers possible). She pitched for Minnesota from 2014 to 2017 and was a three-time All-American, per Softball Canada and the Canadian Olympic Committee. The fit factor, as the Minnesota feature tells it, was feeling at home on the visit. This is one path, not a formula, and no playbook caused it. If you want the steps from this story as tools your athlete can run, they're below.",
     "words": 194,
     "est_seconds": 78
    },
    "qa_issues": []
   },
   {
-   "id": "lowe",
-   "name": "Karsta Lowe",
+   "id": "karsta",
+   "name": "Karsta",
    "composite": false,
    "label": null,
    "sport": "Volleyball",
@@ -234,31 +234,31 @@
     {
      "n": 1,
      "beat": "hook",
-     "text": "A two-sport athlete at La Costa Canyon High School in Carlsbad, California, from Rancho Santa Fe, per USA Volleyball. Karsta Lowe played tennis and volleyball until her sophomore year, the Daily Bruin reported, so she specialized later than many of her peers. In a sport known for early recruiting, that put her behind the usual timeline. Families with a multi-sport kid often wonder whether that late start has already closed the door.",
+     "text": "A two-sport athlete at a large high school High School in Carlsbad, California, from Rancho Santa Fe, per USA Volleyball. Karsta played tennis and volleyball until her sophomore year, the Daily Bruin reported, so she specialized later than many of her peers. In a sport known for early recruiting, that put her behind the usual timeline. Families with a multi-sport kid often wonder whether that late start has already closed the door.",
      "words": 72
     },
     {
      "n": 2,
      "beat": "stakes",
-     "text": "The Daily Bruin reported that while many volleyball players are recruited heavily as sophomores and juniors, only a handful of East Coast programs offered Lowe a scholarship. She did not feel comfortable going that far from home. So the real question became money far away versus no money close by. That trade-off between aid and fit is one of the hardest calls a family makes, and there is no formula that settles it for you.",
+     "text": "The Daily Bruin reported that while many volleyball players are recruited heavily as sophomores and juniors, only a handful of East Coast programs offered Karsta a scholarship. She did not feel comfortable going that far from home. So the real question became money far away versus no money close by. That trade-off between aid and fit is one of the hardest calls a family makes, and there is no formula that settles it for you.",
      "words": 75
     },
     {
      "n": 3,
      "beat": "turning_point_1",
-     "text": "Lowe committed in the spring of her junior year, she told UCLA's athletics site, and the Daily Bruin reported she chose to walk on at UCLA with no scholarship available. That was a deliberate choice: fit and closeness to home over guaranteed aid. It came with a real cost, and the family accepted it knowingly. A walk-on spot at a program you want is a legitimate option, as long as you ask hard questions first.",
+     "text": "Karsta committed in the spring of her junior year, she told a D1 program's athletics site, and the Daily Bruin reported she chose to walk on at a D1 program with no scholarship available. That was a deliberate choice: fit and closeness to home over guaranteed aid. It came with a real cost, and the family accepted it knowingly. A walk-on spot at a program you want is a legitimate option, as long as you ask hard questions first.",
      "words": 75
     },
     {
      "n": 4,
      "beat": "rule",
-     "text": "The rule that mattered. Division I: no official visit without an NCAA Eligibility Center certification account ($110 domestic, fee waivers possible). The free Profile Page is not enough. Rule then, rule now: Lowe committed in 2010; early-commit rules in volleyball have changed since. Use your class-year calendar. The rule did not cause this outcome and guarantees nothing. It is a date your family can check yourself, at the source below, before your athlete messages a coach.",
+     "text": "The rule that mattered. Division I: no official visit without an NCAA Eligibility Center certification account ($110 domestic, fee waivers possible). The free Profile Page is not enough. Rule then, rule now: Karsta committed in 2010; early-commit rules in volleyball have changed since. Use your class-year calendar. The rule did not cause this outcome and guarantees nothing. It is a date your family can check yourself, at the source below, before your athlete messages a coach.",
      "words": 76
     },
     {
      "n": 5,
      "beat": "fit_decision",
-     "text": "Lowe became one of UCLA's top players, and ESPN reported her coach later awarded her a scholarship. She was a first-team All-American in 2014. That outcome is not the lesson. The lesson is the fit decision: she weighed distance and comfort as seriously as money. East Coast scholarship programs were not a lesser choice; they were simply not her fit. Every level and every school on your list can be the right destination.",
+     "text": "Karsta became one of a D1 program's top players, and ESPN reported her coach later awarded her a scholarship. She was a first-team All-American in 2014. That outcome is not the lesson. The lesson is the fit decision: she weighed distance and comfort as seriously as money. East Coast scholarship programs were not a lesser choice; they were simply not her fit. Every level and every school on your list can be the right destination.",
      "words": 73
     },
     {
@@ -295,15 +295,15 @@
     }
    ],
    "narration": {
-    "text": "A two-sport athlete at La Costa Canyon High School in Carlsbad, California, from Rancho Santa Fe, per USA Volleyball. Karsta Lowe played tennis and volleyball until her sophomore year, the Daily Bruin reported, so she specialized later than many of her peers. The Daily Bruin reported that while many volleyball players are recruited heavily as sophomores and juniors, only a handful of East Coast programs offered Lowe a scholarship. She did not feel comfortable going that far from home. Lowe committed in the spring of her junior year, she told UCLA's athletics site, and the Daily Bruin reported she chose to walk on at UCLA with no scholarship available. That was a deliberate choice: fit and closeness to home over guaranteed aid. One rule mattered here: Division I no official visit without an NCAA Eligibility Center certification account ($110 domestic, fee waivers possible). Lowe became one of UCLA's top players, and ESPN reported her coach later awarded her a scholarship. She was a first-team All-American in 2014. This is one path, not a formula, and no playbook caused it. If you want the steps from this story as tools your athlete can run, they're below.",
+    "text": "A two-sport athlete at a large high school High School in Carlsbad, California, from Rancho Santa Fe, per USA Volleyball. Karsta played tennis and volleyball until her sophomore year, the Daily Bruin reported, so she specialized later than many of her peers. The Daily Bruin reported that while many volleyball players are recruited heavily as sophomores and juniors, only a handful of East Coast programs offered Karsta a scholarship. She did not feel comfortable going that far from home. Karsta committed in the spring of her junior year, she told a D1 program's athletics site, and the Daily Bruin reported she chose to walk on at a D1 program with no scholarship available. That was a deliberate choice: fit and closeness to home over guaranteed aid. One rule mattered here: Division I no official visit without an NCAA Eligibility Center certification account ($110 domestic, fee waivers possible). Karsta became one of a D1 program's top players, and ESPN reported her coach later awarded her a scholarship. She was a first-team All-American in 2014. This is one path, not a formula, and no playbook caused it. If you want the steps from this story as tools your athlete can run, they're below.",
     "words": 195,
     "est_seconds": 78
    },
    "qa_issues": []
   },
   {
-   "id": "pichardo",
-   "name": "Olivia Pichardo",
+   "id": "olivia",
+   "name": "Olivia",
    "composite": false,
    "label": null,
    "sport": "Baseball",
@@ -328,7 +328,7 @@
     {
      "n": 1,
      "beat": "hook",
-     "text": "A baseball player from Queens, New York, who played club and travel ball on Long Island and earned a spot on the U.S. Women's National Baseball Team, according to a published profile. Olivia Pichardo was a girl in a sport where almost no college roster had ever included a woman. Her starting point was unusual, but her question was ordinary: how do you get a real look from a college baseball program at all?",
+     "text": "A baseball player from Queens, New York, who played club and travel ball on the national club circuit and earned a spot on the U.S. Women's National Baseball Team, according to a published profile. Olivia was a girl in a sport where almost no college roster had ever included a woman. Her starting point was unusual, but her question was ordinary: how do you get a real look from a college baseball program at all?",
      "words": 74
     },
     {
@@ -340,19 +340,19 @@
     {
      "n": 3,
      "beat": "turning_point_1",
-     "text": "Pichardo chose Brown, Sports Illustrated reported, with no guarantee she would make the team, and went through the program's walk-on tryouts in the fall. That was the decision: pick the school she wanted, then earn the spot through the tryout the program offered. It is a path any academic-first family can ask about directly. Many programs hold walk-on tryouts, and the date, format and roster need are questions your athlete can ask a coach.",
+     "text": "Olivia chose a D1 program, Sports Illustrated reported, with no guarantee she would make the team, and went through the program's walk-on tryouts in the fall. That was the decision: pick the school she wanted, then earn the spot through the tryout the program offered. It is a path any academic-first family can ask about directly. Many programs hold walk-on tryouts, and the date, format and roster need are questions your athlete can ask a coach.",
      "words": 74
     },
     {
      "n": 4,
      "beat": "rule",
-     "text": "The rule that mattered. D1 baseball runs on a later clock: calls, texts and emails open August 1 of junior year, not June 15. Rule then, rule now: Pichardo enrolled in 2022 under the same August 1 baseball contact date that applies now. The rule did not cause this outcome and guarantees nothing. It is a date your family can check yourself, at the source below, before your athlete messages a coach.",
+     "text": "The rule that mattered. D1 baseball runs on a later clock: calls, texts and emails open August 1 of junior year, not June 15. Rule then, rule now: Olivia enrolled in 2022 under the same August 1 baseball contact date that applies now. The rule did not cause this outcome and guarantees nothing. It is a date your family can check yourself, at the source below, before your athlete messages a coach.",
      "words": 72
     },
     {
      "n": 5,
      "beat": "fit_decision",
-     "text": "In November 2022 Brown named her to its varsity roster, making her the first woman on a Division I baseball roster, Sports Illustrated reported. The fit factor was the school itself, chosen first. A tryout spot is a real destination, not a lesser one, and so is a club team or a different school. What matters is that the family knew the trade-off going in: academics first, then a fair chance to compete for a place.",
+     "text": "In November 2022 a D1 program named her to its varsity roster, making her the first woman on a Division I baseball roster, Sports Illustrated reported. The fit factor was the school itself, chosen first. A tryout spot is a real destination, not a lesser one, and so is a club team or a different school. What matters is that the family knew the trade-off going in: academics first, then a fair chance to compete for a place.",
      "words": 76
     },
     {
@@ -383,19 +383,19 @@
     }
    ],
    "narration": {
-    "text": "A baseball player from Queens, New York, who played club and travel ball on Long Island and earned a spot on the U.S. Women's National Baseball Team, according to a published profile. Sports Illustrated reported she had several college options but no guarantee anywhere of a baseball roster spot. For any family, that is the uncertain middle: interest is not a spot, and admission is not a roster place. Pichardo chose Brown, Sports Illustrated reported, with no guarantee she would make the team, and went through the program's walk-on tryouts in the fall. That was the decision: pick the school she wanted, then earn the spot through the tryout the program offered. One rule mattered here: D1 baseball runs on a later clock calls, texts and emails open August 1 of junior year, not June 15. In November 2022 Brown named her to its varsity roster, making her the first woman on a Division I baseball roster, Sports Illustrated reported. The fit factor was the school itself, chosen first. This is one path, not a formula, and no playbook caused it. If you want the steps from this story as tools your athlete can run, they're below.",
+    "text": "A baseball player from Queens, New York, who played club and travel ball on the national club circuit and earned a spot on the U.S. Women's National Baseball Team, according to a published profile. Sports Illustrated reported she had several college options but no guarantee anywhere of a baseball roster spot. For any family, that is the uncertain middle: interest is not a spot, and admission is not a roster place. Olivia chose a D1 program, Sports Illustrated reported, with no guarantee she would make the team, and went through the program's walk-on tryouts in the fall. That was the decision: pick the school she wanted, then earn the spot through the tryout the program offered. One rule mattered here: D1 baseball runs on a later clock calls, texts and emails open August 1 of junior year, not June 15. In November 2022 a D1 program named her to its varsity roster, making her the first woman on a Division I baseball roster, Sports Illustrated reported. The fit factor was the school itself, chosen first. This is one path, not a formula, and no playbook caused it. If you want the steps from this story as tools your athlete can run, they're below.",
     "words": 197,
     "est_seconds": 79
    },
    "qa_issues": []
   },
   {
-   "id": "white",
-   "name": "Derrick White",
+   "id": "derrick",
+   "name": "Derrick",
    "composite": false,
    "label": null,
    "sport": "Basketball",
-   "level": "D2 (UCCS), later D1 transfer",
+   "level": "D2 (a D2 school), later D1 transfer",
    "image_policy": "NO generated likeness; typography/school/sport motifs only",
    "rule": {
     "bylaw": "D2 Bylaws 13.1.1.1, 13.3.1.2",
@@ -424,31 +424,31 @@
     {
      "n": 1,
      "beat": "hook",
-     "text": "Legend High School in Parker, Colorado, part of the school's first graduating class. In 2012 Derrick White was a six-foot senior guard with no Division I offers, NBA.com reported. A brand-new school, a modest frame, and no recruiting buzz. If your athlete is good but not on anyone's list senior year, this is the start you recognize, and it is a common one in high school basketball.",
+     "text": "Legend High School in Parker, a D1 school, part of the school's first graduating class. In 2012 Derrick was a six-foot senior guard with no Division I offers, NBA.com reported. A brand-new school, a modest frame, and no recruiting buzz. If your athlete is good but not on anyone's list senior year, this is the start you recognize, and it is a common one in high school basketball.",
      "words": 67
     },
     {
      "n": 2,
      "beat": "stakes",
-     "text": "The question was whether there was any college basketball spot at all. Andscape reported his only full offer was from Gillette College, a junior college in Wyoming. That is the uncertainty so many families feel in senior year: is it too late, is junior college the only door, and how do you even find the coaches who still have room? No guide answers those questions for your specific kid, and the clock keeps moving.",
+     "text": "The question was whether there was any college basketball spot at all. Andscape reported his only full offer was from Gillette College, a JUCO program in another state. That is the uncertainty so many families feel in senior year: is it too late, is junior college the only door, and how do you even find the coaches who still have room? No guide answers those questions for your specific kid, and the clock keeps moving.",
      "words": 74
     },
     {
      "n": 3,
      "beat": "turning_point_1",
-     "text": "His father sent highlight video to roughly 25 junior college and Division II programs, NBA.com reported. That is the decision: widen the list to the levels that still had roster needs, and send film directly. University of Colorado Colorado Springs coach Jeff Culver offered a small housing stipend as a preferred walk-on, Andscape reported, and UCCS says White was the first recruit Culver brought in for a campus visit. Broad, direct outreach created the option.",
+     "text": "His father sent highlight video to roughly 25 junior college and Division II programs, NBA.com reported. That is the decision: widen the list to the levels that still had roster needs, and send film directly. University of a D1 school a D1 school Springs coach Jeff Culver offered a small housing stipend as a preferred walk-on, Andscape reported, and a D2 school says Derrick was the first recruit Culver brought in for a campus visit. Broad, direct outreach created the option.",
      "words": 75
     },
     {
      "n": 4,
      "beat": "rule",
-     "text": "The rule that mattered. Division II: calls, texts and emails are allowed at any time. In-person contact and paid official visits open June 15 after sophomore year. Rule then, rule now: White was recruited in 2012; the D2 rule shown is current. The rule did not cause this outcome and guarantees nothing. It is a date your family can check yourself, at the source below, before your athlete messages a coach.",
+     "text": "The rule that mattered. Division II: calls, texts and emails are allowed at any time. In-person contact and paid official visits open June 15 after sophomore year. Rule then, rule now: Derrick was recruited in 2012; the D2 rule shown is current. The rule did not cause this outcome and guarantees nothing. It is a date your family can check yourself, at the source below, before your athlete messages a coach.",
      "words": 71
     },
     {
      "n": 5,
      "beat": "fit_decision",
-     "text": "White chose UCCS, a Division II program close to home with a coach who wanted him. He became a Division II All-American, then transferred to Colorado and led the Buffaloes in scoring in 2016-17, per Colorado's athletics site. The fit factor was a coach who believed in him and a place to play. Division II was a destination with real basketball, not a waiting room for something else, and the decision held up on its own.",
+     "text": "Derrick chose a D2 school, a Division II program close to home with a coach who wanted him. He became a Division II All-American, then transferred to a D1 school and led the Buffaloes in scoring in 2016-17, per a D1 school's athletics site. The fit factor was a coach who believed in him and a place to play. Division II was a destination with real basketball, not a waiting room for something else, and the decision held up on its own.",
      "words": 76
     },
     {
@@ -485,15 +485,15 @@
     }
    ],
    "narration": {
-    "text": "Legend High School in Parker, Colorado, part of the school's first graduating class. In 2012 Derrick White was a six-foot senior guard with no Division I offers, NBA.com reported. The question was whether there was any college basketball spot at all. Andscape reported his only full offer was from Gillette College, a junior college in Wyoming. His father sent highlight video to roughly 25 junior college and Division II programs, NBA.com reported. That is the decision: widen the list to the levels that still had roster needs, and send film directly. One rule mattered here: Division II calls, texts and emails are allowed at any time. White chose UCCS, a Division II program close to home with a coach who wanted him. He became a Division II All-American, then transferred to Colorado and led the Buffaloes in scoring in 2016-17, per Colorado's athletics site. This is one path, not a formula, and no playbook caused it. If you want the steps from this story as tools your athlete can run, they're below.",
+    "text": "Legend High School in Parker, a D1 school, part of the school's first graduating class. In 2012 Derrick was a six-foot senior guard with no Division I offers, NBA.com reported. The question was whether there was any college basketball spot at all. Andscape reported his only full offer was from Gillette College, a JUCO program in another state. His father sent highlight video to roughly 25 junior college and Division II programs, NBA.com reported. That is the decision: widen the list to the levels that still had roster needs, and send film directly. One rule mattered here: Division II calls, texts and emails are allowed at any time. Derrick chose a D2 school, a Division II program close to home with a coach who wanted him. He became a Division II All-American, then transferred to a D1 school and led the Buffaloes in scoring in 2016-17, per a D1 school's athletics site. This is one path, not a formula, and no playbook caused it. If you want the steps from this story as tools your athlete can run, they're below.",
     "words": 172,
     "est_seconds": 69
    },
    "qa_issues": []
   },
   {
-   "id": "pirosko",
-   "name": "Samantha Pirosko",
+   "id": "samantha",
+   "name": "Samantha",
    "composite": false,
    "label": null,
    "sport": "Basketball",
@@ -526,19 +526,19 @@
     {
      "n": 1,
      "beat": "hook",
-     "text": "Eastlake North High School in Eastlake, Ohio. Samantha Pirosko was a five-foot-ten post player, according to Gannon's roster, playing for coach Paul Force. She was a strong local player in Northeast Ohio, not a national recruit. If your athlete is a standout in your league and you wonder what that means for college, this is a familiar place to start, with a solid player and a regional reputation.",
+     "text": "a suburban high school North High School in a suburban high school, Ohio. Samantha was a five-foot-ten post player, according to a D2 program's roster, playing for coach his high school coach. She was a strong local player in Northeast Ohio, not a national recruit. If your athlete is a standout in your league and you wonder what that means for college, this is a familiar place to start, with a solid player and a regional reputation.",
      "words": 68
     },
     {
      "n": 2,
      "beat": "stakes",
-     "text": "For a strong regional player, the real question is level. Is Division I realistic, or is Division II the better fit for playing time, academics, and staying near home? Many families in that position worry that choosing D2 means settling. Our sources do not tell us what other offers Pirosko had or what her family weighed, so we will not guess. What they show is where she signed and what happened next.",
+     "text": "For a strong regional player, the real question is level. Is Division I realistic, or is Division II the better fit for playing time, academics, and staying near home? Many families in that position worry that choosing D2 means settling. Our sources do not tell us what other offers Samantha had or what her family weighed, so we will not guess. What they show is where she signed and what happened next.",
      "words": 72
     },
     {
      "n": 3,
      "beat": "turning_point_1",
-     "text": "In spring 2018, Gannon announced that coach Jim Brunelli had signed Pirosko during the NCAA signing period, Gannon athletics reported. In a 2022 News-Herald story, she credited her high school coach, Paul Force, with building her confidence for the next level. A high school coach who knows your athlete can be a trusted voice in this process. Beyond that, our sources do not describe the choices her family made, so this beat stays short.",
+     "text": "In spring 2018, a D2 program announced that coach the head coach had signed Samantha during the NCAA signing period, a D2 program athletics reported. In a 2022 News-Herald story, she credited her high school coach, his high school coach, with building her confidence for the next level. A high school coach who knows your athlete can be a trusted voice in this process. Beyond that, our sources do not describe the choices her family made, so this beat stays short.",
      "words": 74
     },
     {
@@ -550,7 +550,7 @@
     {
      "n": 5,
      "beat": "fit_decision",
-     "text": "At Gannon, a Division II school in Erie, Pennsylvania, she became the 2023-24 WBCA Division II National Player of the Year and an NCAA Woman of the Year finalist while majoring in health sciences on a physician assistant track, per the WBCA and NCAA. Division II gave her a lead role and a professional degree path together. That is a full destination, not a consolation, and it was a short drive from home.",
+     "text": "At a D2 program, a Division II school in Erie, Pennsylvania, she became the 2023-24 WBCA Division II National Player of the Year and an a national academic and athletic award finalist while majoring in health sciences on a physician assistant track, per the WBCA and NCAA. Division II gave her a lead role and a professional degree path together. That is a full destination, not a consolation, and it was a short drive from home.",
      "words": 73
     },
     {
@@ -581,15 +581,15 @@
     }
    ],
    "narration": {
-    "text": "Eastlake North High School in Eastlake, Ohio. Samantha Pirosko was a five-foot-ten post player, according to Gannon's roster, playing for coach Paul Force. For a strong regional player, the real question is level. Is Division I realistic, or is Division II the better fit for playing time, academics, and staying near home? Many families in that position worry that choosing D2 means settling. In spring 2018, Gannon announced that coach Jim Brunelli had signed Pirosko during the NCAA signing period, Gannon athletics reported. In a 2022 News-Herald story, she credited her high school coach, Paul Force, with building her confidence for the next level. One rule mattered here: Division II calls, texts and emails are allowed at any time. At Gannon, a Division II school in Erie, Pennsylvania, she became the 2023-24 WBCA Division II National Player of the Year and an NCAA Woman of the Year finalist while majoring in health sciences on a physician assistant track, per the WBCA and NCAA. Division II gave her a lead role and a professional degree path together. This is one path, not a formula, and no playbook caused it. If you want the steps from this story as tools your athlete can run, they're below.",
+    "text": "a suburban high school North High School in a suburban high school, Ohio. Samantha was a five-foot-ten post player, according to a D2 program's roster, playing for coach his high school coach. For a strong regional player, the real question is level. Is Division I realistic, or is Division II the better fit for playing time, academics, and staying near home? Many families in that position worry that choosing D2 means settling. In spring 2018, a D2 program announced that coach the head coach had signed Samantha during the NCAA signing period, a D2 program athletics reported. In a 2022 News-Herald story, she credited her high school coach, his high school coach, with building her confidence for the next level. One rule mattered here: Division II calls, texts and emails are allowed at any time. At a D2 program, a Division II school in Erie, Pennsylvania, she became the 2023-24 WBCA Division II National Player of the Year and an a national academic and athletic award finalist while majoring in health sciences on a physician assistant track, per the WBCA and NCAA. Division II gave her a lead role and a professional degree path together. This is one path, not a formula, and no playbook caused it. If you want the steps from this story as tools your athlete can run, they're below.",
     "words": 204,
     "est_seconds": 82
    },
    "qa_issues": []
   },
   {
-   "id": "marpet",
-   "name": "Ali Marpet",
+   "id": "ali",
+   "name": "Ali",
    "composite": false,
    "label": null,
    "sport": "Football",
@@ -622,7 +622,7 @@
     {
      "n": 1,
      "beat": "hook",
-     "text": "Hastings High School in Hastings-on-Hudson, New York, a small school that, by his own account to the Buccaneers, was not heavily recruited in football. Ali Marpet played football and basketball and was about 230 pounds as a senior, an undersized lineman. If your athlete is a good player at a school college coaches rarely visit, this is the start you recognize: talent without a spotlight.",
+     "text": "a suburban high school in in New York, New York, a small school that, by his own account to the Buccaneers, was not heavily recruited in football. Ali played football and basketball and was about 230 pounds as a senior, an undersized lineman. If your athlete is a good player at a school college coaches rarely visit, this is the start you recognize: talent without a spotlight.",
      "words": 65
     },
     {
@@ -634,19 +634,19 @@
     {
      "n": 3,
      "beat": "turning_point_1",
-     "text": "Marpet chose Hobart College, a Division III liberal arts school in Geneva, New York, instead of trying to walk on at an FCS program, he told the New York Post. Hobart's coach told the Buccaneers the pitch included the school's economics program and a possible path toward finance. The choice was deliberate: academics and a real role on the field, at a level that offers no athletic scholarships.",
+     "text": "Ali chose a D3 program College, a Division III liberal arts school in Geneva, New York, instead of trying to walk on at an FCS program, he told the New York Post. a D3 program's coach told the Buccaneers the pitch included the school's economics program and a possible path toward finance. The choice was deliberate: academics and a real role on the field, at a level that offers no athletic scholarships.",
      "words": 68
     },
     {
      "n": 4,
      "beat": "rule",
-     "text": "The rule that mattered. Division III: paid official visits open January 1 of junior year. D3 offers no athletic scholarships; aid is academic and need-based. Rule then, rule now: Marpet enrolled in 2011; the D3 rule shown is current. The rule did not cause this outcome and guarantees nothing. It is a date your family can check yourself, at the source below, before your athlete messages a coach.",
+     "text": "The rule that mattered. Division III: paid official visits open January 1 of junior year. D3 offers no athletic scholarships; aid is academic and need-based. Rule then, rule now: Ali enrolled in 2011; the D3 rule shown is current. The rule did not cause this outcome and guarantees nothing. It is a date your family can check yourself, at the source below, before your athlete messages a coach.",
      "words": 68
     },
     {
      "n": 5,
      "beat": "fit_decision",
-     "text": "Marpet grew, started 37 of 43 games at Hobart, and in 2015 became the highest-drafted Division III player in NFL history, the Buccaneers reported. Treat that ending as extremely rare. The fit decision is the part your family can copy: a school chosen for its academics and a coaching staff that wanted him. Division III was his destination, a real one, not a fallback from somewhere else.",
+     "text": "Ali grew, started 37 of 43 games at a D3 program, and in 2015 became the highest-drafted Division III player in NFL history, the Buccaneers reported. Treat that ending as extremely rare. The fit decision is the part your family can copy: a school chosen for its academics and a coaching staff that wanted him. Division III was his destination, a real one, not a fallback from somewhere else.",
      "words": 67
     },
     {
@@ -683,15 +683,15 @@
     }
    ],
    "narration": {
-    "text": "Hastings High School in Hastings-on-Hudson, New York, a small school that, by his own account to the Buccaneers, was not heavily recruited in football. Ali Marpet played football and basketball and was about 230 pounds as a senior, an undersized lineman. No Division I school offered him a scholarship, the Buccaneers reported. Three FCS programs, Fordham, Marist and Holy Cross, showed interest but offered only a chance to walk on. Marpet chose Hobart College, a Division III liberal arts school in Geneva, New York, instead of trying to walk on at an FCS program, he told the New York Post. Hobart's coach told the Buccaneers the pitch included the school's economics program and a possible path toward finance. One rule mattered here: Division III paid official visits open January 1 of junior year. Marpet grew, started 37 of 43 games at Hobart, and in 2015 became the highest-drafted Division III player in NFL history, the Buccaneers reported. Treat that ending as extremely rare. This is one path, not a formula, and no playbook caused it. If you want the steps from this story as tools your athlete can run, they're below.",
+    "text": "a suburban high school in in New York, New York, a small school that, by his own account to the Buccaneers, was not heavily recruited in football. Ali played football and basketball and was about 230 pounds as a senior, an undersized lineman. No Division I school offered him a scholarship, the Buccaneers reported. Three FCS programs, Fordham, Marist and Holy Cross, showed interest but offered only a chance to walk on. Ali chose a D3 program College, a Division III liberal arts school in Geneva, New York, instead of trying to walk on at an FCS program, he told the New York Post. a D3 program's coach told the Buccaneers the pitch included the school's economics program and a possible path toward finance. One rule mattered here: Division III paid official visits open January 1 of junior year. Ali grew, started 37 of 43 games at a D3 program, and in 2015 became the highest-drafted Division III player in NFL history, the Buccaneers reported. Treat that ending as extremely rare. This is one path, not a formula, and no playbook caused it. If you want the steps from this story as tools your athlete can run, they're below.",
     "words": 191,
     "est_seconds": 76
    },
    "qa_issues": []
   },
   {
-   "id": "rodenfels",
-   "name": "Annie Rodenfels",
+   "id": "annie",
+   "name": "Annie",
    "composite": false,
    "label": null,
    "sport": "Track & Field / Cross Country",
@@ -720,7 +720,7 @@
     {
      "n": 1,
      "beat": "hook",
-     "text": "Dayton Christian School in Ohio. Annie Rodenfels was a soccer player who did not start running until she was 17, she told the Boston Athletic Association. Soccer conflicted with cross country, so she ran only track, and her original plan was a soccer scholarship. If your athlete is committed to one sport and only dabbling in another, this is a start you will recognize from a lot of multi-sport homes.",
+     "text": "a private high school School in Ohio. Annie was a soccer player who did not start running until she was 17, she told the Boston Athletic Association. Soccer conflicted with cross country, so she ran only track, and her original plan was a soccer scholarship. If your athlete is committed to one sport and only dabbling in another, this is a start you will recognize from a lot of multi-sport homes.",
      "words": 70
     },
     {
@@ -732,19 +732,19 @@
     {
      "n": 3,
      "beat": "turning_point_1",
-     "text": "She shifted her college plan from soccer to running, according to the B.A.A. interview. LetsRun reported she arrived at Centre College in Kentucky with little running experience, and that coach Lisa Owens saw potential in her. The decision that mattered was choosing a program with a coach willing to develop a raw athlete, rather than holding out for the sport she had always played. A late switch is a choice, not an accident.",
+     "text": "She shifted her college plan from soccer to running, according to the B.A.A. interview. LetsRun reported she arrived at a D3 program in Kentucky with little running experience, and that her coach saw potential in her. The decision that mattered was choosing a program with a coach willing to develop a raw athlete, rather than holding out for the sport she had always played. A late switch is a choice, not an accident.",
      "words": 73
     },
     {
      "n": 4,
      "beat": "rule",
-     "text": "The rule that mattered. Division III: paid official visits open January 1 of junior year. D3 offers no athletic scholarships; aid is academic and need-based. Rule then, rule now: Rodenfels enrolled around 2014; the D3 rule shown is current. The rule did not cause this outcome and guarantees nothing. It is a date your family can check yourself, at the source below, before your athlete messages a coach.",
+     "text": "The rule that mattered. Division III: paid official visits open January 1 of junior year. D3 offers no athletic scholarships; aid is academic and need-based. Rule then, rule now: Annie enrolled around 2014; the D3 rule shown is current. The rule did not cause this outcome and guarantees nothing. It is a date your family can check yourself, at the source below, before your athlete messages a coach.",
      "words": 68
     },
     {
      "n": 5,
      "beat": "fit_decision",
-     "text": "In May 2018 she won the NCAA Division III steeplechase title, the Southern Athletic Association reported, and LetsRun later followed her rise in road racing. The fit factor was a coach who develops athletes. Division III has no athletic scholarships, so a family weighs academic and need-based aid instead. That made Centre a full destination on its own terms: a school, a coach, and room to grow.",
+     "text": "In May 2018 she won the NCAA Division III steeplechase title, the Southern Athletic Association reported, and LetsRun later followed her rise in road racing. The fit factor was a coach who develops athletes. Division III has no athletic scholarships, so a family weighs academic and need-based aid instead. That made a D3 program a full destination on its own terms: a school, a coach, and room to grow.",
      "words": 67
     },
     {
@@ -781,15 +781,15 @@
     }
    ],
    "narration": {
-    "text": "Dayton Christian School in Ohio. Annie Rodenfels was a soccer player who did not start running until she was 17, she told the Boston Athletic Association. With so little running behind her, the honest question was whether any college running program would take her seriously. Families in that spot often wonder whether a late start means a closed door, or whether a coach might see potential the results do not show yet. She shifted her college plan from soccer to running, according to the B.A.A. interview. One rule mattered here: Division III paid official visits open January 1 of junior year. In May 2018 she won the NCAA Division III steeplechase title, the Southern Athletic Association reported, and LetsRun later followed her rise in road racing. The fit factor was a coach who develops athletes. This is one path, not a formula, and no playbook caused it. If you want the steps from this story as tools your athlete can run, they're below.",
+    "text": "a private high school School in Ohio. Annie was a soccer player who did not start running until she was 17, she told the Boston Athletic Association. With so little running behind her, the honest question was whether any college running program would take her seriously. Families in that spot often wonder whether a late start means a closed door, or whether a coach might see potential the results do not show yet. She shifted her college plan from soccer to running, according to the B.A.A. interview. One rule mattered here: Division III paid official visits open January 1 of junior year. In May 2018 she won the NCAA Division III steeplechase title, the Southern Athletic Association reported, and LetsRun later followed her rise in road racing. The fit factor was a coach who develops athletes. This is one path, not a formula, and no playbook caused it. If you want the steps from this story as tools your athlete can run, they're below.",
     "words": 163,
     "est_seconds": 65
    },
    "qa_issues": []
   },
   {
-   "id": "perez",
-   "name": "Tori Perez",
+   "id": "tori",
+   "name": "Tori",
    "composite": false,
    "label": null,
    "sport": "Lacrosse (goalie)",
@@ -814,7 +814,7 @@
     {
      "n": 1,
      "beat": "hook",
-     "text": "Palm Beach Gardens, Florida, and a soccer background. In eighth grade a friend needed a lacrosse goalie, and Tori Perez agreed to try, according to an NCAA.org feature. She was the first in her family to play college sports. Lacrosse is a sport where many athletes start very young, so a first season in eighth grade is a late entry. Families new to college recruiting will recognize this start.",
+     "text": "Palm Beach Gardens, Florida, and a soccer background. In eighth grade a friend needed a lacrosse goalie, and Tori agreed to try, according to an NCAA.org feature. She was the first in her family to play college sports. Lacrosse is a sport where many athletes start very young, so a first season in eighth grade is a late entry. Families new to college recruiting will recognize this start.",
      "words": 69
     },
     {
@@ -826,19 +826,19 @@
     {
      "n": 3,
      "beat": "turning_point_1",
-     "text": "During her first high school season, Perez set a goal of playing college lacrosse, the NCAA.org feature reports, and by senior year she had committed to Oglethorpe University in Atlanta. The feature says she wanted a big city and valued the team's diversity. That is a choice built on her own criteria. Writing the goal down early and scoring schools on culture and place are both steps any family can take.",
+     "text": "During her first high school season, Tori set a goal of playing college lacrosse, the NCAA.org feature reports, and by senior year she had committed to a D3 program University in Atlanta. The feature says she wanted a big city and valued the team's diversity. That is a choice built on her own criteria. Writing the goal down early and scoring schools on culture and place are both steps any family can take.",
      "words": 71
     },
     {
      "n": 4,
      "beat": "rule",
-     "text": "The rule that mattered. Division III: paid official visits open January 1 of junior year. D3 offers no athletic scholarships; aid is academic and need-based. Rule then, rule now: Perez committed around 2020; the D3 rule shown is current. The rule did not cause this outcome and guarantees nothing. It is a date your family can check yourself, at the source below, before your athlete messages a coach.",
+     "text": "The rule that mattered. Division III: paid official visits open January 1 of junior year. D3 offers no athletic scholarships; aid is academic and need-based. Rule then, rule now: Tori committed around 2020; the D3 rule shown is current. The rule did not cause this outcome and guarantees nothing. It is a date your family can check yourself, at the source below, before your athlete messages a coach.",
      "words": 68
     },
     {
      "n": 5,
      "beat": "fit_decision",
-     "text": "Perez played in goal for Oglethorpe, a Division III program, per the school's season statistics, and graduated in 2025 with a biology degree, the NCAA.org feature reports. She also played for Colombia's national team, representing her Colombian heritage. The fit factors were place, community and academics. Division III gave her all three, which made it a destination she chose rather than a step down from one.",
+     "text": "Tori played in goal for a D3 program, a Division III program, per the school's season statistics, and graduated in 2025 with a biology degree, the NCAA.org feature reports. She also played for Colombia's national team, representing her Colombian heritage. The fit factors were place, community and academics. Division III gave her all three, which made it a destination she chose rather than a step down from one.",
      "words": 66
     },
     {
@@ -869,19 +869,19 @@
     }
    ],
    "narration": {
-    "text": "Palm Beach Gardens, Florida, and a soccer background. In eighth grade a friend needed a lacrosse goalie, and Tori Perez agreed to try, according to an NCAA.org feature. The NCAA.org feature describes her as a first-generation college student. In families like hers, the recruiting process can feel like a language nobody taught you: which levels exist, what aid looks like, and where to even begin. During her first high school season, Perez set a goal of playing college lacrosse, the NCAA.org feature reports, and by senior year she had committed to Oglethorpe University in Atlanta. The feature says she wanted a big city and valued the team's diversity. One rule mattered here: Division III paid official visits open January 1 of junior year. Perez played in goal for Oglethorpe, a Division III program, per the school's season statistics, and graduated in 2025 with a biology degree, the NCAA.org feature reports. She also played for Colombia's national team, representing her Colombian heritage. This is one path, not a formula, and no playbook caused it. If you want the steps from this story as tools your athlete can run, they're below.",
+    "text": "Palm Beach Gardens, Florida, and a soccer background. In eighth grade a friend needed a lacrosse goalie, and Tori agreed to try, according to an NCAA.org feature. The NCAA.org feature describes her as a first-generation college student. In families like hers, the recruiting process can feel like a language nobody taught you: which levels exist, what aid looks like, and where to even begin. During her first high school season, Tori set a goal of playing college lacrosse, the NCAA.org feature reports, and by senior year she had committed to a D3 program University in Atlanta. The feature says she wanted a big city and valued the team's diversity. One rule mattered here: Division III paid official visits open January 1 of junior year. Tori played in goal for a D3 program, a Division III program, per the school's season statistics, and graduated in 2025 with a biology degree, the NCAA.org feature reports. She also played for Colombia's national team, representing her Colombian heritage. This is one path, not a formula, and no playbook caused it. If you want the steps from this story as tools your athlete can run, they're below.",
     "words": 189,
     "est_seconds": 76
    },
    "qa_issues": []
   },
   {
-   "id": "coward",
-   "name": "Cedric Coward",
+   "id": "cedric",
+   "name": "Cedric",
    "composite": false,
    "label": null,
    "sport": "Basketball",
-   "level": "D3 (Willamette), later D1 transfers",
+   "level": "D3 (a D3 school), later D1 transfers",
    "image_policy": "NO generated likeness; typography/school/sport motifs only",
    "rule": {
     "bylaw": "D3 Bylaw 13.6.1.1.1",
@@ -910,31 +910,31 @@
     {
      "n": 1,
      "beat": "hook",
-     "text": "Central High School in Fresno, California. Cedric Coward played basketball there to no great fanfare, NBA.com reported. He came out of high school without Division I offers, according to a D3-focused newsletter and later coverage of his rise. If your athlete is improving but nobody at the top level is calling, this is a start you will recognize from many high school gyms.",
+     "text": "Central High School in Fresno, California. Cedric played basketball there to no great fanfare, NBA.com reported. He came out of high school without Division I offers, according to a D3-focused newsletter and later coverage of his rise. If your athlete is improving but nobody at the top level is calling, this is a start you will recognize from many high school gyms.",
      "words": 63
     },
     {
      "n": 2,
      "beat": "stakes",
-     "text": "The question for a player with no Division I interest is simple: is there a good place to play at all, and what level fits right now? Families often treat Division III as the end of the road. Coward's path asks a different question. Is the best next step the place where he will actually play big minutes and keep developing? Our sources do not describe his family's deliberations, so we will not invent them.",
+     "text": "The question for a player with no Division I interest is simple: is there a good place to play at all, and what level fits right now? Families often treat Division III as the end of the road. Cedric's path asks a different question. Is the best next step the place where he will actually play big minutes and keep developing? Our sources do not describe his family's deliberations, so we will not invent them.",
      "words": 75
     },
     {
      "n": 3,
      "beat": "turning_point_1",
-     "text": "Out of high school in Fresno, Coward decided Willamette University, a Division III school in Salem, Oregon, was the best fit, the Spokesman-Review reported. He averaged 19.5 points and 12 rebounds as a freshman there, per NBA.com and the Statesman Journal. The choice that mattered was a level where he would play right away. Production at that level then gave him options, through his own later decision to transfer.",
+     "text": "Out of high school in Fresno, Cedric decided a D3 school University, a Division III school in Salem, Oregon, was the best fit, the Spokesman-Review reported. He averaged 19.5 points and 12 rebounds as a freshman there, per NBA.com and the Statesman Journal. The choice that mattered was a level where he would play right away. Production at that level then gave him options, through his own later decision to transfer.",
      "words": 69
     },
     {
      "n": 4,
      "beat": "rule",
-     "text": "The rule that mattered. Division III: paid official visits open January 1 of junior year. D3 offers no athletic scholarships; aid is academic and need-based. Rule then, rule now: Coward enrolled in 2021; the D3 rule shown is current. Transfer rules are a separate topic not covered here. The rule did not cause this outcome and guarantees nothing. It is a date your family can check yourself, at the source below, before your athlete messages a coach.",
+     "text": "The rule that mattered. Division III: paid official visits open January 1 of junior year. D3 offers no athletic scholarships; aid is academic and need-based. Rule then, rule now: Cedric enrolled in 2021; the D3 rule shown is current. Transfer rules are a separate topic not covered here. The rule did not cause this outcome and guarantees nothing. It is a date your family can check yourself, at the source below, before your athlete messages a coach.",
      "words": 77
     },
     {
      "n": 5,
      "beat": "fit_decision",
-     "text": "After one season he transferred to Eastern Washington, a Division I program, then to Washington State, per Washington State athletics. In 2025 he was the 11th pick in the NBA Draft, NBA.com reported. That ending is extremely rare. The fit decision worth copying came first: a Division III school where he could play. Willamette was a destination that gave him minutes and growth, not a waiting room for something bigger.",
+     "text": "After one season he transferred to a D1 school, a Division I program, then to another D1 school, per another D1 school athletics. In 2025 he was the 11th pick in the NBA Draft, NBA.com reported. That ending is extremely rare. The fit decision worth copying came first: a Division III school where he could play. a D3 school was a destination that gave him minutes and growth, not a waiting room for something bigger.",
      "words": 70
     },
     {
@@ -965,15 +965,15 @@
     }
    ],
    "narration": {
-    "text": "Central High School in Fresno, California. Cedric Coward played basketball there to no great fanfare, NBA.com reported. The question for a player with no Division I interest is simple: is there a good place to play at all, and what level fits right now? Families often treat Division III as the end of the road. Coward's path asks a different question. Out of high school in Fresno, Coward decided Willamette University, a Division III school in Salem, Oregon, was the best fit, the Spokesman-Review reported. He averaged 19.5 points and 12 rebounds as a freshman there, per NBA.com and the Statesman Journal. One rule mattered here: Division III paid official visits open January 1 of junior year. After one season he transferred to Eastern Washington, a Division I program, then to Washington State, per Washington State athletics. In 2025 he was the 11th pick in the NBA Draft, NBA.com reported. This is one path, not a formula, and no playbook caused it. If you want the steps from this story as tools your athlete can run, they're below.",
+    "text": "Central High School in Fresno, California. Cedric played basketball there to no great fanfare, NBA.com reported. The question for a player with no Division I interest is simple: is there a good place to play at all, and what level fits right now? Families often treat Division III as the end of the road. Cedric's path asks a different question. Out of high school in Fresno, Cedric decided a D3 school University, a Division III school in Salem, Oregon, was the best fit, the Spokesman-Review reported. He averaged 19.5 points and 12 rebounds as a freshman there, per NBA.com and the Statesman Journal. One rule mattered here: Division III paid official visits open January 1 of junior year. After one season he transferred to a D1 school, a Division I program, then to another D1 school, per another D1 school athletics. In 2025 he was the 11th pick in the NBA Draft, NBA.com reported. This is one path, not a formula, and no playbook caused it. If you want the steps from this story as tools your athlete can run, they're below.",
     "words": 178,
     "est_seconds": 71
    },
    "qa_issues": []
   },
   {
-   "id": "rodriguez",
-   "name": "Cristelle Rodriguez",
+   "id": "cristelle",
+   "name": "Cristelle",
    "composite": false,
    "label": null,
    "sport": "Wrestling",
@@ -998,7 +998,7 @@
     {
      "n": 1,
      "beat": "hook",
-     "text": "Clovis High School in Clovis, California, a state with a deep girls wrestling scene. Cristelle Rodriguez was a wrestler there, and during her junior and senior years she stepped away from the sport because of pressure and her mental health, USA Wrestling's TheMat reported. Families who have watched a kid burn out will recognize this start: real ability, and a real need to step back.",
+     "text": "Clovis High School in Clovis, California, a state with a deep girls wrestling scene. Cristelle was a wrestler there, and during her junior and senior years she stepped away from the sport because of pressure and her mental health, USA Wrestling's TheMat reported. Families who have watched a kid burn out will recognize this start: real ability, and a real need to step back.",
      "words": 65
     },
     {
@@ -1010,7 +1010,7 @@
     {
      "n": 3,
      "beat": "turning_point_1",
-     "text": "In August 2021 she joined Doane University's first women's wrestling recruiting class under coach Dana Vote, Doane athletics reported. That was the choice: a brand-new program, in Nebraska, far from California, with a coach building a roster from scratch. New programs need athletes, and a family can look for them on purpose. WIN Magazine reported she rediscovered her love of the sport at the small school.",
+     "text": "In August 2021 she joined an NAIA program University's first women's wrestling recruiting class under coach the new head coach, an NAIA program athletics reported. That was the choice: a brand-new program, in Nebraska, far from California, with a coach building a roster from scratch. New programs need athletes, and a family can look for them on purpose. WIN Magazine reported she rediscovered her love of the sport at the small school.",
      "words": 66
     },
     {
@@ -1022,7 +1022,7 @@
     {
      "n": 5,
      "beat": "fit_decision",
-     "text": "In March 2024 she became Doane's first NAIA national champion, WIN Magazine reported, and in September 2024 she won a U20 world title, per Doane athletics. That ending is rare. The fit factor worth copying is a coach and program that gave her room to return on her own terms. NAIA was her destination, and a strong one, not a fallback from anywhere else.",
+     "text": "In March 2024 she became an NAIA program's first NAIA national champion, WIN Magazine reported, and in September 2024 she won a U20 world title, per an NAIA program athletics. That ending is rare. The fit factor worth copying is a coach and program that gave her room to return on her own terms. NAIA was her destination, and a strong one, not a fallback from anywhere else.",
      "words": 64
     },
     {
@@ -1053,7 +1053,7 @@
     }
    ],
    "narration": {
-    "text": "Clovis High School in Clovis, California, a state with a deep girls wrestling scene. Cristelle Rodriguez was a wrestler there, and during her junior and senior years she stepped away from the sport because of pressure and her mental health, USA Wrestling's TheMat reported. The question after stepping away is whether coming back is even possible, and whether any college program wants an athlete who took time off. Families in that spot worry that a gap means the window has closed. In August 2021 she joined Doane University's first women's wrestling recruiting class under coach Dana Vote, Doane athletics reported. That was the choice: a brand-new program, in Nebraska, far from California, with a coach building a roster from scratch. In March 2024 she became Doane's first NAIA national champion, WIN Magazine reported, and in September 2024 she won a U20 world title, per Doane athletics. That ending is rare. This is one path, not a formula, and no playbook caused it. If you want the steps from this story as tools your athlete can run, they're below.",
+    "text": "Clovis High School in Clovis, California, a state with a deep girls wrestling scene. Cristelle was a wrestler there, and during her junior and senior years she stepped away from the sport because of pressure and her mental health, USA Wrestling's TheMat reported. The question after stepping away is whether coming back is even possible, and whether any college program wants an athlete who took time off. Families in that spot worry that a gap means the window has closed. In August 2021 she joined an NAIA program University's first women's wrestling recruiting class under coach the new head coach, an NAIA program athletics reported. That was the choice: a brand-new program, in Nebraska, far from California, with a coach building a roster from scratch. In March 2024 she became an NAIA program's first NAIA national champion, WIN Magazine reported, and in September 2024 she won a U20 world title, per an NAIA program athletics. That ending is rare. This is one path, not a formula, and no playbook caused it. If you want the steps from this story as tools your athlete can run, they're below.",
     "words": 178,
     "est_seconds": 71
    },
@@ -1062,12 +1062,12 @@
    ]
   },
   {
-   "id": "butler",
-   "name": "Jimmy Butler",
+   "id": "jimmy",
+   "name": "Jimmy",
    "composite": false,
    "label": null,
    "sport": "Basketball",
-   "level": "JUCO (Tyler JC), then D1 Marquette",
+   "level": "JUCO (a JUCO program), then D1 a D1 school",
    "image_policy": "NO generated likeness; typography/school/sport motifs only",
    "rule": {
     "bylaw": "D1 Bylaw 14.3.1.1(b)",
@@ -1088,31 +1088,31 @@
     {
      "n": 1,
      "beat": "hook",
-     "text": "Tomball High School in Tomball, Texas. As a senior in 2007, Jimmy Butler averaged about 19 points a game, but he was not heavily recruited, the National Federation of State High School Associations reported. Good numbers, little attention. If your athlete is producing but the phone is quiet, this is a start you will recognize, and it happens in every sport, every year, in every state.",
+     "text": "a large suburban high school High School in a large suburban high school, Texas. As a senior in 2007, Jimmy averaged about 19 points a game, but he was not heavily recruited, the National Federation of State High School Associations reported. Good numbers, little attention. If your athlete is producing but the phone is quiet, this is a start you will recognize, and it happens in every sport, every year, in every state.",
      "words": 66
     },
     {
      "n": 2,
      "beat": "stakes",
-     "text": "For a productive player with no four-year offers, the question is what comes next: a junior college, a smaller four-year school, or stepping away. Many families see junior college as a detour. Others see it as a second showcase. Our sources do not describe what the Butler family weighed, so we will not invent it. The real question many parents share is simply whether a door is still open.",
+     "text": "For a productive player with no four-year offers, the question is what comes next: a junior college, a smaller four-year school, or stepping away. Many families see junior college as a detour. Others see it as a second showcase. Our sources do not describe what the Jimmy family weighed, so we will not invent it. The real question many parents share is simply whether a door is still open.",
      "words": 69
     },
     {
      "n": 3,
      "beat": "turning_point_1",
-     "text": "Butler went to Tyler Junior College in Texas and, in one season, averaged 18.1 points and earned NJCAA honorable mention All-American honors, Marquette athletics reported. The choice that mattered was using a junior college year to keep playing and keep producing on film. A year of strong results at a level that wanted him gave four-year coaches something new to evaluate. That path is open to many athletes.",
+     "text": "Jimmy went to Tyler Junior College in Texas and, in one season, averaged 18.1 points and earned an all-American mention at the JUCO level honors, a D1 school athletics reported. The choice that mattered was using a junior college year to keep playing and keep producing on film. A year of strong results at a level that wanted him gave four-year coaches something new to evaluate. That path is open to many athletes.",
      "words": 68
     },
     {
      "n": 4,
      "beat": "rule",
-     "text": "The rule that mattered. Division I: finish 10 of your 16 core courses before senior year, 7 of them in English, math and science. Those grades lock. Rule then, rule now: Butler finished high school in 2007. Junior college transfer rules are separate and not covered on this card. The rule did not cause this outcome and guarantees nothing. It is a date your family can check yourself, at the source below, before your athlete messages a coach.",
+     "text": "The rule that mattered. Division I: finish 10 of your 16 core courses before senior year, 7 of them in English, math and science. Those grades lock. Rule then, rule now: Jimmy finished high school in 2007. Junior college transfer rules are separate and not covered on this card. The rule did not cause this outcome and guarantees nothing. It is a date your family can check yourself, at the source below, before your athlete messages a coach.",
      "words": 78
     },
     {
      "n": 5,
      "beat": "fit_decision",
-     "text": "In April 2008 Marquette announced Butler had signed a National Letter of Intent as new coach Buzz Williams' first signee, Marquette athletics reported. A coaching change and an open roster were part of the timing. Junior college was not a consolation for Butler; it was the destination that fit that year, and it led to the next one. A JUCO year is a real path, with its own rules to learn.",
+     "text": "In April 2008 a D1 school announced Jimmy had signed a National Letter of Intent as new coach a new head coach' first signee, a D1 school athletics reported. A coaching change and an open roster were part of the timing. Junior college was not a consolation for Jimmy; it was the destination that fit that year, and it led to the next one. A JUCO year is a real path, with its own rules to learn.",
      "words": 71
     },
     {
@@ -1149,19 +1149,19 @@
     }
    ],
    "narration": {
-    "text": "Tomball High School in Tomball, Texas. As a senior in 2007, Jimmy Butler averaged about 19 points a game, but he was not heavily recruited, the National Federation of State High School Associations reported. For a productive player with no four-year offers, the question is what comes next: a junior college, a smaller four-year school, or stepping away. Many families see junior college as a detour. Butler went to Tyler Junior College in Texas and, in one season, averaged 18.1 points and earned NJCAA honorable mention All-American honors, Marquette athletics reported. The choice that mattered was using a junior college year to keep playing and keep producing on film. One rule mattered here: Division I finish 10 of your 16 core courses before senior year, 7 of them in English, math and science. In April 2008 Marquette announced Butler had signed a National Letter of Intent as new coach Buzz Williams' first signee, Marquette athletics reported. A coaching change and an open roster were part of the timing. This is one path, not a formula, and no playbook caused it. If you want the steps from this story as tools your athlete can run, they're below.",
+    "text": "a large suburban high school High School in a large suburban high school, Texas. As a senior in 2007, Jimmy averaged about 19 points a game, but he was not heavily recruited, the National Federation of State High School Associations reported. For a productive player with no four-year offers, the question is what comes next: a junior college, a smaller four-year school, or stepping away. Many families see junior college as a detour. Jimmy went to Tyler Junior College in Texas and, in one season, averaged 18.1 points and earned an all-American mention at the JUCO level honors, a D1 school athletics reported. The choice that mattered was using a junior college year to keep playing and keep producing on film. One rule mattered here: Division I finish 10 of your 16 core courses before senior year, 7 of them in English, math and science. In April 2008 a D1 school announced Jimmy had signed a National Letter of Intent as new coach a new head coach' first signee, a D1 school athletics reported. A coaching change and an open roster were part of the timing. This is one path, not a formula, and no playbook caused it. If you want the steps from this story as tools your athlete can run, they're below.",
     "words": 196,
     "est_seconds": 78
    },
    "qa_issues": []
   },
   {
-   "id": "wondolowski",
-   "name": "Chris Wondolowski",
+   "id": "chris",
+   "name": "Chris",
    "composite": false,
    "label": null,
    "sport": "Soccer",
-   "level": "D2 (Chico State)",
+   "level": "D2 (a D2 program)",
    "image_policy": "NO generated likeness; typography/school/sport motifs only",
    "rule": {
     "bylaw": "D2 Bylaws 13.1.1.1, 13.3.1.2",
@@ -1182,31 +1182,31 @@
     {
      "n": 1,
      "beat": "hook",
-     "text": "De La Salle High School in California, a school famous for its football program. Chris Wondolowski, from Danville, played soccer and ran track there, and was named a player of the year for soccer, NCAA.com reported. Yet his high school alumni profile says he was not heavily recruited for soccer. If your athlete is a two-sport standout getting attention for the wrong sport, this start will feel familiar.",
+     "text": "a perennial powerhouse high school High School in California, a school famous for its football program. Chris, from Danville, played soccer and ran track there, and was named a player of the year for soccer, NCAA.com reported. Yet his high school alumni profile says he was not heavily recruited for soccer. If your athlete is a two-sport standout getting attention for the wrong sport, this start will feel familiar.",
      "words": 68
     },
     {
      "n": 2,
      "beat": "stakes",
-     "text": "NCAA.com reported that many Division I schools, including UCLA, were watching him for track and field, not soccer. So the family's question was the one many multi-sport families face: follow the sport getting the attention, or keep chasing the sport he loved most, at whatever level would have him? The sources do not describe the family's private thinking, so this beat stays with that shared question.",
+     "text": "NCAA.com reported that many Division I schools, including a D1 program, were watching him for track and field, not soccer. So the family's question was the one many multi-sport families face: follow the sport getting the attention, or keep chasing the sport he loved most, at whatever level would have him? The sources do not describe the family's private thinking, so this beat stays with that shared question.",
      "words": 66
     },
     {
      "n": 3,
      "beat": "turning_point_1",
-     "text": "Chico State's head coach, Mike O'Malley, saw Wondolowski play at a tournament in San Diego, NCAA.com reported, and the recruiting trip convinced him Chico was home. The choice was to follow soccer to a Division II program where a coach wanted him, instead of the higher-profile track interest. Showing up at tournaments where coaches actually watch, and taking the visit, is a move any soccer family can plan for.",
+     "text": "a D2 program's head coach, Mike O'Malley, saw Chris play at a tournament in San Diego, NCAA.com reported, and the recruiting trip convinced him Chico was home. The choice was to follow soccer to a Division II program where a coach wanted him, instead of the higher-profile track interest. Showing up at tournaments where coaches actually watch, and taking the visit, is a move any soccer family can plan for.",
      "words": 69
     },
     {
      "n": 4,
      "beat": "rule",
-     "text": "The rule that mattered. Division II: calls, texts and emails are allowed at any time. In-person contact and paid official visits open June 15 after sophomore year. Rule then, rule now: Wondolowski enrolled in 2001; the D2 rule shown is current. The rule did not cause this outcome and guarantees nothing. It is a date your family can check yourself, at the source below, before your athlete messages a coach.",
+     "text": "The rule that mattered. Division II: calls, texts and emails are allowed at any time. In-person contact and paid official visits open June 15 after sophomore year. Rule then, rule now: Chris enrolled in 2001; the D2 rule shown is current. The rule did not cause this outcome and guarantees nothing. It is a date your family can check yourself, at the source below, before your athlete messages a coach.",
      "words": 70
     },
     {
      "n": 5,
      "beat": "fit_decision",
-     "text": "At Chico State he scored 39 goals and earned All-American honors, and in 2005 he was taken 41st in the MLS Supplemental Draft, NCAA.com reported. He went on to become MLS's all-time leading scorer. That ending is extremely rare. The fit factor worth copying is a coach who wanted him and room to develop as a late bloomer. Division II was his destination, a strong one, close to home.",
+     "text": "At a D2 program he scored 39 goals and earned All-American honors, and in 2005 he was taken 41st in the MLS Supplemental Draft, NCAA.com reported. He went on to become MLS's all-time leading scorer. That ending is extremely rare. The fit factor worth copying is a coach who wanted him and room to develop as a late bloomer. Division II was his destination, a strong one, close to home.",
      "words": 69
     },
     {
@@ -1243,7 +1243,7 @@
     }
    ],
    "narration": {
-    "text": "De La Salle High School in California, a school famous for its football program. Chris Wondolowski, from Danville, played soccer and ran track there, and was named a player of the year for soccer, NCAA.com reported. Chico State's head coach, Mike O'Malley, saw Wondolowski play at a tournament in San Diego, NCAA.com reported, and the recruiting trip convinced him Chico was home. The choice was to follow soccer to a Division II program where a coach wanted him, instead of the higher-profile track interest. One rule mattered here: Division II calls, texts and emails are allowed at any time. At Chico State he scored 39 goals and earned All-American honors, and in 2005 he was taken 41st in the MLS Supplemental Draft, NCAA.com reported. He went on to become MLS's all-time leading scorer. This is one path, not a formula, and no playbook caused it. If you want the steps from this story as tools your athlete can run, they're below.",
+    "text": "a perennial powerhouse high school High School in California, a school famous for its football program. Chris, from Danville, played soccer and ran track there, and was named a player of the year for soccer, NCAA.com reported. a D2 program's head coach, Mike O'Malley, saw Chris play at a tournament in San Diego, NCAA.com reported, and the recruiting trip convinced him Chico was home. The choice was to follow soccer to a Division II program where a coach wanted him, instead of the higher-profile track interest. One rule mattered here: Division II calls, texts and emails are allowed at any time. At a D2 program he scored 39 goals and earned All-American honors, and in 2005 he was taken 41st in the MLS Supplemental Draft, NCAA.com reported. He went on to become MLS's all-time leading scorer. This is one path, not a formula, and no playbook caused it. If you want the steps from this story as tools your athlete can run, they're below.",
     "words": 161,
     "est_seconds": 64
    },
@@ -1296,7 +1296,7 @@
     {
      "n": 3,
      "beat": "turning_point_1",
-     "text": "In this composite, Maya keeps an updated times sheet and her club coach reaches out to programs for her, a pattern a Wabash College story describes in swim recruiting. Like Derrick White's family in basketball, she sends her information widely to Division II and Division III programs, not only Division I. The choice is to widen the list and let the times speak. These steps are drawn from the sources, and Maya herself is invented.",
+     "text": "In this composite, Maya keeps an updated times sheet and her club coach reaches out to programs for her, a pattern a Wabash College story describes in swim recruiting. Like Derrick's family in basketball, she sends her information widely to Division II and Division III programs, not only Division I. The choice is to widen the list and let the times speak. These steps are drawn from the sources, and Maya herself is invented.",
      "words": 75
     },
     {
@@ -1339,7 +1339,7 @@
     }
    ],
    "narration": {
-    "text": "This is a composite story, built from three real recruiting paths. This is a composite story built from three sourced recruiting paths, not one real person. Maya is a club swimmer at a mid-size public high school. In this composite, Maya keeps an updated times sheet and her club coach reaches out to programs for her, a pattern a Wabash College story describes in swim recruiting. Like Derrick White's family in basketball, she sends her information widely to Division II and Division III programs, not only Division I. One rule mattered here: Division II calls, texts and emails are allowed at any time. In this composite, Maya chooses a Division II program where her times would score in the conference and where the coach shows steady interest. The real-world pattern behind that choice is athletes finding a level where they compete right away. This is one path, not a formula, and no playbook caused it. If you want the steps from this story as tools your athlete can run, they're below.",
+    "text": "This is a composite story, built from three real recruiting paths. This is a composite story built from three sourced recruiting paths, not one real person. Maya is a club swimmer at a mid-size public high school. In this composite, Maya keeps an updated times sheet and her club coach reaches out to programs for her, a pattern a Wabash College story describes in swim recruiting. Like Derrick's family in basketball, she sends her information widely to Division II and Division III programs, not only Division I. One rule mattered here: Division II calls, texts and emails are allowed at any time. In this composite, Maya chooses a Division II program where her times would score in the conference and where the coach shows steady interest. The real-world pattern behind that choice is athletes finding a level where they compete right away. This is one path, not a formula, and no playbook caused it. If you want the steps from this story as tools your athlete can run, they're below.",
     "words": 171,
     "est_seconds": 68
    },

@@ -20,16 +20,16 @@
    "id": "real-renfrow",
    "duration_s": 28,
    "files": [
-    "real-renfrow-1080p.mp4",
-    "real-renfrow-720p.mp4",
-    "real-renfrow-poster.jpg"
+    "real-hunter-1080p.mp4",
+    "real-hunter-720p.mp4",
+    "real-hunter-poster.jpg"
    ],
    "sizes_bytes": {
-    "real-renfrow-1080p.mp4": 372789,
-    "real-renfrow-720p.mp4": 266172
+    "real-hunter-1080p.mp4": 372789,
+    "real-hunter-720p.mp4": 266172
    },
    "type": "real athlete, kinetic typography, no faces",
-   "athlete": "Hunter Renfrow",
+   "athlete": "Hunter",
    "end_card": "non-affiliation text, no logo",
    "source_line_color": "#C8C8C8 on #000 (12.6:1)"
   },
@@ -37,16 +37,16 @@
    "id": "real-groenewegen",
    "duration_s": 23,
    "files": [
-    "real-groenewegen-1080p.mp4",
-    "real-groenewegen-720p.mp4",
-    "real-groenewegen-poster.jpg"
+    "real-sara-1080p.mp4",
+    "real-sara-720p.mp4",
+    "real-sara-poster.jpg"
    ],
    "sizes_bytes": {
-    "real-groenewegen-1080p.mp4": 322080,
-    "real-groenewegen-720p.mp4": 225135
+    "real-sara-1080p.mp4": 322080,
+    "real-sara-720p.mp4": 225135
    },
    "type": "real athlete, kinetic typography, no faces",
-   "athlete": "Sara Groenewegen",
+   "athlete": "Sara",
    "end_card": "non-affiliation text, no logo",
    "source_line_color": "#C8C8C8 on #000 (12.6:1)"
   },
@@ -54,16 +54,16 @@
    "id": "real-lowe",
    "duration_s": 28,
    "files": [
-    "real-lowe-1080p.mp4",
-    "real-lowe-720p.mp4",
-    "real-lowe-poster.jpg"
+    "real-karsta-1080p.mp4",
+    "real-karsta-720p.mp4",
+    "real-karsta-poster.jpg"
    ],
    "sizes_bytes": {
-    "real-lowe-1080p.mp4": 345493,
-    "real-lowe-720p.mp4": 244223
+    "real-karsta-1080p.mp4": 345493,
+    "real-karsta-720p.mp4": 244223
    },
    "type": "real athlete, kinetic typography, no faces",
-   "athlete": "Karsta Lowe",
+   "athlete": "Karsta",
    "end_card": "non-affiliation text, no logo",
    "source_line_color": "#C8C8C8 on #000 (12.6:1)"
   },
@@ -71,16 +71,16 @@
    "id": "real-pichardo",
    "duration_s": 23,
    "files": [
-    "real-pichardo-1080p.mp4",
-    "real-pichardo-720p.mp4",
-    "real-pichardo-poster.jpg"
+    "real-olivia-1080p.mp4",
+    "real-olivia-720p.mp4",
+    "real-olivia-poster.jpg"
    ],
    "sizes_bytes": {
-    "real-pichardo-1080p.mp4": 292683,
-    "real-pichardo-720p.mp4": 201538
+    "real-olivia-1080p.mp4": 292683,
+    "real-olivia-720p.mp4": 201538
    },
    "type": "real athlete, kinetic typography, no faces",
-   "athlete": "Olivia Pichardo",
+   "athlete": "Olivia",
    "end_card": "non-affiliation text, no logo",
    "source_line_color": "#C8C8C8 on #000 (12.6:1)"
   },
@@ -88,16 +88,16 @@
    "id": "real-white",
    "duration_s": 28,
    "files": [
-    "real-white-1080p.mp4",
-    "real-white-720p.mp4",
-    "real-white-poster.jpg"
+    "real-derrick-1080p.mp4",
+    "real-derrick-720p.mp4",
+    "real-derrick-poster.jpg"
    ],
    "sizes_bytes": {
-    "real-white-1080p.mp4": 395541,
-    "real-white-720p.mp4": 278059
+    "real-derrick-1080p.mp4": 395541,
+    "real-derrick-720p.mp4": 278059
    },
    "type": "real athlete, kinetic typography, no faces",
-   "athlete": "Derrick White",
+   "athlete": "Derrick",
    "end_card": "non-affiliation text, no logo",
    "source_line_color": "#C8C8C8 on #000 (12.6:1)"
   },
@@ -105,16 +105,16 @@
    "id": "real-pirosko",
    "duration_s": 23,
    "files": [
-    "real-pirosko-1080p.mp4",
-    "real-pirosko-720p.mp4",
-    "real-pirosko-poster.jpg"
+    "real-samantha-1080p.mp4",
+    "real-samantha-720p.mp4",
+    "real-samantha-poster.jpg"
    ],
    "sizes_bytes": {
-    "real-pirosko-1080p.mp4": 256706,
-    "real-pirosko-720p.mp4": 184913
+    "real-samantha-1080p.mp4": 256706,
+    "real-samantha-720p.mp4": 184913
    },
    "type": "real athlete, kinetic typography, no faces",
-   "athlete": "Samantha Pirosko",
+   "athlete": "Samantha",
    "end_card": "non-affiliation text, no logo",
    "source_line_color": "#C8C8C8 on #000 (12.6:1)"
   },
@@ -122,16 +122,16 @@
    "id": "real-marpet",
    "duration_s": 23,
    "files": [
-    "real-marpet-1080p.mp4",
-    "real-marpet-720p.mp4",
-    "real-marpet-poster.jpg"
+    "real-ali-1080p.mp4",
+    "real-ali-720p.mp4",
+    "real-ali-poster.jpg"
    ],
    "sizes_bytes": {
-    "real-marpet-1080p.mp4": 251676,
-    "real-marpet-720p.mp4": 179115
+    "real-ali-1080p.mp4": 251676,
+    "real-ali-720p.mp4": 179115
    },
    "type": "real athlete, kinetic typography, no faces",
-   "athlete": "Ali Marpet",
+   "athlete": "Ali",
    "end_card": "non-affiliation text, no logo",
    "source_line_color": "#C8C8C8 on #000 (12.6:1)"
   },
@@ -139,16 +139,16 @@
    "id": "real-rodenfels",
    "duration_s": 23,
    "files": [
-    "real-rodenfels-1080p.mp4",
-    "real-rodenfels-720p.mp4",
-    "real-rodenfels-poster.jpg"
+    "real-annie-1080p.mp4",
+    "real-annie-720p.mp4",
+    "real-annie-poster.jpg"
    ],
    "sizes_bytes": {
-    "real-rodenfels-1080p.mp4": 292148,
-    "real-rodenfels-720p.mp4": 201578
+    "real-annie-1080p.mp4": 292148,
+    "real-annie-720p.mp4": 201578
    },
    "type": "real athlete, kinetic typography, no faces",
-   "athlete": "Annie Rodenfels",
+   "athlete": "Annie",
    "end_card": "non-affiliation text, no logo",
    "source_line_color": "#C8C8C8 on #000 (12.6:1)"
   },
@@ -156,16 +156,16 @@
    "id": "real-perez",
    "duration_s": 28,
    "files": [
-    "real-perez-1080p.mp4",
-    "real-perez-720p.mp4",
-    "real-perez-poster.jpg"
+    "real-tori-1080p.mp4",
+    "real-tori-720p.mp4",
+    "real-tori-poster.jpg"
    ],
    "sizes_bytes": {
-    "real-perez-1080p.mp4": 289080,
-    "real-perez-720p.mp4": 200284
+    "real-tori-1080p.mp4": 289080,
+    "real-tori-720p.mp4": 200284
    },
    "type": "real athlete, kinetic typography, no faces",
-   "athlete": "Tori Perez",
+   "athlete": "Tori",
    "end_card": "non-affiliation text, no logo",
    "source_line_color": "#C8C8C8 on #000 (12.6:1)"
   },
@@ -173,16 +173,16 @@
    "id": "real-coward",
    "duration_s": 23,
    "files": [
-    "real-coward-1080p.mp4",
-    "real-coward-720p.mp4",
-    "real-coward-poster.jpg"
+    "real-cedric-1080p.mp4",
+    "real-cedric-720p.mp4",
+    "real-cedric-poster.jpg"
    ],
    "sizes_bytes": {
-    "real-coward-1080p.mp4": 277662,
-    "real-coward-720p.mp4": 190770
+    "real-cedric-1080p.mp4": 277662,
+    "real-cedric-720p.mp4": 190770
    },
    "type": "real athlete, kinetic typography, no faces",
-   "athlete": "Cedric Coward",
+   "athlete": "Cedric",
    "end_card": "non-affiliation text, no logo",
    "source_line_color": "#C8C8C8 on #000 (12.6:1)"
   },
@@ -190,16 +190,16 @@
    "id": "real-rodriguez",
    "duration_s": 28,
    "files": [
-    "real-rodriguez-1080p.mp4",
-    "real-rodriguez-720p.mp4",
-    "real-rodriguez-poster.jpg"
+    "real-cristelle-1080p.mp4",
+    "real-cristelle-720p.mp4",
+    "real-cristelle-poster.jpg"
    ],
    "sizes_bytes": {
-    "real-rodriguez-1080p.mp4": 311829,
-    "real-rodriguez-720p.mp4": 212863
+    "real-cristelle-1080p.mp4": 311829,
+    "real-cristelle-720p.mp4": 212863
    },
    "type": "real athlete, kinetic typography, no faces",
-   "athlete": "Cristelle Rodriguez",
+   "athlete": "Cristelle",
    "end_card": "non-affiliation text, no logo",
    "source_line_color": "#C8C8C8 on #000 (12.6:1)"
   },
@@ -207,16 +207,16 @@
    "id": "real-butler",
    "duration_s": 23,
    "files": [
-    "real-butler-1080p.mp4",
-    "real-butler-720p.mp4",
-    "real-butler-poster.jpg"
+    "real-jimmy-1080p.mp4",
+    "real-jimmy-720p.mp4",
+    "real-jimmy-poster.jpg"
    ],
    "sizes_bytes": {
-    "real-butler-1080p.mp4": 264914,
-    "real-butler-720p.mp4": 186869
+    "real-jimmy-1080p.mp4": 264914,
+    "real-jimmy-720p.mp4": 186869
    },
    "type": "real athlete, kinetic typography, no faces",
-   "athlete": "Jimmy Butler",
+   "athlete": "Jimmy",
    "end_card": "non-affiliation text, no logo",
    "source_line_color": "#C8C8C8 on #000 (12.6:1)"
   },

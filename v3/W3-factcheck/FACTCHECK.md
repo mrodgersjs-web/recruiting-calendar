@@ -7,7 +7,7 @@ PASS outright: Renfrow, Groenewegen, Lowe, Pirosko, Marpet, Butler, Wondolowski,
 Fix then ship:
 - Groenewegen (cosmetic): "Washington Sidewinders" comes from the Gophers feature, not Softball Canada.
 - Pichardo: "several options, no guarantee" is nancybkennedy.com, not SI. Re-attribute.
-- White: Andscape says lone offer = D2 PWO partial scholarship ($3,000, full possible as sophomore) and the only other option was "a junior college in Wyoming". Remove "only full offer from Gillette" and "small housing stipend". UCCS release returns 403: re-verify in browser.
+- White: Andscape says lone offer = D2 preferred walk-on partial scholarship ($3,000, full possible as sophomore) and the only other option was "a junior college in Wyoming". Remove "only full offer from Gillette" and "small housing stipend". UCCS release returns 403: re-verify in browser.
 - Coward: cut "Central High School ... no great fanfare, NBA.com" and the uncited "D3-focused newsletter"; NBA.com supports "native of Fresno" only.
 - Rodenfels: LetsRun (Centre / Lisa Owens claim) returns 403. Needs a browser check or a second source before beat 3 ships.
 - Rodriguez: high school is Buchanan (Clovis), NOT "Clovis High School" (TheMat). NAIA rule now available (below).
@@ -15,7 +15,7 @@ Fix then ship:
 Answers pages: every D1/D3 date and bylaw matches the 2026-27 manuals. Fix: D3 page labels bylaw 13.6.1.1.1 as "NCAA Division I Manual" (should be Division III Manual). fs.ncaa.org brochure PDFs did not load from this host; re-check.
 
 ## NAIA gap: FILLED — Rodriguez can ship after the school-name fix
-Rule: NAIA Bylaws Article V, Section C (Items 1-2), 2026-27 NAIA Official Handbook p.70 — every first-time NAIA participant must receive an eligible determination from the NAIA Eligibility Center before competing; an entering freshman is eligible immediately with a 2.300+ overall HS GPA, or by meeting two of three: ACT 18 / SAT 970, HS GPA 2.0, top half of class.
+Rule: NAIA Bylaws Article V, Section C (Items 1-2), 2026-27 NAIA Official Handbook p.70 — every first-time NAIA participant must receive an eligible determination from the NAIA Eligibility Center before competing; an entering freshman is eligible immediately with a 2.300+ overall high school GPA, or by meeting two of three: ACT 18 / SAT 970, high school GPA 2.0, top half of class.
 Source: https://www.naia.org/wp-content/uploads/2026/07/2026_Official_Handbook.pdf (retrieved 2026-11-05). Parent-friendly companion: https://www.naia.org/wp-content/uploads/2026/05/naia_guide_college_bound_student-1.pdf ("register at PlayNAIA.org"; "recruiting process ... less cumbersome, with few restrictions on the contact between a student-athlete and a coach").
 Suggested beat-4 line: "NAIA: register with the NAIA Eligibility Center (PlayNAIA.org). A 2.3 high school GPA makes a freshman eligible, or two of three: ACT 18/SAT 970, 2.0 GPA, top half of class. NAIA contact rules are far looser than NCAA." Note: NAIA publishes no contact-date calendar, so do not invent one.
 

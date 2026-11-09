@@ -168,7 +168,7 @@
       '<p>Our working estimate is about <b>' + Z.total_serviceable_families.toLocaleString('en-US') + '</b> serviceable families (this double counts multi-sport kids). It is built from these assumptions:</p><ul>' +
       Z.assumptions.map(function (a) { return '<li>' + esc(a) + '</li>'; }).join('') + '</ul>' +
       '<p class="note">Participation: ' + esc(Z.participation_source) + '. The college-intent and paying-share rates are our guesses, not survey results. The right-hand column is a ceiling, not a forecast.</p>' +
-      '<div class="sg-table-wrap"><table><caption class="vh">Largest sports by modeled serviceable families</caption><thead><tr><th>Sport</th><th class="num">HS participants 2024-25</th><th class="num">Modeled paying families (ESTIMATE)</th></tr></thead><tbody>' +
+      '<div class="sg-table-wrap"><table><caption class="vh">Largest sports by modeled serviceable families</caption><thead><tr><th>Sport</th><th class="num">high school participants 2024-25</th><th class="num">Modeled paying families (ESTIMATE)</th></tr></thead><tbody>' +
       top.map(function (r) { return '<tr><td>' + esc(r.sport) + '</td><td class="num">' + esc(r.hs) + '</td><td class="num">' + esc(r.paying) + '</td></tr>'; }).join('') + '</tbody></table></div>';
   }
 

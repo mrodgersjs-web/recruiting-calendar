@@ -4,3 +4,6 @@ node_modules
 .DS_Store
 *.log
 research/L1-motionsites/prompts-raw.json
+
+# W13-copy: real-name map must never be committed
+*.local.md

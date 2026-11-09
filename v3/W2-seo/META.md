@@ -38,7 +38,7 @@
 | /playbooks/camp-roi/ | Camp ROI Playbook | The Commit Book | Score camps before paying, track the cost, and know when recruiting talk is allowed. | 84 |
 | /playbooks/nil-high-school/ | NIL for High Schoolers | The Commit Book | Screen a deal against state and association rules before signing anything. | 74 |
 | /playbooks/offer-and-signing/ | Offers & Signing Day | The Commit Book | Compare offers on the same terms and know what's binding and when. | 66 |
-| /stories/renfrow/ | How Hunter Renfrow got to Clemson (Football, D1 (FBS)) | The Commit Book | The sourced recruiting path of Hunter Renfrow, Football, D1 (FBS), with the playbook it maps to. | 96 |
+| /stories/renfrow/ | How Hunter Renfrow got to Clemson (Football, D1) | The Commit Book | The sourced recruiting path of Hunter Renfrow, Football, D1, with the playbook it maps to. | 96 |
 | /stories/groenewegen/ | How Sara Groenewegen got to Minnesota (Softball, D1) | The Commit Book | The sourced recruiting path of Sara Groenewegen, Softball, D1, with the playbook it maps to. | 92 |
 | /stories/lowe/ | How Karsta Lowe got to UCLA (Volleyball, D1) | The Commit Book | The sourced recruiting path of Karsta Lowe, Volleyball, D1, with the playbook it maps to. | 89 |
 | /stories/pichardo/ | How Olivia Pichardo got to Brown (Baseball, D1) | The Commit Book | The sourced recruiting path of Olivia Pichardo, Baseball, D1, with the playbook it maps to. | 91 |

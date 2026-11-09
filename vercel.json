@@ -62,12 +62,116 @@
   },
   "redirects": [
     {
+      "source": "/athlete/butler/",
+      "destination": "/athlete/jimmy/"
+    },
+    {
+      "source": "/athlete/coward/",
+      "destination": "/athlete/cedric/"
+    },
+    {
+      "source": "/athlete/groenewegen/",
+      "destination": "/athlete/sara/"
+    },
+    {
+      "source": "/athlete/lowe/",
+      "destination": "/athlete/karsta/"
+    },
+    {
+      "source": "/athlete/marpet/",
+      "destination": "/athlete/ali/"
+    },
+    {
+      "source": "/athlete/perez/",
+      "destination": "/athlete/tori/"
+    },
+    {
+      "source": "/athlete/pichardo/",
+      "destination": "/athlete/olivia/"
+    },
+    {
+      "source": "/athlete/pirosko/",
+      "destination": "/athlete/samantha/"
+    },
+    {
+      "source": "/athlete/renfrow/",
+      "destination": "/athlete/hunter/"
+    },
+    {
+      "source": "/athlete/rodenfels/",
+      "destination": "/athlete/annie/"
+    },
+    {
+      "source": "/athlete/rodriguez/",
+      "destination": "/athlete/cristelle/"
+    },
+    {
+      "source": "/athlete/white/",
+      "destination": "/athlete/derrick/"
+    },
+    {
+      "source": "/athlete/wondolowski/",
+      "destination": "/athlete/chris/"
+    },
+    {
       "source": "/resources",
       "destination": "/library"
     },
     {
       "source": "/resources/",
       "destination": "/library"
+    },
+    {
+      "source": "/story/butler/",
+      "destination": "/story/jimmy/"
+    },
+    {
+      "source": "/story/coward/",
+      "destination": "/story/cedric/"
+    },
+    {
+      "source": "/story/groenewegen/",
+      "destination": "/story/sara/"
+    },
+    {
+      "source": "/story/lowe/",
+      "destination": "/story/karsta/"
+    },
+    {
+      "source": "/story/marpet/",
+      "destination": "/story/ali/"
+    },
+    {
+      "source": "/story/perez/",
+      "destination": "/story/tori/"
+    },
+    {
+      "source": "/story/pichardo/",
+      "destination": "/story/olivia/"
+    },
+    {
+      "source": "/story/pirosko/",
+      "destination": "/story/samantha/"
+    },
+    {
+      "source": "/story/renfrow/",
+      "destination": "/story/hunter/"
+    },
+    {
+      "source": "/story/rodenfels/",
+      "destination": "/story/annie/"
+    },
+    {
+      "source": "/story/rodriguez/",
+      "destination": "/story/cristelle/"
+    },
+    {
+      "source": "/story/white/",
+      "destination": "/story/derrick/"
+    },
+    {
+      "source": "/story/wondolowski/",
+      "destination": "/story/chris/"
     }
   ]
 }

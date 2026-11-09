@@ -10,7 +10,7 @@ We link to public forms only. We never fill or submit one for you.
 - [ ] Highlight link (passes Worksheet 4)
 - [ ] Current transcript and test scores, if the form asks
 - [ ] Your own coach's name and phone/email
-- [ ] Stats, measurables, club/HS team, graduation year
+- [ ] Stats, measurables, club/high school team, graduation year
 - [ ] A parent email to copy on follow-up
 
 ## For each program
