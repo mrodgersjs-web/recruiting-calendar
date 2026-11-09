@@ -7,3 +7,17 @@ research/L1-motionsites/prompts-raw.json
 
 # W13-copy: real-name map must never be committed
 *.local.md
+
+# W13-copy scratch diagnostics: one-off probes, not part of the lane
+v3/W13-copy/dump*.py
+v3/W13-copy/probe*.py
+v3/W13-copy/insp.py
+v3/W13-copy/rescan.py
+v3/W13-copy/verify.py
+v3/W13-copy/dups.py
+v3/W13-copy/grade2.py
+v3/W13-copy/grade3.py
+v3/W13-copy/ogprobe.py
+v3/W13-copy/livecheck*.py
+v3/W13-copy/equiv*.py
+v3/W13-copy/ghcheck.py
