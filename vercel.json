@@ -63,55 +63,68 @@
   "redirects": [
     {
       "source": "/athlete/butler/",
-      "destination": "/athlete/jimmy/"
+      "destination": "/sports/basketball",
+      "permanent": true
     },
     {
       "source": "/athlete/coward/",
-      "destination": "/athlete/cedric/"
+      "destination": "/sports/basketball",
+      "permanent": true
     },
     {
       "source": "/athlete/groenewegen/",
-      "destination": "/athlete/sara/"
+      "destination": "/sports/softball",
+      "permanent": true
     },
     {
       "source": "/athlete/lowe/",
-      "destination": "/athlete/karsta/"
+      "destination": "/sports/volleyball",
+      "permanent": true
     },
     {
       "source": "/athlete/marpet/",
-      "destination": "/athlete/ali/"
+      "destination": "/sports/football",
+      "permanent": true
     },
     {
       "source": "/athlete/perez/",
-      "destination": "/athlete/tori/"
+      "destination": "/sports/lacrosse",
+      "permanent": true
     },
     {
       "source": "/athlete/pichardo/",
-      "destination": "/athlete/olivia/"
+      "destination": "/sports/baseball",
+      "permanent": true
     },
     {
       "source": "/athlete/pirosko/",
-      "destination": "/athlete/samantha/"
+      "destination": "/sports/basketball",
+      "permanent": true
     },
     {
       "source": "/athlete/renfrow/",
-      "destination": "/athlete/hunter/"
+      "destination": "/sports/football",
+      "permanent": true
     },
     {
       "source": "/athlete/rodenfels/",
-      "destination": "/athlete/annie/"
+      "destination": "/sports/track-field",
+      "permanent": true
     },
     {
       "source": "/athlete/rodriguez/",
-      "destination": "/athlete/cristelle/"
+      "destination": "/sports/wrestling",
+      "permanent": true
     },
     {
       "source": "/athlete/white/",
-      "destination": "/athlete/derrick/"
+      "destination": "/sports/basketball",
+      "permanent": true
     },
     {
       "source": "/athlete/wondolowski/",
-      "destination": "/athlete/chris/"
+      "destination": "/sports/soccer",
+      "permanent": true
     },
     {
       "source": "/resources",
@@ -123,55 +136,198 @@
     },
     {
       "source": "/story/butler/",
-      "destination": "/story/jimmy/"
+      "destination": "/sports/basketball",
+      "permanent": true
     },
     {
       "source": "/story/coward/",
-      "destination": "/story/cedric/"
+      "destination": "/sports/basketball",
+      "permanent": true
     },
     {
       "source": "/story/groenewegen/",
-      "destination": "/story/sara/"
+      "destination": "/sports/softball",
+      "permanent": true
     },
     {
       "source": "/story/lowe/",
-      "destination": "/story/karsta/"
+      "destination": "/sports/volleyball",
+      "permanent": true
     },
     {
       "source": "/story/marpet/",
-      "destination": "/story/ali/"
+      "destination": "/sports/football",
+      "permanent": true
     },
     {
       "source": "/story/perez/",
-      "destination": "/story/tori/"
+      "destination": "/sports/lacrosse",
+      "permanent": true
     },
     {
       "source": "/story/pichardo/",
-      "destination": "/story/olivia/"
+      "destination": "/sports/baseball",
+      "permanent": true
     },
     {
       "source": "/story/pirosko/",
-      "destination": "/story/samantha/"
+      "destination": "/sports/basketball",
+      "permanent": true
     },
     {
       "source": "/story/renfrow/",
-      "destination": "/story/hunter/"
+      "destination": "/sports/football",
+      "permanent": true
     },
     {
       "source": "/story/rodenfels/",
-      "destination": "/story/annie/"
+      "destination": "/sports/track-field",
+      "permanent": true
     },
     {
       "source": "/story/rodriguez/",
-      "destination": "/story/cristelle/"
+      "destination": "/sports/wrestling",
+      "permanent": true
     },
     {
       "source": "/story/white/",
-      "destination": "/story/derrick/"
+      "destination": "/sports/basketball",
+      "permanent": true
     },
     {
       "source": "/story/wondolowski/",
-      "destination": "/story/chris/"
+      "destination": "/sports/soccer",
+      "permanent": true
+    },
+    {
+      "source": "/story/hunter",
+      "destination": "/sports/football",
+      "permanent": true
+    },
+    {
+      "source": "/athlete/hunter",
+      "destination": "/sports/football",
+      "permanent": true
+    },
+    {
+      "source": "/story/sara",
+      "destination": "/sports/softball",
+      "permanent": true
+    },
+    {
+      "source": "/athlete/sara",
+      "destination": "/sports/softball",
+      "permanent": true
+    },
+    {
+      "source": "/story/karsta",
+      "destination": "/sports/volleyball",
+      "permanent": true
+    },
+    {
+      "source": "/athlete/karsta",
+      "destination": "/sports/volleyball",
+      "permanent": true
+    },
+    {
+      "source": "/story/olivia",
+      "destination": "/sports/baseball",
+      "permanent": true
+    },
+    {
+      "source": "/athlete/olivia",
+      "destination": "/sports/baseball",
+      "permanent": true
+    },
+    {
+      "source": "/story/derrick",
+      "destination": "/sports/basketball",
+      "permanent": true
+    },
+    {
+      "source": "/athlete/derrick",
+      "destination": "/sports/basketball",
+      "permanent": true
+    },
+    {
+      "source": "/story/samantha",
+      "destination": "/sports/basketball",
+      "permanent": true
+    },
+    {
+      "source": "/athlete/samantha",
+      "destination": "/sports/basketball",
+      "permanent": true
+    },
+    {
+      "source": "/story/ali",
+      "destination": "/sports/football",
+      "permanent": true
+    },
+    {
+      "source": "/athlete/ali",
+      "destination": "/sports/football",
+      "permanent": true
+    },
+    {
+      "source": "/story/annie",
+      "destination": "/sports/track-field",
+      "permanent": true
+    },
+    {
+      "source": "/athlete/annie",
+      "destination": "/sports/track-field",
+      "permanent": true
+    },
+    {
+      "source": "/story/tori",
+      "destination": "/sports/lacrosse",
+      "permanent": true
+    },
+    {
+      "source": "/athlete/tori",
+      "destination": "/sports/lacrosse",
+      "permanent": true
+    },
+    {
+      "source": "/story/cedric",
+      "destination": "/sports/basketball",
+      "permanent": true
+    },
+    {
+      "source": "/athlete/cedric",
+      "destination": "/sports/basketball",
+      "permanent": true
+    },
+    {
+      "source": "/story/cristelle",
+      "destination": "/sports/wrestling",
+      "permanent": true
+    },
+    {
+      "source": "/athlete/cristelle",
+      "destination": "/sports/wrestling",
+      "permanent": true
+    },
+    {
+      "source": "/story/jimmy",
+      "destination": "/sports/basketball",
+      "permanent": true
+    },
+    {
+      "source": "/athlete/jimmy",
+      "destination": "/sports/basketball",
+      "permanent": true
+    },
+    {
+      "source": "/story/chris",
+      "destination": "/sports/soccer",
+      "permanent": true
+    },
+    {
+      "source": "/athlete/chris",
+      "destination": "/sports/soccer",
+      "permanent": true
     }
   ]
 }

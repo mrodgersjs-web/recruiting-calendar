@@ -164,7 +164,8 @@ def store_cards():
         m = re.search(r'href="?(.*?)\s|>', body)
         m = re.search(r'href="?(/playbooks/([\w-]+))', body)
         if m:
-            out[m.group(2)] = '<div class="pb-cell">' + body + "</div>"
+            body = re.sub(r'href="(/playbooks/[\w-]+)/"', 'href="\\1"', body)
+        out[m.group(2)] = '<div class="pb-cell">' + body + "</div>"
     return out
 
 
@@ -196,7 +197,7 @@ def match_athletes(sport):
 
 # ------------------------------------------------------------------ templates
 def make_page(slug, title, desc, main):
-    canon = f"{LIVE}/sports/{slug}/"
+    canon = f"{LIVE}/sports/{slug}"
     h = head
     h = re.sub(r"<title>.*?</title>", f"<title>{html.escape(title)}</title>", h, count=1)
     h = re.sub(r'<meta name="description" content="[^"]*"',
@@ -251,9 +252,9 @@ def rules_block(sport):
         return ('<h2>Dates for this sport</h2><p>No dated calendar for this sport yet. We '
                 "publish one when every date is checked against the bylaw that sets it, and we "
                 "would rather say that than sell you a guess. "
-                '<a href="/rules/">See the rules we have dated</a>.</p>')
+                '<a href="/rules">See the rules we have dated</a>.</p>')
     yrs = "".join(
-        f'<li><a href="/rules/{rs}/{y}/">Class of {y}</a> <span>contact periods, quiet periods, '
+        f'<li><a href="/rules/{rs}/{y}">Class of {y}</a> <span>contact periods, quiet periods, '
         f"signing dates, and the rule behind each one.</span></li>"
         for y in (2027, 2028, 2029, 2030))
     return (f'<h2>Your dates, by class year</h2><p>These are the {html.escape(sport["name"])} '
@@ -267,10 +268,16 @@ def proof_block(sport):
         return ""
     out = []
     for a in rows:
-        out.append(f'<li><a href="/story/{a["id"]}/">{html.escape(a.get("short") or a["name"])}</a> '
-                   f'<span>{html.escape(str(a.get("from") or "high school"))} &rarr; '
-                   f'{html.escape(str(a.get("college") or ""))}. Public sources, listed on that '
-                   f"page.</span></li>")
+        label = html.escape(a.get("short") or a["name"])
+        route = (f'{html.escape(str(a.get("from") or "high school"))} &rarr; '
+                 f'{html.escape(str(a.get("college") or ""))}')
+        if a.get("page") is False:
+            pb = (a.get("playbooks") or ["offer-and-signing"])[0]
+            out.append(f'<li>{label} <span>{route}. Composite, built from public reporting; '
+                       f'sources on <a href="/playbooks/{pb}/#sources">the playbook</a>.</span></li>')
+        else:
+            out.append(f'<li><a href="/story/{a["id"]}">{label}</a> <span>{route}. Public sources, '
+                       f"listed on that page.</span></li>")
     return ('<h2>How this has played out</h2><p class="note">Not endorsements, and not ads. '
             "Publicly reported recruiting paths, shortened to what a parent can copy.</p>"
             "<ul>" + "".join(out) + "</ul>")
@@ -286,8 +293,8 @@ def build_sport(sport):
         f'<p class="lab">{html.escape(name)}</p>',
         f'<h1 class="d1">Run {html.escape(name.lower())} recruiting {headline_tail(sport)}</h1>',
         f'<p class="lede">{html.escape(sport["blurb"])}</p>',
-        '<p class="cta-band"><a class="btn btn--primary" href="/price/">Get the calendar for your '
-        'class year</a> <a class="btn btn--outline" href="/sports/">Every sport we cover</a></p>',
+        '<p class="cta-band"><a class="btn btn--primary" href="/price">Get the calendar for your '
+        'class year</a> <a class="btn btn--outline" href="/sports">Every sport we cover</a></p>',
         "<h2>Playbooks for this sport</h2>",
         "<p>Each playbook is a plan you run, priced on its own. No subscription needed.</p>",
         cards_for(sport["playbooks"]),
@@ -301,10 +308,10 @@ def build_sport(sport):
         "<h2>What we do not do</h2>",
         bullets(DONT),
         '<p class="plans note">Plans: free preview, Sideline $149 per year with a 14-day free '
-        'trial, Pathway $499 planned and not for sale yet. <a href="/price/">Full price list</a>.</p>',
+        'trial, Pathway $499 planned and not for sale yet. <a href="/price">Full price list</a>.</p>',
         proof_block(sport),
-        '<p class="cta-band"><a class="btn btn--primary" href="/start/">Start free with your '
-        'sport and class year</a> <a class="btn btn--outline" href="/library/">Browse every tool</a></p>',
+        '<p class="cta-band"><a class="btn btn--primary" href="/start">Start free with your '
+        'sport and class year</a> <a class="btn btn--outline" href="/library">Browse every tool</a></p>',
         "</main>",
     ])
     return make_page(sport["slug"], title, desc, main)
@@ -315,7 +322,7 @@ def build_hub():
     desc = ("Pick your sport and get the playbooks, the dates that come from the rule, the alerts "
             "and the tracker.")
     tiles = "".join(
-        f'<div class="pb-cell"><a class="pb-card" href="/sports/{s["slug"]}/">'
+        f'<div class="pb-cell"><a class="pb-card" href="/sports/{s["slug"]}">'
         f'<span class="pb-thumb"><b>{html.escape(s["name"])}</b>'
         f'<i>{len(s["playbooks"])} playbooks'
         f'{" &middot; dated rules" if s["rules"] else " &middot; rules coming"}</i></span>'
@@ -334,8 +341,8 @@ def build_hub():
             "you differ by sport. So do camp dates, signing dates, and how many spots a team "
             "can hand out. So each page lists only what we checked for that sport. Where we "
             "have not checked it yet, the page says so plain.</p>"
-            '<p class="cta-band"><a class="btn btn--primary" href="/start/">Start free with your '
-            'sport and class year</a> <a class="btn btn--outline" href="/price/">See plans and price</a></p>'
+            '<p class="cta-band"><a class="btn btn--primary" href="/start">Start free with your '
+            'sport and class year</a> <a class="btn btn--outline" href="/price">See plans and price</a></p>'
             "</main>")
     return make_page("index", title, desc, main)
 
