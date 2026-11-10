@@ -1,0 +1,112 @@
+[
+ {
+  "href": "/playbooks/football-junior-year",
+  "badge": "Football",
+  "fmt": "24 pages \u00b7 PDF + XLSX tracker",
+  "audience": "Football families",
+  "title": "Football: Junior Year Playbook",
+  "blurb": "A month-by-month plan for football recruiting. It starts in the spring of sophomore year and ends at signing.",
+  "price": "$29",
+  "offer": "football-junior-year"
+ },
+ {
+  "href": "/playbooks/eligibility-2-hard-deadlines",
+  "badge": "Eligibility",
+  "fmt": "12 pages \u00b7 PDF",
+  "audience": "Any NCAA D1/D2 hopeful family",
+  "title": "Eligibility: the 2 Hard Deadlines",
+  "blurb": "Two school rules can end a D1 or D2 dream. You cannot fix them at the last minute.",
+  "price": "$9",
+  "offer": "eligibility-2-hard-deadlines"
+ },
+ {
+  "href": "/playbooks/baseball-showcase-to-signing",
+  "badge": "Baseball",
+  "fmt": "22 pages \u00b7 PDF + XLSX",
+  "audience": "Baseball families",
+  "title": "Baseball: From Showcase to Signing",
+  "blurb": "Baseball opens later than football. Use the August 1 and September 1 dates and skip the wasted showcase money.",
+  "price": "$29",
+  "offer": "baseball-showcase-to-signing"
+ },
+ {
+  "href": "/playbooks/track-field-marks",
+  "badge": "Track &amp; Field",
+  "fmt": "18 pages \u00b7 PDF + XLSX",
+  "audience": "Track and cross-country families",
+  "title": "Track &amp; Field: Marks to Roster",
+  "blurb": "Turn your times into a target list, then send the right email for your event.",
+  "price": "$25",
+  "offer": "track-field-marks"
+ },
+ {
+  "href": "/playbooks/d3-academic-aid-first",
+  "badge": "D3 Path",
+  "fmt": "16 pages \u00b7 PDF + XLSX",
+  "audience": "Families who want a strong school plus a roster spot",
+  "title": "D3 Path: Academic Aid First",
+  "blurb": "D3 schools give no athletic aid. So compare real cost, not a promise.",
+  "price": "$19",
+  "offer": null
+ },
+ {
+  "href": "/playbooks/walk-on",
+  "badge": "Walk-On Playbook",
+  "fmt": "14 pages \u00b7 PDF",
+  "audience": "Athletes without an aid offer who still want to play",
+  "title": "Walk-On Playbook",
+  "blurb": "No offer does not mean you are done. Know the two kinds of walk-on first.",
+  "price": "$15",
+  "offer": "walk-on"
+ },
+ {
+  "href": "/playbooks/juco-to-d1",
+  "badge": "JUCO to D1",
+  "fmt": "16 pages \u00b7 PDF",
+  "audience": "Athletes considering NJCAA as a route",
+  "title": "JUCO to D1",
+  "blurb": "A JUCO year can be a path, not a fallback. Plan your credits first.",
+  "price": "$19",
+  "offer": null
+ },
+ {
+  "href": "/playbooks/late-bloomer",
+  "badge": "Late Bloomer Playbook",
+  "fmt": "14 pages \u00b7 PDF",
+  "audience": "Seniors and post-grads with late growth or late film",
+  "title": "Late Bloomer Playbook",
+  "blurb": "Started late? So did some of them. Here is a 90-day plan.",
+  "price": "$15",
+  "offer": null
+ },
+ {
+  "href": "/playbooks/highlight-reel-social",
+  "badge": "Highlight Reel &amp; Social Playbook",
+  "fmt": "16 pages \u00b7 PDF + DOCX",
+  "audience": "Any athlete building film and a public profile",
+  "title": "Highlight Reel &amp; Social Playbook",
+  "blurb": "Make a film a coach will finish watching. Then clean up what they see next.",
+  "price": "$15",
+  "offer": "highlight-reel-social"
+ },
+ {
+  "href": "/playbooks/camp-roi",
+  "badge": "Camp ROI Playbook",
+  "fmt": "14 pages \u00b7 PDF + XLSX",
+  "audience": "Families deciding which camps to pay for",
+  "title": "Camp ROI Playbook",
+  "blurb": "Score a camp before you pay. Know when recruiting talk is allowed there.",
+  "price": "$15",
+  "offer": "camp-roi"
+ },
+ {
+  "href": "/playbooks/nil-high-school",
+  "badge": "NIL for High Schoolers",
+  "fmt": "14 pages \u00b7 PDF",
+  "audience": "high school athletes and parents asked about a deal",
+  "title": "NIL for High Schoolers",
+  "blurb": "Check a deal against your state and school rules before anyone signs.",
+  "price": "$15",
+  "offer": null
+ }
+]

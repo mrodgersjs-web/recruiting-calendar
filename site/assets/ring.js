@@ -1,3 +1,4 @@
+function SPORT_PATH(a){var s=String(a.sport||'').toLowerCase();if(s.indexOf('track')>-1)return'/sports/track-field/';if(s.indexOf('swim')>-1)return'/sports/swimming/';if(s.indexOf('lacrosse')>-1)return'/sports/lacrosse/';return '/sports/'+s.split(/[\s(/]+/)[0]+'/';}
 // <story-ring>: 3D ring carousel engine (mechanics per Runway spec s7-9), athlete-card content model.
 (()=>{
 const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -120,7 +121,7 @@ renderPanel(silent){
  this.querySelector('[data-who]').textContent=`${a.short} · ${a.sport} · ${a.div}`+(a.composite?` · ${a.label}`:` · Public facts only, sourced in the story. ${a.name} is not affiliated with, has not endorsed, and was not paid by The Commit Book. ${a.college} and the NCAA/NAIA/NJCAA are not affiliated with us.`);
  ul.innerHTML=a.playbooks.map((p,i)=>{const pb=this.P[p],on=this.bag.has(p);return `<li class="sr__item" style="--i:${i+1}"><span class="sr__thumb">${String(i+1).padStart(2,'0')}</span><span><div class="sr__itype">Playbook · $${pb.price}, one-time</div><a class="sr__iname" href="/playbooks/${p}">${pb.title}</a></span><button class="sr__add" data-add="${p}" aria-pressed="${on}">${on?'Added':'Get'}</button></li>`}).join('');
  const pi=this.querySelector('.sr__pinner');pi.classList.remove('is-in');void pi.offsetWidth;pi.classList.add('is-in');
- this.querySelector('[data-read]').onclick=()=>location.href='/story/'+a.id;
+ this.querySelector('[data-read]').onclick=()=>location.href=SPORT_PATH(a);
 }
 updBag(){const n=this.bag.size;document.querySelectorAll('[data-bag-count]').forEach(e=>e.textContent=n);this.querySelector('[data-bagline]').textContent=n?`${n} in your playbook bag (saved on this device).`:'For the athlete to run. Parents support.';try{localStorage.setItem('playbook-bag-v1',JSON.stringify([...this.bag]))}catch(e){}}
 toast(m){const t=document.getElementById('bag-status');if(!t)return;t.textContent=m;t.classList.add('is-on');clearTimeout(this.tt);this.tt=setTimeout(()=>t.classList.remove('is-on'),2500)}
@@ -147,13 +148,13 @@ bind(){
  st.addEventListener('pointerup',end);st.addEventListener('pointercancel',end);
  this.addEventListener('click',e=>{if(performance.now()-suppress<60){e.stopPropagation();e.preventDefault()}},true);
  let acc=0,lock=0;st.addEventListener('wheel',e=>{if(Math.abs(e.deltaX)<=Math.abs(e.deltaY))return;e.preventDefault();if(performance.now()<lock)return;acc+=e.deltaX;if(Math.abs(acc)>45){acc>0?this.next():this.prev();acc=0;lock=performance.now()+520}},{passive:false});
- st.addEventListener('keydown',e=>{if(e.key==='ArrowRight'){e.preventDefault();this.next()}if(e.key==='ArrowLeft'){e.preventDefault();this.prev()}if(e.key==='Enter'&&e.target===st)location.href='/story/'+this.A[this.index].id});
+ st.addEventListener('keydown',e=>{if(e.key==='ArrowRight'){e.preventDefault();this.next()}if(e.key==='ArrowLeft'){e.preventDefault();this.prev()}if(e.key==='Enter'&&e.target===st)location.href=SPORT_PATH(this.A[this.index])});
  this.addEventListener('click',e=>{const t=e.target;let b;
   if(t.closest('.sr__next'))return this.next();if(t.closest('.sr__prev'))return this.prev();
   if(b=t.closest('[data-tick]'))return this.go(+b.dataset.tick);
   if(t.closest('.sr__auto')){if(!this.playing)this.engaged=false;return this.play(!this.playing)}
   if(b=t.closest('[data-add]')){this.engage();const id=b.dataset.add;this.bag.has(id)?this.bag.delete(id):this.bag.add(id);const on=this.bag.has(id);b.setAttribute('aria-pressed',on);b.textContent=on?'Added':'Get';this.updBag();this.toast(on?'Playbook saved to your bag':'Removed from your bag');return}
-  if(b=t.closest('[data-view]'))return location.href='/story/'+this.A[+b.dataset.view].id;
+  if(b=t.closest('[data-view]'))return location.href=SPORT_PATH(this.A[+b.dataset.view]);
   if(b=t.closest('[data-go]')){const k=this.rank(+b.dataset.go);const kk=this.mob?k:k;if(k!==0&&Math.abs(k)<6)this.moveTo(Math.round(this.target)+(this.mob&&k>6?k-12:kk));}
  });
  const pn=this.querySelector('.sr__panel');pn.addEventListener('pointerenter',e=>{if(e.pointerType==='mouse')this.panelHover=true});pn.addEventListener('pointerleave',()=>{this.panelHover=false;this.restartBar()});

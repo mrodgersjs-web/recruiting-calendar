@@ -1,0 +1,10 @@
+import pathlib,re,sys
+sys.stdout.reconfigure(encoding="utf-8",errors="replace")
+t=pathlib.Path("site/assets/tokens.css").read_text(encoding="utf-8")
+print("\n".join(re.findall(r'\.btn[\w-]*\s*\{[^}]*\}',t)))
+c=pathlib.Path("site/assets/commit.css").read_text(encoding="utf-8")
+print("\n=== commit.css btn-ish + link-ish helpers")
+print("\n".join(re.findall(r'\.(?:btn|link|quiet|mini|small|note|kicker|pill|tag)[\w-]*\s*\{[^}]*\}',c)[:12]))
+print("\n=== what the store uses for secondary buttons")
+s=pathlib.Path("site/playbooks/index.html").read_text(encoding="utf-8")
+print(sorted(set(re.findall(r'class="(btn[^"]*)"',s))))

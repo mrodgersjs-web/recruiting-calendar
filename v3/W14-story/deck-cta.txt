@@ -1,0 +1,1 @@
+<a class="btn btn--primary dk-read" href="/sports/'+SLUG(a.sport)+'/">Playbooks for '+esc(a.sport)+'</a> <a class="dk-src" style="font-size:13px" href="/story/'+esc(a.id)+'/">How this played out</a>
