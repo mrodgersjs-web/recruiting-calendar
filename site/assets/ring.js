@@ -39,7 +39,7 @@ render(){
  const act=this.querySelector('.sr__actors'),her=this.querySelector('.sr__heroes');
  this.bodies=[];for(let b=0;b<this.N;b++){const a=A[b%n];const el=document.createElement('div');el.className='sr__body';el.setAttribute('aria-hidden','true');
   el.innerHTML=`<button class="card" data-go="${b}" tabindex="-1" aria-label="${escA(a.name)}">${cardHTML(a,b%n)}</button>`;act.appendChild(el);this.bodies.push({el,a:b,w:0,blur:-1,x:b})}
- this.heroes=A.map((a,i)=>{const h=document.createElement('div');h.className='sr__hero';h.innerHTML=`<button class="card" data-view="${i}" tabindex="-1" aria-label="Read story: ${escA(a.name)}">${cardHTML(a,i)}</button>`;her.appendChild(h);return h});
+ this.heroes=A.map((a,i)=>{const h=document.createElement('div');h.className='sr__hero';h.innerHTML=`<button class="card" data-view="${i}" tabindex="-1" aria-label="${escA("Playbooks for " + (a.sport||"this sport") + ": " + a.name)}">${cardHTML(a,i)}</button>`;her.appendChild(h);return h});
  this.stage=this.querySelector('.sr__stage');this.cursor=this.querySelector('.sr__cursor');this.ticks=[...this.querySelectorAll('.sr__tick')];
 }
 measure(){
