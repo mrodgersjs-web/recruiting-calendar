@@ -145,20 +145,32 @@ head = STORE[:STORE.find("</head>") + 7]
 HEADER = STORE[STORE.find("<header"):STORE.find("</header>") + 9]
 FOOTER = STORE[STORE.find("<footer"):STORE.find("</footer>") + 9]
 
-CARDS = {}
-for cell in re.findall(r'<div class="pb-cell">(.*?)(?=<div class="pb-cell">|</div></main>|\Z)',
-                       STORE, re.S):
-    m = re.search(r'href="?(/playbooks/([\w-]+))', cell)
-    if m:
-        CARDS[m.group(2)] = '<div class="pb-cell">' + cell.strip() + "</div>"
-# offer-and-signing is deployed but is not in the store grid; write its card once
-CARDS.setdefault("offer-and-signing", '<div class="pb-cell"><a class="pb-card" '
-    'href="/playbooks/offer-and-signing/"><span class="pb-thumb"><b>Any sport</b>'
-    '<i>14 pages &middot; PDF</i></span><span class="lab">Offer season</span>'
-    '<span class="pb-t">Offer and Signing: What Each Paper Means</span>'
-    '<span class="pb-s">Verbal, National Letter of Intent, scholarship agreement: what each one '
-    'binds, and what it does not.</span><span class="pb-p">$15</span></a>'
-    '<button class="btn btn--primary" data-offer="offer-and-signing">Get the playbook</button></div>')
+def store_cards():
+    """Cards lifted out of the live store page, so sport pages and the store cannot disagree."""
+    grid_at = STORE.find('<div class="pb-grid">')
+    depth = 0
+    end = len(STORE)
+    for m in re.finditer(r"<(/?)div\b", STORE[grid_at:]):
+        depth += -1 if m.group(1) else 1
+        if depth == 0:
+            end = grid_at + m.end() + len("</div>") - len(">")
+            break
+    seg = STORE[grid_at:end]
+    out = {}
+    for chunk in seg.split('<div class="pb-cell">')[1:]:
+        # no cell nests another div, so the first close ends it; anything past that
+        # is the store's own bundles block and does not belong on a sport page
+        body = chunk.split("</div>")[0].strip()
+        m = re.search(r'href="?(.*?)\s|>', body)
+        m = re.search(r'href="?(/playbooks/([\w-]+))', body)
+        if m:
+            out[m.group(2)] = '<div class="pb-cell">' + body + "</div>"
+    return out
+
+
+CARDS = store_cards()
+if not CARDS:
+    raise SystemExit("no playbook cards found in the store page")
 
 _js = (SITE / "assets" / "stories.js").read_text(encoding="utf-8")
 ATHLETES = json.JSONDecoder().raw_decode(_js[_js.index("{"):])[0]["athletes"]
@@ -217,6 +229,11 @@ def first_sentence(blurb):
     return re.split(r"(?<=\.)\s", blurb)[0]
 
 
+def headline_tail(sport):
+    """Do not promise dates for a sport whose rules we have not checked yet."""
+    return "with the dates in hand" if sport["rules"] else "with a plan you can hold"
+
+
 def cards_for(slugs):
     missing = [s for s in slugs if s not in CARDS or not (SITE / "playbooks" / s / "index.html").exists()]
     if missing:
@@ -231,7 +248,7 @@ def bullets(items):
 def rules_block(sport):
     rs = sport["rules"]
     if not rs:
-        return ('<h2>Your dates, by class year</h2><p>No dated calendar for this sport yet. We '
+        return ('<h2>Dates for this sport</h2><p>No dated calendar for this sport yet. We '
                 "publish one when every date is checked against the bylaw that sets it, and we "
                 "would rather say that than sell you a guess. "
                 '<a href="/rules/">See the rules we have dated</a>.</p>')
@@ -267,7 +284,7 @@ def build_sport(sport):
     main = "".join([
         '<main class="cb-page">',
         f'<p class="lab">{html.escape(name)}</p>',
-        f'<h1 class="d1">Run {html.escape(name.lower())} recruiting with the dates in hand</h1>',
+        f'<h1 class="d1">Run {html.escape(name.lower())} recruiting {headline_tail(sport)}</h1>',
         f'<p class="lede">{html.escape(sport["blurb"])}</p>',
         '<p class="cta-band"><a class="btn btn--primary" href="/price/">Get the calendar for your '
         'class year</a> <a class="btn btn--outline" href="/sports/">Every sport we cover</a></p>',

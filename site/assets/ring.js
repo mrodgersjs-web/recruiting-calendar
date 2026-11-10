@@ -26,15 +26,15 @@ connectedCallback(){
 render(){
  const A=this.A,n=this.n;
  this.innerHTML=`<div class="sr__grid"><div class="sr__left"><div class="sr__head"><h2 class="sr__title">Pick a path.</h2>
-<p class="sr__sub">Real roads to a college roster. Different sports, states, school sizes and divisions. Drag to browse, click to read the story.</p><p class="sr__sub sr__surv">Most college athletes don't go pro. These stories show how athletes got to college, not what happened after.</p><span class="sr__sr" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)" aria-live="polite" data-live></span></div>
+<p class="sr__sub">Real roads to a college roster. Different sports, states, school sizes and divisions. Drag to browse. Click one to see the playbooks and dates for that sport.</p><p class="sr__sub sr__surv">Most college athletes don't go pro. These stories show how athletes got to college, not what happened after.</p><span class="sr__sr" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)" aria-live="polite" data-live></span></div>
 <div class="sr__stage" tabindex="0" role="region" aria-roledescription="carousel" aria-label="Athlete stories. Use arrow keys or swipe."><div class="sr__actors"></div><div class="sr__heroes"></div><span class="sr__sweep"></span>
 <span class="sr__cursor"><span class="sr__cursor-in"><span class="c-drag">Drag</span><span class="c-view">View</span></span></span><span class="sr__walk"></span></div>
 <div class="sr__controls"><button class="sr__icon sr__prev" aria-label="Previous athlete"><svg width="26" height="14" viewBox="0 0 26 14" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M25 7H1M7 1L1 7l6 6"/></svg></button>
-<div class="sr__ticks">${A.map((a,i)=>`<button class="sr__tick" data-tick="${i}" aria-label="Story ${i+1}: ${a.sport}"><span class="sr__bar"></span><span class="sr__tlabel">${String(i+1).padStart(2,'0')}<span class="sr__tname">&nbsp;&nbsp;${a.sport}</span></span></button>`).join('')}</div>
+<div class="sr__ticks">${A.map((a,i)=>`<button class="sr__tick" data-tick="${i}" aria-label="Path ${i+1}: ${a.sport}"><span class="sr__bar"></span><span class="sr__tlabel">${String(i+1).padStart(2,'0')}<span class="sr__tname">&nbsp;&nbsp;${a.sport}</span></span></button>`).join('')}</div>
 <button class="sr__icon sr__auto" aria-pressed="false" aria-label="Autoplay"><svg class="i-play" width="14" height="14" viewBox="0 0 24 24"><path fill="currentColor" d="M7 4.5v15l12.5-7.5z"/></svg><svg class="i-pause" width="14" height="14" viewBox="0 0 24 24"><path fill="currentColor" d="M6.5 4.5h3.5v15H6.5zM14 4.5h3.5v15H14z"/></svg></button>
 <button class="sr__icon sr__next" aria-label="Next athlete"><svg width="26" height="14" viewBox="0 0 26 14" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M1 7h24M19 1l6 6-6 6"/></svg></button></div></div>
 <aside class="sr__panel"><div class="sr__pinner"><div class="sr__phead"><h3 class="sr__ptitle">In this story</h3><span class="sr__lab" data-count></span></div><div class="sr__who" data-who></div>
-<ul class="sr__items" data-items></ul><div class="sr__bundle"><button class="sr__cta" data-read>Read the story →</button><p class="sr__note" data-bagline></p></div></div></aside></div>`;
+<ul class="sr__items" data-items></ul><div class="sr__bundle"><button class="sr__cta" data-read>See the playbooks →</button><p class="sr__note" data-bagline></p></div></div></aside></div>`;
  const act=this.querySelector('.sr__actors'),her=this.querySelector('.sr__heroes');
  this.bodies=[];for(let b=0;b<this.N;b++){const a=A[b%n];const el=document.createElement('div');el.className='sr__body';el.setAttribute('aria-hidden','true');
   el.innerHTML=`<button class="card" data-go="${b}" tabindex="-1" aria-label="${a.name}">${cardHTML(a,b%n)}</button>`;act.appendChild(el);this.bodies.push({el,a:b,w:0,blur:-1,x:b})}
@@ -111,7 +111,7 @@ setIndex(i,silent){
  const a=this.A[this.index];this.style.setProperty('--progress',((this.index+1)/this.n).toFixed(3));
  this.heroes.forEach((h,j)=>{h.classList.toggle('is-on',j===this.index);h.querySelector('.card').tabIndex=j===this.index?0:-1});
  if(!silent&&!RM){this.stage.classList.remove('is-sweep');void this.stage.offsetWidth;this.stage.classList.add('is-sweep')}
- if(!silent)this.querySelector('[data-live]').textContent=`Story ${this.index+1}: ${a.name}`;
+ if(!silent)this.querySelector('[data-live]').textContent=`Path ${this.index+1}: ${a.sport}`;
  this.ticks.forEach((t,j)=>{t.setAttribute('aria-current',String(j===this.index));t.classList.toggle('is-past',j<this.index)});
  this.renderPanel(silent);this.restartBar();
 }
@@ -121,7 +121,7 @@ renderPanel(silent){
  this.querySelector('[data-who]').textContent=`${a.short} · ${a.sport} · ${a.div}`+(a.composite?` · ${a.label}`:` · Public facts only, sourced in the story. ${a.name} is not affiliated with, has not endorsed, and was not paid by The Commit Book. ${a.college} and the NCAA/NAIA/NJCAA are not affiliated with us.`);
  ul.innerHTML=a.playbooks.map((p,i)=>{const pb=this.P[p],on=this.bag.has(p);return `<li class="sr__item" style="--i:${i+1}"><span class="sr__thumb">${String(i+1).padStart(2,'0')}</span><span><div class="sr__itype">Playbook · $${pb.price}, one-time</div><a class="sr__iname" href="/playbooks/${p}">${pb.title}</a></span><button class="sr__add" data-add="${p}" aria-pressed="${on}">${on?'Added':'Get'}</button></li>`}).join('');
  const pi=this.querySelector('.sr__pinner');pi.classList.remove('is-in');void pi.offsetWidth;pi.classList.add('is-in');
- this.querySelector('[data-read]').onclick=()=>location.href=SPORT_PATH(a);
+ var _rd=this.querySelector('[data-read]');_rd.textContent='Playbooks for '+a.sport+' \u2192';_rd.onclick=()=>location.href=SPORT_PATH(a);
 }
 updBag(){const n=this.bag.size;document.querySelectorAll('[data-bag-count]').forEach(e=>e.textContent=n);this.querySelector('[data-bagline]').textContent=n?`${n} in your playbook bag (saved on this device).`:'For the athlete to run. Parents support.';try{localStorage.setItem('playbook-bag-v1',JSON.stringify([...this.bag]))}catch(e){}}
 toast(m){const t=document.getElementById('bag-status');if(!t)return;t.textContent=m;t.classList.add('is-on');clearTimeout(this.tt);this.tt=setTimeout(()=>t.classList.remove('is-on'),2500)}
