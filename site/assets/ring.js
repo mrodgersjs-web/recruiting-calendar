@@ -1,3 +1,4 @@
+function escA(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
 function SPORT_PATH(a){var s=String(a.sport||'').toLowerCase();if(s.indexOf('track')>-1)return'/sports/track-field';if(s.indexOf('swim')>-1)return'/sports/swimming';if(s.indexOf('lacrosse')>-1)return'/sports/lacrosse';return '/sports/'+s.split(/[\s(/]+/)[0]+'/';}
 // <story-ring>: 3D ring carousel engine (mechanics per Runway spec s7-9), athlete-card content model.
 (()=>{
@@ -37,8 +38,8 @@ render(){
 <ul class="sr__items" data-items></ul><div class="sr__bundle"><button class="sr__cta" data-read>See the playbooks →</button><p class="sr__note" data-bagline></p></div></div></aside></div>`;
  const act=this.querySelector('.sr__actors'),her=this.querySelector('.sr__heroes');
  this.bodies=[];for(let b=0;b<this.N;b++){const a=A[b%n];const el=document.createElement('div');el.className='sr__body';el.setAttribute('aria-hidden','true');
-  el.innerHTML=`<button class="card" data-go="${b}" tabindex="-1" aria-label="${a.name}">${cardHTML(a,b%n)}</button>`;act.appendChild(el);this.bodies.push({el,a:b,w:0,blur:-1,x:b})}
- this.heroes=A.map((a,i)=>{const h=document.createElement('div');h.className='sr__hero';h.innerHTML=`<button class="card" data-view="${i}" tabindex="-1" aria-label="Read story: ${a.name}">${cardHTML(a,i)}</button>`;her.appendChild(h);return h});
+  el.innerHTML=`<button class="card" data-go="${b}" tabindex="-1" aria-label="${escA(a.name)}">${cardHTML(a,b%n)}</button>`;act.appendChild(el);this.bodies.push({el,a:b,w:0,blur:-1,x:b})}
+ this.heroes=A.map((a,i)=>{const h=document.createElement('div');h.className='sr__hero';h.innerHTML=`<button class="card" data-view="${i}" tabindex="-1" aria-label="Read story: ${escA(a.name)}">${cardHTML(a,i)}</button>`;her.appendChild(h);return h});
  this.stage=this.querySelector('.sr__stage');this.cursor=this.querySelector('.sr__cursor');this.ticks=[...this.querySelectorAll('.sr__tick')];
 }
 measure(){
