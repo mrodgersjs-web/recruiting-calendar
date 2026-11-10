@@ -2,6 +2,7 @@ function SRC_LINK(a){var pb=(a.playbooks||a.related||[])[0];return pb?'/playbook
 function SLUG(s){s=String(s||'').toLowerCase();if(s.indexOf('track')>-1)return'track-field';if(s.indexOf('swim')>-1)return'swimming';if(s.indexOf('lacrosse')>-1)return'lacrosse';return s.split(/[\s(/]+/)[0];}
 /* Phone deck (<=749px): one illustration card per sport, swipe snaps card to card.
    Desktop keeps <story-ring>. Names are placeholders; no real person is shown. */
+(function(){
   var MQ=matchMedia('(max-width:749px)');
   function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
   function build(){
