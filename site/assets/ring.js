@@ -9,8 +9,7 @@ const wrapPi=p=>{p=p%(2*Math.PI);if(p>Math.PI)p-=2*Math.PI;if(p<=-Math.PI)p+=2*M
 const sil=(i)=>{const poses=['M50 8a9 9 0 1 1 0 18a9 9 0 1 1 0-18zM38 30h24l6 50-8 2-4-30-2 50 6 64h-11l-7-56-7 56H24l6-64-2-50-4 30-8-2z','M50 6a9 9 0 1 1 0 18a9 9 0 1 1 0-18zM36 28h28l14 30-8 4-10-18 2 46 4 68h-11l-9-58-9 58H26l4-68 2-46-10 18-8-4z'];
  return `<svg viewBox="0 0 100 180" aria-hidden="true"><path fill="#111" d="${poses[i%2]}"/></svg>`};
 const sp=(s)=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const cardHTML=(a,i)=>`<span class="card__shadow"></span><span class="card__art">${a.img?`<img src="${a.img}" alt="${a.composite?'Illustration of a fictional composite '+sp(a.sport)+' athlete':'Illustration of a fictional '+sp(a.sport)+' athlete, not '+sp(a.short)}" loading="eager" decoding="async">`:`<span class="card__poster"><b>${a.sport}</b><i>${a.short}</i></span>`}</span><span class="card__lbl">${a.composite?'Illustration · Composite':(a.art_fictional?'Illustration · not '+a.short:'Real athlete · sourced')}</span>
-<span class="card__meta"><span class="card__div">${a.div}</span><div class="card__name">${a.short}</div><div class="card__line">${a.sport}<br>${a.from} → ${a.college}</div></span>`;
+const cardHTML=(a,i)=>`<span class="card__shadow"></span><span class="card__art">${a.img?`<img src="${a.img}" alt="Illustration of a fictional ${sp(a.sport)} athlete" loading="eager" decoding="async">`:``}</span><span class="card__lbl">Illustration</span> <span class="card__meta"><div class="card__name">${escA(a.short)}</div><div class="card__line">${a.sport}</div></span>`;
 class StoryRing extends HTMLElement{
 connectedCallback(){
  const D=window.STORY_DATA;this.A=D.athletes;this.P=D.playbooks;const n=this.n=this.A.length;
@@ -27,14 +26,14 @@ connectedCallback(){
 render(){
  const A=this.A,n=this.n;
  this.innerHTML=`<div class="sr__grid"><div class="sr__left"><div class="sr__head"><h2 class="sr__title">Pick a path.</h2>
-<p class="sr__sub">Real roads to a college roster. Different sports, states, school sizes and divisions. Drag to browse. Click one to see the playbooks and dates for that sport.</p><p class="sr__sub sr__surv">Most college athletes don't go pro. These stories show how athletes got to college, not what happened after.</p><span class="sr__sr" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)" aria-live="polite" data-live></span></div>
-<div class="sr__stage" tabindex="0" role="region" aria-roledescription="carousel" aria-label="Athlete stories. Use arrow keys or swipe."><div class="sr__actors"></div><div class="sr__heroes"></div><span class="sr__sweep"></span>
+<p class="sr__sub">Pick a sport. Drag to browse. Click one to open the playbooks and dates for that sport.</p><p class="sr__sub sr__surv">The names are placeholders and the art is drawn. The dates and rules are cited on the page that uses them.</p><span class="sr__sr" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)" aria-live="polite" data-live></span></div>
+<div class="sr__stage" tabindex="0" role="region" aria-roledescription="carousel" aria-label="Browse by sport. Use arrow keys or swipe."><div class="sr__actors"></div><div class="sr__heroes"></div><span class="sr__sweep"></span>
 <span class="sr__cursor"><span class="sr__cursor-in"><span class="c-drag">Drag</span><span class="c-view">View</span></span></span><span class="sr__walk"></span></div>
 <div class="sr__controls"><button class="sr__icon sr__prev" aria-label="Previous athlete"><svg width="26" height="14" viewBox="0 0 26 14" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M25 7H1M7 1L1 7l6 6"/></svg></button>
 <div class="sr__ticks">${A.map((a,i)=>`<button class="sr__tick" data-tick="${i}" aria-label="Path ${i+1}: ${a.sport}"><span class="sr__bar"></span><span class="sr__tlabel">${String(i+1).padStart(2,'0')}<span class="sr__tname">&nbsp;&nbsp;${a.sport}</span></span></button>`).join('')}</div>
 <button class="sr__icon sr__auto" aria-pressed="false" aria-label="Autoplay"><svg class="i-play" width="14" height="14" viewBox="0 0 24 24"><path fill="currentColor" d="M7 4.5v15l12.5-7.5z"/></svg><svg class="i-pause" width="14" height="14" viewBox="0 0 24 24"><path fill="currentColor" d="M6.5 4.5h3.5v15H6.5zM14 4.5h3.5v15H14z"/></svg></button>
 <button class="sr__icon sr__next" aria-label="Next athlete"><svg width="26" height="14" viewBox="0 0 26 14" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M1 7h24M19 1l6 6-6 6"/></svg></button></div></div>
-<aside class="sr__panel"><div class="sr__pinner"><div class="sr__phead"><h3 class="sr__ptitle">In this story</h3><span class="sr__lab" data-count></span></div><div class="sr__who" data-who></div>
+<aside class="sr__panel"><div class="sr__pinner"><div class="sr__phead"><h3 class="sr__ptitle">Playbooks for this sport</h3><span class="sr__lab" data-count></span></div><div class="sr__who" data-who></div>
 <ul class="sr__items" data-items></ul><div class="sr__bundle"><button class="sr__cta" data-read>See the playbooks →</button><p class="sr__note" data-bagline></p></div></div></aside></div>`;
  const act=this.querySelector('.sr__actors'),her=this.querySelector('.sr__heroes');
  this.bodies=[];for(let b=0;b<this.N;b++){const a=A[b%n];const el=document.createElement('div');el.className='sr__body';el.setAttribute('aria-hidden','true');
@@ -119,7 +118,7 @@ setIndex(i,silent){
 renderPanel(silent){
  const a=this.A[this.index],ul=this.querySelector('[data-items]');
  this.querySelector('[data-count]').textContent=a.playbooks.length+' playbooks';
- this.querySelector('[data-who]').textContent=`${a.short} · ${a.sport} · ${a.div}`+(a.composite?` · ${a.label}`:` · Public facts only, sourced in the story. ${a.name} is not affiliated with, has not endorsed, and was not paid by The Commit Book. ${a.college} and the NCAA/NAIA/NJCAA are not affiliated with us.`);
+ this.querySelector('[data-who]').textContent=`${a.short} · ${a.sport} · Illustration. The name is a placeholder; the dates and rules are cited on the page that uses them.`;
  ul.innerHTML=a.playbooks.map((p,i)=>{const pb=this.P[p],on=this.bag.has(p);return `<li class="sr__item" style="--i:${i+1}"><span class="sr__thumb">${String(i+1).padStart(2,'0')}</span><span><div class="sr__itype">Playbook · $${pb.price}, one-time</div><a class="sr__iname" href="/playbooks/${p}">${pb.title}</a></span><button class="sr__add" data-add="${p}" aria-pressed="${on}">${on?'Added':'Get'}</button></li>`}).join('');
  const pi=this.querySelector('.sr__pinner');pi.classList.remove('is-in');void pi.offsetWidth;pi.classList.add('is-in');
  var _rd=this.querySelector('[data-read]');_rd.textContent='Playbooks for '+a.sport+' \u2192';_rd.onclick=()=>location.href=SPORT_PATH(a);

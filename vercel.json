@@ -328,6 +328,86 @@
       "source": "/athlete/chris",
       "destination": "/sports/soccer",
       "permanent": true
+    },
+    {
+      "source": "/story/composite-baseball",
+      "destination": "/sports/baseball",
+      "permanent": true
+    },
+    {
+      "source": "/athlete/composite-baseball",
+      "destination": "/sports/baseball",
+      "permanent": true
+    },
+    {
+      "source": "/story/composite-football",
+      "destination": "/sports/football",
+      "permanent": true
+    },
+    {
+      "source": "/athlete/composite-football",
+      "destination": "/sports/football",
+      "permanent": true
+    },
+    {
+      "source": "/story/composite-softball",
+      "destination": "/sports/softball",
+      "permanent": true
+    },
+    {
+      "source": "/athlete/composite-softball",
+      "destination": "/sports/softball",
+      "permanent": true
+    },
+    {
+      "source": "/story/composite-sprinter",
+      "destination": "/sports/track-field",
+      "permanent": true
+    },
+    {
+      "source": "/athlete/composite-sprinter",
+      "destination": "/sports/track-field",
+      "permanent": true
+    },
+    {
+      "source": "/story/composite-swim",
+      "destination": "/sports/swimming",
+      "permanent": true
+    },
+    {
+      "source": "/athlete/composite-swim",
+      "destination": "/sports/swimming",
+      "permanent": true
+    },
+    {
+      "source": "/story/composite-volleyball",
+      "destination": "/sports/volleyball",
+      "permanent": true
+    },
+    {
+      "source": "/athlete/composite-volleyball",
+      "destination": "/sports/volleyball",
+      "permanent": true
+    },
+    {
+      "source": "/story/composite-wbasketball",
+      "destination": "/sports/basketball",
+      "permanent": true
+    },
+    {
+      "source": "/athlete/composite-wbasketball",
+      "destination": "/sports/basketball",
+      "permanent": true
+    },
+    {
+      "source": "/story/composite-wrestling",
+      "destination": "/sports/wrestling",
+      "permanent": true
+    },
+    {
+      "source": "/athlete/composite-wrestling",
+      "destination": "/sports/wrestling",
+      "permanent": true
     }
   ]
 }

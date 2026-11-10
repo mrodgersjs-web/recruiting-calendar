@@ -1,0 +1,11 @@
+import pathlib,sys,re
+sys.stdout.reconfigure(encoding="utf-8",errors="replace")
+r=pathlib.Path("site/assets/ring.js").read_text(encoding="utf-8")
+i=r.find("sr__surv")
+print("ring subtitle:", re.sub(r"\s+"," ",r[i-320:i+320]))
+print()
+print("ring refs to pruned fields:", sorted({m.group(0) for m in re.finditer(r"a\.(from|college|div|timeline|turning|basis|rule|beats|path|replicate|video|school)", r)}))
+d=pathlib.Path("site/assets/deck.js").read_text(encoding="utf-8")
+j=d.find("dk-intro")
+print("deck intro:", re.sub(r"\s+"," ",d[j-60:j+420]))
+print("deck refs:", sorted({m.group(0) for m in re.finditer(r"a\.(from|college|div|timeline|turning|basis|rule|beats|path|replicate|video|school)", d)}))
