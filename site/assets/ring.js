@@ -1,4 +1,4 @@
-function SPORT_PATH(a){var s=String(a.sport||'').toLowerCase();if(s.indexOf('track')>-1)return'/sports/track-field/';if(s.indexOf('swim')>-1)return'/sports/swimming/';if(s.indexOf('lacrosse')>-1)return'/sports/lacrosse/';return '/sports/'+s.split(/[\s(/]+/)[0]+'/';}
+function SPORT_PATH(a){var s=String(a.sport||'').toLowerCase();if(s.indexOf('track')>-1)return'/sports/track-field';if(s.indexOf('swim')>-1)return'/sports/swimming';if(s.indexOf('lacrosse')>-1)return'/sports/lacrosse';return '/sports/'+s.split(/[\s(/]+/)[0]+'/';}
 // <story-ring>: 3D ring carousel engine (mechanics per Runway spec s7-9), athlete-card content model.
 (()=>{
 const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;

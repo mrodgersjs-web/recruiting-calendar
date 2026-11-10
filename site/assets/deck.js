@@ -1,4 +1,4 @@
-function SRC_LINK(a){if(a.page===false&&a.playbooks&&a.playbooks.length)return'/playbooks/'+a.playbooks[0]+'/#sources';return'/story/'+a.id+'/';}
+function SRC_LINK(a){if(a.page===false){var pb=(a.related||[])[0];return pb?'/playbooks/'+pb+'#sources':'/how-we-source';}return (a.source&&/^https?:/.test(a.source))?a.source:'/story/'+a.id+'#sources';}
 function SLUG(s){s=String(s||'').toLowerCase();if(s.indexOf('track')>-1)return'track-field';if(s.indexOf('swim')>-1)return'swimming';if(s.indexOf('lacrosse')>-1)return'lacrosse';return s.split(/[\s(/]+/)[0];}
 /* Phone story deck (<=749px): one full-bleed composite "Illustration" card per athlete, swipe snaps card to card.
    Roast Room 2 verdict A. Desktop keeps <story-ring>. Real athletes never get an image here; they are linked below. */
@@ -12,15 +12,15 @@ function SLUG(s){s=String(s||'').toLowerCase();if(s.indexOf('track')>-1)return't
     var cards=comps.map(function(a,i){
       var pbs=(a.playbooks||[]).slice(0,2).map(function(id){var p=P[id];if(!p)return'';
         return '<li><span class="dk-pb-t">'+esc(p.title)+'</span><span class="dk-pb-p">$'+p.price+'</span>'+
-          (p.notify?'<a class="dk-pb-b ghost" href="/playbooks/'+id+'/">Notify me</a>':'<button class="dk-pb-b" data-offer="'+id+'">Get</button>')+'</li>'}).join('');
+          (p.notify?'<a class="dk-pb-b ghost" href="/playbooks/'+id+'">Notify me</a>':'<button class="dk-pb-b" data-offer="'+id+'">Get</button>')+'</li>'}).join('');
       var src=a.img.replace('-640','-1080');
       return '<article class="dk-card" id="dk-'+esc(a.id)+'" aria-roledescription="slide" aria-label="'+(i+1)+' of '+comps.length+': '+esc(a.short)+'">'+
         '<div class="dk-art"><img src="'+esc(src)+'" alt="Illustration of a fictional composite '+esc((a.sport||'').toLowerCase())+' athlete" '+(i<2?'loading="eager" fetchpriority="'+(i?'auto':'high')+'"':'loading="lazy"')+' decoding="async"><span class="tag-ill">Illustration · Composite</span><span class="dk-div">'+esc(a.div)+'</span></div>'+
         '<div class="dk-txt"><p class="dk-k">'+esc(a.sport)+'</p><h2 class="dk-h">'+esc((a.short||'').replace(/\s*\(composite\)/i,''))+'</h2><p class="dk-route">'+esc(a.from)+' <span>→</span> '+esc(a.college)+'</p>'+
-        '<a class="btn btn--primary dk-read" href="/sports/'+SLUG(a.sport)+'/">Playbooks for '+esc(a.sport)+'</a> <a class="dk-src" style="font-size:13px" href="'+SRC_LINK(a)+'">'+(a.page===false?'Where this comes from':'How this played out')+'</a></div>'+
+        '<a class="btn btn--primary dk-read" href="/sports/'+SLUG(a.sport)+'">Playbooks for '+esc(a.sport)+'</a> <a class="dk-src" style="font-size:13px" href="'+SRC_LINK(a)+'">'+(a.page===false?'Where this comes from':'How this played out')+'</a></div>'+
         '<div class="dk-pbs"><p class="dk-pbl">In this story</p><ul>'+pbs+'</ul></div></article>'}).join('');
     var dots=comps.map(function(a,i){return '<button class="dk-dot" aria-label="Go to '+esc(a.short)+'" data-i="'+i+'"'+(i?'':' aria-current="true"')+'></button>'}).join('');
-    var realLinks=reals.filter(function(a){return !a.hold}).map(function(a){return '<a href="/story/'+esc(a.id)+'/"><b>'+esc(a.short)+'</b><span>'+esc(a.sport)+' · '+esc(a.div)+'</span></a>'}).join('');
+    var realLinks=reals.filter(function(a){return !a.hold}).map(function(a){return '<a href="'+(a.page===false?'/sports/'+SLUG(a.sport):'/story/'+esc(a.id))+'"><b>'+esc(a.short)+'</b><span>'+esc(a.sport)+' · '+esc(a.div)+'</span></a>'}).join('');
     host.innerHTML='<p class="dk-intro">Swipe the stories. Most college athletes don&#39;t go pro; these show how athletes got to college, not what came after.</p>'+
       '<div class="dk-track" tabindex="0" role="region" aria-roledescription="carousel" aria-label="Athlete stories, swipe left or right">'+cards+'</div>'+
       '<div class="dk-dots">'+dots+'</div>'+
