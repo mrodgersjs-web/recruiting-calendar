@@ -250,7 +250,7 @@ BODY = f"""
   rarely say it out loud, and NAIA coaches say it plainly: if a parent writes the email, the coach assumes the player
   cannot read or write well. The parent's job is the paperwork and the dates, not the inbox.</p>
   <p><strong>The subject line.</strong> Class year, position, height, GPA (grade point average), town, and one number that matters:</p>
-  <div class="tmpl">2029 PG | 6'2" | 3.6 GPA unweighted | 14.1 PPG | Geneva Township, WI - film inside</div>
+  <div class="tmpl">2029 PG | 6'2" | 3.6 GPA unweighted | 14.1 PPG | Anytown South, WI - film inside</div>
   <p><strong>The email.</strong> Under 180 words, in the player's own words. One honest line on why this school. The
   video link and the facts. One question. No attachments. Then fill out the sports form on the school's website the
   same day. Many schools put the form in their system and never open the email.</p>
@@ -269,7 +269,8 @@ and if you want me to fill out a form?
 
 Thank you for your time.
 {{first last}} | {{high school}} class of {{class}} | {{phone}} | {{email}}
-High school coach: {{name}}, {{phone}}</div>
+High school coach: {{name}}, {{phone}}
+Camp and combine record: {{camp name, or 'no invite yet'}}</div>
 
   <p><strong>How often.</strong> First email on the day the division allows it. If no one answers, send one short
   follow-up 12 to 14 days later with one new thing in it: your numbers from the weekend, a better clip, a new grade, or

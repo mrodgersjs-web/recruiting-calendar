@@ -95,3 +95,37 @@ Print with the data-URL recipe; `splitcheck2.py`, `headfoot2.py`, `peek.py`, `sc
 * The follow-up advice in the decks came from the W20 lane (call in one to three business
   days). The email-form research says do not re-email inside two weeks. Both are in print,
   and they are about different actions; worth one careful pass before the next reprint.
+
+## W23 addendum, same day: placeholder names in every sample email
+
+Mike's follow-up: "to stay out of any legal questions, let's remove HS names and camps names
+etc. For high school for all emails, use 'Anytown South High School'. If we mention any camps,
+use 'Impact Athletic Development' as camp name."
+
+House rule now, for every book in this line: **no real high school, camp, combine, club,
+circuit or service name inside a sample email or a sample subject line.** School = Anytown
+South High School (the state may stay, because the deck is Wisconsin-specific and a coach
+needs the region). Camp = Impact Athletic Development. Phone numbers use the 555 area code and
+the 555 exchange, and the sample mailboxes are player@example.com and parent@example.com, so
+nothing in a sample points at a real business, school or person. The fictional player names
+(Danny Whitfield, Madison Weber) and the coach surnames (Ferraro, Duarte, Rivera) stay: they
+are plainly invented, and an email without a name in it teaches families nothing.
+
+What came out of the samples in this pass: `Geneva Township High School` and `Geneva Township,
+WI` (all three decks), `the Badger Combine`, and in the men's deck a real school in the subject
+line. Out of an earlier draft also came `Milwaukee Rise`, `Camp Road Mix`, `FootballScoop` and
+`Nike Camp Road`, which is why the girls' sample now says one camp sentence instead of a list
+of brand names. Real names still appear in the decks where they are evidence and sourced: the
+Dan Mullen and David Shaw quotes, NCSA and Go Big in the sources chapter, the Nike EYBL and
+adidas 3SSB circuits in the summer chapter, CDC and Depth Chart numbers in the tables. A sample
+is a made-up letter; a citation is a citation, and only the first has to be fictitious.
+
+Both bodies were also reflowed (the block renders `white-space: pre-wrap`, so a line break in
+the source is a line break on the page) and trimmed to 182 words each, and chapter 6 now prints
+the length rule next to the sample: "Keep the body near 180 words, which is what fits one phone
+screen. The sample below is 182." Subjects are 66 and 73 letters against the printed rule of
+near 70. The men's template gained a `{{camp name, or 'no invite yet'}}` slot.
+
+Page counts after this pass: football 21, girls 20 (the email box plus the new clause pushed the
+follow-up box onto its own page), men's 12. Grades 5.1 and 4.9. No split blocks; header row
+repeats on the long grids.

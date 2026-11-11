@@ -53,4 +53,4 @@ pair.save(T + r"\proof-emails-2026-11-11.png")
 print("proof-emails-2026-11-11.png", pair.size)
 
 sheet("fb8", 11, 208, T + r"\sheet-football-21pp.png", "Football playbook, 21 pages, rewritten email and the size table")
-sheet("wbb8", 10, 208, T + r"\sheet-girls-19pp.png", "Girls' basketball playbook, 19 pages, rewritten email and the size floors")
+sheet("wbb8", 10, 208, T + r"\sheet-girls-19pp.png", "girls' basketball playbook, 20 pages, rewritten email and the size floors")

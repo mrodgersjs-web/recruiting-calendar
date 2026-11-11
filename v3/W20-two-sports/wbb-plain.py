@@ -304,31 +304,33 @@ A("""<section>
   number worth asking about, school, state. Stay near 70 letters, because a phone cuts the rest
   off. Send it from the player's own address, not a parent's. A coach reads dozens of these a week
   in season, so the email has one job: answer his first five questions without a reply, then
-  stop. A girl's academic line matters more here than in the men's game, because a women's staff
+  stop. Keep the body near 180 words, which is what fits one phone screen. The sample below is 182. A girl's academic line matters more here than in the men's game, because a women's staff
   screens on whether she can be admitted, not only on whether she can play.</p>
-  <div class="tmpl">Subject: 2029 PG Madison Weber, 5'7", 12.4 ppg, Geneva Township HS, WI - film inside
+  <div class="tmpl">Subject: 2029 PG Madison Weber, 5'7", 12.4 ppg, Anytown South HS, WI - film inside
 
 Coach Duarte,
 
-I am a 2029 point guard at Geneva Township High School in Wisconsin. I started 26 varsity games
-last season and I broke the press against two 1-2-1 pressures. You press for 40 minutes and want
-a guard who does not need a help body, so that is the fit I am writing about.
+I am a 2029 point guard at Anytown South High School. I started 26 varsity games and broke
+the press against two 1-2-1 pressures. You press for 40 minutes and want a guard who needs
+no help body.
 
-Size, measured barefoot by our club trainer on 22 May 2027: 5 foot 7, wingspan 5 foot 10, 148
-pounds. My line in 26 varsity games in 2026: 12.4 points, 6.1 assists and 3.8 rebounds, with 2.1
-steals and 2.3 assists for every turnover. Shooting, with attempts: 41% from the field (132 of
-322), 31% from three (28 of 91), 82% from the line (61 of 74). GPA 3.62 unweighted on a 4.0 scale,
-on track with the 16 core courses.
+Size, measured barefoot by our club trainer on 22 May 2027: 5 foot 7, wingspan 5 foot 10,
+148 pounds. In 26 varsity games in 2026: 12.4 points, 6.1 assists, 3.8 rebounds, 2.1 steals,
+2.3 assists per turnover. Shooting, with attempts: 41% from the field (132/322), 31% from
+three (28/91), 82% from the line (61/74). GPA 3.62 unweighted on a 4.0 scale, on track with
+the 16 core courses.
 
-Highlights, 2 minutes, circled inside the first three plays, defense included: [link]. One full
-game where we won and one where we did not: [link]. Club team and summer dates: [link]. Coach
-Bellamy, my high-school coach, (414) 555-0112.
+Highlights, 2 minutes, I am circled in the first three plays, defense included: [link]. One
+full game won and one lost: [link]. Club team and summer dates: [link]. My first camp is
+Impact Athletic Development this July, and I will send their numbers. High-school coach:
+Coach Rivera, (555) 555-0112.
 
-Are you the coach for guards, and what do you still need to see?
+Are you the coach for guards? What do you still need to see?
 
 Thank you for your time,
 Madison Weber
-(414) 555-0143 &middot; mweber@example.com &middot; parent copied: weber@example.com
+(555) 555-0143 &middot; player@example.com &middot; parent copied: parent@example.com
+
 </div>
   <div class="box">
     <h3>Label every number, or a coach discounts all of them</h3>

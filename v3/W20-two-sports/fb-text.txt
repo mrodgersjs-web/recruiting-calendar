@@ -424,28 +424,29 @@ Write the subject line as a label, not a greeting: class year, position, name, s
 state. Stay near 70 letters, because a phone cuts the rest off. Send it from the player's own address, not a parent's. A coach
 at a big school reads these by the dozen in January: one FBS recruiting coordinator said he went through 75 emails a
 night, and he said he screens on size and speed before he reads a word. So the email has one job. It answers his first five
-questions without a reply, then it stops.
+questions without a reply, then it stops. Keep the body near 180 words, which is what fits one phone screen. The sample
+below is 182.
 T H E C O M M I T B O O K F O O T B A L L P L AY B O O K · E D I T I O N 2 0 2 6 - 2 7
 EDUCAT ION, NOT LEGA L ADV ICE · NO OUTCOME PROMIS ED 11 / 2 1
 
 ===== PAGE 12 =====
-Subject: 2029 MIKE LB Danny Whitfield, 6'0" 185, 4.94, Geneva Township HS, WI
+Subject: 2029 MIKE LB Danny Whitfield, 6'0" 185, 4.94, Anytown South HS, WI
 Coach Ferraro,
-I am a 2029 middle linebacker at Geneva Township High School in Wisconsin. I started 10 varsity
-games at MIKE and played two special-teams units. You run a 3-3-4 stack, and I have spent two
-seasons reading the A gap against it.
-Size, measured by our athletic trainer on 22 May 2027: 6 foot 0, 185 pounds. Tested at the Badger
-Combine that day, hand-timed: 40 in 4.94, shuttle in 4.68, vertical 27 inches. A hand time runs
-about a fifth of a second fast, so please subtract mine rather than guess.
-My line in 10 varsity games in 2026: 58 tackles, 34 solo, 6 for loss, 1.5 sacks, 3 pass breakups,
-2 interceptions. GPA 3.62 unweighted on a 4.0 scale, on track with the 16 core courses.
-Highlights, 3 minutes, defense included: [link]. One full game, our best opponent: [link]. My next
-three games, number 44: 2, 9 and 16 September. Coach Bellamy, my high-school coach, (414)
-555-0112. I am at your camp on 12 June.
-Are you the coach for linebackers, and what do you still need to see?
+I am a 2029 middle linebacker at Anytown South High School. I started 10 varsity games at
+MIKE and played two special-teams units. You run a 3-3-4 stack. I have spent two seasons
+reading the A gap against it.
+Size, measured by our athletic trainer on 22 May 2027: 6 foot 0, 185 pounds. Tested the same
+day at Impact Athletic Development: hand-timed 40 in 4.94, shuttle 4.68, vertical 27 inches.
+A hand time runs about a fifth of a second fast, so subtract it rather than guess.
+In 10 varsity games in 2026: 58 tackles, 34 solo, 6 for loss, 1.5 sacks, 3 pass breakups, 2
+interceptions. GPA 3.62 unweighted on a 4.0 scale, on track with the 16 core courses.
+Highlights, 3 minutes, defense included: [link]. One full game, our best opponent: [link].
+My next three games, number 44: 2, 9 and 16 September. High-school coach: Coach Rivera, (555)
+555-0112. I am at your 12 June camp.
+Are you the coach for linebackers? What do you still need to see?
 Thank you for your time,
 Danny Whitfield
-(414) 555-0143 · dwhitfield@example.com · parent copied: whitfield@example.com
+(555) 555-0143 · player@example.com · parent copied: parent@example.com
 LABEL EVERY NUMBER, OR A COACH DISCOUNTS ALL OF THEM
 Say who measured it, when, and how. "6 foot 0, 185 pounds, measured by our athletic trainer, 22 May 2027." Height is
 barefoot, or the email says it is not.
