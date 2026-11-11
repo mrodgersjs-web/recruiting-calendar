@@ -250,7 +250,7 @@ BODY = f"""
   rarely say it out loud, and NAIA coaches say it plainly: if a parent writes the email, the coach assumes the player
   cannot read or write well. The parent's job is the paperwork and the dates, not the inbox.</p>
   <p><strong>The subject line.</strong> Class year, position, height, GPA (grade point average), town, and one number that matters:</p>
-  <div class="tmpl">2029 PG | 6'2" | 3.6 GPA | 14.1 PPG | Pewaukee, WI - film inside</div>
+  <div class="tmpl">2029 PG | 6'2" | 3.6 GPA unweighted | 14.1 PPG | Geneva Township, WI - film inside</div>
   <p><strong>The email.</strong> Under 180 words, in the player's own words. One honest line on why this school. The
   video link and the facts. One question. No attachments. Then fill out the sports form on the school's website the
   same day. Many schools put the form in their system and never open the email.</p>

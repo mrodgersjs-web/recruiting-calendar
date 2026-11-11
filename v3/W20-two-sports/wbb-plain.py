@@ -76,9 +76,13 @@ A("""<section class="newpage">
       <tr><td class="d">Equivalency</td><td>How a school adds up partial aid. Ten full grants, or twenty half grants, both equal 10.0.</td></tr>
       <tr><td class="d">Contact</td><td>In the rule book, contact means an in-person meeting. Email and phone calls are separate rules with separate dates.</td></tr>
       <tr><td class="d">Dead period</td><td>No visits and no in-person meetings. Calls and email are still allowed.</td></tr>
+      <tr><td class="d">Unweighted GPA</td><td>Grades on a plain 4.0 scale, no bonus for hard classes. This is the number a coach can compare across states. Print it first.</td></tr>
+      <tr><td class="d">Weighted GPA</td><td>The same grades with extra points for honors and Advanced Placement. Schools add differently, on a 4.3, 5.0 or 6.0 scale, so the number means nothing unless the scale is named next to it.</td></tr>
+      <tr><td class="d">Verified time</td><td>A number a third party took: the college's own camp, an electronic combine, or a documented laser session. Hand-timed is not verified, and runs about 0.2 seconds fast.</td></tr>
+      
       <tr><td class="d">Recruiting shutdown</td><td>The strictest period. No contact at all, not even email or calls.</td></tr>
       <tr><td class="d">Certified event</td><td>A summer team or tournament the NCAA approved in advance, so college coaches are allowed to watch it.</td></tr>
-      <tr><td class="d">Core GPA</td><td>Her grade point average in the 16 school subjects the NCAA counts, not her overall GPA.</td></tr>
+      <tr><td class="d">Core-course GPA</td><td>Her grade point average in only the 16 school subjects the NCAA counts, computed by the NCAA on a 4.0 scale. Division 1 wants at least 2.3 and Division 2 at least 2.2. It is not her overall GPA, and a counselor has to certify which of her classes count.</td></tr>
     </tbody>
   </table>
 </section>""")
@@ -296,35 +300,98 @@ A("""<section>
   </ul>
 
   <h3>The email</h3>
-  <p>Write the subject line the way a coach reads it: name, class year, position, school, and one number worth asking
-  about. Keep it near 60 characters. Send it yourself, not a parent, and not 50 schools at once.</p>
-  <div class="tmpl">Subject: Madison Weber, 2029 PG, Geneva Township, 14.2 GPA, 22 points a game
+  <p>Write the subject line as a label, not a greeting: class year, position, name, size, one
+  number worth asking about, school, state. Stay near 70 letters, because a phone cuts the rest
+  off. Send it from the player's own address, not a parent's. A coach reads dozens of these a week
+  in season, so the email has one job: answer his first five questions without a reply, then
+  stop. A girl's academic line matters more here than in the men's game, because a women's staff
+  screens on whether she can be admitted, not only on whether she can play.</p>
+  <div class="tmpl">Subject: 2029 PG Madison Weber, 5'7", 12.4 ppg, Geneva Township HS, WI - film inside
 
 Coach Duarte,
 
-I play point guard at Geneva Township High School in Wisconsin. My class of 2029
-is ranked first in the state. I am 5 foot 7, I run the team, and I shoot 38% from
-three in the league. My GPA is 14.2 in the core subjects and my counselor can send
-a transcript today.
+I am a 2029 point guard at Geneva Township High School in Wisconsin. I started 26 varsity games
+last season and I broke the press against two 1-2-1 pressures. You press for 40 minutes and want
+a guard who does not need a help body, so that is the fit I am writing about.
 
-Two of my games are filmed this month, and I can send a two-minute edit plus one
-full game. Are you the right coach for guards, and what do you still need to see
-about me?
+Size, measured barefoot by our club trainer on 22 May 2027: 5 foot 7, wingspan 5 foot 10, 148
+pounds. My line in 26 varsity games in 2026: 12.4 points, 6.1 assists and 3.8 rebounds, with 2.1
+steals and 2.3 assists for every turnover. Shooting, with attempts: 41% from the field (132 of
+322), 31% from three (28 of 91), 82% from the line (61 of 74). GPA 3.62 unweighted on a 4.0 scale,
+on track with the 16 core courses.
+
+Highlights, 2 minutes, circled inside the first three plays, defense included: [link]. One full
+game where we won and one where we did not: [link]. Club team and summer dates: [link]. Coach
+Bellamy, my high-school coach, (414) 555-0112.
+
+Are you the coach for guards, and what do you still need to see?
 
 Thank you for your time,
 Madison Weber
-(414) 555-0143 &middot; mweber@example.com &middot; film: drive link, not an attachment</div>
+(414) 555-0143 &middot; mweber@example.com &middot; parent copied: weber@example.com
+</div>
+  <div class="box">
+    <h3>Label every number, or a coach discounts all of them</h3>
+    <ul class="tight" style="margin-bottom:0">
+      <li><strong>Say who measured it, when, and how.</strong> Height barefoot, or the email says
+      it is not. One dataset of 12,714 men's college roster entries found that school-listed heights run
+      about an inch generous.</li>
+      <li><strong>Put attempts next to every percentage.</strong> "38% from three" is nothing until
+      a coach knows whether that is 28 of 91 or 3 of 8, in what league, over how many games.</li>
+      <li><strong>Give the assist-to-turnover ratio with the assists</strong>, because a guard who
+      scores 20 and turns it over 6 times is a liability at the next level.</li>
+      <li><strong>There is no published size standard.</strong> No association, and no women's
+      coach on record, states a height, wingspan or sprint minimum by position and level. Every
+      floor in the market comes from a service that wants your money. Read the next table that way.</li>
+      <li><strong>A missing number is read as a bad number.</strong> Leave the wingspan off and the
+      coach assumes it is short. Measure it once, properly, and put the date on it.</li>
+    </ul>
+  </div>
+
+  <h3>What the services say a body has to look like</h3>
+  <p>Two recruiting services publish the ladder below. They are floors, not rules, and no coach is
+  obliged to hold you to them. The points and assists are per game, over a season.</p>
+  <table class="flow">
+    <thead><tr><th>Position</th><th>High D1</th><th>Low D1, high D2</th><th>Low D2, NAIA, high D3</th><th>D3, junior college</th></tr></thead>
+    <tbody>
+      <tr><td class="d">Point guard</td><td>5'8", 10 ppg, 4 apg</td><td>5'7", 10 ppg, 3 apg</td><td>5'6", 8 ppg, 2.5 apg</td><td>5'5", 6 ppg, 2 apg</td></tr>
+      <tr><td class="d">Two guard</td><td>5'10", 12+ ppg</td><td>5'8", 10+ ppg</td><td>5'8", 9+ ppg</td><td>5'8", 8+ ppg</td></tr>
+      <tr><td class="d">Three</td><td>5'11", 12 ppg, 8 rpg</td><td>5'10", 11 ppg, 5 rpg</td><td>5'9", 9 ppg, 4 rpg</td><td>5'8", 7 ppg, 3 rpg</td></tr>
+      <tr><td class="d">Four</td><td>6'0", 12 ppg, 10 rpg</td><td>5'11", 9 ppg, 6 rpg</td><td>5'10", 8 ppg, 5 rpg</td><td>5'9", 6 ppg, 5 rpg</td></tr>
+      <tr><td class="d">Five</td><td>6'2", 12 ppg, 12 rpg</td><td>6'0", 11 ppg, 8 rpg</td><td>5'11", 9 ppg, 7 rpg</td><td>5'11", 7 ppg, 6 rpg</td></tr>
+    </tbody>
+  </table>
+  <p class="small">Floors from All American Sports Recruiting and Go Big Recruiting, both opened 11
+  November 2026, with the two sets merged. Nothing in this table is an association rule. For scale, most girls are within about an inch of their adult height by 15, so the size line she sends as a sophomore is close to the final one.</p>
+
+  <div class="box red">
+    <h3>Leave these out of the email</h3>
+    <ul class="tight" style="margin-bottom:0">
+      <li>A team ranking nobody can link to. "First in the state" invites one search, and if the
+      search fails the whole email reads as spin.</li>
+      <li>A weighted GPA with no scale next to it. There is no scale anywhere in the country that
+      produces 14.2.</li>
+      <li>Hand size, sprint times and verticals with no named measurer and no date.</li>
+      <li>Free throws, warm-ups, and a dunk reel in the highlight. Six women's coaches on record
+      want two minutes, the player circled inside the first three plays, and defense shown.</li>
+      <li>Talk of other offers, star ratings, and any ask about money on the first contact.</li>
+      <li>Attachments, more than three links, her birth date, and the home address.</li>
+    </ul>
+  </div>
+
 
   <h3>What goes on the one page she sends with it</h3>
   <table>
     <thead><tr><th>Field</th><th>Why a coach needs it</th></tr></thead>
     <tbody>
-      <tr><td class="d">Name, position, height, weight</td><td>The coach is trying to fill a role, not pick a person. Give him the role.</td></tr>
-      <tr><td class="d">Class year and school</td><td>Tells him which calendar she is on.</td></tr>
-      <tr><td class="d">Cumulative GPA and core GPA</td><td>Academic fit decides whether an offer is usable.</td></tr>
-      <tr><td class="d">Film links</td><td>Two-minute edit and one full game. Link, not attachment.</td></tr>
-      <tr><td class="d">Club and high-school coach, with phone</td><td>The next two calls he will make. Put the numbers on the page so he does not have to ask.</td></tr>
-      <tr><td class="d">Dates she can travel, and her camps</td><td>He cannot plan a visit if he has to email you four times to find out when you can travel.</td></tr>
+      <tr><td class="d">Name, position, barefoot height, wingspan</td><td>A coach fills a role, not a seat. Give him the role, and give him the size measured the way he will measure it.</td></tr>
+      <tr><td class="d">Class year, school, city, state, club and circuit</td><td>Tells him which calendar she is on and what level of competition the stats came against.</td></tr>
+      <tr><td class="d">Per-game stats with games played, and attempts on every percentage</td><td>Let him check the line in one look instead of asking three questions.</td></tr>
+      <tr><td class="d">GPA with its scale, and where she stands on the 16 core courses</td><td>Academic fit decides whether an offer is usable at all. A women's staff screens on it early.</td></tr>
+      <tr><td class="d">Two links: 2-minute highlights, then one full game</td><td>Label which is which. Link, never an attachment, and the link must open with no login.</td></tr>
+      <tr><td class="d">Her summer club, the circuit, and the dates</td><td>Summer 2027 is where most women's staffs make their mind up. He needs the dates to plan a trip.</td></tr>
+      <tr><td class="d">Both coaches, with phone numbers</td><td>The next two calls he will make. Put the numbers on the page so he does not have to ask.</td></tr>
+      <tr><td class="d">Her own phone and email, with the parent line labelled</td><td>A parent writing in the player's voice is the first thing a coach notices, and not in a good way.</td></tr>
     </tbody>
   </table>
 
@@ -445,7 +512,7 @@ A("""<section>
     <tbody>
       <tr><td class="d">9th grade</td><td>Play the highest level she can handle. Keep every grade, including the subjects she is not good at. Start a folder for film dates and stats. Spend nothing on recruiting yet.</td></tr>
       <tr><td class="d">10th grade</td><td>Make the video once and make it good. Build the list of 40 to 55 schools across all five levels. Learn the calendar in Chapter 3. From 1 June after this year a coach may email and call, so send the first round that month.</td></tr>
-      <tr><td class="d">11th grade</td><td>Counselor checks every credit against the NCAA list. Register the free Eligibility Center page. Ask for paid visits from 1 January. Play on a certified summer team and film two games. Send grades in the fall.</td></tr>
+      <tr><td class="d">11th grade</td><td>Four approved core courses a year keeps every door open. A 2.3 core GPA is the Division 1 floor and 2.2 is the Division 2 floor; a 3.0 keeps the early-qualifier option. Counselor checks every credit against the NCAA list. Register the free Eligibility Center page. Ask for paid visits from 1 January. Play on a certified summer team and film two games. Send grades in the fall.</td></tr>
       <tr><td class="d">12th grade, before Aug 1</td><td>Send one update with new film. Expect silence from 1 April through 31 July; that is the rule, not a signal. Make sure a full game sits behind the highlight reel.</td></tr>
       <tr><td class="d">12th grade, Aug to Nov</td><td>Ask each school for the written number and the date it arrives. Take the three visits that matter. Settle every question before the November window, then sign if the paper is right.</td></tr>
       <tr><td class="d">After signing</td><td>Do not let grades fall. Finish the 16 subjects and graduate. Send the final transcript the week the school asks for it.</td></tr>

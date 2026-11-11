@@ -1,0 +1,10 @@
+import re, html, pathlib, sys
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+t = pathlib.Path("fb-playbook-plain.html").read_text(encoding="utf-8")
+m = re.search(r'<div class="tmpl">(.*?)</div>', t, re.S)
+body = re.sub(r"<[^>]+>", "", m.group(1))
+print("subject letters:", len(body.strip().splitlines()[0]) - len("Subject: "))
+words = len(re.findall(r"\w+", re.sub(r"<[^>]+>", " ", m.group(1))))
+print("email words:", words)
+print("new blocks present:", t.count("Label every number"), t.count("What the size targets really are"), t.count("Leave these out of the email"))
+print("glossary rows:", t.count("Core-course GPA"), "| checklist:", "2.3 core GPA" in t)
