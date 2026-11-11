@@ -21,3 +21,6 @@ v3/W13-copy/ogprobe.py
 v3/W13-copy/livecheck*.py
 v3/W13-copy/equiv*.py
 v3/W13-copy/ghcheck.py
+
+# python bytecode from the lane scripts
+__pycache__/
