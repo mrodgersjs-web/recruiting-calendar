@@ -319,5 +319,219 @@ window.RC_DATA={
     "sort": "2029-06-30"
    }
   ]
+ },
+ "basketball_girls": {
+  "class_year": 2029,
+  "verified_on": "2026-11-11",
+  "source_label": "2026-27 NCAA Division I Manual",
+  "deadlines": [
+   {
+    "iso_date": "2026-11-15",
+    "kind": "action",
+    "event": "Have the counselor check every course against the NCAA list",
+    "plain_english": "Map completed and planned classes against your school's NCAA-approved course list. Not every class counts. This is our recommended date, not an NCAA one.",
+    "cost_if_missed": "Problems found in 12th grade are often too late to fix.",
+    "rule": "D1 Bylaw 14.3.1.1",
+    "citation_url": "https://web3.ncaa.org/lsdbi/reports/getReport/90008",
+    "sort": "2026-11-15"
+   },
+   {
+    "iso_date": "2027-06-01",
+    "kind": "opening",
+    "event": "D1 women's basketball coaches may start calling, texting and emailing",
+    "plain_english": "A coach may phone, text or email her on this date, one day earlier than in men's basketball. Off-campus meetings are still months away.",
+    "cost_if_missed": "None for starting later. A coach who calls earlier than this is behind on the rule.",
+    "rule": "D1 Bylaws 13.1.3.1.5, 13.4.1.6",
+    "citation_url": "https://web3.ncaa.org/lsdbi/reports/getReport/90008",
+    "sort": "2027-06-01"
+   },
+   {
+    "iso_date": "2028-01-01",
+    "kind": "opening",
+    "event": "Paid campus visits may begin",
+    "plain_english": "The school pays. In men's basketball this date is August 1 of 11th grade, seven months earlier.",
+    "cost_if_missed": "You lose a full season of free look-rounds at the schools she wants most.",
+    "rule": "D1 Bylaw 13.6.2.1.6",
+    "citation_url": "https://web3.ncaa.org/lsdbi/reports/getReport/90008",
+    "sort": "2028-01-01"
+   },
+   {
+    "iso_date": "2028-04-01",
+    "kind": "window",
+    "event": "Contact stops completely until 31 July",
+    "plain_english": "No calls, no texts, no email, no visits with her, her family or her club coach from 1 April through 31 July. Evaluation happens only at approved events on set weekends. Silence in this window is the rule, not a lack of interest.",
+    "cost_if_missed": "Families read the silence as a no and stop working their list. A coach who replies in this window may be out of rule.",
+    "rule": "D1 Bylaws 13.1.5.5.2, 13.1.3.1.5.1; women's basketball calendar",
+    "citation_url": "https://ncaaorg.s3.amazonaws.com/compliance/recruiting/calendar/2026-27/2026-27D1Rec_Women%27sBasketballRecruitingCalendar.pdf",
+    "sort": "2028-04-01"
+   },
+   {
+    "iso_date": "2028-08-01",
+    "kind": "opening",
+    "event": "Written aid offers may go out",
+    "plain_english": "In every sport except football, a school may not put an aid number in writing before 1 August of 12th grade. Ask for the number in writing in October.",
+    "cost_if_missed": "A verbal number she cannot hold. Coaches may talk before this date, and they do.",
+    "rule": "D1 Bylaw 13.9.3.1",
+    "citation_url": "https://web3.ncaa.org/lsdbi/reports/getReport/90008",
+    "sort": "2028-08-01"
+   },
+   {
+    "iso_date": "2028-09-01",
+    "kind": "opening",
+    "event": "Off-campus contact may begin",
+    "plain_english": "A coach may meet her away from campus, only at her school or her home. In men's basketball this is allowed a full school year earlier.",
+    "cost_if_missed": "Late meetings cost her the fall, when every other family is already in the gym.",
+    "rule": "D1 Bylaw 13.1.1.1.5",
+    "citation_url": "https://web3.ncaa.org/lsdbi/reports/getReport/90008",
+    "sort": "2028-09-01"
+   },
+   {
+    "iso_date": "2028-10-01",
+    "kind": "action",
+    "event": "Ask every school the same two questions",
+    "plain_english": "Where do I stand on your list, and what do you still need to see? Do this in writing, the same week, to every school on the list.",
+    "cost_if_missed": "A school that is not asked does not always answer on its own.",
+    "rule": "Our recommended date",
+    "citation_url": "https://web3.ncaa.org/lsdbi/reports/getReport/90008",
+    "sort": "2028-10-01"
+   },
+   {
+    "iso_date": "2028-11-08",
+    "kind": "projected",
+    "event": "Early signing period for basketball (projected 8 to 15 Nov)",
+    "plain_english": "The rule is the second Wednesday in November through the following Wednesday. The 2028-29 calendar is not published yet, so hold this a week either way.",
+    "cost_if_missed": "She can still sign in April. What she loses is the chance to finish recruiting in November.",
+    "rule": "D1 Bylaw 13.02.13.1",
+    "citation_url": "https://web3.ncaa.org/lsdbi/reports/getReport/90008",
+    "sort": "2028-11-08"
+   },
+   {
+    "iso_date": "2028-11-01",
+    "kind": "hard",
+    "event": "Junior college letters of intent may be signed",
+    "plain_english": "A junior college letter binds one school year at one school, and a parent signs it if she is under 18. Leaving early needs that school's written release.",
+    "cost_if_missed": "One letter can stop her from signing with any other junior college that fall.",
+    "rule": "NJCAA 2026-27 Sports Procedures Chart",
+    "citation_url": "https://www.njcaa.org/",
+    "sort": "2028-11-01"
+   },
+   {
+    "iso_date": "2029-04-11",
+    "kind": "projected",
+    "event": "Regular signing period for basketball (projected 11 Apr)",
+    "plain_english": "The second Wednesday in April. There is no late period in basketball, so this is the last clear door for a regular aid agreement.",
+    "cost_if_missed": "After this date a school must find room on the roster during the year.",
+    "rule": "D1 Bylaw 13.02.13.1",
+    "citation_url": "https://web3.ncaa.org/lsdbi/reports/getReport/90008",
+    "sort": "2029-04-11"
+   }
+  ]
+ },
+ "basketball_boys": {
+  "class_year": 2029,
+  "verified_on": "2026-11-11",
+  "source_label": "2026-27 NCAA Division I Manual",
+  "deadlines": [
+   {
+    "iso_date": "2026-11-15",
+    "kind": "action",
+    "event": "Have the counselor check every course against the NCAA list",
+    "plain_english": "Map completed and planned classes against your school's NCAA-approved course list. Not every class counts. This is our recommended date, not an NCAA one.",
+    "cost_if_missed": "Problems found in 12th grade are often too late to fix.",
+    "rule": "D1 Bylaw 14.3.1.1",
+    "citation_url": "https://web3.ncaa.org/lsdbi/reports/getReport/90008",
+    "sort": "2026-11-15"
+   },
+   {
+    "iso_date": "2027-06-15",
+    "kind": "opening",
+    "event": "D1 men's basketball coaches may start calling, texting and emailing",
+    "plain_english": "A coach may phone, text or email him from this date. This is the single date most guides get wrong for basketball.",
+    "cost_if_missed": "None for starting later. A coach who calls earlier than this is behind on the rule.",
+    "rule": "D1 Bylaw 13.1.3.1.6",
+    "citation_url": "https://web3.ncaa.org/lsdbi/reports/getReport/90008",
+    "sort": "2027-06-15"
+   },
+   {
+    "iso_date": "2027-08-01",
+    "kind": "opening",
+    "event": "Paid campus visits may begin",
+    "plain_english": "The school pays. In women's basketball this date is 1 January of 11th grade instead.",
+    "cost_if_missed": "You lose the fall and winter look-rounds at the schools he wants most.",
+    "rule": "D1 Bylaw 13.6.2.1.5",
+    "citation_url": "https://web3.ncaa.org/lsdbi/reports/getReport/90008",
+    "sort": "2027-08-01"
+   },
+   {
+    "iso_date": "2027-09-01",
+    "kind": "opening",
+    "event": "Off-campus contact may begin, on the first day of 11th grade",
+    "plain_english": "Use your school's real first day, not September 1. Through 11th grade a coach may only meet him at his school, except during the April windows.",
+    "cost_if_missed": "A meeting a week early is a violation, and it can wipe out his paperwork at that school.",
+    "rule": "D1 Bylaw 13.1.1.1.3",
+    "citation_url": "https://web3.ncaa.org/lsdbi/reports/getReport/90008",
+    "sort": "2027-09-01"
+   },
+   {
+    "iso_date": "2028-04-01",
+    "kind": "window",
+    "event": "April evaluation and contact windows",
+    "plain_english": "The men's calendar gives April recruiting periods that other sports do not get. This is the month a family can push hardest.",
+    "cost_if_missed": "Miss the April windows and the next real chance is the grassroots season.",
+    "rule": "D1 men's basketball recruiting calendar",
+    "citation_url": "https://ncaaorg.s3.amazonaws.com/compliance/recruiting/calendar/2026-27/2026-27D1Rec_Men%27sBasketballRecruitingCalendar.pdf",
+    "sort": "2028-04-01"
+   },
+   {
+    "iso_date": "2028-08-01",
+    "kind": "opening",
+    "event": "Written aid offers may go out",
+    "plain_english": "In every sport except football, a school may not put an aid number in writing before 1 August of 12th grade. Ask for the number in writing in October.",
+    "cost_if_missed": "A verbal number he cannot hold. Coaches may talk before this date, and they do.",
+    "rule": "D1 Bylaw 13.9.3.1",
+    "citation_url": "https://web3.ncaa.org/lsdbi/reports/getReport/90008",
+    "sort": "2028-08-01"
+   },
+   {
+    "iso_date": "2028-10-01",
+    "kind": "action",
+    "event": "Ask every school the same two questions",
+    "plain_english": "Where do I stand on your list, and what do you still need to see? Do this in writing, the same week, to every school on the list.",
+    "cost_if_missed": "A school that is not asked does not always answer on its own.",
+    "rule": "Our recommended date",
+    "citation_url": "https://web3.ncaa.org/lsdbi/reports/getReport/90008",
+    "sort": "2028-10-01"
+   },
+   {
+    "iso_date": "2028-11-08",
+    "kind": "projected",
+    "event": "Early signing period for basketball (projected 8 to 15 Nov)",
+    "plain_english": "The rule is the second Wednesday in November through the following Wednesday. The 2028-29 calendar is not published yet, so hold this a week either way.",
+    "cost_if_missed": "He can still sign in April. What he loses is the chance to finish recruiting in November.",
+    "rule": "D1 Bylaw 13.02.13.1",
+    "citation_url": "https://web3.ncaa.org/lsdbi/reports/getReport/90008",
+    "sort": "2028-11-08"
+   },
+   {
+    "iso_date": "2028-11-01",
+    "kind": "hard",
+    "event": "Junior college letters of intent may be signed",
+    "plain_english": "A junior college letter binds one school year at one school, and a parent signs it if he is under 18. Leaving early needs that school's written release.",
+    "cost_if_missed": "One letter can stop him from signing with any other junior college that fall.",
+    "rule": "NJCAA 2026-27 Sports Procedures Chart",
+    "citation_url": "https://www.njcaa.org/",
+    "sort": "2028-11-01"
+   },
+   {
+    "iso_date": "2029-04-11",
+    "kind": "projected",
+    "event": "Regular signing period for basketball (projected 11 Apr)",
+    "plain_english": "The second Wednesday in April. There is no late period in basketball, so this is the last clear door for a regular aid agreement.",
+    "cost_if_missed": "After this date a school must find room on the roster during the year.",
+    "rule": "D1 Bylaw 13.02.13.1",
+    "citation_url": "https://web3.ncaa.org/lsdbi/reports/getReport/90008",
+    "sort": "2029-04-11"
+   }
+  ]
  }
 };

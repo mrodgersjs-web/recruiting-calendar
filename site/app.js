@@ -2,7 +2,7 @@
  const FREE=3, M=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
  const $=id=>document.getElementById(id);
  $('today')&&($('today').textContent=new Date().toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric',year:'numeric'}));
- const NAMES={baseball:'Baseball',football:'Football',track:'Track & field / cross country'};
+ const NAMES={baseball:'Baseball',football:'Football',track:'Track & field / cross country',basketball_girls:'Girls\' basketball',basketball_boys:'Boys\' basketball'};
  function render(){
   const sport=$('sport').value, cls=+$('cls').value, set=(window.RC_DATA||{})[sport];
   $('dates-title').textContent=NAMES[sport]+', Class of '+cls;
