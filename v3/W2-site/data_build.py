@@ -70,6 +70,10 @@ for c in json.load(open(R+'/v3/W4-composites/COMPOSITES.json'))['stories']:
    'timeline':[],'basis':c['basis'],'turning':[],'replicate':[],'img':c['img'],'video':'','poster':'','hold':False,'playbooks':c['playbooks'],'beats':c['beats'],'rule':c['rule'],'real_person':False})
 assert not any(a['img'] and not a['composite'] and not a.get('art_fictional') for a in out), 'a real-athlete card may only carry a fictional-art figure'
 # ring order: figures lead, composites interleaved with real posters
+# W26 (Mike 2026-11-11): one athlete per sport. The duplicate cards, their art and their links
+# are deleted, so a rebuild must not put them back. Composites survive where a sport had two.
+DROP26={'hunter','ali','karsta','samantha','cedric','jimmy','sara','olivia','cristelle','annie'}
+out=[a for a in out if a['id'] not in DROP26]
 cs=[a for a in out if a['composite']];rs=[a for a in out if not a['composite']];o=[]
 while cs or rs:
   if cs:o.append(cs.pop(0))

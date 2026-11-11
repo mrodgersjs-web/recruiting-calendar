@@ -5,7 +5,7 @@ function SPORT_PATH(a){var s=String(a.sport||'').toLowerCase();if(s.indexOf('tra
 // product is built. Order: women's volleyball, men's football, men's basketball,
 // women's basketball, then the rest of the written sports, then the pending sports.
 var FRONT_IDS=["composite-volleyball","composite-football","derrick","composite-wbasketball"];
-var WOMENS_BB={"composite-wbasketball":1,"samantha":1};
+var WOMENS_BB={"composite-wbasketball":1};
 function builtInfo(a){
  var s=String(a.sport||"").toLowerCase();
  if(s.indexOf("volleyball")>-1)return{built:true,label:"Women's Volleyball"};
@@ -15,9 +15,10 @@ function builtInfo(a){
 }
 function isPending(a){return!builtInfo(a).built}
 function orderBuilt(list){
- var L=list.slice(),first=[],live=[],pend=[];
- FRONT_IDS.forEach(function(id){for(var i=0;i<L.length;i++){if(L[i].id===id){first.push(L[i]);L.splice(i,1);return}}});
- for(var j=0;j<L.length;j++){(isPending(L[j])?pend:live).push(L[j])}
+ var L=list.slice(),first=[],live=[],pend=[],seen={};
+ function take(a){var k=builtInfo(a).label;if(seen[k])return;seen[k]=1;(isPending(a)?pend:live).push(a)}
+ FRONT_IDS.forEach(function(id){for(var i=0;i<L.length;i++){if(L[i].id===id){first.push(L[i]);seen[builtInfo(L[i]).label]=1;L.splice(i,1);return}}});
+ for(var j=0;j<L.length;j++){take(L[j])}
  return first.concat(live,pend);
 }
 // <story-ring>: 3D ring carousel engine (mechanics per Runway spec s7-9), athlete-card content model.

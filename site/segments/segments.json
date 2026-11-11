@@ -60,8 +60,8 @@
     }
    ],
    "story": {
-    "label": "Perez: started in eighth grade and still found a home",
-    "href": "/athlete/tori/"
+    "label": "Tori: started in eighth grade and still found a home",
+    "href": "/sports/lacrosse"
    },
    "spend_note": "Free path. Budget line to protect: nothing recurring before sophomore summer."
   },
@@ -108,7 +108,7 @@
    ],
    "story": {
     "label": "Diego: junior college is a real first step",
-    "href": "/athlete/composite-baseball/"
+    "href": "/sports/baseball"
    },
    "spend_note": "Spend only on verified essentials. One targeted camp, after a coach has replied."
   },
@@ -116,7 +116,7 @@
    "id": 3,
    "key": "burned",
    "name": "Burned by a Paid Recruiting Service or Showcase Circuit",
-   "tag": "Paid $1,500–$4,200 and wants out",
+   "tag": "Paid $1,500\u2013$4,200 and wants out",
    "who": "Family that paid a recruiting service or ran the showcase circuit and is asking 'was it worth it, and how do we cancel?' Parents in the sample report up to about $4K plus monthly fees.",
    "chains": [
     3,
@@ -161,8 +161,8 @@
     }
    ],
    "story": {
-    "label": "Coward: zero D1 offers, a D3 start, a long climb",
-    "href": "/athlete/cedric/"
+    "label": "Men's basketball: zero D1 offers, a D3 start, a long climb",
+    "href": "/sports/basketball"
    },
    "spend_note": "Cancellation terms vary by contract. Read yours; this site gives education, not legal advice."
   },
@@ -208,8 +208,8 @@
     }
    ],
    "story": {
-    "label": "Marpet: no D1 offers? Division III can build an athlete",
-    "href": "/athlete/ali/"
+    "label": "Football: no D1 offers? Division III can build an athlete",
+    "href": "/sports/football"
    },
    "spend_note": "Highest household spend in the Aspen data ($100K+ band). Spend on visits that matter, not on volume."
   },
@@ -217,7 +217,7 @@
    "id": 5,
    "key": "clock",
    "name": "Clock/Mark Sport: Track, XC, Swim",
-   "tag": "Your times are the résumé",
+   "tag": "Your times are the r\u00e9sum\u00e9",
    "who": "Athlete whose numbers are public. The lever is a verified mark at a meet coaches use, a clear list, and the right email, not a flashy video.",
    "chains": [
     4,
@@ -256,7 +256,7 @@
    ],
    "story": {
     "label": "Maya: her times were good, nobody knew yet",
-    "href": "/athlete/composite-swim/"
+    "href": "/sports/swimming"
    },
    "spend_note": "Aspen 2019 average for track is $191 and swimming $786, so the budget is modest. Protect it."
   },
@@ -309,8 +309,8 @@
     }
    ],
    "story": {
-    "label": "Rodriguez: stepped away? A new program can still find you",
-    "href": "/athlete/cristelle/"
+    "label": "Wrestling: stepped away? a new program can still find you",
+    "href": "/sports/wrestling"
    },
    "spend_note": "Cheap sports but a high information need. An emerging-sports program list is not on the site yet."
   }
@@ -812,8 +812,8 @@
   }
  ],
  "badges": {
-  "EVIDENCED": "EVIDENCED — Social Fetch / Primary Rule",
-  "INFERRED": "INFERRED — Working Hypothesis"
+  "EVIDENCED": "EVIDENCED \u2014 Social Fetch / Primary Rule",
+  "INFERRED": "INFERRED \u2014 Working Hypothesis"
  },
  "spending": {
   "source": "Aspen Institute Project Play, National Youth Sports Parent Survey, 2024 (n=1,848, fielded Nov-Dec 2024)",

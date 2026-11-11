@@ -71,9 +71,85 @@ edited by hand.
 - Production at the time of writing (still `a8b25e9`) shows `Path 1: Swimming` and a football front
   card with no pending stamps - that is the "before" state until Mike says deploy.
 
+## Second pass, same day: one athlete per sport
+
+Mike looked at the ring and cut it to one card per sport: "keep Ava for Woman volleyball, Marcus for
+football, Derrick for men's basketball, Jasmine for Women's basketball" and "Delete all images and
+links to duplicates of those 4 sports." Derrick also needed a male figure, because slot 3 was drawn
+with the women's illustration.
+
+What went (10 of 21 records):
+
+| Dropped | Why |
+|---|---|
+| `hunter`, `ali` | second and third football athlete; Marcus keeps the slot |
+| `karsta` | second volleyball athlete; Ava keeps the slot |
+| `samantha` | second women's basketball athlete; Jasmine keeps the slot |
+| `cedric`, `jimmy` | second and third men's basketball athlete; Derrick keeps the slot |
+| `sara`, `olivia` | second swimming and softball athlete |
+| `cristelle` | second wrestling athlete |
+| `annie` | the third track athlete, already held back behind `?flags=all` |
+
+The rule was applied to every sport, not just the four he named, because "one athlete per sport" is
+the same rule either way, and the pending sports would show the same doubling he had just complained
+about. Basketball stays two cards because men's and women's basketball are two products.
+
+**The ring is now 11 cards**: Ava, Marcus, Derrick, Jasmine, then Maya (Swimming), Diego (Baseball),
+Kayla (Softball), Tyler (Wrestling), Nia (Track & Field), Tori (Lacrosse), Chris (Soccer).
+
+### Derrick's figure
+
+An image API call returned `403 Forbidden`, so no new art. The original male basketball illustration
+was still in git history: `ab44c79` deleted `cut-derrick-640.webp` and `cut-derrick-1080.webp` when
+the ring was redrawn, so both files came back with `git checkout ab44c79^ --`. Verified against the
+house art rules rather than by eye:
+
+- 640x1137 and 1080x1919, aspect 0.5629 against a 9:16 target; the same ratio as every other figure,
+  so the card's `object-position` still frames him the same way.
+- transparent cutout: the figure covers 35% of the canvas, no chroma-green residue left (0.000%).
+- it is a different picture from the women's figure, not a copy of it, and on the rendered card the
+  two differ by a mean channel delta of 48.5 out of 255.
+- the ball reads: 15% of the opaque pixels are basketball orange.
+
+Both sizes are back because `deck.js` swaps `-640` for `-1080` at runtime; only serving one would
+break the mobile story deck.
+
+### Everything a deleted athlete touched
+
+- `site/assets/stories.js`: 21 records -> 11.
+- `site/IMAGES.json`: 10 manifest rows for the deleted figures (their art files were already gone from
+  the tree; nothing else references them).
+- `v3/W2-site/data_build.py`: the same 10 ids in a `DROP26` set, so a rebuild cannot resurrect them.
+- `site/assets/ring.js`: `orderBuilt` now skips a sport it has already placed, so even if a duplicate
+  ever comes back through the data it cannot appear twice on screen.
+- `site/segments/segments.json` + `v3/W11-segments/build_data.py`: 6 story links now go to
+  `/sports/<sport>` instead of `/story/<name>`, and the labels lost their surnames ("Football: no D1
+  offers, D2 and JUCH offers"), so the generator will not put them back.
+- `site/emerging-sports/data.json`: 3 story links repointed to `/sports/wrestling`,
+  `/sports/volleyball`, `/sports/lacrosse`; the label is "a composite NAIA wrestling path". One
+  sourced sentence naming the deleted wrestler went with her, because its evidence was her record.
+- `vercel.json`: untouched on purpose. Every deleted `/story/<id>` and `/athlete/<id>` still 301s to
+  its sport page, so old emails, bookmarks and Google links land somewhere live.
+- Left alone on purpose: "Jimmy Butler" on two playbook pages is a cited real person in a source
+  line, not our athlete.
+
+### Checked in the browser
+
+- 11 ticks: `Path 1: Women's Volleyball`, `Path 2: Men's Football`, `Path 3: Men's Basketball`,
+  `Path 4: Women's Basketball`, then seven `Pending: <sport>`.
+- All 11 cards' art loads. Derrick's loads `cut-derrick-640.webp`; the mobile deck requests
+  `cut-derrick-1080.webp` and both serve 200 `image/webp`.
+- Clicking each of the four written athletes lands on its live playbook page. No console errors.
+- The pending front card's figure measures mean colour 0.0 (grey), carries a `Pending` band, and does
+  not navigate on click or Enter.
+- `/segments/` and `/emerging-sports/` render with no surname and no `/story/` or `/athlete/` link.
+
 ## Open
 
-- Men's and women's basketball share one illustration (`cut-wbasketball-640.webp`); there is no
-  men's basketball art. Slot 3 is labelled correctly but drawn with the women's figure.
-- Only the home page ring was gated. `/sports/<pending sport>` pages and the store still sell the
-  OUTLINE playbooks; the pending rule is Mike's carousel call, not a whole-site rule yet.
+- Nothing is deployed. Production is still `a8b25e9`, which shows the old ring: swimming in front,
+  no grey, no PENDING, all 21 athletes.
+- Tori (lacrosse goalie) and Chris (soccer) borrow the wrestling and sprinter figures; that was true
+  before this pass and is a pending sport's art problem, not a duplicate.
+- Only the home page ring enforces one-per-sport. The store and `/sports/` pages still list the
+  OUTLINE playbooks, which is Mike's pricing call, not a data one.
+

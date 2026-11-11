@@ -70,7 +70,7 @@
         },
         "naia": {
           "status": "NAIA championship sport",
-          "detail": "The NAIA first held a women's wrestling invitational in 2018 and adopted it as its 28th championship sport in 2022. NAIA eligibility and recruiting rules sit in NAIA Bylaws Article V Section C (2026-27 NAIA Official Handbook). Cristelle became an NAIA program's first NAIA champion in 2024.",
+          "detail": "The NAIA first held a women's wrestling invitational in 2018 and adopted it as its 28th championship sport in 2022. NAIA eligibility and recruiting rules sit in NAIA Bylaws Article V Section C (2026-27 NAIA Official Handbook).",
           "url": "https://www.naia.org/news/insights/the-first-association-to-recognize-womens-wrestling"
         },
         "njcaa": {
@@ -79,7 +79,7 @@
           "url": "https://nwcaonline.com/sports/2023/4/3/womens-wrestling-facts-resources.aspx"
         }
       },
-      "story": "/story/cristelle"
+      "story": "/sports/wrestling"
     },
     {
       "id": "boys-volleyball",
@@ -110,27 +110,69 @@
           "url": "https://www.njcaa.org/sports/mvball/2025-26/releases/20260113pbzbdc"
         }
       },
-      "story": "/story/composite-volleyball"
+      "story": "/sports/volleyball"
     }
   ],
   "avca_programs_url": "https://www.avca.org/resource/collegiate-mens-programs-list-map/",
   "links": {
     "stories": [
-      {"href": "/story/cristelle", "label": "Cristelle: NAIA women's wrestling at an NAIA program", "kind": "real"},
-      {"href": "/story/composite-volleyball", "label": "Ava (composite): late specializer, close-to-home D2 volleyball", "kind": "composite"},
-      {"href": "/story/composite-wrestling", "label": "Tyler (composite): stepped away, came back, D3 wrestling", "kind": "composite"},
-      {"href": "/story/tori", "label": "Tori: lacrosse goalie who started in 8th grade, D3 a D3 program", "kind": "real"}
+      {
+        "href": "/sports/volleyball",
+        "label": "Ava (composite): late specializer, close-to-home D2 volleyball",
+        "kind": "composite"
+      },
+      {
+        "href": "/sports/wrestling",
+        "label": "Tyler (composite): stepped away, came back, D3 wrestling",
+        "kind": "composite"
+      },
+      {
+        "href": "/sports/lacrosse",
+        "label": "Tori: lacrosse goalie who started in 8th grade, D3 a D3 program",
+        "kind": "real"
+      }
     ],
     "tools": [
-      {"href": "/access", "label": "Access tools: contact kit and worksheets"},
-      {"href": "/recruitiq", "label": "RecruitIQ: your numbers next to named programs' published marks"}
+      {
+        "href": "/access",
+        "label": "Access tools: contact kit and worksheets"
+      },
+      {
+        "href": "/recruitiq",
+        "label": "RecruitIQ: your numbers next to named programs' published marks"
+      }
     ]
   },
   "aid_rules": [
-    {"id": "naia", "level": "NAIA", "text": "Athletic aid is limited to tuition, fees, books, room and board, with a per-sport limit of full-grant equivalencies that a program can split across any number of players. Check the NAIA Official Handbook and the NAIA financial aid page for the sport's exact limit.", "url": "https://www.naia.org/student-athletes/current/financial-aid"},
-    {"id": "d1", "level": "NCAA Division I", "text": "Aid is moving from fixed equivalency caps to roster limits for schools that opted in to the House settlement; schools that did not opt in keep the old caps. Ask which model the school is in.", "url": "https://ncaaorg.s3.amazonaws.com/governance/d1/legislation/2026-27/2024-25D1GMS_Bylaw15.pdf"},
-    {"id": "d2", "level": "NCAA Division II", "text": "Equivalency limits by sport; partial scholarships are common. Ask for the sport's equivalency count and how many athletes share it.", "url": "https://www.ncaa.org/division-ii/governance/membership-and-institutional-resources/athletics-scholarships"},
-    {"id": "d3", "level": "NCAA Division III", "text": "No athletic scholarships at all. Aid is academic and need-based, so ask the financial aid office, not the coach, what the package is.", "url": "https://web3.ncaa.org/lsdbi/reports/getReport/90011"},
-    {"id": "njcaa", "level": "NJCAA", "text": "Division 1 may give full aid; Division 2 limited to tuition, fees, books and up to $250; Division 3 gives none.", "url": "https://www.njcaa.org/member_colleges/Divisional_Structure"}
+    {
+      "id": "naia",
+      "level": "NAIA",
+      "text": "Athletic aid is limited to tuition, fees, books, room and board, with a per-sport limit of full-grant equivalencies that a program can split across any number of players. Check the NAIA Official Handbook and the NAIA financial aid page for the sport's exact limit.",
+      "url": "https://www.naia.org/student-athletes/current/financial-aid"
+    },
+    {
+      "id": "d1",
+      "level": "NCAA Division I",
+      "text": "Aid is moving from fixed equivalency caps to roster limits for schools that opted in to the House settlement; schools that did not opt in keep the old caps. Ask which model the school is in.",
+      "url": "https://ncaaorg.s3.amazonaws.com/governance/d1/legislation/2026-27/2024-25D1GMS_Bylaw15.pdf"
+    },
+    {
+      "id": "d2",
+      "level": "NCAA Division II",
+      "text": "Equivalency limits by sport; partial scholarships are common. Ask for the sport's equivalency count and how many athletes share it.",
+      "url": "https://www.ncaa.org/division-ii/governance/membership-and-institutional-resources/athletics-scholarships"
+    },
+    {
+      "id": "d3",
+      "level": "NCAA Division III",
+      "text": "No athletic scholarships at all. Aid is academic and need-based, so ask the financial aid office, not the coach, what the package is.",
+      "url": "https://web3.ncaa.org/lsdbi/reports/getReport/90011"
+    },
+    {
+      "id": "njcaa",
+      "level": "NJCAA",
+      "text": "Division 1 may give full aid; Division 2 limited to tuition, fees, books and up to $250; Division 3 gives none.",
+      "url": "https://www.njcaa.org/member_colleges/Divisional_Structure"
+    }
   ]
 }
