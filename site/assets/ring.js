@@ -1,5 +1,25 @@
 function escA(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
 function SPORT_PATH(a){var s=String(a.sport||'').toLowerCase();if(s.indexOf('track')>-1)return'/sports/track-field';if(s.indexOf('swim')>-1)return'/sports/swimming';if(s.indexOf('lacrosse')>-1)return'/sports/lacrosse';return '/sports/'+s.split(/[\s(/]+/)[0]+'/';}
+// The four written playbooks lead the ring (Mike, 11 Nov 2026). Every other sport
+// renders greyed, is stamped PENDING and does nothing when clicked until its own
+// product is built. Order: women's volleyball, men's football, men's basketball,
+// women's basketball, then the rest of the written sports, then the pending sports.
+var FRONT_IDS=["composite-volleyball","composite-football","derrick","composite-wbasketball"];
+var WOMENS_BB={"composite-wbasketball":1,"samantha":1};
+function builtInfo(a){
+ var s=String(a.sport||"").toLowerCase();
+ if(s.indexOf("volleyball")>-1)return{built:true,label:"Women's Volleyball"};
+ if(s.indexOf("football")>-1)return{built:true,label:"Men's Football"};
+ if(s.indexOf("basketball")>-1)return{built:true,label:WOMENS_BB[a.id]?"Women's Basketball":"Men's Basketball"};
+ return{built:false,label:a.sport};
+}
+function isPending(a){return!builtInfo(a).built}
+function orderBuilt(list){
+ var L=list.slice(),first=[],live=[],pend=[];
+ FRONT_IDS.forEach(function(id){for(var i=0;i<L.length;i++){if(L[i].id===id){first.push(L[i]);L.splice(i,1);return}}});
+ for(var j=0;j<L.length;j++){(isPending(L[j])?pend:live).push(L[j])}
+ return first.concat(live,pend);
+}
 // <story-ring>: 3D ring carousel engine (mechanics per Runway spec s7-9), athlete-card content model.
 (()=>{
 const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -9,14 +29,14 @@ const wrapPi=p=>{p=p%(2*Math.PI);if(p>Math.PI)p-=2*Math.PI;if(p<=-Math.PI)p+=2*M
 const sil=(i)=>{const poses=['M50 8a9 9 0 1 1 0 18a9 9 0 1 1 0-18zM38 30h24l6 50-8 2-4-30-2 50 6 64h-11l-7-56-7 56H24l6-64-2-50-4 30-8-2z','M50 6a9 9 0 1 1 0 18a9 9 0 1 1 0-18zM36 28h28l14 30-8 4-10-18 2 46 4 68h-11l-9-58-9 58H26l4-68 2-46-10 18-8-4z'];
  return `<svg viewBox="0 0 100 180" aria-hidden="true"><path fill="#111" d="${poses[i%2]}"/></svg>`};
 const sp=(s)=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const cardHTML=(a,i)=>`<span class="card__shadow"></span><span class="card__art">${a.img?`<img src="${a.img}" alt="Illustration of a fictional ${sp(a.sport)} athlete" loading="eager" decoding="async">`:``}</span><span class="card__lbl">Illustration</span> <span class="card__meta"><div class="card__name">${escA(a.short)}</div><div class="card__line">${a.sport}</div></span>`;
+const cardHTML=(a,i)=>{const bi=builtInfo(a);return `<span class="card__shadow"></span><span class="card__art">${a.img?`<img src="${a.img}" alt="Illustration of a fictional ${sp(a.sport)} athlete" loading="eager" decoding="async">`:``}</span><span class="card__lbl">Illustration</span>${bi.built?``:`<span class="card__pend">Pending</span>`} <span class="card__meta"><div class="card__name">${escA(a.short)}</div><div class="card__line">${sp(bi.label)}</div></span>`};
 class StoryRing extends HTMLElement{
 connectedCallback(){
- const D=window.STORY_DATA;this.A=D.athletes;this.P=D.playbooks;const n=this.n=this.A.length;
+ const D=window.STORY_DATA;this.A=orderBuilt(D.athletes);this.P=D.playbooks;const n=this.n=this.A.length;
  this.N=n*Math.ceil(8/n);this.index=0;this.target=0;this.cur=RM?0:-1.15;this.vel=0;this.still=false;
  this.playing=false;this.engaged=false;this.panelHover=false;this.dragging=false;this.visible=false;
  this.bag=new Set(JSON.parse(localStorage.getItem('playbook-bag-v1')||'[]'));
- const s0=Math.max(0,this.A.findIndex(a=>a.id==='composite-football'&&a.img)),s1=s0>=0&&this.A[s0]?.composite?s0:Math.max(0,this.A.findIndex(a=>a.composite&&a.img));this.target=s1;this.cur=RM?s1:s1-1.15;
+ const s0=Math.max(0,this.A.findIndex(a=>a.composite&&a.img&&!isPending(a))),s1=s0>=0?s0:0;this.target=s1;this.cur=RM?s1:s1-1.15;
  this.render();this.querySelectorAll('img').forEach(i=>{i.loading='eager';if(i.decode)i.decode().catch(()=>{})});this.classList.add('js');this.bind();this.measure();this.setIndex(s1,true);
  const io=new IntersectionObserver(e=>{this.visible=e[0].isIntersecting;if(this.visible)this.kick()},{threshold:0});io.observe(this);
  const rv=new IntersectionObserver(e=>{if(e[0].isIntersecting){rv.disconnect();requestAnimationFrame(()=>requestAnimationFrame(()=>{this.classList.add('is-revealed');this.kick()}))}},{rootMargin:'0px 0px -22% 0px'});
@@ -26,19 +46,19 @@ connectedCallback(){
 render(){
  const A=this.A,n=this.n;
  this.innerHTML=`<div class="sr__grid"><div class="sr__left"><div class="sr__head"><h2 class="sr__title">Pick a path.</h2>
-<p class="sr__sub">Pick a sport. Drag to browse. Click one to open the playbooks and dates for that sport.</p><p class="sr__sub sr__surv">The names are placeholders and the art is drawn. The dates and rules are cited on the page that uses them.</p><span class="sr__sr" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)" aria-live="polite" data-live></span></div>
+<p class="sr__sub">Pick a sport. Drag to browse. Click one to open the playbooks and dates for that sport. Grey cards are sports whose playbooks are still being written.</p><p class="sr__sub sr__surv">The names are placeholders and the art is drawn. The dates and rules are cited on the page that uses them.</p><span class="sr__sr" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)" aria-live="polite" data-live></span></div>
 <div class="sr__stage" tabindex="0" role="region" aria-roledescription="carousel" aria-label="Browse by sport. Use arrow keys or swipe."><div class="sr__actors"></div><div class="sr__heroes"></div><span class="sr__sweep"></span>
 <span class="sr__cursor"><span class="sr__cursor-in"><span class="c-drag">Drag</span><span class="c-view">View</span></span></span><span class="sr__walk"></span></div>
 <div class="sr__controls"><button class="sr__icon sr__prev" aria-label="Previous athlete"><svg width="26" height="14" viewBox="0 0 26 14" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M25 7H1M7 1L1 7l6 6"/></svg></button>
-<div class="sr__ticks">${A.map((a,i)=>`<button class="sr__tick" data-tick="${i}" aria-label="Path ${i+1}: ${a.sport}"><span class="sr__bar"></span><span class="sr__tlabel">${String(i+1).padStart(2,'0')}<span class="sr__tname">&nbsp;&nbsp;${a.sport}</span></span></button>`).join('')}</div>
+<div class="sr__ticks">${A.map((a,i)=>`<button class="sr__tick${isPending(a)?' is-pend':''}" data-tick="${i}" aria-label="${isPending(a)?"Pending: "+a.sport:"Path "+(i+1)+": "+builtInfo(a).label}"><span class="sr__bar"></span><span class="sr__tlabel">${String(i+1).padStart(2,'0')}<span class="sr__tname">&nbsp;&nbsp;${isPending(a)?'Pending':builtInfo(a).label}</span></span></button>`).join('')}</div>
 <button class="sr__icon sr__auto" aria-pressed="false" aria-label="Autoplay"><svg class="i-play" width="14" height="14" viewBox="0 0 24 24"><path fill="currentColor" d="M7 4.5v15l12.5-7.5z"/></svg><svg class="i-pause" width="14" height="14" viewBox="0 0 24 24"><path fill="currentColor" d="M6.5 4.5h3.5v15H6.5zM14 4.5h3.5v15H14z"/></svg></button>
 <button class="sr__icon sr__next" aria-label="Next athlete"><svg width="26" height="14" viewBox="0 0 26 14" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M1 7h24M19 1l6 6-6 6"/></svg></button></div></div>
 <aside class="sr__panel"><div class="sr__pinner"><div class="sr__phead"><h3 class="sr__ptitle">Playbooks for this sport</h3><span class="sr__lab" data-count></span></div><div class="sr__who" data-who></div>
 <ul class="sr__items" data-items></ul><div class="sr__bundle"><button class="sr__cta" data-read>See the playbooks →</button><p class="sr__note" data-bagline></p></div></div></aside></div>`;
  const act=this.querySelector('.sr__actors'),her=this.querySelector('.sr__heroes');
  this.bodies=[];for(let b=0;b<this.N;b++){const a=A[b%n];const el=document.createElement('div');el.className='sr__body';el.setAttribute('aria-hidden','true');
-  el.innerHTML=`<button class="card" data-go="${b}" tabindex="-1" aria-label="${escA(a.name)}">${cardHTML(a,b%n)}</button>`;act.appendChild(el);this.bodies.push({el,a:b,w:0,blur:-1,x:b})}
- this.heroes=A.map((a,i)=>{const h=document.createElement('div');h.className='sr__hero';h.innerHTML=`<button class="card" data-view="${i}" tabindex="-1" aria-label="${escA("Playbooks for " + (a.sport||"this sport") + ": " + a.name)}">${cardHTML(a,i)}</button>`;her.appendChild(h);return h});
+  el.innerHTML=`<button class="card${isPending(a)?' is-pending':''}" data-go="${b}" tabindex="-1" aria-label="${escA(a.name)}">${cardHTML(a,b%n)}</button>`;act.appendChild(el);this.bodies.push({el,a:b,w:0,blur:-1,x:b})}
+ this.heroes=A.map((a,i)=>{const h=document.createElement('div');h.className='sr__hero';h.innerHTML=`<button class="card${isPending(a)?' is-pending':''}" data-view="${i}" tabindex="-1" aria-label="${escA((isPending(a)?"Pending, not open yet. Playbook for ":"Playbooks for ") + (builtInfo(a).label||"this sport") + ": " + a.name)}">${cardHTML(a,i)}</button>`;her.appendChild(h);return h});
  this.stage=this.querySelector('.sr__stage');this.cursor=this.querySelector('.sr__cursor');this.ticks=[...this.querySelectorAll('.sr__tick')];
 }
 measure(){
@@ -109,19 +129,19 @@ setIndex(i,silent){
  this.bodies.forEach(s=>{const k=this.rank(s.a),on=k!==0&&Math.abs(k)<=(this.mob?3:2);s.el.querySelector('.card').tabIndex=on?0:-1;s.el.setAttribute('aria-hidden',String(!on))});
  if(!silent&&old===this.index)return;
  const a=this.A[this.index];this.style.setProperty('--progress',((this.index+1)/this.n).toFixed(3));
- this.heroes.forEach((h,j)=>{h.classList.toggle('is-on',j===this.index);h.querySelector('.card').tabIndex=j===this.index?0:-1});
+ this.heroes.forEach((h,j)=>{h.classList.toggle('is-on',j===this.index);h.querySelector('.card').tabIndex=(j===this.index&&!isPending(this.A[j]))?0:-1});
  if(!silent&&!RM){this.stage.classList.remove('is-sweep');void this.stage.offsetWidth;this.stage.classList.add('is-sweep')}
- if(!silent)this.querySelector('[data-live]').textContent=`Path ${this.index+1}: ${a.sport}`;
+ if(!silent)this.querySelector('[data-live]').textContent=isPending(a)?`Pending: ${a.sport}`:`Path ${this.index+1}: ${builtInfo(a).label}`;
  this.ticks.forEach((t,j)=>{t.setAttribute('aria-current',String(j===this.index));t.classList.toggle('is-past',j<this.index)});
  this.renderPanel(silent);this.restartBar();
 }
 renderPanel(silent){
  const a=this.A[this.index],ul=this.querySelector('[data-items]');
  this.querySelector('[data-count]').textContent=a.playbooks.length+' playbooks';
- this.querySelector('[data-who]').textContent=`${a.short} · ${a.sport} · Illustration. The name is a placeholder; the dates and rules are cited on the page that uses them.`;
+ this.querySelector('[data-who]').textContent=isPending(a)?`${a.short} · ${a.sport}. This playbook is still being written, so it is not open yet.`:`${a.short} · ${builtInfo(a).label} · Illustration. The name is a placeholder; the dates and rules are cited on the page that uses them.`;
  ul.innerHTML=a.playbooks.map((p,i)=>{const pb=this.P[p],on=this.bag.has(p);return `<li class="sr__item" style="--i:${i+1}"><span class="sr__thumb">${String(i+1).padStart(2,'0')}</span><span><div class="sr__itype">Playbook · $${pb.price}, one-time</div><a class="sr__iname" href="/playbooks/${p}">${pb.title}</a></span><button class="sr__add" data-add="${p}" aria-pressed="${on}">${on?'Added':'Get'}</button></li>`}).join('');
  const pi=this.querySelector('.sr__pinner');pi.classList.remove('is-in');void pi.offsetWidth;pi.classList.add('is-in');
- var _rd=this.querySelector('[data-read]');_rd.textContent='Playbooks for '+a.sport+' \u2192';_rd.onclick=()=>location.href=SPORT_PATH(a);
+ var _rd=this.querySelector('[data-read]');_rd.disabled=isPending(a);_rd.textContent=isPending(a)?'Playbook pending':'Playbooks for '+builtInfo(a).label+' \u2192';_rd.onclick=isPending(a)?null:()=>location.href=SPORT_PATH(a);
 }
 updBag(){const n=this.bag.size;document.querySelectorAll('[data-bag-count]').forEach(e=>e.textContent=n);this.querySelector('[data-bagline]').textContent=n?`${n} in your playbook bag (saved on this device).`:'For the athlete to run. Parents support.';try{localStorage.setItem('playbook-bag-v1',JSON.stringify([...this.bag]))}catch(e){}}
 toast(m){const t=document.getElementById('bag-status');if(!t)return;t.textContent=m;t.classList.add('is-on');clearTimeout(this.tt);this.tt=setTimeout(()=>t.classList.remove('is-on'),2500)}
@@ -148,20 +168,20 @@ bind(){
  st.addEventListener('pointerup',end);st.addEventListener('pointercancel',end);
  this.addEventListener('click',e=>{if(performance.now()-suppress<60){e.stopPropagation();e.preventDefault()}},true);
  let acc=0,lock=0;st.addEventListener('wheel',e=>{if(Math.abs(e.deltaX)<=Math.abs(e.deltaY))return;e.preventDefault();if(performance.now()<lock)return;acc+=e.deltaX;if(Math.abs(acc)>45){acc>0?this.next():this.prev();acc=0;lock=performance.now()+520}},{passive:false});
- st.addEventListener('keydown',e=>{if(e.key==='ArrowRight'){e.preventDefault();this.next()}if(e.key==='ArrowLeft'){e.preventDefault();this.prev()}if(e.key==='Enter'&&e.target===st)location.href=SPORT_PATH(this.A[this.index])});
+ st.addEventListener('keydown',e=>{if(e.key==='ArrowRight'){e.preventDefault();this.next()}if(e.key==='ArrowLeft'){e.preventDefault();this.prev()}if(e.key==='Enter'&&e.target===st&&!isPending(this.A[this.index]))location.href=SPORT_PATH(this.A[this.index])});
  this.addEventListener('click',e=>{const t=e.target;let b;
   if(t.closest('.sr__next'))return this.next();if(t.closest('.sr__prev'))return this.prev();
   if(b=t.closest('[data-tick]'))return this.go(+b.dataset.tick);
   if(t.closest('.sr__auto')){if(!this.playing)this.engaged=false;return this.play(!this.playing)}
   if(b=t.closest('[data-add]')){this.engage();const id=b.dataset.add;this.bag.has(id)?this.bag.delete(id):this.bag.add(id);const on=this.bag.has(id);b.setAttribute('aria-pressed',on);b.textContent=on?'Added':'Get';this.updBag();this.toast(on?'Playbook saved to your bag':'Removed from your bag');return}
-  if(b=t.closest('[data-view]'))return location.href=SPORT_PATH(this.A[+b.dataset.view]);
-  if(b=t.closest('[data-go]')){const k=this.rank(+b.dataset.go);const kk=this.mob?k:k;if(k!==0&&Math.abs(k)<6)this.moveTo(Math.round(this.target)+(this.mob&&k>6?k-12:kk));}
+  if(b=t.closest('[data-view]')){const va=this.A[+b.dataset.view];if(isPending(va))return;return location.href=SPORT_PATH(va)}
+  if(b=t.closest('[data-go]')){if(isPending(this.A[(+b.dataset.go)%this.n]))return;const k=this.rank(+b.dataset.go);const kk=this.mob?k:k;if(k!==0&&Math.abs(k)<6)this.moveTo(Math.round(this.target)+(this.mob&&k>6?k-12:kk));}
  });
  const pn=this.querySelector('.sr__panel');pn.addEventListener('pointerenter',e=>{if(e.pointerType==='mouse')this.panelHover=true});pn.addEventListener('pointerleave',()=>{this.panelHover=false;this.restartBar()});
  if(matchMedia('(hover:hover) and (pointer:fine) and (min-width:750px)').matches){this.classList.add('has-cursor');const c=this.cursor;let x=0,y=0,tx=0,ty=0,on=false,cr=0;
   const loop=()=>{cr=0;const L=RM?1:.18;x+=(tx-x)*L;y+=(ty-y)*L;c.style.transform=`translate3d(${x}px,${y}px,0)`;if(Math.hypot(tx-x,ty-y)>.2)cr=requestAnimationFrame(loop)};
   st.addEventListener('pointermove',e=>{if(e.pointerType!=='mouse')return;const r=st.getBoundingClientRect();tx=e.clientX-r.left;ty=e.clientY-r.top;if(!on){on=true;x=tx;y=ty;c.classList.add('is-on')}
-   const view=!this.dragging&&e.target.closest('[data-view]'),link=!this.dragging&&e.target.closest('[data-go]');c.classList.toggle('is-view',!!view);c.classList.toggle('is-link',!!link);if(!cr)cr=requestAnimationFrame(loop)});
+   const view=!this.dragging&&e.target.closest('[data-view]:not(.is-pending)'),link=!this.dragging&&e.target.closest('[data-go]:not(.is-pending)');c.classList.toggle('is-view',!!view);c.classList.toggle('is-link',!!link);if(!cr)cr=requestAnimationFrame(loop)});
   st.addEventListener('pointerleave',()=>{on=false;c.classList.remove('is-on','is-link','is-view')})}else this.cursor.remove();
  let rt;addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(()=>this.measure(),120)});new ResizeObserver(()=>this.measure()).observe(st);
  document.addEventListener('visibilitychange',()=>this.kick());

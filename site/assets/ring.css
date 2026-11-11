@@ -140,3 +140,12 @@ story-ring.is-revealed .sr__stage{opacity:1;transition:opacity 1.6s .1s}story-ri
  .is-in .sr__item{animation-duration:.55s;animation-delay:calc(var(--i)*40ms + 40ms)}
  @keyframes itemin{from{opacity:0;transform:translateY(14px)}}
 }
+
+/* Pending sports: greyed out, stamped across the athlete, not clickable (W26). */
+.card.is-pending{cursor:default}
+.card.is-pending .card__art{filter:grayscale(1) brightness(.95) contrast(.85);opacity:.55}
+.card.is-pending .card__name,.card.is-pending .card__line,.card.is-pending .card__div,.card.is-pending .card__lbl{opacity:.45}
+.card__pend{position:absolute;left:-10%;right:-10%;top:36%;z-index:4;padding:11px 0;text-align:center;font:700 clamp(17px,2.1vw,28px)/1 var(--font-display);letter-spacing:.24em;text-transform:uppercase;color:#fff;background:rgba(17,17,17,.66);border-top:2px solid #fff;border-bottom:2px solid #fff;transform:rotate(-14deg);pointer-events:none}
+.sr__tick.is-pend{opacity:.42}
+.sr__tick.is-pend .sr__bar::after{background:var(--muted)}
+.sr__cta[disabled]{background:var(--muted);cursor:default}
