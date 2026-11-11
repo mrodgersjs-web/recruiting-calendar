@@ -5,29 +5,31 @@
  "catalog": [
   {
    "slug": "football-junior-year",
-   "title": "Football: Junior Year Playbook",
-   "who": "Football families, Class of 2029, sophomore spring to senior Nov",
-   "outcome": "A dated plan for every football recruiting window from June 15 after sophomore year to signing, with the core-course lock built in",
+   "title": "Football: The Whole Road to College",
+   "who": "Football families, any class year, grades 9 to 12",
+   "outcome": "A dated plan for every football recruiting window, with what a coach may and may not do, what film to send, and what the paperwork means",
    "toc": [
     "How football recruiting is timed",
-    "The 2 hard deadlines",
-    "Calendar: Jun 2027 to Feb 2029",
-    "Target list in 3 tiers",
-    "Coach email and call scripts",
-    "Junior-year official visit window",
-    "Written offers and signing",
-    "Trackers"
+    "How many players a team can take",
+    "The plan by date, class of 2029",
+    "What a coach may and may not do",
+    "Camps, 7-on-7, combines, and visits",
+    "What to send, and what good video looks like",
+    "What the paperwork really means",
+    "What it costs, and what is wasted",
+    "Checklist by grade",
+    "Ten ways families get this wrong",
+    "Sources, and what we could not settle"
    ],
    "tools": [
-    "Dated calendar (11 sourced rows)",
-    "Target school list tiers",
-    "4 coach scripts",
-    "Contact log",
-    "Official visit checklist",
-    "Offer question sheet"
+    "Dated plan by month",
+    "What a coach can and cannot do",
+    "Camps, 7-on-7 and combine guidance",
+    "Film length and target list steps",
+    "Grade by grade checklist"
    ],
-   "pages": 24,
-   "format": "PDF + XLSX tracker",
+   "pages": 21,
+   "format": "PDF",
    "price_usd": 29,
    "story_beats": [
     "first coach contact",
@@ -35,7 +37,10 @@
     "the offer",
     "signing day"
    ],
-   "status": "WRITTEN"
+   "status": "WRITTEN",
+   "sport": "Football",
+   "rules_checked": "11 November 2026",
+   "levels": "FBS - FCS - D2 - D3 - NAIA - junior college"
   },
   {
    "slug": "eligibility-2-hard-deadlines",
@@ -56,7 +61,7 @@
     "Eligibility Center checklist",
     "Core GPA calculator steps"
    ],
-   "pages": 12,
+   "pages": 5,
    "format": "PDF",
    "price_usd": 9,
    "story_beats": [
@@ -308,6 +313,120 @@
     "signing"
    ],
    "status": "OUTLINE"
+  },
+  {
+   "slug": "volleyball-road-to-college",
+   "title": "Volleyball: The Whole Road to College",
+   "who": "Volleyball families, any class year, grades 9 to 12",
+   "outcome": "What to do, when to do it, who pays, and what a coach is and is not allowed to tell you, from the 2026-27 rule text",
+   "toc": [
+    "Read this first",
+    "How many players a team can take",
+    "The plan by date, class of 2029",
+    "What a coach may and may not do",
+    "Club, region, camps, and where she is seen",
+    "What to send, and what good video looks like",
+    "What the paperwork really means",
+    "What it costs, and what is wasted",
+    "Checklist by grade",
+    "Ten ways families get volleyball wrong",
+    "Sources, and what we could not settle"
+   ],
+   "tools": [
+    "Dated plan by month",
+    "Roster seat math by level",
+    "Club and camp money guidance",
+    "Film length and target list steps",
+    "Grade by grade checklist"
+   ],
+   "status": "WRITTEN",
+   "price_usd": 29,
+   "pages": 32,
+   "format": "PDF",
+   "sport": "Volleyball",
+   "rules_checked": "11 November 2026",
+   "levels": "D1 - D2 - D3 - NAIA - junior college",
+   "story_beats": [
+    "first coach contact",
+    "the visit",
+    "the offer",
+    "signing day"
+   ]
+  },
+  {
+   "slug": "basketball-road-to-college",
+   "title": "Basketball: The Whole Road to College",
+   "who": "Basketball families, boys and girls, grades 9 to 12",
+   "outcome": "How many players a team can carry, and how that number decides how many schools to write to, when to start, and how much to spend",
+   "toc": [
+    "How many players a team can take",
+    "The plan by date, class of 2029",
+    "What the school is really offering",
+    "What to send, and when",
+    "Summer teams, visits, and the July rule",
+    "What it costs, and what is wasted",
+    "Checklist by grade",
+    "Sources, and what we could not settle"
+   ],
+   "tools": [
+    "Roster seat math by level",
+    "Dated plan by month",
+    "Offer letter reading steps",
+    "Cost and waste list",
+    "Grade by grade checklist"
+   ],
+   "status": "WRITTEN",
+   "price_usd": 19,
+   "pages": 12,
+   "format": "PDF",
+   "sport": "Basketball",
+   "rules_checked": "10 November 2026",
+   "levels": "NCAA D1 - D2 - D3 - NAIA - junior college",
+   "story_beats": [
+    "first coach contact",
+    "the visit",
+    "the offer",
+    "signing day"
+   ]
+  },
+  {
+   "slug": "girls-basketball-road-to-college",
+   "title": "Girls' Basketball: The Whole Road to College",
+   "who": "Girls' basketball families, any class year, grades 9 to 12",
+   "outcome": "The girls' clock instead of the boys' one: fewer legal ways for a coach to find you, so the list gets built earlier and pushed harder",
+   "toc": [
+    "Read this first",
+    "How many players a team can take",
+    "The plan by date, class of 2029",
+    "What a coach may and may not do",
+    "Summer teams, visits, and the July rule",
+    "What to send, and what good video looks like",
+    "What the paperwork really means",
+    "What it costs, and what is wasted",
+    "Checklist by grade",
+    "Ten ways families get this wrong",
+    "Sources, and what we could not settle"
+   ],
+   "tools": [
+    "Dated plan by month",
+    "Roster seat math by level",
+    "Film length and target list steps",
+    "Cost and waste list",
+    "Grade by grade checklist"
+   ],
+   "status": "WRITTEN",
+   "price_usd": 19,
+   "pages": 20,
+   "format": "PDF",
+   "sport": "Girls' basketball",
+   "rules_checked": "11 November 2026",
+   "levels": "NCAA D1 - D2 - D3 - NAIA - junior college",
+   "story_beats": [
+    "first coach contact",
+    "the visit",
+    "the offer",
+    "signing day"
+   ]
   }
  ],
  "bundles": [
@@ -315,13 +434,14 @@
    "slug": "sport-pack",
    "title": "Sport Pack (your sport playbook + Eligibility + Offers & Signing + Camp ROI)",
    "price_usd": 49,
-   "note": "vs ~$72 a la carte; anchored between MM3 $25 and $79 bundles"
+   "note": "vs ~$72 a la carte; anchored between MM3 $25 and $79 bundles",
+   "includes_note": "One of the four written sport playbooks: football, volleyball, basketball, girls' basketball."
   },
   {
    "slug": "all-playbooks",
    "title": "Every Playbook",
    "price_usd": 99,
-   "note": "all 12 a la carte ~$234"
+   "note": "all 15 a la carte $291"
   },
   {
    "slug": "sideline",
@@ -331,5 +451,6 @@
    "note": "Recommended: YES include all playbooks. Membership value is the re-verification each manual year; a la carte buys a dated edition."
   }
  ],
- "integrity": "No scholarship promises; no testimonials; prices proposed (Mike approved showing proposed prices 2026-11-05); payments test-mode."
+ "integrity": "No scholarship promises; no testimonials; prices proposed (Mike approved showing proposed prices 2026-11-05); payments test-mode.",
+ "updated": "2026-11-11 (W27: the four written sport decks are products; football page count corrected)"
 }

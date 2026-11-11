@@ -222,3 +222,14 @@ select,input{font-family:var(--font-text);background:#fff!important;border-radiu
 .sh-step .src{font:500 12px var(--font-text);white-space:nowrap}
 .sh-pb{font-weight:600;margin:6px 0 0}
 .sh-cta{background:var(--c-ink,#111);color:#fff;padding:28px 24px;margin:34px 0 10px}.sh-cta .btn{background:#fff;color:#111}
+
+/* W27: a sport whose playbook is still being written. Same language as the athlete ring: grey art,
+   a PENDING band, no price, no button. */
+.pb-cell.is-pend .pb-thumb{filter:grayscale(1);opacity:.55}
+.pb-cell.is-pend .pb-t,.pb-cell.is-pend .pb-s,.pb-cell.is-pend .lab{color:var(--c-muted)}
+.pb-cell.is-pend .pb-card{position:relative}
+.pb-pend{position:absolute;left:-8%;top:44%;width:116%;transform:rotate(-14deg);background:var(--c-ink);
+  color:var(--c-paper);font:600 var(--fs-label)/1 var(--font-condensed);letter-spacing:var(--ls-label);
+  text-transform:uppercase;text-align:center;padding:6px 0;pointer-events:none}
+.pb-soon{display:block;margin:10px 0 0;font:400 14px/1.5 var(--font-text);color:var(--c-muted)}
+.pdp-soon{border-left:3px solid var(--c-line);padding-left:14px;color:var(--c-muted)}
