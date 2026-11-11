@@ -396,7 +396,7 @@ High school coach: {{name}}, {{phone}}</div>
     [ ] open the free Eligibility Center profile<br>
     [ ] build the school list to 40 to 55 schools across all five levels</p>
     <p><b>Summer after 10th grade</b><br>
-    [ ] Division I men's contact opens June 15 (for girls, see the note in Chapter 8)<br>
+    [ ] Division I men's contact opens June 15 (for a girl, calls open June 1 after 10th grade and off-campus meetings September 1 of 12th grade)<br>
     [ ] first email out with the video link; fill out the school form the same day<br>
     [ ] open the paid Eligibility Center account, or ask for the fee waiver<br>
     [ ] start visiting; write down every talk with a name and a date</p>
@@ -423,9 +423,14 @@ High school coach: {{name}}, {{phone}}</div>
 <section>
   <div class="pagehead"><span class="label">The Commit Book &middot; Basketball</span><span class="label">8 &middot; Sources</span></div>
   <h2>8. Sources, and what we could not settle</h2>
-  <p class="small">We could not settle two dates, so we are telling you instead of guessing. First, the day a Division
-  I <strong>women's</strong> coach may contact you first: One source says March 1 of junior year. Another says June 1 after 10th grade. Treat the men's June 15 date as firm. Confirm the women's date, and the first paid-visit date for boys and girls, in the current rule book before you plan a trip. Second, one page that lists the 2026-27 signing dates prints November 19. The rule text and the recruiting page give November 11 to 18. Both notes are
-  printed here on purpose. A rule book that admits what it has not checked is more trustworthy than one that hides it.</p>
+  <p class="small">One date we could not settle is still open, and one is now closed. Closed: the day a Division
+  I <strong>women's</strong> coach may make first contact. We read the rule book itself. Calls, texts and email may not
+  start before June 1 after 10th grade (Bylaw 13.1.3.1.5), and a coach may not meet her off campus before September 1
+  of 12th grade (13.1.1.1.5). Her paid visit may not start before January 1 of 11th grade (13.6.2.1.6), where a boy may
+  from August 1 of 11th grade (13.6.2.1.5). If you are reading this book beside a sister or a teammate, use the girls'
+  dates for her. Still open: one page that lists the 2026-27 signing dates prints November 19, and the rule text and the
+  recruiting page give November 11 to 18. That note is printed here on purpose. A rule book that admits what it has not
+  checked is more trustworthy than one that hides it.</p>
 
   <div class="box" style="background:#fffdf7">
     <h3>Start here, this week</h3>

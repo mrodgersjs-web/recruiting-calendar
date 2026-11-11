@@ -1,0 +1,12 @@
+<div class="page cover">
+  <div class="cover-mark"><img src="assets/mark-light.svg" alt=""></div>
+  <div class="cover-kicker">@@KICK@@</div>
+  <div class="cover-title">@@SUB@@"</div>
+  <p class="cover-sub">A step-by-step plan for parents, written in plain English. Same rules, same dates, every level: NCAA Division 1, Division 2, Division 3, the NAIA, and junior college.</p>
+  <div class="cover-meta">
+    <div><span class="k">Edition</span><span class="v">@@EDITION@@</span></div>
+    <div><span class="k">Rules checked</span><span class="v">11 November 2026</span></div>
+    <div><span class="k">Pages</span><span class="v">@@N@@</span></div>
+    <div><span class="k">Reading level</span><span class="v">Grade 8 or simpler</span></div>
+  </div>
+</div>
