@@ -75,6 +75,19 @@ ul.tight li,ol.tight li{margin-bottom:.9mm}
 src{display:block;font-size:8.4pt;color:var(--ink3);margin-bottom:1.6mm}
 
 section.newpage { page-break-before: always; break-before: page }
+
+/* W21: nothing reads as half a thought. Blocks move whole; only .flow may split. */
+.box, .tmpl, table, ul, ol, dl, blockquote, .two, .lead, h2, h3, .pagehead, .split {
+  break-inside: avoid; page-break-inside: avoid }
+table.flow, ul.flow, ol.flow, div.flow, dl.flow {
+  break-inside: auto; page-break-inside: auto }
+tr, li { break-inside: avoid; page-break-inside: avoid }
+thead { break-after: avoid }
+h2, h3 { break-after: avoid; page-break-after: avoid }
+p { orphans: 2; widows: 2 }
+
+/* W21b: one chapter, one fresh page, like the men's book */
+section + section { break-before: page; page-break-before: always }
 </style></head>
 
 <body>

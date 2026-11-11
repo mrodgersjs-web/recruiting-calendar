@@ -81,7 +81,55 @@ the same house style.
 
 ## Next, in order
 
-1. Men's college football and girls' volleyball at the same depth (volleyball is
-   the cheapest next lane: the Big Ten and the AVCA publish their numbers).
+1. Girls' volleyball at the same depth (the cheapest next lane: the Big Ten and
+   the AVCA publish their numbers).
 2. Price the basketball books and put page counts on the store card.
 3. Decide whether the three playbooks go on the site now or after one more lane.
+4. Print rule now lives in `head.txt`. Any new sport deck inherits it, so a new
+   lane needs no layout work, only the `flow` marks on grids that run long.
+
+## W21: nothing cut in half by a page break (Mike, 11 Nov 2026)
+
+Mike read the football PDF and called out three things: the "how long should his
+list be?" box split over two pages, chapter 3 starting mid-page, and a split box
+in the film chapter. Requested standard: no box, message, point list or callout
+may cross a page.
+
+What changed, all in `head.txt` plus four class attributes:
+
+* `break-inside: avoid` on `.box, .tmpl, table, ul, ol, dl, blockquote, .two,
+  .lead, h2, h3, .pagehead`, plus `tr, li { break-inside: avoid }` and
+  `orphans/widows: 2`. A block that does not fit moves whole to the next page.
+* `class="flow"` opts a block out, and only four blocks carry it: the chapter 3
+  date grid, the chapter 8 price grid, the chapter 6 camp-cost table and the
+  sources list. Those split between rows or items, and the header row repeats on
+  the next page.
+* `section + section { break-before: page }`: every chapter starts on a fresh
+  page, the way the men's book reads. Chapter 3 was the specific ask; the rule
+  generalises it. This also exposed a real markup bug: chapter 10 was nested
+  inside chapter 9's `<section>` in both generators, so it never got its own
+  page. Fixed in `sectfix.py`.
+* Four boxes that had been last in their chapter were re-seated so they do not
+  strand alone on a page (`flowmore.py` moved the whole-year cost box above the
+  price grid). An earlier attempt to move four boxes up at once made things
+  worse and was reverted with `git checkout` on the two generators.
+
+Page counts went 13 -> 16 (girls) and 13 -> 18 (football). Reading level is
+unchanged at 4.8 and 5.0, because no sentence was touched.
+
+QA scripts written for this pass, worth keeping for the next lane:
+
+* `splitcheck2.py <html> <dump>` - the real gate. Cuts every block into runs at
+  the tag boundaries and passes only if one page holds all of them. It survives
+  list renumbering, `text-transform: uppercase` letter-spacing and the soft
+  hyphen Chromium leaves at a wrap point, all of which break naive substring
+  matching. Result: 36 of 38 and 37 of 39 blocks whole, the rest are the marked
+  flow grids.
+* `headfoot2.py` - header, footer and page number on every page: still clean.
+* `peek.py`, `sizes.py`, `qa2.py` - page fill, block size, ink and margin audit.
+
+Known and accepted: four chapter-end pages are light (football p9 and p13, girls
+p13 are the thinnest). That is what happens when a chapter runs about 15% over
+one page and its last block may not split. If Mike wants those pages full, the
+cost is one short paragraph per chapter, and the split rule has to bend for a
+box or two.

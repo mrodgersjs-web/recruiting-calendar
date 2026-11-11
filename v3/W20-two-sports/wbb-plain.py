@@ -137,14 +137,14 @@ A("""<section>
 </section>""")
 
 
-A("""<section>
+A("""<section class="newpage">
   <div class="pagehead"><span class="label">The Commit Book &middot; Girls' Basketball</span><span class="label">Class of 2029</span></div>
   <h2>3. The plan by date, class of 2029</h2>
   <p class="lead">She graduates in 2029, so her sophomore year ends in June 2027 and her senior year starts in August
   2028. Print this page. The 2028-29 women's calendar is not published yet. The NCAA prints each calendar in the summer before it starts, so hers lands in July 2028, and committees still move weeks after that. Dates
   marked PROJECTED come from the rule text, so treat them as one week either way until the calendar lands.</p>
 
-  <table>
+  <table class="flow">
     <thead><tr><th>Date</th><th>Kind</th><th>What happens</th><th>What to do that month</th></tr></thead>
     <tbody>
       <tr><td class="d">Now, in 10th grade</td><td><span class="tag t-hard">ACTION</span></td><td>Nothing is open yet, and that is the advantage.</td><td>Build the list of 40 to 55 schools. Get her highlight video made once, properly. Send grades to the schools on the list every semester.</td></tr>
@@ -353,7 +353,7 @@ A("""<section>
   <p class="lead">There is exactly one moment when a promise becomes a deal: the day a paper is signed. Everything
   before that is talk, and a coach is allowed to talk. Here is each document, and what it does.</p>
 
-  <table>
+  <table class="flow">
     <thead><tr><th>Document</th><th>When it may be signed</th><th>What it does</th></tr></thead>
     <tbody>
       <tr><td class="d">Verbal commitment</td><td>Any time, by phone or text</td><td>Nothing. It binds neither family nor school. It only tells other coaches to stop calling.</td></tr>
@@ -399,7 +399,14 @@ A("""<section>
   A family that plans on $3,000 to $6,000 a year and skips the expensive packages can finish this whole
   process with money left over.</p>
 
-  <table>
+  <div class="box">
+    <h3>The whole-year number</h3>
+    <p>One of the largest services in the market says a recruiting family spends $3,000 to $10,000 a year, and
+    $15,000 to $50,000 across high school. That number comes from a company that sells this work, so treat it as the high end of a realistic range. In 10th
+    and 11th grade a family can do this well for $3,000 to $6,000. Travel is the biggest line, and a $50 to $95 film
+    breakdown is the cheapest item with real value.</p>
+  </div>
+<table class="flow">
     <thead><tr><th>What you buy</th><th>Real price</th><th>Buy it or skip it</th></tr></thead>
     <tbody>
       <tr><td class="d">Club or AAU team, one season</td><td>$700 to $4,400, plus $100 to $430 in uniforms. The big-name national circuits start near $4,000.</td><td>Buy it once a year, and only for a team whose events are NCAA-certified. Ask what the fee covers before you sign.</td></tr>
@@ -416,13 +423,7 @@ A("""<section>
     </tbody>
   </table>
 
-  <div class="box">
-    <h3>The whole-year number</h3>
-    <p>One of the largest services in the market says a recruiting family spends $3,000 to $10,000 a year, and
-    $15,000 to $50,000 across high school. That number comes from a company that sells this work, so treat it as the high end of a realistic range. In 10th
-    and 11th grade a family can do this well for $3,000 to $6,000. Travel is the biggest line, and a $50 to $95 film
-    breakdown is the cheapest item with real value.</p>
-  </div>
+  
 
   <h3>Free, and still the most useful</h3>
   <ul class="tight">
@@ -451,8 +452,10 @@ A("""<section>
     </tbody>
   </table>
 
-  <h2 style="margin-top:6mm">10. Ten ways families get this wrong</h2>
-  <ol class="tight">
+  <h2 style="margin-top:6mm"></section>
+<section>
+<h2 style="margin-top:6mm">10. Ten ways families get this wrong</h2>
+  <ol class="flow tight">
     <li><strong>They read "15 scholarships" and stop.</strong> At a school on the new rules, 15 is a roster of people, not 15 free rides. The coach decides how much of each seat is paid for.</li>
     <li><strong>They build a list of twelve schools.</strong> With transfers and players from abroad holding close to four of every ten Division 1 seats, twelve schools is one coaching change away from nothing.</li>
     <li><strong>They read silence as rejection.</strong> From 1 April to 31 July a women's staff may not call, text, or email. Send the update in March and go quiet with them.</li>

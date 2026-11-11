@@ -137,13 +137,13 @@ A("""<section>
 </section>""")
 
 
-A("""<section>
+A("""<section class="newpage">
   <div class="pagehead"><span class="label">The Commit Book &middot; Football</span><span class="label">Class of 2029</span></div>
   <h2>3. The plan by date, class of 2029</h2>
   <p class="lead">He graduates in 2029, so his sophomore year ends in June 2027 and his junior year starts in August
   2027. Print this page. The football recruiting calendar for 2028-29 does not exist yet. The committees approve it and the NCAA publishes it in July 2028. Dates marked PROJECTED come from the rule text, so treat them as one week early or one week late until the calendar lands.</p>
 
-  <table>
+  <table class="flow">
     <thead><tr><th>Date</th><th>Kind</th><th>What happens</th><th>What to do that month</th></tr></thead>
     <tbody>
       <tr><td class="d">Now, in 10th grade</td><td><span class="tag t-hard">ACTION</span></td><td>Nothing is open yet, and that is the advantage.</td><td>Build the list of 40 to 55 schools. Get the video made once, properly. Send grades to every school on the list each semester.</td></tr>
@@ -232,7 +232,7 @@ A("""<section>
   matter. Coaches have said, in public and by name, what each of these events is worth to them.</p>
 
   <h3>What coaches actually say</h3>
-  <table>
+  <table class="flow">
     <thead><tr><th>Event</th><th>What a named coach has said</th><th>So what should you pay for</th></tr></thead>
     <tbody>
       <tr><td class="d">7-on-7</td><td>David Shaw, then Stanford head coach: it "means absolutely nothing to me as an evaluator," and he has never watched 7-on-7 film. Brian Strandley, Eastern Washington: asked if it helps in recruiting, "It's not. It's not at all." Chris Fore, recruiting coordinator: 7-on-7 film and stats "mean nothing to college coaches."</td><td>Play it for reps and for team chemistry. Do not pay for a national 7-on-7 circuit expecting recruiting credit.</td></tr>
@@ -346,7 +346,7 @@ A("""<section>
   <p class="lead">There is exactly one moment when a promise becomes a deal: the day a paper is signed. Everything
   before that is talk, and a coach is allowed to talk. Here is each document, and what it does.</p>
 
-  <table>
+  <table class="flow">
     <thead><tr><th>Document</th><th>When it may be signed</th><th>What it does</th></tr></thead>
     <tbody>
       <tr><td class="d">Verbal commitment</td><td>Any time, by phone or text</td><td>Nothing. It binds neither family nor school. It only tells the other coaches to stop calling.</td></tr>
@@ -403,7 +403,15 @@ A("""<section>
   line says so. A family that plans on $3,000 to $6,000 a year and skips the packages can finish this whole process
   with money left over.</p>
 
-  <table>
+  <div class="box">
+    <h3>The whole-year number</h3>
+    <p>One of the largest services in the market says a recruiting family spends $3,000 to $10,000 a year, and
+    $15,000 to $50,000 across high school. That is a vendor figure, so read it as the top of an honest range. One
+    father quoted $40,000 spent on a quarterback's camps, combines, and unofficial trips; that is the ceiling of a real
+    case, not the plan. The national sports survey puts average family spend on a single child at about $1,500 a year,
+    and $634 for tackle football, which is what the sport costs when nobody is selling you exposure.</p>
+  </div>
+<table class="flow">
     <thead><tr><th>What you buy</th><th>Real price</th><th>Buy it or skip it</th></tr></thead>
     <tbody>
       <tr><td class="d">College camp, one day</td><td>$49 to $125 at the schools we checked, from a small-school prospect camp to an FBS specialist camp. A multi-day camp with room and board runs $400 to $800 before travel.</td><td>Pay when the coach has answered your email and said he will watch him. Otherwise it is a jersey and a bus ride.</td></tr>
@@ -421,14 +429,7 @@ A("""<section>
     </tbody>
   </table>
 
-  <div class="box">
-    <h3>The whole-year number</h3>
-    <p>One of the largest services in the market says a recruiting family spends $3,000 to $10,000 a year, and
-    $15,000 to $50,000 across high school. That is a vendor figure, so read it as the top of an honest range. One
-    father quoted $40,000 spent on a quarterback's camps, combines, and unofficial trips; that is the ceiling of a real
-    case, not the plan. The national sports survey puts average family spend on a single child at about $1,500 a year,
-    and $634 for tackle football, which is what the sport costs when nobody is selling you exposure.</p>
-  </div>
+  
 
   <h3>Free, and still the most useful</h3>
   <ul class="tight">
@@ -458,8 +459,10 @@ A("""<section>
     </tbody>
   </table>
 
-  <h2 style="margin-top:6mm">10. Ten ways families get football wrong</h2>
-  <ol class="tight">
+  <h2 style="margin-top:6mm"></section>
+<section>
+<h2 style="margin-top:6mm">10. Ten ways families get football wrong</h2>
+  <ol class="flow tight">
     <li><strong>They think 85 is the number that matters.</strong> At a school on the new rules the number is 105 seats, and aid of any size can sit on any of them. The scarce thing is a seat, not a scholarship.</li>
     <li><strong>They read one guide and stop.</strong> The calendar moved out of the rule book in October 2026 and is re-ratified each July, and the FCS and FBS calendars are different. A 2024 handout is wrong about a week, and a July evaluation period no longer exists.</li>
     <li><strong>They pay for 7-on-7 and expect credit for it.</strong> Three coaches on the record, including a former Stanford head coach, say the film and the stats mean nothing to them.</li>
