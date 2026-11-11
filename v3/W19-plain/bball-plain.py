@@ -197,7 +197,7 @@ BODY = f"""
   <span class="tag t-projected">PROJECTED</span> are worked out from the rule. The rule says early signing starts on the second Wednesday in November and runs to the next Wednesday. It also says the regular period starts on the second Wednesday in April. That math matches the dates the NCAA printed for 2026-27: November 11 to 18, 2026 and April 14,
   2027. Basketball has <strong>no late signing period</strong>, so if you miss April, you wait a year.</p>
 
-  <table>
+  <table class="flow">
     <thead><tr><th>Date</th><th>What happens</th><th>Who owns it</th><th>Done when</th></tr></thead>
     <tbody>
     {plan_html}
@@ -250,7 +250,7 @@ BODY = f"""
   rarely say it out loud, and NAIA coaches say it plainly: if a parent writes the email, the coach assumes the player
   cannot read or write well. The parent's job is the paperwork and the dates, not the inbox.</p>
   <p><strong>The subject line.</strong> Class year, position, height, GPA (grade point average), town, and one number that matters:</p>
-  <div class="tmpl">2029 PG | 6'2" | 3.6 GPA unweighted | 14.1 PPG | Anytown South, WI - film inside</div>
+  <div class="tmpl">2029 PG | 6'2" | 3.6 GPA unweighted | 14.1 PPG | Anytown South HS - film inside</div>
   <p><strong>The email.</strong> Under 180 words, in the player's own words. One honest line on why this school. The
   video link and the facts. One question. No attachments. Then fill out the sports form on the school's website the
   same day. Many schools put the form in their system and never open the email.</p>

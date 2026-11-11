@@ -307,12 +307,13 @@ A("""<section>
 
   <h3>The email</h3>
   <p>Write the subject line as a label, not a greeting: class year, position, name, size, one
-  number worth asking about, school, state. Stay near 70 letters, because a phone cuts the rest
+  number worth asking about, school, and where you play. A coach only needs to know your time
+  zone, because that decides travel. Stay near 70 letters, because a phone cuts the rest
   off. Send it from the player's own address, not a parent's. A coach at a big school reads these
   by the dozen in January: one FBS recruiting coordinator said he went through 75 emails a night,
   and he said he screens on size and speed before he reads a word. So the email has one job. It
   answers his first five questions without a reply, then it stops. Keep the body near 180 words, which is what fits one phone screen. The sample below is 182.</p>
-  <div class="tmpl">Subject: 2029 MIKE LB Danny Whitfield, 6'0" 185, 4.94, Anytown South HS, WI
+  <div class="tmpl">Subject: 2029 MIKE LB Danny Whitfield, 6'0" 185, 4.94, Anytown South HS
 
 Coach Ferraro,
 

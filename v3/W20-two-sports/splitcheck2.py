@@ -11,7 +11,7 @@ soft hyphen.
 Blocks marked class="flow" are allowed to run over a page boundary, but only
 between rows or items, so they are reported as FLOW with the pages they span.
 """
-import re, sys, html, pathlib
+import re, sys, html, pathlib, unicodedata
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 SRC, DUMP = sys.argv[1], sys.argv[2]
@@ -20,6 +20,9 @@ MINRUN = 22          # characters; shorter runs are list markers and labels
 
 def norm(t):
     t = html.unescape(t)
+    # The PDF hands back typographic ligatures (diﬀerent, ﬁrst, ﬂow), so NFKC-decompose first,
+    # or a whole block reads as "missing" for a reason that has nothing to do with page breaks.
+    t = unicodedata.normalize("NFKC", t)
     for junk in ("\ufffe", "\u00ad", "-", "\u2014", "\u2013"):
         t = t.replace(junk, "")
     t = t.replace("\u2019", "'").replace("\u201c", '"').replace("\u201d", '"')
