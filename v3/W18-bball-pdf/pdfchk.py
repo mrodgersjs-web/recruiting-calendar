@@ -1,10 +1,4 @@
 import re,sys,pathlib
 sys.stdout.reconfigure(encoding="utf-8",errors="replace")
-raw=pathlib.Path(r"C:\Users\Jloeh\.aside\u\1\sessions\2026-11-08_sIbJ63jY5p1sXMzN\artifacts\basketball-playbook-sample.pdf").read_bytes()
-print("size:", len(raw))
-print("images (/Subtype /Image):", len(re.findall(rb"/Subtype\s*/Image", raw)))
-print("Form XObjects:", len(re.findall(rb"/Subtype\s*/Form", raw)))
-print("fonts:", sorted({f.decode() for f in re.findall(rb"/BaseFont\s*/([A-Za-z0-9+-]+)", raw)}))
-print("producer:", re.findall(rb"/Producer\s*\(([^)]{0,40})", raw)[:1])
-print("page objects:", len(re.findall(rb"/Type\s*/Page[^s]", raw)))
-print("has SVG-derived soft masks:", len(re.findall(rb"/SMask", raw)))
+raw=pathlib.Path(r"C:\Users\Jloeh\.aside\u\1\sessions\2026-11-08_sIbJ63jY5p1sXMzN\artifacts\The-Commit-Book-Basketball-Playbook-SAMPLE.pdf").read_bytes()
+print("final pdf bytes:", len(raw), "| pages:", len(re.findall(rb"/Type\s*/Page[^s]", raw)), "| raster images:", len(re.findall(rb"/Subtype\s*/Image", raw)), "| fonts:", len(re.findall(rb"/BaseFont", raw)))

@@ -51,18 +51,18 @@ CSS = """
 }
 *{box-sizing:border-box}
 body{margin:0;background:#fff;color:var(--ink);
-  font:400 10.4pt/1.5 "Iowan Old Style","Charter","Palatino Linotype",Georgia,serif;
+  font:400 10pt/1.46 "Iowan Old Style","Charter","Palatino Linotype",Georgia,serif;
   -webkit-print-color-adjust:exact;print-color-adjust:exact}
 .label{font:700 7.4pt/1 "Barlow Condensed","Arial Narrow",sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--ink2)}
 .label.red{color:var(--red)}
 h1,h2,h3{font:700 1.05em/1.12 "Barlow Condensed","Arial Narrow",sans-serif;letter-spacing:.02em;margin:0;text-transform:uppercase}
 h1{font-size:30pt;letter-spacing:-.005em;line-height:1.02}
-h2{font-size:15pt;margin:0 0 2mm;padding-top:3mm;border-top:2px solid var(--ink);page-break-after:avoid}
+h2{font-size:14.4pt;margin:0 0 1.6mm;padding-top:2.4mm;border-top:2px solid var(--ink);page-break-after:avoid}
 h3{font-size:10.6pt;margin:4mm 0 1.2mm;letter-spacing:.09em;color:var(--ink);page-break-after:avoid}
 section + section{page-break-before:always}
 tr{page-break-inside:avoid}
-p{margin:0 0 2.4mm}
-.lead{font-size:11.6pt;line-height:1.45;color:var(--ink2);max-width:44em}
+p{margin:0 0 2mm}
+.lead{font-size:11.1pt;line-height:1.45;color:var(--ink2);max-width:44em}
 a{color:var(--ink);text-decoration:none;word-break:break-all}
 .small{font-size:8.6pt;color:var(--ink3);line-height:1.42}
 strong{font-weight:700}
@@ -86,27 +86,27 @@ hr.dbl{border:0;border-top:3px double var(--ink);margin:3mm 0}
 .contents li{margin-bottom:1.2mm}
 ol.contents{padding-left:5mm}
 /* tables */
-table{width:100%;border-collapse:collapse;margin:2mm 0 3mm}
+table{width:100%;border-collapse:collapse;margin:1.6mm 0 2.4mm}
 th{font:700 7.4pt/1.2 "Barlow Condensed","Arial Narrow",sans-serif;letter-spacing:.14em;text-transform:uppercase;
    text-align:left;padding:1.6mm 2mm;border-bottom:1.5px solid var(--ink);color:var(--ink2)}
-td{padding:1.6mm 2mm;border-bottom:1px solid var(--rule);vertical-align:top;font-size:9.4pt}
-tr.sub td{border-bottom:1.5px solid var(--ink);font-size:8.8pt;color:var(--ink2);padding-top:0}
+td{padding:1.15mm 1.8mm;border-bottom:1px solid var(--rule);vertical-align:top;font-size:9.05pt}
+tr.sub td{border-bottom:1.5px solid var(--ink);font-size:8.5pt;color:var(--ink2);padding-top:0}
 td.d{white-space:nowrap;font:700 9.2pt/1.35 "Barlow Condensed","Arial Narrow",sans-serif;letter-spacing:.06em;text-transform:uppercase}
 td.w{width:38%}
-td.o{width:16%;font-size:8.8pt;color:var(--ink2)}
-td.n{width:30%;font-size:8.8pt;color:var(--ink2)}
+td.o{width:16%;font-size:8.5pt;color:var(--ink2)}
+td.n{width:30%;font-size:8.5pt;color:var(--ink2)}
 .tag{font:700 6.6pt/1 "Barlow Condensed","Arial Narrow",sans-serif;letter-spacing:.14em;padding:.6mm 1.4mm;border:1px solid var(--ink2);color:var(--ink2);white-space:nowrap}
 .t-projected{border-color:var(--red);color:var(--red)}
 .t-hard{background:var(--ink);color:#fff;border-color:var(--ink)}
 .t-opening{border-color:var(--green);color:var(--green)}
 /* boxes */
-.box{border:1px solid var(--ink);background:var(--paper);padding:3.5mm 4mm;margin:0 0 3.5mm}
+.box{border:1px solid var(--ink);background:var(--paper);padding:2.8mm 3.4mm;margin:0 0 3mm}
 .box.red{border-color:var(--red)}
 .box h3{margin-top:0}
-.tmpl{font:400 9.2pt/1.45 "Iowan Old Style",Georgia,serif;background:#fffdf7;border:1px solid var(--rule);padding:3mm 3.5mm;margin:0 0 3mm;white-space:pre-wrap}
+.tmpl{font:400 8.9pt/1.42 "Iowan Old Style",Georgia,serif;background:#fffdf7;border:1px solid var(--rule);padding:3mm 3.5mm;margin:0 0 3mm;white-space:pre-wrap}
 ul.tight,ol.tight{margin:0 0 3mm;padding-left:5mm;font-size:9.5pt}
-ul.tight li,ol.tight li{margin-bottom:1.2mm}
-.check{font-size:9.5pt;line-height:1.6}
+ul.tight li,ol.tight li{margin-bottom:.9mm}
+.check{font-size:9.2pt;line-height:1.6}
 .check b{font:700 8pt/1 "Barlow Condensed","Arial Narrow",sans-serif;letter-spacing:.12em;text-transform:uppercase}
 .two{column-count:2;column-gap:7mm}
 .sig{margin-top:6mm;border-top:3px double var(--ink);padding-top:2.5mm}
