@@ -414,3 +414,45 @@ what came back for each, and which is clean, and the surname has to be different
 **A citation says which numbering it uses.** The women's professional labour contract's page 22
 is printed page 15. A reader who types "page 22" into the PDF and a reader who turns to printed
 page 22 get different documents, so the book says "page 22 of the PDF file (printed page 15)".
+
+## 12. The storefront rules the four books forced into the open
+
+These belong to the store, not to a book. Sport five will trip on them the same way.
+
+**Three states, not one flag.** A book is `written`, `rewrite` or `unwritten`. The catalogue's
+`status` field gives `written`; the presence of a PDF under `funnel/deliver/pdfs/` is what
+separates a book being redone from one that does not exist. `site.py` writes all three into the
+ring data as `state`, and every label the carousels print derives from it. The word "Pending"
+alone is not allowed on the storefront: it cannot tell a buyer whether money will work.
+
+**A price and a purchase control appear only on a written book.** A stale row in generated data
+can put a "Get" button on a book nobody can buy: `stories.js` carried a WRITTEN row for the track
+and field outline for weeks. Anything the catalogue knows is normalised to the catalogue on every
+build, so a row older than this lane cannot lie.
+
+**Every helper a phone needs must exist in the phone file.** `deck.js` renders the carousel at
+749 px and under; `ring.js` renders the desktop ring. They are two files with two templates. A
+call to a helper that only exists in the other one empties the whole carousel, and the console
+stayed clean because the throw happened inside a `map`. After any edit to either file, look at
+the page at 390 px and count the cards. The phone deck measured 10,121 px tall when an unmatched
+`</div>` closed a card early; it is 1,977 px now.
+
+**A sport's link comes from `ring_page`, never from the sport label.** Taking the first word of
+"Women's Soccer" gives `/sports/women%E2%80%99s`, which is a 404 on eight cards at once.
+
+**Alt text names the person, and the noun replaces the sport instead of following it.**
+"Illustration of Casey, a fictional softball player". "a fictional swimming swimmer" is what
+appending produces. In both files the helper is `altline` in `ring.js` and `ALTL` in `deck.js`,
+and the two must stay in step. The word "lacrosse" contains "cross", so a track test written
+against "cross country" mislabels her as a track athlete. Test on "track".
+
+**A figure can be traced when the image model is blocked.** The provider returns 403 on this
+account, so the women's soccer card had no illustration. Pillow filled the alpha of an unused
+cutout from `v3/W5-athletes/v1media` with the house ink and cropped it to the aspect of its
+neighbours: `site/assets/media/sil-womens-soccer-640.webp`. It reads as a person at 300 px, which
+a hand-drawn pictogram did not. When the model is enabled, regenerate for real and drop the trace.
+
+**Two commands now take `--all`:** `factcheck.py --all` and `readability.py --all`. The grade is
+measured on the finished deck with wrapped lines joined. Long URLs and all-caps table headers
+score as hard sentences, so read the list of worst sentences before reacting to the number; the
+worst "sentence" in the softball book is a web address at grade 22.9.

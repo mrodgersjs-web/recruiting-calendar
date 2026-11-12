@@ -149,3 +149,12 @@ story-ring.is-revealed .sr__stage{opacity:1;transition:opacity 1.6s .1s}story-ri
 .sr__tick.is-pend{opacity:.42}
 .sr__tick.is-pend .sr__bar::after{background:var(--muted)}
 .sr__cta[disabled]{background:var(--muted);cursor:default}
+
+/* The figures are stacked inside the stage, not against the whole page: at
+   z-index 629 the legs and the pending band painted over the sticky header. */
+.sr__stage{position:relative;z-index:0;contain:paint}
+
+/* The figure is drawn first, so the tag has to be lifted above it or a shoe
+   covers the last letter of ILLUSTRATION on the tallest cards. */
+.card__lbl{position:relative;z-index:4}
+.card__art img{position:relative;z-index:1}

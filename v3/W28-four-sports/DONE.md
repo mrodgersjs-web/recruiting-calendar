@@ -58,7 +58,10 @@ The three that changed how the lane works:
 ## Store work the audits forced
 
 - A shelf tile shows money only for a book that exists. Nothing unwritten carries a price or
-  a button, and the Sport Pack names the two titles in it that are not written yet.
+  a button, and the Sport Pack names the two titles in it that are not written yet. Nine books are
+  delivered PDFs today; the other seven sports are dated outlines. The word "Pending" is gone
+  from the storefront: a band now says "Not written yet", and the ring data carries three states
+  (written, rewrite, unwritten) so a book being redone will not read as a book that is missing.
 - The ring's data was missing the catalogue rows, which is what blanked the landing ring:
   `undefined.price` in a card template. Any new catalogue row has to be in `playbooks` too.
 - Two builder patches in `site.py` were not idempotent and each build stamped another copy

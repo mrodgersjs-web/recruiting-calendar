@@ -9,10 +9,14 @@ function builtInfoLegacy(a){
  var s=String(a.sport||"").toLowerCase();
  if(s.indexOf("volleyball")>-1)return{built:true,label:"Women's Volleyball"};
  if(s.indexOf("football")>-1)return{built:true,label:"Men's Football"};
- if(s.indexOf("basketball")>-1)return{built:true,label:WOMENS_BB[a.id]?"Women's Basketball":"Men's Basketball"};
+ if(s.indexOf("basketball")>-1)return{built:true,label:WOMENS_BB[a.id]?"Girls' Basketball":"Men's Basketball"};
  return{built:false,label:a.sport};
 }
-function isPending(a){return!builtInfo(a).built}
+function isPending(a){return!BUYABLE(a)}
+const STATE=(a)=>{const id=(a&&(a.book||((a.playbooks||[])[0])));const p=(window.STORY_ALL||{}).playbooks||{};const r=id&&p[id];return r&&r.state?r.state:(r&&r.status==='WRITTEN'?'written':'unwritten')};
+const PEND=(a)=>STATE(a)==='rewrite'?'New edition in progress':'Not written yet';
+const BUYABLE=(a)=>STATE(a)!=='unwritten';
+const META=(a)=>STATE(a)==='rewrite'?`${a.short} \u00b7 ${a.sport}. This playbook is being rewritten. Anyone who buys it now gets the new edition free.`:`${a.short} \u00b7 ${a.sport}. This playbook is still being written, so it is not open yet.`;
 function orderBuilt(list){
  var L=list.slice(),first=[],live=[],pend=[],seen={};
  function take(a){var k=builtInfo(a).label;if(seen[k])return;seen[k]=1;(isPending(a)?pend:live).push(a)}
@@ -38,10 +42,11 @@ const sil=(a,i)=>{const s=String((a&&a.sport)||''),fem=/wom|girl/i.test(s);
  const hair=fem?`<path d="M58 9c9 1 13 9 12 19 1 7-3 13-8 15 4-9 3-19-6-27z"/><circle cx="50" cy="17" r="9"/>`:'';
  const skirt=fem?`<path d="M33 70h34l6 23H27z"/>`:'';
  const ball=/soccer|football/i.test(s)?`<circle cx="76" cy="166" r="10"/>`:'';
- return `<svg viewBox="0 0 100 180" role="img" aria-label="Silhouette of a fictional ${sp(s).toLowerCase()} ${noun(s)}" fill="#111"><path d="${poses[i%2]}"/>${hair}${skirt}${ball}</svg>`};
-const noun=(s)=>/swim|div/i.test(s)?'swimmer':/wrestl/i.test(s)?'wrestler':/track|field|cross/i.test(s)?'track athlete':'player';
+ return `<svg viewBox="0 0 100 180" role="img" aria-label="Silhouette of ${sp(a&&a.name||"the player")}, a fictional ${altline(a||{})}" fill="#111"><path d="${poses[i%2]}"/>${hair}${skirt}${ball}</svg>`};
+const noun=(s)=>/swim|div/i.test(s)?'swimmer':/wrestl/i.test(s)?'wrestler':/track/i.test(s)?'track athlete':'player';
+const altline=(a)=>{const s=String((a&&a.sport)||'').toLowerCase(),n=noun(s);return n==='player'?`${s} ${n}`:n;};
 const sp=(s)=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const cardHTML=(a,i)=>{const bi=builtInfo(a);return `<span class="card__shadow"></span><span class="card__art">${a.img?`<img src="${a.img}" alt="Illustration of ${escA(a.short)}, a fictional ${sp(a.sport).toLowerCase()} ${noun(a.sport)}" loading="eager" decoding="async">`:sil(a,i)}</span><span class="card__lbl">Illustration</span>${bi.built?``:`<span class="card__pend">Pending</span>`} <span class="card__meta"><div class="card__name">${escA(a.short)}</div><div class="card__line">${sp(bi.label)}</div></span>`};
+const cardHTML=(a,i)=>{const bi=builtInfo(a);return `<span class="card__shadow"></span><span class="card__art">${a.img?`<img src="${a.img}" alt="Illustration of ${escA(a.short)}, a fictional ${altline(a)}" loading="eager" decoding="async">`:sil(a,i)}</span><span class="card__lbl">Illustration</span>${bi.built?``:`<span class="card__pend">${PEND(a)}</span>`} <span class="card__meta"><div class="card__name">${escA(a.short)}</div><div class="card__line">${sp(bi.label)}</div></span>`};
 class StoryRing extends HTMLElement{
 connectedCallback(){
  const D=window.STORY_DATA;this.A=orderBuilt(D.athletes);this.P=D.playbooks;const n=this.n=this.A.length;
@@ -62,7 +67,7 @@ render(){
 <div class="sr__stage" tabindex="0" role="region" aria-roledescription="carousel" aria-label="Browse by sport. Use arrow keys or swipe."><div class="sr__actors"></div><div class="sr__heroes"></div><span class="sr__sweep"></span>
 <span class="sr__cursor"><span class="sr__cursor-in"><span class="c-drag">Drag</span><span class="c-view">View</span></span></span><span class="sr__walk"></span></div>
 <div class="sr__controls"><button class="sr__icon sr__prev" aria-label="Previous athlete"><svg width="26" height="14" viewBox="0 0 26 14" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M25 7H1M7 1L1 7l6 6"/></svg></button>
-<div class="sr__ticks">${A.map((a,i)=>`<button class="sr__tick${isPending(a)?' is-pend':''}" data-tick="${i}" aria-label="${isPending(a)?"Pending: "+a.sport:"Path "+(i+1)+": "+builtInfo(a).label}"><span class="sr__bar"></span><span class="sr__tlabel">${String(i+1).padStart(2,'0')}<span class="sr__tname">&nbsp;&nbsp;${isPending(a)?'Pending \u00b7 '+sp(a.sport):builtInfo(a).label}</span></span></button>`).join('')}</div>
+<div class="sr__ticks">${A.map((a,i)=>`<button class="sr__tick${isPending(a)?' is-pend':''}" data-tick="${i}" aria-label="${isPending(a)?PEND(a)+": "+a.sport:"Path "+(i+1)+": "+builtInfo(a).label}"><span class="sr__bar"></span><span class="sr__tlabel">${String(i+1).padStart(2,'0')}<span class="sr__tname">&nbsp;&nbsp;${isPending(a)?PEND(a)+' \u00b7 '+sp(a.sport):builtInfo(a).label}</span></span></button>`).join('')}</div>
 <button class="sr__icon sr__auto" aria-pressed="false" aria-label="Autoplay"><svg class="i-play" width="14" height="14" viewBox="0 0 24 24"><path fill="currentColor" d="M7 4.5v15l12.5-7.5z"/></svg><svg class="i-pause" width="14" height="14" viewBox="0 0 24 24"><path fill="currentColor" d="M6.5 4.5h3.5v15H6.5zM14 4.5h3.5v15H14z"/></svg></button>
 <button class="sr__icon sr__next" aria-label="Next athlete"><svg width="26" height="14" viewBox="0 0 26 14" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M1 7h24M19 1l6 6-6 6"/></svg></button></div></div>
 <aside class="sr__panel"><div class="sr__pinner"><div class="sr__phead"><h3 class="sr__ptitle">Playbooks for this sport</h3><span class="sr__lab" data-count></span></div><div class="sr__who" data-who></div>
@@ -70,7 +75,7 @@ render(){
  const act=this.querySelector('.sr__actors'),her=this.querySelector('.sr__heroes');
  this.bodies=[];for(let b=0;b<this.N;b++){const a=A[b%n];const el=document.createElement('div');el.className='sr__body';el.setAttribute('aria-hidden','true');
   el.innerHTML=`<button class="card${isPending(a)?' is-pending':''}" data-go="${b}" tabindex="-1" aria-label="${escA(a.name)}">${cardHTML(a,b%n)}</button>`;act.appendChild(el);this.bodies.push({el,a:b,w:0,blur:-1,x:b})}
- this.heroes=A.map((a,i)=>{const h=document.createElement('div');h.className='sr__hero';h.innerHTML=`<button class="card${isPending(a)?' is-pending':''}" data-view="${i}" tabindex="-1" aria-label="${escA((isPending(a)?"Pending, not open yet. Playbook for ":"Playbooks for ") + (builtInfo(a).label||"this sport") + ": " + a.name)}">${cardHTML(a,i)}</button>`;her.appendChild(h);return h});
+ this.heroes=A.map((a,i)=>{const h=document.createElement('div');h.className='sr__hero';h.innerHTML=`<button class="card${isPending(a)?' is-pending':''}" data-view="${i}" tabindex="-1" aria-label="${escA((isPending(a)?PEND(a)+", not open yet. Playbook for ":"Playbooks for ") + (builtInfo(a).label||"this sport") + ": " + a.name)}">${cardHTML(a,i)}</button>`;her.appendChild(h);return h});
  this.stage=this.querySelector('.sr__stage');this.cursor=this.querySelector('.sr__cursor');this.ticks=[...this.querySelectorAll('.sr__tick')];
 }
 measure(){
@@ -143,17 +148,17 @@ setIndex(i,silent){
  const a=this.A[this.index];this.style.setProperty('--progress',((this.index+1)/this.n).toFixed(3));
  this.heroes.forEach((h,j)=>{h.classList.toggle('is-on',j===this.index);h.querySelector('.card').tabIndex=(j===this.index&&!isPending(this.A[j]))?0:-1});
  if(!silent&&!RM){this.stage.classList.remove('is-sweep');void this.stage.offsetWidth;this.stage.classList.add('is-sweep')}
- if(!silent)this.querySelector('[data-live]').textContent=isPending(a)?`Pending: ${a.sport}`:`Path ${this.index+1}: ${builtInfo(a).label}`;
+ if(!silent)this.querySelector('[data-live]').textContent=isPending(a)?`${PEND(a)}: ${a.sport}`:`Path ${this.index+1}: ${builtInfo(a).label}`;
  this.ticks.forEach((t,j)=>{t.setAttribute('aria-current',String(j===this.index));t.classList.toggle('is-past',j<this.index)});
  this.renderPanel(silent);this.restartBar();
 }
 renderPanel(silent){
  const a=this.A[this.index],ul=this.querySelector('[data-items]');
  this.querySelector('[data-count]').textContent=a.playbooks.length+' playbooks';
- this.querySelector('[data-who]').textContent=isPending(a)?`${a.short} · ${a.sport}. This playbook is still being written, so it is not open yet.`:`${a.short} · ${builtInfo(a).label} · Illustration. The name is a placeholder; the dates and rules are cited on the page that uses them.`;
+ this.querySelector('[data-who]').textContent=isPending(a)?META(a):`${a.short} · ${builtInfo(a).label} · Illustration. The name is a placeholder; the dates and rules are cited on the page that uses them.`;
  ul.innerHTML=a.playbooks.filter(p=>!!this.P[p]).map((p,i)=>{const pb=this.P[p],on=this.bag.has(p);return `<li class="sr__item" style="--i:${i+1}"><span class="sr__thumb">${String(i+1).padStart(2,'0')}</span><span><div class="sr__itype">Playbook · $${pb.price}, one-time</div><a class="sr__iname" href="/playbooks/${p}">${pb.title}</a></span><button class="sr__add" data-add="${p}" aria-pressed="${on}">${on?'Added':'Get'}</button></li>`}).join('');
  const pi=this.querySelector('.sr__pinner');pi.classList.remove('is-in');void pi.offsetWidth;pi.classList.add('is-in');
- var _rd=this.querySelector('[data-read]');_rd.disabled=isPending(a);_rd.textContent=isPending(a)?'Playbook pending':'Playbooks for '+builtInfo(a).label+' \u2192';_rd.onclick=isPending(a)?null:()=>location.href=SPORT_PATH(a);
+ var _rd=this.querySelector('[data-read]');_rd.disabled=isPending(a);_rd.textContent=isPending(a)?(STATE(a)==='rewrite'?'Read the playbook':'Playbook not written yet'):'Playbooks for '+builtInfo(a).label+' \u2192';_rd.onclick=isPending(a)?null:()=>location.href=SPORT_PATH(a);
 }
 updBag(){const n=this.bag.size;document.querySelectorAll('[data-bag-count]').forEach(e=>e.textContent=n);this.querySelector('[data-bagline]').textContent=n?`${n} in your playbook bag (saved on this device).`:'For the athlete to run. Parents support.';try{localStorage.setItem('playbook-bag-v1',JSON.stringify([...this.bag]))}catch(e){}}
 toast(m){const t=document.getElementById('bag-status');if(!t)return;t.textContent=m;t.classList.add('is-on');clearTimeout(this.tt);this.tt=setTimeout(()=>t.classList.remove('is-on'),2500)}

@@ -132,6 +132,20 @@ def who_label(c):
     return "%s families, %s" % (sport, "boys and men" if c["gender"] == "men" else "girls and women")
 
 
+_MONTHS = "January February March April May June July August September October November December".split()
+
+
+def _fmt_date(m):
+    """The books date their documents in words. A reader should not have to work out
+    whether 11/12/26 is February or December."""
+    mo, d, y = int(m.group(1)), int(m.group(2)), int(m.group(3))
+    if y < 100:
+        y += 2000
+    if not 1 <= mo <= 12 or not 1 <= d <= 31:
+        return m.group(0)
+    return "%d %s %d" % (d, _MONTHS[mo - 1], y)
+
+
 def sources_of(slug):
     """The last chapter names the documents behind the book, and the store page lists them.
     The house style is a document name plus the day it was read, not a bare URL: a nine-word
@@ -151,11 +165,15 @@ def sources_of(slug):
     for block in re.findall(r"(?is)<src\b[^>]*>(.*?)</src>", t):
         raw = re.sub(r"\s+", " ", block).strip()
         url = ""
-        m = re.search(r'https?://[^\s]+', raw)
+        m = re.search(r'https?://[^\s]+|\b(?:[a-z0-9-]+\.)+(?:org|com|net|edu|io|gov)\/[^\s]*', raw)
         if m:
             url = m.group(0).rstrip(".,)")
+            if not url.startswith("http"):
+                url = "https://" + url
             raw = (raw[:m.start()] + " " + raw[m.end():]).strip()
+            raw = re.sub(r"\s{2,}", " ", raw).strip(" ,.;")
         lab = raw.split(". ")[0].strip().strip(",.")
+        lab = re.sub(r"\b(\d{1,2})/(\d{1,2})/(\d{2,4})\b", _fmt_date, lab)
         if len(lab) >= 12 and lab not in seen:
             seen.add(lab)
             out.append([url, lab])
@@ -215,14 +233,21 @@ def shelf_state(html, slug):
     that hid the button and left the price standing, which read as a free book.
     """
     b = BOOKS.get(slug) or {}
-    if b.get("status") == "WRITTEN":
-        return re.sub(r'<span class="pb-p">\$\d+</span>',
-                      '<span class="pb-p">$%d</span>' % b["price_usd"], html)
-    html = re.sub(r'<span class="pb-p">\$\d+</span>',
-                  '<span class="pb-p is-soon">in progress</span>', html)
-    html = re.sub(r'<button class="btn[^"]*" data-offer="%s">[^<]*</button>' % re.escape(slug),
-                  '<p class="note">in progress &middot; no price yet</p>', html)
-    return html.replace('<div class="pb-cell">', '<div class="pb-cell is-soon">', 1)
+    written = b.get("status") == "WRITTEN"
+    price = str(b.get("price_usd") or 29)
+
+    def money(m):
+        return m.group(1) + (("$" + price) if written else "in progress") + m.group(3)
+
+    # Two markups carry a price on this site: the shelf uses a span, the older sport
+    # pages a paragraph with a "one-time" note. One rule covers both, so a tile can
+    # never show a number that the catalogue does not back.
+    html = re.sub(r'((?:<span|<p) class="pb-p"[^>]*>)\$[\d.]+((?:\s*<span class="note">[^<]*</span>)?)(</(?:span|p)>)', money, html)
+    if not written:
+        html = re.sub(r'<button class="btn[^"]*"[^>]*data-offer="' + re.escape(slug) + '">[^<]*</button>',
+                      '<p class="note">in progress &middot; no price yet</p>', html)
+        html = html.replace('<div class="pb-cell">', '<div class="pb-cell is-soon">', 1)
+    return html
 
 
 def cell(slug):
@@ -324,11 +349,13 @@ for slug in NEW:
 ala = sum(b["price_usd"] for b in CAT["catalog"])
 for bd in CAT["bundles"]:
     if bd["slug"] == "all-playbooks":
-        bd["note"] = "all %d a la carte $%d" % (len(CAT["catalog"]), ala)
+        bd["note"] = ("all %d a la carte $%d, and the four titles still being written arrive as they are finished"
+                  % (len(CAT["catalog"]), ala))
     elif bd["slug"] == "sport-pack":
         tot = sum(BOOKS[p]["price_usd"] for p in ["eligibility-2-hard-deadlines", "offer-and-signing",
                                                  "camp-roi"] + GOT if p in BOOKS)
-        bd["note"] = "a $%d pack against $%d for the same books apart" % (bd["price_usd"], tot)
+        bd["note"] = ("a $%d pack against $%d for the same books apart. Today it holds %d written playbooks; "
+                  "the rest arrive as they are finished." % (bd["price_usd"], tot, len(GOT)))
         bd["includes_note"] = ("One of the %d written sport playbooks: %s."
                                % (len(GOT), ", ".join(BOOKS[s]["sport"] for s in GOT)))
 for s, rep in STORE["retired"].items():
@@ -402,8 +429,8 @@ for slug, c in have.items():
 bundles = re.search(r'<section class="pb-bund".*?</section>', main_open, re.S).group(0)
 unfinished = [s for s in ("offer-and-signing", "camp-roi")
                 if BOOKS.get(s, {}).get("status") != "WRITTEN"]
-bundles = re.sub(r"(?:one of the )(?:four|eight|five|six|seven) (?:written|finished) sport playbooks",
-                 "one of the %d finished sport playbooks" % len(GOT), bundles)
+bundles = re.sub(r"\b(?:any of the|one of the|all of the|any of|one of) (?:one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|\d+) (?:written|finished) sport playbooks",
+                 "any of the %d finished sport playbooks" % len(GOT), bundles)
 if bundles != re.search(r'<section class="pb-bund".*?</section>', main_open, re.S).group(0):
     print("  the Sport Pack counts the finished books on the shelf")
 if unfinished:
@@ -545,6 +572,9 @@ for page, slugs in sorted(per_page.items()):
     # Rebuild the grid by key, not by appending. A run that appends gives a book a second
     # tile every time the script is run, and this script is run more than once a sitting.
     keep = cells_by_slug(t[a:b])
+    for slug in list(keep):
+        if slug in BOOKS:
+            keep[slug] = shelf_state(keep[slug], slug)
     for slug in slugs + list(keep):
         if slug in keep and (slug in slugs or keep[slug].find("is-pend") >= 0):
             del keep[slug]
@@ -556,14 +586,17 @@ for page, slugs in sorted(per_page.items()):
     # A sport page that now carries a dated book may not still tell the reader that no
     # dated calendar exists for its sport. The calendar tool is what is missing; the book
     # carries the dates, chapter by chapter, each with its bylaw.
-    dated = [s for s in slugs if BOOKS[s]["status"] == "WRITTEN"]
+    dated = [s for s in slugs + list(keep) if BOOKS.get(s, {}).get("status") == "WRITTEN"]
     if dated:
         s0 = dated[0]
-        say = ('<p>The %s playbook carries this sport\u2019s 2026-27 dates chapter by chapter, each '
-               'one beside the rule that sets it. A calendar tool that answers &ldquo;what do I do '
-               'this month&rdquo; for one athlete is not live yet. <a href="/playbooks/%s/">Read '
-               'the book</a>.</p>' % (CFG[s0]["ring_label"].lower(), s0))
-        t = re.sub(r'<p>No dated calendar for this sport yet\..*?</p>', say, t, count=1, flags=re.S)
+        names = ", ".join((CFG[s]["ring_label"] if s in CFG else BOOKS[s]["title"].split(":")[0])
+                          for s in dict.fromkeys(dated))
+        reads = " ".join('<a href="/playbooks/%s/">Read the %s book</a>' % (s, (CFG[s]["ring_label"]
+                    if s in CFG else BOOKS[s]["title"].split(":")[0]).lower()) for s in dict.fromkeys(dated))
+        say = ('<p>%s %s this sport\u2019s 2026-27 dates chapter by chapter, each one beside the rule '
+               'that sets it. A calendar tool that answers &ldquo;what do I do this month&rdquo; for one '
+               'athlete is not live yet. %s</p>' % (names, 'carry' if len(dict.fromkeys(dated)) > 1 else 'carries', reads))
+        t = re.sub(r'<p[^>]*>(?:No dated calendar for this sport yet\.|The [^<]*playbook(?:s)? (?:carries|carry) this sport)[^<]*(?:<[^>]*>[^<]*)*</p>', say, t, count=1, flags=re.S)
     write(p, t)
     print("  /sports/%s carries %s" % (page, " then ".join(CFG[s]["ring_label"] for s in slugs)))
 
@@ -692,6 +725,28 @@ if not (missing or extra):
                                  "outcome": _b["outcome"], "toc": _b["toc"],
                                  "status": "WRITTEN"}
         print("  catalogue %s $%d" % (_s, _b["price_usd"]))
+
+# Anything the catalogue knows is normalised to what the catalogue says, because
+# stories.js carries rows older than this lane and a stale WRITTEN put a $25 "Get"
+# button on a book nobody can buy.
+for _s, _p in DATA["playbooks"].items():
+    _c = BOOKS.get(_s)
+    if not _c:
+        continue
+    _w = _c["status"] == "WRITTEN"
+    _has_pdf = (SITE / ("funnel/deliver/pdfs/%s.pdf" % _s)).exists()
+    _p["status"] = "WRITTEN" if _w else "PENDING"
+    # Three states, because "pending" meant two different things and one of them was
+    # a book people can buy today. A rewrite is not an unwritten book.
+    _p["state"] = "written" if _w else ("rewrite" if _has_pdf else "unwritten")
+    _p["title"] = _c["title"]
+    _p["who"] = _c["who"]
+    if _w:
+        _p["price"] = _c["price_usd"]
+    else:
+        _p.pop("price", None)
+    if not _w:
+        _p["notify"] = True
     DATA["athletes"] = [{k: v for k, v in recs[i].items() if k != "moved_from"}
                         for i in STORE["ring_ids"]]
     write(SJ, pre + "window.STORY_ALL="
@@ -816,3 +871,41 @@ if fails:
     print("%d failures. The store does not change until they are fixed." % len(fails))
     sys.exit(1)
 print("site pass clean. Next: python gate.py, then look at it in a browser.")
+
+
+# --------------------------------------------------- 8 the sport index counts
+print("\n8 sport index counts")
+IDX = SITE / "sports/index.html"
+
+
+def _written_on(page):
+    """How many playbooks a person can actually read on that sport page today."""
+    f = SITE / ("sports/%s/index.html" % page)
+    if not f.exists():
+        return 0
+    got = set()
+    for sl in re.findall(r'href="/playbooks/([a-z0-9-]+)"', f.read_text(encoding="utf-8")):
+        if BOOKS.get(sl, {}).get("status") == "WRITTEN":
+            got.add(sl)
+    return len(got)
+
+
+if IDX.exists():
+    ti = IDX.read_text(encoding="utf-8")
+
+    def _fix(mm):
+        page, label, claim = mm.group(1), mm.group(2), mm.group(3)
+        n = _written_on(page)
+        if not n:
+            claim = "playbook in progress"
+        elif "playbooks" in claim:
+            tail = " &middot; dated rules" if "dated rules" in claim else ""
+            claim = "%d playbook%s%s" % (n, "" if n == 1 else "s", tail)
+        return ('href="/sports/%s"><span class="pb-thumb"><b>%s</b><i>%s</i>' % (page, label, claim))
+
+    ti2 = re.sub(r'href="/sports/([a-z0-9-]+)"><span class="pb-thumb"><b>([^<]*)</b><i>([^<]*)</i>', _fix, ti)
+    if ti2 != ti:
+        write(IDX, ti2)
+        print("  the sport index now counts only what a person can read today")
+    else:
+        print("  the sport index already matched")

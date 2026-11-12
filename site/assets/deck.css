@@ -34,3 +34,6 @@ story-deck{display:none}
  .dk-list span{font:400 11px var(--font-text);color:#cacacb}
 }
 @media (max-width:749px) and (prefers-reduced-motion:reduce){.dk-track{scroll-behavior:auto}}
+
+/* The source link sits under the button, not around it. */
+.dk-src{display:block;width:max-content;margin-top:8px}
