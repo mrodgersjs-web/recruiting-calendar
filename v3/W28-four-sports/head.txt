@@ -129,9 +129,13 @@ table + .small, table + .note, table + p.small, table + p.note { break-before: a
  table.cal.four col.c-where { width: 20% }
 .tag.t-service { color: var(--green); border-color: var(--green) }
 .tag.t-unconfirmed { color: var(--ink2); border-color: var(--ink2) }
+/* The back page is short on purpose, but it must not be split from its own heading. A rule
+   with nothing under it is the last thing a reader sees, so a colophon and its rule are
+   tagged .keep. Note that this file IS the book stylesheet: deck.py concatenates it in
+   front of the fragments, so anything written after the style block prints on the cover
+   as body text, which is how the round-five rule ended up on four front pages. */
+.keep { break-inside: avoid; page-break-inside: avoid }
+
 </style></head>
 
 <body>
-/* The back page is short on purpose, but it must not be split from its own heading.
-   A rule with nothing under it is the last thing a reader sees. Tag it .keep. */
-.keep { break-inside: avoid; page-break-inside: avoid }

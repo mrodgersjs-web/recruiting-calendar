@@ -313,3 +313,38 @@ cover and reported white type at 1.1 to 1 on a pending tile, which would have be
 label on a storefront. A contrast number has to include the alpha of the thing being painted.
 The 1440 alignment of the three bundle prices is left as it is, on both auditors' judgement that a
 component four audits has measured is not worth re-cutting for the sake of it.
+
+## Print round six: the keep rule was outside its own stylesheet
+
+The auditor's verdict on round five was FAIL on all four for one new blocker, and the blocker was
+mine in a way the lane had already warned about. `head.txt` IS the book stylesheet: `deck.py`
+concatenates the whole file in front of the fragments. I appended the `.keep` rule to the end of
+it, which is inside the `<body>`, so all four covers printed the rule and its comment as two lines
+of prose and the rule never applied. The file even carries a note about a 468-byte note written
+over it once before, which took the CSS out of four books. `deck.py` now refuses to build a book
+whose stylesheet has text after the style block that looks like CSS, so the mistake cannot be
+repeated quietly.
+
+With the rule live, women's soccer comes right: the closing rule and the colophon are two elements
+of one `<section class="newpage keep">`, the section holds exactly one piece of text, and that
+text is all on p28, so the section did not split. Men's soccer's sources note, which the wider date
+column had pushed onto p11 alone, is kept with the block above it; that book is 27 pages now. The
+same tag goes on any chapter that ends with a sources note, in all four books, because the grid
+width is what moved the note and the grid can move again.
+
+The furniture went the way of the measurement rather than the recorded template. The shelf's own
+PDF is #8a8271 warm grey, cap height 5.03 pt, 3.95 pt per character in the head; the record in this
+lane names Barlow Condensed at ink black, which disagrees with the file it claims to describe, and
+a print template cannot load a webfont anyway. The head and footer now ask for Arial Narrow at
+8.7 px, weight 400, #8a8271, head tracked .25em, named without quotes because a quote inside a
+style attribute is what ate two earlier rounds. Whether that matches on paper is the auditor's
+measurement to take, not mine to claim.
+
+Two tool-use failures cost a round of printing. `python deck.py baseball-road-to-college` is not a
+slug: the four are `mens-baseball`, `womens-softball`, `mens-soccer`, `womens-soccer`, all
+`-road-to-college`, and the wrong one reports a missing config and exits, which my filtered output
+hid. And `print.js` is a module, not a command: its own header says to call `printBook(slug)` per
+book, it reads the browser globals that only the REPL has, and `node print.js` defines a function,
+prints nothing and exits zero, so four deck builds went by with no PDFs behind them. Printing
+happens in the REPL, into the session directory, and the files are then copied to `pdfs/` and to
+the handoff folder.

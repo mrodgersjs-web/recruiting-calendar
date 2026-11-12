@@ -129,13 +129,16 @@ table + .small, table + .note, table + p.small, table + p.note { break-before: a
  table.cal.four col.c-where { width: 20% }
 .tag.t-service { color: var(--green); border-color: var(--green) }
 .tag.t-unconfirmed { color: var(--ink2); border-color: var(--ink2) }
+/* The back page is short on purpose, but it must not be split from its own heading. A rule
+   with nothing under it is the last thing a reader sees, so a colophon and its rule are
+   tagged .keep. Note that this file IS the book stylesheet: deck.py concatenates it in
+   front of the fragments, so anything written after the style block prints on the cover
+   as body text, which is how the round-five rule ended up on four front pages. */
+.keep { break-inside: avoid; page-break-inside: avoid }
+
 </style></head>
 
-<body>
-/* The back page is short on purpose, but it must not be split from its own heading.
-   A rule with nothing under it is the last thing a reader sees. Tag it .keep. */
-.keep { break-inside: avoid; page-break-inside: avoid }
-<section class="cover">
+<body><section class="cover">
   <div class="lockwrap"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSI2IiBmaWxsPSIjMDAwIi8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE0IDE4aDE0bDQgNCA0LTRoMTR2MjZIMzZsLTQgNC00LTRIMTR6IE0xOSAyM3YxNmgxMGwzIDMgMy0zaDEwVjIzaC04bC01IDUtNS01eiIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0yOCAzMWwzIDMgNi03IDIuNSAyLjJMMzEgMzguNWwtNS41LTUuM3oiLz48L3N2Zz4K" alt="The Commit Book"></div>
   <div class="kicker label red">Soccer &middot; boys and men &middot; grades 9 to 12 &middot; sport playbook</div>
   <h1>Men's Soccer:<br>The Whole Road to College</h1>
@@ -468,7 +471,7 @@ table + .small, table + .note, table + p.small, table + p.note { break-before: a
 
   <div class="box red">
     <h3>What a missed date costs</h3>
-    <p style="margin-bottom:0">A boy who has not signed up with the Eligibility Center may not take a Division I
+    <p style="margin-bottom:0" class="keepnext"A boy who has not signed up with the Eligibility Center may not take a Division I
     paid visit (Bylaw 13.6.3). A visit booked inside a dead period cannot happen. A boy who is short of 10 core
     courses before his seventh semester misses the Division I 10/7 rule, and no summer of soccer fixes that. Put the
     dates on one page and the page on the fridge.</p>
@@ -630,7 +633,7 @@ table + .small, table + .note, table + p.small, table + p.note { break-before: a
     names and the refund rule. If it names no coach, ask who will be there.</li>
     <li><strong>Ask the club for its full-year fee sheet.</strong> Ask for it in writing, with travel and event fees
     on it.</li>
-    <li><strong>Count the teams near you.</strong> Go to the NAIA's own site and the junior college body's own site,
+    <li><strong class="keepnext"Count the teams near you.</strong> Go to the NAIA's own site and the junior college body's own site,
     and look for men's soccer. This book did not reach those pages, so it cannot tell you what they show.</li>
   </ol>
   <p class="small">Sources: NCAA estimated probability figures, last updated March 2026; the youth league's own
@@ -851,7 +854,7 @@ player@example.com &middot; (555) 555-0163</div>
     pool of 436 players from 150 schools. Its 2026 pay floor was $113,400 for a senior roster player and $88,025 for a
     reserve player, who must be 24 or younger. The league's page says there is no limit on the number of homegrown
     players a club may sign.</p>
-    <p style="margin-bottom:0">Two rule books meet at the draft, and this book could not settle how. The league says
+    <p style="margin-bottom:0" class="keepnext"Two rule books meet at the draft, and this book could not settle how. The league says
     a drafted player who goes back to college "will not be draft-eligible in the future." The NCAA lets him enter a
     draft after he enrolls only if he is not drafted. Ask the college's rules office and the league before he puts
     his name in.</p>

@@ -120,6 +120,7 @@ def build(c):
 # a customer has to reconcile.
     toks["@@DOCTYPE@@"] = "%s \u2014 The Commit Book Playbook" % c["title"]
     head = (LANE / "head.txt").read_text(encoding="utf-8")
+    lint_head_css(head, c)
     if "</style>" not in head or len(head) < 4000:
         fails.append("head.txt is %d bytes and holds no </style>: the shared stylesheet "
                        "is not in it, so nothing could print right" % len(head))
@@ -271,6 +272,16 @@ def lint_email(doc, c):
         if "555" not in tel:
             fails.append("the sample email carries a real-looking phone number: %s" % tel)
     return {"subject": subj, "letters": letters, "words": words}
+
+
+def lint_head_css(head_css, c):
+    # head.txt is the whole stylesheet. Text after the style block is body text, and a CSS rule
+    # written there prints on the cover as two lines of prose and does nothing besides.
+    after = head_css.split("</style>", 1)[1] if "</style>" in head_css else ""
+    bad = re.search(r"[{;]", after)
+    if bad:
+        c.fail("head.txt: text after the style block looks like CSS and would print on the cover: "
+               + re.sub(r"\s+", " ", after[bad.start():bad.start() + 60]).strip())
 
 
 def lint_grid(doc, c):

@@ -42,10 +42,10 @@ const PAD = "width:100%;padding:0 14mm;box-sizing:border-box";
    letter spacing and no colour at all, and only the content-stream measurement caught it,
    twice, from two different directions. Arial stands in for Barlow Condensed because the
    template is its own document and loads no webfont. */
-const HFONT = "font-family:Arial,Helvetica,sans-serif;font-size:9px;font-weight:400;color:#5a5a5a";
+const HFONT = "font-family:Arial Narrow,Arial,Helvetica,sans-serif;font-size:8.7px;font-weight:400;color:#8a8271";
 
 function headBand(word) {
-  return "<div style='" + PAD + ";" + HFONT + ";letter-spacing:.2em;text-transform:uppercase'>"
+  return "<div style='" + PAD + ";" + HFONT + ";letter-spacing:.25em;text-transform:uppercase'>"
     + word.toUpperCase() + " PLAYBOOK \u00b7 EDITION 2026-27</div>";
 }
 

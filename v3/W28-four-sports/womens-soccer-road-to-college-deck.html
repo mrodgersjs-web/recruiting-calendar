@@ -129,13 +129,16 @@ table + .small, table + .note, table + p.small, table + p.note { break-before: a
  table.cal.four col.c-where { width: 20% }
 .tag.t-service { color: var(--green); border-color: var(--green) }
 .tag.t-unconfirmed { color: var(--ink2); border-color: var(--ink2) }
+/* The back page is short on purpose, but it must not be split from its own heading. A rule
+   with nothing under it is the last thing a reader sees, so a colophon and its rule are
+   tagged .keep. Note that this file IS the book stylesheet: deck.py concatenates it in
+   front of the fragments, so anything written after the style block prints on the cover
+   as body text, which is how the round-five rule ended up on four front pages. */
+.keep { break-inside: avoid; page-break-inside: avoid }
+
 </style></head>
 
-<body>
-/* The back page is short on purpose, but it must not be split from its own heading.
-   A rule with nothing under it is the last thing a reader sees. Tag it .keep. */
-.keep { break-inside: avoid; page-break-inside: avoid }
-<section class="cover">
+<body><section class="cover">
   <div class="lockwrap"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSI2IiBmaWxsPSIjMDAwIi8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE0IDE4aDE0bDQgNCA0LTRoMTR2MjZIMzZsLTQgNC00LTRIMTR6IE0xOSAyM3YxNmgxMGwzIDMgMy0zaDEwVjIzaC04bC01IDUtNS01eiIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0yOCAzMWwzIDMgNi03IDIuNSAyLjJMMzEgMzguNWwtNS41LTUuM3oiLz48L3N2Zz4K" alt="The Commit Book"></div>
   <div class="kicker label red">Soccer &middot; girls and women &middot; grades 9 to 12 &middot; sport playbook</div>
   <h1>Women's Soccer:<br>The Whole Road to College</h1>

@@ -2,4 +2,4 @@
 <!-- text layer glues them: "recruitingiq · the commit book10 / 27". A checker that wants the
 <!-- page number must not require a space before it, and must not read a URL as a folio.
 -->
-<div style="width:100%;padding:0 14mm;box-sizing:border-box;font:600 8px "Barlow Condensed",Arial,sans-serif;color:#141414;display:flex;justify-content:space-between;letter-spacing:.08em"><span>recruitingiq · the commit book</span><span><span class="pageNumber"></span> / <span class="totalPages"></span></span></div>
+<div style="width:100%;padding:0 14mm;box-sizing:border-box;font:400 8.7px Arial Narrow,Arial,Helvetica,sans-serif;color:#8a8271;display:flex;justify-content:space-between;letter-spacing:.08em"><span>recruitingiq · the commit book</span><span><span class="pageNumber"></span> / <span class="totalPages"></span></span></div>

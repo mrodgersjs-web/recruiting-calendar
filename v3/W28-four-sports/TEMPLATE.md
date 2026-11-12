@@ -541,3 +541,19 @@ manifest then disagrees. After a checkout, build before you gate.
   three lines on a phone and strands the separator.
 - Prove a new lint by breaking the thing it forbids and reading the failure. Three of today's
   checks passed books they could not have failed.
+
+### How to rebuild all four books, in the order that works
+
+    cd v3/W28-four-sports
+    foreach ($s in 'mens-baseball-road-to-college','womens-softball-road-to-college',
+                   'mens-soccer-road-to-college','womens-soccer-road-to-college') {
+      python deck.py $s        # the slug is the config name; a wrong one exits with a message
+      python printcheck.py $s  # and reads the PDF, so it must come after the printing
+    }
+
+Printing is not a command. `print.js` exports nothing and calls nothing: read it and eval it in the
+REPL, where `openTab`, `closeTab` and `fs` exist, then `await printBook(slug, outDir)` per book.
+`outDir` must be inside the session directory or the browser refuses to write. Copy the PDFs to
+`pdfs/` before `printcheck.py`, and to the handoff folder and the served pages with
+`python site.py --apply`, twice, so the page-count claims and the cache keys land. `gate.py` then
+reads the counts off the PDFs, which is what makes the second `site.py` pass necessary.
