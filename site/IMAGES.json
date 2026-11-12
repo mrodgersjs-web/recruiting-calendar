@@ -138,36 +138,6 @@
   },
   {
    "file": [
-    "cut-tori-640.webp",
-    "cut-tori-1080.webp"
-   ],
-   "subject": "mixed-race female college lacrosse goalie age 21",
-   "kind": "composite",
-   "label": "Illustration",
-   "real_person": false,
-   "transparent": true,
-   "aspect": "9:16",
-   "prompt": "Full-body photo of a mixed-race female college lacrosse goalie age 21, a goalie lacrosse stick with a deep mesh pocket held upright in one gloved hand, a caged goalie helmet and chest pad carried under the other arm, plain navy jersey in navy and orange, crest on the chest, plain white cleats, standing confident heroic pose, entire body visible from head to feet, feet near the bottom edge, vertical 9:16 framing, isolated on a perfectly flat solid pure chroma green (#00FF00) background with no shadows or floor. Fictional composite person, not any real individual. Nike-campaign editorial lighting, hard rim light, matte natural colour grade. Uniform colours avoid bright green. Chest carries ONE invented college athletics crest, deliberately close to but not any real school's logo: a slightly off-kilter shield or oval with a stylized animal head and an arched invented 3-letter monogram, wrong invented wordmark beneath, lettering a little mangled. Absolutely no apparel brand marks, no swooshes, no stripes, no sponsor text; ball and equipment plain and unbranded.",
-   "story": "tori",
-   "division": "D3"
-  },
-  {
-   "file": [
-    "cut-chris-640.webp",
-    "cut-chris-1080.webp"
-   ],
-   "subject": "stocky white male college soccer midfielder age 20",
-   "kind": "composite",
-   "label": "Illustration",
-   "real_person": false,
-   "transparent": true,
-   "aspect": "9:16",
-   "prompt": "Full-body photo of a stocky white male college soccer midfielder age 20, size 5 soccer ball tucked under one arm, other hand on hip, plain navy jersey and shorts in navy and white, crest on the chest, white socks, navy shin guards, plain black soccer cleats, standing confident heroic pose, entire body visible from head to feet, feet near the bottom edge, vertical 9:16 framing, isolated on a perfectly flat solid pure chroma green (#00FF00) background with no shadows or floor. Fictional composite person, not any real individual. Nike-campaign editorial lighting, hard rim light, matte natural colour grade. Uniform colours avoid bright green. Chest carries ONE invented college athletics crest, deliberately close to but not any real school's logo: a slightly off-kilter shield or oval with a stylized animal head and an arched invented 3-letter monogram, wrong invented wordmark beneath, lettering a little mangled. Absolutely no apparel brand marks, no swooshes, no stripes, no sponsor text; ball and equipment plain and unbranded.",
-   "story": "chris",
-   "division": "D2"
-  },
-  {
-   "file": [
     "env-field-dawn-640.webp",
     "env-field-dawn-1080.webp"
    ],
@@ -220,19 +190,6 @@
   },
   {
    "file": [
-    "env-dorm-desk-640.webp",
-    "env-dorm-desk-1080.webp"
-   ],
-   "subject": "dorm room desk at night with an open laptop showing a generic calendar grid, notebook, sneakers, warm lamp, no people, no readable text, no logos",
-   "kind": "environment",
-   "label": "Illustration",
-   "real_person": false,
-   "transparent": false,
-   "aspect": "1672x941",
-   "prompt": "dorm room desk at night with an open laptop showing a generic calendar grid, notebook, sneakers, warm lamp, no people, no readable text, no logos. Cinematic editorial photograph, Nike-campaign lighting, matte natural grade, 16:9. Any person is a fictional composite, not identifiable."
-  },
-  {
-   "file": [
     "hero-1-640.webp",
     "hero-1-1080.webp"
    ],
@@ -269,6 +226,54 @@
    "transparent": false,
    "aspect": "1672x941",
    "prompt": "wide campaign image: a fictional composite young adult male athlete seen from behind sitting on a bench in an empty locker room looking at a phone, no logos, no readable text. Cinematic editorial photograph, Nike-campaign lighting, matte natural grade, 16:9. Any person is a fictional composite, not identifiable."
+  },
+  {
+   "file": [
+    "cut-alex-640.webp",
+    "cut-alex-1080.webp"
+   ],
+   "subject": "stocky male college soccer midfielder age 20 carrying an all-white ball",
+   "kind": "composite",
+   "label": "Illustration",
+   "real_person": false,
+   "transparent": true,
+   "aspect": "9:16",
+   "prompt": null,
+   "note": "restored from v3/W5-athletes/cut-wondolowski-640/1080.webp, sha256 344e674206f5 (640) and 924f2152a74e (1080). The W5 row for it is in IMAGES-v2.json. Flaws kept as drawn: the ball is all white with no dark panels, shin guards strapped outside the socks, no headroom above the hair.",
+   "added_by": "W28, 2026-11-11",
+   "story": "alex"
+  },
+  {
+   "file": [
+    "cut-nora-640.webp",
+    "cut-nora-1080.webp"
+   ],
+   "subject": "female lacrosse goalie age 20 in a caged helmet and padded gloves",
+   "kind": "composite",
+   "label": "Illustration",
+   "real_person": false,
+   "transparent": true,
+   "aspect": "9:16",
+   "prompt": null,
+   "note": "restored from v3/W5-athletes/cut-perez-640/1080.webp, sha256 cf8e58f13b9f (640) and a73eef01562f (1080). Used for the pending lacrosse card, which was mislabelled with a soccer figure's name.",
+   "added_by": "W28, 2026-11-11",
+   "story": "nora"
+  },
+  {
+   "file": [
+    "cut-nia-640.webp",
+    "cut-nia-1080.webp"
+   ],
+   "subject": "female 400m runner age 20 in a race bib and spikes",
+   "kind": "composite",
+   "label": "Illustration",
+   "real_person": false,
+   "transparent": true,
+   "aspect": "9:16",
+   "prompt": null,
+   "note": "restored from v3/W5-athletes/cut-rodenfels-640/1080.webp, sha256 5c89ecb911ce (640) and 1a19ef25d74c (1080). The live track card said Female and stood on a male-presenting sprinter figure.",
+   "added_by": "W28, 2026-11-11",
+   "story": "composite-sprinter"
   }
  ]
 }

@@ -1,0 +1,1194 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Volleyball: The Whole Pathway — The Commit Book Playbook</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+@page { size: Letter; margin: 15mm 14mm 16mm 14mm; }
+:root{
+  --paper:#f5f1e8; --paper2:#ebe5d6; --ink:#141414; --ink2:#46423b; --ink3:#665f54;
+  --rule:#d3cbb8; --red:#b5281a; --green:#1f4d3a;
+}
+*{box-sizing:border-box}
+body{margin:0;background:#fff;color:var(--ink);
+  font:400 10pt/1.46 "Iowan Old Style","Charter","Palatino Linotype",Georgia,serif;
+  -webkit-print-color-adjust:exact;print-color-adjust:exact}
+.label{font:700 7.4pt/1 "Barlow Condensed","Arial Narrow",sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--ink2)}
+.label.red{color:var(--red)}
+h1,h2,h3{font:700 1.05em/1.12 "Barlow Condensed","Arial Narrow",sans-serif;letter-spacing:.02em;margin:0;text-transform:uppercase}
+h1{font-size:30pt;letter-spacing:-.005em;line-height:1.02}
+h2{font-size:14.4pt;margin:0 0 1.6mm;padding-top:2.4mm;border-top:2px solid var(--ink);page-break-after:avoid}
+h3{font-size:10.6pt;margin:4mm 0 1.2mm;letter-spacing:.09em;color:var(--ink);page-break-after:avoid}
+section + section { page-break-before: auto }
+tr{page-break-inside:avoid}
+p{margin:0 0 2mm}
+.lead{font-size:11.1pt;line-height:1.45;color:var(--ink2);max-width:44em}
+a{color:var(--ink);text-decoration:none;word-break:break-all}
+.small{font-size:8.6pt;color:var(--ink3);line-height:1.42}
+strong{font-weight:700}
+hr.dbl{border:0;border-top:3px double var(--ink);margin:3mm 0}
+/* cover */
+.cover{padding-top:0}
+.cover .band{display:flex;justify-content:space-between;align-items:baseline;border-bottom:3px double var(--ink);padding-bottom:2.5mm}
+.cover .rule{height:8mm}
+.cover .kicker{margin-top:9mm}
+.cover h1{margin:4mm 0 0}
+.cover .sub{margin-top:5mm;font-size:12pt;line-height:1.42;color:var(--ink2);max-width:34em}
+.cover .stamp{margin-top:9mm;border:1px solid var(--ink);background:var(--paper);padding:4mm 5mm;display:flex;gap:8mm;flex-wrap:wrap}
+.cover .stamp div{flex:1 1 30%}
+.cover .stamp .k{display:block;margin-bottom:1mm}
+.lockwrap{display:flex;justify-content:center;padding:6mm 0 3mm}
+.lockwrap img{width:62mm}
+.edge{margin-top:7mm;border-left:3px solid var(--red);padding-left:4mm;font-size:10pt;color:var(--ink2);max-width:40em}
+/* running bits */
+.pagehead{display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid var(--ink);padding-bottom:1.6mm;margin-bottom:4mm}
+.contents{columns:2;column-gap:8mm;font-size:9.6pt;page-break-inside:avoid;margin-top:0}
+.contents li{margin-bottom:1.2mm}
+ol.contents{padding-left:5mm}
+/* tables */
+table{width:100%;border-collapse:collapse;margin:1.6mm 0 2.4mm}
+th{font:700 7.4pt/1.2 "Barlow Condensed","Arial Narrow",sans-serif;letter-spacing:.14em;text-transform:uppercase;
+   text-align:left;padding:1.6mm 2mm;border-bottom:1.5px solid var(--ink);color:var(--ink2)}
+td{padding:1.15mm 1.8mm;border-bottom:1px solid var(--rule);vertical-align:top;font-size:9.05pt}
+tr.sub td{border-bottom:1.5px solid var(--ink);font-size:8.5pt;color:var(--ink2);padding-top:0}
+td.d{white-space:nowrap;font:700 9.2pt/1.35 "Barlow Condensed","Arial Narrow",sans-serif;letter-spacing:.06em;text-transform:uppercase}
+td.w{width:38%}
+td.o{width:16%;font-size:8.5pt;color:var(--ink2)}
+td.n{width:30%;font-size:8.5pt;color:var(--ink2)}
+.tag{font:700 6.6pt/1 "Barlow Condensed","Arial Narrow",sans-serif;letter-spacing:.14em;padding:.6mm 1.4mm;border:1px solid var(--ink2);color:var(--ink2);white-space:nowrap}
+.t-projected{border-color:var(--red);color:var(--red)}
+.t-hard{background:var(--ink);color:#fff;border-color:var(--ink)}
+.t-opening{border-color:var(--green);color:var(--green)}
+/* boxes */
+.box{border:1px solid var(--ink);background:var(--paper);padding:2.8mm 3.4mm;margin:0 0 3mm}
+.box.red{border-color:var(--red)}
+.box h3{margin-top:0}
+.tmpl{font:400 8.9pt/1.42 "Iowan Old Style",Georgia,serif;background:#fffdf7;border:1px solid var(--rule);padding:3mm 3.5mm;margin:0 0 3mm;white-space:pre-wrap}
+ul.tight,ol.tight{margin:0 0 3mm;padding-left:5mm;font-size:9.5pt}
+ul.tight li,ol.tight li{margin-bottom:.9mm}
+.check{font-size:9.2pt;line-height:1.6}
+.check b{font:700 8pt/1 "Barlow Condensed","Arial Narrow",sans-serif;letter-spacing:.12em;text-transform:uppercase}
+.two{column-count:2;column-gap:7mm}
+.sig{margin-top:6mm;border-top:3px double var(--ink);padding-top:2.5mm}
+.avoid{page-break-inside:avoid}td,th{page-break-inside:avoid}
+src{display:block;font-size:8.4pt;color:var(--ink3);margin-bottom:1.6mm}
+
+section.newpage { page-break-before: always; break-before: page }
+
+/* W21: nothing reads as half a thought. Blocks move whole; only .flow may split. */
+.box, .tmpl, table, ul, ol, dl, blockquote, .two, .lead, h2, h3, .pagehead, .split {
+  break-inside: avoid; page-break-inside: avoid }
+table.flow, ul.flow, ol.flow, div.flow, dl.flow {
+  break-inside: auto; page-break-inside: auto }
+tr, li { break-inside: avoid; page-break-inside: avoid }
+thead { break-after: avoid }
+h2, h3 { break-after: avoid; page-break-after: avoid }
+p { orphans: 2; widows: 2 }
+
+/* W21b: one chapter, one fresh page, like the men's book */
+section + section { break-before: page; page-break-before: always }
+</style></head>
+
+<body>
+<section class="cover">
+  <div class="lockwrap"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSI2IiBmaWxsPSIjMDAwIi8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE0IDE4aDE0bDQgNCA0LTRoMTR2MjZIMzZsLTQgNC00LTRIMTR6IE0xOSAyM3YxNmgxMGwzIDMgMy0zaDEwVjIzaC04bC01IDUtNS01eiIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0yOCAzMWwzIDMgNi03IDIuNSAyLjJMMzEgMzguNWwtNS41LTUuM3oiLz48L3N2Zz4K" alt="The Commit Book"></div>
+  <div class="kicker label red">Volleyball &middot; girls &middot; grades 9 to 12 &middot; sport playbook</div>
+  <h1>Volleyball:<br>The Whole Road to College</h1>
+  <p class="sub">What to do, when to do it, who pays, and what a coach is and is not allowed to tell you. Built from the
+  2026-27 NCAA rule text, USA Volleyball's junior calendar, a regional club schedule, and a state association's season dates.</p>
+  <div class="stamp">
+    <div><span class="label k">Version</span><span class="small">2026-27 &middot; sample player: class of 2029</span></div>
+    <div><span class="label k">Rules checked</span><span class="small">11 November 2026, against the NCAA rule text, both association calendars and nine club and event pages</span></div>
+    <div><span class="label k">Levels covered</span><span class="small">D1 &middot; D2 &middot; D3 &middot; NAIA &middot; junior college</span></div>
+  </div>
+  <p class="edge">Women's volleyball fields 1,053 NCAA teams, and a girl can be seen at one of them from a free
+  profile page and one email. The club season, not the high school season, is where staffs watch. Both of those facts
+  change what a family should spend money on, and both are free to know.</p>
+  <h2 style="border-top-width:1.5px;margin-top:8mm">What is inside</h2>
+  <ol class="contents">
+    <li>Read this first</li>
+    <li>How many players a team can take</li>
+    <li>The plan by date, class of 2029</li>
+    <li>What a coach may and may not do</li>
+    <li>Club, region, camps, and where she is seen</li>
+    <li>What to send, and what good video looks like</li>
+    <li>What the paperwork really means</li>
+    <li>What it costs, and what is wasted</li>
+    <li>Checklist by grade</li>
+    <li>Ten ways families get volleyball wrong</li>
+    <li>Sources, and what we could not settle</li>
+  </ol>
+  <p class="small" style="margin-top:6mm">This is education. It is not legal advice or school advice. It promises no
+  result, no playing time, no acceptance, and no money. The NCAA Eligibility Center makes the final call on school
+  rules, and each school decides its own aid. Dates marked PROJECTED are worked out from the rule text, not printed by
+  the NCAA yet. Chapter 3 lists them.</p>
+</section>
+<section class="newpage">
+  <div class="pagehead"><span class="label">The Commit Book &middot; Volleyball</span><span class="label">Before you start</span></div>
+  <h2>1. Read this first</h2>
+  <p class="lead">Read Chapter 2 before you spend any money. Then put the plan in Chapter 3 on one page and cross items
+  off. The rest is for reference: what the rules allow, what to send, what good video looks like, and what it costs.</p>
+
+  <h3>The main idea</h3>
+  <p>A family that knows the roster rules, the calendar, and the video standard competes with families spending three
+  times as much. Most of what a $2,000 service sells is phone calls and follow-ups. The rules, the dates, and the right
+  questions are free, and almost nobody writes them down.</p>
+
+  <h3>What makes volleyball different from basketball and football</h3>
+  <p>Three things move the money and the calendar. First, club is the showcase. In the NCAA's own 2025 survey, 94
+  percent of college volleyball players played both high school and club, 3 percent played high school only, and 2
+  percent played club only. High school ball in nearly every state is a fall sport, and college coaches are playing their own
+  season in the fall. Second, the number a family needs is a roster number, not a scholarship number. Third, the
+  measurable that matters most is an approach touch, and no college publishes a standard for it. Every jump chart a
+  family buys is one company's target.</p>
+  <p>A Texas State assistant coach wrote in the AVCA's own blog that her staff faced "over 150 club tournaments between
+  Jan. 1 and Aug. 1 alone." A former Division I head coach, writing on his own site, put it harder: "club volleyball is
+  99% of our recruiting." He said his only thoughts about his players during the high school season were free touches
+  on the ball, and please do not get hurt.</p>
+
+  <h3>Three rules that surprise families</h3>
+  <ul class="tight">
+    <li><strong>She may write today; the coach may not answer until 15 June after her sophomore year.</strong> For the
+    class of 2029 that date is 15 June 2027. USA Volleyball states both halves plainly: no rule stops a recruit from
+    emailing, texting, messaging or calling, and Division I and II coaches cannot reply directly until that day.</li>
+    <li><strong>The old 12-scholarship rule is gone at most big schools, and it did not become "unlimited."</strong>
+    Since 1 July 2025, schools in the five defendant conferences and any school that opted in carry an 18-player roster
+    limit instead of a scholarship limit, and aid may be any size on any of those 18. Schools that did not opt in work
+    under the old aid value. There is no printed list of who opted in.</li>
+    <li><strong>There is no National Letter of Intent any more.</strong> The NCAA ended it in October 2024. The paper is
+    now a written offer of athletics aid, signed from the second Wednesday in November of 12th grade. For her, that
+    lands on Wednesday 8 November 2028, worked out from the rule. USA Volleyball's own recruiting page still says
+    "National Letter of Intent." The rule book moved and the guides did not.</li>
+  </ul>
+
+  <h3>Words this book uses</h3>
+  <table>
+    <thead><tr><th style="width:26%">Word</th><th>What it means here</th></tr></thead>
+    <tbody>
+      <tr><td class="d">Head count</td><td>The old Division I rule: 12 scholarships, and each one took one whole spot
+      no matter how small the aid. Women's volleyball used it until 1 July 2025.</td></tr>
+      <tr><td class="d">Equivalency</td><td>A money ceiling the staff may cut into pieces. Division II is 8.0 and NAIA
+      is 8. A "quarter" is one athlete's worth of money, not one athlete.</td></tr>
+      <tr><td class="d">Roster limit</td><td>A cap on people, not money. Division I is 18 for women's volleyball at a
+      school that opted in. A conference may set a lower number, but not below 12.</td></tr>
+      <tr><td class="d">Opted-in school</td><td>A Division I school that chose the settlement rules. The choice covers
+      every sport at that school and is redone each year for ten years. This book says "opted in" instead of the NCAA's
+      phrase "Participating Institution."</td></tr>
+      <tr><td class="d">Standing reach</td><td>How high her hand gets with her feet flat on the floor, shoes on. It is
+      the starting line for every jump number.</td></tr>
+      <tr><td class="d">Approach touch</td><td>How high her hitting hand touches after a real approach. Coaches say
+      "touch" or "attack jump." It is not the same as a vertical.</td></tr>
+      <tr><td class="d">Vertical</td><td>Touch minus reach: how high she got off the floor. Two players can touch the
+      same height with very different verticals. Ask which number a chart shows.</td></tr>
+      <tr><td class="d">Hitting percentage</td><td>(kills minus errors) divided by swings. A middle who only gets easy
+      quick sets can post a big one. A .250 or better is the line one service uses for a good Division I season.</td></tr>
+      <tr><td class="d">Reception error</td><td>A serve she did not handle. It is the number a libero is really judged
+      on, and the NCAA does not rank it nationally. Ask a coach for the count by match.</td></tr>
+      <tr><td class="d">Perfect pass</td><td>A pass that reaches the setter's target. Some coaches score 0 to 3, some 0
+      to 4, so "2.5" means nothing without the scale. A USC coach on the record looked for 62 to 66 percent perfect.</td></tr>
+      <tr><td class="d">Bid</td><td>A place at a national qualifier. Some bids come only from a national qualifier, and
+      National, American and Freedom bids can come from her own region's qualifier.</td></tr>
+      <tr><td class="d">Aid agreement</td><td>The written offer that replaced the letter of intent. One school, and the
+      others must stop recruiting her once she signs.</td></tr>
+      <tr><td class="d">Core-course GPA</td><td>The Grade Point Average the NCAA builds from its own 16 approved
+      subjects, always on a 4.0 scale. Floors: 2.3 for Division I, 2.2 for Division II. It can differ from her
+      school's GPA.</td></tr>
+      <tr><td class="d">PROJECTED</td><td>A date this book worked out from rule text the NCAA has not printed yet for
+      the 2028-29 year. Chapter 3 marks every one.</td></tr>
+    </tbody>
+  </table>
+</section>
+<section class="newpage">
+  <div class="pagehead"><span class="label">The Commit Book &middot; Volleyball</span><span class="label">What the rules allow</span></div>
+  <h2>2. How many players a team can take, part 1: the rules</h2>
+  <p class="lead">This is the chapter that decides how many schools to write to, when to start, and how much to spend.
+  Read the left column first. The number that used to matter was money. For most big schools it is now people.</p>
+
+  <table class="flow">
+    <thead><tr><th style="width:15%">Level</th><th style="width:38%">What the rule says in 2026-27</th><th style="width:12%">Teams</th><th>What it means for a list</th></tr></thead>
+    <tbody>
+      <tr><td class="d">Division 1, opted in</td><td>No aid cap. A roster limit of 18 players on aid in any amount, up
+      from the old 12 scholarships. In place since 1 July 2025.</td><td>348</td><td>The scarce thing is a seat. A girl
+      can be offered a small amount and still be one of the 18.</td></tr>
+      <tr><td class="d">Division 1, not opted in</td><td>No roster limit, and the school must stay under the old aid
+      value. About 17 schools were named as objectors in the settlement, and there is no printed list of who chose
+      which.</td><td>(inside 348)</td><td>Ask the question in Chapter 7. The answer changes the offer.</td></tr>
+      <tr><td class="d">Division 2</td><td>8.0 aid equivalents, cut into pieces. No roster limit.</td><td>288</td><td>A
+      staff can spread 8.0 over 19 players. Half of this ladder is talk.</td></tr>
+      <tr><td class="d">Division 3</td><td>No athletic aid at all, and no roster limit.</td><td>417</td><td>The biggest
+      door, and the one families walk past.</td></tr>
+      <tr><td class="d">NAIA</td><td>8 aid equivalents, and no roster limit.</td><td>226 schools</td><td>Small staffs.
+      A coach often answers her directly.</td></tr>
+      <tr><td class="d">Junior college</td><td>14, and athletes named as exempt do not count against it. The published
+      table is inside a login.</td><td>about 300 to 545</td><td>Two counts are in circulation. Chapter 11 says so.</td></tr>
+    </tbody>
+  </table>
+  <p class="small">Team counts are the NCAA's own sport page, checked 11 November 2026: 348 in Division I, 288 in
+  Division II, 417 in Division III, 1,053 in all. The NAIA and junior college counts come from one recruiting service,
+  which is why they are shown as a range.</p>
+
+  <div class="box red">
+    <h3>A number worth carrying into every conversation</h3>
+    <p style="margin-bottom:0">Women's volleyball's old Division I limit was <strong>12 scholarships</strong>. The figure
+    4.5, which many sites repeat, is <strong>men's</strong> volleyball's old limit. Both are in the same bylaw, so a
+    secondary source mixes them up easily. If a guide tells a family that women's volleyball was a 4.5 sport, the rest
+    of that guide is not worth the paper.</p>
+  </div>
+
+  <h3>Who else holds those seats</h3>
+  <p>Before a coach spends one of the 18 spots on a 12th grader, two other lines are already in front of her.</p>
+  <ul class="tight">
+    <li><strong>Returning players.</strong> Recruiters from four programs, two of them Division I, said players who
+    return are counted first, no matter what the offer was last year. A staff that already has three experienced
+    outsides may take only one.</li>
+    <li><strong>Transfers.</strong> There is no limit on one-time transfers any more, and the 2026-27 Division I portal
+    for this sport has two windows: 6 December 2026 to 4 January 2027, and 1 to 15 May 2027. Almost 10,000 players used
+    the portal across sports in one winter, and a recruiting-service coach says some Division I programs replace about
+    half the roster each year. A seat that looks open in February may be gone in May.</li>
+    <li><strong>Walk-ons and late adds.</strong> Roster limits only bite after a school submits its roster, which for
+    Division I was 2 October 2026 and for Division II is the fifth Sunday in March. A spring camp can legally hold more
+    players than the limit, and a coach can add players after the season if they do not use a countable spot.</li>
+  </ul>
+</section>
+<section class="newpage">
+  <div class="pagehead"><span class="label">The Commit Book &middot; Volleyball</span><span class="label">What real rosters show</span></div>
+  <h2>2. How many players a team can take, part 2: real rosters</h2>
+  <p class="lead">Rules say what a school may carry. Published rosters say what it does carry. These are 11 live
+  roster pages this book counted on 11 November 2026, across four levels and in the same part of the country, plus
+  national averages from one service. Nothing here is a rule, and no school on her list has to look like this. Count the
+  same thing on the pages of the schools she actually wants. It takes an evening.</p>
+
+  <table>
+    <thead><tr><th style="width:26%">Level</th><th style="width:12%">Pages counted</th><th style="width:18%">Roster sizes</th><th>What the count shows</th></tr></thead>
+    <tbody>
+      <tr><td class="d">Division I</td><td>6</td><td>18, 18, 16, 16, 15, 15</td><td>Two sit on the new limit exactly, four sit under it. Two belong to conferences that were in the first group to opt in.</td></tr>
+      <tr><td class="d">Division II</td><td>1</td><td>19</td><td>More bodies than the 8.0 aid units, which is normal at this level.</td></tr>
+      <tr><td class="d">Division III</td><td>2</td><td>19, 25</td><td>No athletic aid at all, and 19 to 25 players anyway.</td></tr>
+      <tr><td class="d">NAIA</td><td>2</td><td>20, 31</td><td>One sat at No. 25 in its own preseason poll and listed a 5'1" defensive specialist. The other carried 31 players.</td></tr>
+    </tbody>
+  </table>
+  <p class="small">Those 11 pages list 212 players between them, and 212 is the height count behind Chapter 6. A
+  twelfth page, a public university in the same area, listed 22.</p>
+  <p class="small">National averages from one service, for scale: 18.1 in Division I, 19.3 in Division II, 18.2 in
+  Division III, 18 in NAIA, 13 in junior college. No rule forces any of these numbers.</p>
+
+  <h3>So how long should her list be?</h3>
+  <p>This book's guidance, not a rule: 40 to 60 schools across all five levels, most of them schools whose staff has
+  already answered an email. There are 1,053 NCAA teams in this sport, plus NAIA and junior college. A girl who can
+  pass and play defense in the back row is a fit at far more programs than the ten her uncle has heard of. Writing to
+  twelve schools and calling it a plan is the single most common mistake in this sport.</p>
+
+  <h3>What the odds really say</h3>
+  <p>492,799 girls played volleyball on a high school team in 2024-25, by the federation that runs state associations.
+  The NCAA counted 19,810 volleyball players across its three divisions in 2023-24. That is about 4.0 percent of the
+  high school number reaching an NCAA team: about 1.3 percent in Division I, 1.2 percent in Division II, 1.6 percent in
+  Division III. The coaches' association, counting 2019, put the odds at a college team at 4.6 percent and at Division
+  I at 0.6 percent, because their denominator also counted club players.</p>
+  <p>Read those as directions, not promises. The 4.0 percent figure divides a school-team count by a later roster count,
+  ignores NAIA and junior college, and misses the club player who plays only club. The real share is smaller.</p>
+
+  <div class="box">
+    <h3>If there is a brother</h3>
+    <p style="margin-bottom:0">The men's road is a different map: about 31 Division I and 41 Division II programs, and
+    the two divisions share one national championship of 12 teams. Division III is 141 programs, more than four times
+    the total above it. The real pathway is male club and the National Club Volleyball Federation, which lists 616
+    teams at 424 schools. One campus club team has won that federation's top division, in 2023 and again in 2025. Men are
+    usually sized up at 15 or 16 and offered later, because men keep growing. One association guide says fewer than 5
+    percent of high school volleyball players of either sex make a college roster. Treat any boys figure from this book
+    as thinner evidence than the girls numbers.</p>
+  </div>
+</section>
+<section class="newpage">
+  <div class="pagehead"><span class="label">The Commit Book &middot; Volleyball</span><span class="label">Class of 2029</span></div>
+  <h2>3. The plan by date, class of 2029</h2>
+  <p class="lead">She is in 10th grade this year, so every date below is real for her. Rows tagged PROJECTED are worked
+  out from rule text the NCAA has not printed for 2028-29 yet. Rows tagged OPEN or HARD are printed by the body that
+  runs the event. Check each one again inside six months of the date.</p>
+
+  <table class="flow">
+    <thead><tr><th style="width:20%">When</th><th style="width:38%">What is happening</th><th>What your family does</th></tr></thead>
+    <tbody>
+      <tr><td class="d">Now<br><span class="tag t-hard">HARD</span></td><td>Club season is under way. One region's club play runs
+      from late October to early March, and its 2027-28 window is already printed as 29 October 2027 to 5 March 2028.
+      Her high school season closed in early November, on the date her state association set.</td><td>Ask her club which
+      qualifiers it enters and who pays for them. Club tryouts are in the fall, with fees from $25 to $70 at one club.</td></tr>
+      <tr><td class="d">Nov to Dec 2026<br><span class="tag t-hard">HARD</span></td><td>The Eligibility Center has a
+      free Profile Page for anyone under 13, and a paid certification account when she is sure. The live page shows
+      $120 for the combined account, where the 2024-25 guide still says $110.</td><td>Open the free page now. Register
+      for certification before the spring of 11th grade. Ask for a fee waiver if the family needs one; a student may
+      use up to two, and nobody asks the parents for income paperwork.</td></tr>
+      <tr><td class="d">17-19 Dec 2026<br><span class="tag t-hard">HARD</span></td><td>The AVCA's Phenom College
+      Preview in San Antonio: about 400 players, classes of 2027 through 2030, $259, by invitation or nomination. 2026
+      nominations closed in late October.</td><td>Ask her club coach and two high school coaches to nominate her for
+      December 2027 now. This is the event the association says draws the most college staffs in one place.</td></tr>
+      <tr><td class="d">9-10 Jan 2027<br><span class="tag t-hard">HARD</span></td><td>A region's own league event,
+      number one of several, all ages. Your region publishes its dates in the fall.</td><td>Nothing. Be there, and make sure her club's schedule link works.</td></tr>
+      <tr><td class="d">15 Jan 2027<br><span class="tag t-hard">HARD</span></td><td>NIKE Winterfest showcase in
+      Hartford, Connecticut, for classes of 2027 through 2029, capped at 200 players. $125 by 1 January, then $175 by 9
+      January.</td><td>Decide by 1 January. Pay for one showcase, not four, and only if staffs she is serious about are
+      announced.</td></tr>
+      <tr><td class="d">29-31 Jan and 12-14 Mar 2027<br><span class="tag t-hard">HARD</span></td><td>Northern Lights,
+      Minneapolis, a USA Volleyball national qualifier. The January weekend covers 17s and 18s; the March weekend adds
+      16 Open and 16 USA.</td><td>Watch from the stands and learn what a college staff watches. Entry is $925 per team,
+      so the club pays and the family pays travel.</td></tr>
+      <tr><td class="d">7 Feb 2027<br><span class="tag t-hard">HARD</span></td><td>The Premier Academy event in Maumee,
+      Ohio, for classes of 2027 through 2030, split into first, second and third teams. $145 by 9 January, then
+      $165.</td><td>A second-team spot at a well-run event beats a first-team spot at a weak one. Ask who is coming
+      before paying.</td></tr>
+      <tr><td class="d">27-28 Feb 2027<br><span class="tag t-hard">HARD</span></td><td>Her region's qualifier, in a
+      rented convention center, with only that region's teams playing. At one region the 16s bids on offer were one
+      National, two American and one Freedom.</td><td>This
+      is her year to earn a bid to a national qualifier, because a 16-year-old who makes the July national is on
+      schedule. Team entry there is $925. Ask what a bid is worth in your own region before you pay.</td></tr>
+      <tr><td class="d">6-21 Mar 2027<br><span class="tag t-hard">HARD</span></td><td>Region Championships over
+      three weekends. Bids to the 17s and 18s Junior Nationals come from these weekends and from Northern Lights and
+      Windy City.</td><td>Send the schedule to every coach on her list the week before. Coaches come to what is on a
+      calendar they can find.</td></tr>
+      <tr><td class="d">27-29 Mar 2027<br><span class="tag t-hard">HARD</span></td><td>Windy City Invitational in
+      Chicago, another national qualifier.</td><td>Second travel weekend of the spring. Book the hotel early; a big-city
+      qualifier trip ran $670 to $830 for one family at one event.</td></tr>
+      <tr><td class="d">PROJECTED<br>15 Jun 2027</td><td>The first day a Division I or Division II coach may answer her
+      email or text. USA Volleyball prints the rule as 15 June after the player's sophomore year.</td><td>Send the full
+      round that week: film, current grades, unweighted Grade Point Average on a 4.0 scale, measured height and approach
+      touch with the device and date, and the club schedule.</td></tr>
+      <tr><td class="d">Jun 2027<br><span class="tag t-hard">HARD</span></td><td>Her counselor uploads the 9th-grade
+      transcript, the record after four semesters. Registration must be open at least 60 days before the upload is
+      due.</td><td>Put the date in the counselor's calendar in the fall, not in June.</td></tr>
+      <tr><td class="d">2-5 Jul 2027<br><span class="tag t-hard">HARD</span></td><td>USA Volleyball Girls 14-17s Junior
+      National Championships in Las Vegas, for 16s and 17s. Registration opened 9 December 2026 at 11 a.m. Eastern.</td><td>The
+      alternative is AAU's 16s and 17s event in Orlando, 25 to 28 June 2027. Both are seen. Ask which one the staffs she
+      wants attend, and pick that one.</td></tr>
+      <tr><td class="d">PROJECTED<br>1 Aug 2027</td><td>The first day a Division I school may host her on a visit,
+      official or unofficial. Division II may host an official visit from 15 June. Division III may host one from 1
+      January of her junior year, so 1 January 2027. NAIA has no rule.</td><td>Plan the first trip around a tournament
+      she is already playing in. A Division I school gives her five official visits in a lifetime.</td></tr>
+      <tr><td class="d">Aug to Nov 2027<br><span class="tag t-opening">OPEN</span></td><td>11th-grade high school
+      season, and the year that decides her Grade Point Average the most.</td><td>Four approved core courses a year, and
+      a counselor who checks every credit against the NCAA list. A 2.3 core Grade Point Average is the Division I floor
+      and 2.2 is the Division II floor. No SAT or ACT is required for anyone first enrolling on or after 1 August
+      2023.</td></tr>
+      <tr><td class="d">Jun 2028<br><span class="tag t-hard">HARD</span></td><td>The counselor uploads the record after
+      six semesters.</td><td>Check the Eligibility Center page shows both transcripts. A missing upload has cost players
+      a signing day.</td></tr>
+      <tr><td class="d">PROJECTED<br>Wed 8 Nov 2028</td><td>Signed, and the other schools must stop recruiting her. The
+      rule is the second Wednesday in November, which is the date the NCAA printed for this year as 11 November 2026.
+      The 2028-29 sheet is not out. February 2029 is football's signing period, not this one.</td><td>Ask for the number
+      and the date in the same email in September 2028. If a coach says "we want you" and no paper follows, the coach is
+      still shopping.</td></tr>
+      <tr><td class="d">Apr 2029<br><span class="tag t-hard">HARD</span></td><td>From 1 April of her graduation year she
+      may ask the Eligibility Center for her final athletics certification.</td><td>Ask for it before the deposit, not
+      after. Graduate, finish all 16 approved subjects, and do not let the final semester fall.</td></tr>
+    </tbody>
+  </table>
+
+  <div class="box red">
+    <h3>What a missed date costs</h3>
+    <p style="margin-bottom:0">A late transcript upload delays certification, and a certification that is not final
+    means a signed paper may not hold. A missed regional qualifier can cost the whole summer's showcase in Las Vegas,
+    and bidding down from another event can run as late as the first week of May. A girl who is not measured, not
+    registered and not on a schedule by the spring of 11th grade starts the year that decides everything with a
+    handicap no money can fully fix.</p>
+  </div>
+</section>
+<section class="newpage">
+  <div class="pagehead"><span class="label">The Commit Book &middot; Volleyball</span><span class="label">What the rules allow</span></div>
+  <h2>4. What a coach may and may not do</h2>
+  <p class="label red" style="margin:0 0 2mm">Checked 11 November 2026 against USA Volleyball's recruiting timeline and
+  the printed 2026-27 Division I calendar for this sport.</p>
+  <p class="lead">In this sport the rule is not "no contact." It is "she may talk, and the coach may not answer for
+  two more years." Almost every confused email a staff gets comes from a family that learned the rule backwards.</p>
+
+  <table>
+    <thead><tr><th style="width:24%">Who</th><th style="width:22%">From when</th><th>Plain words</th></tr></thead>
+    <tbody>
+      <tr><td class="d">She may write</td><td>Today, any year</td><td>USA Volleyball prints "NO RESTRICTIONS" for a
+      recruit contacting a coach at any level. Email, text, direct message, phone, all fine.</td></tr>
+      <tr><td class="d">A D1 or D2 coach may answer</td><td>15 June after her 10th grade, so 15 June 2027</td><td>The
+      governing body's words: coaches "cannot directly communicate with recruits or their families" before that day.
+      That covers phone and text, not just email.</td></tr>
+      <tr><td class="d">A D3, NAIA or junior college coach may answer</td><td>Any time</td><td>These programs are not
+      held to the same contact date, and one service lists camp invites as something any school may send "any time."</td></tr>
+      <tr><td class="d">A coach may watch her play</td><td>Any time, in person</td><td>Spectator seating at her club
+      event is not recruiting contact. This is why the club schedule matters more than the camp brochure.</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Visits, and who pays</h3>
+  <table>
+    <thead><tr><th style="width:18%">Level</th><th style="width:26%">First allowed date</th><th>What a family should know</th></tr></thead>
+    <tbody>
+      <tr><td class="d">Division 1</td><td>1 August before her 11th grade, so 1 August 2027. Both kinds of visit.</td><td>She
+      gets five official visits in a lifetime, and the school pays for those. She needs a paid certification account to
+      take one. Unofficial visits she may take at any cost to herself from the same date.</td></tr>
+      <tr><td class="d">Division 2</td><td>Official visits after 15 June of her 10th-grade year.</td><td>Earlier than
+      Division I, and a real lever if a Division II staff is honest with her in June 2027.</td></tr>
+      <tr><td class="d">Division 3</td><td>Official visits after 1 January of her 11th-grade year.</td><td>No athletic
+      money, so the trip is about the school and the roster. Ask about academic and need aid in the same email.</td></tr>
+      <tr><td class="d">Junior college</td><td>Official visits after the first day of classes of her 11th-grade year.</td><td>Ask
+      the college, not the club coach, what the trip covers.</td></tr>
+      <tr><td class="d">NAIA</td><td>No rule printed.</td><td>Small staffs, and the head coach usually answers her own
+      email.</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Contact periods and dead periods</h3>
+  <p>The printed 2026-27 Division I calendar for this sport shows a contact period from 1 September to 30 November and a
+  dead period from 9 to 12 November 2026, which is the week of this year's signing date. In a contact period a staff may
+  talk to her face to face on campus. In a dead period it may not talk to her at all, in person or on the phone. The
+  calendar for her own signing week is not printed yet. The rule text is stable; the dates move a day or two a year.</p>
+  <div class="box red">
+    <h3>The camp rule, with a flag on it</h3>
+    <p style="margin-bottom:0">The coaches' association said in April 2022 that a Division I volleyball camp may only
+    run between Memorial Day and 31 July, and that "recruiting conversations during an institutional camp or clinic are
+    not permitted between an institution's coach and a participating individual before August 1 at the beginning of the
+    individual's junior year." A campus tour for all campers is allowed. <strong>This book could not re-check that
+    against the 2026-27 rule book.</strong> Assume the talk is off limits at a summer 2027 camp until 1 August 2027, even
+    though phone and email open on 15 June 2027, and ask the director at the front desk.</p>
+  </div>
+
+  <h3>Three limits on how hard a staff may push</h3>
+  <ul class="tight">
+    <li>A signed aid agreement with one school makes every other school that offers athletics aid stop recruiting her
+    and her family. To talk to another school she must first get a release from the one she signed.</li>
+    <li>Once a school's roster is submitted, its limit applies. A staff that promises a spot past its own limit is
+    promising something it may not be able to deliver that fall.</li>
+    <li>Anything a school gives her above tuition and fees is now a separate contract in most programs. Read it on its
+    own, and ask what happens to it if she is hurt or if the coach leaves.</li>
+  </ul>
+
+  <h3>What your family must not do</h3>
+  <ul class="tight">
+    <li>Do not sign two junior college letters of intent. It costs a year of ineligibility in that association.</li>
+    <li>Do not hire an agent for a high school athlete. One state association lets her do endorsements, but
+    not with the school's name, uniform or logo, not paid for performance, and not through an agent. Another state may
+    be stricter than that, and the NCAA is stricter than both.</li>
+    <li>Do not let a parent send the email and stay silent. Coaches say they want the player's own words, and one
+    Division III coach wrote that "the VAST majority of recruits emailing are not recruits we'd pursue."</li>
+    <li>Do not treat the division's rule as the school's rule. A conference may set a lower roster limit than 18, and
+    each school decides its own aid.</li>
+  </ul>
+</section>
+<section class="newpage">
+  <div class="pagehead"><span class="label">The Commit Book &middot; Volleyball</span><span class="label">Where she is seen</span></div>
+  <h2>5. Club, region, camps, and where she is actually seen</h2>
+  <p class="lead">One number should settle the argument at the dinner table. In the NCAA's 2025 participation study, 94
+  percent of college volleyball players played both high school and club, 3 percent played high school only, and 2
+  percent played club only. USA Volleyball repeats the same finding as "more than 90%." The club season is the
+  showcase. The high school season is where she gets better and stays healthy.</p>
+
+  <h3>The shape of the year, in any state</h3>
+  <p>In one state the 2026 season ran from the earliest practice on 17 August to the showpiece tournament on 5 to 7
+  November, played as a bracket in a rented arena. Every state association sets its own calendar: most run a fall
+  season between late August and early November, some split schools into as many as eleven classes, and some run one
+  open class where a small school can win it all. Then club tryouts. One club posted tryouts for 14 November 2026 and a
+  second chance on 19 November, with fees from $25 to $70. Club play then runs into the spring. Two years of dates
+  ahead are rarely printed, so treat her last two fall calendars as PROJECTED and ask her own association for its
+  published schedule.</p>
+  <p>One of the largest club regions in the country reported 18,137 members and 148 clubs at the end of 2024-25, and
+  listed 14,628 youth girls in its May 2026 newsletter. Coaches know numbers like this. A girl from a small club is not
+  unseen because of her club; she is unseen because nobody sent her film.</p>
+
+  <h3>The ladder, in the order it actually happens</h3>
+  <ol class="flow">
+    <li><strong>Club tryout in the fall.</strong> The team decides which tournaments she is seen at. Ask, before paying,
+    which qualifiers the team enters.</li>
+    <li><strong>A regional league weekend in January.</strong> One region's own league event is 9 to 10 January 2027, all
+    ages. Your region publishes dates like this one in the fall.</li>
+    <li><strong>Her region's qualifier, 27 to 28 February 2027, in a rented convention center.</strong> Only that
+    region's teams play. At one region the 16s age group had four bids on offer for the July national: one National, two
+    American, one Freedom. Extra bids trickle down from other teams and can arrive as late as the first week of May. Team
+    entry there is $925. Ask what a bid is worth in your own region before the family pays.</li>
+    <li><strong>Region Championships, 6 to 21 March 2027, over three weekends.</strong> This is where 17s and 18s earn
+    their way to Junior Nationals.</li>
+    <li><strong>A national qualifier if the club goes:</strong> Northern Lights in Minneapolis, 29 to 31 January and 12
+    to 14 March 2027, or the Windy City Invitational in Chicago, 27 to 29 March 2027.</li>
+    <li><strong>Junior Nationals.</strong> USA Volleyball's Girls 14-17s event in Las Vegas, 2 to 5 July 2027 for 16s and
+    17s, with registration that opened 9 December 2026 at 11 a.m. Eastern. AAU's 16s and 17s event in Orlando runs 25 to
+    28 June 2027. Staffs work both.</li>
+  </ol>
+
+  <h3>Where a staff says it looks</h3>
+  <p>A Texas State assistant coach and recruiting coordinator wrote for the coaches' association that her staff faced
+  "over 150 club tournaments between Jan. 1 and Aug. 1 alone, plus you have to factor in camps and clinics." That is the
+  market. A club coach's advice, repeated by several staffs: build a free Otto Prep profile, the platform formerly
+  called University Athlete, because "this is how coaches at the tournaments locate you." The same page shows her
+  schedule, her club team and her grades without another email. A Stanford head coach says on that company's own site
+  that it is "the first place we look to find athletes," and the company gives every athlete a free profile.</p>
+
+  <div class="box red">
+    <h3>A camp invite is not interest, and this is not an opinion</h3>
+    <p>USA Volleyball, in its own recruiting Q&amp;A: "an invitation to a camp may or may not indicate interest, and you
+    should follow up with an email or phone call for more information." The Junior Volleyball Association puts it
+    harder: if she has "not already received a lot of interest from this college program prior to receiving the camp
+    brochure, do not assume this school is recruiting you." Every camp site checked for this book says the camp is open
+    to any and all entrants, limited only by number and age group. One region's own summer camp page adds a warning about
+    its own listings: "All listings are paid advertisements."</p>
+    <p style="margin-bottom:0">What is real activity, per USA Volleyball: a coach watching her profile, replying to an
+    email, or asking for film or her schedule. That is "at least a moderate level of interest." A mail-merged brochure
+    is not.</p>
+  </div>
+
+  <h3>What camps cost, so the math is plain</h3>
+  <p>A private university's college prep camp in July was $310 commuting and $380 resident, open to grades 9 to 12 with
+  high-level club or varsity experience, and the page says each camper "will be evaluated." Its one-day passers camp was
+  $60 and its overnight satellite camp was $200. A public university's prospect camp was $160 for 40 players, lunch
+  included. A Division III school's camp was $154 for one session and $318 for two. A Division I position camp ran $375
+  to $485. A flagship campus filled a week of June and July 2026 with its own camps, and the June packet says the camp is
+  "recommended only" for players who compete at the club level and in high-level national events. One campus camp was not
+  open to everyone at all: $342 and $447, by invitation. Prices for 2027 were not posted at any of these schools when
+  this book was checked, so read them as the shape of the market, not as a quote.</p>
+
+  <h3>Ask these four things on any visit or call</h3>
+  <ul class="tight">
+    <li>How many players are you signing in my class, at my position, and who is already ahead of me?</li>
+    <li>What does the aid look like in year one, and how is it renewed?</li>
+    <li>What happens to the promise if you leave, and who do I talk to then?</li>
+    <li>Which dates in 2028 can I come back on an official visit, and does the school pay?</li>
+  </ul>
+</section>
+<section class="newpage">
+  <div class="pagehead"><span class="label">The Commit Book &middot; Volleyball</span><span class="label">The email</span></div>
+  <h2>6. What to send, part 1: the email</h2>
+  <p class="lead">One email, from her, with two links. It is short because a staff gets hundreds of them a week. Everything
+  a coach skims for sits in the first four lines, and every number says how it was measured.</p>
+
+  <p class="label" style="margin-bottom:1mm">Subject line, 74 letters</p>
+  <div class="tmpl">2029 outside hitter / DS at Anytown South HS &middot; 5'11", 9'4" approach &middot; 3.62 GPA &middot; film inside</div>
+  <p class="label" style="margin-bottom:1mm">Body, 175 words, from her own mailbox</p>
+  <div class="tmpl">Coach Rivera,
+
+My name is Madison Weber. I play outside hitter and defensive specialist at Anytown South High School. I graduate in 2029. My club team is Impact Athletic Development 16 Orange, and my schedule is in the link below.
+
+Club numbers, 71 sets: 3.08 kills a set, .271 hitting on 640 swings, 3.48 digs a set, 18 aces, 41 serve errors. In serve receive, 268 passes, 104 perfect on a 3-point scale.
+
+Measures, 22 May 2027, by my trainer at Impact Athletic Development: 5'11" barefoot, 7'6" standing reach in shoes with feet flat, 9'4" approach touch on a Vertec, best of four.
+
+Unweighted GPA 3.62 on a 4.0 scale. NCAA ID 7419286. I want to study nursing.
+
+I watched your matches on the stream this fall. Your April update said one outside spot is open for 2029. May I send a full match, and how many outsides are you signing that year?
+
+Reel, 2:40, no login: youtu.be/xxxxxxx
+Free profile: ottoprep.com/xxxxxxx
+
+Thank you for reading this.
+
+Madison Weber
+madison.weber@example.com · (555) 555-0148</div>
+  <p class="small">Invented player, invented school, invented club, invented coach, per this book's rule: sample emails
+  name no real high school, club, camp or service. The numbers are the kind a 16s outside hitter really posts, and the
+  links are placeholders.</p>
+
+  <h3>Why it is written this way</h3>
+  <ul class="tight">
+    <li><strong>She writes it.</strong> A Division III head coach who won a national title said he can "tell the email
+    that dad sent with your name on it." A club coach says the same: "we can tell if a parent wrote them."</li>
+    <li><strong>Position, class and height in the subject.</strong> A club coach's rule is to put name, position and
+    grade year in the subject line and to spell the position out, because "coaches will not know" what OH/RS means at a
+    glance. Balltime's guide says the same, and adds that coaches skim for the video link, the class year, the height
+    and approach touch, the grades, and one real reason she likes that school.</li>
+    <li><strong>Stats with denominators.</strong> "3.08 kills a set" over 71 sets is a claim a coach can weigh. The same
+    number from six sets is noise.</li>
+    <li><strong>Numbers with a method and a date.</strong> See the box below. This is where most families lose credit.</li>
+    <li><strong>One question a coach can answer in five words.</strong> A recruiting-coordinator note in the sample
+    assumes the staff has posted a needs list. If it has not, ask for it.</li>
+    <li><strong>No attachments, and no login walls.</strong> The Junior Volleyball Association's coach-sourced list says
+    do not send video that needs a sign-in. Unlisted YouTube, or a public Balltime or Hudl page, and test the link in a
+    signed-out browser on a phone first.</li>
+  </ul>
+
+  <div class="box">
+    <h3>Label every number, or a coach discounts all of them</h3>
+    <p>Two studies found that a wearable jump device reads about two inches higher than a Vertec for the same athlete,
+    one of them on 128 Brazilian youth national players at 70.9 centimetres against 76.3. So "vertical 24 inches" means
+    nothing without the tool. Say the tool, the date, who measured, and whether the shoes were on. A bare-height claim
+    should be measured barefoot to the nearest half inch, with a parent writing it down.</p>
+    <p style="margin-bottom:0">One more reason to be honest: this book counted 212 listed heights across 11 nearby
+    college rosters, then counted the NCAA's own national leader lists. Division I shows a bump at exactly 6'0" over
+    5'11" (143 players against 93), which fits rounding up and does not prove it. If a roster says 6'0" and she is 5'11"
+    in socks, she is not short. Her number, honestly measured, is worth more than a hopeful one.</p>
+  </div>
+</section>
+<section class="newpage">
+  <div class="pagehead"><span class="label">The Commit Book &middot; Volleyball</span><span class="label">The reel</span></div>
+  <h2>6. What to send, part 2: what good video looks like</h2>
+  <p class="lead">Coaches say two to five minutes, and no two sources agree on the number. The shortest honest number in
+  this research is two minutes, from the company that has the most profiles. Build two to three minutes, best clips
+  first, and keep the full match ready to send when a coach asks.</p>
+
+  <table>
+    <thead><tr><th style="width:18%">Position</th><th style="width:44%">What must be in the reel</th><th>Why</th></tr></thead>
+    <tbody>
+      <tr><td class="d">Outside hitter</td><td>Attack from both pins, block, serve, and serve receive and defense. Variety
+      of shots.</td><td>A coach who recruits outsides said: "include variety in your videos. I once got a video where
+      the recruit literally hit the same shot in every clip."</td></tr>
+      <tr><td class="d">Setter</td><td>Setting from both front and back row, out of system, to every antenna, plus defense,
+      blocking and any serving.</td><td>In and out of system is the whole question at this position.</td></tr>
+      <tr><td class="d">Middle</td><td>Quick attack, block footwork, transition, handling a free ball, and the serve.</td><td>The
+      club-coach checklist for middles is exactly these five things.</td></tr>
+      <tr><td class="d">Opposite</td><td>Right-pin attack against a full block, block, serve.</td><td>Same list as an
+      outside, minus the passing.</td></tr>
+      <tr><td class="d">Libero and DS</td><td>Serve receive from every zone, defense from deep and shallow, vision, and
+      the serve if the staff wants it. Passing and defense above everything.</td><td>"If you are a Libero, please include
+      passing and defense." A Division I head coach of a national champion said of liberos: "we don't care if they can
+      jump."</td></tr>
+    </tbody>
+  </table>
+
+  <h3>The rules nearly every coach stated</h3>
+  <ul class="tight">
+    <li>Match play, not drills. Controlled-drill clips "do not give them a good sense of your overall athletic ability,
+    decision making and reactions to errors." Reps from a live practice game are fine and preferred.</li>
+    <li>Show a few seconds before and after the ball. One coach: "I want to see your body language, communication with
+    teammates and reactions." A Division III national-champion coach wants an entire point, not a highlight, plus her
+    jersey number, jersey color and side of the court.</li>
+    <li>No slow motion, no music, no big arrows. Several coaches say they mute the audio anyway.</li>
+    <li>Put her name, position, class and jersey number on the first frame. Otto Prep's own advice: a cover card "to
+    remind them who they are watching before the clips start," because "coaches are not going to sit there and fast
+    forward through full matches trying to find your five touches."</li>
+    <li>Skip the flashy passing clips. A coach on the record: "Highlight clips of passing and digging aren't really of
+    all that much value, especially the flashy ones. For all I know, you shanked all your other opportunities."</li>
+    <li>Expect to be judged in seconds. One service measured that coaches watch "the first 10-25 seconds" of a reel; a
+    club coach says 10 to 15. The fix is the same: the best clip goes first.</li>
+  </ul>
+
+  <div class="box red">
+    <h3>Two coaches disagree about kills. Both are on the record.</h3>
+    <p style="margin-bottom:0">One recruiting site tells players that every hit shown should be a kill. A coach who has
+    scouted for years says kills and aces alone do not show skill, and wants mechanics, movement and what happens after
+    the error. This book prints the second advice, because the first comes from a company selling a service and the
+    second comes from a coach. Send the reel to a school you like and ask what it wants. The answer costs a coach ten
+    seconds and is worth more than any guide.</p>
+  </div>
+</section>
+<section class="newpage">
+  <div class="pagehead"><span class="label">The Commit Book &middot; Volleyball</span><span class="label">Size, jump, stats</span></div>
+  <h2>6. What to send, part 3: size, jump and stats, honestly</h2>
+  <p class="label red" style="margin:0 0 2mm">No college in this research publishes an approach, block or reach standard.
+  Nothing below is a rule.</p>
+  <p class="lead">Two kinds of number exist. The first is what a school lists on its own roster, which this book counted.
+  The second is what a recruiting company hopes for, which is one company's target. The columns say which is which.</p>
+
+  <table class="flow">
+    <thead><tr><th style="width:16%">Position</th><th style="width:24%">Counted roster heights, 11 nearby teams</th><th style="width:20%">A service's target: top Division I</th><th style="width:20%">Same service: Division II, NAIA, strong Division III</th><th>Same service: Division III and junior college</th></tr></thead>
+    <tbody>
+      <tr><td class="d">Outside</td><td>Top Division I 5'10" to 6'6", middle of the list 6'2". Smaller-conference Division I 5'8" to 6'2", middle 6'0". Division III middle 5'11". NAIA middle 5'10".</td><td>5'11" to 6'2" and a 9'8" or better approach <span class="tag">SERVICE</span></td><td>5'8" to 5'10" and a 9'4" approach <span class="tag">SERVICE</span></td><td>5'8" to 5'10" and a 9'0" approach <span class="tag">SERVICE</span></td></tr>
+      <tr><td class="d">Middle</td><td>Top Division I 6'1" to 6'5", middle 6'3". Division III 5'10" to 6'2", middle 6'0". NAIA middle 6'0".</td><td>6'0" to 6'4" and taller, 10'0" or better <span class="tag">SERVICE</span></td><td>5'9" to 6'1" <span class="tag">SERVICE</span></td><td>5'9" to 6'1" and a 9'4" approach <span class="tag">SERVICE</span></td></tr>
+      <tr><td class="d">Setter</td><td>Top Division I 5'8" to 6'3", middle 5'11". Smaller-conference Division I middle 5'8". Division III middle 5'9". NAIA middle 5'8".</td><td>5'9" to 6'1" and taller, 9'6" approach <span class="tag">SERVICE</span></td><td>5'7" to 5'10" and a 9'2" approach <span class="tag">SERVICE</span></td><td>5'4" to 5'10" and an 8'10" approach <span class="tag">SERVICE</span></td></tr>
+      <tr><td class="d">Libero, DS</td><td>Top Division I 5'3" to 5'10", middle 5'8", with one 6'3" defensive specialist at Minnesota. Division III 5'3" to 5'8", middle 5'7". NAIA 5'1" to 5'10", middle 5'5".</td><td>5'5" to 6'0", no jump number given <span class="tag">SERVICE</span></td><td>5'0" to 5'8", no jump number <span class="tag">SERVICE</span></td><td>5'0" to 5'8", "lateral quickness" named as the key <span class="tag">SERVICE</span></td></tr>
+    </tbody>
+  </table>
+  <p class="small">Roster heights are this book's own count of 212 listed heights at 11 programs in one part of the country, read
+  11 November 2026. Targets are one company's positional guidelines; a second company's chart is close but not the same,
+  and a third prints a row labeled "weight" that clearly holds heights. That is the whole state of the art.</p>
+
+  <h3>The libero question, answered with names</h3>
+  <p>This book counted the 147 players listed as libero or defensive specialist among the top 150 in Division I digs per
+  set. Their listed heights run from 5'0" to 6'0", with a middle of 5'6". Thirty-two are 5'4" or shorter, and 23 are 5'9"
+  or taller. The Division I No. 1, St. John's libero Rashanny Solano Smith, is listed 5'3" at 5.44 digs a set; No. 5,
+  Abilene Christian's Brennan Ramirez, 5'1"; No. 7, Binghamton's Celeste Ocampo, 5'0"; Idaho State's Aspen Boice, 6'0".
+  The national governing body says most nations' women's liberos average about 5'7". The Division I coach of three
+  national champions at Nebraska says it plainly: "Liberos, we don't care if they can jump, so we're looking at how well
+  they can move and what kind of touch they have on a ball." An NAIA head coach goes the other way for the same position:
+  "I am all for the bigger being on the court. There are six-footers who basically own that position." Both are quoted.
+  Neither is a rule.</p>
+
+  <h3>What the NCAA's own leader lists look like</h3>
+  <p>These are cut lines on the national lists through games of 10 November 2026, the season she is watching now. A girl
+  at the No. 100 line of a division is close to the best player in that division, not average.</p>
+  <table class="flow">
+    <thead><tr><th style="width:24%">Stat</th><th style="width:19%">Division 1, No. 1 / 25 / 50 / 100</th><th style="width:19%">Division 2, same ranks</th><th style="width:19%">Division 3, same ranks</th><th>What a coach reads around it</th></tr></thead>
+    <tbody>
+      <tr><td class="d">Kills per set</td><td>5.21 / 4.30 / 3.97 / 3.63</td><td>4.55 / 3.85 / 3.56 / 3.28</td><td>5.69 / 3.96 / 3.69 / 3.36</td><td>86 of the Division I top 100 are outside hitters, so this is an outside's list.</td></tr>
+      <tr><td class="d">Hitting percentage</td><td>.519 / .405 / .379 / .350</td><td>.434 / .379 / .361 / .328</td><td>.427 / .353 / .336 / .311</td><td>89 of the Division I top 100 are middles. A quick-set middle beats a pin hitter here every year.</td></tr>
+      <tr><td class="d">Assists per set</td><td>11.73 / 10.51 / 10.01 / 9.12</td><td>11.68 / 10.18 / 9.30 / 7.45</td><td>11.03 / 9.23 / 8.45 / 7.09</td><td>Says little about a setter. Ask a staff what they want to see out of system.</td></tr>
+      <tr><td class="d">Digs per set</td><td>5.44 / 4.69 / 4.36 / 4.01</td><td>7.17 / 5.15 / 4.90 / 4.33</td><td>6.31 / 5.35 / 4.93 / 4.49</td><td>A libero on a team that gets hit at digs more. One coach wants dig-to-kill, 32 to 38 percent.</td></tr>
+      <tr><td class="d">Aces per set</td><td>0.74 / 0.51 / 0.45 / 0.39</td><td>0.71 / 0.53 / 0.48 / 0.43</td><td>0.94 / 0.71 / 0.65 / 0.56</td><td>The error count matters as much. The sample email in this chapter prints 18 aces against 41 serve errors.</td></tr>
+    </tbody>
+  </table>
+  <div class="box">
+    <h3>The passing numbers coaches have said out loud</h3>
+    <p>A former USC head coach and 2000 Olympic women's coach: "At the collegiate level, we look for anybody who can get
+    a perfect pass 62 to 66 percent of the time." A former Penn State head coach, on a 3-point scale: "if one libero is
+    passing a 2.2 and another is passing 2.3, but the 2.2 does not get aced, then I am going with the 2.2." An NAIA head
+    coach: "I don't have a magic number. I am looking for a person who might have a reception error once every three
+    matches."</p>
+    <p style="margin-bottom:0">None of these are transferable between programs, because the pass scale is not standard.
+    Some coaches score 0 to 3, some 0 to 4. Print the scale with the number, and never print "passing 2.5" alone.</p>
+  </div>
+
+  <h3>How much taller will she be?</h3>
+  <p>Pediatric sources agree on the shape: most girls grow one to two more inches after the first period and reach final
+  adult height around 14 or 15, with a wide tail. One study of 793 Swedish women found a middle of about 2.8 inches of
+  growth left after the first period, and a range from almost none to more than a foot. A pediatrician can plot her growth
+  chart, and a hand X-ray can estimate when growth ends. So her 10th-grade height is not her college height, and a coach
+  who sizes her up at 15 may be wrong by two inches. The Montana associate head coach quoted above said it another way:
+  "we want to see you get kills and pass dimes, but we are really watching how you move."</p>
+</section>
+<section class="newpage">
+  <div class="pagehead"><span class="label">The Commit Book &middot; Volleyball</span><span class="label">Leave these out</span></div>
+  <h2>6. What to send, part 4: what leaves her out, and how to follow up</h2>
+  <p class="lead">Coaches told this book, and told the industry's own association, the same ten things that make them
+  stop reading. Every one is free to fix.</p>
+  <ol class="flow">
+    <li><strong>Practice clips.</strong> One coach: clips of a coach feeding her easy balls "don't give me much to go
+    on." Reps from a live practice game are fine; a controlled drill is not.</li>
+    <li><strong>The same shot in every clip.</strong> The coach who said he once got a reel where the player hit the same
+    shot on every rep is recruiting variety, not one weapon.</li>
+    <li><strong>A passing number with no scale and no errors.</strong> See the box in part 3.</li>
+    <li><strong>"I am a great teammate and love to compete."</strong> One platform's guide calls this a statement "anyone
+    can make." Add a story, or cut it.</li>
+    <li><strong>A money question in email one.</strong> Ask about aid after a staff shows interest, and ask it on the
+    visit, in the same breath as academics.</li>
+    <li><strong>"I will play anywhere you need me."</strong> A staff recruiting an outside hears: no position. Name the
+    two positions she can actually play.</li>
+    <li><strong>The wrong mascot, or a major the school does not offer.</strong> A club coach's list of quick ways to
+    lose a staff.</li>
+    <li><strong>An attachment, or a link that needs a sign-in.</strong> One platform's support page explains why a
+    profile link can require a login; a coach will not create an account to find her. Send an unlisted YouTube link or a
+    public page.</li>
+    <li><strong>A parent's mailbox and a To: line full of 40 coaches.</strong> One coach's line about the emails his
+    staff receives: "I can tell the email that dad sent with your name on it." Send one email to one named coach.</li>
+    <li><strong>A whole club roster and a birth-certificate mismatch.</strong> Use the name on her transcript and her
+    profile, because that is the name the Eligibility Center checks.</li>
+  </ol>
+
+  <h3>How to follow up, and how long to wait</h3>
+  <p>An advisor who has coached in this sport for decades and sells coaching says: before the June date, email every two
+  weeks, first an introduction and then updates with and without video; in 11th and 12th grade, every week to two weeks;
+  and "if you haven't heard anything back after 5-8 emails, you can drop the school." Her other rule is worth taping to
+  the monitor: "always be the last one to make contact." A Division III national-champion coach adds the other half: "I
+  shouldn't have to wait a week to hear back from you." Answer inside a day, and send the update the day after the
+  tournament.</p>
+
+  <h3>What the silence probably means</h3>
+  <p>Named Division III coaches have said the quiet part. Trinity's head coach: "The VAST majority of recruits emailing
+  are not recruits we'd pursue." A Division III head coach at a public university: there is volume, "but not many of those
+  emails equate to roster spots." A Kean coach said a little over 60 percent of the emails his staff gets are defensive
+  specialists, which is worth knowing before a family chooses that position. These quotes came from a coaches' column kept
+  off the association's own site, so weigh them as coaches talking to peers.</p>
+  <p>The published numbers on email volume all come from companies selling recruiting tools, and none is
+  volleyball-specific. One measured that coaches opened about 46 percent of athlete emails, that players who emailed 50 or
+  more coaches heard back 82 percent of the time against 7 percent for those who emailed one to nine, and that a single
+  follow-up roughly tripled the reply rate. A soccer company's study of 3,782 emails to 1,057 coaches found 23.7 percent
+  of coaches replied at all, only 5.7 percent showed genuine interest, the middle wait for a first reply was almost nine
+  days, and 42 percent of replies came more than a month later. Real interest showed at Division III 11.7 percent of the
+  time against 2.8 percent at Division I.</p>
+  <div class="box">
+    <h3>What to do with those numbers</h3>
+    <p style="margin-bottom:0">Read them as directions, not promises. The player who emails 50 schools and gets 82
+    percent replies is also the player who measures her jump, uploads her transcript on time and plays on a team that
+    enters qualifiers; the company that counted the emails cannot separate the two. What is safe to conclude: write to
+    more schools than feels polite, follow up once with something new, expect a slow answer, and do not spend money to
+    be "prioritized" in somebody's inbox.</p>
+  </div>
+</section>
+<section class="newpage">
+  <div class="pagehead"><span class="label">The Commit Book &middot; Volleyball</span><span class="label">The paper</span></div>
+  <h2>7. What the paperwork really means</h2>
+  <p class="lead">One paper, one school, one date. Everything else a family is told to sign is either a celebration or a
+  two-year-college contract. This chapter is the shortest path to not being surprised.</p>
+
+  <h3>The paper, and the date</h3>
+  <p>The National Letter of Intent is gone. The NCAA ended it in October 2024, and Division II made the same change the
+  same month. What she signs at a Division I or II school is a written offer of athletics aid. The NCAA's own
+  scholarships page still says Division II schools "may still use" the old letter, so ask each Division II school which
+  paper it uses. The first day she may sign is the second Wednesday in November of 12th grade. The NCAA published 11
+  November 2026 for that rule this year, which makes her date <strong>Wednesday 8 November 2028</strong>, marked
+  PROJECTED because the 2028-29 sheet is not out. The period then stays open, with the final date set by each school, so
+  she can sign in December. The calendar also puts a dead period on the Monday through Thursday of the week of that first
+  signing day, which for her would be 6 to 9 November 2028 by the same arithmetic. February 2029 is football's month, not
+  hers.</p>
+
+  <h3>What the settlement changed, in one paragraph</h3>
+  <p>From 1 July 2025 there are no sport-by-sport scholarship limits in Division I. A school that opts in to the
+  settlement takes a roster limit instead, 18 for women's volleyball, and may give aid to any or all of those players in
+  any amount. The limit counts every player on the submitted roster, with or without aid, and a roster spot is not
+  guaranteed to anyone. Opting in is a decision for the whole school, not one sport, and it is revisited each year for
+  ten years. A conference may set a lower limit than 18 but not below 12. Separate from all of this, each school may
+  share up to $20.5 million with athletes in 2025-26, rising each year. That money is its own contract, and the school's
+  own Q&amp;A says so.</p>
+
+  <h3>What she actually gets if she signs</h3>
+  <ul class="tight">
+    <li>Aid "if you are admitted, remain eligible and meet the terms." Read the terms. The NCAA tells students to.</li>
+    <li>Every other school that gives athletics aid must stop recruiting her and her family. She cannot sign twice; to
+    talk to anyone else she needs a release from the school she signed.</li>
+    <li>At Division I, if she received aid in her first year and still has eligibility, that aid cannot be reduced,
+    canceled or not renewed for athletics reasons. The list of athletics reasons includes injury, illness, mental health,
+    performance, contribution to team success and roster management. A school must give written notice and a chance to
+    appeal, and notice not to renew comes by 1 July.</li>
+    <li>The same rule set says a player on aid who loses her spot to roster management, performance or injury keeps her
+    scholarship "unless and until the student chooses to transfer."</li>
+    <li>Division I schools must cover medical care for athletics injuries and eligible out-of-pocket costs, and continue
+    that care for at least two years after she leaves. The NCAA adds catastrophic and post-eligibility insurance at no
+    cost to her.</li>
+  </ul>
+
+  <div class="box red">
+    <h3>Redshirt is gone for her class</h3>
+    <p>Division I adopted an age-based eligibility model in June 2026, effective 1 August 2026, and Division II followed
+    in August 2026. The five-year clock starts at the earlier of her first full-time enrollment at any college, a
+    two-year college included, or the school year after her 19th birthday. It does not pause if she sits out or
+    transfers. The NCAA says the rule is not "five years for everyone" and that redshirt rules, seasons of competition
+    and most waivers are eliminated. Division II's old 10-semester cap is gone too.</p>
+    <p style="margin-bottom:0">Two things follow. A coach cannot offer her "a redshirt year" the way families heard it
+    from older coaches. And a junior-college year starts the clock, so one year at a two-year college leaves four, not
+    five. Anyone who tells her a junior college year buys an extra season is working from the old rule book.</p>
+  </div>
+
+  <h3>The other levels, on one page</h3>
+  <table class="flow">
+    <thead><tr><th style="width:17%">Level</th><th style="width:29%">What she signs</th><th>What to know first</th></tr></thead>
+    <tbody>
+      <tr><td class="d">Division 1</td><td>Written offer of athletics aid, from 8 November 2028 (PROJECTED).</td><td>Needs
+      a certified Eligibility Center account, which also gates her official visits. Her school's academic record is
+      checked against 16 approved subjects, a 2.3 core Grade Point Average, and graduation.</td></tr>
+      <tr><td class="d">Division 2</td><td>Written offer of aid. Ask whether the school still uses the old letter.</td><td>The
+      core floor is 2.2. Transcripts and the account work the same way.</td></tr>
+      <tr><td class="d">Division 3</td><td>Nothing binding. A nonbinding celebratory form may be signed after she is
+      accepted.</td><td>No athletic aid, and no Eligibility Center certificate for a domestic athlete: the school
+      certifies her. About 80 percent of Division III athletes do receive non-athletic aid. A coach's "offer" usually
+      means support with admissions, and a support letter is not admission.</td></tr>
+      <tr><td class="d">NAIA</td><td>The school's own paper. The NAIA has no letter-of-intent program.</td><td>The
+      national office says it "will not force a school to honor a financial aid agreement." Registration is $110 for a
+      U.S. high school graduate. The academic floor is a 2.3 Grade Point Average at graduation, or two of three: a
+      qualifying test score, a 2.0 overall, or the top half of the class. A test score can still help here.</td></tr>
+      <tr><td class="d">Junior college</td><td>The association's Letter of Intent and Scholarship Agreement, binding for
+      one academic year, 1 August to 31 July, and it cannot be awarded before the start of senior year.</td><td>Signing
+      two of them costs a year of eligibility in that association. A year there starts the NCAA's five-year clock. Get a
+      release, in writing, before she leaves.</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Ask these five questions about any paper</h3>
+  <ul class="tight">
+    <li>What are the exact dollars, what do they cover, and is health insurance part of it?</li>
+    <li>How is it renewed each year, and who signs the renewal?</li>
+    <li>Is the roster spot promised, or only the money?</li>
+    <li>What happens if you leave, coach, and who else on staff has read this contract?</li>
+    <li>Is the revenue-share or name-and-image deal a separate contract, and what happens to it if she is hurt?</li>
+  </ul>
+  <p class="small">One term this book could not settle: a "letter of assurance" has no definition in any NCAA, NAIA or
+  NJCAA material we read. Treat it as talk. And when a club page tells families that "Division III does have a
+  National Letter of Intent," both the NCAA and a Division III school's own athletics site say the opposite.</p>
+</section>
+<section class="newpage">
+  <div class="pagehead"><span class="label">The Commit Book &middot; Volleyball</span><span class="label">Prices, published</span></div>
+  <h2>8. What it costs, part 1: published prices</h2>
+  <p class="lead">Every figure here was printed by the club, school, event or seller, checked 11 November 2026. The last
+  column is this book's opinion, and it says so.</p>
+  <table class="flow">
+    <thead><tr><th style="width:24%">Line</th><th style="width:22%">Published price</th><th style="width:12%">Who printed it</th><th>This book's call</th></tr></thead>
+    <tbody>
+      <tr><td class="d">Club, local or regional</td><td>$1,350 to $2,600. One published example: $1,450 for eight league
+      dates, with no required out-of-state travel.</td><td>Clubs</td><td>The best value per touch in the sport. Fewer
+      showcases, so the family must send film earlier.</td></tr>
+      <tr><td class="d">Club, mid travel</td><td>$3,100 to $4,350</td><td>Clubs</td><td>Reasonable if the team enters a
+      regional qualifier where staffs actually go.</td></tr>
+      <tr><td class="d">Club, national circuit</td><td>One club on the USA
+      Volleyball national qualifier circuit prints $4,350 for 18s and $4,950 for 15s to 17s. A second club states its range
+      as $3,500 to $5,800 depending on team level and travel. A top 14s team at a large club: $7,380.</td><td>Clubs</td><td>Pay
+      it for the schedule, not the label. Ask which qualifiers, and whether staffs were announced.</td></tr>
+      <tr><td class="d">Tryout fee</td><td>$25 to $70</td><td>Clubs</td><td>Unavoidable.</td></tr>
+      <tr><td class="d">Uniform and gear</td><td>$240 to $374 where billed separately</td><td>Clubs</td><td>Ask before
+      signing. Some clubs roll it in, some do not.</td></tr>
+      <tr><td class="d">Individual membership</td><td>$90 in one region; another region does not
+      publish its price</td><td>USA Volleyball region</td><td>Small line. Ask the club what it includes.</td></tr>
+      <tr><td class="d">Qualifier entry</td><td>$925 per team at a USA Volleyball national qualifier, which is about $78
+      to $93 a player on a 10 to 12 player roster</td><td>USA Volleyball events</td><td>The club pays it and passes it
+      along. Know that it is in the fee.</td></tr>
+      <tr><td class="d">Club-run travel events</td><td>$120 to $160 per player for a multi-day regional event; $175 to
+      $225 for a three-day national qualifier</td><td>Clubs</td><td>Predictable. Budget it by name.</td></tr>
+      <tr><td class="d">Hotel and gas, family</td><td>Nothing published by any club this book checked. The only marker found: one
+      big-city club expects $4,000 to $5,000 for six overnight tournaments, about $670 to $830 a trip.</td><td>Club
+      disclosure</td><td>This is the real budget line for most families. Plan four trips, not fourteen camp weekends.</td></tr>
+      <tr><td class="d">College camp, any level</td><td>A private university's prep camp $310 commuting, $380 resident; its
+      overnight satellite camp $200; its one-evening passers camp $60; a public university prospect camp $160 for 40 spots;
+      a Division I position camp $375 to $485; a Division III camp $154 to $318; an invite-only campus camp $342 to $447.</td><td>Schools</td><td>Go
+      after a staff answers an email. A $60 one-evening camp at the same school tells her just as much.</td></tr>
+      <tr><td class="d">Showcase</td><td>AVCA Phenom $259 and by invitation; Premier Academy $145 then $165; NIKE
+      Winterfest $125 then $175, capped at 200; Hawaii Showcase $99; one service says showcases run $200 to $500.</td><td>Event
+      organizers</td><td>One, chosen for who is announced as attending.</td></tr>
+      <tr><td class="d">Film edit</td><td>$20 to $60 at a freelance marketplace; $450 to $1,350 at a
+      volleyball-specific shop; a large service says full-service production runs $500 to $1,000 or more.</td><td>Sellers</td><td>A
+      parent with a tripod at the end line and a $55 edit beats a $1,350 reel with no live-play footage. Nobody showed
+      that the higher price buys more looks.</td></tr>
+      <tr><td class="d">Paid recruiting service</td><td>The market leader publishes no price. Two reports give $1,320 to
+      $4,200 and $250 to $2,100; parents tell a volleyball site $1,000 to $6,000 a year. Complaints filed in 2026 with
+      the Better Business Bureau include a $4,719 membership refunded 50 percent.</td><td>Reports and complaints</td><td>Buy
+      a cheap tool or nothing. Cheaper rivals publish their prices at $19.99 to $49.99 a month.</td></tr>
+      <tr><td class="d">Profile platform</td><td>A free athlete profile, with an all-access tier reported at $249 a year;
+      a free profile at another platform with a paid tier reported at $99 a month or $399 a year; a video platform's
+      player plan at $20 and its recruiting plan at $25 a month, billed $299 a year.</td><td>Sellers</td><td>Start free.
+      Two clubs point families to these two platforms as the only recruiting tools they need.</td></tr>
+      <tr><td class="d">Eligibility Center</td><td>$120 on the live sign-up page, $75 for athletics certification only,
+      $110 in the association's own printed guide, and $110 at the NAIA.</td><td>NCAA, NAIA</td><td>Confirm the number on
+      the day she pays. Fee waivers exist and need no parent income paperwork.</td></tr>
+      <tr><td class="d">Watching the college</td><td>Conference streaming at $89.99 a year or $12.99 a month, and $39.99
+      for the 2026-27 year for verified groups such as students and alumni.</td><td>Conference</td><td>Free on a Big Ten
+      campus. Ten minutes of film of the real team is worth more than a brochure.</td></tr>
+    </tbody>
+  </table>
+</section>
+<section class="newpage">
+  <div class="pagehead"><span class="label">The Commit Book &middot; Volleyball</span><span class="label">The year, totaled</span></div>
+  <h2>8. What it costs, part 2: one year, all in</h2>
+  <p class="lead">This is this book's arithmetic from the published lines above, not a number a seller printed. A
+  recruiting service claims families spend $3,000 to $10,000 a year. The build below lands inside that.</p>
+  <table>
+    <thead><tr><th style="width:44%">Build</th><th style="width:16%">Low</th><th style="width:16%">High</th><th>Note</th></tr></thead>
+    <tbody>
+      <tr><td class="d">Club, national circuit</td><td>$4,350</td><td>$4,950</td><td>One club's published
+      fee</td></tr>
+      <tr><td class="d">Uniform and gear, if separate</td><td>$240</td><td>$374</td><td>Published by two clubs</td></tr>
+      <tr><td class="d">Individual membership</td><td>$90</td><td>$90</td><td>One region's price</td></tr>
+      <tr><td class="d">Two travel weekends for the family</td><td>$1,340</td><td>$1,660</td><td>Two trips at the
+      $670 to $830 marker. This book's estimate, not a price from a club she would join.</td></tr>
+      <tr><td class="d">Season subtotal</td><td>about $6,000</td><td>about $7,100</td><td>Add one camp and one edit and
+      the year is $6,200 to $7,900</td></tr>
+      <tr><td class="d">The same year on a local club</td><td>about $3,300</td><td>about $5,300</td><td>$1,450 club fee,
+      uniform, membership, two travel weekends at the same marker, one camp, one edit</td></tr>
+    </tbody>
+  </table>
+
+  <div class="box red">
+    <h3>The money line for this sport</h3>
+    <p>The gap between a $4,350 national-circuit fee and a $1,450 local-league fee is $2,900. That is about 14 satellite
+    camps at $200, or about nine of the same school's prep camp, or roughly 50 one-evening skills camps at $60.</p>
+    <p style="margin-bottom:0">A camp plus an edit costs $255 at the low end and $760 at the high, which is 6 to 17
+    percent of one club fee. A top-tier service at $1,320 to $4,200 costs more than the camp and the edit combined,
+    several times over, and in this research not one college coach said on the record that a paid tier moved a volleyball
+    recruit. What a coach did say on the record is that film, a schedule and a free profile are what get used.</p>
+  </div>
+
+  <h3>Name, image and likeness: what the money really is</h3>
+  <p>Do not plan a budget around this. A 2026 industry report puts the average women's volleyball deal at $663, next to
+  $2,500 for women's basketball and $5,900 for football. A 2024 report from the same company estimated a Division I
+  women's volleyball player's expected annual value at $5,868 and found the sport took 2.9 percent of commercial deal
+  dollars and 0.8 percent of collective dollars. The NCAA's own NIL database for 2023-24, reported through a national
+  outlet, put volleyball third among Power Four women's sports in reported deals at 15.2 percent, behind basketball and
+  softball, with Power Four women's athletes averaging $7,947 in reported earnings.</p>
+  <p>Two rules matter for any 10th grader with a following. Her state high school association may let a student athlete do
+  endorsements, but not using her school's name, uniform or logo, not paid for performance, and not through an agent. On
+  the NCAA side, deals of $600 or more must be reported, counted from the start of 11th grade. So a local car-dealer
+  deal is fine and a school-Logo deal is not. Ask before she signs anything with a school's colors on it, and keep the
+  receipts; the eligibility review asks about teams, events, expenses, awards and anyone who marketed her.</p>
+
+  <h3>The free things, in the order they pay off</h3>
+  <ol class="flow">
+    <li>Her own email, written by her, with a link that needs no login. Free, and it is the only thing a coach is
+    required to read.</li>
+    <li>A free profile on the platform staffs use at tournaments, so a coach can find her schedule and her grades without
+    asking.</li>
+    <li>The school's own recruit questionnaire. The two programs this book checked each post one, and it puts her on a list a staff
+    actually maintains.</li>
+    <li>The free Eligibility Center profile page, which she can upgrade later.</li>
+    <li>A parent with a tripod, high and wide, at the end line, and a folder for every email a coach sends back.</li>
+  </ol>
+</section>
+<section class="newpage">
+  <div class="pagehead"><span class="label">The Commit Book &middot; Volleyball</span><span class="label">Year by year</span></div>
+  <h2>9. Checklist by grade</h2>
+  <p class="lead">One row per year, in order. Cross items off. If a year slips, the fix is usually more schools and one
+  more month, not more money.</p>
+  <table class="flow">
+    <thead><tr><th style="width:20%">Year</th><th>Do this</th></tr></thead>
+    <tbody>
+      <tr><td class="d">9th grade<br>done</td><td>Play, and keep every grade. Lift with a plan she can write down. Find
+      out how tall she is now, barefoot, to the nearest half inch, with a parent writing it down, and when she last grew.
+      Spend nothing on recruiting.</td></tr>
+      <tr><td class="d">10th grade<br>this year</td><td>Make the club team and ask which qualifiers it enters. Shoot the
+      whole season from a high wide angle at the end line. Build the list of 40 to 60 schools across all five levels.
+      Open the free Eligibility Center profile page. Measure standing reach and approach touch, with the device and the
+      date written down. Get a free profile on the platform staffs use at tournaments, with her unweighted Grade Point
+      Average on a 4.0 scale. At the February region qualifier, learn what the staffs in the stands watch. In June 2027,
+      after the contact date, send the first real round of emails.</td></tr>
+      <tr><td class="d">11th grade</td><td>Four approved core courses, and a counselor who checks each one against the
+      NCAA list; a 2.3 core Grade Point Average is the Division I floor and 2.2 is the Division II floor. Register for
+      certification before spring. Counselor uploads the transcript after four semesters, in June. Ask for a bid to the
+      summer Junior Nationals. Go to one camp, at a school that answered her. Send grades in the fall, and the schedule
+      before every tournament. From 1 August she may take Division I visits; ask for one inside that window.</td></tr>
+      <tr><td class="d">12th grade, before Sep 1</td><td>Send one update with new film, new numbers and the written offer
+      question: how much, covering what, and renewed how. Make sure a full match sits behind the reel. Get re-measured:
+      she may be an inch or two taller than the film says.</td></tr>
+      <tr><td class="d">12th grade, Sep to Nov</td><td>Play. Send the schedule to every coach on the list, and the
+      results after. From 1 August a school may give her a written offer of aid and the settlement benefits. On the second
+      Wednesday in November, PROJECTED 8 November 2028, she may sign one. Ask about the dead period that week so nobody
+      calls at the wrong time.</td></tr>
+      <tr><td class="d">12th grade, December</td><td>Settle every question before she signs, then sign if the paper is
+      right. The signing period stays open after the first date, on each school's own policy, so she is not forced into a
+      November decision. If the paper is not right, do not sign to feel settled.</td></tr>
+      <tr><td class="d">After signing</td><td>Do not let the final semester fall: finish all 16 approved subjects and
+      graduate, or the paper can come apart. Counselor uploads the graduation transcript. Ask for the final athletics
+      certification from 1 April 2029. If she wants to talk to another school after signing, get the release in writing
+      first.</td></tr>
+    </tbody>
+  </table>
+  <div class="box">
+    <h3>The three things that actually move a volleyball recruit</h3>
+    <p style="margin-bottom:0">In this order: a schedule that puts her in front of staffs from January to June, a reel
+    that opens with her best live-play clip and shows serve receive and defense, and a short email that reports real
+    numbers with the method and the date on them. Everything on the paid list in Chapter 8 sits behind those three.</p>
+  </div>
+</section>
+<section class="newpage">
+  <div class="pagehead"><span class="label">The Commit Book &middot; Volleyball</span><span class="label">Mistakes</span></div>
+  <h2>10. Ten ways families get volleyball wrong</h2>
+  <ol class="flow tight">
+    <li><strong>They plan the year around high school ball.</strong> The state season is August to November, and college
+    coaches are playing their own season then. 94 percent of college players came through club as well, by the NCAA's own
+    study.</li>
+    <li><strong>They wait for a coach to write first.</strong> A Division I or II coach may not answer her until 15 June
+    2027. She may write today, and USA Volleyball prints "NO RESTRICTIONS" on her side of it.</li>
+    <li><strong>They count 12 scholarships.</strong> At a school that opted in, the number is an 18-player roster and aid
+    may be any size on any of them. Sites that say women's volleyball was a 4.5 sport have copied the men's line.</li>
+    <li><strong>They pay $2,000 for a service and stop emailing.</strong> Not one coach in this research said on the
+    record that a paid tier moved a volleyball recruit, and there are 2026 complaints on file about refunds. The
+    association's own guidance is to send more email, not less.</li>
+    <li><strong>They take a camp invite as interest.</strong> USA Volleyball and the Junior Volleyball Association both
+    say an invite may mean nothing, and every camp page checked says the camp is open to any entrant.</li>
+    <li><strong>They print a bare height and a bare vertical.</strong> No college publishes a jump standard, one service's
+    chart has a row labeled weight that holds heights, and a wearable reads about two inches higher than a Vertec for the
+    same girl. An unlabelled number tells a coach the family does not know the sport.</li>
+    <li><strong>They send a nine-minute reel of drills.</strong> Coaches say they watch 10 to 25 seconds and that match
+    play beats practice clips. The first clip does the work.</li>
+    <li><strong>They skip Division III and the NAIA.</strong> Division III alone is 417 teams with no athletic aid and
+    full rosters, and the two Division III programs counted in Chapter 2 carry 19 and 25 players. Families who chase only a
+    scholarship leave the biggest door shut.</li>
+    <li><strong>They sign a junior-college letter to hold a place.</strong> It binds a school year, two of them cost a
+    year, and a junior-college year now starts the NCAA's five-year clock, so one year there leaves four.</li>
+    <li><strong>They plan the money backwards.</strong> The club fee is fixed, and travel is the line that surprises
+    people. Budget four trips, ask what the fee excludes, and skip the packages.</li>
+  </ol>
+</section>
+<section class="newpage">
+  <div class="pagehead"><span class="label">The Commit Book &middot; Volleyball</span><span class="label">Proof</span></div>
+  <h2>11. Sources, and what we could not settle</h2>
+  <p class="lead">Every rule, number and date here came from one of the documents below, read on 11 November 2026. Where
+  two official pages disagree, both figures are printed, in the chapter that uses them.</p>
+  <div class="two small flow">
+    <src>2026-27 NCAA Division I Bylaws, for the five-year eligibility period at Bylaw 12.6 (revised 24 June 2026,
+    effective 1 August 2026) and the recruiting sections at Bylaw 13.17. The roster-limit table came with the same
+    adoption. web3.ncaa.org/lsdbi/reports/getReport/90008</src>
+    <src>2026-27 Division I women's volleyball recruiting calendar, for the contact period of 1 September to 30 November
+    and the dead period of 9 to 12 November 2026.
+    ncaaorg.s3.amazonaws.com/compliance/recruiting/calendar/2026-27/2026-27D1Rec_WVBRecruitingCalendar.pdf</src>
+    <src>NCAA signing dates for 2026-27, published 28 July 2026: "All Other Division I and II Sports, initial signing
+    date November 11, 2026," with the final date set by each school. athleticsaid.s3.amazonaws.com/2026-27DI_SigningDates.pdf</src>
+    <src>NCAA news, 23 June 2025, adopting the roster limits; the Division I governance question-and-answer of February
+    2026, which says a school that does not opt in is not required to carry a roster limit; and a university's own
+    settlement question-and-answer from June 2025 for the $20.5 million sharing figure and for the rule that the limit
+    counts every player on a submitted roster.</src>
+    <src>NCAA news releases of June 2026 and August 2026 on the age-based eligibility model, and the Eligibility Center's
+    own page on the Division I and Division II age-based rules, for the clock, the "not five for everyone" wording and
+    the end of redshirts.</src>
+    <src>Division I Council report of 8 to 9 October 2024 ending the National Letter of Intent, the matching Division II
+    action the same month, and the NCAA scholarships page that still says Division II "may still use" it.</src>
+    <src>Guide for the College-Bound Student-Athlete, 2026-27 edition, for the three account types, the 16 approved
+    subjects, the 10-and-7 rule, the 2.3 and 2.2 floors, the end of the SAT and ACT requirement, the nonbinding
+    celebratory form in Division III, and the insurance pages. The live registration page carries the fee she will
+    actually pay.</src>
+    <src>NCAA core guarantees page, for the rule that first-year aid cannot be cut for athletics reasons, the written
+    notice and appeal, and the two years of continued medical care; the 2025 news release for the line that a
+    scholarship cannot be revoked unless the athlete chooses to transfer.</src>
+    <src>NCAA membership and sport sponsorship, projected 2026-27, data final 29 July 2026, for 348, 288 and 417 teams,
+    1,053 in all, and for the men's counts of 31, 41 and 141.</src>
+    <src>NCAA Research, estimated probability of competing in college athletics, and the 2023-24 participation counts,
+    for 19,810 volleyball players. The National Federation of State High School Associations participation survey for
+    2024-25, for 492,799 high school players. The coaches' association's own odds page, counting 2019, for 4.6 percent
+    and 0.6 percent.</src>
+    <src>NCAA Research, high school and club participation by sport, 2025, for 94 percent, 3 percent and 2 percent. USA
+    Volleyball repeats the finding as "more than 90%" on its club-tournaments page.</src>
+    <src>USA Volleyball, national governing body: the college recruitment timeline for the 15 June contact date, the
+    August and January visit dates, the five official visits and the note that a recruit has no restrictions; the
+    recruiting question-and-answer for the camp-invite rule, the definition of real activity and the 5'7" libero figure;
+    and the "am I too short" page.</src>
+    <src>One state association's girls volleyball schedule, used here as an example of a calendar and nothing more: the
+    Wisconsin Interscholastic Athletic Association's 2026 season, from 17 August, with the final rounds 5 to 7 November in
+    a rented arena. Her own association prints its own dates, classes and site.</src>
+    <src>One USA Volleyball region, the Badger Region, used as a worked example of what a region publishes: its qualifier
+    page for 27 to 28 February 2027, the
+    four bids on offer for 16s and the reallocation dates; two newsletters, December 2025 and May 2026, for 18,137
+    members and 148 clubs and for 14,628 youth girls; and the summer camp page that says its listings are paid
+    advertisements.</src>
+    <src>AVCA, the coaches' association: the Phenom program page for the dates, the $259 fee and the field of about 400;
+    the recruiting-calendar blog by a Texas State assistant coach for the 150 club tournaments; the camp-rules blog of
+    April 2022 by a Kennesaw State assistant coach; the July 2026 blog by a Montana associate head coach for "how you
+    move."</src>
+    <src>Junior Volleyball Association, "The Video Recruiting Process," for the don't list, the login rule and the camp
+    brochure warning.</src>
+    <src>Coach statements on the record: John Cook, Nebraska, in a coaching blog; Mick Haley, Russ Rose and Jim Giacomazzi
+    in a coaching magazine article; Kelly Sheffield at Big Ten Media Days, August 2026, and in August 2025; Kurt Vlasich
+    of Claremont-Mudd-Scripps in a 2018 high school sports column; Julie Jenkins of Trinity, Jon Ellmann of UW-Oshkosh and
+    Don Perkins of Kean in a Division III coaches' column of March 2025; Amie Held and Tori Plugge in association blogs. A
+    former Division I head coach's own blog, 2008 and 2017, for the "club is 99%" line and the camp advice.</src>
+    <src>Eleven college roster pages, read 11 November 2026, for every height in Chapter 6 and the roster counts
+    in Chapter 2: Wisconsin, Nebraska, Minnesota, Marquette, Milwaukee, UW-Green Bay, UW-Parkside, UW-La Crosse,
+    UW-Whitewater, Viterbo and Grand View. That is one region's sample, not a shortlist: the point is the method, and a
+    family can repeat it on its own list. Two hundred twelve listed heights were counted, and the medians are this book's
+    own arithmetic. The twelfth page, counted at 22, was a public university in the same area.</src>
+    <src>NCAA national individual leader lists for kills, hitting percentage, assists, digs and aces, through games of 10
+    November 2026, taken through the association's public data feed, for every cut line in Chapter 6 and for the
+    libero-height count of 147 players. The top-100 position counts are this book's own count of those pages.</src>
+    <src>Size targets in Chapter 6 come from three recruiting services' positional guidelines and one club's posted tier
+    chart, all printed as what they are. None is a rule. No college in this research publishes a jump standard.</src>
+    <src>Two studies of jump measurement, one of them on 128 Brazilian under-18 national players, for the gap of about
+    two inches between a wearable device and a Vertec. pubmed.ncbi.nlm.nih.gov/29158616</src>
+    <src>Growth: the American Academy of Pediatrics, KidsHealth, Johns Hopkins, Merck's professional manual, Duke Health
+    and a sports-medicine hospital, for the one-to-two-inch range after the first period and final height around 14 or
+    15; a journal study of 793 Swedish women and a second of 534 Latino girls for the range and the tail.</src>
+    <src>Club prices, all published by the clubs for 2026-27: Milwaukee Sting, Ignite, Colorado Boom, 513 Volleyball,
+    Minnesota Select, Team Illinois, Revolution Jr, an Iowa club's tier sheet, NYC Juniors and Arizona Saguaros. Tryout
+    fees, uniform costs and per-event travel billing come from the same pages.</src>
+    <src>Camp prices from the schools: Marquette's three camp pages, UW-Eau Claire, UW-Whitewater, UW-Oshkosh, Wisconsin
+    Lutheran, UW-Stevens Point and a campus camp run by a camp company at UW-Madison. Event prices from the AVCA, Premier
+    Academy, NIKE Winterfest, the Hawaii Showcase and the Sunshine and West Coast qualifier entry pages.</src>
+    <src>Service prices and complaints: two 2023 and 2025 reports on the market leader's tiers, a 2026 batch of Better
+    Business Bureau complaints about refunds, three cheaper tools that publish their own prices, two video-editing
+    marketplaces and one volleyball-specific shop, and the platform fee pages.</src>
+    <src>Email and reply-rate data: one tool company's 2026 email measurements, one soccer relationship-management
+    company's study of 3,782 emails to 1,057 coaches, and a golf coach's survey of 42.6 emails a week. Every one is
+    vendor data with a sales incentive, and none is volleyball-specific.</src>
+    <src>Name-and-image-of-likeness: a 2026 industry report for the $663 average volleyball deal and the comparison
+    sports; its 2024 edition for the $5,868 expected annual value and the 2.9 percent and 0.8 percent dollar shares; and
+    the NCAA's own NIL database for 2023-24, reported through a national outlet, for the 15.2 percent Power Four share and
+    the $7,947 average. The state association's policy and the NCAA's $600 reporting rule close Chapter 8.</src>
+    <src>Men's volleyball: the association's own program counts, the National Club Volleyball Federation's 616 teams at
+    424 schools, and the university's own club history for the 2023 and 2025 club titles.</src>
+  </div>
+
+  <h3>What we could not settle</h3>
+  <ul class="tight">
+    <li><strong>Which Division I schools opted in.</strong> There is no published list. Ask each school, in the same
+    email as the aid question.</li>
+    <li><strong>Her own signing date, and the dead period around it.</strong> The 2028-29 sheet does not exist yet. Both
+    dates in Chapter 3 marked PROJECTED are arithmetic from the second-Wednesday rule and the Monday-to-Thursday rule, and
+    either can move.</li>
+    <li><strong>The camp conversation rule.</strong> The association's 2022 statement that a Division I camp may only run
+    between Memorial Day and 31 July, with no recruiting talk before 1 August of junior year, was not re-checked against
+    the 2026-27 book. Ask the camp director.</li>
+    <li><strong>What the fee actually is.</strong> The live sign-up page says $120, the association's own printed guide
+    says $110, and an athletics-only account is $75. Which account she needs depends on where she lands.</li>
+    <li><strong>Division II paper.</strong> One NCAA page says the old letter is gone, another says Division II may still
+    use it. Ask the school.</li>
+    <li><strong>How many teams and how many seats below Division I.</strong> One service counts 226 NAIA schools; junior
+    college counts in circulation run from about 300 to 545, and the association's own limits table sits behind a login.</li>
+    <li><strong>Travel, for one region.</strong> No club this book checked has published what two travel weekends
+    cost a family. The only marker found was a big-city club's $670 to $830 a trip, used as a ceiling in Chapter 8.</li>
+    <li><strong>Nothing official sets a size or a jump.</strong> No association and no college publishes an approach or
+    block standard by position. Every target in Chapter 6 is one company's hope, printed as one.</li>
+    <li><strong>No volleyball reply-rate study exists.</strong> The email numbers in Chapter 6 come from other sports,
+    from companies that sell the tool, and show correlation, not cause.</li>
+    <li><strong>"Letter of assurance."</strong> No definition in any NCAA, NAIA or NJCAA material this book read. Treat it
+    as talk.</li>
+    <li><strong>How much taller she will be.</strong> The sources give a range and a long tail, not a chart by birthday. A
+    pediatrician with her growth chart can do better than any book.</li>
+  </ul>
+
+  <hr class="dbl">
+  <p class="small">Made by The Commit Book. Education, not legal advice. No result, no playing time, no acceptance, and
+  no money is promised. Rule text, calendars, rosters and event pages checked 11 November 2026. The player, school, club
+  and coaches in the sample email are invented.</p>
+</section>
+</body></html>

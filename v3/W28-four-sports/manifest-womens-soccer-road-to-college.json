@@ -1,0 +1,62 @@
+{
+ "slug": "womens-soccer-road-to-college",
+ "title": "Women's Soccer: The Whole Road to College",
+ "ring_label": "Women's Soccer",
+ "gender": "women",
+ "athlete": "Tori",
+ "athlete_id": "tori",
+ "sport_page": "soccer",
+ "price": 29,
+ "class_year": "2029",
+ "edition": "2026-27",
+ "chapters": [
+  "Read this first",
+  "How many players a team can take",
+  "The plan by date, class of 2029",
+  "What a coach may and may not do",
+  "Club, camps, and where she is seen",
+  "What to send, and what good video looks like",
+  "What the paperwork really means",
+  "What it costs, and what is wasted",
+  "Checklist by grade",
+  "Ten ways families get soccer wrong",
+  "Sources, and what we could not settle"
+ ],
+ "fragments": [
+  "c01-cover.html",
+  "c02-ch01.html",
+  "c03-ch02.html",
+  "c04-ch03.html",
+  "c05-ch04.html",
+  "c06-ch05.html",
+  "c07-ch06.html",
+  "c08-ch07.html",
+  "c09-ch08.html",
+  "c10-ch09.html",
+  "c11-ch10.html",
+  "c12-sources.html"
+ ],
+ "fragment_sha": {
+  "c01-cover.html": "3bfbabf7",
+  "c02-ch01.html": "69135cf8",
+  "c03-ch02.html": "0893af62",
+  "c04-ch03.html": "2c2284ff",
+  "c05-ch04.html": "bea0243e",
+  "c06-ch05.html": "603c76bf",
+  "c07-ch06.html": "a556be63",
+  "c08-ch07.html": "adf394ef",
+  "c09-ch08.html": "c27490e4",
+  "c10-ch09.html": "48077eea",
+  "c11-ch10.html": "59085d02",
+  "c12-sources.html": "11b35e8d"
+ },
+ "doc_bytes": 88917,
+ "doc_sha": "e0751694",
+ "grade": 4.5,
+ "email": {
+  "subject": "2029 outside back, Anytown South HS, 3.7 GPA, film link and club schedule inside",
+  "letters": 67,
+  "words": 183
+ },
+ "built": "2026-11-11"
+}

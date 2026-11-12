@@ -1,0 +1,97 @@
+{
+  "sport_price": 29,
+  "flat_all_titles": false,
+  "written_order": [
+    "volleyball-road-to-college",
+    "football-junior-year",
+    "basketball-road-to-college",
+    "girls-basketball-road-to-college",
+    "mens-baseball-road-to-college",
+    "womens-softball-road-to-college",
+    "mens-soccer-road-to-college",
+    "womens-soccer-road-to-college"
+  ],
+  "ring_ids": [
+    "composite-volleyball",
+    "composite-football",
+    "derrick",
+    "composite-wbasketball",
+    "composite-baseball",
+    "composite-softball",
+    "alex",
+    "tori",
+    "nora",
+    "composite-swim",
+    "composite-wrestling",
+    "composite-sprinter"
+  ],
+  "retired": {
+    "baseball-showcase-to-signing": "mens-baseball-road-to-college"
+  },
+  "pending": [
+    [
+      "track-field",
+      "Track &amp; Field",
+      "Track &amp; Field: Marks to Roster",
+      "Track and cross-country families",
+      "Times into a target list is drafted. Invitational and signing dates are being checked."
+    ],
+    [
+      "swimming",
+      "Swimming",
+      "Swimming &amp; Diving: The Whole Road to College",
+      "Swimming and diving families",
+      "College titles run on a club calendar, not a school one. That needs its own book."
+    ],
+    [
+      "wrestling",
+      "Wrestling",
+      "Wrestling: The Whole Road to College",
+      "Wrestling families",
+      "Dual meets, tournaments and weight rules need a plan of their own, not a shared one."
+    ],
+    [
+      "lacrosse",
+      "Women's Lacrosse",
+      "Lacrosse: The Whole Road to College",
+      "Lacrosse families",
+      "A live book that is being rewritten. Anyone who buys it now gets the new edition free. New programs every year, so the dates keep moving."
+    ]
+  ],
+  "intro_written": "Eight sport playbooks are done and ready to download. They cover football, volleyball, basketball for boys and girls, baseball, softball, and soccer for boys and girls. The other sports are still being written, so they show no price and no button. Every date in a done book shows the rule behind it.",
+  "cross_note": "These apply no matter what you play. One is ready to download now. The rest show a button as soon as their rules are re-checked.",
+  "pending_note": "We price a sport book only when every date in it is checked against the rule that sets it. These four are in progress. Nothing here has a price, so nothing can be bought by accident.",
+  "desc": "%d sport playbooks you can download today: football, volleyball, basketball for boys and girls, baseball, softball, and soccer for boys and girls. Every date shows the rule it comes from, and the sports still being written say so.",
+  "sport_key": {
+    "football-junior-year": "football",
+    "volleyball-road-to-college": "volleyball",
+    "basketball-road-to-college": "basketball",
+    "girls-basketball-road-to-college": "girls-basketball"
+  },
+  "rename": {
+    "tori": "Nora",
+    "chris": "Alex"
+  },
+  "live_books": {
+    "composite-volleyball": [
+      "volleyball-road-to-college",
+      "Women's Volleyball",
+      "volleyball"
+    ],
+    "composite-football": [
+      "football-junior-year",
+      "Men's Football",
+      "football"
+    ],
+    "derrick": [
+      "basketball-road-to-college",
+      "Men's Basketball",
+      "basketball"
+    ],
+    "composite-wbasketball": [
+      "girls-basketball-road-to-college",
+      "Women's Basketball",
+      "basketball"
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+
+A the template's own housekeeping
+  PASS keyphrase() has not drifted between deck.py and printcheck.py 
+  info  this lane's grader is the one deck.py and gate.py call; 3 older copies sit in other lanes and are not used here: v3\W19-plain\readability.py, v3\W20-two-sports\readability.py, v3\W24-volleyball\readability.py
+  PASS the store sells every sport playbook at one price, $29 
+
+B mens-baseball-road-to-college
+  PASS deck.py builds it and every lint passes                 mens-baseball-road-to-college passes the template lints
+  PASS the customer text reads at grade 8 or under          grade 4.3
+  PASS the sample email is 160-195 words, subject 55-80 letters {"subject": "2029 right-handed pitcher, Anytown South HS \u00b7 6'1\" \u00b7 fastball 84-86 \u00b7 3.5 GPA \u00b7 video inside", "letters": 76, "words": 178}
+  PASS the made-up copy is marked tmpl, so the fact gate can see it is not a claim 
+  PASS the book carries all 11 chapters and every claim the editor insisted on 11 chapters, no gaps
+  FAIL the printed book obeys the house print rules           10 failures, 5 warnings
+  PASS every date, figure and rule traces to the packet       0 failures, 0 warnings, 0 noted approximations
+  PASS the deck has been printed into this lane             mens-baseball-road-to-college.pdf
+  PASS the catalogue's page count is the real one           catalogue 27, PDF 27
+
+B womens-softball-road-to-college
+  PASS deck.py builds it and every lint passes                 womens-softball-road-to-college passes the template lints
+  PASS the customer text reads at grade 8 or under          grade 4.8
+  PASS the sample email is 160-195 words, subject 55-80 letters {"subject": "2029 shortstop, Anytown South HS \u00b7 2.9 home to first \u00b7 60 mph throw \u00b7 3.75 GPA \u00b7 film inside", "letters": 73, "words": 187}
+  PASS the made-up copy is marked tmpl, so the fact gate can see it is not a claim 
+  PASS the book carries all 11 chapters and every claim the editor insisted on 11 chapters, no gaps
+  PASS the printed book obeys the house print rules           0 failures, 4 warnings
+  PASS every date, figure and rule traces to the packet       0 failures, 0 warnings, 1 noted approximations
+  PASS the deck has been printed into this lane             womens-softball-road-to-college.pdf
+  PASS the catalogue's page count is the real one           catalogue 24, PDF 24
+
+B mens-soccer-road-to-college
+  PASS deck.py builds it and every lint passes                 mens-soccer-road-to-college passes the template lints
+  PASS the customer text reads at grade 8 or under          grade 4.8
+  PASS the sample email is 160-195 words, subject 55-80 letters {"subject": "2029 center back at Anytown South HS \u00b7 6'1\" \u00b7 3.6 GPA \u00b7 full match and reel inside", "letters": 65, "words": 184}
+  PASS the made-up copy is marked tmpl, so the fact gate can see it is not a claim 
+  PASS the book carries all 11 chapters and every claim the editor insisted on 11 chapters, no gaps
+  PASS the printed book obeys the house print rules           0 failures, 5 warnings
+  PASS every date, figure and rule traces to the packet       0 failures, 0 warnings, 1 noted approximations
+  PASS the deck has been printed into this lane             mens-soccer-road-to-college.pdf
+  PASS the catalogue's page count is the real one           catalogue 27, PDF 27
+
+B womens-soccer-road-to-college
+  PASS deck.py builds it and every lint passes                 womens-soccer-road-to-college passes the template lints
+  PASS the customer text reads at grade 8 or under          grade 4.5
+  PASS the sample email is 160-195 words, subject 55-80 letters {"subject": "2029 outside back, Anytown South HS, 3.7 GPA, film link and club schedule inside", "letters": 67, "words": 183}
+  PASS the made-up copy is marked tmpl, so the fact gate can see it is not a claim 
+  PASS the book carries all 11 chapters and every claim the editor insisted on 11 chapters, no gaps
+  PASS the printed book obeys the house print rules           0 failures, 6 warnings
+  PASS every date, figure and rule traces to the packet       0 failures, 0 warnings, 1 noted approximations
+  PASS the deck has been printed into this lane             womens-soccer-road-to-college.pdf
+  PASS the catalogue's page count is the real one           catalogue 27, PDF 27
+
+C the shop
+  PASS every WRITTEN product has a served PDF               
+  PASS page counts and prices in the catalogue match the files 
+  PASS every written book has a product page                
+  PASS each product page tells the truth about buying it    
+  PASS every deliverable book has its button                
+  PASS the store shows every written sport book             9 live tiles, 8 books to sell
+  PASS a pending tile carries no price and no button        []
+  PASS there is a pending tile for every sport with no book yet 4 tiles, 4 sports still unwritten
+  PASS the store intro stays plain English                  grade 5.8 over 52 words
+  info  the whole store page reads at grade 7.0
+  PASS every live card's book is deliverable                
+  PASS every live card's figure is a file that exists       
+  PASS a card with no figure says why in its own config     
+  PASS no two live cards share a figure                     
+  PASS no two cards print the same first name               
+  PASS every live card knows its sport page                 
+  PASS every figure is labelled a composite illustration    
+  PASS the ring decides what is built from the record, not a hardcoded list 
+  PASS the ring's front four are books we can sell today    composite-volleyball,composite-football,derrick,composite-wbasketball
+  PASS every retired slug has a 301 to a page that exists   
+  PASS every written book is in the sitemap                 
+  PASS every sitemap playbook URL has a page behind it      
+  PASS every sitemap sport URL has a page behind it         
+  PASS every cache key matches the bytes on disk            
+  PASS the four new figures are registered in the image manifest 
+
+==============================================================================
+62 checks, 61 pass, 1 fail
+  FAIL  the printed book obeys the house print rules    10 failures, 5 warnings

@@ -228,8 +228,14 @@ select,input{font-family:var(--font-text);background:#fff!important;border-radiu
 .pb-cell.is-pend .pb-thumb{filter:grayscale(1);opacity:.55}
 .pb-cell.is-pend .pb-t,.pb-cell.is-pend .pb-s,.pb-cell.is-pend .lab{color:var(--c-muted)}
 .pb-cell.is-pend .pb-card{position:relative}
-.pb-pend{position:absolute;left:-8%;top:44%;width:116%;transform:rotate(-14deg);background:var(--c-ink);
+.pb-thumb{position:relative;overflow:hidden}
+.pb-pend{position:absolute;left:-8%;top:44%;width:116%;transform:rotate(-14deg);background:var(--c-signal);color:var(--c-signal-ink);
   color:var(--c-paper);font:600 var(--fs-label)/1 var(--font-condensed);letter-spacing:var(--ls-label);
   text-transform:uppercase;text-align:center;padding:6px 0;pointer-events:none}
 .pb-soon{display:block;margin:10px 0 0;font:400 14px/1.5 var(--font-text);color:var(--c-muted)}
 .pdp-soon{border-left:3px solid var(--c-line);padding-left:14px;color:var(--c-muted)}
+
+/* A book that is still an outline shows words, not a price. */
+.pb-p.is-soon{font:600 var(--fs-label)/1.2 var(--font-condensed);letter-spacing:var(--ls-label);text-transform:uppercase;color:var(--c-muted)}
+.pb-cell.is-soon .pb-thumb{opacity:.82}
+.dk-none{position:absolute;inset:0;display:grid;place-items:center;font:700 clamp(20px,4vw,34px)/1 var(--font-condensed);letter-spacing:.12em;color:var(--c-muted-2);text-transform:uppercase}

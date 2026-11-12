@@ -1,12 +1,11 @@
 function escA(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
-function SPORT_PATH(a){var s=String(a.sport||'').toLowerCase();if(s.indexOf('track')>-1)return'/sports/track-field';if(s.indexOf('swim')>-1)return'/sports/swimming';if(s.indexOf('lacrosse')>-1)return'/sports/lacrosse';return '/sports/'+s.split(/[\s(/]+/)[0]+'/';}
-// The four written playbooks lead the ring (Mike, 11 Nov 2026). Every other sport
-// renders greyed, is stamped PENDING and does nothing when clicked until its own
-// product is built. Order: women's volleyball, men's football, men's basketball,
-// women's basketball, then the rest of the written sports, then the pending sports.
+function SPORT_PATH(a){if(a.ring_page)return a.ring_page;var s=String(a.sport||'').toLowerCase();if(s.indexOf('track')>-1)return'/sports/track-field';if(s.indexOf('swim')>-1)return'/sports/swimming';if(s.indexOf('lacrosse')>-1)return'/sports/lacrosse';return '/sports/'+s.split(/[\s(/]+/)[0]+'/';}
+// The written playbooks lead the ring, in the order STORE.json gives. A card is
+// greyed, stamped PENDING and inert to clicks while its record carries no book field.
 var FRONT_IDS=["composite-volleyball","composite-football","derrick","composite-wbasketball"];
 var WOMENS_BB={"composite-wbasketball":1};
-function builtInfo(a){
+function builtInfo(a){if(a.book){return{built:true,label:a.sport}}return builtInfoLegacy(a)}
+function builtInfoLegacy(a){
  var s=String(a.sport||"").toLowerCase();
  if(s.indexOf("volleyball")>-1)return{built:true,label:"Women's Volleyball"};
  if(s.indexOf("football")>-1)return{built:true,label:"Men's Football"};
@@ -27,10 +26,22 @@ const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
 const K=95,C=2*Math.sqrt(K),STEP_N=12,SPEED=5000;
 const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
 const wrapPi=p=>{p=p%(2*Math.PI);if(p>Math.PI)p-=2*Math.PI;if(p<=-Math.PI)p+=2*Math.PI;return p};
-const sil=(i)=>{const poses=['M50 8a9 9 0 1 1 0 18a9 9 0 1 1 0-18zM38 30h24l6 50-8 2-4-30-2 50 6 64h-11l-7-56-7 56H24l6-64-2-50-4 30-8-2z','M50 6a9 9 0 1 1 0 18a9 9 0 1 1 0-18zM36 28h28l14 30-8 4-10-18 2 46 4 68h-11l-9-58-9 58H26l4-68 2-46-10 18-8-4z'];
- return `<svg viewBox="0 0 100 180" aria-hidden="true"><path fill="#111" d="${poses[i%2]}"/></svg>`};
+// A card with no figure is a book that is not written. The ring drew two standing
+// poses for that case, and at any size they read as men. A women's sport now gets the
+// two cues that still read at 300 pixels: hair tied back, and a skirt that flares
+// where the legs hang straight. A ball at the feet names the sport, because a
+// silhouette holding nothing is only a person standing.
+const sil=(a,i)=>{const s=String((a&&a.sport)||''),fem=/wom|girl/i.test(s);
+ const poses=[
+  'M50 8a9 9 0 1 1 0 18a9 9 0 1 1 0-18zM38 30h24l6 50-8 2-4-30-2 50 6 64h-11l-7-56-7 56H24l6-64-2-50-4 30-8-2z',
+  'M50 6a9 9 0 1 1 0 18a9 9 0 1 1 0-18zM36 28h28l14 30-8 4-10-18 2 46 4 68h-11l-9-58-9 58H26l4-68 2-46-10 18-8-4z'];
+ const hair=fem?`<path d="M58 9c9 1 13 9 12 19 1 7-3 13-8 15 4-9 3-19-6-27z"/><circle cx="50" cy="17" r="9"/>`:'';
+ const skirt=fem?`<path d="M33 70h34l6 23H27z"/>`:'';
+ const ball=/soccer|football/i.test(s)?`<circle cx="76" cy="166" r="10"/>`:'';
+ return `<svg viewBox="0 0 100 180" role="img" aria-label="Silhouette of a fictional ${sp(s).toLowerCase()} ${noun(s)}" fill="#111"><path d="${poses[i%2]}"/>${hair}${skirt}${ball}</svg>`};
+const noun=(s)=>/swim|div/i.test(s)?'swimmer':/wrestl/i.test(s)?'wrestler':/track|field|cross/i.test(s)?'track athlete':'player';
 const sp=(s)=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const cardHTML=(a,i)=>{const bi=builtInfo(a);return `<span class="card__shadow"></span><span class="card__art">${a.img?`<img src="${a.img}" alt="Illustration of a fictional ${sp(a.sport)} athlete" loading="eager" decoding="async">`:``}</span><span class="card__lbl">Illustration</span>${bi.built?``:`<span class="card__pend">Pending</span>`} <span class="card__meta"><div class="card__name">${escA(a.short)}</div><div class="card__line">${sp(bi.label)}</div></span>`};
+const cardHTML=(a,i)=>{const bi=builtInfo(a);return `<span class="card__shadow"></span><span class="card__art">${a.img?`<img src="${a.img}" alt="Illustration of ${escA(a.short)}, a fictional ${sp(a.sport).toLowerCase()} ${noun(a.sport)}" loading="eager" decoding="async">`:sil(a,i)}</span><span class="card__lbl">Illustration</span>${bi.built?``:`<span class="card__pend">Pending</span>`} <span class="card__meta"><div class="card__name">${escA(a.short)}</div><div class="card__line">${sp(bi.label)}</div></span>`};
 class StoryRing extends HTMLElement{
 connectedCallback(){
  const D=window.STORY_DATA;this.A=orderBuilt(D.athletes);this.P=D.playbooks;const n=this.n=this.A.length;
@@ -51,7 +62,7 @@ render(){
 <div class="sr__stage" tabindex="0" role="region" aria-roledescription="carousel" aria-label="Browse by sport. Use arrow keys or swipe."><div class="sr__actors"></div><div class="sr__heroes"></div><span class="sr__sweep"></span>
 <span class="sr__cursor"><span class="sr__cursor-in"><span class="c-drag">Drag</span><span class="c-view">View</span></span></span><span class="sr__walk"></span></div>
 <div class="sr__controls"><button class="sr__icon sr__prev" aria-label="Previous athlete"><svg width="26" height="14" viewBox="0 0 26 14" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M25 7H1M7 1L1 7l6 6"/></svg></button>
-<div class="sr__ticks">${A.map((a,i)=>`<button class="sr__tick${isPending(a)?' is-pend':''}" data-tick="${i}" aria-label="${isPending(a)?"Pending: "+a.sport:"Path "+(i+1)+": "+builtInfo(a).label}"><span class="sr__bar"></span><span class="sr__tlabel">${String(i+1).padStart(2,'0')}<span class="sr__tname">&nbsp;&nbsp;${isPending(a)?'Pending':builtInfo(a).label}</span></span></button>`).join('')}</div>
+<div class="sr__ticks">${A.map((a,i)=>`<button class="sr__tick${isPending(a)?' is-pend':''}" data-tick="${i}" aria-label="${isPending(a)?"Pending: "+a.sport:"Path "+(i+1)+": "+builtInfo(a).label}"><span class="sr__bar"></span><span class="sr__tlabel">${String(i+1).padStart(2,'0')}<span class="sr__tname">&nbsp;&nbsp;${isPending(a)?'Pending \u00b7 '+sp(a.sport):builtInfo(a).label}</span></span></button>`).join('')}</div>
 <button class="sr__icon sr__auto" aria-pressed="false" aria-label="Autoplay"><svg class="i-play" width="14" height="14" viewBox="0 0 24 24"><path fill="currentColor" d="M7 4.5v15l12.5-7.5z"/></svg><svg class="i-pause" width="14" height="14" viewBox="0 0 24 24"><path fill="currentColor" d="M6.5 4.5h3.5v15H6.5zM14 4.5h3.5v15H14z"/></svg></button>
 <button class="sr__icon sr__next" aria-label="Next athlete"><svg width="26" height="14" viewBox="0 0 26 14" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M1 7h24M19 1l6 6-6 6"/></svg></button></div></div>
 <aside class="sr__panel"><div class="sr__pinner"><div class="sr__phead"><h3 class="sr__ptitle">Playbooks for this sport</h3><span class="sr__lab" data-count></span></div><div class="sr__who" data-who></div>
@@ -140,7 +151,7 @@ renderPanel(silent){
  const a=this.A[this.index],ul=this.querySelector('[data-items]');
  this.querySelector('[data-count]').textContent=a.playbooks.length+' playbooks';
  this.querySelector('[data-who]').textContent=isPending(a)?`${a.short} · ${a.sport}. This playbook is still being written, so it is not open yet.`:`${a.short} · ${builtInfo(a).label} · Illustration. The name is a placeholder; the dates and rules are cited on the page that uses them.`;
- ul.innerHTML=a.playbooks.map((p,i)=>{const pb=this.P[p],on=this.bag.has(p);return `<li class="sr__item" style="--i:${i+1}"><span class="sr__thumb">${String(i+1).padStart(2,'0')}</span><span><div class="sr__itype">Playbook · $${pb.price}, one-time</div><a class="sr__iname" href="/playbooks/${p}">${pb.title}</a></span><button class="sr__add" data-add="${p}" aria-pressed="${on}">${on?'Added':'Get'}</button></li>`}).join('');
+ ul.innerHTML=a.playbooks.filter(p=>!!this.P[p]).map((p,i)=>{const pb=this.P[p],on=this.bag.has(p);return `<li class="sr__item" style="--i:${i+1}"><span class="sr__thumb">${String(i+1).padStart(2,'0')}</span><span><div class="sr__itype">Playbook · $${pb.price}, one-time</div><a class="sr__iname" href="/playbooks/${p}">${pb.title}</a></span><button class="sr__add" data-add="${p}" aria-pressed="${on}">${on?'Added':'Get'}</button></li>`}).join('');
  const pi=this.querySelector('.sr__pinner');pi.classList.remove('is-in');void pi.offsetWidth;pi.classList.add('is-in');
  var _rd=this.querySelector('[data-read]');_rd.disabled=isPending(a);_rd.textContent=isPending(a)?'Playbook pending':'Playbooks for '+builtInfo(a).label+' \u2192';_rd.onclick=isPending(a)?null:()=>location.href=SPORT_PATH(a);
 }

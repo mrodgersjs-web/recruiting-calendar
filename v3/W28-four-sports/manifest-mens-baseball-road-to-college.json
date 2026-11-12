@@ -1,0 +1,62 @@
+{
+ "slug": "mens-baseball-road-to-college",
+ "title": "Men's Baseball: The Whole Road to College",
+ "ring_label": "Men's Baseball",
+ "gender": "men",
+ "athlete": "Diego",
+ "athlete_id": "composite-baseball",
+ "sport_page": "baseball",
+ "price": 29,
+ "class_year": "2029",
+ "edition": "2026-27",
+ "chapters": [
+  "Read this first",
+  "How many players a team can take",
+  "The plan by date, class of 2029",
+  "What a coach may and may not do",
+  "Club, camps, and where he is seen",
+  "What to send, and what good video looks like",
+  "What the paperwork really means",
+  "What it costs, and what is wasted",
+  "Checklist by grade",
+  "Ten ways families get baseball wrong",
+  "Sources, and what we could not settle"
+ ],
+ "fragments": [
+  "c01-cover.html",
+  "c02-ch01.html",
+  "c03-ch02.html",
+  "c04-ch03.html",
+  "c05-ch04.html",
+  "c06-ch05.html",
+  "c07-ch06.html",
+  "c08-ch07.html",
+  "c09-ch08.html",
+  "c10-ch09.html",
+  "c11-ch10.html",
+  "c12-sources.html"
+ ],
+ "fragment_sha": {
+  "c01-cover.html": "011f22ae",
+  "c02-ch01.html": "5e3d64d0",
+  "c03-ch02.html": "bdf18385",
+  "c04-ch03.html": "57667e89",
+  "c05-ch04.html": "5306c1d2",
+  "c06-ch05.html": "529ced95",
+  "c07-ch06.html": "2919f3db",
+  "c08-ch07.html": "2928878c",
+  "c09-ch08.html": "8481d8fb",
+  "c10-ch09.html": "2a431e22",
+  "c11-ch10.html": "75a1d2bc",
+  "c12-sources.html": "a9691b59"
+ },
+ "doc_bytes": 90325,
+ "doc_sha": "a0ce3c55",
+ "grade": 4.4,
+ "email": {
+  "subject": "2029 right-handed pitcher, Anytown South HS · 6'1\" · fastball 84-86 · 3.5 GPA · video inside",
+  "letters": 76,
+  "words": 178
+ },
+ "built": "2026-11-11"
+}

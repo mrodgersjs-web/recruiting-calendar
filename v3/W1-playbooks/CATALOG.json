@@ -96,7 +96,8 @@
     "first coach reply",
     "signing"
    ],
-   "status": "OUTLINE"
+   "status": "OUTLINE",
+   "note": "Replaced by mens-baseball-road-to-college."
   },
   {
    "slug": "track-field-marks",
@@ -376,7 +377,7 @@
     "Grade by grade checklist"
    ],
    "status": "WRITTEN",
-   "price_usd": 19,
+   "price_usd": 29,
    "pages": 12,
    "format": "PDF",
    "sport": "Basketball",
@@ -415,12 +416,188 @@
     "Grade by grade checklist"
    ],
    "status": "WRITTEN",
-   "price_usd": 19,
+   "price_usd": 29,
    "pages": 20,
    "format": "PDF",
    "sport": "Girls' basketball",
    "rules_checked": "11 November 2026",
    "levels": "NCAA D1 - D2 - D3 - NAIA - junior college",
+   "story_beats": [
+    "first coach contact",
+    "the visit",
+    "the offer",
+    "signing day"
+   ]
+  },
+  {
+   "slug": "mens-baseball-road-to-college",
+   "title": "Men's Baseball: The Whole Road to College",
+   "who": "Baseball families, boys and men",
+   "outcome": "A plan by date for grades 9 to 12. When a coach may call, text or meet him, each with the rule behind it. The money math before a family spends.",
+   "toc": [
+    "Read this first",
+    "How many players a team can take",
+    "The plan by date, class of 2029",
+    "What a coach may and may not do",
+    "Club, camps, and where he is seen",
+    "What to send, and what good video looks like",
+    "What the paperwork really means",
+    "What it costs, and what is wasted",
+    "Checklist by grade",
+    "Ten ways families get baseball wrong",
+    "Sources, and what we could not settle"
+   ],
+   "tools": [
+    "the two dates junior year splits in two: 1 August and 1 September",
+    "the 34-player limit and what one scholarship pot does to it",
+    "who pays for a visit, and when"
+   ],
+   "status": "WRITTEN",
+   "price_usd": 29,
+   "pages": 26,
+   "format": "PDF",
+   "sport": "Men's Baseball",
+   "levels": "D1 · D2 · D3 · NAIA · junior college",
+   "rules_checked": "11 November 2026",
+   "gender": "men",
+   "athlete": "Diego",
+   "class_year": "2029",
+   "edition": "2026-27",
+   "doc_sha": "a0ce3c55",
+   "deck_grade": 4.4,
+   "claim": "every date shows the rule it comes from",
+   "story_beats": [
+    "first coach contact",
+    "the visit",
+    "the offer",
+    "signing day"
+   ]
+  },
+  {
+   "slug": "womens-softball-road-to-college",
+   "title": "Women's Softball: The Whole Road to College",
+   "who": "Softball families, girls and women",
+   "outcome": "A plan by date for grades 9 to 12. The Division I softball dates for when a coach may call, text or meet her, each with its rule number. Sample camp, tournament and membership prices, each from the page that charges it.",
+   "toc": [
+    "Read this first",
+    "How many players a team can take",
+    "The plan by date, class of 2029",
+    "What a coach may and may not do",
+    "Club, camps, and where she is seen",
+    "What to send, and what good video looks like",
+    "What the paperwork really means",
+    "What it costs, and what is wasted",
+    "Checklist by grade",
+    "Ten ways families get softball wrong",
+    "Sources, and what we could not settle"
+   ],
+   "tools": [
+    "the hour calls open: 1 p.m. Central, 1 September of junior year",
+    "the 25-player limit and what a full scholarship is worth",
+    "camp and tournament fees, from the pages that charge them"
+   ],
+   "status": "WRITTEN",
+   "price_usd": 29,
+   "pages": 33,
+   "format": "PDF",
+   "sport": "Women's Softball",
+   "levels": "D1 · D2 · D3 · NAIA · junior college",
+   "rules_checked": "11 November 2026",
+   "gender": "women",
+   "athlete": "Casey",
+   "class_year": "2029",
+   "edition": "2026-27",
+   "doc_sha": "334c4d41",
+   "deck_grade": 4.8,
+   "claim": "the June dates that move with the Women's College World Series",
+   "story_beats": [
+    "first coach contact",
+    "the visit",
+    "the offer",
+    "signing day"
+   ]
+  },
+  {
+   "slug": "mens-soccer-road-to-college",
+   "title": "Men's Soccer: The Whole Road to College",
+   "who": "Soccer families, boys and men",
+   "outcome": "A plan by date for grades 9 to 12. The tryout rules in plain words. What the 28-player team limit does to his scholarship at the Division I schools that follow it.",
+   "toc": [
+    "Read this first",
+    "How many players a team can take",
+    "The plan by date, class of 2029",
+    "What a coach may and may not do",
+    "Club, camps, and where he is seen",
+    "What to send, and what good video looks like",
+    "What the paperwork really means",
+    "What it costs, and what is wasted",
+    "Checklist by grade",
+    "Ten ways families get soccer wrong",
+    "Sources, and what we could not settle"
+   ],
+   "tools": [
+    "the seven chances a coach gets on him in a year, and the three that may be in person",
+    "the tryout rules, level by level, and what camps cost",
+    "who pays for a visit, and when"
+   ],
+   "status": "WRITTEN",
+   "price_usd": 29,
+   "pages": 27,
+   "format": "PDF",
+   "sport": "Men's Soccer",
+   "levels": "D1 · D2 · D3 · NAIA · junior college",
+   "rules_checked": "11 November 2026",
+   "gender": "men",
+   "athlete": "Alex",
+   "class_year": "2029",
+   "edition": "2026-27",
+   "doc_sha": "b2af4618",
+   "deck_grade": 4.8,
+   "claim": "the Division I men's soccer calendar, as printed for 2026-27",
+   "story_beats": [
+    "first coach contact",
+    "the visit",
+    "the offer",
+    "signing day"
+   ]
+  },
+  {
+   "slug": "womens-soccer-road-to-college",
+   "title": "Women's Soccer: The Whole Road to College",
+   "who": "Soccer families, girls and women",
+   "outcome": "A plan by date for grades 9 to 12. What changed in Division I team limits on 1 July 2025. Where she is seen: club, camps and tournaments.",
+   "toc": [
+    "Read this first",
+    "How many players a team can take",
+    "The plan by date, class of 2029",
+    "What a coach may and may not do",
+    "Club, camps, and where she is seen",
+    "What to send, and what good video looks like",
+    "What the paperwork really means",
+    "What it costs, and what is wasted",
+    "Checklist by grade",
+    "Ten ways families get soccer wrong",
+    "Sources, and what we could not settle"
+   ],
+   "tools": [
+    "the four dead periods, when a coach may not watch her or host a visit",
+    "the 28-player limit, and which schools follow the 28-player limit and which do not",
+    "what the pro league pays after college"
+   ],
+   "status": "WRITTEN",
+   "price_usd": 29,
+   "pages": 27,
+   "format": "PDF",
+   "sport": "Women's Soccer",
+   "levels": "D1 · D2 · D3 · NAIA · junior college",
+   "rules_checked": "11 November 2026",
+   "gender": "women",
+   "athlete": "Tori",
+   "class_year": "2029",
+   "edition": "2026-27",
+   "doc_sha": "e0751694",
+   "deck_grade": 4.5,
+   "claim": "the four 2026-27 dead periods, when a Division I coach may not watch her or host a visit",
    "story_beats": [
     "first coach contact",
     "the visit",
@@ -434,14 +611,14 @@
    "slug": "sport-pack",
    "title": "Sport Pack (your sport playbook + Eligibility + Offers & Signing + Camp ROI)",
    "price_usd": 49,
-   "note": "vs ~$72 a la carte; anchored between MM3 $25 and $79 bundles",
-   "includes_note": "One of the four written sport playbooks: football, volleyball, basketball, girls' basketball."
+   "note": "a $49 pack against $275 for the same books apart",
+   "includes_note": "One of the 8 written sport playbooks: Volleyball, Football, Basketball, Girls' basketball, Men's Baseball, Women's Softball, Men's Soccer, Women's Soccer."
   },
   {
    "slug": "all-playbooks",
    "title": "Every Playbook",
    "price_usd": 99,
-   "note": "all 15 a la carte $291"
+   "note": "all 19 a la carte $427"
   },
   {
    "slug": "sideline",

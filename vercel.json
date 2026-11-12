@@ -61,6 +61,8 @@
     }
   },
   "redirects": [
+    {"source": "/playbooks/baseball-showcase-to-signing", "destination": "/playbooks/mens-baseball-road-to-college", "permanent": true},
+    {"source": "/playbooks/baseball-showcase-to-signing/", "destination": "/playbooks/mens-baseball-road-to-college/", "permanent": true},
     {
       "source": "/athlete/butler/",
       "destination": "/sports/basketball",

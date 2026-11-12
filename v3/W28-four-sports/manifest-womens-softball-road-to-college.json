@@ -1,0 +1,62 @@
+{
+ "slug": "womens-softball-road-to-college",
+ "title": "Women's Softball: The Whole Road to College",
+ "ring_label": "Women's Softball",
+ "gender": "women",
+ "athlete": "Casey",
+ "athlete_id": "composite-softball",
+ "sport_page": "softball",
+ "price": 29,
+ "class_year": "2029",
+ "edition": "2026-27",
+ "chapters": [
+  "Read this first",
+  "How many players a team can take",
+  "The plan by date, class of 2029",
+  "What a coach may and may not do",
+  "Club, camps, and where she is seen",
+  "What to send, and what good video looks like",
+  "What the paperwork really means",
+  "What it costs, and what is wasted",
+  "Checklist by grade",
+  "Ten ways families get softball wrong",
+  "Sources, and what we could not settle"
+ ],
+ "fragments": [
+  "c01-cover.html",
+  "c02-ch01.html",
+  "c03-ch02.html",
+  "c04-ch03.html",
+  "c05-ch04.html",
+  "c06-ch05.html",
+  "c07-ch06.html",
+  "c08-ch07.html",
+  "c09-ch08.html",
+  "c10-ch09.html",
+  "c11-ch10.html",
+  "c12-sources.html"
+ ],
+ "fragment_sha": {
+  "c01-cover.html": "66d7b8cf",
+  "c02-ch01.html": "fcfcda2e",
+  "c03-ch02.html": "3216d8f2",
+  "c04-ch03.html": "61e1ad68",
+  "c05-ch04.html": "1f2e3b81",
+  "c06-ch05.html": "dee81f4b",
+  "c07-ch06.html": "d5f1e170",
+  "c08-ch07.html": "9e6e7027",
+  "c09-ch08.html": "a4d3c45c",
+  "c10-ch09.html": "adf5e468",
+  "c11-ch10.html": "3db8cd0a",
+  "c12-sources.html": "b5596dff"
+ },
+ "doc_bytes": 102455,
+ "doc_sha": "334c4d41",
+ "grade": 4.8,
+ "email": {
+  "subject": "2029 shortstop, Anytown South HS · 2.9 home to first · 60 mph throw · 3.75 GPA · film inside",
+  "letters": 73,
+  "words": 186
+ },
+ "built": "2026-11-11"
+}

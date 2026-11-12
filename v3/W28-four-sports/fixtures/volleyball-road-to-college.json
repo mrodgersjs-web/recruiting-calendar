@@ -1,0 +1,50 @@
+{
+ "slug": "volleyball-road-to-college",
+ "title": "Volleyball: The Whole Road to College",
+ "title_html": "Volleyball:<br>The Whole Road to College",
+ "ring_label": "Women's Volleyball",
+ "gender": "women",
+ "athlete": "Ava",
+ "athlete_id": "composite-volleyball",
+ "sport_page": "volleyball",
+ "pagehead_word": "Volleyball",
+ "price": 29,
+ "class_year": "2029",
+ "edition": "2026-27",
+ "rules_checked": "11 November 2026, against the NCAA rule text, both association calendars and nine club and event pages",
+ "levels": "D1 and D2 and D3 and NAIA and junior college",
+ "kicker": "Volleyball &middot; girls &middot; grades 9 to 12 &middot; sport playbook",
+ "sub": "What to do, when to do it, who pays, and what a coach is and is not allowed to tell you. Built from the 2026-27 NCAA rule text, USA Volleyball's junior calendar, a regional club schedule, and a state association's season dates.",
+ "edge": "Women's volleyball fields 1,053 NCAA teams, and a girl can be seen at one of them from a free profile page and one email.",
+ "chapters": [
+  "Read this first",
+  "How many players a team can take",
+  "The plan by date, class of 2029",
+  "What a coach may and may not do",
+  "Club, region, camps, and where she is seen",
+  "What to send, and what good video looks like",
+  "What the paperwork really means",
+  "What it costs, and what is wasted",
+  "Checklist by grade",
+  "Ten ways families get volleyball wrong",
+  "Sources, and what we could not settle"
+ ],
+ "fragments": [
+  "c01-cover.html",
+  "c02-ch01.html",
+  "c03-ch02.html",
+  "c04-ch03.html",
+  "c05-ch04.html",
+  "c06-ch05.html",
+  "c07-ch06ab.html",
+  "c08-ch06c.html",
+  "c08b-ch06d.html",
+  "c09-ch07.html",
+  "c10-ch08.html",
+  "c12-ch09-10.html",
+  "c13-sources.html"
+ ],
+ "packets": [
+  "../../W24-volleyball/vb-text.txt"
+ ]
+}

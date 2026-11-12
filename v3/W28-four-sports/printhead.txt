@@ -1,0 +1,6 @@
+<!-- The record of the headerTemplate string that printed the sold look on 11 Nov 2026.
+<!-- Put the word the deck's own .pagehead label carries where BASEBALL sits.
+<!-- 8 px is the roughly 6 pt ink the sold books measure. It was 6.4 px once and looked thin.
+<!-- This file is a note. head.txt in this lane is the book stylesheet; never write here.
+-->
+<div style="width:100%;padding:0 14mm;box-sizing:border-box;font:600 8px "Barlow Condensed",Arial,sans-serif;color:#141414;letter-spacing:.25em;text-transform:uppercase">The Commit Book · BASEBALL</div>
