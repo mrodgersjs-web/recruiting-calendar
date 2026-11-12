@@ -375,13 +375,26 @@ def sweep_pages():
     ix = SITE / 'sports' / 'index.html'
     if ix.exists():
         b5 = ix.read_text(encoding='utf-8')
+    for sp in ('track-field', 'swimming', 'wrestling', 'lacrosse'):
+        pg = SITE / 'sports' / sp / 'index.html'
+        if pg.exists():
+            s0 = pg.read_text(encoding='utf-8')
+            s1 = s0.replace('</i></span><span class="pb-pend">In progress</span>',
+                            '</i><span class="pb-pend">In progress</span></span>')
+            if s1 != s0:
+                pg.write_text(s1, encoding='utf-8')
+                print('    the band is inside the cover on ' + sp)
+            # A band outside the cover is a red strip loitering beside a tile, and it widens the
+            # page on a phone. The shape is the bug, so the build refuses it rather than noting it.
+            if 'class="pb-pend"' in pg.read_text(encoding='utf-8') and '</i></span><span class="pb-pend"' in pg.read_text(encoding='utf-8'):
+                raise SystemExit('FAIL the in-progress band is still outside the cover on ' + sp)
     for slug4 in ('track-field', 'swimming', 'wrestling', 'lacrosse'):
         m4 = re.search(r'<div class="pb-cell"><a class="pb-card" href="/sports/%s".*?</div>' % slug4, b5, re.S)
         if not m4:
             continue
         card = m4.group(0)
         new4 = re.sub(r"<i>[^<]*</i>", "<i>Playbook in progress</i>", card, count=1)
-        new4 = re.sub(r'<span class="lab">Dated rules live</span>', '<span class="lab">Being written</span>', new4, count=1)
+        new4 = re.sub(r'<span class="lab">(?:Dated rules live|Book in progress)</span>', '<span class="lab">Playbooks and tools</span>', new4, count=1)
         if new4 != card:
             b5 = b5[:m4.start()] + new4 + b5[m4.end():]
     ix.write_text(b5, encoding='utf-8')
@@ -407,22 +420,14 @@ def sweep_pages():
                     'prints none. Learn the dates before you pay.</p>', b0, count=1)
         if b1 != b0 and ('written interest' in b0 or 'every division prints' in b0):
             sc.write_text(b1, encoding='utf-8')
-    sh = SITE / 'playbooks' / 'index.html'
-    if sh.exists():
-        g5 = sh.read_text(encoding='utf-8')
-        g6 = re.sub(r'(<li><b>(?:Sport Pack|Every Playbook|Sideline membership)[^<]*(?:<[^>]+>[^<]*)*?</b> <span>)\$([0-9]+(?:/yr)?)(</span>)',
-                    lambda m: m.group(1) + '$' + m.group(2) + ' &middot; at launch' + m.group(3), g5, count=3)
-        if g6 != g5:
-            sh.write_text(g6, encoding='utf-8')
-            print('    bundle prices now say when they apply')
-    for page2 in [SITE / 'sports' / 'index.html', SITE / 'sports' / 'lacrosse' / 'index.html']:
-        b2 = page2.read_text(encoding='utf-8')
-        b3 = b2.replace('<b>Lacrosse</b>', "<b>Women's Lacrosse</b>")
-        if b3 != b2:
-            page2.write_text(b3, encoding='utf-8')
-    # Two of the three bundle rows said a price and nothing else. The note pattern carries its
-    # own search text, so a second pass leaves the row alone instead of stacking notes.
+    # Two of the three bundle rows said a price and nothing else, so a reader could not tell a
+    # price from a promise. The two rows with no note of their own take the words on the number;
+    # the membership row already says it below. One buffer, one write: an earlier draft of this
+    # wrote the file twice from two reads and the second put the words back.
     hb = shelf.read_text(encoding='utf-8')
+    hb = hb.replace('$149/yr &middot; at launch', '$149/yr')
+    hb = re.sub(r'(<li><b>(?:Sport Pack[^<]*|Every Playbook)</b> <span>)(?![^<]*at launch)(\$[0-9]+(?:/yr)?)(</span>)',
+                r'\1\2 &middot; at launch\3', hb)
     for row, say in (
         ('Every Playbook', 'All nine playbooks, and each new one as it is written.'),
         ('Sideline membership', 'The calendar tool, once it exists. Not open at launch.'),
@@ -431,6 +436,12 @@ def sweep_pages():
                     r'\1 <p class="note">' + say + '</p>', hb, count=1)
     if hb != shelf.read_text(encoding='utf-8'):
         shelf.write_text(hb, encoding='utf-8')
+        print('    bundle rows now say when they apply')
+    for page2 in [SITE / 'sports' / 'index.html', SITE / 'sports' / 'lacrosse' / 'index.html']:
+        b2 = page2.read_text(encoding='utf-8')
+        b3 = b2.replace('<b>Lacrosse</b>', "<b>Women's Lacrosse</b>")
+        if b3 != b2:
+            page2.write_text(b3, encoding='utf-8')
     if shelf.exists():
         h = shelf.read_text(encoding='utf-8')
         nsport = sum(1 for s, b in BOOKS.items() if b.get('status') == 'WRITTEN' and s != 'eligibility-2-hard-deadlines')
