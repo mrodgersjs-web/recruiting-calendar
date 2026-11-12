@@ -358,6 +358,33 @@ def sweep_pages():
                     h3, count=1)
         if h4 != h3:
             page3.write_text(h4, encoding='utf-8')
+    # A tile that says "the sport page shows what we have dated so far" is a strange promise
+    # on the sport page itself, and it links to the page you are standing on. Same tile, other
+    # words, once it is on its own sport's page.
+    for page4 in sorted((SITE / 'sports').glob('*/index.html')):
+        h5 = page4.read_text(encoding='utf-8')
+        h6 = h5.replace(' The sport page shows what we have dated so far.',
+                        ' This page lists what is dated so far.')
+        if page4.parent.name == 'lacrosse':
+            h6 = h6.replace('>Lacrosse: The Whole Road to College<', ">Women's Lacrosse: The Whole Road to College<")
+        if h6 != h5:
+            page4.write_text(h6, encoding='utf-8')
+    # The index card for track said its dated rules were live. The book is still being written
+    # and the sport page says so two clicks away, which is the kind of disagreement a parent
+    # finds in one minute and never forgives.
+    ix = SITE / 'sports' / 'index.html'
+    if ix.exists():
+        b5 = ix.read_text(encoding='utf-8')
+    for slug4 in ('track-field', 'swimming', 'wrestling', 'lacrosse'):
+        m4 = re.search(r'<div class="pb-cell"><a class="pb-card" href="/sports/%s".*?</div>' % slug4, b5, re.S)
+        if not m4:
+            continue
+        card = m4.group(0)
+        new4 = re.sub(r"<i>[^<]*</i>", "<i>Playbook in progress</i>", card, count=1)
+        new4 = re.sub(r'<span class="lab">Dated rules live</span>', '<span class="lab">Being written</span>', new4, count=1)
+        if new4 != card:
+            b5 = b5[:m4.start()] + new4 + b5[m4.end():]
+    ix.write_text(b5, encoding='utf-8')
     # The phone menu is driven by site.js, which the sport pages never loaded: the button sat
     # at the top of ten pages and did nothing at all.
     for page2 in sorted((SITE / 'sports').glob('*/index.html')) + [SITE / 'sports' / 'index.html']:
@@ -380,6 +407,14 @@ def sweep_pages():
                     'prints none. Learn the dates before you pay.</p>', b0, count=1)
         if b1 != b0 and ('written interest' in b0 or 'every division prints' in b0):
             sc.write_text(b1, encoding='utf-8')
+    sh = SITE / 'playbooks' / 'index.html'
+    if sh.exists():
+        g5 = sh.read_text(encoding='utf-8')
+        g6 = re.sub(r'(<li><b>(?:Sport Pack|Every Playbook|Sideline membership)[^<]*(?:<[^>]+>[^<]*)*?</b> <span>)\$([0-9]+(?:/yr)?)(</span>)',
+                    lambda m: m.group(1) + '$' + m.group(2) + ' &middot; at launch' + m.group(3), g5, count=3)
+        if g6 != g5:
+            sh.write_text(g6, encoding='utf-8')
+            print('    bundle prices now say when they apply')
     for page2 in [SITE / 'sports' / 'index.html', SITE / 'sports' / 'lacrosse' / 'index.html']:
         b2 = page2.read_text(encoding='utf-8')
         b3 = b2.replace('<b>Lacrosse</b>', "<b>Women's Lacrosse</b>")

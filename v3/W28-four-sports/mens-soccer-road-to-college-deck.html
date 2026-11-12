@@ -24,7 +24,7 @@ section + section { page-break-before: auto }
 tr{page-break-inside:avoid}
 p{margin:0 0 2mm}
 .lead{font-size:11.1pt;line-height:1.45;color:var(--ink2);max-width:44em}
-a{color:var(--ink);text-decoration:none;word-break:break-all}
+a{color:var(--ink);text-decoration:none;overflow-wrap:anywhere;word-break:normal;hyphens:none}
 .small{font-size:8.6pt;color:var(--ink3);line-height:1.42}
 strong{font-weight:700}
 hr.dbl{border:0;border-top:3px double var(--ink);margin:3mm 0}
@@ -72,7 +72,7 @@ ul.tight li,ol.tight li{margin-bottom:.9mm}
 .two{column-count:2;column-gap:7mm}
 .sig{margin-top:6mm;border-top:3px double var(--ink);padding-top:2.5mm}
 .avoid{page-break-inside:avoid}td,th{page-break-inside:avoid}
-src{display:block;font-size:8.4pt;color:var(--ink3);margin-bottom:1.6mm;overflow-wrap:anywhere;word-break:break-all}
+src{display:block;font-size:8.4pt;color:var(--ink3);margin-bottom:1.6mm;overflow-wrap:anywhere;word-break:normal;hyphens:none}
 
 section.newpage { page-break-before: always; break-before: page }
 
@@ -97,10 +97,29 @@ section + section { break-before: page; page-break-before: always }
  p, li, dd { orphans: 2; widows: 2 }
 /* W28: a bordered block may not bleed past its own box on the right. */
  .box, .tmpl, .cover, .split, .two, td, th { box-sizing: border-box }
-/* W28: the calendar grid belongs to the template, not to each table, so all five
-   books set their date columns the same width. deck.py labels the tables and writes
-   the colgroup; these rules are what make the widths stick. */
- table.cal { table-layout: fixed }
+/* W28: the calendar grid belongs to the template, not to each table, so every book
+   sets its date columns alike. The percentages are measured against THIS page box:
+   8.5in of paper less two 14 mm margins is a 7.4in text column. The shipped book
+   puts its first rule at 1.83in and its third column at 4.64in, so 24.7% and 38% are
+   what those are in this box. The four-book had been set to 26.5% against a 6.9in
+   column that this template does not have, which is why four auditors saw a
+   date column of 1.96in and a third column starting half an inch late. */
+table.cal { table-layout: fixed }
+table.cal col.c-when { width: 24.7% }   /* 1.83in, where the shipped book draws its first rule */
+table.cal col.c-what { width: 38% }     /* the td.w width the shipped book already uses */
+table.cal col.c-why { width: 37.3% }
+table.cal.four col.c-when { width: 24.7% }
+table.cal.four col.c-what { width: 38% }
+table.cal.four col.c-why { width: 19.3% }
+table.cal.four col.c-where { width: 18% }
+/* A splitting table may not leave one row behind, and may not strand its last row at
+   the top of a page: on softball the glossary split after its first row, and a chapter
+   ended with one row alone. The first four rows are glued, the last row cannot lead. */
+table.flow tr:nth-child(-n+3) { break-after: avoid; page-break-after: avoid }
+table.flow tr:last-child { break-before: avoid; page-break-before: avoid }
+/* A note under a table qualifies that table. The SERVICE note on pitch speeds printed
+   a page away from the speeds it covers. */
+table + .small, table + .note, table + p.small, table + p.note { break-before: avoid; page-break-before: avoid } table.cal { table-layout: fixed }
  table.cal col.c-when { width: 26.5% }   /* 1.83in of the 6.9in text column, as the shipped book sets it */
  table.cal col.c-what { width: 40.5% }
  table.cal col.c-why { width: 33% }
@@ -230,9 +249,7 @@ section + section { break-before: page; page-break-before: always }
       so it can move.</td></tr>
       <tr><td class="d">SERVICE</td><td>A price from a seller's own page. It is one seller's price, not a rule.</td></tr>
     </tbody>
-  </table>
-  <p class="small">Rule text: NCAA Division I Manual 2026-27 and the 2026-27 Division I recruiting calendar. Team
-  counts: how many schools the NCAA expects to field a team, as of September 2026. All read 11 November 2026. Links are in Chapter 11.</p>
+  <tfoot><tr><td class="small" colspan="2">Rule text: NCAA Division I Manual 2026-27 and the 2026-27 Division I recruiting calendar. Team counts: how many schools the NCAA expects to field a team, as of September 2026. All read 11 November 2026. Links are in Chapter 11.</td></tr></tfoot></table>
 </section>
 <section class="newpage">
   <div class="pagehead"><span class="label">The Commit Book &middot; Men's Soccer</span><span class="label">The numbers</span></div>
@@ -265,14 +282,7 @@ section + section { break-before: page; page-break-before: always }
       in supplies. Division III gives none.</td><td>Not known</td><td>A two-year road. Ask which division the college
       is in for soccer.</td></tr>
     </tbody>
-  </table>
-  <p class="small">Team counts are how many schools the NCAA expects to field a team in 2026-27. As of September
-  2026 that is 213, 204 and 406, which is 823. The NCAA's count of what was played in 2024-25 is 206, 211 and 410, which is 827. Both are
-  official. They are different years and different methods. NAIA and junior college team counts were not found on an
-  official page, so none is printed. Junior college figures are from the NJCAA Sports Procedures Chart for 2026-27.
-  The chart is reissued during the year, so check the association's own page. All read 11 November 2026.</p>
-
-  <div class="box red">
+  <tfoot><tr><td class="small" colspan="4">Team counts are how many schools the NCAA expects to field a team in 2026-27. As of September 2026 that is 213, 204 and 406, which is 823. The NCAA's count of what was played in 2024-25 is 206, 211 and 410, which is 827. Both are official. They are different years and different methods. NAIA and junior college team counts were not found on an official page, so none is printed. Junior college figures are from the NJCAA Sports Procedures Chart for 2026-27. The chart is reissued during the year, so check the association's own page. All read 11 November 2026.</td></tr></tfoot></table><div class="box red">
     <h3>Two Division I numbers. Know which one binds you.</h3>
     <p><strong>9.9</strong> is the old Division I aid limit for men's soccer: 9.9 equivalencies, shared by the whole
     team. <strong>28</strong> is the new roster limit at a school that opted in, with the NCAA aid cap taken off. The
@@ -314,10 +324,7 @@ section + section { break-before: page; page-break-before: always }
       <tr><td class="d">Division III</td><td>33.2</td><td>32.3</td><td>No athletics aid, and a full squad anyway.</td></tr>
       <tr><td class="d">All three</td><td>34.8</td><td>33.6</td><td>The NCAA counted 28,746 players on 827 teams.</td></tr>
     </tbody>
-  </table>
-  <p class="small">These figures are from an NCAA report on teams and players, updated 4 September 2025. They
-  are on PDF pages 91 and 93, read 11 November 2026. The report counts anyone on the roster or squad list at any point in the year. So these
-  run above a game-day squad.</p>
+  <tfoot><tr><td class="small" colspan="4">These figures are from an NCAA report on teams and players, updated 4 September 2025. They are on PDF pages 91 and 93, read 11 November 2026. The report counts anyone on the roster or squad list at any point in the year. So these run above a game-day squad.</td></tr></tfoot></table>
 
   <h3>Who else holds those seats</h3>
   <ul class="tight">
@@ -493,12 +500,7 @@ section + section { break-before: page; page-break-before: always }
       <tr><td class="d">Junior college</td><td colspan="4">This book could not read the national contact rule at its
       source. Chapter 11 prints what is in circulation, with its label.</td></tr>
     </tbody>
-  </table>
-  <p class="small">Bylaw numbers in each row belong to that division's own 2026-27 manual. The NAIA row is from the
-  NAIA's recruiting page. All read 11 November 2026. The Division I contact rules have no special case for soccer, so
-  the general rule applies.</p>
-
-  <h3>The tryout rule, in plain words</h3>
+  <tfoot><tr><td class="small" colspan="5">Bylaw numbers in each row belong to that division's own 2026-27 manual. The NAIA row is from the NAIA's recruiting page. All read 11 November 2026. The Division I contact rules have no special case for soccer, so the general rule applies.</td></tr></tfoot></table><h3>The tryout rule, in plain words</h3>
   <p><strong>Division I: no tryout.</strong> A Division I college may not run a workout, a practice or a test where
   high school players show what they can do. That is Bylaw 13.11.1. Two narrow exceptions sit at 13.11.2 and
   13.11.3, and this
@@ -732,7 +734,7 @@ player@example.com &middot; (555) 555-0163</div>
   most weight on the last one, because a pro club may come to him before a college does.</p>
 
   <h3>The account</h3>
-  <table>
+  <div class="avoid"><table>
     <thead><tr><th style="width:27%">Eligibility Center account</th><th style="width:36%">Who it is for</th><th>Price</th></tr></thead>
     <tbody>
       <tr><td><strong>Academic and Athletics Certification</strong></td><td>A boy who plans to play in Division I or
@@ -746,7 +748,7 @@ player@example.com &middot; (555) 555-0163</div>
   </table>
   <p>Two NCAA sources disagree on the price, so both are printed. The live screen is the later one, read on 11
   November 2026. Fees are not paid back after 30 days. A student who qualifies may ask for a fee waiver. A walk-on
-  is a player who joins with no athletics aid. He must register too.</p>
+  is a player who joins with no athletics aid. He must register too.</p></div>
   <p>The NAIA has its own Eligibility Center. Its May 2026 guide prints a one-time fee of $110 for students from US
   and Canadian high schools, and $170 for others.</p>
 
@@ -898,12 +900,7 @@ player@example.com &middot; (555) 555-0163</div>
       and by how early the family signs up.</td><td><span class="tag">SERVICE</span> One state soccer body's fee
       table for 2026-27.</td></tr>
     </tbody>
-  </table>
-  <p class="small">The SERVICE rows come from four sellers' own pages, read 11 November 2026. They are one sample,
-  not a market. An ID camp is one day of drills and scrimmages a college runs so coaches can watch players in person,
-  usually for a fee. The $95 camp ran from 9 a.m. to 3 p.m. for boys 14 to 19. The $135 camp was for boys 14 to 21. The top
-  showcase price is $379 and the $25 fee, which makes $404. Travel, a bed and club fees are not in any of these
-  numbers. Chapter 11 says where each price came from.</p>
+  <tfoot><tr><td class="small" colspan="3">The SERVICE rows come from four sellers' own pages, read 11 November 2026. They are one sample, not a market. An ID camp is one day of drills and scrimmages a college runs so coaches can watch players in person, usually for a fee. The $95 camp ran from 9 a.m. to 3 p.m. for boys 14 to 19. The $135 camp was for boys 14 to 21. The top showcase price is $379 and the $25 fee, which makes $404. Travel, a bed and club fees are not in any of these numbers. Chapter 11 says where each price came from.</td></tr></tfoot></table>
 
   <h3>The prices this book does not have</h3>
   <ul class="tight">
@@ -935,9 +932,7 @@ player@example.com &middot; (555) 555-0163</div>
       <tr><td class="d">NAIA tryout visit</td><td>A bed and meals only if the school would give the same to students
       who are not athletes.</td></tr>
     </tbody>
-  </table>
-  <p class="small">Each bylaw number belongs to that division's own 2026-27 manual, read 11 November 2026. The NAIA
-  line is from the NAIA's recruiting page.</p>
+  <tfoot><tr><td class="small" colspan="2">Each bylaw number belongs to that division's own 2026-27 manual, read 11 November 2026. The NAIA line is from the NAIA's recruiting page.</td></tr></tfoot></table>
 
   <h3>Junior college money</h3>
   <p>The junior college body has three divisions, and a college picks one for each sport for four years. In Division

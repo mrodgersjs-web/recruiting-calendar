@@ -24,7 +24,7 @@ section + section { page-break-before: auto }
 tr{page-break-inside:avoid}
 p{margin:0 0 2mm}
 .lead{font-size:11.1pt;line-height:1.45;color:var(--ink2);max-width:44em}
-a{color:var(--ink);text-decoration:none;word-break:break-all}
+a{color:var(--ink);text-decoration:none;overflow-wrap:anywhere;word-break:normal;hyphens:none}
 .small{font-size:8.6pt;color:var(--ink3);line-height:1.42}
 strong{font-weight:700}
 hr.dbl{border:0;border-top:3px double var(--ink);margin:3mm 0}
@@ -72,7 +72,7 @@ ul.tight li,ol.tight li{margin-bottom:.9mm}
 .two{column-count:2;column-gap:7mm}
 .sig{margin-top:6mm;border-top:3px double var(--ink);padding-top:2.5mm}
 .avoid{page-break-inside:avoid}td,th{page-break-inside:avoid}
-src{display:block;font-size:8.4pt;color:var(--ink3);margin-bottom:1.6mm;overflow-wrap:anywhere;word-break:break-all}
+src{display:block;font-size:8.4pt;color:var(--ink3);margin-bottom:1.6mm;overflow-wrap:anywhere;word-break:normal;hyphens:none}
 
 section.newpage { page-break-before: always; break-before: page }
 
@@ -97,10 +97,29 @@ section + section { break-before: page; page-break-before: always }
  p, li, dd { orphans: 2; widows: 2 }
 /* W28: a bordered block may not bleed past its own box on the right. */
  .box, .tmpl, .cover, .split, .two, td, th { box-sizing: border-box }
-/* W28: the calendar grid belongs to the template, not to each table, so all five
-   books set their date columns the same width. deck.py labels the tables and writes
-   the colgroup; these rules are what make the widths stick. */
- table.cal { table-layout: fixed }
+/* W28: the calendar grid belongs to the template, not to each table, so every book
+   sets its date columns alike. The percentages are measured against THIS page box:
+   8.5in of paper less two 14 mm margins is a 7.4in text column. The shipped book
+   puts its first rule at 1.83in and its third column at 4.64in, so 24.7% and 38% are
+   what those are in this box. The four-book had been set to 26.5% against a 6.9in
+   column that this template does not have, which is why four auditors saw a
+   date column of 1.96in and a third column starting half an inch late. */
+table.cal { table-layout: fixed }
+table.cal col.c-when { width: 24.7% }   /* 1.83in, where the shipped book draws its first rule */
+table.cal col.c-what { width: 38% }     /* the td.w width the shipped book already uses */
+table.cal col.c-why { width: 37.3% }
+table.cal.four col.c-when { width: 24.7% }
+table.cal.four col.c-what { width: 38% }
+table.cal.four col.c-why { width: 19.3% }
+table.cal.four col.c-where { width: 18% }
+/* A splitting table may not leave one row behind, and may not strand its last row at
+   the top of a page: on softball the glossary split after its first row, and a chapter
+   ended with one row alone. The first four rows are glued, the last row cannot lead. */
+table.flow tr:nth-child(-n+3) { break-after: avoid; page-break-after: avoid }
+table.flow tr:last-child { break-before: avoid; page-break-before: avoid }
+/* A note under a table qualifies that table. The SERVICE note on pitch speeds printed
+   a page away from the speeds it covers. */
+table + .small, table + .note, table + p.small, table + p.note { break-before: avoid; page-break-before: avoid } table.cal { table-layout: fixed }
  table.cal col.c-when { width: 26.5% }   /* 1.83in of the 6.9in text column, as the shipped book sets it */
  table.cal col.c-what { width: 40.5% }
  table.cal col.c-why { width: 33% }
@@ -145,7 +164,7 @@ section + section { break-before: page; page-break-before: always }
   Dates marked PROJECTED are worked out from the rule text, not printed by the NCAA yet. Chapter 3 lists them.</p>
 </section>
 <section class="newpage">
-  <div class="pagehead"><span class="label">The Commit Book &middot; Baseball</span><span class="label">Before you start</span></div>
+  <div class="pagehead"><span class="label">The Commit Book &middot; Men's Baseball</span><span class="label">Before you start</span></div>
   <h2>1. Read this first</h2>
   <p class="lead">Read Chapter 2 before you spend any money.
   Then put the plan in Chapter 3 on one page and cross items off.
@@ -227,7 +246,7 @@ section + section { break-before: page; page-break-before: always }
   </table>
 </section>
 <section class="newpage">
-  <div class="pagehead"><span class="label">The Commit Book &middot; Baseball</span><span class="label">The number that matters</span></div>
+  <div class="pagehead"><span class="label">The Commit Book &middot; Men's Baseball</span><span class="label">The number that matters</span></div>
   <h2>2. How many players a team can take</h2>
   <p class="lead">Start here, before you pay for anything.
   A team can keep only so many players, and it can pay only so many of them.
@@ -244,8 +263,7 @@ section + section { break-before: page; page-break-before: always }
       <tr><td class="d">NAIA</td><td>No official count</td><td>No roster limit</td><td>A ceiling of 12 on the team's school aid</td><td>NAIA Official Handbook 2026-2027, printed pages 121 and 123</td></tr>
       <tr><td class="d">Junior college</td><td>397, not settled. See Chapter 5.</td><td>30 signees a team</td><td>Set by the college's NJCAA division</td><td>NJCAA Sports Procedures Chart for 2026-27</td></tr>
     </tbody>
-  </table>
-  <p class="small">Chapter 5 says how each program count was made. Every source was read on 11 November 2026.</p>
+  <tfoot><tr><td class="small" colspan="5">Chapter 5 says how each program count was made. Every source was read on 11 November 2026.</td></tr></tfoot></table>
 
   <h3>Two Division I numbers, and the one that binds</h3>
   <table class="cal"><colgroup><col class="c-when"><col class="c-what"><col class="c-why"></colgroup>
@@ -258,7 +276,7 @@ section + section { break-before: page; page-break-before: always }
   <p><strong>Which one binds your family today?</strong> The 34 does.
   It is the rule in the current manual.
   The 11.7 is superseded, which means a newer rule took its place.
-  A page that still says "11.7 scholarships" is quoting the 2024-25 rule.</p>
+  A page that still says "11.7 scholarships" is quoting the 2024-25 rule.</p></div>
   <p>The old number lives on in one place.
   A Division I school that did not opt in has no NCAA roster limit, and it stays under the 2024-25 aid ceiling.
   A school that did not opt in may give aid of any size, even less than 25 percent, to any number of players.
@@ -322,15 +340,14 @@ section + section { break-before: page; page-break-before: always }
   The chart is reissued during the year, so check the association's own page for the newest file.
   Each signee counts as one, "regardless of the amount of athletic scholarship."
   So a small award takes the same spot as a full one.</p>
-  <table>
+  <div class="avoid"><table>
     <thead><tr><th style="width:24%">Junior college level</th><th>What the college may pay for</th></tr></thead>
     <tbody>
       <tr><td class="d">NJCAA Division I</td><td>Tuition and course fees, room and board, course books, up to $250 in required supplies, and one trip home each school year.</td></tr>
       <tr><td class="d">NJCAA Division II</td><td>Tuition, course fees, books, and up to $250 in supplies. No travel home.</td></tr>
       <tr><td class="d">NJCAA Division III</td><td>Nothing. These programs "may not provide any athletic scholarship of any kind."</td></tr>
     </tbody>
-  </table>
-  <p class="small">Source: NJCAA Bylaws for 2026-27, file dated 27 October 2026, page 44. A junior college picks its division sport by sport, not for the whole school. Ask which division its baseball team plays in.</p>
+  <tfoot><tr><td class="small" colspan="3">Source: NJCAA Bylaws for 2026-27, file dated 27 October 2026, page 44. A junior college picks its division sport by sport, not for the whole school. Ask which division its baseball team plays in.</td></tr></tfoot></table>
 
   <h3>How long the odds are</h3>
   <table>
@@ -346,8 +363,7 @@ section + section { break-before: page; page-break-before: always }
       <tr><td>Of the 127, picked in rounds 11 to 20</td><td>67</td><td>The same count</td></tr>
       <tr><td>Picks in the 2025 draft who came from NCAA schools</td><td>452 of 615</td><td>NCAA Research table, last updated March 2026</td></tr>
     </tbody>
-  </table>
-  <p class="small">The six extra rounds are groups of picks that the league's draft data lists beside rounds 1 to 20. It calls them compensation and competitive-balance rounds. They are why 20 rounds made 613 picks and not 600.</p>
+  <tfoot><tr><td class="small" colspan="3">The six extra rounds are groups of picks that the league's draft data lists beside rounds 1 to 20. It calls them compensation and competitive-balance rounds. They are why 20 rounds made 613 picks and not 600.</td></tr></tfoot></table>
   <p>The NCAA share counts NCAA schools only.
   NAIA and junior college players are left out, so the share who play in college at all is higher.
   Of the 452 college picks, 431 came from Division I, 19 from Division II and 2 from Division III.
@@ -370,7 +386,7 @@ section + section { break-before: page; page-break-before: always }
   </div>
 </section>
 <section class="newpage">
-  <div class="pagehead"><span class="label">The Commit Book &middot; Baseball</span><span class="label">Class of 2029</span></div>
+  <div class="pagehead"><span class="label">The Commit Book &middot; Men's Baseball</span><span class="label">Class of 2029</span></div>
   <h2>3. The plan by date, class of 2029</h2>
   <p class="lead">He is in 10th grade this year, so every date below is his.
   Rows tagged HARD are dates a document prints.
@@ -468,14 +484,14 @@ section + section { break-before: page; page-break-before: always }
   </div>
 </section>
 <section class="newpage">
-  <div class="pagehead"><span class="label">The Commit Book &middot; Baseball</span><span class="label">The rules</span></div>
+  <div class="pagehead"><span class="label">The Commit Book &middot; Men's Baseball</span><span class="label">The rules</span></div>
   <h2>4. What a coach may and may not do</h2>
   <p class="lead">A quiet coach is often a coach following a rule.
   This chapter says what each level allows, and when.
   Every date is for the class of 2029, worked out from the rule next to it.</p>
 
   <h3>When each level may reach him</h3>
-  <table class="cal four"><colgroup><col class="c-when"><col class="c-what"><col class="c-why"><col class="c-where"></colgroup>
+  <div class="avoid"><table class="cal four"><colgroup><col class="c-when"><col class="c-what"><col class="c-why"><col class="c-where"></colgroup>
     <thead><tr><th style="width:15%">Level</th><th style="width:30%">Calls, email and texts</th><th style="width:27%">Meeting him in person, off campus</th><th>Where it is printed</th></tr></thead>
     <tbody>
       <tr><td class="d">Division I</td><td>Not before 1 August of junior year. The coach may not take his call before then either.</td><td>Not before 1 September of junior year.</td><td>Bylaws 13.1.3.1.1, 13.1.3.2.3, 13.4.1.1 and 13.1.1.1.1</td></tr>
@@ -486,7 +502,7 @@ section + section { break-before: page; page-break-before: always }
     </tbody>
   </table>
   <p>For the class of 2029 the three dates are 15 June 2027, 1 August 2027 and 1 September 2027.
-  All three are PROJECTED. This book worked them out from the rule, and the NCAA has not printed them.</p>
+  All three are PROJECTED. This book worked them out from the rule, and the NCAA has not printed them.</p></div>
 
   <h3>Division I: the fine print that matters</h3>
   <ul class="tight">
@@ -513,7 +529,7 @@ section + section { break-before: page; page-break-before: always }
   </ul>
 
   <h3>Four kinds of week on the Division I baseball calendar</h3>
-  <table class="cal"><colgroup><col class="c-when"><col class="c-what"><col class="c-why"></colgroup>
+  <div class="avoid"><table class="cal"><colgroup><col class="c-when"><col class="c-what"><col class="c-why"></colgroup>
     <thead><tr><th style="width:20%">Label</th><th style="width:48%">What the staff may do in person</th><th>Calls and messages</th></tr></thead>
     <tbody>
       <tr><td class="d">Contact period</td><td>Meet and watch players off campus.</td><td>Allowed</td></tr>
@@ -526,7 +542,7 @@ section + section { break-before: page; page-break-before: always }
   It has no week called an "evaluation period."
   A dead period and a shutdown are not the same thing.
   Messages go on in the first and stop in the second.
-  "Allowed" still means allowed for his age, so nothing before 1 August of junior year.</p>
+  "Allowed" still means allowed for his age, so nothing before 1 August of junior year.</p></div>
 
   <h3>Visits, by level</h3>
   <table class="flow cal four"><colgroup><col class="c-when"><col class="c-what"><col class="c-why"><col class="c-where"></colgroup>
@@ -584,7 +600,7 @@ section + section { break-before: page; page-break-before: always }
   </div>
 </section>
 <section class="newpage">
-  <div class="pagehead"><span class="label">The Commit Book &middot; Baseball</span><span class="label">Where he is seen</span></div>
+  <div class="pagehead"><span class="label">The Commit Book &middot; Men's Baseball</span><span class="label">Where he is seen</span></div>
   <h2>5. Club, camps, and where he is seen</h2>
   <p class="lead">A coach can only recruit a player he is allowed to watch.
   So this chapter starts with where the rules let a coach be.
@@ -608,8 +624,7 @@ section + section { break-before: page; page-break-before: always }
       <tr><td class="d">12 Oct 2026 to 28 Feb 2027</td><td>Quiet period</td><td>No watching off campus, all winter.</td></tr>
       <tr><td class="d">1 Mar to 31 Jul 2027</td><td>Contact period</td><td>Open, but for three dead periods: 31 May to 7 June 2027, 19 to 21 June 2027, and 3 to 5 July 2027.</td></tr>
     </tbody>
-  </table>
-  <p class="small">Source: Division I Baseball 2026-27 NCAA Recruiting Calendar, updated 30 July 2026, read 11 November 2026. It is the only year printed. The dead periods and shutdowns inside the winter quiet period are in Chapter 3.</p>
+  <tfoot><tr><td class="small" colspan="3">Source: Division I Baseball 2026-27 NCAA Recruiting Calendar, updated 30 July 2026, read 11 November 2026. It is the only year printed. The dead periods and shutdowns inside the winter quiet period are in Chapter 3.</td></tr></tfoot></table>
   <p>Read it by season.
   Fall has one open month.
   Winter is closed.
@@ -640,7 +655,7 @@ section + section { break-before: page; page-break-before: always }
   </ul>
 
   <h3>How many programs there are</h3>
-  <table class="cal"><colgroup><col class="c-when"><col class="c-what"><col class="c-why"></colgroup>
+  <div class="avoid"><table class="cal"><colgroup><col class="c-when"><col class="c-what"><col class="c-why"></colgroup>
     <thead><tr><th style="width:22%">Level</th><th style="width:16%">Programs</th><th>How it was counted, and when</th></tr></thead>
     <tbody>
       <tr><td class="d">Division I</td><td>309</td><td rowspan="3">The NCAA table "2026-27 NCAA Projected Sport Sponsorship: As of September 2026." Its data closed on 29 July 2026. Read 11 November 2026. The three add up to 940.</td></tr>
@@ -651,7 +666,7 @@ section + section { break-before: page; page-break-before: always }
     </tbody>
   </table>
   <p>Division III is the largest NCAA group.
-  The NAIA and junior college rows are softer than the NCAA rows, and Chapter 11 says why.</p>
+  The NAIA and junior college rows are softer than the NCAA rows, and Chapter 11 says why.</p></div>
 
   <h3>Build your own list</h3>
   <ol class="tight">
@@ -675,7 +690,7 @@ section + section { break-before: page; page-break-before: always }
   </div>
 </section>
 <section class="newpage">
-  <div class="pagehead"><span class="label">The Commit Book &middot; Baseball</span><span class="label">The email</span></div>
+  <div class="pagehead"><span class="label">The Commit Book &middot; Men's Baseball</span><span class="label">The email</span></div>
   <h2>6. What to send, and what good video looks like</h2>
   <p class="lead">One email, from him, with two links.
   It is short.
@@ -731,7 +746,7 @@ player@example.com
   </ul>
 
   <h3>When to send it</h3>
-  <table>
+  <div class="avoid"><table>
     <thead><tr><th style="width:22%">Level</th><th>When a coach may answer</th></tr></thead>
     <tbody>
       <tr><td class="d">Division I</td><td>From 1 August 2027, PROJECTED from the rule. Send it that morning.</td></tr>
@@ -744,7 +759,7 @@ player@example.com
   After the first email, send three kinds of news.
   Send his schedule before each event.
   Send his grades each term.
-  Send any new number, with the tool and the date.</p>
+  Send any new number, with the tool and the date.</p></div>
 
   <div class="box">
     <h3>Label every number</h3>
@@ -775,7 +790,7 @@ player@example.com
   </ul>
 </section>
 <section class="newpage">
-  <div class="pagehead"><span class="label">The Commit Book &middot; Baseball</span><span class="label">Paper</span></div>
+  <div class="pagehead"><span class="label">The Commit Book &middot; Men's Baseball</span><span class="label">Paper</span></div>
   <h2>7. What the paperwork really means</h2>
   <p class="lead">Three kinds of paper decide whether he plays: an account, a list of classes, and a signed offer.
   Each level uses its own paper.
@@ -787,7 +802,7 @@ player@example.com
   The second is the Athletics Certification account.
   The third is the Profile Page account, and it is free.
   The NCAA's own register page lists all three.</p>
-  <table>
+  <div class="avoid"><table>
     <thead><tr><th style="width:34%">Where the fee is printed</th><th style="width:30%">The fee</th><th>When this book read it</th></tr></thead>
     <tbody>
       <tr><td>The Center's live registration page</td><td>$120 for a student in this country. $180 for a student from abroad.</td><td>11 November 2026</td></tr>
@@ -796,7 +811,7 @@ player@example.com
   </table>
   <p><strong>The Center's own page wins.</strong>
   Two NCAA sources print two fees.
-  Pay what the live registration page shows on the day he registers.</p>
+  Pay what the live registration page shows on the day he registers.</p></div>
   <ul class="tight">
     <li><strong>The Center waits for a school.</strong>
     Its page says, "We will not begin your certification until it is requested by an NCAA school."
@@ -811,7 +826,7 @@ player@example.com
   </ul>
 
   <h3>The classes: 16 core courses</h3>
-  <table class="cal"><colgroup><col class="c-when"><col class="c-what"><col class="c-why"></colgroup>
+  <div class="avoid"><table class="cal"><colgroup><col class="c-when"><col class="c-what"><col class="c-why"></colgroup>
     <thead><tr><th style="width:16%">Level</th><th>What the rule asks for</th><th style="width:30%">Where it is printed</th></tr></thead>
     <tbody>
       <tr><td class="d">Division I</td><td>16 core courses. He must finish 10 of them before his seventh semester of high school starts. Seven of those 10 must be English, math, or natural or physical science. He also needs a Grade Point Average of at least 2.300 in his core courses.</td><td>Bylaws 14.3.1.1(a) and 14.3.1.1(b), Division I Manual 2026-27</td></tr>
@@ -822,7 +837,7 @@ player@example.com
   <p>The seventh semester is the first half of 12th grade.
   So the 10 are counted before senior year starts, and those 10 grades are then locked.
   Ask his counselor which of his classes the NCAA counts.
-  Division I asks for a core-course Grade Point Average of at least 2.300. That is Bylaw 14.3.1.1(a).</p>
+  Division I asks for a core-course Grade Point Average of at least 2.300. That is Bylaw 14.3.1.1(a).</p></div>
 
   <h3>The signed offer</h3>
   <p><strong>There is no National Letter of Intent.</strong>
@@ -838,7 +853,7 @@ player@example.com
   For the class of 2029 the day is PROJECTED as Wednesday 8 November 2028.
   This book worked that out from the rule, and the NCAA has not printed it.
   The NCAA says the last day to sign is "based on institutional policy," so each school sets its own.</p>
-  <table class="cal"><colgroup><col class="c-when"><col class="c-what"><col class="c-why"></colgroup>
+  <div class="avoid"><table class="cal"><colgroup><col class="c-when"><col class="c-what"><col class="c-why"></colgroup>
     <thead><tr><th style="width:16%">Level</th><th style="width:40%">What he signs</th><th>First day, class of 2029</th></tr></thead>
     <tbody>
       <tr><td class="d">Division I</td><td>An athletics aid agreement.</td><td>PROJECTED Wednesday 8 November 2028, from Bylaw 13.02.13.1(f).</td></tr>
@@ -849,7 +864,7 @@ player@example.com
     </tbody>
   </table>
   <p>A player who graduates at midyear, and will enroll at midyear, may sign from the first day too.
-  That is Bylaw 13.02.13.1.1.</p>
+  That is Bylaw 13.02.13.1.1.</p></div>
 
   <h3>A junior college year and the clock</h3>
   <p>The NCAA gives a player a five-year clock.
@@ -872,7 +887,7 @@ player@example.com
   </div>
 </section>
 <section class="newpage">
-  <div class="pagehead"><span class="label">The Commit Book &middot; Baseball</span><span class="label">Money</span></div>
+  <div class="pagehead"><span class="label">The Commit Book &middot; Men's Baseball</span><span class="label">Money</span></div>
   <h2>8. What it costs, and what is wasted</h2>
   <p class="lead">This sport has two kinds of price.
   A fee is set by a body that makes the rules, and it is the same for every family.
@@ -889,8 +904,7 @@ player@example.com
       <tr><td>Range of answers</td><td>From nothing to almost $25,000</td></tr>
       <tr><td>Rise in baseball spending over five years</td><td>68 percent</td></tr>
     </tbody>
-  </table>
-  <p class="small">Source: the Aspen Institute's Project Play survey of 1,848 youth sports parents, taken in November and December 2024, for children ages 6 to 18. Read 11 November 2026.</p>
+  <tfoot><tr><td class="small" colspan="2">Source: the Aspen Institute's Project Play survey of 1,848 youth sports parents, taken in November and December 2024, for children ages 6 to 18. Read 11 November 2026.</td></tr></tfoot></table>
   <p>The survey calls baseball "the most expensive in 2024 among the three most-played sports."
   Baseball parents spent more than soccer or basketball parents on four things.
   The four were sign-up fees, travel and hotels, lessons, and camps.
@@ -899,7 +913,7 @@ player@example.com
   This book found no official figure for what a recruit costs a family.</p>
 
   <h3>Fees a rule body sets</h3>
-  <table>
+  <div class="avoid"><table>
     <thead><tr><th style="width:34%">Fee</th><th style="width:30%">Amount</th><th>Where it is printed, and when it was read</th></tr></thead>
     <tbody>
       <tr><td>NCAA Eligibility Center, the account for Division I or Division II</td><td>$120 in this country, $180 from abroad</td><td>The Center's live registration page, 11 November 2026</td></tr>
@@ -907,7 +921,7 @@ player@example.com
       <tr><td>NCAA Profile Page account</td><td>Free</td><td>The NCAA's register page, 11 November 2026</td></tr>
     </tbody>
   </table>
-  <p>The Center's own page wins. Chapter 7 says why two figures are in print.</p>
+  <p>The Center's own page wins. Chapter 7 says why two figures are in print.</p></div>
 
   <h3>SERVICE prices: camps, events and streaming</h3>
   <p>This book found prices for camps, team events and game streaming.
@@ -971,7 +985,7 @@ player@example.com
   </div>
 </section>
 <section class="newpage">
-  <div class="pagehead"><span class="label">The Commit Book &middot; Baseball</span><span class="label">Year by year</span></div>
+  <div class="pagehead"><span class="label">The Commit Book &middot; Men's Baseball</span><span class="label">Year by year</span></div>
   <h2>9. Checklist by grade</h2>
   <p class="lead">One row per year, in order. Cross items off.
   If a year slips, the fix is most often more schools and one more month, not more money.</p>
@@ -1026,7 +1040,7 @@ player@example.com
   </div>
 </section>
 <section class="newpage">
-  <div class="pagehead"><span class="label">The Commit Book &middot; Baseball</span><span class="label">Mistakes</span></div>
+  <div class="pagehead"><span class="label">The Commit Book &middot; Men's Baseball</span><span class="label">Mistakes</span></div>
   <h2>10. Ten ways families get baseball wrong</h2>
   <ol class="flow tight">
     <li><strong>They count 11.7 scholarships.</strong>
@@ -1068,7 +1082,7 @@ player@example.com
   </ol>
 </section>
 <section class="newpage">
-  <div class="pagehead"><span class="label">The Commit Book &middot; Baseball</span><span class="label">Proof</span></div>
+  <div class="pagehead"><span class="label">The Commit Book &middot; Men's Baseball</span><span class="label">Proof</span></div>
   <h2>11. Sources, and what we could not settle</h2>
   <p class="lead">Every rule, number and date in this book came from one of the documents below, read on 11 November 2026.
   Where two official pages disagree, both figures are printed in the chapter that uses them.</p>
@@ -1105,7 +1119,7 @@ player@example.com
   All four rows were read from a search summary of that page, and not from the full page.
   They are used here as examples of a price.
   They are not a shortlist of where to go.</p>
-  <table>
+  <div class="avoid"><table>
     <thead><tr><th style="width:30%">What it is</th><th style="width:32%">SERVICE price</th><th>Where it was read</th></tr></thead>
     <tbody>
       <tr><td>One Division I school's summer showcase camp</td><td>$250. A data package and a speed and power session are $100 each.</td><td>The seller's own page, read 11 November 2026.</td></tr>
@@ -1115,7 +1129,7 @@ player@example.com
     </tbody>
   </table>
   <p>The six camp prices run from $100 to $250 for one day, before add-ons.
-  That is six listings, not a survey.</p>
+  That is six listings, not a survey.</p></div>
 
   <h3>What we could not settle</h3>
   <p>Each item below is UNCONFIRMED. This book has no document that settles it.</p>

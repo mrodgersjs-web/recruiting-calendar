@@ -22,11 +22,37 @@
   * After printing, copy the four PDFs into pdfs/, run site.py --apply twice so the
   * catalogue picks up the page counts, and run gate.py.
   */
-const LANE = process.env.PWD ? process.env.PWD + '/' : 'C:/Users/Jloeh/Developer/recruiting-calendar/v3/W28-four-sports/';
-const PAD = 'width:100%;padding:0 14mm;box-sizing:border-box;font:600 8px "Barlow Condensed",Arial,sans-serif;color:#141414';
-const FOOT = '<div style="' + PAD + ';display:flex;justify-content:space-between;letter-spacing:.08em">'
-  + '<span>recruitingiq \u00b7 the commit book</span>'
-  + '<span><span class="pageNumber"></span> / <span class="totalPages"></span></span></div>';
+const LANE = (typeof process !== 'undefined' && process.env && process.env.PWD)
+  ? process.env.PWD + '/'
+  : 'C:/Users/Jloeh/Developer/recruiting-calendar/v3/W28-four-sports/';
+const PAD = "width:100%;padding:0 14mm;box-sizing:border-box";
+/* The style goes in a SINGLE-quoted attribute. In a double-quoted attribute a font
+   family name carrying quotes ends the attribute early, and every declaration after
+   the truncated font shorthand was dropped: the head printed 0.6 pt tall, and the
+   flexbox that pushes the page number to the right edge printed nothing, so the
+   number sat glued to the brand on the left. A print auditor measured both, and no
+   text-layer check could see either. The family is Arial Narrow, not Barlow
+   Condensed, because the template is its own document and loads no webfont. */
+/* No quote character of any kind may appear inside this value. The attribute that carries
+   it is single-quoted, and a family name in single quotes closed the attribute mid-declaration
+   just as happily as one in double quotes: the head printed at 0.7 pt with no font size, no
+   letter spacing and no colour at all, and only the content-stream measurement caught it,
+   twice, from two different directions. Arial stands in for Barlow Condensed because the
+   template is its own document and loads no webfont. */
+const HFONT = "font-family:Arial,Helvetica,sans-serif;font-size:8px;font-weight:600;color:#141414";
+
+function headBand(word) {
+  return "<div style='" + PAD + ";" + HFONT + ";letter-spacing:.25em;text-transform:uppercase'>"
+    + word.toUpperCase() + " PLAYBOOK \u00b7 EDITION 2026-27</div>";
+}
+
+/* The footer is a table, not flexbox: the page number belongs at the right edge of
+   the paper, and the wording is the one the shelf books carry. */
+const FOOT_BAND = "<div style='" + PAD + ";" + HFONT + ";letter-spacing:.08em'>"
+  + "<table style=\"width:100%;border-collapse:collapse\"><tr>"
+  + "<td style=\"text-align:left;font-weight:400\">The Commit Book \u00b7 Education, not legal advice \u00b7 no outcome promised</td>"
+  + "<td style=\"text-align:right\"><span class=\"pageNumber\"></span> / <span class=\"totalPages\"></span></td>"
+  + "</tr></table></div>";
 
 function headWord(html) {
   const m = /class="label"[^>]*>The Commit Book\s*(?:&middot;|\u00b7)\s*([^<]+)</i.exec(html);
@@ -37,18 +63,18 @@ function headWord(html) {
 async function printBook(slug, outDir) {
   const html = await fs.readFile(LANE + slug + '-deck.html', 'utf8');
   const word = headWord(html);
-  const head = '<div style="' + PAD + ';letter-spacing:.25em;text-transform:uppercase">The Commit Book \u00b7 ' + word + '</div>';
+  const head = headBand(word);
   const tab = await openTab('data:text/html;base64,' + Buffer.from(html, 'utf8').toString('base64'));
   await tab.emulateMedia({ media: 'print' });
   await tab.evaluate(() => document.fonts.ready);
   const path = outDir + slug + '.pdf';
   await tab.pdf({
     path, preferCSSPageSize: true, displayHeaderFooter: true,
-    headerTemplate: head, footerTemplate: FOOT, printBackground: true,
+    headerTemplate: head, footerTemplate: FOOT_BAND, printBackground: true,
     margin: { top: 0, bottom: 0, left: 0, right: 0 },
   });
   await closeTab(tab);
   const bytes = (await fs.stat(path)).size;
-  console.log('printed ' + slug + '.pdf  head: THE COMMIT BOOK \u00b7 ' + word.toUpperCase() + '  ' + Math.round(bytes / 1024) + ' KB');
+  console.log('printed ' + slug + '.pdf  running head: ' + word.toUpperCase() + ' PLAYBOOK / EDITION 2026-27  ' + Math.round(bytes / 1024) + ' KB');
   return path;
 }

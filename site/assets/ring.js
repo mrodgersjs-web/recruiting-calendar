@@ -161,6 +161,7 @@ renderPanel(silent){
  const KIND2=(a)=>(a&&a.art_kind==='silhouette')?'Silhouette':'Illustration';
  const a=this.A[this.index],ul=this.querySelector('[data-items]');
  var _n=a.playbooks.filter(ok).length;this.querySelector('[data-count]').textContent=_n===1?'1 playbook':_n+' playbooks';this.querySelector('.sr__phead').style.display=_n?'':'none';
+   this.querySelector('.sr__pinner').classList.toggle('no-head',!_n);
  this.querySelector('[data-who]').textContent=isPending(a)?META(a):`${a.short} · ${builtInfo(a).label} · ${KIND(a)}. The name is a placeholder; every date and rule is cited on the page that uses it.`;
  ul.innerHTML=a.playbooks.filter(ok).map((p,i)=>{const pb=this.P[p],on=this.bag.has(p);return `<li class="sr__item" style="--i:${i+1}"><span class="sr__thumb">${String(i+1).padStart(2,'0')}</span><span><div class="sr__itype">Playbook · $${pb.price}, one-time</div><a class="sr__iname" href="/playbooks/${p}">${pb.title}</a></span><button class="sr__add" data-add="${p}" aria-pressed="${on}">${on?'Added':'Get'}</button></li>`}).join('');
  const pi=this.querySelector('.sr__pinner');pi.classList.remove('is-in');void pi.offsetWidth;pi.classList.add('is-in');

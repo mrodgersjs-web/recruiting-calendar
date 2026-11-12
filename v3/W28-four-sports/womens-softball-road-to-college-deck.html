@@ -24,7 +24,7 @@ section + section { page-break-before: auto }
 tr{page-break-inside:avoid}
 p{margin:0 0 2mm}
 .lead{font-size:11.1pt;line-height:1.45;color:var(--ink2);max-width:44em}
-a{color:var(--ink);text-decoration:none;word-break:break-all}
+a{color:var(--ink);text-decoration:none;overflow-wrap:anywhere;word-break:normal;hyphens:none}
 .small{font-size:8.6pt;color:var(--ink3);line-height:1.42}
 strong{font-weight:700}
 hr.dbl{border:0;border-top:3px double var(--ink);margin:3mm 0}
@@ -72,7 +72,7 @@ ul.tight li,ol.tight li{margin-bottom:.9mm}
 .two{column-count:2;column-gap:7mm}
 .sig{margin-top:6mm;border-top:3px double var(--ink);padding-top:2.5mm}
 .avoid{page-break-inside:avoid}td,th{page-break-inside:avoid}
-src{display:block;font-size:8.4pt;color:var(--ink3);margin-bottom:1.6mm;overflow-wrap:anywhere;word-break:break-all}
+src{display:block;font-size:8.4pt;color:var(--ink3);margin-bottom:1.6mm;overflow-wrap:anywhere;word-break:normal;hyphens:none}
 
 section.newpage { page-break-before: always; break-before: page }
 
@@ -97,10 +97,29 @@ section + section { break-before: page; page-break-before: always }
  p, li, dd { orphans: 2; widows: 2 }
 /* W28: a bordered block may not bleed past its own box on the right. */
  .box, .tmpl, .cover, .split, .two, td, th { box-sizing: border-box }
-/* W28: the calendar grid belongs to the template, not to each table, so all five
-   books set their date columns the same width. deck.py labels the tables and writes
-   the colgroup; these rules are what make the widths stick. */
- table.cal { table-layout: fixed }
+/* W28: the calendar grid belongs to the template, not to each table, so every book
+   sets its date columns alike. The percentages are measured against THIS page box:
+   8.5in of paper less two 14 mm margins is a 7.4in text column. The shipped book
+   puts its first rule at 1.83in and its third column at 4.64in, so 24.7% and 38% are
+   what those are in this box. The four-book had been set to 26.5% against a 6.9in
+   column that this template does not have, which is why four auditors saw a
+   date column of 1.96in and a third column starting half an inch late. */
+table.cal { table-layout: fixed }
+table.cal col.c-when { width: 24.7% }   /* 1.83in, where the shipped book draws its first rule */
+table.cal col.c-what { width: 38% }     /* the td.w width the shipped book already uses */
+table.cal col.c-why { width: 37.3% }
+table.cal.four col.c-when { width: 24.7% }
+table.cal.four col.c-what { width: 38% }
+table.cal.four col.c-why { width: 19.3% }
+table.cal.four col.c-where { width: 18% }
+/* A splitting table may not leave one row behind, and may not strand its last row at
+   the top of a page: on softball the glossary split after its first row, and a chapter
+   ended with one row alone. The first four rows are glued, the last row cannot lead. */
+table.flow tr:nth-child(-n+3) { break-after: avoid; page-break-after: avoid }
+table.flow tr:last-child { break-before: avoid; page-break-before: avoid }
+/* A note under a table qualifies that table. The SERVICE note on pitch speeds printed
+   a page away from the speeds it covers. */
+table + .small, table + .note, table + p.small, table + p.note { break-before: avoid; page-break-before: avoid } table.cal { table-layout: fixed }
  table.cal col.c-when { width: 26.5% }   /* 1.83in of the 6.9in text column, as the shipped book sets it */
  table.cal col.c-what { width: 40.5% }
  table.cal col.c-why { width: 33% }
@@ -145,7 +164,7 @@ section + section { break-before: page; page-break-before: always }
   marked PROJECTED are worked out from the rule text, not printed by the NCAA yet. Chapter 3 lists them.</p>
 </section>
 <section class="newpage">
-  <div class="pagehead"><span class="label">The Commit Book &middot; Softball</span><span class="label">Before you start</span></div>
+  <div class="pagehead"><span class="label">The Commit Book &middot; Women's Softball</span><span class="label">Before you start</span></div>
   <h2>1. Read this first</h2>
   <p class="lead">Read Chapter 2 before you spend any money. Then put the plan in Chapter 3 on one page and cross items
   off. The rest is for looking things up: what the rules allow, what to send, what the paper means, and what it costs.</p>
@@ -232,12 +251,9 @@ section + section { break-before: page; page-break-before: always }
       it before a paid Division I visit. It is not an offer.</td></tr>
       <tr><td class="d">12U, 14U, 16U, 18U</td><td>Age groups in travel ball. 14U means players 14 and under.</td></tr>
     </tbody>
-  </table>
-  <p class="small">The five period meanings are printed on the 2026-27 softball calendar itself. Read 11 November
-  2026.</p>
-</section>
+  <tfoot><tr><td class="small" colspan="2">The five period meanings are printed on the 2026-27 softball calendar itself. Read 11 November 2026.</td></tr></tfoot></table></section>
 <section class="newpage">
-  <div class="pagehead"><span class="label">The Commit Book &middot; Softball</span><span class="label">The roster</span></div>
+  <div class="pagehead"><span class="label">The Commit Book &middot; Women's Softball</span><span class="label">The roster</span></div>
   <h2>2. How many players a team can take</h2>
   <p class="lead">Start with the size of the team. A coach adds players as places open. This chapter gives the
   limit at each level, the real squad sizes, and the odds. Each number names the page it came from.</p>
@@ -266,10 +282,7 @@ section + section { break-before: page; page-break-before: always }
       says it is tentative as of 16 December 2025. The chart is reissued during the year, so check the
       association's own page for the newest file.</td></tr>
     </tbody>
-  </table>
-  <p class="small">All six rows were read on 11 November 2026.</p>
-
-  <h3>The 25-player limit, and why it is not 25 scholarships</h3>
+  <tfoot><tr><td class="small" colspan="3">All six rows were read on 11 November 2026.</td></tr></tfoot></table><h3>The 25-player limit, and why it is not 25 scholarships</h3>
   <p>One recruiting site says Division I softball teams are allowed "up to 25 scholarships per year." The rule does not
   say that. The 25 is a cap on people. The cap on scholarships was taken away at settlement schools. The College
   Sports Commission prints the softball row of its table like this:</p>
@@ -297,10 +310,7 @@ section + section { break-before: page; page-break-before: always }
       <tr><td class="d">Division III</td><td>8,435</td><td>399</td><td>21.1</td><td>about 5.3</td></tr>
       <tr><td class="d">All three</td><td>21,916</td><td>983</td><td>22.3</td><td>not worked out</td></tr>
     </tbody>
-  </table>
-  <p class="small">Players, teams and averages: NCAA Sports Sponsorship and Participation Rates Report, the 2024-25
-  table on PDF page 94. Read 11 November 2026. A player here is anyone on the squad list at any point in the year. The
-  last column is this book's arithmetic. It is not a published number.</p>
+  <tfoot><tr><td class="small" colspan="5">Players, teams and averages: NCAA Sports Sponsorship and Participation Rates Report, the 2024-25 table on PDF page 94. Read 11 November 2026. A player here is anyone on the squad list at any point in the year. The last column is this book's arithmetic. It is not a published number.</td></tr></tfoot></table>
   <p>Now the part nobody prints. Take the average squad and divide it by four class years. A team can add about five or six
   new players a year. That is a ceiling, and it is arithmetic. It assumes four equal classes and no transfers. Each
   transfer a coach takes is one fewer place for a high school player. So the real number for high school girls is
@@ -315,9 +325,7 @@ section + section { break-before: page; page-break-before: always }
       <tr><td>2024-25, counted after the season</td><td>301</td><td>283</td><td>399</td><td>983</td></tr>
       <tr><td>The year before, same report</td><td>297</td><td>282</td><td>403</td><td>982</td></tr>
     </tbody>
-  </table>
-  <p class="small">First row: NCAA membership and sport sponsorship page. Other rows: the participation report, PDF
-  pages 94 and 92. Read 11 November 2026. Three counts are in use because they are three different years.</p>
+  <tfoot><tr><td class="small" colspan="5">First row: NCAA membership and sport sponsorship page. Other rows: the participation report, PDF pages 94 and 92. Read 11 November 2026. Three counts are in use because they are three different years.</td></tr></tfoot></table>
   <p>Below the NCAA the counts are weaker. This book found no official softball total for either level.</p>
   <table class="cal"><colgroup><col class="c-when"><col class="c-what"><col class="c-why"></colgroup>
     <thead><tr><th style="width:20%">Level</th><th style="width:32%">Teams</th><th>Where the count came from</th></tr></thead>
@@ -327,9 +335,7 @@ section + section { break-before: page; page-break-before: always }
       <tr><td class="d">Junior college</td><td>364, not settled. See Chapter 5.</td><td>One recruiting company's
       number. It covers all junior colleges, not only the NJCAA.</td></tr>
     </tbody>
-  </table>
-  <p class="small"><span class="tag">SERVICE</span> The 197 and the 364 come from one company's table, which shows
-  no date. Read 11 November 2026.</p>
+  <tfoot><tr><td class="small" colspan="3"><span class="tag">SERVICE</span> The 197 and the 364 come from one company's table, which shows no date. Read 11 November 2026.</td></tr></tfoot></table>
 
   <h3>The odds, from the NCAA's own table</h3>
   <p>The NCAA's table was last updated in March 2026. It says 338,315 girls play high school softball. It says 21,916
@@ -353,7 +359,7 @@ section + section { break-before: page; page-break-before: always }
   </div>
 </section>
 <section class="newpage">
-  <div class="pagehead"><span class="label">The Commit Book &middot; Softball</span><span class="label">Class of 2029</span></div>
+  <div class="pagehead"><span class="label">The Commit Book &middot; Women's Softball</span><span class="label">Class of 2029</span></div>
   <h2>3. The plan by date, class of 2029</h2>
   <p class="lead">She is in 10th grade in 2026-27. The NCAA has printed one softball calendar so far that covers her:
   2026-27. Her junior year is 2027-28 and her senior year is 2028-29. Neither of those calendars is published yet. So
@@ -401,12 +407,7 @@ section + section { break-before: page; page-break-before: always }
       "During high school regional and state championship competition that does not occur during a dead
       period."</td><td>The rule is printed. The dates are not. They come from your state association.</td></tr>
     </tbody>
-  </table>
-  <p class="small">Proof: 2026-27 NCAA Recruiting Calendar, Division I Softball, updated 30 July 2026. The Division I
-  Manual no longer prints sport calendars. Bylaw 13.17, revised 7 October 2026, sends readers to the NCAA site. Read
-  11 November 2026.</p>
-
-  <div class="box">
+  <tfoot><tr><td class="small" colspan="3">Proof: 2026-27 NCAA Recruiting Calendar, Division I Softball, updated 30 July 2026. The Division I Manual no longer prints sport calendars. Bylaw 13.17, revised 7 October 2026, sends readers to the NCAA site. Read 11 November 2026.</td></tr></tfoot></table><div class="box">
     <h3>The calendar's own asterisk</h3>
     <p style="margin-bottom:0">The two June dates carry an asterisk on the printed page. WCWS in it is short for the
     Women's College World Series. So the June dates are set from that event's schedule. They move every year. The
@@ -439,11 +440,7 @@ section + section { break-before: page; page-break-before: always }
       group, "All Other Division I and II Sports." The last date is set by each school's own policy.</td><td>NCAA
       signing dates sheet for 2026-27. Division I Manual, Figure 13-2.</td></tr>
     </tbody>
-  </table>
-  <p class="small">Read 11 November 2026. The Division II dead period starts at 7 a.m. on 9 November 2026. The other
-  dead periods on the Division II page sit under a football heading, and the manual lists them as football's. The
-  month grid colors them too, so the grid alone can mislead. Division III has no recruiting calendar. The NAIA says it
-  has none. The junior college bylaws print none.</p>
+  <tfoot><tr><td class="small" colspan="3">Read 11 November 2026. The Division II dead period starts at 7 a.m. on 9 November 2026. The other dead periods on the Division II page sit under a football heading, and the manual lists them as football's. The month grid colors them too, so the grid alone can mislead. Division III has no recruiting calendar. The NAIA says it has none. The junior college bylaws print none.</td></tr></tfoot></table>
 
   <h3>Her own dates, worked out from the rules</h3>
   <table class="flow cal"><colgroup><col class="c-when"><col class="c-what"><col class="c-why"></colgroup>
@@ -500,7 +497,7 @@ section + section { break-before: page; page-break-before: always }
   </div>
 </section>
 <section class="newpage">
-  <div class="pagehead"><span class="label">The Commit Book &middot; Softball</span><span class="label">The rules</span></div>
+  <div class="pagehead"><span class="label">The Commit Book &middot; Women's Softball</span><span class="label">The rules</span></div>
   <h2>4. What a coach may and may not do</h2>
   <p class="lead">Each level has its own rules. Division I softball is the strict one, and it has its own dates. Read
   the first table slowly. It is the one a recruiting site can get wrong.</p>
@@ -528,10 +525,7 @@ section + section { break-before: page; page-break-before: always }
       <tr><td class="d">Unpaid visit</td><td>No unofficial visit that involves the athletics staff, a team tour or free
       tickets before that same time.</td><td>13.7.1.4</td></tr>
     </tbody>
-  </table>
-  <p class="small">Proof: Division I Manual 2026-27. Read 11 November 2026.</p>
-
-  <h3>Why "June 15" is wrong for softball</h3>
+  <tfoot><tr><td class="small" colspan="3">Proof: Division I Manual 2026-27. Read 11 November 2026.</td></tr></tfoot></table><h3>Why "June 15" is wrong for softball</h3>
   <p>One softball recruiting site, on a page marked "Updated August 2026," prints this:</p>
   <blockquote>"D1 and D2: Coaches cannot call, text, or email you until June 15 after your sophomore year. You can
   contact them any time."</blockquote>
@@ -548,7 +542,7 @@ section + section { break-before: page; page-break-before: always }
     </tbody>
   </table>
   <p>The site is wrong about Division II as well. Division II coaches may call and write at any time. And "contact them
-  any time" misses a rule. Before 1 September of junior year, a Division I softball coach may not take her call.</p>
+  any time" misses a rule. Before 1 September of junior year, a Division I softball coach may not take her call.</p></div>
 
   <h3>How many times a Division I coach may see her</h3>
   <ul class="tight">
@@ -583,13 +577,7 @@ section + section { break-before: page; page-break-before: always }
       players.</td><td>Staff may visit her at any place to recruit. They may not spend money on her or her
       family.</td><td>NJCAA Bylaws 2026-27, Article VI, Sections 4.C and 4.D.</td></tr>
     </tbody>
-  </table>
-  <p class="small">Read 11 November 2026. NAIA tryouts have two official wordings. The handbook allows two days "for a
-  specific student per member institution" and no more. Two NAIA web pages, dated 11 May 2026, allow two days
-  "throughout your entire athletic career" and no more. The two do not agree. Ask the school which one it
-  follows.</p>
-
-  <h3>Visits: how long, and who is paid for</h3>
+  <tfoot><tr><td class="small" colspan="4">Read 11 November 2026. NAIA tryouts have two official wordings. The handbook allows two days "for a specific student per member institution" and no more. Two NAIA web pages, dated 11 May 2026, allow two days "throughout your entire athletic career" and no more. The two do not agree. Ask the school which one it follows.</td></tr></tfoot></table><h3>Visits: how long, and who is paid for</h3>
   <table class="flow cal four"><colgroup><col class="c-when"><col class="c-what"><col class="c-why"><col class="c-where"></colgroup>
     <thead><tr><th style="width:15%">Level</th><th style="width:21%">First paid visit</th><th style="width:15%">How long</th><th>Who the college may pay for</th></tr></thead>
     <tbody>
@@ -609,12 +597,7 @@ section + section { break-before: page; page-break-before: always }
       year.</td><td>No more than 48 hours.</td><td>Her and two guests: travel, meals and lodging by the college's own
       policy. Campus and the local town only. No tickets beyond what the public gets.</td></tr>
     </tbody>
-  </table>
-  <p class="small">Proof: Division I Manual, Bylaws 13.6.2.1.4, 13.6.2.2, 13.6.4, 13.5.2.1, 13.5.2.6, 13.6.6, 13.6.7.2,
-  13.6.7.4 and 13.6.7.7. Division II Manual, Bylaws 13.3.1.1, 13.3.1.2, 13.3.3, 13.3.4.1, 13.3.5, 13.3.6.2, 13.3.7 and
-  13.3.8. Division III Manual, Bylaws 13.6.1.1, 13.6.1.1.1, 13.6.2, 13.6.4, 13.6.5.2 and 13.6.6. NAIA Official Handbook 2026-2027, Article
-  II, Section C, Item 3. NJCAA Bylaws, Article VI, Section 4.B.1. Read 11 November 2026.</p>
-  <h3>Before a Division I paid visit</h3>
+  <tfoot><tr><td class="small" colspan="4">Proof: Division I Manual, Bylaws 13.6.2.1.4, 13.6.2.2, 13.6.4, 13.5.2.1, 13.5.2.6, 13.6.6, 13.6.7.2, 13.6.7.4 and 13.6.7.7. Division II Manual, Bylaws 13.3.1.1, 13.3.1.2, 13.3.3, 13.3.4.1, 13.3.5, 13.3.6.2, 13.3.7 and 13.3.8. Division III Manual, Bylaws 13.6.1.1, 13.6.1.1.1, 13.6.2, 13.6.4, 13.6.5.2 and 13.6.6. NAIA Official Handbook 2026-2027, Article II, Section C, Item 3. NJCAA Bylaws, Article VI, Section 4.B.1. Read 11 November 2026.</td></tr></tfoot></table><h3>Before a Division I paid visit</h3>
   <p class="keepnext">Three things must be done first. This is Bylaw 13.6.3.</p>
   <ol class="tight">
     <li>She sends the school a transcript.</li>
@@ -639,7 +622,7 @@ section + section { break-before: page; page-break-before: always }
   </ul>
 </section>
 <section class="newpage">
-  <div class="pagehead"><span class="label">The Commit Book &middot; Softball</span><span class="label">Where she is seen</span></div>
+  <div class="pagehead"><span class="label">The Commit Book &middot; Women's Softball</span><span class="label">Where she is seen</span></div>
   <h2>5. Club, camps, and where she is seen</h2>
   <p class="lead">A Division I coach may not watch just any game on just any day. The calendar says which kind of
   softball may be watched, and when. Learn that first. Then pick the events.</p>
@@ -661,10 +644,7 @@ section + section { break-before: page; page-break-before: always }
       <tr><td class="d">1-11 Jun 2027</td><td>Dead period</td><td>Nothing.</td></tr>
       <tr><td class="d">12 Jun-31 Jul 2027</td><td>Contact period</td><td>High school softball and travel ball.</td></tr>
     </tbody>
-  </table>
-  <p class="small">Proof: 2026-27 NCAA Recruiting Calendar, Division I Softball, updated 30 July 2026. Read 11 November
-  2026. Dead periods and shutdowns inside these blocks are in Chapter 3. The June dates carry the calendar's
-  asterisk.</p>
+  <tfoot><tr><td class="small" colspan="3">Proof: 2026-27 NCAA Recruiting Calendar, Division I Softball, updated 30 July 2026. Read 11 November 2026. Dead periods and shutdowns inside these blocks are in Chapter 3. The June dates carry the calendar's asterisk.</td></tr></tfoot></table>
   <p>Read the table once more. Outside the two contact periods, the calendar marks travel ball for watching on six fall
   weekends only. The rest of the school year is high school softball only. And in an evaluation period a coach may
   watch but may not meet her off campus. So in 2026-27 a face-to-face meeting away from campus can happen only in the
@@ -707,9 +687,7 @@ section + section { break-before: page; page-break-before: always }
       245,000 softball teams," with "over 83,000 youth girls' fast pitch softball teams"</td><td>"over 2.02 million
       players," with "over 1.2 million girls"</td></tr>
     </tbody>
-  </table>
-  <p class="small">Both read 11 November 2026. Both sets are printed here because this book cannot tell which is
-  current.</p>
+  <tfoot><tr><td class="small" colspan="3">Both read 11 November 2026. Both sets are printed here because this book cannot tell which is current.</td></tr></tfoot></table>
   <p>Travel teams also join membership bodies. One of them places teams in "one of our nine (9) Member Leagues" by
   where they are, for age groups from 8 and under (8U) to 18 and under (18U). That text is from its 2024-2025 season page. From the 2027 season, its
   membership no longer includes membership in the national governing body. Ask the club which bodies it has joined,
@@ -740,7 +718,7 @@ section + section { break-before: page; page-break-before: always }
   </div>
 </section>
 <section class="newpage">
-  <div class="pagehead"><span class="label">The Commit Book &middot; Softball</span><span class="label">The email and the film</span></div>
+  <div class="pagehead"><span class="label">The Commit Book &middot; Women's Softball</span><span class="label">The email and the film</span></div>
   <h2>6. What to send, and what good video looks like</h2>
   <p class="lead">One email, from her, with two links. It is short. Every number in it says how it was measured, and when.
   Then one video that lets a coach check those numbers.</p>
@@ -815,15 +793,13 @@ player@example.com &middot; (555) 555-0148</div>
       sprint.</td></tr>
       <tr><td class="d">Others</td><td>A pro agility shuttle and a vertical jump.</td></tr>
     </tbody>
-  </table>
-  <p class="small">The company says a national coaches' group built these tests. This book did not open that group's
-  own test sheet. Read 11 November 2026. <span class="tag">SERVICE</span></p>
+  <tfoot><tr><td class="small" colspan="2">The company says a national coaches' group built these tests. This book did not open that group's own test sheet. Read 11 November 2026. <span class="tag">SERVICE</span></td></tr></tfoot></table>
   <p>So film the tests she lists in her email. Show the radar gun or the stopwatch in the shot. Put the date, her name,
   her class year and her position on the first frame. Keep the link open, with no login. These four lines are this
   book's own advice. They are not a rule, and no coach this book read said them.</p>
 
   <h3>One company's target chart</h3>
-  <p>No college and no association publishes a pitch speed, a pop time or a sprint time that a player must reach. The
+  <p class="keepnext">No college and no association publishes a pitch speed, a pop time or a sprint time that a player must reach. The
   chart below is one recruiting company's targets. The company does not say how many players it measured, in which
   years, or how. Use it to see the shape, not to judge your daughter. <span class="tag">SERVICE</span></p>
   <table>
@@ -838,12 +814,12 @@ player@example.com &middot; (555) 555-0148</div>
       <tr><td class="d">Center field,<br>home to first</td><td>2.8 or lower</td><td>2.9 or lower</td><td>3.1 or
       lower</td><td>3.2 or lower</td></tr>
     </tbody>
+    <tfoot><tr><td class="small" colspan="5">Read 11 November 2026. Other companies print other
+    numbers. Chapter 8 shows how far apart they are on pitch speed.</td></tr></tfoot>
   </table>
-  <p class="small keepwith">Read 11 November 2026. Other companies print other numbers. Chapter 8 shows how far apart they are
-  on pitch speed.</p>
 </section>
 <section class="newpage">
-  <div class="pagehead"><span class="label">The Commit Book &middot; Softball</span><span class="label">The paper</span></div>
+  <div class="pagehead"><span class="label">The Commit Book &middot; Women's Softball</span><span class="label">The paper</span></div>
   <h2>7. What the paperwork really means</h2>
   <p class="lead">There are three papers to know. The first is her account with the NCAA Eligibility Center. The second
   is the offer she signs. The third is the junior college letter, which works in a different way.</p>
@@ -880,7 +856,7 @@ player@example.com &middot; (555) 555-0148</div>
   </table>
   <p>A core course is a class the NCAA has approved. The guide warns that not every high school class counts toward
   the 16. So ask her counselor which of her classes are NCAA-approved core courses. The guide's wording is on page
-  9.</p>
+  9.</p></div>
 
   <h3>The paper she signs in Division I or II</h3>
   <ul class="tight">
@@ -931,7 +907,7 @@ player@example.com &middot; (555) 555-0148</div>
   has 10 full grants to share. One player may get no more than the real cost of tuition, required fees, books and
   supplies, and her own room and board. But aid to a new freshman with strong grades counts less against the team's
   10, or not at all.</p>
-  <table>
+  <div class="avoid"><table>
     <thead><tr><th style="width:20%">How much is left out</th><th>High school grades</th><th>Test score, first line</th><th>Test score, second line</th><th>Class rank</th></tr></thead>
     <tbody>
       <tr><td class="d">Half</td><td>3.50 to 3.74</td><td>1140 SAT or 23 ACT, for tests on or after 1 May
@@ -939,10 +915,7 @@ player@example.com &middot; (555) 555-0148</div>
       <tr><td class="d">All</td><td>3.75 to 4.0</td><td>1280 SAT or 27 ACT</td><td>1270 SAT or 27 ACT</td><td>Top
       10%</td></tr>
     </tbody>
-  </table>
-  <p class="small">Proof: NAIA Official Handbook 2026-2027, financial aid policy, items G and H, and Bylaws Article II,
-  Section B, Item 1a. Read 11 November 2026. The same policy page prints both test-score lines. This book prints both
-  because it cannot tell which one a school will use.</p>
+  <tfoot><tr><td class="small" colspan="3">Proof: NAIA Official Handbook 2026-2027, financial aid policy, items G and H, and Bylaws Article II, Section B, Item 1a. Read 11 November 2026. The same policy page prints both test-score lines. This book prints both because it cannot tell which one a school will use.</td></tr></tfoot></table>
   <ul class="tight">
     <li>Her aid counts against the team's 10 only if she plays in more than 20% of the varsity games, or in the
     postseason. For softball the handbook puts that at 11 games.</li>
@@ -963,7 +936,7 @@ player@example.com &middot; (555) 555-0148</div>
   NFHS Handbook 2024-25, pages 23 to 25, the newest edition this book could open. Read 11 November 2026.</p>
 </section>
 <section class="newpage">
-  <div class="pagehead"><span class="label">The Commit Book &middot; Softball</span><span class="label">The money</span></div>
+  <div class="pagehead"><span class="label">The Commit Book &middot; Women's Softball</span><span class="label">The money</span></div>
   <h2>8. What it costs, and what is wasted</h2>
   <p class="lead">Every price here was read on the seller's own page on 11 November 2026. None is made up, and none is
   an average. They are examples, not a survey. Where no page gave a number, this chapter says so.</p>
@@ -981,9 +954,7 @@ player@example.com &middot; (555) 555-0148</div>
       <tr><td>A camp with coaches from many colleges, 26 July 2026, about four hours</td><td>"$325," plus a
       processing fee</td><td>The camp's own page</td></tr>
     </tbody>
-  </table>
-  <p class="small"><span class="tag">SERVICE</span> All four read 11 November 2026. The range on these four pages is
-  $100 to $325 for one day. That range is this book's own summary. Chapter 11 gives each web address.</p>
+  <tfoot><tr><td class="small" colspan="3"><span class="tag">SERVICE</span> All four read 11 November 2026. The range on these four pages is $100 to $325 for one day. That range is this book's own summary. Chapter 11 gives each web address.</td></tr></tfoot></table>
 
   <h3>Tournament and showcase fees, per team</h3>
   <p>These fees are charged to the team. The club splits them among its families.</p>
@@ -1001,11 +972,7 @@ player@example.com &middot; (555) 555-0148</div>
       <tr><td>A national championship, 2026</td><td>"$2,900.00"</td><td>Due by 1 March 2026 for returning and invited
       teams.</td></tr>
     </tbody>
-  </table>
-  <p class="small"><span class="tag">SERVICE</span> All six read 11 November 2026. The range on these six pages is $625
-  to $2,900 per team per event. That is before gate fees, travel and lodging. The range is this book's own summary.</p>
-
-  <h3>Club membership fees, and club dues</h3>
+  <tfoot><tr><td class="small" colspan="3"><span class="tag">SERVICE</span> All six read 11 November 2026. The range on these six pages is $625 to $2,900 per team per event. That is before gate fees, travel and lodging. The range is this book's own summary.</td></tr></tfoot></table><h3>Club membership fees, and club dues</h3>
   <p>One travel-ball membership body charges a team fee each year. For one of its membership levels the fee is $100 for a team of players 12 and under (12U)
   and $200 for a 14U, 16U or 18U team. The page says: "This is an annual fee good through August 16, 2027." This is a
   fee for the team, not for each girl. <span class="tag">SERVICE</span></p>
@@ -1025,10 +992,7 @@ player@example.com &middot; (555) 555-0148</div>
       <tr><td class="d">Same group, 2019</td><td>"Families spend $693 per child for one sport each year." The largest
       parts were travel at $196, equipment at $144, lessons at $134, registration at $125 and camps at $81.</td></tr>
     </tbody>
-  </table>
-  <p class="small">Proof: Aspen Institute Project Play parent survey, news page from February 2025, and the State of
-  Play 2019 report. Read 11 November 2026. These are all sports pooled. This book found no softball-only
-  figure. The 46 is the survey's own figure. Dividing the two averages printed here gives a rise of 46.6 percent.</p>
+  <tfoot><tr><td class="small" colspan="2">Proof: Aspen Institute Project Play parent survey, news page from February 2025, and the State of Play 2019 report. Read 11 November 2026. These are all sports pooled. This book found no softball-only figure. The 46 is the survey's own figure. Dividing the two averages printed here gives a rise of 46.6 percent.</td></tr></tfoot></table>
 
   <h3>Two more numbers to keep in view</h3>
   <ul class="tight">
@@ -1066,9 +1030,10 @@ player@example.com &middot; (555) 555-0148</div>
       <tr><td>Company D, no date on the page</td><td>"60+, 63+ top"</td><td>Not read for this book</td><td>Not read for this
       book</td></tr>
     </tbody>
+    <tfoot><tr><td class="small" colspan="4"><span class="tag">SERVICE</span> All four read 11 November 2026. Company C gives
+    three numbers per level: on the radar, competitive and elite. Chapter 11 names the four
+    pages.</td></tr></tfoot>
   </table>
-  <p class="small keepwith"><span class="tag">SERVICE</span> All four read 11 November 2026. Company C gives three numbers per
-  level: on the radar, competitive and elite. Chapter 11 names the four pages.</p>
   <div class="box red keepwith">
     <h3>Recruiting services, not scouts</h3>
     <p style="margin-bottom:0">Look at the last column. Company A puts junior college pitchers below its Division III line. Company C puts them
@@ -1079,7 +1044,7 @@ player@example.com &middot; (555) 555-0148</div>
   </div>
 </section>
 <section class="newpage">
-  <div class="pagehead"><span class="label">The Commit Book &middot; Softball</span><span class="label">Year by year</span></div>
+  <div class="pagehead"><span class="label">The Commit Book &middot; Women's Softball</span><span class="label">Year by year</span></div>
   <h2>9. Checklist by grade</h2>
   <p class="lead">One row per stretch of time, in order. Cross items off. Dates in 2027 and 2028 are PROJECTED, as
   Chapter 3 explains, so check them again when the new calendars are printed.</p>
@@ -1115,10 +1080,7 @@ player@example.com &middot; (555) 555-0148</div>
       average at 2.3 or higher for Division I, or 2.2 or higher for Division II. If she signed a junior college letter, mark 15 June of
       her first college year. That is the day the college must say if it will sign her again.</td></tr>
     </tbody>
-  </table>
-  <p class="small">Proof for each line is in the chapter that covers it: Chapter 3 for dates, Chapter 4 for contact and
-  visits, Chapter 7 for the paper. All read 11 November 2026.</p>
-  <div class="box">
+  <tfoot><tr><td class="small" colspan="2">Proof for each line is in the chapter that covers it: Chapter 3 for dates, Chapter 4 for contact and visits, Chapter 7 for the paper. All read 11 November 2026.</td></tr></tfoot></table><div class="box">
     <h3>Three dates for the fridge door</h3>
     <p style="margin-bottom:0">First, 1 September 2027 at 1 p.m. Central, when Division I softball may first call and
     write. Second, June 2028, when the dead period ends on the day the college season ends. Third, 8 November 2028,
@@ -1126,7 +1088,7 @@ player@example.com &middot; (555) 555-0148</div>
   </div>
 </section>
 <section class="newpage">
-  <div class="pagehead"><span class="label">The Commit Book &middot; Softball</span><span class="label">Mistakes</span></div>
+  <div class="pagehead"><span class="label">The Commit Book &middot; Women's Softball</span><span class="label">Mistakes</span></div>
   <h2>10. Ten ways families get softball wrong</h2>
   <ol class="flow tight">
     <li><strong>They trust "June 15."</strong> That is the general Division I date for email and mail. Softball's date
@@ -1205,7 +1167,7 @@ player@example.com &middot; (555) 555-0148</div>
   </div>
 </section>
 <section class="newpage">
-  <div class="pagehead"><span class="label">The Commit Book &middot; Softball</span><span class="label">Proof</span></div>
+  <div class="pagehead"><span class="label">The Commit Book &middot; Women's Softball</span><span class="label">Proof</span></div>
   <h2>11. Sources, and what we could not settle</h2>
   <p class="lead">Every rule, number and date in this book came from one of the documents below. Each was read on 11
   November 2026. Where two official pages disagree, both figures are printed in the chapter that uses them.</p>

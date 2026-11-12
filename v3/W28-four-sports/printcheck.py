@@ -78,6 +78,130 @@ def keyphrase(title):
     return out.lower()
 
 
+def text_items(reader, pno):
+    """Every run of text drawn on a page, as {x, y, size} in PDF points.
+
+    extract_text() returns words with no geometry, which is how four printed books passed
+    a checker while their running heads measured half a point tall. Size and position have
+    to come off the operators, so this walks the page content stream: a graphics-state stack
+    for q/Q, the CTM built from cm, the text matrix from BT/Tm/Td, the point size from Tf,
+    and on a show-text operator it reports where the run lands and how big, after the page\'s
+    own 0.75 print scale. The glyphs in a run are IDs in a subsetted font and are not decoded:
+    this answers how big and where, which is what a customer can see.
+
+    The first version kept the q/Q markers on the operand stack, so a later Tm popped a
+    marker as if it were a number, never moved the text matrix, and every run on every page
+    reported y = 0. Operators and operands are kept apart now.
+    """
+    try:
+        data = reader.pages[pno].get_contents().get_data()
+    except Exception:                                             # noqa: BLE001
+        return []
+
+    def mul(m, n):
+        return (m[0] * n[0] + m[1] * n[2], m[0] * n[1] + m[1] * n[3],
+                m[2] * n[0] + m[3] * n[2], m[2] * n[1] + m[3] * n[3],
+                m[4] * n[0] + m[5] * n[2] + n[4], m[4] * n[1] + m[5] * n[3] + n[5])
+
+    IDENT = (1, 0, 0, 1, 0, 0)
+    gstate = [IDENT]
+    ctm, tm, operands, out = IDENT, IDENT, [], []
+    fontsize = 0.0
+    i = 0
+    while i < len(data):
+        c = data[i:i + 1]
+        if c in b" \t\r\n":
+            i += 1
+            continue
+        if c == b"%":
+            j = data.find(b"\n", i)
+            i = len(data) if j < 0 else j + 1
+            continue
+        if c == b"(":
+            depth, i = 1, i + 1
+            while i < len(data) and depth:
+                if data[i:i + 1] == b"\\":
+                    i += 2
+                    continue
+                if data[i:i + 1] == b"(":
+                    depth += 1
+                elif data[i:i + 1] == b")":
+                    depth -= 1
+                i += 1
+            operands.append("str")
+            continue
+        if c == b"<":
+            j = data.find(b">", i)
+            i = len(data) if j < 0 else j + 1
+            operands.append("hex")
+            continue
+        if c == b"/":
+            j = i + 1
+            while j < len(data) and data[j:j + 1] not in b" \t\r\n/<>[](){}%":
+                j += 1
+            operands.append("name")
+            i = j
+            continue
+        if c in b"[]{}":
+            i += 1
+            continue
+        j = i
+        while j < len(data) and data[j:j + 1] not in b" \t\r\n/<>[](){}%":
+            j += 1
+        tok = data[i:j]
+        i = j
+        if not tok:
+            # A stray ")" or ">" is not the start of a token and the loop above will not
+            # consume it. Without the bump the scanner spins on that one byte forever,
+            # which is how the first version of this hung on page 2 of the baseball book.
+            i += 1
+            continue
+        if re.match(rb"^[-+.0-9]", tok):
+            try:
+                operands.append(float(tok))
+            except ValueError:
+                pass
+            continue
+        op = tok.decode("latin-1")
+        if op == "q":
+            gstate.append(ctm)
+        elif op == "Q":
+            if len(gstate) > 1:
+                gstate.pop()
+            ctm = gstate[-1]
+        elif op == "cm":
+            v = [x for x in operands[-6:] if isinstance(x, float)]
+            if len(v) == 6:
+                ctm = mul(tuple(v), ctm)
+                gstate[-1] = ctm
+            operands = []
+        elif op == "BT":
+            tm = IDENT
+        elif op == "Tm":
+            v = [x for x in operands[-6:] if isinstance(x, float)]
+            if len(v) == 6:
+                tm = tuple(v)
+            operands = []
+        elif op in ("Td", "TD"):
+            v = [x for x in operands[-2:] if isinstance(x, float)]
+            if len(v) == 2:
+                tm = mul((1, 0, 0, 1, v[0], v[1]), tm)
+            operands = []
+        elif op == "Tf":
+            v = [x for x in operands[-2:] if isinstance(x, float)]
+            if len(v) == 1:
+                fontsize = v[0]
+            operands = []
+        elif op in ("Tj", "TJ", "'", "\""):
+            dev = mul(tm, ctm)
+            scale = abs(dev[0] * dev[3] - dev[1] * dev[2]) ** 0.5
+            out.append({"size": fontsize * scale, "x": dev[4], "y": dev[5]})
+            operands = []
+        else:
+            operands = []
+    return out
+
+
 def run(slug, verbose=False):
     cfg_p = HERE / "SPORTS" / ("%s.json" % slug)
     if not cfg_p.exists():
@@ -113,7 +237,11 @@ def run(slug, verbose=False):
     # a page full of links the first such pair is not the page number.
     def footer_pair(txt):
         for ln in txt.splitlines():
-            if 'recruitingiq' in ln.lower():
+            low = ln.lower()
+            # Two footers have ever carried the number: the shelf books' "Education, not
+            # legal advice" line and this lane's retired "recruitingiq" line. Either is
+            # enough to prove the line is the footer and not a date in a source.
+            if "not legal advice" in low or "recruitingiq" in low:
                 g = pgno.search(ln)
                 if g:
                     return (g.group(1), g.group(2))
@@ -125,13 +253,53 @@ def run(slug, verbose=False):
             continue
         if int(m[1]) != n:
             fails.append("page %d reads %s / %s, the file has %d pages" % (i, m[0], m[1], n))
-            break
+
         if int(m[0]) != i:
             fails.append("page %d is numbered %s" % (i, m[0]))
         if "commitbook" not in nospace(t) and "commit book" not in norm(t).lower():
             fails.append("page %d has no running head or footer brand" % i)
     if n and "commitbook" not in nospace(texts[0]):
         info.append("the cover has no brand line, unlike the inside pages")
+
+    # 2b The furniture is measured, not read. The head and the footer of four printed books
+    # were in the text layer, so a word check passed, and on paper they were specks: 0.58 pt
+    # of cap height, and the page number glued to the brand at the left because the flexbox
+    # that pushes it right had been dropped by a broken HTML attribute.
+    FOOT_INK, HEAD_INK = 45.0, 45.0
+    MIN_PT = 4.5
+    for pg in range(1, n + 1):
+        items = text_items(r, pg - 1)
+        head_band = [x for x in items if x["y"] > LETTER[1] - HEAD_INK]
+        foot_band = [x for x in items if x["y"] < FOOT_INK]
+        if not head_band:
+            fails.append("page %d: nothing is drawn in the running-head band" % pg)
+        elif max(x["size"] for x in head_band) < MIN_PT:
+            fails.append("page %d: the running head prints at %.1f pt, too small to read"
+                         % (pg, max(x["size"] for x in head_band)))
+        if not foot_band:
+            fails.append("page %d: nothing is drawn in the footer band" % pg)
+        elif max(x["size"] for x in foot_band) < MIN_PT:
+            fails.append("page %d: the footer prints at %.1f pt, too small to read"
+                         % (pg, max(x["size"] for x in foot_band)))
+        if not [x for x in foot_band if x["x"] > LETTER[0] * 0.60]:
+            fails.append("page %d: the page number is not at the right edge of the footer" % pg)
+
+    # 2c The calendar grid is measured off the paper. 14 mm of margin, then a date column
+    # of 1.83in and a third column at 4.64in, which is where the shipped book draws them.
+    # The tolerance is a tenth of an inch: the differences a print auditor measured, and the
+    # width of the cell padding this template adds, both sit inside it and outside honest use.
+    MARGIN_L = 14 / 25.4 * 72
+    for pg, txt in enumerate(texts, start=1):
+        if not re.search(r"\bWHEN\b", txt):
+            continue
+        xs = sorted({x["x"] for x in text_items(r, pg - 1) if MARGIN_L + 4 < x["x"] < LETTER[0] - MARGIN_L})
+        for want, name in ((MARGIN_L + 1.83 * 72, "the date column"),
+                           (MARGIN_L + 4.64 * 72, "the third column")):
+            if not [x for x in xs if abs(x - want) <= 7.5]:
+                near = min(xs, key=lambda x: abs(x - want)) if xs else None
+                fails.append("page %d: %s does not break where the template sets it (%.2fin from the margin;"
+                             " nearest run of text %.2fin)" % (pg, name, want / 72 - 14 / 25.4,
+                                                               (near - MARGIN_L) / 72 if near else -1))
 
     # 3 one chapter per fresh page, in order
     raw = [nospace(t) for t in texts]

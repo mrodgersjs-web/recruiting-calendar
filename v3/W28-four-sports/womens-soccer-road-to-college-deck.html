@@ -24,7 +24,7 @@ section + section { page-break-before: auto }
 tr{page-break-inside:avoid}
 p{margin:0 0 2mm}
 .lead{font-size:11.1pt;line-height:1.45;color:var(--ink2);max-width:44em}
-a{color:var(--ink);text-decoration:none;word-break:break-all}
+a{color:var(--ink);text-decoration:none;overflow-wrap:anywhere;word-break:normal;hyphens:none}
 .small{font-size:8.6pt;color:var(--ink3);line-height:1.42}
 strong{font-weight:700}
 hr.dbl{border:0;border-top:3px double var(--ink);margin:3mm 0}
@@ -72,7 +72,7 @@ ul.tight li,ol.tight li{margin-bottom:.9mm}
 .two{column-count:2;column-gap:7mm}
 .sig{margin-top:6mm;border-top:3px double var(--ink);padding-top:2.5mm}
 .avoid{page-break-inside:avoid}td,th{page-break-inside:avoid}
-src{display:block;font-size:8.4pt;color:var(--ink3);margin-bottom:1.6mm;overflow-wrap:anywhere;word-break:break-all}
+src{display:block;font-size:8.4pt;color:var(--ink3);margin-bottom:1.6mm;overflow-wrap:anywhere;word-break:normal;hyphens:none}
 
 section.newpage { page-break-before: always; break-before: page }
 
@@ -97,10 +97,29 @@ section + section { break-before: page; page-break-before: always }
  p, li, dd { orphans: 2; widows: 2 }
 /* W28: a bordered block may not bleed past its own box on the right. */
  .box, .tmpl, .cover, .split, .two, td, th { box-sizing: border-box }
-/* W28: the calendar grid belongs to the template, not to each table, so all five
-   books set their date columns the same width. deck.py labels the tables and writes
-   the colgroup; these rules are what make the widths stick. */
- table.cal { table-layout: fixed }
+/* W28: the calendar grid belongs to the template, not to each table, so every book
+   sets its date columns alike. The percentages are measured against THIS page box:
+   8.5in of paper less two 14 mm margins is a 7.4in text column. The shipped book
+   puts its first rule at 1.83in and its third column at 4.64in, so 24.7% and 38% are
+   what those are in this box. The four-book had been set to 26.5% against a 6.9in
+   column that this template does not have, which is why four auditors saw a
+   date column of 1.96in and a third column starting half an inch late. */
+table.cal { table-layout: fixed }
+table.cal col.c-when { width: 24.7% }   /* 1.83in, where the shipped book draws its first rule */
+table.cal col.c-what { width: 38% }     /* the td.w width the shipped book already uses */
+table.cal col.c-why { width: 37.3% }
+table.cal.four col.c-when { width: 24.7% }
+table.cal.four col.c-what { width: 38% }
+table.cal.four col.c-why { width: 19.3% }
+table.cal.four col.c-where { width: 18% }
+/* A splitting table may not leave one row behind, and may not strand its last row at
+   the top of a page: on softball the glossary split after its first row, and a chapter
+   ended with one row alone. The first four rows are glued, the last row cannot lead. */
+table.flow tr:nth-child(-n+3) { break-after: avoid; page-break-after: avoid }
+table.flow tr:last-child { break-before: avoid; page-break-before: avoid }
+/* A note under a table qualifies that table. The SERVICE note on pitch speeds printed
+   a page away from the speeds it covers. */
+table + .small, table + .note, table + p.small, table + p.note { break-before: avoid; page-break-before: avoid } table.cal { table-layout: fixed }
  table.cal col.c-when { width: 26.5% }   /* 1.83in of the 6.9in text column, as the shipped book sets it */
  table.cal col.c-what { width: 40.5% }
  table.cal col.c-why { width: 33% }
@@ -288,13 +307,7 @@ section + section { break-before: page; page-break-before: always }
       who has signed the college's letter. The number is the same in all three NJCAA divisions.</td><td>264</td><td>not published</td><td>NJCAA Sports Procedures Chart for
       2026-27.</td></tr>
     </tbody>
-  </table>
-  <p class="small">The three NCAA team counts are the NCAA's own projected figures for 2026-27, final as of 29 July
-  2026. Average squads are from the NCAA report for 2024-25. The junior college count is printed on the NJCAA's
-  teams page for 2026-27 and covers its three divisions together. The NJCAA chart is reissued during the year, so
-  check the association's own page for the newest file. All read 11 November 2026.</p>
-
-  <h3>Two official counts, and why both are printed</h3>
+  <tfoot><tr><td class="small" colspan="5">The three NCAA team counts are the NCAA's own projected figures for 2026-27, final as of 29 July 2026. Average squads are from the NCAA report for 2024-25. The junior college count is printed on the NJCAA's teams page for 2026-27 and covers its three divisions together. The NJCAA chart is reissued during the year, so check the association's own page for the newest file. All read 11 November 2026.</td></tr></tfoot></table><h3>Two official counts, and why both are printed</h3>
   <p>The NCAA projects 349 teams in Division I, 261 in Division II and 416 in Division III for 2026-27. That is
   1,026 together. Its report for 2024-25 counted 1,029: 341, then 268, then 420. Both are official. One is a
   projection and one is a year-end count, for two different years. So this book prints both, with their
@@ -476,8 +489,7 @@ section + section { break-before: page; page-break-before: always }
       <tr><td class="d">Junior college</td><td>Not settled. See Chapter 11.</td><td>A paid visit from 1 June
       before junior year.</td><td>NJCAA Bylaws 2026-27, Article VI, Section 4.B.1.</td></tr>
     </tbody>
-  </table>
-  <p class="small">All read 11 November 2026, in the 2026-27 manuals and on the NAIA's own pages.</p>
+  <tfoot><tr><td class="small" colspan="4">All read 11 November 2026, in the 2026-27 manuals and on the NAIA's own pages.</td></tr></tfoot></table>
 
   <h3>Division I: seven chances a year</h3>
   <p>Each Division I school gets seven recruiting chances with her each year. A chance is a contact or an
@@ -524,9 +536,7 @@ section + section { break-before: page; page-break-before: always }
       <tr><td class="d">Before she comes</td><td>A transcript, an Eligibility Center account, and her name on the
       school's request list.</td><td>Not listed in the rules this book read.</td><td>13.6.3</td></tr>
     </tbody>
-  </table>
-  <p class="small">Division I Manual 2026-27, read 11 November 2026. No visit of either kind may happen in a dead
-  period. The request list is the school's own list of recruits.</p>
+  <tfoot><tr><td class="small" colspan="4">Division I Manual 2026-27, read 11 November 2026. No visit of either kind may happen in a dead period. The request list is the school's own list of recruits.</td></tr></tfoot></table>
 
   <div class="box red">
     <h3>Two visit numbers the websites get wrong</h3>
@@ -587,7 +597,7 @@ section + section { break-before: page; page-break-before: always }
   <p>Check every event on her club list against those four blocks before you pay for a trip. The other levels
   work on other rules. Division II has only its 48-hour signing dead period. The Division III recruiting rules
   have no dead period. The NAIA has no recruiting calendar. So an event that Division I staff must skip is not
-  closed to those coaches by any calendar this book found.</p>
+  closed to those coaches by any calendar this book found.</p></div>
 
   <h3>The high school season</h3>
   <p>Her high school season is set by your state association. This book prints none of those dates. Lay her
@@ -595,7 +605,7 @@ section + section { break-before: page; page-break-before: always }
   could attend.</p>
 
   <h3>Where the seats are</h3>
-  <table>
+  <div class="avoid"><table>
     <thead><tr><th style="width:20%">Division</th><th>Teams, 2026-27, projected</th><th>Teams, 2024-25, counted</th><th>Players, 2024-25</th><th>Average squad, 2024-25</th></tr></thead>
     <tbody>
       <tr><td class="d">Division I</td><td>349</td><td>341</td><td>10,931</td><td>32.1</td></tr>
@@ -603,9 +613,7 @@ section + section { break-before: page; page-break-before: always }
       <tr><td class="d">Division III</td><td>416</td><td>420</td><td>11,634</td><td>27.7</td></tr>
       <tr><td class="d">All three</td><td>1,026</td><td>1,029</td><td>31,200</td><td>30.3</td></tr>
     </tbody>
-  </table>
-  <p class="small">Projected counts: the NCAA's own sponsorship table, final as of 29 July 2026. Counted teams,
-  players and squads: the NCAA participation report for 2024-25. Both read 11 November 2026.</p>
+  <tfoot><tr><td class="small" colspan="2">Projected counts: the NCAA's own sponsorship table, final as of 29 July 2026. Counted teams, players and squads: the NCAA participation report for 2024-25. Both read 11 November 2026.</td></tr></tfoot></table>
   <p>In 2024-25, 393,048 girls played high school soccer and 31,200 women played in the NCAA. The NCAA says 7.9
   percent reach an NCAA team and 2.8 percent reach Division I. Its count leaves club teams out. Junior college
   adds 264 teams in 2026-27, by the NJCAA's own page. The NAIA adds more, but this book found no official NAIA
@@ -728,9 +736,7 @@ Tori Marchetti</div>
       <tr><td class="d">Division II offer in writing</td><td>Her transcript.</td><td>Division II Manual, Bylaw
       13.6.2.</td></tr>
     </tbody>
-  </table>
-  <p class="small">Read 11 November 2026. The request list is the school's own list of recruits. Ask the coach to
-  put her on it before a visit.</p>
+  <tfoot><tr><td class="small" colspan="3">Read 11 November 2026. The request list is the school's own list of recruits. Ask the coach to put her on it before a visit.</td></tr></tfoot></table>
 </section>
 <section class="newpage">
   <div class="pagehead"><span class="label">The Commit Book &middot; Women's Soccer</span><span class="label">The paperwork</span></div>
@@ -739,7 +745,7 @@ Tori Marchetti</div>
   aid, and any contract a club puts in front of her. Each one has a date and a price.</p>
 
   <h3>The Eligibility Center account</h3>
-  <table class="cal"><colgroup><col class="c-when"><col class="c-what"><col class="c-why"></colgroup>
+  <div class="avoid"><table class="cal"><colgroup><col class="c-when"><col class="c-what"><col class="c-why"></colgroup>
     <thead><tr><th style="width:24%">Account</th><th style="width:22%">Price</th><th>What to know</th></tr></thead>
     <tbody>
       <tr><td class="d">NCAA certification</td><td>$120 in the United States, $180 from abroad</td><td>This is the
@@ -757,7 +763,7 @@ Tori Marchetti</div>
   <p>She needs the NCAA certification account for three things: a Division I official visit, signing for
   athletics aid, and playing at a Division I or Division II school. Fee waivers exist for families who qualify.
   The fee cannot be refunded after 30 days. The NCAA does not start her file until a school asks for it. Most
-  Division III players are cleared by their own campus instead.</p>
+  Division III players are cleared by their own campus instead.</p></div>
   <p class="small">Read 11 November 2026: the NCAA sign-up page, the initial-eligibility brochure, the guide for
   the college-bound student-athlete for 2026-27, and the high school counselor guide for 2026-27. The NAIA fee
   was found the same day for this publisher's men's soccer book and was not opened again here.</p>
@@ -858,9 +864,7 @@ Tori Marchetti</div>
       13.7.2.</td></tr>
       <tr><td class="d">Club season and travel</td><td>Not found</td><td>See the box below.</td></tr>
     </tbody>
-  </table>
-  <p class="small">All read 11 November 2026. Fee waivers exist for the NCAA account. The fee cannot be refunded
-  after 30 days.</p>
+  <tfoot><tr><td class="small" colspan="3">All read 11 November 2026. Fee waivers exist for the NCAA account. The fee cannot be refunded after 30 days.</td></tr></tfoot></table>
 
   <h3>What a school may pay, so you do not pay twice</h3>
   <ul class="tight">
@@ -1025,9 +1029,7 @@ Tori Marchetti</div>
       <tr><td class="d">2029</td><td>$70,500</td></tr>
       <tr><td class="d">2030</td><td>$82,500</td></tr>
     </tbody>
-  </table>
-  <p class="small">Collective Bargaining Agreement 2024-2030, Section 8.1, page 22 of the PDF file (printed page 15), in
-  the public copy posted by the players association. Read 11 November 2026.</p>
+  <tfoot><tr><td class="small" colspan="2">Collective Bargaining Agreement 2024-2030, Section 8.1, page 22 of the PDF file (printed page 15), in the public copy posted by the players association. Read 11 November 2026.</td></tr></tfoot></table>
   <ul class="tight">
     <li><strong>Rosters hold 22 to 26 players in 2026.</strong> From the 2027 season the low end is 23. Labor
     contract, Article 15, Section 15.1.</li>

@@ -63,6 +63,7 @@ story-ring.has-cursor .sr__stage,story-ring.has-cursor .sr__stage *{cursor:none}
 .sr__panel{border-left:1px solid var(--line);position:relative}
 .sr__pinner{position:absolute;inset:0;display:flex;flex-direction:column}
 .sr__phead{display:flex;justify-content:space-between;align-items:baseline;padding:40px 32px 18px}
+story-ring .sr__pinner.no-head>.sr__who{padding-top:34px}
 .sr__ptitle{margin:0;font:400 22px/1 var(--font-display);text-transform:uppercase}
 .sr__lab{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
 .sr__who{padding:0 32px 14px;font-size:13px;color:var(--muted)}

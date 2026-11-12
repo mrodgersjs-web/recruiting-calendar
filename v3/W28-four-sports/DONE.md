@@ -160,3 +160,47 @@ One thing the auditor asked for that I did not build: a way to leave an email on
 with no book. The cross-sport titles have Notify forms because they have product pages; the four
 planned sport books have neither, so the honest affordance today is the sport page. That is a
 decision for Mike, not a fix.
+
+## Print round four: the checker learned to measure, and the books changed because of it
+
+The print auditor failed all four books on two defects, and both were invisible to every check
+I had. The running head and footer printed at 0.58 pt: the words were in the text layer, so a
+text check called them present. The cause was my own template. A style attribute cannot contain
+a quote character, and I had a font family name in quotes inside it, twice: first in double
+quotes inside a double-quoted attribute, then, "fixed", in single quotes inside a single-quoted
+one. Both truncated the declaration list where the family name started, which is also where the
+flexbox lived, so the page number printed glued to the brand on the left instead of at the right
+edge. Chapter 11 broke ordinary words mid-word ("Byl / aws", "Cont / act") because the sources
+rule carried `word-break:break-all`, copied in from a 2024 lane and never questioned.
+
+printcheck.py now measures both, off the page content stream: every page must have a run of at
+least 4.5 pt in the head band and the footer band, and a footer run right of 60% of the paper.
+The calendar grid is measured too, at 1.83in and 4.64in from the margin, where the shipped book
+draws its rules. The scanner took three attempts to get right, and each wrong version failed in a
+way the previous version's own output hid: q/Q markers left on the operand stack, the text matrix
+folded with the page CTM, and a substring patch that hit `ctm =` while aiming at `tm =`, which
+threw away the page's own 0.24 scale and reported every coordinate four times too large. A checker
+comparing big numbers with big numbers called that a pass.
+
+Then the fix for the fix: the head printed correctly and said "SOFTBALL PLAYBOOK", so the configs
+now carry the sport's full name, the way the shelf names it. `pagehead_word` is "Men's Baseball"
+and "Women's Softball", and 22 chapter pageheads with it.
+
+41 notes that sat under a table were moved into that table's own `<tfoot>` row. A paragraph after
+a table is a separate object to the print engine: it split the SERVICE note away from the prices
+it qualifies, `break-before: avoid` on the paragraph did not stop it, and neither did wrapping the
+pair in a div with `break-inside: avoid`. Inside the table it travels with the table or nowhere.
+Two long tables were also allowed to split with their first four rows glued, so no chapter ends
+with one row alone on a page, and the glossary heading no longer leads a page with a single entry
+under it.
+
+Softball is 33 pages and women's soccer 28, one page each than at the last audit, from the
+word-break change and the footer notes. All four pass the grown checker, factcheck and the gate at
+62 of 62. One page the auditor flagged stays as it is: men's soccer p23 holds the closing
+one-page recap, which is short because it is a recap, and the shipped book has two pages the same
+size. The store auditor's six cosmetics went in the same commit: the in-progress band is clipped
+by the cover that carries it (it was a red strip loitering next to a tile, and off-screen at 390),
+the phone deck prints no heading over an empty list, a panel with no heading keeps its top space,
+the four pending tiles no longer promise the page they are standing on, the lacrosse title says
+Women's on its own page, the track card on the index no longer claims dated rules, and the three
+bundle prices say "at launch" beside the number.

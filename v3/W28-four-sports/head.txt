@@ -24,7 +24,7 @@ section + section { page-break-before: auto }
 tr{page-break-inside:avoid}
 p{margin:0 0 2mm}
 .lead{font-size:11.1pt;line-height:1.45;color:var(--ink2);max-width:44em}
-a{color:var(--ink);text-decoration:none;word-break:break-all}
+a{color:var(--ink);text-decoration:none;overflow-wrap:anywhere;word-break:normal;hyphens:none}
 .small{font-size:8.6pt;color:var(--ink3);line-height:1.42}
 strong{font-weight:700}
 hr.dbl{border:0;border-top:3px double var(--ink);margin:3mm 0}
@@ -72,7 +72,7 @@ ul.tight li,ol.tight li{margin-bottom:.9mm}
 .two{column-count:2;column-gap:7mm}
 .sig{margin-top:6mm;border-top:3px double var(--ink);padding-top:2.5mm}
 .avoid{page-break-inside:avoid}td,th{page-break-inside:avoid}
-src{display:block;font-size:8.4pt;color:var(--ink3);margin-bottom:1.6mm;overflow-wrap:anywhere;word-break:break-all}
+src{display:block;font-size:8.4pt;color:var(--ink3);margin-bottom:1.6mm;overflow-wrap:anywhere;word-break:normal;hyphens:none}
 
 section.newpage { page-break-before: always; break-before: page }
 
@@ -97,10 +97,29 @@ section + section { break-before: page; page-break-before: always }
  p, li, dd { orphans: 2; widows: 2 }
 /* W28: a bordered block may not bleed past its own box on the right. */
  .box, .tmpl, .cover, .split, .two, td, th { box-sizing: border-box }
-/* W28: the calendar grid belongs to the template, not to each table, so all five
-   books set their date columns the same width. deck.py labels the tables and writes
-   the colgroup; these rules are what make the widths stick. */
- table.cal { table-layout: fixed }
+/* W28: the calendar grid belongs to the template, not to each table, so every book
+   sets its date columns alike. The percentages are measured against THIS page box:
+   8.5in of paper less two 14 mm margins is a 7.4in text column. The shipped book
+   puts its first rule at 1.83in and its third column at 4.64in, so 24.7% and 38% are
+   what those are in this box. The four-book had been set to 26.5% against a 6.9in
+   column that this template does not have, which is why four auditors saw a
+   date column of 1.96in and a third column starting half an inch late. */
+table.cal { table-layout: fixed }
+table.cal col.c-when { width: 24.7% }   /* 1.83in, where the shipped book draws its first rule */
+table.cal col.c-what { width: 38% }     /* the td.w width the shipped book already uses */
+table.cal col.c-why { width: 37.3% }
+table.cal.four col.c-when { width: 24.7% }
+table.cal.four col.c-what { width: 38% }
+table.cal.four col.c-why { width: 19.3% }
+table.cal.four col.c-where { width: 18% }
+/* A splitting table may not leave one row behind, and may not strand its last row at
+   the top of a page: on softball the glossary split after its first row, and a chapter
+   ended with one row alone. The first four rows are glued, the last row cannot lead. */
+table.flow tr:nth-child(-n+3) { break-after: avoid; page-break-after: avoid }
+table.flow tr:last-child { break-before: avoid; page-break-before: avoid }
+/* A note under a table qualifies that table. The SERVICE note on pitch speeds printed
+   a page away from the speeds it covers. */
+table + .small, table + .note, table + p.small, table + p.note { break-before: avoid; page-break-before: avoid } table.cal { table-layout: fixed }
  table.cal col.c-when { width: 26.5% }   /* 1.83in of the 6.9in text column, as the shipped book sets it */
  table.cal col.c-what { width: 40.5% }
  table.cal col.c-why { width: 33% }

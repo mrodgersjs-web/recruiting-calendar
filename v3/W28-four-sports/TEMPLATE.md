@@ -484,3 +484,33 @@ symptom of editing output is that the change is gone the next morning and nothin
 **The lane is LF; the repo is mostly CRLF.** It matters only for the twelve fragments per
 book whose byte hashes sit in a manifest, because a fresh checkout rewrites them and the
 manifest then disagrees. After a checkout, build before you gate.
+
+### The print template, in rules (round four made these binding)
+
+- The `headerTemplate` and `footerTemplate` are HTML documents of their own. A style attribute
+  carries no quote character of any kind inside it: `font-family:Arial,Helvetica,sans-serif`,
+  never a quoted family name. Put the size in longhand (`font-size:8px`), not in a `font:`
+  shorthand. If the value needs quotes, the attribute silently ends there and everything after it
+  is thrown away, including the layout. This happened twice, and both times a text-layer check
+  passed the book.
+- The head names the sport the way the shelf names it, from `pagehead_word`: "MEN'S BASEBALL
+  PLAYBOOK · EDITION 2026-27". The footer carries the disclaimer at the left and the page number
+  at the right, in a table. Flexbox is not available to a template that lost its style, and
+  Chromium's own default style for the template is a bit over half a point.
+- 8 px is 6.6 pt on paper, and that is what the shipped books measure. `printcheck.py` fails a
+  book whose head or footer prints under 4.5 pt, and fails it per page.
+- No `word-break:break-all` in a book. URLs and long words use `overflow-wrap:anywhere`, which
+  breaks when a word cannot fit alone instead of breaking everything everywhere.
+- A note under a table is a `<tfoot>` row of that table, with the note's class on the cell. A
+  paragraph after a table can be separated from it by a page break, and neither `break-before:
+  avoid` nor a wrapper div prevents it.
+- The calendar grid is fixed in the template, in percentages of this page box: 8.5in of paper
+  less two 14 mm margins is a 7.4in text column, so the date column is 24.7%, the second 38%, the
+  third the rest. The four-column variant keeps the first two boundaries and splits what is left.
+  Measured on paper: the date rule lands at 1.83in, the third column at 4.64in, as the shipped
+  book draws them.
+- A splitting table glues its first four rows and never leaves its last row alone at the top of a
+  page. The template does this for every `.flow` table.
+- Print with `print.js`, then run `printcheck.py` per slug, `factcheck.py --all`, then
+  `site.py --apply` twice so the catalogue takes the new page counts, then `gate.py`. The checker
+  reads geometry off the content stream, so a head that a reader cannot read fails the book.
