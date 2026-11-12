@@ -432,7 +432,7 @@
   {
    "slug": "mens-baseball-road-to-college",
    "title": "Men's Baseball: The Whole Road to College",
-   "who": "Baseball families, boys and men",
+   "who": "Baseball families",
    "outcome": "A plan by date for grades 9 to 12. When a coach may call, text or meet him, each with the rule behind it. The money math before a family spends.",
    "toc": [
     "Read this first",
@@ -458,14 +458,14 @@
    "price_usd": 29,
    "pages": 25,
    "format": "PDF",
-   "sport": "Men's Baseball",
+   "sport": "Baseball",
    "levels": "D1 · D2 · D3 · NAIA · junior college",
    "rules_checked": "11 November 2026",
    "gender": "men",
    "athlete": "Diego",
    "class_year": "2029",
    "edition": "2026-27",
-   "doc_sha": "e70f5571",
+   "doc_sha": "9219c4e9",
    "deck_grade": 4.4,
    "claim": "every date shows the rule it comes from",
    "story_beats": [
@@ -478,7 +478,7 @@
   {
    "slug": "womens-softball-road-to-college",
    "title": "Women's Softball: The Whole Road to College",
-   "who": "Softball families, girls and women",
+   "who": "Softball families",
    "outcome": "A plan by date for grades 9 to 12. The Division I softball dates for when a coach may call, text or meet her, each with its rule number. Sample camp, tournament and membership prices, each from the page that charges it.",
    "toc": [
     "Read this first",
@@ -504,15 +504,15 @@
    "price_usd": 29,
    "pages": 33,
    "format": "PDF",
-   "sport": "Women's Softball",
+   "sport": "Softball",
    "levels": "D1 · D2 · D3 · NAIA · junior college",
    "rules_checked": "11 November 2026",
    "gender": "women",
    "athlete": "Casey",
    "class_year": "2029",
    "edition": "2026-27",
-   "doc_sha": "334c4d41",
-   "deck_grade": 4.8,
+   "doc_sha": "713775fb",
+   "deck_grade": 4.7,
    "claim": "the June dates that move with the Women's College World Series",
    "story_beats": [
     "first coach contact",
@@ -524,7 +524,7 @@
   {
    "slug": "mens-soccer-road-to-college",
    "title": "Men's Soccer: The Whole Road to College",
-   "who": "Soccer families, boys and men",
+   "who": "Soccer families",
    "outcome": "A plan by date for grades 9 to 12. The tryout rules in plain words. What the 28-player team limit does to his scholarship at the Division I schools that follow it.",
    "toc": [
     "Read this first",
@@ -557,8 +557,8 @@
    "athlete": "Alex",
    "class_year": "2029",
    "edition": "2026-27",
-   "doc_sha": "b2af4618",
-   "deck_grade": 4.8,
+   "doc_sha": "2e5cb0b4",
+   "deck_grade": 4.7,
    "claim": "the Division I men's soccer calendar, as printed for 2026-27",
    "story_beats": [
     "first coach contact",
@@ -570,7 +570,7 @@
   {
    "slug": "womens-soccer-road-to-college",
    "title": "Women's Soccer: The Whole Road to College",
-   "who": "Soccer families, girls and women",
+   "who": "Soccer families",
    "outcome": "A plan by date for grades 9 to 12. What changed in Division I team limits on 1 July 2025. Where she is seen: club, camps and tournaments.",
    "toc": [
     "Read this first",
@@ -603,7 +603,7 @@
    "athlete": "Tori",
    "class_year": "2029",
    "edition": "2026-27",
-   "doc_sha": "e0751694",
+   "doc_sha": "340351df",
    "deck_grade": 4.5,
    "claim": "the four 2026-27 dead periods, when a Division I coach may not watch her or host a visit",
    "story_beats": [
@@ -620,7 +620,7 @@
    "title": "Sport Pack (your sport playbook + Eligibility + Offers & Signing + Camp ROI)",
    "price_usd": 49,
    "note": "a $49 pack against $275 for the same books apart. Today it holds 8 written playbooks; the rest arrive as they are finished.",
-   "includes_note": "One of the 8 written sport playbooks: Volleyball, Football, Basketball, Girls' basketball, Men's Baseball, Women's Softball, Men's Soccer, Women's Soccer."
+   "includes_note": "One of the 8 written sport playbooks: Volleyball, Football, Basketball, Girls' basketball, Baseball, Softball, Men's Soccer, Women's Soccer."
   },
   {
    "slug": "all-playbooks",

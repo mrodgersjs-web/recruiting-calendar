@@ -13,8 +13,9 @@ function builtInfoLegacy(a){
  return{built:false,label:a.sport};
 }
 function isPending(a){return!BUYABLE(a)}
-const STATE=(a)=>{const id=(a&&(a.book||((a.playbooks||[])[0])));const p=(window.STORY_ALL||{}).playbooks||{};const r=id&&p[id];return r&&r.state?r.state:(r&&r.status==='WRITTEN'?'written':'unwritten')};
-const PEND=(a)=>STATE(a)==='rewrite'?'New edition in progress':'Not written yet';
+const STATE=(a)=>{const id=(a&&a.book);const p=(window.STORY_ALL||{}).playbooks||{};const r=id&&p[id];return r&&r.state?r.state:(r&&r.status==='WRITTEN'?'written':'unwritten')};
+const KIND=(a)=>(a&&(a.art_kind==='silhouette'))?'Silhouette':'Illustration';
+const PEND=(a)=>STATE(a)==='rewrite'?'New edition in progress':'Playbook in progress';
 const BUYABLE=(a)=>STATE(a)!=='unwritten';
 const META=(a)=>STATE(a)==='rewrite'?`${a.short} \u00b7 ${a.sport}. This playbook is being rewritten. Anyone who buys it now gets the new edition free.`:`${a.short} \u00b7 ${a.sport}. This playbook is still being written, so it is not open yet.`;
 function orderBuilt(list){
@@ -32,21 +33,22 @@ const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
 const wrapPi=p=>{p=p%(2*Math.PI);if(p>Math.PI)p-=2*Math.PI;if(p<=-Math.PI)p+=2*Math.PI;return p};
 // A card with no figure is a book that is not written. The ring drew two standing
 // poses for that case, and at any size they read as men. A women's sport now gets the
-// two cues that still read at 300 pixels: hair tied back, and a skirt that flares
-// where the legs hang straight. A ball at the feet names the sport, because a
+// two cues that still read at 300 pixels: hair tied back, and shorts cut wide at the
+// hem. A ball at the feet names the sport, because a
 // silhouette holding nothing is only a person standing.
 const sil=(a,i)=>{const s=String((a&&a.sport)||''),fem=/wom|girl/i.test(s);
  const poses=[
   'M50 8a9 9 0 1 1 0 18a9 9 0 1 1 0-18zM38 30h24l6 50-8 2-4-30-2 50 6 64h-11l-7-56-7 56H24l6-64-2-50-4 30-8-2z',
   'M50 6a9 9 0 1 1 0 18a9 9 0 1 1 0-18zM36 28h28l14 30-8 4-10-18 2 46 4 68h-11l-9-58-9 58H26l4-68 2-46-10 18-8-4z'];
  const hair=fem?`<path d="M58 9c9 1 13 9 12 19 1 7-3 13-8 15 4-9 3-19-6-27z"/><circle cx="50" cy="17" r="9"/>`:'';
- const skirt=fem?`<path d="M33 70h34l6 23H27z"/>`:'';
- const ball=/soccer|football/i.test(s)?`<circle cx="76" cy="166" r="10"/>`:'';
- return `<svg viewBox="0 0 100 180" role="img" aria-label="Silhouette of ${sp(a&&a.name||"the player")}, a fictional ${altline(a||{})}" fill="#111"><path d="${poses[i%2]}"/>${hair}${skirt}${ball}</svg>`};
+ const skirt=fem?`<path d="M34 68h32v20h-13v-9h-6v9H34z"/>`:'';
+ const feet=`<rect x="19" y="143" width="13" height="5" rx="2"/><rect x="66" y="143" width="13" height="5" rx="2"/>`;
+ const ball=/soccer|football/i.test(s)?`<circle cx="84" cy="150" r="11"/><path d="M73 150h22M84 139v22" stroke="#f5f1e8" stroke-width="2" fill="none"/>`:'';
+ return `<svg viewBox="0 0 100 180" role="img" aria-label="${KIND(a)} of ${sp(a&&a.name||"the player")}, a fictional ${altline(a||{})}" fill="#111"><path d="${poses[i%2]}"/>${hair}${skirt}${feet}${ball}</svg>`};
 const noun=(s)=>/swim|div/i.test(s)?'swimmer':/wrestl/i.test(s)?'wrestler':/track/i.test(s)?'track athlete':'player';
 const altline=(a)=>{const s=String((a&&a.sport)||'').toLowerCase(),n=noun(s);return n==='player'?`${s} ${n}`:n;};
 const sp=(s)=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const cardHTML=(a,i)=>{const bi=builtInfo(a);return `<span class="card__shadow"></span><span class="card__art">${a.img?`<img src="${a.img}" alt="Illustration of ${escA(a.short)}, a fictional ${altline(a)}" loading="eager" decoding="async">`:sil(a,i)}</span><span class="card__lbl">Illustration</span>${bi.built?``:`<span class="card__pend">${PEND(a)}</span>`} <span class="card__meta"><div class="card__name">${escA(a.short)}</div><div class="card__line">${sp(bi.label)}</div></span>`};
+const cardHTML=(a,i)=>{const bi=builtInfo(a);const kd=KIND(a);return `<span class="card__shadow"></span><span class="card__art">${a.img?`<img src="${a.img}" alt="${kd} of ${escA(a.short)}, a fictional ${altline(a)}" loading="eager" decoding="async">`:sil(a,i)}</span><span class="card__lbl">${kd}</span>${bi.built?``:`<span class="card__pend">${PEND(a)}</span>`} <span class="card__meta"><div class="card__name">${escA(a.short)}</div><div class="card__line">${sp(bi.label)}</div></span>`};
 class StoryRing extends HTMLElement{
 connectedCallback(){
  const D=window.STORY_DATA;this.A=orderBuilt(D.athletes);this.P=D.playbooks;const n=this.n=this.A.length;
@@ -153,12 +155,16 @@ setIndex(i,silent){
  this.renderPanel(silent);this.restartBar();
 }
 renderPanel(silent){
+ const P=(window.STORY_ALL||{}).playbooks||{};
+ const STATE2=(r)=>r&&r.state?r.state:(r&&r.status==='WRITTEN'?'written':'unwritten');
+ const ok=(p)=>{const r=P[p];return !!r&&STATE2(r)==='written';};
+ const KIND2=(a)=>(a&&a.art_kind==='silhouette')?'Silhouette':'Illustration';
  const a=this.A[this.index],ul=this.querySelector('[data-items]');
- this.querySelector('[data-count]').textContent=a.playbooks.length+' playbooks';
- this.querySelector('[data-who]').textContent=isPending(a)?META(a):`${a.short} · ${builtInfo(a).label} · Illustration. The name is a placeholder; the dates and rules are cited on the page that uses them.`;
- ul.innerHTML=a.playbooks.filter(p=>!!this.P[p]).map((p,i)=>{const pb=this.P[p],on=this.bag.has(p);return `<li class="sr__item" style="--i:${i+1}"><span class="sr__thumb">${String(i+1).padStart(2,'0')}</span><span><div class="sr__itype">Playbook · $${pb.price}, one-time</div><a class="sr__iname" href="/playbooks/${p}">${pb.title}</a></span><button class="sr__add" data-add="${p}" aria-pressed="${on}">${on?'Added':'Get'}</button></li>`}).join('');
+ this.querySelector('[data-count]').textContent=a.playbooks.filter(ok).length+' playbooks';
+ this.querySelector('[data-who]').textContent=isPending(a)?META(a):`${a.short} · ${builtInfo(a).label} · ${KIND(a)}. The name is a placeholder; every date and rule is cited on the page that uses it.`;
+ ul.innerHTML=a.playbooks.filter(ok).map((p,i)=>{const pb=this.P[p],on=this.bag.has(p);return `<li class="sr__item" style="--i:${i+1}"><span class="sr__thumb">${String(i+1).padStart(2,'0')}</span><span><div class="sr__itype">Playbook · $${pb.price}, one-time</div><a class="sr__iname" href="/playbooks/${p}">${pb.title}</a></span><button class="sr__add" data-add="${p}" aria-pressed="${on}">${on?'Added':'Get'}</button></li>`}).join('');
  const pi=this.querySelector('.sr__pinner');pi.classList.remove('is-in');void pi.offsetWidth;pi.classList.add('is-in');
- var _rd=this.querySelector('[data-read]');_rd.disabled=isPending(a);_rd.textContent=isPending(a)?(STATE(a)==='rewrite'?'Read the playbook':'Playbook not written yet'):'Playbooks for '+builtInfo(a).label+' \u2192';_rd.onclick=isPending(a)?null:()=>location.href=SPORT_PATH(a);
+ var _rd=this.querySelector('[data-read]');_rd.disabled=isPending(a);_rd.textContent=isPending(a)?(STATE(a)==='rewrite'?'Read the playbook':'Playbook in progress'):'Playbooks for '+builtInfo(a).label+' \u2192';_rd.onclick=isPending(a)?null:()=>location.href=SPORT_PATH(a);
 }
 updBag(){const n=this.bag.size;document.querySelectorAll('[data-bag-count]').forEach(e=>e.textContent=n);this.querySelector('[data-bagline]').textContent=n?`${n} in your playbook bag (saved on this device).`:'For the athlete to run. Parents support.';try{localStorage.setItem('playbook-bag-v1',JSON.stringify([...this.bag]))}catch(e){}}
 toast(m){const t=document.getElementById('bag-status');if(!t)return;t.textContent=m;t.classList.add('is-on');clearTimeout(this.tt);this.tt=setTimeout(()=>t.classList.remove('is-on'),2500)}

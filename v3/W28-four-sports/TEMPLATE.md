@@ -456,3 +456,31 @@ a hand-drawn pictogram did not. When the model is enabled, regenerate for real a
 measured on the finished deck with wrapped lines joined. Long URLs and all-caps table headers
 score as hard sentences, so read the list of worst sentences before reacting to the number; the
 worst "sentence" in the softball book is a web address at grade 22.9.
+
+## 13. Running the lane, in order
+
+```
+python deck.py <slug>            one book, and it refuses to build on a bad stylesheet
+python factcheck.py --all        every number and date against the packets
+python readability.py --all      the grade a parent reads at
+print.js in the browser REPL     the books to PDF, with the house head and footer
+python printcheck.py <slug>      per book: geometry, split blocks, split date cells
+python site.py --apply           twice. The ring data is written after the pages that
+                                 link it, so the cache keys only settle on the second run
+python gate.py                   62 checks over the books, the store and the four PDFs
+```
+
+Two build habits cost time this week and will cost them again.
+
+**Replace a whole line, do not splice one.** A card template is a chain of quoted
+fragments; cutting a `</div>` out of the middle of a literal takes the closing quote with
+it, and four rounds of one-character repairs later the file still did not parse. Print the
+line, write the line you want, replace the line.
+
+**A generated file is not a source.** `stories.js` and every page under `site/` are output.
+Edits belong in `site.py`, `STORE.json`, `SPORTS/*.json`, `head.txt` or a fragment. The
+symptom of editing output is that the change is gone the next morning and nothing says so.
+
+**The lane is LF; the repo is mostly CRLF.** It matters only for the twelve fragments per
+book whose byte hashes sit in a manifest, because a fresh checkout rewrites them and the
+manifest then disagrees. After a checkout, build before you gate.

@@ -129,7 +129,7 @@ def who_label(c):
     if "who_label" in c["site"]:
         return c["site"]["who_label"]
     sport = re.sub(r"^(Men's|Women's)\s+", "", c["ring_label"])
-    return "%s families, %s" % (sport, "boys and men" if c["gender"] == "men" else "girls and women")
+    return "%s families" % sport
 
 
 _MONTHS = "January February March April May June July August September October November December".split()
@@ -243,11 +243,105 @@ def shelf_state(html, slug):
     # pages a paragraph with a "one-time" note. One rule covers both, so a tile can
     # never show a number that the catalogue does not back.
     html = re.sub(r'((?:<span|<p) class="pb-p"[^>]*>)\$[\d.]+((?:\s*<span class="note">[^<]*</span>)?)(</(?:span|p)>)', money, html)
+    html = html.replace('<span class="pb-pend">Pending</span>', '<span class="pb-pend">In progress</span>')
     if not written:
         html = re.sub(r'<button class="btn[^"]*"[^>]*data-offer="' + re.escape(slug) + '">[^<]*</button>',
                       '<p class="note">in progress &middot; no price yet</p>', html)
         html = html.replace('<div class="pb-cell">', '<div class="pb-cell is-soon">', 1)
     return html
+
+
+def sweep_pages():
+    """Every tile on every sport page, whatever site.py did not rebuild.
+
+    The four sports with no book of their own have pages that were shipped before this
+    lane existed and are not rewritten here. Their tiles still carried $15 and $19 over
+    "Rules being verified", so a rule about money that only runs on rebuilt pages is not a
+    rule. This walks each tile, reads the slug from its own link, and applies shelf_state.
+    """
+    n = 0
+    pages = sorted((SITE / 'sports').glob('*/index.html')) + [SITE / 'playbooks' / 'index.html']
+    for page in pages:
+        html = page.read_text(encoding='utf-8')
+        out, i = [], 0
+        while True:
+            j = html.find('<div class="pb-cell', i)
+            if j < 0:
+                out.append(html[i:])
+                break
+            out.append(html[i:j])
+            k, depth = j, 0
+            while True:
+                no = html.find('<div', k + 1)
+                nc = html.find('</div>', k)
+                if nc < 0:
+                    break
+                if 0 <= no < nc:
+                    depth += 1
+                    k = no + 4
+                    continue
+                if depth:
+                    depth -= 1
+                    k = nc + 6
+                    continue
+                k = nc + 6
+                break
+            block = html[j:k]
+            m = re.search(r'href="/playbooks/([a-z0-9-]+)"', block)
+            if m:
+                out.append(shelf_state(block, m.group(1)))
+            else:
+                block = block.replace('<span class="pb-pend">Pending</span>',
+                                      '<span class="pb-pend">In progress</span>')
+                # A pack row shows a price nobody can pay yet: checkout accepts the nine
+                # playbook slugs and nothing else. The number stays because it is the price
+                # we intend to charge, and the line under it now says so.
+                if 'pb-p' in block and 'data-offer=' not in block and 'not open yet' not in block:
+                    block = re.sub(r'(<span class="pb-p">\$[\d.]+</span>)',
+                                   r'<p class="note">not open yet</p>', block, count=1)
+                out.append(block)
+            i = k
+        new = ''.join(out)
+        if new != html:
+            page.write_text(new, encoding='utf-8')
+            n += 1
+    # The shelf's bundle note carries a count. If the sentence is left alone it goes stale
+    # the day a fifth book is written, which is the mistake this whole pass exists to kill,
+    # so it is rewritten from the catalogue every run and matches its own output.
+    for pdp in sorted((SITE / 'playbooks').glob('*/index.html')):
+        h = pdp.read_text(encoding='utf-8')
+        h2 = h.replace('aria-pressed="false">Get</button>', 'aria-pressed="false">Add to bag</button>')
+        if h2 != h:
+            pdp.write_text(h2, encoding='utf-8')
+    # A corrected phrase must not come back from a second copy of itself. The list is the
+    # set of claims this week's audits removed; the build fails if any of them is live. The
+    # index page's one-line blurb is rewritten here for the same reason: the sport page was
+    # corrected on Monday and the card beside it was not, because nothing owned the card.
+    for page in sorted(SITE.rglob('*.html')):
+        if page.name == 'index.html' and page.parent.name == 'sports':
+            body0 = page.read_text(encoding='utf-8')
+            fixed = re.sub(r'Soccer runs on club events[^<]*',
+                           'Soccer runs on club events and on a coach writing to say they want you, '
+                           'more than on school visits. Division I and II print dead periods; '
+                           'Division III prints none.', body0, count=1)
+            if fixed != body0:
+                page.write_text(fixed, encoding='utf-8')
+    for page in sorted(SITE.rglob('*.html')):
+        body = page.read_text(encoding='utf-8')
+        for stale in ('every division prints its own dead periods', '>Pending<',
+                      'no price to learn', 'The art is drawn'):
+            if stale in body:
+                fails.append('stale copy still live on %s: %s' % (page.relative_to(SITE), stale))
+    shelf = SITE / 'playbooks' / 'index.html'
+    if shelf.exists():
+        h = shelf.read_text(encoding='utf-8')
+        nsport = sum(1 for s, b in BOOKS.items() if b.get('status') == 'WRITTEN' and s != 'eligibility-2-hard-deadlines')
+        fixed = re.sub(r'The Sport Pack covers any of the [^.]*\.',
+                       'The Sport Pack covers any of the %d sport playbooks that are finished.' % nsport,
+                       h, count=1)
+        if fixed != h:
+            shelf.write_text(fixed, encoding='utf-8')
+    return n
 
 
 def cell(slug):
@@ -264,12 +358,16 @@ def cell(slug):
 
 
 def pend_cell(p):
+    # The label line carries the audience and the title line carries the book, in that
+    # order, because that is how the shipped pending tiles are built. The first version of
+    # this function passed them the other way round, so a new tile wore the uniform upside
+    # down next to the old ones: the whole title in 9-pixel capitals, the audience in its place.
     return ('<div class="pb-cell is-pend"><a class="pb-card" href="/sports/%s">'
             '<span class="pb-thumb"><b>%s</b><i>Playbook in progress &middot; no price yet</i>'
             '<span class="pb-pend">In progress</span></span>'
             '<span class="lab">%s</span><span class="pb-t">%s</span>'
-            '<span class="pb-s">%s The sport page shows what we have dated so far.</span></a></div>'
-            % tuple(p))
+            '<span class="pb-s">%s This sport has no dated rules chapter yet.</span></a></div>'
+            % (p[0], p[1], p[3], p[2], p[4]))
 
 
 def cells_by_slug(grid_html):
@@ -493,7 +591,7 @@ def pdp(slug):
             '<p class="pb-p">$%d <span class="note">one-time</span></p><p>%s</p>'
             '<p class="note">For %s. Levels covered: %s. Rules checked %s.</p>'
             ' <button class="btn btn--primary btn--l" data-checkout="%s" data-offer="%s">Get the playbook</button>'
-            ' <button class="btn btn--outline sr__add" data-add="%s" aria-pressed="false">Get</button>'
+            ' <button class="btn btn--outline sr__add" data-add="%s" aria-pressed="false">Add to bag</button>'
             ' <p class="note">No sales calls. Full refund for 30 days. Checkout is in test mode until we go live.</p>'
             ' <details open><summary>What\'s inside</summary><ol>%s</ol></details>'
             ' <details><summary>What you can use from it</summary><ul>%s</ul></details>'
@@ -589,14 +687,19 @@ for page, slugs in sorted(per_page.items()):
     dated = [s for s in slugs + list(keep) if BOOKS.get(s, {}).get("status") == "WRITTEN"]
     if dated:
         s0 = dated[0]
-        names = ", ".join((CFG[s]["ring_label"] if s in CFG else BOOKS[s]["title"].split(":")[0])
-                          for s in dict.fromkeys(dated))
-        reads = " ".join('<a href="/playbooks/%s/">Read the %s book</a>' % (s, (CFG[s]["ring_label"]
-                    if s in CFG else BOOKS[s]["title"].split(":")[0]).lower()) for s in dict.fromkeys(dated))
-        say = ('<p>%s %s this sport\u2019s 2026-27 dates chapter by chapter, each one beside the rule '
-               'that sets it. A calendar tool that answers &ldquo;what do I do this month&rdquo; for one '
-               'athlete is not live yet. %s</p>' % (names, 'carry' if len(dict.fromkeys(dated)) > 1 else 'carries', reads))
-        t = re.sub(r'<p[^>]*>(?:No dated calendar for this sport yet\.|The [^<]*playbook(?:s)? (?:carries|carry) this sport)[^<]*(?:<[^>]*>[^<]*)*</p>', say, t, count=1, flags=re.S)
+        # Only this sport's own playbook may be described as carrying this sport's dates.
+        # The eligibility book prints academic dates for every sport, and a sentence that
+        # named it here told a softball reader that a $9 cross-sport book was their
+        # calendar. The joiner is "and", because "Women's Softball, Eligibility carry"
+        # reads as a list that lost its last item.
+        own = [s for s in dict.fromkeys(dated) if s in CFG]
+        labs = [CFG[s]["ring_label"] for s in own]
+        names = labs[0] if len(labs) == 1 else (", ".join(labs[:-1]) + " and " + labs[-1] if len(labs) > 2 else " and ".join(labs))
+        reads = " ".join('<a href="/playbooks/%s/">Read the %s book</a>' % (s, CFG[s]["ring_label"].lower()) for s in own)
+        say = ('<p>%s %s this sport\u2019s 2026-27 dates, chapter by chapter. Each date sits beside the '
+               'rule that sets it. A calendar tool that answers &ldquo;what do I do this month&rdquo; for one '
+               'athlete is not live yet. %s</p>' % (names, 'carry' if len(own) > 1 else 'carries', reads))
+        t = re.sub(r'<p[^>]*>[^<]*(?:carries|carry) this sport[^<]*(?:<[^>]*>[^<]*)*</p>', say, t, count=1, flags=re.S)
     write(p, t)
     print("  /sports/%s carries %s" % (page, " then ".join(CFG[s]["ring_label"] for s in slugs)))
 
@@ -640,7 +743,8 @@ for _id, (_slug, _label, _page) in STORE.get("live_books", {}).items():
     if r is None:
         fails.append("ring: the live book %s names a card that does not exist: %s" % (_slug, _id))
         continue
-    r.update({"sport": _label, "book": _slug, "ring_page": "/sports/%s" % _page})
+    r.update({"sport": _label, "book": _slug, "ring_page": "/sports/%s" % _page,
+              "art_kind": "silhouette" if 'sil-' in str(CFG.get(_slug, {}).get("art", "")) else "illustration"})
     r["playbooks"] = shelf_list(_slug, r.get("playbooks", []))
     print("  card %-20s %-18s live    keeping its own figure" % (_id, _label))
 
@@ -749,6 +853,12 @@ for _s, _p in DATA["playbooks"].items():
         _p["notify"] = True
     DATA["athletes"] = [{k: v for k, v in recs[i].items() if k != "moved_from"}
                         for i in STORE["ring_ids"]]
+    # Which kind of artwork a card shows is a fact about the file the card points at, so it
+    # is read off the path here, once, in the one place every record passes through. It was
+    # first set inside the loop that stamps the four shipped books, which is why the traced
+    # soccer figure still said Illustration: that card is built by a different loop.
+    for _a in DATA["athletes"]:
+        _a["art_kind"] = "silhouette" if 'sil-' in str(_a.get("img", "")) else "illustration"
     write(SJ, pre + "window.STORY_ALL="
          + json.dumps(DATA, separators=(", ", ": "), ensure_ascii=False) + rest[end:])
     RJ = SITE / "assets/ring.js"
@@ -813,7 +923,12 @@ sm = sm.replace("</urlset>", "".join(
 write(SM, sm)
 print("  %d new urls, %d in the file" % (len(add), sm.count("<loc>")))
 
-# ------------------------------------------------------------------ 10 cache keys
+# ------------------------------------------------------------------ 10 tile sweep
+print("\n10 tile sweep")
+_swept = sweep_pages()
+print("  %d pages re-checked against the catalogue" % _swept)
+
+# ------------------------------------------------------------------ 11 cache keys
 print("\n10 cache keys")
 def rekey():
     """Point every ?v= at the bytes now on disk. Repeat until nothing changes: an asset

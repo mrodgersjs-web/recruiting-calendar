@@ -1,121 +1,138 @@
-# W28, four sports at once: what shipped and what is still open
+# W28: four more sports, and the template they were built from
 
-Built against the volleyball spine: men's baseball, women's softball, men's soccer,
-women's soccer. The template in `TEMPLATE.md` is the deliverable as much as the four
-books are; sport five should be a config, eight research files, twelve fragments and a
-build.
-
-Nothing here is deployed. Production is still `a8b25e9`. Deploy is Mike's word, and the
-CLI is the only way to give it.
+Branch `copy/anon-and-plain-english`. Nothing is deployed: production is still `a8b25e9`,
+and `vercel deploy --prod` is Mike's call. Three commits in this lane: `a6b37b0` (four
+books, template, packets), `1edfeeb` (storefront audit round one), and the one that
+follows this file (audit round two, the four final PDFs, the locked run order).
 
 ## The four books
 
-| Book | Player | Coach | Pages | Reading grade | Facts | Print |
+| Book | Pages | Deck bytes | Deck hash | Grade | Fact-check | Print-check |
 |---|---|---|---|---|---|---|
-| Men's Baseball | Diego Whitlock | Coach Tolliver | 26, being reprinted | 4.3 | 0 failures, 0 warnings | 0 failures, 4 warnings |
-| Women's Softball | Casey Lindqvist | Coach Brannigan | 33 | 4.8 | 0 failures, 1 approximation | 0 failures, 5 warnings |
-| Men's Soccer | Alex Nkemdi | Coach Halloway | 27 | 4.8 | 0 failures, 1 approximation | 0 failures, 5 warnings |
-| Women's Soccer | Tori Ellison | Coach Bramley | 27 | 4.5 | 0 failures, 1 approximation | 0 failures, 6 warnings |
+| Men's Baseball: The Whole Road to College | 25 | 90,098 | `9219c4e9` | 4.4 | 0 failures, 0 approximations | 0 failures, 4 warnings, 332 cells |
+| Women's Softball: The Whole Road to College | 33 | 104,542 | `713775fb` | 4.7 | 0 failures, 1 approximation | 0 failures, 4 warnings, 392 cells |
+| Men's Soccer: The Whole Road to College | 27 | 92,680 | `2e5cb0b4` | 4.7 | 0 failures, 1 approximation | 0 failures, 5 warnings, 218 cells |
+| Women's Soccer: The Whole Road to College | 27 | 89,355 | `340351df` | 4.5 | 0 failures, 1 approximation | 0 failures, 6 warnings, 274 cells |
 
-The softball book printed at 24 pages on an earlier run and 33 on this one, with no words
-added in between. Two web addresses in a two-column source list could not wrap, so Chromium
-shrank the whole sheet to fit the width: every chapter title came out at 9.3 pt where the
-other books measure 11.6 pt. The shared sheet now lets an address break. The 33 pages are
-the book's real length, and the 24-page print was a lie about it that only a geometry audit
-could catch.
+Grades are Flesch-Kincaid over the printed prose. All four are simpler than the volleyball
+book that sold (7.3). PDFs are in `funnel/deliver/pdfs/` beside the five already sold, so
+the delivery folder now holds nine.
 
-All four are $29, cover all five divisions, and carry the same eleven chapters, the same
-cover furniture, the same sample-email placeholders and the same sources chapter shape as
-the volleyball book. Grades are measured on joined lines, not on fragment source lines;
-the shipped volleyball book grades 7.3 on the same measure, and that is a v2 job.
+Athletes and coaches: Diego Whitlock / Coach Tolliver (baseball), Casey Lindqvist / Coach
+Mardian (softball), Alex Nkemdi / Coach Halloway (men's soccer), Tori Marchetti / Coach
+Aldridge (women's soccer). Five coach surnames across five books, no two the same, none of
+them a real athlete, recruit, coach or recruiting profile in that sport.
 
-`gate.py` runs **62 checks** across the lane, the store and the four books.
+## What the audits forced
 
-## What the audits found, and where it went
+Nine agents read this work: four writers, a copy auditor, a fact auditor, a print auditor,
+a store auditor and an art auditor. The list of things they caught, because it is the
+useful part.
 
-Nine auditors were pointed at this work: four on rules and dates, two on numbers and
-figures, one on copy, one on print geometry, one on the store at two viewports, one on the
-art. Every finding went back to the drafter who owned the sentence, or into a packet row,
-or into the shared sheet. Nothing was patched in prose alone.
+**The books.** Eleven `UNCONFIRMED` chips in the baseball draft, printed as chips where the
+sold book prints plain words in the date cell: reversed, and the rule is in the template.
+A chapter 8 that promised its sources sit in chapter 11 "each with the page it came from"
+when chapter 11 prints no address: the promise now points at the label, and says outright
+that the book names no seller. "Signee", "ID camp", "sport sponsorship", "extra rounds",
+"bracket", "the academic test", "designated student-athletes", "institutional request list",
+"electronic correspondence", "12U/14U/18U": ten pieces of administrator vocabulary that were
+explained, or moved behind a plain sentence first. Two sentences with four dates in them
+became a list of three lines. One book's email closed with the same sentence as another's,
+so one changed.
 
-The three that changed how the lane works:
+**A page count that lied.** The softball book printed at 24 pages on the first pass and 33
+on the second. Nothing had grown: two unbreakable URLs made Chromium shrink the whole sheet
+to 80 per cent, which hid nine pages. The fix is `overflow-wrap` on the sources chapter, and
+the lesson is that a page count is only evidence once the geometry audit passes at full scale.
 
-- **The contract citation was wrong in my own packet.** The five-year limit in the women's
-  professional labour agreement is Section 13.7. Article 7A is trialists and amateurs. The
-  auditor opened all 129 pages; the packet is corrected and both books now cite 13.7 alone,
-  with the numbering stated ("page 22 of the PDF file (printed page 15)").
-- **The NAIA's 12 for soccer and baseball is an aid ceiling, not a roster limit.** The
-  numbers auditor downloaded the 2026-2027 handbook (41st edition) on 11 November, read
-  printed page 123, and found the table heading is "H. Upper Limits for Institutional Aid"
-  and that printed page 121 says "No limit will be placed on the number of student-athletes
-  on any varsity roster." Every packet row that hedged "no newer edition was located" is
-  replaced, and the books say what the number is.
-- **Three of the four placeholder surnames were real people.** A class-of-2026 softball
-  recruit, a public figure, and a college assistant coach whose surname sat on exactly the
-  position his book's player plays. Renamed, with the searches reported in each drafter's
-  note. A placeholder's full name now gets the same test a brand name would.
+**Names.** Fourteen candidate surnames went through three rounds of searching, and the bar
+moved once the data came back: no ordinary American surname returns zero people. What the
+rule became, and what is written in the template: nothing in the same sport, no recruiting
+profile, no named plaintiff. Dalton, Marlow, Hartwell, Wheelock, Bergstrom, Lindgren,
+Ferraro (twenty years of articles against a women's coach of that name), Rutherford (a youth
+coach with a profile), Delaney, Ostrander, Whitfield, Doll, Bramley (a real college head
+coach), Brannigan (a school bulletin prints it beside a softball notice), Ellison (a real
+recruit), Varnell (the named plaintiff in a published Tenth Circuit case about a school
+coach: the worst collision of the whole pass), Sappington (a current Division I head coach),
+Ridenour (two), Netherton (a head softball coach and a Colorado recruit), Thurber (an
+athletic-department employee), Hallowell (a business under that name), Wendling (a former
+head coach), Pennebaker, Lineberry, Haldeman, Kenworthy, Fennimore, Dunmore, Kessler (three
+softball coaches, one of them a travel team that carries the name). Kessler was my pick and
+the softball writer's own search killed it an hour after I sent it, which is the reason the
+writer searches and I do not.
 
-## Store work the audits forced
+**The storefront.** The phone carousel called a helper that only exists in the desktop file,
+so below 750px the entire ring rendered empty and the console stayed clean. My own price fix
+turned `$0` into `$undefined` because I removed the key and left the template reading it out
+loud. The desktop rail sold books that are not written: it listed them, priced them, and a
+Get button took the click and filled the bag. The four sports with no book of their own still
+showed `$15` and `$19` on their own pages, because those pages are shipped files this script
+never opened; `sweep_pages()` now walks every tile on every sport page and reads the money
+rule from the catalogue. The swimming card wore full colour, a live button and a NOT WRITTEN
+YET band at the same time, because a card with no book of its own was guessing from the first
+title in its list. Four different phrases described one state; there is now one, "in progress".
+The `/sports/` index counted planned titles as playbooks. The soccer page promised dead
+periods in every division when Division II prints one and Division III prints none, and the
+index card beside it repeated the claim after the page was fixed, which is how a fact goes
+stale: a second copy of it lives somewhere nobody re-checks. The build now fails on four
+banned phrases. New tiles wore the uniform upside down (the whole title in the 9-pixel label,
+the audience where the title goes). Two product-page buttons both said Get.
 
-- A shelf tile shows money only for a book that exists. Nothing unwritten carries a price or
-  a button, and the Sport Pack names the two titles in it that are not written yet. Nine books are
-  delivered PDFs today; the other seven sports are dated outlines. The word "Pending" is gone
-  from the storefront: a band now says "Not written yet", and the ring data carries three states
-  (written, rewrite, unwritten) so a book being redone will not read as a book that is missing.
-- The ring's data was missing the catalogue rows, which is what blanked the landing ring:
-  `undefined.price` in a card template. Any new catalogue row has to be in `playbooks` too.
-- Two builder patches in `site.py` were not idempotent and each build stamped another copy
-  of the same clause. `ring.js` had 24 copies of one function line. Both are guarded now, and
-  both scripts are syntax-checked as part of the build.
-- The women's soccer card had no figure, because the image service returns 403 on this
-  account. It draws a labelled silhouette instead of a bare pictogram. See *blocked*.
-- The Track & Field card is called Nia and stood on a male sprinter while a female runner sat
-  unused in the repo; it uses the runner now. The lacrosse goalie is Nora in all three places
-  that name her, so the site has one Tori, and she plays women's soccer.
+## Four things I decided rather than fixed
 
-## Deliberate deviations
+1. **The women's soccer figure is a traced silhouette, labelled as one.** The image model on
+   this account returns 403 (`Settings > Models`: a provider has to be enabled, and only Mike
+   or James can do it), so no new athlete could be generated. I traced the alpha of an unused
+   cutout in `v3/W5-athletes/v1media/cut-pirosko-1080.webp` into house ink at the house aspect
+   (`trace_figure.py`, 1080x1920, the same 1.777 ratio as its eleven neighbours). The art
+   auditor says it reads as a woman athlete and not as a missing image. The copy auditor says
+   three things lean basketball: the ball palmed at the hip, knee-length shorts, high-top
+   shoes. Both are right about the same pixels. The card's tag now says SILHOUETTE, the alt
+   text says silhouette, the caption says it is traced from a photograph, and no card for a
+   $29 book says anything is coming. When the model is enabled: generate the figure, save it
+   as `cut-womens-soccer-640.webp` and `-1080`, point the config's `art` at it, delete the
+   two `sil-` files.
+2. **Alex, the men's soccer cutout, has real flaws** (a white ball, guards over the socks, no
+   headroom). It shipped in W25 and I left it. Redrawing it is an hour and an image model.
+3. **Pending tiles point at the sport page, not at a waitlist.** There is no list to join, so
+   "notify me" would be a promise with nothing behind it. If Mike wants one, the affordance is
+   half an hour on the price page.
+4. **The three pack prices stay on the shelf without buttons** because checkout accepts the
+   nine playbook slugs and nothing else. The line under them says the prices are proposed for
+   launch, which is true, and a button that did nothing would be worse.
 
-1. Cream paper prints white, because the four sold PDFs print white. `--paper` is for screens.
-2. The brand head and the truth tags print at 8 px (roughly 6 pt), under the auditor's 7 pt
-   floor, because they match the sold books. "Match the other playbooks" outranks the floor.
-3. The volleyball book's print gate flags three chapter pages, and grades 7.3. It predates
-   one-chapter-per-page and the joined-line grader. Both are a v2 reprint of one shipped book,
-   not a change to the template.
-4. The football book keeps its shipped title. Retitling a sold book to match a template is a
-   worse trade than a slightly inconsistent shelf.
+## Tight pages, for whoever edits next
 
-## Blocked, and it needs Mike
+Baseball chapter 6 has 4 to 5 mm left before its box: one more row splits the page. Men's
+soccer chapter 4 ends with about two lines of room on its last page; the writer measured it
+in the browser before printing, and the print agrees. Women's soccer pages 19 and 23 are thin
+by design: they close a chapter. Nothing else has room for a sentence.
 
-**Tori has no figure.** `imagegen.generate()` returns `403 {"detail":"Forbidden"}` on this
-account, with or without a reference image. The image provider is not configured in
-Settings > Models, and only Mike or James can enable it. Until then the women's soccer card
-draws the ring silhouette, and the cover draws the crest. The same 403 is why `cut-tori-640`
-and `cut-tori-1080` do not exist; the config no longer points at them.
-
-Two known cosmetic things, both optional:
-
-- `IMAGES.json` at the repo root carries prompts for the first generation of renders. The
-  live files match `IMAGES-v2.json`. Nothing reads the root file except a human.
-- `cut-alex-640.webp` is byte-identical to the repo's only soccer cutout. It is ours and it
-  reads clearly as a man holding a ball, but the ball is all white, the shin guards sit over
-  the socks, and there is no headroom. A redraw is a nice-to-have.
-
-## To deploy
+## Running it again, or for the first time
 
 ```
-cd C:\Users\Jloeh\Developer\recruiting-calendar
+git clone https://github.com/rodgemd2/recruiting-calendar
 git checkout copy/anon-and-plain-english
-python v3/W28-four-sports/gate.py      # 62 checks
-vercel deploy --prod
+cd recruiting-calendar/v3/W28-four-sports
+python -m pip install -r requirements.txt        # pypdf and Pillow only
+python deck.py mens-baseball-road-to-college     # once per book: autocrlf rewrote the
+                                                 # fragment hashes on checkout
+python factcheck.py --all
+python print.js in the browser REPL, then copy the four PDFs into pdfs/
+python printcheck.py mens-baseball-road-to-college
+python site.py --apply                           # twice: the cache keys settle on run two
+python site.py --apply
+python gate.py                                   # 62 checks
 ```
 
-## Two notes for whoever builds sport five
+`TEMPLATE.md` is the contract: thirteen sections, from what a chapter is for to the order the
+scripts run in. `print.js` is the house print recipe and `trace_figure.py` the figure recipe.
+Nothing in `site/` is edited by hand; `site.py`, `STORE.json`, `SPORTS/*.json`, `head.txt` and
+the twelve fragments per book own everything you can see.
 
-After a fresh checkout, run `deck.py` for every book before `gate.py`. The manifests store byte
-hashes of the fragments, and Git's autocrlf rewrites them on checkout, so the stored hashes
-belong to the machine that built the deck.
+## Scratch left out of the commit
 
-`readability.py` and `factcheck.py` both take `--all`. The grade they print is measured on the
-finished deck with wrapped lines joined, not on the fragment source. A long URL or an
-all-caps table header scores as a hard sentence, which is why the worst "sentence" in the
-softball book is a web address at grade 22.9. Judge the prose by the list, not by the number.
+Sixteen scripts in `v3/W15-pdf/` and `v3/W25-national/artifacts-check.py` are untracked and
+predate this lane. `fixjs3.py`, `fixjs4.py`, `fixsite2.py` and `fixsite3.py` in this lane are
+this week's patches: they are kept because each one prints what it changed and refuses to
+apply twice, and they can go in a housekeeping commit once the store stops moving.

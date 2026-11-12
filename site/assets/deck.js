@@ -7,8 +7,9 @@ function SLUG(s){s=String(s||'').toLowerCase();if(s.indexOf('track')>-1)return't
   function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
   function NOUN(s){s=String(s||'').toLowerCase();return /swim|div/i.test(s)?'swimmer':/wrestl/i.test(s)?'wrestler':/track/i.test(s)?'track athlete':'player'}
   function ALTL(a){var s=String((a&&a.sport)||'').toLowerCase(),n=NOUN(s);return n==='player'?s+' '+n:n}
+  function KIND(a){return (a&&a.art_kind==='silhouette')?'Silhouette':'Illustration'}
   function PAGE(a){return (a&&a.ring_page)?a.ring_page:'/sports/'+SLUG(a.sport)}
-  function WRITTEN(a,P){var id=a&&a.book;var r=id&&P[id];if(r)return r.status==='WRITTEN';return (a.playbooks||[]).some(function(x){var q=P[x];return q&&q.status==='WRITTEN'&&q.state!=='unwritten'})}
+  function WRITTEN(a,P){var id=a&&a.book;var r=id&&P[id];if(r)return r.status==='WRITTEN';return false}
   function build(){
     var D=window.STORY_DATA;if(!D)return;var host=document.querySelector('story-deck');if(!host||host.dataset.built)return;
     var comps=D.athletes.filter(function(a){return a.composite}),reals=D.athletes.filter(function(a){return !a.composite});
@@ -19,7 +20,7 @@ function SLUG(s){s=String(s||'').toLowerCase();if(s.indexOf('track')>-1)return't
           (p.notify?'<a class="dk-pb-b ghost" href="/playbooks/'+id+'">Notify me</a>':'<button class="dk-pb-b" data-offer="'+id+'">Get</button>')+'</li>'}).join('');
       var src=a.img.replace('-640','-1080');
       return '<article class="dk-card" id="dk-'+esc(a.id)+'" aria-roledescription="slide" aria-label="'+(i+1)+' of '+comps.length+': '+esc(a.short)+'">'+
-        '<div class="dk-art">'+(a.img?'<img src="'+esc(src)+'" alt="Illustration of '+esc(a.short)+', a fictional '+esc(ALTL(a))+'" '+(i<2?'loading="eager" fetchpriority="'+(i?'auto':'high')+'"':'loading="lazy"')+' decoding="async"><span class="tag-ill">Illustration</span>':'<span class="dk-none">'+esc(a.sport)+'</span><span class="tag-ill">'+(WRITTEN(a,P)?'Illustration coming':'Playbook in progress')+'</span>')+
+        '<div class="dk-art">'+(a.img?'<img src="'+esc(src)+'" alt="'+KIND(a)+' of '+esc(a.short)+', a fictional '+esc(ALTL(a))+'" '+(i<2?'loading="eager" fetchpriority="'+(i?'auto':'high')+'"':'loading="lazy"')+' decoding="async"><span class="tag-ill">'+KIND(a)+'</span>':'<span class="dk-none">'+esc(a.sport)+'</span><span class="tag-ill">'+(WRITTEN(a,P)?KIND(a):'Playbook in progress')+'</span>')+
         '<div class="dk-txt"><p class="dk-k">'+esc(a.sport)+'</p><h2 class="dk-h">'+esc((a.short||'').replace(/\s*\(composite\)/i,''))+'</h2>'+
         (WRITTEN(a,P)?'<a class="btn btn--primary dk-read" href="'+PAGE(a)+'">Playbooks for '+esc(a.sport)+'</a>':'<span class="dk-read dk-pend">'+esc(a.sport)+' playbook in progress</span>')+' <a class="dk-src" style="font-size:13px" href="'+SRC_LINK(a)+'">'+(a.page===false?'Where this comes from':'How this played out')+'</a></div></div>'+
         '<div class="dk-pbs"><p class="dk-pbl">Playbooks for this sport</p><ul>'+pbs+'</ul></div></article>'}).join('');

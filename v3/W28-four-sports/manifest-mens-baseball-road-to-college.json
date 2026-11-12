@@ -1,7 +1,7 @@
 {
  "slug": "mens-baseball-road-to-college",
  "title": "Men's Baseball: The Whole Road to College",
- "ring_label": "Men's Baseball",
+ "ring_label": "Baseball",
  "gender": "men",
  "athlete": "Diego",
  "athlete_id": "composite-baseball",
@@ -39,19 +39,19 @@
  "fragment_sha": {
   "c01-cover.html": "011f22ae",
   "c02-ch01.html": "5e3d64d0",
-  "c03-ch02.html": "bdf18385",
+  "c03-ch02.html": "f678635c",
   "c04-ch03.html": "0917e542",
-  "c05-ch04.html": "5306c1d2",
+  "c05-ch04.html": "561e0a8f",
   "c06-ch05.html": "529ced95",
   "c07-ch06.html": "aeeff61a",
   "c08-ch07.html": "2928878c",
-  "c09-ch08.html": "8481d8fb",
+  "c09-ch08.html": "7951bc94",
   "c10-ch09.html": "2a431e22",
   "c11-ch10.html": "75a1d2bc",
-  "c12-sources.html": "89067a44"
+  "c12-sources.html": "396374eb"
  },
- "doc_bytes": 89635,
- "doc_sha": "e70f5571",
+ "doc_bytes": 90098,
+ "doc_sha": "9219c4e9",
  "grade": 4.4,
  "email": {
   "subject": "2029 right-handed pitcher, Anytown South HS · 6'1\" · fastball 84-86 · 3.5 GPA · video inside",
