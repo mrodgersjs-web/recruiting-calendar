@@ -204,3 +204,24 @@ the phone deck prints no heading over an empty list, a panel with no heading kee
 the four pending tiles no longer promise the page they are standing on, the lacrosse title says
 Women's on its own page, the track card on the index no longer claims dated rules, and the three
 bundle prices say "at launch" beside the number.
+
+## Store round two, on the auditor's re-check: a bounding box is not a test
+
+The band fix had landed in the generator and not on the pages the build patches in place, and my
+two proofs were both vacuous. Band at 93-534 against a cover at 120-507 is not a clipped band, it
+is 27 px of overhang on each side of the tile it labels. And `scrollWidth` on the document element
+always passes when `html, body` carry `overflow-x: clip`, because the clipping is the thing making
+it pass; `body.scrollWidth` was 379 against a 375 viewport. The test that catches this shape is
+structural rather than geometric: the band's parent element has to be the cover. It is, on all four
+sport pages and on the shelf, and `site.py` now raises instead of shipping the other shape.
+
+Two nits the price fix introduced are also gone. The membership row read "&middot; at launch"
+directly above "Not open at launch.", because my price rule had a lazy prefix that could cross a
+row boundary: once the two named rows carried the words, it attached them to the first un-suffixed
+price in the list. It now matches each row by name and cannot leave it. The track card said
+"Playbook in progress" and "Book in progress" on successive lines, because an earlier one-way
+rewrite had already replaced its label; the four pending cards share one label now.
+
+The four books went into that commit. The previous one staged `site` and `v3` only, so the handoff
+folder under `funnel/deliver/pdfs` still held the last build. Lane and handoff hold the same nine
+files, checked by hash.
