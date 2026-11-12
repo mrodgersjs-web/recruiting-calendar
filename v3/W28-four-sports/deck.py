@@ -273,6 +273,42 @@ def lint_email(doc, c):
     return {"subject": subj, "letters": letters, "words": words}
 
 
+def lint_grid(doc, c):
+    """A calendar has to set its columns the way the book on the shelf does.
+
+    The reference is read off the shipped book's own fragments when this runs, not typed in
+    here, for the reason the print checker learned the hard way: a target somebody writes down
+    passes whatever they expected to see. A print auditor measured four new books disagreeing
+    with the shelf and, in one book, with each other. The cause was not the template: most
+    calendar header cells carried no width at all, so the column took whatever its content
+    wanted. The widths therefore live on every cell of every calendar, and this is where that
+    is enforced.
+    """
+    ref = LANE / "fragments" / "volleyball-road-to-college" / "c04-ch03.html"
+    if not ref.exists() or c["slug"] == "volleyball-road-to-college":
+        return
+    head = re.search(r"<thead>.*?</thead>", ref.read_text(encoding="utf-8"), re.S)
+    cells = re.findall(r"<th(\s[^>]*)?>(.*?)</th>", head.group(0), re.S) if head else []
+    want = [re.findall(r"width:\s*([0-9.]+%)", x[0]) for x in cells][:2]
+    want = [w[0] for w in want if w]
+    if len(want) < 2:
+        fails.append("the book on the shelf carries no calendar widths to copy; check " + ref.name)
+        return
+    for m in re.finditer(r"<thead>.*?</thead>", doc.decode("utf-8") if isinstance(doc, bytes) else doc, re.S):
+        cs = re.findall(r"<th(\s[^>]*)?>(.*?)</th>", m.group(0), re.S)
+        if not cs or re.sub(r"<[^>]+>", "", cs[0][1]).strip().lower() != "when":
+            continue
+        got = [re.findall(r"width:\s*([0-9.]+%)", x[0]) for x in cs]
+        got = [g[0] if g else None for g in got][:2]
+        # The date column always has to match, because that is the column a reader runs a finger
+        # down. The second one only means anything against a table with the same number of
+        # columns; a two-column calendar spends the rest of the page on its answer column.
+        bad = got[:1] != want[:1] or (len(cs) == len(cells) and got != want)
+        if bad:
+            fails.append("a calendar sets its first columns to %s; the book on the shelf prints %s" % (got, want))
+
+
+
 def lint_tags(doc):
     cal = [s for s in sections(doc) if re.search(r"(?is)<h2[^>]*>\s*\d+\.\s*[^<]*(plan by date|calendar)", s)]
     for s in cal:
@@ -349,6 +385,7 @@ def main():
     found = lint_chapters(doc, c)
     lint_states(doc)
     email = lint_email(doc, c)
+    lint_grid(doc, c)
     lint_tags(doc)
     lint_must_say(doc, c)
     lint_spelling(doc)

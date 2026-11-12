@@ -514,3 +514,30 @@ manifest then disagrees. After a checkout, build before you gate.
 - Print with `print.js`, then run `printcheck.py` per slug, `factcheck.py --all`, then
   `site.py --apply` twice so the catalogue takes the new page counts, then `gate.py`. The checker
   reads geometry off the content stream, so a head that a reader cannot read fails the book.
+
+### Round five, added to the template contract
+
+- A calendar's column widths are markup, on every header cell, at the numbers the book on the
+  shelf carries: 20% for the date column, 38% for the second. `deck.py`'s `lint_grid` reads the
+  shipped book's fragments when it runs, so nothing is copied into a constant. The `table.cal`
+  rules in `head.txt` are a fallback for a table that opts in, not the mechanism, and a template
+  rule that governs no markup is how four books came to disagree with a shelf and with each other.
+- A grid check on paper cannot work here. A printed page draws a text run per word with no cell
+  boundaries, and justified prose splits into "columns" at any gap threshold you pick. Measure the
+  claim where it is made.
+- The furniture is `font-size:9px;font-weight:400;color:#5a5a5a`, uppercase, tracked .2em. Bold
+  near-black at 8 px measures fine and looks wrong next to the books already on the shelf, and
+  "looks wrong next to the rest of the series" is a failure a reader can see and no checker has.
+- The back section of a book carries `class="keep"` (`break-inside: avoid`). A short last page is
+  right; a last page holding nothing but a rule is not.
+- Read a cell tag as `<th(\s[^>]*)?>`. `<th([^>]*)>` also matches inside `<thead>`, because
+  "thead" starts with "th", and every column then reads one place late.
+- A pending tile's cover may not carry `filter: grayscale()` while the band sits inside it. Mute
+  the cover with a wash on its own background and filter its text; the band is the one element
+  that has to keep its colour.
+- A phone deck's "Playbooks for this sport" heading prints only when a written playbook is in the
+  list. The $9 eligibility checker is a tool and does not make a shelf.
+- Do not glue words to a price. "at launch" belongs in the row's note; on the number it wraps to
+  three lines on a phone and strands the separator.
+- Prove a new lint by breaking the thing it forbids and reading the failure. Three of today's
+  checks passed books they could not have failed.

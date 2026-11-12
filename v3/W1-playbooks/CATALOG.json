@@ -456,7 +456,7 @@
    ],
    "status": "WRITTEN",
    "price_usd": 29,
-   "pages": 25,
+   "pages": 26,
    "format": "PDF",
    "sport": "Baseball",
    "levels": "D1 · D2 · D3 · NAIA · junior college",
@@ -465,7 +465,7 @@
    "athlete": "Diego",
    "class_year": "2029",
    "edition": "2026-27",
-   "doc_sha": "3ba2cc23",
+   "doc_sha": "811b9a80",
    "deck_grade": 4.4,
    "claim": "every date shows the rule it comes from",
    "story_beats": [
@@ -511,7 +511,7 @@
    "athlete": "Casey",
    "class_year": "2029",
    "edition": "2026-27",
-   "doc_sha": "ae98734b",
+   "doc_sha": "bf615f4e",
    "deck_grade": 4.7,
    "claim": "the June dates that move with the Women's College World Series",
    "story_beats": [
@@ -548,7 +548,7 @@
    ],
    "status": "WRITTEN",
    "price_usd": 29,
-   "pages": 27,
+   "pages": 28,
    "format": "PDF",
    "sport": "Men's Soccer",
    "levels": "D1 · D2 · D3 · NAIA · junior college",
@@ -557,7 +557,7 @@
    "athlete": "Alex",
    "class_year": "2029",
    "edition": "2026-27",
-   "doc_sha": "87cd30d7",
+   "doc_sha": "6dfc7faa",
    "deck_grade": 4.7,
    "claim": "the Division I men's soccer calendar, as printed for 2026-27",
    "story_beats": [
@@ -603,7 +603,7 @@
    "athlete": "Tori",
    "class_year": "2029",
    "edition": "2026-27",
-   "doc_sha": "9875b056",
+   "doc_sha": "b22ec292",
    "deck_grade": 4.5,
    "claim": "the four 2026-27 dead periods, when a Division I coach may not watch her or host a visit",
    "story_beats": [

@@ -132,3 +132,6 @@ table + .small, table + .note, table + p.small, table + p.note { break-before: a
 </style></head>
 
 <body>
+/* The back page is short on purpose, but it must not be split from its own heading.
+   A rule with nothing under it is the last thing a reader sees. Tag it .keep. */
+.keep { break-inside: avoid; page-break-inside: avoid }

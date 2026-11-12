@@ -225,7 +225,9 @@ select,input{font-family:var(--font-text);background:#fff!important;border-radiu
 
 /* W27: a sport whose playbook is still being written. Same language as the athlete ring: grey art,
    a PENDING band, no price, no button. */
-.pb-cell.is-pend .pb-thumb{filter:grayscale(1);opacity:.55}
+.pb-cell.is-pend .pb-thumb{background-image:linear-gradient(rgba(203,197,184,.62),rgba(203,197,184,.62))}
+.pb-cell.is-pend .pb-thumb>b,.pb-cell.is-pend .pb-thumb>i{filter:grayscale(1);opacity:.55}
+.pb-cell.is-pend .pb-pend{z-index:2}
 .pb-cell.is-pend .pb-t,.pb-cell.is-pend .pb-s,.pb-cell.is-pend .lab{color:var(--c-muted)}
 .pb-cell.is-pend .pb-card{position:relative}
 .pb-thumb{position:relative;overflow:hidden}

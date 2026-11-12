@@ -225,3 +225,60 @@ rewrite had already replaced its label; the four pending cards share one label n
 The four books went into that commit. The previous one staged `site` and `v3` only, so the handoff
 folder under `funnel/deliver/pdfs` still held the last build. Lane and handoff hold the same nine
 files, checked by hash.
+
+## Print round five: what the auditor's numbers said, and a gate that could not fail
+
+Three books passed and women's soccer failed one page. The furniture passed on position and size
+and failed on look: it printed near-black bold, tracked wider than the shelf books, so a series
+that should read as one reads as four newcomers. The head and footer now print 9 px, normal
+weight, mid-grey, which is what the books already on the shelf measure.
+
+The calendar columns were the real finding, and the real embarrassment. I had written
+`table.cal` rules into the template and told myself the grid was fixed, then the auditor measured
+that the books disagreed with the shelf and, in one book, with each other, and that the numbers
+had not moved between rounds. They could not have moved: no book uses `class="cal"`. The widths
+live in each table's own `<th style>`, and most header cells carried no width at all, so the
+column took whatever its content wanted. The fix is to set the widths on every cell of every
+calendar to the numbers the shelf book's own fragments carry (20% then 38%), and the rule is
+enforced by `deck.py` against those fragments read at run time. I proved the lint bites by
+changing one width to 31% and watching it fail, then putting it back.
+
+My replacement grid check in `printcheck.py` was worse than the one it replaced, and finding that
+out is the useful part of the round. It grouped text runs into columns by the white space between
+them. A printed page carries a run per word, not per cell, and the book's prose is justified, so
+the "shelf book's calendar" it measured came out 0.17in wide, which is a line of prose. A gate
+that compares one kind of noise with another will pass anything, which is precisely the fault I
+was trying to correct. The paper-level check is retired, with the reason written where the check
+used to be, and the markup lint is the rule now. If the two ever disagree, the paper wins.
+
+Two of the debugging detours were mine and both are worth keeping. A `%s` format string in the
+first width pass ate part of a header row and I read it as corruption in the files. The second
+pass used `<th([^>]*)>` to read header cells, which also matches inside `<thead>`, because
+"thead" begins with "th": every cell came back shifted one place, so a book with widths of 20 and
+38 read as one width of 38, and I spent four probes concluding the reference file had lost its
+widths. The markup was fine both times; my reading of it was not.
+
+The two content findings are fixed the cheap way. The softball NAIA lead-in carries `.keepnext` so
+it cannot leave its table behind. The back page of each book carries `.keep`: the auditor offered
+either keeping the colophon with its rule or filling the page, and the first is honest, because a
+back page is meant to be short. Men's soccer p23 stays as it is, which the auditor accepted.
+
+On the storefront, the in-progress band had gone grey. Putting it inside the cover is what did
+that, because the cover's greyscale filter applies to its children, and the one element on the
+tile that says "in progress" was the thing being desaturated. The cover now carries a wash over
+its own background and a filter on its text only; the band prints at rgb(210,50,30) again and the
+phone page still measures 375 of scroll against a 375 viewport. The deck stopped printing
+"Playbooks for this sport" over a list that holds only the $9 eligibility checker: the heading now
+requires a written book in the list, measured on the served page for all twelve sports. And the
+words "at launch" came off the price numbers, where they broke into three lines on a phone and
+left the dot stranded; each row says it in a note instead.
+
+Page counts moved with the wider date column: baseball 26, softball 33, men's soccer 28, women's
+soccer 28, and the product pages quote those numbers. Gate 62 of 62. The lane folder holds five
+PDFs, the four new books and the shelf reference; the handoff folder holds nine. An earlier record
+line said the two folders hold the same nine files, which was wrong in a way the auditor caught:
+the comparison was five pairs against nine files.
+
+Left alone, on purpose: at 1440 the three bundle prices do not sit in one column, which is how the
+shelf markup has always laid them out and the store auditor called it non-blocking, and the print
+auditor's warning on women's soccer p28, which is now short and whole rather than short and split.

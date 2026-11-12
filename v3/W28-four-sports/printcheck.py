@@ -284,23 +284,14 @@ def run(slug, verbose=False):
         if not [x for x in foot_band if x["x"] > LETTER[0] * 0.60]:
             fails.append("page %d: the page number is not at the right edge of the footer" % pg)
 
-    # 2c The calendar grid is measured off the paper. 14 mm of margin, then a date column
-    # of 1.83in and a third column at 4.64in, which is where the shipped book draws them.
-    # The tolerance is a tenth of an inch: the differences a print auditor measured, and the
-    # width of the cell padding this template adds, both sit inside it and outside honest use.
-    MARGIN_L = 14 / 25.4 * 72
-    for pg, txt in enumerate(texts, start=1):
-        if not re.search(r"\bWHEN\b", txt):
-            continue
-        xs = sorted({x["x"] for x in text_items(r, pg - 1) if MARGIN_L + 4 < x["x"] < LETTER[0] - MARGIN_L})
-        for want, name in ((MARGIN_L + 1.83 * 72, "the date column"),
-                           (MARGIN_L + 4.64 * 72, "the third column")):
-            if not [x for x in xs if abs(x - want) <= 7.5]:
-                near = min(xs, key=lambda x: abs(x - want)) if xs else None
-                fails.append("page %d: %s does not break where the template sets it (%.2fin from the margin;"
-                             " nearest run of text %.2fin)" % (pg, name, want / 72 - 14 / 25.4,
-                                                               (near - MARGIN_L) / 72 if near else -1))
-
+    # 2c The calendar grid is checked in the markup, not off the paper, and that is a decision
+    # rather than a shortcut. A printed page carries a text run per word, with no mark of which
+    # cell it belongs to: grouping runs into columns by their white space found the shelf book's
+    # "calendar" 0.17in wide, which is a justified line of prose, and a gate that compares one
+    # kind of noise to another will pass anything. The grid is set by <th style="width"> on a
+    # table with table-layout: fixed, so deck.py lints the widths against the shelf book's own
+    # fragments, where the claim is actually made. If the two ever disagree, the paper wins and
+    # this note is wrong.
     # 3 one chapter per fresh page, in order
     raw = [nospace(t) for t in texts]
     titles = [nospace(x) for x in cfg.get("chapters", [])]

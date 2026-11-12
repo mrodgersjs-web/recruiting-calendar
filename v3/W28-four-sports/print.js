@@ -13,7 +13,10 @@
   *     14 mm side margins come from the stylesheet;
   *   - the running head comes from headerTemplate, not from the page: a head in the page
   *     would print on the cover, and the cover is a spread;
-  *   - the head and the footer render at 8 px. That is about 6 pt, under a print
+   *   - the head and the footer render at 9 px, normal weight, mid-grey. A print auditor
+      *     measured the shelf books near 6.4 pt of ink; at 8 px in bold this one printed
+      *     darker and heavier than its neighbours on the same shelf, which is the one
+      *     thing a customer notices about a series that is not quite a series. That is about 6 pt, under a print
   *     auditor's 7 pt floor, and it is what the three books already on the shelf measure,
   *     because a 14 mm-tall head set larger steals ink from the calendar grid;
   *   - printBackground, or the cream chips print as outlines and the date cells lose
@@ -39,10 +42,10 @@ const PAD = "width:100%;padding:0 14mm;box-sizing:border-box";
    letter spacing and no colour at all, and only the content-stream measurement caught it,
    twice, from two different directions. Arial stands in for Barlow Condensed because the
    template is its own document and loads no webfont. */
-const HFONT = "font-family:Arial,Helvetica,sans-serif;font-size:8px;font-weight:600;color:#141414";
+const HFONT = "font-family:Arial,Helvetica,sans-serif;font-size:9px;font-weight:400;color:#5a5a5a";
 
 function headBand(word) {
-  return "<div style='" + PAD + ";" + HFONT + ";letter-spacing:.25em;text-transform:uppercase'>"
+  return "<div style='" + PAD + ";" + HFONT + ";letter-spacing:.2em;text-transform:uppercase'>"
     + word.toUpperCase() + " PLAYBOOK \u00b7 EDITION 2026-27</div>";
 }
 

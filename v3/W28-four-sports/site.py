@@ -420,23 +420,21 @@ def sweep_pages():
                     'prints none. Learn the dates before you pay.</p>', b0, count=1)
         if b1 != b0 and ('written interest' in b0 or 'every division prints' in b0):
             sc.write_text(b1, encoding='utf-8')
-    # Two of the three bundle rows said a price and nothing else, so a reader could not tell a
-    # price from a promise. The two rows with no note of their own take the words on the number;
-    # the membership row already says it below. One buffer, one write: an earlier draft of this
-    # wrote the file twice from two reads and the second put the words back.
+    # The words 'at launch' glued to a price break into three lines on a phone and strand the
+    # dot. The rows carry them in a note instead, where the membership row already said it, and
+    # the line under the list says it once for all three.
     hb = shelf.read_text(encoding='utf-8')
-    hb = hb.replace('$149/yr &middot; at launch', '$149/yr')
-    hb = re.sub(r'(<li><b>(?:Sport Pack[^<]*|Every Playbook)</b> <span>)(?![^<]*at launch)(\$[0-9]+(?:/yr)?)(</span>)',
-                r'\1\2 &middot; at launch\3', hb)
+    hb = re.sub(r'(<span>\$[0-9]+(?:/yr)?) &middot; at launch(</span>)', r'\1\2', hb)
     for row, say in (
+        ('Sport Pack', 'A sport playbook and the two tools, once the tools exist.'),
         ('Every Playbook', 'All nine playbooks, and each new one as it is written.'),
         ('Sideline membership', 'The calendar tool, once it exists. Not open at launch.'),
     ):
-        hb = re.sub(r'(<b>' + re.escape(row) + r'</b>\s*<span>[^<]*</span>)(?!\s*<p class="note">)',
+        hb = re.sub(r'(<b>' + re.escape(row) + r'[^<]*</b>\s*<span>[^<]*</span>)(?!\s*<p class="note">)',
                     r'\1 <p class="note">' + say + '</p>', hb, count=1)
     if hb != shelf.read_text(encoding='utf-8'):
         shelf.write_text(hb, encoding='utf-8')
-        print('    bundle rows now say when they apply')
+        print('    the bundle rows carry the words in a note, not on the price')
     for page2 in [SITE / 'sports' / 'index.html', SITE / 'sports' / 'lacrosse' / 'index.html']:
         b2 = page2.read_text(encoding='utf-8')
         b3 = b2.replace('<b>Lacrosse</b>', "<b>Women's Lacrosse</b>")

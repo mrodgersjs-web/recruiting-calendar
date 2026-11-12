@@ -131,7 +131,11 @@ table + .small, table + .note, table + p.small, table + p.note { break-before: a
 .tag.t-unconfirmed { color: var(--ink2); border-color: var(--ink2) }
 </style></head>
 
-<body><section class="cover">
+<body>
+/* The back page is short on purpose, but it must not be split from its own heading.
+   A rule with nothing under it is the last thing a reader sees. Tag it .keep. */
+.keep { break-inside: avoid; page-break-inside: avoid }
+<section class="cover">
   <div class="lockwrap"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSI2IiBmaWxsPSIjMDAwIi8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE0IDE4aDE0bDQgNCA0LTRoMTR2MjZIMzZsLTQgNC00LTRIMTR6IE0xOSAyM3YxNmgxMGwzIDMgMy0zaDEwVjIzaC04bC01IDUtNS01eiIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0yOCAzMWwzIDMgNi03IDIuNSAyLjJMMzEgMzguNWwtNS41LTUuM3oiLz48L3N2Zz4K" alt="The Commit Book"></div>
   <div class="kicker label red">Baseball &middot; boys and men &middot; grades 9 to 12 &middot; sport playbook</div>
   <h1>Men's Baseball:<br>The Whole Road to College</h1>
@@ -394,7 +398,7 @@ table + .small, table + .note, table + p.small, table + p.note { break-before: a
   Check each one again inside six months of the date.</p>
 
   <table class="flow cal"><colgroup><col class="c-when"><col class="c-what"><col class="c-why"></colgroup>
-    <thead><tr><th style="width:19%">When</th><th style="width:44%">What is happening</th><th>What your family does</th></tr></thead>
+    <thead><tr><th style="width:20%">When</th><th style="width:38%">What is happening</th><th style="width:42%">What your family does</th></tr></thead>
     <tbody>
       <tr><td class="d">PROJECTED<br>and <span class="tag t-hard">HARD</span></td><td colspan="2">HARD means a document prints this date. You can look it up today. PROJECTED means this book worked the date out from the words of a rule. No one has printed it yet, so it can move.</td></tr>
       <tr><td class="d">12 Oct 2026 to<br>28 Feb 2027<br><span class="tag t-hard">HARD</span></td><td>Division I quiet period.
@@ -1081,7 +1085,7 @@ player@example.com
     Both are this book's rough arithmetic.</li>
   </ol>
 </section>
-<section class="newpage">
+<section class="newpage keep">
   <div class="pagehead"><span class="label">The Commit Book &middot; Men's Baseball</span><span class="label">Proof</span></div>
   <h2>11. Sources, and what we could not settle</h2>
   <p class="lead">Every rule, number and date in this book came from one of the documents below, read on 11 November 2026.

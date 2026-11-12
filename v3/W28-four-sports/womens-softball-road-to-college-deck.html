@@ -131,7 +131,11 @@ table + .small, table + .note, table + p.small, table + p.note { break-before: a
 .tag.t-unconfirmed { color: var(--ink2); border-color: var(--ink2) }
 </style></head>
 
-<body><section class="cover">
+<body>
+/* The back page is short on purpose, but it must not be split from its own heading.
+   A rule with nothing under it is the last thing a reader sees. Tag it .keep. */
+.keep { break-inside: avoid; page-break-inside: avoid }
+<section class="cover">
   <div class="lockwrap"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSI2IiBmaWxsPSIjMDAwIi8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE0IDE4aDE0bDQgNCA0LTRoMTR2MjZIMzZsLTQgNC00LTRIMTR6IE0xOSAyM3YxNmgxMGwzIDMgMy0zaDEwVjIzaC04bC01IDUtNS01eiIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0yOCAzMWwzIDMgNi03IDIuNSAyLjJMMzEgMzguNWwtNS41LTUuM3oiLz48L3N2Zz4K" alt="The Commit Book"></div>
   <div class="kicker label red">Softball &middot; girls and women &middot; grades 9 to 12 &middot; sport playbook</div>
   <h1>Women's Softball:<br>The Whole Road to College</h1>
@@ -368,7 +372,7 @@ table + .small, table + .note, table + p.small, table + p.note { break-before: a
 
   <h3>The printed calendar: Division I softball, 2026-27</h3>
   <table class="flow cal"><colgroup><col class="c-when"><col class="c-what"><col class="c-why"></colgroup>
-    <thead><tr><th style="width:21%">When</th><th style="width:37%">The period, as the calendar prints it</th><th>What it means for her</th></tr></thead>
+    <thead><tr><th style="width:20%">When</th><th style="width:38%">The period, as the calendar prints it</th><th style="width:42%">What it means for her</th></tr></thead>
     <tbody>
       <tr><td class="d">1-9 Aug 2026<br><span class="tag t-hard">HARD</span></td><td>Contact period.</td><td>Coaches
       could meet players off campus and watch them. A 10th grader could be watched. She could not be met.</td></tr>
@@ -430,7 +434,7 @@ table + .small, table + .note, table + p.small, table + p.note { break-before: a
 
   <h3>Two more printed dates for 2026-27</h3>
   <table class="cal"><colgroup><col class="c-when"><col class="c-what"><col class="c-why"></colgroup>
-    <thead><tr><th style="width:27%">When</th><th>What is printed</th><th style="width:34%">Where</th></tr></thead>
+    <thead><tr><th style="width:20%">When</th><th style="width:38%">What is printed</th><th style="width:42%">Where</th></tr></thead>
     <tbody>
       <tr><td class="d">9 Nov, 7 a.m., to<br>11 Nov, 7 a.m., 2026<br><span class="tag t-hard">HARD</span></td><td>Division
       II dead period for softball's group, "all other sports." A Division II coach may still call and write in a dead
@@ -444,7 +448,7 @@ table + .small, table + .note, table + p.small, table + p.note { break-before: a
 
   <h3>Her own dates, worked out from the rules</h3>
   <table class="flow cal"><colgroup><col class="c-when"><col class="c-what"><col class="c-why"></colgroup>
-    <thead><tr><th style="width:21%">When</th><th style="width:45%">What opens, and the rule it comes from</th><th>What your family does</th></tr></thead>
+    <thead><tr><th style="width:20%">When</th><th style="width:38%">What opens, and the rule it comes from</th><th style="width:42%">What your family does</th></tr></thead>
     <tbody>
       <tr><td class="d">PROJECTED<br>1 Jun 2027</td><td>A junior college may pay
       for a visit. The rule says "starting on June 1 prior to their junior year in high school." NJCAA Bylaws 2026-27,
@@ -631,7 +635,7 @@ table + .small, table + .note, table + p.small, table + p.note { break-before: a
   <p>The calendar uses two words. Scholastic means her high school team. Nonscholastic means the rest, which for most
   girls is travel ball. Here is what the printed 2026-27 calendar lets a Division I coach do.</p>
   <table class="cal"><colgroup><col class="c-when"><col class="c-what"><col class="c-why"></colgroup>
-    <thead><tr><th style="width:26%">When</th><th style="width:24%">Kind of period</th><th>What a Division I coach may watch</th></tr></thead>
+    <thead><tr><th style="width:20%">When</th><th style="width:38%">Kind of period</th><th style="width:42%">What a Division I coach may watch</th></tr></thead>
     <tbody>
       <tr><td class="d">1-9 Aug 2026</td><td>Contact period</td><td>High school softball and travel ball.</td></tr>
       <tr><td class="d">10 Aug-22 Nov 2026</td><td>Evaluation period</td><td>High school softball only, but see the next
@@ -903,7 +907,7 @@ player@example.com &middot; (555) 555-0148</div>
   3.A. Read 11 November 2026.</p>
 
   <h3>The NAIA: grades can make room for her</h3>
-  <p>The NAIA handbook for 2026-2027 has no bylaw on a letter of intent. What it does hold is a money rule worth knowing. A team
+  <p class="keepnext">The NAIA handbook for 2026-2027 has no bylaw on a letter of intent. What it does hold is a money rule worth knowing. A team
   has 10 full grants to share. One player may get no more than the real cost of tuition, required fees, books and
   supplies, and her own room and board. But aid to a new freshman with strong grades counts less against the team's
   10, or not at all.</p>
@@ -1049,7 +1053,7 @@ player@example.com &middot; (555) 555-0148</div>
   <p class="lead">One row per stretch of time, in order. Cross items off. Dates in 2027 and 2028 are PROJECTED, as
   Chapter 3 explains, so check them again when the new calendars are printed.</p>
   <table class="flow">
-    <thead><tr><th style="width:21%">When</th><th>Do this</th></tr></thead>
+    <thead><tr><th style="width:20%">When</th><th style="width:80%">Do this</th></tr></thead>
     <tbody>
       <tr><td class="d">9th grade<br>done</td><td>Keep every grade. The 16 core courses count from the start of ninth
       grade. The NCAA guide says to register with the Eligibility Center before ninth grade. If that did not happen,
@@ -1166,7 +1170,7 @@ player@example.com &middot; (555) 555-0148</div>
     Division I school's compliance office in writing how many seasons she would have left.</p>
   </div>
 </section>
-<section class="newpage">
+<section class="newpage keep">
   <div class="pagehead"><span class="label">The Commit Book &middot; Women's Softball</span><span class="label">Proof</span></div>
   <h2>11. Sources, and what we could not settle</h2>
   <p class="lead">Every rule, number and date in this book came from one of the documents below. Each was read on 11

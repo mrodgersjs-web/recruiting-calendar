@@ -14,7 +14,12 @@ function SLUG(s){s=String(s||'').toLowerCase();if(s.indexOf('track')>-1)return't
     var D=window.STORY_DATA;if(!D)return;var host=document.querySelector('story-deck');if(!host||host.dataset.built)return;
     var comps=D.athletes.filter(function(a){return a.composite}),reals=D.athletes.filter(function(a){return !a.composite});
     var P=D.playbooks;
+    // A list holding only the $9 checker is not a shelf of playbooks, and the heading over
+    // it is the kind of thing a reader photographs to ask what is for sale.
+    function hasBook(a){return (a.playbooks||[]).some(function(id){var p=P[id];
+      return p&&p.status==='WRITTEN'&&!/Eligibility/i.test(String(p.title))})}
     var cards=comps.map(function(a,i){
+      var HASBOOK=hasBook(a);
       var pbs=(a.playbooks||[]).filter(function(id){return P[id]&&P[id].status==='WRITTEN'}).slice(0,2).map(function(id){var p=P[id];if(!p)return'';
         return '<li><span class="dk-pb-t">'+esc(p.title)+'</span><span class="dk-pb-p">$'+p.price+'</span>'+
           (p.notify?'<a class="dk-pb-b ghost" href="/playbooks/'+id+'">Notify me</a>':'<button class="dk-pb-b" data-offer="'+id+'">Get</button>')+'</li>'}).join('');
@@ -23,7 +28,7 @@ function SLUG(s){s=String(s||'').toLowerCase();if(s.indexOf('track')>-1)return't
         '<div class="dk-art">'+(a.img?'<img src="'+esc(src)+'" alt="'+KIND(a)+' of '+esc(a.short)+', a fictional '+esc(ALTL(a))+'" '+(i<2?'loading="eager" fetchpriority="'+(i?'auto':'high')+'"':'loading="lazy"')+' decoding="async"><span class="tag-ill">'+KIND(a)+'</span>':'<span class="dk-none">'+esc(a.sport)+'</span><span class="tag-ill">'+(WRITTEN(a,P)?KIND(a):'Playbook in progress')+'</span>')+
         '<div class="dk-txt"><p class="dk-k">'+esc(a.sport)+'</p><h2 class="dk-h">'+esc((a.short||'').replace(/\s*\(composite\)/i,''))+'</h2>'+
         (WRITTEN(a,P)?'<a class="btn btn--primary dk-read" href="'+PAGE(a)+'">Playbooks for '+esc(a.sport)+'</a>':'<span class="dk-read dk-pend">'+esc(a.sport)+' playbook in progress</span>')+' <a class="dk-src" style="font-size:13px" href="'+SRC_LINK(a)+'">'+(a.page===false?'Where this comes from':'How this played out')+'</a></div></div>'+
-        '<div class="dk-pbs">'+(pbs?'<p class="dk-pbl">Playbooks for this sport</p>':'')+'<ul>'+pbs+'</ul></div></article>'}).join('');
+        '<div class="dk-pbs">'+(HASBOOK?'<p class="dk-pbl">Playbooks for this sport</p>':'')+'<ul>'+pbs+'</ul></div></article>'}).join('');
     var dots=comps.map(function(a,i){return '<button class="dk-dot" aria-label="Go to '+esc(a.short)+'" data-i="'+i+'"'+(i?'':' aria-current="true"')+'></button>'}).join('');
     var realLinks=reals.filter(function(a){return !a.hold}).map(function(a){return '<a href="'+(a.page===false?PAGE(a):'/story/'+esc(a.id))+'"><b>'+esc(a.short)+'</b><span>'+esc(a.sport)+' · '+esc(a.div)+'</span></a>'}).join('');
     host.innerHTML='<p class="dk-intro">Swipe to browse. Names are placeholders and the art is drawn; the playbooks and dates are what you are actually buying.</p>'+
