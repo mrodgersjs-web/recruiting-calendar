@@ -282,3 +282,34 @@ the comparison was five pairs against nine files.
 Left alone, on purpose: at 1440 the three bundle prices do not sit in one column, which is how the
 shelf markup has always laid them out and the store auditor called it non-blocking, and the print
 auditor's warning on women's soccer p28, which is now short and whole rather than short and split.
+
+## Store round three, on the auditor's third pass: my fix's own side effects
+
+All four changes held on the served build, and three small things came with them. Two were side
+effects of the band fix and one was a claim I wrote badly, and all three were mine.
+
+The in-progress cover went faint. The cover has no colour to desaturate: it is already `--c-ink`
+and the type on it is white and `#cacacb` by design, so the whole effect of the original
+`filter: grayscale(1); opacity: .55` was the opacity. When I moved the filter off the cover to
+save the band's red, the light wash I put in its place turned a dark cover warm grey and left pale
+type on a pale field, and the hardest line on the tile to read was the one saying the book is not
+written yet. Faded is now a veil of the page's own paper at 30 per cent over the cover, and the
+small line keeps white and gives up 14 per cent of itself to the veil. Measured on the served
+page: a pending cover paints rgb(85,84,82) where a live cover paints rgb(17,17,17), and both text
+lines come out at 7.5 to 1. The band still prints rgb(210,50,30) inside its clipped cover, and the
+phone page still measures 375 of scroll against a 375 viewport.
+
+The Sport Pack note came out. I had added it in the round where prices got the words "at launch",
+and it was wrong twice over: it counted the pack as "a sport playbook and the two tools" when the
+row lists a sport playbook, Eligibility, Offers & Signing and Camp ROI, and in a narrow column it
+wrapped to six short lines. The row states its own contents and which two are still being written,
+and the line under the list states that none of the prices can be paid today, so the note was a
+third statement of a fact already stated twice. It is out of the data and out of any page that
+already carries it, and the build converges on that in one pass.
+
+One probe of my own was fiction and I caught it before writing about it. The first contrast script
+parsed the veil colour but dropped its alpha, so it composited an opaque sheet of paper over the
+cover and reported white type at 1.1 to 1 on a pending tile, which would have been an invisible
+label on a storefront. A contrast number has to include the alpha of the thing being painted.
+The 1440 alignment of the three bundle prices is left as it is, on both auditors' judgement that a
+component four audits has measured is not worth re-cutting for the sake of it.

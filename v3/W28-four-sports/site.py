@@ -425,8 +425,13 @@ def sweep_pages():
     # the line under the list says it once for all three.
     hb = shelf.read_text(encoding='utf-8')
     hb = re.sub(r'(<span>\$[0-9]+(?:/yr)?) &middot; at launch(</span>)', r'\1\2', hb)
+    hb = hb.replace(' <p class="note">A sport playbook and the two tools, once the tools exist.</p>', '')
+    # A price row states the price, the row's own parenthesis states what is in the pack and what
+    # is still being written, and the line under the list states that none of it is payable today.
+    # A third statement of the same fact is the thing that wrapped to six lines on a phone, and it
+    # counted the pack's contents wrong besides.
+
     for row, say in (
-        ('Sport Pack', 'A sport playbook and the two tools, once the tools exist.'),
         ('Every Playbook', 'All nine playbooks, and each new one as it is written.'),
         ('Sideline membership', 'The calendar tool, once it exists. Not open at launch.'),
     ):

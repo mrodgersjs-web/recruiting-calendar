@@ -225,8 +225,11 @@ select,input{font-family:var(--font-text);background:#fff!important;border-radiu
 
 /* W27: a sport whose playbook is still being written. Same language as the athlete ring: grey art,
    a PENDING band, no price, no button. */
-.pb-cell.is-pend .pb-thumb{background-image:linear-gradient(rgba(203,197,184,.62),rgba(203,197,184,.62))}
-.pb-cell.is-pend .pb-thumb>b,.pb-cell.is-pend .pb-thumb>i{filter:grayscale(1);opacity:.55}
+.pb-cell.is-pend .pb-thumb{background-image:linear-gradient(rgba(245,241,232,.30),rgba(245,241,232,.30))}
+/* The small line is the one that tells a customer the book is not written yet, so it is
+   not allowed to be the hardest thing on the tile to read: it keeps white and loses a
+   little of itself to the veil rather than starting out pale. */
+.pb-cell.is-pend .pb-thumb>i{color:#fff;opacity:.86}
 .pb-cell.is-pend .pb-pend{z-index:2}
 .pb-cell.is-pend .pb-t,.pb-cell.is-pend .pb-s,.pb-cell.is-pend .lab{color:var(--c-muted)}
 .pb-cell.is-pend .pb-card{position:relative}
