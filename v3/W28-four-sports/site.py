@@ -333,6 +333,69 @@ def sweep_pages():
             if stale in body:
                 fails.append('stale copy still live on %s: %s' % (page.relative_to(SITE), stale))
     shelf = SITE / 'playbooks' / 'index.html'
+    # The same retraction belongs on the pages this script does not rebuild. The shipped
+    # volleyball, basketball and girls' basketball pages still tell a reader that no dated
+    # calendar exists for their sport, under a book that carries every date in it. The
+    # sentence is built here in the plain form because the block above, which builds the
+    # richer one for the four new pages, is only reached by pages this script owns. Duplication
+    # of a sentence is better than a rule that runs on half the shelves.
+    for page3 in sorted((SITE / 'sports').glob('*/index.html')):
+        h3 = page3.read_text(encoding='utf-8')
+        if 'No dated calendar for this sport yet' not in h3:
+            continue
+        own3 = [s3 for s3 in re.findall(r'href="/playbooks/([a-z0-9-]+)"', h3)
+                if BOOKS.get(s3, {}).get('status') == 'WRITTEN' and s3 != 'eligibility-2-hard-deadlines']
+        if not own3:
+            continue
+        labs3 = [(CFG[s3]['ring_label'] if s3 in CFG else BOOKS[s3]['title'].split(':')[0]) for s3 in dict.fromkeys(own3)]
+        nm3 = labs3[0] if len(labs3) == 1 else (', '.join(labs3[:-1]) + ' and ' + labs3[-1] if len(labs3) > 2 else ' and '.join(labs3))
+        rd3 = ' '.join('<a href="/playbooks/%s/">Read the %s book</a>' % (s3, (CFG[s3]['ring_label'] if s3 in CFG else BOOKS[s3]['title'].split(':')[0]).lower())
+                       for s3 in dict.fromkeys(own3))
+        h4 = re.sub(r'<p[^>]*>(?:(?!</p>)[\s\S])*?No dated calendar for this sport yet(?:(?!</p>)[\s\S])*?</p>',
+                    '<p>%s %s this sport\u2019s 2026-27 dates, chapter by chapter. Each date sits beside the rule '
+                    'that sets it. A calendar tool that answers &ldquo;what do I do this month&rdquo; for one '
+                    'athlete is not live yet. %s</p>' % (nm3, 'carry' if len(own3) > 1 else 'carries', rd3),
+                    h3, count=1)
+        if h4 != h3:
+            page3.write_text(h4, encoding='utf-8')
+    # The phone menu is driven by site.js, which the sport pages never loaded: the button sat
+    # at the top of ten pages and did nothing at all.
+    for page2 in sorted((SITE / 'sports').glob('*/index.html')) + [SITE / 'sports' / 'index.html']:
+        b2 = page2.read_text(encoding='utf-8')
+        if 'assets/site.js' not in b2 and '</body>' in b2:
+            page2.write_text(b2.replace('</body>', '<script src="/assets/site.js" defer></script>\n</body>', 1),
+                             encoding='utf-8')
+    # One card said Lacrosse, the shelf tile beside it said Women's Lacrosse. The book is for
+    # girls' lacrosse, so the cards say what the shelf says.
+    # The sport page and the index card each carry a version of the soccer claim, and both
+    # were wrong in the same way: Division II prints one dead period, around signing, and
+    # Division III prints none. Whichever file a restore brings back, this pass settles it.
+    sc = SITE / 'sports' / 'soccer' / 'index.html'
+    if sc.exists():
+        b0 = sc.read_text(encoding='utf-8')
+        b1 = re.sub(r'<p class="lede">(?:(?!</p>)[\s\S])*?</p>',
+                    '<p class="lede">Soccer runs on club events and on a coach writing to say they '
+                    'want you, more than on school visits. Division I and Division II print dead '
+                    'periods, stretches when a coach may not watch you or host a visit. Division III '
+                    'prints none. Learn the dates before you pay.</p>', b0, count=1)
+        if b1 != b0 and ('written interest' in b0 or 'every division prints' in b0):
+            sc.write_text(b1, encoding='utf-8')
+    for page2 in [SITE / 'sports' / 'index.html', SITE / 'sports' / 'lacrosse' / 'index.html']:
+        b2 = page2.read_text(encoding='utf-8')
+        b3 = b2.replace('<b>Lacrosse</b>', "<b>Women's Lacrosse</b>")
+        if b3 != b2:
+            page2.write_text(b3, encoding='utf-8')
+    # Two of the three bundle rows said a price and nothing else. The note pattern carries its
+    # own search text, so a second pass leaves the row alone instead of stacking notes.
+    hb = shelf.read_text(encoding='utf-8')
+    for row, say in (
+        ('Every Playbook', 'All nine playbooks, and each new one as it is written.'),
+        ('Sideline membership', 'The calendar tool, once it exists. Not open at launch.'),
+    ):
+        hb = re.sub(r'(<b>' + re.escape(row) + r'</b>\s*<span>[^<]*</span>)(?!\s*<p class="note">)',
+                    r'\1 <p class="note">' + say + '</p>', hb, count=1)
+    if hb != shelf.read_text(encoding='utf-8'):
+        shelf.write_text(hb, encoding='utf-8')
     if shelf.exists():
         h = shelf.read_text(encoding='utf-8')
         nsport = sum(1 for s, b in BOOKS.items() if b.get('status') == 'WRITTEN' and s != 'eligibility-2-hard-deadlines')
@@ -692,14 +755,24 @@ for page, slugs in sorted(per_page.items()):
         # named it here told a softball reader that a $9 cross-sport book was their
         # calendar. The joiner is "and", because "Women's Softball, Eligibility carry"
         # reads as a list that lost its last item.
-        own = [s for s in dict.fromkeys(dated) if s in CFG]
-        labs = [CFG[s]["ring_label"] for s in own]
+        # Only a book about this sport may be described as carrying this sport's dates. The
+        # eligibility book prints academic dates for every sport on the shelf, and a sentence
+        # that named it here told a softball reader that a $9 cross-sport book was their
+        # calendar. Volleyball and the two basketball books have no config in this lane, so
+        # their names come from the catalogue title, the same way the shelf tile gets one.
+        own = [s for s in dict.fromkeys(dated) if s not in {'eligibility-2-hard-deadlines'}]
+        labs = [(CFG[s]['ring_label'] if s in CFG else BOOKS[s]['title'].split(':')[0]) for s in own]
         names = labs[0] if len(labs) == 1 else (", ".join(labs[:-1]) + " and " + labs[-1] if len(labs) > 2 else " and ".join(labs))
-        reads = " ".join('<a href="/playbooks/%s/">Read the %s book</a>' % (s, CFG[s]["ring_label"].lower()) for s in own)
+        reads = " ".join('<a href="/playbooks/%s/">Read the %s book</a>' % (s, (CFG[s]['ring_label'] if s in CFG else BOOKS[s]['title'].split(':')[0]).lower()) for s in own)
         say = ('<p>%s %s this sport\u2019s 2026-27 dates, chapter by chapter. Each date sits beside the '
                'rule that sets it. A calendar tool that answers &ldquo;what do I do this month&rdquo; for one '
                'athlete is not live yet. %s</p>' % (names, 'carry' if len(own) > 1 else 'carries', reads))
-        t = re.sub(r'<p[^>]*>[^<]*(?:carries|carry) this sport[^<]*(?:<[^>]*>[^<]*)*</p>', say, t, count=1, flags=re.S)
+        # re.S with a permissive tail is how one substitution ate a page: the paragraph it
+        # was meant to replace ended at </p>, and the pattern walked straight over it, taking
+        # </main>, the footer and the closing tags with it on two sport pages. The pattern is
+        # now tempered: it cannot cross its own </p>, and it does not need DOTALL to do that.
+        if own:
+            t = re.sub(r'<p[^>]*>(?:(?!</p>)[\s\S])*?(?:No dated calendar for this sport yet|(?:carries|carry) this sport)(?:(?!</p>)[\s\S])*?</p>', say, t, count=1)
     write(p, t)
     print("  /sports/%s carries %s" % (page, " then ".join(CFG[s]["ring_label"] for s in slugs)))
 

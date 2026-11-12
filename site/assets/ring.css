@@ -156,5 +156,5 @@ story-ring.is-revealed .sr__stage{opacity:1;transition:opacity 1.6s .1s}story-ri
 
 /* The figure is drawn first, so the tag has to be lifted above it or a shoe
    covers the last letter of ILLUSTRATION on the tallest cards. */
-.card__lbl{position:relative;z-index:4}
+.card__lbl{position:absolute;top:auto;bottom:14px;left:10px;z-index:4}
 .card__art img{position:relative;z-index:1}

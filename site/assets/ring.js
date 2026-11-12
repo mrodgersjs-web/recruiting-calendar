@@ -69,7 +69,7 @@ render(){
 <div class="sr__stage" tabindex="0" role="region" aria-roledescription="carousel" aria-label="Browse by sport. Use arrow keys or swipe."><div class="sr__actors"></div><div class="sr__heroes"></div><span class="sr__sweep"></span>
 <span class="sr__cursor"><span class="sr__cursor-in"><span class="c-drag">Drag</span><span class="c-view">View</span></span></span><span class="sr__walk"></span></div>
 <div class="sr__controls"><button class="sr__icon sr__prev" aria-label="Previous athlete"><svg width="26" height="14" viewBox="0 0 26 14" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M25 7H1M7 1L1 7l6 6"/></svg></button>
-<div class="sr__ticks">${A.map((a,i)=>`<button class="sr__tick${isPending(a)?' is-pend':''}" data-tick="${i}" aria-label="${isPending(a)?PEND(a)+": "+a.sport:"Path "+(i+1)+": "+builtInfo(a).label}"><span class="sr__bar"></span><span class="sr__tlabel">${String(i+1).padStart(2,'0')}<span class="sr__tname">&nbsp;&nbsp;${isPending(a)?PEND(a)+' \u00b7 '+sp(a.sport):builtInfo(a).label}</span></span></button>`).join('')}</div>
+<div class="sr__ticks">${A.map((a,i)=>`<button class="sr__tick${isPending(a)?' is-pend':''}" data-tick="${i}" aria-label="${isPending(a)?PEND(a)+": "+a.sport:"Path "+(i+1)+": "+builtInfo(a).label}"><span class="sr__bar"></span><span class="sr__tlabel">${String(i+1).padStart(2,'0')}<span class="sr__tname">&nbsp;&nbsp;${isPending(a)?sp(a.sport):builtInfo(a).label}</span></span></button>`).join('')}</div>
 <button class="sr__icon sr__auto" aria-pressed="false" aria-label="Autoplay"><svg class="i-play" width="14" height="14" viewBox="0 0 24 24"><path fill="currentColor" d="M7 4.5v15l12.5-7.5z"/></svg><svg class="i-pause" width="14" height="14" viewBox="0 0 24 24"><path fill="currentColor" d="M6.5 4.5h3.5v15H6.5zM14 4.5h3.5v15H14z"/></svg></button>
 <button class="sr__icon sr__next" aria-label="Next athlete"><svg width="26" height="14" viewBox="0 0 26 14" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M1 7h24M19 1l6 6-6 6"/></svg></button></div></div>
 <aside class="sr__panel"><div class="sr__pinner"><div class="sr__phead"><h3 class="sr__ptitle">Playbooks for this sport</h3><span class="sr__lab" data-count></span></div><div class="sr__who" data-who></div>
@@ -160,7 +160,7 @@ renderPanel(silent){
  const ok=(p)=>{const r=P[p];return !!r&&STATE2(r)==='written';};
  const KIND2=(a)=>(a&&a.art_kind==='silhouette')?'Silhouette':'Illustration';
  const a=this.A[this.index],ul=this.querySelector('[data-items]');
- this.querySelector('[data-count]').textContent=a.playbooks.filter(ok).length+' playbooks';
+ var _n=a.playbooks.filter(ok).length;this.querySelector('[data-count]').textContent=_n===1?'1 playbook':_n+' playbooks';this.querySelector('.sr__phead').style.display=_n?'':'none';
  this.querySelector('[data-who]').textContent=isPending(a)?META(a):`${a.short} · ${builtInfo(a).label} · ${KIND(a)}. The name is a placeholder; every date and rule is cited on the page that uses it.`;
  ul.innerHTML=a.playbooks.filter(ok).map((p,i)=>{const pb=this.P[p],on=this.bag.has(p);return `<li class="sr__item" style="--i:${i+1}"><span class="sr__thumb">${String(i+1).padStart(2,'0')}</span><span><div class="sr__itype">Playbook · $${pb.price}, one-time</div><a class="sr__iname" href="/playbooks/${p}">${pb.title}</a></span><button class="sr__add" data-add="${p}" aria-pressed="${on}">${on?'Added':'Get'}</button></li>`}).join('');
  const pi=this.querySelector('.sr__pinner');pi.classList.remove('is-in');void pi.offsetWidth;pi.classList.add('is-in');

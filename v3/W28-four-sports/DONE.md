@@ -136,3 +136,27 @@ Sixteen scripts in `v3/W15-pdf/` and `v3/W25-national/artifacts-check.py` are un
 predate this lane. `fixjs3.py`, `fixjs4.py`, `fixsite2.py` and `fixsite3.py` in this lane are
 this week's patches: they are kept because each one prints what it changed and refuses to
 apply twice, and they can go in a housekeeping commit once the store stops moving.
+
+## Third storefront pass, after the auditor read the rebuild
+
+The auditor came back "fix first" on my own round-two work, and was right on eight counts. A
+paragraph pattern written with `re.S` and a permissive tail walked past its own `</p>` and ate
+`</main>`, the footer and the closing tags on two sport pages; the fix for a truncated page had
+to come from two commits back, because the truncation went in with the commit that fixed the
+claim. A CSS rule I added to lift a tag above a figure carried `position:relative`, which
+overrode the absolute anchor two rules earlier and put the tag across every athlete's thighs.
+A count line said "1 playbooks" and, at zero, "0 PLAYBOOKS" over an empty list, which is a
+finding wearing a heading. A tick for a sport with no book was cut mid-word. Two of three
+bundle rows priced something with no contents. The phone menu did nothing on ten pages because
+`site.js` was never loaded there, which predates this lane.
+
+And the same class of bug the auditor had already caught once, in a new place: the sentence that
+retracts "no dated calendar for this sport yet" ran only on pages this script rebuilds, so the
+shipped volleyball, basketball and girls' basketball pages still told a reader there were no
+dated rules for their sport, under books that carry every date in them. The retraction now runs
+on every sport page, and the pending three keep it because for them it is true.
+
+One thing the auditor asked for that I did not build: a way to leave an email on the four sports
+with no book. The cross-sport titles have Notify forms because they have product pages; the four
+planned sport books have neither, so the honest affordance today is the sport page. That is a
+decision for Mike, not a fix.
