@@ -21,3 +21,46 @@ v3/W13-copy/ogprobe.py
 v3/W13-copy/livecheck*.py
 v3/W13-copy/equiv*.py
 v3/W13-copy/ghcheck.py
+
+# Next.js & Node dependencies
+node_modules/
+.next/
+out/
+.vercel/
+.env
+.env.*
+!.env.example
+tsconfig.tsbuildinfo
+next-env.d.ts
+public/assets/
+public/downloads/
+public/emerging-sports/
+public/library/
+public/personalize/
+public/recruitiq/
+public/segments/
+public/welcome/
+public/access/
+public/style.css
+public/app.js
+public/data.js
+public/forms.js
+public/motion.js
+public/checkout.js
+public/IMAGES.json
+public/robots.txt
+public/sitemap.xml
+
+# Next.js & local build artifacts
+node_modules/
+.next/
+out/
+next-env.d.ts
+.vercel/
+.env
+.env.*
+!.env.example
+app/legacy-bundle.css
+
+# Raw PDF text extracts (provenance, local only; content/reels.md is the shipped KB)
+content/reels/*.txt

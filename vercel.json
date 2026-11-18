@@ -1,13 +1,10 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "",
-  "outputDirectory": "site",
-  "cleanUrls": true,
   "trailingSlash": false,
   "rewrites": [
     {
       "source": "/rules/:sport/:class",
-      "destination": "/index.html?sport=:sport&class=:class"
+      "destination": "/?sport=:sport&class=:class"
     }
   ],
   "headers": [
@@ -55,11 +52,6 @@
       ]
     }
   ],
-  "functions": {
-    "api/*.js": {
-      "includeFiles": "{funnel/**,v3/W1-playbooks/CATALOG.json}"
-    }
-  },
   "redirects": [
     {
       "source": "/athlete/butler/",
