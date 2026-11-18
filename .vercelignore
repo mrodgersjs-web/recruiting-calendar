@@ -1,10 +1,5 @@
-research/
-funnel/lead-magnet/out/
-*.md
-!site/**
-funnel/emails/
-research/L1-motionsites/prompts-raw.json
-v3/*
-!v3/W1-playbooks
-v3/W1-playbooks/*
-!v3/W1-playbooks/CATALOG.json
+.git
+.next
+node_modules
+content/reels
+*.log

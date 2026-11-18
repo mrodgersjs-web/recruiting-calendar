@@ -1,0 +1,140 @@
+{
+  "harness": "commitbook-chatbot-kokonut",
+  "harness_version": "1.0.0",
+  "owner": "RIG App Studio",
+  "generated": "2026-11-18T05:05:00Z (America/Denver 2026-11-17 evening)",
+  "repository": "mrodgersjs-web/recruiting-calendar",
+  "branch": "feat/commitbook-chatbot-kokonut",
+  "head": "e2885cc",
+  "commits": [
+    "e2885cc refactor(api): retire legacy serverless handlers now served by the App Router",
+    "58762cc chore(deps): lockfile for the Next.js 15 + Tailwind v4 toolchain",
+    "65cce13 feat(ui): Kokonut chat surface, launcher, workbench ribbon and the four upgraded tools",
+    "3e7fc71 feat(app): App Router pages and API routes for the chatbot, SOP hub, window finder, auditor and offers",
+    "c5fffcc feat(chat): streaming chat API, section-selecting knowledge loader, IP rate limit and legacy adapters",
+    "7c7f761 feat(data): parsed athlete SOP playbooks for football, basketball, volleyball and softball",
+    "d41bd7c feat(kb): Commit Book knowledge base, highlight-reel lane, golden set and ten-offer data",
+    "6d54706 chore(tooling): Next.js 15 App Router + Tailwind v4 + TypeScript setup for the Commit Book chatbot"
+  ],
+  "recon": {
+    "starting_state": "static HTML in site/ plus Vercel serverless api/*.js; no Tailwind, no components.json, no @/ alias",
+    "ending_state": "Next.js 15.5.29 App Router + Tailwind v4 + shadcn + Kokonut UI; legacy URLs preserved through app/[...slug] HTML adapter",
+    "vercel_project": "recruiting-calendar (prj_fH00YUAIBlgV40gedKIUpoAjWzTz)",
+    "vercel_setting_change": "framework set to nextjs; outputDirectory cleared (was 'site'). Production URL still serves the prior deployment."
+  },
+  "installs": [
+    "next@15.5.29, react@19, typescript, tailwindcss@4, @tailwindcss/postcss",
+    "shadcn CLI init (components.json, lib/utils)",
+    "kokonutui registry: ai-prompt, ai-text-loading, ai-citations",
+    "@ai-sdk/react, ai, @ai-sdk/openai, lucide-react"
+  ],
+  "files": {
+    "chat_api": "app/api/chat/route.ts (streamText, provider.chat(modelId), maxOutputTokens 700, temperature 0.2, IP rate limit, 429 + Retry-After, 503 without key)",
+    "kb_loader": "lib/kb.ts (section scoring by sport/topic, KB_CHAR_BUDGET default 15000 chars injected per request)",
+    "rate_limit": "lib/rate-limit.ts (sliding window, CHAT_RATE_LIMIT_PER_MIN default 15)",
+    "grounding": {
+      "content/kb.md": "51113 bytes (site copy, rules, pricing, FAQ)",
+      "content/reels.md": "22735 bytes (five Nov 2026 highlight-reel reports distilled by sport)",
+      "content/reels/*.txt": "180629 bytes raw PDF text, 72 pages, kept local-only as provenance",
+      "content/sops/*.json": "parsed athlete SOP playbooks (football, boys basketball, girls basketball, volleyball)",
+      "content/offers-10x.json": "ten Social Fetch sourced offerings, all status Priority Waitlist"
+    },
+    "ui": [
+      "components/chat/commitbook-chatbot.tsx (dialog, test id commitbook-chat-dialog, inline #f7f5f0 light theme)",
+      "components/chat/commitbook-chat-launcher.tsx (lazy, commitbook:ask and commitbook:open events)",
+      "components/kokonutui/ai-prompt.tsx (patched: disabled, isStreaming, showAttachButton false, showModelControls false, footerHint, data-testid kokonut-send-button / kokonut-stop-button)",
+      "components/upgrade/{recruiting-window-finder,athlete-sop-hub,ten-offers-lab,camp-and-aid-auditor}.tsx",
+      "lib/legacy-html.ts (workbench ribbon injected after </header>)"
+    ],
+    "pages": [
+      "app/page.tsx",
+      "app/sops/page.tsx",
+      "app/offers/page.tsx",
+      "app/window/page.tsx",
+      "app/auditor/page.tsx",
+      "app/[...slug]/page.tsx",
+      "app/not-found.tsx"
+    ]
+  },
+  "golden_results": {
+    "set": "content/golden-set.json",
+    "items": 14,
+    "passed": 14,
+    "categories": {
+      "rules_and_pricing": 7,
+      "off_topic_refusal": 3,
+      "film_lane": 4
+    },
+    "latency_ms_range": [
+      2259,
+      6958
+    ],
+    "rate_limit_test": {
+      "status": 429,
+      "retry_after": 60
+    },
+    "runner": "node scripts/run-golden-eval.mjs"
+  },
+  "build": {
+    "typecheck": "clean",
+    "lint": "clean (next lint + scripts/lint-check.mjs: 0 secret leaks, all JSON valid)",
+    "next_build": "success, 96 static pages generated",
+    "first_load_js_home_kb": 133
+  },
+  "routes_verified_200": [
+    "/",
+    "/sops",
+    "/offers",
+    "/window",
+    "/auditor",
+    "/playbooks",
+    "/sports",
+    "/calendar",
+    "/price",
+    "/start"
+  ],
+  "preview": {
+    "url": "https://recruiting-calendar-m4jorr137-michael-rodgers-projects-e4209a00.vercel.app",
+    "protection": "Vercel Deployment Authentication is ON for the project",
+    "chat_state": "returns the graceful 503 fallback until OPENAI_API_KEY is set on the environment",
+    "earlier_preview_superseded": "recruiting-calendar-3kcjnp9ha (served static site/ before the framework preset fix)"
+  },
+  "push_status": {
+    "state": "BLOCKED",
+    "guard": "rig.github_steward.git_guard.v1",
+    "code": "public_push_grant_missing",
+    "estate": "rig-github-steward status: remote_writes_enabled false, kill_switch ACTIVE",
+    "local_commits": "8 commits on branch, working tree clean",
+    "jev_code_diff_gate": "skipped on all 8 commits via documented RIG_JEV_PRECOMMIT_SKIP=1 with per-commit reasons (claims_match_diff BLOCK on prose/data slices; multi-file slices over the 60000-char provider budget)",
+    "github_steward_pre_commit": "PASS (registered_write)"
+  },
+  "env_var_names_for_owner": {
+    "required": [
+      "OPENAI_API_KEY",
+      "OPENAI_BASE_URL",
+      "OPENAI_MODEL"
+    ],
+    "optional": [
+      "CHAT_RATE_LIMIT_PER_MIN",
+      "KB_CHAR_BUDGET"
+    ],
+    "note": "No secret values are stored in this packet or in the repo."
+  },
+  "open_risks": [
+    "Gateway latency spikes: typical answer 2-7s, but observed 15-31s bursts under upstream contention; the sub-10s budget holds in normal conditions, not under load.",
+    "Preview chat is inert (503) until the owner sets the three env vars; env_secret_write is a gated action.",
+    "GitHub push blocked by the estate kill switch; branch exists locally only until a public push grant is issued.",
+    "Vercel project settings were changed (framework nextjs, outputDirectory cleared). A deploy of the old static main would now need outputDirectory restored.",
+    "Three live-site facts from James remain unresolved and are stated honestly in the KB rather than papered over: reel shelf page count 14 vs store card 16; reel shelf 'what is inside' lists camp content and links only softball; checkout answers 503 so every price is unpayable and four sports read pending.",
+    "Known data conflicts kept open on purpose: Eligibility Center fee $110 vs $120; football FBS dead period 29 vs 30 Nov 2026; boys basketball signing 11-18 Nov vs 19 Nov; $99 first-100 vs $149/yr Sideline; 85 vs 105 football roster cap; baseball 11.7 ceiling only at non-opt-in with a 34-player roster limit from 1 Jul 2025.",
+    "All ten new offerings are Priority Waitlist with no live checkout; no fake purchase path was created."
+  ],
+  "termination_authority": "independent-verifier (self_review_allowed false)",
+  "human_approval_still_required": [
+    "production_publish",
+    "env_secret_write",
+    "paid_api_key",
+    "destructive_change",
+    "public_push_grant"
+  ]
+}
