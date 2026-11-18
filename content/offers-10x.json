@@ -1,0 +1,427 @@
+{
+  "generatedAt": "2026-11-17",
+  "socialSignalsCount": 348,
+  "platformsQueried": ["reddit", "x", "youtube"],
+  "offers": [
+    {
+      "id": "highlight-video-teardown",
+      "rank": 1,
+      "title": "Highlight Video Teardown",
+      "category": "Film & Outreach",
+      "status": "Priority Waitlist",
+      "priceDisplay": "$49 audit",
+      "whoItsFor": "Athletes in grades 9-12 with film already shot who are sending it out and hearing nothing back.",
+      "problemSolved": "Most highlight reels get closed in the first 10 seconds because the clips bury the athlete's best plays behind intros, music, and slow pans. Coaches and evaluators publish the same mistakes over and over, so a family can fix them before the next send instead of learning them after a dead cycle.",
+      "deliverable": [
+        "Play-by-play teardown of the current reel with the exact timestamps that lose a coach",
+        "Cut list: which clips to keep, which to drop, and the ideal open-first clip",
+        "Sport-specific checklist for length, labeling, angle, and the measurables slate",
+        "One rewrite of the reel title and subject line that gets the click"
+      ],
+      "whyExistingFails": "Full-service recruiting firms charge $2,000-$4,000 for bundled packages when most families only need the film fixed first.",
+      "demandEvidence": {
+        "summary": "Video how-to and mistake-callout content on recruiting film drew one of the densest result sets in the run, and X coaches keep naming blast emails and weak film as the reason recruits are ignored.",
+        "postCount": 42,
+        "sampleSources": [
+          {
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=3nxztEcy4sk",
+            "signal": "'5 things you should NEVER do with your college recruiting highlight video'"
+          },
+          {
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=UFssYVVLZBw",
+            "signal": "'Stop Making These Highlight Reel Mistakes | College Recruiting Tips'"
+          },
+          {
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=85OOMfDp9iA",
+            "signal": "'How to make a D1 highlight video in less than an hour (and stop getting ignored)'"
+          }
+        ]
+      },
+      "chatStarterPrompt": "Can you look at my highlight video and tell me why coaches are not responding?"
+    },
+    {
+      "id": "camp-invite-audit",
+      "rank": 2,
+      "title": "Camp and Showcase Invite Audit",
+      "category": "Camp & Showcase Audit",
+      "status": "Priority Waitlist",
+      "priceDisplay": "$29 audit",
+      "whoItsFor": "Parents of 10th-12th graders getting camp mailers and showcase invites every week and paying for events that go nowhere.",
+      "problemSolved": "Families spend hundreds per event on camps that are money makers for the host, not a path to a roster spot. People who work these events say the ones who benefit emailed the coach beforehand and picked events where their level was actually being evaluated.",
+      "deliverable": [
+        "Go or no-go verdict on each camp or showcase invite in hand",
+        "What the event actually is: evaluation camp, fundraiser, or coach-run ID session",
+        "Pre-event email template that puts the athlete on the coach's watch list before arrival",
+        "Season budget plan showing what to skip and what earns its cost"
+      ],
+      "whyExistingFails": "Recruiting services sell $2,000-$4,000 packages built around event attendance instead of telling a family which events to skip.",
+      "demandEvidence": {
+        "summary": "Parents and event workers on Reddit openly debate which showcases are worth it, and youth coaches describe camps where showing up without prior contact is just a donation.",
+        "postCount": 18,
+        "sampleSources": [
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/youthsoccer/comments/1ur2cq0/ive_worked_recruiting_events_for_8_years_if_you/",
+            "signal": "Event worker: 'if you don't email the coach in before the event you might just be giving a donation'"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/volleyball/comments/1x7fp2q/canadian_volleyball_showcase_for_a_toptier_d1t1/",
+            "signal": "'legit recruiting tool or a massive money grab?'"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/Homeplate/comments/1sg5k89/college_coach_camps/",
+            "signal": "Parents comparing notes on what college coach camps actually deliver"
+          },
+          {
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=12FJH0an-pA",
+            "signal": "'Top Parent Mistakes to Avoid at College Baseball Camps'"
+          }
+        ]
+      },
+      "chatStarterPrompt": "We got three camp invites this month. Which ones are actually worth paying for?"
+    },
+    {
+      "id": "coach-email-silence-plan",
+      "rank": 3,
+      "title": "Coach Email Silence Plan",
+      "category": "Film & Outreach",
+      "status": "Priority Waitlist",
+      "priceDisplay": "$39 one-time",
+      "whoItsFor": "Athletes in grades 10-12 who have sent emails to coaches and gotten no replies, or who do not know what to write next.",
+      "problemSolved": "Coaches delete blast-style recruiting emails on sight, and families keep sending the same generic message to a general team inbox that nobody reads. The fix is a short, personal sequence with the right asks at each step, including what to do after silence.",
+      "deliverable": [
+        "First-contact email template personalized to the program and the coach's roster needs",
+        "Three-step follow-up sequence with timing, including the one question that gets an answer",
+        "Wrong-inbox check: which addresses to avoid and where the real recruiting contact lives",
+        "Tracker sheet for who was contacted, when, and what happens next"
+      ],
+      "whyExistingFails": "Services charge $2,000-$4,000 to blast a generic profile at coaches, a format coaches say they recognize and delete.",
+      "demandEvidence": {
+        "summary": "X recruiting accounts coach recruits on email behavior daily, Reddit threads ask how to stand out when emailing coaches, and families report being ghosted after the first send.",
+        "postCount": 27,
+        "sampleSources": [
+          {
+            "platform": "x",
+            "url": "https://x.com/One11Recruiting/status/2122797045354246333",
+            "signal": "'Do not pay somebody to send blast emails for you. Coaches recognize the format instantly and they delete it'"
+          },
+          {
+            "platform": "x",
+            "url": "https://x.com/One11Recruiting/status/2122359158884233285",
+            "signal": "'Do not ask a coach for an offer in your second email. Ask him what he needs to see.'"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/CollegeSoccer/comments/1xkmze7/advice_on_standing_out_when_emailing_coaches/",
+            "signal": "'Advice on standing out when emailing coaches'"
+          },
+          {
+            "platform": "x",
+            "url": "https://x.com/jakedaltrui/status/2120173904429764672",
+            "signal": "'Players, stop sending long emails to coaches.'"
+          }
+        ]
+      },
+      "chatStarterPrompt": "I have emailed 20 coaches and heard nothing. What should my follow-up say?"
+    },
+    {
+      "id": "roster-cap-105-readiness",
+      "rank": 4,
+      "title": "105 Roster Cap Readiness Check",
+      "category": "Roster & Aid Math",
+      "status": "Priority Waitlist",
+      "priceDisplay": "$29 one-time",
+      "whoItsFor": "Football and multi-sport families trying to read the post-settlement world where a roster spot and a scholarship are no longer the same thing.",
+      "problemSolved": "The 105-player roster limit changed how programs recruit, when they cut, and what a walk-on spot even means, and most families are working from last year's rules. Parents need one plain read of what the caps and new eligibility windows do to their athlete's timeline and options.",
+      "deliverable": [
+        "One-page plain-English read of the roster cap and what it changes for your athlete's class year",
+        "Timeline check: when programs in your sport build boards, cut, and fill spots",
+        "Level-fit list: where roster pressure actually creates openings for your athlete",
+        "Questions to ask any coach about roster status before committing time"
+      ],
+      "whyExistingFails": "Large recruiting firms sell multi-thousand-dollar packages built for the old scholarship model and rarely explain the new math family by family.",
+      "demandEvidence": {
+        "summary": "X recruiting analysts post about the 105 cap daily and Reddit threads ask what the limit is actually for, with families openly confused about walk-on odds under the new rules.",
+        "postCount": 31,
+        "sampleSources": [
+          {
+            "platform": "x",
+            "url": "https://x.com/One11Recruiting/status/2122464854753649080",
+            "signal": "'College football rosters are capped at 105 players now. The old model was 85 scholarships plus as many walk-ons as you could carry.'"
+          },
+          {
+            "platform": "x",
+            "url": "https://x.com/SDProspectsFB/status/2122028023629197754",
+            "signal": "'Scholarship and roster spot aren't the same anymore.'"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/footballstrategy/comments/1tzz3cd/what_is_the_point_of_the_105_man_roster_limit/",
+            "signal": "'What is the point of the 105 man roster limit?'"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/collegebaseball/comments/1pm7kvk/what_are_my_odds_at_walking_on_d1_with_new_ncaa/",
+            "signal": "'what are my odds at walking on d1 with new ncaa roster rules?'"
+          }
+        ]
+      },
+      "chatStarterPrompt": "What does the 105 roster cap mean for my 2027 athlete's chances?"
+    },
+    {
+      "id": "walk-on-offer-decoder",
+      "rank": 5,
+      "title": "Walk-On Offer Decoder",
+      "category": "Roster & Aid Math",
+      "status": "Priority Waitlist",
+      "priceDisplay": "$29 one-time",
+      "whoItsFor": "Families holding a preferred walk-on or recruited walk-on spot who need to know what they are actually signing up for.",
+      "problemSolved": "Walk-on, recruited walk-on, and preferred walk-on sound alike but come with different promises, costs, and cut risks, and coaches do not always spell out which one is on the table. Families need a side-by-side read before they turn down a smaller scholarship somewhere else.",
+      "deliverable": [
+        "Plain-English comparison of walk-on, recruited walk-on, and preferred walk-on terms",
+        "Red-flag list: which phrases in an offer need a follow-up question",
+        "Cost sheet: real yearly out-of-pocket at each option versus a partial aid offer",
+        "Script for the conversation that gets the coach's honest expectations on record"
+      ],
+      "whyExistingFails": "Recruiting services bundle this kind of decision help into $2,000-$4,000 packages when most families need one clear answer before a deadline.",
+      "demandEvidence": {
+        "summary": "YouTube has a deep cluster of walk-on versus preferred walk-on explainers and 'is this a trap' videos, and Reddit families ask how to even walk on under the new rules.",
+        "postCount": 24,
+        "sampleSources": [
+          {
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=bkI77LbsUAc",
+            "signal": "'Preferred Walk-On vs. Walk-On: What's the Difference?'"
+          },
+          {
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=T0DDTybZpuw",
+            "signal": "'Are Preferred Walk-on Offers A Red Flag In College Recruiting?'"
+          },
+          {
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=gtIxuYKE5lA",
+            "signal": "'D1 Walk-On vs. D2/D3 Financial Aid: What's Worth It?'"
+          },
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/highschoolfootball/comments/1x9k23x/walk_on_as_a_long_snapper/",
+            "signal": "'Walk on as a long snapper?'"
+          }
+        ]
+      },
+      "chatStarterPrompt": "My son was offered a preferred walk-on spot. What is he really being promised?"
+    },
+    {
+      "id": "eligibility-center-checklist",
+      "rank": 6,
+      "title": "Eligibility Center Checklist",
+      "category": "Eligibility & NIL",
+      "status": "Priority Waitlist",
+      "priceDisplay": "$29 one-time",
+      "whoItsFor": "Parents of 10th-12th graders who have not registered, or who registered but do not know which account type they need.",
+      "problemSolved": "The NCAA Eligibility Center has multiple account types, fees, and level-specific rules, and families discover the wrong choice only when a signing date is close. A missed certification account or a misunderstood D3 rule can stall an otherwise done deal.",
+      "deliverable": [
+        "Account-type decision: which registration your athlete actually needs, and by when",
+        "Document checklist for transcripts, test scores, and amateurism steps",
+        "Level-by-level note: what the NCAA certifies versus what D3, NAIA, and JUCO schools set themselves",
+        "Deadline calendar tied to your athlete's class year"
+      ],
+      "whyExistingFails": "Recruiting firms charge $2,000-$4,000 for packages that bury this paperwork step instead of pricing it as a standalone fix.",
+      "demandEvidence": {
+        "summary": "The Eligibility Center's own account explainer gets shared widely on X, coaches post warnings about certification accounts before signing, and recruiting guides keep flagging D3 exceptions families miss.",
+        "postCount": 15,
+        "sampleSources": [
+          {
+            "platform": "x",
+            "url": "https://x.com/ncaaec/status/2120234410888864177",
+            "signal": "Eligibility Center account: 'three account types. Learn which is right for you'"
+          },
+          {
+            "platform": "x",
+            "url": "https://x.com/SycamoreRules/status/2120554393678352769",
+            "signal": "'you must have a CERTIFICATION account (fee must be paid) in order for you to sign a scholarship'"
+          },
+          {
+            "platform": "x",
+            "url": "https://x.com/_baseballfuture/status/2122015542231945222",
+            "signal": "'The NCAA Eligibility Center doesn't certify U.S. players for D3. Each school sets its own standards.'"
+          }
+        ]
+      },
+      "chatStarterPrompt": "Which NCAA Eligibility Center account does my 2027 athlete need and by when?"
+    },
+    {
+      "id": "high-school-nil-rules-brief",
+      "rank": 7,
+      "title": "High School NIL and Eligibility Rules Brief",
+      "category": "Eligibility & NIL",
+      "status": "Priority Waitlist",
+      "priceDisplay": "$29 one-time",
+      "whoItsFor": "Athletes and parents weighing NIL activity, reclassification, or a fifth year while rules are actively changing.",
+      "problemSolved": "NIL rules for high schoolers vary by state and the college eligibility model itself is shifting, with redshirts moving to a multi-season window and new enforcement proposals in play. Families making decisions now are reading headlines, not the rule that applies to their athlete.",
+      "deliverable": [
+        "State-level read of what NIL activity is allowed for a high school athlete today",
+        "Plain summary of the new eligibility window and who it applies to",
+        "Decision notes on reclassification and extra year questions for your class year",
+        "Watch list of pending rule changes to recheck before signing"
+      ],
+      "whyExistingFails": "Services charge $2,000-$4,000 for general guidance that does not track rule changes class year by class year.",
+      "demandEvidence": {
+        "summary": "Sports lawyers and recruiting analysts on X are actively debating the new five-year eligibility window, medical hardship changes, and state-level NIL proposals as families ask what applies to them.",
+        "postCount": 21,
+        "sampleSources": [
+          {
+            "platform": "x",
+            "url": "https://x.com/V2Sports_/status/2120594008581771557",
+            "signal": "'The NCAA is changing college eligibility... five-year eligibility window with up to FIVE seasons of competition'"
+          },
+          {
+            "platform": "x",
+            "url": "https://x.com/2aDays_Ratings/status/2122774030696481233",
+            "signal": "'NCAA NIL rules could be changing, and the Big Ten's latest proposal could shake up college recruiting'"
+          },
+          {
+            "platform": "x",
+            "url": "https://x.com/heitner/status/2122665626862862365",
+            "signal": "Attorney reporting families confused after 'The NCAA eliminated medical hardship'"
+          },
+          {
+            "platform": "x",
+            "url": "https://x.com/cack92/status/2122744826504282364",
+            "signal": "'The new NCAA 5-in-5 eligibility model and roster limit changes' slowing coach decisions"
+          }
+        ]
+      },
+      "chatStarterPrompt": "What do the new NCAA eligibility and high school NIL rules mean for my athlete?"
+    },
+    {
+      "id": "aid-stacking-diagnostic",
+      "rank": 8,
+      "title": "D2, D3, and NAIA Aid Stacking Diagnostic",
+      "category": "Roster & Aid Math",
+      "status": "Priority Waitlist",
+      "priceDisplay": "$79 diagnostic",
+      "whoItsFor": "Families comparing offers where academic aid, merit money, and athletic aid stack differently at each level.",
+      "problemSolved": "A D3 offer with no athletic scholarship can beat a partial D1 ride once academic and merit aid are stacked, but the numbers are hard to compare school by school. Families need the real out-of-pocket figure per school before they commit to the offer that sounds best.",
+      "deliverable": [
+        "Side-by-side net cost sheet across the schools on your list after stacked aid",
+        "Aid-type map: what each level can and cannot offer on its own",
+        "Questions to send each financial aid office to firm up the numbers",
+        "Rank order of the offers by real cost and fit, not by division label"
+      ],
+      "whyExistingFails": "Recruiting services charge $2,000-$4,000 without doing the school-by-school net cost math families actually need.",
+      "demandEvidence": {
+        "summary": "Explainers comparing walk-on and lower-division financial aid draw steady views on YouTube, and X guides keep noting that lower division eligibility rules differ in ways that change the money.",
+        "postCount": 12,
+        "sampleSources": [
+          {
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=gtIxuYKE5lA",
+            "signal": "'D1 Walk-On vs. D2/D3 Financial Aid: What's Worth It?'"
+          },
+          {
+            "platform": "x",
+            "url": "https://x.com/chrisrandle_/status/2120639336534196638",
+            "signal": "'Grades are your first offer... an eligibility checklist for HS athletes and parents... NCAA, NAIA, and JUCO'"
+          },
+          {
+            "platform": "x",
+            "url": "https://x.com/CoachDaniels06/status/2122086435691880951",
+            "signal": "'One offer from any level puts you in elite company. D1, D2, D3, NAIA, JUCO'"
+          }
+        ]
+      },
+      "chatStarterPrompt": "How do I compare a D3 academic aid package against a partial D2 athletic offer?"
+    },
+    {
+      "id": "juco-transfer-path-map",
+      "rank": 9,
+      "title": "JUCO and Transfer Path Map",
+      "category": "Parent Guidance",
+      "status": "Priority Waitlist",
+      "priceDisplay": "$39 one-time",
+      "whoItsFor": "Athletes without offers yet, or with grades or film that need another year, who are weighing JUCO, prep, or a transfer route.",
+      "problemSolved": "JUCO and transfer routes carry real roster openings and real risks, and the timeline differs completely from direct recruiting. Families need a map of which route fits their athlete and what the next two years would look like on each one.",
+      "deliverable": [
+        "Route comparison: JUCO, prep year, redshirt, and transfer paths for your sport",
+        "Timeline map: when each route recruits, signs, and re-evaluates",
+        "Program shortlist where roster spots are actively open at the right level",
+        "Credit and eligibility notes so the route does not cost a season"
+      ],
+      "whyExistingFails": "Recruiting firms price everything as one $2,000-$4,000 package aimed at direct placement, not the two-step route many athletes actually need.",
+      "demandEvidence": {
+        "summary": "JUCO programs openly post roster openings on Reddit, X recruiting accounts frame any-level offers as worth taking, and unsigned senior roll calls fill the timeline after high school seasons end.",
+        "postCount": 16,
+        "sampleSources": [
+          {
+            "platform": "reddit",
+            "url": "https://www.reddit.com/r/bootroom/comments/1vyndve/seeking_goalkeeper_delaware_county_community/",
+            "signal": "JUCO program posting an open roster spot and recruiting directly"
+          },
+          {
+            "platform": "x",
+            "url": "https://x.com/ExpoRecruits/status/2122089883972030515",
+            "signal": "'A D1 OFFER IS AN OPPORTUNITY. A D2 OFFER IS AN OPPORTUNITY. A D3 OFFER IS AN OPPORTUNITY. A NAIA OFFER IS AN OPPORTUNITY. A JUCO O...'"
+          },
+          {
+            "platform": "x",
+            "url": "https://x.com/vm_nextchapter/status/2121988912235290903",
+            "signal": "'Coaches are building their 2027 & 2028 recruiting boards RIGHT NOW. Is your athlete on one?'"
+          }
+        ]
+      },
+      "chatStarterPrompt": "Is JUCO a good route for my 2027 athlete, and what would the timeline look like?"
+    },
+    {
+      "id": "junior-senior-rescue-plan",
+      "rank": 10,
+      "title": "Junior and Senior Rescue Plan",
+      "category": "Parent Guidance",
+      "status": "Priority Waitlist",
+      "priceDisplay": "Included in $39 Pass",
+      "whoItsFor": "Juniors and seniors with no offers and growing panic, including late bloomers whose stock just changed after a strong season.",
+      "problemSolved": "Coaches are building next year's boards now, so a quiet junior or senior year is not hopeless but it is time-sensitive. Families need one honest read of the athlete's real level, a short list of schools still filling spots, and a two-week plan instead of more scattered spending.",
+      "deliverable": [
+        "Honest level read: where this athlete can realistically play, with reasons",
+        "Shortlist of programs still filling spots at that level this cycle",
+        "Two-week action plan: film, emails, and events in priority order",
+        "Parent do-and-avoid checklist so the family stops working against the athlete"
+      ],
+      "whyExistingFails": "Recruiting services charge $2,000-$4,000 to families in panic mode, when the first thing needed is an honest level read and a small ordered plan.",
+      "demandEvidence": {
+        "summary": "YouTube is saturated with parent-mistake and overlooked-athlete content, unsigned-senior roll calls run on X, and recruiting accounts tell late families the boards are being built right now.",
+        "postCount": 36,
+        "sampleSources": [
+          {
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=F-AMA53Hk2c",
+            "signal": "'5 Things Parents Do That Hurt Their Athlete's Recruiting Without Realizing It'"
+          },
+          {
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=pcuUTmZiNqk",
+            "signal": "'Why Most Athletes Get Overlooked in 2025 (Wrong Fit, Not Lack of Skill)'"
+          },
+          {
+            "platform": "x",
+            "url": "https://x.com/ExpoRecruits/status/2122681661481447687",
+            "signal": "Unsigned senior roll call: 'Have season film ready, Have 0 offers, Are open to opportunities'"
+          },
+          {
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=phr3lthGiaA",
+            "signal": "'The $3K Recruiting Mistake Every Parent Makes'"
+          }
+        ]
+      },
+      "chatStarterPrompt": "My 2027 athlete has no offers yet. What should we do in the next two weeks?"
+    }
+  ]
+}
