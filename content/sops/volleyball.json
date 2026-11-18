@@ -1,0 +1,581 @@
+{
+  "sportSlug": "volleyball",
+  "sportLabel": "Women's Volleyball",
+  "athleteName": "Ava (Class of 2029 Sample Athlete)",
+  "subtitle": "What to do, when to do it, who pays, and what a coach is and is not allowed to tell you. Built from the 2026-27 NCAA rule text, USA Volleyball's junior calendar, a regional club schedule, and a state association's season dates.",
+  "verifiedDate": "11 November 2026",
+  "governingBodies": [
+    "NCAA D1",
+    "NCAA D2",
+    "NCAA D3",
+    "NAIA",
+    "NJCAA"
+  ],
+  "headlineReality": "Women's volleyball fields 1,053 NCAA teams, and a girl can be seen at one of them from a free profile page and one email. The club season, not the high school season, is where staffs watch. In the NCAA's 2025 survey, 94 percent of college volleyball players played both high school and club, 3 percent played high school only, and 2 percent played club only.",
+  "divisionMatrix": [
+    {
+      "level": "NCAA D1",
+      "rosterCapOrLimit": "At a school that opted in: a roster limit of 18 players on aid in any amount, up from the old 12 scholarships, in place since 1 July 2025. 348 teams. A conference may set a lower number, but not below 12. Schools that did not opt in: no roster limit, and the school must stay under the old aid value. About 17 schools were named as objectors. There is no printed list of who opted in.",
+      "aidModel": "Opted-in schools: no aid cap. Aid may be any size on any of the 18. Not opted in: no roster limit, and the school must stay under the old aid value. The old Division I limit was 12 scholarships, not 4.5. The figure 4.5 is men's volleyball's old limit.",
+      "firstDirectContact": "She may write today. USA Volleyball prints NO RESTRICTIONS for a recruit contacting a coach. A Division I coach may not answer until 15 June after her sophomore year. For the class of 2029 that date is 15 June 2027. That covers phone and text, not just email.",
+      "officialVisitsStart": "1 August before her 11th grade, so 1 August 2027, for both official and unofficial visits. She gets five official visits in a lifetime, and the school pays for those. She needs a paid certification account to take an official visit. Unofficial visits she may take at any cost to herself from the same date.",
+      "realityNote": "The scarce thing is a seat. Returning players are counted first. Transfers have no one-time limit any more. The 2026-27 Division I portal windows are 6 December 2026 to 4 January 2027, and 1 to 15 May 2027. Roster limits bite after the roster is submitted. For Division I that date was 2 October 2026. Counted live rosters on 11 November 2026: 18, 18, 16, 16, 15, 15. A service average is 18.1. This book's list guidance, not a rule: 40 to 60 schools."
+    },
+    {
+      "level": "NCAA D2",
+      "rosterCapOrLimit": "No roster limit. 288 teams. One counted roster had 19 players. A service average is 19.3.",
+      "aidModel": "8.0 aid equivalents, cut into pieces. A staff can spread 8.0 over 19 players. Half of this ladder is talk.",
+      "firstDirectContact": "Same answer date as Division I: 15 June after her sophomore year, so 15 June 2027. She may write before that. The coach may not answer until that day.",
+      "officialVisitsStart": "Official visits after 15 June of her 10th-grade year. Earlier than Division I. For her, that is 15 June 2027.",
+      "realityNote": "Division II roster submission is the fifth Sunday in March. A spring camp can legally hold more players than a later countable roster."
+    },
+    {
+      "level": "NCAA D3",
+      "rosterCapOrLimit": "No roster limit. 417 teams, the biggest door. Counted rosters: 19 and 25. A service average is 18.2.",
+      "aidModel": "No athletic aid at all. Ask about academic and need aid in the same email. The trip is about the school and the roster.",
+      "firstDirectContact": "A Division III coach may answer any time. These programs are not held to the 15 June date.",
+      "officialVisitsStart": "Official visits after 1 January of her 11th-grade year, so 1 January 2027.",
+      "realityNote": "Families who chase only a scholarship leave this door shut. The NCAA path share in this book's math is about 1.6 percent of the high-school number reaching a Division III roster."
+    },
+    {
+      "level": "NAIA",
+      "rosterCapOrLimit": "No roster limit. 226 schools, from one recruiting service, not an association census. Counted rosters: 20 and 31. A service average is 18.",
+      "aidModel": "8 aid equivalents, cut into pieces. A quarter is one athlete's worth of money, not one athlete.",
+      "firstDirectContact": "An NAIA coach may answer any time. Small staffs. A coach often answers her directly. The head coach usually answers her own email.",
+      "officialVisitsStart": "No rule printed.",
+      "realityNote": "One counted NAIA roster sat at No. 25 in its own preseason poll and listed a 5'1\" defensive specialist. The other carried 31 players."
+    },
+    {
+      "level": "NJCAA",
+      "rosterCapOrLimit": "14, and athletes named as exempt do not count against it. The published table is inside a login. About 300 to 545 programs. Two counts are in circulation. A service average roster is 13.",
+      "aidModel": "The playbook prints the 14 cap and says the published table is inside a login. It does not print a junior-college aid dollar cap in the roster chapter.",
+      "firstDirectContact": "A junior college coach may answer any time. One service lists camp invites as something any school may send any time.",
+      "officialVisitsStart": "Official visits after the first day of classes of her 11th-grade year. Ask the college, not the club coach, what the trip covers.",
+      "realityNote": "Do not sign two junior college letters of intent. It costs a year of ineligibility in that association. A junior-college year now starts the NCAA's five-year clock, so one year there leaves four."
+    }
+  ],
+  "gradeChecklists": [
+    {
+      "grade": "9th Grade (Freshman)",
+      "windowLabel": "Before any recruiting spend",
+      "goal": "Play, keep every grade, know her barefoot height, and spend nothing on recruiting.",
+      "steps": [
+        {
+          "id": "vb-9-1",
+          "title": "Play, and keep every grade",
+          "detail": "The 9th-grade row says play, and keep every grade. High school ball is where she gets better and stays healthy. Club is the showcase, but 9th grade is not a recruiting-spend year.",
+          "timing": "9th grade",
+          "category": "Playing"
+        },
+        {
+          "id": "vb-9-2",
+          "title": "Lift with a plan she can write down",
+          "detail": "Lift with a plan she can write down. The book does not name a program or a load.",
+          "timing": "9th grade",
+          "category": "Playing"
+        },
+        {
+          "id": "vb-9-3",
+          "title": "Measure barefoot height to the nearest half inch",
+          "detail": "Find out how tall she is now, barefoot, to the nearest half inch, with a parent writing it down, and when she last grew. A bare-height claim should be measured barefoot. Her 10th-grade height is not her college height.",
+          "timing": "9th grade",
+          "category": "Measuring"
+        },
+        {
+          "id": "vb-9-4",
+          "title": "Learn standing reach versus approach touch",
+          "detail": "Standing reach is how high her hand gets with feet flat, shoes on. Approach touch is how high her hitting hand touches after a real approach. Vertical is touch minus reach. No college in this research publishes an approach, block, or reach standard.",
+          "timing": "9th grade",
+          "category": "Measuring"
+        },
+        {
+          "id": "vb-9-5",
+          "title": "Spend nothing on recruiting",
+          "detail": "The 9th-grade row says spend nothing on recruiting. A camp invite is not interest. USA Volleyball says an invitation to a camp may or may not indicate interest.",
+          "timing": "9th grade",
+          "category": "Money"
+        }
+      ]
+    },
+    {
+      "grade": "10th Grade (Sophomore)",
+      "windowLabel": "This year through 15 June 2027",
+      "goal": "Get on a club schedule coaches can find, measure honestly, and send the first real emails the week coaches may answer.",
+      "steps": [
+        {
+          "id": "vb-10-1",
+          "title": "Make the club team and ask which qualifiers it enters",
+          "detail": "Club tryouts are in the fall. One club posted fees from $25 to $70. Ask, before paying, which qualifiers the team enters and who pays for them. In the NCAA's 2025 study, 94 percent of college players played both high school and club.",
+          "timing": "Fall club tryouts",
+          "category": "Club"
+        },
+        {
+          "id": "vb-10-2",
+          "title": "Shoot the whole season from a high wide angle",
+          "detail": "Shoot from a high wide angle at the end line. A parent with a tripod at the end line is one of the free things that pay off. Keep the full match ready.",
+          "timing": "Club season, late October to early March in one region",
+          "category": "Film"
+        },
+        {
+          "id": "vb-10-3",
+          "title": "Build a list of 40 to 60 schools",
+          "detail": "This book's guidance, not a rule: 40 to 60 schools across all five levels, most of them schools whose staff has already answered an email. There are 1,053 NCAA teams, plus NAIA and junior college. Writing to twelve schools and calling it a plan is the single most common mistake in this sport.",
+          "timing": "10th grade",
+          "category": "Outreach"
+        },
+        {
+          "id": "vb-10-4",
+          "title": "Open the free Eligibility Center profile",
+          "detail": "The Eligibility Center has a free Profile Page for anyone under 13, and a paid certification account when she is sure. Open the free page now. The live page shows $120 for the combined account. The 2024-25 guide still says $110. A student may use up to two fee waivers.",
+          "timing": "Now",
+          "category": "Paperwork"
+        },
+        {
+          "id": "vb-10-5",
+          "title": "Measure reach and approach touch with the device and the date",
+          "detail": "Write the device, the date, who measured, and whether the shoes were on. A wearable jump device reads about two inches higher than a Vertec for the same athlete. An unlabelled number tells a coach the family does not know the sport.",
+          "timing": "10th grade, before the June email round",
+          "category": "Measuring"
+        },
+        {
+          "id": "vb-10-6",
+          "title": "Get a free tournament profile",
+          "detail": "Get a free profile on the platform staffs use at tournaments, with her unweighted Grade Point Average on a 4.0 scale. The book names Otto Prep, formerly University Athlete, as the platform club coaches say staffs use to locate players. The company gives every athlete a free profile.",
+          "timing": "10th grade",
+          "category": "Outreach"
+        },
+        {
+          "id": "vb-10-7",
+          "title": "Learn the February region qualifier from the stands",
+          "detail": "Her region's qualifier in the sample calendar is 27 to 28 February 2027. At one region the 16s bids on offer were one National, two American, and one Freedom. Team entry there is $925. Watch what the staffs in the stands watch. Ask what a bid is worth in your own region before you pay.",
+          "timing": "27 to 28 February 2027 in the sample region calendar",
+          "category": "Club"
+        },
+        {
+          "id": "vb-10-8",
+          "title": "Send the first real emails the week of 15 June 2027",
+          "detail": "15 June 2027 is the first day a Division I or Division II coach may answer. Send the full round that week: film, current grades, unweighted GPA on a 4.0 scale, measured height and approach touch with the device and date, and the club schedule. She may write before that day. The coach may not answer until then.",
+          "timing": "Week of 15 June 2027",
+          "category": "Outreach"
+        }
+      ]
+    },
+    {
+      "grade": "11th Grade (Junior)",
+      "windowLabel": "August 2027 through summer 2028",
+      "goal": "Hold the core GPA floors, get certified, earn a look at Junior Nationals, and take one Division I visit after 1 August.",
+      "steps": [
+        {
+          "id": "vb-11-1",
+          "title": "Four approved core courses, checked against the NCAA list",
+          "detail": "Four approved core courses a year, and a counselor who checks every credit against the NCAA list. A 2.3 core Grade Point Average is the Division I floor and 2.2 is the Division II floor. No SAT or ACT is required for anyone first enrolling on or after 1 August 2023.",
+          "timing": "11th-grade year, August to November 2027 high school season in the sample calendar",
+          "category": "Academics"
+        },
+        {
+          "id": "vb-11-2",
+          "title": "Register for certification before spring",
+          "detail": "Register for certification before the spring of 11th grade. The live page shows $120 for the combined account, $75 for athletics certification only, and $110 in the association's own printed guide. NAIA is $110. Confirm the number on the day she pays.",
+          "timing": "Before spring of 11th grade",
+          "category": "Paperwork"
+        },
+        {
+          "id": "vb-11-3",
+          "title": "Counselor uploads the transcript after four semesters",
+          "detail": "In June the counselor uploads the 9th-grade transcript, the record after four semesters. The checklist also says the counselor uploads the transcript after four semesters, in June. Registration must be open at least 60 days before the upload is due. Put the date in the counselor's calendar in the fall, not in June.",
+          "timing": "June, with the date set the prior fall",
+          "category": "Academics"
+        },
+        {
+          "id": "vb-11-4",
+          "title": "Ask for a bid to summer Junior Nationals",
+          "detail": "USA Volleyball Girls 14-17s Junior National Championships in Las Vegas, 2 to 5 July 2027 for 16s and 17s. Registration opened 9 December 2026 at 11 a.m. Eastern. The alternative is AAU's 16s and 17s event in Orlando, 25 to 28 June 2027. Ask which one the staffs she wants attend, and pick that one.",
+          "timing": "Summer after the contact date; 2027 dates are printed for the 16s year",
+          "category": "Club"
+        },
+        {
+          "id": "vb-11-5",
+          "title": "Go to one camp, at a school that answered",
+          "detail": "Go to one camp, at a school that answered her. A camp invite is not interest. Assume recruiting talk is off limits at a summer 2027 camp until 1 August 2027, even though phone and email open on 15 June 2027. Ask the director at the front desk. This book could not re-check the 2022 camp-conversation rule against the 2026-27 rule book.",
+          "timing": "One camp after a staff has answered",
+          "category": "Camps"
+        },
+        {
+          "id": "vb-11-6",
+          "title": "Send grades in the fall and the schedule before every tournament",
+          "detail": "Send grades in the fall, and the schedule before every tournament. Send the schedule to every coach on her list the week before a qualifier.",
+          "timing": "Fall, and the week before each tournament",
+          "category": "Outreach"
+        },
+        {
+          "id": "vb-11-7",
+          "title": "Ask for one Division I visit from 1 August",
+          "detail": "From 1 August she may take Division I visits. For her, the first day a Division I school may host her is 1 August 2027. Ask for one inside that window. Plan the first trip around a tournament she is already playing in. She gets five official visits in a lifetime.",
+          "timing": "From 1 August 2027",
+          "category": "Visits"
+        },
+        {
+          "id": "vb-11-8",
+          "title": "Check that both transcripts show on the Eligibility Center page",
+          "detail": "The counselor uploads the record after six semesters. Check the Eligibility Center page shows both transcripts. A missing upload has cost players a signing day. A late transcript upload delays certification.",
+          "timing": "After the six-semester upload",
+          "category": "Paperwork"
+        }
+      ]
+    },
+    {
+      "grade": "12th Grade (Senior)",
+      "windowLabel": "Before 1 September through 1 April 2029",
+      "goal": "Get the aid number in writing, sign one school only if the paper is right, and finish the 16 subjects.",
+      "steps": [
+        {
+          "id": "vb-12-1",
+          "title": "Send one update with new film and the written-offer question",
+          "detail": "Before 1 September send one update with new film, new numbers, and the written offer question: how much, covering what, and renewed how. Make sure a full match sits behind the reel.",
+          "timing": "12th grade, before 1 September",
+          "category": "Outreach"
+        },
+        {
+          "id": "vb-12-2",
+          "title": "Get re-measured",
+          "detail": "Get re-measured: she may be an inch or two taller than the film says. Label the device, the date, and whether shoes were on.",
+          "timing": "Before 1 September of 12th grade",
+          "category": "Measuring"
+        },
+        {
+          "id": "vb-12-3",
+          "title": "Send the schedule and the results",
+          "detail": "Play. Send the schedule to every coach on the list, and the results after. The printed 2026-27 Division I calendar shows a contact period from 1 September to 30 November. Her own signing-week calendar is not printed yet.",
+          "timing": "September to November",
+          "category": "Outreach"
+        },
+        {
+          "id": "vb-12-4",
+          "title": "Ask for the number and the date in September",
+          "detail": "From 1 August a school may give her a written offer of aid. Ask for the number and the date in the same email in September 2028. If a coach says \"we want you\" and no paper follows, the coach is still shopping.",
+          "timing": "September 2028",
+          "category": "Paperwork"
+        },
+        {
+          "id": "vb-12-5",
+          "title": "Know the dead period around signing week",
+          "detail": "The 2026-27 calendar shows a dead period from 9 to 12 November 2026, the week of that year's signing date. In a dead period a staff may not talk to her at all, in person or on the phone. Ask about the dead period that week so nobody calls at the wrong time. Dates move a day or two a year.",
+          "timing": "The week of the signing date",
+          "category": "Paperwork"
+        },
+        {
+          "id": "vb-12-6",
+          "title": "Sign one paper, or do not sign to feel settled",
+          "detail": "The first day she may sign is the second Wednesday in November of 12th grade. The book projects Wednesday 8 November 2028. The NCAA printed 11 November 2026 for the current year. The 2028-29 sheet is not out. There is no National Letter of Intent any more. The NCAA ended it in October 2024. The signing period stays open after the first date, on each school's own policy. If the paper is not right, do not sign.",
+          "timing": "Wednesday 8 November 2028 (PROJECTED)",
+          "category": "Paperwork"
+        },
+        {
+          "id": "vb-12-7",
+          "title": "Finish all 16 approved subjects and graduate",
+          "detail": "Do not let the final semester fall. Finish all 16 approved subjects and graduate, or the paper can come apart. Counselor uploads the graduation transcript. A signed aid agreement with one school makes every other school that offers athletics aid stop recruiting her until she gets a release.",
+          "timing": "After signing, through graduation",
+          "category": "Academics"
+        },
+        {
+          "id": "vb-12-8",
+          "title": "Ask for final athletics certification from 1 April 2029",
+          "detail": "From 1 April of her graduation year she may ask the Eligibility Center for her final athletics certification. Ask for it before the deposit, not after. If she wants to talk to another school after signing, get the release in writing first.",
+          "timing": "From 1 April 2029",
+          "category": "Paperwork"
+        }
+      ]
+    }
+  ],
+  "videoStandard": {
+    "idealLength": "Build two to three minutes, best clips first, and keep the full match ready. Coaches say two to five minutes, and no two sources agree. The shortest honest number in this research is two minutes. The sample email uses a 2:40 reel.",
+    "mustShowFirst30Sec": [
+      "The best live-play clip goes first. One service measured that coaches watch the first 10 to 25 seconds. A club coach says 10 to 15.",
+      "A cover card on the first frame with her name, position, class, and jersey number, so a coach knows who they are watching before the clips start.",
+      "Serve receive and defense in the reel, not only kills. For a libero, passing and defense above everything."
+    ],
+    "cameraAndFormatRules": [
+      "Match play, not drills. Reps from a live practice game are fine and preferred. Show a few seconds before and after the ball.",
+      "High and wide, from the end line. A parent with a tripod is enough.",
+      "No slow motion, no music, no big arrows. Several coaches say they mute the audio anyway.",
+      "No attachments and no login walls. Unlisted YouTube, or a public page, and test the link in a signed-out browser on a phone first.",
+      "Outside: attack from both pins, block, serve, and serve receive and defense, with variety of shots. Setter: front and back row, out of system, to every antenna, plus defense, blocking, and any serving. Middle: quick attack, block footwork, transition, a free ball, and the serve. Opposite: right-pin attack against a full block, block, serve. Libero and DS: serve receive from every zone, defense from deep and shallow, vision, and the serve if the staff wants it."
+    ],
+    "cutImmediately": [
+      "A nine-minute reel of drills. Coaches say match play beats practice clips.",
+      "The same shot in every clip.",
+      "Flashy passing and digging clips. One coach said those are not of much value, because the coach cannot see the shanks.",
+      "Kills and aces alone, if that is all the reel shows. This book prints the coach's advice: show mechanics, movement, and what happens after the error.",
+      "Slow motion, music, and big arrows.",
+      "A bare height or a bare vertical with no tool, date, measurer, or shoe note."
+    ]
+  },
+  "campAndCircuitFilter": {
+    "worthPayingFor": [
+      "A local or regional club season at $1,350 to $2,600. One published example: $1,450 for eight league dates, with no required out-of-state travel. The book calls this the best value per touch.",
+      "A mid-travel club at $3,100 to $4,350 if the team enters a regional qualifier where staffs actually go.",
+      "One showcase chosen for who is announced as attending. Printed examples: AVCA Phenom $259 by invitation; Premier Academy $145 then $165; NIKE Winterfest $125 then $175, capped at 200; Hawaii Showcase $99.",
+      "One camp after a staff answers an email. A $60 one-evening camp at the same school tells her just as much as a bigger packet.",
+      "A parent tripod plus a low film edit. Freelance marketplace edits are $20 to $60. The book says a $55 edit beats a $1,350 reel with no live-play footage.",
+      "A free athlete profile. Start free. Two clubs point families to the free platforms as the only recruiting tools they need."
+    ],
+    "skipOrTrap": [
+      "Paying a national-circuit label without asking which qualifiers, and whether staffs were announced. One club prints $4,350 for 18s and $4,950 for 15s to 17s. A second club states $3,500 to $5,800. A top 14s team at a large club: $7,380.",
+      "A camp invite treated as interest. USA Volleyball and the Junior Volleyball Association both say an invite may mean nothing. Every camp site checked says the camp is open to any and all entrants, limited only by number and age group. One region's listings warn that all listings are paid advertisements.",
+      "Fourteen camp weekends. The real budget line is hotel and gas. One big-city club expects $4,000 to $5,000 for six overnight tournaments, about $670 to $830 a trip. Plan four trips.",
+      "A paid recruiting service. Reports give $1,320 to $4,200 and $250 to $2,100. Parents tell a volleyball site $1,000 to $6,000 a year. A 2026 Better Business Bureau complaint includes a $4,719 membership refunded 50 percent. Not one college coach in this research said on the record that a paid tier moved a volleyball recruit.",
+      "A volleyball-specific film shop at $450 to $1,350, or full-service production at $500 to $1,000 or more, if the footage is not live play.",
+      "Planning a budget around name, image, and likeness. A 2026 industry report puts the average women's volleyball deal at $663."
+    ],
+    "redFlagTest": [
+      "Has this staff already answered an email, or is this a mail-merged brochure?",
+      "Who is announced as attending, by name, before you pay?",
+      "Which qualifiers does the club enter, and what is a bid worth in your own region?",
+      "What does the fee exclude: uniform, travel, qualifier entry?",
+      "Are the listings paid advertisements?",
+      "Can she talk to the coach at this camp, or is talk off limits until 1 August of her junior year?"
+    ]
+  },
+  "costVsWaste": [
+    {
+      "item": "Club, local or regional",
+      "typicalSpend": "$1,350 to $2,600. One published example: $1,450 for eight league dates.",
+      "verdict": "Essential",
+      "why": "The best value per touch in the sport. Fewer showcases, so the family must send film earlier."
+    },
+    {
+      "item": "Club, mid travel",
+      "typicalSpend": "$3,100 to $4,350",
+      "verdict": "Worth it",
+      "why": "Reasonable if the team enters a regional qualifier where staffs actually go."
+    },
+    {
+      "item": "Club, national circuit",
+      "typicalSpend": "$4,350 for 18s and $4,950 for 15s to 17s at one club. A second club: $3,500 to $5,800. A top 14s team: $7,380.",
+      "verdict": "Only for the schedule",
+      "why": "Pay it for the schedule, not the label. Ask which qualifiers, and whether staffs were announced. The gap versus a $1,450 local fee is $2,900."
+    },
+    {
+      "item": "Tryout fee",
+      "typicalSpend": "$25 to $70",
+      "verdict": "Essential",
+      "why": "Unavoidable."
+    },
+    {
+      "item": "Uniform and gear",
+      "typicalSpend": "$240 to $374 where billed separately",
+      "verdict": "Ask first",
+      "why": "Ask before signing. Some clubs roll it in, some do not."
+    },
+    {
+      "item": "Individual membership",
+      "typicalSpend": "$90 in one region. Another region does not publish its price.",
+      "verdict": "Essential",
+      "why": "Small line. Ask the club what it includes."
+    },
+    {
+      "item": "Qualifier entry",
+      "typicalSpend": "$925 per team, about $78 to $93 a player on a 10 to 12 player roster",
+      "verdict": "In the fee",
+      "why": "The club pays it and passes it along. Know that it is in the fee."
+    },
+    {
+      "item": "Hotel and gas for the family",
+      "typicalSpend": "Nothing published as a standard price. One marker: $4,000 to $5,000 for six overnight tournaments, about $670 to $830 a trip.",
+      "verdict": "Budget four trips",
+      "why": "This is the real budget line for most families. Plan four trips, not fourteen camp weekends."
+    },
+    {
+      "item": "College camp",
+      "typicalSpend": "Prep camp $310 commuting, $380 resident. Satellite overnight $200. One-evening passers camp $60. Prospect camp $160 for 40 spots. Division I position camp $375 to $485. Division III camp $154 to $318. Invite-only campus camp $342 to $447.",
+      "verdict": "One, after a reply",
+      "why": "Go after a staff answers an email. A $60 one-evening camp at the same school tells her just as much."
+    },
+    {
+      "item": "Showcase",
+      "typicalSpend": "AVCA Phenom $259. Premier Academy $145 then $165. NIKE Winterfest $125 then $175, capped at 200. Hawaii Showcase $99. One service says showcases run $200 to $500.",
+      "verdict": "One only",
+      "why": "One, chosen for who is announced as attending."
+    },
+    {
+      "item": "Film edit",
+      "typicalSpend": "$20 to $60 freelance. $450 to $1,350 at a volleyball-specific shop. Full-service production $500 to $1,000 or more.",
+      "verdict": "Essential at the low end",
+      "why": "A parent with a tripod and a $55 edit beats a $1,350 reel with no live-play footage. A camp plus an edit costs $255 at the low end and $760 at the high."
+    },
+    {
+      "item": "Paid recruiting service",
+      "typicalSpend": "No published price from the market leader. Reports: $1,320 to $4,200 and $250 to $2,100. Parents: $1,000 to $6,000 a year. One 2026 complaint: $4,719, refunded 50 percent.",
+      "verdict": "Skip",
+      "why": "Buy a cheap tool or nothing. Cheaper rivals publish prices at $19.99 to $49.99 a month. The book's own line is that a $2,000 service sells phone calls and follow-ups."
+    },
+    {
+      "item": "Eligibility Center",
+      "typicalSpend": "$120 combined on the live sign-up page. $75 for athletics certification only. $110 in the printed guide. $110 at the NAIA.",
+      "verdict": "Essential",
+      "why": "Confirm the number on the day she pays. Fee waivers exist and need no parent income paperwork. The profile page is free."
+    },
+    {
+      "item": "One year, national circuit, this book's arithmetic",
+      "typicalSpend": "Season subtotal about $6,000 to about $7,100. With one camp and one edit, $6,200 to $7,900.",
+      "verdict": "High build",
+      "why": "This is the book's arithmetic from published lines, not a seller's number. A recruiting service claims families spend $3,000 to $10,000 a year."
+    },
+    {
+      "item": "The same year on a local club",
+      "typicalSpend": "About $3,300 to about $5,300",
+      "verdict": "Essential",
+      "why": "$1,450 club fee, uniform, membership, two travel weekends, one camp, one edit."
+    }
+  ],
+  "paperworkAndDeadlines": [
+    {
+      "milestone": "She may write a coach",
+      "when": "Today, any year",
+      "cost": "Free",
+      "rule": "USA Volleyball prints NO RESTRICTIONS for a recruit contacting a coach at any level. Email, text, direct message, and phone are all fine."
+    },
+    {
+      "milestone": "Division I or II coach may answer",
+      "when": "15 June after 10th grade. For the class of 2029: 15 June 2027.",
+      "cost": "None",
+      "rule": "Coaches cannot directly communicate with recruits or their families before that day. Phone and text, not just email."
+    },
+    {
+      "milestone": "Division III, NAIA, or junior college coach may answer",
+      "when": "Any time",
+      "cost": "None",
+      "rule": "These programs are not held to the 15 June date."
+    },
+    {
+      "milestone": "Free Eligibility Center profile",
+      "when": "Now. Free Profile Page for anyone under 13.",
+      "cost": "Free",
+      "rule": "Open the free page now. Upgrade when she is sure."
+    },
+    {
+      "milestone": "Certification account",
+      "when": "Before the spring of 11th grade",
+      "cost": "$120 combined on the live page. $75 athletics certification only. Printed guide still says $110. NAIA $110.",
+      "rule": "Confirm the number on the day she pays. A student may use up to two fee waivers. Nobody asks the parents for income paperwork. She needs a paid certification account to take a Division I official visit."
+    },
+    {
+      "milestone": "Transcript after four semesters",
+      "when": "June. Registration must be open at least 60 days before the upload is due.",
+      "cost": "None stated",
+      "rule": "Put the date in the counselor's calendar in the fall, not in June. A late upload delays certification."
+    },
+    {
+      "milestone": "Transcript after six semesters",
+      "when": "The counselor upload after six semesters",
+      "cost": "None stated",
+      "rule": "Check the Eligibility Center page shows both transcripts. A missing upload has cost players a signing day."
+    },
+    {
+      "milestone": "Division I visits open",
+      "when": "1 August before 11th grade. For her: 1 August 2027.",
+      "cost": "School pays official visits. Family pays unofficial visits.",
+      "rule": "Five official visits in a lifetime. Both kinds of visit open on that date at Division I."
+    },
+    {
+      "milestone": "Division II official visits",
+      "when": "After 15 June of her 10th-grade year. For her: 15 June 2027.",
+      "cost": "School pays official visits",
+      "rule": "Earlier than Division I."
+    },
+    {
+      "milestone": "Division III official visits",
+      "when": "After 1 January of 11th grade. For her: 1 January 2027.",
+      "cost": "No athletic money",
+      "rule": "Ask about academic and need aid in the same email."
+    },
+    {
+      "milestone": "Junior college official visits",
+      "when": "After the first day of classes of her 11th-grade year",
+      "cost": "Ask the college",
+      "rule": "Ask the college, not the club coach, what the trip covers."
+    },
+    {
+      "milestone": "Written offer of athletics aid",
+      "when": "From 1 August a school may give a written offer. She may sign from the second Wednesday in November of 12th grade.",
+      "cost": "None stated",
+      "rule": "There is no National Letter of Intent any more. The NCAA ended it in October 2024. USA Volleyball's own recruiting page still says National Letter of Intent. The rule book moved and the guides did not."
+    },
+    {
+      "milestone": "Signing date, class of 2029",
+      "when": "Wednesday 8 November 2028 (PROJECTED). The NCAA printed 11 November 2026 for the current year. The 2028-29 sheet is not out.",
+      "cost": "None stated",
+      "rule": "One school. The other schools that offer athletics aid must stop recruiting her once she signs. February 2029 is football's signing period, not this one. The signing period stays open after the first date, on each school's own policy."
+    },
+    {
+      "milestone": "Final athletics certification",
+      "when": "From 1 April of her graduation year. For her: 1 April 2029.",
+      "cost": "None stated beyond the Eligibility Center fee",
+      "rule": "Ask before the deposit, not after. Graduate, finish all 16 approved subjects, and do not let the final semester fall."
+    },
+    {
+      "milestone": "Two junior college letters",
+      "when": "Do not sign two",
+      "cost": "A year of ineligibility in that association",
+      "rule": "Do not sign two junior college letters of intent. A junior-college year now starts the NCAA five-year clock, so one year there leaves four."
+    },
+    {
+      "milestone": "NIL reporting",
+      "when": "Deals of $600 or more must be reported, counted from the start of 11th grade.",
+      "cost": "Not a budget line. A 2026 industry report puts the average women's volleyball deal at $663.",
+      "rule": "Her state association may allow endorsements, but not with the school's name, uniform, or logo, not paid for performance, and not through an agent. Do not hire an agent for a high school athlete."
+    }
+  ],
+  "tenMistakes": [
+    {
+      "number": 1,
+      "mistake": "They plan the year around high school ball.",
+      "fix": "The state season is August to November, and college coaches are playing their own season then. 94 percent of college players came through club as well, by the NCAA's own study. Put the club schedule where staffs can find it."
+    },
+    {
+      "number": 2,
+      "mistake": "They wait for a coach to write first.",
+      "fix": "A Division I or II coach may not answer her until 15 June 2027. She may write today, and USA Volleyball prints NO RESTRICTIONS on her side of it."
+    },
+    {
+      "number": 3,
+      "mistake": "They count 12 scholarships.",
+      "fix": "At a school that opted in, the number is an 18-player roster and aid may be any size on any of them. Sites that say women's volleyball was a 4.5 sport have copied the men's line."
+    },
+    {
+      "number": 4,
+      "mistake": "They pay $2,000 for a service and stop emailing.",
+      "fix": "Not one coach in this research said on the record that a paid tier moved a volleyball recruit, and there are 2026 complaints on file about refunds. The association's own guidance is to send more email, not less."
+    },
+    {
+      "number": 5,
+      "mistake": "They take a camp invite as interest.",
+      "fix": "USA Volleyball and the Junior Volleyball Association both say an invite may mean nothing, and every camp page checked says the camp is open to any entrant. Real activity is a coach watching her profile, replying to an email, or asking for film or her schedule."
+    },
+    {
+      "number": 6,
+      "mistake": "They print a bare height and a bare vertical.",
+      "fix": "No college publishes a jump standard. One service's chart has a row labeled weight that holds heights. A wearable reads about two inches higher than a Vertec for the same girl. Say the tool, the date, who measured, and whether the shoes were on."
+    },
+    {
+      "number": 7,
+      "mistake": "They send a nine-minute reel of drills.",
+      "fix": "Coaches say they watch 10 to 25 seconds and that match play beats practice clips. The first clip does the work. Build two to three minutes, best live-play clip first."
+    },
+    {
+      "number": 8,
+      "mistake": "They skip Division III and the NAIA.",
+      "fix": "Division III alone is 417 teams with no athletic aid and full rosters, and the two Division III programs counted in Chapter 2 carry 19 and 25 players. Families who chase only a scholarship leave the biggest door shut."
+    },
+    {
+      "number": 9,
+      "mistake": "They sign a junior-college letter to hold a place.",
+      "fix": "It binds a school year, two of them cost a year, and a junior-college year now starts the NCAA's five-year clock, so one year there leaves four."
+    },
+    {
+      "number": 10,
+      "mistake": "They plan the money backwards.",
+      "fix": "The club fee is fixed, and travel is the line that surprises people. Budget four trips, ask what the fee excludes, and skip the packages."
+    }
+  ]
+}

@@ -1,0 +1,561 @@
+{
+  "sportSlug": "football",
+  "sportLabel": "Men's Football",
+  "athleteName": "Marcus (Class of 2029 Sample Athlete)",
+  "subtitle": "The whole road to college: what to do, when to do it, who pays, and what a coach is and is not allowed to tell you. Edition 2026-27. Rules and both printed calendars checked 11 November 2026. Sample player: class of 2029.",
+  "verifiedDate": "November 2026",
+  "governingBodies": ["NCAA D1 (FBS/FCS)", "NCAA D2", "NCAA D3", "NAIA", "NJCAA"],
+  "headlineReality": "Football has 670 NCAA teams and rosters of 105 at the top level, but 1.03 million boys play high-school football, so the seats exist and are chased by far more people than in any other sport. A coach may call, text, or email from 15 June after 10th grade and may meet him off campus from 1 January of 11th grade, but may not put money in writing before 15 November of 12th grade: talk is early and paper is late. There is no limit on how many players a school may sign in a signing period; the only real limit is the roster cap, and once he signs, every other school must stop contacting him.",
+  "divisionMatrix": [
+    {
+      "level": "NCAA D1 FBS",
+      "rosterCapOrLimit": "105 players on the roster at schools using the settlement rules (Bylaw 17.2, live since 1 July 2025). Schools that stayed out of the settlement still work to 85 counters (15.5.6.1). 138 programs.",
+      "aidModel": "Head-count at Division 1: each player on aid takes one whole seat, whatever the size of the grant. At settlement schools, aid of any size may sit on any of the 105 seats. A walk-on now uses one of those seats.",
+      "firstDirectContact": "Calls, texts, and email from 15 June after 10th grade (13.1.3.1). For the class of 2029 that opening is June 2027. In-person off-campus contact from 1 January of 11th grade (13.1.1.1.6), January 2028. In the rule book, contact means an in-person meeting. Calls, texts, and email are separate rules.",
+      "officialVisitsStart": "Paid visits from 1 April of 11th grade through the Sunday before the last Wednesday in June (13.6.2.1.7). For this class the playbook prints 1 April to 25 June 2028. Paid visits open again from 1 September of 12th grade, plus a window around the school's own home game in August, 48 hours either side. One paid visit per school before 15 October after graduation and one after (13.6.2.2). A school that hires a new head coach may offer one more (13.6.2.2.1).",
+      "realityNote": "The 105 cap is why rosters got smaller and why a walk-on now takes a seat that used to be free. On the current FBS calendar, 28 June to 31 August 2028 is a dead period, and 1 September to 28 November 2028 is an evaluation period: coaches may watch, may not speak to him in person, one look per player, against a staff limit of 33 evaluation days (rising to 50 days in 2027, 13.1.7.4)."
+    },
+    {
+      "level": "NCAA D1 FCS",
+      "rosterCapOrLimit": "63.0 worth of aid, splittable, plus 85 counters at schools outside the settlement (15.5.6.2). 128 programs.",
+      "aidModel": "Equivalency: thirty-six full grants or seventy-two half grants both equal 36.0 at Division 2, and the FCS cap in this chapter is 63.0. A counter is a player whose aid counts against the team limit.",
+      "firstDirectContact": "Same NCAA football contact rules as FBS in this playbook: calls, texts, and email from 15 June after 10th grade (13.1.3.1); off-campus meetings from 1 January of 11th grade (13.1.1.1.6). The playbook does not print a separate FCS first-contact date.",
+      "officialVisitsStart": "Same paid-visit window printed for football: 1 April of 11th grade through the Sunday before the last Wednesday in June (13.6.2.1.7), then again from 1 September of 12th grade. The playbook does not print a separate FCS official-visit start date.",
+      "realityNote": "Twenty-two unpaid players is the normal picture. A partial offer is the normal outcome. The FCS calendar follows the FBS pattern except the autumn weeks are a contact period instead of an evaluation period. That one difference changes what a visit can look like in October. The claim that an FCS school may only sign 26 players a year is repeated everywhere and was not found in the current football bylaws. Do not plan around it."
+    },
+    {
+      "level": "NCAA D2",
+      "rosterCapOrLimit": "36.0 worth of aid per team. No national roster cap. 161 programs.",
+      "aidModel": "Equivalency at 36.0. Real money, spread thin. Expect a quarter or a half of one year's bill, and compare it against academic aid. A Division 2 award letter binds one year of aid. Renewal is not automatic, even when a coach says four years. There is no early signing window for football in Division 2.",
+      "firstDirectContact": "Not printed as a separate Division 2 date in this playbook. The dated contact rules in Chapters 3 and 4 are the NCAA football rules cited as 13.1.3.1 and 13.1.1.1.6.",
+      "officialVisitsStart": "Not printed as a separate Division 2 date in this playbook. The football paid-visit rule cited is 13.6.2.1.7.",
+      "realityNote": "NCAA division-wide figures: 77% of Division 2 athletes receive some athletic aid. Some aid often means part of tuition, not a free ride. Of boys who played high-school football in 2024-25, 2.1% reached Division 2."
+    },
+    {
+      "level": "NCAA D3",
+      "rosterCapOrLimit": "No athletic aid at all (15.01.3). No roster cap is printed for Division 3 football in this playbook. 243 programs, the largest single group of football players in the country.",
+      "aidModel": "Aid comes from the normal financial aid office. The offer is admission plus a roster spot plus regular aid. Letters of intent are banned in Division 3 (13.9.1). 80% of Division 3 athletes receive help from the aid office. There is no athletics aid.",
+      "firstDirectContact": "Not printed as a separate Division 3 date in this playbook.",
+      "officialVisitsStart": "Not printed as a separate Division 3 date in this playbook. Division 3 aid follows the ordinary admissions calendar.",
+      "realityNote": "The group most families skip. Families who only chase a scholarship leave the biggest door closed. Of boys who played high-school football in 2024-25, 2.6% reached Division 3."
+    },
+    {
+      "level": "NAIA",
+      "rosterCapOrLimit": "24 full-grant equivalents per team, splittable. No limit on roster size. 96 programs.",
+      "aidModel": "Genuine money at a lower cost of living. The NAIA runs no national letter program and says it will not enforce one against either side. The school's own paper may or may not bind. Read the school's own paper.",
+      "firstDirectContact": "Not printed as a separate NAIA football contact date in this playbook.",
+      "officialVisitsStart": "Not printed as a separate NAIA football visit date in this playbook.",
+      "realityNote": "The NCAA odds of 8.1% leave out the NAIA and junior college, so the real chance of playing somewhere is better than 8.1%. A good starting list includes 5 to 10 NAIA schools."
+    },
+    {
+      "level": "NJCAA",
+      "rosterCapOrLimit": "85 letters of intent per team. 59 teams. These are NJCAA divisions, not NCAA ones.",
+      "aidModel": "NJCAA Division 2 schools pay tuition only. NJCAA Division 3 pays nothing. A one-year deal, August to July, not four years. A parent signs too if he is under 18. Leaving takes a written release.",
+      "firstDirectContact": "Not printed as a separate NJCAA contact date in this playbook.",
+      "officialVisitsStart": "Not printed as a separate NJCAA visit date in this playbook. Recent NJCAA date for fall football letters of intent: 3 February. The chart that carries that date prints a note that the document is not final. Confirm with the college's own office.",
+      "realityNote": "A second start. If junior college is a real option, sign there and keep the NCAA list alive at the same time. Do not sign a junior-college letter to hold a place without asking how the release works."
+    }
+  ],
+  "gradeChecklists": [
+    {
+      "grade": "9th Grade (Freshman)",
+      "windowLabel": "Now, before any recruiting window is open. For the class of 2029 this is the year before 10th grade ends in June 2027.",
+      "goal": "Get on the field, keep every grade, and start the folders. Spend nothing on recruiting.",
+      "steps": [
+        {
+          "id": "fb-9-1",
+          "title": "Get on the field, any unit",
+          "detail": "Play. The book starts the 9th-grade row with getting on the field, any unit, before any spend on recruiting.",
+          "timing": "9th grade",
+          "category": "Training"
+        },
+        {
+          "id": "fb-9-2",
+          "title": "Lift with a written plan",
+          "detail": "Lift with a plan you can write down. No association publishes a football size or speed standard. Do not buy a chart.",
+          "timing": "9th grade",
+          "category": "Training"
+        },
+        {
+          "id": "fb-9-3",
+          "title": "Keep every grade and print the unweighted GPA",
+          "detail": "Keep every grade. Unweighted GPA is grades on a plain 4.0 scale, no bonus for hard classes. Print it first. Weighted GPA is meaningless unless the scale is named next to it.",
+          "timing": "Every term in 9th grade",
+          "category": "Academics"
+        },
+        {
+          "id": "fb-9-4",
+          "title": "Start three folders",
+          "detail": "Start one folder for film, one for stats, and one for every email a coach sends.",
+          "timing": "9th grade",
+          "category": "Film"
+        },
+        {
+          "id": "fb-9-5",
+          "title": "Spend nothing on recruiting",
+          "detail": "Read how many players a team can take before you spend any money. A family that knows the roster limit, the signing dates, and the video standard competes with families spending three times as much.",
+          "timing": "All of 9th grade",
+          "category": "Paperwork"
+        },
+        {
+          "id": "fb-9-6",
+          "title": "Learn the words before you buy a service",
+          "detail": "Head-count, equivalency, counter, roster cap, contact, dead period, core-course GPA, and verified time. Hand-timed is not verified and runs about 0.2 seconds fast. Core-course GPA is not his overall GPA. Division 1 wants at least 2.3 and Division 2 at least 2.2 in the 16 core subjects.",
+          "timing": "9th grade, before any camp spend",
+          "category": "Academics"
+        }
+      ]
+    },
+    {
+      "grade": "10th Grade (Sophomore)",
+      "windowLabel": "Sophomore year ends June 2027 for the class of 2029. Nothing is open until 15 June after 10th grade.",
+      "goal": "Film the season once, build a 40 to 55 school list across all five levels, and send the first email the week contact opens.",
+      "steps": [
+        {
+          "id": "fb-10-1",
+          "title": "Film the whole season from a high wide angle",
+          "detail": "One camera, press-box angle, all 22 players. Cut the reel from that film later. Do not edit mistakes out.",
+          "timing": "Entire 10th-grade season",
+          "category": "Film"
+        },
+        {
+          "id": "fb-10-2",
+          "title": "Make the video once, properly",
+          "detail": "Best plays first. Three to five minutes, no more, roughly 25 plays. No music, no sound effects, no slow motion, no sped-up clips. Mark him on every play.",
+          "timing": "Before June 2027",
+          "category": "Film"
+        },
+        {
+          "id": "fb-10-3",
+          "title": "Build the list of 40 to 55 schools",
+          "detail": "8 to 12 FBS schools where he fits a position they need, 10 to 15 FCS and Division 2 schools, 10 to 15 Division 3 schools where his grades qualify and the aid fits, 5 to 10 NAIA schools, and 3 to 5 junior college schools he would truly attend. For most players the FBS is the bonus.",
+          "timing": "10th grade, before the first email",
+          "category": "List"
+        },
+        {
+          "id": "fb-10-4",
+          "title": "Learn the class-of-2029 calendar",
+          "detail": "The 2028-29 football recruiting calendar does not exist yet. Chapter 3 says the committees approve it and the NCAA publishes it in July 2028. Chapter 11 says the 2028-29 calendar arrives in July 2027. Both sentences are in the book. Dates marked PROJECTED come from the rule text. Treat them as one week early or one week late until the calendar lands.",
+          "timing": "10th grade",
+          "category": "Paperwork"
+        },
+        {
+          "id": "fb-10-5",
+          "title": "Send grades each semester",
+          "detail": "Send grades to every school on the list each semester. Nothing is open yet, and that is the advantage.",
+          "timing": "Each semester of 10th grade",
+          "category": "Academics"
+        },
+        {
+          "id": "fb-10-6",
+          "title": "Send the first email round on 15 June after 10th grade",
+          "detail": "Coaches may call, text, and email starting 15 June after 10th grade (13.1.3.1). For this class that is June 2027. Send that week, to the position coach, not the head coach, from the player's own address. Subject line near 70 letters. Body near 180 words. The sample in the playbook is 182.",
+          "timing": "Week of 15 June 2027",
+          "category": "Outreach"
+        },
+        {
+          "id": "fb-10-7",
+          "title": "Label every number on the one-page sheet",
+          "detail": "Say who measured height and weight, when, and how. Height is barefoot, or the email says it is not. A hand-timed 40 is about a fifth of a second fast. Two studies put hand times 0.18 to 0.31 seconds fast. Trust order: the college's own camp, then an electronic combine, then a documented laser session.",
+          "timing": "Before the June 2027 email",
+          "category": "Film"
+        }
+      ]
+    },
+    {
+      "grade": "11th Grade (Junior)",
+      "windowLabel": "11th grade starts September 2027. Off-campus meetings open January 2028. Paid visits 1 April to 25 June 2028. Current FBS calendar: dead period 28 June to 31 August 2028.",
+      "goal": "Keep the core-course path, register the free Eligibility Center page, take meetings, and ask for one paid visit only where a coach has answered.",
+      "steps": [
+        {
+          "id": "fb-11-1",
+          "title": "Four approved core courses and a counselor check",
+          "detail": "Four approved core courses a year keeps every door open. In September 2027 the 16 core subjects and the core GPA start to matter (14.3.1.1). Ask the counselor to check every credit against the NCAA list. Fix a bad schedule in September, not in January.",
+          "timing": "September 2027",
+          "category": "Academics"
+        },
+        {
+          "id": "fb-11-2",
+          "title": "Hold the core GPA floors",
+          "detail": "A 2.3 core GPA is the Division 1 floor and 2.2 is the Division 2 floor. A 3.0 keeps the early-qualifier option. Core-course GPA is computed by the NCAA on a 4.0 scale in only the 16 subjects. It is not his overall GPA.",
+          "timing": "All of 11th grade",
+          "category": "Academics"
+        },
+        {
+          "id": "fb-11-3",
+          "title": "Register the free Eligibility Center page",
+          "detail": "The profile page costs nothing until a school asks him to register for certification. The live registration fee on the page checked 11 November 2026 is $120. The NCAA printed checklist still says $110. Trust the page where you pay. Free if the family qualifies for a test-fee waiver or free school lunch.",
+          "timing": "11th grade",
+          "category": "Paperwork"
+        },
+        {
+          "id": "fb-11-4",
+          "title": "Take the first off-campus meetings",
+          "detail": "A coach may meet him off campus from 1 January of 11th grade (13.1.1.1.6). The current FBS calendar still puts a quiet spell over early January. Bring the one-page sheet. Ask about the position, the plan, and the number. Do not ask about a scholarship on the first call.",
+          "timing": "January 2028",
+          "category": "Outreach"
+        },
+        {
+          "id": "fb-11-5",
+          "title": "Ask for the paid visit inside the April window",
+          "detail": "Paid visits are allowed 1 April to 25 June 2028 (13.6.2.1.7). Each school pays for one visit per player. Ask by email and name the dates you can travel. Use this window before summer camps eat the calendar. Family travel is never free: about $500 to $1,500 for two nights. Plan one target school per trip and stack a second school in the same state.",
+          "timing": "1 April to 25 June 2028",
+          "category": "Visits"
+        },
+        {
+          "id": "fb-11-6",
+          "title": "One camp, only after a written yes",
+          "detail": "July 2027 camp season: coaches watch camps to look at players already on their list. Go only where a coach has answered the email. Ask, in writing, who will be evaluating. On the visit ask for time with the position coach, a look at academic support, what he would do in year one, and what happens to aid if he is hurt.",
+          "timing": "Camp season after a written answer; paid-visit questions in the April to June 2028 window",
+          "category": "Camps"
+        },
+        {
+          "id": "fb-11-7",
+          "title": "Send one update in the summer dead period",
+          "detail": "On the current FBS calendar, 28 June to 31 August 2028 is a dead period: no visits and no in-person contact. Calls and email are still allowed. Send one update with new film and grades. Do not read the silence as rejection.",
+          "timing": "28 June to 31 August 2028",
+          "category": "Outreach"
+        },
+        {
+          "id": "fb-11-8",
+          "title": "Send grades in the fall",
+          "detail": "Send grades in the fall of 11th grade, as the grade checklist says, and keep the one-page sheet current: games played, GPA with its scale, and where he stands on the 16 core courses.",
+          "timing": "Fall of 11th grade",
+          "category": "Academics"
+        }
+      ]
+    },
+    {
+      "grade": "12th Grade (Senior)",
+      "windowLabel": "Senior year. Evaluation or contact in the autumn, written offers on or after 15 November 2028, early signing week PROJECTED 29 November to 1 December 2028, regular signing PROJECTED 7 February 2029.",
+      "goal": "Be seen in the autumn film window, get the number in writing, and sign only if the paper is right.",
+      "steps": [
+        {
+          "id": "fb-12-1",
+          "title": "Send one senior update before 1 September",
+          "detail": "Send one update with new film. Expect the summer silence on the FBS calendar. Make sure full games sit behind the reel. Get measured numbers at one combine, not four. Combine price in the playbook: $49 to $299.",
+          "timing": "Before 1 September 2028",
+          "category": "Film"
+        },
+        {
+          "id": "fb-12-2",
+          "title": "Play every game on one camera and send the schedule",
+          "detail": "1 September to 28 November 2028: in the FBS this is an evaluation period. Coaches may watch, may not speak to him in person, one look per player, staff limit of 33 evaluation days. In the FCS those weeks are a contact period. Play every game on one camera from a high wide angle. Tell each coach the schedule.",
+          "timing": "1 September to 28 November 2028",
+          "category": "Film"
+        },
+        {
+          "id": "fb-12-3",
+          "title": "Ask for the written number on 15 November",
+          "detail": "Written aid offers may go out on or after 15 November of 12th grade (13.9.3.3). Ask each coach one question: what does the written offer say, and when does it arrive? Every number heard before that is spoken, not written.",
+          "timing": "15 November 2028",
+          "category": "Paperwork"
+        },
+        {
+          "id": "fb-12-4",
+          "title": "Settle every question before early signing week",
+          "detail": "Early signing is the Wednesday before the first Saturday in December (13.02.13.1). In 2026 those dates are 2 to 4 December. For this class the playbook projects 29 November to 1 December 2028. Ask for the paper in October, not December. Have every number and every question settled before that week.",
+          "timing": "October 2028 through the early signing week",
+          "category": "Paperwork"
+        },
+        {
+          "id": "fb-12-5",
+          "title": "Sign only if the paper is right",
+          "detail": "Do not sign early just to feel settled. Once he signs, every other school must stop contacting him (13.1.1.2). A verbal commitment binds neither family nor school. Do not announce a school before the written offer exists.",
+          "timing": "Early signing week, or not at all",
+          "category": "Paperwork"
+        },
+        {
+          "id": "fb-12-6",
+          "title": "Ask again when the portal opens",
+          "detail": "January 2029: the transfer portal opens for about ten days and rosters move again. Ask where he stands if the staff loses players. In January 2026 more than 10,500 college players entered the portal in one 15-day stretch. No NCAA rule limits how much of a football roster can arrive that way.",
+          "timing": "January 2029",
+          "category": "Outreach"
+        },
+        {
+          "id": "fb-12-7",
+          "title": "Know the February papers",
+          "detail": "Regular signing opens the first Wednesday in February (13.02.13.1). The playbook projects 7 February 2029. Do not plan on that date as a backup. The good seats are gone by then, and the school sets the closing date. If junior college is real, the recent NJCAA fall-football letter date is 3 February. Confirm it. The chart is not final.",
+          "timing": "February 2029",
+          "category": "Paperwork"
+        },
+        {
+          "id": "fb-12-8",
+          "title": "Finish the 16 subjects and send the final transcript",
+          "detail": "April to June 2029: the 16 subjects, the core GPA, the diploma, and final certification (14.3.1.3). Do not let grades fall in the spring. A coach cannot put on a roster a player the NCAA will not clear. Send the final transcript the week the school asks for it.",
+          "timing": "After signing, through June 2029",
+          "category": "Academics"
+        }
+      ]
+    }
+  ],
+  "videoStandard": {
+    "idealLength": "Three to five minutes, no more. Roughly 25 plays. A quarterback skills video is 2 to 4 minutes, with 2 or 3 reps per drill. Only about one in three Division 1 coaches watches all of the film that is sent. A staff decides in about two minutes.",
+    "mustShowFirst30Sec": [
+      "Best plays first. Ryan Gunderson, Nebraska director of player personnel: if the opening does not impress, they will not turn the film back on.",
+      "The first 30 to 60 seconds decide whether he plays the rest.",
+      "Mark him on every play. Start each clip a couple of seconds before the snap, with an arrow or a shadow. If a coach spends five seconds looking for him, he stops watching."
+    ],
+    "cameraAndFormatRules": [
+      "Shot high and wide, from a press-box angle that shows all 22 players.",
+      "Line coaches need alignment and footwork. A tight end-zone cut of the ten linemen is worth paying for.",
+      "Film the whole season on one camera and cut the reel from it. Keep full games ready. A staff will ask for a full game, case by case.",
+      "Do not edit mistakes out. A coach who finds them later stops trusting the tape.",
+      "No music, no sound effects, no slow motion, no sped-up clips.",
+      "Quarterback: moving in the pocket, throwing on a platform, throwing every route, throws to all fields. Accuracy and repetition matter more than one deep ball.",
+      "Receiver and back: route running, hands, and blocking. A back who only shows runs looks like a high-school player.",
+      "Line: use of hands, first-step punch, change of direction, leg drive, bag work, then live snaps. Show the kick slide.",
+      "Linebacker: stance, first step, run defense versus pass coverage, space in the open field, reading the play before he moves, and one drop into a zone.",
+      "Email subject near 70 letters: class year, position, name, size, one number, school, and where you play. Body near 180 words, from the player's own address. The printed sample is 182 words.",
+      "Send to the position coach. A survey of college coaches found they were about 50% more likely to watch film when it went to the right coach and when a transcript came with it.",
+      "No association publishes a size or speed standard. Service targets in the playbook are targets, not rules. School-listed heights run about an inch generous."
+    ],
+    "cutImmediately": [
+      "Music, sound effects, slow motion, and sped-up clips.",
+      "Mistakes edited out of the reel.",
+      "Pancake and knockdown counts. No official scorer keeps them.",
+      "Bench and squat maxes. One coach on record: of all stats, ignore this one.",
+      "A 40 with no method, no event, and no date. A self-reported time is not a number.",
+      "I lead my team in tackles, with no games played, no solo split, and no schedule. Tackle totals are the stat a staff trusts least.",
+      "Team record on its own, star ratings, and anything another adult says about him without a link.",
+      "Attachments, two unlabeled video links, birth date, and home address.",
+      "A weighted GPA with no scale next to it."
+    ]
+  },
+  "campAndCircuitFilter": {
+    "worthPayingFor": [
+      "A college camp only when a coach has answered the email and said, in writing, that he will watch. One-day camps checked for this book: $49 to $125. A multi-day camp with room and board runs $400 to $800 before travel.",
+      "One combine, for honest numbers on the one-page sheet. Price in this book: $49 to $299. Not four.",
+      "A showcase when the list of attending staffs is published. $96 to $399 per event, and about $1,950 for a full package with games.",
+      "An all-star game if he is invited and it is free or nearly free. $0 at the good ones, up to $425 at others. Some take a refundable deposit.",
+      "One freelance video edit, not a season package. $150 to $538 per reel. Most jobs land between $150 and $250.",
+      "Do-it-yourself video: $0 with free tools, or about $20 a month for a good editor. Film the season yourself from a high wide angle.",
+      "Eligibility Center certification when a school asks. Live fee $120 on the page checked 11 November 2026. Printed checklist still says $110. Free with a test-fee waiver or free school lunch."
+    ],
+    "skipOrTrap": [
+      "A national 7-on-7 circuit bought for recruiting credit. David Shaw said 7-on-7 means absolutely nothing to him as an evaluator and he has never watched 7-on-7 film. Brian Strandley: it is not recruiting help at all. Chris Fore: 7-on-7 film and stats mean nothing to college coaches. Entry is $200 to $530 per team, or $20 to $34 per player. Play it for reps if the high-school team goes. Do not build a summer around it.",
+      "A camp before anyone has answered an email. Dan Mullen: satellite camps are recruiting camps, and of about 1,000 kids on campus, a couple may be SEC players. NCSA tells parents most staffs attend their own camps to look at players already on their list.",
+      "Four combines. Coaches are rarely there. One coach quoted in Bleacher Report called it delusional to think combines get you offered.",
+      "An open showcase with no published staff list.",
+      "Buying a seat in an all-star game. NFL scouts may not attend a game where players paid to play. The playbook found no named college coach on what high-school all-star games are worth.",
+      "A paid recruiting service that sends email in his name. James Franklin: they go right in the trash. Chris Creighton: you do not have to go through an outside agency for the staff to see the film. Third-party reports say $250 to $2,100 a year, and others say up to $4,200. Big names do not publish prices.",
+      "A full-service video company at $250 to $2,459, or $450 to $700 per game to have someone else pick the plays, unless a coach has asked for more film than the family can cut. A $50 to $95 per-game breakdown does the same job.",
+      "Signing early just to feel settled, and announcing a school before a written offer exists."
+    ],
+    "redFlagTest": [
+      "The camp will not say, in writing, who will be evaluating.",
+      "The service will not put in writing what it does that a parent with a calendar cannot do.",
+      "A hand-timed 40 is sold as verified. Hand-timed is not verified and runs about 0.2 seconds fast. Two studies put the gap at 0.18 to 0.31 seconds.",
+      "A missing shuttle or other test. A missing number is read as a bad number.",
+      "Preferred walk-on treated as money. The NCAA student guide says it is a roster place with no scholarship. The phrase appears zero times in the 412-page Division 1 rule book, so no rule backs the promise.",
+      "A July evaluation period, a July report day tied to a team reporting day, or an FCS cap of 26 signees a year. The playbook could not find those in the 2026-27 book.",
+      "A 2024 handout used as the week-by-week calendar. In October 2026 the NCAA moved the day-by-day sport calendars out of the rule book. Football calendars are approved by the FBS and FCS oversight committees and printed each July."
+    ]
+  },
+  "costVsWaste": [
+    {
+      "item": "College camp, one day",
+      "typicalSpend": "$49 to $125. Multi-day with room and board: $400 to $800 before travel.",
+      "verdict": "Conditional",
+      "why": "Pay when the coach has answered the email and said he will watch. Otherwise it is a jersey and a bus ride."
+    },
+    {
+      "item": "7-on-7 entry",
+      "typicalSpend": "$200 to $530 per team, or $20 to $34 per player. Families pay travel, not entry.",
+      "verdict": "Skip",
+      "why": "Play if the high-school team goes. Do not build a summer around it and do not expect recruiting credit."
+    },
+    {
+      "item": "Combine",
+      "typicalSpend": "$49 to $299.",
+      "verdict": "Conditional",
+      "why": "One, for honest numbers on the one-page sheet. Not four."
+    },
+    {
+      "item": "Showcase",
+      "typicalSpend": "$96 to $399 per event, and about $1,950 for a full package with games.",
+      "verdict": "Conditional",
+      "why": "Pay when the list of attending staffs is published. Skip the open ones."
+    },
+    {
+      "item": "All-star game",
+      "typicalSpend": "$0 at the good ones, and up to $425 at others.",
+      "verdict": "Conditional",
+      "why": "Go when invited. NFL scouts may not attend a game where players paid to play."
+    },
+    {
+      "item": "Video, do it yourself",
+      "typicalSpend": "$0 with free tools, or about $20 a month for a good editor.",
+      "verdict": "Essential",
+      "why": "Film the season from a high wide angle. That single habit replaces most of what a service sells."
+    },
+    {
+      "item": "Video, one freelance edit",
+      "typicalSpend": "$150 to $538 per reel. Most jobs land between $150 and $250.",
+      "verdict": "Conditional",
+      "why": "Buy one edit, not a season package."
+    },
+    {
+      "item": "Video, full-service company",
+      "typicalSpend": "$250 to $2,459 by package. Having someone else pick the plays runs $450 to $700 per game.",
+      "verdict": "Conditional",
+      "why": "Only when a coach has asked for more film than you can cut. A $50 to $95 per-game breakdown does the same job."
+    },
+    {
+      "item": "Recruiting service",
+      "typicalSpend": "Big names do not publish prices. Third-party reports say $250 to $2,100 a year, and others say up to $4,200.",
+      "verdict": "Skip",
+      "why": "Named coaches say paid recruiting services go in the trash and that a staff can see the film without an outside agency. If a quote is requested, get it in writing and ask what a parent with a calendar cannot do."
+    },
+    {
+      "item": "Eligibility Center certification",
+      "typicalSpend": "$120 on the live registration page checked 11 November 2026. The printed checklist still says $110.",
+      "verdict": "Essential",
+      "why": "Trust the page where you pay. Free if the family qualifies for a test-fee waiver or free school lunch. The profile page is free until a school asks him to register for certification."
+    },
+    {
+      "item": "Visit weekend the family pays",
+      "typicalSpend": "$500 to $1,500 for two nights with travel, a room, and meals.",
+      "verdict": "Conditional",
+      "why": "Travel is the big line, not the camp fee. One target school per trip. Stack a second school in the same state. Budget four trips and skip the $2,000 packages."
+    },
+    {
+      "item": "SAT or ACT",
+      "typicalSpend": "$68 and $70, plus small add-ons. Fee waivers are widely available.",
+      "verdict": "Conditional",
+      "why": "Only if the college needs the score for admission or aid. The NCAA no longer requires one to clear him. The requirement was removed on 1 August 2023."
+    },
+    {
+      "item": "Whole-year family plan if packages are skipped",
+      "typicalSpend": "Plan on $3,000 to $6,000 a year. A large service says $3,000 to $10,000 a year and $15,000 to $50,000 across high school. That vendor figure is the top of the range. One quoted case was $40,000. A national sports survey puts average family spend on one child at about $1,500 a year, and $634 for tackle football.",
+      "verdict": "Essential",
+      "why": "The honest plan is the lower band with packages skipped. Most of what a $5,000 service sells is phone calls and follow-ups."
+    }
+  ],
+  "paperworkAndDeadlines": [
+    {
+      "milestone": "Calls, texts, and email may start",
+      "when": "15 June after 10th grade (13.1.3.1). Class of 2029: June 2027.",
+      "cost": "No fee printed.",
+      "rule": "Send the first round that week to the position coach, from the player's own address."
+    },
+    {
+      "milestone": "First off-campus meeting",
+      "when": "1 January of 11th grade (13.1.1.1.6). Class of 2029: January 2028.",
+      "cost": "Family travel if the meeting is not on a paid visit.",
+      "rule": "Contact in the rule book means an in-person meeting. The current FBS calendar still puts a quiet spell over early January."
+    },
+    {
+      "milestone": "Paid visits",
+      "when": "1 April of 11th grade through the Sunday before the last Wednesday in June (13.6.2.1.7). Class of 2029 window printed as 1 April to 25 June 2028. Again from 1 September of 12th grade. Also 48 hours either side of the school's own August home game.",
+      "cost": "School pays one visit per school. Family still pays its own unofficial trips, about $500 to $1,500 for two nights.",
+      "rule": "One paid visit per school before 15 October after graduation and one after (13.6.2.2). A new head coach may add one more (13.6.2.2.1). The old yearly cap on how many paid visits a program could hand out was removed in April 2026."
+    },
+    {
+      "milestone": "Written offer of aid",
+      "when": "On or after 15 November of 12th grade (13.9.3.3). Class of 2029: 15 November 2028.",
+      "cost": "No fee printed.",
+      "rule": "States the number. He still cannot accept it until the signing window opens. No signable paper before the December window (13.9.3.2)."
+    },
+    {
+      "milestone": "Early athletics aid agreement",
+      "when": "Wednesday before the first Saturday in December (13.02.13.1). 2026 dates: 2 to 4 December. Class of 2029: 29 November to 1 December 2028, PROJECTED. FCS and FBS use the same dates.",
+      "cost": "No fee printed.",
+      "rule": "The real deal. Once he signs, other schools must stop recruiting him. The National Letter of Intent no longer exists. The NCAA ended it in October 2024."
+    },
+    {
+      "milestone": "Regular signing period",
+      "when": "First Wednesday in February (13.02.13.1). Class of 2029: 7 February 2029, PROJECTED.",
+      "cost": "No fee printed.",
+      "rule": "Families who did not sign in December sign here. Do not plan on this date as a backup. The school sets the closing date."
+    },
+    {
+      "milestone": "Division 2 award letter",
+      "when": "From the sport's signing date. No early window for football in Division 2.",
+      "cost": "No fee printed.",
+      "rule": "Binds one year of aid on written terms. Renewal is not automatic."
+    },
+    {
+      "milestone": "Division 3 aid package",
+      "when": "Ordinary admissions calendar.",
+      "cost": "No athletic aid (15.01.3).",
+      "rule": "Letters of intent are banned in Division 3 (13.9.1)."
+    },
+    {
+      "milestone": "NAIA school letter",
+      "when": "School policy. No national letter program.",
+      "cost": "24 full-grant equivalents per team, splittable.",
+      "rule": "The NAIA will not enforce a national letter against either side. Read the school's own paper."
+    },
+    {
+      "milestone": "NJCAA letter of intent",
+      "when": "Recent date for fall football: 3 February. The chart is not final. Confirm with the college.",
+      "cost": "85 letters of intent per team. NJCAA Division 2 pays tuition only. NJCAA Division 3 pays nothing.",
+      "rule": "Binds one school year, August to July. A parent signs if he is under 18. Leaving takes a written release."
+    },
+    {
+      "milestone": "Academic finish",
+      "when": "April to June 2029 for this class. Final certification after graduation (14.3.1.3).",
+      "cost": "Eligibility Center certification fee as charged on the live page.",
+      "rule": "16 core subjects, core GPA, diploma. Division 1 core GPA floor 2.3. Division 2 floor 2.2. A 3.0 keeps the early-qualifier option. Do not miss a course in the senior spring."
+    },
+    {
+      "milestone": "Aid protection after the paper is signed",
+      "when": "Year of the award.",
+      "cost": "No fee printed.",
+      "rule": "Aid cannot be cut during the year of the award because of a coach's opinion of his play, or because of an injury or illness. Six listed reasons, and he gets a hearing first (15.3.4.1, 15.3.4.2). A player who loses a roster spot for roster management, performance, or injury keeps his aid unless he chooses to leave."
+    }
+  ],
+  "tenMistakes": [
+    {
+      "number": 1,
+      "mistake": "They think 85 is the number that matters.",
+      "fix": "At a school on the new rules the number is 105 seats, and aid of any size can sit on any of them. The scarce thing is a seat, not a scholarship. Schools outside the settlement still work to 85 counters."
+    },
+    {
+      "number": 2,
+      "mistake": "They read one guide and stop.",
+      "fix": "The calendar moved out of the rule book in October 2026 and is re-ratified each July. The FCS and FBS calendars are different. A 2024 handout is wrong about a week, and a July evaluation period no longer exists."
+    },
+    {
+      "number": 3,
+      "mistake": "They pay for 7-on-7 and expect credit for it.",
+      "fix": "Three coaches on the record, including a former Stanford head coach, say the film and the stats mean nothing to them. Play it for reps. Do not pay a national circuit for recruiting credit."
+    },
+    {
+      "number": 4,
+      "mistake": "They pay for a camp before anyone has answered an email.",
+      "fix": "A staff's own camp is full of players already on its list. Go only when a coach has said, in writing, that he will watch."
+    },
+    {
+      "number": 5,
+      "mistake": "They build a list of twelve schools.",
+      "fix": "About 10,500 players moved through the portal in one winter, and no rule limits how many seats a school may fill that way. A working list is 40 to 55 schools across FBS, FCS, Division 2, Division 3, NAIA, and junior college."
+    },
+    {
+      "number": 6,
+      "mistake": "They take the parent email as the plan.",
+      "fix": "Coaches say they want to hear from the player first. Send from the player's own address. The parent handles paperwork and dates."
+    },
+    {
+      "number": 7,
+      "mistake": "They skip Division 3 and NAIA.",
+      "fix": "Division 3 alone is 243 football programs. Families who only chase a scholarship leave the biggest door closed. Put 10 to 15 Division 3 schools and 5 to 10 NAIA schools on the list."
+    },
+    {
+      "number": 8,
+      "mistake": "They sign a junior-college letter to hold a place.",
+      "fix": "It binds a school year, and getting out takes a release signed by that school. Ask how the release works before anyone signs."
+    },
+    {
+      "number": 9,
+      "mistake": "They ask whether he can get in on academic aid at the visit and not on the phone.",
+      "fix": "The answer changes the number on the paper. Ask it before the trip, not in the lobby."
+    },
+    {
+      "number": 10,
+      "mistake": "They plan the money backwards.",
+      "fix": "Travel is the big line, not the camp fee. Budget four trips and skip the $2,000 packages. A family that plans on $3,000 to $6,000 a year and skips the packages can finish with money left over."
+    }
+  ]
+}

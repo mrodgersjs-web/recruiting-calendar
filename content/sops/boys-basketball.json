@@ -1,0 +1,555 @@
+{
+  "sportSlug": "boys-basketball",
+  "sportLabel": "Men's Basketball",
+  "athleteName": "Derrick (Class of 2029 Sample Athlete)",
+  "subtitle": "The whole road to college: what to do, when to do it, who pays, and what a coach is and is not allowed to tell you. Edition 2026-27. Rules and the current calendar checked 10 November 2026. Sample player: class of 2029. This file is the boys' book. Girls' contact and visit dates in the same PDF are different.",
+  "verifiedDate": "November 2026",
+  "governingBodies": ["NCAA D1 (FBS/FCS)", "NCAA D2", "NCAA D3", "NAIA", "NJCAA"],
+  "headlineReality": "In Division I the limit is how many players the team can carry, not how many scholarships it has: fifteen players, paid or unpaid, and a coach can carry fifteen and pay only six. Of 540,704 boys playing high school basketball, 3.6% reach any NCAA school (1.1% Division I, 1.1% Division II, 1.5% Division III), and 61% of last year's open first-year spots were at Division II and Division III. The National Letter of Intent is gone. What you sign now is a written offer of aid, and a Division I men's coach may not contact the player before 15 June after 10th grade.",
+  "divisionMatrix": [
+    {
+      "level": "NCAA D1",
+      "rosterCapOrLimit": "Fifteen players on the team. The old limit was 13 for men and 15 for women. There is no cap on the amount of aid, and no one is promised more than one year at a time.",
+      "aidModel": "Written offer of aid from the school, on or after 1 August of senior year. It may be the school's own form or a standard one-page offer. It does not hold a spot on the team, and it goes away if he does not qualify in school. A coach can have fifteen players and pay only six of them.",
+      "firstDirectContact": "15 June after 10th grade for Division I men's basketball. For the class of 2029 that date is 15 June 2027. Before that day a coach may watch and rate him. From that day the coach may email, text, call, or send a form. The rule is on the coach, not on the family. The checklist prints the same opening as June 15.",
+      "officialVisitsStart": "The class-of-2029 plan says paid campus visits become allowed on 1 August 2027, and tells the family to check the printed rule book because the dates found did not match. The source note says a boy may take a paid visit from 1 August of 11th grade (13.6.2.1.5). The school pays for one visit per school and may host no more than five recruits at a time when it pays. An unofficial visit is not allowed in July in Division I unless he already signed a written offer of aid or admission, or paid a deposit.",
+      "realityNote": "Ask how many of the fifteen will be paid next year, and whether one is set aside for his position. How many scholarships do you have is the wrong question. Last year there were 1,187 first-year players at Division I."
+    },
+    {
+      "level": "NCAA D1, other schools",
+      "rosterCapOrLimit": "No national team-size rule. The conference or the school sets the size.",
+      "aidModel": "Not printed as a separate aid form in this playbook. Ask the same questions as at a fifteen-player program.",
+      "firstDirectContact": "Not printed as a separate date. The 15 June after 10th grade rule in this book is the Division I men's contact rule.",
+      "officialVisitsStart": "Not printed as a separate date. Use the Division I visit rules and check the printed calendar before booking.",
+      "realityNote": "A coach who will not answer how many of the fifteen will be paid, and whether one seat is set aside for the position, is telling you something."
+    },
+    {
+      "level": "NCAA D2",
+      "rosterCapOrLimit": "Ten full scholarships to spread across the whole team. No national roster cap is printed for Division II basketball in this playbook.",
+      "aidModel": "Award letter, a formal financial aid document, on or after 1 September of senior year. It does not promise the same money next year. Most offers are written one year at a time. Most offers are for half or a third. Compare real cost, not reputation.",
+      "firstDirectContact": "Not printed as a separate Division II men's contact date in this playbook.",
+      "officialVisitsStart": "Not printed as a separate Division II visit start date in this playbook.",
+      "realityNote": "Last year there were 988 first-year players at Division II. Together with Division III, that was part of the 61% of open team spots outside Division I. Many Division II offices still use test scores. The NCAA has not required a score for students starting college from 1 August 2023."
+    },
+    {
+      "level": "NCAA D3",
+      "rosterCapOrLimit": "No roster cap is printed for Division III basketball in this playbook.",
+      "aidModel": "No money for sports at all. The offer is a roster spot plus the aid the school gives for grades or the family's money needs. The coach can speak up but cannot pay. The paper is the school's own aid letter plus the acceptance letter. A Division III coach may not even use a letter of intent. Nothing signed holds the player in place.",
+      "firstDirectContact": "Not printed as a separate Division III contact date in this playbook.",
+      "officialVisitsStart": "Not printed as a separate Division III visit date in this playbook. There is no sports aid paper at all.",
+      "realityNote": "Last year there were 897 first-year players at Division III. A good list has 10 to 15 Division III schools where the grades qualify and the aid fits the family."
+    },
+    {
+      "level": "NAIA",
+      "rosterCapOrLimit": "Eight scholarships. No roster cap is printed. No calendar, no rules on when a coach may contact the player, and no national letter program.",
+      "aidModel": "A letter of intent the NAIA does not make schools follow. It may be given any time. It gives no protection under the national rules. Read what the school's paper says about backing out. The NAIA still uses test scores.",
+      "firstDirectContact": "No NAIA contact calendar is printed. The book calls this the fastest coach contact, with the lowest requirements.",
+      "officialVisitsStart": "No NAIA visit calendar is printed in this playbook.",
+      "realityNote": "Put 5 to 10 NAIA schools on the starting list. NAIA coaches say plainly that if a parent writes the email, the coach assumes the player cannot read or write well."
+    },
+    {
+      "level": "NJCAA",
+      "rosterCapOrLimit": "Fifteen scholarships. One letter of intent per sport.",
+      "aidModel": "One letter of intent, signed on 1 November, binding one school year. It stops him from signing with any other junior college. It does not stop a four-year school.",
+      "firstDirectContact": "Not printed as a separate NJCAA contact date in this playbook.",
+      "officialVisitsStart": "Not printed as a separate NJCAA visit date. The junior-college signing day in the class-of-2029 plan is 1 November 2029.",
+      "realityNote": "A real second path: earn credits, play right away, and move up to a four-year school a year later. Sign one letter, or none. Many junior college offices still use test scores."
+    }
+  ],
+  "gradeChecklists": [
+    {
+      "grade": "9th Grade (Freshman)",
+      "windowLabel": "Class of 2029 is in 9th grade in 2025-26. Nothing in the contact calendar is open. Start the class list and the log before the first email.",
+      "goal": "Get the NCAA class list signed, start film and a summer-team approval question, and open one recruiting folder. Spend nothing on a ranking.",
+      "steps": [
+        {
+          "id": "bb-9-1",
+          "title": "Check every planned class against the NCAA list",
+          "detail": "Sit with the counselor. Check every class taken and planned against the school's list of NCAA-approved classes. Not every good class counts. Keep a printed copy, marked up and signed.",
+          "timing": "9th grade. The class-of-2029 date table also prints a counselor meeting on 15 October 2026.",
+          "category": "Academics"
+        },
+        {
+          "id": "bb-9-2",
+          "title": "Start a lifting and shooting routine",
+          "detail": "Start a lifting and shooting routine, and play a second sport if he can.",
+          "timing": "9th grade",
+          "category": "Training"
+        },
+        {
+          "id": "bb-9-3",
+          "title": "Find who films the school games at mid-court",
+          "detail": "The camera standard is high up at mid-court, on a tripod, no zoom, scoreboard in frame, clean jersey. Hand-held video from the stands is the top reason a reel gets skipped.",
+          "timing": "9th grade, before the season",
+          "category": "Film"
+        },
+        {
+          "id": "bb-9-4",
+          "title": "Ask the summer team the approval question in writing",
+          "detail": "A Division I coach may only watch non-school basketball at events the NCAA has approved. Ask whether the team and the event are on the approved list, which college coaches came last year, where it is filmed, and who the adult in charge is. Keep the answer.",
+          "timing": "Before paying for a 9th-grade summer team",
+          "category": "Camps"
+        },
+        {
+          "id": "bb-9-5",
+          "title": "Open a recruiting email and one folder",
+          "detail": "The player owns the inbox. From the first email, log coach name and title, date and how you talked, what they asked for, the number they gave, and the next touch.",
+          "timing": "9th grade",
+          "category": "Outreach"
+        },
+        {
+          "id": "bb-9-6",
+          "title": "Read the team limit before any spend",
+          "detail": "Read how many players a team can take before spending money. Most of what a $5,000 service sells is setting up appointments and sending follow-ups. The rules, the dates, and the questions are free.",
+          "timing": "Before the first camp or service invoice",
+          "category": "Paperwork"
+        }
+      ]
+    },
+    {
+      "grade": "10th Grade (Sophomore)",
+      "windowLabel": "10th grade through 15 June 2027, the first day a Division I men's coach may contact a class-of-2029 player.",
+      "goal": "Re-check classes, post the first reel, open the free Eligibility Center profile, build a 40 to 55 school list, and send the first email on 15 June 2027.",
+      "steps": [
+        {
+          "id": "bb-10-1",
+          "title": "Re-check the class list by November",
+          "detail": "Re-check the class list by November. Fix any class that does not count. Not every good class is on the NCAA-approved list.",
+          "timing": "November of 10th grade",
+          "category": "Academics"
+        },
+        {
+          "id": "bb-10-2",
+          "title": "Post the first full game and a 2 to 3 minute reel",
+          "detail": "First full game video posted. First reel at 2 to 3 minutes. The later Chapter 4 standard is 3:00 to 3:45 and never over 4:00. Keep both: the 10th-grade reel is the short first cut.",
+          "timing": "10th-grade season",
+          "category": "Film"
+        },
+        {
+          "id": "bb-10-3",
+          "title": "Put the free academic testing date on the calendar",
+          "detail": "The NCAA has not required a test score for students starting college from 1 August 2023. The NAIA still uses test scores, and many junior college and Division II offices do too. Tests in this book are $68 to $70, with waivers available.",
+          "timing": "10th grade",
+          "category": "Academics"
+        },
+        {
+          "id": "bb-10-4",
+          "title": "Open the free Eligibility Center profile",
+          "detail": "A free profile page is not the same as approval. Approval is required before a Division I official visit. The basketball playbook prints the Eligibility Center fee as $110 in the US, with fee waivers possible.",
+          "timing": "10th grade",
+          "category": "Paperwork"
+        },
+        {
+          "id": "bb-10-5",
+          "title": "Build the list to 40 to 55 schools",
+          "detail": "8 to 12 Division I schools where he fits a position they need, 10 to 15 Division II, 10 to 15 Division III where grades qualify and the aid fits, 5 to 10 NAIA, and 3 to 5 junior college programs he would really attend. The date table's done line for 15 June 2027 says 40 to 60 schools and the sports form filled out on each website. A shorter list is a wish, not a plan.",
+          "timing": "Before 15 June 2027",
+          "category": "List"
+        },
+        {
+          "id": "bb-10-6",
+          "title": "Send the first email on 15 June 2027",
+          "detail": "Division I men's contact opens that day. Send from the player's own email, high school coach copied, under 180 words, one honest reason for the school, one question, no attachments. Fill out the school's sports form the same day. Subject line shape in the book: class year, position, height, unweighted GPA, one number, school.",
+          "timing": "15 June 2027",
+          "category": "Outreach"
+        },
+        {
+          "id": "bb-10-7",
+          "title": "Open the paid Eligibility Center account or ask for the waiver",
+          "detail": "The summer-after-10th checklist says to open the paid account or ask for the fee waiver. The fee printed in this playbook is $110 in the US.",
+          "timing": "Summer after 10th grade",
+          "category": "Paperwork"
+        }
+      ]
+    },
+    {
+      "grade": "11th Grade (Junior)",
+      "windowLabel": "Paid visits from 1 August 2027 if the printed calendar confirms that day. Summer-team certification question by 1 June 2028. No self-paid campus visits in July 2028. Video finished by 30 September 2028.",
+      "goal": "Visit with a written plan, keep the summer team on the approved list, and finish a Chapter 4 reel before senior autumn.",
+      "steps": [
+        {
+          "id": "bb-11-1",
+          "title": "Write the visit plan before booking",
+          "detail": "Paid campus visits become allowed 1 August 2027 in the class plan. The book says the dates found did not match, so look up the printed rule before travel. Done means the visit plan is written, with the top three schools in order and the questions ready. A paid visit may not fall inside a dead period.",
+          "timing": "Before 1 August 2027 travel",
+          "category": "Visits"
+        },
+        {
+          "id": "bb-11-2",
+          "title": "Log every campus talk",
+          "detail": "Start visiting. Write down every talk with a name and a date. The log columns are coach name and title, date and how you talked, what they asked for, the number they gave, and the next touch.",
+          "timing": "11th grade",
+          "category": "Visits"
+        },
+        {
+          "id": "bb-11-3",
+          "title": "Send the transcript and work out the core GPA",
+          "detail": "Send the transcript after the season. Work out the core GPA, the grade point average for classes the NCAA counts. This playbook does not print a numeric core-GPA floor.",
+          "timing": "After the 11th-grade season",
+          "category": "Academics"
+        },
+        {
+          "id": "bb-11-4",
+          "title": "Confirm the summer team is approved before paying",
+          "detail": "By 1 June 2028, ask in writing what events are NCAA-certified and keep the answer. In June, men's coaches may watch from noon Friday to 6pm Sunday. Women's hours in the same book are noon Thursday to 6pm Saturday. Use the men's hours for this file.",
+          "timing": "Before the summer team fee, and again by 1 June 2028",
+          "category": "Camps"
+        },
+        {
+          "id": "bb-11-5",
+          "title": "Move July trips to August",
+          "detail": "In Division I he may not visit a campus during July unless he already signed a written offer of aid, or paid a deposit. For this class that hard date is 1 July 2028. July trips move to August, or the deposit was paid on purpose.",
+          "timing": "July 2028",
+          "category": "Visits"
+        },
+        {
+          "id": "bb-11-6",
+          "title": "Finish the video to the Chapter 4 standard",
+          "detail": "By 30 September 2028: under four minutes, defense included, player marked in every clip. One link that works, one full-game link that works, no password. The exact band is 3:00 to 3:45, never over 4:00. Best three plays in the first 30 seconds, before any title screen.",
+          "timing": "Spring of 11th grade, finished by 30 September 2028",
+          "category": "Film"
+        },
+        {
+          "id": "bb-11-7",
+          "title": "Ask the four offer questions",
+          "detail": "Of every school that is serious: how many of the fifteen will be paid next year and how many are set aside for the position; is there room on the December team list or does someone ahead have to leave; what has to be true to put aid in writing on or after 1 August; if he signs in November, what happens to the money in year two.",
+          "timing": "11th grade, before any verbal yes",
+          "category": "Outreach"
+        },
+        {
+          "id": "bb-11-8",
+          "title": "Check visit dates against dead periods",
+          "detail": "Dead periods include 24 to 26 December every year, plus the dates on the sport calendar. The 2026-27 men's calendar also has a short dead period around the November signing week and one in late February. In a dead period: no visits, no contact, no in-person ratings.",
+          "timing": "Before any booked visit",
+          "category": "Visits"
+        }
+      ]
+    },
+    {
+      "grade": "12th Grade (Senior)",
+      "windowLabel": "Written aid on or after 1 August of senior year. Early signing PROJECTED 8 to 15 November 2028. Roster lists due 1 December 2028. Regular signing PROJECTED 11 April 2029. No late signing period. Final transcript by 15 June 2029.",
+      "goal": "Read the paper, decide before the window opens, and either sign or wait for April on purpose.",
+      "steps": [
+        {
+          "id": "bb-12-1",
+          "title": "Read every written offer for amount, years, and fine print",
+          "detail": "Division I may put aid in writing on or after 1 August of senior year. Division II award letters on or after 1 September of senior year. Rank the schools that pay, on purpose, not by who texts first.",
+          "timing": "Fall of 12th grade, from 1 August",
+          "category": "Paperwork"
+        },
+        {
+          "id": "bb-12-2",
+          "title": "Decide before the early window, not during it",
+          "detail": "Early signing PROJECTED 8 November 2028 to 15 November 2028. The rule says early signing starts the second Wednesday in November and runs to the next Wednesday. Printed 2026-27 dates are 11 to 18 November 2026. One page lists 19 November. That conflict is still open. Do not sign just to please a friendly coach. If he signs, schools that offered aid must stop contacting him.",
+          "timing": "Before 8 November 2028",
+          "category": "Paperwork"
+        },
+        {
+          "id": "bb-12-3",
+          "title": "Send a January email if the December roster is full",
+          "detail": "College teams must hand in roster lists by 1 December 2028, or the day before their first real game. After that, a spot opens only if a player leaves or gets hurt. A January email with new video goes to every school that still has room.",
+          "timing": "1 December 2028, then January",
+          "category": "Outreach"
+        },
+        {
+          "id": "bb-12-4",
+          "title": "Do not book the holiday dead period",
+          "detail": "24 to 26 December is a dead period every year. No visits, no contact, no ratings. Check visit dates against the rule book before booking.",
+          "timing": "24 to 26 December 2028",
+          "category": "Visits"
+        },
+        {
+          "id": "bb-12-5",
+          "title": "Ask for the final amateurism check on 1 April",
+          "detail": "Starting 1 April of senior year for a fall start. The school cannot play him until the file is done. Done means the account shows the word CERTIFIED.",
+          "timing": "1 April 2029",
+          "category": "Academics"
+        },
+        {
+          "id": "bb-12-6",
+          "title": "Use April as the real second signing chance",
+          "detail": "Regular signing PROJECTED 11 April 2029. The rule says the regular period starts the second Wednesday in April. Printed 2026-27 date is 14 April 2027. In basketball this period closes on each school's own date. There is no late signing period. If April is missed, wait a year.",
+          "timing": "11 April 2029, PROJECTED",
+          "category": "Paperwork"
+        },
+        {
+          "id": "bb-12-7",
+          "title": "Send the final transcript the day the school issues it",
+          "detail": "The final high school transcript, with proof of graduation, must reach the Eligibility Center by 15 June 2029. The counselor sends it. Finish the remaining required classes and confirm the classes for the major.",
+          "timing": "The day the school issues it, and no later than 15 June 2029",
+          "category": "Academics"
+        },
+        {
+          "id": "bb-12-8",
+          "title": "Junior college: one letter on 1 November, or none",
+          "detail": "If that route is the choice, sign the junior college letter of intent on 1 November 2029. It holds him for one school year and stops every other junior college. A four-year school is still open.",
+          "timing": "1 November 2029",
+          "category": "Paperwork"
+        }
+      ]
+    }
+  ],
+  "videoStandard": {
+    "idealLength": "3:00 to 3:45, never over 4:00. The 10th-grade checklist starts with a first reel at 2 to 3 minutes. By 30 September of senior year the highlight is finished and runs under four minutes. Coaches say they stop watching at the first minute of music.",
+    "mustShowFirst30Sec": [
+      "The best three plays in the first 30 seconds, before any title screen.",
+      "An intro longer than three seconds gets skipped.",
+      "An arrow or spotlight on him in every clip. Coaches stop watching when they have to hunt for the player."
+    ],
+    "cameraAndFormatRules": [
+      "15 to 25 clips, 5 to 7 seconds each, plus two or three full plays shown start to finish.",
+      "Sections: shooting, passing, defense, full possessions. Defense is the cheapest way to stand out, and most reels have none.",
+      "Game sound or silence. No music. NAIA coaches say this twice in their own guides.",
+      "Camera high up at mid-court, on a tripod, no zoom, scoreboard in frame, clean jersey.",
+      "Unlisted YouTube link, no password, plus a separate full game. Send a link, not a file.",
+      "Cut a new reel every 6 to 8 weeks and finish it by the end of junior year.",
+      "Height on the one-page sheet is measured in the off-season, and the sheet says so.",
+      "Do not put a star ranking on the sheet.",
+      "Email under 180 words, from the player, high school coach copied, no attachments. Fill out the school sports form the same day."
+    ],
+    "cutImmediately": [
+      "Music. Coaches say they stop at the first minute of it.",
+      "An intro longer than three seconds.",
+      "Free throws, warm-up dunks, and offense-only video.",
+      "Hand-held video from the stands.",
+      "A password on the link, or a file attachment instead of a link.",
+      "A star ranking.",
+      "Clips with no arrow or spotlight on the player.",
+      "A parent-written email. Coaches give those less attention, and several NAIA coaches say it openly."
+    ]
+  },
+  "campAndCircuitFilter": {
+    "worthPayingFor": [
+      "A summer team only if it is on the NCAA approved list and the event list checks out. This is the biggest cost: $2,000 to $5,000 a year, and sometimes $500 to $1,500 more for uniforms and travel.",
+      "A branch of a top camp, because the college coaches and staff who run the main camp show up. Camps in this book: $100 to $800, plus $500 to $2,000 to get there.",
+      "A showcase only after a coach you can name says he will be there. $250 to $950 per event.",
+      "Do-it-yourself video: $0 to $80. Phone on a tripod, free editing software, the school's own stream.",
+      "Hired clip help when the family cannot pick the plays: the person who watches the games runs $450 to $679, editing $150 to $279, a studio package $250 to $550. Hired help overall in the price table: $700 to $1,200.",
+      "Eligibility Center approval before a Division I official visit. Fee printed here: $110 in the US. Fee waivers are possible."
+    ],
+    "skipOrTrap": [
+      "A plain camp invite sent to thousands of players. That is an ad.",
+      "A showcase before a coach you can name says he will be there. In basketball most coaches watch at summer-team events, not at big showcases.",
+      "The top summer circuit when he is not the kind of player those coaches recruit. Regional events are where Division II, Division III, and NAIA coaches are, and 61% of the places are with those coaches.",
+      "A recruiting service bought for a ranking. Prices run $250 to over $6,000. The two biggest publish no price. A service gives a page and a form. It does not give a relationship.",
+      "Full-service video at $1,500 to $4,000 a year if the buy is for graphics. The book says buy that tier for contacts and scheduling, not for graphics.",
+      "A July unofficial visit. In Division I the coach cannot host it unless a written offer or a deposit is already in place.",
+      "Advice that still says sign your NLI. Division I ended the National Letter of Intent in October 2024. Division II followed within weeks. The website that ran it closed on 1 May 2025."
+    ],
+    "redFlagTest": [
+      "The summer team will not answer, in writing, whether the team and the event are on the NCAA approved list.",
+      "The team will not name which college coaches came last year, with job titles.",
+      "The team will not say where it is filmed, or the video misses the mid-court tripod standard.",
+      "The team will not name the adult in charge, or the extra paperwork is missing if the player lives with a family that is not his own.",
+      "A coach will not say how many of the fifteen will be paid next year, or whether one seat is set aside for the position.",
+      "A service will not say how many college coaches logged in last season.",
+      "A signing-date page that prints 19 November when the rule text and the recruiting page give 11 to 18 November. The book leaves that conflict open on purpose."
+    ]
+  },
+  "costVsWaste": [
+    {
+      "item": "Camps",
+      "typicalSpend": "$100 to $800 per camp, plus $500 to $2,000 to get there.",
+      "verdict": "Conditional",
+      "why": "A branch of a top camp is worth it because the staff who run the main camp show up. A plain invite sent to thousands of players is an ad."
+    },
+    {
+      "item": "Summer team",
+      "typicalSpend": "$2,000 to $5,000 a year, and sometimes $500 to $1,500 more for uniforms and travel.",
+      "verdict": "Conditional",
+      "why": "Only if the team is on the NCAA approved list and the event list checks out. This is the biggest cost, and the one families question the least."
+    },
+    {
+      "item": "Showcases",
+      "typicalSpend": "$250 to $950 per event, three to six times a year.",
+      "verdict": "Conditional",
+      "why": "Pay after a coach you can name says he will be there. Most coaches watch at summer-team events, not at big showcases."
+    },
+    {
+      "item": "Recruiting service",
+      "typicalSpend": "$250 to over $6,000. The two biggest publish no price.",
+      "verdict": "Skip",
+      "why": "Ask how many college coaches logged in last season. A service gives a page and a form, not a relationship. Do not pay for a ranking."
+    },
+    {
+      "item": "Video, do it yourself",
+      "typicalSpend": "$0 to $80.",
+      "verdict": "Essential",
+      "why": "Phone on a tripod, free editing software, the school's own stream. This is the handle-it-yourself path."
+    },
+    {
+      "item": "Video, hired help",
+      "typicalSpend": "$700 to $1,200. Clip picking $450 to $679. Editing $150 to $279. Studio package $250 to $550.",
+      "verdict": "Conditional",
+      "why": "The real cost is the person who watches the games and picks clips, not the graphics."
+    },
+    {
+      "item": "Video, full service",
+      "typicalSpend": "$1,500 to $4,000 a year.",
+      "verdict": "Conditional",
+      "why": "Buy it for the contacts and the scheduling, not for the graphics."
+    },
+    {
+      "item": "Eligibility Center",
+      "typicalSpend": "$110 in the US. Fee waivers are possible.",
+      "verdict": "Essential",
+      "why": "A free profile page is not approval. Approval is required before a Division I official visit."
+    },
+    {
+      "item": "Standardized tests",
+      "typicalSpend": "$68 to $70. Waivers available.",
+      "verdict": "Conditional",
+      "why": "The NCAA has not required a score for students starting college from 1 August 2023. The NAIA still uses test scores, and many junior college and Division II offices do too."
+    },
+    {
+      "item": "Year spend while he is in high school",
+      "typicalSpend": "$3,000 to $10,000 a year. Most of it is summer team fees, travel, and video. Handle it yourself for $700 to $2,000 a year, or pay for help at $1,000 to $3,500 a year on top of camp money already being spent.",
+      "verdict": "Essential",
+      "why": "Either path can lead to an offer. The difference is time and follow-through, not rules. A $5,000 service is mostly appointments and follow-ups."
+    }
+  ],
+  "paperworkAndDeadlines": [
+    {
+      "milestone": "Counselor class check",
+      "when": "15 October 2026 in the class-of-2029 date table, and again by November of 10th grade.",
+      "cost": "No fee printed.",
+      "rule": "Both parent and counselor have a printed NCAA-approved class list, marked up and signed. Not every good class counts."
+    },
+    {
+      "milestone": "Division I men's first contact",
+      "when": "15 June 2027 for the class of 2029. The checklist prints June 15.",
+      "cost": "No fee printed.",
+      "rule": "Email, text, call, or a form may start. Before that day a coach may watch and rate only. Girls' dates in the same PDF are different: calls from 1 June after 10th grade (13.1.3.1.5). Do not use the girls' date for this file."
+    },
+    {
+      "milestone": "Paid campus visits",
+      "when": "1 August 2027 in the class plan. Rule note: a boy may from 1 August of 11th grade (13.6.2.1.5). The book says the dates found did not match. Look it up before booking. A girl's paid visit in the same note may not start before 1 January of 11th grade (13.6.2.1.6).",
+      "cost": "The school pays for one visit per school. Unofficial visits have no printed cap on how often or how much the family spends, except July.",
+      "rule": "May not fall in a dead period. A school may host no more than five recruits at a time when it pays."
+    },
+    {
+      "milestone": "July visit ban",
+      "when": "All of July. For this class the hard line is 1 July 2028.",
+      "cost": "A July trip becomes a trip the family pays, because the coach cannot host it.",
+      "rule": "No unofficial visit in July in Division I unless he already signed a written offer of aid or admission, or paid a deposit."
+    },
+    {
+      "milestone": "Summer team certification check",
+      "when": "Before you pay, and again by 1 June 2028.",
+      "cost": "Summer team $2,000 to $5,000 a year, sometimes $500 to $1,500 more.",
+      "rule": "A Division I coach may only watch players at events on the NCAA approved list. Men's June watch window: noon Friday to 6pm Sunday."
+    },
+    {
+      "milestone": "Highlight video finished",
+      "when": "30 September 2028.",
+      "cost": "Do it yourself $0 to $80, or hired help $700 to $1,200.",
+      "rule": "Under four minutes, defense included, player marked in every clip. Link, not a file. No password. Full game ready."
+    },
+    {
+      "milestone": "Division I written offer of aid",
+      "when": "On or after 1 August of senior year.",
+      "cost": "No fee printed.",
+      "rule": "Does not hold a roster spot. Goes away if he does not qualify. Transfers sign a different paper."
+    },
+    {
+      "milestone": "Division II award letter",
+      "when": "On or after 1 September of senior year.",
+      "cost": "No fee printed.",
+      "rule": "Does not promise the same money next year. Most offers are one year at a time."
+    },
+    {
+      "milestone": "Early signing period",
+      "when": "PROJECTED 8 November 2028 to 15 November 2028. Rule: second Wednesday in November through the next Wednesday. Printed 2026-27 dates: 11 to 18 November 2026. One page prints 19 November. That conflict is open.",
+      "cost": "No fee printed.",
+      "rule": "If he signs, schools that offered aid must stop contacting him. Basketball has no late signing period. Missing this week costs nothing. April is the second chance."
+    },
+    {
+      "milestone": "Roster list deadline",
+      "when": "1 December 2028, or the day before the first real game.",
+      "cost": "No fee printed.",
+      "rule": "After that, a spot opens only if a player leaves or gets hurt."
+    },
+    {
+      "milestone": "Holiday dead period",
+      "when": "24 to 26 December, every year.",
+      "cost": "No fee printed.",
+      "rule": "No visits, no contact, no ratings."
+    },
+    {
+      "milestone": "Final amateurism check",
+      "when": "Ask starting 1 April 2029 for a fall start.",
+      "cost": "No separate fee printed beyond Eligibility Center registration.",
+      "rule": "The school cannot play him until the file is done. Done when the account shows CERTIFIED."
+    },
+    {
+      "milestone": "Regular signing period",
+      "when": "PROJECTED 11 April 2029. Rule: second Wednesday in April. Printed 2026-27 date: 14 April 2027. Closes on each school's own date.",
+      "cost": "No fee printed.",
+      "rule": "No late signing period. Miss April and wait a year."
+    },
+    {
+      "milestone": "Final transcript",
+      "when": "15 June 2029. The counselor sends it the day the school issues it.",
+      "cost": "No fee printed.",
+      "rule": "Must include proof of graduation and reach the Eligibility Center."
+    },
+    {
+      "milestone": "NJCAA letter of intent",
+      "when": "1 November. For this class the plan prints 1 November 2029.",
+      "cost": "Fifteen scholarships, one school year.",
+      "rule": "Stops every other junior college. Does not stop a four-year school. Sign one letter, or none."
+    }
+  ],
+  "tenMistakes": [
+    {
+      "number": 1,
+      "mistake": "Paying for a showcase before a coach you can name says he will be there.",
+      "fix": "Pay only after that coach says he will be there. In basketball most coaches watch at summer-team events, not at big showcases."
+    },
+    {
+      "number": 2,
+      "mistake": "Paying for the top summer circuit when he is not the kind of player those coaches recruit.",
+      "fix": "Regional events are where Division II, Division III, and NAIA coaches are. 61% of the open places are with those coaches. Ask the approval question in writing before paying $2,000 to $5,000."
+    },
+    {
+      "number": 3,
+      "mistake": "Paying a recruiting service for a ranking.",
+      "fix": "Ask how many coaches logged in last season. A service gives a page and a form. It does not give a relationship. Do not put a star ranking on the one-page sheet."
+    },
+    {
+      "number": 4,
+      "mistake": "Music, free throws, warm-up dunks, and offense-only video.",
+      "fix": "Defense and full possessions cost nothing and set him apart. Game sound or silence. Length 3:00 to 3:45, never over 4:00."
+    },
+    {
+      "number": 5,
+      "mistake": "Parent-written emails.",
+      "fix": "The player sends from his own email, high school coach copied, under 180 words. Coaches give parent-written email less attention. Several NAIA coaches say that openly."
+    },
+    {
+      "number": 6,
+      "mistake": "Waiting for a camp invite from a school that is already texting him.",
+      "fix": "A school that is already texting has already invited him in. Do not pay a camp to be noticed by a staff that is already in contact."
+    },
+    {
+      "number": 7,
+      "mistake": "Asking how many scholarships the school has.",
+      "fix": "That is the wrong question. Ask how many of the fifteen will be paid next year, and whether one is set aside for his position. A coach can carry fifteen and pay only six."
+    },
+    {
+      "number": 8,
+      "mistake": "Signing in the November window just to please a friendly coach, or deciding during the window instead of before it.",
+      "fix": "The choice is made before the window opens. Missing November costs nothing in basketball. April is a real second chance. There is no late period after that."
+    },
+    {
+      "number": 9,
+      "mistake": "Building a list shorter than the working plan, or treating 40 names as optional.",
+      "fix": "A good starting list is 40 to 55 schools across all five levels. The 15 June 2027 done line says 40 to 60 and the sports form filled out on each site. A shorter list is a wish, not a plan."
+    },
+    {
+      "number": 10,
+      "mistake": "Following advice that still says sign your NLI, including advice from a high school coach.",
+      "fix": "Division I ended the National Letter of Intent in October 2024. Division II followed within weeks. The old site closed on 1 May 2025. What gets signed now is a written offer of aid from one school."
+    }
+  ]
+}
