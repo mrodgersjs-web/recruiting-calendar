@@ -1,0 +1,83 @@
+@layer theme, base, legacy, components, utilities;
+
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "./legacy-bundle.css";
+@import "tailwindcss/utilities.css" layer(utilities);
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  color-scheme: light;
+  --cb-paper: #f7f5f0;
+  --cb-card: #ffffff;
+  --cb-ink: #141413;
+  --cb-muted: #57534e;
+  --cb-line: #e5e0d6;
+  --cb-blue: #1d4ed8;
+  --cb-red: #b91c1c;
+  --cb-green: #15803d;
+}
+
+.cb-workbench-ribbon {
+  background: #efeae0;
+  border-bottom: 1px solid #dfd9cd;
+  padding: 8px 24px;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 12.5px;
+  color: #141413;
+}
+.cb-workbench-ribbon__inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 16px;
+}
+.cb-workbench-ribbon__links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 16px;
+}
+.cb-workbench-ribbon__tag {
+  font-family: var(--font-mono), monospace;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #b91c1c;
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  padding: 2px 7px;
+  border-radius: 3px;
+}
+.cb-workbench-ribbon__link {
+  font-weight: 600;
+  color: #141413;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+.cb-workbench-ribbon__link:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+.cb-workbench-ribbon__ask {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 11px;
+  border-radius: 9999px;
+  border: 1px solid #1d4ed8;
+  background: #ffffff;
+  color: #1d4ed8;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.cb-workbench-ribbon__ask:hover {
+  background: #1d4ed8;
+  color: #ffffff;
+}
