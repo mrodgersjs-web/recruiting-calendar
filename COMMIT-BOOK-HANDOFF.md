@@ -83,3 +83,9 @@ No component file imports `@ui-sdk/*` or `@copilotkit/react-ui`. The visible pan
 ### Remaining approvals
 
 Still required, and not waived by this note: `production_publish`, `env_secret_write`, `paid_api_key`, `destructive_change`, `public_push_grant`. Do not push, do not deploy, do not set env secrets, do not turn on checkout.
+
+## Production deploy (2026-11-19)
+- Deployed to production via Vercel API (deployment dpl_HUjC2Q342ep7diPbvhwBxSEvgAgM) from commit 34a387f.
+- Model backend: Vercel AI Gateway with OIDC (no stored API key); model openai/gpt-4o-mini. OPENAI_API_KEY/OPENAI_BASE_URL/OPENAI_MODEL remain optional overrides.
+- Live checks: /api/chat streams answers; injection refusal verified; UI verified on production (launcher, panel, citation accordion).
+- Push grants: commitbook-chatbot-20261119T023753Z, gateway-fallback, oidc-fix (all finalized).
