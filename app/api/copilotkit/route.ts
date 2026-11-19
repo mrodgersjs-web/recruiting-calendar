@@ -130,7 +130,7 @@ class CommitBookAgUiAgent extends AbstractAgent {
     signal: AbortSignal
   ): Promise<void> {
     const apiKey = process.env.OPENAI_API_KEY?.trim();
-    const modelId = process.env.OPENAI_MODEL?.trim() || "openai/gpt-4o-mini";
+    const modelId = process.env.OPENAI_MODEL?.trim() || "openai/gpt-4o";
     let model;
     if (apiKey) {
       const baseURL = process.env.OPENAI_BASE_URL?.trim() || undefined;

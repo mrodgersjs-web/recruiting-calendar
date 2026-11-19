@@ -104,7 +104,7 @@ export async function POST(req: Request) {
   const apiKey = openRouterKey || process.env.OPENAI_API_KEY?.trim();
   const modelId = openRouterKey
     ? process.env.OPENROUTER_MODEL?.trim() || "openrouter/free"
-    : process.env.OPENAI_MODEL?.trim() || "openai/gpt-4o-mini";
+    : process.env.OPENAI_MODEL?.trim() || "openai/gpt-4o";
 
   let model;
   if (apiKey) {
