@@ -16,6 +16,7 @@ export function SiteHeader({ activePath }: { activePath?: string }) {
     { href: "/calendar", label: "Calendar" },
     { href: "/playbooks", label: "Playbooks" },
     { href: "/solutions", label: "Solutions", highlight: true },
+    { href: "/trust", label: "Trust" },
     { href: "/price", label: "Price" },
   ];
 
