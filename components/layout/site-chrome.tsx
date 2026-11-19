@@ -16,7 +16,6 @@ export function SiteHeader({ activePath }: { activePath?: string }) {
     { href: "/calendar", label: "Calendar" },
     { href: "/playbooks", label: "Playbooks" },
     { href: "/solutions", label: "Solutions", highlight: true },
-    { href: "/trust", label: "Trust" },
     { href: "/price", label: "Price" },
   ];
 
@@ -146,6 +145,14 @@ export function SiteFooter() {
             <span>·</span>
             <Link className="hover:text-[#ffffff] underline-offset-4 hover:underline" href="/price">
               Price
+            </Link>
+            <span>·</span>
+            <Link className="hover:text-[#ffffff] underline-offset-4 hover:underline" href="/solutions">
+              Solutions
+            </Link>
+            <span>·</span>
+            <Link className="hover:text-[#ffffff] underline-offset-4 hover:underline" href="/trust">
+              Trust Center
             </Link>
             <span>·</span>
             <Link className="hover:text-[#ffffff] underline-offset-4 hover:underline" href="/start">
