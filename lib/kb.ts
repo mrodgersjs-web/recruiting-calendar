@@ -12,6 +12,11 @@ export interface KbSection {
 const SOURCE_FILES: { rel: string; prefix: string }[] = [
   { rel: "content/kb.md", prefix: "kb" },
   { rel: "content/reels.md", prefix: "reel" },
+  { rel: "content/reels/Commit-Book-Highlight-Reel-Playbook_Football_Review_v3.txt", prefix: "reel-fb" },
+  { rel: "content/reels/Commit-Book-Highlight-Reel-Playbook_Volleyball_Review_v3.txt", prefix: "reel-vb" },
+  { rel: "content/reels/Commit-Book-Mens-Baseball-Highlight-Reel-Research-Report_v1.txt", prefix: "reel-bb" },
+  { rel: "content/reels/Commit-Book-Basketball-Highlight-Reel-Research-Report_v1.txt", prefix: "reel-bk" },
+  { rel: "content/reels/Commit-Book-Fastpitch-Softball-Highlight-Reel-Research-Report_v1.txt", prefix: "reel-sb" },
   { rel: "content/sops/football-and-boys-basketball.md", prefix: "sopfb" },
   { rel: "content/sops/girls-basketball-and-volleyball.md", prefix: "sopgv" },
 ];
@@ -82,6 +87,25 @@ function buildSections(): KbSection[] {
       if (text.length < 60) continue;
       sections.push({ id: prefix + "-" + i, label, text, tags: tagFor(label, body) });
     }
+    // Long reports (the reel review drafts) have shallow headings; split them
+    // further into page-sized chunks so one report never crowds out the rest.
+    if (prefix.startsWith("reel-") && parts.length < 4) {
+      const chunkSize = 3000;
+      for (let i = sections.length - 1; i >= 0; i--) {
+        const s = sections[i];
+        if (!s.id.startsWith(prefix)) continue;
+        sections.splice(i, 1);
+        for (let c = 0; c * chunkSize < s.text.length; c++) {
+          const chunk = s.text.slice(c * chunkSize, (c + 1) * chunkSize);
+          sections.push({
+            id: `${s.id}-c${c}`,
+            label: s.label,
+            text: chunk,
+            tags: s.tags,
+          });
+        }
+      }
+    }
   }
 
   sectionCache = sections;
@@ -110,8 +134,17 @@ function scoreSection(sec: KbSection, qTokens: string[]): number {
     }
   }
   const lower = sec.text.toLowerCase();
+  const labelLower = sec.label.toLowerCase();
   for (const qt of qTokens) {
     if (qt.length > 4 && lower.includes(qt)) score += 1;
+    // Label hits are strong signals: a section titled with the query's sport or
+    // topic beats a body mention.
+    if (qt.length > 3 && labelLower.includes(qt)) score += 3;
+  }
+  // Exact number/date phrases from the query (e.g. "2029", "43-foot") are
+  // high-precision: reward them separately.
+  for (const qt of qTokens) {
+    if (/\d/.test(qt) && lower.includes(qt)) score += 2;
   }
   return score;
 }
@@ -128,14 +161,16 @@ export function loadCommitBookKnowledgeBase(query = ""): string {
 
   const picked: KbSection[] = [];
   let chars = 0;
-  for (const { sec, score } of scored) {
-    if (score >= 100000) {
-      picked.push(sec);
-      chars += sec.text.length;
-      continue;
-    }
-    if (score === 0) continue;
-    if (chars >= CHAR_BUDGET) break;
+  const always = scored.filter(({ score }) => score >= 100000);
+  const rest = scored.filter(({ score }) => score > 0 && score < 100000);
+  // Always-on sections still count against the budget so they cannot crowd out
+  // every scored match.
+  for (const { sec } of always) {
+    picked.push(sec);
+    chars += sec.text.length;
+  }
+  for (const { sec } of rest) {
+    if (chars + sec.text.length > CHAR_BUDGET && picked.length > always.length) break;
     picked.push(sec);
     chars += sec.text.length;
   }
