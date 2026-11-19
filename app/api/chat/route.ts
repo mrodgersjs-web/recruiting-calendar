@@ -110,18 +110,10 @@ export async function POST(req: Request) {
     });
     // Support both OpenAI Responses API and OpenAI-compatible Chat Completions gateways seamlessly
     model = baseURL ? openai.chat(modelId) : openai(modelId);
-  } else if (process.env.VERCEL_OIDC_TOKEN || process.env.AI_GATEWAY_API_KEY) {
-    // Vercel AI Gateway via OIDC (no stored key) or an explicit gateway key.
-    model = gateway(modelId);
   } else {
-    return Response.json(
-      {
-        error: "provider_not_configured",
-        message:
-          "Live AI answers are awaiting model configuration on this environment. You can use the Athlete SOP Playbooks (/sops) and 30-Second Window Calculator (/window) right now.",
-      },
-      { status: 503 }
-    );
+    // Vercel AI Gateway: the SDK resolves AI_GATEWAY_API_KEY or the Vercel OIDC
+    // token (fetched via @vercel/oidc, not a plain env var) on its own.
+    model = gateway(modelId);
   }
 
   const trimmedMessages = rawMessages.slice(-10);
@@ -145,6 +137,13 @@ export async function POST(req: Request) {
   });
 
   return result.toUIMessageStreamResponse({
+    onError: (err) => {
+      const msg = err instanceof Error ? err.message : String(err);
+      if (/oidc|gateway|authentication|api.?key/i.test(msg)) {
+        return "Live AI answers are awaiting model configuration on this environment. You can use the Athlete SOP Playbooks (/sops) and 30-Second Window Calculator (/window) right now.";
+      }
+      return "The recruiting guide hit a temporary error. Please try again in a moment, or use the Athlete SOP Playbooks (/sops) directly.";
+    },
     headers: {
       "X-RateLimit-Limit": String(rl.limit),
       "X-RateLimit-Remaining": String(rl.remaining),

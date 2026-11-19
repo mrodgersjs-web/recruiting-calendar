@@ -139,12 +139,8 @@ class CommitBookAgUiAgent extends AbstractAgent {
         ...(baseURL ? { baseURL } : {}),
       });
       model = baseURL ? openai.chat(modelId) : openai(modelId);
-    } else if (process.env.VERCEL_OIDC_TOKEN || process.env.AI_GATEWAY_API_KEY) {
-      model = gateway(modelId);
     } else {
-      throw new Error(
-        "Live AI answers are awaiting model configuration on this environment. You can use the Athlete SOP Playbooks (/sops) and 30-Second Window Calculator (/window) right now."
-      );
+      model = gateway(modelId);
     }
     const messages: ModelMessage[] = turns.map((turn) => ({
       role: turn.role,
@@ -210,12 +206,10 @@ async function handle(req: Request): Promise<Response> {
     );
   }
 
-  if (
-    req.method === "POST" &&
-    !process.env.OPENAI_API_KEY?.trim() &&
-    !process.env.VERCEL_OIDC_TOKEN &&
-    !process.env.AI_GATEWAY_API_KEY
-  ) {
+  if (req.method === "POST" && !process.env.OPENAI_API_KEY?.trim()) {
+    // Vercel AI Gateway resolves OIDC inside the function; only the pure-local
+    // dev case without any gateway credentials should 503 early.
+    if (process.env.VERCEL !== "1" && !process.env.AI_GATEWAY_API_KEY) {
     return Response.json(
       {
         error: "provider_not_configured",
@@ -224,6 +218,7 @@ async function handle(req: Request): Promise<Response> {
       },
       { status: 503 }
     );
+    }
   }
 
   const { handleRequest } = copilotRuntimeNextJSAppRouterEndpoint({
