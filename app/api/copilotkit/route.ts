@@ -21,7 +21,7 @@ import {
 } from "@/lib/copilotkit-service";
 
 export const runtime = "nodejs";
-export const maxDuration = 30;
+export const maxDuration = 60;
 
 const AGENT_ID = "commit_book_guide";
 const AGENT_DESCRIPTION =

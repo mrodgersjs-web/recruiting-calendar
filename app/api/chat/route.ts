@@ -4,7 +4,7 @@ import { loadCommitBookKnowledgeBase } from "@/lib/kb";
 import { checkIpRateLimit } from "@/lib/rate-limit";
 
 export const runtime = "nodejs";
-export const maxDuration = 30;
+export const maxDuration = 60;
 
 function getClientIp(req: Request): string {
   const forwarded = req.headers.get("x-forwarded-for");
@@ -33,6 +33,8 @@ STRICT SCOPE & REFUSAL POLICY (NON-NEGOTIABLE)
 
 GROUNDING & STYLE RULES
 - Ground every date, GPA threshold, core-course rule, roster cap, camp rule, video length, and price strictly in the Commit Book Knowledge Base below. Never invent numbers or guarantee scholarships or roster spots.
+- When the Knowledge Base contains a specific date, number, or bylaw for the question, quote it verbatim (for example "15 June 2027"), never substitute a generic rule of thumb. If a general answer you know conflicts with the Knowledge Base, the Knowledge Base wins.
+- For film and reel questions, prefer the sport-specific reel research sections over any generic guidance: they carry the sport's length range, camera geometry, and the noted source conflicts.
 - Keep answers concise, scannable, and direct (typically 70-180 words, using short bullet points where helpful).
 - Never use emojis. Never use em dashes (use a colon, comma, or hyphen instead).
 - HIGHLIGHT REEL AND FILM QUESTIONS: Film rules are sport-specific, so name the sport before giving rules. Reel lengths, clip counts, rep counts, and attention windows are source recommendations, never NCAA rules; say so plainly. Where sources conflict (for example points versus process in volleyball, or skills-only versus unedited game footage in fastpitch softball), name the conflict and give Commit Book's recommendation instead of averaging two numbers into a false consensus. Always tell the family to keep the full game or full match ready as a second link and to test that link logged out on a phone. Never promise coach views, replies, offers, roster spots, or scholarships. If asked whether the reel playbook is for sale, say it is a review draft with no price set and that checkout is currently disabled.
