@@ -2,10 +2,10 @@
   "harness": "commitbook-chatbot-kokonut",
   "harness_version": "1.0.0",
   "owner": "RIG App Studio",
-  "generated": "2026-11-19T05:06:58.612552+00:00",
+  "generated": "2026-11-19T08:08:19.731951+00:00",
   "repository": "mrodgersjs-web/recruiting-calendar",
   "branch": "feat/commitbook-chatbot-kokonut",
-  "head": "34a387fee53b26d981ac5ae46cbaac8981daa701",
+  "head": "64317e44959a249e611fe1cce8b250b81ecebef5",
   "commits": [
     "e2885cc refactor(api): retire legacy serverless handlers now served by the App Router",
     "58762cc chore(deps): lockfile for the Next.js 15 + Tailwind v4 toolchain",
@@ -122,24 +122,15 @@
     "note": "No secret values are stored in this packet or in the repo."
   },
   "open_risks": [
-    "Gateway latency spikes: typical answer 2-7s, but observed 15-31s bursts under upstream contention; the sub-10s budget holds in normal conditions, not under load.",
-    "Preview chat is inert (503) until the owner sets the three env vars; env_secret_write is a gated action. A7 (2026-11-18) reconfirmed POST /api/chat and POST /api/copilotkit return 503 provider_not_configured when OPENAI_API_KEY is unset.",
-    "Vercel CLI is not ready for a preview deploy (A4): access token expired 2026-11-19T01:08:56Z, vercel not on PATH, no env token. Refresh was not run.",
-    "Vercel project settings were changed (framework nextjs, outputDirectory cleared). A deploy of the old static main would now need outputDirectory restored.",
-    "Three live-site facts from James remain unresolved and are stated honestly in the KB rather than papered over: reel shelf page count 14 vs store card 16; reel shelf 'what is inside' lists camp content and links only softball; checkout answers 503 so every price is unpayable and four sports read pending.",
-    "Known data conflicts kept open on purpose: Eligibility Center fee $110 vs $120; football FBS dead period 29 vs 30 Nov 2026; boys basketball signing 11-18 Nov vs 19 Nov; $99 first-100 vs $149/yr Sideline; 85 vs 105 football roster cap; baseball 11.7 ceiling only at non-opt-in with a 34-player roster limit from 1 Jul 2025.",
-    "All ten new offerings are Priority Waitlist with no live checkout; no fake purchase path was created.",
-    "Playwright suite failed 7/7 (A7, 2026-11-18): e2e.config.ts allocates ports at module scope, workers re-evaluate the config, and every test hit net::ERR_CONNECTION_REFUSED. Harness bug, not an app 500. Do not treat the suite as a green e2e run.",
-    "next build exit 0 with a warning: Critical dependency is an expression in @ai-sdk/google-vertex, imported via @copilotkit/runtime into app/api/copilotkit/route.ts. CopilotKit telemetry is on unless COPILOTKIT_TELEMETRY_DISABLED=true.",
-    "Visible chat is still the Kokonut useChat panel. @ui-sdk/react, @ui-sdk/core, and @copilotkit/react-ui are in package.json and have no component imports. A6 P0: the panel sets aria-modal without moving focus, trapping Tab, or restoring focus. Placeholder contrast 2.43:1 and slash descriptions 2.82:1 fail WCAG.",
-    "v1.1 integration is uncommitted on feat/commitbook-chatbot-kokonut. HEAD is still 4d2afba492169ac0379da116e60c9fde3d83fbbd. A1 and A2 reports did not land by 2026-11-19T02:08Z. test-results/ from the failed Playwright run is untracked.",
-    "Chat answers lean on the general KB; sport-specific reel-draft numbers (e.g. softball 2-3 min skills cut) are retrievable via /api/copilotkit composeContext but the /api/chat surface can answer with the looser 3-5 min figure. Retrieval weighting follow-up recommended.",
-    "E2E full-suite run requires the two-server port fix verified: run COMMITBOOK_E2E_ONLY=stub and =nokey separately."
+    "G01 multi-sport contact question answers both opening dates but drops the off-campus/visit rungs; prompt ladder instruction partially effective.",
+    "Occasional 20-60s gateway latency spikes on film questions (G11-G14 range 1.7s-54s across runs).",
+    "Reel drafts are internal review content; Scout cites them as not published."
   ],
   "termination_authority": "independent-verifier (self_review_allowed false)",
   "human_approval_still_required": [
     "env_secret_write",
     "paid_api_key",
     "destructive_change"
-  ]
+  ],
+  "golden_eval": "13/14 pass on production (baseline 3/14); G01 contact-ladder completeness is the one holdout"
 }

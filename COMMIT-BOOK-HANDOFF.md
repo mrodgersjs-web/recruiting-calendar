@@ -89,3 +89,8 @@ Still required, and not waived by this note: `production_publish`, `env_secret_w
 - Model backend: Vercel AI Gateway with OIDC (no stored API key); model openai/gpt-4o-mini. OPENAI_API_KEY/OPENAI_BASE_URL/OPENAI_MODEL remain optional overrides.
 - Live checks: /api/chat streams answers; injection refusal verified; UI verified on production (launcher, panel, citation accordion).
 - Push grants: commitbook-chatbot-20261119T023753Z, gateway-fallback, oidc-fix (all finalized).
+
+## 1000x pass + eight-solution close (2026-11-19)
+- Golden eval: 3/14 -> 13/14 on production. Fixes: reel drafts indexed (5 txt files), ### subsection splitting with parent context, char budget enforced, content/ traced into serverless bundles (KB was empty in prod), model default openai/gpt-4o via Vercel AI Gateway OIDC, verbatim-date and multi-part prompt rules, pricing section added to kb.md.
+- Six family solutions live at /solutions (+ six slug routes, all 200), Trust Center at /trust, nav links in footer.
+- Scout iMessage UI + OpenRouter free-model fallback integrated from the sibling lane.
