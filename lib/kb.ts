@@ -67,7 +67,7 @@ function buildSections(): KbSection[] {
   for (const { rel, prefix } of SOURCE_FILES) {
     const raw = readIfExists(rel);
     if (!raw.trim()) continue;
-    const parts = raw.split(/^## /m);
+    const parts = raw.split(/^#{2,3} /m);
     const preamble = parts[0] ?? "";
     if (preamble.trim().length > 40) {
       const label = preamble.trim().split("\n")[0].slice(0, 90);
@@ -85,7 +85,8 @@ function buildSections(): KbSection[] {
       const label = (nl === -1 ? body : body.slice(0, nl)).trim().slice(0, 110);
       const text = "## " + body.trim();
       if (text.length < 60) continue;
-      sections.push({ id: prefix + "-" + i, label, text, tags: tagFor(label, body) });
+      // Subsection bodies repeat the parent sport header for context.
+      sections.push({ id: prefix + "-" + i, label, text, tags: tagFor(label + " " + rel, body) });
     }
     // Any oversized section gets split into page-sized chunks so one big
     // section (a sport SOP or a reel report) never crowds out the others.

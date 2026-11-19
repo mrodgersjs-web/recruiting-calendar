@@ -359,3 +359,13 @@ Then send them to `/start` for the grade steps, or `/sops` if they named footbal
 If they are in 9th grade, the SOP line is: play, keep grades, start the folders, spend nothing on recruiting, get the course list checked.
 
 If they are in 11th or 12th grade, use the grade row in section 5 for their sport. If the sport has no SOP, use `/start` and say the four written SOPs are football, boys basketball, girls basketball, and girls volleyball.
+
+## Pricing, free tools, and refunds (from the live site, checked 17 November 2026)
+
+- Free: the class-year plan at /start (3 dates for one sport and class year), roster math, the monthly rules briefing, and the grade steps. No account needed.
+- Sideline membership: proposed at $149 per year after a 14-day free trial. The calendar page also shows $99 per year for the first 100 founding members. Checkout is in test mode and not live, so neither can be bought yet; the price page collects interest only.
+- Pathway: planned at $499 per year. Not for sale.
+- Playbooks are one-time purchases, each priced on /playbooks (football junior year $29, eligibility deadlines $9, baseball showcase-to-signing $29, track marks $25, walk-on $15, highlight reel and social $15, camp ROI $15, offers and signing $19). Bundles: Sport Pack $49, Every Playbook $99.
+- Refund: 30-day full refund by email, no retention call. It covers the first purchase and renewals on the draft refund page.
+- Cancel online from the billing page; cancelling stops the next renewal.
+- Legal pages (terms, privacy, refunds, auto-renewal) are drafts and not yet in effect.
