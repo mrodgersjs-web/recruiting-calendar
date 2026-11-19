@@ -87,13 +87,14 @@ function buildSections(): KbSection[] {
       if (text.length < 60) continue;
       sections.push({ id: prefix + "-" + i, label, text, tags: tagFor(label, body) });
     }
-    // Long reports (the reel review drafts) have shallow headings; split them
-    // further into page-sized chunks so one report never crowds out the rest.
-    if (prefix.startsWith("reel-") && parts.length < 4) {
+    // Any oversized section gets split into page-sized chunks so one big
+    // section (a sport SOP or a reel report) never crowds out the others.
+    {
       const chunkSize = 3000;
       for (let i = sections.length - 1; i >= 0; i--) {
         const s = sections[i];
-        if (!s.id.startsWith(prefix)) continue;
+        if (s.text.length <= chunkSize * 1.5) continue;
+        if (s.always) continue;
         sections.splice(i, 1);
         for (let c = 0; c * chunkSize < s.text.length; c++) {
           const chunk = s.text.slice(c * chunkSize, (c + 1) * chunkSize);
@@ -159,19 +160,39 @@ export function loadCommitBookKnowledgeBase(query = ""): string {
     .map((sec) => ({ sec, score: sec.always ? 100000 : scoreSection(sec, qTokens) }))
     .sort((a, b) => b.score - a.score);
 
+  // Always include the single best-scoring chunk per section label, plus the
+  // top hits overall, so a multi-sport question (football AND volleyball) gets
+  // both sports even when one sport's chunks dominate the raw ranking.
+  const bestByLabel = new Map<string, { sec: KbSection; score: number }>();
+  for (const { sec, score } of scored) {
+    if (score <= 0 || score >= 100000) continue;
+    const prev = bestByLabel.get(sec.label);
+    if (!prev || score > prev.score) bestByLabel.set(sec.label, { sec, score });
+  }
+  const diverse = [...bestByLabel.values()].sort((a, b) => b.score - a.score);
+
   const picked: KbSection[] = [];
   let chars = 0;
   const always = scored.filter(({ score }) => score >= 100000);
-  const rest = scored.filter(({ score }) => score > 0 && score < 100000);
-  // Always-on sections still count against the budget so they cannot crowd out
-  // every scored match.
   for (const { sec } of always) {
     picked.push(sec);
     chars += sec.text.length;
   }
-  for (const { sec } of rest) {
-    if (chars + sec.text.length > CHAR_BUDGET && picked.length > always.length) break;
+  // First pass: one best chunk per distinct section label (coverage).
+  const pickedIds = new Set(picked.map((s) => s.id));
+  for (const { sec } of diverse) {
+    if (pickedIds.has(sec.id)) continue;
+    if (chars + sec.text.length > CHAR_BUDGET) continue;
     picked.push(sec);
+    pickedIds.add(sec.id);
+    chars += sec.text.length;
+  }
+  // Second pass: fill remaining budget with the highest-scoring chunks (depth).
+  for (const { sec, score } of scored) {
+    if (score <= 0 || score >= 100000 || pickedIds.has(sec.id)) continue;
+    if (chars + sec.text.length > CHAR_BUDGET) continue;
+    picked.push(sec);
+    pickedIds.add(sec.id);
     chars += sec.text.length;
   }
 
