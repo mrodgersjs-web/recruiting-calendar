@@ -40,7 +40,7 @@ test.describe("launcher", () => {
   test("launcher opens on / and is keyboard accessible @nokey", async ({ page }) => {
     await page.goto("/");
     const launcher = page.getByRole("button", {
-      name: "Ask the Recruiting Guide",
+      name: "Ask Scout, the recruiting guide",
     });
     await expect(launcher).toBeVisible();
     await expect(launcher).toHaveAttribute("type", "button");
@@ -52,11 +52,11 @@ test.describe("launcher", () => {
     await expect(launcher).toBeFocused();
     await page.keyboard.press("Enter");
 
-    const panel = page.getByRole("dialog", { name: "Recruiting Guide" });
+    const panel = page.getByRole("dialog", { name: "Scout" });
     await expect(panel).toBeVisible();
     await expect(page.getByTestId("commitbook-chat-panel")).toBeVisible();
 
-    const close = page.getByRole("button", { name: "Close Commit Book Guide" });
+    const close = page.getByRole("button", { name: "Close Scout" });
     await close.focus();
     await expect(close).toBeFocused();
     await page.keyboard.press("Escape");
@@ -83,6 +83,14 @@ test.describe("grounded answers", () => {
     await expect(link.first()).toBeVisible();
     await expect(link.first()).toHaveAttribute("href", SITE_PATH);
     await expect(reply).not.toContainText(/sk-live|SYSTEM PROMPT/i);
+    await expect(page.getByTestId("scout-playbook-recommendation")).toContainText(
+      "Football: Junior Year Playbook",
+    );
+    await expect(
+      page.getByRole("link", {
+        name: "Get Football: Junior Year Playbook for $29",
+      }),
+    ).toHaveAttribute("href", "/playbooks/football-junior-year");
   });
 
   test("off-topic injection gets a polite refusal @stub", async ({ page }) => {

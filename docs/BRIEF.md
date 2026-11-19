@@ -1,4 +1,4 @@
-# Commit Book Guide
+# Scout: The Commit Book AI recruiting guide
 
 A grounded recruiting chatbot on The Commit Book site, for athletes and parents who need NCAA, NAIA, and NJCAA answers without a sales pitch. v1.1. Decided from the landed integration, not a new interview.
 
@@ -34,9 +34,11 @@ A sheet on the existing Next.js 15 site, not a Mac app. Paper `#f7f5f0`, ink `#1
 
 Names only. No values belong in the repo.
 
-- `OPENAI_API_KEY`: required for a live answer. Missing key returns HTTP 503 `provider_not_configured`.
-- `OPENAI_BASE_URL`: optional. Unset uses the provider default.
-- `OPENAI_MODEL`: optional. Default `gpt-4o-mini`.
+- `OPENROUTER_API_KEY`: preferred for Scout's free-model route. Server-only; never expose it to the browser.
+- `OPENROUTER_MODEL`: optional. Default `openrouter/free`.
+- `OPENAI_API_KEY`: optional fallback when OpenRouter is not configured.
+- `OPENAI_BASE_URL`: optional OpenAI-compatible fallback. Unset uses the provider default.
+- `OPENAI_MODEL`: optional. Default `openai/gpt-4o-mini`.
 - `CHAT_RATE_LIMIT_PER_MIN`: optional. Default 15.
 - `KB_CHAR_BUDGET`: optional. Default 15000. Used by the site knowledge loader.
 - `COMMIT_BOOK_SITE_ORIGIN`: optional. Default `https://recruiting-calendar.vercel.app`.
@@ -59,5 +61,5 @@ Site tokens already on the launcher. Not a new brand. A6 measured contrast failu
 - Checkout, Stripe, email capture, or any paid path.
 - Publishing reel drafts, or treating a draft as a live playbook.
 - Replacing `useChat` or the Kokonut thread with CopilotKit React or with AI Elements.
-- Production alias, public push, or writing `OPENAI_API_KEY` onto Vercel. Those still need a separate approval.
+- Production alias, public push, or writing `OPENROUTER_API_KEY` / `OPENAI_API_KEY` onto Vercel. Those still need a separate approval.
 - A green end-to-end run. The Playwright harness failed 7/7 on 2026-11-18 because each worker picked a port nothing was listening on.

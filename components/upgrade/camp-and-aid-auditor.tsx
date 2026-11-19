@@ -414,7 +414,7 @@ export function CampAndAidAuditor() {
             </p>
             <button type="button" className="caa-ask" onClick={askGuide}>
               <CircleDollarSign size={16} aria-hidden="true" />
-              Ask Commit Book Guide to Audit My Camp Invite
+              Ask Scout to Audit My Camp Invite
             </button>
             <p className="caa-note" role="status">
               {asked

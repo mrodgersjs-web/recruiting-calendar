@@ -18,7 +18,7 @@ function getClientIp(req: Request): string {
 }
 
 function buildSystemPrompt(kbContent: string): string {
-  return `You are the Commit Book Recruiting Guide on https://recruiting-calendar.vercel.app/.
+  return `You are Scout, the AI recruiting guide on https://recruiting-calendar.vercel.app/.
 
 IDENTITY & MISSION
 - The Commit Book gives high-school athletes (grades 8-12) and their families plain, rulebook-verified paths to a college roster across NCAA D1, NCAA D2, NCAA D3, NAIA, and NJCAA, without $3,000 recruiting agency hype.
@@ -98,17 +98,30 @@ export async function POST(req: Request) {
     );
   }
 
-  const apiKey = process.env.OPENAI_API_KEY?.trim();
-  const modelId = process.env.OPENAI_MODEL?.trim() || "openai/gpt-4o-mini";
+  const openRouterKey = process.env.OPENROUTER_API_KEY?.trim();
+  const apiKey = openRouterKey || process.env.OPENAI_API_KEY?.trim();
+  const modelId = openRouterKey
+    ? process.env.OPENROUTER_MODEL?.trim() || "openrouter/free"
+    : process.env.OPENAI_MODEL?.trim() || "openai/gpt-4o-mini";
 
   let model;
   if (apiKey) {
-    const baseURL = process.env.OPENAI_BASE_URL?.trim() || undefined;
+    const baseURL = openRouterKey
+      ? "https://openrouter.ai/api/v1"
+      : process.env.OPENAI_BASE_URL?.trim() || undefined;
     const openai = createOpenAI({
       apiKey,
       ...(baseURL ? { baseURL } : {}),
+      ...(openRouterKey
+        ? {
+            headers: {
+              "HTTP-Referer": "https://recruiting-calendar.vercel.app/",
+              "X-Title": "The Commit Book - Scout",
+            },
+          }
+        : {}),
     });
-    // Support both OpenAI Responses API and OpenAI-compatible Chat Completions gateways seamlessly
+    // OpenRouter and other OpenAI-compatible gateways use Chat Completions.
     model = baseURL ? openai.chat(modelId) : openai(modelId);
   } else {
     // Vercel AI Gateway: the SDK resolves AI_GATEWAY_API_KEY or the Vercel OIDC

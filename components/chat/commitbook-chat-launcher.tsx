@@ -7,6 +7,7 @@ import {
   DialogDescription,
   DialogTitle,
 } from "@ui-sdk/react/dialog";
+import { MessageCircle } from "lucide-react";
 import dynamic from "next/dynamic";
 import { useEffect, useRef, useState } from "react";
 
@@ -99,9 +100,9 @@ export default function CommitBookChatLauncher() {
             top: auto !important;
             left: auto !important;
             right: 2rem !important;
-            bottom: 11rem !important;
+            bottom: 15rem !important;
             width: min(400px, calc(100vw - 4rem)) !important;
-            height: min(640px, 72dvh) !important;
+            height: min(620px, 68dvh) !important;
           }
         }
       `}</style>
@@ -109,8 +110,8 @@ export default function CommitBookChatLauncher() {
         aria-controls="commitbook-chat-dialog"
         aria-expanded={open}
         aria-haspopup="dialog"
-        aria-label="Ask the Recruiting Guide"
-        className={`fixed right-4 bottom-24 z-[85] inline-flex items-center gap-2.5 rounded-full border border-[#141413]/15 bg-[#141413] px-4 py-3 text-[#f7f5f0] shadow-[0_12px_30px_-8px_rgba(20,20,19,0.42)] transition-transform duration-150 hover:-translate-y-0.5 sm:right-8 sm:bottom-28 ${FOCUS_RING}`}
+        aria-label="Ask Scout, the recruiting guide"
+        className={`fixed right-4 bottom-40 z-[85] inline-flex items-center gap-2.5 rounded-full border border-[#141413]/15 bg-[#141413] px-4 py-3 text-[#f7f5f0] shadow-[0_12px_30px_-8px_rgba(20,20,19,0.42)] transition-transform duration-150 hover:-translate-y-0.5 sm:right-8 sm:bottom-44 ${FOCUS_RING}`}
         data-testid="commitbook-chat-launcher"
         onClick={() => {
           setShouldMountSheet(true);
@@ -121,11 +122,17 @@ export default function CommitBookChatLauncher() {
         ref={launcherRef}
         type="button"
       >
-        <span className="font-sans text-[13.5px] font-semibold tracking-tight">
-          Ask Recruiting Guide
+        <span
+          aria-hidden="true"
+          className="flex size-6 items-center justify-center rounded-full bg-[#f7f5f0]/15"
+        >
+          <MessageCircle className="size-3.5" />
+        </span>
+        <span className="font-sans text-[14px] font-semibold tracking-tight">
+          Ask Scout
         </span>
         <span className="hidden rounded bg-[#f7f5f0]/15 px-1.5 py-0.5 font-mono text-[10px] text-[#f7f5f0]/90 sm:inline">
-          SOPs + Rules
+          Rules + next steps
         </span>
       </button>
 
@@ -148,9 +155,9 @@ export default function CommitBookChatLauncher() {
             }}
             keepMounted
           >
-            <DialogTitle className="sr-only">Recruiting Guide</DialogTitle>
+            <DialogTitle className="sr-only">Scout</DialogTitle>
             <DialogDescription className="sr-only">
-              SOPs, contact windows, and camp rules.
+              AI recruiting guide for SOPs, contact windows, camp rules, and playbook recommendations.
             </DialogDescription>
             <LazyCommitBookChatbot
               initialPrompt={queuedPrompt}

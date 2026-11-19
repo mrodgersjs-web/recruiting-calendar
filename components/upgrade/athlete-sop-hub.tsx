@@ -313,7 +313,7 @@ function ChecklistPanel({
                           }
                         >
                           <MessageSquare size={14} aria-hidden="true" />
-                          Ask Guide
+                          Ask Scout
                         </button>
                       </li>
                     );
@@ -678,7 +678,7 @@ function MistakesPanel({ sop }: { sop: AthleteSop }) {
                       }
                     >
                       <MessageSquare size={14} aria-hidden="true" />
-                      Ask Guide
+                      Ask Scout
                     </button>
                   </div>
                 ) : null}

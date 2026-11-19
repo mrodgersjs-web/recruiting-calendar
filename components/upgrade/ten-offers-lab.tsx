@@ -316,7 +316,7 @@ function OfferCard({
             </button>
             <button type="button" className="tol-ghost" onClick={() => askGuide(offer)}>
               <MessageSquare size={15} aria-hidden="true" />
-              Ask Guide If We Need This
+              Ask Scout If We Need This
             </button>
             <button type="button" className={inStack ? "tol-stack is-on" : "tol-stack"} onClick={onToggleStack}>
               {inStack ? <Check size={15} aria-hidden="true" /> : <Plus size={15} aria-hidden="true" />}

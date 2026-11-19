@@ -67,7 +67,7 @@ export function SiteHeader({ activePath }: { activePath?: string }) {
             }}
             type="button"
           >
-            Ask Guide
+            Ask Scout
           </button>
 
           <button

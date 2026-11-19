@@ -33,24 +33,28 @@ export const STARTER_PROMPTS = [
   {
     id: "sp-1",
     tag: "CONTACT DATES",
+    shortLabel: "Contact dates",
     question:
       "When can D1 vs D3 college coaches first contact a Class of 2029 football or volleyball athlete?",
   },
   {
     id: "sp-2",
     tag: "ATHLETE SOPs",
+    shortLabel: "Athlete SOPs",
     question:
       "What belongs in the first 30 seconds of a recruiting highlight video, and what gets turned off immediately?",
   },
   {
     id: "sp-3",
     tag: "CAMP RED FLAGS",
+    shortLabel: "Camp red flags",
     question:
       "How do we tell if a $600 showcase camp invite is worth attending or a money trap?",
   },
   {
     id: "sp-4",
     tag: "HIGHLIGHT FILM",
+    shortLabel: "Highlight film",
     question:
       "What camera angle and reel length should we use for a football, basketball, baseball, softball, or volleyball recruiting reel?",
   },
@@ -161,6 +165,125 @@ function renderFormattedLine(line: string, lineKey: string): React.ReactNode[] {
 }
 
 type GuideSource = { id: string; title: string; href: string };
+
+type PlaybookRecommendation = {
+  id: string;
+  title: string;
+  price: number;
+  description: string;
+};
+
+const PLAYBOOKS: Record<string, PlaybookRecommendation> = {
+  "football-junior-year": {
+    id: "football-junior-year",
+    title: "Football: Junior Year Playbook",
+    price: 29,
+    description: "A dated plan for contact windows, coach outreach, visits, and signing.",
+  },
+  "eligibility-2-hard-deadlines": {
+    id: "eligibility-2-hard-deadlines",
+    title: "Eligibility: the 2 Hard Deadlines",
+    price: 9,
+    description: "The core-course checkpoints, counselor script, and eligibility checklist.",
+  },
+  "camp-roi": {
+    id: "camp-roi",
+    title: "Camp ROI Playbook",
+    price: 15,
+    description: "Score a camp before paying, track the cost, and plan the follow-up.",
+  },
+  "highlight-reel-social": {
+    id: "highlight-reel-social",
+    title: "Highlight Reel & Social Playbook",
+    price: 15,
+    description: "A practical reel brief, athlete profile template, and follow-up log.",
+  },
+  "offer-and-signing": {
+    id: "offer-and-signing",
+    title: "Offers & Signing Day",
+    price: 19,
+    description: "Compare offers on the same terms and know what is binding and when.",
+  },
+  "walk-on": {
+    id: "walk-on",
+    title: "Walk-On Playbook",
+    price: 15,
+    description: "Understand walk-on types and the questions to ask before committing.",
+  },
+  "juco-to-d1": {
+    id: "juco-to-d1",
+    title: "JUCO to D1",
+    price: 19,
+    description: "Plan transferable credits and the two-year recruiting window.",
+  },
+  "late-bloomer": {
+    id: "late-bloomer",
+    title: "Late Bloomer Playbook",
+    price: 15,
+    description: "A 90-day plan for a late start, late growth, or late film.",
+  },
+  "d3-academic-aid-first": {
+    id: "d3-academic-aid-first",
+    title: "D3 Path: Academic Aid First",
+    price: 19,
+    description: "Compare D3 net cost, academic aid, admissions, and coach support.",
+  },
+};
+
+function recommendPlaybook(prompt: string): PlaybookRecommendation | null {
+  const text = prompt.toLowerCase();
+  const pick = (id: string) => PLAYBOOKS[id] ?? null;
+  if (/camp|showcase/.test(text)) return pick("camp-roi");
+  if (/highlight|film|reel|video|camera/.test(text)) return pick("highlight-reel-social");
+  if (/offer|signing|commit|verbal/.test(text)) return pick("offer-and-signing");
+  if (/walk.?on/.test(text)) return pick("walk-on");
+  if (/juco|junior college|njcaa/.test(text)) return pick("juco-to-d1");
+  if (/too late|late start|senior year|post.?grad/.test(text)) return pick("late-bloomer");
+  if (/d3|division iii|division 3/.test(text) && /aid|cost|academic|afford/.test(text)) {
+    return pick("d3-academic-aid-first");
+  }
+  if (/eligib|core course|gpa|grades|transcript/.test(text)) {
+    return pick("eligibility-2-hard-deadlines");
+  }
+  if (/football/.test(text) && /junior|2029|contact|text|coach|window/.test(text)) {
+    return pick("football-junior-year");
+  }
+  return null;
+}
+
+function PlaybookCard({ playbook }: { playbook: PlaybookRecommendation }) {
+  return (
+    <aside
+      aria-label={`Recommended playbook: ${playbook.title}`}
+      className="mt-2 w-full max-w-[94%] rounded-[18px] border border-[#e5e0d6] bg-white p-3.5 shadow-[0_1px_2px_rgba(20,20,19,0.04)]"
+      data-testid="scout-playbook-recommendation"
+    >
+      <p className="mb-2 font-mono text-[10px] font-semibold uppercase tracking-[0.08em] text-[#57534e]">
+        Recommended next step
+      </p>
+      <div className="flex items-center gap-3">
+        <div className="min-w-0 flex-1">
+          <Link
+            className={`block text-[14px] font-semibold leading-snug text-[#141413] hover:underline ${FOCUS_RING}`}
+            href={`/playbooks/${playbook.id}`}
+          >
+            {playbook.title}
+          </Link>
+          <p className="mt-1 text-[12px] leading-snug text-[#57534e]">
+            ${playbook.price} one-time · {playbook.description}
+          </p>
+        </div>
+        <Link
+          aria-label={`Get ${playbook.title} for $${playbook.price}`}
+          className={`inline-flex min-h-10 shrink-0 items-center justify-center rounded-full bg-[#1d4ed8] px-4 text-[13px] font-semibold text-white transition-colors hover:bg-[#1e40af] ${FOCUS_RING}`}
+          href={`/playbooks/${playbook.id}`}
+        >
+          Get
+        </Link>
+      </div>
+    </aside>
+  );
+}
 
 function extractGuideSources(message: UIMessage): GuideSource[] {
   const sources: GuideSource[] = [];
@@ -339,7 +462,7 @@ export default function CommitBookChatbot({
               const data = (await cloned.json()) as { message?: string };
               if (data.message) setCustomError(data.message);
             } catch {
-              setCustomError("Unable to reach the Commit Book Guide right now.");
+              setCustomError("Unable to reach Scout right now.");
             }
           } else {
             setRateLimited(null);
@@ -443,6 +566,11 @@ export default function CommitBookChatbot({
       getMessageText(lastMessage).trim().length === 0);
 
   const showErrorBanner = Boolean((error || customError) && !rateLimited);
+  const errorMessage =
+    customError ||
+    (error?.message && !/failed to fetch|networkerror|network request failed/i.test(error.message)
+      ? error.message
+      : "Scout could not reach the model. Check your connection, retry, or open a playbook instead.");
 
   return (
     <div
@@ -450,24 +578,18 @@ export default function CommitBookChatbot({
       data-testid="commitbook-chat-panel"
     >
       <div className="relative z-10 flex h-full min-h-0 w-full flex-col overflow-hidden">
-        {/* Editorial Header */}
-        <header className="flex shrink-0 items-center justify-between border-[#e5e0d6] border-b bg-[#ffffff] px-4 py-3.5">
-          <div className="flex items-center gap-2.5 min-w-0">
-            <span className="flex size-8 shrink-0 items-center justify-center rounded-lg bg-[#141413] font-serif text-[#f7f5f0] text-sm font-semibold">
-              CB
+        {/* iMessage-style Scout header */}
+        <header className="flex shrink-0 items-center justify-between border-[#e5e0d6] border-b bg-white px-4 py-3">
+          <div className="flex min-w-0 items-center gap-3">
+            <span className="flex size-10 shrink-0 items-center justify-center rounded-full border border-[#141413]/10 bg-[#f7f5f0] text-[#141413]">
+              <Compass aria-hidden="true" className="size-5" strokeWidth={1.5} />
             </span>
             <div className="min-w-0">
-              <div className="flex items-center gap-2">
-                <p className="font-serif text-[16px] font-semibold text-[#141413] leading-tight">
-                  Recruiting Guide
-                </p>
-                <span className="inline-flex shrink-0 items-center gap-1 rounded border border-[#14532d]/25 bg-[#f0fdf4] px-1.5 py-0.5 font-sans text-[12px] font-medium text-[#14532d]">
-                  <ShieldCheck aria-hidden="true" className="size-3" />
-                  Verified KB
-                </span>
-              </div>
-              <p className="font-mono text-[12px] text-[#57534e] leading-snug">
-                2026-27 NCAA D1-D3, NAIA & NJCAA + Athlete SOPs
+              <p className="font-sans text-[17px] font-semibold leading-tight tracking-tight text-[#141413]">
+                Scout
+              </p>
+              <p className="mt-0.5 text-[12px] leading-snug text-[#57534e]">
+                NCAA rules, cited · AI assistant
               </p>
             </div>
           </div>
@@ -485,7 +607,7 @@ export default function CommitBookChatbot({
               </button>
             )}
             <button
-              aria-label="Close Commit Book Guide"
+              aria-label="Close Scout"
               className={`flex size-8 items-center justify-center rounded-lg text-[#57534e] transition-colors hover:bg-[#141413]/[0.06] hover:text-[#141413] ${FOCUS_RING}`}
               data-testid="commitbook-chat-close"
               onClick={onClose}
@@ -498,85 +620,97 @@ export default function CommitBookChatbot({
 
         {/* Scrollable Message & State Viewport */}
         <div
-          className="flex-1 overflow-y-auto px-4 py-4 space-y-4"
+          className="scout-messages flex-1 space-y-3 overflow-y-auto bg-[#f7f5f0] px-3.5 py-4"
           data-testid="commitbook-chat-messages"
           ref={scrollContainerRef}
         >
           {/* EMPTY STATE */}
           {messages.length === 0 && !rateLimited && !showErrorBanner && (
             <div className="space-y-4" data-testid="commitbook-chat-empty">
-              <div className="space-y-2">
-                <p className="px-0.5 font-mono text-[11px] font-semibold text-[#57534e] uppercase tracking-wider">
-                  Top Family & Athlete Questions
+              <div className="flex items-end gap-2">
+                <span className="flex size-7 shrink-0 items-center justify-center rounded-full border border-[#141413]/10 bg-white">
+                  <Compass aria-hidden="true" className="size-4" strokeWidth={1.5} />
+                </span>
+                <div className="max-w-[86%] rounded-[18px] rounded-bl-[6px] border border-[#e5e0d6] bg-white px-3.5 py-3 text-[14px] leading-relaxed text-[#141413]">
+                  <p className="font-semibold">Hi, I’m Scout.</p>
+                  <p className="mt-1">
+                    Ask about your sport, class year, or division. I’ll check the rulebook and point you to the next step.
+                  </p>
+                </div>
+              </div>
+
+              <div>
+                <p className="mb-2 px-1 font-mono text-[10px] font-semibold uppercase tracking-[0.08em] text-[#57534e]">
+                  Start with a question
                 </p>
-                <div className="space-y-2">
+                <div className="grid grid-cols-2 gap-2">
                   {STARTER_PROMPTS.map((item, index) => (
                     <button
-                      className={`group flex w-full flex-col items-start gap-1 rounded-xl border border-[#e5e0d6] bg-[#ffffff] px-3.5 py-3 text-left transition-all hover:border-[#1d4ed8]/50 hover:shadow-[0_4px_12px_-4px_rgba(29,78,216,0.14)] ${FOCUS_RING}`}
+                      className={`group flex min-h-[72px] w-full flex-col items-start justify-center gap-1 rounded-2xl border border-[#e5e0d6] bg-white px-3 py-2.5 text-left transition-colors hover:border-[#1d4ed8]/50 ${FOCUS_RING}`}
                       data-testid={`starter-prompt-${index}`}
                       key={item.id}
                       onClick={() => void handleSend(item.question, null)}
                       type="button"
                     >
-                      <span className="font-mono text-[10px] font-semibold text-[#1d4ed8] tracking-wider">
+                      <span className="font-mono text-[9px] font-semibold tracking-[0.08em] text-[#1d4ed8]">
                         {item.tag}
                       </span>
-                      <span className="text-[13.5px] font-medium text-[#141413] leading-snug">
-                        {item.question}
+                      <span className="text-[13px] font-medium leading-snug text-[#141413]">
+                        {item.shortLabel}
                       </span>
                     </button>
                   ))}
                 </div>
               </div>
 
-              {/* Direct Self-Serve Quick Jump Pills */}
-              <div className="pt-1">
-                <p className="mb-2 px-0.5 font-mono text-[11px] font-semibold text-[#57534e] uppercase tracking-wider">
-                  Or Jump Straight To A Tool
-                </p>
-                <div className="grid grid-cols-2 gap-2">
-                  <Link
-                    className={`flex items-center gap-2 rounded-lg border border-[#e5e0d6] bg-[#ffffff] px-3 py-2 text-xs font-medium text-[#141413] transition-colors hover:border-[#141413]/30 ${FOCUS_RING}`}
-                    href="/sops"
-                    onClick={onClose}
-                  >
-                    <FileCheck2 aria-hidden="true" className="size-3.5 text-[#1d4ed8]" />
-                    <span>Athlete SOPs</span>
-                  </Link>
-                  <Link
-                    className={`flex items-center gap-2 rounded-lg border border-[#e5e0d6] bg-[#ffffff] px-3 py-2 text-xs font-medium text-[#141413] transition-colors hover:border-[#141413]/30 ${FOCUS_RING}`}
-                    href="/window"
-                    onClick={onClose}
-                  >
-                    <Calculator aria-hidden="true" className="size-3.5 text-[#1d4ed8]" />
-                    <span>Window Finder</span>
-                  </Link>
-                  <Link
-                    className={`flex items-center gap-2 rounded-lg border border-[#e5e0d6] bg-[#ffffff] px-3 py-2 text-xs font-medium text-[#141413] transition-colors hover:border-[#141413]/30 ${FOCUS_RING}`}
-                    href="/offers"
-                    onClick={onClose}
-                  >
-                    <Compass aria-hidden="true" className="size-3.5 text-[#1d4ed8]" />
-                    <span>10 New Offers</span>
-                  </Link>
-                  <Link
-                    className={`flex items-center gap-2 rounded-lg border border-[#e5e0d6] bg-[#ffffff] px-3 py-2 text-xs font-medium text-[#141413] transition-colors hover:border-[#141413]/30 ${FOCUS_RING}`}
-                    href="/start"
-                    onClick={onClose}
-                  >
-                    <BookOpen aria-hidden="true" className="size-3.5 text-[#1d4ed8]" />
-                    <span>Free Plan</span>
-                  </Link>
-                </div>
+              <div className="flex flex-wrap items-center gap-x-3 gap-y-2 px-1 pt-1">
+                <Link
+                  className={`inline-flex items-center gap-1.5 text-[12px] font-medium text-[#1d4ed8] ${FOCUS_RING}`}
+                  href="/sops"
+                  onClick={onClose}
+                >
+                  <FileCheck2 aria-hidden="true" className="size-3.5" /> Athlete SOPs
+                </Link>
+                <Link
+                  className={`inline-flex items-center gap-1.5 text-[12px] font-medium text-[#1d4ed8] ${FOCUS_RING}`}
+                  href="/window"
+                  onClick={onClose}
+                >
+                  <Calculator aria-hidden="true" className="size-3.5" /> Window Finder
+                </Link>
+                <Link
+                  className={`inline-flex items-center gap-1.5 text-[12px] font-medium text-[#1d4ed8] ${FOCUS_RING}`}
+                  href="/offers"
+                  onClick={onClose}
+                >
+                  <Compass aria-hidden="true" className="size-3.5" /> Offers
+                </Link>
+                <Link
+                  className={`inline-flex items-center gap-1.5 text-[12px] font-medium text-[#1d4ed8] ${FOCUS_RING}`}
+                  href="/start"
+                  onClick={onClose}
+                >
+                  <BookOpen aria-hidden="true" className="size-3.5" /> Free Plan
+                </Link>
               </div>
             </div>
           )}
 
           {/* CONVERSATION BUBBLES */}
-          {messages.map((msg) => {
+          {messages.map((msg, index) => {
             const text = getMessageText(msg);
             const isUser = msg.role === "user";
             if (!isUser && !text.trim()) return null;
+            const showAvatar = !isUser && messages[index - 1]?.role !== "assistant";
+            const priorUser = isUser
+              ? null
+              : messages
+                  .slice(0, index)
+                  .reverse()
+                  .find((item) => item.role === "user");
+            const recommendation = priorUser
+              ? recommendPlaybook(getMessageText(priorUser))
+              : null;
 
             return (
               <div
@@ -584,25 +718,47 @@ export default function CommitBookChatbot({
                 data-testid={`chat-message-${msg.role}`}
                 key={msg.id}
               >
-                <span className="mb-1 px-1 font-mono text-[10px] text-[#57534e] uppercase">
-                  {isUser ? "You" : "Commit Book Guide"}
-                </span>
                 <div
-                  className={
-                    isUser
-                      ? "max-w-[86%] rounded-2xl rounded-br-sm bg-[#141413] px-3.5 py-2.5 text-[14px] text-[#f7f5f0] leading-relaxed"
-                      : "max-w-[94%] rounded-2xl rounded-bl-sm border border-[#e5e0d6] bg-[#ffffff] px-3.5 py-3 text-[#141413] shadow-[0_1px_2px_rgba(20,20,19,0.04)]"
-                  }
+                  className={`flex w-full items-end gap-2 ${isUser ? "justify-end" : "justify-start"}`}
                 >
-                  {isUser ? (
-                    <p className="whitespace-pre-wrap">{text}</p>
-                  ) : (
-                    <>
-                      <FormattedAnswer text={text} />
-                      <GuideSources sources={extractGuideSources(msg)} />
-                    </>
-                  )}
+                  {!isUser &&
+                    (showAvatar ? (
+                      <span className="flex size-7 shrink-0 items-center justify-center rounded-full border border-[#141413]/10 bg-white text-[#141413]">
+                        <Compass aria-hidden="true" className="size-4" strokeWidth={1.5} />
+                      </span>
+                    ) : (
+                      <span aria-hidden="true" className="size-7 shrink-0" />
+                    ))}
+                  <div
+                    aria-live={isUser ? undefined : "polite"}
+                    className={
+                      isUser
+                        ? "max-w-[78%] rounded-[18px] rounded-br-[6px] bg-[#141413] px-3.5 py-2.5 text-[14px] leading-relaxed text-[#f7f5f0]"
+                        : "max-w-[86%] rounded-[18px] rounded-bl-[6px] border border-[#e5e0d6] bg-white px-3.5 py-3 text-[#141413] shadow-[0_1px_2px_rgba(20,20,19,0.04)]"
+                    }
+                  >
+                    {isUser ? (
+                      <p className="whitespace-pre-wrap">{text}</p>
+                    ) : (
+                      <>
+                        <FormattedAnswer text={text} />
+                        <GuideSources sources={extractGuideSources(msg)} />
+                        <div className="mt-2 flex items-center gap-1.5 border-t border-[#141413]/10 pt-2 font-mono text-[9px] font-medium uppercase tracking-[0.06em] text-[#57534e]">
+                          <ShieldCheck aria-hidden="true" className="size-3 text-[#15803d]" />
+                          2026-27 rulebook · cited sources
+                        </div>
+                      </>
+                    )}
+                  </div>
                 </div>
+                {isUser && index === messages.length - 1 && (
+                  <span className="mr-1 mt-1 text-[10px] text-[#57534e]">Delivered</span>
+                )}
+                {!isUser && recommendation && (
+                  <div className="ml-9 w-[calc(100%-2.25rem)]">
+                    <PlaybookCard playbook={recommendation} />
+                  </div>
+                )}
               </div>
             );
           })}
@@ -614,13 +770,13 @@ export default function CommitBookChatbot({
               data-testid="commitbook-chat-loading"
             >
               <span className="mb-1 px-1 font-mono text-[10px] text-[#57534e] uppercase">
-                Commit Book Guide
+                Scout
               </span>
               <div className="rounded-2xl rounded-bl-sm border border-[#e5e0d6] bg-[#ffffff] px-4 py-2.5 shadow-[0_1px_2px_rgba(20,20,19,0.04)]">
                 <AITextLoading
                   className="!text-[14px] !font-medium !text-[#141413]"
                   interval={1300}
-                  label="Checking Commit Book rulebooks and Athlete SOPs"
+                  label="Checking the bylaws"
                   showElapsed
                   texts={[
                     "Checking rulebooks",
@@ -696,9 +852,7 @@ export default function CommitBookChatbot({
                     Connection Interrupted
                   </p>
                   <p className="text-[#57534e] leading-relaxed">
-                    {customError ||
-                      error?.message ||
-                      "We could not complete that answer right now."}
+                    {errorMessage}
                   </p>
                   <div className="flex flex-wrap items-center gap-2 pt-0.5">
                     {lastSubmittedPrompt && (
@@ -733,8 +887,8 @@ export default function CommitBookChatbot({
           )}
         </div>
 
-        {/* Kokonut UI AI_Prompt Input Footer */}
-        <footer className="cb-prompt-contrast shrink-0 border-[#e5e0d6] border-t bg-[#f7f5f0] px-3 pt-1 pb-2">
+        {/* Scout composer */}
+        <footer className="cb-prompt-contrast shrink-0 border-[#e5e0d6] border-t bg-white px-3 pb-[max(0.5rem,env(safe-area-inset-bottom))] pt-1">
           <style>{
             `.cb-prompt-contrast textarea::placeholder { color: #57534e !important; opacity: 1 !important; }
             .cb-prompt-contrast [role="option"] > span:last-child { color: #57534e !important; }
@@ -759,6 +913,9 @@ export default function CommitBookChatbot({
             showAttachButton={false}
             showModelControls={false}
           />
+          <p className="px-1 pb-1 text-center text-[10px] leading-snug text-[#57534e]">
+            AI assistant, not the NCAA. Verify rules before acting.
+          </p>
         </footer>
       </div>
     </div>
