@@ -1,5 +1,5 @@
 import { createOpenAI } from "@ai-sdk/openai";
-import { convertToModelMessages, streamText, type UIMessage } from "ai";
+import { convertToModelMessages, gateway, streamText, type UIMessage } from "ai";
 import { loadCommitBookKnowledgeBase } from "@/lib/kb";
 import { checkIpRateLimit } from "@/lib/rate-limit";
 
@@ -99,24 +99,30 @@ export async function POST(req: Request) {
   }
 
   const apiKey = process.env.OPENAI_API_KEY?.trim();
-  if (!apiKey) {
+  const modelId = process.env.OPENAI_MODEL?.trim() || "openai/gpt-4o-mini";
+
+  let model;
+  if (apiKey) {
+    const baseURL = process.env.OPENAI_BASE_URL?.trim() || undefined;
+    const openai = createOpenAI({
+      apiKey,
+      ...(baseURL ? { baseURL } : {}),
+    });
+    // Support both OpenAI Responses API and OpenAI-compatible Chat Completions gateways seamlessly
+    model = baseURL ? openai.chat(modelId) : openai(modelId);
+  } else if (process.env.VERCEL_OIDC_TOKEN || process.env.AI_GATEWAY_API_KEY) {
+    // Vercel AI Gateway via OIDC (no stored key) or an explicit gateway key.
+    model = gateway(modelId);
+  } else {
     return Response.json(
       {
         error: "provider_not_configured",
         message:
-          "Live AI answers are awaiting OPENAI_API_KEY configuration on this environment. You can use the Athlete SOP Playbooks (/sops) and 30-Second Window Calculator (/window) right now.",
+          "Live AI answers are awaiting model configuration on this environment. You can use the Athlete SOP Playbooks (/sops) and 30-Second Window Calculator (/window) right now.",
       },
       { status: 503 }
     );
   }
-
-  const baseURL = process.env.OPENAI_BASE_URL?.trim() || undefined;
-  const modelId = process.env.OPENAI_MODEL?.trim() || "gpt-4o-mini";
-
-  const openai = createOpenAI({
-    apiKey,
-    ...(baseURL ? { baseURL } : {}),
-  });
 
   const trimmedMessages = rawMessages.slice(-10);
   const modelMessages = await convertToModelMessages(trimmedMessages);
@@ -128,9 +134,6 @@ export async function POST(req: Request) {
         .join(" ")
     : "";
   const kbContent = loadCommitBookKnowledgeBase(lastUserText);
-
-  // Support both OpenAI Responses API and OpenAI-compatible Chat Completions gateways seamlessly
-  const model = baseURL ? openai.chat(modelId) : openai(modelId);
 
   const result = streamText({
     model,

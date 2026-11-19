@@ -11,6 +11,7 @@ import {
   type RunAgentInput,
 } from "@ag-ui/client";
 import { createOpenAI } from "@ai-sdk/openai";
+import { gateway } from "ai";
 import { streamText, type ModelMessage } from "ai";
 import { Observable } from "rxjs";
 import { checkIpRateLimit } from "@/lib/rate-limit";
@@ -129,18 +130,22 @@ class CommitBookAgUiAgent extends AbstractAgent {
     signal: AbortSignal
   ): Promise<void> {
     const apiKey = process.env.OPENAI_API_KEY?.trim();
-    if (!apiKey) {
+    const modelId = process.env.OPENAI_MODEL?.trim() || "openai/gpt-4o-mini";
+    let model;
+    if (apiKey) {
+      const baseURL = process.env.OPENAI_BASE_URL?.trim() || undefined;
+      const openai = createOpenAI({
+        apiKey,
+        ...(baseURL ? { baseURL } : {}),
+      });
+      model = baseURL ? openai.chat(modelId) : openai(modelId);
+    } else if (process.env.VERCEL_OIDC_TOKEN || process.env.AI_GATEWAY_API_KEY) {
+      model = gateway(modelId);
+    } else {
       throw new Error(
-        "Live AI answers are awaiting OPENAI_API_KEY configuration on this environment. You can use the Athlete SOP Playbooks (/sops) and 30-Second Window Calculator (/window) right now."
+        "Live AI answers are awaiting model configuration on this environment. You can use the Athlete SOP Playbooks (/sops) and 30-Second Window Calculator (/window) right now."
       );
     }
-    const baseURL = process.env.OPENAI_BASE_URL?.trim() || undefined;
-    const modelId = process.env.OPENAI_MODEL?.trim() || "gpt-4o-mini";
-    const openai = createOpenAI({
-      apiKey,
-      ...(baseURL ? { baseURL } : {}),
-    });
-    const model = baseURL ? openai.chat(modelId) : openai(modelId);
     const messages: ModelMessage[] = turns.map((turn) => ({
       role: turn.role,
       content: turn.content,
@@ -205,12 +210,17 @@ async function handle(req: Request): Promise<Response> {
     );
   }
 
-  if (req.method === "POST" && !process.env.OPENAI_API_KEY?.trim()) {
+  if (
+    req.method === "POST" &&
+    !process.env.OPENAI_API_KEY?.trim() &&
+    !process.env.VERCEL_OIDC_TOKEN &&
+    !process.env.AI_GATEWAY_API_KEY
+  ) {
     return Response.json(
       {
         error: "provider_not_configured",
         message:
-          "Live AI answers are awaiting OPENAI_API_KEY configuration on this environment. You can use the Athlete SOP Playbooks (/sops) and 30-Second Window Calculator (/window) right now.",
+          "Live AI answers are awaiting model configuration on this environment. You can use the Athlete SOP Playbooks (/sops) and 30-Second Window Calculator (/window) right now.",
       },
       { status: 503 }
     );
