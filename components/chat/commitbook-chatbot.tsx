@@ -3,6 +3,13 @@
 import { useChat } from "@ai-sdk/react";
 import { DefaultChatTransport, type UIMessage } from "ai";
 import {
+  Accordion,
+  AccordionHeader,
+  AccordionItem,
+  AccordionPanel,
+  AccordionTrigger,
+} from "@ui-sdk/react/accordion";
+import {
   AlertTriangle,
   ArrowRight,
   BookOpen,
@@ -12,13 +19,15 @@ import {
   FileCheck2,
   RotateCcw,
   ShieldCheck,
-  Sparkles,
   X,
 } from "lucide-react";
 import Link from "next/link";
 import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import AI_Prompt, { type PromptCommand } from "@/components/kokonutui/ai-prompt";
 import AITextLoading from "@/components/kokonutui/ai-text-loading";
+
+const FOCUS_RING =
+  "focus-visible:outline-2 focus-visible:outline-[#1d4ed8] focus-visible:outline-offset-2";
 
 export const STARTER_PROMPTS = [
   {
@@ -149,6 +158,82 @@ function renderFormattedLine(line: string, lineKey: string): React.ReactNode[] {
     tokens.push(line.slice(lastIdx));
   }
   return tokens;
+}
+
+type GuideSource = { id: string; title: string; href: string };
+
+function extractGuideSources(message: UIMessage): GuideSource[] {
+  const sources: GuideSource[] = [];
+  const seen = new Set<string>();
+  const add = (title: string, href: string) => {
+    const key = href.trim();
+    if (!key || seen.has(key)) return;
+    seen.add(key);
+    sources.push({ id: key, title: title.trim() || key, href: key });
+  };
+  if (Array.isArray(message.parts)) {
+    for (const part of message.parts) {
+      if (part.type !== "source-url") continue;
+      const url = "url" in part && typeof part.url === "string" ? part.url : "";
+      const title =
+        "title" in part && typeof part.title === "string" && part.title
+          ? part.title
+          : url;
+      if (url) add(title, url);
+    }
+  }
+  const pattern = /\[([^\]]+)\]\(([^)]+)\)/g;
+  const text = getMessageText(message);
+  let match: RegExpExecArray | null = pattern.exec(text);
+  while (match !== null) {
+    if (match[1] && match[2]) add(match[1], match[2]);
+    match = pattern.exec(text);
+  }
+  return sources;
+}
+
+function GuideSources({ sources }: { sources: GuideSource[] }) {
+  if (sources.length === 0) return null;
+  const label = sources.length === 1 ? "1 source" : `${sources.length} sources`;
+  return (
+    <Accordion className="mt-2 border-[#141413]/10 border-t" multiple>
+      <AccordionItem value="sources">
+        <AccordionHeader>
+          <AccordionTrigger
+            className={`text-xs font-medium text-[#1d4ed8] ${FOCUS_RING}`}
+          >
+            {label}
+          </AccordionTrigger>
+        </AccordionHeader>
+        <AccordionPanel>
+          <ul className="space-y-1 py-1">
+            {sources.map((source) => {
+              const internal = source.href.startsWith("/");
+              const className = `text-[13px] text-[#1d4ed8] underline underline-offset-2 ${FOCUS_RING}`;
+              return (
+                <li key={source.id}>
+                  {internal ? (
+                    <Link className={className} href={source.href}>
+                      {source.title}
+                    </Link>
+                  ) : (
+                    <a
+                      className={className}
+                      href={source.href}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      {source.title}
+                    </a>
+                  )}
+                </li>
+              );
+            })}
+          </ul>
+        </AccordionPanel>
+      </AccordionItem>
+    </Accordion>
+  );
 }
 
 function FormattedAnswer({ text }: { text: string }) {
@@ -327,17 +412,26 @@ export default function CommitBookChatbot({
     }
   }, [open, initialPrompt, isStreaming, handleSend, onInitialPromptConsumed]);
 
-  // Close sheet on Escape when not actively streaming
+  // Dialog owns Escape, inert background, and the focus trap. This moves focus in
+  // after the lazy panel mounts, including when the chunk arrives a frame late.
   useEffect(() => {
     if (!open) return;
-    const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape" && !isStreaming) {
-        onClose();
-      }
+    const move = () => {
+      const panel = document.querySelector<HTMLElement>(
+        '[data-testid="commitbook-chat-panel"]'
+      );
+      if (!panel) return;
+      const active = document.activeElement;
+      if (active instanceof HTMLElement && panel.contains(active)) return;
+      panel
+        .querySelector<HTMLElement>(
+          'button:not([disabled]), a[href], textarea, input, select'
+        )
+        ?.focus();
     };
-    window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
-  }, [open, isStreaming, onClose]);
+    const frame = window.requestAnimationFrame(move);
+    return () => window.cancelAnimationFrame(frame);
+  }, [open]);
 
   if (!open) return null;
 
@@ -352,20 +446,10 @@ export default function CommitBookChatbot({
 
   return (
     <div
-      aria-label="Commit Book Recruiting Guide"
-      aria-modal="true"
-      className="cb-kokonut-root fixed inset-0 z-[90] flex items-end justify-end sm:inset-auto sm:right-5 sm:bottom-5"
+      className="cb-kokonut-root flex h-full min-h-0 w-full flex-col overflow-hidden bg-[#f7f5f0] text-[#141413] shadow-[0_24px_64px_-16px_rgba(20,20,19,0.34)] ring-1 ring-[#141413]/15 sm:rounded-2xl"
       data-testid="commitbook-chat-panel"
-      role="dialog" style={{ backgroundColor: "#f7f5f0", color: "#141413" }}
     >
-      {/* Mobile backdrop */}
-      <div
-        aria-hidden="true"
-        className="fixed inset-0 bg-[#141413]/40 backdrop-blur-[1px] sm:hidden"
-        onClick={onClose}
-      />
-
-      <div className="relative z-10 flex h-[100dvh] w-full flex-col overflow-hidden bg-[#f7f5f0] text-[#141413] shadow-[0_24px_64px_-16px_rgba(20,20,19,0.34)] ring-1 ring-[#141413]/15 sm:h-[min(690px,86dvh)] sm:w-[436px] sm:rounded-2xl">
+      <div className="relative z-10 flex h-full min-h-0 w-full flex-col overflow-hidden">
         {/* Editorial Header */}
         <header className="flex shrink-0 items-center justify-between border-[#e5e0d6] border-b bg-[#ffffff] px-4 py-3.5">
           <div className="flex items-center gap-2.5 min-w-0">
@@ -374,15 +458,15 @@ export default function CommitBookChatbot({
             </span>
             <div className="min-w-0">
               <div className="flex items-center gap-2">
-                <h2 className="truncate font-serif text-[16px] font-semibold text-[#141413] leading-tight">
-                  Commit Book Guide
-                </h2>
-                <span className="inline-flex items-center gap-1 rounded border border-[#15803d]/25 bg-[#15803d]/10 px-1.5 py-0.5 font-mono text-[10px] font-medium text-[#15803d] uppercase">
-                  <ShieldCheck aria-hidden="true" className="size-2.5" />
+                <p className="font-serif text-[16px] font-semibold text-[#141413] leading-tight">
+                  Recruiting Guide
+                </p>
+                <span className="inline-flex shrink-0 items-center gap-1 rounded border border-[#14532d]/25 bg-[#f0fdf4] px-1.5 py-0.5 font-sans text-[12px] font-medium text-[#14532d]">
+                  <ShieldCheck aria-hidden="true" className="size-3" />
                   Verified KB
                 </span>
               </div>
-              <p className="truncate font-mono text-[11px] text-[#57534e]">
+              <p className="font-mono text-[12px] text-[#57534e] leading-snug">
                 2026-27 NCAA D1-D3, NAIA & NJCAA + Athlete SOPs
               </p>
             </div>
@@ -392,7 +476,7 @@ export default function CommitBookChatbot({
             {isStreaming && (
               <button
                 aria-label="Stop generating response"
-                className="rounded-md border border-[#b91c1c]/30 bg-[#b91c1c]/10 px-2.5 py-1 font-mono text-[11px] font-semibold text-[#b91c1c] transition-colors hover:bg-[#b91c1c]/20"
+                className={`rounded-md border border-[#b91c1c]/30 bg-[#b91c1c]/10 px-2.5 py-1 font-mono text-[11px] font-semibold text-[#b91c1c] transition-colors hover:bg-[#b91c1c]/20 ${FOCUS_RING}`}
                 data-testid="commitbook-chat-stop-header"
                 onClick={() => stop()}
                 type="button"
@@ -402,7 +486,7 @@ export default function CommitBookChatbot({
             )}
             <button
               aria-label="Close Commit Book Guide"
-              className="flex size-8 items-center justify-center rounded-lg text-[#57534e] transition-colors hover:bg-[#141413]/[0.06] hover:text-[#141413]"
+              className={`flex size-8 items-center justify-center rounded-lg text-[#57534e] transition-colors hover:bg-[#141413]/[0.06] hover:text-[#141413] ${FOCUS_RING}`}
               data-testid="commitbook-chat-close"
               onClick={onClose}
               type="button"
@@ -421,16 +505,6 @@ export default function CommitBookChatbot({
           {/* EMPTY STATE */}
           {messages.length === 0 && !rateLimited && !showErrorBanner && (
             <div className="space-y-4" data-testid="commitbook-chat-empty">
-              <div className="rounded-xl border border-[#e5e0d6] bg-[#ffffff] p-4 shadow-[0_1px_2px_rgba(20,20,19,0.04)]">
-                <div className="mb-1.5 flex items-center gap-1.5 font-mono text-[11px] font-medium text-[#1d4ed8] uppercase tracking-wider">
-                  <Sparkles aria-hidden="true" className="size-3.5" />
-                  Rulebook-Grounded Answers in Under 10s
-                </div>
-                <p className="text-[13.5px] text-[#57534e] leading-relaxed">
-                  Ask about coach contact windows, the 105-man roster cap, highlight film specs, camp money traps, or grade 9-12 Athlete SOPs. No agency sales pitch.
-                </p>
-              </div>
-
               <div className="space-y-2">
                 <p className="px-0.5 font-mono text-[11px] font-semibold text-[#57534e] uppercase tracking-wider">
                   Top Family & Athlete Questions
@@ -438,7 +512,7 @@ export default function CommitBookChatbot({
                 <div className="space-y-2">
                   {STARTER_PROMPTS.map((item, index) => (
                     <button
-                      className="group flex w-full flex-col items-start gap-1 rounded-xl border border-[#e5e0d6] bg-[#ffffff] px-3.5 py-3 text-left transition-all hover:border-[#1d4ed8]/50 hover:shadow-[0_4px_12px_-4px_rgba(29,78,216,0.14)]"
+                      className={`group flex w-full flex-col items-start gap-1 rounded-xl border border-[#e5e0d6] bg-[#ffffff] px-3.5 py-3 text-left transition-all hover:border-[#1d4ed8]/50 hover:shadow-[0_4px_12px_-4px_rgba(29,78,216,0.14)] ${FOCUS_RING}`}
                       data-testid={`starter-prompt-${index}`}
                       key={item.id}
                       onClick={() => void handleSend(item.question, null)}
@@ -447,12 +521,8 @@ export default function CommitBookChatbot({
                       <span className="font-mono text-[10px] font-semibold text-[#1d4ed8] tracking-wider">
                         {item.tag}
                       </span>
-                      <span className="flex w-full items-center justify-between gap-2 text-[13.5px] font-medium text-[#141413] leading-snug">
-                        <span>{item.question}</span>
-                        <ArrowRight
-                          aria-hidden="true"
-                          className="size-3.5 shrink-0 text-[#57534e] transition-transform group-hover:translate-x-0.5 group-hover:text-[#1d4ed8]"
-                        />
+                      <span className="text-[13.5px] font-medium text-[#141413] leading-snug">
+                        {item.question}
                       </span>
                     </button>
                   ))}
@@ -466,7 +536,7 @@ export default function CommitBookChatbot({
                 </p>
                 <div className="grid grid-cols-2 gap-2">
                   <Link
-                    className="flex items-center gap-2 rounded-lg border border-[#e5e0d6] bg-[#ffffff] px-3 py-2 text-xs font-medium text-[#141413] transition-colors hover:border-[#141413]/30"
+                    className={`flex items-center gap-2 rounded-lg border border-[#e5e0d6] bg-[#ffffff] px-3 py-2 text-xs font-medium text-[#141413] transition-colors hover:border-[#141413]/30 ${FOCUS_RING}`}
                     href="/sops"
                     onClick={onClose}
                   >
@@ -474,7 +544,7 @@ export default function CommitBookChatbot({
                     <span>Athlete SOPs</span>
                   </Link>
                   <Link
-                    className="flex items-center gap-2 rounded-lg border border-[#e5e0d6] bg-[#ffffff] px-3 py-2 text-xs font-medium text-[#141413] transition-colors hover:border-[#141413]/30"
+                    className={`flex items-center gap-2 rounded-lg border border-[#e5e0d6] bg-[#ffffff] px-3 py-2 text-xs font-medium text-[#141413] transition-colors hover:border-[#141413]/30 ${FOCUS_RING}`}
                     href="/window"
                     onClick={onClose}
                   >
@@ -482,7 +552,7 @@ export default function CommitBookChatbot({
                     <span>Window Finder</span>
                   </Link>
                   <Link
-                    className="flex items-center gap-2 rounded-lg border border-[#e5e0d6] bg-[#ffffff] px-3 py-2 text-xs font-medium text-[#141413] transition-colors hover:border-[#141413]/30"
+                    className={`flex items-center gap-2 rounded-lg border border-[#e5e0d6] bg-[#ffffff] px-3 py-2 text-xs font-medium text-[#141413] transition-colors hover:border-[#141413]/30 ${FOCUS_RING}`}
                     href="/offers"
                     onClick={onClose}
                   >
@@ -490,7 +560,7 @@ export default function CommitBookChatbot({
                     <span>10 New Offers</span>
                   </Link>
                   <Link
-                    className="flex items-center gap-2 rounded-lg border border-[#e5e0d6] bg-[#ffffff] px-3 py-2 text-xs font-medium text-[#141413] transition-colors hover:border-[#141413]/30"
+                    className={`flex items-center gap-2 rounded-lg border border-[#e5e0d6] bg-[#ffffff] px-3 py-2 text-xs font-medium text-[#141413] transition-colors hover:border-[#141413]/30 ${FOCUS_RING}`}
                     href="/start"
                     onClick={onClose}
                   >
@@ -527,7 +597,10 @@ export default function CommitBookChatbot({
                   {isUser ? (
                     <p className="whitespace-pre-wrap">{text}</p>
                   ) : (
-                    <FormattedAnswer text={text} />
+                    <>
+                      <FormattedAnswer text={text} />
+                      <GuideSources sources={extractGuideSources(msg)} />
+                    </>
                   )}
                 </div>
               </div>
@@ -661,7 +734,12 @@ export default function CommitBookChatbot({
         </div>
 
         {/* Kokonut UI AI_Prompt Input Footer */}
-        <footer className="shrink-0 border-[#e5e0d6] border-t bg-[#f7f5f0] px-3 pt-1 pb-2">
+        <footer className="cb-prompt-contrast shrink-0 border-[#e5e0d6] border-t bg-[#f7f5f0] px-3 pt-1 pb-2">
+          <style>{
+            `.cb-prompt-contrast textarea::placeholder { color: #57534e !important; opacity: 1 !important; }
+            .cb-prompt-contrast [role="option"] > span:last-child { color: #57534e !important; }
+            .cb-prompt-contrast [role="listbox"] + div { color: #57534e !important; }`
+          }</style>
           <AI_Prompt
             className="!max-w-none !py-1.5"
             commands={SLASH_COMMANDS}
